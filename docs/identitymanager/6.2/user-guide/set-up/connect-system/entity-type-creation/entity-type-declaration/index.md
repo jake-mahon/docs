@@ -7,12 +7,12 @@ sidebar_position: 10
 # Create the Entity Type
 
 How to create the technical container of an
-[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ## Overview
 
 Here, you will learn how to create an
-[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md):
+[Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md):
 the shell that harbors the (scalar and navigation) properties which describe a given set of
 resources related to one managed system.
 
@@ -58,7 +58,7 @@ Create the entity type by proceeding as follows:
 
 ## Next Steps
 
-To continue,[ Define Scalar Properties ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)for this entity
+To continue,[Define Scalar Properties](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)for this entity
 type.
 
 ## Troubleshooting

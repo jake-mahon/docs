@@ -13,7 +13,10 @@ This section identifies hardware and software requirements for Identity Manager'
 The database disk storage requirements depend on multiple factors as the database lifespan and the
 number of entries, for example 100,000 users can take up appropriately 10 GB of storage
 
-**NOTE:** The maximum SQL Express database is 10 GB.
+:::note
+The maximum SQL Express database is 10 GB.
+:::
+
 
 ## Software
 

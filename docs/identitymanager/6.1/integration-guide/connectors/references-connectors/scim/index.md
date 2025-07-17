@@ -31,11 +31,14 @@ REST API with specific endpoints to get and set data in a web application for IG
 allows an identity provider to manage the web application's accounts. For more details about SCIM
 and RFC, see the [IETF document](https://tools.ietf.org/html/rfc7644).
 
-**NOTE:** Similarly to the Salesforce REST-based API, SCIM for Salesforce enables reading and
+:::note
+Similarly to the Salesforce REST-based API, SCIM for Salesforce enables reading and
 writing attributes, but writes to a smaller subset. For example, the following properties are
 manageable by the Salesforce REST-based API but not SCIM: `PermissionSetGroup`,
 `PermissionSetLicense`, `UserPermissionsKnowledgeUser`, `UserPermissionsInteractionUser`,
 `UserPermissionsSupportUser`, `CallCenterId`, `SenderEmail`.
+:::
+
 
 See the
 [Salesforce's documentation](https://help.salesforce.com/s/articleView?id=sf.identity_scim_rest_api.htm&type=5)
@@ -53,7 +56,7 @@ The implementation of the Salesforce connector requires the completion of the fo
 - Reset the user token
 - Configure the Salesforce connection
 
-Connect the application
+**Connect the application**
 
 To connect to the Salesforce application do the following:
 
@@ -87,7 +90,7 @@ Scopes.
 
 **Step 8 –** Copy the Consumer Key and Consumer Secret in your Keypass.
 
-Enable OAuth authentication
+**Enable OAuth authentication**
 
 To enable the OAuth authentication do the following:
 
@@ -102,7 +105,7 @@ To enable the OAuth authentication do the following:
 **Step 3 –** Go to **OAuth** and **OpenID Connect Settings** in the **Identity** drop-down menu,
 enable the option to **Allow OAuth Username-Password Flows**.
 
-Reset the user token
+**Reset the user token**
 
 To reset the user token do the following:
 
@@ -120,7 +123,7 @@ To reset the user token do the following:
 
 **Step 4 –** An email containing the new token will be sent.
 
-Configure the Salesforce connection
+**Configure the Salesforce connection**
 
 To configure the Salesforce connection do the following:
 
@@ -145,7 +148,7 @@ The configuration of the Salesforce connector is completed.
 This process is configured through a connection in the UI and/or the XML configuration, and in the
 **appsettings.agent.json** > **Connections** section.  
 See the
-[ Connection ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/connection/index.md):
+[Connection](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/connection/index.md):
 topic for additional information.
 
 Code attributes enclosed with `< >` need to be replaced with a custom value before entering the
@@ -164,7 +167,10 @@ appsettings.agent.json
 }
 ```
 
-_Remember,_ the identifier of the connection and thus the name of the subsection must:
+:::tip
+Remember, the identifier of the connection and thus the name of the subsection must:
+:::
+
 
 - Be unique
 - Not begin with a digit
@@ -233,7 +239,7 @@ This connector is meant to generate to the ExportOutput folder the following CSV
 See the
 [Application Settings](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 and
-[ EntityTypeMapping ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[EntityTypeMapping](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 topics for additional information.
 
 For the connector to work properly, the connection tables must follow the naming conventions too:
@@ -344,10 +350,10 @@ Data protection can be ensured through:
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
 See the
-[ RSA Encryption ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
-[ Azure Key Vault ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md),
+[RSA Encryption](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[Azure Key Vault](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md),
 and
-[ CyberArk's AAM Credential Providers ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
+[CyberArk's AAM Credential Providers](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
 for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

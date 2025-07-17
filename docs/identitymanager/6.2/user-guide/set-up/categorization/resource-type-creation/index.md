@@ -29,8 +29,8 @@ In practice, a specific resource type is created for a given resource when there
 
 - the owner type (for example worker, partner, customer, application, robot, etc.);
 - the required set of classification and/or correlation rules; See the
-  [ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md), and
-  [ Correlate Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md) topics for additional information.
+  [Classify Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md), and
+  [Correlate Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md) topics for additional information.
 - the approval circuit for a resource's modification or assignment, i.e. the number of required
   approvals, validators, etc.;
 - the type of provisioning (manual or automatic). See the
@@ -43,11 +43,11 @@ target objects chosen from among the properties of existing entity types. The so
 identities) is the owner of the target (usually resources from your managed systems, such as a
 nominative AD account). This relationship is the basis for correlation as much as for future
 provisioning. See the [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md),
-[ Correlate Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md),
+[Correlate Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md),
 and[Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) topics for additional information.
 
 See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 ## Participants and Artifacts
@@ -60,8 +60,8 @@ application users, entitlements and data model.
 | Identity repository (optional) Target connector (required) Synchronized data (optional) | Resource type |
 
 See the
-[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)[ Connect to a Managed System ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md),
-and [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topics for additional information.
+[Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)[Connect to a Managed System](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md),
+and [Synchronize Data](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topics for additional information.
 
 ## Create a Resource Type
 
@@ -151,7 +151,7 @@ Create a resource type by proceeding as follows:
       Reconciliation** screen. Can be activated only if `Allow Removal` is activated too.
     - `Require Provisioning Review`: forces an additional mandatory review of all provisioning
       orders for the resource type (on the
-      [ Review Provisioning ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md)
+      [Review Provisioning](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md)
       screen).
 
         > Consider AD accounts. While nominative accounts can be provisioned without specific

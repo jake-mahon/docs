@@ -55,11 +55,11 @@ Configuration > Audit Policies.
 
 **Step 4 –** Configure the following audit policies.
 
-| Policy Subnode     | Policy Name                                                                                                                                                               | Audit Events |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Account Management | - Audit Computer Account Management - Audit Distribution Group Management - Audit Security Group Management - Audit User Account Management                               | _"Success"_  |
-| DS Access          | Audit Directory Service Access                                                                                                                                            | _"Success"_  |
-| Logon/Logoff       | - Audit Logoff - Audit Logon These policies are only required to collect the information on the originating workstation, i.e., the computer from which a change was made. | _"Success"_  |
+| Policy Subnode | Policy Name | Audit Events |
+| ---| ---| --- |
+| Account Management | <ul><li>Audit Computer Account Management</li><li>Audit Distribution Group Management</li><li>Audit Security Group Management</li><li>Audit User Account Management</li></ul> | "Success" |
+| DS Access | Audit Directory Service Access | _"Success"_  |
+| Logon Logoff | <ul><li>Audit Logoff</li><li>Audit Logon</li></ul> <br />These policies are only required to collect the information on the originating workstation, i.e., the computer from which a change was made.| "Success" |
 
 ![manualconfig_ad_advpol_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_advpol_winserver2016.webp)
 

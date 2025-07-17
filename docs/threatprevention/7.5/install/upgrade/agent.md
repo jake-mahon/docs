@@ -8,8 +8,11 @@ sidebar_position: 20
 
 The Threat Prevention Agent is updated from the Agents interface.
 
-**NOTE:** If you are using an Endpoint Detection and Response (EDR) solution to protect LSASS, you
+:::note
+If you are using an Endpoint Detection and Response (EDR) solution to protect LSASS, you
 must create an exclusion for Threat Prevention using any of these methods:
+:::
+
 
 - Add the path or names of the files listed under Agent Server in the [Installation](/docs/threatprevention/7.5/install/overview.md)
   topic in the EDR.
@@ -32,16 +35,22 @@ server/Agent in the grid and on the top toolbar, select **Update Agent Installer
 Threat Prevention Agent**. The green bar indicates the progress of checking the Agent for a newer
 version. If a new version is available, click **Apply Update**.
 
-_Remember,_ when an Agent is out-of-date, the Version String column on the Agents interface has an
+:::tip
+Remember, when an Agent is out-of-date, the Version String column on the Agents interface has an
 orange background.
+:::
+
 
 **Step 4 –** Right-click an out-of-date Agent and select **Upgrade Agent** on the right-click menu.
 The Access Verification window opens.
 
-**NOTE:** The wizard does not block access to the Administration Console and can be minimized while
+:::note
+The wizard does not block access to the Administration Console and can be minimized while
 actions are in progress. If this wizard is hidden by clicking outside of the dialog box, a flashing
 blue link displays on the upper right corner of the interface with the action name displayed. Click
 this link to bring back the focus to the wizard.
+:::
+
 
 ![Access Verification window](/img/product_docs/threatprevention/7.5/install/upgrade/accessverification.webp)
 
@@ -53,8 +62,11 @@ this link to bring back the focus to the wizard.
 - If some but not all items fail, it is possible to click **Next** to continue the action on those
   where access verification was successful.
 
-**NOTE:** Closing the Administration Console while this action is in process causes problems with
+:::note
+Closing the Administration Console while this action is in process causes problems with
 data collection.
+:::
+
 
 ![Upgrade Agent window](/img/product_docs/threatprevention/7.5/install/upgrade/upgradeagent.webp)
 

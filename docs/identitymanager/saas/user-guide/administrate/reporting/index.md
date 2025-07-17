@@ -60,7 +60,7 @@ Identity Manager provides a selection of predefined reports available in the so
 represent the most common use cases.
 
 The accessibility of these predefined reports was configured during profile configuration. See the
-[ Configure a User Profile ](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md)topic for additional
+[Configure a User Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md)topic for additional
 information.
 
 Download predefined reports by proceeding as follows:
@@ -85,12 +85,12 @@ information.
 
 When facing a one-time need for producing specific reports, Identity Manager's Query module helps
 display attributes chosen from the data which is already synchronized and classified. See the
-[ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) and
-[ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topics for additional
+[Synchronize Data](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) and
+[Classify Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topics for additional
 information. This module offers the possibility to customize reports and download them.
 
 The Query module is based on predefined
-[ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+[Universe](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
 that can be adjusted later on in XML configuration, just like the list of available query models.
 
 Create a custom report by proceeding as follows:
@@ -103,14 +103,14 @@ Create a custom report by proceeding as follows:
 
 2. Choose a query model from among the list.
 3. Click on **Fields to Display** and select the appropriate fields from among the database
-   [ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+   [Universe](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
    and click on **Confirm**.
 
     ![Fields to Display](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
 
     In cases where Identity Manager doesn't display correctly the information you need, you must try
     to understand the entity instances and association instances that constitute the
-    [ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+    [Universe](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
     that you are working with. Perhaps the fields that you chose cannot be properly correlated.
 
 4. Click on **Filters**, write the appropriate condition and click on **Confirm**.

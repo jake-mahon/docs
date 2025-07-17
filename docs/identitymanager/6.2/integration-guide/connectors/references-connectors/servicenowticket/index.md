@@ -8,7 +8,7 @@ sidebar_position: 270
 
 This connector opens tickets in [ServiceNow](https://www.servicenow.com/) for manual provisioning.
 
-This page is about [ ServiceNow Ticket ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
+This page is about [ServiceNow Ticket](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
 
 ![Package: Ticket/ServiceNow](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.webp)
 
@@ -20,7 +20,7 @@ management (ITOM) and IT business management (ITBM), allowing users to manage pr
 customer interactions via a variety of apps and plugins.  
 This section focuses on ServiceNow ticket creation for the fulfillment of resources that can't or
 shouldn't be performed with an existing fulfill. To learn about how to manage entities, see
-[ ServiceNow ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)Entity Management.
+[ServiceNow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)Entity Management.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ Implementing this connector requires:
 ## Export
 
 This connector exports some of ServiceNow entities, see the export capabilities of the
-[ ServiceNow ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector. Some entities cannot be exported.
+[ServiceNow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector. Some entities cannot be exported.
 
 ## Fulfill
 
@@ -50,7 +50,7 @@ resource accordingly. See the
 [Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for
 additional information.
 
-See the fulfill capabilities of the [ ServiceNow ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector.
+See the fulfill capabilities of the [ServiceNow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector.
 
 > For example:
 >
@@ -84,9 +84,9 @@ the user's **password_needs_reset** attribute is set to `true`.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute                 | Naming Convention for the Key in Azure Key Vault       |
 | ------------------------- | ------------------------------------------------------ |
@@ -99,7 +99,7 @@ Data protection can be ensured through:
 | TicketCookieDirectoryPath | `Connections--<identifier>--TicketCookieDirectoryPath` |
 | ResponseSizeLimit         | `Connections--<identifier>--ResponseSizeLimit`         |
 
-- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

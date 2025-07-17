@@ -19,17 +19,17 @@ given activity in [Workflows](/docs/identitymanager/saas/integration-guide/workf
 > for a workflow to continue.
 
 The configuration is made through the XML tag
-[ Notification Aspect ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/notificationaspect/index.md).
+[Notification Aspect](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/notificationaspect/index.md).
 
 ## Periodic Notifications
 
 A notification can be configured to be sent to a given user on a regular basis at specified times,
 through the
-[ Send Notifications Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/sendnotificationstask/index.md)
+[Send Notifications Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/sendnotificationstask/index.md)
 as part of a job.
 
 > For example, a notification can be sent automatically to remind a manager that someone arrives in
 > their team a month before the arrival, and again a week before.
 
 The configuration is made through the XML tag
-[ Notification ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notification/index.md).
+[Notification](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notification/index.md).

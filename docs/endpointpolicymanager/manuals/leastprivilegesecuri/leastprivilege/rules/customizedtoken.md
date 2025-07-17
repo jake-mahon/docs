@@ -21,8 +21,8 @@ security, as well as Integrity level.
 The common use cases for needing to manage a customized token are:
 
 - Handling service accounts’ permissions.For more in formation, see the
-  [Reduce or specify Service Account Rights](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/serviceaccountrights.md)
+  [Reduce or specify Service Account Rights](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/serviceaccountrights.md)
   video demonstration.
 - Drag-and-drop issues between applications. For ore information, see the
-  [I elevated an application, but drag and drop between the elevated and other non-elevated applications isn't working anymore. What can I try?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/knowledgebase/tipsforadminapproval/dragdrop.md)
+  [I elevated an application, but drag and drop between the elevated and other non-elevated applications isn't working anymore. What can I try?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/tipsforadminapproval/dragdrop.md)
   topic.

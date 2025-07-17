@@ -7,9 +7,9 @@ sidebar_position: 30
 # Create a Connection
 
 How to create a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 inside a
-[ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[Connector](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 and choose the appropriate package.
 
 ## Overview
@@ -18,7 +18,7 @@ A connection is the information that allows to connect to a managed system, whic
 credentials and path.
 
 There is a minimum of one connection per connector. In many cases, there is one connection
-to[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md)and one connection for
+to[Synchronize Data](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md)and one connection for
 [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md).
 
 A connection is associated with a package, representing the technology to use for the data transfer.
@@ -32,8 +32,8 @@ purpose of the application.
 | ------------------------------------------------------- | ------------- |
 | Connector container(required) Connector model(required) | Connection(s) |
 
-See the [ Create the Connector ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-declaration/index.md) and
-[ Model the Data ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md) topics for additional information.
+See the [Create the Connector](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-declaration/index.md) and
+[Model the Data](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md) topics for additional information.
 
 ## Create a Connection
 
@@ -71,7 +71,7 @@ A package is chosen according to the following constraints:
     performed for real-time needs, while complete synchronizations, scheduled no more than once a
     day, will recover any changes that may have slipped through the cracks of the incremental
     synchronizations. See the
-    [ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md)
+    [Upward Data Synchronization](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md)
     topic for additional information.
 
 - Do we need [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md)? If so, should provisioning be
@@ -142,7 +142,7 @@ In order to verify the process:
     ![Check Connection](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/connectioncreation_checkconnection_v602.webp)
 
     Some connectors have both incremental and complete setting modes. See the
-    [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md)topic for additional
+    [Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md)topic for additional
     information. They are relatively independent so they both need to be tested.
 
 2. check that the connection appears in the **Connections** frame with the right options, and

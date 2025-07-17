@@ -26,14 +26,14 @@ Endpoint Policy Manager Device Manager directives. If you don't want to use Grou
 [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md) topic to deploy directives for additional information.
 
 **NOTE:** For an overview of Endpoint Policy Manager Device Manager see the
-[Video Learning Center](/docs/endpointpolicymanager/video/index.md) topic for additional information.
+[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/devicemanager/videolearningcenter/videolearningcenter.md) topic for additional information.
 
 Endpoint Policy Manager Device Manager will manage USB and other removable media devices like
 CD-ROMs, DVD ROMs, and phones which plug in and have storage when attached to Windows.
 
 For an overview of managing USB and other removeable media devices using Endpoint Policy Manager
 Device Manager, see the
-[Instantly Put the smackdown on USB sticks and CD-ROMs](/docs/endpointpolicymanager/video/device/usbdrive.md) topic for
+[Instantly Put the smackdown on USB sticks and CD-ROMs](/docs/endpointpolicymanager/knowledgebase/devicemanager/videolearningcenter/gettingstarted/usbdrive.md) topic for
 additional information.
 
 The basic way to use Endpoint Policy Manager Device Manager is as follows:
@@ -49,11 +49,11 @@ these ways:
   System! topic for additional information
 
 - Microsoft Intune — See the
-  [Block and Allow USB and CD-ROMs with your MDM solution](/docs/endpointpolicymanager/video/device/mdm.md) video overview
+  [Block and Allow USB and CD-ROMs with your MDM solution](/docs/endpointpolicymanager/knowledgebase/devicemanager/videolearningcenter/methods/mdm.md) video overview
   for additional information
 
 - PolicyPak Cloud service — See the
-  [Block USB sticks using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/device/cloud.md) topic for
+  [Block USB sticks using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/devicemanager/videolearningcenter/methods/cloud.md) topic for
   additional information
 
 Then allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to

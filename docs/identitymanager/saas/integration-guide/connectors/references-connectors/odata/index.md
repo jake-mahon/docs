@@ -8,7 +8,7 @@ sidebar_position: 160
 
 This connector exports and fulfills data from/to an [OData](https://www.odata.org/) instance.
 
-This page is about [ OData ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/odata/index.md).
+This page is about [OData](/docs/identitymanager/saas/integration-guide/connectors/references-packages/odata/index.md).
 
 ![Package: Custom/OData](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/odata/packages_odata_v603.webp)
 
@@ -35,7 +35,7 @@ based on the connector's metadata.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -93,14 +93,14 @@ The identifier of the connection and thus the name of the subsection must:
 This connector requires from the XML configuration:
 
 - An
-  [ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md):
+  [Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md):
     - with the same identifier as the related entity type;
     - related to the right connector;
     - related to a connection table named `<Connection>_<ODataEntitySet>`;
     - with properties whose connection columns represent the property's path in the entity, see the
       configuration example below;
 - An
-  [ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md):
+  [Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md):
     - with the same identifier as the related entity association;
     - with its `Column1` in the format `UsercubeNav_<NavigationProperty>:<PropertyKey>` for the
       related property in the association;

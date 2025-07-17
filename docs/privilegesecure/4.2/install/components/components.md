@@ -16,8 +16,11 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
       the missing components.
     - PostgreSQL Setup – Installs the PostgreSQL database on the application server.
 
-        **CAUTION:** The PostgreSQL database must be installed before installing the application. It
+        :::warning
+        The PostgreSQL database must be installed before installing the application. It
         can be installed separately or through the Netwrix Setup Launcher.
+        :::
+
 
     - Privilege Secure Setup – Installs the application
 
@@ -43,10 +46,13 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
         - NPS Scheduler Service
         - Web Service
 
-        **NOTE:** Use this installer if you are not using the Netwrix Setup Launcher. Run the
+        :::note
+        Use this installer if you are not using the Netwrix Setup Launcher. Run the
         installer as an administrator and follow the
         [Install Application](setuplauncher.md#install-application) instructions, starting with
         Step 2.
+        :::
+
 
     - NPS.HaMgr.exe – Installs the High Availability Management tool. If high availability setup is
       desired, please coordinate with [Netwrix Support](https://www.netwrix.com/support.html) and
@@ -72,7 +78,10 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
     - SbPAMPowershellModules.msi – Installs the Netwrix Privilege Secure PowerShell modules. These
       modules allow for custom PowerShell scripting tasks to be run against the application API.
 
-        **NOTE:** PowerShell 7.1 is a prerequisite to install these modules.
+        :::note
+        PowerShell 7.1 is a prerequisite to install these modules.
+        :::
+
 
     - sbpam-url.exe – Installs the sbpam-url URL handler. This will automatically launch SSH
       sessions from the browser in your preferred SSH client program. See the
@@ -84,12 +93,18 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
         - postgresql-x64-16 service
         - PostgreSQL directory and database
 
-        **NOTE:** Use this installer if you are not using the Netwrix Setup Launcher. Run the
+        :::note
+        Use this installer if you are not using the Netwrix Setup Launcher. Run the
         installer as an administrator and follow the
         [Install PostgreSQL Database](setuplauncher.md#install-postgresql-database) instructions,
         starting with Step 2.
+        :::
 
-**_RECOMMENDED:_** Antivirus software should be disabled during the component installation.
+
+:::info
+Antivirus software should be disabled during the component installation.
+:::
+
 
 The Netwrix Setup Launcher checks for prerequisites and installs both the database and application
 on the sames server. See the [Netwrix Setup Launcher](/docs/privilegesecure/4.2/install/components/setuplauncher.md) topic for instructions. If
@@ -104,7 +119,9 @@ There is also a Browser Extension that can be installed for Privilege Secure use
 [Browser Extension App](/docs/privilegesecure/4.2/enduser/browserextension/browserextension.md) topic for additional
 information.
 
-_Remember,_ Privilege Secure licensing is done according to user count. Any user who is provisioned
+:::tip
+Remember, Privilege Secure licensing is done according to user count. Any user who is provisioned
 access to Privilege Secure will consume a license after their first login. This is true for all
 users, regardless of role (Administrator, Reviewer, User, or Custom Role). See
 [Import the License File](/docs/privilegesecure/4.2/admin/navigation/importlicense.md) topic for additional information.
+:::

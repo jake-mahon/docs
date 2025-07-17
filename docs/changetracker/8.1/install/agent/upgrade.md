@@ -19,9 +19,12 @@ The high-level overview of upgrading agents in Gen 7:
 - Hub details, Agent username and password are required;
 - Thumbprint may be required if using a private certificate on your Hub server.
 
-**CAUTION:** Do not set either a **Nameprefix** or **Namesuffix** for the Agent name – if the Gen 7
+:::warning
+Do not set either a **Nameprefix** or **Namesuffix** for the Agent name – if the Gen 7
 Agent registers with the same Host Name as the Agent App is using, the Gen 7 Agent will simply
 assume the identity of the Agent App and therefore event and report continuity will be ensured.
+:::
+
 
 **Step 3 –** Once the Gen 7 Agent is operational you can then remove the Agent App (if you didn’t
 already do this in step 1).
@@ -80,5 +83,8 @@ rpm -ev nnt-mono nnt-agent
 
     # rm -fr /opt/mono
 
-**NOTE:** Please contact [Netwrix Support](https://www.netwrix.com/support.html) if you need help at
+:::note
+Please contact [Netwrix Support](https://www.netwrix.com/support.html) if you need help at
 any stage or if you are experiencing issues.
+
+:::

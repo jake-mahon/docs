@@ -15,7 +15,7 @@ launch this scaffolding.
 
 ```
 
-  <WorkflowEntityTypeDisplayTable EntityType="Directory_User"/>
+**<WorkflowEntityTypeDisplayTable EntityType="Directory_User"/>**
 
 ```
 

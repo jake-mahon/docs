@@ -29,7 +29,7 @@ Gives access to a shortcut on the dashboard to access this page.
 
 ```
 
-  <RoleAdministrationAccessControlRules Profile="Administrator"/>
+**<RoleAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

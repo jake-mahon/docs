@@ -13,7 +13,7 @@ AssignedResourceTypes.
 
 ```
 
-  <PendingAssignedResourceTypesAccessControlRules Profile="Administrator"/>
+**<PendingAssignedResourceTypesAccessControlRules Profile="Administrator"/>**
 
 ```
 

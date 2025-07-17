@@ -18,9 +18,12 @@ use the Character rules with their default character sets, or define your own. B
 Password Policy Enforcer selects the Password Policy Enforcer character on the
 [Set Priorities](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/manage_policies.md#set-priorities) page.
 
-**NOTE:** Only Password Policy Enforcer 11 and higher will contain the Windows character set.
+:::note
+Only Password Policy Enforcer 11 and higher will contain the Windows character set.
 Password Policy Enforcer 9, Netwrix Password Reset3 and Password Policy Enforcer Web 7 (and older
 for all products) use the Password Policy Enforcer character set.
+:::
+
 
 Select the **Characters (Granular)** check box to enable the Characters rule.
 
@@ -59,9 +62,12 @@ embedded numeric characters, but these passwords do contain embedded numeric cha
 bold type): "he**7**llo", "4he**3**llo", "23hello**7**$45". Embedded numeric and special characters
 can help to protect passwords from cracking attacks.
 
-**NOTE:** The First Character, Last Character, and Complexity rules are easier to configure, and
+:::note
+The First Character, Last Character, and Complexity rules are easier to configure, and
 easier for users to understand. Use these rules instead of the Character rules if they can enforce
 your desired policy.
+:::
+
 
 You can customize character sets with the Characters option for a selected set.
 

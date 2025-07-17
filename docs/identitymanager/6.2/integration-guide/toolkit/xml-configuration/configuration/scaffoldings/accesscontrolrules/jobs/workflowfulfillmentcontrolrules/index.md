@@ -12,7 +12,7 @@ Generates the execution rights to launch Fulfillment workflow for a given profil
 
 ```
 
-  <WorkflowFulfillmentControlRules Profile="Administrator"/>
+**<WorkflowFulfillmentControlRules Profile="Administrator"/>**
 
 ```
 

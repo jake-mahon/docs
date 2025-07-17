@@ -8,9 +8,9 @@ sidebar_position: 10
 
 Follow the steps to add resource groups to the console.
 
-**Step 1 –** Navigate to the Policy > Resources > Resource Groups page.
+**Step 1 –** Navigate to the **Policy** > **Resources** > **Resource Groups** page.
 
-**Step 2 –** In the Resource Groups list, click the Plus icon.
+**Step 2 –** In the Resource Groups list, click the **Plus** icon.
 
 ![Add Resource Group](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addresourcegroup.webp)
 
@@ -40,7 +40,7 @@ Follow the steps to add resource groups to the console.
     - Per Individual Resource — Set whether the Local Administrator accounts will be managed on a
       per resource basis
 
-**Step 4 –** Click Save to create the new resource group.
+**Step 4 –** Click **Save** to create the new resource group.
 
 **Step 5 –** With the new resource group selected, configure the following settings:
 

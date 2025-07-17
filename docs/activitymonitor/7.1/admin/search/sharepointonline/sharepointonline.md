@@ -33,7 +33,7 @@ results using the column headers. Below the Search button is the
 [Export](/docs/activitymonitor/7.1/admin/search/overview.md#export)
 option.
 
-Filter Value Entry
+**Filter Value Entry**
 
 When the drop-down menu is in front of a query filter, it is used to show or hide the filter entry
 field. Field options vary based on the selected query filter:
@@ -65,8 +65,11 @@ This section has the following filters:
   Request, Site Permissions, Site Administration, Synchronization, DLP, Sensitivity Label, Content
   Explorer, Other
 
-    **NOTE:** Disabling a source that is also a category will hide that category from the query
+    :::note
+    Disabling a source that is also a category will hide that category from the query
     options.
+    :::
+
 
 - Workload
 - Agent Hosts – Filter the data for a specific agent

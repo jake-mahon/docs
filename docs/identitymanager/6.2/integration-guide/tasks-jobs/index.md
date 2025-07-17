@@ -11,9 +11,9 @@ actions, and jobs to orchestrate the tasks together.
 
 See the [Tasks](/docs/identitymanager/6.2/integration-guide/tasks-jobs/tasks/index.md) topic for additional information.
 
-See the [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) topic for additional information.
+See the [Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) topic for additional information.
 
-See the [ Tasks ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md) topic for additional
+See the [Tasks](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md) topic for additional
 information.
 
 Make sure to read how to [Build Efficient Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/build-efficient-jobs/index.md).
@@ -31,7 +31,7 @@ each one materialized into a building block of your Identity Manager solution. E
 serves a specific and well delimited IGA function.
 
 These building blocks are called [Tasks](/docs/identitymanager/6.2/integration-guide/tasks-jobs/tasks/index.md), and can be easily organized together and
-scheduled in [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md).
+scheduled in [Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md).
 
 This approach makes for a perfectly customizable product. It also tremendously helps our users to
 ease into Identity Manager by allowing them to understand it piece by piece.

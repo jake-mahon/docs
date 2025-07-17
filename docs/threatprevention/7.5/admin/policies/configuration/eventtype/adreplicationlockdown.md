@@ -1,5 +1,5 @@
 ---
-title: "AD Replication Lockdown Event Type"
+title: "AD Replication Lockdown"
 description: "AD Replication Lockdown Event Type"
 sidebar_position: 50
 ---
@@ -23,8 +23,11 @@ The event filters for the AD Replication Lockdown event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**CAUTION:** Lockdown/blocking policies with blank filters result in everything being locked down or
+:::warning
+Lockdown/blocking policies with blank filters result in everything being locked down or
 blocked.
+:::
+
 
 Since Windows cannot detect if a sync request is coming from a legitimate domain controller, this
 event type is designed to block requests from computers that are not ‘allowed’ by the policy.
@@ -47,12 +50,18 @@ of the following methods:
   - Add domain controllers to the Exclude list
   - Any domain controller not excluded is blocked from syncing/replication
 
-**CAUTION:** Not allowing ALL domain controllers to sync has negative impacts on Active Directory.
+:::warning
+Not allowing ALL domain controllers to sync has negative impacts on Active Directory.
+:::
+
 
 If no filters are applied, saving the policy configuration displays a warning message.
 
-**NOTE:** The AD Replication Lockdown event type internally looks for use of the GetNCChanges() API
+:::note
+The AD Replication Lockdown event type internally looks for use of the GetNCChanges() API
 and blocks the API call when it is invoked by a machine outside the scope of the policy filters.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -64,9 +73,12 @@ from being locked down.
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the [Password Enforcement Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md), selecting **Allow**
+:::note
+For the [Password Enforcement Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md), selecting **Allow**
 means that this policy will not validate the new passwords for the accounts listed here. Selecting
 **Block** means that this policy will validate the new passwords for the accounts listed here.
+:::
+
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
@@ -77,9 +89,12 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Permissions Filter
 
@@ -117,9 +132,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Hosts (from) Filter
 
@@ -138,6 +156,9 @@ Use the buttons in the Include Hosts and Include Collections areas to edit the l
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+
+:::

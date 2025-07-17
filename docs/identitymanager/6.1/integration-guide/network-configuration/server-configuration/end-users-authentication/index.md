@@ -125,7 +125,7 @@ Authentication is set up using the following two sections of the Server's `appse
 
                               ```
 
-\{ "IdentityServer":\{ ... \}, "Authentication":\{ ... \} \}
+**\{ "IdentityServer":\{ ... \}, "Authentication":\{ ... \} \}**
 
 ````
 

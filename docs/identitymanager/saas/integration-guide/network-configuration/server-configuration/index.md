@@ -14,7 +14,7 @@ database connection and some general-purpose settings.
 The Server configuration is included in the Server's appsettings set.
 
 The appsettings set content can be written to appsettings.json in the Server's working directory or
-to environment variables. See the [ Architecture ](/docs/identitymanager/saas/integration-guide/architecture/index.md) topic for additional
+to environment variables. See the [Architecture](/docs/identitymanager/saas/integration-guide/architecture/index.md) topic for additional
 information.
 
 The server appsettings supported attributes and sections are described in the following sections:
@@ -23,7 +23,7 @@ The server appsettings supported attributes and sections are described in the fo
 - End-User Authentication
 - General-Purpose Settings
 
-See the[ Connection to the Database ](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/database-connection/index.md),
+See the[Connection to the Database](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/database-connection/index.md),
 [ End-User Authentication](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) and
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topics for additional information.
 

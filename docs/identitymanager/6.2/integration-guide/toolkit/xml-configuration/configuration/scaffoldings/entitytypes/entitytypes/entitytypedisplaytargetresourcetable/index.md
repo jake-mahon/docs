@@ -14,7 +14,7 @@ The design element for this displaytable is resourcetable.
 
 ```
 
-  <EntityTypeDisplayTargetResourceTable EntityType="SAB_User"/>
+**<EntityTypeDisplayTargetResourceTable EntityType="SAB_User"/>**
 
 ```
 

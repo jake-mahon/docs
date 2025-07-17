@@ -15,7 +15,7 @@ additional information.
 
 Below there are a few examples of display tables.
 
-DisplayTableDesignElement table
+**DisplayTableDesignElement table**
 
 The following example displays sites as a table.
 
@@ -28,7 +28,7 @@ script in the command line.
 
 ![Example - DisplayTableDesignElement Set to Table](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_table_v602.webp)
 
-DisplayTableDesignElement list
+**DisplayTableDesignElement list**
 
 The following example displays users as a list.
 
@@ -41,10 +41,13 @@ script in the command line.
 
 ![Example - DisplayTableDesignElement Set to List](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_list_v602.webp)
 
-_Remember,_ for resources to be displayed as a list, the display table must also be configured with
+:::tip
+Remember, for resources to be displayed as a list, the display table must also be configured with
 tiles.
+:::
 
-DisplayTableDesignElement resourcetable
+
+**DisplayTableDesignElement resourcetable**
 
 The following example displays AD entries as a table, with an "Owner/Type" column.
 

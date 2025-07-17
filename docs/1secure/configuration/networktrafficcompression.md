@@ -17,9 +17,12 @@ providing for network load balance and minimizing data collection time. (Unlike 
 network traffic compression the target machines will be processed sequentially, i.e. one at a time.)
 So, network traffic compression helps to increase scalability and optimize network traffic.
 
-**CAUTION:** If Netwrix Auditor and Netwrix 1Secure audit the same domain, make sure that the
+:::warning
+If Netwrix Auditor and Netwrix 1Secure audit the same domain, make sure that the
 network traffic compression service is enabled for only one of the products or neither product for
 any of the audited services. It cannot be enabled for both products.
+:::
+
 
 Its key capabilities are as follows:
 

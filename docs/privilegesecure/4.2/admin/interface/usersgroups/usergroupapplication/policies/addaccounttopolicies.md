@@ -32,18 +32,18 @@ Both tables have the following columns:
 
 Follow the steps below to add a policy to the present account.
 
-**Step 1 –** Navigate to the Users & Groups page.
+**Step 1 –** Navigate to the **Users & Groups** page.
 
 **Step 2 –** In the Users & Groups list, click the name of the desired account to open the User
 page.
 
-**Step 3 –** Select the Policies tab.
+**Step 3 –** Select the **Policies** tab.
 
-**Step 4 –** Click Add to open the Add Account to Policies window.
+**Step 4 –** Click **Add** to open the Add Account to Policies window.
 
-**Step 5 –** Select a policy in the Available Policies table and click the right arrow to move it to
+**Step 5 –** Select a policy in the Available Policies table and click the **right arrow** to move it to
 the Policies to Add table.
 
-**Step 6 –** Click Okay to add policies to the role.
+**Step 6 –** Click **Okay** to add policies to the role.
 
 The new policy is added to the applicable account.

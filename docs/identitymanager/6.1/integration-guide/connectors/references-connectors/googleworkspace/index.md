@@ -33,8 +33,11 @@ Implementing this connector requires:
 
     [See Google's documentation to create the service account with the right impersonation](https://developers.google.com/workspace/guides/create-credentials#see-googles-documentation-to-create-the-service-account-with-the-right-impersonation).
 
-    **Caution:** Google's documentation describes this procedure as optional, while the Google
+    :::warning
+    Google's documentation describes this procedure as optional, while the Google
     Workspace connector requires it.
+    :::
+
 
 ## Export
 

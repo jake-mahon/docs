@@ -13,9 +13,12 @@ Organization page.
 
 - Optionally, specify Edit settings or Request Deletion for your Organization.
 
-    **NOTE:** If you are a Managed Service Provider or a parent tenant, your organization will be
+    :::note
+    If you are a Managed Service Provider or a parent tenant, your organization will be
     deleted within 14 days. If you are a child tenant, your organization will be deleted within 2
     days.
+    :::
+
 
 - You can enable MFA, configure reports branding and adjust other settings for your organization on
   this page.

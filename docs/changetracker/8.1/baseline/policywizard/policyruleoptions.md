@@ -32,7 +32,10 @@ needed functionality of the intended deployment. For example, a web server in th
 should be kept to a minimum in order to better understand and manage the security properties of
 each, but organizations then must be prepared to manage multiple baselines."
 
-**NOTE:** Just click the Query icon to get a quick tip on what the Rule Option provides.
+:::note
+Just click the Query icon to get a quick tip on what the Rule Option provides.
+:::
+
 
 ## Baseline Policy Rule Options: Review and Edit Rules
 

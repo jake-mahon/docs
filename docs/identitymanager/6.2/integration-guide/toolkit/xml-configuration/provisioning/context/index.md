@@ -14,7 +14,7 @@ Contexts define the resources' scopes of responsibility. They are used during pr
 simplify the application of the role model's rules based on dimensions.
 
 See the
-[ Identity Lifecycle: Joiners, Movers and Leavers ](/docs/identitymanager/6.2/integration-guide/identity-management/joiners-movers-leavers/index.md)
+[Identity Lifecycle: Joiners, Movers and Leavers](/docs/identitymanager/6.2/integration-guide/identity-management/joiners-movers-leavers/index.md)
 for additional information about context generation.
 
 ## Properties

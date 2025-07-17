@@ -9,16 +9,19 @@ sidebar_position: 50
 A user session will end when the timeout parameter for inactivity has been reached, and the user
 will be logged out. By default this is set to 15 minutes.
 
-**NOTE:** When accessing the Access Information Center through the Web Console, its timeout
+:::note
+When accessing the Access Information Center through the Web Console, its timeout
 parameter value takes precedence over the Access Information Center timeout parameter value. See the
 Timeout Parameter for the Web Console topic of the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 instructions on modifying its timeout parameter value.
+:::
+
 
 The timeout parameter is configured within the `AccessInformationCenter.Service.exe.config` file in
 the Access Information Center installation directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to modify the timeout parameter.
 

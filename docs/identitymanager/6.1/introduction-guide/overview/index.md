@@ -27,7 +27,7 @@ We could explain Usercube's purpose like this:
 **Typically, Usercube manages entitlements automatically according to a user's needs, for example
 Active Directory group memberships.**
 
----
+**---**
 
 **First, we need to manage identities.**
 
@@ -48,7 +48,7 @@ required for IGA-related data flows.
 
 [See more details on identity management and connection between systems](/docs/identitymanager/6.1/introduction-guide/overview/identity-management/index.md).
 
----
+**---**
 
 **Then, we need to manage entitlements, in other words access rights, or permissions.**
 
@@ -66,7 +66,7 @@ rules.
 
 ![Calculation](/img/product_docs/identitymanager/6.1/introduction-guide/overview/overview_calculation.webp)
 
----
+**---**
 
 **Finally, we need to actually give identities their entitlements and then govern them.**
 

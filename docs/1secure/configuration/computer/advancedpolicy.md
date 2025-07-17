@@ -42,12 +42,105 @@ System Audit Policies.
 
 **Step 3 –** Configure the following audit policies.
 
-| Policy Subnode              | Policy Name                                     | Audit Events                                                                  |
-| --------------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------- |
-| Object Access               | - Audit File System - Audit Handle Manipulation | "Success" and/or "Failure" depending on the type of events you want to track. |
-| - Audit Detailed File Share | "Failure"                                       |                                                                               |
-| - Audit File Share          | "Success"                                       |                                                                               |
-| Policy Change               | - Audit Policy Change                           | "Success"                                                                     |
-| Logon/Logoff                | - Logon                                         | "Success"                                                                     |
-| - Logoff                    | "Success"                                       |                                                                               |
-| System                      | - Security State Change                         | "Success"                                                                     |
+       <table>
+            <thead>
+                <tr>
+                    <th>
+                        <p>Policy Subnode</p>
+                    </th>
+                    <th>
+                        <p>Policy Name</p>
+                    </th>
+                    <th>
+                        <p>Audit Events</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">
+                        <p>Object Access</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Audit File System</li>
+                            <li>Audit Handle Manipulation</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>"Success" and/or "Failure" depending on the type of events you want to track.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Audit Detailed File Share</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>"Failure"</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>Audit File Share</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>"Success"</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Policy Change</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Audit Policy Change</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>"Success"</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <p>Logon/Logoff</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Logon</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>"Success"</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Logoff</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>"Success"</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>System</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Security State Change</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>"Success"</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>

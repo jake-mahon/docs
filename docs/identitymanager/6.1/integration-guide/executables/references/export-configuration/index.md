@@ -76,7 +76,7 @@ remote configuration:
 
 ```
 
-./identitymanager-Export-Configuration.exe -d "C:/identitymanager/ExportedConf" --api-url https://my_usercube_instance.com
+**./identitymanager-Export-Configuration.exe -d "C:/identitymanager/ExportedConf" --api-url https://my_usercube_instance.com**
 
 ```
 

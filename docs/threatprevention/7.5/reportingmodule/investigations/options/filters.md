@@ -66,10 +66,13 @@ clock and a calendar for setting a custom range:
 - Custom timeframe – Specified by the start and end date and time range set in the clock / calendar
   section
 
-**NOTE:** The timeframe property is saved with the investigation filters. However, it can be
+:::note
+The timeframe property is saved with the investigation filters. However, it can be
 modified to run a query ad hoc with the same filter statement but a different timeframe.
+:::
 
-Configure a Custom Timeframe Range
+
+**Configure a Custom Timeframe Range**
 
 Follow the steps to configure a custom timeframe range.
 
@@ -193,8 +196,11 @@ populate in a drop-down menu as you type. Select the desired value from the drop
 value you type is not available in the drop-down menu, use the Add button to add it to the Filter
 box.
 
-**NOTE:** Adding additional values in the same Filter box will add an OR statement for the
+:::note
+Adding additional values in the same Filter box will add an OR statement for the
 attribute. For example:
+:::
+
 
 - When:
 
@@ -216,7 +222,10 @@ and repeat steps 4-6. The AND operator is automatically applied to group multipl
 
 - Then the query will return activity for all domain admins except nwxtech\ad.bruce.wayne
 
-**NOTE:** Click the X at the end of a row to remove it from the statement.
+:::note
+Click the X at the end of a row to remove it from the statement.
+:::
+
 
 Once the filter is set, you can generate the report ad hoc by clicking **Run Query**. The allows you
 to test if your filter statement is working as desired. Save the investigation for reuse. You can

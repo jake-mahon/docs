@@ -21,7 +21,10 @@ File change events can be viewed from the [Events Tab](/docs/changetracker/8.1/a
 [Dashboard Tab](/docs/changetracker/8.1/admin/dashboardoverview.md) topic for additional information on how to view FIM
 change events.
 
-**NOTE:** The Events tab is designed to handle large enterprise estates with potentially thousands
+:::note
+The Events tab is designed to handle large enterprise estates with potentially thousands
 of events, therefore the filtering and masking of events is crucial. If you don’t see the change
 event as expected, make sure you have selected the right device and that your filters in the left
 panel are not masking the event.
+
+:::

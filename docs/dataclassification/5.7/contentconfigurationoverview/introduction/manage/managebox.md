@@ -35,7 +35,10 @@ excluded from processing. For that, do the following:
     - _box://26298724/Test Folder/\*_ will exclude all documents in the folder
     - _\*/Restricted Folder/\*_ will exclude specific folder in any Box source
 
-**NOTE:** Exclusions are case-insensitive.
+:::note
+Exclusions are case-insensitive.
+:::
+
 
 4. To verify exclusion location, enter its path in the **Test Path** field and click **Test**.
 5. If needed, you can use metadata conditions to restrict when an exclusion filter should be
@@ -78,7 +81,7 @@ source level, as described below. Consider the following:
 
 Refer to Box documentation for information on user account permissions.
 
-To configure tagging
+**To configure tagging**
 
 1. In the management console, click **Sources** →**Box**, then in the left pane click Write
    Configuration.

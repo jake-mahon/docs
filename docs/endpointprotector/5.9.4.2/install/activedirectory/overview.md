@@ -20,7 +20,10 @@ The Group Policy objects will be later linked to each Organization Unit on which
 the deployment. This document presents a basic and functional overview of the deployment strategy of
 Endpoint Protector Client software. You can modify and adjust these techniques to his environment.
 
-**NOTE:** This document is provided as an optional reference for Active Directory deployment method
+:::note
+This document is provided as an optional reference for Active Directory deployment method
 configuration. It is not regularly updated and may not reflect the current state of the product or
 its interface. For the most current information, please refer to the official resources provided by
 the product vendor.
+
+:::

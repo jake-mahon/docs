@@ -73,11 +73,11 @@ directs incoming requests on `<listening-port>` from network 1 to a Usercube ser
 
                     ```
 
-nginx.conf
+**nginx.conf**
 
 worker_processes auto;
 
-http {
+**http {**
 
     ##
     # Basic Settings
@@ -131,7 +131,7 @@ http {
     	}
     }
 
-}
+**}**
 
 ````
 
@@ -189,7 +189,7 @@ server { listen <listening-port> default_server; server_name <server-name>;
     	    proxy_set_header   X-Real-IP $remote_addr;
        }
 
-    }
+**}**
 
 ```
 

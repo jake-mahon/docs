@@ -50,13 +50,81 @@ Configuration > Audit Policies .
 
 **Step 9 –** Configure the following audit policies.
 
-| Policy Subnode                     | Policy Name                                                                                                      | Audit Events                |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| Account Logon                      | - Audit Kerberos Service Ticket Operations - Audit Kerberos Authentication Service - Audit Credential Validation | _"Success"_ and _"Failure"_ |
-| - Audit Other Account Logon Events | _"Success"_ and _"Failure"_                                                                                      |                             |
-| Logon/Logoff                       | - Audit Logoff - Audit Other Logon/Logoff Events                                                                 | _"Success"_                 |
-| - Audit Logon                      | _"Success"_ and _"Failure"_                                                                                      |                             |
-| System                             | - Audit Security State Change                                                                                    | _"Success"_                 |
+ <table>
+            <thead>
+                <tr>
+                    <th>Policy Subnode</th>
+                    <th>Policy Name</th>
+                    <th>Audit Events</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">
+                        <p><span>Account Logon</span></p>
+                        <p>&#160;</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><span>Audit Kerberos Service Ticket Operations</span></li>
+                            <li><span>Audit Kerberos Authentication Service</span></li>
+                            <li><span>Audit Credential Validation</span></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p><i>"Success"</i> and <i>"Failure"</i></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><span>Audit Other Account Logon Events</span></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p><i>"Success"</i> and <i>"Failure"</i></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <p rowspan="2"><span>Logon/Logoff</span></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><span>Audit Logoff</span></li>
+                            <li><span>Audit Other Logon/Logoff Events</span></li>
+                        </ul>
+                    </td>
+                    <td><p><i>"Success"</i></p></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><span>Audit Logon</span></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p><i>"Success"</i> and <i>"Failure"</i></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span>System</span></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><span>Audit Security State Change</span></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p><i>"Success"</i></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
 
 ![manualconfig_nla_advpol2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_advpol2016.webp)
 

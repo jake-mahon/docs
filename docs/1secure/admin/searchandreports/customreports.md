@@ -48,14 +48,20 @@ business users. See the
 [Add the Business Viewer Role](/docs/1secure/admin/organizations/addingusers/addingusers.md#add-the-business-viewer-role) topic
 for additional information on shared reports.
 
-**NOTE:** This check box is not available for End Customer Organizations.
+:::note
+This check box is not available for End Customer Organizations.
+:::
+
 
 **Step 9 –** Click **Save Report**.
 
 Your custom report is created under the respective category.
 
-**NOTE:** You may link this report to an alert. See the
+:::note
+You may link this report to an alert. See the
 [Add a Custom Alert](/docs/1secure/admin/alerts/alerts.md#add-a-custom-alert) topic for additional information.
+:::
+
 
 ## Modify a Custom Report
 

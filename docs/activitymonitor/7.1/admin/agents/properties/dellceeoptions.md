@@ -15,8 +15,11 @@ activity from several CEEs at the same time. Among them can be a local Windows C
 and Linux CEEs. Windows versions of CEEs can use both RPC and HTTP protocols. Linux versions can
 only support HTTP protocols.
 
-**NOTE:** Dell CEE can be installed on the same host as the activity agent, or on a different host.
+:::note
+Dell CEE can be installed on the same host as the activity agent, or on a different host.
 If it is installed on the same host, the activity agent can configure it automatically.
+:::
+
 
 ![EMC CEE Options  Tab](/img/product_docs/activitymonitor/7.1/admin/agents/properties/emcceeoptionstab.webp)
 
@@ -49,7 +52,10 @@ The options are:
         - IPv4 or IPv6 allowlist – Specify IP addresses of CEE instance that are allowed to connect
           to the agent via the HTTP protocol. Leave blank to accept connections from any host.
 
-**NOTE:** For Remote Windows CEE or Linux CEE, Manual Configuration is needed.
+:::note
+For Remote Windows CEE or Linux CEE, Manual Configuration is needed.
+:::
+
 
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The Agent
 Properties window closes.
@@ -96,11 +102,17 @@ Activity Monitor. The default is 60 seconds. The range is from 60 seconds to 600
 **Step 5 –** Set `MaxEventsPerFeed` to how many events must occur before information is sent from
 CEE to Activity Monitor. The default is 100 events. The range is from 10 events to 10,000 events.
 
-**NOTE:** The `FeedInterval` and `MaxEventsPerFeed` delivery cadences are used simultaneously.
+:::note
+The `FeedInterval` and `MaxEventsPerFeed` delivery cadences are used simultaneously.
+:::
+
 
 **Step 6 –** Restart the CEE Monitor service.
 
-**NOTE:** All protocol strings are case sensitive.
+:::note
+All protocol strings are case sensitive.
+:::
+
 
 ## Linux CEE Manual Configuration
 
@@ -179,15 +191,18 @@ If you want to send activity to several 3rd party applications, separate them wi
 ```xml
 <Audit>
 
-<Configuration>
+**<Configuration>**
 
 <Enabled>1</Enabled>
 
-<EndPoint>Splunk@10.20.30.40:12345;StealthAUDIT@http://[IP Address]:[Port]</EndPoint>
+**<EndPoint>Splunk@10.20.30.40:12345;StealthAUDIT@http://[IP Address]:[Port]</EndPoint>**
 
 </Configuration>
 
 </Audit>
 ```
 
-**NOTE:** All protocol strings are case sensitive.
+:::note
+All protocol strings are case sensitive.
+
+:::

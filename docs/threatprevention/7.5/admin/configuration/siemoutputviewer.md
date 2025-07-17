@@ -56,10 +56,13 @@ event/policy/analytics data to SIEM) in real time, they are displayed on the win
 You can select a row and use Ctrl+C to copy the data displayed in it. Then paste it to another
 application like Notepad to examine it in detail.
 
-**NOTE:** The host, port, protocol, and SSL columns display the settings configured for the SIEM
+:::note
+The host, port, protocol, and SSL columns display the settings configured for the SIEM
 server where the respective message is sent. See the
 [Configure a SIEM Server ](/docs/threatprevention/7.5/admin/configuration/systemalerting/siem.md#configure-a-siem-server) topic for additional
 information.
+:::
+
 
 This data grid employs features for sorting, filtering, searching, and more.
 

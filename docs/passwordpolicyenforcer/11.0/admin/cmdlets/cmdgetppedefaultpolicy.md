@@ -8,11 +8,11 @@ sidebar_position: 70
 
 The **Get-PPEDefaultPolicy** cmdlet reports the name of the Password Policy Enforcer default Policy.
 
-SYNTAX
+**SYNTAX**
 
 **Get-PPEDefaultPolicy** [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 `<_CommonParameters_>`
 
@@ -20,8 +20,8 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Get-PPEDefaultPolicy
 
-Default policy : Eval Policy
+**Default policy : Eval Policy**

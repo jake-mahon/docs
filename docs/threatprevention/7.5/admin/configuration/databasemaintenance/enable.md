@@ -9,8 +9,11 @@ sidebar_position: 10
 Database maintenance can be enabled for all or specific event types, analytics, and/or policies. It
 can be enabled for any combination of event type data, analytic data, and policy data.
 
-_Remember,_ the Event Type maintenance settings take precedence over Policy maintenance settings
+:::tip
+Remember, the Event Type maintenance settings take precedence over Policy maintenance settings
 where the selected policy employs that event type.
+:::
+
 
 Follow the steps to enable database maintenance.
 

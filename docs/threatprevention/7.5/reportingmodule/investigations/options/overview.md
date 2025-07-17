@@ -45,8 +45,11 @@ Every investigation has the following options at the top of the page:
   If multiple data sources have been configured, there is also a Source drop-down menu. See the
   [Filters Section](/docs/threatprevention/7.5/reportingmodule/investigations/options/filters.md) topic for additional information.
 
-**NOTE:** For an investigations to return information on user display names, groups, or email
+:::note
+For an investigations to return information on user display names, groups, or email
 addresses, the StealthDEFEND Active Directory Service must be running to collect Active Directory
 data prior to running an investigation. See the
 [Active Directory Sync Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/activedirectorysync.md) topic for
 additional information.
+
+:::

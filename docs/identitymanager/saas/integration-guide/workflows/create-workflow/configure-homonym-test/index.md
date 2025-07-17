@@ -34,7 +34,7 @@ information.
 
 ### With customized filters
 
-[ Homonym Entity Link ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters
+[Homonym Entity Link](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters
 allow to define customized filters for a homonym search.
 
 #### Simple filter

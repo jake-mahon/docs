@@ -48,10 +48,13 @@ its reports. An organization is selected by default, but you can choose a differ
 **Step 3 –** Click the **Risks** tab to access the state-in-time reports. This opens the Risks page
 with the High Risk Permissions on Documents report displayed by default.
 
-**NOTE:** Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk
+:::note
+Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk
 Assessment page, where you can monitor the risks for the selected organization. See the
 [Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional
 information.
+:::
+
 
 ![Risk Reports page](/img/product_docs/1secure/admin/searchandreports/sitrisks.webp)
 
@@ -110,13 +113,13 @@ State In Time reports are available under the following categories.
 | Disabled Computer Accounts | Lists the disabled computer accounts within an environment. For each account, it displays the name, location, and more.                                                                                                    |
 | Inactive Computer Accounts | Lists inactive computer accounts within an environment. For each account, it displays the name, location, last logon, and more. By default, computer accounts that have been inactive for 35 days or longer are displayed. |
 
-Sort a Report
+**Sort a Report**
 
 Click a column header to sort data in a report by that column in ascending order. An arrow appears
 next to the column name to indicate the sort order. Click the column header again to sort the data
 in descending order.
 
-Filter a Report
+**Filter a Report**
 
 You can filter the data displayed in a report. Select a filter, operator, and value from the Filter,
 Operator, and Value drop-down menus, then click **Search**.
@@ -126,7 +129,7 @@ You can select more than one filter.
 For options displayed in the Operator drop-down menu, see the
 [Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic.
 
-Filter Descriptions
+**Filter Descriptions**
 
 This table provides a list of filters and descriptions.
 
@@ -136,16 +139,16 @@ This table provides a list of filters and descriptions.
 | Group Name        | Filters the report based on the name of an administrative group, such as Administrators.                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Member Location   | Filters the report based on the location of a member within an administrative group. For example, Domain Admins is a member name and its location is SSA-D4.local/Users/Domain ​Admins.                                                                                                                                                                                                                                                                                                        |
 | Member Name       | Filters the report based on the name of a member of an administrative group, such as Domain Admins.                                                                                                                                                                                                                                                                                                                                                                                            |
-| Member through    | Specify whether a group is a member of a group explicitly or inherited from another group. For example, Group A > Admin Group (Group A is explicitly a member of Admin Group) Group B > Group C > Admin Group (Group C is explicitly a member of Admin Group while Group B is an inherited member of Admin Group) If you do not specify the value, it will include both. If your Value is Inherited, it will only show Group B, and if you Value is Explicit, it will show Group A and Group C |
-| Status            | Filters the report based on any of the following user account statuses: - Enabled - Disabled                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Source Type       | Filters the report based on any of the following source types: - AD Group - Entra ID Group - Windows Local Group - SharePoint Online Group                                                                                                                                                                                                                                                                                                                                                     |
+| Member through    | Specify whether a group is a member of a group explicitly or inherited from another group. For example, Group A > Admin Group (Group A is explicitly a member of Admin Group) Group B > Group C > Admin Group (Group C is explicitly a member of Admin Group while Group B is an inherited member of Admin Group). <br /> If you do not specify the value, it will include both. If your Value is Inherited, it will only show Group B, and if you Value is Explicit, it will show Group A and Group C |
+| Status  | Filters the report based on any of the following user account statuses:<br /><ul><li>Enabled</li><li>Disabled</li></ul>  |
+| Source Type  | Filters the report based on any of the following source types: <br /><ul><li>AD Group</li><li>Entra ID Group</li><li>Windows Local Group</li><li>SharePoint Online Group</li></ul>  |
 | Source            | Filters the report based on the name of a data source. The data source name corresponds to the value specified in the Source Group field when adding a data source. See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional information.                                                                                                                                                                                                      |
 | Name              | Filters the report based on the name of a user or computer account.                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Location          | Filters the report based on the location of an account in the directory. For example, Guest is an account name and its location is SSA-D4.local/Users/Guest.                                                                                                                                                                                                                                                                                                                                   |
 | Role              | Filters the report based on a role, such as Global Administrator.                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Account           | Filters the report based on a user account, such as admin@1secanton.onmicrosoft.com.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Account Type      | Filters the report based on an account type, such as Entra ID User.                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Account Status    | Filters the report based on any of the following account statuses: - Enabled - Disabled                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Account Type      | Filters the report based on an account type, such as Entra ID User.   |
+| Account Status    | Filters the report based on any of the following account statuses: <br /><ul><li>Enabled</li><li>Disabled</li></ul>      |
 | Object Type       | Filters the report based on an object type, such as SharePoint Online Document Library.                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Object URL        | Filters the report based on the URL of an object. For example, antoN ​4.docx is an object and its URL is https://1secanton.sharepoint.com/sites/Permissions-2/Shared ​Documents/Sorting/antoN ​4.docx.                                                                                                                                                                                                                                                                                         |
 | Permissions       | Filters the report based on the permission assigned to an account, such as Read, Write, Delete, Manage, etc.                                                                                                                                                                                                                                                                                                                                                                                   |

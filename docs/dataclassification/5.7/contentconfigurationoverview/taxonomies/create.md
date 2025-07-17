@@ -9,13 +9,16 @@ sidebar_position: 60
 SQL taxonomies reside within the administrative web console database, they are fully functional with
 the exception of writing metadata back to SharePoint.
 
-To create an SQL taxonomy
+**To create an SQL taxonomy**
 
 1. Navigate to the Global Settings tab.
 2. Click the Add button, select the New tile.
 3. Enter the taxonomy name and click **Add**.
 
-**NOTE:** Taxonomy name should be unique among all SQL taxonomies.
+:::note
+Taxonomy name should be unique among all SQL taxonomies.
+:::
+
 
 ![createsqltaxonomy_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/taxonomies/createsqltaxonomy_thumb_0_0.webp)
 
@@ -62,9 +65,12 @@ update is available (post upgrade):
 
 ![mergesqltaxonomypredefinedindicator](/img/product_docs/dataclassification/5.7/admin/taxonomies/mergesqltaxonomypredefinedindicator.webp)
 
-**NOTE:** The merge operation relies on matching the source definition to the destination
+:::note
+The merge operation relies on matching the source definition to the destination
 definition - utilising the Term Id (GUID). If there are no matching ids then the merge operation
 will be automatically stopped. In this case the taxonomy should be deleted - and re-imported.
+:::
+
 
 [](#)Merge SharePoint Taxonomies
 

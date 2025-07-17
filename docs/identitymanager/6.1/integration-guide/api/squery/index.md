@@ -73,7 +73,10 @@ If select is not specified, API will just return queried elements' Ids.
 
 Last 100 started job's instances' Ids.
 
-_Remember,_ The `Top` in the API queries had been deprecated and `PageSize`should be used instead.
+:::tip
+Remember, The `Top` in the API queries had been deprecated and `PageSize`should be used instead.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -102,8 +105,7 @@ script in the command line.
 ```
 
 {
-  "Result": [
-    {
+  "Result": [{
       "Id": "2147483653",
       "Properties": [
         {
@@ -130,14 +132,12 @@ script in the command line.
         {
           "Id": "-9223372015379939312",
           "Identifier": "WorkflowInstanceId"
-        }
-      ],
+        }],
       "Identifier": "AssignedCompositeRole"
     },
     {
       "Id": "2147483654",
-      "Properties": [
-        {
+      "Properties": [{
           "Id": "-9223372011084972031",
           "Association1": {
             "Id": "-9223372011084972031",
@@ -161,8 +161,7 @@ script in the command line.
         {
           "Id": "-9223372011084972025",
           "Identifier": "StartDate"
-        }
-      ],
+        }],
       "Identifier": "AssignedResourceNavigation"
     }
   ]

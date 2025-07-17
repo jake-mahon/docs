@@ -38,6 +38,9 @@ currently in use to the installer downloaded.
 - If the downloaded version is newer, the message displays both version numbers and provides an
   option to apply the update. Click **Apply Update**.
 
-**NOTE:** When the Agent installer is replaced with a newer version, all Agents’ versions in the
+:::note
+When the Agent installer is replaced with a newer version, all Agents’ versions in the
 Agents interface are highlighted to indicate they are not the current version. Agents should then be
 updated to the new version using the Upgrade Agent option on the right-click menu.
+
+:::

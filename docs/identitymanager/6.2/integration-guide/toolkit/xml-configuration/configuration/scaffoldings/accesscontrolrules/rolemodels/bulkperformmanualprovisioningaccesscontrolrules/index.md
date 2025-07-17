@@ -11,13 +11,13 @@ review of multiple manual provisioning items for the `Directory_User` entity typ
 
 ```
 
-  <BulkPerformManualProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>
+**<BulkPerformManualProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>**
 
 ```
 
 The scaffolding generates the following scaffoldings:
 
-- [ Perform Manual Provisioning Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
+- [Perform Manual Provisioning Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the manual provisioning pages for a given entity type and
   profile.
 

@@ -15,7 +15,7 @@ the table. Otherwise, the only scalar property displayed in the table is the int
 
 ```
 
-  <EntityTypeDisplayTable EntityType="Directory_Country"/>
+**<EntityTypeDisplayTable EntityType="Directory_Country"/>**
 
 ```
 

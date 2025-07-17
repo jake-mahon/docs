@@ -11,13 +11,13 @@ review of multiple errored provisioning orders for the `Directory_User` entity t
 
 ```
 
-  <BulkReviewProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>
+**<BulkReviewProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>**
 
 ```
 
 The scaffolding generates the following scaffoldings:
 
-- [ Review Provisioning Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
+- [Review Provisioning Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the provisioning review pages for a given entity type and
   profile.
 

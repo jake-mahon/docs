@@ -92,9 +92,12 @@ Directory. Specufy the following:
   [Network Traffic Compression](/docs/1secure/configuration/networktrafficcompression.md) topic for
   additional information.
 
-    **CAUTION:** If Netwrix Auditor and Netwrix 1Secure audit the same domain, make sure that the
+    :::warning
+    If Netwrix Auditor and Netwrix 1Secure audit the same domain, make sure that the
     network traffic compression service is enabled for only one of the products or neither product
     for any of the audited services. It cannot be enabled for both products.
+    :::
+
 
 - Adjust audit settings automatically – Select this checkbox to adjust the audit settings
   automatically. With this approach, 1Secure will check your current audit settings at each data

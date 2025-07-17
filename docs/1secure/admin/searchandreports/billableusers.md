@@ -29,21 +29,30 @@ Users** page opens. By default, it populates the data with the Users of your org
 
 ![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
 
-**NOTE:** You can also access the report by navigating to the **Reports** > **System** page.
+:::note
+You can also access the report by navigating to the **Reports** > **System** page.
+:::
+
 
 ![BU Report screen](/img/product_docs/1secure/admin/searchandreports/billableusersreport.webp)
 
 **Step 2 –** If necessary, you can filter the provided data. Select a filter, operator, and value
 from the Filter, Operator, and Value drop-down menus respectively.
 
-**NOTE:** You must specify three columns: Filter, Operator, and Value. You may also select more than
+:::note
+You must specify three columns: Filter, Operator, and Value. You may also select more than
 one filter. To review the Operator filter options, see the
 [Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic for additional information.
+:::
+
 
 **Step 3 –** Click **Search**.
 
-**NOTE:** You can also export a report to your email by clicking **Export** in the upper right
+:::note
+You can also export a report to your email by clicking **Export** in the upper right
 corner of the page. You shall receive a report in XLSX to your login email.
+:::
+
 
 ## Filter Descriptions
 
@@ -51,6 +60,6 @@ This table provides a list of filters and descriptions.
 
 | Filter      | Description                                                                                                                                                                             |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Account     | Limits your search to a specific account. Account is an instance of a user, specific to a source. For example: User = John.Smith Account = AD User: John.Smith / Azure User: John.Smith |
+| Account     | Limits your search to a specific account. Account is an instance of a user, specific to a source. For example:<br /> User = John.Smith <br /> Account = AD User: John.Smith / Azure User: John.Smith |
 | User        | Limits your search to a specific user.                                                                                                                                                  |
-| Source Type | Specify the source type of the user: - AD User - Azure User - Windows Local User                                                                                                        |
+| Source Type | Specify the source type of the user: <br /><ul><li>AD User</li><li>Azure User</li><li>Windows Local User</li></ul>                                                                                                        |

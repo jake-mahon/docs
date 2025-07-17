@@ -37,14 +37,14 @@ know which entitlements need to be reviewed.
 
 | Input                                                                                                                                                                                                  | Output           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| Identity repository (required) [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)(optional) [ Manage Risks ](/docs/identitymanager/saas/user-guide/optimize/risk-management/index.md)(optional) | Certified access |
+| Identity repository (required) [Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)(optional) [Manage Risks](/docs/identitymanager/saas/user-guide/optimize/risk-management/index.md)(optional) | Certified access |
 
-See the[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)topic
+See the[Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)topic
 for additional information.
 
 ## Perform Access Certification
 
 Perform access certification by proceeding as follows:
 
-1. [ Schedule a Certification Campaign ](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md).
-2. [ Execute a Certification Campaign ](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-execution/index.md).
+1. [Schedule a Certification Campaign](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md).
+2. [Execute a Certification Campaign](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-execution/index.md).

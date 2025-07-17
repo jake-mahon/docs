@@ -28,7 +28,7 @@ entitlements.
 Review an unauthorized account by proceeding as follows:
 
 1. Ensure that the
-   [ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+   [Compute Role Model Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
    was launched recently, through the complete job on the **Job Execution** page:
 
     ![Home Page - Job Execution](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
@@ -57,12 +57,12 @@ Review an unauthorized account by proceeding as follows:
 
     The displayed confidence rate means that a rule actually assigned the account to the identity,
     but with a confidence rate too low to imply full automatic assignment. Approval will be
-    required. See the [ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md)
+    required. See the [Classify Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md)
     topic for additional information.
 
     The **Resource Properties** frame shows all the properties of the resources. They can be updated
     by clicking on the edit button. See the
-    [ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
+    [Reconcile a Property](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
 
     ![Edit Button](/img/product_docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_updateprop_v522.webp)
 

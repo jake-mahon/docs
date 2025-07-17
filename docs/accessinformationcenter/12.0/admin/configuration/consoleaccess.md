@@ -27,9 +27,12 @@ There are five levels of access, or Roles, which can be granted to domain users 
   access to any other interface within the Access Information Center. This role also does not have
   rights to modify the Builtin Administrator account or their own access.
 
-**NOTE:** If Netwrix Access Analyzer (formerly Enterprise Auditor) is storing discovered sensitive
+:::note
+If Netwrix Access Analyzer (formerly Enterprise Auditor) is storing discovered sensitive
 data, the Sensitive Data reports will only display the sensitive data matches for users with the
 Security Team and Administrator roles.
+:::
+
 
 A user granted either the Reader or Security Team role can also be further restricted to accessing
 information for either:
@@ -37,11 +40,14 @@ information for either:
 - Specific resource types (File System, SharePoint, or Active Directory)
 - Specific servers
 
-**CAUTION:** Before disabling the Builtin Administrator account, it is necessary to first assign at
+:::warning
+Before disabling the Builtin Administrator account, it is necessary to first assign at
 least one domain user account to the Administrator role. Login with another Administrator account to
 disable the Builtin Administrator. Failure to do this could result in being locked-out of the
 Configuration interface. As an alternative to disabling this account, the password can be changed.
 See the Modify the Builtin Administrator Account topic for additional information.
+:::
+
 
 Once users have been granted console access, they can login with their domain credentials. Console
 access is not a requirement for participation as owners or domain users in the Resource Reviews and
@@ -100,9 +106,12 @@ information.
 
 Follow the steps to modify a user’s console access.
 
-**NOTE:** These steps are for modifying domain users with console access roles and do not apply to
+:::note
+These steps are for modifying domain users with console access roles and do not apply to
 the Builtin Administrator account. See the Modify the Builtin Administrator Account topic for
 additional information.
+:::
+
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the user to be
 modified and click Modify. The Console Access wizard opens to the Select Access page.
@@ -130,8 +139,11 @@ Any modifications to the user’s role are visible in the list on the Console Ac
 
 ## Delete Console Users
 
-**CAUTION:** Confirmation is not requested when deleting users. An alternative to deleting a console
+:::warning
+Confirmation is not requested when deleting users. An alternative to deleting a console
 user is to disable their access. See the Modify Console Users topic for additional information.
+:::
+
 
 Follow the steps to remove a user’s configured console access.
 
@@ -162,7 +174,10 @@ Administrator account and click **Modify**. The Builtin Administrator window ope
 
 The modifications to the Builtin Administrator are processed.
 
-**NOTE:** The new password is encrypted in the `AccessInformationCenter.Service.exe.config` file, in
+:::note
+The new password is encrypted in the `AccessInformationCenter.Service.exe.config` file, in
 the `AuthBuiltinAdminPassword` parameter. If you forget the Admin password, you can clear the
 `AuthBuiltinAdminPassword` value in the `AccessInformationCenter.Service.exe.config` file. Then use
 the default first launch login credentials to set a new password.
+
+:::

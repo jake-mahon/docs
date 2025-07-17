@@ -27,7 +27,10 @@ on the left, and click **Add**.
     - _http://test.sharepoint.com/sites/documents/\*_ will exclude all documents in the folder
     - _\*/Restricted Folder/\*_ will exclude such folder in any site
 
-**NOTE:** Exclusions are case-insensitive.
+:::note
+Exclusions are case-insensitive.
+:::
+
 
 2. Optionally, enter full exclusion URL to verify the settings and click **Test**.
 3. If needed, you can use metadata conditions to restrict when an exclusion filter should be

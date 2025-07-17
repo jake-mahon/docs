@@ -9,18 +9,27 @@ sidebar_position: 40
 The Deep Packet Inspection functionality provides a certain degree of granularity, allowing you to
 ﬁne-tune the content inspection functionality to the network speciﬁcations.
 
-**NOTE:** Enabling Deep Packet Inspection could impact upload speed of inspected ﬁles. Use our
+:::note
+Enabling Deep Packet Inspection could impact upload speed of inspected ﬁles. Use our
 network extension instead of Packet Filter as a possible workaround (i.e., turn Intercept VPN Traﬃc
 on).
+:::
 
-**CAUTION:** Newer Linux Ubuntu versions have 'snap'-based applications installed by default,
+
+:::warning
+Newer Linux Ubuntu versions have 'snap'-based applications installed by default,
 affecting Endpoint Protector Client functionality. This may result in missing ﬁle-related events in
 DPI ﬁle resolution. The reliance on 'snap'-based applications also affects ﬁle-related web browser
 activities, exacerbating this limitation. Consider non-’snap’-based applications (where possible) as
 alternative conﬁgurations for optimal functionality.
+:::
 
-**CAUTION:** To ensure consistent DPI behavior after enabling or disabling the feature or upgrading
+
+:::warning
+To ensure consistent DPI behavior after enabling or disabling the feature or upgrading
 the Endpoint Protector, a restart of your computer is required.
+:::
+
 
 ## Deep Packet Inspection Certiﬁcate
 
@@ -45,8 +54,11 @@ generated.
 
 **Step 4 –** Reboot the endpoint to enforce a new Certiﬁcate.
 
-**NOTE:** Issuing the Deep Packet Inspection Certificate on Windows is handled automatically and
+:::note
+Issuing the Deep Packet Inspection Certificate on Windows is handled automatically and
 transparently by the Endpoint Protector Client. No additional steps are required.
+:::
+
 
 ![Conﬁguring the Deep Packet Inspection - Auto-refresh Certiﬁcate feature](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/autorefreshcert.webp)
 
@@ -56,8 +68,11 @@ Due to the latest changes in the macOS 11.0 that affect Deep Packet Inspection, 
 Certiﬁcate is needed in order for the Deep Packet Inspection feature to work on the mentioned macOS
 version.
 
-**NOTE:** Deep Packet Inspection will only work on macOS 11.0 and newer if Deep Packet Inspection
+:::note
+Deep Packet Inspection will only work on macOS 11.0 and newer if Deep Packet Inspection
 Certiﬁcate is added for the Endpoint Protector Client.
+:::
+
 
 This certiﬁcate can be downloaded from System Conﬁguration, System Settings, and Deep Packet
 Inspection Certiﬁcate and added manually or automatically through deployment solutions.
@@ -88,9 +103,12 @@ select **Always Trust**.
 
 **Step 6 –** **Save** the changes.
 
-**CAUTION:** Please be aware that regenerating the Server Certificate Stack will require macOS and
+:::warning
+Please be aware that regenerating the Server Certificate Stack will require macOS and
 Linux users to manually add the new certificate into the keychain. On Windows, the certificate will
 be updated automatically.
+:::
+
 
 ## Deep Packet Inspection Certificate on Linux
 
@@ -99,26 +117,29 @@ specific steps to ensure compatibility. The certificate enables Endpoint Protect
 inspection for printing and file transfers to MTP devices. The process differs slightly for
 Debian-based and Red Hat-based systems.
 
-**NOTE:** Ensure the cacert.pem certificate is downloaded from the Endpoint Protector Server and
+:::note
+Ensure the cacert.pem certificate is downloaded from the Endpoint Protector Server and
 properly configured for your Linux distribution.
+:::
+
 
 Follow the steps below, specific to your Linux distribution, to configure the certificate manually.
 
-Debian-based Systems (e.g., Ubuntu)
+**Debian-based Systems (e.g., Ubuntu)**
 
 **Step 1 –** Download the archived certificates from the Endpoint Protector Server.
 
 **Step 2 –** Unzip the certificate file:
 
-unzip ClientCerts.zip
+**unzip ClientCerts.zip**
 
 **Step 3 –** Copy the cacert.pem file to the trusted certificate directory and rename it to .crt:
 
-sudo cp cacert.pem /usr/local/share/ca-certificates/cacert.crt
+**sudo cp cacert.pem /usr/local/share/ca-certificates/cacert.crt**
 
 **Step 4 –** Update the system's certificate store:
 
-sudo update-ca-certificates
+**sudo update-ca-certificates**
 
 Red Hat-based Systems (e.g., RHEL, Fedora)
 
@@ -126,15 +147,15 @@ Red Hat-based Systems (e.g., RHEL, Fedora)
 
 **Step 2 –** Unzip the certificate file:
 
-unzip ClientCerts.zip
+**unzip ClientCerts.zip**
 
 **Step 3 –** Copy the cacert.pem file to the appropriate directory for trusted anchors:
 
-sudo cp cacert.pem /etc/pki/ca-trust/source/anchors/
+**sudo cp cacert.pem /etc/pki/ca-trust/source/anchors/**
 
 **Step 4 –** Update the system's certificate store:
 
-sudo update-ca-trust
+**sudo update-ca-trust**
 
 Additional Resources
 
@@ -144,9 +165,12 @@ For more details on certificate installation and management on Linux, see the fo
 - [Configuring the CA Trust List on Red Hat](https://www.redhat.com/en/blog/configure-ca-trust-list)
 - [Managing CA Certificates on Linux](https://www.baeldung.com/linux/ca-certificate-management)
 
-**CAUTION:** Ensure the certificate is added correctly for the Endpoint Protector Client to function
+:::warning
+Ensure the certificate is added correctly for the Endpoint Protector Client to function
 properly. If the Server Certificate Stack is regenerated, Linux users must manually reconfigure the
 certificate using the steps above.
+:::
+
 
 ## Deep Packet Inspection Ports and Settings
 
@@ -166,21 +190,30 @@ In this section you can also manage the following settings:
   Mattermost or Google Spreadsheet, Facebook Post, Facebook Comment, and Instagram Comment online
   applications.
 
-    **NOTE:** For comprehensive visibility while using 'Teams over web' in a MS Edge browser, make
+    :::note
+    For comprehensive visibility while using 'Teams over web' in a MS Edge browser, make
     sure to enable **Edge** under **Policy Exits Points** > **Applications** > **Web Browser** in
     the CAP policy.
+    :::
 
-    **CAUTION:** In blocking mode, Instant Messaging events related to platforms such as Slack and
+
+    :::warning
+    In blocking mode, Instant Messaging events related to platforms such as Slack and
     Google Chat might be generated multiple times. This behavior is attributed to the tools'
     inherent retry mechanisms when a message is blocked. Endpoint Protector is designed to block all
     such retry attempts for enhanced security.
+    :::
+
 
 - Detailed Slack Reporting – to access this setting, ensure Text Inspection is enabled and use
   Reporting V2 from **System Conﬁguration** > **System Settings**. Once enabled, you can view
   Destination Details for Slack on the Content Aware Report page in the Reports and Analysis
   section.
 
-    **NOTE:** This setting requires an active Internet connection for the Endpoint Protector Client.
+    :::note
+    This setting requires an active Internet connection for the Endpoint Protector Client.
+    :::
+
 
 - Block unsupported protocols in New Outlook – Enable this setting to block the send email
   functionality in the New Outlook without interacting with the Outlook legacy functionality.
@@ -188,16 +221,22 @@ In this section you can also manage the following settings:
 - Monitor webmail – Enable this setting to scan the subject and body for Gmail, Outlook and Yahoo on
   the browser. Attachments will be monitored regardless of this setting.
 
-    **CAUTION:** When using Yahoo, the email recipients whitelist for attachments will work only if
+    :::warning
+    When using Yahoo, the email recipients whitelist for attachments will work only if
     the attachment is uploaded after the recipients are added. If the recipients are modiﬁed after
     the attachment has been added, the ﬁle will not be scanned again and validated against the new
     recipients list. Inconsistent behavior may be experienced on Linux machines.
+    :::
+
 
     You can also use the Monitor webmail feature to detect source code for web browsers emails in
     subject and body. For email applications, source code can be detected in subject, and for the
     body, source code cannot be enabled for detection without breaking other functionality.
 
-    **NOTE:** Always use Monitor webmail with Extended Source Code Detection setting enabled.
+    :::note
+    Always use Monitor webmail with Extended Source Code Detection setting enabled.
+    :::
+
 
 - Allowed domains for Google Business accounts - You can use this setting to allow the users to
   access speciﬁc Google domains for professional usage when Deep Packet Inspection is enabled.
@@ -208,9 +247,12 @@ In this section you can also manage the following settings:
     The new entry will be displayed on the Allowed Business accounts list, from where you can delete
     by clicking **X**.
 
-    **CAUTION:** Endpoint Protector will block access to all Google domains (business and private)
+    :::warning
+    Endpoint Protector will block access to all Google domains (business and private)
     used for Gmail, Google Drive, Google Docs, etc. that are not listed here. If the list remains
     empty, no Google domain will be blocked.
+    :::
+
 
 ![Allowed domains for Google Business accounts](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/alloweddomainsgoogle.webp)
 
@@ -253,8 +295,11 @@ Endpoint Protector Server UI:
 
 ![Monitor Webmail JSON Format Parser Usage](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/webmailjson.webp)
 
-**_RECOMMENDED:_** It is advised, that due to recent changes applied by cloud providers, to not
+:::info
+It is advised, that due to recent changes applied by cloud providers, to not
 apply any changes in the JSON parser, unless Monitor Webmail is not working
+:::
+
 
 ### Note on Peer Certiﬁcate Validation Usage
 
@@ -276,13 +321,19 @@ validation is performed by the proxy or gateway so that security is not compromi
 From this section, you can enable or disable the Deep Packet Inspection functionality for each
 application that is subject to this functionality.
 
-**NOTE:** Only the applications that support Deep Packet Inspection are available in the list below.
+:::note
+Only the applications that support Deep Packet Inspection are available in the list below.
+:::
+
 
 ![Deep Packet Inspection Applications](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/dpiapplications.webp)
 
-**NOTE:** The Deep Packet Inspection functionality needs to be ﬁrst enabled from **Device
+:::note
+The Deep Packet Inspection functionality needs to be ﬁrst enabled from **Device
 Control** > **Settings** (Global, Groups, Computers, etc.). For detailed information on, refer to
 the [Device Control](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md) topic.
+:::
+
 
 ## Certiﬁcate status matrix
 
@@ -312,6 +363,12 @@ The following table lists when Endpoint Protector Server reports speciﬁc state
 | Windows | 0            |            | Not added   |
 | Windows | 1            |            | Trusted     |
 
-**NOTE:** Linux has dedicated certiﬁcate stores.
+:::note
+Linux has dedicated certiﬁcate stores.
+:::
 
-**NOTE:** On Windows, if the certiﬁcate is added, it is automatically trusted.
+
+:::note
+On Windows, if the certiﬁcate is added, it is automatically trusted.
+
+:::

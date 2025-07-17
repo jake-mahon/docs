@@ -10,7 +10,7 @@ This connector exports mailboxes from a
 [Microsoft Exchange](https://support.microsoft.com/en-us/office/what-is-a-microsoft-exchange-account-47f000aa-c2bf-48ac-9bc2-83e5c6036793)
 instance.
 
-This page is about [ Microsoft Exchange ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
+This page is about [Microsoft Exchange](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
 
 ![Package: Server/Microsoft Exchange](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.webp)
 
@@ -47,7 +47,7 @@ script used by Identity Manager.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -132,13 +132,13 @@ This connector can create, update or
 delete[ mailboxes](https://docs.microsoft.com/en-us/powershell/module/exchange/get-mailbox?view=exchange-ps)'
 addresses (PrimarySmtpAddress, ProxyAddress) and mailbox databases.
 
-As it works via a PowerShell script. See the [ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic
+As it works via a PowerShell script. See the [PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic
 for additional information.
 
 Identity Manager's PowerShell script can be found in the SDK in
 `Usercube.Demo/Scripts/Fulfill-Exchange.ps1`.
 
-See the [ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.
+See the [PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.
 
 ## Authentication
 
@@ -154,15 +154,15 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
-- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)able to store
+- A [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)able to store
   Microsoft Exchange's `Server`.
 
 This kind of credential protection can be used only for the export process.
 
 The fulfill process' credentials can be protected by following the instructions for the
-PowerShellProv connector. See the [ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for
+PowerShellProv connector. See the [PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for
 additional information

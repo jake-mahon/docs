@@ -30,8 +30,11 @@ user-defined group containing users that are granted special permissions) and cl
 **Step 5 –** In the Auditing Entry for `<Folder_Name>` dialog box, click the **Select a principal**
 link and specify **Everyone**.
 
-**NOTE:** You can specify any other group as needed. The product will audit only user accounts that
+:::note
+You can specify any other group as needed. The product will audit only user accounts that
 are members of the selected group.
+:::
+
 
 **Step 6 –** Apply settings to your Auditing Entries depending on the access types you want to
 audit. If you want to audit all access types, you need to add separate Auditing Entries for each

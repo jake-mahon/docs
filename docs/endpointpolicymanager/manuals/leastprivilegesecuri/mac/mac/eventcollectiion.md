@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Endpoint Policy Manager Cloud Groups for Event Collection"
 description: "Setting Up Endpoint Policy Manager Cloud Groups for Event Collection"
-sidebar_position: 40
+sidebar_position: 30
 ---
 
 # Setting Up Endpoint Policy Manager Cloud Groups for Event Collection
@@ -76,7 +76,7 @@ Notes on Collection Configuration:
   all selected IDs will be included and uploaded at the shortest interval set.
 
 **NOTE:** See the
-[How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithcl/knowledgebase/eventcollection/childgroups.md)
+[How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/knowledgebase/eventcollection/childgroups.md)
 topic for more information.
 
 Forcing Event Submission

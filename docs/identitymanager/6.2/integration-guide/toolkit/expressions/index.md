@@ -14,7 +14,7 @@ attributes.
 In Identity Manager's XML configuration, some attributes are defined with expressions. Expression
 attributes do not take a plain string value, but rather an expression that computes a value based on
 a given input. See the
-[ Entity Property Expression ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and
+[Entity Property Expression](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and
 [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional
 information.
 
@@ -24,8 +24,11 @@ The expression can either be provided as a built-in function or as a full-fledge
 the list of available C# utility functions and functions predefined by Identity Manager. See the
 [Predefined functions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
 
-**NOTE:** When changing the value of a property that is part of some expressions in the
+:::note
+When changing the value of a property that is part of some expressions in the
 configuration, do not expect to see all expressions recomputed right away.
+:::
+
 
 In order to ensure the recomputation of all expressions based on the recent change, wait for the
 next run of Update Expressions in the complete job or through the corresponding connector's overview
@@ -172,14 +175,14 @@ C#:resource:logger.LogDebug("Name={0}", resource.Name); return resource.Name;
 
 The following .NET libraries from the white list can be used.
 
-Authorized Namespaces
+**Authorized Namespaces**
 
 Every class and function from the following namespaces is allowed:
 
 - `System.Linq`
 - `System.Text.RegularExpressions`
 
-Authorized Classes
+**Authorized Classes**
 
 Beyond the authorized namespaces, the following classes can be used:
 
@@ -197,7 +200,7 @@ Beyond the authorized namespaces, the following classes can be used:
 - `System.Int32`
 - `System.Random`
 
-Authorized Methods
+**Authorized Methods**
 
 Beyond the authorized classes, the following methods can be used:
 
@@ -304,7 +307,7 @@ Literal expressions are not available for QueryRuleTargetExpression attribute, o
 SourceExpression. Literal expressions are not available for rules targeting a DateTime or Binary
 property.
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

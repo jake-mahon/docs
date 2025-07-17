@@ -25,17 +25,21 @@ changing the Reject passwords that do not comply with value in the Policy Proper
 mandatory rule can still be disabled when a passphrase is used. See the [Passphrase](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/passphrases.md)
 topic for additional information.
 
-**NOTE:** The Complexity rule uses custom character set definitions from the Character rules, even
+:::note
+The Complexity rule uses custom character set definitions from the Character rules, even
 if the Character rules are disabled.
+:::
+
 
 This default character set contains the following:
 
-| Rule        | Default character set                              |
-| ----------- | -------------------------------------------------- |
-| Alpha Lower | Lowercase alphabetic (a - z)                       |
-| Alpha Upper | Uppercase alphabetic (A - Z)                       |
-| Alpha       | Uppercase and lowercase alphabetic (a - z & A - Z) |
-| Numeric     | Numerals (0 - 9)                                   |
-| Special     | All characters not included above                  |
-| High        | All characters above ANSI 126                      |
-| Custom      | No default characters                              |
+| Rule        | Default character set                                                    |
+| ----------- | ------------------------------------------------------------------------ |
+| Alpha Lower | Lowercase alphabetic (a-z)  |
+| Alpha Upper | Uppercase alphabetic (A-Z) |
+| Alpha       | Uppercase and lowercase alphabetic (a-z & A-Z) |
+| Numeric     | Numerals (0-9) |
+| Special     | All characters not included above                                        |
+| High        | All characters above ANSI 126                                            |
+| Custom      | No default characters                                                    |
+

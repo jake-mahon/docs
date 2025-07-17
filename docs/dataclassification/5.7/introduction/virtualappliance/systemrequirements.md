@@ -13,19 +13,23 @@ Refer to the following sections for detailed information:
 - Software Requirements
 - Hardware Configuration
 
-**NOTE:** The requirements below are sufficient for evaluation purposes only. Refer to the
+:::note
+The requirements below are sufficient for evaluation purposes only. Refer to the
 [Requirements to Install Netwrix Data Classification](/docs/dataclassification/5.7/introduction/requirements/overview.md) topic for
 complete information on the requirements for installing Netwrix Data Classification in production
 environments.
+:::
+
 
 ## Software Requirements
 
 The table below lists the minimum software requirements for the virtual appliance deployment:
 
-| Virtual Environment | Requirements                                                         |
-| ------------------- | -------------------------------------------------------------------- |
-| VMware              | - VMware server: ESXi 6.0, 6.5, 6.7, 7.0 - Workstation: 11 and 12    |
-| Hyper-V Server      | - Windows server 2019 - Windows Server 2016 - Windows Server 2012 R2 |
+| Virtual Environment | Requirements                                                                                     |
+| ------------------- | ------------------------------------------------------------------------------------------------ |
+| VMware              | <ul><li>VMware server: ESXi 6.0, 6.5, 6.7, 7.0</li><li>Workstation: 11 and 12</li></ul>          |
+| Hyper-V Server      | <ul><li>Windows server 2019</li><li>Windows Server 2016</li><li>Windows Server 2012 R2</li></ul> |
+
 
 ## Hardware Configuration
 

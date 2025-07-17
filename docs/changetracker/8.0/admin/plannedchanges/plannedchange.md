@@ -15,15 +15,21 @@ created.
 
 The example below shows the sequence of steps to create a new schedule with a new ruleset.
 
-**NOTE:** In Step 2, you can re-use rulesets where available or choose to create a new set. Rules
+:::note
+In Step 2, you can re-use rulesets where available or choose to create a new set. Rules
 can be created manually in Step 3 or again selected from the list of available rulesets.
+:::
+
 
 In Step 4, the **Edit Schedule** button allows Groups and/or Devices to be added to the schedule.
 
 ![PlannedChangeRulesExample](/img/product_docs/changetracker/8.0/admin/wizards/plannedchangerulesexample.webp)
 
-**NOTE:** If you want to let Netwrix Change Tracker self-learn rules by recording change activity
+:::note
+If you want to let Netwrix Change Tracker self-learn rules by recording change activity
 during the schedule, check the **In Event Recording Mode** box.
+:::
+
 
 ![PlannedChangeEventRecordingMode](/img/product_docs/changetracker/8.0/admin/wizards/plannedchangeeventrecordingmode.webp)
 ![page_guide_35](/img/product_docs/changetracker/8.0/admin/wizards/page_guide_35.webp)

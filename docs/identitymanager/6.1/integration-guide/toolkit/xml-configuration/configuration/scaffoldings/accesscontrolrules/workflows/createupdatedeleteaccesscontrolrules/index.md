@@ -25,7 +25,7 @@ The scaffolding generates the following scaffoldings:
 
 ```
 
-  <CreateUpdateDeleteAccessControlRules Profile="Administrator" EntityType="Directory_UserType"/>
+**<CreateUpdateDeleteAccessControlRules Profile="Administrator" EntityType="Directory_UserType"/>**
 
 ```
 

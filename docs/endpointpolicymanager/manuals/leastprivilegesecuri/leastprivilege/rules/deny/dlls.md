@@ -26,5 +26,5 @@ generated](/img/product_docs/endpointpolicymanager/leastprivilege/deny/denying_d
 Then you can **Deny execution** of the DLL when it is encountered.
 
 **NOTE:** Some additional details and examples can be found in the
-[How to Defend against malicious PowerShell attacks (DLLs)?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/knowledgebase/tipsforadminapproval/maliciousattacks.md)
+[How to Defend against malicious PowerShell attacks (DLLs)?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/tipsforadminapproval/maliciousattacks.md)
 topic.

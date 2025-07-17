@@ -32,7 +32,7 @@ string? BuildUsername(string? firstName, string? lastName, string? separator, st
 ```
 
 The iteration argument is usually used with the help of
-[ Build Unique Value Aspect ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md).
+[Build Unique Value Aspect](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md).
 If the iteration number is greater than 0, it is inserted after the last name.
 
 ### Example of use in a BuildUniqueValue aspect:
@@ -60,7 +60,7 @@ string? BuildUsernameWithInitials(string? firstName, string? lastName, string? s
 The `maxLength` argument limits the length of the username.
 
 The iteration argument is usually used with the help of
-[ Build Unique Value Aspect ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md).
+[Build Unique Value Aspect](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md).
 If it is greater than 0, we use several letters of the first name avoiding as much as possible to
 insert a number in the built username.
 

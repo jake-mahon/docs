@@ -11,7 +11,10 @@ limit the Deep Packet Inspection monitoring of the web traﬃc. If no Deep Packe
 URL Category is set on a policy, the Endpoint Protector Client will monitor all web domains by
 default.
 
-**CAUTION:** URL Categories only apply when the Deep Packet Inspection feature is active.
+:::warning
+URL Categories only apply when the Deep Packet Inspection feature is active.
+:::
+
 
 Blocking content based on URL categories can lead to data loss if not used correctly because it will
 restrict a policy to a few domain names. Policies must be constantly updated as new URLs need to be

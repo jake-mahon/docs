@@ -1,5 +1,5 @@
 ---
-title: "Credential Profile Page"
+title: "Credential Profile"
 description: "Credential Profile Page"
 sidebar_position: 30
 ---
@@ -23,7 +23,7 @@ select a profile from the table or under Credential Profile in the navigation pa
 See the [Reporting Module Server Requirements](/docs/threatprevention/7.5/requirements/reportingserver.md) topic for a
 list of permission requirements for each type of task.
 
-Best Practice Recommendation
+**Best Practice Recommendation**
 
 It is a best practice to:
 
@@ -75,7 +75,7 @@ view a list of the already created Credential Profiles, if any.
 
 **Step 3 –** Select a Credential Profile from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details_1.webp)
 
 Select the profile from the list to see modification optionsThe following information is displayed
 for a Credential Profile:

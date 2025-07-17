@@ -104,12 +104,11 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     "ADExport": {
 >       "Filter": "(objectclass=*)",
->       "Servers": [
->         {
+>       "Servers": [>         {
 >           "Server": "contoso.server.com",
 >           "BaseDN": "DC=contoso,DC=com"
 >         }
->       ],
+>],
 >       "AuthType": "Basic",
 >       "AsAdLds": false,
 >       "EnableSSL": true,
@@ -219,8 +218,7 @@ written to the same CSV file.
 >   ...
 >   "Connections": {
 >     "ADExport": {
->       "Servers": [
->         {
+>       "Servers": [>         {
 >           "Server": "contoso.server.com",
 >           "BaseDN": "DC=contoso,DC=com"
 >         },
@@ -228,7 +226,7 @@ written to the same CSV file.
 >           "Server": "contoso.server.com",
 >           "BaseDN": "DC=defense,DC=contoso,DC=com"
 >         }
->       ],
+>],
 >       "AuthType": "Basic",
 >       "Login": "Contoso",
 >       "Password": "ContOso$123456789",
@@ -262,12 +260,11 @@ Same as for export, fulfill is configured through connections.
 >   "Connections": {
 >     ...
 >     "ADFulfillment": {
->       "Servers": [
->         {
+>       "Servers": [>         {
 >           "Server": "contoso.server.com",
 >           "BaseDN": "DC=contoso,DC=com"
 >         }
->       ],
+>],
 >       "AuthType": "Basic",
 >       "AsAdLds": "true",
 >       "EnableSSL": true,
@@ -319,8 +316,7 @@ domain, by specifying the **Server** and **BaseDN** pairs in **Servers** for all
 >   "Connections": {
 >     ...
 >     "ADFulfillment": {
->       "Servers": [
->         {
+>       "Servers": [>         {
 >           "Server": "contoso.server.com",
 >           "BaseDN": "DC=contoso,DC=com"
 >         },
@@ -328,7 +324,7 @@ domain, by specifying the **Server** and **BaseDN** pairs in **Servers** for all
 >           "Server": "contoso.server.com",
 >           "BaseDN": "DC=defense,DC=contoso,DC=com"
 >         }
->       ],
+>],
 >       "AuthType": "Basic",
 >       "Login": "Contoso",
 >       "Password": "ContOso$123456789",

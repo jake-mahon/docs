@@ -8,9 +8,9 @@ sidebar_position: 10
 
 Follow the steps to add activities to the console.
 
-**Step 1 –** Navigate to the Activities page.
+**Step 1 –** Navigate to the **Activities** page.
 
-**Step 2 –** In the Activities list, click the Add Activity icon.
+**Step 2 –** In the Activities list, click the **Add Activity** icon.
 
 ![Add an Activity](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addactivity.webp)
 
@@ -42,7 +42,7 @@ options include:
   user is connected to by Privilege Secure
 - Logon URL — Displays the primary logon page
 
-**Step 5 –** Click Save to create the new activity.
+**Step 5 –** Click **Save** to create the new activity.
 
 **Step 6 –** With the new activity selected, configure the following settings. See the
 [Add Action Window](/docs/privilegesecure/4.2/admin/interface/activities/addaction/addaction.md) topic for additional information:

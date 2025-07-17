@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Policy Device Manager and End-User Emails to Support"
 description: "Endpoint Policy Device Manager and End-User Emails to Support"
-sidebar_position: 10
+sidebar_position: 60
 ---
 
 # Endpoint Policy Device Manager and End-User Emails to Support

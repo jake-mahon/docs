@@ -9,8 +9,11 @@ sidebar_position: 80
 The Outlook Mail Archive source configuration screen allows you to enable the crawling and
 classification of content stored in PST files:
 
-**NOTE:** If you wish to make other configuration changes before collection of the source occurs
+:::note
+If you wish to make other configuration changes before collection of the source occurs
 ensure you tick the checkbox Pause source on creation.
+:::
+
 
 ![add_outlook](/img/product_docs/dataclassification/5.7/admin/sources/exchangemailbox/add_outlook.webp)
 

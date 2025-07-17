@@ -16,7 +16,7 @@ allows to generate a default report for an entity:
 
 ```
 
-  <TargetResourceReportAccessControlRules EntityType="LDAP_Entry" Profile="Administrator"/>
+**<TargetResourceReportAccessControlRules EntityType="LDAP_Entry" Profile="Administrator"/>**
 
 ```
 

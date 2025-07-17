@@ -31,7 +31,7 @@ total, at least 8 lowercase characters, 4 uppercase characters, 2 digits and 2 s
 
 ```
 
-<PasswordResetSettings AutoGenerate="true" GeneratedLength="12" GeneratedLowerCaseCharsCount="8" GeneratedUpperCaseCharsCount="4" GeneratedDigitCharsCount="2" GeneratedSymbolCharsCount="2"/>
+**<PasswordResetSettings AutoGenerate="true" GeneratedLength="12" GeneratedLowerCaseCharsCount="8" GeneratedUpperCaseCharsCount="4" GeneratedDigitCharsCount="2" GeneratedSymbolCharsCount="2"/>**
 
 ```
 
@@ -43,7 +43,7 @@ total, at least 8 lowercase characters, 4 uppercase characters, 2 digits and 2 s
 
 ```
 
-<PasswordResetSettings AutoGenerate="true" GeneratedLength="8" GeneratedLowerCaseCharsCount="1" GeneratedUpperCaseCharsCount="1" GeneratedDigitCharsCount="1" GeneratedSymbolCharsCount="1"/>
+**<PasswordResetSettings AutoGenerate="true" GeneratedLength="8" GeneratedLowerCaseCharsCount="1" GeneratedUpperCaseCharsCount="1" GeneratedDigitCharsCount="1" GeneratedSymbolCharsCount="1"/>**
 
 ```
 
@@ -58,7 +58,7 @@ character.
 
 ```
 
-<PasswordResetSettings AutoGenerate="true" StrengthCheck="'^..........*$','^.*[0-9].*$', '^.*[a-z].*$', '^.*[A-Z].*$', '^.*[^A-Za-z0-9].*$'"/>
+**<PasswordResetSettings AutoGenerate="true" StrengthCheck="'^..........*$','^.*[0-9].*$', '^.*[a-z].*$', '^.*[A-Z].*$', '^.*[^A-Za-z0-9].*$'"/>**
 
 ```
 
@@ -82,4 +82,4 @@ character.
 | NotificationCC optional                       | **Type** String **Description** Email address to set as CC recipient of all password reset notifications.                                                                                                                                                                                                |
 | NotifiedEmailBinding optional                 | **Type** Int64 **Description** Binding to the email address property of the person to be notified.                                                                                                                                                                                                       |
 | NotifiedFullNameBinding optional              | **Type** Int64 **Description** Binding to the full name property of the person to be notified.                                                                                                                                                                                                           |
-| StrengthCheck optional                        | **Type** String **Description** Regular expression (regex) that generated passwords must match, when `AutoGenerate` is set to `true`. **Note:** the strength of passwords set manually by users can be configured via [ Password Tests Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/passwordtestssetting/index.md). |
+| StrengthCheck optional                        | **Type** String **Description** Regular expression (regex) that generated passwords must match, when `AutoGenerate` is set to `true`. **Note:** the strength of passwords set manually by users can be configured via [Password Tests Setting](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/passwordtestssetting/index.md). |

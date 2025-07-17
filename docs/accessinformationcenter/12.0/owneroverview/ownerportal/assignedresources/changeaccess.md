@@ -49,8 +49,11 @@ you type. You can also import a list of users by clicking **Import**, navigating
 and clicking **Open** to select the file. See the Import Users CSV File topic for additional
 information.
 
-**NOTE:** All users in the list will be given the same level of access. Use the **Remove** button to
+:::note
+All users in the list will be given the same level of access. Use the **Remove** button to
 remove a selected user from the list.
+:::
+
 
 **Step 4 –** When the user list is complete, select the desired access level from the drop-down
 menu.
@@ -74,18 +77,24 @@ menu.
 
 **Step 7 –** Click **Next**. The Access Information Center will begin to process the updates.
 
-_Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
+:::tip
+Remember, Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
+:::
+
 
 ![Change Resource Access wizard completed updates message](/img/product_docs/accessinformationcenter/12.0/resourceowners/ownerportal/completed.webp)
 
 **Step 8 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.
 
-**NOTE:** If an error is reported on the Commit page, it indicates the access changes could not be
+:::note
+If an error is reported on the Commit page, it indicates the access changes could not be
 made. Reach out to the Ownership Administrator. If an existing request is pending, approve the
 request on the Pending Requests tab of the Access Requests page via the **Access Requests** link on
 the Actions panel.
+:::
+
 
 The access changes that completed successfully can be viewed in the History tab of the Access
 Requests page via the **Access Requests** link on the Actions panel.
@@ -134,18 +143,24 @@ drop-down menu.
 explaining the reason for the change. Click **Next**. The Access Information Center will begin to
 process the updates.
 
-_Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
+:::tip
+Remember, Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
+:::
+
 
 ![Change Resource Access wizard completed updates message](/img/product_docs/accessinformationcenter/12.0/resourceowners/ownerportal/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.
 
-**NOTE:** If an error is reported on the Commit page, it indicates the access changes could not be
+:::note
+If an error is reported on the Commit page, it indicates the access changes could not be
 made. Reach out to the Ownership Administrator. If an existing request is pending, process the
 request on the Pending Requests tab of the Access Requests page via the **Access Requests** link on
 the Actions panel.
+:::
+
 
 The access changes that completed successfully can be viewed in the History tab of the Access
 Requests page via the **Access Requests** link on the Actions panel.

@@ -22,5 +22,8 @@ The Password Policy Client displays the password policy during a password change
 see the policy while they choose their password. The Password Policy Client also displays a detailed
 rejection message to explain why a password was rejected. Both these messages are customizable.
 
-**NOTE:** The Password Policy Client does not modify any Windows system files. It also does not send
+:::note
+The Password Policy Client does not modify any Windows system files. It also does not send
 passwords or password hashes over the network.
+
+:::

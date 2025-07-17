@@ -29,9 +29,12 @@ updates, any unplanned changes - which may be breach activity - are exposed and 
   interest.
 - Equally the Query/Report functions are the same as for the Events screen.
 
-**NOTE:** The **Show Rules** button is for non-admin users and shows a ‘read only’ view of rules.
+:::note
+The **Show Rules** button is for non-admin users and shows a ‘read only’ view of rules.
 Click alongside any Planned Change Schedule Name to display a graphical view of changes and a full
 list of devices with changes below.
+:::
+
 
 ![PlannedChangesTab](/img/product_docs/changetracker/8.0/admin/tabs/plannedchangestab.webp)
 

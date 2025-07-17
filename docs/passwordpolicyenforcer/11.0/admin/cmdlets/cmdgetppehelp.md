@@ -9,11 +9,11 @@ sidebar_position: 90
 The **Get-PPEHelp** cmdlet lists the available Password Policy Enforcer cmdlets. If a cmdlet is
 specified, returns help for the cmdlet.
 
-SYNTAX
+**SYNTAX**
 
 **Get-PPEHelp** [[__-Cmdlet__] `<_string_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-Cmdlet** `<_string_>`
 
@@ -25,31 +25,31 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> get-ppehelp get-ppehelp
 
-NAME
+**NAME**
 
 Get-PPEHelp
 
-SYNOPSIS
+**SYNOPSIS**
 
 Get a list of the PPE Cmdlet
 
-SYNTAX
+**SYNTAX**
 
 Get-PPEHelp [[-Cmdlet] `<string>`] `[<CommonParameters>]`
 
-DESCRIPTION
+**DESCRIPTION**
 
 Get a list of the PPE Cmdlet
 
-RELATED LINKS
+**RELATED LINKS**
 
 https://www.netwrix.com/password_policy_enforcer.html
 
-REMARKS
+**REMARKS**
 
 To see the examples, type: "get-help Get-PPEHelp -examples".
 
@@ -57,4 +57,4 @@ For more information, type: "get-help Get-PPEHelp -detailed".
 
 For technical information, type: "get-help Get-PPEHelp -full".
 
-For online help, type: "get-help Get-PPEHelp -online"
+**For online help, type: "get-help Get-PPEHelp -online"**

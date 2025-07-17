@@ -20,7 +20,7 @@ with a resourceType list. Then changes the provisioningState of the resources co
 
 ```
 
-<GenerateProvisioningOrdersTask Identifier="SAB_GenerateProvisioningOrder" DisplayName_L1="SAB GenerateProvisioningOrder">  <TaskResourceType ResourceType="Compte_SAB_Guest"/></GenerateProvisioningOrdersTask>
+**<GenerateProvisioningOrdersTask Identifier="SAB_GenerateProvisioningOrder" DisplayName_L1="SAB GenerateProvisioningOrder">  <TaskResourceType ResourceType="Compte_SAB_Guest"/></GenerateProvisioningOrdersTask>**
 
 ```
 

@@ -11,8 +11,11 @@ content and allows users to drill down into the data to gain visibility of where
 sensitive content is. By default, the dashboard shows all classified data. However, users can
 customize it for their needs. See Customize Dashboard for more information.
 
-**NOTE:** To review the dashboard a user requires the Access Reports permission and must have at
+:::note
+To review the dashboard a user requires the Access Reports permission and must have at
 least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
+:::
+
 
 - [User Management](/docs/dataclassification/5.7/systemconfigurationoverview/users/usermanagement.md)
 - [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/builtintaxonomies.md)
@@ -43,14 +46,20 @@ The dashboard includes the following sections:
 
 - Total processed files – shows the actual number of the classified files.
 
-    **NOTE:** Folders are not counted.
+    :::note
+    Folders are not counted.
+    :::
+
 
 - Sensitive Files – helps you identify how many files have been tagged at least once in any of
   Netwrix built-in sensitive taxonomies except for the following: File Type, File Size, Language.
   Review the [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/builtintaxonomies.md) section for the
   full list of predefined taxonomies.
 
-    **NOTE:** Custom taxonomies are not counted.
+    :::note
+    Custom taxonomies are not counted.
+    :::
+
 
 - Sensitive Files by Source (Top 5) – shows the top 5 sources that contain most of your sensitive
   data.
@@ -78,7 +87,7 @@ of the following to look after the desired metrics:
 - Apply filters to view live data instantly and narrow classifications scope at a glance
 - Save configurations to quickly access required data
 
-To apply filters
+**To apply filters**
 
 1. Select Custom view in the upper left corner of the dashboard.
 
@@ -87,7 +96,7 @@ To apply filters
 2. Select a taxonomy(-ies) and/or a source group(s) you want to see real-time data for.
 3. Click Apply Filters to immediately review classified data matching your filtering criteria.
 
-To save configuration
+**To save configuration**
 
 You can build up a few different dashboards for combinations of particular sources you are
 interested in or particular taxonomies and save this configuration to quickly access required data
@@ -99,7 +108,7 @@ later.
 
 2. Click Save Configuration.
 
-To review saved configurations
+**To review saved configurations**
 
 1. Switch to Saved view in the upper left corner of the dashboard.
 2. In the Load Saved Configurations list, select the required configuration.

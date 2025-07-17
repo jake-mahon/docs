@@ -37,7 +37,7 @@ Assign a profile based on users' dimensions by proceeding as follows:
     >
     > ```
 
-    See the [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
+    See the [Dimension](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
     additional information.
 
 2. Write profile rules and profile rule contexts to make the previously created dimensions act as
@@ -55,7 +55,7 @@ Assign a profile based on users' dimensions by proceeding as follows:
     The profile rule context must use a Sub-Binding to define the entity type that contains the
     dimension information.
 
-    See the [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
+    See the [Dimension](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
     additional information.
 
 ## Limit an Entity's Visibility
@@ -72,7 +72,7 @@ Limit an entity's visibility by proceeding as follows:
     >
     > ```
 
-    See the [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
+    See the [Dimension](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
     additional information.
 
 2. Create an access control entity type to list all the properties whose visibility must be
@@ -88,7 +88,7 @@ Limit an entity's visibility by proceeding as follows:
 
     As a result, all the properties listed in the access control entity type are hidden from users
     by default when they have the usual permissions written above. See the
-    [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
+    [Dimension](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
     additional information.
 
     To be able to see these properties, a user must have these permissions with a full access.
@@ -141,5 +141,5 @@ the profile.
 >
 > ```
 
-See the [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
+See the [Dimension](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for
 additional information.

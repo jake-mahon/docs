@@ -7,7 +7,7 @@ sidebar_position: 80
 # Privilege Elevation (aka Helper Policies)
 
 **NOTE:** See
-[Endpoint Policy Manager LPM for MacOS: Privilege Policies (for Helper Apps)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/videolearningcenter/macintegration/privilege.md)
+[Endpoint Policy Manager LPM for MacOS: Privilege Policies (for Helper Apps)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/privilege.md)
 for a video overview of this section.
 
 ## Privilege Elevation / Helper Policies Overview
@@ -67,6 +67,6 @@ The three action types on a rule are:
 - Reason — User must put in rationale code then before the task is performed.
 - Challenge — User must requests an Admin Approval code for the task to be accepted and performed.
   See
-  [Endpoint Policy Manager for Mac and Admin Approval](/docs/endpointpolicymanager/video/leastprivilege/mac/adminapproval.md)
+  [Endpoint Policy Manager for Mac and Admin Approval](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/adminapproval.md)
   for additional information on this topic.
 - Credentials — User must re-enter credentials for the task to be performed

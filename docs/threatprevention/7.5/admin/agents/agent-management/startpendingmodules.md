@@ -12,11 +12,14 @@ deployed. This happens due to a change in the DLL versions. To exit this state, 
 Prevention administrator must start the Active Directory module. See the
 [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.
 
-**_RECOMMENDED:_** If multiple DCs are in the Start Pending Modules state, this means one of the
+:::info
+If multiple DCs are in the Start Pending Modules state, this means one of the
 monitored system DLLs was changed from when the Agent was last run. This could impact the operation
 of the Agent. It is recommended to enable the pending modules on one DC initially and verify that
 Threat Prevention is collecting events as expected from this specific DC and that the DC appears to
 be stable before starting the pending modules on additional DCs.
+:::
+
 
 Follow the steps to start pending modules on a server.
 

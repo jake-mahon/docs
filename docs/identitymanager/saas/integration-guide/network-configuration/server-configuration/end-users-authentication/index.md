@@ -16,7 +16,7 @@ methods and External methods.
 It is highly recommended that you use an External method. Internal methods are mostly used for
 debug, test and development purposes.
 
-Internal methods
+**Internal methods**
 
 The Internal methods use Identity Manager Server's internal authentication server. They rely on one
 of these Identity Server User Stores:
@@ -24,7 +24,7 @@ of these Identity Server User Stores:
 - Test User Store, used in development environments.
 - Active Directory User Store, using an Active Directory to authenticate.
 
-External methods
+**External methods**
 
 External methods use external authentication providers.
 
@@ -39,7 +39,7 @@ The types of authentication providers supported by Identity Manager are:
 - [SAML2](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html)
 - [Integrated Windows Authentication (IWA)](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication)
 
-Using more than one provider
+**Using more than one provider**
 
 For each authentication method, one or several authentication providers can be set up. If several
 authentication providers are set up, end-users will be prompted to choose their preferred method of
@@ -78,7 +78,7 @@ The archive is set using the following attributes on the appsettings > IdentityS
 - X509KeyFilePassword (optional) is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive
   password.
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -103,7 +103,7 @@ appsettings > IdentityServer section:
 | X509StoreLocation required                                         | Sets the Relevant Windows certificate store's location: `LocalMachine` or `CurrentUser`. |
 | X509StoreName required                                             | Sets the relevant Windows certificate store's name.                                      |
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -117,12 +117,15 @@ script in the command line.
 
 ```
 
-**NOTE:** Identity Manager Server won't start if the
+:::note
+Identity Manager Server won't start if the
 [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive set up during this step is identical to
 the one provided with the SDK. Users must provide their own certificate. Self-signed certificates
 are accepted as valid. See
 the[Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md)topic for
 additional information.
+:::
+
 
 ## Configuration Section Description
 
@@ -182,18 +185,21 @@ to enable Identity Manager's testers to identify which authentication method is 
 in the code, with a mnemonic name. Any name can be used as long as all AuthenticationSchemes are
 different.
 
-**NOTE:** This guide doesn't cover how to set up authorizations within Identity Manager.
+:::note
+This guide doesn't cover how to set up authorizations within Identity Manager.
 Authorization for an end-user to access Identity Manager resources relies on assigning roles to
 profiles. Identity credentials used for authentication must be linked to these profiles in the
-applicative configuration. See the [ Various XML Settings ](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)topic for
+applicative configuration. See the [Various XML Settings](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)topic for
 additional information.
+:::
+
 
 Authentication-related settings are done through the following sections of the appsettings set:
 
 - IdentityServer
 - Authentication
 
-See the[ Architecture ](/docs/identitymanager/saas/integration-guide/architecture/index.md)topic for additional information.
+See the[Architecture](/docs/identitymanager/saas/integration-guide/architecture/index.md)topic for additional information.
 
 ### Identity Server
 
@@ -250,8 +256,11 @@ retrieves identity credentials from the Windows session where the user is logged
 to the domain controller for authentication. The domain controller confirms the user's identity and
 validates it for Identity Manager. The end-user doesn't have to input any credentials.
 
-**NOTE:** If Integrated Windows Authentication is used, internal methods have to be disabled with
+:::note
+If Integrated Windows Authentication is used, internal methods have to be disabled with
 the `"AllowLocalLogin":false` setting.
+:::
+
 
 ### Requirements
 
@@ -299,11 +308,11 @@ Integrated Windows Authentication is configured using the following sections:
 One or several OpenID Connect authentication providers can be set up under the Authentication >
 OpenId section.
 
-Multiple providers
+**Multiple providers**
 
 One or several OpenID Connect authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using an OpenID Connect authentication requires the Identity Manager Server to be registered to the
 provider. A ClientID and a ClientSecret are issued as a result of the registration process. They
@@ -312,7 +321,7 @@ both allow Identity Manager to identify itself to the authentication provider.
 of how to register Identity Manager to an Microsoft Entra ID (formerly Microsoft Azure AD) used as
 OpenID Connect provider.
 
-Callback URL
+**Callback URL**
 
 The target OpenID Connect provider needs to be aware of the URI where to send the authentication
 token if the authentication succeeds. Depending on the provider, it is called a callback URL, a
@@ -324,18 +333,18 @@ Identity Manager's callback URL for OpenID Connect is `<usercube-server-address>
 `<usercube-server-address>` is the address of your Identity Manager Server such as
 `https://identitymanager.contoso.com`.
 
-Authority
+**Authority**
 
 An OpenID Connect provider is identified by its Authority, according to the
 [OpenID ](https://openid.net/connect/)Connect specifications.
 
-NameClaimType
+**NameClaimType**
 
 To authorize an end-user, Identity Manager Server retrieves a specific claim (a key-value pair,
 transmitted through the OIDC-issued JWT token) returned by the provider and looks for a resource
 that matches this claim's value. The comparison is carried out according to the resource and
 property set as the end-user's identity in the applicative configuration. See the
-[ Select User by Identity Query Handler Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)
+[Select User by Identity Query Handler Setting](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)
 
 The name of the claim that is retrieved for this purpose defaults to `sub` which is one of the
 standard
@@ -346,8 +355,11 @@ Claim names.
 For this reason, the name of the claim that is retrieved by Identity Manager for authorization
 purposes can be set up according to the provider's specifics.
 
-**NOTE:** Users should be able to get a list of the claim names used by their authentication
+:::note
+Users should be able to get a list of the claim names used by their authentication
 providers from their providers' portal website, documentation or administrators.
+:::
+
 
 For example, the following claim provides no meaningful `sub` value.
 
@@ -399,7 +411,7 @@ Under the new subsection, the following parameters are used to configure the aut
 | ClientId required                        | String  | Is the Client ID issued during the registration of Identity Manager to the chosen OpenID Connect provider.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ClientSecret required                    | String  | Is the Client Secret issued during the registration of Identity Manager to the chosen OpenID Connect provider.                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Authority required                       | String  | This URL identifies the OpenID Connect provider for Identity Manager according to the [OpenID Connect specifications](https://openid.net/connect/). It can be retrieved from the target OpenID Connect provider documentation. For example, [Microsoft's documentation ](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)indicates the Microsoft Identity Platform OpenID Connect[ ](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)authority. |
-| NameClaimType optional                   | String  | Sets the type of the claim that will be retrieved by Identity Manager to identify the end-user. The retrieved claim will be compared against the resource and property set as the end-user's identity in the applicative configuration. See the [ Select User by Identity Query Handler Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)topic for additional information.                                                                           |
+| NameClaimType optional                   | String  | Sets the type of the claim that will be retrieved by Identity Manager to identify the end-user. The retrieved claim will be compared against the resource and property set as the end-user's identity in the applicative configuration. See the [Select User by Identity Query Handler Setting](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)topic for additional information.                                                                           |
 | Scopes optional                          | String  | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes). By default, the requested scopes are: openid, profile and email.                                                                                                                                                                                                                                                                                                                                                      |
 | SaveTokens default value: false          | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/saas/integration-guide/network-configuration/how-tos/okta/index.md)topic for additional information.                                                                                                                                                                                                                                                                                                                                               |
 | MetadataAddress optional                 | String  | URL address of a copy of the metadata, used when the authority metadata cannot be accessed from the Identity Manager server, for example because of a firewall.                                                                                                                                                                                                                                                                                                                                                     |
@@ -407,7 +419,7 @@ Under the new subsection, the following parameters are used to configure the aut
 | ResponseMode optional                    | String  | Response mode for OpenIdConnect. - Query - FormPost - Fragment [See OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html).                                                                                                                                                                                                                                                                                                                                                                   |
 | ResponseType optional                    | String  | Response type for OpenIdConnect. - Code - CodeIdToken - CodeIdTokenToken - CodeToken - IdToken - IdTokenToken - None - Token See examples in the [OpenId documentation.](https://openid.net/specs/openid-connect-core-1_0.html#openid-documentation)                                                                                                                                                                                                                                                                |
 
-Example
+**Example**
 
 This example configures an OpenId Connect authority located at
 [https://login.microsoftonline.com/bbd35166-7c13-49f3-8041-9551f2847b69](https://login.microsoftonline.com/bbd35166-7c13-49f3-8041-9551f2847b69).
@@ -450,11 +462,11 @@ script in the command line.
 One or several OAuth authentication providers can be set up under the authentication > OAuth
 section.
 
-Multiple providers
+**Multiple providers**
 
 One or several OAuth authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using an OAuth authentication requires Identity Manager Server to be registered to the provider. A
 ClientID and a ClientSecret are issued as a result of the registration process. They both allow
@@ -501,7 +513,7 @@ Each section is configured with the following settings:
 | SaveTokens default value: false | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/saas/integration-guide/network-configuration/configure-okta/index.md)topic for additional information.                                                                                                                                                                                                                              |
 | Scope optional                  | String  | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes).                                                                                                                                                                                                                                                                                                      |
 
-Example
+**Example**
 
 The following example configures an OAuth-based authentication provider identified as
 OAuthContoso_Washington in the configuration file.
@@ -548,11 +560,11 @@ One or several WS-Federation authentication providers can be set up under the au
 WsFederation subsection. Examples of WS-Federation providers include Active Directory Federation
 Services (ADFS) and Microsoft Entra ID (AAD).
 
-Multiple providers
+**Multiple providers**
 
 One or several WS-Federation authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using a WS-Federation authentication requires Identity ManagerServer to be registered to the
 provider. A Wtrealm value is set up during the registration process. The value can be generated by
@@ -566,7 +578,7 @@ itself to the authentication provider. Here are two examples of registration pro
   [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id)
   provider
 
-Callback URL
+**Callback URL**
 
 The target WS-Federation provider needs to be aware of the URI where to send the authentication
 token if the authentication succeeds. Depending on the provider, it is called a callback URL, a
@@ -578,7 +590,7 @@ Identity Manager's callback URL for WS-Federation is
 `<Identity Manager-server-address>`/signin-wsfed where `<usercube-server-address>` is the address of
 your Identity Manager Server such as https://identitymanager.contoso.com.
 
-Encryption algorithm
+**Encryption algorithm**
 
 The nature of the encryption algorithm used for exchanging the sign-in key with the provider is
 automatically negotiated between Identity Manager Server and the authentication server. The most
@@ -605,7 +617,7 @@ Each section is configured with the following settings:
 | DisplayName optional          | Is the provider display name. Chosen by the user, it is used in the UI to identify the authentication method.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | AuthenticationScheme required | Is the unique identifier of this authentication method within Identity Manager. Any string value can be used, unique among all authentication methods.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-Example
+**Example**
 
 This example configures a WS-Federation-based authentication provider identified as
 WsFederationContoso_LA in the configuration file.
@@ -643,11 +655,11 @@ section.
 
 Identity Manager does not provide a signature for SAML2 authentication.
 
-Multiple providers
+**Multiple providers**
 
 One or several **SAML2** authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using a **SAML2** authentication requires Identity Manager Server to be registered to the provider.
 An **Entity ID URI** value is set up for Identity Manager during the registration process. It is
@@ -655,7 +667,7 @@ used as the prefix for scopes and as the value of the audience claim in access t
 be generated by the provider, or set manually as a URL-shaped string value. This allows Identity
 Manager to identify itself to the authentication provider.
 
-Reply URL
+**Reply URL**
 
 The target **SAML2** provider needs to be aware of the URI where to send the authentication token if
 the authentication succeeds. This URI is called **Reply URL** or **Assertion Consumer Service (ACS)
@@ -669,7 +681,7 @@ https://identitymanager.contoso.com.
 
 Make sure to enter this exact URL which is treated case sensitively.
 
-Configuration
+**Configuration**
 
 First, the SAML2 method must be enabled under the authentication > SAML2 section.
 
@@ -736,7 +748,10 @@ This information can be set one of two ways:
   identified by SubjectDistinguishedName or by Thumbprint. The Windows certificate also contains
   both the public key certificate and the private key.
 
-_Remember,_ Netwrix recommends using Windows' certificate store.
+:::tip
+Remember, Netwrix recommends using Windows' certificate store.
+:::
+
 
 On the other hand, the PFX file takes priority over Windows' certificate, which means that when
 `File` is specified then the PFX certificate is used, even if the options for Windows' certificate
@@ -744,9 +759,12 @@ are specified too.
 
 In both ways, missing and/or incorrect settings trigger an error and no certificate is loaded.
 
-_Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
+:::tip
+Remember, the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
 Manager server loads the encryption certificate from Azure Key Vault only if the AzureKeyVault and
 EncryptionCertificate are defined at the same level in the configuration file.
+:::
+
 
 #### As a PFX file
 
@@ -774,7 +792,7 @@ The archive is set using the following attributes:
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged. It
 should always be encrypted using the Identity Manager-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 The archive is set using the following attributes:
@@ -817,9 +835,12 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 Vault connection. See the [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 topic for additional information.
 
-_Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
+:::tip
+Remember, the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
 Manager server loads the encryption certificate from Azure Key Vault only if the AzureKeyVault and
 EncryptionCertificate are defined at the same level in the configuration file.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -849,7 +870,7 @@ script in the command line.
 
 When Internal Methods is enabled, the end-user is prompted via a form to input a login and a
 password. The login to be used is defined within the applicative configuration's Select User By
-Identity Query Handler Setting element. See the [ Various XML Settings ](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)
+Identity Query Handler Setting element. See the [Various XML Settings](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)
 topic for additional information.
 
 First, the AllowLocalLogin parameter needs to be set to true in the Authentication section.
@@ -990,7 +1011,10 @@ method.
 A Test User Store can be set up under the authentication > TestUserStore section. It allows all
 users to authenticate with their login and the same password.
 
-_Remember,_ this should never be used in a production environment.
+:::tip
+Remember, this should never be used in a production environment.
+:::
+
 
 The following parameters are available under the authentication > TestUserStore section:
 
@@ -999,7 +1023,7 @@ The following parameters are available under the authentication > TestUserStore 
 | Enabled required  | Boolean | Enables or disables the OpenId Connection.                      |
 | Password required | String  | Is the password for all users to authenticate Identity Manager. |
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

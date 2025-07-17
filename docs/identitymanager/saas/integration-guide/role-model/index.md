@@ -11,7 +11,7 @@ It is composed mainly of roles, representing entitlements, and rules, enforcing 
 assignment policies.
 
 Make sure to read the introduction on entitlement management first. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic
+[Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic
 for additional information.
 
 ## Roles
@@ -31,7 +31,7 @@ In this way, the role model can be seen as a
 ## Assignment Rules
 
 An
-[ Automate Role Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+[Automate Role Assignments](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
 gives an entitlement to a user, usually based on (at least) one criterion from the user's data.
 Assignment rules are:
 

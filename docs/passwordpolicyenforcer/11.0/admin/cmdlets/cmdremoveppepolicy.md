@@ -8,11 +8,11 @@ sidebar_position: 180
 
 The **Remove-PPEPolicy** cmdlet removes a Password Policy Enforcer policy.
 
-SYNTAX
+**SYNTAX**
 
 **Remove-PPEPolicy** **-PolicyName**] `<_string_>` [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-PolicyName** `<_string_>`
 
@@ -24,8 +24,8 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Remove-PPEPolicy -PolicyName Test
 
-PS C:\>
+**PS C:\>**

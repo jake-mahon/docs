@@ -45,17 +45,22 @@ Follow the steps to verify the OpenID Connect configuration:
 
     [protocol]//[hostname]:[port]
 
-**CAUTION:** In the next step, verify that the Sign In page displays as expected, but do NOT sign in
+:::warning
+In the next step, verify that the Sign In page displays as expected, but do NOT sign in
 at this step.
+:::
+
 
 **Step 4 –** Click Test Connection to verify the connection configuration. This opens the Sign In
 page in the browser. Do NOT sign in.
 
 - If the Sign In page does not display as expected, review the values configured for the OpenID
   Connect connector and modify them where needed. Then, verify the Sign In page again.
-- **NOTE:** When configuring OpenID Connect for Okta, it may be necessary to ensure that the Grant
+:::note
+ When configuring OpenID Connect for Okta, it may be necessary to ensure that the Grant
   type in Okta is set to Implicit (hybrid) and the sub-settings Allow ID Token with implicit grant
   type and Allow Access Token with implicit grant type are both enabled.
+  :::
 
 **Step 5 –** Click the browser’s back arrow to return to the Configure Client wizard page.
 
@@ -110,9 +115,12 @@ from the provider and will vary:
   the previous step. This represents the format of the value that will be used to sign in to the MFA
   during log in.
 
-    **NOTE:** These are not the credentials that will be used during the login process; only an
+    :::note
+    These are not the credentials that will be used during the login process; only an
     example of the format of those credentials. The actual credentials used are unique to each user
     and are setup during the MFA registration process for that user.
+    :::
+
 
 **Step 11 –** Select a field to use for the User Id Field and click Select.
 

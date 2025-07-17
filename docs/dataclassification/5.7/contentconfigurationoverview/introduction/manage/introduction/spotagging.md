@@ -15,7 +15,7 @@ To configure tagging for your SharePoint source, you should first check the prer
 preparatory steps described below. Then you will be able to launch a specially designed SharePoint
 Tagging Wizard.
 
-To check the prerequisites
+**To check the prerequisites**
 
 1. Make sure you have set up the necessary term sets as described in
    [this Microsoft article](https://docs.microsoft.com/en-us/sharepoint/set-up-new-term-set).
@@ -32,7 +32,7 @@ To check the prerequisites
    SharePoint. It also creates the necessary event handlers to keep the classification up to date as
    new documents are added and existing documents are edited.
 
-To configure tagging using the wizard
+**To configure tagging using the wizard**
 
 1. Click on the app to start the **SharePoint Tagging wizard**.
 

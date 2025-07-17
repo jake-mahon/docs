@@ -10,7 +10,7 @@ sidebar_position: 30
 
 ```
 
-  <UpdateResourcesMenus EntityType="HR_Person"/>
+**<UpdateResourcesMenus EntityType="HR_Person"/>**
 
 ```
 

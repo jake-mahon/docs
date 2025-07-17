@@ -53,12 +53,13 @@ Integrators may need the help of the HR department who knows the organization in
 identity and organizational data. After the initial loading, the HR department can review the data
 to confirm its accuracy.
 
-| Input                                                                                 | Output                       |
-| ------------------------------------------------------------------------------------- | ---------------------------- |
-| IdentityManagerServer (required) HR data (required) Third-party staff data (optional) | Initial workforce repository |
+| Input                                     | Output                       |
+| ----------------------------------------- | ---------------------------- |
+| IdentityManagerServer (required)          | Initial workforce repository |                   
+HR data (required)                          |                              |
+Third-party staff data (optional)           |                              |
 
-See the [Install the Development Environment](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
-topic for additional information
+See the [Install the Development Environment](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md) topic for additional information.
 
 ## Load Identities
 
@@ -82,9 +83,7 @@ Load identities for the first time by proceeding as follows:
     Workforce should include obviously all current workers, but also incoming workers, and those who
     left the organization in the past XXX (time period defined by the rules of the security
     officer). It is interesting to have past workers in order to understand the process and ensure
-    that they are supposed to be orphaned. See the
-    [Review Orphaned and Unused Accounts](/docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/index.md)
-    topic for additional information.
+    that they are supposed to be orphaned. See the [Review Orphaned and Unused Accounts](/docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/index.md) topic for additional information.
 
     **Employees**
 
@@ -106,8 +105,7 @@ Load identities for the first time by proceeding as follows:
 4. Fill said template with the data you collected.
 
     The Excel file contains several tabs which organize data, but not all tabs and columns are
-    mandatory. You can find **more details about the
-    [Template Description](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/template-description/index.md)**. Below are the minimum recommended
+    mandatory. You can find **more details about the [Template Description](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/template-description/index.md)**. Below are the minimum recommended
     attributes (mandatory in orange):
 
     ![Template Recommendations](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.webp)
@@ -140,8 +138,7 @@ Load identities for the first time by proceeding as follows:
 
     1. Upload the `Directory.xlsx` file with only recommended data, validate and synchronize as
        explained on this page.
-    2. Connect the AD, synchronize AD data, update correlation and classification. See the
-       [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
+    2. Connect the AD, synchronize AD data, update correlation and classification. See the [Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
     3. Follow the usual query procedure to request phone numbers from the AD.
     4. Ensure you display a key (for example `EmployeeId` or `email`) to master the order of the
        displayed data.

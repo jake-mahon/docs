@@ -13,7 +13,7 @@ naming conventions.
 
 ```
 
-  <RoleNamingAccessControlRules Profile="Administrator"/>
+**<RoleNamingAccessControlRules Profile="Administrator"/>**
 
 ```
 

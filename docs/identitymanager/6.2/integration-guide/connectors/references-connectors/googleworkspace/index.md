@@ -9,7 +9,7 @@ sidebar_position: 70
 This connector exports and fulfills users and groups from/to a
 [Google Workspace](https://developers.google.com/workspace) instance.
 
-This page is about [ Google Workspace ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/googleworkspace/index.md).
+This page is about [Google Workspace](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/googleworkspace/index.md).
 
 ![Package: Directory/Google Workspace](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
 
@@ -34,8 +34,11 @@ Implementing this connector requires:
     [Google's documentation](https://developers.google.com/workspace/guides/create-credentials#googles-documentation)
     Google's documentation to create the service account with the right impersonation.
 
-    _Remember,_ Google's documentation describes this procedure as optional, while the Google
+    :::tip
+        Remember, Google's documentation describes this procedure as optional, while the Google
     Workspace connector requires it.
+    :::
+
 
 ## Export
 
@@ -45,7 +48,7 @@ and write the output to CSV files.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -166,7 +169,7 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
+[RSA Encryption](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
 a
 [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
 

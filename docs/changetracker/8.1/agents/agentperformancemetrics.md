@@ -44,8 +44,11 @@ Operating System: Ubuntu Server 22.04 LTS
 - Memory: 2GB
 - Hard Disk Space: 10 GB
 
-**NOTE:** All VMs were hosted on AWS. The specs above were sufficient enough for the tests performed
+:::note
+All VMs were hosted on AWS. The specs above were sufficient enough for the tests performed
 and the results may differ depending on the production specs assigned within your environment.
+:::
+
 
 ## Results
 

@@ -8,12 +8,12 @@ sidebar_position: 10
 
 The **Connect-PPE** cmdlet establishes a connection to the PPE Server.
 
-SYNTAX
+**SYNTAX**
 
 **Connect-PPE** [[__-Local__] `<_SwitchParameter_>`] [[__-Domain__] `<_string_>`]
 [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-Domain** `<_string_>`
 
@@ -30,7 +30,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **OutVariable**. For more information, see about_CommonParameters
 [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Connect-PPE -d "DCNAME1.COMPANY.COM"
 

@@ -29,9 +29,12 @@ display all settings.
 
 ## Authentication type: Modern authentication
 
-**NOTE:** For Email Address / Password, the Administrator account that has been assigned the right
+:::note
+For Email Address / Password, the Administrator account that has been assigned the right
 of the Discovery Management role and be given the Mailbox Search and MailboxSearchApplication
 permissions.
+:::
+
 
 If you plan to use this authentication type, specify the following:
 
@@ -60,8 +63,9 @@ The following settings are also required in both cases:
 | Option           | Description                                                                                                                                                                                                                                                                                                                                                                       |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Exchange API URL | By default, the crawling engine will attempt to locate the necessary URL of Exchange Web Services API by using the _Exchange AutoDiscover_ functionality. So, typically, you can leave this field blank. If, however, the _Exchange AutoDiscover_ is not available, then you should specify the Exchange API URL explicitly as follows: `https://<servername>/EWS/Exchange.asmx`. |
-| Crawl Range      | Define what portions of data should be retrieved from the Exchange server: - Select **Date Range** to crawl a static set of data within the required interval. - Select **Since** if you want to periodically re-crawl content from the specified date, taking into account the last crawl date for each artifact.                                                                |
+| Crawl Range      | Define what portions of data should be retrieved from the Exchange server: <ul><li>Select **Date Range** to crawl a static set of data within the required interval.</li><li>Select **Since** if you want to periodically re-crawl content from the specified date, taking into account the last crawl date for each artifact.</li></ul>                                          |
 | Match Rules      | Define which mailboxes will be crawled as part of an Exchange Server source. Examples: 1. `.*@netwrix.com`— enter the wildcard (\*) and the domain (here `netwrix.com`) to restrict crawling to a set of domain mailboxes 2. `.*`—enter if you want all mailboxes to be crawled                                                                                                   |
 | Detection Period | Specify how often the source should be checked for changes. Default period is 1 day.                                                                                                                                                                                                                                                                                              |
+
 
 Having specified all the necessary settings, click the **Save** button.

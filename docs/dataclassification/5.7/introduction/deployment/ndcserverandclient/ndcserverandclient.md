@@ -17,10 +17,13 @@ information, refer to [Hardware Requirements](/docs/dataclassification/5.7/intro
 IIS server role must be enabled on the target machine. For more information, refer to
 [Software Requirements](/docs/dataclassification/5.7/introduction/requirements/softwarerequirements.md).
 
-**NOTE:** For evaluation and PoC purposes, Netwrix provides a _virtual appliance_ — a virtual
+:::note
+For evaluation and PoC purposes, Netwrix provides a _virtual appliance_ — a virtual
 machine image with pre-installed Netwrix Data Classification on Generalized Windows Server 2016
 (180-day evaluation version) and Microsoft SQL Server 2017 Express. For details, see
 [Requirements to Deploy Virtual Appliance](/docs/dataclassification/5.7/introduction/virtualappliance/systemrequirements.md).
+:::
+
 
 Remember that for production environments, your NDC Server and database server must meet the
 [Requirements to Install Netwrix Data Classification](/docs/dataclassification/5.7/introduction/requirements/overview.md). Virtual

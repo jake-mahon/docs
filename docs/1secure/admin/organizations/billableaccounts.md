@@ -11,8 +11,11 @@ Directory/Microsoft Entra ID (formerly Azure AD) accounts for your organization.
 these accounts (in numbers and percentage from total numbers of served users) in the Users column on
 the main dashboard of your Home page.
 
-**NOTE:** To view the numbers of the column, your organization should add the Active
+:::note
+To view the numbers of the column, your organization should add the Active
 Directory/Microsoft Entra ID sources and connectors.
+:::
+
 
 You can review the Active Directory/Microsoft Entra ID users on the following dashboards:
 

@@ -25,7 +25,10 @@ See next:
 - [Step 3. Specify Conditions for Processing](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/manage/addworkflowwizard/step3specifyconditions.md)
 - [Step 4. Enter Name and Review Settings](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/manage/addworkflowwizard/step4setnameandenable.md)
 
-**NOTE:** Once created you will be able to modify the workflow using the **Advanced** dialog.
+:::note
+Once created you will be able to modify the workflow using the **Advanced** dialog.
+:::
+
 
 Alternatively, take steps 1-3 from the procedure above, then in the **Add Workflow** dialog click
 **Advanced**. See [Configure a Workflow using Advanced dialog](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/actions/availableactions/createworkflow.md)

@@ -12,7 +12,7 @@ Any resource type mapping must be configured with the same identifier as the rel
 
 ```
 
-<ManualProvisioningResourceTypeMapping Identifier="Access_Badge_Nominative" Connection="AccessManual" TicketSynchroIsNotAvailable="true"/>
+**<ManualProvisioningResourceTypeMapping Identifier="Access_Badge_Nominative" Connection="AccessManual" TicketSynchroIsNotAvailable="true"/>**
 
 ```
 

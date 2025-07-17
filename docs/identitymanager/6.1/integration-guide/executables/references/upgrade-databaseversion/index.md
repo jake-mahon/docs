@@ -16,7 +16,7 @@ folder of the newest version and launch the tool with the following argument:
 
 ```
 
-./identitymanager-Upgrade-DatabaseVersion.exe --connection-string "databaseConnectionString"
+**./identitymanager-Upgrade-DatabaseVersion.exe --connection-string "databaseConnectionString"**
 
 ```
 
@@ -30,7 +30,7 @@ The following example runs the database upgrade tool only for backward compatibl
 
 ```
 
-./identitymanager-Upgrade-DatabaseVersion.exe --connection-string "databaseConnectionString" --mode BackwardCompatibleChanges
+**./identitymanager-Upgrade-DatabaseVersion.exe --connection-string "databaseConnectionString" --mode BackwardCompatibleChanges**
 
 ```
 
@@ -42,7 +42,7 @@ useful only when specifying `--mode BackwardCompatibleChanges`.
 
 ```
 
-./identitymanager-Upgrade-DatabaseVersion.exe --connection-string "databaseConnectionString" --mode BackwardCompatibleChanges --execute-predefined
+**./identitymanager-Upgrade-DatabaseVersion.exe --connection-string "databaseConnectionString" --mode BackwardCompatibleChanges --execute-predefined**
 
 ```
 

@@ -6,29 +6,21 @@ sidebar_position: 20
 
 # Reconcile a Property
 
-How to review unreconciled properties. The aim is to handle the differences between the property
-values from the managed systems and those computed by Identity Manager according to
-[ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md).
+How to review unreconciled properties. The aim is to handle the differences between the property values from the managed systems and those computed by Identity Manager according to [Create a Provisioning Rule](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md).
 
 ## Overview
 
-Unreconciled properties are considered as non-conforming assignments because Identity Manager's role
-model has computed property values that are different from the values in the managed systems.
+Unreconciled properties are considered as non-conforming assignments because Identity Manager's role model has computed property values that are different from the values in the managed systems.
 
 ### Property reconciliation with role reconciliation
 
 For some managed systems, roles are tightly linked to navigation properties.
 
-> For example, the AD hosts groups for various applications, and a role is assigned through a group
-> membership. An entitlement can be assigned to an identity by adding said identity's DN to the
-> `member` property of the appropriate group. Identity Manager translates it by editing the
-> identity's `memberOf` property with the new group.
+> For example, the AD hosts groups for various applications, and a role is assigned through a group > membership. An entitlement can be assigned to an identity by adding said identity's DN to the `member` property of the appropriate group. Identity Manager translates it by editing the identity's `memberOf` property with the new group.
 
-In this case, when a role is assigned in the managed system without an existing rule that justifies
-the role, then new items appear on the **Role Reconciliation**and the **Resource Reconciliation**
-screens.
+In this case, when a role is assigned in the managed system without an existing rule that justifies the role, then new items appear on the **Role Reconciliation**and the **Resource Reconciliation** screens.
 
-> In the case of the AD example, consider that we want to assign a specific role in SAP. Then, we
+> In the case of the AD example, consider that we want to assign a specific role in SAP. Then, we 
 > find the corresponding group in the AD and add the identity's DN to its `member` property.
 >
 > The result is a new item on the **Role Reconciliation** screen for said SAP role, plus an item on
@@ -173,5 +165,4 @@ the current values for several resources simultaneously.
 
 ## Verify Property Reconciliation
 
-In order to verify the process, check that the changes you ordered appear on the corresponding
-user's page in the directory.
+In order to verify the process, check that the changes you ordered appear on the corresponding user's page in the directory.

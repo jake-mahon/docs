@@ -14,7 +14,7 @@ MicrosoftEntraID�). This right corresponds to the permission to use ResourceTy
 
 ```
 
-  <ResourceTypeMappingControlRules Profile="Administrator"/>
+**<ResourceTypeMappingControlRules Profile="Administrator"/>**
 
 ```
 

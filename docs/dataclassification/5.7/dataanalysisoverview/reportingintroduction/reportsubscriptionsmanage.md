@@ -46,7 +46,7 @@ the left.
 
 ![reporttemplates](/img/product_docs/dataclassification/5.7/admin/reporting/reporttemplates.webp)
 
-To save a report configuration template
+**To save a report configuration template**
 
 1. Select the report you need.
 2. Specify the necessary properties (e.g., grouping settings) and apply filters (e.g., to only

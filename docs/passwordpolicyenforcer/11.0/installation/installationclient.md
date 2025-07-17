@@ -48,9 +48,12 @@ and clicking the **Change a password** item. If you do not see the password poli
 because a Password Policy Enforcer policy has not been assigned to you, or because the firewall
 rules have not been created.
 
-**NOTE:** The Password Policy Client does not store or send passwords or password hashes over the
+:::note
+The Password Policy Client does not store or send passwords or password hashes over the
 network. An attacker cannot determine user passwords by sniffing the communication protocol. The
 protocol is also encrypted by default for additional protection.
+:::
+
 
 ## Creating Firewall Rules for the Password Policy Client
 
@@ -72,7 +75,10 @@ the Domain Controllers OU.
 
 **Step 2 –** Right-click the **Password Policy Enforcer GPO**, and then click **Edit...**.
 
-**NOTE:** You need to create the GPO if you chose the Express Setup option.
+:::note
+You need to create the GPO if you chose the Express Setup option.
+:::
+
 
 **Step 3 –** Expand the **Computer Configuration**, **Policies**, **Administrative Templates**,
 **Network**, **Network Connections**, and **Windows Firewall** items.
@@ -121,5 +127,8 @@ Password Policy Client:
 | Destination address | Client Computer IP address   |
 | Destination port    | Any                          |
 
-**NOTE:** If your firewall performs Stateful Packet Inspection, then only create a rule for the
+:::note
+If your firewall performs Stateful Packet Inspection, then only create a rule for the
 request datagram as the firewall automatically recognizes and allows the response datagram.
+
+:::

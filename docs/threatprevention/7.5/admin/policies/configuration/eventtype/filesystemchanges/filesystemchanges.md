@@ -1,5 +1,5 @@
 ---
-title: "File System Changes Event Type"
+title: "File System Changes"
 description: "File System Changes Event Type"
 sidebar_position: 110
 ---
@@ -27,8 +27,11 @@ target file system. The policy monitors the path/collection from the Agent used 
 Agent is indicated in the parenthesis after the path/collection. The path/collection can be
 monitored by other Agents that you can select on the Additional Agents filter.
 
-**NOTE:** Any files or folders to be excluded need to be a subset of a folder identified in the
+:::note
+Any files or folders to be excluded need to be a subset of a folder identified in the
 Include Paths section.
+:::
+
 
 If no path is provided, an error message is displayed when the policy is enabled: The policy must
 have at least one path defined.
@@ -67,7 +70,7 @@ by the policy.
 
 ![Policy window - File System filter for monitoring](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystem.webp)
 
-Access Operations area
+**Access Operations area**
 
 In the Access Operations area, check the **All** box at the top to include all operations or select
 specific operations:
@@ -78,7 +81,7 @@ specific operations:
 - Delete
 - Rename
 
-Property Operations area
+**Property Operations area**
 
 In the Property Operations area, check the **All** box at the top to include all operations or
 select specific operations:
@@ -88,7 +91,7 @@ select specific operations:
 - Audit (SACL)
 - Owner
 
-Share Operations area
+**Share Operations area**
 
 In the Share Operations area, check the **All** box at the top to include all operations or select
 specific operations:
@@ -98,7 +101,7 @@ specific operations:
 - Update
 - Permission change
 
-I/O Type area
+**I/O Type area**
 
 In the I/O Type area, check the **All** box at the top to include all types or select specific
 types:
@@ -112,18 +115,21 @@ types:
 
   - Only applies to Read and Create Access Operations
 
-Wildcards area
+**Wildcards area**
 
 The **Wildcards** boxes are to scope the policy using an asterisk (\*) or question mark (?) as the
 wildcard. Files that match the wildcard in the include box are monitored. Files that match the
 wildcard in the exclude box are ignored.
 
-_Remember,_ adding an include filter scopes the policy to monitor only matching files. Adding an
+:::tip
+Remember, adding an include filter scopes the policy to monitor only matching files. Adding an
 exclude filter scopes the policy to monitor all files that do not match. If both include and exclude
 filters are applied to a single policy, the exclude filter takes precedence. If the boxes are left
 blank, all files are monitored according to all the policy filter selections.
+:::
 
-Enable Automatic Lockdown option
+
+**Enable Automatic Lockdown option**
 
 Adding a wildcard to the policy allows the policy to use the **Enable Automatic Lockdown** option.
 When checked, perpetrators of this policy are locked down, i.e. denied access to files and folders
@@ -160,11 +166,14 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
 
-Sub Folder
+
+**Sub Folder**
 
 ![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subfolder.webp)
 
@@ -187,7 +196,10 @@ Agents/Domains list on the right displays Agents and domains included in the pol
   - The single arrow buttons will move the selected item to the other list.
   - The double arrows will move all items to the other list.
 
-**NOTE:** There is no impact if a selected path does not exist on the server where an Agent resides.
+:::note
+There is no impact if a selected path does not exist on the server where an Agent resides.
+:::
+
 
 When a domain is added to the Selected Agents\Domains list, all Agents deployed in that domain are
 included in the policy. If a domain is specified, then any Agent later installed in that domain is
@@ -211,11 +223,14 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
 
-Sub Tree
+
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 

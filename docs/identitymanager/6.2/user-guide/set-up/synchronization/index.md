@@ -27,11 +27,11 @@ the synchronization itself.
 #### Export
 
 The
-[ Export Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)
+[Export Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)
 creates extractions, a snapshot of the managed system's data, used to insert and/or refresh the data
 that is inside Identity Manager. Extractions are accessible when there is at least one connection
 with an export-enabled
-[ References: Packages ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/index.md).
+[References: Packages](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/index.md).
 Extracted data becomes meaningful when it is loaded into resources as specified by the entity type
 structure.
 
@@ -40,7 +40,7 @@ Exported data is stored inside CSV files in the folder `/{InstallationFolder}/Te
 #### Prepare synchronization
 
 The
-[ Prepare Synchronization Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)performs
+[Prepare Synchronization Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)performs
 a preparatory data cleansing to spot errors and list them in a generated file in the
 `/{InstallationFolder}/Work/Synchronization` folder.
 
@@ -52,7 +52,7 @@ a preparatory data cleansing to spot errors and list them in a generated file in
 The `Synchronize` task loads data into Identity Manager's database.
 
 See the
-[ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md)
+[Upward Data Synchronization](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md)
 topic for additional information.
 
 ### Prerequisites
@@ -65,7 +65,7 @@ must have defined keys during Entity Type creation. See the
 [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional
 information.
 
-Extractions must not be modified before synchronization
+**Extractions must not be modified before synchronization**
 
 Extractions must not be modified manually, for it may induce synchronization issues.
 
@@ -74,7 +74,7 @@ Extractions must not be modified manually, for it may induce synchronization iss
 Also, synchronization must not be disturbed by a change in the source format, such as the deletion
 of a column in the middle of the file.
 
-Thresholds must never be deactivated
+**Thresholds must never be deactivated**
 
 Thresholds are essential safety guards that control all changes, for example preventing the
 overwriting of important data by mistake. Thresholds are by default activated to warn users when
@@ -85,7 +85,7 @@ _"Threshold Exceeded"_ on the log page described below.
 Once the changes have been reviewed, the blocked job can be resumed (or not).
 
 Thresholds are configured with default values using the following
-[ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[Connector](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 attributes:
 
 - `MaximumDeletedLines`, `MaximumInsertedLines` and `MaximumUpdatedLines` for scalar properties;
@@ -104,7 +104,7 @@ At this point, integrators should have all the elements they need to perform syn
 | ------------------------------------------ | ----------------- |
 | Connector with its entity types (required) | Synchronized data |
 
-See the [ Connect to a Managed System ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md) topic for additional
+See the [Connect to a Managed System](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md) topic for additional
 information.
 
 ## Launch Synchronization
@@ -138,7 +138,7 @@ Launch synchronization for a given managed system by proceeding as follows:
 ## Manage Synchronization Automation
 
 Export and synchronization are executed manually from the connector screens. By default, they are
-also part of scheduled [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) provided by
+also part of scheduled [Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) provided by
 Identity Manager:
 
 - the complete job is scheduled to launch a synchronization once a day of all resources, modified or

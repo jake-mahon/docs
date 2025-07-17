@@ -74,7 +74,7 @@ entitlements.
 Review a non-conforming permission by proceeding as follows:
 
 1. Ensure that the
-   [ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+   [Compute Role Model Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
    was launched recently, through the complete job on the **Job Execution** page
 
     ![Home Page - Job Execution](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_jobexecution_v602.webp)

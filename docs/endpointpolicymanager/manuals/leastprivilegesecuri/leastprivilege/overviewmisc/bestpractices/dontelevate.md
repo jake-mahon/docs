@@ -7,7 +7,7 @@ sidebar_position: 50
 # When to Use "Don't Elevate Open/Save Dialog"
 
 **NOTE:** For more information see the
-[Increase security by reducing rights on Open/Save dialogs](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/opensavedialogs.md)
+[Increase security by reducing rights on Open/Save dialogs](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/opensavedialogs.md)
 video on this topic.
 
 The default on all rules is **Don't Elevate the Open/Save dialog**.

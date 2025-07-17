@@ -8,8 +8,11 @@ sidebar_position: 30
 
 This topic shows how to build efficient jobs by minimizing their costs.
 
-**NOTE:** The rules below must be followed when creating a new job, otherwise the frequent launch of
+:::note
+The rules below must be followed when creating a new job, otherwise the frequent launch of
 this scheduled job will trigger errors in a SaaS environment.
+:::
+
 
 ### Prerequisites
 
@@ -56,7 +59,7 @@ additional information.
 
 ## Rule 2: Compute Only What's Necessary
 
-Execute the tasks on the right entity types
+**Execute the tasks on the right entity types**
 
 Many tasks can be executed either on all entity types, or on a given list of entity types.
 
@@ -76,7 +79,7 @@ script in the command line.
                     
 ```
 
-Launch incremental tasks rather than complete
+**Launch incremental tasks rather than complete**
 
 When a task is supposed to be executed on changes only, then there is no use executing the task in
 complete mode.

@@ -22,8 +22,8 @@ script in the command line.
 
 All `ResourceType`, `SingleRole`, `CompositeRole` and `Category` must belong to a Policy. This is
 done by specifying the `Policy` attribute. See the [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md),
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md), [ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) and
-[ Category ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/category/index.md) topics for additional information.
+[Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md), [Composite Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) and
+[Category](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/category/index.md) topics for additional information.
 
 ```
 <Category Policy="Default" Identifier="AD" DisplayName_L1="Active Directory" />

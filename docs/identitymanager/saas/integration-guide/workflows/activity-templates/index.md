@@ -7,7 +7,7 @@ sidebar_position: 10
 # Activity Templates
 
 This section describes the activities that constitute and model a
-[ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md). Each activity is assigned
+[Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md). Each activity is assigned
 a template, made of states and transitions.
 
 ## Overview

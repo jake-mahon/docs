@@ -25,8 +25,11 @@ Follow the steps to modify the ServicesPipeTimeout value.
 
 **Step 3 –** In the right pane, select **ServicesPipeTimeout**.
 
-**NOTE:** If the ServicesPipeTimeout entry does not exist, you must create it. See the Create the
+:::note
+If the ServicesPipeTimeout entry does not exist, you must create it. See the Create the
 ServicesPipeTimeout Entry topic for additional information.
+:::
+
 
 **Step 4 –** Right-click **ServicesPipeTimeout** and click **Modify**. This opens the Edit Value
 window.

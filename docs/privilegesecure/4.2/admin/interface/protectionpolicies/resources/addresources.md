@@ -34,12 +34,12 @@ Both tables have the following columns:
 
 Follow the steps to add resources to the selected protection policy.
 
-**Step 1 –** Navigate to the Policy > Protection Policies page.
+**Step 1 –** Navigate to the **Policy** > **Protection Policies** page.
 
 **Step 2 –** In the Protection Policy list, select the name of the protection policy and select the
-Resources tab.
+**Resources** tab.
 
-**Step 3 –** Click Add to open the Add Resources window.
+**Step 3 –** Click **Add** to open the Add Resources window.
 
 The Add Resources window has the following features:
 
@@ -60,7 +60,7 @@ table and it is immediately moved to the Resources to Add table.
 **Step 5 –** (Optional) Click a row in the Resources to Add table to move it back to the Available
 Resources table.
 
-**Step 6 –** Click Add to add the resources to the protection policy.
+**Step 6 –** Click **Add** to add the resources to the protection policy.
 
 The new resource(s) are added to the protection policy and are shown on the
 [Resources Tab for Protection Policies](/docs/privilegesecure/4.2/admin/interface/protectionpolicies/resources/resources.md).

@@ -9,7 +9,7 @@ sidebar_position: 90
 This connector triggers workflows in Identity Manager for a system's provisioning orders.
 
 This page is about Identity Manager Internal Workflow. See the
-[ Workflow ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/workflow/index.md) topic for additional information.
+[Workflow](/docs/identitymanager/saas/integration-guide/connectors/references-packages/workflow/index.md) topic for additional information.
 
 ![Package: Usercube/Workflow](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.webp)
 
@@ -29,7 +29,7 @@ message and body.
 Implementing this connector requires:
 
 - Knowledge of the basic principles of Identity Manager's workflows. See the
-  [ Workflow ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/workflow/index.md) topic for additional information.
+  [Workflow](/docs/identitymanager/saas/integration-guide/connectors/references-packages/workflow/index.md) topic for additional information.
 - Configuring in Identity Manager the workflows for the arrival of a new user, the update of a
   pre-existing user, and for the departure of a user
 
@@ -64,7 +64,10 @@ appsettings.agent.json
 }
 ```
 
-**NOTE:** The identifier of the connection and thus the name of the subsection must:
+:::note
+The identifier of the connection and thus the name of the subsection must:
+:::
+
 
 - be unique
 - not begin with a digit
@@ -94,7 +97,7 @@ The configuration setting must have the following attributes:
 | ------------------------- | ------ | ------------------------------------------------------- |
 | WorkflowJsonPath required | String | Path of the JSON file used to configure this connector. |
 
-WorkflowJsonPath
+**WorkflowJsonPath**
 
 The file specified in WorkflowJsonPath must have a specific structure.
 
@@ -110,8 +113,7 @@ FulfillInternalWorkflow.json
   "NavigationToTargetEntity": "User",
   "NavigationTargetToSource": "Records",
   "TargetEntityTypeIdentifier": "Directory_User",
-  "FulfillInternalWorkflowConfigurations": [
-    {
+  "FulfillInternalWorkflowConfigurations": [{
       "ChangeType": "Added",
       "Model": {
         "WorkflowIdentifier": "Directory_User_StartInternal",
@@ -123,13 +125,10 @@ FulfillInternalWorkflow.json
         "LastName",
         "FirstName",
         "ContractStartDate",
-        "ContractEndDate"
-      ],
-      "NavigationProperties": [
-        "Category",
+        "ContractEndDate"],
+      "NavigationProperties": ["Category",
         "Service",
-        "Site"
-      ]
+        "Site"]
     },
     {
       "ChangeType": "Modified",
@@ -139,10 +138,8 @@ FulfillInternalWorkflow.json
         "Message": "workflow Update: $Resource:LastName$ - $Resource:FirstName$, EmployeeId: $Resource:EmployeeId$",
         "Body": "body of workflow Update for  $Resource:EmployeeId$ "
       },
-      "ScalarProperties": [
-        "FirstName",
-        "LastName"
-      ]
+      "ScalarProperties": ["FirstName",
+        "LastName"]
     },
     {
       "ChangeType": "Deleted",
@@ -152,19 +149,20 @@ FulfillInternalWorkflow.json
         "Message": "workflow end Directory_Person for $Resource:LastName$ - $Resource:FirstName$",
         "Body": "body if workflow end for $Resource:LastName$ - $Resource:FirstName$"
       },
-      "DateProperties": [
-        "ContractEndDate"
-      ]
+      "DateProperties": ["ContractEndDate"]
     }
   ]
 }
 
 ```
 
-_Remember,_ as workflows' aspects are computed during the fulfill process, all the required
+:::tip
+Remember, as workflows' aspects are computed during the fulfill process, all the required
 properties must be present in the provisioning order and in this JSON file.
+:::
 
-Setting attributes
+
+**Setting attributes**
 
 The table below summarizes the setting attributes.
 
@@ -175,8 +173,8 @@ The table below summarizes the setting attributes.
 | DateProperties optional             | DateTime List | List of the properties corresponding to the dates that the workflow is to fill in. **NOTE:** When not specified and ChangeType is set to Deleted, then the dates are filled with the workflow's execution date.                                                                                                                                                     |
 | Message required                    | String        | Message sent to the accounts impacted by the workflow.                                                                                                                                                                                                                                                                                                              |
 | NavigationProperties optional       | String List   | List of the navigation properties to get from the provisioning orders in order to complete the workflow.                                                                                                                                                                                                                                                            |
-| NavigationTargetToSource optional   | String        | Navigation property that makes the link from the target entity type to the source entity type. **NOTE:** Required when using records. For example, it's not required when working with departments or sites. See the[ Position Change via Records ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
-| NavigationToTargetEntity optional   | String        | Navigation property that makes the link from the source entity type to the target entity type. **NOTE:** Required when using records. For example, it's not required when working with departments or sites. See the[ Position Change via Records ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
+| NavigationTargetToSource optional   | String        | Navigation property that makes the link from the target entity type to the source entity type. **NOTE:** Required when using records. For example, it's not required when working with departments or sites. See the[Position Change via Records](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
+| NavigationToTargetEntity optional   | String        | Navigation property that makes the link from the source entity type to the target entity type. **NOTE:** Required when using records. For example, it's not required when working with departments or sites. See the[Position Change via Records](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topic for additional information. |
 | ScalarProperties optional           | String List   | List of the scalar properties to get from the provisioning orders in order to complete the workflow.                                                                                                                                                                                                                                                                |
 | SourceEntityIdentifier required     | String        | Identifier of the source entity type of the workflow.                                                                                                                                                                                                                                                                                                               |
 | TransitionIdentifier required       | String        | Identifier of the workflow's transition after execution.                                                                                                                                                                                                                                                                                                            |
@@ -199,15 +197,15 @@ Internal Workflow.
 
 See the following to figure out authentication.
 
-Password reset
+**Password reset**
 
 This connector does not reset passwords.
 
-Credential protection
+**Credential protection**
 
 This connector has no credential attributes, and therefore does not use RSA encryption, nor a
 CyberArk Vault. See the
-[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and
+[RSA Encryption](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and
 [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
 topics for additional information.
 

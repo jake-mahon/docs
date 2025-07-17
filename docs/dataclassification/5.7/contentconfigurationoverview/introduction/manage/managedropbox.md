@@ -39,7 +39,10 @@ To configure exclusions, do the following:
     - \__https://www.dropbox.com/home/_Test Folder/\*_ will exclude all documents in the folder
     - _\*/Restricted Folder/\*_ will exclude specific folder in any Dropbox source
 
-**NOTE:** Exclusions are case-insensitive.
+:::note
+Exclusions are case-insensitive.
+:::
+
 
 4. Optionally, enter a test path to verify the settings and click **Test**.
 

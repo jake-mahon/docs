@@ -10,12 +10,12 @@ The following is a list of Knowledge Base articles for Browser Router.
 
 ## Installation and Uninstallation
 
-- [Why does Windows 8 and 10 ask me "How do you want to open this?" and how do I make it go away?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installationandunins/windowsopenprompt.md)
-- [I'm using SCCM to deploy the PP CSE. I want to ensure that Internet Explorer is closed during the installation of PPBR to prevent IE questions of users if they are logged in. What should I do?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installationandunins/preventiequestions.md)
-- [I launched IE and saw "PPBRAGENTIExIE_01.dll" or "PPBRExplorerExtension.dll" prompted for the user. What should I do?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installationandunins/iepromptdll.md)
-- [When I unlicense or remove Endpoint Policy ManagerBrowser Router from scope,Endpoint Policy Manager Browser Router Agent still shows as OS "default browser". Why is that and is there a workaround?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installationandunins/defaultbrowser.md)
-- [Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installationandunins/twologons.md)
-- [How-to manually install and enable Endpoint Policy Manager Browser Router (PPBR) extension for Google Chrome?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installationandunins/chromemanual.md)
+- [Why does Windows 8 and 10 ask me "How do you want to open this?" and how do I make it go away?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/windowsopenprompt.md)
+- [I'm using SCCM to deploy the PP CSE. I want to ensure that Internet Explorer is closed during the installation of PPBR to prevent IE questions of users if they are logged in. What should I do?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/preventiequestions.md)
+- [I launched IE and saw "PPBRAGENTIExIE_01.dll" or "PPBRExplorerExtension.dll" prompted for the user. What should I do?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/iepromptdll.md)
+- [When I unlicense or remove Endpoint Policy ManagerBrowser Router from scope,Endpoint Policy Manager Browser Router Agent still shows as OS "default browser". Why is that and is there a workaround?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/defaultbrowser.md)
+- [Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/twologons.md)
+- [How-to manually install and enable Endpoint Policy Manager Browser Router (PPBR) extension for Google Chrome?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/chromemanual.md)
 
 ## Troubleshooting
 
@@ -25,9 +25,9 @@ The following is a list of Knowledge Base articles for Browser Router.
 - [PPBRAgentExeIE_01.DLL error message occurs about Internet Explorer enhanced security. What should I do?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/dllcompatible.md)
 - [Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/forceinstall.md)
 - [Why don't routes work from Firefox to other browsers (in Firefox 49+) ?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/firefox.md)
-- [Why don't routes work from IE to other browsers?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/fromtootherbrowsers.md)
+- [Why don't routes work from IE to other browsers?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/fromietootherbrowsers.md)
 - [Chrome and Citrix problems](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/citrixproblems.md)
-- [Why doesn't Edge to Other browser support work as expected?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/fromtootherbroswers.md)
+- [Why doesn't Edge to Other browser support work as expected?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/fromedgetootherbrowsers.md)
 - [Browser router doesn't seem to work when I use a pattern, and the URL has multiple redirects.](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/pattern.md)
 - [What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
 - [What does it mean when Endpoint Policy Manager Browser Router gives a pop-up saying to contact support to my end-users?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/contactsupport.md)

@@ -16,12 +16,18 @@ Requests workflows must first be assigned owners within the Resource Owners inte
 Information Center must be configured to commit changes in Active Directory in order for Owners to
 make ad hoc changes to access. It is also required for the Self-Service Access Requests workflow.
 
-**_RECOMMENDED:_** The Access Information Center is configured to send Notifications.
+:::info
+The Access Information Center is configured to send Notifications.
+:::
 
-_Remember,_ for the purposes of the Access Information Center, a “resource” refers to the file
+
+:::tip
+Remember, for the purposes of the Access Information Center, a “resource” refers to the file
 system shared folders, SharePoint sites, Active Directory (AD) groups, AD distribution lists, and/or
 local Administrators groups. All data available within the Access Information Center is collected by
 Netwrix Access Analyzer (formerly Enterprise Auditor) according to the targeted environments.
+:::
+
 
 “Owners” are the users who are responsible for reviewing access to the resources to which they are
 assigned. The Access Information Center provides the means to assign resource owners manually or
@@ -36,22 +42,25 @@ access the Owner portal by clicking the **Manage Your Resources** link in the Yo
 the Home page. See the [Owner Portal Overview](/docs/accessinformationcenter/12.0/owneroverview/ownerportal/overview.md) topic for additional
 information.
 
-Who Can Assign Ownership (Ownership Administrators)?
+**Who Can Assign Ownership (Ownership Administrators)?**
 
 - Console Users with Administrator role
 
     - Can complete the Review Administrator's approval process without impacting the visibility into
       the review created by a Review Administrator with the Security Team role
 
-        **CAUTION:** Visibility into a review created by a Review Administrator with the Security
+        :::warning
+        Visibility into a review created by a Review Administrator with the Security
         Team role is blocked if a Review Administrator with the Administrator role starts a new
         instance.
+        :::
+
 
 - Console Users with Security Team role
 
     - Visibility into only those reviews personally created
 
-What Can Resource Owners Do?
+**What Can Resource Owners Do?**
 
 - View reports on their resources
 - Perform a resource review (when there is a pending review)
@@ -60,9 +69,12 @@ What Can Resource Owners Do?
 - View historical access request information
 - Make ad hoc changes to resource access/membership (when this feature is enabled)
 
-**NOTE:** The Sensitive Data content within reports and reviews is visible to all users and roles.
+:::note
+The Sensitive Data content within reports and reviews is visible to all users and roles.
 The Matches table in the report will only be populated for Console User with Security Team and
 Administrator roles.
+:::
+
 
 See the [Resource Owners Interface](/docs/accessinformationcenter/12.0/resourceowners/interface/interface.md) topic for additional information.
 
@@ -74,9 +86,12 @@ Prerequisites:
 - Optional: The Access Information Center is configured to send Notifications. See the
   [Notifications Page](/docs/accessinformationcenter/12.0/admin/configuration/notifications.md) topic for additional information.
 
-    **NOTE:** By default, the application is configured to send notifications only to the primary
+    :::note
+    By default, the application is configured to send notifications only to the primary
     owner. However, this can be customized on the Configuration > Notifications page to send
     notifications to all assigned owners.
+    :::
+
 
 - Optional: Access Information Center configured to commit AD changes
 - Owners assigned to resources must have:
@@ -91,8 +106,11 @@ Prerequisites:
 
 Workflow:
 
-**NOTE:** This workflow is not numbered because the Notification piece can occur at any time in the
+:::note
+This workflow is not numbered because the Notification piece can occur at any time in the
 workflow.
+:::
+
 
 - Add resources to be managed by associating a business data owner with a resource.
     - See the [Add New Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/interface/add.md) topic for additional information about adding

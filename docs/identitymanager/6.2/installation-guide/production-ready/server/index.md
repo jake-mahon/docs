@@ -6,8 +6,11 @@ sidebar_position: 30
 
 # Install the Server
 
-**NOTE:** If you are a SaaS client this topic does not apply. You can skip directly to end user
+:::note
+If you are a SaaS client this topic does not apply. You can skip directly to end user
 authentication. See the Set up End-User Authentication topic for additional information.
+:::
+
 
 Identity Manager Server can be installed on the same workstation as the database or on a separate
 workstation. If Identity Manager is installed on a separate workstation, it requires the SQL
@@ -20,7 +23,7 @@ Please make sure that the server requirements are met before going further. See 
 
 The server executable is beeing been extracted to the working directory as `Usercube-Server.exe` and
 `Usercube-Server.dll` and will enable a user or IIS to run the Identity Manager Server. See the
-[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic for additional information.
+[Create a Working Directory](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic for additional information.
 
 ## Set up the License Key
 
@@ -101,7 +104,10 @@ To create a service account you need to perform the following steps:
 **Step 1 –** Log on to a Windows server in the target domain environment. You should use an account
 with the necessary permissions to create new domain accounts.
 
-**NOTE:** The target domain is the domain where SQL Server is installed.
+:::note
+The target domain is the domain where SQL Server is installed.
+:::
+
 
 **Step 2 –** Access the _Active Directory User and Computers_ tool with the command `dsa.mc`.
 
@@ -111,18 +117,24 @@ select **New** > **User**.
 **Step 4 –** Choose a mnemonic _First Name_ for the Identity Manager Server, as for example
 `UsercubeContosoServer`, and click **Next**.
 
-_Remember,_ the down-level log on name in the format `DOMAIN/userName`,.as for example
+:::tip
+Remember, the down-level log on name in the format `DOMAIN/userName`,.as for example
 `CONTOSO/identitymanagerContosoServer`.
+:::
+
 
 **Step 5 –** Set a password and remember it for later, check the boxes **User cannot change
 password** and **Password never expires**.
 
 This newly created service account is a domain account and will be used as an IIS identity.
 
-**NOTE:** You can go further and use Managed Service Account to avoid dealing with the service
+:::note
+You can go further and use Managed Service Account to avoid dealing with the service
 account password update yourself and let Windows worry about it. This feature requires installing
 Identity Manager on Windows Server 2016 or later, and using an Active Directory with a forest level
 set to Windows Server 2016 or later.
+:::
+
 
 ### Set an IIS identity
 
@@ -219,7 +231,7 @@ Up to four folders have to be considered:
 - The provisioning orders directory, usually `C:/identitymanager<Organization>/Temp` (same as for the data
   collection directory).
 
-See the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
+See the [Create a Working Directory](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -254,7 +266,7 @@ The Identity Manager Server service account that was chosen previously:
 The working directory permissions are all set.
 
 The same steps have to be performed on the runtime, the data collection and the provisioning orders
-directories. See the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
+directories. See the [Create a Working Directory](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -336,7 +348,7 @@ section.
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged.
 The password should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -383,9 +395,9 @@ permissions, let's finalize the setup.
 The connection between the Server and the Database requires choosing an authentication method:
 [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication)
 or SQL Server authentication. See the
-[ Connection to the Database ](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/database-connection/index.md)
+[Connection to the Database](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/database-connection/index.md)
 and
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
 topics for additional information. Windows authentication will require the IIS identity to be set to
 the custom Windows service account used to log in to the Identity Manager's Windows Server session.
 SQL authentication will work with both the _built-in_ app pool identity and a custom service
@@ -446,10 +458,13 @@ appsettings.json
 
 ```
 
-**_RECOMMENDED:_** SQL Server authentication stores plain text credentials in the configuration
+:::info
+SQL Server authentication stores plain text credentials in the configuration
 file. This is strongly discouraged. To avoid storing plain text credentials, you should always
 strive to use Windows authentication or encrypt sensitive setting values such as the connection
 string.
+:::
+
 
 ## SSL Certificate
 

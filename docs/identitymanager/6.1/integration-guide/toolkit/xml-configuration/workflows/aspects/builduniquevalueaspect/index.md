@@ -114,7 +114,7 @@ We want to check the unicity of the new user's login, compared with the logins o
 
 ```
 
-<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Login" TargetEntityType="Directory_UserRecord" TargetBinding="Login" />
+**<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Login" TargetEntityType="Directory_UserRecord" TargetBinding="Login" />**
 
 ```
 
@@ -171,7 +171,7 @@ not add the domain part, and the target expression removes the domain part from 
 
 ```
 
-<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Email"
+**<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Email"**
 
     SourceBinding="Workflow_Directory_User:Directory_User.Records"
 
@@ -191,7 +191,7 @@ if (iteration &gt; 0)
     result += iteration.ToString();
 }
 
-return result;"
+**return result;"**
 
     TargetEntityType="Directory_UserRecord"
     TargetExpression="C#:record:

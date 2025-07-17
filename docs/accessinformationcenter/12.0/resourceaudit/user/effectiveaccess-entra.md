@@ -24,9 +24,12 @@ all of the collected data available for all access points. While the report data
 is a status bar in the upper-right corner of the Reports pane that indicates the data loading
 progress. After the data has loaded, the number of rows is displayed.
 
-**NOTE:** This report continues to load while other reports are being opened and viewed. As long as
+:::note
+This report continues to load while other reports are being opened and viewed. As long as
 the Access Information Center user remains logged into the Access Information Center, it continues
 to load until all data has been analyzed for the audited user.
+:::
+
 
 The scoping options allow Access Information Center users to specifying what collected data should
 be analyzed in order to generate this report. Unlike other filter options, this can impact the

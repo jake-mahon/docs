@@ -22,13 +22,13 @@ Follow the steps below to add a role to the Users & Groups Role Management modu
 
 **Step 1 –** Navigate to the **Users & Groups** > **Role Management** page.
 
-**Step 2 –** Click the Add Role button.
+**Step 2 –** Click the **Add Role** button.
 
 **Step 3 –** Enter a Role Name.
 
 **Step 4 –** (Optional) Add a description.
 
-**Step 5 –** Click the Save button.
+**Step 5 –** Click the **Save** button.
 
 Once saved, the next step is to assign Permissions and users to this role. See the
 [Custom Role Details Page](/docs/privilegesecure/4.2/admin/interface/usersgroups/rolemanagement/rolemanagementcustom/rolemanagementcustom.md) topic for additional

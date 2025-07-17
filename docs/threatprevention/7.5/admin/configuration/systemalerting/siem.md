@@ -55,7 +55,7 @@ Click **Suppression time** for an event and select an option from the drop-down 
   the duration you selected) even if the event occurs.
 - Disabled – Alerts will not be suppressed
 
-Example
+**Example**
 
 You select a suppression time of 30 minutes for an event. Next, an alert is generated for that
 event. If the event occurs again within the next 30 minutes, an alert will not be generated.
@@ -89,7 +89,10 @@ Alerting window opens.
 **Step 2 –** In the SIEM Profiles area, click the Add (+) button to create a new SIEM profile. To
 rename the default text, select the name string and enter the new profile name.
 
-**_RECOMMENDED:_** For each profile, use a unique name for easy identification.
+:::info
+For each profile, use a unique name for easy identification.
+:::
+
 
 **Step 3 –** Use the Protocol drop-down menu to select either protocol:
 
@@ -133,7 +136,7 @@ Once a SIEM server is configured, assign it to events using the System Alerting 
 the [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) of a policy or the
 [Actions Tab](/docs/threatprevention/7.5/admin/templates/configuration/actions.md) of a policy template.
 
-IBM QRadar Integration
+**IBM QRadar Integration**
 
 Netwrix has created a custom app for integration between Threat Prevention and QRadar. See the
 [Active Directory App for QRadar](/docs/threatprevention/7.5/siemdashboard/qradar/overview.md) topic for additional
@@ -142,7 +145,7 @@ Prevention or Netwrix Activity Monitor. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for additional information.
 
-Splunk Integration
+**Splunk Integration**
 
 Netwrix has created custom apps for integration between Threat Prevention and Splunk. See the
 [Active Directory App for Splunk](/docs/threatprevention/7.5/siemdashboard/activedirectory/overview.md) topic
@@ -158,7 +161,7 @@ Custom SIEM mapping files can be added. First create the mapping file, and save 
 that the Administration Console can access. The default mapping files are stored in the following
 folder:
 
-…\Netwrix\Netwrix Threat Prevention\SIWinConsole\SIEMTemplates\
+**…\Netwrix\Netwrix Threat Prevention\SIWinConsole\SIEMTemplates\**
 
 Follow the steps to add a custom SIEM mapping file.
 

@@ -6,18 +6,15 @@ sidebar_position: 30
 
 # Review an Unauthorized Account
 
-How to remediate unauthorized accounts. The aim is to review the accounts whose assignments don't
-comply with the rules of the role model.
+How to remediate unauthorized accounts. The aim is to review the accounts whose assignments don't comply with the rules of the role model.
 
 ## Overview
 
-Unauthorized accounts are considered as non-conforming assignments because no rule from Identity
-Manager's model can justify their actual assignment to an identity.
+Unauthorized accounts are considered as non-conforming assignments because no rule from Identity Manager's model can justify their actual assignment to an identity.
 
 ## Participants and Artifacts
 
-This operation should be performed in cooperation with application owners in charge of applications'
-entitlements.
+This operation should be performed in cooperation with application owners in charge of applications' entitlements.
 
 | Input                                               | Output             |
 | --------------------------------------------------- | ------------------ |
@@ -27,13 +24,11 @@ entitlements.
 
 Review an unauthorized account by proceeding as follows:
 
-1. Ensure that the
-   [ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
-   was launched recently, through the complete job on the **Job Execution** page:
+1. Ensure that the [Compute Role Model Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) was launched recently, through the complete job on the **Job Execution** page:
 
     ![Home Page - Job Execution](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
-    Or through the connector's overview page, **Jobs** > **Compute Role Model**.
+    Or through the connector's overview page **Jobs** > **Compute Role Model**.
 
     ![Resource Type Jobs](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
@@ -57,12 +52,10 @@ Review an unauthorized account by proceeding as follows:
 
     The displayed confidence rate means that a rule actually assigned the account to the identity,
     but with a confidence rate too low to imply full automatic assignment. Approval will be
-    required. See the [ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md)
+    required. See the [Classify Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md)
     topic for additional information.
 
-    The **Resource Properties** frame shows all the properties of the resources. They can be updated
-    by clicking on the edit button. See the
-    [ Reconcile a Property ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
+    The **Resource Properties** frame shows all the properties of the resources. They can be updated by clicking on the edit button. See the [Reconcile a Property](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
 
     ![Edit Button](/img/product_docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_updateprop_v522.webp)
 
@@ -70,10 +63,8 @@ Review an unauthorized account by proceeding as follows:
 
     Decisions must be made with caution as they cannot be undone.
 
-7. Click on **Confirm Account Deletion** or **Authorize Account** according to the previous
-   decision.
-8. Trigger the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) by launching, on the appropriate connector's
-   overview page, **Jobs** > **Generate Provisioning Orders**, then, after this first task is done,
+7. Click on **Confirm Account Deletion** or **Authorize Account** according to the previous decision.
+8. Trigger the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) by launching, on the appropriate connector's overview page **Jobs** > **Generate Provisioning Orders**, then, after this first task is done,
    **Jobs** > **Fulfill**.
 
     ![Resource Type Jobs](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)

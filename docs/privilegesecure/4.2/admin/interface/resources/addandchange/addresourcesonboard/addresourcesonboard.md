@@ -43,22 +43,25 @@ Follow the steps to onboard resources by importing from Active Director.
 
 **Step 1 –** Navigate to either the Resources dashboard or the Resources page.
 
-**Step 2 –** Click the Add button and select New Server. The Add Resources window will open to
+**Step 2 –** Click the **Add** button and select New Server. The Add Resources window will open to
 onboard new servers.
 
-**Step 3 –** Select the Import from AD radio button, which is the default option when the window
+**Step 3 –** Select the **Import from AD** radio button, which is the default option when the window
 opens. This option lists Available Resources that have been discovered by Privilege Secure.
 
 **Step 4 –** Select the desired resources in the Available Resources table and it is immediately
 moved to the Resources to Add table.
 
-**NOTE:** To remove a resource from the Resources to Add table, uncheck it from either table.
+:::note
+To remove a resource from the Resources to Add table, uncheck it from either table.
+:::
+
 
 **Step 5 –** When the Resources to Add table is populated as desired, open the Service Account
 drop-down menu. Select a previously added service account with credentials for the selected
 resources.
 
-**Step 6 –** When the service account is assigned, click Add. The Add Resources window closes.
+**Step 6 –** When the service account is assigned, click **Add**. The Add Resources window closes.
 
 The new resource(s) have been onboarded and can be added to Access Policies.
 
@@ -94,24 +97,30 @@ The table has the following columns:
 
 Follow the steps to onboard resources by importing from a CSV file.
 
-_Remember,_ the CSV file must contain either the DNS Host Name or IP Address for each resource. All
+:::tip
+Remember, the CSV file must contain either the DNS Host Name or IP Address for each resource. All
 other values are options. Also, the Platform and Credentials value must be an exact match to
 Platforms and Service Accounts already known to Privilege Secure.
+:::
+
 
 **Step 1 –** Navigate to either the Resources dashboard or the Resources page.
 
-**Step 2 –** Click the Add button and select New Server. The Add Resources window will open to
+**Step 2 –** Click the **Add** button and select New Server. The Add Resources window will open to
 onboard new servers.
 
-**Step 3 –** Select the Import from CSV radio button. This option allows you to import a pre-created
+**Step 3 –** Select the **Import from CSV** radio button. This option allows you to import a pre-created
 CSV file to onboard resources.
 
-**NOTE:** If you did not create the CSV file prior to starting these steps, click Download CSV
+:::note
+If you did not create the CSV file prior to starting these steps, click Download CSV
 Template to download the `nps-resource-import-template.csv` file with required columns.
+:::
 
-**Step 4 –** Click Import CSV. The Open window opens.
 
-**Step 5 –** Navigate to the desired CSV file and click Open.
+**Step 4 –** Click **Import CSV**. The Open window opens.
+
+**Step 5 –** Navigate to the desired CSV file and click **Open**.
 
 **Step 6 –** The data is read into the table. There is a validation process taking place. If an
 issue arises, a red icon will indicate the problem. If a problem occurs, you can either fix the CSV
@@ -124,7 +133,7 @@ a previously added service account with credentials for the selected resources. 
 populate the Service Account value for resources without an assigned Credential from the import
 file.
 
-**Step 9 –** When all resources have an assigned service account, click Add. The Add Resources
+**Step 9 –** When all resources have an assigned service account, click **Add**. The Add Resources
 window closes.
 
 The new resource(s) have been onboarded and can be added to Access Policies.
@@ -157,21 +166,24 @@ Follow the steps to onboard resources manually.
 
 **Step 1 –** Navigate to either the Resources dashboard or the Resources page.
 
-**Step 2 –** Click the Add button and select New Server. The Add Resources window will open to
+**Step 2 –** Click the **Add** button and select New Server. The Add Resources window will open to
 onboard new servers.
 
-**Step 3 –** Select the Add Manually radio button.
+**Step 3 –** Select the **Add Manually** radio button.
 
 **Step 4 –** In the Resource Name / IP Address field, type either the DNS Host Name or IP Address of
-the resource. Click Add.
+the resource. Click **Add**.
 
 **Step 5 –** Repeat Step 4 for each resource to be onboarded.
 
-**NOTE:** To remove a resource, select it in the table and click Remove.
+:::note
+To remove a resource, select it in the table and click Remove.
+:::
+
 
 **Step 6 –** When the table is populated as desired, open the Service Account drop-down menu. Select
 a previously added service account with credentials for the resources.
 
-**Step 7 –** When service account is assigned, click Add. The Add Resources window closes.
+**Step 7 –** When service account is assigned, click **Add**. The Add Resources window closes.
 
 The new resource(s) have been onboarded and can be added to Access Policies.

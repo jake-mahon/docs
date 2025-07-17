@@ -21,7 +21,7 @@ scaffolding, the names of these 3 workflows must comply with the following stand
 
 ```
 
-  <CreateUpdateDeleteMenus EntityType="Directory_Country"/>
+**<CreateUpdateDeleteMenus EntityType="Directory_Country"/>**
 
 ```
 

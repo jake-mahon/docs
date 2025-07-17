@@ -28,7 +28,7 @@ If you are a managed organization user, this page displays insights specific to 
 If you are a managing organization (MSP) user, this page provides insights for all your
 organizations.
 
-Top 5 Alerts by Count
+**Top 5 Alerts by Count**
 
 This card displays a pie chart illustrating the five most frequently triggered alert types. Each
 slice represents the share of an alert type relative to the others. Hover over a slice to view the
@@ -40,13 +40,13 @@ Click an alert type on the legend to disable it. Disabled alert types are not di
 chart. Hence, the pie chart displays only the enabled alert types and their percentage shares with
 respect to each other. You can click a disabled alert type on the legend to enable it.
 
-Alerts Timeline
+**Alerts Timeline**
 
 This card displays a bar chart illustrating the number of alerts triggered for the period selected
 in the timeframe drop-down menu. Hover over a bar on the chart to view the exact number of alerts
 triggered on any specific date.
 
-Alerts List
+**Alerts List**
 
 This section lists all the triggered alerts with the following information:
 
@@ -77,7 +77,7 @@ Click a column header to sort data in the alerts list by that column in ascendin
 appears next to the column name to indicate the sort order. Click the column header again to sort
 the data in descending order.
 
-Edit Alerts Settings
+**Edit Alerts Settings**
 
 Click the **Edit Alerts Settings** link to navigate to the Alerts page, where you can create a new
 alert and modify existing ones. See the [Alerts](/docs/1secure/admin/alerts/alerts.md) topic for additional

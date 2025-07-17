@@ -1,5 +1,5 @@
 ---
-title: "Breached Password Analytic Type"
+title: "Breached Password"
 description: "Breached Password Analytic Type"
 sidebar_position: 30
 ---
@@ -9,14 +9,14 @@ sidebar_position: 30
 The **Breached Password** analytic type identifies multiple failed authentications followed by a
 successful authentication in the specified time frame.
 
-| Breached Password    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition           | Multiple failed authentications followed by a successful authentication                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Breached Password    |                       |
+| -------------------- | ---------------------- |
+| Definition           | Multiple failed authentications followed by a successful authentication          |
 | Example              | This analytic alert may follow one or more alerts identifying repeated failed authentications against an account. This alert is of special importance as it signals that an attacked account may have been breached and a successful login occurred. This could also identify a scenario where an attacker has attempted multiple authentications with a user’s account but has failed, and then subsequent to that, the real user logs in and authenticates successfully. |
-| Trigger              | X failed authentication attempts from the same account followed by a successful authentication in Y hours                                                                                                                                                                                                                                                                                                                                                                  |
-| Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors at least 30 failed authentication attempts from the same account followed by a successful authentication in 4 hours.                                                                                                                                                                                                                                                           |
+| Trigger              | X failed authentication attempts from the same account followed by a successful authentication in Y hours       |
+| Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors at least 30 failed authentication attempts from the same account followed by a successful authentication in 4 hours.      |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -41,7 +41,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Breached Password Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/breachedpasswordsettings.webp)
 
@@ -55,7 +55,7 @@ triggered, an incident record is saved to the database along with the events tha
 incident. Raw authentication event data that did not contribute to an incident are purged from
 memory once they are more than 24 hours old.
 
-Policy Tab
+**Policy Tab**
 
 ![Breached Password Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 
@@ -72,9 +72,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - Scope the protocol to be monitored on the Authentication Protocol filter. If enabling the
     analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional:_ Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -84,9 +87,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
@@ -110,7 +116,10 @@ The top data grid includes the following information for each incident:
 
 - Attacked Account Name – Security principal of the account affected by the event
 
-  **NOTE:** The name will be red if the attacking account is the Administrator account.
+  :::note
+  The name will be red if the attacking account is the Administrator account.
+  :::
+
 
 - Attacked Account SID – Security Identifier of the account used in the event that was attacked
 - First Failed Attempt – Date timestamp of the first monitored event that triggered the incident.

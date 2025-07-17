@@ -16,7 +16,7 @@ Gives access to a shortcut on the dashboard to access this page.
 
 ```
 
-  <ReconciliateRolesAccessControlRules EntityType="Directory_User" Profile="Administrator"/>
+**<ReconciliateRolesAccessControlRules EntityType="Directory_User" Profile="Administrator"/>**
 
 ```
 

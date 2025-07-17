@@ -19,8 +19,11 @@ The Single Sign On section includes the following:
   Protector Super Administrator is allowed. This will bypass Azure Single Sign On login in the
   situation when it stops working. To view the URL, enable the Display Failover Login URL setting.
 
-**NOTE:** You can provide Super Administrator status to all imported users by enabling the Import
+:::note
+You can provide Super Administrator status to all imported users by enabling the Import
 users as super administrators setting.
+:::
+
 
 - Service Provider represents the identity of the Endpoint Protector Server. The information is
   required when conﬁguring the Endpoint Protector application in Azure. Select if the login is based

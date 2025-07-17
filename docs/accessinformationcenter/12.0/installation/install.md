@@ -8,9 +8,12 @@ sidebar_position: 10
 
 Once the prerequisites have been met, follow the steps to install the Access Information Center.
 
-**NOTE:** To enable SSL during the installation, a password-enabled certificate with a private key
+:::note
+To enable SSL during the installation, a password-enabled certificate with a private key
 is required. See the [SSL Certificate](overview.md#ssl-certificate) topic for additional
 information.
+:::
+
 
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
@@ -30,8 +33,11 @@ Agreement** checkbox and click **Next**.
 and a custom folder. Click **Change** to browse for a different location. When the destination is
 set as desired, click **Next**.
 
-**NOTE:** The default location is `C:\Program Files\STEALTHbits\Access Information Center\`. There
+:::note
+The default location is `C:\Program Files\STEALTHbits\Access Information Center\`. There
 are no specific requirements for changing the path.
+:::
+
 
 ![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessinformationcenter/12.0/installation/sqlserver.webp)
 
@@ -56,11 +62,14 @@ opens.
     - For Windows Authentication – **User Name** format must be `[DOMAIN]\[username]` , for example
       `NWXTECH\ad.bruce`
 
-**NOTE:** The Server and Database information are available in the Access Analyzer Console in the
+:::note
+The Server and Database information are available in the Access Analyzer Console in the
 **Settings** > **Storage** node, and will be auto-populated if installing the Access Information
 Center on the same server as Access Analyzer. The Database settings can be modified after
 installation. See the [Database Page](/docs/accessinformationcenter/12.0/admin/configuration/database.md) topic for additional
 information.
+:::
+
 
 ![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessinformationcenter/12.0/installation/webserver.webp)
 
@@ -72,9 +81,12 @@ application will be accessible.
 - For a non-secured install, select **http** from the URL Protocol dropdown and set the URL Port to
   81
 
-**NOTE:** For new installations, the default configuration is https and 481. If you are upgrading an
+:::note
+For new installations, the default configuration is https and 481. If you are upgrading an
 existing installation, the protocol and port are by default set to what is currently used by the
 Access Information Center.
+:::
+
 
 When the protocol and port are set as desired, click **Next**. If you selected the http option, skip
 to step 8.
@@ -96,11 +108,14 @@ to step 8.
 
     ![Certificate Missing Private Key window](/img/product_docs/accessinformationcenter/12.0/installation/certificatemissingprivatekey.webp)
 
-    **NOTE:** If the selected certificate resides in any of the Local Computer stores but does not
+    :::note
+    If the selected certificate resides in any of the Local Computer stores but does not
     have a private key, or if the certificate is not found in any of the stores, then it cannot be
     bound to the port. In these cases, the Certificate Missing Private Key warning message displays
     informing you that it will be imported to the Personal store. This means that the Import option
     is selected by default and grayed out to mandate the import of the certificate.
+    :::
+
 
     ![Valid certficate detected bound to the port](/img/product_docs/accessinformationcenter/12.0/installation/servercertificatevalid.webp)
 
@@ -126,5 +141,8 @@ Once the certificate has been provided, click **Next** to continue.
 The installation wizard placed an Netwrix Access Information Center icon on the desktop. Now proceed
 to the [First Launch](/docs/accessinformationcenter/12.0/admin/firstlaunch.md) topic for next steps.
 
-**NOTE:** If SSL was enabled, the provided certificate was bound to the port and the Access
+:::note
+If SSL was enabled, the provided certificate was bound to the port and the Access
 Information Center desktop icon contains the appropriate URL to the secured site.
+
+:::

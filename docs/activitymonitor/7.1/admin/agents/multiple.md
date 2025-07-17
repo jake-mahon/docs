@@ -12,8 +12,11 @@ servers. See the
 [Activity Agent Server Requirements](/docs/activitymonitor/7.1/requirements/activityagent/activityagent.md) topic
 for additional information.
 
-**NOTE:** These steps are specific to deploying activity agents for monitoring supported target
+:::note
+These steps are specific to deploying activity agents for monitoring supported target
 environments.
+:::
+
 
 **Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
@@ -98,7 +101,7 @@ The options for connecting with a Public Key are:
 To connect with a Client Certificate, select the Client Certificate (for already installed agents)
 option. Copy the following command into a command prompt:
 
-activity-monitor-agentd --create-client-certificate --client-name [NAME]
+**activity-monitor-agentd --create-client-certificate --client-name [NAME]**
 
 Using an existing Client Certificate installs a new agent without using SSH.
 

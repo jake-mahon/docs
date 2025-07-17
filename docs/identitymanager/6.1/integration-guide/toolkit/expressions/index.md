@@ -267,7 +267,7 @@ attribute, only `SourceExpression`. Literal expressions are not available for ru
 
 ```
 
-<ScalarRule Property="userAccountControl" Expression="C#:bot:return &quot;66048&quot;;" /><ScalarRule Property="userAccountControl" Expression="Literal:66048" />
+**<ScalarRule Property="userAccountControl" Expression="C#:bot:return &quot;66048&quot;;" /><ScalarRule Property="userAccountControl" Expression="Literal:66048" />**
 
 <QueryRule Property="parentdn" TargetBinding="dn" SourceExpression="C#:bot:return &quot;OU=Bots,DC=acme,DC=internal&quot;;" /><QueryRule Property="parentdn" TargetBinding="dn" SourceExpression="Literal:OU=Bots,DC=acme,DC=internal" />
 

@@ -15,7 +15,7 @@ The signed in user is displayed in the upper-right corner, along with the **Sign
 options enabled on the Home page change according to what components are licensed as well as the
 role assigned to the user.
 
-For Administrator Only
+**For Administrator Only**
 
 The **Configure Console** link opens the Configuration interface. Configure console access, Active
 Directory service account, notification settings, database access, and diagnostic logging level.
@@ -24,10 +24,13 @@ Additionally you can view license details and upload a new license.
 This interface is available only to users with the Administrator role. See the
 [Configuration Interface Overview](/docs/accessinformationcenter/12.0/admin/configuration/overview.md) topic for additional information.
 
-**NOTE:** Users with the User Access Administrator role have access only to the Console Access page
+:::note
+Users with the User Access Administrator role have access only to the Console Access page
 of the Configuration interface.
+:::
 
-For Security Team & Administrator
+
+**For Security Team & Administrator**
 
 The **Resource Owners** button opens the Resource Owners interface. Manage resource ownership by
 assigning owners to resources and requesting ownership confirmation. Assigned owners can manage
@@ -39,8 +42,11 @@ within the Resource Owners interface. In order for Owners to make ad hoc changes
 Access Information Center must be configured to commit changes in Active Directory. The **Resource
 Owners** button is associated to the Access Requests and Entitlement Reviews license features.
 
-**_RECOMMENDED:_** Enable notifications when managing resources through the Access Information
+:::info
+Enable notifications when managing resources through the Access Information
 Center.
+:::
+
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the [Resource Owners Interface](/docs/accessinformationcenter/12.0/resourceowners/interface/interface.md) topic for additional information.
@@ -51,8 +57,11 @@ membership, permissions, and sensitive data. This requires the Access Informatio
 configured to send notifications. The **Resource Reviews** button is associated to the Entitlement
 Reviews license feature.
 
-**_RECOMMENDED:_** While not required, enabling the Access Information Center to commit changes in
+:::info
+While not required, enabling the Access Information Center to commit changes in
 Active Directory is an optional component of the Resource Reviews workflow.
+:::
+
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the [Resource Reviews Interface](/docs/accessinformationcenter/12.0/resourcereviews/interface/interface.md) topic for additional information.
@@ -67,7 +76,7 @@ the target environment for the resources being managed by the Access Information
 This interface is available only to users with either the Security Team or Administrator role. See
 the [Access Requests Interface](/docs/accessinformationcenter/12.0/accessrequests/interface/interface.md) topic for additional information.
 
-For Reader, Data Privacy, Security Team, & Administrator
+**For Reader, Data Privacy, Security Team, & Administrator**
 
 The **Resource Audit** button opens the Resource Audit interface. View reports for resources, users,
 groups, computers, and sensitive content. Reports are available for resources scanned by Netwrix
@@ -81,7 +90,7 @@ features will direct you to the reports for the selected object: resource, user,
 sensitive content. These features are available to all users with an assigned user role. See the
 [Search Features](/docs/accessinformationcenter/12.0/resourceaudit/navigate/search.md) topic for additional information.
 
-For Assigned Owner
+**For Assigned Owner**
 
 The **Manage Your Resources** link opens the Owner portal. It is only visible on the Home page if
 the logged in user is also an assigned owner of at least one resource. Assigned owners without a
@@ -96,7 +105,7 @@ The Owner portal is available to any domain user who has been assigned ownership
 group within the Access Information Center. See the
 [Owner Portal Overview](/docs/accessinformationcenter/12.0/owneroverview/ownerportal/overview.md) topic for additional information.
 
-For All Domain Users
+**For All Domain Users**
 
 The **Manage Your Access** link opens the Your Access portal. Domain users without a user role who
 have not been assigned ownership are directed to the Your Access portal at login. Users can request
@@ -112,12 +121,13 @@ information.
 The table below is a quick reference aligning each interface with its purpose, how to access it, who
 has access to it, and the require license:
 
-| Interface                  | Purpose                                                                                                                                                                                                                                                                                                                                      | Opened By                                                                                                                                                                                                | Accessible To                                                                                                      | License                                         |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
-| Configuration Interface    | Configure console access, Active Directory service account, notification settings, database access, and diagnostic logging level. Additionally you can view license details and upload a new license.                                                                                                                                        | **Configure Console** link on the Home page                                                                                                                                                              | Administrator role                                                                                                 | Any license feature                             |
-| Resource Audit Interfaces  | View reports for resources, users, groups, computers, and sensitive content.                                                                                                                                                                                                                                                                 | **Resource Audit** button on the Home page Search bar on the Home page Recent Searched box on the Home page Owner Portal (access only to owned resources or groups)                                      | All roles: - Administrator - Security Team - Readers - Data Privacy Assigned resource Owners with no role assigned | Active Directory File System SharePoint Windows |
-| Resource Owners Interface  | Manage resource ownership by assigning owners to resources and requesting ownership confirmation. Optionally enable resources for owner ad hoc changes and/or the Self-Service Access Requests workflow.                                                                                                                                     | **Resource Owners** button on the Home page                                                                                                                                                              | Administrator role Security Team role                                                                              | Entitlement Reviews Access Requests             |
-| Resource Reviews Interface | Create and manage reviews.                                                                                                                                                                                                                                                                                                                   | **Resource Reviews** button on the Home page                                                                                                                                                             | Administrator role Security Team role                                                                              | Entitlement Reviews                             |
-| Access Requests Interface  | View pending and historical access requests and send reminders to owners.                                                                                                                                                                                                                                                                    | **Access Requests** button on the Home page                                                                                                                                                              | Administrator role Security Team role                                                                              | Access Requests                                 |
-| Owner Portal               | View a list of scanned resources that the logged-in domain user is the assigned owner, access resource reports, access pending and historical access requests, and access resource review information. When enabled for a resource, the owner can make ad hoc access changes. The Owner portal also grants access to the Your Access portal. | **Manage Your Resources** link on the Home page Direct from login for owners without a role                                                                                                              | Assigned Resource Owners                                                                                           | Entitlement Reviews Access Requests             |
-| Your Access Portal         | Users can request access to resources managed through the Access Information Center, view their own entitlements to resources, and view access request history.                                                                                                                                                                              | **Manage Your Access** link on the Home page **Access** and **History** links in the My Access section of the Owner Portal Direct from login for domain users without a role and are not assigned owners | Domain User                                                                                                        | Access Requests                                 |
+| Interface                  | Purpose                                                                                                                                                                                                                                                                                                                                      | Opened By                                                                                                                                                                                                | Accessible To                                                                                                                                        | License                                         |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Configuration Interface    | Configure console access, Active Directory service account, notification settings, database access, and diagnostic logging level. Additionally you can view license details and upload a new license.                                                                                                                                        | **Configure Console** link on the Home page                                                                                                                                                              | Administrator role                                                                                                                                   | Any license feature                             |
+| Resource Audit Interfaces  | View reports for resources, users, groups, computers, and sensitive content.                                                                                                                                                                                                                                                                 | **Resource Audit** button on the Home page Search bar on the Home page Recent Searched box on the Home page Owner Portal (access only to owned resources or groups)                                      | All roles: <ul><li>Administrator</li><li>Security Team</li><li>Readers</li><li>Data Privacy Assigned resource Owners with no role assigned</li></ul> | Active Directory File System SharePoint Windows |
+| Resource Owners Interface  | Manage resource ownership by assigning owners to resources and requesting ownership confirmation. Optionally enable resources for owner ad hoc changes and/or the Self-Service Access Requests workflow.                                                                                                                                     | **Resource Owners** button on the Home page                                                                                                                                                              | Administrator role Security Team role                                                                                                                | Entitlement Reviews Access Requests             |
+| Resource Reviews Interface | Create and manage reviews.                                                                                                                                                                                                                                                                                                                   | **Resource Reviews** button on the Home page                                                                                                                                                             | Administrator role Security Team role                                                                                                                | Entitlement Reviews                             |
+| Access Requests Interface  | View pending and historical access requests and send reminders to owners.                                                                                                                                                                                                                                                                    | **Access Requests** button on the Home page                                                                                                                                                              | Administrator role Security Team role                                                                                                                | Access Requests                                 |
+| Owner Portal               | View a list of scanned resources that the logged-in domain user is the assigned owner, access resource reports, access pending and historical access requests, and access resource review information. When enabled for a resource, the owner can make ad hoc access changes. The Owner portal also grants access to the Your Access portal. | **Manage Your Resources** link on the Home page Direct from login for owners without a role                                                                                                              | Assigned Resource Owners                                                                                                                             | Entitlement Reviews Access Requests             |
+| Your Access Portal         | Users can request access to resources managed through the Access Information Center, view their own entitlements to resources, and view access request history.                                                                                                                                                                              | **Manage Your Access** link on the Home page **Access** and **History** links in the My Access section of the Owner Portal Direct from login for domain users without a role and are not assigned owners | Domain User                                                                                                                                          | Access Requests                                 |
+

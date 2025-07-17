@@ -13,12 +13,12 @@ additional information about creating a connector.
 
 The following are prerequisites for the connector creation.
 
-Configure the external system
+**Configure the external system**
 
 See the [Register for Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/azuread-register/index.md) topic for additional
 information on how to register Identity Manager.
 
-Configure Identity Manager
+**Configure Identity Manager**
 
 See the [ Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for
 additional information on the connection.
@@ -46,7 +46,7 @@ appsettings.agent.json
 
 ## Build the Connector
 
-See the [ Connect to a Managed System ](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md)
+See the [Connect to a Managed System](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md)
 topic for additional information on how to build a connector via the UI, with its connections,
 entity types and mappings.
 
@@ -162,7 +162,7 @@ expression, the target entity type and property. See
 the[Binding](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) topic for additional
 information.
 
-Entity mapping
+**Entity mapping**
 
 Each property of the entity type must be mapped to an attribute among those exported from Microsoft
 Entra ID.
@@ -279,7 +279,7 @@ entity association mapping) of the CSV file.
 
 This is how the connectors are displayed on the UI.
 
-Menu items
+**Menu items**
 
 Each connector should be configured with a menu item, which is created automatically when working
 via the UI.
@@ -296,10 +296,10 @@ Conf/MicrosoftEntraID/MicrosoftEntraID Nav.xml
 <MenuItem Identifier="Nav_Connectors_MicrosoftEntraID_DirectoryObject" DisplayName_L1="MicrosoftEntraID Objects" EntityType="MicrosoftEntraID_DirectoryObject" ParentMenuItem="Nav_Connectors" />
 ```
 
-Displayed resources
+**Displayed resources**
 
 See the
-[ Organize Resources' Datasheets ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md)
+[Organize Resources' Datasheets](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md)
 topic for additional information on how to set the display properties via the UI.
 
 For example:
@@ -339,10 +339,10 @@ Conf/MicrosoftEntraID/MicrosoftEntraID UI.xml
 
 This is how the resources are displayed on the UI.
 
-Resources' display names
+**Resources' display names**
 
 See the
-[ Set Resources' Display Names ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md)
+[Set Resources' Display Names](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md)
 topic for additional information on how to set resources' display names via the UI.
 
 For example:
@@ -355,7 +355,7 @@ Conf/MicrosoftEntraID/MicrosoftEntraID UI.xml
 <EntityPropertyExpression Identifier="MicrosoftEntraID_DirectoryObject_InternalDisplayName" Expression="C#:resource:return resource.userPrincipalName ?? resource.mail ?? resource.displayName ?? resource.Id.ToString();" EntityType="MicrosoftEntraID_DirectoryObject" Property="InternalDisplayName" />
 ```
 
-Permissions
+**Permissions**
 
 In order to access the connector, any user must have the right permissions.
 

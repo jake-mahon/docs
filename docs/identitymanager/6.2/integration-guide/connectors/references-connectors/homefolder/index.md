@@ -8,7 +8,7 @@ sidebar_position: 80
 
 This connector exports [home folders](https://en.wikipedia.org/wiki/Home_directory)' content.
 
-This page is about [ Home Folders ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/home-folders/index.md).
+This page is about [Home Folders](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/home-folders/index.md).
 
 ![Package: Storage/Home Folders](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.webp)
 
@@ -40,7 +40,7 @@ This connector performs only complete export, not incremental.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -71,10 +71,9 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "HomeFolderExport": {
->       "InputDirectories": [
->         "C:/ContosoFolder",
+>       "InputDirectories": [>         "C:/ContosoFolder",
 >         "C:/ContosoFolder2",
->       ],
+>],
 >       "Domain": "Windows",
 >       "Interactive": true,
 >       "Login": "Contoso",
@@ -128,9 +127,9 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+- [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)safe;
+- An [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)safe;
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Home Folder's `Login` and `Password`.

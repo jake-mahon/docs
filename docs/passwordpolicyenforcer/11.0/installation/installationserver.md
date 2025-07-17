@@ -33,8 +33,11 @@ folder. See the [Install with Group Policy Management](/docs/passwordpolicyenfor
 details. You can also install/uninstall the products using command line
 [Silent Installation](/docs/passwordpolicyenforcer/11.0/admin/command_line_interface.md#silent-installation).
 
-**NOTE:** Continue with these steps to install one or more features on your current server or domain
+:::note
+Continue with these steps to install one or more features on your current server or domain
 controller. You must repeat these steps for each server where the features are installed.
+:::
+
 
 **Step 3 –** Click on the **Netwrix_PPE_Server**version**x64.msi** installation package. The
 installer is launched.

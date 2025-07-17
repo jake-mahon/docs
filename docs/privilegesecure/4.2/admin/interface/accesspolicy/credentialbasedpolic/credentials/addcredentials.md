@@ -35,12 +35,11 @@ Both tables have the following columns:
 
 Follow the steps to add credentials to the selected access policy.
 
-**Step 1 –** Navigate to the Policy > Access Policies page.
+**Step 1 –** Navigate to the **Policy** > **Access Policies** page.
 
-**Step 2 –** In the Access Policy list, select the name of the access policy and select the
-Credentials tab.
+**Step 2 –** In the Access Policy list, select the name of the access policy and select the **Credentials** tab.
 
-**Step 3 –** Click Add to open the Add Credentials window.
+**Step 3 –** Click **Add** to open the Add Credentials window.
 
 The Add Credentials window has the following features:
 
@@ -58,12 +57,12 @@ The Add Credentials window has the following features:
     - Operating System – Operating System of resource
     - Active Session Count – Number of active sessions
 
-**Step 4 –** \_(Optional)\_Toggle between Credentials or Credential Groups.
+**Step 4 –** (Optional) Toggle between Credentials or Credential Groups.
 
 **Step 5 –** To add a credential to the access policy, click a row in the Available Credentials
 table and it is immediately moved to the Credentials to Add table.
 
-**Step 6 –** Click Add to add the credential(s) to the access policy.
+**Step 6 –** Click **Add** to add the credential(s) to the access policy.
 
 The new credential(s) are added to the access policy and are shown in the
 [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/admin/interface/accesspolicy/credentialbasedpolic/credentials/credentials.md).

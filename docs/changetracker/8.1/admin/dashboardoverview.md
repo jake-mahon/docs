@@ -21,7 +21,10 @@ The **Dashboard** shows recent System Events including:
 - Summaries of currently active planned changes.
 - Highlighted problems with individual devices.
 
-**NOTE:**
+:::note
+
+:::
+
 
 - The **Welcome to Netwrix Change Tracker** widget provides **Guided Setup Wizard**s – use them!
 - Click **Settings** and select an auto refresh period for a dynamic, active Dashboard.
@@ -45,8 +48,11 @@ If you do not see an Agent at all then please contact
 [Netwrix Support](https://www.netwrix.com/support.html) for further help or use the Agent
 Troubleshooting of the Admin Guide.
 
-**NOTE:** You can pop-out the **Groups and Device** selection panel by clicking on the tag as shown
+:::note
+You can pop-out the **Groups and Device** selection panel by clicking on the tag as shown
 above. Make sure the ‘Search Groups’ is set to ‘All Devices.’
+:::
+
 
 Once the Agent registration process has completed you will see that the Device Name and IP Address
 have been identified and the Operating System. By default, Netwrix Change Tracker is provided with a

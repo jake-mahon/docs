@@ -22,7 +22,7 @@ When Password Policy Enforcer Web is first installed, the Domain List is empty a
 their domain name. You can configure Password Policy Enforcer Web to display a list of domains
 instead of an empty text box.
 
-Add Domain
+**Add Domain**
 
 Follow the steps below to add a domain to the list.
 
@@ -32,11 +32,14 @@ Follow the steps below to add a domain to the list.
 
 **Step 3 –** Click **OK**, the click **Apply**.
 
-**NOTE:** The most frequently used domain should be first in the list as it will be the default. You
+:::note
+The most frequently used domain should be first in the list as it will be the default. You
 can rearrange the domains by dragging them to another position. You can also click **Sort** to sort
 them alphabetically.
+:::
 
-Remove Domain
+
+**Remove Domain**
 
 Follow the steps below to remove a domain from the list.
 
@@ -63,10 +66,13 @@ controllers.
 You can also set the Port, Timeout, and number of Retries for the Password Policy Protocol if the
 defaults are not suitable.
 
-**NOTE:** A Password Policy Enforcer Web license does not include a Password Policy Enforcer
+:::note
+A Password Policy Enforcer Web license does not include a Password Policy Enforcer
 license. Go to
 [netwrix.com/password_policy_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to
 learn more about Password Policy Enforcer.
+:::
+
 
 ## About Tab
 

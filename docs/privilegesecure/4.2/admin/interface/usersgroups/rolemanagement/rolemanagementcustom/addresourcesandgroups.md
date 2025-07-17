@@ -35,15 +35,15 @@ Both tables have the following columns:
 
 Follow the steps to add resources and resource groups to the selected access policy or custom role.
 
-**Step 1 –** Navigate to the Policy > Access Policies page or Users & Groups > Role Management page.
+**Step 1 –** Navigate to the **Policy** > **Access Policies** page or **Users & Groups** > **Role Management** page.
 
 **Step 2 –** Select the name of the access policy or custom role and select the Resources tab.
 
-**Step 3 –** Click Add to open the Add Resources window.
+**Step 3 –** Click **Add** to open the Add Resources window.
 
 **Step 4 –** Select the checkbox for the desired resources in the Available Resources And Resource
 Groups table.
 
-**Step 5 –** Click Add to add one or more Resources or Resource Groups.
+**Step 5 –** Click **Add** to add one or more Resources or Resource Groups.
 
 The new resource(s) and resource group(s) are added to the custom role.

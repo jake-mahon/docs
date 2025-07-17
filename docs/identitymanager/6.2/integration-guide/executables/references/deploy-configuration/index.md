@@ -11,7 +11,7 @@ items to insert, update or delete in the application.
 
 ## Examples
 
-Locally
+**Locally**
 
 The following example deploys an on-premise configuration via a direct connection to the database
 through its connection string:
@@ -23,7 +23,7 @@ script in the command line.
 ./identitymanager-Deploy-Configuration.exe -d "C:/identitymanager/Conf" --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
 ```
 
-Remotely
+**Remotely**
 
 The following example deploys a SaaS configuration via an HTTP POST request to the server of the
 remote configuration:
@@ -35,10 +35,13 @@ script in the command line.
 ./identitymanager-Deploy-Configuration.exe -d "C:/identitymanager/Conf" --api-url https://my_usercube_instance.com
 ```
 
-**_RECOMMENDED:_** To be able to deploy a SaaS configuration, you must first provide your Identity
+:::info
+To be able to deploy a SaaS configuration, you must first provide your Identity
 Manager administrator with identity information. See the
-[ Deploy the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/deploy-configuration/index.md) topic for
+[Deploy the Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/deploy-configuration/index.md) topic for
 additional information.
+:::
+
 
 ## Arguments
 

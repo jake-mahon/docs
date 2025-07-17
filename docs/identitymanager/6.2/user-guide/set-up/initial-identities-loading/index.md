@@ -27,7 +27,7 @@ Each identity will be represented by a set of properties that are to be used in 
 > ![Identity Example](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.webp)
 
 See the
-[ Identity Repository ](/docs/identitymanager/6.2/integration-guide/identity-management/identity-repository/index.md)
+[Identity Repository](/docs/identitymanager/6.2/integration-guide/identity-management/identity-repository/index.md)
 topic for additional information.
 
 The initial workforce repository is going to be the first version of a comprehensive repository

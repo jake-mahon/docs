@@ -71,6 +71,9 @@ response, it requests caching for up to two weeks. The web browser should cache 
 it for the next two weeks before querying the server again. No caching is requested for other
 responses.
 
-**NOTE:** You may get a **user is enrolled** response after deleting an enrolled user when testing
+:::note
+You may get a **user is enrolled** response after deleting an enrolled user when testing
 the API. Clearing the browser cache may fix this, but not if other HTTP caches have cached the
 response.
+
+:::

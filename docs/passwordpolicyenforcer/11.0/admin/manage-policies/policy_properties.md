@@ -29,9 +29,12 @@ Select the **Default characters set**. The default value (Netwrix Password Polic
 users to comply with rules that use the Password Policy Enforcer character set. Choose the alternate
 option (Windows) to have users comply with rules that use the Windows character set.
 
-**NOTE:** Only Password Policy Enforcer 10.0 and higher contain the Windows character set. Password
+:::note
+Only Password Policy Enforcer 10.0 and higher contain the Windows character set. Password
 Policy Enforcer 9, Netwrix Password Reset and Password Policy Enforcer/Web 7 (and older for all
 products) always use the Password Policy Enforcer character set.
+:::
+
 
 - Some languages such as Japanese do not distinguish between uppercase and lowercase. These
   characters are in the Windows Alpha set, but not in the Upper or Lower sets.
@@ -65,14 +68,20 @@ The user logon name and new password are sent to the program as command-line par
 example, if you add the commands below to a batch file, Password Policy Enforcer records each user's
 logon name and new password in a text file named **passwords.txt**:
 
-echo Username: %1 >> c:\passwords.txt
+**echo Username: %1 >> c:\passwords.txt**
 
 echo Password: %2 >> c:\passwords.txt
 
-**CAUTION:** This script is shown as an example only. You should not store user passwords.
+:::warning
+This script is shown as an example only. You should not store user passwords.
+:::
+
 
 The command can now include the [USERNAME] and [PASSWORD] macros. If neither is specified, then the
 command is executed with both parameters to maintain compatibility with existing programs/scripts.
 
-**_RECOMMENDED:_** Use the [USERNAME] parameter if the password is not needed by the program/script
+:::info
+Use the [USERNAME] parameter if the password is not needed by the program/script
 so that the password is not unnecessarily sent to the change notification command/script.
+
+:::

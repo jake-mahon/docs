@@ -19,10 +19,13 @@ Password.
 
 ![Manage connections from the Directory Services](/img/product_docs/endpointprotector/5.9.4.2/admin/directoryservices/newconnection.webp)
 
-**NOTE:** When having to import a very large number of entities, we recommend using the Base Search
+:::note
+When having to import a very large number of entities, we recommend using the Base Search
 Path to get only the relevant information displayed. Due to browser limitations, importing the whole
 AD structure may impede the display of the import tree if it contains a very large number of
 entities.
+:::
+
 
 To ensure the information is correct, click Test to test the new connection.
 
@@ -39,7 +42,10 @@ other entities.
 
 From the Directory Browser section, you can select the entities that need to be synced.
 
-**NOTE:** You can view only Organizational units (OU) and Groups in the Directory Browser.
+:::note
+You can view only Organizational units (OU) and Groups in the Directory Browser.
+:::
+
 
 ![From the Directory Browser section, you can select the entities that need to be synced.](/img/product_docs/endpointprotector/5.9.4.2/admin/directoryservices/directorybrowser.webp)
 
@@ -53,7 +59,7 @@ You can create and manage connections from the Directory Services, Microsoft Ent
 section, Groups from the Microsoft Entra ID will have their users synchronized with the Endpoint
 Protector Server. Group membership will be retrieved recursively by the API platform itself.
 
-Example
+**Example**
 
 - Group 1 - User 1, User 2, User 3
 - Group 2 - Group 1, User 4
@@ -87,7 +93,10 @@ left side, then on New Registration.
 
 **Step 5 –** On the Supported account type select **Default Directory**.
 
-**CAUTION:** Do not ﬁll in the Redirect URI ﬁeld!
+:::warning
+Do not ﬁll in the Redirect URI ﬁeld!
+:::
+
 
 **Step 6 –** Click **Register**.
 
@@ -126,7 +135,10 @@ API.
 **Step 5 –** Take note of the Secret ID value and make sure to copy it to the clipboard and also to
 store it safely because it will be needed further on.
 
-**NOTE:** Notice that when navigating back, the secret ID will be hidden.
+:::note
+Notice that when navigating back, the secret ID will be hidden.
+:::
+
 
 ![Create a Secret ID for the Application](/img/product_docs/endpointprotector/5.9.4.2/admin/directoryservices/certsecretsfive.webp)
 

@@ -9,7 +9,7 @@ sidebar_position: 50
 How to tweak the
 [References: Permissions](/docs/identitymanager/6.2/integration-guide/profiles-permissions/permissions/index.md) for
 actions within Identity Manager, for a set of basic
-[ Assigned Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md).
+[Assigned Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md).
 
 ## Overview
 
@@ -32,7 +32,7 @@ Permissions can be about:
 - workflows, which gives access to actions for users' lifecycle (onboarding-movement-offboarding),
   through the workflows provided by Identity Manager within the **Directory** pages;
 - reports, which gives access to Identity Manager's predefined reports about workforce. See the
-  [ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information.
+  [Generate Reports](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information.
 - notifications, which enables notification reception when specific workflows are launched.
 
 Netwrix Identity Manager (formerly Usercube) recommends creating and using the following profiles:
@@ -72,7 +72,7 @@ Integrators must have the knowledge of the organization strategy towards the IGA
 
 | Input                                                                                  | Output        |
 | -------------------------------------------------------------------------------------- | ------------- |
-| [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) (required) | User profiles |
+| [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) (required) | User profiles |
 
 ## Configure a User Profile
 
@@ -116,5 +116,5 @@ information.
 ## Next Steps
 
 Once user profiles are configured, integrators can start configuring onboarding workflows. See the
-[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic for additional
+[Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic for additional
 information.

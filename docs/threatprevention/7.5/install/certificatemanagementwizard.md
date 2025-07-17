@@ -12,9 +12,12 @@ certificate authority. This provides customers with the option to use certificat
 certificate authority instead of the default certificate authority in Threat Prevention Enterprise
 Manager.
 
-**NOTE:** As a requirement for using custom managed certificates, you must provide the Enterprise
+:::note
+As a requirement for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing the
 following:
+:::
+
 
 - Threat Prevention server
 - Remote instance of the Administration Console
@@ -24,7 +27,7 @@ See the
 [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.5/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
 
-How to use the Certificate Management Wizard
+**How to use the Certificate Management Wizard**
 
 The Certificate Management Wizard must be run twice to perform two actions.
 
@@ -34,12 +37,12 @@ The Certificate Management Wizard must be run twice to perform two actions.
 
 The Certificate Manager Wizard application, `SICertMgr.exe`, is available in the following folder:
 
-...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager
+**...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager**
 
 The Threat Prevention installer generates default certificates, that are located in the following
 folder:
 
-...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\CertsInfo
+**...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\CertsInfo**
 
 ## Create a Certificate Signing Request
 
@@ -89,7 +92,10 @@ request has been created. Click **Finish**.
 **Step 8 –** Copy the signed certificates from the SI-CSR-Files folder to your certificate authority
 and generate the signed certificates.
 
-**NOTE:** The procedure to sign the certificates will vary based on the certificate authority used.
+:::note
+The procedure to sign the certificates will vary based on the certificate authority used.
+:::
+
 
 **Step 9 –** Copy the signed certificates from your certificate authority and paste them to any
 folder on the Threat Prevention server.

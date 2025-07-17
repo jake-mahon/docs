@@ -30,7 +30,8 @@ Change** tabs.
 
 ![ReportsAndQuesriesTab](/img/product_docs/changetracker/8.0/admin/tabs/reportsandquesriestab.webp)
 
-**NOTE:** Report formatting is controlled by the built-in Compliance reports templates. See the
+:::note
+Report formatting is controlled by the built-in Compliance reports templates. See the
 [Template Management](/docs/changetracker/8.0/compliance/compliancereportstemplates.md) topic for additional information. You will
 see that any report has a ‘Results available until xx yy zz – this retention period is in place to
 ensure that reports are not stored forever and using storage resource unnecessarily. Most reports
@@ -39,6 +40,8 @@ need to store reports long term at the Change Tracker Hub. Don’t worry, the ev
 long as needed, governed by the separate DaysToKeepEventsFor system setting. See the
 [System Settings](/docs/changetracker/8.0/admin/settingstab/systemsettings/systemsettings.md) topic for additional information. Reports can be
 regenerated at any time if needed at a subsequent future date.
+:::
+
 
 ![ReportsReportViewerDialog](/img/product_docs/changetracker/8.0/admin/tabs/reportsreportviewerdialog.webp)
 

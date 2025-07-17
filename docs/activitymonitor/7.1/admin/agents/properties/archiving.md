@@ -46,5 +46,8 @@ The options below the **Configure** button are:
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The Agent
 Properties window closes.
 
-**NOTE:** Linux agents move activity logs to a set local path. Remote storage can be mounted to use
+:::note
+Linux agents move activity logs to a set local path. Remote storage can be mounted to use
 this path for archiving.
+
+:::

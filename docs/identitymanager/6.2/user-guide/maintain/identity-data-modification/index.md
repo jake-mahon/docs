@@ -32,7 +32,7 @@ Integrators are able to perform an identity update if they master the new data.
 | ----------------------------------------------------------- | --------------------------- |
 | Identity repository (required) New identity data (required) | Updated identity repository |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic
+See the [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic
 for additional information.
 
 ## Modify Identity Data
@@ -40,9 +40,9 @@ for additional information.
 Modify identity data by proceeding as follows, according to the changes to be made:
 
 - either update data individually by using predefined workflows in the UI; See the
-  [ Update an Individual Identity ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md) topic for additional information.
+  [Update an Individual Identity](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md) topic for additional information.
 - or perform a same change on several identities simultaneously by using Identity Manager's
-  predefined workflow in the UI; See the [ Update Identities in Bulk ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/mass-update/index.md) topic
+  predefined workflow in the UI; See the [Update Identities in Bulk](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/mass-update/index.md) topic
   for additional information.
 - or update data on a massive scale by uploading an external file into Identity Manager, as an
   incremental version of the identity repository.

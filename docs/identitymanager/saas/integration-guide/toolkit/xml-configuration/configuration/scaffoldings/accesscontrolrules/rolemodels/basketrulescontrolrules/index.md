@@ -13,7 +13,7 @@ basket.
 
 ```
 
-  <BasketRulesControlRules Profile="Administrator"/>
+**<BasketRulesControlRules Profile="Administrator"/>**
 
 ```
 

@@ -22,8 +22,11 @@ sub-tabs:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**_RECOMMENDED:_** Add exclusion process filters for legitimate processes that make changes to
+:::info
+Add exclusion process filters for legitimate processes that make changes to
 LSASS, e.g. third-party malware applications.
+:::
+
 
 ## Operations
 
@@ -49,9 +52,12 @@ malware applications, can be included/excluded from being monitored by the polic
 Double-click the text box beneath Name to enter the desired processes to include or exclude. Press
 the Enter or Tab key to add another text box.
 
-**NOTE:** While a processes inclusion is a filter option, it is not recommended for monitoring
+:::note
+While a processes inclusion is a filter option, it is not recommended for monitoring
 LSASS. Adding a process inclusion filter will limit the scope to only monitor that process. Unknown
 malicious processes would not be monitored in this case.
+:::
+
 
 ## Servers
 

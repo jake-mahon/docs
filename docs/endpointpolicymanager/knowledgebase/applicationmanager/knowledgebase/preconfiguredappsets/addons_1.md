@@ -8,4 +8,4 @@ sidebar_position: 320
 
 Yes. Here is a videos to demonstrate that.
 
-[Manage IE Programs Tab](/docs/endpointpolicymanager/video/applicationsettings/internetexplorer/programstab.md)
+[Manage IE Programs Tab](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/internetexplorer/programstab.md)

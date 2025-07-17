@@ -87,8 +87,7 @@ The previous parameter `$order` is an object corresponding to the following prov
 ```
 
 {
-    "ProvisioningOrdersList": [
-        {
+    "ProvisioningOrdersList": [{
             "AssignedResourceTypeId": "3930001",
             "ChangeType": "Added",
             "WorkflowInstanceId": "81",
@@ -119,8 +118,7 @@ The previous parameter `$order` is an object corresponding to the following prov
                 "firstName": "James",
                 "lastName": "Bond"
             }
-        }
-    ]
+        }]
 }
 ```
 

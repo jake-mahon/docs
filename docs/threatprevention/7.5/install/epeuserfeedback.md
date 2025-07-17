@@ -13,8 +13,11 @@ only provides feedback to end users by listing the reasons EPE rejected a candid
 While rejecting a password, EPE displays the reasons for rejected to the user. If no reasons are
 shown, then the password was rejected by the OS prior to being evaluated by EPE.
 
-**NOTE:** For multilingual support, you must uninstall a previous version of the Credential Provider
+:::note
+For multilingual support, you must uninstall a previous version of the Credential Provider
 and reinstall the Credential Provider that comes with Threat Prevention 7.4.
+:::
+
 
 ## Credential Provider Server Requirements
 
@@ -46,8 +49,11 @@ This msi file is available in the following folder on the Threat Prevention serv
 These msi files are located in the `…\Netwrix\Netwrix Threat Prevention\SIWinConsole\Setup` folder
 on the Threat Prevention server.
 
-**NOTE:** To uninstall this module, use Programs & Features in Control Panel to select the
+:::note
+To uninstall this module, use Programs & Features in Control Panel to select the
 SICredentialProviderx64 or x32.
+:::
+
 
 ## Configure Static User Text for the Windows Login Screen
 
@@ -59,7 +65,7 @@ a new password.
 Edit the Enterprise Password Enforcer GPO to modify the text displayed to the end-users. You can
 change up to ten lines of text.
 
-Access the Enterprise Password Enforcer GPO
+**Access the Enterprise Password Enforcer GPO**
 
 **Step 1 –** Launch the Group Policy Management console (gpmc.msc).
 

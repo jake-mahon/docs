@@ -11,8 +11,11 @@ Follow the steps to import Virtual Machine from Image to VMware.
 **Step 1 –** Connect to your vSphere infrastructure using vSphere Web client, right-click the object
 you need (datacenter, ESXi host, VM folder or resource pool) and select **Deploy OVF Template**.
 
-**NOTE:** If you are running VMware 6.0, connect to vSphere using the on-premises vSphere client and
+:::note
+If you are running VMware 6.0, connect to vSphere using the on-premises vSphere client and
 select **File\_\_**>\_**\_Deploy OVF Template**.
+:::
+
 
 **Step 2 –** Follow the instructions in the table below:
 

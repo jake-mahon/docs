@@ -48,7 +48,7 @@ available below the report name:
   displays when an export option is selected. Provide a name for the report and save to a specified
   location.
 
-Parameter Window
+**Parameter Window**
 
 ![Parameter Window](/img/product_docs/threatprevention/7.5/admin/investigate/parameter.webp)
 

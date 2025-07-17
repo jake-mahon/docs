@@ -46,8 +46,8 @@ Follow the steps below to add a role user to a custom role.
 
 **Step 4 –** Select the checkbox for the desired users in the Available Role Users table.
 
-**Step 5 –** Click Add to add one or more user roles.
+**Step 5 –** Click **Add** to add one or more user roles.
 
-**Step 6 –** Click Add to add the role user(s) to the role.
+**Step 6 –** Click **Add** to add the role user(s) to the role.
 
 The selected users are now granted the permissions associated with the selected custom role.

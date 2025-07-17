@@ -7,7 +7,7 @@ sidebar_position: 120
 # Using the .reg Importer Utility
 
 **NOTE:** For an overview of this section, see this video:
-[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/video/applicationsettings/designstudio/importregistry.md).
+[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/importregistry.md).
 
 There might be times when you already have a` .reg` file (registry export) and want to use it within
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manager. By using Endpoint
@@ -30,4 +30,4 @@ matches which .reg file (see Figure 163).
 Figure 163. The .reg importer utility interface.
 
 For a full end-to-end example on this mini-utility, please watch the video here:
-[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/video/applicationsettings/designstudio/importregistry.md).
+[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/importregistry.md).

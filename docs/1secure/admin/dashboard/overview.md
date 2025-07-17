@@ -24,20 +24,20 @@ See the [Organization Statistics](/docs/1secure/admin/dashboard/organizationstat
 If you are a managing organization (MSP) user, this page provides insights for all your
 organizations.
 
-Top 5 Triggered Alerts by Type
+**Top 5 Triggered Alerts by Type**
 
 This card displays a bar chart that highlights the five most frequently triggered alert types. Hover
 over a bar to view the exact number of alerts for that type. Click a bar to navigate to the Alerts
 Timeline page. See the [Alerts Timeline](/docs/1secure/admin/dashboard/alertstimeline.md) topic for additional information.
 
-Top 5 Organizations with Most Alerts
+**Top 5 Organizations with Most Alerts**
 
 This card displays a bar chart that highlights the five organizations with the highest number of
 triggered alerts. Hover over a bar to view the exact number of alerts triggered for that
 organization. Click a bar to navigate to the Alerts Timeline page. See the
 [Alerts Timeline](/docs/1secure/admin/dashboard/alertstimeline.md) topic for additional information.
 
-Top 5 Organizations at Risk
+**Top 5 Organizations at Risk**
 
 This card lists the five organizations with the highest risk levels. Each record includes the
 organization’s name, risk level (high, medium, or low), and the number of risks detected. Click a
@@ -45,12 +45,12 @@ record to navigate to the Risk Assessment dashboard. See the
 [Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional
 information.
 
-Health Status
+**Health Status**
 
 This bar lists the different health statuses assigned to organizations in the Organizations list,
 along with the number of organizations associated with each status.
 
-Organizations List
+**Organizations List**
 
 This section lists all managed organizations with the following information:
 
@@ -79,7 +79,7 @@ Click a column header to sort the data in the organizations list by that column 
 An arrow appears next to the column name to indicate the sort order. Click the column header again
 to sort the data in descending order.
 
-Add Organization
+**Add Organization**
 
 Click the Add Organization button to add a new organization. See the
 [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic for additional information.
@@ -89,8 +89,11 @@ Click the Add Organization button to add a new organization. See the
 Multiple filters are available on this page to enable you to filter data as desired. You can apply
 one or more filters at a time.
 
-**NOTE:** Some filters apply to all data displayed on this page, while others are specific to the
+:::note
+Some filters apply to all data displayed on this page, while others are specific to the
 Organizations list.
+:::
+
 
 - Filter by Keyword – Type a search string (only alpha characters allowed) in the Filter by keyword
   field and press Enter. The Organizations list displays the data that matches the specified

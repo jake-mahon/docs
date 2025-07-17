@@ -27,7 +27,7 @@ perform the following operations on Windows 10:
 - Deliver an "On" script when conditions are true, and an "Off" script when conditions are false.
 
 **NOTE:** Watch this video for an overview of Endpoint Policy Manager Scripts & Triggers Manager:
-[Use with on-prem Group Policy](/docs/endpointpolicymanager/video/scriptstriggers/gettingstarted/onpremise.md)
+[Use with on-prem Group Policy](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/gettingstarted/onpremise.md)
 
 The basic way to use Scripts & Triggers Manager is as follows:
 

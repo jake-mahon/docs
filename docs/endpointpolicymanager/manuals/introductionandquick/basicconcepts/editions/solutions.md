@@ -78,10 +78,10 @@ URLs to Group Policy management videos.
 
 | Product Name                                      | Video link to Endpoint Policy Manager and the Group Policy Management Product                                                                                        |
 | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft AGPM (Advanced Group Policy Management) | [Endpoint Policy Manager and AGPM](/docs/endpointpolicymanager/video/changemanagementutilities/advancedgrouppolicymanagement.md)                                     |
-| Quest GPO Administrator                           | [Endpoint Policy Manager and Quest's GPOADmin Tool](/docs/endpointpolicymanager/video/changemanagementutilities/gpoadmintool.md)                                     |
-| Quest Active Administrator                        | [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](/docs/endpointpolicymanager/video/changemanagementutilities/scriptlogicactiveadministrator.md) |
-| NetIQ Group Policy Administrator                  | [Endpoint Policy Manager Integrates with NetIQ GPA](/docs/endpointpolicymanager/video/changemanagementutilities/netiq.md)                                            |
+| Microsoft AGPM (Advanced Group Policy Management) | [Endpoint Policy Manager and AGPM](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/changemanagementutilities/advancedgrouppolicymanagement.md)                                     |
+| Quest GPO Administrator                           | [Endpoint Policy Manager and Quest's GPOADmin Tool](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/changemanagementutilities/gpoadmintool.md)                                     |
+| Quest Active Administrator                        | [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/changemanagementutilities/scriptlogicactiveadministrator.md) |
+| NetIQ Group Policy Administrator                  | [Endpoint Policy Manager Integrates with NetIQ GPA](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/changemanagementutilities/netiq.md)                                            |
 
 ## MDM Method
 
@@ -89,7 +89,7 @@ You can use Endpoint Policy Manager with your mobile device management (MDM) ser
 as Microsoft Endpoint Manager (SCCM and Intune), MobileIron, or VMware Workspace ONE.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Started with MDM.
+video:[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/videolearningcenter.md) > Started with MDM.
 
 To get started, create directives using the Endpoint Policy Manager MMC, follow these steps:
 
@@ -119,7 +119,7 @@ You can use the Endpoint Policy Manager Cloud service to create Microsoft Group 
 Policy Manager directives and deliver them through the Internet.
 
 **NOTE:** For a video overview of Endpoint Policy Manager Cloud, see
-[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md).
+[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/quickstart.md).
 
 The diagram below shows how Endpoint Policy Manager Cloud works to deliver directives. Computers can
 be domain-joined or non-domain-joined. When you are a Endpoint Policy Manager SaaS customer, the
@@ -141,7 +141,7 @@ on how to do this can be found in the quick start topic:
 
 **NOTE:** For a video overview of using Endpoint Policy Manager with an MDM or RMM tool to bootstrap
 the Endpoint Policy Manager Cloud installer, see:
-[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/video/cloud/mdm.md).
+[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/mdm.md).
 
 ## Unified Endpoint Management Method
 

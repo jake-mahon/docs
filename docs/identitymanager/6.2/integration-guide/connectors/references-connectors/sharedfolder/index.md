@@ -8,7 +8,7 @@ sidebar_position: 290
 
 This connector exports users and permissions from Windows shared folders.
 
-This page is about [ Shared Folders ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/shared-folders/index.md).
+This page is about [Shared Folders](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/shared-folders/index.md).
 
 ![Package: Storage/Shared Folders](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.webp)
 
@@ -35,7 +35,7 @@ This connector scans shared folders in order to export their content to CSV file
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -70,10 +70,10 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "SharedFolderExport": {
->         "InputDirectories": [ "OfficeNetwork/R&D_Projects", "OfficeNetwork/Management", "C:/" ],
+>         "InputDirectories": ["OfficeNetwork/R&D_Projects", "OfficeNetwork/Management", "C:/"],
 >         "OnlyDirectoryScan": "true",
 >         "LevelOfScan": "12",
->         "ListOfSIDToAvoid": [ "S-1-3-2-4", "S-5-7-6-8" ],
+>         "ListOfSIDToAvoid": ["S-1-3-2-4", "S-5-7-6-8"],
 >         "Login": "account@example.com",
 >         "Password": "accountexamplepassword",
 >         "Domain": "Example",
@@ -137,9 +137,9 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute         | Naming Convention for the Key in Azure Key Vault |
 | ----------------- | ------------------------------------------------ |
@@ -152,7 +152,7 @@ Data protection can be ensured through:
 | Password          | `Connections--<identifier>--Password`            |
 | InputDirectories  | `Connections--<identifier>--InputDirectories`    |
 
-- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login` and `Password`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

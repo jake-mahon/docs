@@ -11,14 +11,14 @@ replacement of the unique record of an existing resource with a new one.
 
 ## Declare a Workflow
 
-This [ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two
+This [Workflow](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two
 activities:
 
 1. `Action With Refine`: sends the resource's record update request with a possibility of
    delegation.
 2. `Persist`: saves the collected data and triggers provisioning.
 
-See the [ Activity Templates ](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+See the [Activity Templates](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to update only the user's name.
 
@@ -89,7 +89,7 @@ not involved in the changes of this workflow.
 ## Assign the Right Permissions
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right
-users. Read about [ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)s
+users. Read about [Workflow](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)s
 permissions.
 
 Below is an example of an access control rule where the `Administrator` profile gets the permissions
@@ -103,7 +103,7 @@ for the whole update request from the previously created workflow:
 
 ## Create Menu Items in the UI
 
-[ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
+[Menu Item](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
 to make the workflow accessible in the UI.
 
 Updating an existing resource, this workflow manages one given resource at a time. Hence an

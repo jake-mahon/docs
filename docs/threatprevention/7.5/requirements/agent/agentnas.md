@@ -26,29 +26,29 @@ See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for additional information.
 
-Dell Celerra® & VNX
+**Dell Celerra® & VNX**
 
 - Celerra 6.0+
 - VNX 7.1
 - VNX 8.1
 
-Dell Isilon/PowerScale
+**Dell Isilon/PowerScale**
 
 - 7.0+
 
-Dell Unity
+**Dell Unity**
 
 Hitachi
 
 - 11.2+
 
-Nasuni Nasuni Edge Appliances
+**Nasuni Nasuni Edge Appliances**
 
 - 8.0+
 
-NetApp Data ONTAP
+**NetApp Data ONTAP**
 
 - 7-Mode 7.3+
 - Cluster-Mode 8.2+
 
-Panzura
+**Panzura**

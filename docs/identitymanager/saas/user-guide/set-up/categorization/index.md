@@ -6,8 +6,7 @@ sidebar_position: 80
 
 # Categorize Resources
 
-How to correlate managed systems' resources with identities, classifying resources into
-[ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md).
+How to correlate managed systems' resources with identities, classifying resources into [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md).
 
 ## Overview
 
@@ -45,19 +44,14 @@ Thus, a resource type is a name that informs users about the intent of a resourc
 it serves to implement our two elements of categorization. This happens with two distinct sets of
 rules, one for correlation, and the other for classification.
 
-**Classification** is a process that simply aims to assign a resource type to specific resources. A
-specific resource can only be assigned a single resource type. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
-topic for additional information.
+**Classification** is a process that simply aims to assign a resource type to specific resources. A specific resource can only be assigned a single resource type. See the [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 ![Classification Schema](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/categorization_classifschema.webp)
 
 Any resource that is unclassified will not be available for review.
 
 **Correlation** is a process that aims to establish an ownership relationship between two resources.
-In most cases, an identity resource that becomes the owner of an account resource. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
-topic for additional information.
+In most cases, an identity resource that becomes the owner of an account resource. See the [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 ![Correlation Schema](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/categorization_correlschema.webp)
 
@@ -98,11 +92,9 @@ As stated previously, both classification and correlation work through sets of r
 Sometimes you may not know if your rules are always going to apply. Therefore, each rule expresses a
 certain level of confidence. Identity Manager will establish a priority order between rules based on
 the confidence rate, and will also act differently depending on whether the confidence rate is above
-or below 100%. See the [ Correlate Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md) topic for additional
-information.
+or below 100%. See the [Correlate Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md) topic for additional information.
 
-A resource type can have zero correlation rules, since accounts can be without owners. But a
-resource type with neither correlation nor classification rules serves no purpose.
+A resource type can have zero correlation rules, since accounts can be without owners. But a resource type with neither correlation nor classification rules serves no purpose.
 
 **Correlation triggers classification:** a matching correlation rule for a given resource type will
 perform both actions of categorization: both correlating a resource with its owner, and classifying
@@ -110,25 +102,16 @@ the resource at the same time.
 
 See below this note.
 
-Hence, integrators should start with correlation rules, and then write classification rules for any
-remaining uncorrelated resources.
+Hence, integrators should start with correlation rules, and then write classification rules for any remaining uncorrelated resources.
 
 In the same way, Identity Manager will apply correlation rules before classification rules.
 
 ![Categorization Schema](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/categorization_categschema.webp)
 
-Now that you have created resource types and their correlation/classification rules, you have
-created the first elements for your role model. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
-topic for additional information. The role model contains all the roles and rules which drive the
-entitlement assignment logic inside Identity Manager.
+Now that you have created resource types and their correlation/classification rules, you have created the first elements for your role model. See the [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic for additional information. The role model contains all the roles and rules which drive the entitlement assignment logic inside Identity Manager.
 
-A role model is made up of
-[Policy](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) which
-contain roles, rules and resource types. Most often the default policy is enough. However, in more
-complex situations, additional policies can be created to separate groups of roles, rules and
-resource types. See the [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topic for
-additional information.
+A role model is made up of [Policy](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) which contain roles, rules and resource types. Most often the default policy is enough. However, in more
+complex situations, additional policies can be created to separate groups of roles, rules and resource types. See the [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topic for additional information.
 
 ## Participants and Artifacts
 
@@ -137,25 +120,20 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                      | Output                                                          |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) (required) [ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) (required) | Categorized resources Correlated accounts Orphaned account list |
+| [Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) (required) [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [Synchronize Data](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) (required) | Categorized resources Correlated accounts Orphaned account list |
 
 ## Categorize Resources
 
 Categorize resources by proceeding as follows:
 
-1. Create at least one [ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md);
-2. Create the appropriate [ Correlate Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md);
-3. Create the appropriate [ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) for accounts that do not
-   have an owner.
+1. Create at least one [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md);
+2. Create the appropriate [Correlate Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md);
+3. Create the appropriate [Classify Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) for accounts that do not have an owner.
 
-Netwrix Identity Manager (formerly Usercube) recommends creating/modifying/deleting correlation and
-classification rules using [ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) in order to
-previsualize changes.
+Netwrix Identity Manager (formerly Usercube) recommends creating/modifying/deleting correlation and classification rules using [Perform a Simulation](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) in order to previsualize changes.
 
 ## Next Steps
 
-Once accounts are categorized, integrators can start to
-[ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md).
+Once accounts are categorized, integrators can start to [Create a Provisioning Rule](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md).
 
-Categorization also enables the
-[Review Orphaned and Unused Accounts](/docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/index.md).
+Categorization also enables the [Review Orphaned and Unused Accounts](/docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/index.md).

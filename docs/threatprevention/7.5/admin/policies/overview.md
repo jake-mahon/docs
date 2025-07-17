@@ -20,14 +20,17 @@ The columns are (left to right):
 
 - Policy State – Indicates whether the policy is enabled (green) or disabled (gray)
 
-  **NOTE:** This only displays the state of the policy. It does not change its state.
+  :::note
+  This only displays the state of the policy. It does not change its state.
+  :::
+
 
 - Customized Schedule Icon – A clock symbol displays when the policy has been customized
 - Name – Name of the policy
 - Path – Folder and sub-folder location of the policy within the Navigation pane
 - Description – The description provided on the General tab of the policy
 
-Policies Node
+**Policies Node**
 
 Under the Policies node in the Navigation pane, folders are used to organize the policies. Folders
 can be created at the top level or as sub-folders. Threat Prevention supports unlimited levels for
@@ -63,6 +66,9 @@ It contains the following options:
 | Export              | Exports the selected policy’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/7.5/admin/policies/exportpoliciestemplates.md) |
 | Remove              | Deletes the selected policy                                                                                                                                                         |
 
-**NOTE:** If the selected policy is protected and the current user does not have the Manage Policies
+:::note
+If the selected policy is protected and the current user does not have the Manage Policies
 permission for it, these options are grayed-out. See the [Data Protection](/docs/threatprevention/7.5/admin/policies/dataprotection.md) topic
 for additional information on protection.
+
+:::

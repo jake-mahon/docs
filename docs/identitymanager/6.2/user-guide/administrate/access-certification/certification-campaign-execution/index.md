@@ -27,7 +27,7 @@ scheduling.
 
 | Input                                                                                           | Output           |
 | ----------------------------------------------------------------------------------------------- | ---------------- |
-| [ Schedule a Certification Campaign ](/docs/identitymanager/6.2/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) (required) | Certified access |
+| [Schedule a Certification Campaign](/docs/identitymanager/6.2/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) (required) | Certified access |
 
 ## Execute Certification
 

@@ -55,7 +55,7 @@ Endpoint Policy Manager Preferences Manager does the following jobs:
 Preferences directives even to non-domain-joined machines.
 
 **NOTE:** See
-[Which settings can be managed with the Preferences Manager component?](/docs/endpointpolicymanager/knowledgebase/gpoexportmergeadmint/knowledgebase/exportinggrouppolicy/settings.md)for additional
+[Which settings can be managed with the Preferences Manager component?](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/knowledgebase/exportinggrouppolicypreferences/settings.md)for additional
 information on Endpoint Policy Manager Preferences Manager used with SCCM, Endpoint Policy Manager
 Cloud, or an MDM service,
 

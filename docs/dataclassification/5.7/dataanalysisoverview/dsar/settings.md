@@ -9,8 +9,11 @@ sidebar_position: 20
 This section describes Netwrix Data Classification configuration required to run Data Subject Access
 Requests (DSAR).
 
-**NOTE:** Only users with 'Super User' permissions are able to configure DSAR.
+:::note
+Only users with 'Super User' permissions are able to configure DSAR.
 [See DSAR Roles for more information.](/docs/dataclassification/5.7/dataanalysisoverview/dsar/roles.md)
+:::
+
 
 1. In administrative web console , navigate to Data Analysis → DSAR.
 2. Locate the Settings tab.
@@ -27,17 +30,23 @@ Requests (DSAR).
 All search requests are run by the scheduled time set by a Super User. If you have one or more
 pending searches and for some reason want to run them immediately, use Run now option.
 
-**NOTE:** This option is only available when there are queued requests and a search is not currently
+:::note
+This option is only available when there are queued requests and a search is not currently
 in progress to prevent conflicting processes.
+:::
 
-To run queued search requests immediately
+
+**To run queued search requests immediately**
 
 1. In administrative web console, navigate to Data Analysis → DSAR.
 2. Click Run now under System Configuration.
 3. Confirm that you want to run all requests immediately.
 
-**NOTE:** When forcing a search request run, consider that this operation may lead to performance
+:::note
+When forcing a search request run, consider that this operation may lead to performance
 degrading.
+:::
+
 
 See also:
 

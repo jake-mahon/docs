@@ -1,5 +1,5 @@
 ---
-title: "AD Replication Monitoring Event Type"
+title: "AD Replication Monitoring"
 description: "AD Replication Monitoring Event Type"
 sidebar_position: 40
 ---
@@ -50,9 +50,12 @@ policy. It is necessary for the policy to be configured to exclude domain contro
 
 If no filters are applied, saving the policy configuration displays a warning message.
 
-**NOTE:** The AD Replication Monitoring event type internally looks for use of the GetNCChanges()
+:::note
+The AD Replication Monitoring event type internally looks for use of the GetNCChanges()
 API and reports an event when this API is invoked by a machine outside the scope of the policy
 filters.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -72,11 +75,14 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
 
-Sub Tree
+
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
@@ -119,9 +125,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Hosts (from) Filter
 
@@ -139,6 +148,9 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+
+:::

@@ -18,8 +18,11 @@ The available Agent server settings for Nutanix are:
   connect to the agent server port. Multiple addresses can be entered separated by space, comma (,),
   semicolon (;), or as a multi-line list. Leave the box blank to accept connections from any hosts.
 
-    **NOTE:** This setting is optional and it allows you to improve security by limiting the number
+    :::note
+    This setting is optional and it allows you to improve security by limiting the number
     of IP addresses allowed to connect.
+    :::
+
 
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The Agent
 Properties window closes.

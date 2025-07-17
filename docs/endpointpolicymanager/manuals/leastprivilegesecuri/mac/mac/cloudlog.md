@@ -1,7 +1,7 @@
 ---
 title: "Understanding Cloud.log"
 description: "Understanding Cloud.log"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Understanding Cloud.log

@@ -12,7 +12,7 @@ Follow the steps to add a new Service Account to a host resource:
 
 **Step 2 –** Select a Host resource you want to modify.
 
-**Step 3 –** Click the Green Plus Button to add a new Service Account.
+**Step 3 –** Click the **Green Plus** button to add a new Service Account.
 
 ![addnewserviceaccount](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/addnewserviceaccount.webp)
 

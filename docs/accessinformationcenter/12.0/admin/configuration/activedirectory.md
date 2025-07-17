@@ -51,8 +51,11 @@ be configured to be accessible by the same domains. See the Enable Multiple Doma
 the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
-**NOTE:** All domains enabled to access the Access Information Center must also have data collected
+:::note
+All domains enabled to access the Access Information Center must also have data collected
 by the **.Active Directory Inventory** solution of Access Analyzer.
+:::
+
 
 ## Commit Group Membership changes
 
@@ -67,7 +70,10 @@ Directory service account to commit group membership changes. See the
 information on provisioning the Active Directory service account and best practices for group and
 resource management through the Access Information Center
 
-_Remember,_ click **Save** when any changes are made to this page.
+:::tip
+Remember, click **Save** when any changes are made to this page.
+:::
+
 
 ## Update the Active Directory Service Account Password
 

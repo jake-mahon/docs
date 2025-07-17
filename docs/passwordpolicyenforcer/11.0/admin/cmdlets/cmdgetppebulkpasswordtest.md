@@ -9,12 +9,12 @@ sidebar_position: 50
 The **Get-PPEBulkPasswordTest** cmdlet runs the Password Policy Enforcer bulk password test of the
 specified policy.
 
-SYNTAX
+**SYNTAX**
 
 **Get-PPEBulkPasswordTest** **-PasswordFile** `<_string_>` **-Policy** `<_string_>`
 **-ResultFolder** `<_string_>` [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-PasswordFile** `<_string_>`
 
@@ -35,7 +35,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Get-PPEBulkPasswordTest -PasswordFile C:\PPE\password.txt -Policy "Eval Policy"
 -resultFolder C:\PPE

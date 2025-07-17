@@ -13,7 +13,7 @@ sample of activity. However, this configuration can be changed by editing the
 `AccessInformationCenter.Service.exe.config` file in the Access Information Center installation
 directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to modify the activity days parameter.
 

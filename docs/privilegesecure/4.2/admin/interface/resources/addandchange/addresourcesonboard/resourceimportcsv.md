@@ -27,12 +27,12 @@ There is a template available. Follow the steps to download the template.
 
 **Step 1 –** Navigate to either the Resources dashboard or the Resources page.
 
-**Step 2 –** Click the Add button and select New Server. The Add Resources window will open to
+**Step 2 –** Click the **Add** button and select New Server. The Add Resources window will open to
 onboard new servers.
 
-**Step 3 –** Select the Import from CSV radio button.
+**Step 3 –** Select the **Import from CSV** radio button.
 
-**Step 4 –** Click Download CSV Template.
+**Step 4 –** Click **Download CSV Template**.
 
 The `nps-resource-import-template.csv` file is downloaded to your browser's default download folder.
 

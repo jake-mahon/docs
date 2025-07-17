@@ -12,7 +12,7 @@ Creates the search bar for the entity without criteria.
 
 ```
 
-  <EntityTypeSearchBar EntityType="Directory_Country"/>
+**<EntityTypeSearchBar EntityType="Directory_Country"/>**
 
 ```
 
@@ -28,6 +28,6 @@ Our example generates the following configuration:
 
 ```
 
-<SearchBar EntityType="Directory_Country" Menu="Search_Directory_Country" SearchBarDesignElement="Inline" />
+**<SearchBar EntityType="Directory_Country" Menu="Search_Directory_Country" SearchBarDesignElement="Inline" />**
 
 ```

@@ -34,7 +34,7 @@ Tips:
   [https://community.ivanti.com/docs/DOC-59389](https://community.ivanti.com/docs/DOC-59389)
 - For your AV / other software, see your own vendor's exclusions.
 - Endpoint Policy Manager AV Exclusions:
-  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/antivirusandothersys/antivirus.md)
+  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
 - If you have a FEW or ONE machine showing the issue: FAQ.
 
 **Step 3 –** After that, it could still be a bug. But it would typically appear on MANY machines and
@@ -42,6 +42,6 @@ not just a SINGLE or a FEW machines. That being said, if you would like for us t
 logs, in these cases, we need AT LEAST TWO machines to see a PATTERN in the logs. So be prepared to
 get logs from multiple machines showing the issue so we can do some deeper investigation.
 
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/troubleshootinggener/fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/fastsupport.md)
 
 _Remember,_ We need AT LEAST two machines of logs to check in this case.

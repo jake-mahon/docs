@@ -18,7 +18,10 @@ Netwrix Data Classification management console.
 You can manage the individual content sources or organize them into source groups, which are used as
 logical containers.
 
-**NOTE:** You can configure the unlimited number of sources to work with.
+:::note
+You can configure the unlimited number of sources to work with.
+:::
+
 
 See next:
 

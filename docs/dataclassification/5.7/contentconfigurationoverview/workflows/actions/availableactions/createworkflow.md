@@ -55,7 +55,7 @@ The following options are available:
     If you have selected any of the **Specific Classification** variants, you should then specify
     taxonomy terms that will be applied to filter out the documents for your workflow.
 
-To configure terms
+**To configure terms**
 
 1. In the **Select Term** field, click the tag icon.
 2. In the **Details** dialog, specify filter settings to use when filtering out the documents:
@@ -65,8 +65,11 @@ To configure terms
        this option is cleared, then after selecting the necessary taxonomy, you will be presented
        the list of its terms. Select the one you plan to use for filtering.
 
-    **NOTE:** Multiple selection is not supported: to configure several filter values, you should
+    :::note
+    Multiple selection is not supported: to configure several filter values, you should
     repeat this procedure for each filter value you need.
+    :::
+
 
     3. **Include Children** - select this option if needed.
 
@@ -85,7 +88,7 @@ The configured rule condition will appear in the **Rule Conditions** section on 
 
 ![add_workflows_rules_list_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/add_workflows_rules_list_thumb_0_0.webp)
 
-Example
+**Example**
 
 If you want to apply the rule to all documents classified as Visa cardholder data using PCI DSS
 taxonomy, configure the rule condition as follows:

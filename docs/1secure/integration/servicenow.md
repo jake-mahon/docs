@@ -38,10 +38,13 @@ Follow the steps to add a ServiceNow integration system.
 **Step 3 –** In the Configure connection window, specify the required boxes - Server Name, Username,
 and Password.
 
-**NOTE:** First, you need to configure your account at
+:::note
+First, you need to configure your account at
 [https://www.servicenow.com/](https://www.servicenow.com/). See the
 [https://docs.servicenow.com/en-US/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html](https://docs.servicenow.com/en-US/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html)
 help page for an additional information.
+:::
+
 
 View Fields Here:
 
@@ -86,9 +89,12 @@ Comments column in ServiceNow.
 
 **Step 8 –** Click **Save**.
 
-**NOTE:** The user account configured for the integration must have the Information technology
+:::note
+The user account configured for the integration must have the Information technology
 infrastructure library (ITIL) role assigned to it in ServiceNow. Users without this role are unable
 to assign urgency/severity to an incident.
+:::
+
 
 See the
 [https://www.servicenow.com/products/itsm/what-is-itil.htm](https://www.servicenow.com/products/itsm/what-is-itil.html)

@@ -29,10 +29,13 @@ Any Planned Change comprises the following elements:
 - Use the new **Planned Change Wizard** to guide you through the steps required to create a Planned
   Change Schedule and Rule Set.
 
-**NOTE:** Rules can also be created directly from an observed event using the Actions button on the
+:::note
+Rules can also be created directly from an observed event using the Actions button on the
 [Events Tab](/docs/changetracker/8.0/admin/events/events.md), or by recording
 events directly from a device group. Note that an additional Planned Change Schedule filter is
 available in the **Filter Control** panel. Planned Change Schedules can be re-used – use the Clone
 button to create a copy.
+:::
+
 
 ![PlannedChangesRules](/img/product_docs/changetracker/8.0/admin/tabs/plannedchangesrules.webp)

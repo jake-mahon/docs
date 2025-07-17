@@ -12,7 +12,7 @@ Generates access control to send notification when job finish with an error stat
 
 ```
 
-  <RunJobNotificationAccessControlRules Profile="Administrator"/>
+**<RunJobNotificationAccessControlRules Profile="Administrator"/>**
 
 ```
 

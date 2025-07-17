@@ -10,7 +10,7 @@ sidebar_position: 10
 
 ```
 
-  <PolicySimulationControlRules Profile="Administrator"/>
+**<PolicySimulationControlRules Profile="Administrator"/>**
 
 ```
 

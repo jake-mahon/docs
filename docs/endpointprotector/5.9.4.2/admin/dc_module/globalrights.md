@@ -9,8 +9,11 @@ sidebar_position: 30
 From this section, you can manage the entire system and specify what rights and settings apply
 globally, to all Endpoint Protector entities.
 
-**NOTE:** If device rights or other settings will be conﬁgured granularly for entities, the priority
+:::note
+If device rights or other settings will be conﬁgured granularly for entities, the priority
 order, starting with the highest, will be as follows:
+:::
+
 
 ![priortyorder](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/priortyorder.webp)
 
@@ -64,12 +67,18 @@ Encryption are TD level 1).
 For detailed information on Trusted Device™ and Enforced Encryption, refer to the
 [Trusted Device™](../ee_module/eemodule.md) topic.
 
-**NOTE:** With the WiFi – Block if wired network is present option you can disable the WiFi
+:::note
+With the WiFi – Block if wired network is present option you can disable the WiFi
 connection, while a wired network connection is present. The WiFi connection will be available when
 the wired network is not present.
+:::
 
-**NOTE:** On macOS version 14 (Sonoma) and higher, Bluetooth devices are managed only when the
+
+:::note
+On macOS version 14 (Sonoma) and higher, Bluetooth devices are managed only when the
 device is connected and visible under ‘My Devices’ in the Bluetooth section of ‘System settings’.
+:::
+
 
 ![Bluetooth Device Management on Mac](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/macbluetooth.webp)
 
@@ -93,8 +102,11 @@ remain the serial number.
 For example; in the below image, you can view the 3 devices detected by Endpoint Protector have
 different VID, PID and device code, but they all have the same serial number.
 
-**NOTE:** The Endpoint Protector Client does not distinguish between USB devices (e.g. USB hard
+:::note
+The Endpoint Protector Client does not distinguish between USB devices (e.g. USB hard
 drive vs USB Webcam) by Device name/VID/PID.
+:::
+
 
 ![Manage USB access through the virtual environment.](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/vmusb.webp)
 
@@ -126,9 +138,12 @@ adding devices:
 
 ![ Add multiple devices at the same time.](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/multipledevices.webp)
 
-**NOTE:** Although this feature can work in situations where the Serial Number range does not follow
+:::note
+Although this feature can work in situations where the Serial Number range does not follow
 a noticeable pattern, this is not recommended. In this type of situation, some devices will be
 ignored by Endpoint Protector and will not have the expected effect.
+:::
+
 
 - Bulk List of Devices – will allow at Step 2 to add up to 1000 devices at the same time. There are
   two methods to choose from, either importing a list or simply pasting the information.
@@ -141,7 +156,10 @@ detailed information on using the File Allowlist, refer to the File
 
 ## Outside Network
 
-**NOTE:** To use this setting, the feature needs to be enabled in the Global Settings section.
+:::note
+To use this setting, the feature needs to be enabled in the Global Settings section.
+:::
+
 
 From this section, you can deﬁne fallback policies that will apply when outside the network. All of
 the functionalities are identical to the Standard section.
@@ -150,7 +168,10 @@ the functionalities are identical to the Standard section.
 
 ## Outside Hours
 
-**NOTE:** To use this setting, the feature needs to be enabled in the Global Settings section.
+:::note
+To use this setting, the feature needs to be enabled in the Global Settings section.
+:::
+
 
 From this section, you can deﬁne fallback policies that will apply when outside working hours. All
 of the functionalities are identical to the Standard section.

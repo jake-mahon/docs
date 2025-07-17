@@ -21,7 +21,7 @@ using Endpoint Policy Manager Cloud.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Cloud with domain-joined
 machines. See the
-[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/video/cloud/integration/onpremise.md)
+[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/onpremise.md)
 topic for additional information.
 
 To export a policy for later use with Endpoint Policy Manager Exporter or Endpoint Policy Manager
@@ -29,7 +29,7 @@ Cloud, right-click the collection or the policy, and select **Export to XML**.
 
 **NOTE:** For a video showing how to export policies and how to use Endpoint Policy Manager
 Exporter.See the
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/exportingtips/exporterutility.md)
 topic for additional information.
 
 ![using_item_level_targeting_9](/img/product_docs/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_9.webp)

@@ -89,7 +89,7 @@ ABA.SAPSR3.USR11 to usercube grant select on ABA.SAPSR3.AGR_AGRS to usercube gra
 ABA.SAPSR3.USGRP to usercube grant select on ABA.SAPSR3.UST04 to usercube grant select on
 ABA.SAPSR3.AGR_TCODES to user grant select on ABA.SAPSR3.T002 to usercube Go
 
-Set up the prerequisites for reading
+**Set up the prerequisites for reading**
 
 To set up the prerequisites for reading follow the steps below.
 
@@ -105,9 +105,12 @@ variables.
 **Step 3 –** Create environment variables: `HDBADOTNET=C:\hdbclient\ado.net` and
 `HDBADOTNETCORE=C:\hdbclient\dotnetcore`.
 
-Set up the prerequisites for writing
+**Set up the prerequisites for writing**
 
-**NOTE:** Make sure the Read prerequisites are configured first.
+:::note
+Make sure the Read prerequisites are configured first.
+:::
+
 
 **Step 1 –** Copy the provided DLL `sapnwrfc.dl` into the Runtime of Identity Manager.
 
@@ -134,7 +137,7 @@ from an SAP ERP instance, and writes the output to CSV files.
 
 This process is configured through a connection in the UI and/or the XML configuration, and in the
 **appsettings.agent.json** > **Connections** section. See the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
 additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -153,7 +156,10 @@ appsettings.agent.json
 }
 ```
 
-_Remember,_ the identifier of the connection and thus the name of the subsection must:
+:::tip
+Remember, the identifier of the connection and thus the name of the subsection must:
+:::
+
 
 - Be unique
 - Not begin with a digit.
@@ -287,7 +293,7 @@ Data protection can be ensured through:
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
 See the
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[RSA Encryption](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
 [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and
 [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
 for additional information.

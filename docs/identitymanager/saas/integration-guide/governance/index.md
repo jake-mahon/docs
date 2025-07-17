@@ -49,4 +49,4 @@ security risk. The module facilitates the analysis and mitigation of different k
 as Segregation of Duties (SoD) or High Privilege. Risks can be used to identify sensitive
 assignments that should be reviewed first during a certification campaign.
 
-See the [ Risk Management ](/docs/identitymanager/saas/integration-guide/governance/risks/index.md) topic to learn how to configure risks.
+See the [Risk Management](/docs/identitymanager/saas/integration-guide/governance/risks/index.md) topic to learn how to configure risks.

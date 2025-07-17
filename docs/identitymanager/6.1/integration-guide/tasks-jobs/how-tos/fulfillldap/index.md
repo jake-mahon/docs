@@ -39,12 +39,10 @@ appsettings.agent.json
   "Connections": {
     ...
     "ADFulfillment": {
-      "Servers": [
-        {
+      "Servers": [{
           "Server": "paris.contoso.com",
           "BaseDN": "DC=paris,DC=com"
-        }
-      ],
+        }],
       "AuthType": "Basic",
       "Login": "CN=exampleCn,DC=exampleDc1,DC=exampleDc2",
       "Password": "Password",

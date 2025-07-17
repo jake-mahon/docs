@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Changes Event Type"
+title: "Active Directory Changes"
 description: "Active Directory Changes Event Type"
 sidebar_position: 10
 ---
@@ -60,9 +60,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## AD Context Filter
 
@@ -82,7 +85,7 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-Sub Tree
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
@@ -120,7 +123,7 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-Attribute, Operator and Value
+**Attribute, Operator and Value**
 
 When an attribute is selected, it is added to the filter and a drop-down menu is displayed in the
 Operation column with **Any Value** selected. You can further scope the attributes to enable the
@@ -151,10 +154,13 @@ When you select another attribute, a new row is added, where you can specify an 
 for that attribute. Each row is treated as an “OR” statement. If any event matches any of the
 attribute filters, then the event data includes all attributes in the list.
 
-**NOTE:** You cannot specify more than one value for an attribute and you cannot select the same
+:::note
+You cannot specify more than one value for an attribute and you cannot select the same
 attribute twice. To use the same attribute again, you have to add the same event type again to the
 policy, select that event type and then select a previously used attribute to include in the Add
 Attributes filter.
+:::
+
 
 When the userAccountControl attribute is included or excluded in the filter, selecting the Any Value
 dropdown opens the [User Account Control Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/window/useraccountcontrol.md) with additional UAC
@@ -176,9 +182,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -198,11 +207,14 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
 
-Sub Tree
+
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
@@ -225,9 +237,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Hosts (from) Filter
 
@@ -245,9 +260,12 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Success Filter
 
@@ -280,7 +298,7 @@ conditions to a filter statement. Conditions can be singular or grouped by a log
 In the screenshot above, the Exclude condition box displays singular conditions while the Include
 condition box displays conditions grouped by logical operators.
 
-Logical Operator
+**Logical Operator**
 
 The logical operator is displayed as left aligned red text. To change the logical operator, click on
 it to open a menu with the following options:
@@ -290,7 +308,7 @@ it to open a menu with the following options:
 - Not And
 - Not Or
 
-Add icon (+)
+**Add icon (+)**
 
 To add a filter (condition) to the filter statement or to start a new group of filters, click the
 **Add** (+) icon. Then select:
@@ -301,7 +319,7 @@ To add a filter (condition) to the filter statement or to start a new group of f
 A new row is inserted that displays an event data drop-down menu, a comparison operator, and a Value
 box.
 
-Event Data Selection
+**Event Data Selection**
 
 The Event Data drop-down menu is displayed in orange. it contains a list of all the fields that can
 be part of an event. Click it to select an event name. Your selection is displayed in orange text in
@@ -309,7 +327,7 @@ the box below.
 
 The “Attributes: New” and “Attributes: Old” options are special cases discussed below in detail.
 
-Comparison Operator
+**Comparison Operator**
 
 The comparison operator drop-down menu is displayed in blue. To change it, click on it to open a
 menu with options that associate with the selected event data field.
@@ -325,13 +343,16 @@ menu, then only the following comparison operators are available:
 
 Your selected comparison operator is displayed in blue text in the box below.
 
-Value
+**Value**
 
 The value box is displayed in green. Click in it to type a value, then press Enter. The value is
 displayed in green text in the box below.
 
-**NOTE:** The Value box only accepts a single string except when the “Attributes: New” or
+:::note
+The Value box only accepts a single string except when the “Attributes: New” or
 “Attributes: Old” option is selected in the Event Data drop-down menu.
+:::
+
 
 In case of “Attributes: New” and “Attributes: Old”, type three comma separated values (parameters)
 in the Value box in the following format:
@@ -365,16 +386,16 @@ Following is how the comparison operator (displayed in blue) works with %value%:
 
 Examples of how the comparison operator (displayed in blue) works with Value
 
-| Comparison Operator | Value (%name%,%suboperation%,%value%)                         | Outcome                                                                                                                   |
-| ------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ContainsValue       | description,Change Attribute,testdescription                  | Matches any attribute where: - name is 'description' - operation is 'Change Attribute' - value contains 'testdescription' |
-| ContainsValue       | ,Change Attribute,testdescription                             | Matches any attribute where: - operation is 'Change Attribute' - value contains 'testdescription'                         |
-| ContainsValue       | description,,testdescription                                  | Matches any attribute where: - name is 'description' - value contains 'testdescription'                                   |
-| ContainsValue       | ,,testdescription                                             | Matches any attribute where: - value contains 'testdescription'                                                           |
-| ContainsValue       | description OR description, OR description,,                  | Matches any attribute where: - name is 'description'                                                                      |
-| ContainsValue       | description,Change Attribute OR description,Change Attribute, | Matches any attribute where: - name is 'description' - operation is 'Change Attribute'                                    |
+| Comparison Operator | Value (%name%,%suboperation%,%value%)        | Outcome      |
+| ------------------- | ----------------------- | ------------------ |
+| ContainsValue       | description,Change Attribute,testdescription      | Matches any attribute where: <ul><li>name is 'description'</li><li>operation is 'Change Attribute'</li><li>value contains 'testdescription'</li></ul> |
+| ContainsValue       | ,Change Attribute,testdescription     | Matches any attribute where: <ul><li>operation is 'Change Attribute'</li><li>value contains 'testdescription'</li></ul>   |
+| ContainsValue       | description,,testdescription    | Matches any attribute where: <ul><li>name is 'description'</li><li>value contains 'testdescription'</li></ul>      |
+| ContainsValue       | ,,testdescription     | Matches any attribute where: <ul><li>value contains 'testdescription'</li></ul>    |
+| ContainsValue       | description <br />OR <br />description, <br />OR <br />description,,       | Matches any attribute where: <ul><li>name is 'description'</li></ul>                                                                      |
+| ContainsValue       | description,Change Attribute <br />OR <br />description,Change Attribute, | Matches any attribute where: <ul><li>name is 'description'</li><li>operation is 'Change Attribute'</li></ul>                                    |
 
-Example of a filter statement with "Attribute New"
+**Example of a filter statement with "Attribute New"**
 
 Following is an example of a filter statement defined in the Include condition box with the
 "Attribute New" option.

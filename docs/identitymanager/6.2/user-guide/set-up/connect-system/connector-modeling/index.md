@@ -295,7 +295,7 @@ In further steps, you will be able to define one resource type per account type 
 a role for assignment and provisioning.
 
 **Roles:** During
-the[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)step for this
+the[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)step for this
 connector you can build roles based on the group-membership system represented by users and
 profiles. Thus you will create navigation rules to represent the link between users and profiles.
 

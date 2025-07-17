@@ -20,9 +20,15 @@ the following steps to enable MIP labels:
     | Tenant                      | Directory (tenant) ID                                                                                                           |
     | Certificate Thumbprint      | Provide certificate thumbprint you copied and stored on this step: [Upload the .CER file to Azure](/docs/dataclassification/5.7/introduction/introduction/configureinfrastructure.md). |
 
-**NOTE:** Any labels and policies in API should be migrated / synced with O365 Security &
+:::note
+Any labels and policies in API should be migrated / synced with O365 Security &
 Compliance. Review the following Microsoft article for more information:
 [To migrate Azure Information Protection labels](https://docs.microsoft.com/en-us/azure/information-protection/configure-policy-migrate-labels#to-migrate-azure-information-protection-labels)
+:::
 
-**NOTE:** If you have any problems applying MIP labels, reinstall C++ redistributable with current
+
+:::note
+If you have any problems applying MIP labels, reinstall C++ redistributable with current
 .exe file (https://aka.ms/vs/17/release/vc_redist.x64.exe).
+
+:::

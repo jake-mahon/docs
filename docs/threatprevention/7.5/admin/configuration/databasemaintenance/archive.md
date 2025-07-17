@@ -10,8 +10,11 @@ To use the Move operation on the [Database Maintenance Window](/docs/threatpreve
 database where data is archived. You can also define settings to delete data aged beyond a specified
 threshold from the archive database.
 
-**_RECOMMENDED:_** Consider periodically retiring the current archive database and creating a new
+:::info
+Consider periodically retiring the current archive database and creating a new
 one. Depending on the size of the archive database, it could be yearly or every few years.
+:::
+
 
 ## Configure the Archive Database
 

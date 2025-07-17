@@ -16,6 +16,9 @@ other alternatives.
 This user guide aims to explain how to use Jamf in order to deploy Endpoint Protector on multiple
 endpoints.
 
-**NOTE:** This is an optional document for Jamf. It is not kept up-to-date with product changes and
+:::note
+This is an optional document for Jamf. It is not kept up-to-date with product changes and
 may not accurately represent the current interface or features. For the latest information, consult
 the official resources from the product vendor.
+
+:::

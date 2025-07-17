@@ -58,9 +58,12 @@ update is available (post upgrade):
 
 ![mergesqltaxonomypredefinedindicator](/img/product_docs/dataclassification/5.7/admin/taxonomies/mergesqltaxonomypredefinedindicator.webp)
 
-**NOTE:** The merge operation relies on matching the source definition to the destination
+:::note
+The merge operation relies on matching the source definition to the destination
 definition. utilising the Term Id (GUID). If there are no matching ids then the merge operation will
 be automatically stopped. In this case the taxonomy should be deleted - and re-imported.
+:::
+
 
 ## Merge SharePoint Taxonomies
 

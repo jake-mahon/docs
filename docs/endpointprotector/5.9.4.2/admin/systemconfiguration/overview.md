@@ -16,7 +16,10 @@ reliability of the Endpoint Protector solution.
 From this section, you can download and install the Endpoint Protector Client corresponding to your
 operating system.
 
-**NOTE:** The Server and Client communicate through port 443.
+:::note
+The Server and Client communicate through port 443.
+:::
+
 
 When using a custom WebUI port, please contact
 [Netwrix Support](https://www.netwrix.com/support.html) to assist in conﬁguring the Nginx
@@ -25,8 +28,11 @@ conﬁguration ﬁle.
 The Windows Client installers allow the option to download the package with or without add-ons. This
 option ﬁxes any incompatibility that may arise between Endpoint Protector and the speciﬁc solutions.
 
-**CAUTION:** Only the latest Endpoint Protector Clients are available for download. You cannot set
+:::warning
+Only the latest Endpoint Protector Clients are available for download. You cannot set
 another default Endpoint Protector Client version from the Client Software Upgrade section.
+:::
+
 
 To improve the Endpoint Protector installation process, use the Endpoint Protector tool that allows
 you to run installation-related actions, identify your current Linux distribution, and view Endpoint
@@ -39,13 +45,19 @@ Use the following commands:
 - rn - release notes
 - l - distribution list
 
-**NOTE:** Contact Customer Support to provide the tool as well as assistance.
+:::note
+Contact Customer Support to provide the tool as well as assistance.
+:::
+
 
 ![Download and install the Endpoint Protector Client corresponding to your operating system](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/clientsoftware.webp)
 
-**NOTE:** Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints.
+:::note
+Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints.
 This version will be saved in the Endpoint Protector Server database, although the web console will
 truncate the last 3 digits.
+:::
+
 
 ### Bypass Proxy Settings
 
@@ -53,7 +65,7 @@ You have the ability to bypass proxy settings for all operating systems.
 
 #### Windows and macOS
 
-Endpoint Protector Wizard Installer
+**Endpoint Protector Wizard Installer**
 
 Select the option to **Use Manual Proxy Settings** from the Endpoint Protector Wizard installer and
 then provide the following information:
@@ -64,7 +76,7 @@ then provide the following information:
 - Username – add proxy server username
 - Password – add proxy server password
 
-CLI commands
+**CLI commands**
 
 You can also apply manual proxy settings using CLI commands:
 
@@ -90,8 +102,11 @@ You can also use CLI Commands below to install Endpoint Protector Client in spec
 - SUPPRESSRD – suppress FileRead/FileDelete events for NS and Removable devices
 - DISABLECAP – disabling loading of CAP drivers (CAP will not work)
 
-**NOTE:** For macOS, please contact the Netwrix Support team to obtain the latest version of the
+:::note
+For macOS, please contact the Netwrix Support team to obtain the latest version of the
 installer script, which allows customization of installation parameters.
+:::
+
 
 #### Linux
 
@@ -121,7 +136,7 @@ follow these steps:
 **Step 6 –** For the ﬁrst proxy setup, EPPCLIENT_HTTPS_PROXY, add the proxy server information in
 the address:port:user:password format.
 
-Example: EPPCLIENT_HTTPS_PROXY=address:port:user:password
+**Example: EPPCLIENT_HTTPS_PROXY=address:port:user:password**
 
 **Step 7 –** Save the changes, and then run the installation without having a VPN connection:
 
@@ -138,19 +153,28 @@ From this section, you can upgrade the Endpoint Protector Client and manage the 
 Client Software Upgrade feature is only available for Windows and macOS Clients. To upgrade your
 Linux Clients, submit a request using the[online form](https://www.endpointprotector.com/linux).
 
-**NOTE:** When updating your operating system to the latest macOS Ventura, eppclient.log and
+:::note
+When updating your operating system to the latest macOS Ventura, eppclient.log and
 eppsslsplit.log will be deleted from private/var/log.
+:::
 
-**CAUTION:** The feature is not compatible for Endpoint Protector instances that are running on
+
+:::warning
+The feature is not compatible for Endpoint Protector instances that are running on
 32-bit versions of Windows.
+:::
+
 
 ![Client Software Upgrade](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/clientsoftwareupgrade.webp)
 
-**NOTE:** Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints.
+:::note
+Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints.
 This version will be saved in the Endpoint Protector Server database, although the web console will
 truncate the last 3 digits. In case Endpoint Protector Client versions are identical (ﬁrst
 4-digits), Endpoint Protector Server will still compare the full version number against each other,
 identifying the most recent version.
+:::
+
 
 ### Create New Upgrade Job
 
@@ -164,19 +188,25 @@ steps:
 **Step 2 –** Select the groups and/or computers to perform or exclude from the upgrade and then
 click **Next**. You will view a summary of your selection above the table with endpoints.
 
-**NOTE:** Only computers that use the operating system you previously selected will be upgraded. If
+:::note
+Only computers that use the operating system you previously selected will be upgraded. If
 you selected a group that has an endpoint using a different operating system, it will not be
 upgraded. If you selected a mixed group, with both computers and users, only the computers will be
 upgraded.
+:::
+
 
 ![Select the groups and/or computers to perform or exclude from the upgrade](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/selectendpointsupgrade.webp)
 
 **Step 3 –** Edit the default job title, add a description and conﬁrm the upgrade job details by
 clicking **Start Upgrade job**. You will view the upgrade as an entry on the Upgrade jobs section.
 
-**NOTE:** The upgrade process for the Endpoint Protector Client is impacted by a dedicated cron.
+:::note
+The upgrade process for the Endpoint Protector Client is impacted by a dedicated cron.
 Running every 5 minutes, the cron sets the upgrade process status to Pending and every 15 minutes
 checks and updates process status to Completed or Completed with failures.
+:::
+
 
 ![Edit the default job title, add a description and conﬁrm the upgrade job details](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/upgradejobdetails.webp)
 
@@ -188,8 +218,11 @@ cancel, pause, retry, archive or delete an entry on the list.
 To continue upgrading canceled Client Upgrade jobs, use the **Retry** option from the Actions
 column.
 
-**NOTE:** If you deleted or archived a Client Upgrade job, then the endpoints become available for
+:::note
+If you deleted or archived a Client Upgrade job, then the endpoints become available for
 selection in other jobs.
+:::
+
 
 ![Manage Upgrade Jobs](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/manageupgradejobs.webp)
 
@@ -207,9 +240,12 @@ The uninstall command can be canceled if it was not already executed.
 
 ![Client Uninstall](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/clientuninstall.webp)
 
-**NOTE:** If the server and Endpoint Protector client can't communicate due to missing server
+:::note
+If the server and Endpoint Protector client can't communicate due to missing server
 certiﬁcation validation (when the certiﬁcation validation setting is enabled), uninstall commands
 can't be executed from the Endpoint Protector Server. In such cases, if you're unable to manually
 install the certiﬁcate on the Endpoint Protector Client computer, you can temporarily disable the
 certiﬁcation validation setting on the Endpoint Protector Server and synchronize the Endpoint
 Protector Client to retrieve an uninstall command.
+
+:::

@@ -29,12 +29,12 @@ Both tables have the following columns:
 
 Follow the steps to add activities to the selected access policy.
 
-**Step 1 –** Navigate to the Policy > Access Policies page.
+**Step 1 –** Navigate to the **Policy** > **Access Policies** page.
 
 **Step 2 –** In the Access Policy list, select the name of the access policy and select the
-Activities tab.
+**Activities** tab.
 
-**Step 3 –** Click Add to open the Add Activities and Activity Groups window.
+**Step 3 –** Click **Add** to open the Add Activities and Activity Groups window.
 
 The Add Activities and Activity Groups window has the following features:
 
@@ -56,7 +56,7 @@ and it is immediately moved to the Activities & Groups to Add list.
 **Step 5 –** (Optional) Click a row in the Activities & Groups to Add list to move it back to the
 Available Activities list.
 
-**Step 6 –** Click Add to add the activities and activity groups to the access policy.
+**Step 6 –** Click **Add** to add the activities and activity groups to the access policy.
 
 The new activities and activity groups are added to the access policy and are shown in the
 [Activities Tab for Resource Based Access Policies](/docs/privilegesecure/4.2/admin/interface/accesspolicy/resourcebasedpolicyt/activities/activities.md).

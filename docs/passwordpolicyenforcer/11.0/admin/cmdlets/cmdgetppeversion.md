@@ -8,11 +8,11 @@ sidebar_position: 150
 
 The **Get-PPEVersion** cmdlet returns the version of the Password Policy Enforcer PowerShell module.
 
-SYNTAX
+**SYNTAX**
 
 **Get-PPEVersion** [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 `<_CommonParameters_>`
 
@@ -20,8 +20,8 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Get-PPEVersion
 
-Version: 11.0.0.74
+**Version: 11.0.0.74**

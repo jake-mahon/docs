@@ -17,8 +17,11 @@ for additional information.
 No matter whether the machine is virtual or physical, running a Identity Manager server or agent
 requires at least 8 GB of RAM, 20 GB of disk storage, and a dual-core CPU.
 
-**NOTE:** Netwrix Identity Manager (formerly Usercube) recommends a 4-core CPU if SQL server is
+:::note
+Netwrix Identity Manager (formerly Usercube) recommends a 4-core CPU if SQL server is
 installed on this device.
+:::
+
 
 ## Software
 

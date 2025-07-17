@@ -33,7 +33,7 @@ have an entity property with exactly `type` as identifier:
 
 ```
 
-    <Property Identifier="type" DisplayName_L1="Type" TargetColumnIndex="13" Type="String" />
+**<Property Identifier="type" DisplayName_L1="Type" TargetColumnIndex="13" Type="String" />**
 
 ```
 
@@ -41,7 +41,7 @@ And to map it in the `Entitlements` entity type mapping:
 
 ```
 
-    <Property Identifier="type" ConnectionColumn="type" />
+**<Property Identifier="type" ConnectionColumn="type" />**
 
 ```
 

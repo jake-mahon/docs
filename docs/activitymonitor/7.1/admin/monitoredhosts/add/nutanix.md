@@ -6,7 +6,7 @@ sidebar_position: 100
 
 # Nutanix
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -31,11 +31,14 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Nutanix files host to the Activity Monitor, the prerequisites for the target
 environment must be met. See
-[Nutanix Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity_1.md)
+[Nutanix Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/nutanix-activity.md)
 for more information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Network Adapter for Nutanix File Server
 
@@ -70,8 +73,11 @@ server name. Click **Next**.
 
 **Step 4 –** On the Nutanix Options page, enter the user name and password.
 
-**NOTE:** The credentials used on the Nutanix Options page are for the Nutanix user having REST API
+:::note
+The credentials used on the Nutanix Options page are for the Nutanix user having REST API
 access.
+:::
+
 
 - Protocol – Select from the following options in the drop-down list:
     - Auto Detect
@@ -111,7 +117,10 @@ Click **Next**.
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 Log File or Syslog Server. Click **Next**.
 
-**NOTE:** An option must be selected before moving to the next step.
+:::note
+An option must be selected before moving to the next step.
+:::
+
 
 ![File Output](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_08.webp)
 
@@ -128,15 +137,24 @@ Output page.
 - This log file is for Enterprise Auditor – Enable this option to have Enterprise Auditor collect
   this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Enterprise Auditor when integration
+    :::info
+    Identify the configuration to be read by Enterprise Auditor when integration
     is available.
+    :::
 
-    **NOTE:** While Activity Monitor can have multiple configurations for log file outputs per host,
+
+    :::note
+    While Activity Monitor can have multiple configurations for log file outputs per host,
     Enterprise Auditor can only read one of them.
+    :::
+
 
 - Add header to Log files – Adds headers to TSV files. This is used to feed data into Splunk.
 
-    **NOTE:** Enterprise Auditor does not support log files with the header.
+    :::note
+    Enterprise Auditor does not support log files with the header.
+    :::
+
 
 Click **Next**.
 

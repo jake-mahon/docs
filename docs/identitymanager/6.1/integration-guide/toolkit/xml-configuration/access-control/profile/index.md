@@ -13,7 +13,7 @@ Rule and Profile Rule to describe who can do what.
 
 ```
 
-<Profile Identifier="Administrator" DisplayName_L1="Administrator"/>
+**<Profile Identifier="Administrator" DisplayName_L1="Administrator"/>**
 
 ```
 

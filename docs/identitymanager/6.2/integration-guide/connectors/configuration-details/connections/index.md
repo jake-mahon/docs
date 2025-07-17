@@ -1,4 +1,3 @@
----
 title: "Connections"
 description: "Connections"
 sidebar_position: 10
@@ -12,14 +11,14 @@ in order to extract and/or fulfill data from/to external systems.
 ## Connection Configuration
 
 A connector needs at least one
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) which needs to be
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) which needs to be
 declared both in the XML configuration and in the
 [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 file to be used. The connection settings must be set in appsettings.agent.json > Connections >
 **connectionIdentifier**, where **connectionIdentifier** is the identifier specified for the
 connection in the XML configuration.
 
-See the [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
+See the [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
 additional information.
 
 The information stored in the connection depends on the export and/or fulfill technologies used by
@@ -30,17 +29,17 @@ information.
 
 ## Connection Tables
 
-A [ Connection Table ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connectiontable/index.md)
+A [Connection Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connectiontable/index.md)
 represents the potential output of the connection's
-[ Export Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md), when the
+[Export Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md), when the
 connection's package allows export. The export process generates CSV files (our connection tables)
 whose names start with the connection's identifier. The files' suffixes depend on the connector. See
 the [References: Connectors](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/index.md) topic for additional information.
 
 The name of these files are used to specify the connection tables of the
-[ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[Entity Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 and
-[ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 in order to link the connectors' properties to the source files and columns from the managed
 systems.
 
@@ -104,4 +103,4 @@ Hence, extra care should be taken while specifying them.
 
 There are several types of secured options: a simple field or multiple key-value fields.
 
-See the [ Configure Secured Options ](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/configure-secured-options/index.md) topic for additional information.
+See the [Configure Secured Options](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/configure-secured-options/index.md) topic for additional information.

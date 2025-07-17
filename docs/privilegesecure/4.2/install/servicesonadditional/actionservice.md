@@ -14,16 +14,22 @@ The NPS Proxy Service installer is in the Extras folder of the ZIP file download
 Customer portal. See the [Install Components & Methods](/docs/privilegesecure/4.2/install/components/components.md) topic for additional
 information.
 
-**NOTE:** Before you begin, the NPS Proxy Service must be registered with a corresponding
+:::note
+Before you begin, the NPS Proxy Service must be registered with a corresponding
 application server on the server you will be installing the Action Service prior to installation.
 The Proxy Service is installed as part of the Action Service installation package. See the
 [Proxy Service Install](/docs/privilegesecure/4.2/install/servicesonadditional/proxyservice.md) topic for installation instructions.
+:::
+
 
 Follow the steps to install the NPS Action Service on another server.
 
-_Remember,_ You must configure the Antivirus exclusions according to the
+:::tip
+Remember, You must configure the Antivirus exclusions according to the
 [Exclusions for Antivirus (AV) & Endpoint Software](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000Hi8CAE.html)
 knowledge base article.
+:::
+
 
 **Step 1 –** Make sure that you have configured the Antivirus exclusions according to the following
 Netwrix knowledge base article:
@@ -77,8 +83,11 @@ cd C:\Program Files\Stealthbits\PAM\KeyTools
 
 **Step 3 –** Take note of the password for the export file.
 
-**CAUTION:** This temporary password protects the NPS-AM encryption keys during copying. Do not save
+:::warning
+This temporary password protects the NPS-AM encryption keys during copying. Do not save
 it to digital media or transmit it with the encryption key package.
+:::
+
 
 **Step 4 –** Copy the export file to "C:\Program Files\Stealthbits\PAM\KeyTools" on the secondary
 server.

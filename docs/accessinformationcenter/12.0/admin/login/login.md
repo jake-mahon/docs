@@ -12,7 +12,7 @@ port, http://[HOSTNAME.DOMAIN.COM]:81. For example, if the application was inst
 named NEWYORKSRV10.NWXTech.com with the default port of 81, the URL would be
 http://NEWYORKSRV10.NWXTech.com:81.
 
-Administrators
+**Administrators**
 
 Administrators with access to the server hosting the application can use the desktop icon to launch
 the application in their default browser. Alternatively, the localhost URL can be used:
@@ -25,7 +25,7 @@ the application in their default browser. Alternatively, the localhost URL can b
 
     - https://localhost:481
 
-Access Analyzer Web Console
+**Access Analyzer Web Console**
 
 On the server hosting Netwrix Access Analyzer (formerly Enterprise Auditor), the Published Reports
 icon can be used to launch the Web Console. This provides access to both Netwrix Access Analyzer
@@ -39,7 +39,7 @@ a default port of 8082, which can also be customized. Alternatively, the URL can
     - (on hosting server) https://localhost:8082
     - (remote access) https://[HOSTNAME.DOMAIN.COM]:8082
 
-Remote Access
+**Remote Access**
 
 Since the Access Information Center is a browser-based application, it is possible to access the web
 interface remotely. It is up to the Administrator to provide users with the correct URL for access.
@@ -58,7 +58,10 @@ Users login with their domain credentials. If only one domain is known to the Ac
 Center, the credentials need only be username and password. If multiple domains are known to the
 Access Information Center, then the username needs to be entered in the `domain\username` format.
 
-**NOTE:** The URL may need to be added to the browser’s list of trusted sites.
+:::note
+The URL may need to be added to the browser’s list of trusted sites.
+:::
+
 
 ![AIC Login page](/img/product_docs/accessinformationcenter/12.0/admin/loginpage.webp)
 

@@ -54,7 +54,7 @@ Click **Suppression time** for an event and select an option from the drop-down 
   the duration you selected) even if the event occurs.
 - Disabled – Alerts will not be suppressed
 
-Example
+**Example**
 
 You select a suppression time of 30 minutes for an event. Next, an alert is generated for that
 event. If the event occurs again within the next 30 minutes, an alert will not be generated.
@@ -76,7 +76,10 @@ recipients of the selected Message Profiles.
 
 Follow the steps to configure the SMTP host information for email alerting.
 
-_Remember,_ this is a one-time setting to enable email alerts from the Administration Console.
+:::tip
+Remember, this is a one-time setting to enable email alerts from the Administration Console.
+:::
+
 
 ![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/smtphost.webp)
 
@@ -105,8 +108,11 @@ checkbox and provide a username and password in the boxes that appear.
 Message Profiles are associated with events for email alerting. Follow the steps to create a Message
 Profile.
 
-**NOTE:** When the Message Profile is modified for an alert, all policies referencing the alert use
+:::note
+When the Message Profile is modified for an alert, all policies referencing the alert use
 the updated information.
+:::
+
 
 ![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/smtphost.webp)
 
@@ -118,7 +124,10 @@ Alerting window opens.
 **Step 3 –** In the Message Profiles area, click the **Add** (+) button to create a Message Profile.
 The default profile name (New Email Notification) is displayed.
 
-**_RECOMMENDED:_** Provide a unique and descriptive name for this new email notification profile.
+:::info
+Provide a unique and descriptive name for this new email notification profile.
+:::
+
 
 **Step 4 –** Choose between **Plain Text** and **HTML** email options. The Email Template window
 displays when selecting either radio button.
@@ -186,9 +195,12 @@ The available Event Data Fields and their associated tokens are:
 | Old Attribute Values         | %OLD_ATTRIBUTE_VALUE%          |
 | Attribute Operations         | %OPERATION%                    |
 
-**CAUTION:** The tokens used within the message Body, the information between and including the %
+:::warning
+The tokens used within the message Body, the information between and including the %
 symbols (e.g. %TIME_STAMP%), must be present to retrieve that event data from the database. Tokens
 can be removed, but partial tokens do not retrieve data from the database.
+:::
+
 
 **Step 9 –** Click **OK** to save the settings.
 

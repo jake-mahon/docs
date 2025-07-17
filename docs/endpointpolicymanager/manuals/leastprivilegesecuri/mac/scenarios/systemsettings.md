@@ -7,7 +7,7 @@ sidebar_position: 10
 # System Settings Policy
 
 **NOTE:** See the
-[Endpoint Policy Manager for Mac / Least Priv Manager: System Settings policy](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/videolearningcenter/macintegration/systemsettings.md)
+[Endpoint Policy Manager for Mac / Least Priv Manager: System Settings policy](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/systemsettings.md)
 video for an overview of this section.
 
 Standard Users are prompted when they access System Settings in MacOS. For instance, trying to

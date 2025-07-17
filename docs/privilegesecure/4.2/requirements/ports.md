@@ -44,7 +44,10 @@ The requirements for the (Privilege Secure) application server are:
 | **9389** | TCP      | Privilege Secure server | ![single_direction_arrow](/img/product_docs/privilegesecure/4.2/accessmanagement/requirements/single_direction_arrow.webp) | Domain Controller | Active Directory Web Services Make sure that you have configured the Antivirus exclusions according to the following Netwrix knowledge base article: [SbPAM: Exclusions for Antivirus (AV) & Endpoint Software](https://kb.netwrix.com/5938) |
 | **88**   | UDP      | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.2/accessmanagement/requirements/arrow.webp)                                   | Domain Controller | Kerberos                                                                                                                                                                                                                                     |
 
-**NOTE:** Privilege Secure must be able to reach the following URLs via HTTPS (port 443)
+:::note
+Privilege Secure must be able to reach the following URLs via HTTPS (port 443)
+:::
+
 
 - https://login.microsoftonline.com
 - https://graph.microsoft.com

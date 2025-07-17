@@ -28,7 +28,7 @@ window.
 
   - By default, the file is created at the following location:
 
-  …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\output\file
+**…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\output\file**
 
   - The name can include a full UNC path to place the file at a desired location.
 
@@ -37,9 +37,12 @@ window.
   - Comma Delimited (CSV)
 - Adjust the File Size Limit and Minimum disk space required for reporting values as desired
 
-  **NOTE:** Set thresholds for file event consumers to maximize performance and minimize
+  :::note
+  Set thresholds for file event consumers to maximize performance and minimize
   individual file sizes. When a file reaches its maximum size, it continues to record data but the
   oldest data in the file is deleted to make room for the newest.
+  :::
+
 
   The default file size settings are the following:
 

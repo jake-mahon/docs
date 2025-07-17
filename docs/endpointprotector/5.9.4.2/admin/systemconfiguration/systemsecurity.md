@@ -18,8 +18,11 @@ Additionally, you can set password expiration policies.
 From this section, you can set a password that will be required when the user performs an Endpoint
 Protector Client uninstall action.
 
-**NOTE:** At the top of the page, you will view a message informing you if a password is set for
+:::note
+At the top of the page, you will view a message informing you if a password is set for
 this action.
+:::
+
 
 ![Security Password for Uninstall Protection](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/uninstallprotectionone.webp)
 
@@ -38,8 +41,11 @@ the **Restrict Sensitive Data Access only to super administrators** checkbox.
 
 From this section, you can set a password for sensitive data to provide additional security.
 
-**NOTE:** At the top of the page, you will view a message informing you if a password is set for
+:::note
+At the top of the page, you will view a message informing you if a password is set for
 this action.
+:::
+
 
 ![Additional Security Password for Sensitive Data Protection](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/passwordsensitivedataprotectionone.webp)
 
@@ -57,25 +63,37 @@ your changes to add an extra layer of security, for a more secure and controlled
 
 ![Backend Console Setup Password](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/backendconsolesetuppassword.webp)
 
-**CAUTION:** This feature is designed for Ubuntu 22. With backend password settings enabled and
+:::warning
+This feature is designed for Ubuntu 22. With backend password settings enabled and
 applied:
+:::
+
 
 - On Ubuntu 14 and Ubuntu 18, pressing 'Exit' refreshes the menu without requiring the password
   again.
 - On Ubuntu 22, pressing 'Exit' prompts for the password again.
 
-**NOTE:** To enforce password protection, a reboot of the Endpoint Protector Server appliance is
+:::note
+To enforce password protection, a reboot of the Endpoint Protector Server appliance is
 required. Please be aware of this when changing passwords.
+:::
 
-**NOTE:** ASCII character set is supported for passwords.
+
+:::note
+ASCII character set is supported for passwords.
+:::
+
 
 ## Security Password for System Administrator
 
 From this section, you can require all administrators to use their security password at the next
 login session.
 
-**NOTE:** Once you have enabled the “Enforce all administrator password security at next login”
+:::note
+Once you have enabled the “Enforce all administrator password security at next login”
 setting, the feature cannot be disabled.
+:::
+
 
 If enabled, only complex passwords can be deﬁned, complying with the below rules:
 
@@ -83,9 +101,12 @@ If enabled, only complex passwords can be deﬁned, complying with the below rul
 - must contain small and capital letters, numbers and special characters
 - consecutive characters and numbers in ascending order cannot be used
 
-**CAUTION:** The Enforce all administrator password security at next login setting will have
+:::warning
+The Enforce all administrator password security at next login setting will have
 priority over Advanced User Password Settings as this setting also applies to non-admin, such as
 Reporter, Read-only users, etc.
+:::
+
 
 ![Security Password for System Administrator](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/securitypasswordsystemadministrator.webp)
 
@@ -109,7 +130,10 @@ If you enforce a password that expires, provide the following information:
 These are mandatory requirements when creating a new Administrator from the System Administrators
 section.
 
-**CAUTION:** After you provide all information for the Advanced User Password Settings section, all
+:::warning
+After you provide all information for the Advanced User Password Settings section, all
 users are required to change their passwords at the next login, not only admins.
+:::
+
 
 ![Advanced User Password Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/advanceduserpasswordsettings.webp)

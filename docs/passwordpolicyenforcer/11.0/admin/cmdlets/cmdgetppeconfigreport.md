@@ -8,14 +8,17 @@ sidebar_position: 60
 
 The **Get-PPEConfigReport** cmdlet saves a Password Policy Enforcer configuration report.
 
-**NOTE:** This cmdlet calls the PPE Tool. You must be an administrator to run this cmdlet. Start
+:::note
+This cmdlet calls the PPE Tool. You must be an administrator to run this cmdlet. Start
 PowerShell with the **Run as Administrator** option.
+:::
 
-SYNTAX
+
+**SYNTAX**
 
 **Get-PPEConfigReport** **-Folder** `<_string_>`
 
-PARAMETERS
+**PARAMETERS**
 
 **-Folder** `<_string_>`
 
@@ -27,7 +30,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Get-PPEConfigReport -Folder C:\PPE
 

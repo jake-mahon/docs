@@ -24,15 +24,15 @@ on Windows. Identity Manager's database is a
 
 ![Architecture](/img/product_docs/identitymanager/saas/integration-guide/architecture/architecture.webp)
 
-See the [ SaaS Environment ](/docs/identitymanager/6.2/integration-guide/architecture/saas/index.md) topic for additional information on Netwrix Identity
+See the [SaaS Environment](/docs/identitymanager/6.2/integration-guide/architecture/saas/index.md) topic for additional information on Netwrix Identity
 Manager (formerly Usercube) recommended architecture when working in a SaaS environment.
 
-See the [ On-Premises Environment ](/docs/identitymanager/6.2/integration-guide/architecture/on-prem/index.md) topic for additional information on Netwrix
+See the [On-Premises Environment](/docs/identitymanager/6.2/integration-guide/architecture/on-prem/index.md) topic for additional information on Netwrix
 Identity Manager (formerly Usercube)' recommended architecture when working in an on-premises
 environment.
 
 See how to
-[ Protect Agent/Server Communication ](/docs/identitymanager/6.2/integration-guide/architecture/protect-agent-server-communication/index.md).
+[Protect Agent/Server Communication](/docs/identitymanager/6.2/integration-guide/architecture/protect-agent-server-communication/index.md).
 
 ## Isolation Principle
 

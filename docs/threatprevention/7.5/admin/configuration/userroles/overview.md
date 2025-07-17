@@ -8,14 +8,17 @@ sidebar_position: 110
 
 On the Users and Roles window, you can grant role based access to users on the Administration
 Console. See the
-[User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/interface/useraccess.md) topic for
+[User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/useraccess.md) topic for
 information on granting access to the Netwrix Threat Manager Reporting Module console.
 
 Click **Configuration** > **Users** on the menu to open the Users and Roles window.
 
 ![Users and Roles window](/img/product_docs/threatprevention/7.5/admin/configuration/userroles/usersroleswindow.webp)
 
-**NOTE:** This window is only available to Threat Prevention administrators.
+:::note
+This window is only available to Threat Prevention administrators.
+:::
+
 
 The user account that ran the installation is automatically set with the administrator role. This is
 the only active user until more are added. This ensures that no unauthorized accounts can open the
@@ -29,11 +32,14 @@ There are two roles that can be applied to a Threat Prevention user:
   the Administrator Permissions topic for additional information.
 - Console Operator – Can create and run policies, and view event data.
 
-**NOTE:** The Report User role was a legacy feature for the IIS-based Reporting Console and is no
+:::note
+The Report User role was a legacy feature for the IIS-based Reporting Console and is no
 longer applicable. See the [Reporting Module](/docs/threatprevention/7.5/reportingmodule/overview.md) topic for
 information on the new reporting console.
+:::
 
-Administration Console Rights
+
+**Administration Console Rights**
 
 |                                                             | Administrator                   | Console Operator                |
 | ----------------------------------------------------------- | ------------------------------- | ------------------------------- |

@@ -61,7 +61,7 @@ Identity Manager needs the following data flows to be enabled:
     connectors. This requirement only applies to a few specific **administrator type profiles**.
 
 - The **Server** and the **Agent** both need to access an **SMTP server** to
-  [ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md).
+  [Send Notifications](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md).
 
 ## SaaS vs. On-Premise
 
@@ -70,7 +70,7 @@ Identity Manager comes in two flavors: SaaS and On-Premise.
 - The **SaaS** offering only requires the Agent to be installed on your organization network.
 - The **On-Premise** offering requires the Agent, the
   [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md), and the
-  [ Install the Database ](/docs/identitymanager/6.2/installation-guide/production-ready/database/index.md) to be installed.
+  [Install the Database](/docs/identitymanager/6.2/installation-guide/production-ready/database/index.md) to be installed.
 
 See the [ Install the Agents](/docs/identitymanager/6.2/installation-guide/production-ready/agent/index.md) topics for additional information.
 
@@ -115,7 +115,7 @@ additional information.
 ## Email Server
 
 Identity Manager sends notifications to users by email. An email server will have to be set up for
-the Agent and the Server. See the [ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md)
+the Agent and the Server. See the [Send Notifications](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md)
 topic for additional information.
 
 Before you check out the installation steps, make sure that all the

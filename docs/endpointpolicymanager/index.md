@@ -1,25 +1,18 @@
-# Netwrix PolicyPak
+---
+title: "Netwrix Endpoint Policy Manager (formerly PolicyPak) Documentation"
+description: "Netwrix Endpoint Policy Manager (formerly PolicyPak) Documentation"
+sidebar_position: 1
+---
 
-> **Enterprise endpoint management and configuration control**
+# Netwrix Endpoint Policy Manager (formerly PolicyPak) Documentation
 
-Netwrix PolicyPak provides granular control over Windows desktops and applications, enabling IT teams to enforce security policies, manage application settings, and ensure compliance across all endpoints. Manage configurations that Group Policy can't touch and lock down settings users shouldn't change.
+Netwrix Endpoint Policy Manager (formerly PolicyPak) allows you to secure end users wherever they
+work and make them more productive with Netwrix endpoint management software.
 
-## Key Features
-
-- **Application Management** — Control and lock down settings for over 1000 applications
-- **Browser Management** — Enforce security settings across all major browsers
-- **Security Enforcement** — Implement least privilege and application control policies
-- **Desktop Lockdown** — Prevent unauthorized changes to system settings
-
-## Benefits
-
-- Reduce security incidents by enforcing consistent configurations
-- Eliminate configuration drift across endpoints
-- Decrease help desk tickets by preventing user-caused issues
-- Ensure compliance with security policies and standards
-
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-```
+In today's hybrid work environment, users need to access their desktops, laptops and other devices
+at the office, at home, while traveling, through kiosks and virtually. But many organizations are
+struggling to manage and secure their IT ecosystem because not all Windows endpoint management
+software systems were designed for modern distributed scenarios. Netwrix Endpoint Policy Manager
+(formerly PolicyPak) enables you to solve your endpoint management and endpoint protection
+challenges wherever users get work done, modernizing and extending the power of your existing
+enterprise technology assets.

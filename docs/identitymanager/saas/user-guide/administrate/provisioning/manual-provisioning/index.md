@@ -10,9 +10,7 @@ How to use Identity Manager to manually write to the managed systems.
 
 ## Overview
 
-In the lifecycle of a resource (entitlement assignment, resource creation, resource update, etc.),
-manual provisioning is used to make humans intervene and act on the external systems, instead of
-Identity Manager.
+In the lifecycle of a resource (entitlement assignment, resource creation, resource update, etc.), manual provisioning is used to make humans intervene and act on the external systems, instead of Identity Manager.
 
 ### Provisioning states
 
@@ -22,17 +20,15 @@ In its lifecycle, an assignment request goes through the following provisioning 
 
 ## Participants and Artifacts
 
-This operation should be performed in cooperation with the staff in charge of managed systems as
-write permissions are required.
+This operation should be performed in cooperation with the staff in charge of managed systems as write permissions are required.
 
 | Input                                                                                                                                                                                         | Output                  |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| [ Review Provisioning ](/docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Manual provisioning through [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
+| [Review Provisioning](/docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Manual provisioning through [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
 
 ## Implement Manual Provisioning
 
-Manual provisioning is performed through a connection using the
-[ Manual Ticket ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/manual-ticket/index.md).
+Manual provisioning is performed through a connection using the [Manual Ticket](/docs/identitymanager/saas/integration-guide/connectors/references-packages/manual-ticket/index.md).
 Besides, for a resource to be manually provisioned, the corresponding resource type must be
 configured with the manual connection set to `Provisioning Connection` in the **Fulfill Settings**.
 
@@ -78,7 +74,7 @@ In order to verify the process:
     ![Home Page - Directory User](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Follow the workflow through
-   [ Request Entitlement Assignment ](/docs/identitymanager/saas/user-guide/administrate/manual-assignment-request/index.md) to make a change in
+   [Request Entitlement Assignment](/docs/identitymanager/saas/user-guide/administrate/manual-assignment-request/index.md) to make a change in
    one of their permissions, which involves manual provisioning.
 3. Perform manual provisioning and check the provisioning state of the requested entitlement at
    every step, in the user's **View Permissions** tab.

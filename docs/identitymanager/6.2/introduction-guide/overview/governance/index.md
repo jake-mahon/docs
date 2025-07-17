@@ -34,15 +34,15 @@ certification campaigns, risk management or reporting.
 
 ## Next Steps
 
-Let's read some [ Use Case Stories ](/docs/identitymanager/6.2/introduction-guide/overview/use-cases/index.md).
+Let's read some [Use Case Stories](/docs/identitymanager/6.2/introduction-guide/overview/use-cases/index.md).
 
 ## Learn More
 
 Learn more on [Governance](/docs/identitymanager/6.2/integration-guide/governance/index.md).
 
-Learn more on how to [ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md).
+Learn more on how to [Generate Reports](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md).
 
 Learn more on
-[ Perform Access Certification ](/docs/identitymanager/6.2/user-guide/administrate/access-certification/index.md).
+[Perform Access Certification](/docs/identitymanager/6.2/user-guide/administrate/access-certification/index.md).
 
-Learn more on how to [ Manage Risks ](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md).
+Learn more on how to [Manage Risks](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md).

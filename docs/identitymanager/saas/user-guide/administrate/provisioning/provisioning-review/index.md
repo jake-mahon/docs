@@ -10,17 +10,11 @@ How to review provisioning orders before generation.
 
 ## Overview
 
-For security purposes, provisioning orders sometimes need to be reviewed before being computed and
-actually generated. Then, a user with the right permissions accesses the **Provisioning Review**
-page. They can either approve provisioning orders that will then be computed, generated and finally
-ready for actual provisioning, or they can decline orders that will subsequently be ignored. See the
-[ Configure a User Profile ](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md) topic for
-additional information.
+For security purposes, provisioning orders sometimes need to be reviewed before being computed and actually generated. Then, a user with the right permissions accesses the **Provisioning Review** page. They can either approve provisioning orders that will then be computed, generated and finally ready for actual provisioning, or they can decline orders that will subsequently be ignored. See the [Configure a User Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md) topic for additional information.
 
 ### Provisioning states
 
-In an assignment request's lifecycle, provisioning review adds a few steps between the moment when
-the request is issued and when provisioning orders are computed:
+In an assignment request's lifecycle, provisioning review adds a few steps between the moment when the request is issued and when provisioning orders are computed:
 
 ![Provisioning State Schema](/img/product_docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/provreview_states_v523.webp)
 
@@ -30,23 +24,16 @@ This operation should be performed in cooperation with the staff in charge of ma
 
 | Input                                                                                                                                                                                                  | Output              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
-| [ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) (required) [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Provisioning orders |
+| [Create a Provisioning Rule](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) (required) [Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Provisioning orders |
 
 ## Implement Provisioning Review
 
-Provisioning review is configured for a given resource type. Therefore, you can decide to force the
-review of provisioning orders when
-you[ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md). You
-can choose to:
+Provisioning review is configured for a given resource type. Therefore, you can decide to force the review of provisioning orders when you [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md). You can choose to:
 
-- Set the number of required approvals by a
-  [ Manage Role Officers ](/docs/identitymanager/saas/user-guide/set-up/role-officer-management/index.md), via the
-  `Approval Workflow` option.
+- Set the number of required approvals by a [Manage Role Officers](/docs/identitymanager/saas/user-guide/set-up/role-officer-management/index.md), via the `Approval Workflow` option.
 - Enable a technical approval by the application owner, via the `Block provisioning orders` option.
 
-Provisioning review can also be triggered when a fulfillment error occurs. See
-the[ Identity Management ](/docs/identitymanager/saas/introduction-guide/overview/identity-management/index.md)topic
-for additional information.
+Provisioning review can also be triggered when a fulfillment error occurs. See the [Identity Management](/docs/identitymanager/saas/introduction-guide/overview/identity-management/index.md) topic for additional information.
 
 ## Review Provisioning Orders
 
@@ -61,12 +48,9 @@ Review provisioning orders by proceeding as follows:
 
 2. Click on a line to access details and handle addition, association, update or deletion orders.
 
-    Once reviewed, provisioning orders are to be executed by Identity Manager during the next
-    **Fulfill** task, accessible from the corresponding connector's overview page, in the **Resource
-    Types** frame.
+    Once reviewed, provisioning orders are to be executed by Identity Manager during the next **Fulfill** task, accessible from the corresponding connector's overview page, in the **Resource Types** frame.
 
-    Automatic provisioning orders are directly executed, while manual provisioning orders are listed
-    on the **Manual Provisioning** page.
+    Automatic provisioning orders are directly executed, while manual provisioning orders are listed on the **Manual Provisioning** page.
 
     ![Fulfill Task](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
@@ -83,10 +67,7 @@ Identity Manager shows all the properties of the new resource to be created:
 - `Workflow State`: describes the origin or approval state of an assignment.
 - `Confidence Rate`: rate expressing the confidence in the corresponding query rule.
 
-See the
-[Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md)
-and [ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) topics for
-additional information.
+See the [Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md) and [Create a Provisioning Rule](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) topics for additional information.
 
 Handle an addition order by proceeding as follows:
 
@@ -108,14 +89,11 @@ Handle an addition order by proceeding as follows:
 
 ### Handle an association order
 
-Identity Manager displays a given owner and a given resource to be associated with a given
-[ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md)and all resource
-properties to be verified:
+Identity Manager displays a given owner and a given resource to be associated with a given [Classify Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md)and all resource properties to be verified:
 
 ![Association Order Review](/img/product_docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewassociation_v602.webp)
 
-- `Confidence rate of proposed resource`: rate expressing the confidence in this
-  [ Correlate Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md).
+- `Confidence rate of proposed resource`: rate expressing the confidence in this [Correlate Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md).
 - `Proposed Value`: value proposed by Identity Manager.
 - `Current Value`: value currently in the managed system.
 - `Provisioning State`
@@ -124,10 +102,7 @@ properties to be verified:
 - `Workflow State`: describes the origin or approval state of an assignment.
 - `Confidence Rate`: rate expressing the confidence in the corresponding query rule.
 
-See the
-[Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md)
-and [ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) topics for
-additional information.
+See the [Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md) and [Create a Provisioning Rule](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) topics for additional information.
 
 Handle an association order by proceeding as follows:
 
@@ -165,10 +140,7 @@ Identity Manager shows a given resource and all resource properties to be verif
 - `Workflow State`: describes the origin or approval state of an assignment.
 - `Confidence Rate`: rate expressing the confidence in the corresponding query rule.
 
-See the
-[Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md)
-and [ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) topics for
-additional information.
+See the [Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md) and [Create a Provisioning Rule](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) topics for additional information.
 
 Handle an update order by proceeding as follows:
 
@@ -230,8 +202,7 @@ In order to verify the process:
 
     ![Home Page - Directory User](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
-2. Follow the [ Request Entitlement Assignment ](/docs/identitymanager/saas/user-guide/administrate/manual-assignment-request/index.md) workflow
-   to make a change in one of their permissions, which involves provisioning review.
+2. Follow the [Request Entitlement Assignment](/docs/identitymanager/saas/user-guide/administrate/manual-assignment-request/index.md) workflow to make a change in one of their permissions, which involves provisioning review.
 3. Check that the provisioning state is `Pending` in the user's **View Permissions** tab.
 
     ![View Permissions Tab](/img/product_docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)

@@ -9,8 +9,11 @@ sidebar_position: 10
 This section describes the settings available in the agent's appsettings.json file, located in the
 agent's working directory or in environment variables.
 
-**NOTE:** JSON files can contain any additional information that you might find useful. See the
+:::note
+JSON files can contain any additional information that you might find useful. See the
 example below.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -43,7 +46,7 @@ The appsettings set allows the following attributes and sections:
 | EncryptionCertificate (required)                                      | EncryptionCertificate | Settings to configure the encryption of specific files.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | IdentityServer (required)                                             | IdentityServer        | Settings to configure the agent's encrypted network communication, for example with the server or a browser.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Authentication (required)                                             | Authentication        | Settings to configure end-user authentication, for example for users to launch a job from the UI.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Serilog (optional)                                                    | Logger setting        | Settings to configure the logging service, complying to the Logger properties and structure. See the [ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information. Example: `appsettings.json   {     "Serilog": {       "WriteTo": [ "Console" ],       "MinimumLevel": {         "Default": "Error",         "Override": {           "Usercube": "Information"           }         }       }   }                           `                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Serilog (optional)                                                    | Logger setting        | Settings to configure the logging service, complying to the Logger properties and structure. See the [Monitoring](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information. Example: `appsettings.json   {     "Serilog": {       "WriteTo": ["Console"],       "MinimumLevel": {         "Default": "Error",         "Override": {           "Usercube": "Information"           }         }       }   }                           `                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Cors (optional)                                                       | Cors                  | Settings to configure the agent's [CORS policy](https://developer.mozilla.org/fr/docs/Web/HTTP/CORS), which is useful when using non-integrated agents.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ApplicationInsights (optional)                                        | ApplicationInsights   | Settings to plug to and configure the [AppInsights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) monitoring tool.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | TempFolderPath (optional)                                             | String                | Path to the temporary folder which contains: - ExportOutput: directory storing data exported from connectors. - JobLogs: directory storing task instance logs. - Reports: directory storing generated reports. - Packages: directory storing the downloaded package logos. - PolicySimulations: directory storing the files generated by policy simulations. - ProvisioningCache.txt: file storing the clustered provisioning cache. When enabled, this file can be used to coordinate the API cache among clusters. - CorrelationCache.txt - RiskCache.txt - ExpressionCache.txt - scheduler.lock - connector.txt - container.reset.txt: file acting as a reset command for Identity Manager's server, i.e. any change to this file triggers the reset service, thus reloading all the services instantiated by the server. Note that this path can be overridden by **ResetSettings** > **FilepathResetService**. - Mails: directory storing the email messages. Note that this path can be overridden by **ResetSettings** > **PickupDirectory**. - Deployment these elements can be removed, but make sure to restart the server after doing so. Example: `appsettings.json   {     "TempFolderPath": "../Temp"   }` |
@@ -69,7 +72,7 @@ appsettings.json
 
 | Name                              | Type  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | --------------------------------- | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MaxTaskBatchSize default value: 5 | Int64 | Maximum number of tasks that can be launched simultaneously, thus avoiding timeout issues. When executing a job, Identity Manager launches simultaneously the tasks of a same Level. See the [ Job ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md) topic for additional information. If the number of same-level tasks exceeds MaxTaskBatchSize, then Identity Manager inserts new levels. These effective levels can be seen in the job's logs or with the Usercube-Get-JobSteps executable. See the [ Usercube-Get-JobSteps ](/docs/identitymanager/saas/integration-guide/executables/references/get-jobsteps/index.md) topic for additional information. |
+| MaxTaskBatchSize default value: 5 | Int64 | Maximum number of tasks that can be launched simultaneously, thus avoiding timeout issues. When executing a job, Identity Manager launches simultaneously the tasks of a same Level. See the [Job](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md) topic for additional information. If the number of same-level tasks exceeds MaxTaskBatchSize, then Identity Manager inserts new levels. These effective levels can be seen in the job's logs or with the Usercube-Get-JobSteps executable. See the [Usercube-Get-JobSteps](/docs/identitymanager/saas/integration-guide/executables/references/get-jobsteps/index.md) topic for additional information. |
 
 ## Scheduler
 
@@ -107,14 +110,17 @@ This information can be set one of two ways:
   identified by SubjectDistinguishedName or by Thumbprint. The Windows certificate also contains
   both the public key certificate and the private key.
 
-    **NOTE:** Netwrix recommends using Windows' certificate store.
+    :::note
+    Netwrix recommends using Windows' certificate store.
+    :::
+
 
     On the other hand, the PFX file takes priority over Windows' certificate, which means that when
     File is specified then the PFX certificate is used, even if the options for Windows' certificate
     are specified too.  
      In both ways, missing and/or incorrect settings trigger an error and no certificate is loaded.
 
-As a PFX file
+**As a PFX file**
 
 For example:
 
@@ -139,20 +145,23 @@ The archive is set using the following attributes:
 | File (required)     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system. |
 | Password (optional) | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.                     |
 
-**NOTE:** Storing a .pfx file password in plain text in a production environment is strongly
+:::note
+Storing a .pfx file password in plain text in a production environment is strongly
 discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword tool. See
 the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
+:::
+
 
 The archive is set using the following attributes:
 
 | Name                | Type   | Description                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | File (required)     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system.                                                                                                                                                                                                                                                                                                                              |
-| Password (optional) | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. storing a .pfx file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword.exe tool. See the[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information. |
+| Password (optional) | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. storing a .pfx file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword.exe tool. See the[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information. |
 
-As a Certificate in the Windows Store
+**As a Certificate in the Windows Store**
 
 For example:
 
@@ -180,7 +189,7 @@ The Windows certificate is set using these attributes:
 | StoreLocation (required)     | String | Location of the relevant Windows certificate store: LocalMachine or CurrentUser.                    |
 | StoreName (required)         | String | Name of the relevant Windows certificate store.                                                     |
 
-Using Azure Key Vault
+**Using Azure Key Vault**
 
 If the certificate is saved in Azure Key Vault, we must define the certificate identifier and the
 Vault connection. See the [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) topic for additional
@@ -200,7 +209,7 @@ script in the command line.
 
 Just like the Encryption Certificate, this information can be set one of two ways.
 
-As a PFX file
+**As a PFX file**
 
 For example:
 
@@ -223,13 +232,16 @@ The archive is set using the following attributes:
 | X509KeyFilePath (required)     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the agent's host file system. |
 | X509KeyFilePassword (optional) | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.                             |
 
-**NOTE:** Storing a .pfx file password in plain text in a production environment is strongly
+:::note
+Storing a .pfx file password in plain text in a production environment is strongly
 discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword tool. See
 the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
+:::
 
-As a Certificate in the Windows Store
+
+**As a Certificate in the Windows Store**
 
 For example:
 
@@ -254,8 +266,11 @@ The certificate is set using these attributes:
 | X509SubjectDistinguishedName (optional) | String | SubjectDistinguishedName of the certificate. It is required when X509Thumbprint is not defined. |
 | X509Thumbprint (optional)               | String | Thumbprint of the certificate. It is required when X509SubjectDistinguishedName is not defined. |
 
-**NOTE:** If you are using the certificate provided in the SDK, the agent will fail when launching.
+:::note
+If you are using the certificate provided in the SDK, the agent will fail when launching.
 You must create your own certificate.
+:::
+
 
 You can get the DistinguishedName of the certificate using OpenSSL:
 
@@ -335,5 +350,8 @@ The application insights details are:
 | -------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | InstrumentationKey default value: null | String | Key linked to the AppInsights instance to which the server's logs, requests, dependencies and performance are to be sent. See Microsoft's documentation to create an[ instrumentation key](https://docs.microsoft.com/en-us/azure/azure-monitor/app/create-new-resource). |
 
-**NOTE:** The logs sent to AppInsights are configured through the Logger properties. See the
-[ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
+:::note
+The logs sent to AppInsights are configured through the Logger properties. See the
+[Monitoring](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
+
+:::

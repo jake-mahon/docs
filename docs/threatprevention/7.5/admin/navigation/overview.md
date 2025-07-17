@@ -77,14 +77,17 @@ interface. The following interface options are available:
 - [Analytics Interface](/docs/threatprevention/7.5/admin/analytics/overview.md)
 - [Policies Interface](/docs/threatprevention/7.5/admin/policies/overview.md)
 - [Templates Interface](/docs/threatprevention/7.5/admin/templates/overview.md)
-- [Tags Node](/docs/threatprevention/7.5/admin/overview_1.md)
+- [Tags Node](/docs/threatprevention/7.5/admin/tags.md)
 
 Several right-click menus and additional features are available within these interfaces.
 
-_Remember,_ the Investigate, Analytics, Policies, Templates, and TAGS nodes in the Navigation pane
+:::tip
+Remember, the Investigate, Analytics, Policies, Templates, and TAGS nodes in the Navigation pane
 can be expanded and collapsed.
+:::
 
-Agents
+
+**Agents**
 
 The Agents interface provides data about the Agents within the environment. This includes what
 domain the Agent is in, what machine it is deployed on, its current status, and other details. This
@@ -92,26 +95,26 @@ interface also indicates if a domain controller does NOT have an Agent deployed 
 interface, Agents can be deployed, updated, and managed; logging levels can be configured; logs can
 be accessed; and Agent information can be exported.
 
-Alerts
+**Alerts**
 
 The Alerts interface provides information on the Threat Prevention Security events, Operations
 events, and Configuration events. All events are displayed by default. However, they can be
 filtered, sorted, and searched.
 
-Investigate
+**Investigate**
 
 The Investigate interface is a reporting tool for the Administration Console. It provides
 information on recent events monitored or blocked by any enabled policy. By default, all events
 recently monitored or blocked are available. However, they can be filtered to particular policies,
 perpetrators, time frames, domains, servers, computers, events, etc.
 
-Analytics
+**Analytics**
 
 The Analytics interface is a front-line warning tool for detecting incidents in real-time based on
 patterns within collected event data indicative of potential security risk. It provides information
 on incidents identified by the analytic policies.
 
-Policies
+**Policies**
 
 The Policies interface provides a central location for creating and configuring all policies. On
 selecting the Policy node, the policies are listed in the Display area. In the Navigation pane, the
@@ -125,14 +128,14 @@ A folder can be protected, which controls access to any policy within the folder
 cannot be viewed, edited, or deleted by other Administration Console users without explicit
 permissions being granted.
 
-Templates
+**Templates**
 
 The Templates interface provides a central location for creating and configuring all policy
 templates. On selecting the Templates node, a list of all policy templates available is displayed in
 the Display area. Policy templates must also be stored within a folder. There are pre-created policy
 templates which can be imported.
 
-TAGS
+**TAGS**
 
 The TAGS node provides an organizational feature for templates. Many preconfigured templates have
 tags which enable users to quickly find a desired template though various groupings. Tags do not

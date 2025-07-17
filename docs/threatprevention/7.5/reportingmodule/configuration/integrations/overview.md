@@ -17,7 +17,7 @@ select **Integrations** to open the Integrations interface.
 It contains the following integration pages:
 
 - [Active Directory Sync Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/activedirectorysync.md)
-- [Authentication Provider Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/page/page.md)
+- [Authentication Provider Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/page.md)
 - [Credential Profile Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialprofile.md)
 - [Email Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/email.md)
 - [Folder Settings Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/foldersettings.md)

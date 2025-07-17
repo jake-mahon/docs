@@ -28,12 +28,12 @@ At this point, integrators should have all the elements they need to operate.
 
 | Input                                                                                                                                                                                       | Output                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| [ Review Provisioning ](/docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Automated provisioning to [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
+| [Review Provisioning](/docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Automated provisioning to [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
 
 ## Implement Automated Provisioning
 
 automated provisioning is performed through a connection using a
-[ References: Packages ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/index.md) for
+[References: Packages](/docs/identitymanager/saas/integration-guide/connectors/references-packages/index.md) for
 fulfilling external systems.
 
 ## Perform Automated Provisioning
@@ -56,7 +56,7 @@ In order to verify the process:
     ![Home Page - Directory User](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Follow the manual assignment workflow through
-   [ Request Entitlement Assignment ](/docs/identitymanager/saas/user-guide/administrate/manual-assignment-request/index.md) to make a change in
+   [Request Entitlement Assignment](/docs/identitymanager/saas/user-guide/administrate/manual-assignment-request/index.md) to make a change in
    one of their permissions, which involves automated provisioning.
 3. Perform automated provisioning and check in Identity Manager that the change was effectively
    made.

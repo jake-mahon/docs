@@ -14,7 +14,5 @@ How to keep the workforce directory up to date.
 
 ## Process Details
 
-Be aware that the integration of an IGA tool is an iterative process. Thus, after following
-the[ How to Start ](/docs/identitymanager/saas/user-guide/global-process/howto-start/index.md) process and creating the workforce directory, you can
-come back at any time and complete the directory that you started
-[ Update Identity Data ](/docs/identitymanager/saas/user-guide/maintain/identity-data-modification/index.md).
+Be aware that the integration of an IGA tool is an iterative process. Thus, after following the [How to Start](/docs/identitymanager/saas/user-guide/global-process/howto-start/index.md) process and creating the workforce directory, you can
+come back at any time and complete the directory that you started [Update Identity Data](/docs/identitymanager/saas/user-guide/maintain/identity-data-modification/index.md).

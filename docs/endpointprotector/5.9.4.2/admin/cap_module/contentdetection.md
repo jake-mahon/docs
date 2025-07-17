@@ -46,8 +46,11 @@ The Context Detection Rules allows you to specify the minimum or maximum number 
 for one or more threat types previously deﬁned in the Content Detection Rule and reducing false
 positive detections.
 
-**CAUTION:** You can create Context Detection Rules only if you deﬁne a Content Detection Rule using
+:::warning
+You can create Context Detection Rules only if you deﬁne a Content Detection Rule using
 an OR operator.
+:::
+
 
 To create a new Context Detection Rules click **Add**, ﬁll in the following and then **Save**:
 
@@ -60,19 +63,28 @@ To create a new Context Detection Rules click **Add**, ﬁll in the following an
 - Excluded Context – select the AND/OR operator and then select from the drop-down list the custom
   content, RegEx or HIPPA you want to be excluded from the rule
 
-    **NOTE:** Custom content used in Content Detection rules will not be displayed in the included
+    :::note
+    Custom content used in Content Detection rules will not be displayed in the included
     and excluded context drop-down lists.
+    :::
+
 
 - Apply context rule for - select if you want to apply the rule to All items or At least 1 item.
 
-    **NOTE:** You can create a maximum number of 15 Context Detection Rules.
+    :::note
+    You can create a maximum number of 15 Context Detection Rules.
+    :::
+
 
 ![Creating new Context Detection Rules ](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/contentdetectionrules.webp)
 
-**CAUTION:** To address conﬂicts between per-policy and Global Contextual Rules, Endpoint Protector
+:::warning
+To address conﬂicts between per-policy and Global Contextual Rules, Endpoint Protector
 clients no longer receive Global Contextual Rules if at least one policy has its individual
 Contextual Rule set. This marks the deprecation of Global Contextual Rules, emphasizing the
 prioritization of individual policy conﬁgurations.
+:::
+
 
 ## Policy Denylists and Allowlists
 
@@ -80,8 +92,11 @@ The policy denylist and allowlist specify the content to be detected – it incl
 ﬁltering, predeﬁned content ﬁltering, custom content ﬁltering, ﬁle allowlists, regular expressions
 and domain allowlists, deep packet inspection, etc.
 
-**NOTE:** Upgrade to Endpoint Protector 5.9.4+ to take advantage of increased denylist/allowlist
+:::note
+Upgrade to Endpoint Protector 5.9.4+ to take advantage of increased denylist/allowlist
 capabilities: 1000 lists (previously 10/100) and 50,000 entries per list.
+:::
+
 
 ### Policy Denylists
 
@@ -90,8 +105,11 @@ You can use the following Denylists:
 - File Type - since many ﬁles (e.g.: Programming Files) are actually .TXT ﬁles, we recommend more
   precaution when selecting this ﬁle type to avoid any unexpected effects.
 
-    **NOTE:** File type detection will not always work accurately for some very large
+    :::note
+    File type detection will not always work accurately for some very large
     password-protected Microsoft Oﬃce ﬁles.
+    :::
+
 
 - Source Code - An N-gram based detection method is used to increase the accuracy of these ﬁle
   types. However, as various source code is closely linked together (e.g.: C, C++, etc.), these also
@@ -103,19 +121,25 @@ regardless of the git application used. This will result in completely blocking 
 Packet Inspection Allowlists can be used to allow a speciﬁc Git, linked to a speciﬁc domain (e.g.:
 internalgit.mydomain.com).
 
-**NOTE:** All Git traﬃc is encrypted therefore, allowing a speciﬁc domain will result in any ﬁle
+:::note
+All Git traﬃc is encrypted therefore, allowing a speciﬁc domain will result in any ﬁle
 transfers to be allowed, regardless of content or other policy restrictions deﬁned.
+:::
+
 
 If Git is selected from Restricted Apps, no Endpoint Protector client notiﬁcations and logs will be
 generated for the Git-related actions (fetch, clone, push, pull).
 
-Italian SSN and ID Usage
+**Italian SSN and ID Usage**
 
 Starting with Endpoint Protector server version 5.7.0.0, Italian SSN was added to the PII list.
 Similar to Italian ID, if selected from the list of PIIs, the SSN will detect the same entity.
 
-**_RECOMMENDED:_** When using Italian SSN and ID, we recommend you upgrade to the latest Endpoint
+:::info
+When using Italian SSN and ID, we recommend you upgrade to the latest Endpoint
 Protector agent version.
+:::
+
 
 To maintain compatibility with older agent versions after the server upgrade, Italian ID will remain
 under section ID and server upgrade will retain previous settings, including Italian ID.
@@ -151,13 +175,19 @@ Security Numbers, Addresses, and much more.
 
 ![HIPAA Compliance](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/hipaacompliance.webp)
 
-**NOTE:** For a HIPAA policy to be effective and more accurate, it is recommended to utilize
+:::note
+For a HIPAA policy to be effective and more accurate, it is recommended to utilize
 Contextual Detection Rules in conjunction with Predeﬁned Content and Custom Content ﬁlters. To
 enhance precision, users should also enable ‘Whole Word Only’ under Custom Content. The ICD-11
 dictionary focuses solely on speciﬁc terms, not insurance codes.
+:::
 
-**NOTE:** It is advisable to set appropriate thresholds and combinations of arguments to minimize
+
+:::note
+It is advisable to set appropriate thresholds and combinations of arguments to minimize
 false positives for shorter disease descriptions
+:::
+
 
 ### Policy Allowlists
 
@@ -171,13 +201,19 @@ You can use the following Allowlists:
 - URL Name
 - Deep Packet Inspection
 
-**NOTE:** For detailed information on Denylists and Allowlist, refer to the
+:::note
+For detailed information on Denylists and Allowlist, refer to the
 [Denylists and Allowlists](/docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/overview.md) topic.
+:::
 
-**CAUTION:** The Content Aware Protection Policies continue to report and/or block sensitive data
+
+:::warning
+The Content Aware Protection Policies continue to report and/or block sensitive data
 transfers from protected computers even after they are disconnected from the company network. Logs
 will be saved within the Endpoint Protector Client and will be sent to the Server once the
 connection has been reestablished.
+:::
+
 
 ![Policy Allowlists](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/policyallowlists.webp)
 
@@ -201,8 +237,11 @@ available ones:
 - Computers
 - Users
 
-**NOTE:** If a Content Aware Policy was already enforced on a computer, user, group, or department,
+:::note
+If a Content Aware Policy was already enforced on a computer, user, group, or department,
 when clicking on it, the corresponding network entities on which it was applied will be highlighted.
+:::
+
 
 You can also deﬁne a list of entities that will be excluded from the policy by selecting from the
 Excluded section.
@@ -241,9 +280,12 @@ To remediate the threat, the user has to follow these steps:
   number to view the maximum time interval)
 - click **Authorize**
 
-**NOTE:** You can manage more settings for the Self Remediate feature from System Preferences and
- [User Remediation](/docs/endpointprotector/5.9.4.2/admin/systempar.md#user-remediation) sections.
+:::note
+You can manage more settings for the Self Remediate feature from System Preferences and
 [User Remediation](/docs/endpointprotector/5.9.4.2/admin/systempar.md#user-remediation) sections.
+[User Remediation](/docs/endpointprotector/5.9.4.2/admin/systempar.md#user-remediation) sections.
+:::
+
 
 User Remediation for Content Aware Protection can remediate ﬁle transfers via web domains.
 
@@ -314,15 +356,21 @@ predeﬁned information, or a custom content dictionary):
 | REPORTED                 | BLOCKED                  | IGNORED                  | Information will be reported.                |
 | BLOCKED                  | REPORTED                 | IGNORED                  | Information will be blocked.                 |
 
-**CAUTION:** The information left unchecked when creating a policy will be considered as Ignored by
+:::warning
+The information left unchecked when creating a policy will be considered as Ignored by
 Endpoint Protector and not as Allowed.
+:::
+
 
 The deep packet inspection feature has been expanded to email scanning based on domain allowing.
 
 ![Applying multiple Content Aware Policies](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/capeditpolicy.webp)
 
-**_RECOMMENDED:_** HIPAA should be considered a Content Aware Policy that, besides the options in
+:::info
+HIPAA should be considered a Content Aware Policy that, besides the options in
 the HIPAA tab, also has the below conﬁguration:
+:::
+
 
 - All the File Types recognized should be included.
 - All Personal Identiﬁable Information should be Country Speciﬁc to the United States (Address,

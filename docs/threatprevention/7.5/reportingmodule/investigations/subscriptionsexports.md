@@ -1,5 +1,5 @@
 ---
-title: "Subscriptions and Exports Page"
+title: "Subscriptions and Exports"
 description: "Subscriptions and Exports Page"
 sidebar_position: 80
 ---

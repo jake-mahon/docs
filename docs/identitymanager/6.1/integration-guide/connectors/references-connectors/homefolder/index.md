@@ -72,10 +72,9 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "HomeFolderExport": {
->       "InputDirectories": [
->         "C:/ContosoFolder",
+>       "InputDirectories": [>         "C:/ContosoFolder",
 >         "C:/ContosoFolder2",
->       ],
+>],
 >       "Domain": "Windows",
 >       "Interactive": true,
 >       "Login": "Contoso",

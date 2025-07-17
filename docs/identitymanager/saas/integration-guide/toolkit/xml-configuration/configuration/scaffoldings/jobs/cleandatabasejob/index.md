@@ -15,7 +15,7 @@ script in the command line.
 
 ```
 
-  <CleanDatabaseJob />
+**<CleanDatabaseJob />**
 
 ```
 

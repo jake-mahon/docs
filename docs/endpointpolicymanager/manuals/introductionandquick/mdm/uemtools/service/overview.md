@@ -13,7 +13,7 @@ when using Endpoint Policy Manager with any MDM system.
 ![using_policypak_with_mdm_and_1](/img/product_docs/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_1.webp)
 
 **NOTE:**
-[Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/endpointpolicymanager/video/mdm/realgrouppolicy.md)a
+[Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/realgrouppolicy.md)a
 video overview of Endpoint Policy Manager and MDM.
 
 The ultimate goal is to upload the following Endpoint Policy Manager items to your MDM service and
@@ -39,7 +39,7 @@ On one machine proceed in the following manner:
 This will ensure all the correct parts are working in concert before you attempt to use an MDM
 service to deliver these components.
 
-**NOTE:** See [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md) a
+**NOTE:** See [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/testsample.md) a
 video of this process.
 
 Once you've completed these procedures, you're ready to actually perform the steps needed to get the

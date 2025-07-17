@@ -21,7 +21,7 @@ The list of templates can be sorted alphanumerically ascending or descending by 
 header. An arrow appears in the right corner of the column header indicating the type of sorting.
 You can also right-click a template to get a right-click menu.
 
-Templates Node
+**Templates Node**
 
 Under the Templates node in the Navigation pane, folders are used to organize the templates. Folders
 can be created at the top level or as sub-folders since Threat Prevention supports unlimited levels
@@ -45,9 +45,9 @@ right-click to open this menu.
 
 It contains the following options:
 
-| Right-Click Command  | Description                                                                                                                                                                           |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enable (grayed-out)  | [Does not apply to templates]                                                                                                                                                         |
-| Disable (grayed-out) | [Does not apply to templates]                                                                                                                                                         |
+| Right-Click Command  | Description      |
+| -------------------- | ------------------ |
+| Enable (grayed-out)  | [Does not apply to templates]      |
+| Disable (grayed-out) | [Does not apply to templates]    |
 | Export               | Exports the selected template’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/7.5/admin/policies/exportpoliciestemplates.md) |
-| Remove               | Deletes the selected template                                                                                                                                                         |
+| Remove               | Deletes the selected template     |

@@ -28,7 +28,7 @@ This configuration is to use the fill for the LDAP and configure the Reset Passw
 
 ## Add connection information to AD Connect
 
-The [ LDAP ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/ldap/index.md) connection information define
+The [LDAP](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/ldap/index.md) connection information define
 this section to add all information to use the AD Fulfillment.
 
 ```
@@ -38,12 +38,10 @@ appsettings.agent.json
   "Connections": {
     ...
     "ADFulfillment": {
-      "Servers": [
-        {
+      "Servers": [{
           "Server": "paris.contoso.com",
           "BaseDN": "DC=paris,DC=com"
-        }
-      ],
+        }],
       "AuthType": "Basic",
       "Login": "CN=exampleCn,DC=exampleDc1,DC=exampleDc2",
       "Password": "Password",
@@ -54,7 +52,7 @@ appsettings.agent.json
 ```
 
 After defining this settings, encrypt this JSON file with
-[ Usercube-Protect-X509JsonFile ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonfile/index.md).
+[Usercube-Protect-X509JsonFile](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonfile/index.md).
 
 ## Configure The FulfillTask
 

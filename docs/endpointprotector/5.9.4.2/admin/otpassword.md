@@ -43,9 +43,12 @@ Code will be valid for that speciﬁc amount of time, starting with the moment i
 only thing to consider is that the Offline Temporary Password Code needs to be redeemed the same day
 it was generated.
 
-**NOTE:** The Universal Oﬄine Temporary Password feature can also be turned on. If enabled, it can
+:::note
+The Universal Oﬄine Temporary Password feature can also be turned on. If enabled, it can
 be used by any user, on any computer, for any device or ﬁle transfers – it eliminates security
 restrictions for one hour. It can be used multiple times, by any user that knows it.
+:::
+
 
 The Universal Oﬄine Temporary Password can be made visible only for Super Administrators. If this
 setting is enabled, Normal and Oﬄine Temporary Password Administrators will not be able to see and
@@ -58,9 +61,12 @@ Once an Oﬄine Temporary Password has been authorized, any other rights and set
 on the Endpoint Protector Server will not take immediate effect. The Oﬄine Temporary Password has to
 expire and the connection with the Server re-established.
 
-**NOTE:** The Transfer Limit Reset Oﬄine Temporary Password is only available if the feature is
+:::note
+The Transfer Limit Reset Oﬄine Temporary Password is only available if the feature is
 enabled. The main purpose of this type of Oﬄine Temporary Password is to re-establish the
 Server-Client communication before the Transfer Limit Reset Time Interval has expired.
+:::
+
 
 ## Generating the Oﬄine Temporary Password
 
@@ -86,8 +92,11 @@ Once the OTP Code has been generated, it will be displayed on the right side of 
 As it needs to be provided to the person that made the request, Endpoint Protector offers two quick
 ways of doing this, either by sending a direct e-mail or by printing it out.
 
-**NOTE:** You can edit the Administrator contact information that is displayed to a user from System
+:::note
+You can edit the Administrator contact information that is displayed to a user from System
 Conﬁguration, System Settings, as the Main Administrator Contact Details.
+:::
+
 
 Similar to generating an Oﬄine Temporary Password for a speciﬁc device, when generating one for all
 devices or all ﬁle transfers, the Computer Name and the Username ﬁelds are not both mandatory. The

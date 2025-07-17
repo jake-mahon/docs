@@ -136,7 +136,7 @@ for the whole creation request and review from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*">
+**<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*">**
 
   Permissions for the Request activity:
   <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Purged" CanExecute="true" />

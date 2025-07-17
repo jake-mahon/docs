@@ -23,7 +23,7 @@ results using the column headers. Below the Search button is the
 [Export](/docs/activitymonitor/7.1/admin/search/overview.md#export)
 option.
 
-Filter Value Entry
+**Filter Value Entry**
 
 Field options vary based on the selected query filter:
 

@@ -19,9 +19,12 @@ To migrate the Threat Prevention server to a different machine, see the
 To upgrade older versions, please reach out to
 [Netwrix Support](https://www.netwrix.com/support.html) for assistance.
 
-**NOTE:** By design, the Threat Prevention 7.5 server (Enterprise Manager) can talk to 7.3.9 and 7.4
+:::note
+By design, the Threat Prevention 7.5 server (Enterprise Manager) can talk to 7.3.9 and 7.4
 Agents, and does not accept connections from pre 7.3.9 Agents. Existing customers must upgrade to
 7.3.9 first and then to 7.5. Else pre 7.3.9 Agents will be orphaned.
+:::
+
 
 Typically a new release includes new policy templates. The Templates Update window displays the
 following message after an update: “Changes to Default Templates Detected. Do you want to update
@@ -35,8 +38,11 @@ The upgrade process must be done on all servers where the Threat Prevention Infr
 installed and all systems where the Agent is deployed. For deploying Agent, see the
 [Agents Interface](/docs/threatprevention/7.5/admin/agents/overview.md) topic.
 
-**_RECOMMENDED:_** It is a best practice to export policies for backup prior to performing an
+:::info
+It is a best practice to export policies for backup prior to performing an
 upgrade.
+:::
+
 
 For NAS file system monitoring, Threat Prevention works in conjunction with the Activity Monitor.
 Hence, the agent versions for the two products must be compatible. See the
@@ -87,8 +93,11 @@ See the [Upgrade Agent](/docs/threatprevention/7.5/install/upgrade/agent.md) top
 [Manual Uninstall on the Agent Server](/docs/threatprevention/7.5/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server) topic
 for information on removing the Agent from the server where it was deployed.
 
-**NOTE:** If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 ad
+:::note
+If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 ad
 then to 7.5.
+:::
+
 
 ## Infrastructure Upgrade Procedure for 7.3.9 to 7.5
 
@@ -120,8 +129,11 @@ See the [Upgrade Agent](/docs/threatprevention/7.5/install/upgrade/agent.md) top
 [Manual Uninstall on the Agent Server](/docs/threatprevention/7.5/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server) topic
 for information on removing the Agent from the server where it was deployed.
 
-**NOTE:** If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 and
+:::note
+If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 and
 then to 7.5.
+:::
+
 
 ## Infrastructure Upgrade Procedure for 7.3.7 to 7.3.9
 

@@ -38,7 +38,10 @@ Enforcer Web documentation and tools, then click **Next**.
 **Step 6 –** Select an **IIS Web Site** from the dropdown. Change the default Virtual Directory, if
 needed.
 
-**NOTE:** Password Policy Enforcer Web should be installed in its own virtual directory.
+:::note
+Password Policy Enforcer Web should be installed in its own virtual directory.
+:::
+
 
 **Step 7 –** Click **Next** twice.
 
@@ -55,13 +58,19 @@ The HTML templates and associated images are overwritten during an upgrade. You
 customized HTML templates and images before upgrading. The HTML templates and images are installed
 in the `\Inetpub\wwwroot\ppeweb\` folder by default.
 
-**NOTE:** A full backup of the PPE Web server is recommended. This allows you to roll back to the
+:::note
+A full backup of the PPE Web server is recommended. This allows you to roll back to the
 previous version if the upgrade cannot be completed. You may need to restart Windows after
 upgrading.
+:::
 
-**CAUTION:** PPE Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade
+
+:::warning
+PPE Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade
 Password Policy Enforcer to a compatible version if you have enabled Password Policy Enforcer
 integration.
+:::
+
 
 #### Upgrading to V7.11
 

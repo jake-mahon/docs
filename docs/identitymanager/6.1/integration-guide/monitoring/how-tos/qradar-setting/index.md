@@ -43,19 +43,15 @@ Export logs to a log management system by proceeding as follows:
    [`appsettings.json`](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings/index.md),
    make sure to have a **Serilog** section:
 
-    ```
-
-        appsettings.json
-
-        {
-          ...
-          "Serilog": {
-            ...
-          }
-          ...
-        }
-
-    ```
+```json
+{
+  ...
+  "Serilog": {
+    ...
+  }
+  ...
+}
+```
 
 2. In the **Serilog** section, add a **Using** section to contain the used sink which depends on the
    logs' destination, output format, etc.
@@ -64,44 +60,36 @@ Export logs to a log management system by proceeding as follows:
     Concerning QRadar, NETWRIX strongly recommends using the JSON format, as it can be parsed by
     Usercube's DSM or easily by a homemade parser.
 
-    > For example, to produce a JSON output for QRadar:
-    >
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Network"
-    >     ],
-    >     ...
-    >   }
-    >   ...
-    > }
-    >
-    > ```
+    For example, to produce a JSON output for QRadar (in `appsettings.json`):
 
-    > For example, to produce an output for Splunk:
-    >
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Console",
-    >       "Serilog.Sinks.Splunk.Durable"
-    >     ],
-    >     ...
-    >   }
-    >   ...
-    > }
-    >
-    > ```
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Network"
+    ],
+    ...
+  }
+  ...
+}
+```
+
+    For example, to produce an output for Splunk (in `appsettings.json`):
+
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Console",
+      "Serilog.Sinks.Splunk.Durable"
+    ],
+    ...
+  }
+  ...
+}
+```
 
 3. Add a **MinimumLevel** section to define which logs are to be sent to the log management system.
    [See more details](/docs/identitymanager/6.1/integration-guide/monitoring/index.md).
@@ -109,142 +97,122 @@ Export logs to a log management system by proceeding as follows:
     In order to be sent to any system, Usercube's logs must be configured with **MinimumLevel** set
     to `Information`, or lower.
 
-    > For example, we can define the logs' minimum level to `Information`. This way, all logs from
-    > the
-    > [log references](/docs/identitymanager/6.1/integration-guide/monitoring/references/index.md)
-    > with `Information` level or higher are sent.
-    >
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
-    >       "MinimumLevel": {
-    >           "Default": "Error",
-    >           "Override": {
-    >               "Usercube": "Information"
-    >           }
-    >       },
-    >       ...
-    >   }
-    >   ...
-    > }
-    >
-    > ```
+    For example, we can define the logs' minimum level to `Information` (in `appsettings.json`):
+
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Network"
+    ],
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Usercube": "Information"
+      }
+    },
+    ...
+  }
+  ...
+}
+```
 
 4. Add a **WriteTo** section to specify the expected output.
 
     While **uri**/**host**/**splunkHost** specifies the IP address of the machine hosting your log
     management system, the rest of **Args** configuration must be set just like the examples below.
 
-    > For example, to produce a JSON output for QRadar:
-    >
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
-    >       "MinimumLevel": {
-    >           "Default": "Error",
-    >           "Override": {
-    >               "Usercube": "Information"
-    >           }
-    >       },
-    >       "WriteTo": [
-    >           {
-    >               "Name": "UDPSink",
-    >               "Args": {
-    >                   "uri": "192.168.13.110",
-    >                   "port": "514",
-    >                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
-    >               }
-    >           }
-    >       ]
-    >   }
-    > }
-    >
-    > ```
+    For example, to produce a JSON output for QRadar (in `appsettings.json`):
 
-    > For example, to produce an RFC5424 output for QRadar
-    > ([see more information about UdpSyslog attributes](https://github.com/IonxSolutions/serilog-sinks-syslog#see-more-information-about-udpsyslog-attributes)):
-    >
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
-    >       "MinimumLevel": {
-    >           "Default": "Error",
-    >           "Override": {
-    >               "Usercube": "Information"
-    >           }
-    >       },
-    >       "WriteTo": [
-    >           {
-    >               "Name": "UdpSyslog",
-    >               "Args": {
-    >                   "host": "192.168.13.110",
-    >                   "port": "514",
-    >                   "appName": "Usercube",
-    >                   "format": "RFC5424",
-    >                   "facility": "Local0",
-    >                   "secureProtocols": "SecureProtocols.None",
-    >                   "outputTemplate": "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj} <s:{SourceContext}>{NewLine}{Exception}"
-    >               }
-    >           }
-    >       ]
-    >   }
-    > }
-    >
-    > ```
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Network"
+    ],
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Usercube": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "UDPSink",
+        "Args": {
+          "uri": "192.168.13.110",
+          "port": "514",
+          "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
+        }
+      }
+    ]
+  }
+}
+```
 
-    > For example, to produce an output for Splunk:
-    >
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
-    >       "MinimumLevel": {
-    >           "Default": "Error",
-    >           "Override": {
-    >               "Usercube": "Information"
-    >           }
-    >       },
-    >       "WriteTo": [
-    >           {
-    >               "Name": "SplunkEventCollector",
-    >               "Args": {
-    >                   "splunkHost": <Host>,
-    >                   "eventCollectorToken": "",
-    >                   "bufferFileFullName": "log-buffer.txt"
-    >               }
-    >           }
-    >       ]
-    >   }
-    > }
-    >
-    > ```
+    For example, to produce an RFC5424 output for QRadar (in `appsettings.json`):
+
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Network"
+    ],
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Usercube": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "UdpSyslog",
+        "Args": {
+          "host": "192.168.13.110",
+          "port": "514",
+          "appName": "Usercube",
+          "format": "RFC5424",
+          "facility": "Local0",
+          "secureProtocols": "SecureProtocols.None",
+          "outputTemplate": "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj} <s:{SourceContext}>{NewLine}{Exception}"
+        }
+      }
+    ]
+  }
+}
+```
+
+    For example, to produce an output for Splunk (in `appsettings.json`):
+
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Network"
+    ],
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Usercube": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "SplunkEventCollector",
+        "Args": {
+          "splunkHost": "<Host>",
+          "eventCollectorToken": "",
+          "bufferFileFullName": "log-buffer.txt"
+        }
+      }
+    ]
+  }
+}
+```
 
 5. When needing to restrict the logs sent to the system, add a filter and wrap all **WriteTo**
    configuration into a sub-logger, in which case the **Name** at **WriteTo**'s root must be
@@ -263,109 +231,101 @@ Export logs to a log management system by proceeding as follows:
     Never include logs with event ids inferior to 500, in order not to be overwhelmed with logs
     improper to be used by SIEM systems like QRadar.
 
-    > The following example filters out any log whose event id is lower than 500.
-    >
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Network"
-    >     ],
-    >     "MinimumLevel": {
-    >       "Default": "Error",
-    >       "Override": {
-    >         "Usercube": "Information"
-    >       }
-    >     },
-    >     "WriteTo": [
-    >       {
-    >         "Name": "Logger",
-    >         "Args": {
-    >           "configureLogger": {
-    >             "WriteTo": [
-    >               {
-    >                 "Name": "UDPSink",
-    >                 "Args": {
-    >                   "uri": "192.168.13.110",
-    >                   "port": "514",
-    >                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
-    >                 }
-    >               }
-    >             ],
-    >             "Filter": [
-    >               {
-    >                 "Name": "ByIncludingOnly",
-    >                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-    >               }
-    >             ]
-    >           }
-    >         }
-    >       }
-    >       ...
-    >     ]
-    >   }
-    > }
-    >
-    > ```
-    >
-    > You could want to filter out the logs whose event ids are 500 too, by replacing
-    > `EventId.Id >= 500` with `EventId.Id >= 501` in the filter. Or you could want to filter out
-    > only the logs whose event ids are 502, by replacing `EventId.Id >= 500` with
-    > `EventId.Id >= 500 and EventId.Id <> 502` in the filter.
+    For example, to filter out any log whose event id is lower than 500 (in `appsettings.json`):
+
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Network"
+    ],
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Usercube": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Logger",
+        "Args": {
+          "configureLogger": {
+            "WriteTo": [
+              {
+                "Name": "UDPSink",
+                "Args": {
+                  "uri": "192.168.13.110",
+                  "port": "514",
+                  "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
+                }
+              }
+            ],
+            "Filter": [
+              {
+                "Name": "ByIncludingOnly",
+                "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
+```
+
+    You could want to filter out the logs whose event ids are 500 too, by replacing
+    `EventId.Id >= 500` with `EventId.Id >= 501` in the filter. Or you could want to filter out
+    only the logs whose event ids are 502, by replacing `EventId.Id >= 500` with
+    `EventId.Id >= 500 and EventId.Id <> 502` in the filter.
 
 6. When needing to override the log level for this particular sub-logger, add an additional
    **MinimalLevel** section in the **WriteTo** section.
 
-    > ```
-    >
-    > appsettings.json
-    >
-    > {
-    >   ...
-    >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Network"
-    >     ],
-    >     "MinimumLevel": {
-    >       "Default": "Error",
-    >       "Override": {
-    >         "Usercube": "Information"
-    >       }
-    >     },
-    >     "WriteTo": [
-    >       {
-    >         "Name": "Logger",
-    >         "Args": {
-    >           "configureLogger": {
-    >             "MinimumLevel": {
-    >               "Default": "Warning"
-    >             },
-    >             "WriteTo": [
-    >               {
-    >                 "Name": "UDPSink",
-    >                 "Args": {
-    >                   "uri": "192.168.13.110",
-    >                   "port": "514",
-    >                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
-    >                 }
-    >               }
-    >             ],
-    >             "Filter": [
-    >               {
-    >                 "Name": "ByIncludingOnly",
-    >                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-    >               }
-    >             ]
-    >           }
-    >         }
-    >       }
-    >       ...
-    >     ]
-    >   }
-    > }
-    >
-    > ```
+    For example, to override the log level for this particular sub-logger (in `appsettings.json`):
+
+```json
+{
+  ...
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Network"
+    ],
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Usercube": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Logger",
+        "Args": {
+          "configureLogger": {
+            "MinimumLevel": {
+              "Default": "Warning"
+            },
+            "WriteTo": [
+              {
+                "Name": "UDPSink",
+                "Args": {
+                  "uri": "192.168.13.110",
+                  "port": "514",
+                  "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
+                }
+              }
+            ],
+            "Filter": [
+              {
+                "Name": "ByIncludingOnly",
+                "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
+```

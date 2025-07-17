@@ -13,11 +13,11 @@ for example QRadar.
 
 The description will use this template for each log:
 
-EventId id: int
+**EventId id: int**
 
 EventId name: string
 
-LogLevel: Trace||Verbose||Debug||Information||Warning||Error||Critical
+**LogLevel: Trace||Verbose||Debug||Information||Warning||Error||Critical**
 
 Arguments:
 
@@ -26,15 +26,15 @@ Arguments:
 - argument3 (string): description3 (string)
 
 The EventId id must be unique so we could use it to filter the logs we send. See the
-[ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
+[Monitoring](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
 
 #### 500
 
-EventId id: 500
+**EventId id: 500**
 
 EventId name: Workflow.StartWorkflowInstance
 
-LogLevel: Information
+**LogLevel: Information**
 
 Arguments:
 
@@ -46,11 +46,11 @@ Arguments:
 
 #### 501
 
-EventId id: 501
+**EventId id: 501**
 
 EventId name: Workflow.ResumeWorkflowInstance
 
-LogLevel: Information
+**LogLevel: Information**
 
 Arguments:
 
@@ -62,11 +62,11 @@ Arguments:
 
 #### 502
 
-EventId id: 502
+**EventId id: 502**
 
 EventId name: SelectEntityByIdQueryHandler.Handle
 
-LogLevel: Information
+**LogLevel: Information**
 
 Arguments:
 
@@ -76,11 +76,11 @@ Arguments:
 
 #### 503
 
-EventId id: 503
+**EventId id: 503**
 
 EventId name: SelectEntityByIdQueryHandler.Handle
 
-LogLevel: Error
+**LogLevel: Error**
 
 Arguments:
 

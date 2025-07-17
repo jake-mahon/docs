@@ -13,11 +13,14 @@ System Solution topic in the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
-**NOTE:** In order to populate the NFS resources within the reports, the **.Active Directory
+:::note
+In order to populate the NFS resources within the reports, the **.Active Directory
 Inventory** job group must be configured to collect the `uid` and `uidNumber` attributes for user
 objects. See the NFS Permissions for the Access Information Center topic in the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 more information.
+:::
+
 
 File System resource reports identify the following information in the targeted file system
 environment:

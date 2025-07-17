@@ -24,9 +24,12 @@ are not available or not licensed are grayed-out but visible in the Event Select
 Check the box for the desired event type and click **OK**. The corresponding event filters show at
 the bottom of the Event Type tab. Multiple event types can be assigned to a policy.
 
-**_RECOMMENDED:_** Create different policies for different event types for reporting purposes.
+:::info
+Create different policies for different event types for reporting purposes.
 Otherwise, one report will have a mix of different types of data. There are a few exceptions to this
 feature.
+:::
+
 
 Once the event type to be monitored by the policy is selected, use the filters to scope the policy.
 
@@ -49,7 +52,7 @@ See the following topics for additional details:
 - [Exchange Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/exchangelockdown.md)
 - [File System Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemchanges/filesystemchanges.md)
 - [File System Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemlockdown.md)
-- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer.md)
+- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemaccessanalyzer.md)
 - [FSMO Role Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/fsmorolemonitoring.md)
 - [GPO Setting Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/gposettingchanges.md)
 - [GPO Setting Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/gposettinglockdown.md)

@@ -16,7 +16,7 @@ For every **EntityType**, a matching SQL view is created from the UR_Resource ta
 
 ```
 
-  <CreateDatabaseViewsTask Identifier="Create_Database_Views" Agent="Local" OpenIdClient="Job" DisplayName_L1="Create Database Views"/>
+**<CreateDatabaseViewsTask Identifier="Create_Database_Views" Agent="Local" OpenIdClient="Job" DisplayName_L1="Create Database Views"/>**
 
 ```
 

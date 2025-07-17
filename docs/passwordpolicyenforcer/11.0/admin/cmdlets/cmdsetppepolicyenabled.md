@@ -9,12 +9,12 @@ sidebar_position: 210
 The **Set-PPEPolicyEnabled** cmdlet sets the enabled/disabled status for a Password Policy Enforcer
 policy.
 
-SYNTAX
+**SYNTAX**
 
 **Set-PPEPolicyEnabled\_\_**-PolicyName** `<_string_>` **-Enable\__]
 `<\_int_>` [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-PolicyName** `<_string_>`
 
@@ -31,12 +31,12 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLES
+**EXAMPLES**
 
 PS C:\> Set-PPEPolicyEnabled -PolicyName "Eval Policy" -Enable 0
 
-Policy "Eval Policy" is Disabled
+**Policy "Eval Policy" is Disabled**
 
 PS C:\> Set-PPEPolicyEnabled -PolicyName "Eval Policy" -Enable 1
 
-Policy "Eval Policy" is Enabled
+**Policy "Eval Policy" is Enabled**

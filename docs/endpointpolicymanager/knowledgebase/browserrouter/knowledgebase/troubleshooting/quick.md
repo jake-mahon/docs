@@ -53,7 +53,7 @@ In DEFAULT PROGRAMS, verify that PPBRAgent is the Default Browser for HTTP and H
 
 **CAUTION:** For Non-Domain Joined machines, we (PolicyPak) cannot set this automatically. For more
 information on this
-problem, [Which Endpoint Policy Manager items will not work when the computer is non-domain joined (or the computer is NEVER connected to the Internet)?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/nondomainjoinedtroub/limitations.md)
+problem, [Which Endpoint Policy Manager items will not work when the computer is non-domain joined (or the computer is NEVER connected to the Internet)?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/nondomainjoined/limitations.md)
 
 For Domain joined Windows 10, Look at Default Programs here,
 

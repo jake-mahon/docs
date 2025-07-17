@@ -17,14 +17,13 @@ Tip for reading the table: For example, on the computer where Netwrix Cloud Agen
 allow outbound connections to remote 389 TCP port. On domain controllers in your domain (target),
 allow inbound connections to local 389 TCP port.
 
-|                            |              |                     |                    |                                                                                      |
-| -------------------------- | ------------ | ------------------- | ------------------ | ------------------------------------------------------------------------------------ |
-| **Port**                   | **Protocol** | **Source**          | **Target**         | **Application protocol**                                                             |
-| 389                        | TCP/UDP      | Netwrix Cloud Agent | Domain Controllers | LDAP DC query Account resolve                                                        |
-| 135 + Dynamic: 1024 -65535 | TCP          | Netwrix Cloud Agent | Monitored computer | Windows Management Instrumentation Firewall configuration Core Service communication |
-| 135                        | TCP          | Netwrix Cloud Agent | Monitored computer | Service Control Manager Remote Protocol Core Service installation                    |
-| 137                        | UDP          | Netwrix Cloud Agent | Monitored computer | File and Printer Sharing (NetBIOS Name Resolution)                                   |
-| 138                        | UDP          | Netwrix Cloud Agent | Monitored computer | File and Printer Sharing (NetBIOS Datagram Service)                                  |
-| 139                        | TCP          | Netwrix Cloud Agent | Monitored computer | File and Printer Sharing (NetBIOS Session Service)                                   |
-| 445 + 139                  | TCP          | Netwrix Cloud Agent | Monitored computer | SMB 2.0/3.0                                                                          |
-| 3268                       | TCP          | Netwrix Cloud Agent | Domain controllers | LDAP Group membership GC search                                                      |
+| Port | Protocol | Source | Target | Application protocol |
+| ---| ---| ---| ---| ---|
+| 389 | TCP/UDP | Netwrix Cloud Agent | Domain Controllers | LDAP <br />DC query <br />Account resolve |
+| 135 + Dynamic: 1024 -65535 | TCP | Netwrix Cloud Agent | Monitored computer | Windows Management Instrumentation <br />Firewall configuration <br />Core Service communication |
+| 135 | TCP | Netwrix Cloud Agent | Monitored computer | Service Control Manager Remote Protocol Core Service installation |
+| 137 | UDP | Netwrix Cloud Agent | Monitored computer | File and Printer Sharing (NetBIOS Name Resolution)|
+| 138  | UDP | Netwrix Cloud Agent | Monitored computer | File and Printer Sharing (NetBIOS Datagram Service) |
+| 139 | TCP | Netwrix Cloud Agent | Monitored computer | File and Printer Sharing (NetBIOS Session Service) |
+| 445 + 139 | TCP | Netwrix Cloud Agent | Monitored computer | SMB 2.0/3.0 |
+| 3268 | TCP | Netwrix Cloud Agent | Domain controllers | LDAP <br />Group membership <br /> GC search |

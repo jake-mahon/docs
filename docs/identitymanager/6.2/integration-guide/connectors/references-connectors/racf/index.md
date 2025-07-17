@@ -9,7 +9,7 @@ sidebar_position: 210
 This connector exports users and profiles from a
 [RACF](https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-what-is-racf) file.
 
-This page is about [ RACF ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/racf/index.md).
+This page is about [RACF](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/racf/index.md).
 
 ![Package: MainFrame/RACF](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/racf/packages_racf_v603.webp)
 
@@ -40,7 +40,7 @@ Be aware that Identity Manager supports only the RACF records represented by th
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -112,8 +112,8 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
 
 Still, data protection can be ensured through an
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.

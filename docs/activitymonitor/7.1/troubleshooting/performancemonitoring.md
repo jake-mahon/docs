@@ -52,10 +52,13 @@ The following performance counters are provided by Activity Monitor.
 | Outputs            | ✔          | Activity Monitor - Outputs\DNS Queries Avg Time      | The moving average length of time, in microseconds, per a DNS query                                                                                                                                                                                                                                                                                                |
 | Outputs            | ✔          | Activity Monitor - Outputs\DNS Queries Max Time      | The moving maximum length of time, in microseconds, per a DNS query                                                                                                                                                                                                                                                                                                |
 
-**NOTE:** DNS and AD queries typically contribute the most to the processing time. Since the
+:::note
+DNS and AD queries typically contribute the most to the processing time. Since the
 resolution occurs in real time, slow responses can affect throughput (A 100ms DNS response limits
 the throughput to 10 events per second). Observing average and maximum values of DNS Queries Time,
 Resolved SIDs Time, and Translated UIDs Time allows you to estimate the response time.
+:::
+
 
 ## Recommended System Performance Counters
 
@@ -138,42 +141,45 @@ Follow the steps to register the Activity Monitor performance counters on each S
 **Step 2 –** Change current directory to the agent installation folder
 (`C:\Program Files\Netwrix\Activity Monitor\Agent`).
 
-cd "C:\Program Files\Netwrix\Activity Monitor\Agent"
+**cd "C:\Program Files\Netwrix\Activity Monitor\Agent"**
 
 **Step 3 –** Register the performance counters manifest file.
 
-lodctr /M:PerfCounters.man
+**lodctr /M:PerfCounters.man**
 
 Expected output: Info: Successfully installed performance counters in
 `C:\Program Files\Netwrix\Activity Monitor\Agent\PerfCounters.man`
 
 **Step 4 –** Restart the services:
 
-sc stop SBFileMonAgentSvc
+**sc stop SBFileMonAgentSvc**
 
 sc stop FPolicyServerSvc
 
-sc stop CelerraServerSvc
+**sc stop CelerraServerSvc**
 
 sc stop SBTLoggingSvc
 
-sc start SBFileMonAgentSvc
+**sc start SBFileMonAgentSvc**
 
 ## Collect Performance Data
 
 The performance data can be observed or saved using any tool capable of collecting performance
 counters. For example, Performance Monitor.
 
-**NOTE:** The following script is only compatible with PowerShell 5.X and previous versions. Using
+:::note
+The following script is only compatible with PowerShell 5.X and previous versions. Using
 PowerShell 7.X requires Windows Performance Monitor to be configured to collect performance
 counters.
+:::
+
 
 Below is a PowerShell script that collects the counters every second and stores them in
 `perfcounters_SERVERNAME_TIMESTAMP.csv` files. The expected file size per day is about 50MB.
 
 Run the script on each agent server using the following command:
 
-powershell -file AM.PerfCollect.ps1
+**powershell -file AM.PerfCollect.ps1**
 
 To stop the script press **Ctrl+C**.
 
@@ -182,11 +188,11 @@ Script (save it to AM.PerfCollect.ps1):
 ```powershell
 $sampleInterval = 1
 
-$maxSamples = 0
+**$maxSamples = 0**
 
 $outputFile = "perfcounters_$($env:COMPUTERNAME)_$(Get-Date -Format "yyyy_MM_dd_HH_mm_ss").csv"
 
-$counters =
+**$counters =**
 
 @(`
 
@@ -280,23 +286,23 @@ $counters =
 
 ,"\Process(CelerraServerSvc)\Working Set" `
 
-)
+**)**
 
 $variables = @{
 
-SampleInterval = $sampleInterval
+**SampleInterval = $sampleInterval**
 
 Counter = $counters
 
-}
+**}**
 
 if ($maxSamples -eq 0) {
 
-$variables.Add("Continuous", 1)}
+**$variables.Add("Continuous", 1)}**
 
 else {
 
-$variables.Add("MaxSamples", "$maxSamples")
+**$variables.Add("MaxSamples", "$maxSamples")**
 
 }
 
@@ -316,25 +322,25 @@ Follow the steps to unregister the Activity Monitor performance counters on eac
 
 **Step 2 –** Change current directory to the agent installation folder.
 
-cd "C:\Program Files\Netwrix\Activity Monitor\Agent"
+**cd "C:\Program Files\Netwrix\Activity Monitor\Agent"**
 
 **Step 3 –** Unregister the performance counters manifest file.
 
-unlodctr /M:PerfCounters.man
+**unlodctr /M:PerfCounters.man**
 
 Expected output: Info: Successfully uninstalled the performance counters from the counter definition
 XML file PerfCounters.man.
 
 **Step 4 –** Restart the services:
 
-sc stop SBFileMonAgentSvc
+**sc stop SBFileMonAgentSvc**
 
 sc stop FPolicyServerSvc
 
-sc stop CelerraServerSvc
+**sc stop CelerraServerSvc**
 
 sc stop SBTLoggingSvc
 
-sc start SBFileMonAgentSvc
+**sc start SBFileMonAgentSvc**
 
 Once the services have been restarted, the Activity Monitor performance counters are unregistered.

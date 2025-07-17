@@ -6,9 +6,12 @@ sidebar_position: 10
 
 # Hub
 
-**NOTE:** Ensure the Hub's requirements are met and that the server has had any OS updates applied
+:::note
+Ensure the Hub's requirements are met and that the server has had any OS updates applied
 and has been restarted. See the [Hub Installation for Windows](/docs/changetracker/8.1/requirements/windowsserver.md)
 topic for additional information.
+:::
+
 
 A crucial decision to make before installing Change Tracker is how to have Change Tracker store it's
 data. Change Tracker uses the MongoDB database to store all of it's event data and configuration.
@@ -26,8 +29,11 @@ community edition. This is useful if any of the following are required or desira
 - A clustered install of MongoDB
 - Full control of the MongoDB installation
 
-**CAUTION:** No matter the edition of MongoDB or where it is installed, regular patching and backups
+:::warning
+No matter the edition of MongoDB or where it is installed, regular patching and backups
 must be planned and managed.
+:::
+
 
 ## Installation
 
@@ -65,7 +71,10 @@ enter the address of the required Redis server.
 
 **Step 7 –** Select the installation path for Change Tracker.
 
-**CAUTION:** Changing this is only recommended for advanced installations.
+:::warning
+Changing this is only recommended for advanced installations.
+:::
+
 
 ![adminuserpassword](/img/product_docs/changetracker/8.1/install/adminuserpassword.webp)
 

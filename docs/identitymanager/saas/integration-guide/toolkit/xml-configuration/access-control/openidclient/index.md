@@ -16,7 +16,7 @@ The secret must be strong enough to protect access to the API.
 
 The good practice is generating a random secret, for example a 32 characters string, from a tool
 like KeePass. Each clientId must have it's own secret. The tool
-[ Usercube-New-OpenIDSecret ](/docs/identitymanager/saas/integration-guide/executables/references/new-openidsecret/index.md) can be
+[Usercube-New-OpenIDSecret](/docs/identitymanager/saas/integration-guide/executables/references/new-openidsecret/index.md) can be
 used to generate secrets and their hashes.
 
 Each clientId must have a scope of responsibility. The _Profile_ and _ContextId_ properties assign a
@@ -28,7 +28,7 @@ The following code declares a clientId with the Administrator profile.
 
                     ```
 
-<OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" DisplayName_L1="ClientId for Jobs" Profile="Administrator" />
+**<OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" DisplayName_L1="ClientId for Jobs" Profile="Administrator" />**
 
 ````
 

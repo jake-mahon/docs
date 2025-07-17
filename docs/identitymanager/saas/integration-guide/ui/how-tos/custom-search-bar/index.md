@@ -35,7 +35,7 @@ To add a default filter, you must add both of the following properties to a
 
 ```
 
-  <Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" DefaultValue="-101;-102" Operator="Equal" />
+**<Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" DefaultValue="-101;-102" Operator="Equal" />**
 
 ```
 
@@ -48,4 +48,4 @@ Here is the visualization of this criterion on the interface:
 Each menu item is a link to an entity's workflow displayed under the search bar on the visualization
 page of the entity's resource list.
 
-See the [ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/how-tos/create-menu-items/index.md)topic for additional information
+**See the [Create Menu Items](/docs/identitymanager/saas/integration-guide/ui/how-tos/create-menu-items/index.md)topic for additional information**

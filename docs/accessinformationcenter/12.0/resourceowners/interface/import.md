@@ -29,29 +29,32 @@ The CSV file should list one resource per row using the following format:
 
     - File System Resources – Resource path should be the UNC path to the share or folder.
 
-        \\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner
+**\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner**
 
     - SharePoint Resources – Resource path should be the URL to the site resource.
 
-        http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner
+**http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner**
 
     - Groups – Resource path should be the NTAccount [DOMAIN\NAME] for the group or distribution
       list
 
-        ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner
+**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner**
 
 - Multiple owners can be added, separated by a semicolon (;)
 
-    ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2
+**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2**
 
 - _(Optional)_ A description for the resource can be added after the last owner
 
     ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2,Security
     group for access to the Example share
 
-_Remember,_ if the CSV file contains resources other than just Groups, this method only imports
+:::tip
+Remember, if the CSV file contains resources other than just Groups, this method only imports
 resources with owners. It will be necessary to update each resource to enable Access Requests and
 Owner Ad Hoc changes. See the [Update Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/interface/update.md) topic for additional information.
+:::
+
 
 See the Import Owners topic for additional information.
 
@@ -73,10 +76,13 @@ click **Open**.
 whether or not there is a problem (invalid resource or owner). Ensure all resources in the table
 have a green tick icon in the Status column, and click **Next** to continue with the import.
 
-**NOTE:** If a problem is indicated, additional information is displayed by hovering over the red
+:::note
+If a problem is indicated, additional information is displayed by hovering over the red
 exclamation icon. You can not continue with the import if any row contains an invalid resource or
 owner. To remove a resource from the table, select the row and click **Remove**. The row is removed
 from the table.
+:::
+
 
 ![Import Owners wizard 2. Options page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/options.webp)
 

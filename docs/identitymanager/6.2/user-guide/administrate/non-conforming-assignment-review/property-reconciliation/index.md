@@ -8,7 +8,7 @@ sidebar_position: 20
 
 How to review unreconciled properties. The aim is to handle the differences between the property
 values from the managed systems and those computed by Identity Manager according to
-[ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md).
+[Create a Provisioning Rule](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md).
 
 ## Overview
 

@@ -31,8 +31,11 @@ the sources:
 
 All your content sources will be listed in the **Sources** section.
 
-**NOTE:** When adding a source or managing source configuration, the most commonly used source
+:::note
+When adding a source or managing source configuration, the most commonly used source
 settings are displayed by default. However, some source types have additional configuration options
 that can be displayed by clicking the Advanced Settings ("wrench" icon). You can allow these
 advanced settings to be always shown to authorized users.
 [Users and Security Settings](/docs/dataclassification/5.7/systemconfigurationoverview/users/users.md)
+
+:::

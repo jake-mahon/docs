@@ -13,7 +13,7 @@ repository.
 
 The source of truth for the engine is the data from external sources that are copied into Identity
 Manager's database. This persisted set of data, called _resources_, is stored in the **Resource
-Repository**. See the [ Upward Data Synchronization ](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md)
+Repository**. See the [Upward Data Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md)
 topic for additional information.
 
 The repository keeps a full history of all the changes performed to the resources. It is hence
@@ -28,7 +28,7 @@ Resources can be added to the resource repository from one of four ways:
    a reasonable amount of data. This is often used to input reference data that is not in the
    managed systems, or for which no source of truth exists.
 3. Load data from a CSV file. This is how data from managed systems are loaded most of the time. See
-   the [ Upward Data Synchronization ](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md) topic for
+   the [Upward Data Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md) topic for
    additional information. Any reference of identity data can be loaded into Identity Manager using
    CSV files. This is useful if the target organization already possess such files or can produce
    them easily.

@@ -165,7 +165,7 @@ It generates:
 
 ```
 
-<Universe Identifier="U1_Users" DisplayName_L1="U1 - Users" ColumnNamesMode="Identifier" >
+**<Universe Identifier="U1_Users" DisplayName_L1="U1 - Users" ColumnNamesMode="Identifier" >**
 
   One entity instance for the entity type Directory_User:
   <EntityInstance Identifier="Directory_User" DisplayName_L1="User" EntityType="Directory_User" />
@@ -173,7 +173,7 @@ It generates:
   One association instance and one entity instance per navigation property:
   <AssociationInstance Association="Directory_User_MainCountry" Instance1="Directory_User" Instance2="Directory_User_MainCountry" Direction="From1To2" />  <EntityInstance Identifier="Directory_User_MainCountry" DisplayName_L1="Main Country" EntityType="Directory_Country" />  ...
 
-</Universe>
+**</Universe>**
 
 ```
 
@@ -204,7 +204,7 @@ It generates:
 
 ```
 
-<Universe Identifier="U4_User" DisplayName_L1="U4 - User" ColumnNamesMode="Identifier">
+**<Universe Identifier="U4_User" DisplayName_L1="U4 - User" ColumnNamesMode="Identifier">**
 
   One entity instance for the entity type Directory_User.
   <EntityInstance Identifier="Directory_User" DisplayName_L1="User" EntityType="Directory_User" />
@@ -216,7 +216,7 @@ It generates:
   Same for all resource types.
   ...
 
-</Universe>
+**</Universe>**
 
 ```
 
@@ -268,7 +268,7 @@ It generates:
 
 ```
 
-<Universe Identifier="U6_User" DisplayName_L1="U6 - User" ColumnNamesMode="Identifier">
+**<Universe Identifier="U6_User" DisplayName_L1="U6 - User" ColumnNamesMode="Identifier">**
 
   One entity instance for the entity type Directory_User.
   <EntityInstance Identifier="Directory_User" DisplayName_L1="User" EntityType="Directory_User" />

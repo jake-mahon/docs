@@ -41,9 +41,12 @@ Follow the steps to log in to the Privilege Secure.
 **Step 1 –** Open Privilege Secure in a browser window. The Login screen will show the
 Authentication Connector that is set as the default.
 
-**NOTE:** Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator,
+:::note
+Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator,
 DUO, Symantec VIP, etc) for all user accounts unless otherwise configured by an Administrator. If
 required, first time users must register with an MFA to use with their login credentials.
+:::
+
 
 ![Default Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/defaultloginuser.webp)
 

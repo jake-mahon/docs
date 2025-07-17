@@ -12,7 +12,7 @@ could occur in day-to-day use or with items that must run from a logon script an
 with elevated rights.
 
 **NOTE:** See the
-[Prevent Users Running some commands with command lines](/docs/endpointpolicymanager/video/leastprivilege/preventusercommands.md)
+[Prevent Users Running some commands with command lines](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/preventusercommands.md)
 video for an overview of using Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager
 and command-line arguments.
 

@@ -59,16 +59,22 @@ registry for the evaluation.
 **Step 4 –** Replace **127.0.0.1** in the .reg file with the IP address or hostname of your
 evaluation server.
 
-**NOTE:** If you are only testing the Password Reset Client on the evaluation server, then leave it
+:::note
+If you are only testing the Password Reset Client on the evaluation server, then leave it
 set to 127.0.0.1. The IP address appears on two lines. You must change both lines.
+:::
+
 
 **Step 5 –** Press **CTRL** + **S** to save your changes, then close **Notepad**.
 
 **Step 6 –** Double-click **PRC_Config** to import the settings into the registry. Click **Yes**
 when asked to confirm. Repeat this step on any client computers being used for the evaluation.
 
-**NOTE:** You must import the configuration settings into the registry whenever you edit
+:::note
+You must import the configuration settings into the registry whenever you edit
 PRC_Config.reg, otherwise the old settings will remain.
+:::
+
 
 ## Using the PRC
 

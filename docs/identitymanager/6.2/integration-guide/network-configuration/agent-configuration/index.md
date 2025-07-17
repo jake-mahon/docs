@@ -17,12 +17,12 @@ The Agent configuration uses two sets of settings: the agent **appsettings** set
 
 1. The [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) set is written either to the Agent's working
    directory appsettings.json file or as environment variables. See the
-   [ Architecture ](/docs/identitymanager/6.2/integration-guide/architecture/index.md) topic for additional information.
+   [Architecture](/docs/identitymanager/6.2/integration-guide/architecture/index.md) topic for additional information.
 2. The [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) set is written as environment variables or to
    the appsettings.agent.json files from the Agent's working directory.
 3. There are two additional files involved in the _Agent_'s configuration to protect sensitive data:
    appsettings.encrypted. agent. json and appsettings.cyberark.agent.json. See the
-   [ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and
+   [RSA Encryption](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) and
    [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
    for additional information.
 

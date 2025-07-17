@@ -35,11 +35,11 @@ the `Get-SIPolicy` command. Both the following parameters are required:
 
 Example of an enable policy command:
 
-Enable-SIPolicy -PolicyID "255" –Enable 1
+**Enable-SIPolicy -PolicyID "255" –Enable 1**
 
 Example of a disable policy command:
 
-Enable-SIPolicy -PolicyID "255" -Enable 0
+**Enable-SIPolicy -PolicyID "255" -Enable 0**
 
 ## Delete a Policy
 
@@ -50,7 +50,7 @@ The `Remove-SIPolicy` command is used to delete a policy using the policy ID ret
 
 Example of a delete policy command:
 
-Remove-SIPolicy -PolicyID "255"
+**Remove-SIPolicy -PolicyID "255"**
 
 ## Add or Modify Policies
 
@@ -74,11 +74,11 @@ The following parameter(s) are required:
 
 Example of multiple policy exports that are displayed in the PowerShell Console:
 
-Export-SIPolicy -PolicyIDs "111,222,33,555"
+**Export-SIPolicy -PolicyIDs "111,222,33,555"**
 
 Example of a single policy export to a file:
 
-Export-SIPolicy -PolicyIDs "255" >>c:\Import\ExampleExport1.xml
+**Export-SIPolicy -PolicyIDs "255" >>c:\Import\ExampleExport1.xml**
 
 ### Import Policies from an XML File
 
@@ -96,10 +96,16 @@ GUIDs in the XML file. One of the following actions occur:
   parameters. It is created with a system generated GUID and Policy ID; the system discards the GUID
   and Policy ID from the source XML.
 
-**NOTE:** If an existing policy and a new policy in the pending XML import file share the same
+:::note
+If an existing policy and a new policy in the pending XML import file share the same
 policy name, an error is displayed and the existing policy remains unchanged.
+:::
 
-**_RECOMMENDED:_** Provide a unique, descriptive name for any new policies.
+
+:::info
+Provide a unique, descriptive name for any new policies.
+:::
+
 
 The following parameter is required:
 
@@ -114,12 +120,14 @@ the FileName:
 
 Example of adding an import XML file:
 
-Import-SIPolicy -FileName "c:\Import\ExampleImport2.xml"
+**Import-SIPolicy -FileName "c:\Import\ExampleImport2.xml"**
 
 The API returns as output the PolicyID, GUID, and Policy Name of the policy that has been updated or
 created. If a new policy was created, it is up to the user to capture the Policy ID and Policy GUID
 assigned by Threat Prevention in order to later access that policy.
 
-_Remember,_ the Policy ID and Policy GUID is not the same as those in the source XML file. Use the
+:::tip
+Remember, the Policy ID and Policy GUID is not the same as those in the source XML file. Use the
 `Get-SIPolicy` API call to find the newly created policy and its associated GUID and Policy ID by
 the name.
+:::

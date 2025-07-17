@@ -1,5 +1,5 @@
 ---
-title: "User Details Page"
+title: "User Details"
 description: "User Details Page"
 sidebar_position: 30
 ---

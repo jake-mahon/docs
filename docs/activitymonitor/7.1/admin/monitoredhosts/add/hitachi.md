@@ -6,7 +6,7 @@ sidebar_position: 60
 
 # Hitachi
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -31,11 +31,14 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Hitachi host to the Activity Monitor, the prerequisites for the target environment
 must be met. See the
-[Hitachi Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_4.md)
+[Hitachi Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/hitachi-aac/hitachi-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Hitachi NAS Host
 
@@ -104,8 +107,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Netwrix Enterprise Auditor
   collect this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Netwrix Enterprise Auditor when
+    :::info
+    Identify the configuration to be read by Netwrix Enterprise Auditor when
     integration is available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Netwrix Enterprise Auditor
       can only read one of them.

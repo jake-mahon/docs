@@ -292,14 +292,13 @@ In this file:
 >     "AD_Export": {
 >       "Login": "AdAccount",
 >       "Password": "AdAccount",
->       "Servers": [
->         {
+>       "Servers": [>         {
 >           "Server": "AdAccount"
 >         },
 >         {
 >           "Server": "AdServer2"
 >         }
->       ]
+>]
 >     }
 >   }
 > }

@@ -9,7 +9,7 @@ sidebar_position: 40
 This topic lists the requirements for the machine where you want to install a remote instance of the
 Threat Prevention Administration Console.
 
-Windows Requirements
+**Windows Requirements**
 
 The Windows Server can be physical or virtual. The following Windows Server operating systems are
 supported:
@@ -27,7 +27,7 @@ Additionally the server or workstation must meet these requirements:
 - US English language installation
 - Domain member
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 |            |       |
 | ---------- | ----- |
@@ -35,14 +35,14 @@ RAM, CPU, and Disk Space
 | Cores      | 4 CPU |
 | Disk Space | 4 GB  |
 
-Additional Platform Requirements
+**Additional Platform Requirements**
 
 The following are additional requirements for the Threat Prevention Administration Console machine:
 
 - .NET 4.7.2 or .NET 4.8.x installed. If the installer does not find it already installed, it will
   install .NET Framework 4.7.2.
 
-Permissions for Installation and Application Use
+**Permissions for Installation and Application Use**
 
 The following permissions are required to install and use the application:
 

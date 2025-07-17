@@ -12,7 +12,7 @@ Launches on agent side a powershell script given as input.
 
 ```
 
-  <InvokeExpressionTask Identifier="MyScript" DisplayName_L1="My Script" Agent="Local" InputPath="C:/Scripts/myScript.ps1" OpenIdClient="Job"/>
+**<InvokeExpressionTask Identifier="MyScript" DisplayName_L1="My Script" Agent="Local" InputPath="C:/Scripts/myScript.ps1" OpenIdClient="Job"/>**
 
 ```
 

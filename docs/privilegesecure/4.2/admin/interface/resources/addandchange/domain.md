@@ -8,9 +8,9 @@ sidebar_position: 20
 
 Follow the steps to add a domain to the console.
 
-**Step 1 –** Navigate to the Policy > Resources page.
+**Step 1 –** Navigate to the **Policy** > **Resources** page.
 
-**Step 2 –** Click the Plus icon and select Domain from the drop-down list.
+**Step 2 –** Click the **Plus** icon and select Domain from the drop-down list.
 
 ![Add Domian Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/adddomain.webp)
 
@@ -28,9 +28,9 @@ Follow the steps to add a domain to the console.
 - Use TLS – Check to enable a secure connection to the domain
 - Enter the desired frequency for the domain sync.
 
-**Step 4 –** Click Test to verify the connection to the domain.
+**Step 4 –** Click **Test** to verify the connection to the domain.
 
-**Step 5 –** When the connection is verified, the Save button is enabled. Click Save to add the
+**Step 5 –** When the connection is verified, the Save button is enabled. Click **Save** to add the
 domain to the console.
 
 The new domain has been on-boarded. See the [Domain Details Page](/docs/privilegesecure/4.2/admin/interface/resources/detailspages/domain/domain.md) topic

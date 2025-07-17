@@ -46,7 +46,7 @@ Here is an example with an external SMTP server.
 
 ```
 
-appsettings.json
+**appsettings.json**
 
 {
   ...

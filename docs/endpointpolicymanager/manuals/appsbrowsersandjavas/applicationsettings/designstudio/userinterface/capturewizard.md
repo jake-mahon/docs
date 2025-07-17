@@ -1,6 +1,6 @@
 ---
-title: "capturewizard"
-description: "capturewizard"
+title: "Using the Capture Wizard"
+description: "Using the Capture Wizard"
 sidebar_position: 10
 ---
 

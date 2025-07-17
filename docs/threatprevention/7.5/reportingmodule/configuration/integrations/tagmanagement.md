@@ -1,5 +1,5 @@
 ---
-title: "Tag Management Page"
+title: "Tag Management"
 description: "Tag Management Page"
 sidebar_position: 70
 ---
@@ -79,7 +79,7 @@ a list of tags.
 
 **Step 8 –** Select a tag from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details_4.webp)
 
 This page provides the following information:
 
@@ -99,7 +99,10 @@ This page provides the following information:
 
 On the tag details window, click the Type drop-down menu to apply a filter.
 
-**_RECOMMENDED:_** Apply the desired Type filters when searching for objects to tag.
+:::info
+Apply the desired Type filters when searching for objects to tag.
+:::
+
 
 ![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/typefilters.webp)
 

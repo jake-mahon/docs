@@ -53,7 +53,7 @@ Server. Hence Netwrix Identity Manager (formerly Usercube) recommends using a do
 ### Working directory permissions
 
 The agent's service account needs specific permissions presented in
-the[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic as:
+the[Create a Working Directory](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic as:
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the `Runtime` directory, usually
@@ -63,7 +63,7 @@ the[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/p
 - _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path
   depends on the `Work` folder's path.
 
-See the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
+See the [Create a Working Directory](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -112,7 +112,7 @@ set up in IIS.
 ## Emails
 
 The server needs access to an SMTP server to
-[ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md).
+[Send Notifications](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption and Identity Server Key Pairs
 
@@ -147,4 +147,4 @@ and[ pvk2pfx tool](https://docs.microsoft.com/en-us/windows-hardware/drivers/dev
 ## What's Next?
 
 Let's move on to Identity Manager's agent requirements. See the
-[ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+[Agent](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.

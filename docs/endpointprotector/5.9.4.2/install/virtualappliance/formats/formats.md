@@ -27,8 +27,11 @@ implementation as easy as possible. Additional information can be found in the f
 | Parallels Desktop                   | 0           |      |      |      |
 | Citrix XenCenter                    | 11.1.3      |      |      |      |
 
-**NOTE:** The most commonly used format is OVF (Open Virtualization Format) as it is compatible with
+:::note
+The most commonly used format is OVF (Open Virtualization Format) as it is compatible with
 the majority of the virtualization software.
+:::
+
 
 ## Format Supported by Virtualization Software
 

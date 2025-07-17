@@ -50,14 +50,14 @@ The tables in both sections have the following columns:
 
 Follow the steps to add users and groups to the console from AD.
 
-**Step 1 –** Navigate to the Policy > Users and Groups page.
+**Step 1 –** Navigate to the **Policy** > **Users and Groups** page.
 
-**Step 2 –** Click Add to open the Add Users and Groups window.
+**Step 2 –** Click **Add** to open the Add Users and Groups window.
 
 **Step 3 –** Filter by Users or Groups, or use the Search feature.
 
-**Step 4 –** Select the checkbox for the desired users in the Available Accounts table.
+**Step 4 –** Select the **checkbox** for the desired users in the Available Accounts table.
 
-**Step 5 –** Click Add to add one or more accounts.
+**Step 5 –** Click **Add** to add one or more accounts.
 
 The selected accounts are now added to the Privilege Secure console.

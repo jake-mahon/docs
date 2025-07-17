@@ -19,10 +19,13 @@ reports with the predefined filters. To create a unique set of filters, you can:
 
 ![Activity Reports pane](/img/product_docs/1secure/admin/searchandreports/reportsmain.webp)
 
-**NOTE:** All reports on the **Reports** > **Activity** tab are associated with the respective
+:::note
+All reports on the **Reports** > **Activity** tab are associated with the respective
 alerts. Click the **Alerts Timeline Dashboard** in the upper left corner of the page to view the
 alerts for your organization. See the [Alerts](/docs/1secure/admin/alerts/alerts.md) topic for additional
 information.
+:::
+
 
 | Icon                                                                                                | Description                                                          |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -34,32 +37,44 @@ Follow the steps to apply filters to your search.
 
 ![Activity reports](/img/product_docs/1secure/admin/searchandreports/search_filters.webp)
 
-**NOTE:** You can also access the **Reports** > **Activity** page from your organization's page. On
+:::note
+You can also access the **Reports** > **Activity** page from your organization's page. On
 your Home screen, click **Configure** > **Reports** in the right upper corner of the page.
+:::
+
 
 ![Organization data sources list](/img/product_docs/1secure/admin/searchandreports/reportsreportaccess.webp)
 
 **Step 2 –** Select a filter from the Filter drop-down menu. See the
 [Filter Descriptions](#filter-descriptions) topic for additional information.
 
-**NOTE:** You must specify three columns: Filter, Operator, and Value. You may also select more than
+:::note
+You must specify three columns: Filter, Operator, and Value. You may also select more than
 one filter. To review the Operator filter options, see the
 [Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic for additional information. To review the Filter
 values, see the Filter Values topic for additional information.
+:::
+
 
 **Step 3 –** If required, specify the property change filters.
 
-**NOTE:** Netwrix 1Secure comes with the advanced filtering options. Not all the activity records
+:::note
+Netwrix 1Secure comes with the advanced filtering options. Not all the activity records
 have the property changes, but only those with the property change on that record. For example, if
 the permission on the Active Directory has been added or resource ID in AzureAD has been removed.
+:::
+
 
 ![Filter property](/img/product_docs/1secure/admin/searchandreports/reportspropertychanges.webp)
 
-**NOTE:** The drop-down list in the **Property** field shows all the properties retrieved in your
+:::note
+The drop-down list in the **Property** field shows all the properties retrieved in your
 records' list below the Search bar. It varies depending on the displayed records. You can filter the
 required Property, Action, Value operator, and Value within the list. The property changes are
 dynamic and are not related to a given report directly but the activity records. If the query
 changes, the shown property changes may also change.
+:::
+
 
 ![Filters list](/img/product_docs/1secure/admin/searchandreports/search_search_function.webp)
 
@@ -73,11 +88,17 @@ can see who, when, or where was the activity made.
 
 ![Activity record details](/img/product_docs/1secure/admin/searchandreports/activityrecorddetails.webp)
 
-**NOTE:** Navigate from one report to another by selecting **Prev** or **Next**. This will directly
+:::note
+Navigate from one report to another by selecting **Prev** or **Next**. This will directly
 upload the details of the selected report.
+:::
 
-**NOTE:** You can also create your own reports with custom filters. See the
+
+:::note
+You can also create your own reports with custom filters. See the
 [ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md) topic for additional information.
+:::
+
 
 ## Filter Descriptions
 
@@ -91,8 +112,8 @@ This table provides a list of filters and descriptions.
 | Where       | Specify a resource name (e.g., _Enterprise_) to find all entries containing it (e.g., _Enterprise-SQL_, _FileStorage.enterprise.local_). The resource name can be an Active Directory domain. Netwrix 1Securesearches across all audited systems.                                                                                                                |
 | Who         | Specify an account name (e.g., _John_) to find all entries containing it (e.g., _Domain1\John_, _Domain1\Johnson_, _Domain2\Johnny_).                                                                                                                                                                                                                            |
 | When        | Specify a timeframe or provide a custom date range. Netwrix 1Secureallows you to see changes that occurred today, yesterday, in the last 7 or 30 days, or within the specified date range.                                                                                                                                                                       |
-| Connector   | Specify name of the file system for audit. The available options are: - Active Directory Activity - Active Directory Logons - AD Logon Activity - Self Audit - Azure AD Logons - Azure AD Activity - File Server Activity - Exchange Online Activity - SharePoint Online Activity - Active Directory State                                                       |
-| Source Type | Specify the source type: - computer - contact - controlAccessRight - crossRef - crossRefContainer - domainDNS - foreignSecurityPrincipal - group - groupPolicyContainer - inetOrgPerson - msDS-ManagedServiceAccount - organizationalUnit - user                                                                                                                 |
+| Connector   | Specify name of the file system for audit. The available options are:<br /><ul><li>Active Directory Activity</li><li>Active Directory Logons</li><li>AD Logon Activity</li><li>Self Audit</li><li>Azure AD Logons</li><li>Azure AD Activity</li><li>File Server Activity</li><li>Exchange Online Activity</li><li>SharePoint Online Activity</li><li>Active Directory State</li></ul>                                                       |
+| Source Type | Specify the source type:<br /><ul><li>computer</li><li>contact</li><li>controlAccessRight</li><li>crossRef</li><li>crossRefContainer</li><li>domainDNS</li><li>foreignSecurityPrincipal</li><li>group</li><li>groupPolicyContainer</li><li>inetOrgPerson</li><li>msDS-ManagedServiceAccount</li><li>organizationalUnit</li><li>user</li></ul>                                                                                                                 |
 | Source      | Specify the value of the item, namely the name of the computer, or the IP-address.                                                                                                                                                                                                                                                                               |
 | Succeeded   | Whether you specify False or True in the Value column, you will see successful (True) or non-succesful (False) actions in the system.                                                                                                                                                                                                                            |
 | Tags        | Narrow your search to specific tags. For example, if you have the linked tags "Account Disabled", "User Account Status Change", the search system will look into the activities with these tags, The tags are linked to the Netwrix 1Secure by default.                                                                                                          |
