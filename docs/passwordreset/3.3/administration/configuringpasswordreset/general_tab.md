@@ -71,10 +71,10 @@ files in their new location.
 **Step 8 –** Start the Password Reset service.
 
 **Step 9 –** Update the backup script to copy from the new folder. See the
-[Working with the Database](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/working_with_the_database.md) topic for additional information.
+[Working with the Database](/docs/passwordreset/3.3/administration/workingwiththedatabase/working_with_the_database.md) topic for additional information.
 
 You can also move the database from SQL Server Compact to SQL Server. See the
-[Working with the Database](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/working_with_the_database.md) topic for more information.
+[Working with the Database](/docs/passwordreset/3.3/administration/workingwiththedatabase/working_with_the_database.md) topic for more information.
 
 ### Netwrix Password Policy Enforcer
 

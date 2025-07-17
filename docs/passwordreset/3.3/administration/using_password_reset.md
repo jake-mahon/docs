@@ -9,7 +9,7 @@ sidebar_position: 20
 Netwrix Password Policy Enforcer is a web application. Users can access it from a web browser, or
 from the Password Reset Client. The default URL for the Web Interface
 is:` http://[server]/pwreset/`  
-See the [Password Reset Client](/docs/passwordreset/3.3/administrationoverview/password_reset_client.md) topic for more information.
+See the [Password Reset Client](/docs/passwordreset/3.3/administration/password_reset_client.md) topic for more information.
 
 You can use URL parameters to open a specific page, and to set the user and domain names. For
 example: `http://[server]/pwreset/apr.dll? cmd=enroll&username=johnsmith&domain=CORP`
@@ -36,8 +36,8 @@ Only enrolled users can reset their password and unlock their account. Users can
 answering some questions about themselves, or they can be enrolled automatically if automatic
 enrollment is enabled. Users only need to enroll once, but they can enroll again if they are locked
 out of Password Reset, or if they want to change their questions or answers. See the
-[Verification Codes](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/verification_tab.md#verification-codes) and
-[Verification Tab](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/verification_tab.md) topics for more information.
+[Verification Codes](/docs/passwordreset/3.3/administration/configuringpasswordreset/verification_tab.md#verification-codes) and
+[Verification Tab](/docs/passwordreset/3.3/administration/configuringpasswordreset/verification_tab.md) topics for more information.
 
 Follow the steps below to manually enroll into Password Reset.
 
@@ -48,7 +48,7 @@ Follow the steps below to manually enroll into Password Reset.
 **Step 2 –** Type a **Username**, **Domain**, and **Password**.
 
 **Step 3 –** Type an e-mail address if the **E-mail** text box is visible. See the
-[Options](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/enroll_tab.md#options) topic for more information.
+[Options](/docs/passwordreset/3.3/administration/configuringpasswordreset/enroll_tab.md#options) topic for more information.
 
 **Step 4 –** Select a question from each of the **Question** drop-down lists, and type an answer to
 each question in the **Answer** text boxes.
@@ -123,7 +123,7 @@ phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 :::note
 The Unlock feature unlocks accounts in Active Directory. Users who are locked out of
 Password Reset should re-enroll to gain access to Password Reset. See the
-[Verification Codes](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/verification_tab.md#verification-codes) topic for more information.
+[Verification Codes](/docs/passwordreset/3.3/administration/configuringpasswordreset/verification_tab.md#verification-codes) topic for more information.
 :::
 
 
