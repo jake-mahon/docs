@@ -15,7 +15,7 @@ the Users: User Administration topic for additional information.
 
 By default the Agent will register using the Name of the server but there is an opportunity to
 customize this during installation or post-installation via an edit of the Hub Details file. See the
-[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run--hubdetailsxml-file)
+[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run-hubdetailsxml-file)
 topic for additional information.
 
 :::info
@@ -33,7 +33,7 @@ In order to maximize performance, Gen 7 Agent operational files are located in
 _%PROGRAMDATA%\NNT\gen7agent.service_, similarly if you are ever required to provide the
 **rolling-log.txt** file to [Netwrix Support](https://www.netwrix.com/support.html) this is where it
 is located. See the
-[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run--hubdetailsxml-file)
+[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run-hubdetailsxml-file)
 topic for additional information on downloading the .xml file for agents.
 :::
 
