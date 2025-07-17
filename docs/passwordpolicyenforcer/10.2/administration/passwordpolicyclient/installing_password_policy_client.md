@@ -82,7 +82,7 @@ this domain, and Link it here...**.
 
 **Step 4 –** Enter **Password Policy Client** in the provided field, then press **ENTER**.
 
-![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe.webp)
+![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/The Password Policy Client_1.webp)
 
 ## Edit the Group Policy Object
 
@@ -161,7 +161,7 @@ You need to create the GPO if you chose the Express Setup option.
 **Step 4 –** Click **Domain Profile** in the left pane then double-click **Windows Firewall: Define
 inbound port exceptions** in the right pane.
 
-![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_3.webp)
+![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/The Password Policy Client_3.webp)
 
 **Step 5 –** Select the **Enabled** option, and then click **Show...**.
 
