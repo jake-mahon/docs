@@ -33,7 +33,7 @@ In order to maximize performance, Gen 7 Agent operational files are located in
 _%PROGRAMDATA%\NNT\gen7agent.service_, similarly if you are ever required to provide the
 **rolling-log.txt** file to [Netwrix Support](https://www.netwrix.com/support.html) this is where it
 is located. See the
-[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run-hubdetailsxml-file)
+[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run--hubdetailsxml-file)
 topic for additional information on downloading the .xml file for agents.
 :::
 

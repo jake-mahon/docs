@@ -8,7 +8,7 @@ sidebar_position: 180
 
 ## Feature Specific Events
 
-[List of Endpoint Policy Manager Event Categories and IDs](#list-of-endpoint-policy-manager-event-categories-and-ids)
+[Remote Work Delivery Manager](#remote-work-delivery-manager)
 
 [Feature Manager for Windows](#feature-manager-for-windows)
 
