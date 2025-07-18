@@ -10,17 +10,17 @@ The Enterprise Auditor Db2 Solution Set is a comprehensive set of pre-configured
 reports that provide visibility into various aspects of Db2: Data Collection, Configuration, user
 Permissions, and Sensitive Data.
 
-Supported Platforms
+**Supported Platforms**
 
 - DB2LUW 11+
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasedb2.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -37,7 +37,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The Db2 Solution requires a special Enterprise Auditor license. It can be installed from the
 Enterprise Auditor Instant Job Wizard. Once it has been installed in the Jobs tree, navigate to the

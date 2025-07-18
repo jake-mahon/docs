@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Recommended Configurations for the 5. Public Folders Job Group
 
-Dependencies
+**Dependencies**
 
 This job group requires the following items to be installed and configured on the Enterprise Auditor
 Console:
@@ -24,7 +24,7 @@ The following job groups need to be successfully run:
     - Provides data on public folder metrics for on-premises Exchange environments and the last time
       a distribution list received mail
 
-Targeted Hosts
+**Targeted Hosts**
 
 The Content, Growth and Size, and Permissions job groups use Remote PowerShell through the
 ExchangePS Data Collector and the host list should be set to the following:
@@ -47,7 +47,7 @@ list:
     :::
 
 
-Connection Profile
+**Connection Profile**
 
 A Connection Profile must be set directly on the collection jobs. See the
 [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
@@ -67,7 +67,7 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group has been designed to run weekly or bi-weekly to collect information about public
 folders in the environment. This job group may be run more frequently depending on the size of the
@@ -78,7 +78,7 @@ Run this job group on Fridays at 8:00 PM.
 :::
 
 
-History Retention
+**History Retention**
 
 History retention should not be enabled on this job group. History is kept through analysis tasks.
 Modify the following analysis task to customize the amount of history which is kept:
@@ -87,7 +87,7 @@ Modify the following analysis task to customize the amount of history which is k
 | ------------- | --------------------- | --------------- |
 | PF_FolderSize | SET HISTORY RETENTION | 3 Months        |
 
-Query Configuration
+**Query Configuration**
 
 The 5. Public Folders job group is designed to be run with the default query configurations.
 However, the following queries can be modified:
@@ -101,7 +101,7 @@ However, the following queries can be modified:
 
 No other queries should be modified.
 
-Analysis Configuration
+**Analysis Configuration**
 
 The 5. Public Folders job group should be run with the default analysis configurations.
 
@@ -115,7 +115,7 @@ The following analysis tasks should not be deselected, but their parameters can 
 
 - **Growth and Size** > **PF_FolderSize** Job – **02.SET HISTORY RETENTION** Analysis Task
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set the host on the **Ownership** > **Collection** job group.
 

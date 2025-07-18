@@ -15,7 +15,7 @@ provide activity data to various SIEM products.
 
 Ports and permissions vary based on the scan mode option selected as well as the target environment.
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -23,7 +23,7 @@ This solution employs the following data collector to scan the target environmen
 - [AzureADInventory Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/azureadinventory/overview.md)
 - [SharePointAccess Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/spaa/overview.md)
 
-Permissions and Ports for ADInventory Data Collector Prerequisite
+**Permissions and Ports for ADInventory Data Collector Prerequisite**
 
 The following permissions are needed:
 
@@ -45,7 +45,7 @@ The following firewall ports are needed:
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions and Ports for AzureADInventory Data Collector Prerequisite
+**Permissions and Ports for AzureADInventory Data Collector Prerequisite**
 
 The following permissions are needed:
 

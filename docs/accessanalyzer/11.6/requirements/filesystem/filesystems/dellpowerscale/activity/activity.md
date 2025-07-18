@@ -23,7 +23,7 @@ endpoint, such as Activity Monitor agent.
 Complete the following checklist prior to configuring Activity Monitor to monitor the host.
 Instructions for each item of the checklist are detailed within the following sections.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Prior to beginning the deployment, gather the following:
 

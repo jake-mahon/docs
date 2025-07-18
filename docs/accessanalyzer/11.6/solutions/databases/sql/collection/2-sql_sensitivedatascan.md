@@ -9,7 +9,7 @@ sidebar_position: 30
 The 2-SQL_SensitiveDataScan Job discovers sensitive data in the database SQL server instances and
 databases based on a pre-defined or user defined search criteria.
 
-Special Dependency
+**Special Dependency**
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
     - See the

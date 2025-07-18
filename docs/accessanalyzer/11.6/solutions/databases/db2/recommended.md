@@ -11,7 +11,7 @@ it is best practice to assign the host list and the Connection Profile at the da
 the 0.Collection Job Group. Once these are assigned to the job group, it can be run directly or
 scheduled.
 
-Dependencies
+**Dependencies**
 
 - Successful installation of the IBM Data Server Client. In addition, the following clients and
   drivers must be installed:
@@ -33,7 +33,7 @@ Dependencies
 
 - .Instance Discovery Job Group run successfully
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 The Db2 Job Group has been configured to inherit the host list assignment from the collection group
 level.
@@ -41,7 +41,7 @@ level.
 The host list assignment should be assigned under the **Databases** > **0.Collection** > **Db2** >
 **Settings** > **Host List Assignment** node. The Local host box is checked by default.
 
-Connection Profile
+**Connection Profile**
 
 The SQL Data Collector requires a specific set of permissions. See the Permissions section for
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
@@ -60,11 +60,11 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-Run Order
+**Run Order**
 
 The 0.Collection Jobs must be run first and in order. The other Db2 sub-job groups can be run in any
 order, together or individually, after running the 0.Collection Job Group.

@@ -53,7 +53,7 @@ The section contains the following options:
 - Element Title – Enter a title for the element in the text box. This will be displayed in the
   element's header on the generated report.
 
-DataSource Options
+**DataSource Options**
 
 In order to generate results, a location must first be selected as the source of the data.
 
@@ -73,7 +73,7 @@ In order to generate results, a location must first be selected as the source of
     :::
 
 
-Export CSV Options
+**Export CSV Options**
 
 You can configure the table to allow the data to be exported as a CSV file.
 
@@ -114,7 +114,7 @@ There are two types of grid displays:
 
 The following settings are available when Interactive grid is selected:
 
-Grid Properties
+**Grid Properties**
 
 - Treat interactive grid contents as plain text (not HTML) – Enables interactive grid functionality.
   This option is selected by default.
@@ -124,7 +124,7 @@ Grid Properties
   [Paging](/docs/accessanalyzer/11.6/admin/report/interactivegrids/paging.md)
   topic for additional information.
 
-Column Properties
+**Column Properties**
 
 - Group Column – Arranges the table to be grouped by the attributes of the selected column
 
@@ -173,7 +173,7 @@ The section contains the following options:
 - Element Title – Enter a title for the element in the text box. This will be displayed in the
   element's header on the generated report.
 
-DataSource Options
+**DataSource Options**
 
 In order to generate results, a location must first be selected as the source of the data.
 

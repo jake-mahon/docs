@@ -31,15 +31,15 @@ See the
 [Windows Solution](/docs/accessanalyzer/11.6/solutions/windows/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - VB Script
 
-Ports
+**Ports**
 
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 - Member of the Domain Administrators group (if targeting domain controllers)

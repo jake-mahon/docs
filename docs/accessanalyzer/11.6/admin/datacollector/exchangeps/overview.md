@@ -14,16 +14,16 @@ the
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - PowerShell
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Remote PowerShell enabled on a single Exchange server
 - Windows Authentication enabled for the PowerShell Virtual Directory on the same Exchange server

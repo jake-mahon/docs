@@ -23,43 +23,43 @@ The AnyID_CSV job is located in the **Jobs** > **AnyID Connectors** job group.
 
 The following are recommended configurations for the AnyID_CSV job:
 
-Dependencies
+**Dependencies**
 
 None
 
-Targeted Host
+**Targeted Host**
 
 Local Host
 
-Connection Profile
+**Connection Profile**
 
 The AnyID_CSV job does not require a connection profile.
 
-History Retention
+**History Retention**
 
 Default Retention Period. See the
 [History](/docs/accessanalyzer/11.6/admin/settings/history.md) topic
 for additional information.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
 Schedule the job as required.
 
-Query Configuration
+**Query Configuration**
 
 This job contains configurable queries. See the
 [Configure the AnyID_CSV Query](#configure-the-anyid_csvquery) topic for additional information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 See the [Analysis Tasks for the AnyID_CSV Job](#analysis-tasks-for-the-anyid_csvjob) topic for
 additional information.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Prepare a CSV file for import.
 

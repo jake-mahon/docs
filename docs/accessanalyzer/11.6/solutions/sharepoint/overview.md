@@ -13,7 +13,7 @@ Access Auditing and Sensitive Data Discovery Auditing components of this solutio
 SharePoint on-premises and SharePoint Online. The Activity Auditing components of this solution can
 only target SharePoint on-premises.
 
-Supported Platforms
+**Supported Platforms**
 
 - SharePoint Online® (Agent-less mode scans only)
 
@@ -24,7 +24,7 @@ Supported Platforms
 - SharePoint® 2016
 - SharePoint® 2013
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
   [SharePoint Support](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint/sharepoint.md)
@@ -43,7 +43,7 @@ topic for additional information.
 :::
 
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -66,7 +66,7 @@ Sensitive Data Discovery Add-on to be installed on the server where the agent is
 :::
 
 
-Location
+**Location**
 
 The SharePoint Solution requires a special Enterprise Auditor license. It can be installed from the
 Enterprise Auditor Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to

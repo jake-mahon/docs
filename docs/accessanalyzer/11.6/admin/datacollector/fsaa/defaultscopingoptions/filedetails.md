@@ -17,7 +17,7 @@ Select the desired settings for additional scoping:
 - Scan file permissions – Turns on file permission scanning and collects a full list of who has
   access to which files
 
-File tag metadata collection
+**File tag metadata collection**
 
 - Collect tags/keywords from file metadata properties – Enables the collection of file Microsoft
   Office metadata tags and stores the tags into the tables when the **Scan file-level details**
@@ -33,7 +33,7 @@ File tag metadata collection
 The FSAA scan collects the tags from the files and stores the information at the folder level, which
 provides a count for the number of occurrences of each tag.
 
-Scan filter settings
+**Scan filter settings**
 
 The Scan filter settings options are enabled if the **Scan file-level details** checkbox is
 selected.

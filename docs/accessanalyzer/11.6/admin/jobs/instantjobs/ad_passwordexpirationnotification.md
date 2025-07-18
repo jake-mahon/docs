@@ -139,7 +139,7 @@ recipient, such as the organization’s help desk, with information from the ass
 
 _Subject:_ Users with Passwords About To Expire
 
-Support Team,
+**Support Team,**
 
 Heads-up.  The following users are facing password expiration in seven days or less:
 
@@ -149,7 +149,7 @@ Heads-up.  The following users are facing password expiration in seven days or 
 
 Thank you,
 
-Netwrix
+**Netwrix**
 
 :::warning
 Do not modify the tags, highlighted in bold text above.
@@ -218,7 +218,7 @@ The password for the account **[NTAccount]** expires on **[ExpirationDate]**. Pl
 password prior to the expiration date.  If account profiles are used on mobile devices, please
 remember to update the password on each device used.
 
-Thank you,
+**Thank you,**
 
 Netwrix
 

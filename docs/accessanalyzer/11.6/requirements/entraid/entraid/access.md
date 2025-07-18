@@ -17,11 +17,11 @@ Microsoft Entra ID.
 :::
 
 
-Data Collector
+**Data Collector**
 
 - [AzureADInventory Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/azureadinventory/overview.md)
 
-Configuration Settings from the Registered Application
+**Configuration Settings from the Registered Application**
 
 The following settings are needed from your tenant once you have registered the application:
 

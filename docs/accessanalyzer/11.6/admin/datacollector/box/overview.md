@@ -20,17 +20,17 @@ the solution are available with a special Enterprise Auditor license. See the
 [Box Solution](/docs/accessanalyzer/11.6/solutions/box/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - HTTP
 - HTTPS
 
-Ports
+**Ports**
 
 - TCP 80
 - TCP 443
 
-Permissions
+**Permissions**
 
 - Box Enterprise Administrator
 

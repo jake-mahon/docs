@@ -13,7 +13,7 @@ environment.
 
 ![EX_UserOverview Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailflowuseroverviewjobstree.webp)
 
-Dependencies
+**Dependencies**
 
 The following job groups need to be successfully run prior to this job:
 
@@ -25,7 +25,7 @@ The following job groups need to be successfully run prior to this job:
 - **Exchange** > **4.Mailboxes** > **Sizing** Job Group
 - **Exchange** > **5. Public Folders** Job Group
 
-Schedule Frequency
+**Schedule Frequency**
 
 It is recommended to run this job daily after running its dependencies, but it can be scheduled to
 run as desired.

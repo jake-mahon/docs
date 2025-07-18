@@ -6,13 +6,13 @@ sidebar_position: 10
 
 # Recommended Configurations for the 1. HUB Metrics Job Group
 
-Dependencies
+**Dependencies**
 
 The following Job Groups need to be successfully run:
 
 - Active Directory Inventory Job Group
 
-Targeted Hosts
+**Targeted Hosts**
 
 The 0. Collection Job Group has been set to run against the following default dynamic host lists:
 
@@ -32,7 +32,7 @@ Only modify host lists in the 0. Collection Job Group.
 :::
 
 
-Connection Profile
+**Connection Profile**
 
 A Connection Profile must be set directly on the EX_MetricsCollection Job and the EX_MetricsDetails
 Job. See the
@@ -43,7 +43,7 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group has been designed to run daily to process and collect the previous day’s message
 tracking logs. Run this job after 12:01 AM when the logs on the Exchange servers have rolled over to
@@ -54,7 +54,7 @@ Run this job group at 1:00 AM.
 :::
 
 
-History Retention
+**History Retention**
 
 History retention should not be enabled on this job group. History is kept through analysis tasks.
 Modify the following analysis tasks to customize the amount of history which is kept:
@@ -68,7 +68,7 @@ See the
 [Exchange History Retention](/docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
 topic for additional information.
 
-Query Configuration
+**Query Configuration**
 
 The 1. HUB Metrics Job Group is designed to be run with the default query configurations with the
 following exceptions:
@@ -81,7 +81,7 @@ following exceptions:
   [ExchangeMetrics: Options](/docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/options.md) topic
   for additional information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 The 1. HUB Metrics Job Group should be run with the default analysis configurations.
 
@@ -97,7 +97,7 @@ The following analysis tasks should not be deselected, but their parameters can 
 - **0. Collection** > **EX_MetricsCollection** Job – **08. SET HISTORY RETENTION** Analysis Task
 - **0. Collection** > **EX_MetricsDetails** Job – **02. SET HISTORY RETENTION** Analysis Task
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set a Connection Profile on the jobs that run data collection.
 

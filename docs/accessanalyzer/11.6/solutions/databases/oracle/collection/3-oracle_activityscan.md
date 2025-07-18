@@ -8,7 +8,7 @@ sidebar_position: 40
 
 The 3-Oracle_ActivityScan Job captures user activity from all the targeted Oracle database servers.
 
-Special Dependency
+**Special Dependency**
 
 - Oracle Server Audit Specifications to be configured on the target databases
     - Audit destination must be a binary file

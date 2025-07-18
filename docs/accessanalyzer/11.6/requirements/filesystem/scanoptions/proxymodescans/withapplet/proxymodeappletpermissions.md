@@ -73,7 +73,7 @@ See the
 [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/proxymodescans/withapplet/proxymodeappletports.md)
 topic for firewall rule information.
 
-Secure Proxy Communication Considerations
+**Secure Proxy Communication Considerations**
 
 For Proxy Mode with Applet scans, the certificate exchange mechanism and certificate exchange port
 must be configured via the File System Access Auditing Data Collector Wizard prior to executing a

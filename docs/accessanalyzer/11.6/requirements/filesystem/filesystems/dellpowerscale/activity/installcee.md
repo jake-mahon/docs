@@ -54,7 +54,7 @@ manually set the Dell CEE registry key to forward events.
 
 **Step 2 –** Navigate to following location:
 
-HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration
+**HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration**
 
 **Step 3 –** Right-click on **Enabled** and select Modify. The Edit DWORD Value window opens.
 
@@ -66,11 +66,11 @@ window closes.
 **Step 6 –** In the Value data field, enter the StealthAUDIT value with the IP Address for the
 Windows proxy server hosting the Activity Monitor activity agent. Use the following format:
 
-StealthAUDIT@[IP ADDRESS]
+**StealthAUDIT@[IP ADDRESS]**
 
 Examples:
 
-StealthAUDIT@192.168.30.15
+**StealthAUDIT@192.168.30.15**
 
 **Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
 

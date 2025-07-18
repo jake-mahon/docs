@@ -18,17 +18,17 @@ solution are available with all Enterprise Auditor license options. See the
 [.Active Directory Inventory Solution](/docs/accessanalyzer/11.6/solutions/activedirectoryinventory/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - LDAP
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container

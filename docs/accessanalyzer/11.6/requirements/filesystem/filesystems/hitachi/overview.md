@@ -54,7 +54,7 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-Hitachi Requirements
+**Hitachi Requirements**
 
 A Hitachi device can host multiple Enterprise Virtual Servers (EVS). Each EVS has multiple file
 systems. Auditing is enabled and configured per file system. HNAS generates the audit log files in
@@ -71,7 +71,7 @@ See the
 [Hitachi Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/hitachi/activity/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also

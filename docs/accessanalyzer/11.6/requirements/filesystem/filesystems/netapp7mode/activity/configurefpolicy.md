@@ -8,7 +8,7 @@ sidebar_position: 30
 
 Select a method to configure the FPolicy for NetApp Data ONTAP 7-Mode devices:
 
-:::info
+**:::info**
 
 [Manually Configure FPolicy (Recommended Option)](#manually-configure-fpolicy-recommended-option) –
 A tailored FPolicy

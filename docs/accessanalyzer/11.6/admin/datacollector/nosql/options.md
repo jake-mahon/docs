@@ -13,7 +13,7 @@ sensitive data scan. It is a wizard page for the Sensitive Data Collection categ
 
 The sensitive data scan settings are:
 
-Scan Options
+**Scan Options**
 
 - Data Settings:
 
@@ -36,7 +36,7 @@ Scan Options
   sensitive data if the collection names are included as part of the keyword list in the scanning
   criteria
 
-DLP Options
+**DLP Options**
 
 - Store discovered sensitive data – Stores potentially sensitive data in the Enterprise Auditor
   database. Any sampled sensitive data discovered based on the matched criteria is stored in the

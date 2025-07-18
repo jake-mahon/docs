@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Recommended Configurations for the 6. Distribution Lists Job Group
 
-Dependencies
+**Dependencies**
 
 The following job groups need to be successfully run:
 
@@ -22,7 +22,7 @@ The following job groups need to be successfully run:
     - Provides data on distribution list metrics for Exchange Online environments and the last time
       a distribution list received mail
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group has been designed to run daily after the .Active Directory Inventory Job Group has
 been run, to analyze distribution list membership. This job group does not collect data. It uses the
@@ -33,7 +33,7 @@ Run this job group at 5:00 AM.
 :::
 
 
-Workflow
+**Workflow**
 
 **Step 1 –** Schedule the 6. Distribution Lists job group to run daily after the .Active Directory
 Inventory job group has successfully run.

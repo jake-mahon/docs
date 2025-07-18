@@ -32,19 +32,19 @@ The Oracle Solution requires a special Enterprise Auditor license. The Database 
 includes all supported database platforms supported by Enterprise Auditor. Additionally, the
 Sensitive Data Discovery Add-On enables the solution to search database content for sensitive data.
 
-Supported Platforms
+**Supported Platforms**
 
 - Oracle Database 12c
 - Oracle Database 18c
 - Oracle Database 19c
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseoracle/databaseoracle.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For example, if the job is
@@ -59,7 +59,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The Oracle Solution requires a special Enterprise Auditor license. It can be installed from the
 Enterprise Auditor Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to

@@ -11,7 +11,7 @@ and NO FINDINGS categories based on severity.
 
 ![SQL_SecurityAssessment](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/sqljobgroup49.webp)
 
-Special Dependencies
+**Special Dependencies**
 
 One or more of the following jobs or job groups must be run to produce results:
 

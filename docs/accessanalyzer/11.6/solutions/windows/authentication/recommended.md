@@ -6,19 +6,19 @@ sidebar_position: 10
 
 # Recommended Configurations for the Authentication Job Group
 
-Dependencies
+**Dependencies**
 
 None
 
-Targeted Hosts
+**Targeted Hosts**
 
 All Windows Hosts
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure that the configured Connection Profile has local administrator privileges.
 

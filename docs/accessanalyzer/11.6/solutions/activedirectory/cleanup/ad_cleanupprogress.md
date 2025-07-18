@@ -13,7 +13,7 @@ corresponding details that can be used to prioritize and remediate security issu
 
 ![AD_CleanupProgress Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/cleanupprogressjobstree.webp)
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure the following prerequisites are met:
 

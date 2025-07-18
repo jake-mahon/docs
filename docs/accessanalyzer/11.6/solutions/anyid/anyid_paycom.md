@@ -19,42 +19,42 @@ The AnyID_Paycom job is located in the **Jobs** > **AnyID Connectors** job gro
 
 The following are recommended configurations for the AnyID_Paycom job:
 
-Dependencies
+**Dependencies**
 
 None
 
-Targeted Host
+**Targeted Host**
 
 Local Host
 
-Connection Profile
+**Connection Profile**
 
 The AnyID_Paycom job does not require a connection profile.
 
-History Retention
+**History Retention**
 
 Default Retention Period. See the
 [History](/docs/accessanalyzer/11.6/admin/settings/history.md) topic
 for additional information.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job should be run based on the desired frequency of Sensitive Data Scans.
 
-Query Configuration
+**Query Configuration**
 
 This job contains configurable queries. See the
 [Configure the AnyID_Paycom Job](#configure-the-anyid_paycom-job) topic for additional information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 Run the job with the default analysis configuration settings for best results.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Prepare a CSV file from Paycom for import.
 

@@ -17,7 +17,7 @@ Microsoft Entra ID.
 :::
 
 
-Configuration Settings from the Registered Application
+**Configuration Settings from the Registered Application**
 
 The following settings are needed from your tenant once you have registered the application:
 
@@ -49,7 +49,7 @@ topic for additional information.
 
 The following permissions are required:
 
-Permissions for Microsoft Graph API
+**Permissions for Microsoft Graph API**
 
 - Application Permissions:
 
@@ -78,7 +78,7 @@ Permissions for Microsoft Graph API
     - Group.Read.All – Read all groups
     - User.Read.All – Read all users' full profiles
 
-Permissions for Office 365 Management APIs
+**Permissions for Office 365 Management APIs**
 
 - Application Permissions:
 
@@ -86,7 +86,7 @@ Permissions for Office 365 Management APIs
     - ActivityFeed.ReadDlp – Read DLP policy events including detected sensitive data
     - ServiceHealth.Read – Read service health information for your organization
 
-Permissions for SharePoint
+**Permissions for SharePoint**
 
 - Application Permissions:
 

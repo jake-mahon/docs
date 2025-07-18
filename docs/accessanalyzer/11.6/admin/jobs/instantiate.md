@@ -10,7 +10,7 @@ Enterprise Auditor jobs and solutions are comprised of files contained within th
 installation directory. All jobs and job groups contained within the Jobs tree are housed in the
 Jobs directory. The default location is:
 
-…\STEALTHbits\StealthAUDIT\Jobs
+**…\STEALTHbits\StealthAUDIT\Jobs**
 
 ![Explore Folder option from Jobs Tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/explorefolder.webp)
 
@@ -44,7 +44,7 @@ colleague, or other entity, it is most likely in one of two formats:
 
 **Step 2 –** Open the Jobs directory. The default location is:
 
-…\STEALTHbits\StealthAUDIT\Jobs
+**…\STEALTHbits\StealthAUDIT\Jobs**
 
 **Step 3 –** Place the job or job group into the Jobs directory.
 

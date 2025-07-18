@@ -36,7 +36,7 @@ For each monitored access zone:
 - Use isi audit settings view `isi --zone ZONENAME` to check current settings.
 - Disable reporting of failure and syslog audit events with:
 
-    isi audit settings modify --zone ZONENAME --clear-audit-failure --clear-syslog-audit-events
+**isi audit settings modify --zone ZONENAME --clear-audit-failure --clear-syslog-audit-events**
 
 - Set the success audit events with:
 
@@ -48,7 +48,7 @@ For each monitored access zone:
 **Step 4 –** In the Event Forwarding section, add the CEE Server URI value for the Windows or Linux
 server hosting CEE. Use either of the following format:
 
-http://[IP ADDRESS]:[PORT]/cee
+**http://[IP ADDRESS]:[PORT]/cee**
 
 http://[SERVER Name]:[PORT]/cee
 

@@ -20,19 +20,19 @@ information:
 - [SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/sql/overview.md)
 - [Windows Solution](/docs/accessanalyzer/11.6/solutions/windows/overview.md)
 
-Protocols
+**Protocols**
 
 - Log
 - Remote Event
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135
 - TCP 445
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group (if targeting domain controllers)
 - Member of the local Administrators group

@@ -36,7 +36,7 @@ topic for additional information.
 :::
 
 
-Troubleshooting Dell Unity Denied Access Errors
+**Troubleshooting Dell Unity Denied Access Errors**
 
 If there are folders to which the credential is denied access, it is likely that the Backup
 Operators group does not have the “Back up files and directories” right. In that case, it is
@@ -70,7 +70,7 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-Dell Unity Requirements
+**Dell Unity Requirements**
 
 Additionally, the EMC Common Event Enabler (CEE) should be installed on the Windows proxy server,
 where the activity agent is deployed.
@@ -87,7 +87,7 @@ See the
 [Dell Unity Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellunity/activity/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also
@@ -108,7 +108,7 @@ port range, which cannot be specified via an inbound rule. For more information,
 [Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
-Additional Firewall Rules for Dell Unity Devices
+**Additional Firewall Rules for Dell Unity Devices**
 
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell device:

@@ -19,7 +19,7 @@ Microsoft Entra ID.
 :::
 
 
-Configuration Settings from the Registered Application
+**Configuration Settings from the Registered Application**
 
 The following settings are needed from your tenant once you have registered the application:
 
@@ -96,7 +96,7 @@ Enterprise Auditor.
 
 The following permissions are required:
 
-Permissions for Office 365 Exchange Online
+**Permissions for Office 365 Exchange Online**
 
 - Application Permissions:
 

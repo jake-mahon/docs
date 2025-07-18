@@ -9,7 +9,7 @@ sidebar_position: 90
 This topic lists some commonly asked questions about Role Based Access functionality in Enterprise
 Auditor.
 
-How do locked jobs affect the role functionality?
+**How do locked jobs affect the role functionality?**
 
 A lock on a job represents the approval by the Job Approver, and is therefore deemed acceptable to
 execute. Once a job is locked, Job Builders can no longer modify the job configuration. Furthermore,

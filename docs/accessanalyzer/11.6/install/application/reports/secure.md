@@ -127,7 +127,7 @@ Website URL must be updated to match the new value in the following places:
 - Enterprise Auditor's Reporting node (**Settings** > **Reporting**)
 - Enterprise Auditor's Published Reports Desktop icon properties
 
-Update the Website URL in the Reporting Node
+**Update the Website URL in the Reporting Node**
 
 Follow the steps to update the Website URL in the **Settings** > **Reporting** node.
 

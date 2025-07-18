@@ -13,11 +13,11 @@ There are some general things to know when getting started troubleshooting Enter
 The shortcut opens the installation folder location where the Enterprise Auditor application is
 installed. The default installation directory is:
 
-C:\Program Files (x86)\STEALTHbits\StealthAUDIT\
+**C:\Program Files (x86)\STEALTHbits\StealthAUDIT\**
 
 If the installation directory was customized during installation, it will be:
 
-…\STEALTHbits\StealthAUDIT\
+**…\STEALTHbits\StealthAUDIT\**
 
 The Enterprise Auditor install directory has several logs that can be accessed for troubleshooting
 purposes. This includes:

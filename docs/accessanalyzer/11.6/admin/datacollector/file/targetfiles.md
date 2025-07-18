@@ -18,7 +18,7 @@ Some options are grayed out depending on the option selected.
 :::
 
 
-Where is the file or folder?
+**Where is the file or folder?**
 
 This section supplies options for using a fixed path (wildcards and system variables) or registry
 lookup values that are supported by the data collector. This header is available for all Category
@@ -78,7 +78,7 @@ network neighborhoods which begin with `\\`.
 
 - Include subfolders – Searches all subfolders within the environment
 
-What is the file or folder name?
+**What is the file or folder name?**
 
 The options in this section limit the search to folders or files with a specified name against the
 targeted host. When the **I am looking for folders** option is selected, more options become
@@ -103,7 +103,7 @@ The **I am looking for folders** option and it's associated options are unavaila
   to a specific naming convention. When searching for multiple objects, use a semicolon (`;`) to
   separate the objects in the list.
 
-Last Modification Time Filter
+**Last Modification Time Filter**
 
 Last Modification Time Filter is an additional filtration clause. It filters the information
 provided in the **Where is the file or folder** and **What is the file or folder name** criteria by

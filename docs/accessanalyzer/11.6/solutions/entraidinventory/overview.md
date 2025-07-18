@@ -14,17 +14,17 @@ duplicate groups. The user and group information assists with understanding prob
 ownership, group memberships, largest groups, user status, attribute completion, and synchronization
 status between on-premises Active Directory and Microsoft Entra ID.
 
-Supported Platforms
+**Supported Platforms**
 
 - Microsoft Entra ID (formerly Azure AD)
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/requirements/entraid/entraid/overview.md)
 topic for additional information.
 
-Location
+**Location**
 
 The .Entra ID Inventory Solution is a core component of all Enterprise Auditor installations. It can
 be installed from the Enterprise Auditor Instant Job Wizard. See the

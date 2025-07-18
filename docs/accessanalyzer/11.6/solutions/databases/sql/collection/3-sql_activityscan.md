@@ -8,7 +8,7 @@ sidebar_position: 40
 
 The 3-SQL_ActivityScan Job captures user activity from targeted SQL server instances and databases.
 
-Special Dependency
+**Special Dependency**
 
 - SQL Server Audit Specifications to be configured on the target databases
     - Audit destination must be a binary file

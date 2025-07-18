@@ -18,46 +18,46 @@ The AnyID_EpicClarity job is located in the **Jobs** > **AnyID Connectors** j
 
 The following are recommended configurations for the AnyID_EpicClarity job:
 
-Dependencies
+**Dependencies**
 
 The AnyID_EpicClarity job requires a CSV file with a filepath configured in the job's query to
 collect data. See the
 [Configure the AnyID_EpicClarity Queries](#configure-the-anyid_epicclarity-queries) topic for
 additional information.
 
-Targeted Host
+**Targeted Host**
 
 Epic Clarity Database Server
 
-Connection Profile
+**Connection Profile**
 
 Read Access to the underlying Clarity Oracle database.
 
-History Retention
+**History Retention**
 
 Default Retention Period. See the
 [History](/docs/accessanalyzer/11.6/admin/settings/history.md) topic
 for additional information.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job should be run based on the desired frequency of Sensitive Data Scans.
 
-Query Configuration
+**Query Configuration**
 
 This job contains configurable queries. See the Configure the
 [Configure the AnyID_EpicClarity Queries](#configure-the-anyid_epicclarity-queries) topic for
 additional information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 Run the solution with the default analysis configuration for best results.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Configure the configurable query parameters for the job.
 

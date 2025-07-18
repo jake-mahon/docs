@@ -20,7 +20,7 @@ topic for target environment requirements.
 
 ## AWS Solution Requirements on the Enterprise Auditor Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -39,7 +39,7 @@ required (8x2=16).
 :::
 
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
 The following is required to run Sensitive Data Discovery scans:
 
@@ -56,7 +56,7 @@ environment.
 
 ## AWS Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

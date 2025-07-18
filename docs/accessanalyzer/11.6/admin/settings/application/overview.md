@@ -11,7 +11,7 @@ Auditor Console functions.
 
 ![Application](/img/product_docs/accessanalyzer/11.6/admin/settings/application/application.webp)
 
-Application Log
+**Application Log**
 
 The Enterprise Auditor Application Log section determines what information is stored in the
 Enterprise Auditor application log.
@@ -57,7 +57,7 @@ level is only recommended when experiencing problems. After the problem is fixed
 log has been sent to [Netwrix Support](https://www.netwrix.com/support.html), reduce the logging
 level to **Warning** or **Info**.
 
-Profile Security
+**Profile Security**
 
 The Profile Security section provides the option to enable an enhanced method of encryption to
 various credentials stored by the Enterprise Auditor application.
@@ -71,7 +71,7 @@ There are two options available in the Profiles stored with drop-down menu:
   [Vault](/docs/accessanalyzer/11.6/admin/settings/application/vault.md)
   topic for requirements and additional information.
 
-Usage Statistics
+**Usage Statistics**
 
 The Usage Statistics section allows you to select whether to send usage statistics data to Netwrix
 to help us improve our product.
@@ -91,7 +91,7 @@ to help us improve our product.
 
 - If cleared, no usage statistics are collected or sent to Netwrix
 
-Host Target Options
+**Host Target Options**
 
 The Host Target Options section provides radio buttons to select the source that Enterprise Auditor
 should use to connect to hosts.
@@ -103,7 +103,7 @@ Select from the following two options:
 - Use host name
 - Prefer DNS name if available
 
-Grid View Parameters
+**Grid View Parameters**
 
 The Grid View Parameters section controls how the data grids display within the Enterprise Auditor
 Console.
@@ -135,7 +135,7 @@ available for every data grid maintains a list of recent filters. See the
 [Data Grid Functionality](/docs/accessanalyzer/11.6/admin/navigate/datagrid.md)
 topic for additional information.
 
-Cleanup
+**Cleanup**
 
 The Cleanup section is designed to conserve space in the SQL Database Transaction Log. It only works
 when the database is configured to use Simple Recovery Model.
@@ -160,7 +160,7 @@ when the database is configured to use Simple Recovery Model.
     :::
 
 
-Application Exit Options
+**Application Exit Options**
 
 The Application Exit Options section controls whether or not a confirmation is displayed when the
 Enterprise Auditor application is closed.

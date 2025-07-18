@@ -14,7 +14,7 @@ entries in the Log files or syslog messages.
 Complete the following checklist prior to configuring the Activity Monitor to monitor the host.
 Instructions for each item of the checklist are detailed within the following sections.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Prior to beginning the deployment, gather the following:
 
@@ -25,7 +25,7 @@ Checklist Item 1: Plan Deployment
 
         - [https://www.dell.com/support](https://www.dell.com/support)
 
-Checklist Item 2: Install Dell CEE
+**Checklist Item 2: Install Dell CEE**
 
 - Dell CEE can be installed on the same Windows server as the Activity Agent, or on a different
   server. If it is installed on the same host, the activity agent can configure it automatically.
@@ -47,14 +47,14 @@ Checklist Item 2: Install Dell CEE
   [Install & Configure Dell CEE](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellcelerravnx/activity/installcee.md)
   topic for instructions.
 
-Checklist Item 3: Dell Device Configuration
+**Checklist Item 3: Dell Device Configuration**
 
 - Configure the `cepp.conf` file on the Celerra VNX Cluster
 - See the
   [Connect Data Movers to the Dell CEE Server](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellcelerravnx/activity/installcee.md#connect-data-movers-to-the-dell-cee-server)
   topic for instructions.
 
-Checklist Item 4: Activity Monitor Configuration
+**Checklist Item 4: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor Activity Agent, preferably on the same server where Dell CEE is
   installed

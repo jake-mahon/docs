@@ -46,7 +46,7 @@ Select from the following additional operations:
 
     - Batch size – Specify the batch size.
 
-Start Process
+**Start Process**
 
 Select the desired start process.
 

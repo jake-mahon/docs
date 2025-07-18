@@ -26,20 +26,20 @@ prioritize risks to sensitive data. Additionally, organizations can automate man
 and expensive processes associated with compliance, security, and operations to easily adhere to
 best practices that keep PostgreSQL Server safe and operational.
 
-Supported Platforms
+**Supported Platforms**
 
 - Open Source PostgreSQL 9x through 12x
 - Enterprise DB PostgreSQL (10x trhough 12x)
 - Amazon AWS Aurora PostgreSQL Engine (all versions supported by Amazon AWS)
 - Azure PostgreSQL (9.6)
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasepostgresql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -59,7 +59,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The Structured Sensitive Data Discovery License is required to run the PostgreSQL Solution. It can
 be installed from theEnterprise Auditor Instant Job Wizard. Once it has been installed into the Jobs

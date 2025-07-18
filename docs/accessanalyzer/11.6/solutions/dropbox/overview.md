@@ -22,17 +22,17 @@ scanning the targeted Dropbox site. Key information includes:
 Dropbox can scan the contents of over 400 file types to discover which files contain sensitive data
 using the Sensitive Data Discovery Add-on.
 
-Supported Platforms
+**Supported Platforms**
 
 - Dropbox
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/dropbox/dropbox_1.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -49,7 +49,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The Dropbox Solution requires a special Enterprise Auditor license. It can be installed from the
 Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the solution:

@@ -56,7 +56,7 @@ port range, which cannot be specified via an inbound rule. For more information,
 [Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
-Additional Firewall Rules for Qumulo Devices
+**Additional Firewall Rules for Qumulo Devices**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Qumulo device:

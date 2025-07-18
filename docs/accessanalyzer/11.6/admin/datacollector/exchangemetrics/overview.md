@@ -18,17 +18,17 @@ data collector and the solution are available with a special Enterprise Auditor 
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the local Administrator group on the targeted Exchange server(s)
 

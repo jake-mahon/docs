@@ -46,13 +46,13 @@ among multiple agents. Or a set of SVMs can distribute events among a set of age
 depends on the fault tolerance requirements and the expected event flow. As a rule of thumb, the
 _average_ load on a single agent should not exceed 5000 events per second.
 
-Configuration Checklist
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring the activity monitoring of NetApp Data ONTAP
 Cluster-Mode devices. Instructions for each item of the checklist are detailed within the following
 sections.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Gather the following information:
 
@@ -203,7 +203,7 @@ Checklist Item 4:
           configuration.
         - Requires a Privileged Access credential be provided.
 
-Checklist Item 5: Activity Monitor Configuration
+**Checklist Item 5: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor Agent to a Windows server.
 - Configure the Agent to monitor the SVM.

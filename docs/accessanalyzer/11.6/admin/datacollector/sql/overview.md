@@ -23,11 +23,11 @@ for additional information:
 - [Redshift Solution](/docs/accessanalyzer/11.6/solutions/databases/redshift/overview.md)
 - [SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/sql/overview.md)
 
-Protocols
+**Protocols**
 
 TCP
 
-Ports
+**Ports**
 
 For Db2:
 
@@ -49,7 +49,7 @@ For SQL:
 
 - Specified by Instances table (default is 1433)
 
-Permissions
+**Permissions**
 
 For MySQL:
 
@@ -100,7 +100,7 @@ topic and the
 [AzureSQL Target Least Privilege Model](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databaseazuresql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it

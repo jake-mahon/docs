@@ -6,14 +6,14 @@ sidebar_position: 10
 
 # Recommended Configurations for the 2. CAS Metrics Job Group
 
-Dependencies
+**Dependencies**
 
 The following job groups need to be successfully run:
 
 - .Active Directory Inventory Job Group
 - .Entra ID Inventory Job Group
 
-Targeted Hosts
+**Targeted Hosts**
 
 The 0. Collection Job Group has been set to run against the following default dynamic host list:
 
@@ -35,7 +35,7 @@ Modify hosts lists only in the 0. Collection Job Group or EX_ASPolicies Job.
 :::
 
 
-Connection Profile
+**Connection Profile**
 
 A Connection Profile must be set directly on the EX_IISLogs Job and the EX_ASPolicies Job.
 
@@ -49,7 +49,7 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group has been designed to run daily one hour after the 1.HUB Metrics Job Group to process
 and collect the previous day’s message tracking logs.
@@ -59,7 +59,7 @@ Run this Job Group at 2:00 AM.
 :::
 
 
-History Retention
+**History Retention**
 
 History retention should not be enabled on this job group. History is kept through analysis tasks.
 Modify the following analysis tasks to customize the amount of history which is kept.
@@ -70,7 +70,7 @@ Modify the following analysis tasks to customize the amount of history which is 
 | EX_RPCTraffic | SET HISTORY RETENTION | 6 Months        |
 | EX_OWATraffic | SET HISTORY RETENTION | 6 Months        |
 
-Query Configuration
+**Query Configuration**
 
 The 2. CAS Metrics Job Group is designed to be run with the default query configurations. However,
 the following queries can be modified:
@@ -80,7 +80,7 @@ the following queries can be modified:
 
 No other queries should be modified.
 
-Analysis Configuration
+**Analysis Configuration**
 
 The 2. CAS Metrics Job Group should be run with the default analysis configurations.
 
@@ -96,7 +96,7 @@ The following analysis tasks should not be deselected, but their parameters can 
 - **Outlook Anywhere** > **EX_RPCTraffic** Job – **05. SET HISTORY RETENTION** Analysis Task
 - **Outlook Web Access** > **OWATraffic** Job – **05. SET HISTORY RETENTION** Analysis Task
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set a Connection Profile on the jobs which run data collection.
 

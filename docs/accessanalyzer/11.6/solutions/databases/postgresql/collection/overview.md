@@ -22,7 +22,7 @@ The jobs in the 0.Collection Job Group are:
 - [PgSQL_TablePrivileges Job](/docs/accessanalyzer/11.6/solutions/databases/postgresql/collection/pgsql_tableprivileges.md) -
   Designed to collect PostgreSQL table privileges from all the targeted servers.
 
-Workflow
+**Workflow**
 
 1. Set a Connection Profile for the 0.Collection Job Group with the permissions listed in the
    Recommended Configurations section. See the

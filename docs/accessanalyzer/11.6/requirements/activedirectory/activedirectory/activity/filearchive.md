@@ -10,7 +10,7 @@ As an alternative to using an API Server, Netwrix Activity Monitor can be confi
 archived logs to a network share. This option requires all of the domain logs to be stored in the
 same share location in order for Enterprise Auditor to collect the AD Activity data.
 
-Prerequisite
+**Prerequisite**
 
 Deploy the AD Agent to each domain controller in the target domain.
 

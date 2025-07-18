@@ -18,7 +18,7 @@ Enterprise Auditor version.
 
 ## Enterprise Auditor v11.6
 
-New: Qumulo and Nutanix Servers Auditing
+**New: Qumulo and Nutanix Servers Auditing**
 
 Reduce the risk of data breaches by identifying sensitive data and getting insights into permissions
 and activity around this data.
@@ -30,21 +30,21 @@ and activity around this data.
 - **Spot suspicious activity** – Monitor activity around your sensitive data stored in Qumulo or
   Nutanix servers so you can spot threats in time to prevent real damage
 
-New: Rebranding to Netwrix Enterprise Auditor
+**New: Rebranding to Netwrix Enterprise Auditor**
 
 Netwrix StealthAUDIT is now Netwrix Enterprise Auditor. The UI has also been updated to reflect the
 Netwrix brand.
 
-Enhancement: Enhanced AD Security Assessment
+**Enhancement: Enhanced AD Security Assessment**
 
 Netwrix Enterprise Auditor now has 50 new AD security checks to identify potential vulnerabilities.
 
-Enhancement: Revised Credentials and Data Security Assessment (CDSA)
+**Enhancement: Revised Credentials and Data Security Assessment (CDSA)**
 
 We've enhanced CDSA by incorporating more security indicators, offering a more comprehensive and
 trustworthy security evaluation.
 
-Enhancement: Single Reports Across Multiple Databases
+**Enhancement: Single Reports Across Multiple Databases**
 
 Netwrix Enterprise Auditor now generates combined reports for all monitored databases, including
 sensitive data, security assessments, and database sizing.
@@ -55,6 +55,6 @@ Azure AD) Scans
 We've significantly boosted the efficiency of SharePoint, File Systems, and Microsoft Entra ID
 scans, ensuring quicker and more streamlined scan results.
 
-Enhancement: Improved administration experience and performance
+**Enhancement: Improved administration experience and performance**
 
 Numerous enhancements have been made to improve administration experience and performance.

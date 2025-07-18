@@ -13,7 +13,7 @@ Health, Public Folders and Configuration Baseline. Sensitive Data Discovery sear
 public folders to discover where sensitive information of any type exists. This requires the
 Sensitive Data Discovery Add-on.
 
-Supported Platforms
+**Supported Platforms**
 
 - Exchange Online (Limited)
 
@@ -26,7 +26,7 @@ See the
 [Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/requirements/exchange/support/support.md)
 topic for additional information.
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/exchange_1.md)
@@ -34,7 +34,7 @@ and
 [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/exchangeonline/exchangeonline.md)
 topics for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans.If running Sensitive Data Discovery (SDD) scans, it
@@ -51,7 +51,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The Exchange Solution requires a special Enterprise Auditor license. It can be installed from the
 Enterprise Auditor Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to

@@ -11,7 +11,7 @@ run. The SQL Job Group is a comprehensive set of pre-configured audit jobs and r
 information on users and roles, activity, permissions, configuration, sensitive data, and overall
 security assessment.
 
-Supported Platforms
+**Supported Platforms**
 
 - Azure SQL
 
@@ -20,13 +20,13 @@ Supported Platforms
 - SQL Server 2017
 - SQL Server 2016
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databasesql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans.If running Sensitive Data Discovery (SDD) scans, it
@@ -43,7 +43,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The SQL Job Group within the Jobs tree, as part of the Database Solution: Jobs > Database > SQL.
 

@@ -19,14 +19,14 @@ article for additional information.
 :::
 
 
-Domain Controller Requirements
+**Domain Controller Requirements**
 
 The following are requirements for the domain controllers to be scanned:
 
 - .NET Framework 4.5+ installed
 - WINRM Service installed
 
-Data Collectors
+**Data Collectors**
 
 Successful use of the Enterprise Auditor Active Directory Permissions Analyzer solution requires the
 necessary settings and permissions in a Microsoft® Active Directory® environment described in this
@@ -45,13 +45,13 @@ topic and its subtopics. This solution employs the following data collectors to 
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For ADPermissions Data Collector
+**For ADPermissions Data Collector**
 
 - TCP 389
 - TCP 135 – 139

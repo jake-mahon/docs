@@ -19,7 +19,7 @@ topic for additional information.
 :::
 
 
-Dependencies
+**Dependencies**
 
 - The .Active Directory Inventory Job Group needs to be executed prior to running the File System
   Solution
@@ -30,7 +30,7 @@ Dependencies
 - Sensitive Data Discovery Add-On installed on the proxy server (for Sensitive Data Discovery
   Auditing via proxy scanning architecture only)
 
-Targeted Hosts
+**Targeted Hosts**
 
 The host list assignment should be assigned under the **FileSystem** > **0.Collection** >
 **[job]** > **Host** node. The list should be a custom created list for the file system environments
@@ -87,7 +87,7 @@ necessary for host inventory to match the values in the table for OSType:
 | ARX     | N/A or Unknown |
 | UNIX    | N/A or Unknown |
 
-Connection Profile
+**Connection Profile**
 
 The FSAA Data Collector requires permissions based on the platform being targeted for data
 collection as well as the scan mode selected. See the
@@ -117,7 +117,7 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 One of the most important decisions to make is how frequently to collect this data. This is
 dependent on the size of the target environment. The FileSystem Solution can be scheduled to run
@@ -128,7 +128,7 @@ For example, it may be desired in large environments to run Activity Auditing co
 daily basis, but to only run Access Auditing and Sensitive Data Discovery Auditing collection jobs
 on a weekly basis followed by the analysis and reporting job groups.
 
-Run Order
+**Run Order**
 
 Whatever schedule frequency may be configured, it is also recommended to streamline the collection
 jobs to those desired. The jobs in the 0.Collection Job Group must be run in order for the auditing
@@ -156,7 +156,7 @@ to the **0.Collection** Job Group.
 :::
 
 
-Query Configuration
+**Query Configuration**
 
 This solution can be run with the default query configuration. However, the most common
 customizations include:
@@ -257,7 +257,7 @@ customizations include:
     - Recommendation to run with default setting of 60 days
     - Set on the **0.Collection** > **1-FSAC System Scans** Job for Activity Auditing
 
-Analysis Configuration
+**Analysis Configuration**
 
 This solution should be run with the default analysis configuration. Most of these analysis tasks
 are preconfigured and should not be modified or deselected. There are a few which are deselected by
@@ -299,7 +299,7 @@ following jobs:
 
 Please see the appropriate topics for details on these tasks.
 
-Additional Consideration
+**Additional Consideration**
 
 The Ad Hoc Audits Job Group is designed to work independent from the rest of the solution, but it is
 dependent upon the 0.Collection Job Group. The jobs are scoped to specific shares and trustees

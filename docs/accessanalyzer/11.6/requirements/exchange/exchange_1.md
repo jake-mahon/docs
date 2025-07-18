@@ -18,7 +18,7 @@ See the
 [Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/requirements/exchange/support/support.md)
 topic for details on the type of auditing supported by data collector and by job group.
 
-Domain Controller Requirements
+**Domain Controller Requirements**
 
 The following are requirements for the Exchange servers to be scanned:
 
@@ -40,7 +40,7 @@ The following are requirements for the Exchange servers to be scanned:
     :::
 
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -56,7 +56,7 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For .Active Directory Inventory Prerequisite
+**For .Active Directory Inventory Prerequisite**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
@@ -92,19 +92,19 @@ See the
 [Exchange Web Services API Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/webservicesapi.md)
 topic for additional information.
 
-For Exchange2K Data Collector
+**For Exchange2K Data Collector**
 
 - Member of the Exchange Administrator group
 - Domain Admin for AD property collection
 - Public Folder Management
 
-For ExchangeMailbox Data Collector
+**For ExchangeMailbox Data Collector**
 
 - Member of the Exchange Administrator group
 - Organization Management
 - Discovery Management
 
-For Exchange Mail Flow with ExchangeMetrics Data Collector
+**For Exchange Mail Flow with ExchangeMetrics Data Collector**
 
 - Member of the local Administrator group on the targeted Exchange server(s)
 
@@ -112,7 +112,7 @@ See the
 [Exchange Mail-Flow Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/mailflow.md)
 topic for additional information.
 
-For Exchange Remote Connection with SMARTLog Data Collector
+**For Exchange Remote Connection with SMARTLog Data Collector**
 
 - Member of the local Administrators group
 
@@ -120,7 +120,7 @@ See the
 [Exchange Remote Connections Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/remoteconnections.md)
 topic for additional information.
 
-For Exchange PowerShell with ExchangePS Data Collector
+**For Exchange PowerShell with ExchangePS Data Collector**
 
 - Remote PowerShell enabled on a single Exchange server
 - Windows Authentication enabled for the PowerShell Virtual Directory on the same Exchange server
@@ -134,7 +134,7 @@ See the
 [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
 topic for additional information.
 
-For ExchangePublicFolders Data Collector
+**For ExchangePublicFolders Data Collector**
 
 - Member of the Exchange Administrator group
 - Organization Management
@@ -143,50 +143,50 @@ For ExchangePublicFolders Data Collector
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For EWSMailbox Data Collector
+**For EWSMailbox Data Collector**
 
 - TCP 389
 - TCP 443
 
-For EWSPublicFolder Data Collector
+**For EWSPublicFolder Data Collector**
 
 - TCP 389
 - TCP 443
 
-For Exchange2K Data Collector
+**For Exchange2K Data Collector**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - TCP 389
 - Optional TCP 445
 
-For ExchangeMailbox Data Collector
+**For ExchangeMailbox Data Collector**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-For ExchangeMetrics Data Collector
+**For ExchangeMetrics Data Collector**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-For ExchangePS Data Collector
+**For ExchangePS Data Collector**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-For ExchangePublicFolder Data Collector
+**For ExchangePublicFolder Data Collector**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-For SMARTLog Data Collector
+**For SMARTLog Data Collector**
 
 - TCP 135
 - TCP 445

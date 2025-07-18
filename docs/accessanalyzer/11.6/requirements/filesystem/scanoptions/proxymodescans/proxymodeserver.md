@@ -22,7 +22,7 @@ The server can be physical or virtual. The requirements for Enterprise Auditor a
     - US English language installation
     - Domain member
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 RAM, CPU, and Disk Space are dependent upon the size of the target environment:
 
@@ -83,7 +83,7 @@ permission collection + 1.25 GB for tag collection (10x125 MB) + 100 GB for sens
 collection (200x500 MB) + 600 GB additional for sensitive data collection (10% of 6 TB) = 861.25 GB
 Disk Space.
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the server:
 
@@ -104,7 +104,7 @@ The following are additional requirements for the server:
     :::
 
 
-Sensitive Data Discovery Auditing
+**Sensitive Data Discovery Auditing**
 
 The following is required to run Sensitive Data Discovery scans:
 

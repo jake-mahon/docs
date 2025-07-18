@@ -28,7 +28,7 @@ on default settings):
   [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
   topic for additional information.
 
-Applet Permissions
+**Applet Permissions**
 
 This is required because the SMARTLog Data Collector is an applet-based data collector. It requires
 the following permission on the target host which contain the IIS Logs:
@@ -38,7 +38,7 @@ the following permission on the target host which contain the IIS Logs:
 This grants the ability to process logs folder which will contain the applet files and logs. For
 example:
 
-\\ExchangeServerName\c$\Program Files (x86)\STEALTHbits\StealthAUDIT\LogProcessor
+**\\ExchangeServerName\c$\Program Files (x86)\STEALTHbits\StealthAUDIT\LogProcessor**
 
 If there have been additional security or permission modifications on the server(s), the following
 rights and policies may need to be enabled on the targeted host:

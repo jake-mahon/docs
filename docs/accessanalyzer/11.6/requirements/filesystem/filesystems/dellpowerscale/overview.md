@@ -36,7 +36,7 @@ topic for additional information.
 :::
 
 
-Additional Sensitive Data Discovery Auditing Permission
+**Additional Sensitive Data Discovery Auditing Permission**
 
 In order to execute scoped Sensitive Data Discovery Auditing scans, the credential must also have
 the LOCAL:System provider selected in each access zone in which the shares to be scanned reside.
@@ -164,7 +164,7 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-Dell Isilon/PowerScale Requirements
+**Dell Isilon/PowerScale Requirements**
 
 Additionally, the EMC Common Event Enabler (CEE) should be installed on the Windows proxy server,
 where the activity agent is deployed.
@@ -181,7 +181,7 @@ See the
 [Dell Isilon/PowerScale Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellpowerscale/activity/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also
@@ -202,7 +202,7 @@ port range, which cannot be specified via an inbound rule. For more information,
 [Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
-Additional Firewall Rules for Dell Isilon/PowerScale Devices
+**Additional Firewall Rules for Dell Isilon/PowerScale Devices**
 
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell Isilon/PowerScale device:

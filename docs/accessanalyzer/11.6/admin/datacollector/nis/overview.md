@@ -13,16 +13,16 @@ available with all Enterprise Auditor license options. See the
 [.NIS Inventory Solution](/docs/accessanalyzer/11.6/solutions/nisinventory/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - NIS
 
-Ports
+**Ports**
 
 - TCP 111 or UDP 111
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - No special permissions are needed aside from access to a NIS server
 

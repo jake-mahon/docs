@@ -10,7 +10,7 @@ Once Role-Based Access is enabled, a user or group with the appropriate access r
 to schedule a job or job group as a Schedule Service Account at the **Settings** > **Schedule**
 node. Multiple accounts can be added as needed.
 
-Who Configures This Account?
+**Who Configures This Account?**
 
 - Administrator role
 - Power User role

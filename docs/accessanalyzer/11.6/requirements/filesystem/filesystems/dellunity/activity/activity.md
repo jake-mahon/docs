@@ -18,12 +18,12 @@ The Dell CEE Framework uses a “push” mechanism so a notification is sent onl
 when a transaction occurs. Daily activity log files are created only if activity is performed. No
 activity log file is created if there is no activity for the day.
 
-Configuration Checklist
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring activity monitoring of Dell Unity devices.
 Instructions for each item of the checklist are detailed within the following topics.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Prior to beginning the deployment, gather the following:
 
@@ -52,13 +52,13 @@ Checklist Item 2:
     - Dell CEE 8.4.2 through Dell CEE 8.6.1 are not supported for use with the VCAPS feature
     - Dell CEE requires .NET Framework 3.5 to be installed on the Windows proxy server
 
-Checklist Item 3: Dell Unity Device Configuration
+**Checklist Item 3: Dell Unity Device Configuration**
 
 - Configure initial setup for a Unity device
 
     - [Unity Initial Setup with Unisphere](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellunity/activity/setupunisphere.md)
 
-Checklist Item 4: Activity Monitor Configuration
+**Checklist Item 4: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor activity agent to a Windows proxy server where Dell CEE was installed
 

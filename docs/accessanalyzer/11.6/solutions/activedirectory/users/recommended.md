@@ -9,7 +9,7 @@ sidebar_position: 10
 The **Active Directory** > **2.Users** Job Group has been configured by default to run with the
 out-of-the-box settings. It can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 - The **.Active Directory Inventory** Job Group needs to be successfully executed prior to running
   this job group
@@ -32,14 +32,14 @@ Dependencies
     :::
 
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 Only the **AD_WeakPasswords** Job requires a host list. The host list assignment has been configured
 under the **2. Users** > **AD_WeakPasswords** > **Configure** > **Hosts** node. It is set to target
 the **ONE DOMAIN CONTROLLER PER DOMAIN** host list. This host list is a dynamic host list based on
 the host inventory value in the **isDomainController** field in the Host Master Table.
 
-Connection Profile
+**Connection Profile**
 
 Only the **AD_WeakPasswords** Job requires a Connection Profile. It must be set directly on the
 **AD_WeakPasswords** Job (through the Job Properties window) with Domain Administrator privileges.
@@ -51,14 +51,14 @@ topic for additional information.
 :::
 
 
-Schedule Frequency
+**Schedule Frequency**
 
 The data analyzed by the **2.Users** Job Group jobs is collected by the **.Active Directory
 Inventory** Job Group. Therefore, it is recommended to schedule these jobs to run after the
 **.Active Directory Inventory** job group collection has completed. These jobs can be scheduled to
 run as desired.
 
-Run at the Job Group Level
+**Run at the Job Group Level**
 
 Run the jobs in the **2.Users** Job Group together and in order by running the entire job group,
 instead of the individual jobs.
@@ -68,7 +68,7 @@ Remember, if the **AD_WeakPassword** Job is not to be executed, it can be disabl
 :::
 
 
-Analysis Configuration
+**Analysis Configuration**
 
 The **2.Users** Job Group should be run with the default analysis configurations. Most of the
 analysis tasks are preconfigured for this Job Group.
@@ -86,7 +86,7 @@ Some analysis tasks have customizable parameters:
         :::
 
 
-Workflow
+**Workflow**
 
 **Step 1 –** Prerequisite: Ensure the **.Active Directory Inventory** Job Group has been
 successfully run.

@@ -63,7 +63,7 @@ configure a host list at the job level to target only those servers.
 - See the [Analyze and Report on Action History](#analyze-and-report-on-action-history) topic for
   additional information
 
-Additional Options
+**Additional Options**
 
 **Step 8 –** (Optional) Create and apply permissions for traverse groups based on previous resource
 based groups. See the

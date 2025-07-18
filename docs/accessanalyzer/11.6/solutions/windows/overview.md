@@ -14,18 +14,18 @@ server infrastructure from a central location. Key capabilities include privileg
 discovery, security configuration and vulnerability assessment, compliance reporting, and asset
 inventory.
 
-Supported Platforms
+**Supported Platforms**
 
 - Windows 7 and higher
 - Windows Server 2016 and later
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/windows/windows_1.md)
 topic for additional information.
 
-Location
+**Location**
 
 The Windows Solution requires a special Enterprise Auditor license. It can be installed from the
 Instant Job Wizard. See the

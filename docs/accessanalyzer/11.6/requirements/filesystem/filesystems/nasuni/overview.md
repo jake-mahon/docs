@@ -57,13 +57,13 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-Nasuni Edge Appliance Requirements
+**Nasuni Edge Appliance Requirements**
 
 Additionally, it is necessary to generate an API Access Key for Nasuni activity monitoring. See the
 [Nasuni Edge Appliance Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/nasuni/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also
@@ -84,7 +84,7 @@ port range, which cannot be specified via an inbound rule. For more information,
 [Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
-Additional Firewall Rules for Nasuni Edge Appliance
+**Additional Firewall Rules for Nasuni Edge Appliance**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Nasuni Edge Appliance:

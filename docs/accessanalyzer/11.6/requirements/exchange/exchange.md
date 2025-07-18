@@ -28,7 +28,7 @@ See the following topics for target environment requirements:
 
 ## Exchange Solution Requirements on the Enterprise Auditor Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -47,7 +47,7 @@ required (8x2=16).
 :::
 
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
 The following is required to run Sensitive Data Discovery scans:
 
@@ -62,7 +62,7 @@ environment.
 :::
 
 
-Permissions to Run Exchange Scans
+**Permissions to Run Exchange Scans**
 
 The following are additional requirements for the Enterprise Auditor Console server specific to
 running the Exchange Solution:
@@ -77,7 +77,7 @@ running the Exchange Solution:
 - For Targeting Exchange Online – PowerShell Execution Policy set to unrestricted for both 64-bit
   and 32-bit versions
 
-Exchange Online Modern Authentication
+**Exchange Online Modern Authentication**
 
 The following prerequisites are required to use Modern Authentication for Exchange Online in
 Enterprise Auditor.
@@ -94,7 +94,7 @@ Enterprise Auditor.
 
 ## Exchange Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

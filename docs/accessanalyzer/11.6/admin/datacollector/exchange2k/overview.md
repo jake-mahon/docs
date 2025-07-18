@@ -17,7 +17,7 @@ collector and the solution are available with a special Enterprise Auditor licen
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - LDAP
 - MAPI
@@ -25,14 +25,14 @@ Protocols
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - TCP 389
 - Optional TCP 445
 
-Permissions
+**Permissions**
 
 - Member of the Exchange Administrator group
 - Domain Admin for AD property collection

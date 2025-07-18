@@ -73,7 +73,7 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-NetApp Data ONTAP Cluster-Mode Device Requirements
+**NetApp Data ONTAP Cluster-Mode Device Requirements**
 
 An FPolicy must be configured on the target device for Activity Auditing (FSAC) scans. A tailored
 FPolicy is recommended as it decreases the impact on the NetApp device. The credential associated
@@ -116,7 +116,7 @@ See the
 [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/netappcmode/activity/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also

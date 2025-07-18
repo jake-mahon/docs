@@ -21,7 +21,7 @@ best practice to assign the host list and the Connection Profile at the data col
 0.Collection Job Group. Once these are assigned to the job group, it can be run directly or
 scheduled.
 
-Dependencies
+**Dependencies**
 
 - .Active Directory Inventory Job Group run successfully
 - For Activity Auditing – SQL Server Audit Specifications to be configured on the target databases
@@ -46,7 +46,7 @@ the queries. Therefore, the
 [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/0-sql_instancediscovery.md)
 must be manually executed before attempting to scope the 0.Collection Job Group queries.
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 The 0.Collection Job Group has been set to run against the following default dynamic host list:
 
@@ -59,7 +59,7 @@ The 0.Collection Job Group has been set to run against the following default dyn
     :::
 
 
-Connection Profile
+**Connection Profile**
 
 The SQL Data Collector requires a specific set of permissions. See the Permissions section for
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
@@ -78,14 +78,14 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 One of the most important decisions to make is how frequently to collect this data. The SQL Job
 Group can be scheduled to run as desired depending on the types of auditing being conducted and the
 scope of the target environment. The general recommendation is to schedule the solution to run
 daily.
 
-Run Order
+**Run Order**
 
 The 0.Collection Jobs must be run first and in order. The other SQL Solution sub-job groups can be
 run in any order, together or individually, after running the 0.Collection Job Group.
@@ -95,7 +95,7 @@ Run the solution at the top level.
 :::
 
 
-Workflow
+**Workflow**
 
 Prerequisites:
 
@@ -127,7 +127,7 @@ However, it is best practice to assign the host list and the Connection Profile 
 collection level, the 0.Collection Job Group. Once these are assigned to the job group, it can be
 run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 - Full registration within Microsoft's Azure portal:
 
@@ -149,13 +149,13 @@ Dependencies
 - [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/0-azuresql_instancediscovery.md)
   run successfully
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 The 0.Collection Job Group has been set to run against the following default dynamic host list:
 
 - All targeted Azure SQL Tenants
 
-Connection Profile
+**Connection Profile**
 
 The SQL Data Collector requires a specific set of permissions. See the Permissions section for
 necessary permissions. The account used can be either an Active Directory account with database
@@ -174,14 +174,14 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 One of the most important decisions to make is how frequently to collect this data. The Azure SQL
 Job Group can be scheduled to run as desired depending on the types of auditing being conducted and
 the scope of the target environment. The general recommendation is to schedule the solution to run
 daily.
 
-Run Order
+**Run Order**
 
 The 0.Collection Jobs must be run first and in order. The other Azure SQL Solution sub-job groups
 can be run in any order, together or individually, after running the 0.Collection Job Group.

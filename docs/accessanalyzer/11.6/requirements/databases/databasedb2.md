@@ -11,7 +11,7 @@ environments to collect permissions and sensitive data. It scans:
 
 - DB2LUW 11+
 
-Target Db2 Requirements
+**Target Db2 Requirements**
 
 Successful installation of the IBM Data Server Client is required to run the Db2 Job Group. In
 addition, the following clients and drivers must be installed:
@@ -33,7 +33,7 @@ well as the add-ins for Visual Studio.
 :::
 
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -42,7 +42,7 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For .Active Directory Inventory Prerequisite
+**For .Active Directory Inventory Prerequisite**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
@@ -60,12 +60,12 @@ For .Active Directory Inventory Prerequisite
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For SQL Data Collector
+**For SQL Data Collector**
 
 - Specified by Instances table (default is 5000)

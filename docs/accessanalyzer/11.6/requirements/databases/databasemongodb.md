@@ -14,12 +14,12 @@ database environments to collect permissions and sensitive data. It scans:
 - MongoDB 7.0
 - Windows and Linux distributions supported by MongoDB
 
-Target MongoDB Requirements for Sensitive Data Discovery Scans
+**Target MongoDB Requirements for Sensitive Data Discovery Scans**
 
 - .NET Framework 4.8 is required to run the MongoDB_SensitiveDataScan Job
 - MongoDB Cluster on Windows Only – Domain Administrator or Local Administrator privilege
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -27,7 +27,7 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For MongoDB Prerequisite
+**For MongoDB Prerequisite**
 
 - Read Only access to ALL databases in the MongoDB Cluster including:
 
@@ -46,7 +46,7 @@ For MongoDB Prerequisite
 
 The following firewall ports are needed:
 
-For NoSQL Data Collector
+**For NoSQL Data Collector**
 
 - MongoDB Cluster
 - Default port is 27017 (A custom port can be configured)

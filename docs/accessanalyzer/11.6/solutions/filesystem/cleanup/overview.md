@@ -47,7 +47,7 @@ topic for additional information.
 
 The Cleanup job group has the following recommended configuration settings.
 
-Dependencies
+**Dependencies**
 
 The Cleanup job group has the following prerequisites:
 
@@ -66,10 +66,10 @@ The Cleanup job group has the following prerequisites:
 Individual jobs and job groups within the Cleanup job group may have their own prerequisites and
 dependencies. See the relevant topic for the job or job group for information about these.
 
-Target Host
+**Target Host**
 
 This job group does not collect data. No target host is required.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.

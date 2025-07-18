@@ -9,7 +9,7 @@ sidebar_position: 30
 The 2-Oracle_SensitiveDataScan Job discovers sensitive data in Oracle databases across all targeted
 Oracle database servers based on pre-defined or user-defined search criteria.
 
-Special Dependency
+**Special Dependency**
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
     - See the

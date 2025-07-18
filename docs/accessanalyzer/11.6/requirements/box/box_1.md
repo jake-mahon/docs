@@ -10,13 +10,13 @@ The Enterprise Auditor for Box scans:
 
 - Box for Business
 
-Box Requirements
+**Box Requirements**
 
 The following are requirements from the target environment:
 
 - Enterprise_ID of the target Box environment
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -25,7 +25,7 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For .Active Directory Inventory Prerequisite
+**For .Active Directory Inventory Prerequisite**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
@@ -39,7 +39,7 @@ For .Active Directory Inventory Prerequisite
     :::
 
 
-For Box Data Collection
+**For Box Data Collection**
 
 Box scans require the Enterprise Admin or Co-Admin account credentials to generate an authorization
 code. The following can be used as a least privilege model:
@@ -65,13 +65,13 @@ topic for additional information.
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For Box Data Collector
+**For Box Data Collector**
 
 - TCP 80
 - TCP 443

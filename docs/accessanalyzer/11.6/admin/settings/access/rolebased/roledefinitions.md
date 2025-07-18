@@ -174,11 +174,11 @@ This table identifies the rights granted to users who have access to the Enterpr
 | Install / Uninstall Data Collectors (or other tool components)                                                                     | Yes        | No          | No           | No            | No                         | No         |
 | Upgrade Enterprise Auditor Console                                                                                                 | No         | No          | No           | No            | No                         | No         |
 
-\*When jobs are unlocked
+**\*When jobs are unlocked**
 
 \*\*When jobs are locked
 
-\*\*\*When jobs are locked and have no actions
+**\*\*\*When jobs are locked and have no actions**
 
 ## Web Console Roles & Rights
 
@@ -190,7 +190,7 @@ This table identifies the rights granted to users who have access only to the We
 | View Report Tags within the Web Console        | Yes               | Yes\*         |
 | View Report Permissions within the Web Console | Yes               | No            |
 
-\*According to where the role is assigned
+**\*According to where the role is assigned**
 
 ## SQL Server Database Roles & Rights
 

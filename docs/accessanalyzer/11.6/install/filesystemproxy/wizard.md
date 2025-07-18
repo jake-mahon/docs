@@ -77,7 +77,7 @@ topic for additional information.
 The port and priority parameters can be modified for the File System Proxy Service on the registry
 key:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath**
 
 - Port parameter – Only needs to be added to the registry key value if a custom port is used. The
   default port of 8766 does not need to be set as a parameter
@@ -110,7 +110,7 @@ Scanner service and select **Stop**.
 
 **Step 2 –** Open Registry Editor (`regedit`) and navigate to the following registry key:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath**
 
 **Step 3 –** Right-click on the **ImagePath** key and select **Modify**. The Value data was set
 during installation according to the installation directory location selected.
@@ -123,7 +123,7 @@ during installation according to the installation directory location selected.
 
         Example with Port number 1234:
 
-        C:\Program Files (x86)\STEALTHbits\StealthAUDIT\FSAA\StealthAUDITRPC.EXEFSAASrv.DLL -e 1234
+**C:\Program Files (x86)\STEALTHbits\StealthAUDIT\FSAA\StealthAUDITRPC.EXEFSAASrv.DLL -e 1234**
 
         :::note
         The port number needs to be added to the path only if a custom port is used.

@@ -17,25 +17,25 @@ For enhanced file system data collections, use the
 :::
 
 
-Supported Platforms
+**Supported Platforms**
 
 This data collector can target the same servers supported for the FileSystemAccess Data Collector.
 See the
 [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
 topic for a full list of supported platforms.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - Optional TCP 445
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

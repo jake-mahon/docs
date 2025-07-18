@@ -26,7 +26,7 @@ scheduled tasks using an account that is logged into the server.
 :::
 
 
-Password Storage Options
+**Password Storage Options**
 
 The password for the credential provided can be stored in the Enterprise Auditor application or the
 Enterprise Auditor Vault.
@@ -36,7 +36,7 @@ configured in the **Settings** > **Application** node. See the
 [Application](/docs/accessanalyzer/11.6/admin/settings/application/overview.md)
 topic for additional information.
 
-Permissions
+**Permissions**
 
 Regardless of the account type, any account used to schedule tasks must have credentials with at
 least the following to meet Least Privileged specifications:

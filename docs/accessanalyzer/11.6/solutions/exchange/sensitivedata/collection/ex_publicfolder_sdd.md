@@ -9,7 +9,7 @@ sidebar_position: 20
 The EX_PublicFolder_SDD job locates sensitive data found in public folders in the Exchange
 environment.
 
-Special Dependency
+**Special Dependency**
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 

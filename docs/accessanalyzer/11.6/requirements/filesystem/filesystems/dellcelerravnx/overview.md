@@ -70,7 +70,7 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-Dell Celerra & Dell VNX Requirements
+**Dell Celerra & Dell VNX Requirements**
 
 Additionally, the EMC Common Event Enabler (CEE) should be installed on the Windows proxy server,
 where the activity agent is deployed.
@@ -87,7 +87,7 @@ See the
 [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellcelerravnx/activity/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also

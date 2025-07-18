@@ -78,7 +78,7 @@ del cert.pem key.pem .rnd
 openssl.exe req x509 newkey rsa:2048 keyout key.pem out cert.pem days 365 nodes subj
 "/CN=testagentserver"
 
-copy cert.pem+key.pem agentkey.pem
+**copy cert.pem+key.pem agentkey.pem**
 
 del cert.pem key.pem .rnd
 

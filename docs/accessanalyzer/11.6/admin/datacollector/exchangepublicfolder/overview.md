@@ -18,22 +18,22 @@ the
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - MAPI
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Exchange Administrator group
 - Organization Management
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it

@@ -109,7 +109,7 @@ disabling the undesired collection jobs. Disabling them allows the solution to r
 It is not recommended to delete any jobs. The required collection jobs are listed for the following
 workflow.
 
-Workflow (for Access Auditing only)
+**Workflow (for Access Auditing only)**
 
 The recommended workflow for Access Auditing only is as follows:
 
@@ -187,7 +187,7 @@ destinations.
 :::
 
 
-Recommended Workflow 1 (for AccessAuditing with DFS Auditing)
+**Recommended Workflow 1 (for AccessAuditing with DFS Auditing)**
 
 **Step 1 –** Run the **0-FSDFS System Scans** job.
 
@@ -370,7 +370,7 @@ disabling the undesired collection jobs. Disabling them allows the solution to r
 It is not recommended to delete any jobs. The required collection jobs are listed for each of the
 following optional workflows.
 
-Recommended Workflow 1 (for Access and Activity Auditing)
+**Recommended Workflow 1 (for Access and Activity Auditing)**
 
 **Step 1 –** Install and configure monitoring with the Activity Monitor for targeted hosts (once
 only).
@@ -567,7 +567,7 @@ topic for additional information.
 :::
 
 
-Option to Enable Last Access Timestamp
+**Option to Enable Last Access Timestamp**
 
 The Last Access Timestamp (LAT) is disabled by default in Windows. This means the LAT does not get
 updated by any applications reading the file. As soon as the LAT feature is enabled in Windows, any
@@ -588,7 +588,7 @@ collection, see the
 [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
 topic.
 
-File System Sensitive Data Discovery Auditing (SEEK) Jobs
+**File System Sensitive Data Discovery Auditing (SEEK) Jobs**
 
 The 0.Collection jobs that comprise this auditing component are:
 

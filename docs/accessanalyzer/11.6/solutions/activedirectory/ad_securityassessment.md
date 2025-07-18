@@ -15,7 +15,7 @@ category with corresponding details that can be used to prioritize and remediate
 
 ## Recommended Configurations for the AD_SecurityAssessment Job
 
-Dependencies
+**Dependencies**
 
 One or more of the following job groups or jobs must be run to produce results:
 
@@ -56,23 +56,23 @@ checks will not be assessed.
 :::
 
 
-Target Host
+**Target Host**
 
 This job group does not collect data. No target host is required.
 
-Connection Profile
+**Connection Profile**
 
 No specific Connection Profile is required.
 
-Schedule Frequency
+**Schedule Frequency**
 
 Scheduled to run as desired
 
-History Retention
+**History Retention**
 
 History is not supported. Turning on history will cause issues with data analysis and reporting.
 
-Multi-console Support
+**Multi-console Support**
 
 Multiple StealthAUDIT consoles are not supported. This job should be run from a single StealthAUDIT
 console.

@@ -11,7 +11,7 @@ information administrators need for Active Directory configuration, operational 
 troubleshooting, analyzing effective permissions, and tracking who is making what changes within an
 organization.
 
-Supported Platforms
+**Supported Platforms**
 
 - Windows Server 2016 and later
 - Windows 2003 Forest level or higher
@@ -23,13 +23,13 @@ article for additional information.
 :::
 
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Active Directory Domain Target Requirements](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/overview.md)
 topic for additional information.
 
-Location
+**Location**
 
 The Active Directory Solution requires a special Enterprise Auditor license. It can be installed
 from the Enterprise Auditor Instant Job Wizard. Once installed into the Jobs tree, navigate to the

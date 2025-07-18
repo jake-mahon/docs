@@ -21,14 +21,14 @@ The Enterprise Auditor SharePoint Agent needs to be installed on the:
     - SharePoint® 2013 through SharePoint® 2019
     - Windows® Server 2012 through Windows® Server 2022
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the Enterprise Auditor SharePoint Agent server:
 
 - .NET Framework 4.8 installed
 - Port Sharing network feature
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
 In addition to having the Sensitive Data Discovery Add-on be installed on the Enterprise Auditor
 Console server, The following is required to run Sensitive Data Discovery scans:

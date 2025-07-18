@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Recommended Configurations for the 3. Databases Job Group
 
-Dependencies
+**Dependencies**
 
 This job group requires the following items to be installed and configured on the Enterprise Auditor
 Console:
@@ -15,7 +15,7 @@ Console:
 - Enterprise Auditor MAPI CDO installed
 - **Settings** > **Exchange** node configured
 
-Targeted Hosts
+**Targeted Hosts**
 
 The **0. Collection** > **1. Local** job group has been set to run against:
 
@@ -33,7 +33,7 @@ through host inventory results.
 :::
 
 
-Connection Profile
+**Connection Profile**
 
 A Connection Profile must be set directly on the EX_DBInfo Job and the EX_PFInfo Job. See the
 [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
@@ -45,7 +45,7 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group has been designed to run daily to collect information about the size of databases in
 the environment.
@@ -55,7 +55,7 @@ Run this Job Group at 3:00 AM.
 :::
 
 
-History Retention
+**History Retention**
 
 History retention should not be enabled on this job group. History is kept through analysis tasks.
 Modify the following analysis tasks to customize the amount of history which is kept:
@@ -64,7 +64,7 @@ Modify the following analysis tasks to customize the amount of history which is 
 | ----------- | --------------------- | --------------- |
 | EX_DBSizing | SET HISTORY RETENTION | 6 Months        |
 
-Query Configuration
+**Query Configuration**
 
 The 3. Databases Job Group is designed to be run with the default query configurations. However, the
 following query can be modified:
@@ -73,7 +73,7 @@ following query can be modified:
 
 No other queries should be modified.
 
-Analysis Configuration
+**Analysis Configuration**
 
 The 3. Databases Job Group should be run with the default analysis configurations.
 
@@ -87,7 +87,7 @@ The following analysis task should not be deselected, but the parameters can be 
 
 - **EX_DBSizing** Job – **SET HISTORY RETENTION** Analysis Task
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set a Connection Profile on the jobs that run data collection.
 

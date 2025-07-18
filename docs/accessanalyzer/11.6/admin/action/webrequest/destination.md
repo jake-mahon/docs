@@ -19,7 +19,7 @@ Use the following categories to establish the location of the web request:
     :::
 
 
-Destination Information
+**Destination Information**
 
 - Method – Use the dropdown to select a method from the following:
 
@@ -61,7 +61,7 @@ Destination Information
     example, Basic [Base64 encoded credentials] or Bearer [JWT token] for Basic and JWT
     authentication respectively).
 
-Test Connection
+**Test Connection**
 
 - Drop-down menu – Select a method to test. Currently locked to GET.
 - URI textbox – Input the resource to receive the test message

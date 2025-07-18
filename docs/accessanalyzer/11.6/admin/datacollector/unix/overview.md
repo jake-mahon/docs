@@ -13,16 +13,16 @@ See the
 [Unix Solution](/docs/accessanalyzer/11.6/solutions/unix/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - SSH
 
-Ports
+**Ports**
 
 - TCP 22
 - User configurable
 
-Permissions
+**Permissions**
 
 - Root permissions in Unix/Linux
 

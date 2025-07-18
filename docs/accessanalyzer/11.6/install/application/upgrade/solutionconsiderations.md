@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The following items must be taken into consideration for upgrades:
 
-Access Information Center
+**Access Information Center**
 
 - Should be upgraded at the same time as Enterprise Auditor.
 
@@ -21,7 +21,7 @@ See the Upgrade Procedure for Enterprise Auditor topic in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)[ ](https://www.stealthbits.com/jdownloads/Documentation%20User%20Guides%20PDF/Stealthbits_AIC_InstallConfigGuide.pdf)for
 instructions.
 
-Sensitive Data Discovery Add-on
+**Sensitive Data Discovery Add-on**
 
 - Needs to be updated on all servers where it was installed. See the
   [Upgrade Sensitive Data Discovery Add-on](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/upgrade.md)
@@ -35,14 +35,14 @@ default in all solution sets. See the
 [Configure Global Sensitive Data Settings](#configure-global-sensitive-data-settings) for additional
 information.
 
-Active Directory Solution Considerations
+**Active Directory Solution Considerations**
 
 - For Activity – Ensure the Netwrix Activity Monitor is a compatible version. See the Upgrade
   Instructions in the
   [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
   for additional information.
 
-File System Solution Considerations
+**File System Solution Considerations**
 
 - For Proxy Mode as a Service – File System Proxy Service needs to be updated on the proxy servers.
   See the
@@ -53,7 +53,7 @@ File System Solution Considerations
   [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
   for additional information.
 
-SharePoint Solution Considerations
+**SharePoint Solution Considerations**
 
 - For SharePoint Agent – Enterprise Auditor SharePoint Agent needs to be updated on the SharePoint
   server where it was installed. See the

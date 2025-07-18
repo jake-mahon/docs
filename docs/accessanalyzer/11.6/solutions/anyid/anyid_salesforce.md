@@ -31,40 +31,40 @@ The following credentials are required to run the AnyID_Salesforce job:
 
 The following are recommended configurations for the AnyID_Salesforce job:
 
-Targeted Host
+**Targeted Host**
 
 Local Host
 
-Connection Profile
+**Connection Profile**
 
 Ensure that a connection profile is configured with the required credentials. See the
 [Prerequisites](#prerequisites) topic for additional information.
 
-History Retention
+**History Retention**
 
 Default Retention Period. See the
 [History](/docs/accessanalyzer/11.6/admin/settings/history.md) topic
 for additional information.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
 Schedule the job as required.
 
-Query Configuration
+**Query Configuration**
 
 This job contains configurable queries. See the
 [Configure the AnyID_Salesforce Query](#configure-the-anyid_salesforce-query) topic for additional
 information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 Run the solution with the default analysis configuration for best results.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set up a connection profile with the required credentials.
 

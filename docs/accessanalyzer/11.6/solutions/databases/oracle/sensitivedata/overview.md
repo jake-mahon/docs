@@ -9,7 +9,7 @@ sidebar_position: 70
 The 5.Sensitive Data Job Group is designed to provide insight into where sensitive data exists and
 who has access to said data across all targeted Oracle database servers.
 
-Special Dependency for Data Collection
+**Special Dependency for Data Collection**
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 

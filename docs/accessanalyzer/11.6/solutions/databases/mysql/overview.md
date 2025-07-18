@@ -33,7 +33,7 @@ Sensitive Data Discovery Add-On enables the solution to search database content 
 By default, the job is configured to use 10 threads, which can be adjusted based on available
 resources on the Enterprise Auditor server.
 
-Supported Platforms
+**Supported Platforms**
 
 - MySQL 5.x
 - MySQL 8.x
@@ -41,13 +41,13 @@ Supported Platforms
 - Amazon Aurora MySQL Engine
 - MariaDB 10.x
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemysql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans.If running Sensitive Data Discovery (SDD) scans, it
@@ -64,7 +64,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The Structured Sensitive Data Discovery License is required to run the MySQL Solution. It can be
 installed from the Enterprise Auditor Instant Job Wizard. Once it has been installed into the Jobs

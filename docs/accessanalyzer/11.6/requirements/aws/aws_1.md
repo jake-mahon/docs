@@ -13,7 +13,7 @@ data from target AWS accounts. It scans:
 - Amazon AWS IAM
 - Amazon AWS S3
 
-Data Collector
+**Data Collector**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -52,6 +52,6 @@ topic for additional information.
 
 The following firewall ports are needed:
 
-For AWS Data Collector
+**For AWS Data Collector**
 
 - 443

@@ -47,7 +47,7 @@ version of the Enterprise Auditor Console, see the
 [Update License Key](/docs/accessanalyzer/11.6/install/application/updatelicense.md)
 topic for instructions.
 
-License Key Changes
+**License Key Changes**
 
 The following changes in licensing requires the organization needing a new key:
 

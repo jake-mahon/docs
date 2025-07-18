@@ -16,7 +16,7 @@ The Enterprise Auditor for Unix Solution provides the ability to audit Unix serv
 - CentOS® 7+
 - SUSE® 10+
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collectors to scan the target environment:
 
@@ -25,11 +25,11 @@ This solution employs the following data collectors to scan the target environme
 
 ## Permissions
 
-For NIS Data Collector Prerequisite
+**For NIS Data Collector Prerequisite**
 
 - No special permissions are needed aside from access to a NIS server
 
-For Unix Data Collector
+**For Unix Data Collector**
 
 - Root permissions in Unix/Linux
 
@@ -40,12 +40,12 @@ If the Root permission is unavailable, a least privileged model can be used. See
 
 The following firewall ports are needed:
 
-For NIS Data Collector Prerequisite
+**For NIS Data Collector Prerequisite**
 
 - TCP 111 or UDP 111
 - Randomly allocated high TCP ports
 
-For Unix Data Collector
+**For Unix Data Collector**
 
 - TCP 22
 - User configurable
@@ -67,7 +67,7 @@ Enterprise Auditor for Unix connects to your host in two ways:
 - Implementation of the SSH2 protocol built into Enterprise Auditor – This is how the Unix Data
   Collector interacts with and pulls information from your environment
 
-Authentication Methods
+**Authentication Methods**
 
 - SSH Login Required
 - SSH Private Key
@@ -77,7 +77,7 @@ Authentication Methods
         - Open SSH
         - PuTTY Private Key
 
-Device Connectivity
+**Device Connectivity**
 
 - SSH port opened in software and hardware firewalls. Default is 22.
 
@@ -108,7 +108,7 @@ rm -f [script]
 The 1.Users and Groups > 0.Collection > UX_UsersAndGroups Job requires permissions in the Unix
 environment to run the following commands:
 
-Commands Used
+**Commands Used**
 
 - `grep`
 - `egrep`
@@ -125,7 +125,7 @@ Commands Used
 - `egrep /etc/default/passwd` (read access)
 - `cat /etc/security/passwd` (read access)
 
-Perl Scripts Used
+**Perl Scripts Used**
 
 ```
 SA_UX_AIX_User.pl
@@ -140,7 +140,7 @@ SA_UX_AIX_UserLastUpdate.pl
 The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_MakeDirectory Job requires permissions in the
 Unix environment to run the following commands:
 
-Commands Used
+**Commands Used**
 
 - `mkdir /tmp/Stealthbits/`
 
@@ -155,14 +155,14 @@ password prompt (:NOPASSWD)
 :::
 
 
-Commands Used
+**Commands Used**
 
 - `sudo chmod 500 SA_UX_ParseSudoers.pl`
 - `sudo ./SA_UX_ParseSudoers.pl`
 - `sudo rm SA_UX_ParseSudoers.pl`
 - `sudo rmdir /tmp/Stealthbits/`
 
-Perl Scripts Used
+**Perl Scripts Used**
 
 ```
 SA_UX_ParseSudoers.pl
@@ -175,7 +175,7 @@ This grants read access to  `/etc/sudoers`
 The 2.PrivilegedAccess > UX_Critical Files Job requires permissions in the Unix environment to run
 the following commands:
 
-Commands Used
+**Commands Used**
 
 - `ls -al /etc/`
 - `ls -al /etc/samba/`
@@ -186,7 +186,7 @@ Commands Used
 The 3.Sharing > 0.Collection > UX_NFSConfiguration Job requires permissions in the Unix environment
 to run the following commands:
 
-Perl Scripts Used
+**Perl Scripts Used**
 
 ```
 SA_UX_NFSConfiguration.pl
@@ -202,7 +202,7 @@ This grants:
 The 3.Sharing > 0.Collection > UX_SambaConfiguration Job requires permissions in the Unix
 environment to run the following commands:
 
-Perl Scripts Used
+**Perl Scripts Used**
 
 ```
 SA_UX_SambaConfiguration.pl

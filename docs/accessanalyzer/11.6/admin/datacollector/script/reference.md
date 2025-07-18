@@ -10,13 +10,13 @@ Enterprise Auditor provides extensions to standard Visual Basic Script. These ex
 access to and manipulation of task data, in addition to invoking queries. They are implemented
 through two objects.
 
-Query Object
+**Query Object**
 
 The Query object provides access to the current query configuration and data. Use this to examine
 the results of a query or to manipulate the query before it is executed. Changing properties of this
 object will change the way the task is executed by Enterprise Auditor.
 
-Working Query Object
+**Working Query Object**
 
 The Working Query object is identical to the Query object. This object supports the same methods and
 properties as the Query object but its properties and methods do not access the current query. Think

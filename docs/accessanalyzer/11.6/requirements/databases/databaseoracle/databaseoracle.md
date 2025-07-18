@@ -13,7 +13,7 @@ database environments to collect permissions, sensitive data, and activity event
 - Oracle Database 18c
 - Oracle Database 19c
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -23,7 +23,7 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For .Active Directory Inventory Prerequisite
+**For .Active Directory Inventory Prerequisite**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
@@ -37,11 +37,11 @@ For .Active Directory Inventory Prerequisite
     :::
 
 
-For PowerShell Data Collection
+**For PowerShell Data Collection**
 
 - Member of the Local Administrators group
 
-For Oracle Data Collection
+**For Oracle Data Collection**
 
 - User with SYSDBA role
 - Local Administrator on the target servers – Only applies to Windows Servers and not on Linux or
@@ -55,16 +55,16 @@ topic for additional information.
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For PowerShell Data Collector
+**For PowerShell Data Collector**
 
 - Randomly allocated high TCP ports
 
-For SQL Data Collector
+**For SQL Data Collector**
 
 - Specified by Instances table (default is 1521)

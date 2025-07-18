@@ -13,7 +13,7 @@ available with a special Enterprise Auditor license. See the
 [SharePoint Solution](/docs/accessanalyzer/11.6/solutions/sharepoint/overview.md)
 topic for additional information. The SPAA Data Collector has the following requirements:
 
-Protocols
+**Protocols**
 
 - MS SQL
 - Remote Registry
@@ -21,19 +21,19 @@ Protocols
 - SP Server API
 - WCF AUTH via TCP (configurable)
 
-Ports
+**Ports**
 
 - Ports vary based on the Scan Mode selected and target environment. See the
   [SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/scanoptions.md)
   topic for additional information.
 
-Permissions
+**Permissions**
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
   [SharePoint Support](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint/sharepoint.md)
   topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it

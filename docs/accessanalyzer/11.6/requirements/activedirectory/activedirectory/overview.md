@@ -56,13 +56,13 @@ controllers within the domain to be monitored.
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also
 have READ and WRITE permissions on the archive location.
 
-Integration with Enterprise Auditor
+**Integration with Enterprise Auditor**
 
 See the
 [Active Directory Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/activity.md)

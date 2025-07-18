@@ -56,101 +56,101 @@ example below) and save it to a local directory.
 
         "description": "This is a custom role created for use by StealthAUDIT Azure SQL Job Group for Azure SQL Database discovery and auditing",
 
-        "assignableScopes": ["/subscriptions/<Your Subscription ID goes here>"],
+**"assignableScopes": ["/subscriptions/<Your Subscription ID goes here>"],**
 
         "permissions": [
             {
                 "actions": [
                     "Microsoft.Authorization/\*/read",
 
-                    "Microsoft.Network/virtualNetworks/subnets/joinViaServiceEndpoint/action",
+**"Microsoft.Network/virtualNetworks/subnets/joinViaServiceEndpoint/action",**
 
                     "Microsoft.Sql/locations/administratorAzureAsyncOperation/read",
 
-                    "Microsoft.Sql/managedInstances/databases/currentSensitivityLabels/\*",
+**"Microsoft.Sql/managedInstances/databases/currentSensitivityLabels/\*",**
 
                     "Microsoft.Sql/managedInstances/databases/recommendedSensitivityLabels/\*",
 
-                    "Microsoft.Sql/managedInstances/databases/schemas/tables/columns/sensitivityLabels/\*",
+**"Microsoft.Sql/managedInstances/databases/schemas/tables/columns/sensitivityLabels/\*",**
 
                     "Microsoft.Sql/managedInstances/databases/securityAlertPolicies/\*",
 
-                    "Microsoft.Sql/managedInstances/databases/sensitivityLabels/\*",
+**"Microsoft.Sql/managedInstances/databases/sensitivityLabels/\*",**
 
                     "Microsoft.Sql/managedInstances/databases/vulnerabilityAssessments/\*",
 
-                    "Microsoft.Sql/managedInstances/securityAlertPolicies/\*",
+**"Microsoft.Sql/managedInstances/securityAlertPolicies/\*",**
 
                     "Microsoft.Sql/managedInstances/databases/transparentDataEncryption/\*",
 
-                    "Microsoft.Sql/managedInstances/vulnerabilityAssessments/\*",
+**"Microsoft.Sql/managedInstances/vulnerabilityAssessments/\*",**
 
                     "Microsoft.Sql/servers/extendedAuditingSettings/read",
 
-                    "Microsoft.Sql/servers/databases/auditRecords/read",
+**"Microsoft.Sql/servers/databases/auditRecords/read",**
 
                     "Microsoft.Sql/servers/databases/currentSensitivityLabels/\*",
 
-                    "Microsoft.Sql/servers/databases/dataMaskingPolicies/\*",
+**"Microsoft.Sql/servers/databases/dataMaskingPolicies/\*",**
 
                     "Microsoft.Sql/servers/databases/extendedAuditingSettings/read",
 
-                    "Microsoft.Sql/servers/databases/read",
+**"Microsoft.Sql/servers/databases/read",**
 
                     "Microsoft.Sql/servers/databases/recommendedSensitivityLabels/\*",
 
-                    "Microsoft.Sql/servers/databases/schemas/read",
+**"Microsoft.Sql/servers/databases/schemas/read",**
 
                     "Microsoft.Sql/servers/databases/schemas/tables/columns/read",
 
-                    "Microsoft.Sql/servers/databases/schemas/tables/columns/sensitivityLabels/\*",
+**"Microsoft.Sql/servers/databases/schemas/tables/columns/sensitivityLabels/\*",**
 
                     "Microsoft.Sql/servers/databases/schemas/tables/read",
 
-                    "Microsoft.Sql/servers/databases/securityAlertPolicies/\*",
+**"Microsoft.Sql/servers/databases/securityAlertPolicies/\*",**
 
                     "Microsoft.Sql/servers/databases/securityMetrics/\*",
 
-                    "Microsoft.Sql/servers/databases/sensitivityLabels/\*",
+**"Microsoft.Sql/servers/databases/sensitivityLabels/\*",**
 
                     "Microsoft.Sql/servers/databases/transparentDataEncryption/\*",
 
-                    "Microsoft.Sql/servers/databases/vulnerabilityAssessments/\*",
+**"Microsoft.Sql/servers/databases/vulnerabilityAssessments/\*",**
 
                     "Microsoft.Sql/servers/databases/vulnerabilityAssessmentScans/\*",
 
-                    "Microsoft.Sql/servers/databases/vulnerabilityAssessmentSettings/\*",
+**"Microsoft.Sql/servers/databases/vulnerabilityAssessmentSettings/\*",**
 
                     "Microsoft.Sql/servers/devOpsAuditingSettings/\*",
 
-                    "Microsoft.Sql/servers/firewallRules/\*",
+**"Microsoft.Sql/servers/firewallRules/\*",**
 
                     "Microsoft.Sql/servers/read",
 
-                    "Microsoft.Sql/servers/securityAlertPolicies/\*",
+**"Microsoft.Sql/servers/securityAlertPolicies/\*",**
 
                     "Microsoft.Sql/servers/vulnerabilityAssessments/\*",
 
-                    "Microsoft.Sql/servers/azureADOnlyAuthentications/\*",
+**"Microsoft.Sql/servers/azureADOnlyAuthentications/\*",**
 
                     "Microsoft.Sql/managedInstances/read",
 
-                    "Microsoft.Sql/managedInstances/azureADOnlyAuthentications/\*",
+**"Microsoft.Sql/managedInstances/azureADOnlyAuthentications/\*",**
 
                     "Microsoft.Security/sqlVulnerabilityAssessments/\*",
 
-                    "Microsoft.Sql/managedInstances/administrators/read",
+**"Microsoft.Sql/managedInstances/administrators/read",**
 
                     "Microsoft.Sql/servers/administrators/read",
 
-                    "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+**"Microsoft.Storage/storageAccounts/blobServices/containers/read",**
 
                     "Microsoft.Sql/servers/auditingSettings/read",
 
                     "Microsoft.Sql/servers/databases/auditingSettings/read"
                 ],
 
-                "notActions": [],
+**"notActions": [],**
 
                 "dataActions": [],
 

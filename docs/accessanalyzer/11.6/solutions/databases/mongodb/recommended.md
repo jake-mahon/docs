@@ -11,7 +11,7 @@ it is best practice to assign the host list and the Connection Profile at the da
 the 0.Collection Job Group. Once these are assigned to the job group, it can be run directly or
 scheduled.
 
-Dependencies
+**Dependencies**
 
 - Query must be configured with list of target database clusters / instances
 - For Sensitive Data Discovery Auditing – Sensitive Data Discovery Add-On installed on the
@@ -20,12 +20,12 @@ Dependencies
 Some of the 0.Collection Job Group queries can be scoped to target specific databases/instances.
 However, it is necessary to add the databases to the query first.
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 The 0.Collection Job Group must be set to run against a custom host list containing the MongoDB
 database instances / clusters.
 
-Connection Profile
+**Connection Profile**
 
 The NoSQL Data Collector requires a specific set of permission. See the Permissions section for
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
@@ -44,14 +44,14 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 One of the most important decisions to make is how frequently to collect this data. The MongoDB Job
 Group can be scheduled to run as desired depending on the types of auditing being conducted and the
 scope of the target environment. The general recommendation is to schedule the solution to run
 daily.
 
-Run Order
+**Run Order**
 
 The 0.Collection Jobs must be run first and in order. The other MongoDB Solution sub-job groups can
 be run in any order, together or individually, after running the 0.Collection Job Group.
@@ -61,7 +61,7 @@ Run the solution at the top level.
 :::
 
 
-Workflow
+**Workflow**
 
 1. Set a Connection Profile for the 0.Collection Job Group with the permissions listed in the
    Recommended Configurations section. See the

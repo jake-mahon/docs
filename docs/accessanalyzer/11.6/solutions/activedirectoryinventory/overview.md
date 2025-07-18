@@ -22,11 +22,11 @@ This solution is required for using the Access Information Center.
 This topic covers information on using the ADInventory Data Collector and the .Active Directory
 Inventory Job Group.
 
-Supported Platforms
+**Supported Platforms**
 
 - Windows 2003 Forest level or higher
 
-Permissions
+**Permissions**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
@@ -40,13 +40,13 @@ Permissions
     :::
 
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Location
+**Location**
 
 The .Active Directory Inventory Solution is a core component of all Enterprise Auditor
 installations. Typically this solution is instantiated during installation, but it can be installed

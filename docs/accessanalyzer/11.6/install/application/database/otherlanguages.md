@@ -17,7 +17,7 @@ The following collation requirements need to be met prior to the Enterprise Audi
 
 The collation settings at the database level must match what is set at the server level.
 
-Symptoms
+**Symptoms**
 
 Common errors that occur are:
 
@@ -28,14 +28,14 @@ Common errors that occur are:
 - Cannot resolve the collation conflict between **SQL_Latin1_General_CP1_CI_AS** and
   **French_CI_AS** in the equal to operation.
 
-Cause
+**Cause**
 
 These errors occur because the Enterprise Auditor solutions use many temporary functions and
 procedures which in turn use the collation at the server level. Temporary tables created within a
 stored procedure use the TEMPDB database’s collation instead of the current user database’s
 collation. Therefore, there will be issues in analysis due to the mismatch.
 
-Resolution
+**Resolution**
 
 The following is a work-around which we use to avoid collation errors. However, when making changes
 at the SQL Server level, use caution as it actually rebuilds all user/system database objects. If
@@ -90,13 +90,13 @@ Now that the collations match, proceed with Enterprise Auditor installation.
 Enterprise Auditor does not support case sensitive collation settings. Case insensitive collations
 are notated by having **CI** in the collation, for example **Latin1_General_CI_AS**.
 
-Cause
+**Cause**
 
 For example, `SYS.INDEXES` will be unable to be found if there was an English install of SQL Server
 but a Turkish collation which is case sensitive. So `'SYS.INDEXES != 'sys.indexes' `in the
 environment.
 
-Resolution
+**Resolution**
 
 All collation settings must be case insensitive.
 

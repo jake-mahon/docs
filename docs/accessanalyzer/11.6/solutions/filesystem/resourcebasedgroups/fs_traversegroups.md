@@ -17,16 +17,16 @@ topic for additional information.
 
 ## Recommended Configurations for the FS_TraverseGroups Job
 
-Dependencies
+**Dependencies**
 
 - The **FS_ResourceBasedGroups** job must be successfully run prior to running this job
 
-Targeted Hosts
+**Targeted Hosts**
 
 - None – If targeting all file servers known to Enterprise Auditor
 - Scope the actions to a host list – If targeting specific file servers
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job can be scheduled to run as desired. Throughout this document reference to executing a job
 refers to either manual execution or scheduled execution, according to the needs of the
@@ -34,11 +34,11 @@ organization. See the
 [Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/11.6/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group)
 topic for additional information.
 
-History Retention
+**History Retention**
 
 Not supported
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run the **FS_ResourceBasedGroups** job.
 

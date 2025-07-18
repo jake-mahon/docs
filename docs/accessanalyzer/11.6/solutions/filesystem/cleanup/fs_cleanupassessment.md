@@ -19,7 +19,7 @@ for additional information.
 
 The FS_CleanupAssessment job is located in the 1. Cleanup Assessment job group.
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow for using the job group:
 

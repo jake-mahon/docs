@@ -39,7 +39,7 @@ See the following topics for target environment requirements:
 
 ## File System Solution Requirements on the Enterprise Auditor Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -77,14 +77,14 @@ required (8x2x2=32).
 :::
 
 
-Additional Server Considerations for File System Scans
+**Additional Server Considerations for File System Scans**
 
 If Data Activity Tracking for NAS is required or if NetApp Filers running Clustered Data ONTAP are
 in scope, reducing latency between the scanning server and the target device is highly recommended.
 Additional hardware may be required, especially if the target NAS devices are not collocated with
 the Enterprise Auditor Console server.
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
 The following is required to run Sensitive Data Discovery scans:
 
@@ -128,7 +128,7 @@ topic for permissions required to scan the environment.
 
 ## File System Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 
@@ -143,7 +143,7 @@ These are dependent upon the size of the target environment.
 | SQL Transaction Log Disk | 390 GB                         | 200 GB                              | 170 GB                              | 130 GB                              | 70 GB                               |
 | SQL TEMP DB Disk         | 1 TB                           | 530 GB                              | 400 GB                              | 270 GB                              | 130 GB                              |
 
-Additional SQL Server Requirements for File System Scans
+**Additional SQL Server Requirements for File System Scans**
 
 The following are additional requirements for the SQL Server specifically for the File System
 solution:

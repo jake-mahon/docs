@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The EX_Mailbox_SDD job locates sensitive data found in mailboxes in the Exchange environment.
 
-Special Dependency
+**Special Dependency**
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 

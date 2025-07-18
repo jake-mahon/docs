@@ -136,7 +136,7 @@ certificate to enable HTTPS encryption of Enterprise Auditor communications.
 The certificate (`cacert.pem`) which is shipped with Enterprise Auditor is in the DC folder of the
 installation directory. The default location is:
 
-…\STEALTHbits\StealthAUDIT\DC
+**…\STEALTHbits\StealthAUDIT\DC**
 
 If employing remote applet mode or proxy servers, then the certificate (`cacert.pem`) must exist in
 the FSAA folder where the `FSAAAppletServer.exe` process is running (applet/proxy host). Therefore,
@@ -144,7 +144,7 @@ it is necessary to also copy it to the FSAA folder on the target hosts andr prox
 done at runtime when using remote applet mode, but any updates or custom certificates must be copied
 manually. The default location is:
 
-…\STEALTHbits\StealthAUDIT\FSAA
+**…\STEALTHbits\StealthAUDIT\FSAA**
 
 :::info
 Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add

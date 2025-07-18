@@ -10,7 +10,7 @@ The Enterprise Auditor for AWS Solution provides the ability to audit Dropbox. I
 
 - Dropbox
 
-Data Collector
+**Data Collector**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -31,7 +31,7 @@ topic for additional information.
 
 The following firewall ports are needed:
 
-For DropboxAccess Data Collector
+**For DropboxAccess Data Collector**
 
 - TCP 80
 - TCP443

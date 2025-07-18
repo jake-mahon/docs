@@ -30,7 +30,7 @@ following steps.
 
 **Step 1 –** Navigate to the following windows registry key:
 
-HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
+**HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration**
 
 ![registryeditorendpoint](/img/product_docs/activitymonitor/7.1/config/dellunity/registryeditorendpoint.webp)
 
@@ -51,14 +51,14 @@ for other applications, separated with semicolons.
 
 **Step 4 –** If you changed any of the settings, restart the CEE Monitor service.
 
-For Asynchronous Bulk Delivery Mode
+**For Asynchronous Bulk Delivery Mode**
 
 For the asynchronous bulk delivery mode with a cadence based on a time period or a number of events
 (VCAPS), use the following steps.
 
 **Step 1 –** Navigate to the following windows registry key:
 
-HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\VCAPS\Configuration
+**HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\VCAPS\Configuration**
 
 **Step 2 –** Ensure that the Enabled parameter is set to 1.
 
@@ -115,11 +115,11 @@ and Disable monitoring.
 
 **Step 8 –** Download and install the Debug View tool from Microsoft on the CEE server:
 
-> [http://docs.microsoft.com/en-us/sysinternals/downloads/debugview](http://docs.microsoft.com/en-us/sysinternals/downloads/debugview)
+**> [http://docs.microsoft.com/en-us/sysinternals/downloads/debugview](http://docs.microsoft.com/en-us/sysinternals/downloads/debugview)**
 
 **Step 9 –** Open the Registry Editor (run regedit). Navigate to following location:
 
-HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\Configuration
+**HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\Configuration**
 
 **Step 10 –** Right-click on **Debug** and select Modify. The Edit DWORD Value window opens. In the
 Value data field, enter the value of 3F. Click OK, and the Edit DWORD Value window closes.

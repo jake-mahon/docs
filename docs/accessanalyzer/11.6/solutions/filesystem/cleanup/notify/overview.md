@@ -26,7 +26,7 @@ This job group includes the following jobs:
 - [FS_NotifyOwners_Status Job](/docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md)
   – Designed to summarize the actions taken by the NotifyOwners job
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow for using the job group:
 

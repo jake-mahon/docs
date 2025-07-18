@@ -27,13 +27,13 @@ be enhanced with the Netwrix Activity Monitor to also conduct Activity Auditing 
 Additionally, the Sensitive Data Discovery Add-On enables the solution to search file content for
 sensitive data, or Sensitive Data Discovery Auditing (SEEK).
 
-Supported Platforms
+**Supported Platforms**
 
 - See the
   [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
   topic for a full list of supported platforms.
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 - Permissions vary based on the Scan Mode Option selected. See the
   [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
@@ -43,7 +43,7 @@ Requirements, Permissions, and Ports
   [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md)
   topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -67,7 +67,7 @@ service is installed.
 :::
 
 
-Location
+**Location**
 
 The File System Solution requires a special Enterprise Auditor license. It can be installed from the
 Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the solution:

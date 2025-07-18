@@ -15,7 +15,7 @@ Microsoft Entra ID.
 :::
 
 
-Additional Requirement
+**Additional Requirement**
 
 In addition to registering the application with Microsoft Entra ID, the following is required:
 
@@ -24,7 +24,7 @@ In addition to registering the application with Microsoft Entra ID, the followin
 See the [Enable Auditing for SharePoint Online](#enable-auditing-for-sharepoint-online) topic for
 additional information.
 
-Configuration Settings from the Registered Application
+**Configuration Settings from the Registered Application**
 
 The following settings are needed from your tenant once you have registered the application:
 
@@ -38,7 +38,7 @@ The following settings are needed from your tenant once you have registered the 
     :::
 
 
-Permissions for Microsoft Graph API
+**Permissions for Microsoft Graph API**
 
 - Application:
 
@@ -46,7 +46,7 @@ Permissions for Microsoft Graph API
     - Sites.Read.All – Read items in all site collections
     - User.Read.All – Read all users' full profiles
 
-Permissions for Office 365 Management APIs
+**Permissions for Office 365 Management APIs**
 
 - Application Permissions:
 
@@ -79,7 +79,7 @@ registrations.
 - Redirect URI – Set the Redirect URI to **Public client/native** (Mobile and desktop) from the drop
   down menu. In the text box, enter the following:
 
-    Urn:ietf:wg:oauth:2.0:oob
+**Urn:ietf:wg:oauth:2.0:oob**
 
 **Step 5 –** Click **Register**.
 
@@ -160,7 +160,7 @@ ID.
 
 The Tenant ID is available in two locations within Microsoft Entra ID.
 
-Registered Application Overview Blade
+**Registered Application Overview Blade**
 
 You can copy the Tenant ID from the same page where you just copied the Client ID. Follow the steps
 to copy the Tenant ID from the registered application Overview blade.
@@ -172,7 +172,7 @@ to copy the Tenant ID from the registered application Overview blade.
 This is needed for adding a SharePoint Online host in the Activity Monitor. Next generate the
 application’s Client Secret Key.
 
-Overview Page
+**Overview Page**
 
 Follow the steps to find the tenant name where the registered application resides.
 

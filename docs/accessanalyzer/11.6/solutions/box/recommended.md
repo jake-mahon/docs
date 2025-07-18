@@ -8,13 +8,13 @@ sidebar_position: 10
 
 The jobs that run analysis tasks in the Box Solution requires the host list to be assigned.
 
-Dependencies
+**Dependencies**
 
 - The .Active Directory Inventory Job Group must be successfully run prior to running this Job Group
 - 2-Box_Import Job – Imports data collected by the 1-Box_Access Scans Job and 1-Box_Activity Scans
   Job
 
-Targeted Hosts
+**Targeted Hosts**
 
 - Enterprise_ID for the target Box environment
 
@@ -27,7 +27,7 @@ for each target named to identify the target, for example EMEA Box. Copying the 
 number to the job’s name. Once authorization codes have been generated for each 1-Box_Access Scans
 Job and 1-Box_Activity Scans Job, then the solution can be scheduled to run as desired.
 
-Connection Profile
+**Connection Profile**
 
 The Box Solution requires a specific credential for the Connection Profile which has access to the
 SA Installer location. It is also necessary to authenticate to the target Box environment, which is
@@ -39,17 +39,17 @@ the query configuration either in the 1-Box_Access Scans Job’ Authentication w
 [Box Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/box/overview.md)
 topic for additional information.
 
-Access Token
+**Access Token**
 
 The Access Token is valid for 60 days. If Box scans are running on a regular schedule, then the
 Access Token automatically refreshes once an hour. However, if it has been more than 60 days since
 the last scan, it is necessary to regenerate the Access Token.
 
-Schedule Frequency
+**Schedule Frequency**
 
 The Box Job Group can be scheduled to run as desired.
 
-Query Configuration
+**Query Configuration**
 
 This solution can be run with the default query configuration. However, the following queries in the
 0.Collection Job Group can be modified to limit the depth of the scan:
@@ -59,7 +59,7 @@ This solution can be run with the default query configuration. However, the foll
 
 The Box_Import Job's Import query is preconfigured to run a full import and should not be modified.
 
-Analysis Configuration
+**Analysis Configuration**
 
 This solution can be run with the default analysis configuration. However, the following parameters
 can be modified:
@@ -70,7 +70,7 @@ can be modified:
     - 2.Content > Box_FileMetrics in the File Metrics Details analysis task
     - 2.Content > Box_FolderMetrics Folder in the Metrics Details analysis task
 
-Workflow
+**Workflow**
 
 **Step 1 –** Prerequisite: Run the .Active Directory Inventory Job Group.
 

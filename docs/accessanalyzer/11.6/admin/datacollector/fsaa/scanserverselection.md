@@ -45,7 +45,7 @@ Using the radio buttons, select where the execution of the applet will take plac
 - Select Host Lists – Opens the Select Host Lists window displaying all the available hosts to
   choose from. If more than one list is selected, scanning is distributed across each host.
 
-:::info
+**:::info**
 
 :::
 

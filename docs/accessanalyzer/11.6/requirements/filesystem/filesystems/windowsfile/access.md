@@ -56,7 +56,7 @@ Configure the credential(s) with the following rights on all nodes:
 - Group membership in the local Administrators group
 - Granted the “Log on as a batch” privilege
 
-Host List Consideration
+**Host List Consideration**
 
 It is necessary to target the Windows File Server Cluster (name of the cluster) of interest when
 running a File System scan against a Windows File System Cluster. Within the Master Host Table,
@@ -80,7 +80,7 @@ StealthAUDIT Master Host Table: `ExampleCluster1`, `ExampleNodeA`, `ExampleNodeB
 `WinCluster` column: `ExampleCluster1`. Only the `ExampleCluster1` host would be in the host list
 targeted by the File System scans.
 
-Sensitive Data Discovery Scans
+**Sensitive Data Discovery Scans**
 
 For Sensitive Data Discovery Auditing scans on a Windows File System Cluster it is necessary for the
 credential to also have Group membership in both of the following local groups for all nodes which
@@ -89,7 +89,7 @@ comprise the cluster:
 - Power Users
 - Backup Operators
 
-Activity Auditing Scans
+**Activity Auditing Scans**
 
 The Netwrix Activity Monitor must deploy an Activity Agent on all nodes that comprise the Windows
 File System Cluster. The Activity Agent generates activity log files stored on each node. Enterprise
@@ -110,7 +110,7 @@ configure the Host Mapping option. This provides a method for mapping between th
 the hosts where activity logs reside. However, this feature requires **advanced SQL scripting
 knowledge** to build the query.
 
-Membership in the local Administrators group
+**Membership in the local Administrators group**
 
 ### Least Privilege Permission Model for Windows Cluster
 
@@ -133,12 +133,12 @@ namespace(s). Then assign the custom host list to the 0-FSDFS System Scans Job. 
 list is require for the FileSystem > 0.Collection Job Group unless additional file servers are also
 being targeted.
 
-DFS as Part of a Windows Cluster Consideration
+**DFS as Part of a Windows Cluster Consideration**
 
 If the DFS hosting server is part of a Windows Cluster, then the Windows File System Clusters
 requirements must be included with the credential.
 
-DFS and Activity Auditing Consideration
+**DFS and Activity Auditing Consideration**
 
 For activity monitoring, the Netwrix Activity Monitor must have a deployed Activity Agent on all DFS
 servers identified by the 0-FSDFS System Scans Job and populated into the dynamic host list. See the

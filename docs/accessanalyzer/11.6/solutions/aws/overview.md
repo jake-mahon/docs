@@ -23,18 +23,18 @@ sensitive data from target AWS accounts. The solution requires a special Enterpr
 It can be focused to only conduct auditing of AWS IAM. Additionally, the Sensitive Data Discovery
 Add-On enables the solution to search AWS S3 content for sensitive data.
 
-Supported Platforms
+**Supported Platforms**
 
 - Amazon AWS IAM
 - Amazon AWS S3
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/aws/aws_1.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -51,7 +51,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The AWS Solution requires a special Enterprise Auditor license. It can be installed from the
 Enterprise Auditor Instant Job Wizard. See the

@@ -14,19 +14,19 @@ collector and the solution are available with a special Enterprise Auditor licen
 [Windows Solution](/docs/accessanalyzer/11.6/solutions/windows/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - RPC
 - SMBV2
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - 445
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

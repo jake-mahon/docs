@@ -12,7 +12,7 @@ database environments to collect permissions and sensitive data. It scans:
 - Amazon AWS Redshift
 - AWS Redshift Cluster
 
-Target Redshift Requirements
+**Target Redshift Requirements**
 
 - Creation of a user name and password through the AWS portal.
 - Successful retrieval of the following items from the AWS website:
@@ -28,7 +28,7 @@ Additional requirements for Sensitive Data Discovery:
 
 - Windows Only – Domain Administrator or Local Administrator privilege
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -37,7 +37,7 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For .Active Directory Inventory Prerequisite
+**For .Active Directory Inventory Prerequisite**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
@@ -51,7 +51,7 @@ For .Active Directory Inventory Prerequisite
     :::
 
 
-For Redshift Data Collection
+**For Redshift Data Collection**
 
 - Read-access to the following tables:
 
@@ -62,7 +62,7 @@ For Redshift Data Collection
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139

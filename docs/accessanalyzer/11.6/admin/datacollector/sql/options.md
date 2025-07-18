@@ -39,7 +39,7 @@ gathering server audits. This is a page for the Sensitive Data Collection catego
 
 The sensitive data scan settings are:
 
-Scan Options
+**Scan Options**
 
 - Scan tables for sensitive data – Scans the tables within the database for sensitive data
 
@@ -47,7 +47,7 @@ Scan Options
 
 - Scan views for sensitive data – Scans views for sensitive data
 
-Data Settings
+**Data Settings**
 
 - Scan individual columns for sensitive data – Scans individual columns within the database for
   sensitive data
@@ -56,7 +56,7 @@ Data Settings
 - Limit rows to scan – Select the number of rows to scan for sensitive data. Select the **Use random
   sampling** checkbox to enable random sampling for checking for sensitive data.
 
-Meta Data Options
+**Meta Data Options**
 
 - Scan database names for sensitive data – Scans database names for sensitive data if the database
   names are included as part of the keyword list in the scanning criteria
@@ -66,14 +66,14 @@ Meta Data Options
   This scans all column names of every table for sensitive data if the column names are included as
   part of the keyword list in the scanning criteria.
 
-Large Data Type Options
+**Large Data Type Options**
 
 - Included binary data types (BLOB, NLOB, LONGRAW, VARBINARY) – Select to include the listed binary
   data types
 - Include character data types (NCLOB, CLOB, LONG) – Select to include the listed character data
   types
 
-SDD Options
+**SDD Options**
 
 - Store discovered sensitive data – Stores potentially sensitive data in the Enterprise Auditor
   database. Any sampled sensitive data discovered based on the matched criteria is stored in the

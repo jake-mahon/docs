@@ -15,7 +15,7 @@ See the
 [Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/requirements/exchange/support/support.md)
 topic for details on the type of auditing supported by data collector and by job group.
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collectors to scan the target environment:
 
@@ -86,7 +86,7 @@ See the
 [Exchange Web Services API Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/webservicesapi.md)
 topic for additional information.
 
-For Exchange PowerShell with ExchangePS Data Collector
+**For Exchange PowerShell with ExchangePS Data Collector**
 
 - Discovery Management Role
 - Organization Management Role
@@ -99,21 +99,21 @@ topic for additional information.
 
 The following firewall ports are needed:
 
-For AzureADInventory Data Collector
+**For AzureADInventory Data Collector**
 
 - TCP 80 and 443
 
-For EWSMailbox Data Collector
+**For EWSMailbox Data Collector**
 
 - TCP 389
 - TCP 443
 
-For EWSPublicFolder Data Collector
+**For EWSPublicFolder Data Collector**
 
 - TCP 389
 - TCP 443
 
-For ExchangePS Data Collector
+**For ExchangePS Data Collector**
 
 - TCP 135
 - Randomly allocated high TCP ports

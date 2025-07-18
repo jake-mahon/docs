@@ -31,7 +31,7 @@ Retrieve the Values to Paste into the Enterprise Auditor WebServer.exe.config Fi
 **Step 2 –** Right click on the **Identity Provider metadata** link and select **Copy Link Address**
 to get the value for the WSFederationMetadata URL.
 
-<add key="WsFederationMetadata" value="INSERT URL HERE" />
+**<add key="WsFederationMetadata" value="INSERT URL HERE" />**
 
 **Step 3 –** Click on the General tab to copy the value for the **Realm**. This value will be unique
 per tenant.
@@ -40,7 +40,7 @@ per tenant.
 
 **Step 4 –** Construct the ReplytoURL using the FQDN of your Enterprise Auditor server:
 
-https://FQDNofaccessanalyzerserver.com:8082/federation
+**https://FQDNofaccessanalyzerserver.com:8082/federation**
 
 Edit the WebServer.exe.config File
 
@@ -87,7 +87,7 @@ Enterprise Auditor Okta application.
 
 **Step 4 –** Restart the Enterprise Auditor Web Server.
 
-Configure the App Settings for the StealthAUDIT Application
+**Configure the App Settings for the StealthAUDIT Application**
 
 **Step 1 –** In the Enterprise Auditor application, navigate to the General Tab and click **Edit**
 to populate the following fields.

@@ -15,7 +15,7 @@ corresponding details that can be used to prioritize and remediate security issu
 
 ## Recommended Configurations for the SG_SecurityAssessment Job
 
-Dependencies
+**Dependencies**
 
 One or more of the following jobs must be run to generate data for the report:
 
@@ -42,15 +42,15 @@ One or more of the following jobs must be run to generate data for the report:
 
 - Security Utilities > **SG_PowerShellCommands**
 
-Targeted Hosts
+**Targeted Hosts**
 
 None
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job can be scheduled to run as desired.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run one or more of the jobs needed to generate data for this report.
 

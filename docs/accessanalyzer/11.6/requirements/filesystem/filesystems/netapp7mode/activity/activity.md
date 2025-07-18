@@ -27,13 +27,13 @@ The NetApp FPolicy uses a “push” mechanism such that notification will only 
 agent when a transaction occurs. Daily activity log files are created only if activity is performed.
 No activity log file will be created if there is no activity for the day.
 
-Configuration Checklist
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring activity monitoring of NetApp Data ONTAP
 7-Mode devices. Instructions for each item of the checklist are detailed within the following
 topics.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Gather the following information:
     - Names of the vFiler™(s) to be monitored
@@ -71,7 +71,7 @@ Checklist Item 2:
     - ONTAP Power Users
     - ONTAP Backup Operators
 
-Checklist Item 3: Firewall Configuration
+**Checklist Item 3: Firewall Configuration**
 
 - HTTP (80) or HTTPS (443)
 - HTTP or HTTPS protocols need to be enabled on the NetApp filer
@@ -106,7 +106,7 @@ Checklist Item 4:
           device on the NetApp FPolicy Configuration page of the Add New Hosts window.
         - It monitors all file system activity.
 
-Checklist Item 5: Activity Monitor Configuration
+**Checklist Item 5: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor Activity Agent to a Windows proxy server
 - Configure the Activity Agent to monitor the NetApp device

@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The SG_AccountPrivileges job identifies accounts privileges on hosts in the targeted environment.
 
-Targeted Hosts
+**Targeted Hosts**
 
 All Windows Hosts
 

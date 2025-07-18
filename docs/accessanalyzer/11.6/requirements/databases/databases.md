@@ -31,7 +31,7 @@ See the following topics for target environment requirements:
 
 ## Databases Solution Requirements on the Enterprise Auditor Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -50,7 +50,7 @@ required (8x2=16).
 :::
 
 
-Additional Server Considerations for Oracle Scans
+**Additional Server Considerations for Oracle Scans**
 
 For scanning Oracle databases, the following are additional requirements for the Console server:
 
@@ -59,14 +59,14 @@ For scanning Oracle databases, the following are additional requirements for the
 - NMAP installed
 - For Instance Discovery, NMAP installed
 
-Additional Server Considerations for SQL Server Scans
+**Additional Server Considerations for SQL Server Scans**
 
 For scanning SQL databases, the following are additional requirements for the Console server:
 
 - Windows Management Framework 3+ installed
 - PowerShell 3.0+ installed
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
 The following is required to run Sensitive Data Discovery scans:
 
@@ -83,7 +83,7 @@ environment.
 
 ## Databases Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

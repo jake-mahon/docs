@@ -12,25 +12,25 @@ collector and the solution are available with a special Enterprise Auditor licen
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - HTTPS
 - ADSI
 - LDAP
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 443
 
-Permissions
+**Permissions**
 
 - Exchange Admin Role
 - Discovery Management Role
 - Application Impersonation Role
 - Exchange Online License with a mailbox
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it

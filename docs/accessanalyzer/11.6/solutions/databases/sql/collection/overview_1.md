@@ -28,7 +28,7 @@ The jobs in 0.Collection Jobs Group are:
   — Collects Azure SQL instances and database configuration settings to evaluate them against
   recommended best practices
 
-Workflow
+**Workflow**
 
 1. Prerequisite:
     1. Successful execution of the .Active Directory Inventory Job Group

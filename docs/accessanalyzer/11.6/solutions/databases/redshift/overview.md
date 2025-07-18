@@ -13,18 +13,18 @@ and Sensitive Data.
 The Redshift Solution requires a special Enterprise Auditor license. Additionally, the Sensitive
 Data Discovery Add-On enables the solution to search Redshift and AWS content for sensitive data.
 
-Supported Platforms
+**Supported Platforms**
 
 - Amazon AWS Redshift
 - AWS Redshift Cluster
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseredshift.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -44,7 +44,7 @@ environment.
 :::
 
 
-Location
+**Location**
 
 The Redshift Solution requires a special Enterprise Auditor license. It can be installed from the
 Enterprise Auditor Instant Job Wizard. Once it has been installed in the **Jobs** tree, navigate to

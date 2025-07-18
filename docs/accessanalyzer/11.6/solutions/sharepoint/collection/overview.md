@@ -119,7 +119,7 @@ See the
 [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/11.6/solutions/sharepoint/recommended.md)
 topic for other Runtime Details.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run
 [2-SPAA_SystemScans Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/2-spaa_systemscans.md).
@@ -181,7 +181,7 @@ See the SharePoint Reports topics in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)
 for additional information.
 
-Recommended Workflow 1 (for Access & Activity Auditing)
+**Recommended Workflow 1 (for Access & Activity Auditing)**
 
 **Step 1 –** Run
 [2-SPAA_SystemScans Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/2-spaa_systemscans.md).
@@ -243,7 +243,7 @@ concurrently with the SPAC Scans and the Bulk Import jobs as desired.
 :::
 
 
-Optional Workflow (for Activity Auditing Only)
+**Optional Workflow (for Activity Auditing Only)**
 
 **Step 1 –** Run
 [3-SPAC_SystemScans Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/3-spac_systemscans.md).
