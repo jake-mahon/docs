@@ -13,4 +13,4 @@ using Netwrix Endpoint Policy Manager (formerly PolicyPak) SecureRun. With Secur
 letting applications run if they were "properly installed" or otherwise sanctioned by you. Check out
 this video, and block all unknown Malware and zero day threats.
 
-<iframe width="560" height="315" src="https://youtu.be/TuZJQ2_sakM" title="Stop Ransomware and other unknown zero day attacks with Endpoint Policy Manager SecureRun" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TuZJQ2_sakM?si=vB-lPsZK2yDvI00R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

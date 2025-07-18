@@ -10,6 +10,8 @@ Endpoint Policy Manager (formerly PolicyPak) can manage (enable or disable) ALL 
 Watch this video to finally get a handle on how to manage your Firefox Add-ons using Group Policy or
 your own systems management utility.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KhgrQluEzuE?si=hhbrZFWS6WSxRfy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager: Manage Firefox Add-ons using Group Policy
 
 Hi. This is Jeremy Moskowitz, former Group Policy MVP and Founder of PolicyPak Software. In this

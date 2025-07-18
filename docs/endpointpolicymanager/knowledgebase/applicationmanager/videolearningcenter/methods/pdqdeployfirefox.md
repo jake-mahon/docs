@@ -8,6 +8,8 @@ sidebar_position: 50
 Microsoft MVP Jeremy Moskowitz and Shane from Admin Arsenal deploy Firefox with PDQ Deploy and
 manage the heck out of it with Netwrix Endpoint Policy Manager (formerly PolicyPak).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NCrZnIMgimE?si=I4STS2IBWiSKftX5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Deploy and Manage Firefox with PDQ Deploy and Endpoint Policy Manager
 
 Shane: Hey everybody. I'm Shane from Admin Arsenal and this is Jeremy from PolicyPak and GP answers.

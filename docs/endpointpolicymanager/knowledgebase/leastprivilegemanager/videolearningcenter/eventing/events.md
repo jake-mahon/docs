@@ -5,9 +5,9 @@ sidebar_position: 10
 ---
 # Events
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v2t3B5rBK6Y" title="Least Privilege Manager: Events" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Learn about the Eventing System in PolicyPak Least Privilege Manger.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v2t3B5rBK6Y" title="Least Privilege Manager: Events" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Transcript:  Least Privilege Manager: Events
 

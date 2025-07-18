@@ -5,12 +5,12 @@ sidebar_position: 10
 ---
 # Endpoint Policy Package Manager (AppX Policies): Add or Remove Microsoft Store using your MDM service.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tjoNyqcvWRU" title="Endpoint Policy Package Manager (AppX Policies): Add or Remove Microsoft Store using your MDM service." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Once you've rolled out a machine using Autopilot, how can you REMOVE unwanted applications and ADD
 important Windows 10 Store applications? With Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Package Manager (AppX) policies of course! Use your Intune (or any other MDM service) to remove
-"junkware" but then add important business related Windows 10 Store applications !
+"junkware" but then add important business related Windows 10 Store applications!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tjoNyqcvWRU" title="Endpoint Policy Package Manager (AppX Policies): Add or Remove Microsoft Store using your MDM service." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Hi, this is Jeremy Moskowitz. In this video I'm going to show you how you can use Endpoint Policy
 Manager Software Package Manager to deliver AppX settings and also remove AppX settings from your

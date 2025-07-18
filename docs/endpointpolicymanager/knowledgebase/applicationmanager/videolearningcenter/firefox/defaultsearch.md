@@ -8,6 +8,8 @@ sidebar_position: 20
 Everyone wants to know how to set the Firefox Search Engine from Yahoo to Google or something else
 using Group Policy. PolicyPak is the way to do it. Check out this video.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_d-9Tolzh3M?si=HptGx95lPDRmOxI2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager: Set the Firefox Default Search Engine using Group Policy
 
 Hi. This is Jeremy Moskowitz. In this video, I'm going to show you how you can change the default
