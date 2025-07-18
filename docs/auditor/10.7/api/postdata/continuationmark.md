@@ -42,15 +42,56 @@ Search parameters file. [Search Parameters](/docs/auditor/10.7/api/postdata/sear
 
 ## Example
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| XML                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [Retrieve Activity Records](/docs/auditor/10.7/api/retrieveactivityrecords.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `<?xml version="1.0" standalone="yes"?> `````` <ContinuationMark xmlns="http://schemas.netwrix.com/api/v1/activity_records/"> `````` PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A `````` </ContinuationMark>`                                                                                                                                                                                                                                                                                                                                                                                      |
-| [Search Activity Records](/docs/auditor/10.7/api/searchactivityrecords.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| `<?xml version="1.0" standalone="yes"?> `````` <ActivityRecordSearch xmlns="http://schemas.netwrix.com/api/v1/activity_records/"> `````` <ContinuationMark>PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A</ContinuationMark> `````` <FilterList> `````` <Who>Administrator</Who> `````` <DataSource>Active Directory</DataSource> `````` <Action>Added</Action> `````` <ObjectType Operator="DoesNotContain">Group</ObjectType> `````` <When> `````` <From>2016-09-16T16:30:00+11:00</From> `````` <To>2017-03-16T00:00:00Z</To> `````` </When> `````` </FilterList> `````` </ActivityRecordSearch>` |
-| JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [Retrieve Activity Records](/docs/auditor/10.7/api/retrieveactivityrecords.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `"PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A"`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [Search Activity Records](/docs/auditor/10.7/api/searchactivityrecords.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| `{ `````` "ContinuationMark": "PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A", `````` "FilterList": { `````` "Who": "Administrator", `````` "DataSource": "Active Directory", `````` "Action": "Added", `````` "ObjectType": { "DoesNotContain": "Group"}, `````` "When": { `````` "From": "2016-09-16T16:30:00+11:00", `````` "To": "2017-03-16T00:00:00Z" `````` } `````` } `````` }`                                                                                                                                                                                                             |
+[Retrieve Activity Records](/docs/auditor/10.7/api/retrieveactivityrecords.md)
+```xml
+<?xml version="1.0" standalone="yes"?>
+<ContinuationMark xmlns="http://schemas.netwrix.com/api/v1/activity_records/"> 
+PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A 
+</ContinuationMark>
+```
+
+
+[Search Activity Records](/docs/auditor/10.7/api/searchactivityrecords.md)
+
+```xml
+<?xml version="1.0" standalone="yes"?>
+<ActivityRecordSearch xmlns="http://schemas.netwrix.com/api/v1/activity_records/">
+    <ContinuationMark>PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A</ContinuationMark>
+    <FilterList>
+        <Who>Administrator</Who>
+        <DataSource>Active Directory</DataSource>
+        <Action>Added</Action>
+        <ObjectType Operator="DoesNotContain">Group</ObjectType>
+        <When>
+            <From>2016-09-16T16:30:00+11:00</From>
+            <To>2017-03-16T00:00:00Z</To>
+        </When>
+    </FilterList>
+</ActivityRecordSearch> 
+```
+
+[Retrieve Activity Records](/docs/auditor/10.7/api/retrieveactivityrecords.md)
+
+```json
+`"PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A"`
+```
+
+[Search Activity Records](/docs/auditor/10.7/api/searchactivityrecords.md)
+
+```json
+ {
+    "ContinuationMark": "PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A",
+    "FilterList": {
+        "Who": "Administrator",
+        "DataSource": "Active Directory",
+        "Action": "Added",
+        "ObjectType": {
+            "DoesNotContain": "Group"
+        },
+        "When": {
+            "From": "2016-09-16T16:30:00+11:00",
+            "To": "2017-03-16T00:00:00Z"
+        }
+    }
+}
+```
