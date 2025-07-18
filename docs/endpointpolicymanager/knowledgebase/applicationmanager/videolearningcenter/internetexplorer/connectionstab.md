@@ -7,6 +7,8 @@ sidebar_position: 30
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Connections tab
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dtuO2oFNiZ0?si=VK98Pyv_dnkiEnYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager: Manage IE Connections tab
 
 Hi. This is Jeremy Moskowitz. In this quick video, we're going to show you how to use PolicyPak

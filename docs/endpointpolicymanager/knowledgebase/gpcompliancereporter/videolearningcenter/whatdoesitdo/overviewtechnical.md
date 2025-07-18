@@ -5,12 +5,12 @@ sidebar_position: 20
 ---
 # 7 Minute Technical Overview for IT Pros
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2PwlaYfUkmw" title="Endpoint Policy Manager Group Policy Compliance Reporter: 7 Minute Technical Overview for IT Pros" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 In this video, IT Pros can learn how to quickly use the Netwrix Endpoint Policy Manager (formerly
 PolicyPak) Group Policy Compliance Reporter. You can use it alone, or with your whole team. And see
 which machines on your network did and did not get the IT and security settings you need for them to
 get to be compliant.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2PwlaYfUkmw" title="Endpoint Policy Manager Group Policy Compliance Reporter: 7 Minute Technical Overview for IT Pros" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Endpoint Policy Manager Group Policy Compliance Reporter: 7 Minute Technical Overview for IT Pros
 
