@@ -29,8 +29,11 @@ case by the latest version at the defined interval. The associated key is only c
 beginning and needs to be saved. The current version of the **HTML file** can only be decrypted
 using this **key**.
 
-**CAUTION:** The key (PrivateKey.prvkey) and the file (Emergency WebViewer.html) must be saved onto
+:::warning
+The key (PrivateKey.prvkey) and the file (Emergency WebViewer.html) must be saved onto
 a secure medium (USB stick, HDD, CD/DVD, …) and kept in a secure location!
+:::
+
 
 ## Data security
 
@@ -41,7 +44,10 @@ a secure medium (USB stick, HDD, CD/DVD, …) and kept in a secure location!
 
 • The file can only be encrypted using the **PrivateKey.prvkey** file
 
-**CAUTION:** The export right for the passwords is not required for the Emergency WebViewer Export!
+:::warning
+The export right for the passwords is not required for the Emergency WebViewer Export!
+:::
+
 
 ## Required rights
 
@@ -90,8 +96,11 @@ in accordance with the requirements.
 5. **Executing server (optional)** Address (IP) of the additional server
 6. **Tags** Freely definable characteristics of records
 
-**CAUTION:** The private key for the Emergency WebViewer must be saved before the system task can be
+:::warning
+The private key for the Emergency WebViewer must be saved before the system task can be
 saved!
+:::
+
 
 ## Displaying the Emergency WebViewer Export tasks
 
@@ -110,9 +119,15 @@ the password backup.
 1. Emergency WebViewer.html
 2. PrivateKey.prvkey
 
-**CAUTION:** The file Emergency WebViewer.html is saved on the server executing the task. The
+:::warning
+The file Emergency WebViewer.html is saved on the server executing the task. The
+:::
 
-**CAUTION:** key PrivateKey.prvkey needs to be securely saved by the user!\*
+
+:::warning
+key PrivateKey.prvkey needs to be securely saved by the user!\*
+:::
+
 
 The **Emergency WebViewer Export** is used in the same way as the **WebViewer export**. The
 **passwords** are displayed in a current browser. The passwords are accessed in the **Emergency

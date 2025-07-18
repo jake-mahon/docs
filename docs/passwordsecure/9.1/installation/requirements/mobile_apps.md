@@ -8,8 +8,11 @@ sidebar_position: 50
 
 #### Required Version
 
-**CAUTION:** Our mobile apps are only supported on devices with the official OS (no jailbreak, not
+:::warning
+Our mobile apps are only supported on devices with the official OS (no jailbreak, not
 rooted).
+:::
+
 
 |                  |         |             |
 | ---------------- | ------- | ----------- |

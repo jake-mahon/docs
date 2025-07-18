@@ -70,6 +70,9 @@ NOTE: Groups in groups Memberships, which may be present in the Active Directory
 displayed within Netwrix Password Secure. Both groups are imported as roles, but independent and not
 linked in any way.
 
-**CAUTION:** If Master Key mode has been selected for the Active Directory profile, the AD is the
+:::warning
+If Master Key mode has been selected for the Active Directory profile, the AD is the
 leading system. In this mode, roles that have been imported cannot be changed locally in Netwrix
 Password Secure.
+
+:::

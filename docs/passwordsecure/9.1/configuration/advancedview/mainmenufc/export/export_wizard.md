@@ -53,9 +53,12 @@ corresponding preview is also provided.
 Once the wizard has been completed, the desired export is created and saved to the defined storage
 location.
 
-**CAUTION:** It is important to once again point out the sensitive nature of this export function
+:::warning
+It is important to once again point out the sensitive nature of this export function
 that could have critical consequences from a security perspective. As the required permissions for
 this export are generally only granted to users/roles with higher positions in the hierarchy, this
 subject is even more relevant from a security perspective: It is possible to export all passwords
 for which a user has the required permissions. Administrators could thus (intentionally or
 unintentionally) cause more damage per se.
+
+:::

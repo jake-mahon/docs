@@ -71,8 +71,11 @@ other editions you can only purchase Advanced view licenses. Please note that li
 users are not able to use the Advanced view. However, Advanced view Users can also switch to the
 Basic view.
 
-**CAUTION:** For licensing reasons, it is not intended to switch from a Advanced view user to a
+:::warning
+For licensing reasons, it is not intended to switch from a Advanced view user to a
 Basic view user!
+:::
+
 
 Our sales team will be happy to answer any questions you may have about licensing.
 

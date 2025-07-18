@@ -86,6 +86,9 @@ future. Pressing the button directly opens the linked application.
 
 ![start application](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/learning_the_applications/learning_the_applications_7-en.webp)
 
-**CAUTION:** With respect to permissions, applications are subject to the same rules as for
+:::warning
+With respect to permissions, applications are subject to the same rules as for
 passwords, roles or documents. It is possible to separately define which group of users is permitted
 to use each application.
+
+:::

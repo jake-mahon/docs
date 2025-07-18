@@ -24,9 +24,12 @@ The connection to the server is not considered secure.
 NOTE: Windows Server 2012 R2 requires the latest patch level, since it has been delivered with SSL3,
 and has been extended to include TLS 1.2
 
-**CAUTION:** The service user creates the databases. A separate certificate is also generated for
+:::warning
+The service user creates the databases. A separate certificate is also generated for
 each database. Therefore, the service user must be a local administrator or a domain administrator,
 as otherwise they would have no rights to save data in the certificate store.
+:::
+
 
 #### Structure of certificates
 
@@ -91,7 +94,10 @@ If a CA already exists, you can also use your own certificate. You can specify t
 Please note that a server certificate for SSL encryption is used here. The CA must be configured so
 that all clients trust the certificate. It is necessary to adhere to the certification path.
 
-**CAUTION:** When configuring, you must ensure that the clients can access the CA lock lists
+:::warning
+When configuring, you must ensure that the clients can access the CA lock lists
+:::
+
 
 Wildcard certificates
 

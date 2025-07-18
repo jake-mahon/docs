@@ -24,8 +24,11 @@ NOTE: The database certificate cannot be replaced by your own certificate.
 NOTE: The expiry date for the database certificate is not checked. The certificate thus does not
 need to be renewed.
 
-**CAUTION:** If the database is being moved to another server, it is essential that the certificate
+:::warning
+If the database is being moved to another server, it is essential that the certificate
 is also transferred!
+:::
+
 
 #### Exporting and importing the certificate
 

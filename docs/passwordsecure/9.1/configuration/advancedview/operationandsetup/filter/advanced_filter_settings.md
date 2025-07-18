@@ -109,5 +109,8 @@ negations, you can only search e.g. for a tag. Negations make the following quer
 
 ”Deliver all records that have the tag “Development” but are not tagged with “Important”!
 
-**CAUTION:** In order to effectively use negations, it is important that “and links” are always
+:::warning
+In order to effectively use negations, it is important that “and links” are always
 enabled. Otherwise operations with negations cannot be modelled mathematically.
+
+:::

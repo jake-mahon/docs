@@ -71,8 +71,11 @@ User right
 
 - Can manage autologin
 
-**CAUTION:** The automatic login should be handled as a process critical to security. It is
+:::warning
+The automatic login should be handled as a process critical to security. It is
 important to note that all data can be accessed, for example, if you forget to lock the computer.
+:::
+
 
 NOTE: For security reasons, the autologin is only valid for 180 days and then needs to be
 subsequently renewed.

@@ -18,8 +18,11 @@ Please follow Microsoft recommendations for system requirements for SQL Server.
 | Attribute             | Minimum | Recommended |
 | MS SQL Server Version | 2019    | 2022        |
 
-**CAUTION:** If you plan to install the MS SQL Server on the machine with the Netwrix Password
+:::warning
+If you plan to install the MS SQL Server on the machine with the Netwrix Password
 Secure application server, please ensure to meet the combined minimum requirements for both systems.
+:::
+
 
 #### Required Configuration
 

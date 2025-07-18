@@ -38,6 +38,9 @@ own certificate authority (CA) as an option. Latest version of the Secure Socket
 Passwords are only encrypted and transported to the client when they have been explicitly requested
 in advance. More…
 
-**CAUTION:** Only secrets are encrypted. Metadata is not encrypted to ensure search speed. Secrets
+:::warning
+Only secrets are encrypted. Metadata is not encrypted to ensure search speed. Secrets
 are usually passwords. However, the customer can decide what kind of data they are. Note that
 Secrets cannot be searched for.
+
+:::

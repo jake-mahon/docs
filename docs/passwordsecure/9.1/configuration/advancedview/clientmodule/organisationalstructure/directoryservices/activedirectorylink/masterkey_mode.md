@@ -77,10 +77,13 @@ connection is not possible, deactivate SecureSocketsLayer and try again.
   being established to the domain **jupiter.local** or an IP address, the login can only be carried
   out with **jupiter\user** if **jupiter** has been saved here.
 
-**CAUTION:** The master key is added in form of a certificate. It is **essential to back up** the
+:::warning
+The master key is added in form of a certificate. It is **essential to back up** the
 generated certificate! If the database is being moved to another server, the certificate also needs
 to be transferred! Further information can be found in the section
 [Certificates](/docs/passwordsecure/9.1/configuration/servermanger/certificates/certificates.md).
+:::
+
 
 NOTE: You can now use the option to integrate a RADIUS server. Read more in
 [RADIUS authentication](/docs/passwordsecure/9.1/configuration/advancedview/clientmodule/organisationalstructure/directoryservices/activedirectorylink/radius_authentication.md).
@@ -192,7 +195,10 @@ password. If the logon via Kerberos does not work – e.g. due to incorrect conf
 domain controller – the logon via the NTLM protocol is attempted. However, these are all settings
 that have to be made on the domain controller and have nothing to do with Netwrix Password Secure.
 
-**CAUTION:** Logging on to Netwrix Password Secure using SSO via Kerberos is currently not possible.
+:::warning
+Logging on to Netwrix Password Secure using SSO via Kerberos is currently not possible.
+:::
+
 
 ## Permissions to imported objects
 

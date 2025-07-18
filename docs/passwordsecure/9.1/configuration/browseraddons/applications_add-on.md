@@ -55,7 +55,10 @@ hostname including the domain suffix (“.de” or “.com”) to match.
 
 ## Creating applications
 
-**CAUTION:** The user right Can add new web applications is required in order to create applications
+:::warning
+The user right Can add new web applications is required in order to create applications
+:::
+
 
 If the login mask on a website cannot be automatically completed, it is necessary to manually create
 an application. To create an application, the desired website is first called up. The add-on is then

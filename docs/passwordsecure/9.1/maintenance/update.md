@@ -27,7 +27,10 @@ user not being able to log in.
 
 The requirements should be checked or established before an update.
 
-**CAUTION:** Please always check the Changelog for requirements or breaking changes before updating!
+:::warning
+Please always check the Changelog for requirements or breaking changes before updating!
+:::
+
 
 ### Check the software maintenance package
 
@@ -53,8 +56,11 @@ Unfortunately this is not always possible. Therefore, you should always check wh
 the Server Manager is compatible with before an update. The version history for the relevant version
 will provide this information.
 
-**CAUTION:** If the password for logging in to the Server Manager on the database has been saved, it
+:::warning
+If the password for logging in to the Server Manager on the database has been saved, it
 is essential that it is noted down or temporarily saved elsewhere before an update!
+:::
+
 
 ### Latest installation files
 
@@ -101,9 +107,12 @@ is then created according to the instructions for the web server being used. The
 on the web server should now be completely emptied. The Web Application is then unzipped and copied
 to the document directory on the corresponding web server.
 
-**CAUTION:** If the Web Application is being operated on an IIS web server, a new config.bat is
+:::warning
+If the Web Application is being operated on an IIS web server, a new config.bat is
 generated for creating the new version. This must not be executed if the Web Application has already
 been installed and it must be deleted without fail after a successful update.
+:::
+
 
 NOTE: If the Web Application is used, the module: `proxy_wstunnel` must be installed when using
 Apache. With IIS the `WebSocket Protocol` becomes necessary. Further information can be found in the

@@ -22,8 +22,11 @@ technically separate seals are created for each individual member of the role.
 
 NOTE: Requests or releases are only valid for the respective user!
 
-**CAUTION:** If a user is a member of several roles of a seal, the "stronger" right is always
+:::warning
+If a user is a member of several roles of a seal, the "stronger" right is always
 applied. Release rights have a priority over read rights
+:::
+
 
 ## 1. Requesting a release
 

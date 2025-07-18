@@ -66,6 +66,9 @@ NOTE: It is important to note that the login mask for records with password mask
 automatically", even if the setting **Browser Extensions: Automatically send login masks** has been
 deactivated.
 
-**CAUTION:** The password masking only applies to those users who are authorized at the time of
+:::warning
+The password masking only applies to those users who are authorized at the time of
 attachment to the record. If a record has the password masking and a user get´s authorized the
 record is **not protected** for this user. The password masking should then be removed and reset.
+
+:::

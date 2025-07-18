@@ -79,8 +79,11 @@ finished, the **Network Scan** scans the **network** according to these guidelin
    second section defines the scan configuration for the local computer. Select from either Local
    user of services or _Local user_.
 
-**CAUTION:** The system executing the scan – on which the Server Manager is installed – is not
+:::warning
+The system executing the scan – on which the Server Manager is installed – is not
 scanned!
+:::
+
 
 ## Interval / Executing server / Tags
 
@@ -105,6 +108,9 @@ After the **Discovery Service Task** has been configured, a connection test is p
 configuration is saved. The system then indicates whether the configuration is correct or faulty.
 Depending on the message, the **Discovery Service Task** may need to be amended.
 
-**CAUTION:** The **default setting** for the **Discovery Service Task** after it has been saved is
+:::warning
+The **default setting** for the **Discovery Service Task** after it has been saved is
 **Activated!** It will **immediately actively** scan the network for data. This data is **read** but
 not amended!
+
+:::

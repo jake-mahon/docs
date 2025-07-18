@@ -30,7 +30,10 @@ There are 2 possibilities here:
 
 ![image4](/img/product_docs/passwordsecure/9.1/configuration/basic_view/start_and_login/image4.webp)
 
-**CAUTION:** Please ask your administrator if you are not sure which login details apply to you!
+:::warning
+Please ask your administrator if you are not sure which login details apply to you!
+:::
+
 
 #### Change to the web view of the Basic view
 

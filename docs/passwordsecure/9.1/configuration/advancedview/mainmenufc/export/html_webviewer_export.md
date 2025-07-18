@@ -97,7 +97,10 @@ stick, external HDD, …). The **HTML file** can be opened in a standard browser
 **Netwrix Password Secure – HTML WebViewer / Login** when started. The **database** and the **user
 name** are predefined. The user \*password is used for the login.
 
-**CAUTION:** The login mask is blocked for a period of time if the password is incorrectly entered!
+:::warning
+The login mask is blocked for a period of time if the password is incorrectly entered!
+:::
+
 
 1. Database: Predefined
 2. User: Predefined

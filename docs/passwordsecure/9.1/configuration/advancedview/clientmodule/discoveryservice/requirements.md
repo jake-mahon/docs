@@ -24,8 +24,11 @@ data. Before configuring the **Network Scan**, a password needs to be issued tha
 data. This user should be a member of admin for the corresponding group of domains. Otherwise, you
 can use a domain administrator.
 
-**CAUTION:** A corresponding **password** with **rights** for the **domains** must exist before
+:::warning
+A corresponding **password** with **rights** for the **domains** must exist before
 adding a **Network Scan**!
+:::
+
 
 ### Password
 

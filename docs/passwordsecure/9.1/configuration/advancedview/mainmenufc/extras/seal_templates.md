@@ -22,7 +22,10 @@ NOTE: A separate tab opens in the active module in order to edit the default tem
 
 ## Creating templates
 
-**CAUTION:** The right Can manage seal templates is required
+:::warning
+The right Can manage seal templates is required
+:::
+
 
 When creating seals, the seal can be saved as a template using the wizard. All templates saved in
 this way are listed in the overview of the seal templates. Furthermore, it is possible to edit

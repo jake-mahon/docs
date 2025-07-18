@@ -17,12 +17,18 @@ Before you execute the migration, you must ensure that the following preparation
   If that should be the case, **contact your users and make sure that they have to synchronize the
   Offline Add-on and the mobile app**.
 
-**CAUTION:** If the OfflineClient or App does have not yet synchronized items, they are lost after
+:::warning
+If the OfflineClient or App does have not yet synchronized items, they are lost after
 the migration mode is enabled!
+:::
+
 
 - Backup all certificates using the Netwrix Password Secure Server Manager
 
-**CAUTION:** Only certificate backups made through the Server Manager are valid!
+:::warning
+Only certificate backups made through the Server Manager are valid!
+:::
+
 
 ![Certificates](/img/product_docs/passwordsecure/9.1/configuration/server_manager/ecc_migration/certificates-ac-1-en.webp)
 
@@ -64,7 +70,10 @@ As written in the message, export all required certificates via the Netwrix Pass
 Manager. If you have multiple servers in use import the certificates via the Server Manager at the
 end of the migration process.
 
-**CAUTION:** If certificates are missing the migration cannot be continued.
+:::warning
+If certificates are missing the migration cannot be continued.
+:::
+
 
 #### Watch the migration process
 

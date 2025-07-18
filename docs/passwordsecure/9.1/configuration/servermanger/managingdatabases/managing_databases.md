@@ -40,9 +40,12 @@ If desired, the logbook, **notifications, session recordings** and also the **hi
 can be automatically cleaned up here. You merely have to enter how old the data needs to be before
 it is deleted. Logbook entries can be exported before the deletion process.
 
-**CAUTION:** It is important to note that the logbook is also used for the filter functions. If the
+:::warning
+It is important to note that the logbook is also used for the filter functions. If the
 logbook is regularly cleaned up, it is possible that the full functions of the filter will no longer
 be available.
+:::
+
 
 #### Database actions
 
@@ -69,10 +72,13 @@ Migration
 Once a database has been selected, the can be started via the ribbon. This also allows multiple
 version 7 databases to be merged into one.
 
-**CAUTION:** When the migration is started, the database is set to migration mode. For the duration
+:::warning
+When the migration is started, the database is set to migration mode. For the duration
 of the migration, it is not possible to log in to the database – users who are already logged in
 will be sent a corresponding message. The sessions will, however, remain open so that users can
 continue working as soon as the migration is complete.
+:::
+
 
 Certificates
 

@@ -38,10 +38,16 @@ field that is protected by a seal. This allows for the most sensitive configurat
 group can use the password without restrictions, but the same password is sealed for other users.
 The wizard assists users in applying seals, as well as in future maintenance.
 
-**CAUTION:** The complete data set is never sealed! Only the permission to view a password is
+:::warning
+The complete data set is never sealed! Only the permission to view a password is
 protected by a seal.
+:::
 
-**CAUTION:** Be Aware" Only records that are protected with a password can be sealed!
+
+:::warning
+Be Aware" Only records that are protected with a password can be sealed!
+:::
+
 
 ## Seal wizard
 
@@ -113,8 +119,11 @@ according to the authorization granted in the seal. A role that is added under "
 the **Read permission** on the record. When you add authorization permissions, these will include
 the **Read**, **Write**, **Delete**, and **Authorize** permission.
 
-**CAUTION:** All the roles that were once added to the seal can no longer be removed via the seal
+:::warning
+All the roles that were once added to the seal can no longer be removed via the seal
 logic. This is only possible directly via the authorizations of the data record!
+:::
+
 
 NOTE: It is possible to seal records for a user who is also authorized to issue a release. In this
 constellation, it is important to ensure that at least one other user is authorized to issue a
