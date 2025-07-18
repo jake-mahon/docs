@@ -17,8 +17,11 @@ The EX_OWATraffic job is located in the Outlook Web Access Job Group.
 View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** > **Outlook Web
 Access** > **EX_OWATraffic** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified ordeselected.
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified ordeselected.
 There is one that is deselected by default, as it is for troubleshooting purposes.
+:::
+
 
 ![Analysis Tasks for the EX_OWATraffic Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/owatrafficanalysis.webp)
 
@@ -42,8 +45,11 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Delete all History** option. This analysis task is for
+:::warning
+Do not select the **00. Delete all History** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 -   0. Deletes all History - LEAVE UNCHECKED – Clears all historical data
     - See the

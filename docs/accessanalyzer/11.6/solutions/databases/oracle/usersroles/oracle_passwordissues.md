@@ -14,7 +14,10 @@ passwords.
 
 The Oracle_PasswordIssues Job uses the PowerShell Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/usersroles/jobgroup20.webp)
 
@@ -30,8 +33,11 @@ topic for additional information.
 Navigate to the **Jobs** > **Oracle** > **1.Users and Roles** > **Oracle_PasswordIssues** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/usersroles/jobgroup21.webp)
 

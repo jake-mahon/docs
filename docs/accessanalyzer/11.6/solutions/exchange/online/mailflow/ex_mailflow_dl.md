@@ -13,8 +13,11 @@ The EX_Mailflow_DL job provides information around distribution list usage.
 View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online** >
 **EX_Mailflow_DL** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailflow_DL Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowdlanalysis.webp)
 

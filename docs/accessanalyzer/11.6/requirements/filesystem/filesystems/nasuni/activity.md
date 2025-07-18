@@ -47,8 +47,11 @@ Both the Key Name and the Key Passcode are required by the Activity Monitor in o
 the Nasuni Edge Appliance. Once the API Key has been generated, it is time to configure and enable
 monitoring with the Activity Monitor console.
 
-**NOTE:** Nasuni API key names are case sensitive. When providing them, ensure they are entered in
+:::note
+Nasuni API key names are case sensitive. When providing them, ensure they are entered in
 the exact same case as generated.
+:::
+
 
 ## Nasuni Management Console
 
@@ -70,5 +73,8 @@ Both the Key Name and the Key Passcode are required by the Activity Monitor in o
 the Nasuni Edge Appliance. Once the API Key has been generated, it is time to configure and enable
 monitoring with the Activity Monitor console.
 
-**NOTE:** Nasuni API key names are case sensitive. When providing them, ensure they are entered in
+:::note
+Nasuni API key names are case sensitive. When providing them, ensure they are entered in
 the exact same case as generated.
+
+:::

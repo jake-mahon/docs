@@ -37,5 +37,8 @@ Workflow
 2. (Optional) Configure the queries for the jobs in the 0.Collection Job Group
 3. Schedule the 0.Collection Job Group to run daily or as desired
 
-    **NOTE:** Running the 0.Collection Job Group is a prerequisite for the other job groups in the
+    :::note
+    Running the 0.Collection Job Group is a prerequisite for the other job groups in the
     Azure SQL solution
+    
+    :::

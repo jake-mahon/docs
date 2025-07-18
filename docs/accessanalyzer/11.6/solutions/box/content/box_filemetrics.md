@@ -9,14 +9,20 @@ sidebar_position: 10
 The Box_FileMetrics Job offers insight into content sizing, staleness, and ownership of files in the
 Box environment.
 
-**NOTE:** The staleness threshold can be customized within the **File Metrics Details** analysis.
+:::note
+The staleness threshold can be customized within the **File Metrics Details** analysis.
+:::
+
 
 ## Analysis Tasks for the Box_FileMetrics Job
 
 Navigate to **Box** > **2.Content** > **Box_FileMetrics** > **Configure** node and select
 **Analysis** to view analysis tasks.
 
-**CAUTION:** Most of these analysis tasks should never be modified and never be deselected.
+:::warning
+Most of these analysis tasks should never be modified and never be deselected.
+:::
+
 
 ![Analysis Tasks for the Box_FileMetrics Job](/img/product_docs/accessanalyzer/11.6/solutions/box/content/filemetricsanalysis.webp)
 

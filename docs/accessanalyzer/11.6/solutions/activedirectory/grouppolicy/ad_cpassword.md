@@ -20,7 +20,10 @@ once this policy has been removed.
 
 The AD_CPassword Job uses the PowerShell Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job
+:::warning
+Do not modify the query. The query is preconfigured for this job
+:::
+
 
 ![Query for the AD_CPassword Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/cpasswordquery.webp)
 

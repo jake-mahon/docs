@@ -15,8 +15,11 @@ bridgehead server, whether it is a global catalog, and the time server it syncs 
 Navigate to the **Active Directory > 5.Domains > AD_DCSummary > Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/domains/dcsummaryanalysis.webp)
 

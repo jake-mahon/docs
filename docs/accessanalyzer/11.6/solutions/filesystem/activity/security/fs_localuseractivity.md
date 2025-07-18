@@ -14,8 +14,11 @@ targeted file servers.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Security** >
 **FS_LocalUserActivity** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the LocalUserActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/security/localuseractivityanalysis.webp)
 

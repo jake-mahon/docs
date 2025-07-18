@@ -127,11 +127,14 @@ SELECT * FROM TestTab WHERE CharCol = CharCol2
     SELECT * FROM TestTab WHERE CharCol = CharCol2 COLLATE Albanian_CI_AI
     ```
 
-**NOTE:** Explicit collation (Albanian_CI_AI) is not one of any column, but after that it will
+:::note
+Explicit collation (Albanian_CI_AI) is not one of any column, but after that it will
 complete successfully. The collation of two columns have not been matched, instead the third rule of
 collation precedence was implemented. See the Microsoft
 [Collation Precedence](https://learn.microsoft.com/en-us/sql/t-sql/statements/collation-precedence-transact-sql)
 article for additional information.
+:::
+
 
 ### Resources
 

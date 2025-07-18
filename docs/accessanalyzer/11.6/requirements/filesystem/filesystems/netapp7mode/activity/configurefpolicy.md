@@ -8,9 +8,12 @@ sidebar_position: 30
 
 Select a method to configure the FPolicy for NetApp Data ONTAP 7-Mode devices:
 
-**_RECOMMENDED:_**
+:::info
+
 [Manually Configure FPolicy (Recommended Option)](#manually-configure-fpolicy-recommended-option) –
 A tailored FPolicy
+:::
+
 
 - If using vFilers the FPolicy must be created on the vFiler, and the Activity Monitor must target
   the vFiler. This is because FPolicy operates on the affected vFiler. Therefore, when executing

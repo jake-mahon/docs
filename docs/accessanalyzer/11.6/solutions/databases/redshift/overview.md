@@ -35,11 +35,14 @@ then an extra 16 GB of RAM are required (8x2=16).
 By default, the job is configured to use 10 threads, which can be adjusted based on available
 resources on the Enterprise Auditor server.
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
+
 
 Location
 

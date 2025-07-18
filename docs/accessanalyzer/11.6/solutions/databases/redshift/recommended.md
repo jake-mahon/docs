@@ -52,4 +52,7 @@ Run Order
 The 0.Collection Jobs must be run first and in order. The other Redshift sub-job groups can be run
 in any order, together or individually, after running the 0.Collection Job Group.
 
-**_RECOMMENDED:_** Run the solution at the top level.
+:::info
+Run the solution at the top level.
+
+:::

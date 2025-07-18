@@ -14,7 +14,10 @@ Monitoring (FSAC), and Sensitive Data Discovery Auditing scans. The Activity Mon
 also require an additional application, either Netwrix Activity Monitor or Netwrix Threat
 Prevention, to monitor the target environment.
 
-**NOTE:** Access Auditing and Sensitive Data Discovery Auditing support CIFS and NFSv3.
+:::note
+Access Auditing and Sensitive Data Discovery Auditing support CIFS and NFSv3.
+:::
+
 
 Ports and permissions vary based on the scan mode option selected as well as the target environment.
 
@@ -32,11 +35,14 @@ The following permissions are needed:
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 The following firewall ports are needed:
 
@@ -118,7 +124,10 @@ NetApp Data ONTAP
 - 7-Mode 7.3+
 - Cluster-Mode 8.2+
 
-    **NOTE:** The Resiliency feature introduced in ONTAP 9.0 is not supported.
+    :::note
+    The Resiliency feature introduced in ONTAP 9.0 is not supported.
+    :::
+
 
 See the following topics for target environment requirements:
 

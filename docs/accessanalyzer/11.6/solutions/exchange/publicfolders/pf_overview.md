@@ -15,8 +15,11 @@ time a public folder received mail.
 View the analysis tasks by navigating to the **Exchange** > **5. Public Folders** >
 **PF_Overview** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_Overview Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/overviewanalysis.webp)
 

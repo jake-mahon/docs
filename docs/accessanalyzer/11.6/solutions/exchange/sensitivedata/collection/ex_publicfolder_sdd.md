@@ -17,8 +17,11 @@ Special Dependency
       [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
       topic for additional information
 
-    **NOTE:** Though the job is visible within the console, it requires an additional installer
+    :::note
+    Though the job is visible within the console, it requires an additional installer
     package before data collection occurs.
+    :::
+
 
 ## Queries for the EX_PublicFolder_SDD Job
 
@@ -56,7 +59,10 @@ Data Collector to scan for sensitive data.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The EWS Public Folder Data
 Collector Wizard opens.
 
-**CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::warning
+Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::
+
 
 ![EWS Public Folder Data Collector Wizard SDD Options page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/sddoptions.webp)
 
@@ -65,8 +71,11 @@ Sensitive data matches can be limited to reduce storage space. See the
 [EWSPublicFolder: SDD Options](/docs/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/sddoptions.md) topic
 for additional information.
 
-**NOTE:** By default, discovered sensitive data strings are not stored in the Enterprise Auditor
+:::note
+By default, discovered sensitive data strings are not stored in the Enterprise Auditor
 database.
+:::
+
 
 ![EWS Public Folder Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/criteria.webp)
 
@@ -98,7 +107,10 @@ page.  See the
 [EWSPublicFolder: Results](/docs/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/results.md) topic
 for additional information.
 
-**NOTE:** By default, all categories are selected under sensitive data.
+:::note
+By default, all categories are selected under sensitive data.
+:::
+
 
 **Step 8 –** Navigate to the Summary page, click **Finish** to save any setting modifications or
 click **Cancel** if no changes were made. Then click **OK** to close the Query Properties window

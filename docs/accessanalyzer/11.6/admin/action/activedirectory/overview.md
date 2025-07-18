@@ -10,9 +10,12 @@ Use the Active Directory Action Module to make bulk changes to objects in Micros
 (AD) such as deleting users or changing group memberships. It is available with a special Enterprise
 Auditor license.
 
-**CAUTION:** Be careful when using this action module. Make sure that only the changes required are
+:::warning
+Be careful when using this action module. Make sure that only the changes required are
 applied and only to those target systems desired. Actions perform their functions on all rows in a
 table.
+:::
+
 
 Enterprise Auditor action modules contain one or more selectable operations. Each operation performs
 its function on a single object per row from the source table defined in the action.

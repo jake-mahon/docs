@@ -12,7 +12,10 @@ This job collects Db2 database level permissions from all the targeted Db2 datab
 
 The 2-Db2_PermissionScan Job uses the SQL Data Collector for queries.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/collection/permissionsscanquery.webp)
 
@@ -37,8 +40,11 @@ see
 Navigate to the **Databases** > **0.Collection** > **Db2** > **2-Db2_PermissionScan** >
 **Configure** node and select Analysis to view the Analysis Tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/collection/permissionsscananalysis.webp)
 

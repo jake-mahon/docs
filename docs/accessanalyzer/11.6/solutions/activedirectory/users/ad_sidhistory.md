@@ -16,8 +16,11 @@ with administrative rights, both of which may be indicators of compromise.
 Navigate to the **Active Directory** > **2.Users** > **AD_SIDHistory** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_SIDHistory Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/sidhistoryanalysis.webp)
 

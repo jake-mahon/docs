@@ -15,7 +15,10 @@ functional levels, and types and directions of trusts.
 The AD_DomainInfo Job uses the ActiveDirectory Data Collector and the LDAP Data Collector for the
 following queries:
 
-**CAUTION:** Do not modify the queries. The queries are preconfigured for this job.
+:::warning
+Do not modify the queries. The queries are preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/domains/domaininfoquery.webp)
 
@@ -27,16 +30,22 @@ The queries for this job are:
 - Trust Filtering – Queries the host specified to retrieve domain trust information
 - dSHeuristics – Returns dSHeuristics Unicode string using LDAP
 
-**NOTE:** See the Active Directory Data Collector and LDAP Data Collector sections for additional
+:::note
+See the Active Directory Data Collector and LDAP Data Collector sections for additional
 information
+:::
+
 
 ## Analysis Tasks for the AD_DomainInfo Job
 
 Navigate to the **Active Directory > 5.Domains > AD_DomainInfo > Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/domains/domaininfoanalysis.webp)
 

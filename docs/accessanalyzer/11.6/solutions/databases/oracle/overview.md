@@ -50,11 +50,14 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For example, if the job is
 configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
+
 
 Location
 

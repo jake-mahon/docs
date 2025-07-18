@@ -14,8 +14,11 @@ identified to contain sensitive information from targeted file servers.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Suspicious
 Activity** > **FS_SensitiveDataActivity** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_SensitiveDataActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/sensitivedataactivityanalysis.webp)
 

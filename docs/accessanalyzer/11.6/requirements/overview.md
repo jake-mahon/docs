@@ -24,8 +24,11 @@ Core Components
   Enterprise Auditor Console server and is a browser-based, interactive dashboard for exploring
   permissions, activity, and sensitive data.
 
-    **NOTE:** The Access Information Center is often installed on the same server as the Enterprise
+    :::note
+    The Access Information Center is often installed on the same server as the Enterprise
     Auditor application, but it can be installed separately.
+    :::
+
 
 Add-on Component
 
@@ -135,7 +138,10 @@ The following permissions are required to install and use the application:
 
 - Membership in the local Administrators group for the Enterprise Auditor Console server
 
-    **NOTE:** Role based access can be enabled for a least privilege user model.
+    :::note
+    Role based access can be enabled for a least privilege user model.
+    :::
+
 
 Supported Browsers
 

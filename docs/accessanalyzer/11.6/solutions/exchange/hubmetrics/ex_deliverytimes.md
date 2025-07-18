@@ -13,8 +13,11 @@ The EX_DeliveryTimes Job provides information around organizational and server-l
 View the analysis tasks by navigating to the **Exchange** > **1. HUB Metrics** >
 **EX_DeliveryTimes** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_DeliveryTimes Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/deliverytimesanalysis.webp)
 

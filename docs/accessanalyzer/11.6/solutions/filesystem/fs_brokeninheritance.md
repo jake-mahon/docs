@@ -37,8 +37,11 @@ topic for additional information.
 View the analysis tasks by navigating to the **FileSystem** > **3.Broken Inheritance** >
 **FS_BrokenInheritance** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified and or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+:::
+
 
 ![Analysis Tasks for the FS_BrokenInheritance Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/brokeninheritanceanalysis.webp)
 

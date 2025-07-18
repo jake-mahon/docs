@@ -26,9 +26,12 @@ dynamic host list:
 
 - Exchange MB Servers
 
-**NOTE:** Default dynamic host lists are populated from hosts in the Host Master Table which meet
+:::note
+Default dynamic host lists are populated from hosts in the Host Master Table which meet
 the host inventory criteria for the list. Ensure the appropriate host lists have been populated
 through host inventory results.
+:::
+
 
 Connection Profile
 
@@ -47,7 +50,10 @@ Schedule Frequency
 This job group has been designed to run daily to collect information about the size of databases in
 the environment.
 
-**_RECOMMENDED:_** Run this Job Group at 3:00 AM.
+:::info
+Run this Job Group at 3:00 AM.
+:::
+
 
 History Retention
 
@@ -71,8 +77,11 @@ Analysis Configuration
 
 The 3. Databases Job Group should be run with the default analysis configurations.
 
-**CAUTION:** Most of the analysis tasks are preconfigured and should never be modified or
+:::warning
+Most of the analysis tasks are preconfigured and should never be modified or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+:::
+
 
 The following analysis task should not be deselected, but the parameters can be modified:
 

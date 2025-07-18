@@ -35,7 +35,10 @@ here. To change the order, select an operation and use the **Down** and **Up** b
 
 ## Delete Objects
 
-**CAUTION:** Once deleted, objects from Active Directory cannot be restored.
+:::warning
+Once deleted, objects from Active Directory cannot be restored.
+:::
+
 
 Select this operation to delete objects from Active Directory, such as users, groups, or computers.
 The source table determines which objects are deleted from the Active Directory. Therefore, this

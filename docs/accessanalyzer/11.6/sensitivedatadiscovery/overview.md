@@ -35,15 +35,21 @@ solutions:
 - File System Solution
 - SharePoint Solution
 
-**NOTE:** Changes made in the Sensitive Data Criteria Editor are global for Sensitive Data Discovery
+:::note
+Changes made in the Sensitive Data Criteria Editor are global for Sensitive Data Discovery
 in Enterprise Auditor. In other words, any changes to criteria affects all solutions using the
 Sensitive Data Discovery Add-on.
+:::
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
+
 
 See the
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)

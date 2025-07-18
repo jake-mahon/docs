@@ -11,5 +11,8 @@ output. It is a wizard page for the **Edit Profile** and **Create a New Profile*
 
 ![Command Line Utility Data Collector Wizard Define Fields page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/commandlineutility/definefields.webp)
 
-**CAUTION:** Do not modify this page without guidance from Netwrix or the data may not be processed
+:::warning
+Do not modify this page without guidance from Netwrix or the data may not be processed
 by Enterprise Auditor.
+
+:::

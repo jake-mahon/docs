@@ -15,8 +15,11 @@ Navigate to the **Jobs** > **SharePoint** > **8.M365** >
 **SP_TeamsExternalUserActivity** >**Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_TeamsExternalUserActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/m365/teamsexternaluseractivityanalysis.webp)
 

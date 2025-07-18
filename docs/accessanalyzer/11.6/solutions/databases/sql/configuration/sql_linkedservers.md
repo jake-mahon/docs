@@ -16,8 +16,11 @@ handle distributed queries in SQL and Azure SQL server .
 Navigate to the **Databases** > Jobs > SQL > 4.Configuration > SQL_LinkedServers Job >Configure node
 and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 pre-configured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/analysistasks.webp)
 

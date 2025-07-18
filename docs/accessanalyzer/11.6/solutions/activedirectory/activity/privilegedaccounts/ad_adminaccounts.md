@@ -13,8 +13,11 @@ The AD_AdminAccounts Job shows all actions taken by domain administrators within
 Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **Privileged Accounts** >
 **AD_AdminAccounts** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_AdminAccounts Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/adminaccountsanalysis.webp)
 
@@ -50,7 +53,10 @@ the bottom of the SQL Script Editor. Follow the steps to customize an analysis t
 **Step 2 –** In the Analysis Selection view, select the **Summarizes Administrative Account
 Activity** analysis task and click **Analysis Configuration**. The SQL Script Editor opens.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 ![Summarizes Administrative Account Activity analysis task in the SQL Script Editor](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/adminaccountssqlscripteditor.webp)
 

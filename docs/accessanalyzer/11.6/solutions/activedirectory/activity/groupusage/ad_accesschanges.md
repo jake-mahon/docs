@@ -15,8 +15,11 @@ highlighted, to show potential issues in access sprawl and provisioning.
 Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **Group Usage** >
 **AD_AccessChanges** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_AccessChanges Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/groupusage/accesschangesanalysis.webp)
 

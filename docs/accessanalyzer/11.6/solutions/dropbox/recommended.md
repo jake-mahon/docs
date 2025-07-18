@@ -60,8 +60,11 @@ The 0.Collection jobs must be run first and in order. Run the **1-Dropbox_Permis
 then the **2-Dropbox_Permissions Bulk Import** job. For the sensitive data jobs, run the
 **1-Dropbox_SDD Scan** job and then the **2-Dropbox_SDD Bulk Import** job.
 
-**_RECOMMENDED:_** When running the sensitive data jobs, disable the permissions jobs, and vice
+:::info
+When running the sensitive data jobs, disable the permissions jobs, and vice
 versa.
+:::
+
 
 After running the 0.Collection jobs, the other Dropbox solution job groups can be run in any order.
 Best practice is to run at the solution level.
@@ -77,8 +80,11 @@ Analysis Configuration
 
 This solution should be run with the default analysis configuration.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this solution.
+:::
+
 
 Though the analysis tasks should not be deselected the time frame used to define staleness can be
 modified:
@@ -109,7 +115,9 @@ Scan** job).
 
 **Step 3 –** Run the desired corresponding analysis and reporting sub-job groups.
 
-_Remember,_ prior to running the Dropbox solution for the first time, it is necessary to generate an
+:::tip
+Remember, prior to running the Dropbox solution for the first time, it is necessary to generate an
 access token to be used in the Connection Profile. This only needs to be done once. See the
 [Configure the Dropbox Access Query](/docs/accessanalyzer/11.6/solutions/dropbox/collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query)
 topic for additional information.
+:::

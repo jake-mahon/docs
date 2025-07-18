@@ -13,8 +13,11 @@ The AWS_Roles job provides details on roles in the AWS IAM environment.
 Navigate to the **AWS** > **4.Roles** > **AWS_Roles** > **Configure** node and select **Analysis**
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_Roles Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/roles/rolesanalysis.webp)
 

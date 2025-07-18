@@ -6,7 +6,10 @@ sidebar_position: 70
 
 # Entra ID Solution
 
-**NOTE:** The Entra ID solution is for scanning Microsoft Entra ID, formerly Azure Active Directory.
+:::note
+The Entra ID solution is for scanning Microsoft Entra ID, formerly Azure Active Directory.
+:::
+
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the

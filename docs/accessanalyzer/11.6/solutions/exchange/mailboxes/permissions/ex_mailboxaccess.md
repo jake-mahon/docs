@@ -15,8 +15,11 @@ Permissions.
 View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** > **Permissions** >
 **EX_MailboxAccess** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailbox Access Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/mailboxaccessanalysis.webp)
 
@@ -54,10 +57,13 @@ The following analysis tasks is selected to export data to the AIC:
 - 13.AIC Import - Export Exchange Permissions – Exports delegates, Send AS rights, mailbox
   permissions, and Active Directory rights to the Access Information Center
 
-    **NOTE:** This task sends data to the Access Information Center during future job executions.
+    :::note
+    This task sends data to the Access Information Center during future job executions.
     See the User Reports and the Group Reports topics in the
     [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)
     for additional information.
+    :::
+
 
 In addition to the tables and views created by the analysis tasks, the EX_MailboxAccess Job produces
 the following pre-configured reports:

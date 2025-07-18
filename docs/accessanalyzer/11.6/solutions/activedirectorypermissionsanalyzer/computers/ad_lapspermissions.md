@@ -14,8 +14,11 @@ and access to computer objects that may lead to unintended access to LAPS attri
 Navigate to the **Active Directory Permissions Analyzer** > **4.Computers** >
 **AD_LAPSPermissions** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_LAPSPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/computers/lapspermissionsanalysis.webp)
 

@@ -14,8 +14,11 @@ discovered in the targeted SQL or Azure SQL servers based on the selected scan c
 Navigate to the **Databases** > SQL > 5.Sensitve Data > SQL_SensitiveData > Configure node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/sensitivedata/sqljobgroup47.webp)
 

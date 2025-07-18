@@ -14,8 +14,11 @@ stale users within the environment based on the last 30 days of activity events.
 Navigate to **Box** > **1.Activity** > **Usage Statistics** > **Box_Users_MostActive** >
 **Configure** node and select **Analysis** to view analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Users_MostActive Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/usagestatistics/usersmostactiveanalysis.webp)
 

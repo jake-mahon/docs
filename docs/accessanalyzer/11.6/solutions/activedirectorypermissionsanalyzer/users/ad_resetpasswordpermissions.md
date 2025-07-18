@@ -17,8 +17,11 @@ Navigate to the **Active Directory Permissions Analyzer** > **1.Users** >
 **AD_ResetPasswordPermissions** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_ResetPasswordPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/users/resetpasswordpermissionsanalysis.webp)
 

@@ -45,7 +45,10 @@ Using the radio buttons, select where the execution of the applet will take plac
 - Select Host Lists – Opens the Select Host Lists window displaying all the available hosts to
   choose from. If more than one list is selected, scanning is distributed across each host.
 
-**_RECOMMENDED:_**
+:::info
+
+:::
+
 
 It is best practice in global implementations to utilize a specific remote server or proxy scanner
 that is located in the same data center as the target hosts. This is particularly beneficial if the

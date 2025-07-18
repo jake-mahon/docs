@@ -38,9 +38,12 @@ Not supported.
 
 Schedule Frequency
 
-**_RECOMMENDED:_** Schedule the .Entra ID Inventory job group to run once a day. If there are
+:::info
+Schedule the .Entra ID Inventory job group to run once a day. If there are
 frequent Microsoft Entra ID changes within the target environment, then it can be executed more
 often. It is best to rerun it anytime Entra ID changes might have occurred.
+:::
+
 
 Run at the Solution Level
 

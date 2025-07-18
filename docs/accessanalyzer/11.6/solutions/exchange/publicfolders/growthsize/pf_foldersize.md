@@ -13,8 +13,11 @@ The PF_FolderSize job provides details related to public folder sizing and growt
 View the analysis tasks by navigating to the **Exchange** > **5. Public Folders** > **Growth and
 Size** > **PF_FolderSize** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_FolderSize Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/growthsize/foldersizeanalysis.webp)
 
@@ -37,8 +40,11 @@ The following analysis tasks are selected by default:
 The following analysis task clears table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Delete all Historical Data** option. This analysis task is for
+:::warning
+Do not select the **00. Delete all Historical Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 - 00.Delete all Historical Data
     - See the

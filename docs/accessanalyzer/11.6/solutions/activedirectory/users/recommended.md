@@ -26,8 +26,11 @@ Dependencies
       [PasswordSecurity: Dictionaries](/docs/accessanalyzer/11.6/admin/datacollector/passwordsecurity/dictionaries.md)
       topic for additional information.
 
-    **_RECOMMENDED:_** If this job is not to be used, disable the job to prevent execution when the
+    :::info
+    If this job is not to be used, disable the job to prevent execution when the
     job group is executed.
+    :::
+
 
 Targeted Host(s)
 
@@ -41,9 +44,12 @@ Connection Profile
 Only the **AD_WeakPasswords** Job requires a Connection Profile. It must be set directly on the
 **AD_WeakPasswords** Job (through the Job Properties window) with Domain Administrator privileges.
 
-**NOTE:** The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
+:::note
+The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
 [Active Directory Auditing Configuration](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/access.md)
 topic for additional information.
+:::
+
 
 Schedule Frequency
 
@@ -57,7 +63,10 @@ Run at the Job Group Level
 Run the jobs in the **2.Users** Job Group together and in order by running the entire job group,
 instead of the individual jobs.
 
-_Remember,_ if the **AD_WeakPassword** Job is not to be executed, it can be disabled.
+:::tip
+Remember, if the **AD_WeakPassword** Job is not to be executed, it can be disabled.
+:::
+
 
 Analysis Configuration
 
@@ -71,8 +80,11 @@ Some analysis tasks have customizable parameters:
 
     - Customize within **.Active Directory Inventory** > **3-AD_Exceptions** Job analysis tasks
 
-        **NOTE:** Changes to an exception’s definition will affect all jobs dependent upon that
+        :::note
+        Changes to an exception’s definition will affect all jobs dependent upon that
         exception as well as all Access Information Center Exceptions reports.
+        :::
+
 
 Workflow
 
@@ -85,9 +97,12 @@ successfully run.
 
     - ONE DOMAIN CONTROLLER PER DOMAIN
 
-    **NOTE:** Default dynamic host lists are populated from hosts in the Host Master Table that meet
+    :::note
+    Default dynamic host lists are populated from hosts in the Host Master Table that meet
     the host inventory criteria for the list. Ensure the appropriate host lists have been populated
     through host inventory results.
+    :::
+
 
 **Step 3 –** Set a Connection Profile on the job that runs the data collection.
 

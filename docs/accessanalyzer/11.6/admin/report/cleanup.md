@@ -10,7 +10,10 @@ When deleting a job or job group, the Delete Job and Delete Group wizards allow 
 published reports contained in the jobs that are being deleted. Follow the steps to delete a job or
 job group that contains published reports.
 
-**CAUTION:** Deleted objects cannot be restored.
+:::warning
+Deleted objects cannot be restored.
+:::
+
 
 ![Delete Group on right-click menu](/img/product_docs/accessanalyzer/11.6/admin/report/jobstree.webp)
 
@@ -22,7 +25,10 @@ job group that contains published reports.
 **Step 2 –** On the Delete Job/Group page of the wizard, confirm it shows the correct job or group
 that you want to delete, then click **Next**.
 
-**NOTE:** If there are no published reports, clicking **Next** starts the deletion (skip to step 4).
+:::note
+If there are no published reports, clicking **Next** starts the deletion (skip to step 4).
+:::
+
 
 ![Delete Published Reports wizard page](/img/product_docs/accessanalyzer/11.6/admin/report/reporttree.webp)
 

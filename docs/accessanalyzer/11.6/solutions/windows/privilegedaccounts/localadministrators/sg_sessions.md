@@ -14,7 +14,10 @@ could be leveraged in a Pass the Hash attack.
 
 The SG_Sessions job uses the SystemInfo Data Collector for the following queries:
 
-**CAUTION:** The queries) are preconfigured for this job. Never modify the queries.
+:::warning
+The queries) are preconfigured for this job. Never modify the queries.
+:::
+
 
 ![Queries for the SG_Sessions Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/sessionsqueries.webp)
 

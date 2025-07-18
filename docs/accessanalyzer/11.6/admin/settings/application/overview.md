@@ -47,7 +47,10 @@ include:
     - Records errors and the time of occurrence
     - Records job completion time
 
-**_RECOMMENDED:_** Set the log level to **Warning**.
+:::info
+Set the log level to **Warning**.
+:::
+
 
 The other log levels are designed to assist with troubleshooting job execution issues. The Debug
 level is only recommended when experiencing problems. After the problem is fixed or the Application
@@ -112,7 +115,10 @@ Console.
 - Automatically correct invalid column names – Checks for and corrects column names which contain
   characters SQL cannot handle
 
-    **_RECOMMENDED:_** Leave both options selected.
+    :::info
+    Leave both options selected.
+    :::
+
 
 - Save filters and grouping on data grids – Maintains filters configured for a data grid for the
   next viewing. If not selected, filtered data grids reset between viewings.
@@ -139,14 +145,20 @@ when the database is configured to use Simple Recovery Model.
 - Compact Database Transaction Log – If selected, every time the Enterprise Auditor application is
   closed, the Database Transaction Log is compacted
 
-    **_RECOMMENDED:_** In most environments, it is recommended to leave this option selected. If a
+    :::info
+    In most environments, it is recommended to leave this option selected. If a
     scheduled task ends while multiple tasks are still running, the process of compacting the
     database freezes it and causes the running tasks to fail.
+    :::
+
 
 - Run Post Processing SQL Script to Set Host Status – If selected, this option ascribes the values
   of SUCCESS, WARNING, or ERROR to indicate what happened on that host during job execution
 
-    **_RECOMMENDED:_** It is recommended that this option be left selected.
+    :::info
+    It is recommended that this option be left selected.
+    :::
+
 
 Application Exit Options
 

@@ -10,11 +10,14 @@ Enterprise Auditor 11.6 uses the Upgrade Wizard. For upgrades from versions of E
 that are no longer supported, contact [Netwrix Support](https://www.netwrix.com/support.html) for
 assistance.
 
-**NOTE:** If any customizations have been done by a Netwrix Engineer, please ensure custom work is
+:::note
+If any customizations have been done by a Netwrix Engineer, please ensure custom work is
 not lost during the upgrade process. While using the Upgrade Wizard, customizations are archived
 prior to solution upgrades. These archives are available after the solution upgrades have been
 completed. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
 information.
+:::
+
 
 The purpose of this document is to provide the basic steps needed for upgrading Enterprise Auditor
 and the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for

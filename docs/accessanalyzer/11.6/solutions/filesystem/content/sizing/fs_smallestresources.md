@@ -14,8 +14,11 @@ servers.
 View the analysis tasks by navigating to the **FileSystem** > **4.Content** > **Sizing** >
 **FS_SmallestResources** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_SmallestResources Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/content/sizing/smallestresourcesanalysis.webp)
 

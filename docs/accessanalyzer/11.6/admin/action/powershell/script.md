@@ -52,7 +52,10 @@ The options are:
 
 - Delete – Delete a selected parameter
 
-**NOTE:** The built-in default parameters cannot be edited or deleted.
+:::note
+The built-in default parameters cannot be edited or deleted.
+:::
+
 
 ### Add/Edit Variable Window
 

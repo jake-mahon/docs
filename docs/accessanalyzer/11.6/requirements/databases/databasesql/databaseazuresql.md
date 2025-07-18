@@ -12,10 +12,13 @@ leveraged by AzureSQL to return the required audit logs. See the
 [Auditing for Azure SQL Database and Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/azure-sql/database/auditing-overview?view=azuresql)
 Microsoft Knowledge Base article for additional information.
 
-**_RECOMMENDED:_** It is recommended to create a new user when leveraging a least privilege access
+:::info
+It is recommended to create a new user when leveraging a least privilege access
 model to access the AzureSQL database because the user must exist in the master database and all
 target database(s). A least privilege access model is one that uses the bare minimum privileges
 required to carry out collections for the AzureSQL data collector.
+:::
+
 
 The following role and permission are required for the Least Privilege Model:
 
@@ -23,7 +26,10 @@ The following role and permission are required for the Least Privilege Model:
 - View Database Performance State permission
 - Control permission on target database(s)
 
-    **NOTE:** Control permission must be granted on any database you wish to collect data for.
+    :::note
+    Control permission must be granted on any database you wish to collect data for.
+    :::
+
 
 Follow the steps to configure the least privilege access model for AzureSQL collections.
 

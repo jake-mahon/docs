@@ -21,8 +21,11 @@ topic for additional information.
 View the analysis tasks by navigating to the **.Active Directory Inventory** > **2-AD_Changes** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/changesanalysis.webp)
 
@@ -146,7 +149,10 @@ and select **Analysis**.
 
 ![Notification Data Analysis Module SMTP properties page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/notificationanalysissmtp.webp)
 
-**CAUTION:** Do not make changes to the pages preceding the SMTP page.
+:::warning
+Do not make changes to the pages preceding the SMTP page.
+:::
+
 
 **Step 3 –** Use the **Next** button to navigate to the email configuration SMTP page.
 

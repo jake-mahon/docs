@@ -13,7 +13,10 @@ Use Groups Details page to edit selected group attributes.
 Highlight the attribute to edit. Add or delete attributes using the buttons to the right of Insert
 field.
 
-**NOTE:** The options at the bottom of the page vary based on the highlighted attribute.
+:::note
+The options at the bottom of the page vary based on the highlighted attribute.
+:::
+
 
 - Insert field – Use the drop-down list to select a field (column) from the source table. Then,
   click the blue arrow to insert the item into the Value box.

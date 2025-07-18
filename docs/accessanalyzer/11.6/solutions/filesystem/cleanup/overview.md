@@ -11,8 +11,11 @@ servers that can be cleaned up. Use this job group to assess and remediate stale
 the data collected by the **0.Collection** job group. The Cleanup job group runs independently from
 the rest of the File System solution.
 
-**NOTE:** The Cleanup job group requires additional licenses to function. For information, contact
+:::note
+The Cleanup job group requires additional licenses to function. For information, contact
 your Netwrix representative.
+:::
+
 
 ![Cleanup Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/jobstree.webp)
 

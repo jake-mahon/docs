@@ -20,7 +20,10 @@ topic for additional information.
 Navigate to the **Jobs** > **SP_DropTables** > **Configure** node and select **Analysis** to view
 the analysis tasks.
 
-**CAUTION:** Applying these analysis tasks will result in the deletion of collected data.
+:::warning
+Applying these analysis tasks will result in the deletion of collected data.
+:::
+
 
 ![SP_DropTables Job Analysis tasks](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/droptablesanalysis.webp)
 
@@ -46,7 +49,10 @@ status will be visible from the **Running Jobs** node.
 **Step 3 –** When the job has completed, return to the Analysis Selection Pane and click **Select
 All** to deselect these analysis tasks.
 
-**_RECOMMENDED:_** Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::info
+Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::
+
 
 All of these tables have been dropped from the SQL Server database and the data is no longer
 available.

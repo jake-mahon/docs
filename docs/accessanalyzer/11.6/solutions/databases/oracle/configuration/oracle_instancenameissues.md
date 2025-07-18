@@ -15,8 +15,11 @@ V-61413 – Oracle instance name or SID should not contain Oracle version number
 Navigate to the **Jobs > Databases > Oracle > 4.Configuration > Oracle_InstanceNameIssues >
 Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/configuration/analysisinstancenameissues.webp)
 

@@ -9,10 +9,13 @@ sidebar_position: 30
 The Publish Security page of the Report Configuration wizard contains the account names of users
 with inherited permissions to view the generated report.
 
-**NOTE:** This page is only enabled if Role Based Access is configured for the Enterprise Auditor
+:::note
+This page is only enabled if Role Based Access is configured for the Enterprise Auditor
 Console. See the
 [Role Based Access](/docs/accessanalyzer/11.6/admin/settings/access/rolebased/overview.md)
 topic for additional information.
+:::
+
 
 ![Publish Security page](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/publishsecurity.webp)
 
@@ -37,5 +40,8 @@ then click **OK**.
 
 The selected account is added to the list with a Role of Report Viewer.
 
-**NOTE:** The permission for accounts that are not Inherited can also be removed using the wizard.
+:::note
+The permission for accounts that are not Inherited can also be removed using the wizard.
 To remove an account, select it and then click **Remove**.
+
+:::

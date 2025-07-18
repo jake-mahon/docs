@@ -15,8 +15,11 @@ Navigate to the **Jobs** > **Databases** > **Db2** > **Permissions** >
 **Db2_EffectivePermissions** > **Configure** node and select **Analysis** to view the Analysis
 Tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Db2 _EffectivePermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/permissions/effectivepermissionsanalysis.webp)
 

@@ -10,9 +10,12 @@ The Auto Action analysis module executes a pre-configured action as part of the 
 execution. To add an action to an analysis via the Auto Action analysis module, the action must
 already exist and it must reside within the current job.
 
-**NOTE:** The Actions node can also automatically execute actions. See the
+:::note
+The Actions node can also automatically execute actions. See the
 [Action Modules](/docs/accessanalyzer/11.6/admin/action/overview.md)
 topic for additional information.
+:::
+
 
 ## Select Action Window
 

@@ -86,8 +86,11 @@ and click **Create policy**.
 
 **Step 7 –** Click **Create Policy**.
 
-**NOTE:** If the designated scanning account is not in Root (Master Account), create a second policy
+:::note
+If the designated scanning account is not in Root (Master Account), create a second policy
 in the Master Account with the following JSON definition:
+:::
+
 
 [Copy](javascript:void(0);)
 
@@ -117,8 +120,11 @@ listing IAM users.
 The following steps will need to be completed in each target account. For this, you will need the
 Account ID of the designating scanning account.
 
-**NOTE:** If the scanning account is also a target account, be sure to complete these steps for the
+:::note
+If the scanning account is also a target account, be sure to complete these steps for the
 scanning account as well.
+:::
+
 
 **Step 1 –** Sign into the Identity and Access Management Console (IAM) as an administrator of the
 target account.
@@ -193,8 +199,11 @@ scanning account.
 }
 ```
 
-**NOTE:** Replace `ROLENAME` with the name of the role that was created. If the `ROLENAME` is
+:::note
+Replace `ROLENAME` with the name of the role that was created. If the `ROLENAME` is
 different in each account, then a policy will need to be created for each distinct role name.
+:::
+
 
 **Step 5 –** Click **Review Policy**.
 

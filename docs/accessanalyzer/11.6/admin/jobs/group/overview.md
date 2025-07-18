@@ -36,8 +36,11 @@ The two types of job groups in Enterprise Auditor are:
 - User Created – Job group description of job description only provides generic information and
   options
 
-**NOTE:** Every job group’s description includes options for creating a group, opening the Instant
+:::note
+Every job group’s description includes options for creating a group, opening the Instant
 Job Library, and creating a job.
+:::
+
 
 Pre-configured job group description pages provide users with shortcuts and links to many of the
 functions that can be accessed in the Jobs Tree in the Navigation Pane.
@@ -92,8 +95,11 @@ following information:
 
 - Contents – Shows the job groups and jobs contained within the currently selected job group
 
-**NOTE:** If applicable, the page shows special instructions for which hosts need to be targeted for
+:::note
+If applicable, the page shows special instructions for which hosts need to be targeted for
 proper job group execution.
+:::
+
 
 ### Job Settings: Inherited and Directly Applied
 

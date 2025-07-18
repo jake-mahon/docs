@@ -13,8 +13,11 @@ The EX_StoreSizes job provides analysis and reporting around database sizing bas
 View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** >
 **Sizing** > **EX_StoreSizes** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_StoreSizes Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/sizing/storesizesanalysis.webp)
 

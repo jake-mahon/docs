@@ -8,9 +8,12 @@ sidebar_position: 80
 
 The Box Data Collector audits access, group membership, and content within a Box enterprise.
 
-**NOTE:** If the Box Data Collector is used in a new job, outside of the Box Solution, it is
+:::note
+If the Box Data Collector is used in a new job, outside of the Box Solution, it is
 necessary to deselect the **Skip Hosts that do not respond to PING** option on the job’s
 **Properties** > **Performance** tab.
+:::
+
 
 The Box Data Collector has been preconfigured within the Box Solution. Both this data collector and
 the solution are available with a special Enterprise Auditor license. See the

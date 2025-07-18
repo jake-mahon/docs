@@ -17,8 +17,11 @@ The EX_ActiveSync job is located in the ActiveSync job group.
 View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** > **ActiveSync** >
 **EX_ActiveSync** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+:::
+
 
 ![Analysis Tasks for the EX_ActiveSync Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/activesyncanalysis.webp)
 
@@ -46,8 +49,11 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from the analysis jobs. This analysis task should
 remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Deletes all History** option. This analysis task is for
+:::warning
+Do not select the **00. Deletes all History** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 -   0. Delete all History
 

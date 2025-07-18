@@ -15,8 +15,11 @@ contact owners of shares containing data for which cleanup is pending.
 Navigate to the **FileSystem** > **Cleanup** > **2. Notify** > **FS_NotifyOwners** > **Configure**
 node and select **Actions** to view the action tasks.
 
-**CAUTION:** Do not enable the action unless it is required. Disable the action after execution to
+:::warning
+Do not enable the action unless it is required. Disable the action after execution to
 prevent making unintended and potentially harmful changes to Active Directory.
+:::
+
 
 ![Action Tasks for the FS_NotifyOwners Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/notifyownersaction.webp)
 
@@ -44,8 +47,11 @@ Properties** to view the Action Properties page.
 
 **Step 3 –** Click **Configure Action** to open the Send Mail Action Module Wizard.
 
-_Remember,_ the FS_CleanupAssessment job must be run before the Send Mail Action Module Wizard can
+:::tip
+Remember, the FS_CleanupAssessment job must be run before the Send Mail Action Module Wizard can
 be opened.
+:::
+
 
 ![Send Mail Action Module Wizard Properties page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/sendmailwizardproperties.webp)
 
@@ -53,8 +59,11 @@ be opened.
 
 - Carbon copy (CC) – Add the recipient emails within this field
 
-    **NOTE:** Email recipients may also be added within the Notification node under the Global
+    :::note
+    Email recipients may also be added within the Notification node under the Global
     Settings pane.
+    :::
+
 
 ![Send Mail Action Module Wizard Message page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/sendmailwizardmessage.webp)
 

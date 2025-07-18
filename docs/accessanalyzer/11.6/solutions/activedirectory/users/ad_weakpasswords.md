@@ -66,7 +66,10 @@ Collector Wizard opens.
 
 ![Password Security Data Collection Wizard Scan options page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/optionsweakpassword.webp)
 
-**CAUTION:** Read the warning prior to enabling the cleartext password feature.
+:::warning
+Read the warning prior to enabling the cleartext password feature.
+:::
+
 
 **Step 4 –** On the Options page, configure the scan options by enabling communication with the
 Active Directory via SSL or returning cleartext password entries.
@@ -91,8 +94,11 @@ The Weak Passwords query is now configured.
 Navigate to the **Active Directory** > **2.Users** > **AD_WeakPasswords** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_WeakPasswords Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/weakpasswordsanalysis.webp)
 

@@ -25,11 +25,14 @@ The query categories are:
 
     - Sensitive Data Collection – Scan databases for sensitive data
 
-    **NOTE:** The Sensitive Data category options require the Sensitive Data Discovery Add-on to
+    :::note
+    The Sensitive Data category options require the Sensitive Data Discovery Add-on to
     have been installed on the Enterprise Auditor Console before the SQL Data Collector can collect
     sensitive data. See the
     [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
     topic for additional information.
+    :::
+
 
 - Microsoft SQL Server
 

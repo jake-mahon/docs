@@ -14,8 +14,11 @@ analyzed in order to provide information on domains, sites, and trusts.
 The AD_DomainControllers Job uses the LDAP Data Collector and the ActiveDirectory Data Collector for
 the following queries:
 
-**CAUTION:** Except the first query, do not modify the remaining queries. The remaining queries are
+:::warning
+Except the first query, do not modify the remaining queries. The remaining queries are
 preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/domains/collection/domaincontrollersquery.webp)
 
@@ -35,15 +38,21 @@ The queries for this job are:
 - Preferred Bridgehead Servers – Targets one domain controller per domain known to Enterprise
   Auditor to list the preferred bridgehead servers for each site
 
-    **NOTE:** See the Active Directory Data Collector and LDAP Data Collector sections for
+    :::note
+    See the Active Directory Data Collector and LDAP Data Collector sections for
     additional information.
+    :::
+
 
 ### Connect Securely with TLS/SSL
 
 The Domain Controller Listing Query in the AD_DomainControllers Job is configured to use the LDAP
 Data Collector. This query can be optionally configured to connect securely with TLS/SSL.
 
-**CAUTION:** Do not modify any other settings in this query.
+:::warning
+Do not modify any other settings in this query.
+:::
+
 
 **Step 1 –** Navigate to the job’s > **Configure** node and select **Queries**.
 

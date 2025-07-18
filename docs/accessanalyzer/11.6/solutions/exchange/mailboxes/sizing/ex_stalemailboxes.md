@@ -13,8 +13,11 @@ The EX_StaleMailboxes job provides analysis and reporting around orphaned and st
 View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** > **Sizing** >
 **EX_StaleMailboxes** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_StaleMailboxes Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/sizing/stalemailboxesanalysis.webp)
 

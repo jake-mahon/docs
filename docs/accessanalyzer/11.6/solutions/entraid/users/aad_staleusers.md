@@ -14,8 +14,11 @@ accounts should be reviewed and cleaned up in order to increase security and red
 Navigate to the **Jobs** > **Entra ID** > **2.Users** > **AAD_StaleUsers** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AAD_StaleUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/users/staleusersanalysis.webp)
 

@@ -9,7 +9,10 @@ sidebar_position: 20
 The EX_Features job is comprised of data collection and a report that provides information around
 which features have been enabled or disabled on Mailboxes, such as ActiveSync, IMAP, POP and more.
 
-**_RECOMMENDED:_** Schedule the Features Job Group to run weekly on any desired recurrence.
+:::info
+Schedule the Features Job Group to run weekly on any desired recurrence.
+:::
+
 
 ![Features > EX_Features Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/featuresjobstree.webp)
 
@@ -30,10 +33,13 @@ The following query is included with the EX_Features Job:
       [Scope the ExchangePS Data Collector](/docs/accessanalyzer/11.6/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
       topic for additional information
 
-    **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
+    :::note
+    The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
     [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
     topic for credential requirements.
+    :::
+
 
 In addition to the table created by the query, the EX_Features Job produces the following
 pre-configured report:

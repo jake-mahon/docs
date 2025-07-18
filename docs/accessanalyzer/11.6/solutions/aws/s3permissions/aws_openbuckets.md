@@ -14,8 +14,11 @@ level of the AWS S3 bucket.
 Navigate to the **AWS** > **6.S3 Permissions** > **AWS_OpenBuckets** > **Configure** node and select
 **Analysis** to view the analysis task.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AWS_OpenBuckets Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/s3permissions/openbucketsanalysis.webp)
 

@@ -149,8 +149,11 @@ Commands Used
 The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_ParseSudoers Job requires permissions in the
 Unix environment to run the following commands:
 
-**NOTE:** To parse sudoers we either need root or an account that has access to use sudo without
+:::note
+To parse sudoers we either need root or an account that has access to use sudo without
 password prompt (:NOPASSWD)
+:::
+
 
 Commands Used
 

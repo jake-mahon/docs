@@ -120,8 +120,11 @@ a ‘count’ of records within each group. Expand the group to view the data.
 
 Multiple columns can be dragged into the Group By area to form tiered groupings.
 
-**NOTE:** Sorting by the FQDN column is an easy way to see if there are two entries for the same
+:::note
+Sorting by the FQDN column is an easy way to see if there are two entries for the same
 host.
+:::
+
 
 ![Column Header](/img/product_docs/accessanalyzer/11.6/admin/navigate/datagridfunctionality11.webp)
 

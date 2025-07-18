@@ -15,8 +15,11 @@ content, or operational issues such as a misconfigured service account.
 Navigate to **Box** > **1.Activity** > **Suspicious Activity** > **Box_FailedLogins** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_FailedLogins Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/failedloginsanalysis.webp)
 

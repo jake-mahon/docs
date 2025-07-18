@@ -15,9 +15,12 @@ topic for additional information.
 
 ![Job structure in the Job's Tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/job/jobnode.webp)
 
-**_RECOMMENDED:_** Use job group organization to spread these tasks across jobs. For example, create
+:::info
+Use job group organization to spread these tasks across jobs. For example, create
 a job to run a query and a second job to run analysis or generate a report. Then use the job group
 structure to run those jobs together in the proper order.
+:::
+
 
 Jobs do not have a Settings node like a job group. Job Properties provide the option to break
 inheritance on global or job group settings. See the
@@ -157,8 +160,11 @@ parameters, they will be located under Configuration in the job's Overview secti
 
 **Step 2 –** Click on a parameter to open the Parameter Configuration window.
 
-**NOTE:** To view a tool-tip that contains information about the Variable Name and the Task Name
+:::note
+To view a tool-tip that contains information about the Variable Name and the Task Name
 that the parameter is associated with, hover the mouse over the parameter.
+:::
+
 
 ![Parameter Configuration Window](/img/product_docs/accessanalyzer/11.6/admin/jobs/job/parameterconfigurationwindow.webp)
 

@@ -14,7 +14,10 @@ Use the following categories to establish the location of the web request:
 
 - Insert field – Select a field using the drop-down menu
 
-    **NOTE:** The fields available varies based on the source table columns.
+    :::note
+    The fields available varies based on the source table columns.
+    :::
+
 
 Destination Information
 
@@ -42,7 +45,10 @@ Destination Information
       the blue down-arrow to add it to the Resource box
     - Manually enter a resource in the textbox
 
-    **NOTE:** A red circle with an x indicates that the Resource field cannot be empty.
+    :::note
+    A red circle with an x indicates that the Resource field cannot be empty.
+    :::
+
 
 - Authentication – Select an authentication method from the following:
 
@@ -64,8 +70,11 @@ Test Connection
       down-arrow to add it to the URI textbox
     - Manually enter a resource in the field
 
-        **NOTE:** Red circle with x indicates
+        :::note
+        Red circle with x indicates
         `Invalid URI: The format of the URI could not be determined`.
+        :::
+
 
 - Test – Tests the connection for the request using the first row of the source table
 - Text box – Shows log messages from the connection test

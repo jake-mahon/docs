@@ -16,8 +16,11 @@ activity for potential security concerns.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Suspicious
 Activity** > **FS_WeekendActivity** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_WeekendActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/weekendactivityanalysis.webp)
 

@@ -61,8 +61,11 @@ radio buttons. Then, click **Next**.
 
 **Step 7 –** When the installation completes, click **Finish** to exit the wizard.
 
-**NOTE:** If the File System Proxy Service is installed on multiple servers, then a custom host list
+:::note
+If the File System Proxy Service is installed on multiple servers, then a custom host list
 of proxy servers should also be created in Netwrix Enterprise Auditor.
+:::
+
 
 Once the File System Proxy Service has been installed on any proxy server, it is necessary to
 configure the File System Solution certificate exchange method for Proxy Mode as a Service. See the
@@ -84,10 +87,16 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
 
     - Append `-r 0` to the ImagePath key value
 
-    **NOTE:** If both parameters are added, there is no required order.
+    :::note
+    If both parameters are added, there is no required order.
+    :::
 
-    **_RECOMMENDED:_** Stop the Netwrix Enterprise Auditor FSAA Proxy Scanner service before
+
+    :::info
+    Stop the Netwrix Enterprise Auditor FSAA Proxy Scanner service before
     modifying the registry key.
+    :::
+
 
 Follow the steps to configure these service parameters.
 
@@ -116,7 +125,10 @@ during installation according to the installation directory location selected.
 
         C:\Program Files (x86)\STEALTHbits\StealthAUDIT\FSAA\StealthAUDITRPC.EXEFSAASrv.DLL -e 1234
 
-        **NOTE:** The port number needs to be added to the path only if a custom port is used.
+        :::note
+        The port number needs to be added to the path only if a custom port is used.
+        :::
+
 
 **Step 4 –** Click **OK** and close Registry Editor.
 
@@ -129,9 +141,12 @@ Proxy Scanner service. Close the Services Management Console.
 **[Job]** > **Configure** > **Queries** node and open the File System Access Auditor Data Collector
 Wizard. On the Applet Settings wizard page, change the **Port number** to the custom port.
 
-**NOTE:** See the
+:::note
+See the
 [File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/11.6/install/filesystemproxy/configuredatacollector.md)
 section for additional configurations required to run scans in proxy mode as a service.
+:::
+
 
 **Step 7 –** Repeat the previous step for each of the **FileSystem** > **0.Collection** jobs to
 employ this proxy service.

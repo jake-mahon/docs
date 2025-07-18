@@ -9,16 +9,22 @@ sidebar_position: 20
 The Box_FolderMetrics Job offers insight into content sizing, staleness, and ownership of folders in
 the Box environment.
 
-**NOTE:** The staleness threshold can be customized within the **Folder Metrics Details** analysis.
+:::note
+The staleness threshold can be customized within the **Folder Metrics Details** analysis.
 Largest and smallest folder size thresholds can be configured in a similar way on their respective
 analysis tasks.
+:::
+
 
 ## Analysis Tasks for the Box_FolderMetrics Job
 
 Navigate to **Box** > **2.Content** > **Box_FolderMetrics** > **Configure** node and select
 **Analysis** to view analysis tasks.
 
-**CAUTION:** Most of these analysis tasks should never be modified and never be deselected.
+:::warning
+Most of these analysis tasks should never be modified and never be deselected.
+:::
+
 
 ![Analysis Tasks for the Box_FolderMetrics Job](/img/product_docs/accessanalyzer/11.6/solutions/box/content/foldermetricsanalysis.webp)
 

@@ -15,8 +15,11 @@ that can be revoked.
 Navigate to **Box** > **Box_Access** > **Configure** node and select **Analysis** to view analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Access Job](/img/product_docs/accessanalyzer/11.6/solutions/box/accessanalysis.webp)
 

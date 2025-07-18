@@ -13,8 +13,11 @@ The AWS_ManagedPolicies job provides details on policies managed by Amazon in th
 Navigate to the **AWS** > **5.Policies** > **AWS_ManagedPolicies** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_ManagedPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/policies/managedpoliciesanalysis.webp)
 

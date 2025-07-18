@@ -39,10 +39,13 @@ been installed on the SharePoint server. This requirement is in addition to havi
 Data Discovery Add-on installed on the Enterprise Auditor Console server. Sensitive Data Discovery
 Auditing scans also require .NET Framework 4.7.2 or later.
 
-**NOTE:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
+:::note
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
 minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For
 example, if the job is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are
 required (8x2=16).
+:::
+
 
 See the
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)

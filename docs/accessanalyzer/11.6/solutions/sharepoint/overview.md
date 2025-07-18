@@ -34,11 +34,14 @@ Requirements, Permissions, and Ports
   [SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/scanoptions.md)
   topic for additional information.
 
-**NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
+:::note
+You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
 [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/11.6/admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
+:::
+
 
 Sensitive Data Discovery Considerations
 
@@ -48,14 +51,20 @@ will be necessary to increase the minimum amount of RAM. Each thread requires a 
 additional GB of RAM per host. For example, if the job is configured to scan 8 hosts at a time ,
 then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
 
-_Remember,_ if employing the Enterprise Auditor SharePoint Agent, it is also necessary for the
+
+:::tip
+Remember, if employing the Enterprise Auditor SharePoint Agent, it is also necessary for the
 Sensitive Data Discovery Add-on to be installed on the server where the agent is installed.
+:::
+
 
 Location
 

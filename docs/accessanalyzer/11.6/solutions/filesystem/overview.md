@@ -51,15 +51,21 @@ will be necessary to increase the minimum amount of RAM. Each thread requires a 
 additional GB of RAM per host. For example, if the job is configured to scan 8 hosts at a time ,
 then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
 
-_Remember,_ if employing either of the File System Proxy Mode as a Service scan mode options, it is
+
+:::tip
+Remember, if employing either of the File System Proxy Mode as a Service scan mode options, it is
 also necessary for the Sensitive Data Discovery Add-on to be installed on the server where the proxy
 service is installed.
+:::
+
 
 Location
 
@@ -73,12 +79,15 @@ collects the data. The other job groups run analysis on the collected data. The
 [FileSystemOverview Job](/docs/accessanalyzer/11.6/solutions/filesystem/filesystemoverview.md)
 generates a statistical overview report of the targeted file systems.
 
-**NOTE:** The
+:::note
+The
 [Cleanup Job Group](/docs/accessanalyzer/11.6/solutions/filesystem/cleanup/overview.md)
 and the
 [Resource Based Groups Job Group](/docs/accessanalyzer/11.6/solutions/filesystem/resourcebasedgroups/overview.md)
 require additional licenses to function. See the [Job Groups](#job-groups) topic for additional
 information.
+:::
+
 
 ## Job Groups
 

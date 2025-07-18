@@ -19,9 +19,12 @@ schedule jobs in the Schedule Wizard. See the
 [Schedules](/docs/accessanalyzer/11.6/admin/schedule/overview.md)
 topic for additional information.
 
-**CAUTION:** On Windows 2016 servers, the Schedule Service Account cannot be signed into an active
+:::warning
+On Windows 2016 servers, the Schedule Service Account cannot be signed into an active
 session when the time comes for a scheduled task to start. Windows blocks the starting or running of
 scheduled tasks using an account that is logged into the server.
+:::
+
 
 Password Storage Options
 
@@ -96,17 +99,23 @@ Use one of the following options for the Schedule Service Account:
     - The account can be either a domain account or a local Windows account
     - A local Windows account is a specific account and not the default local system account
 
-_Remember,_ the Schedule Service Account cannot be signed into an active session on the Enterprise
+:::tip
+Remember, the Schedule Service Account cannot be signed into an active session on the Enterprise
 Auditor Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
+:::
+
 
 ## Create a Schedule Service Account
 
 Follow the steps to create a Schedule Service Account.
 
-_Remember,_ the Schedule Service Account cannot be signed into an active session on the Enterprise
+:::tip
+Remember, the Schedule Service Account cannot be signed into an active session on the Enterprise
 Auditor Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
+:::
+
 
 ![Add User credential option in the Schedule view](/img/product_docs/accessanalyzer/11.6/admin/settings/addusercredential.webp)
 
@@ -194,9 +203,12 @@ Enterprise Auditor can now schedule tasks with this Scheduled Service Account.
 
 Follow the steps to edit a Schedule Service Account credentials.
 
-_Remember,_ the Schedule Service Account cannot be signed into an active session on the Enterprise
+:::tip
+Remember, the Schedule Service Account cannot be signed into an active session on the Enterprise
 Auditor Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
+:::
+
 
 ![Edit option in the Schedule view](/img/product_docs/accessanalyzer/11.6/admin/settings/edit.webp)
 

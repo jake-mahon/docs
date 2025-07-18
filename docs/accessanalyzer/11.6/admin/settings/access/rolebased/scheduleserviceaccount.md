@@ -24,9 +24,12 @@ Whose Credentials Should Be Used as the Schedule Service Account?
     - Power User role
     - Job Initiator role
 
-**NOTE:** In order to run or schedule a Host Inventory query, the Schedule Service Account must have
+:::note
+In order to run or schedule a Host Inventory query, the Schedule Service Account must have
 an Administrator, Power User, or Host Management Administrator role. Therefore, if the account has
 the Job Initiator role assigned, it must have the Host Management Administrator role as well.
+:::
+
 
 The Schedule Service Account is used to access the Task folders when scheduling tasks and to apply
 locks on jobs.
@@ -46,8 +49,11 @@ locks on jobs.
 
 - Apply Locks
 
-    **NOTE:** If the Enterprise Auditor user whose credentials are used has the role of Job
+    :::note
+    If the Enterprise Auditor user whose credentials are used has the role of Job
     Initiator, the job must be locked in order for it to execute successfully.
+    :::
+
 
     - These credentials are used to apply locks on jobs, enabling the Job Approver to have fewer
       rights on the Jobs directory. Therefore, the credentials specified must at least have the
@@ -68,5 +74,7 @@ See the
 [Schedule](/docs/accessanalyzer/11.6/admin/settings/schedule.md)
 topic for additional instructions on configuring the Schedule Service Account.
 
-_Remember,_ these credentials must be for a user with local Administrator privileges or rights to
+:::tip
+Remember, these credentials must be for a user with local Administrator privileges or rights to
 the Windows Task Folder and the System 32 Task folder on the Enterprise Auditor Console server.
+:::

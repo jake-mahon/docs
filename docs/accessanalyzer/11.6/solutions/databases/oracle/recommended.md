@@ -87,7 +87,10 @@ Run Order
 The 0-Oracle_Servers Job within the Oracle 0.Collection Job Group must be run first, before running
 the rest of the jobs.
 
-**_RECOMMENDED:_** Run the solution at the top level: Oracle Job Group
+:::info
+Run the solution at the top level: Oracle Job Group
+:::
+
 
 The other job groups in the Jobs > Databases > Oracle Job Group can be run in any order only after
 running the 0.Collection Job Group.
@@ -114,8 +117,11 @@ SQL Data Collector configurations can be modified if desired:
     - 4-Oracle_DefaultPasswordUsers Job
     - 5-Oracle_Configuration Job
 
-    **_RECOMMENDED:_** For reporting purposes, scope all queries to target the same
+    :::info
+    For reporting purposes, scope all queries to target the same
     databases/instances if applying a scope.
+    :::
+
 
 Analysis Configuration
 
@@ -125,7 +131,10 @@ preconfigured and should not be modified or deselected!
 Remember, disabling obsolete or un-desired jobs allows the solution to run more efficiently. To
 disable a job or job group, right-click on the item and select Disable Job.
 
-**_RECOMMENDED:_** Do not delete any jobs. Instead, jobs should be disabled.
+:::info
+Do not delete any jobs. Instead, jobs should be disabled.
+:::
+
 
 Workflow
 

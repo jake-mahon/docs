@@ -20,8 +20,11 @@ Namespaces.
 The permissions necessary to collect file system data from a Windows File System Cluster must be set
 for all nodes that comprise the cluster.
 
-**NOTE:** It is necessary to target the Windows File Server Cluster (name of the cluster) of
+:::note
+It is necessary to target the Windows File Server Cluster (name of the cluster) of
 interest when running a File System scan against a Windows File System Cluster.
+:::
+
 
 Configure credentials on all cluster nodes according to the Windows Operating Systems required
 permissions for the desired scan mode with these additional considerations:
@@ -44,8 +47,11 @@ permissions for the desired scan mode with these additional considerations:
 Additionally, the credential used within the Connection Profile must have rights to remotely access
 the registry on each individual cluster node.
 
-_Remember,_ Remote Registry Service must be enabled on all nodes that comprise the cluster.
+:::tip
+Remember, Remote Registry Service must be enabled on all nodes that comprise the cluster.
 Configure the credential(s) with the following rights on all nodes:
+:::
+
 
 - Group membership in the local Administrators group
 - Granted the “Log on as a batch” privilege

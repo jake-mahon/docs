@@ -14,8 +14,11 @@ permissions applied to each public folder within the Exchange environment.
 View the analysis tasks by navigating to the **Exchange** > **5. Public Folders** >
 **Permissions** > **PF_Entitlements** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_EntitlementScans Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/entitlementsanalysis.webp)
 

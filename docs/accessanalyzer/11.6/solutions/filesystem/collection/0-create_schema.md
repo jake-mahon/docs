@@ -11,16 +11,22 @@ tables, views, and functions used by the rest of the File System Solution. This 
 prior to the other jobs in the 0.Collection job group for both new installations and upgrades. The
 job can be scheduled with any of the collections. Do not delete the job from the job tree.
 
-**_RECOMMENDED:_** This job does not need to be moved. Leave it to run as part of the 0.Collection
+:::info
+This job does not need to be moved. Leave it to run as part of the 0.Collection
 job group.
+:::
+
 
 ## Analysis Tasks for the 0-Create Schema Job
 
 View the analysis task by navigating to the **FileSystem** > **0.Collection** > **0-Create
 Schema** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection for the 0-Create Schema Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/createschemaanalysis.webp)
 

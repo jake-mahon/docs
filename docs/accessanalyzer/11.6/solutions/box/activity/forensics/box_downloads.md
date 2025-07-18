@@ -14,8 +14,11 @@ The Box_Downloads Job provides details on file and folder deletions that have oc
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_Downloads** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Downloads Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/downloadsanalysis.webp)
 

@@ -17,21 +17,27 @@ The Enterprise Auditor installer places a Web folder at the root of the Enterpri
 directory. This folder contains the Enterprise Auditor Web Server (WebServer.exe) that runs on the
 Enterprise Auditor Console upon installation.
 
-**NOTE:** The Enterprise Auditor Web Server service must run as an account that has access to the
+:::note
+The Enterprise Auditor Web Server service must run as an account that has access to the
 Enterprise Auditor database. This may be a different account than the one used to connect Enterprise
 Auditor to the database. If the Enterprise Auditor Vault service is running, the account running the
 Web Server service must be an Enterprise Auditor Administrator. See the
 [Vault](/docs/accessanalyzer/11.6/admin/settings/application/vault.md) topic
 for additional information.
+:::
+
 
 The Web folder that the Enterprise Auditor installer places at the root of the Enterprise Auditor
 directory also contains a `WebServer.exe.config` file. This file contains configurable parameters.
 
-**CAUTION:** If encryption methods have been configured for Kerberos on the Enterprise Auditor
+:::warning
+If encryption methods have been configured for Kerberos on the Enterprise Auditor
 server but not on the service account running the Enterprise Auditor Web Server service, then users
 will not be able to log-in to the Web Console and will receive an error message. See the
 [Manage Kerberos Encryption Warning for the Web Console](/docs/accessanalyzer/11.6/install/application/reports/kerberosencryption.md)
 topic for additional information on configuring security polices to allow Kerberos encryption.
+:::
+
 
 ## Log into the Web Console
 
@@ -46,7 +52,10 @@ role grant access to the published reports. See the
 [Role Based Access](/docs/accessanalyzer/11.6/admin/settings/access/rolebased/overview.md)
 topic for addition information.
 
-**NOTE:** Access to the AIC and other Netwrix products is controlled from within those products.
+:::note
+Access to the AIC and other Netwrix products is controlled from within those products.
+:::
+
 
 The address to the Web Console can be configured within the Enterprise Auditor Console
 (**Settings** > **Reporting**). The default address is `http://[hostname.domain.com]:8082`. From the
@@ -56,10 +65,13 @@ localhost with the name of the Enterprise Auditor Console. See the
 [Update Website URLs](/docs/accessanalyzer/11.6/install/application/reports/secure.md#update-website-urls)
 topic for additional information.
 
-**NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
+:::note
+Any browser used to access the Web Console must have JavaScript allowed for the site. See
 the
 [Configure JavaScript Settings for the Web Console](/docs/accessanalyzer/11.6/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
 topic for additional information.
+:::
+
 
 Follow the steps to login to the Web Console.
 
@@ -73,7 +85,10 @@ Follow the steps to login to the Web Console.
 
     https://[machinename]:8082
 
-**NOTE:** The URL that is used may need to be added to the browser’s list of trusted sites.
+:::note
+The URL that is used may need to be added to the browser’s list of trusted sites.
+:::
+
 
 ![Web Console Login page](/img/product_docs/accessanalyzer/11.6/install/application/reports/webconsolelogin.webp)
 

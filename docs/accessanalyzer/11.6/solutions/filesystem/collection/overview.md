@@ -41,8 +41,11 @@ collector. See the
 [0-Create Schema Job](/docs/accessanalyzer/11.6/solutions/filesystem/collection/0-create_schema.md)
 topic for additional information.
 
-_Remember,_ the relationship between system scans and bulk import jobs requires the following
+:::tip
+Remember, the relationship between system scans and bulk import jobs requires the following
 considerations:
+:::
+
 
 - A system scans job executed from a Enterprise Auditor Console must be followed by the
   corresponding bulk import job from the same Enterprise Auditor Console with the same version of
@@ -118,15 +121,21 @@ The recommended workflow for Access Auditing only is as follows:
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 3 –** Run the **3-FSAA Exceptions** job.
 
 **Step 4 –** Run the desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Please see the
+:::note
+Please see the
 [Recommended Configuration for the File System Solution](/docs/accessanalyzer/11.6/solutions/filesystem/recommended.md)
 topic before continuing with this workflow.
+:::
+
 
 See the other auditing sections for workflows which include multiple auditing types.
 
@@ -171,9 +180,12 @@ disabling the undesired collection jobs. Disabling them allows the solution to r
 It is not recommended to delete any jobs. The required collection jobs are listed for each of the
 following optional workflows.
 
-**CAUTION:** The DFS Auditing component must always be run in conjunction with the Access Auditing
+:::warning
+The DFS Auditing component must always be run in conjunction with the Access Auditing
 component. Access audits are necessary to resolve the target shares and folders of DFS link
 destinations.
+:::
+
 
 Recommended Workflow 1 (for AccessAuditing with DFS Auditing)
 
@@ -187,7 +199,10 @@ Recommended Workflow 1 (for AccessAuditing with DFS Auditing)
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 4 –** Run the **3-FSAA Exceptions** job (not specifically needed for DFS Auditing, but
 recommended for **0.Collection** job group).
@@ -211,7 +226,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 6 –** Run the **2-FSAC Bulk Import** job (with the **DFS HOST LIST** assigned).
 
@@ -244,7 +262,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 8 –** Run the **2-FSAC Bulk Import** job (with the **DFS HOST LIST** assigned).
 
@@ -255,7 +276,10 @@ only).
 - If streaming is enabled in the **1-SEEK System Scans** job, do not run the **2-SEEK Bulk Import**
   job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 10 –** Run the **3-FSAA Exceptions** job.
 
@@ -263,9 +287,12 @@ only).
 
 **Step 12 –** Run the desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Please see the
+:::note
+Please see the
 [Recommended Configuration for the File System Solution](/docs/accessanalyzer/11.6/solutions/filesystem/recommended.md)
 topic before continuing with these workflows.
+:::
+
 
 To scope the 0.Collection job group to only collect DFS information, see Step 9 of the
 [Configure the (FSAA) File System Scan Query](/docs/accessanalyzer/11.6/solutions/filesystem/collection/1-fsaa_system_scans.md#configure-the-fsaa-file-system-scan-query)
@@ -280,10 +307,13 @@ specifically incorporated into this component are prefixed with `FSAC`. See the
 [Standard Reference Tables & Views for the FSAA Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/standardtables.md)
 topic for additional information on the data collected.
 
-**NOTE:** The Activity Auditing component requires the Activity Monitor be deployed, configured, and
+:::note
+The Activity Auditing component requires the Activity Monitor be deployed, configured, and
 have services running on the target hosts. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for additional information.
+:::
+
 
 Once the Activity Monitor is installed, the monitored host configuration tells it what to monitor
 and how long to retain the activity log files. The monitoring agent writes one log per day of
@@ -300,10 +330,13 @@ on the Activity Settings page of the File System Access Auditor Data Collector W
 [Configure the Activity Scan Query](/docs/accessanalyzer/11.6/solutions/filesystem/collection/1-fsac_system_scans.md#configure-the-activity-scan-query)
 topic for additional information.
 
-**NOTE:** Integration between Enterprise Auditor and Threat Prevention for Windows File System
+:::note
+Integration between Enterprise Auditor and Threat Prevention for Windows File System
 monitoring purposes requires the use of the SI Agent to generate the required logs. See the
 [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention)
 for information on the Enterprise Auditor Integration.
+:::
+
 
 The **0.Collection** jobs that comprise this auditing component are:
 
@@ -352,7 +385,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 5 –** Run the **2-FSAC Bulk Import** job.
 
@@ -382,7 +418,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 7 –** Run the **2-FSAC Bulk Import** job.
 
@@ -393,7 +432,10 @@ only).
 - If streaming is enabled in the **1-SEEK System Scans** job, do not run the **2-SEEK Bulk Import**
   job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 9 –** Run the **3-FSAA Exceptions** job.
 
@@ -423,7 +465,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 8 –** Run the **2-FSAC Bulk Import** job.
 
@@ -434,7 +479,10 @@ only).
 - If streaming is enabled in the **1-SEEK System Scans** job, do not run the **2-SEEK Bulk Import**
   job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 10 –** Run the **3-FSAA Exceptions** job.
 
@@ -458,9 +506,12 @@ only).
 
 **Step 5 –** Run the desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Please see the
+:::note
+Please see the
 [Recommended Configuration for the File System Solution](/docs/accessanalyzer/11.6/solutions/filesystem/recommended.md)
 topic before continuing with these workflows.
+:::
+
 
 ### Identify a Log File
 
@@ -475,8 +526,11 @@ configuration and click **Edit**.
 **Step 2 –** On the **Log Files** tab, select the **This log file is for Enterprise Auditor**
 option.
 
-**_RECOMMENDED:_** Select the **Comments** tab and identify this output as being configured for
+:::info
+Select the **Comments** tab and identify this output as being configured for
 Enterprise Auditor.
+:::
+
 
 **Step 3 –** Click **OK** to save the setting.
 
@@ -491,21 +545,27 @@ with `SEEK`. The tables and views are prefixed with `FSDLP`. See the
 [Standard Reference Tables & Views for the FSAA Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/standardtables.md)
 topic for additional information on the data collected.
 
-**NOTE:** The Sensitive Data Discovery Auditing (SEEK) component requires an additional installer
+:::note
+The Sensitive Data Discovery Auditing (SEEK) component requires an additional installer
 package. Though the jobs are visible within the console, the Sensitive Data Discovery Add-on must be
 installed before data collection will occur. See the
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
+:::
+
 
 Customized search criteria can be created with the Criteria Editor accessible through the SDD
 Criteria Settings page of the File System Access Auditor Data Collector Wizard. See the
 [Configure the (SEEK) File System Scan Query](/docs/accessanalyzer/11.6/solutions/filesystem/collection/1-seek_system_scans.md#configure-the-seek-file-system-scan-query)
 topic for additional information.
 
-_Remember,_ changes made in the Criteria Editor are global for Sensitive Data Discovery in
+:::tip
+Remember, changes made in the Criteria Editor are global for Sensitive Data Discovery in
 Enterprise Auditor. See the
 [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
+:::
+
 
 Option to Enable Last Access Timestamp
 
@@ -560,8 +620,11 @@ workflows.
 
 Recommended Workflow 1 (for Access and Sensitive Data Discovery Auditing data collection)
 
-**NOTE:** While Sensitive Data Discovery data can be collected, the Sensitive Data reports require
+:::note
+While Sensitive Data Discovery data can be collected, the Sensitive Data reports require
 the Activity Auditing components.
+:::
+
 
 **Step 1 –** Install the Sensitive Data Discovery Add-On on the Enterprise Auditor Console (once
 only).
@@ -576,7 +639,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 5 –** If necessary, run the **2-SEEK Bulk Import** job:
 
@@ -585,7 +651,10 @@ only).
 - If streaming is enabled in the **1-SEEK System Scans** job, do not run the **2-SEEK Bulk Import**
   job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 6 –** Run the **3-FSAA Exceptions** job.
 
@@ -611,7 +680,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 7 –** Run the **2-FSAC Bulk Import** job.
 
@@ -622,7 +694,10 @@ only).
 - If streaming is enabled in the **1-SEEK System Scans** job, do not run the **2-SEEK Bulk Import**
   job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 9 –** Run the **3-FSAA Exceptions** job.
 
@@ -652,7 +727,10 @@ only).
   job.
 - If streaming is enabled in the **1-FSAA System Scans** job, do not run **2-FSAA Bulk Import** job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 8 –** Run the **2-FSAC Bulk Import** job.
 
@@ -663,7 +741,10 @@ only).
 - If streaming is enabled in the **1-SEEK System Scans** job, do not run the **2-SEEK Bulk Import**
   job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 10 –** Run the **3-FSAA Exceptions** job.
 
@@ -685,10 +766,16 @@ Activity Auditing components.
 - If streaming is enabled in the **1-SEEK System Scans** job, do not run the **2-SEEK Bulk Import**
   job.
 
-    **_RECOMMENDED:_** It is best practice to disable undesired Bulk Import jobs.
+    :::info
+    It is best practice to disable undesired Bulk Import jobs.
+    :::
+
 
 **Step 3 –** Run the desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Please see the
+:::note
+Please see the
 [Recommended Configuration for the File System Solution](/docs/accessanalyzer/11.6/solutions/filesystem/recommended.md)
 topic before continuing with these workflows.
+
+:::

@@ -30,8 +30,11 @@ Checklist Item 2: Install Dell CEE
 - Dell CEE can be installed on the same Windows server as the Activity Agent, or on a different
   server. If it is installed on the same host, the activity agent can configure it automatically.
 
-    **_RECOMMENDED:_** The latest version of Dell CEE is the recommended version to use with the
+    :::info
+    The latest version of Dell CEE is the recommended version to use with the
     asynchronous bulk delivery (VCAPS) feature.
+    :::
+
 
 - Important:
 

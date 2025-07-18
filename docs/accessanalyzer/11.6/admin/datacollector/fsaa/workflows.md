@@ -12,7 +12,10 @@ The following FSAA Data Collector query categories that provide additional funct
   remote server
 - Update proxy service – Update FSAA binaries for hosts running the File System Proxy Service
 
-    **NOTE:** Requires the existing File System Proxy Service to be v8.0 or later.
+    :::note
+    Requires the existing File System Proxy Service to be v8.0 or later.
+    :::
+
 
 - Remove host data – Removes host from all SQL tables created by the FSAA Data Collector and deletes
   StrucMap (removes host assigned to job where query exists)
@@ -22,8 +25,11 @@ Additional workflows include:
 - Remove Host and Criteria SDD Data – Removes SDD data for a host or a criteria from the SQL tables
 - Drop Tables & Views – Drops the standard reference tables and views
 
-_Remember,_ the FSAA Data Collector always records data in Standard Reference Tables, no matter what
+:::tip
+Remember, the FSAA Data Collector always records data in Standard Reference Tables, no matter what
 job it is applied to.
+:::
+
 
 ## Remove File System Access Scan Category
 
@@ -67,9 +73,12 @@ updated binaries and deploy them to the proxy server. Once the proxy server has 
 the Netwrix Enterprise Auditor FSAA Proxy Scanner service shuts down and the components are updated.
 Finally, the service restarts itself.
 
-**NOTE:** This option is not for updating v7.x File System Proxy installations. Those must be
+:::note
+This option is not for updating v7.x File System Proxy installations. Those must be
 manually updated to at least v8.0 on the proxy server before this query can be used to automate the
 process.
+:::
+
 
 Follow the
 [Upgrade Proxy Service Procedure](/docs/accessanalyzer/11.6/install/filesystemproxy/upgrade.md)
@@ -82,10 +91,16 @@ particular hosts. This would need to be done through a new job’s query. The ho
 set as the host list for the new job. The Connection Profile applied should be the same as the one
 used for the associated **FileSystem** > **0.Collection** > … **Bulk Import** Job.
 
-**CAUTION:** Be careful when applying this query task, as it results in the deletion of collected
+:::warning
+Be careful when applying this query task, as it results in the deletion of collected
 data. Ensure proper configuration prior to job execution.
+:::
 
-**_RECOMMENDED:_** Manually enter individual hosts into the host list executing this query.
+
+:::info
+Manually enter individual hosts into the host list executing this query.
+:::
+
 
 Follow the steps to build a new query using the FSAA Data Collector with the Remove host data
 category.
@@ -110,8 +125,11 @@ the Query Properties window.
 This job has now been configured to run the FSAA Data Collector to remove the host identified in the
 job’s **Configure** > **Hosts** node. Run the job to clean-up the targeted hosts.
 
-_Remember,_ this job deletes data from the Enterprise Auditor database. Use caution and ensure
+:::tip
+Remember, this job deletes data from the Enterprise Auditor database. Use caution and ensure
 proper configuration prior to job execution.
+:::
+
 
 ## Remove Host and Criteria SDD Data
 
@@ -130,7 +148,10 @@ The 0.Collection Job Group must be run before executing the FS_SDD_DELETE Job.
 The analysis tasks are deselected by default. View the analysis tasks by navigating to the
 **Jobs** > **FS_SDD_DELETE** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Applying these analysis tasks result in the deletion of collected data.
+:::warning
+Applying these analysis tasks result in the deletion of collected data.
+:::
+
 
 ![FS_SDD_DELETE Job Analysis Selection page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/sdddeleteanalysistasks.webp)
 
@@ -154,7 +175,10 @@ status is visible from the **Running Instances** node.
 **Step 4 –** When the job has completed, return to the Analysis Selection Pane and deselect all
 analysis tasks.
 
-**CAUTION:** Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::warning
+Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::
+
 
 All of these tables have been dropped from the SQL Server database and the data is no longer
 available.
@@ -184,7 +208,10 @@ Editor. Follow the steps to customize analysis task parameters.
 or **#hosts** row, depending on the analysis task chosen, and then **Edit Table**. The Edit Table
 window opens.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 ![SQL Script Editor Edit Table window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/sdddeletesqlscripteditoredittable.webp)
 
@@ -221,7 +248,10 @@ The 0.Collection Job Group must be run before executing the FS_DropTables Job.
 The analysis tasks are deselected by default. View the analysis tasks by navigating to the
 **Jobs** > **FS_DropTables** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Applying these analysis tasks result in the deletion of collected data.
+:::warning
+Applying these analysis tasks result in the deletion of collected data.
+:::
+
 
 ![FS_DropTables Job Analysis Selection page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/droptablesanalysistasks.webp)
 
@@ -245,7 +275,10 @@ status is visible from the **Running Job** node.
 **Step 3 –** When the job has completed, return to the Analysis Selection Pane and click **Select
 All** to deselect these analysis tasks.
 
-**CAUTION:** Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::warning
+Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::
+
 
 All of these tables have been dropped from the SQL Server database and the data is no longer
 available.

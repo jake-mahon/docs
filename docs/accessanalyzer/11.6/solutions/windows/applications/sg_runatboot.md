@@ -13,7 +13,10 @@ hosts.
 
 The SG_RunAtBoot job uses the Registry Data Collector for the following queries:
 
-**CAUTION:** The queries are preconfigured for this job. Never modify the queries.
+:::warning
+The queries are preconfigured for this job. Never modify the queries.
+:::
+
 
 ![Queries for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/runatbootqueries.webp)
 
@@ -28,8 +31,11 @@ The queries for the SG_RunAtBoot job are:
 Navigate to the **Windows** > **Applications** > **SG_RunAtBoot** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/runatbootanalysis.webp)
 

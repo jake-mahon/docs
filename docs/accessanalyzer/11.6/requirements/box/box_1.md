@@ -30,11 +30,14 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 For Box Data Collection
 
@@ -48,8 +51,11 @@ code. The following can be used as a least privilege model:
       [Co-Admin Permissions Required to Run Reports](https://support.box.com/hc/en-us/articles/15518640907283-Co-Admin-Permissions-Required-to-Run-Reports)
       article for details on enabling this permission
 
-**NOTE:** Scans run with Co-Admin account credentials will complete. However, the data returned from
+:::note
+Scans run with Co-Admin account credentials will complete. However, the data returned from
 the scan might not include content owned by the Enterprise Admin account.
+:::
+
 
 See the
 [Recommended Configurations for the Box Solution](/docs/accessanalyzer/11.6/solutions/box/recommended.md)

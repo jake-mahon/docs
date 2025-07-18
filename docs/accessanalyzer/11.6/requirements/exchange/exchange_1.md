@@ -29,13 +29,16 @@ The following are requirements for the Exchange servers to be scanned:
   remote PowerShell failure
 - Within the Enterprise Auditor Console, the global **Settings > Exchange** node must be configured
 
-    **NOTE:** For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for
+    :::note
+    For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for
     "MAPI over HTTP," then an actual CAS server name was supplied and will be used by the ExchangePS
     Data Collector. If the global Settings have been configured for "MAPI over HTTPS," then the
     global Settings will have a web address instead of an actual server. Therefore, each ExchangePS
     query requires the CAS server to be set as the specific server on the Category page. See the
     [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/11.6/solutions/exchange/recommended.md)
     topic for a list of queries for which this would apply.
+    :::
+
 
 Data Collectors
 
@@ -58,11 +61,14 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 

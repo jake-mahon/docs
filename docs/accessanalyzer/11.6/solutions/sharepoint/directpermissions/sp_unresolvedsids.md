@@ -14,8 +14,11 @@ SIDs can be safely cleaned up without affecting user access.
 Navigate to the **Jobs** > **SharePoint** > **1.Direct Permissions** > **SP_UnresolvedSIDs** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_UnresolvedSIDs Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/directpermissions/unresolvedsidsanalysis.webp)
 

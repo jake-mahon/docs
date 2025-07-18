@@ -53,7 +53,10 @@ focus:
     - Mailbox Permissions – Collects permissions on mailbox folders (Exchange 2010 or later)
     - Mailbox Databases – Collects information on mailbox databases
 
-        **NOTE:** This option is not available for Office 365 target environments
+        :::note
+        This option is not available for Office 365 target environments
+        :::
+
 
     - Mailbox Rights – Collects information on mailbox rights
     - Mailbox AD Rights – Collects information on mailbox Active Directory rights

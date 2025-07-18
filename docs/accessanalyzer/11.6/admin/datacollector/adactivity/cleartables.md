@@ -24,5 +24,8 @@ to display a confirmation of successful removal in the results after the job is 
 **Step 4 –** Click **Next** and then Click **Finish** to close the Active Directory Activity DC
 Wizard. Click **OK** to close the Query Properties window.
 
-**CAUTION:** When the job is run, all of the ADActivity standard reference tables are removed from
+:::warning
+When the job is run, all of the ADActivity standard reference tables are removed from
 the database.
+
+:::

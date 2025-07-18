@@ -20,8 +20,11 @@ The Dropbox_Access job is located in the 1.Access job group.
 View the analysis tasks by navigating to the **Jobs** > **Dropbox** > **1.Access** > **Dro
 pbox_Access** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Dropbox_Access Job](/img/product_docs/accessanalyzer/11.6/solutions/dropbox/accessanalysis.webp)
 

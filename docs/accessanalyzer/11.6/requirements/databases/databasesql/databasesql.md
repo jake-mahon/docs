@@ -28,7 +28,10 @@ The following are requirements for the SQL Server to be scanned:
     - Enable Account
     - Remote Enable
 
-        **NOTE:** Restart WMI after applying changes.
+        :::note
+        Restart WMI after applying changes.
+        :::
+
 
 - For Activity Auditing – SQL Server Audit:
 
@@ -53,11 +56,14 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 For SMARTLog Data Collection
 

@@ -23,11 +23,17 @@ Select from the following options for what data will be returned:
 - Audit Policy – Returns an audit policy audit for the target
 - Account Lockout Policy – Returns an account lockout policy audit for the target
 
-**CAUTION:** The number of offline hosts with policies can significantly increase the time for a
+:::warning
+The number of offline hosts with policies can significantly increase the time for a
 scan.
+:::
 
-**_RECOMMENDED:_** For large networks, configure the length of time for a scan when hosts with
+
+:::info
+For large networks, configure the length of time for a scan when hosts with
 policies are offline.
+:::
+
 
 - Retry Attempts [number]
 - Retry Interval [number] seconds

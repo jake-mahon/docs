@@ -41,8 +41,11 @@ list:
     - This can be assigned at the **Collection** > **PF_FolderOwnership** job level by adding the
       individual host at the **Configure** > **Hosts** node
 
-    **NOTE:** The target host should be set to an on-premises Exchange server. Exchange Online is
+    :::note
+    The target host should be set to an on-premises Exchange server. Exchange Online is
     not support.
+    :::
+
 
 Connection Profile
 
@@ -70,7 +73,10 @@ This job group has been designed to run weekly or bi-weekly to collect informati
 folders in the environment. This job group may be run more frequently depending on the size of the
 public folders database and public folder count.
 
-**_RECOMMENDED:_** Run this job group on Fridays at 8:00 PM.
+:::info
+Run this job group on Fridays at 8:00 PM.
+:::
+
 
 History Retention
 
@@ -99,8 +105,11 @@ Analysis Configuration
 
 The 5. Public Folders job group should be run with the default analysis configurations.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should never be modified or
+:::warning
+Most of these analysis tasks are preconfigured and should never be modified or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+:::
+
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 

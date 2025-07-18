@@ -14,8 +14,11 @@ disabled.
 Navigate to the **AWS** > **2.Users** > **AWS_MFAStatus** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_MFAStatus Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/users/mfastatusanalysis.webp)
 

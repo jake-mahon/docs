@@ -13,8 +13,11 @@ The FS_MostActiveUsers job is designed to report on the most active users within
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Usage
 Statistics** > **FS_MostActiveUsers** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_MostActiveUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/usagestatistics/mostactiveusersanalysis.webp)
 

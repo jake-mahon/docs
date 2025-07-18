@@ -24,9 +24,12 @@ Dependencies
     - IBM Database Add-Ins for Visual Studio
     - IBM .NET Driver NuGet
 
-    **NOTE:** All necessary clients and drivers can be found on IBM Support's
+    :::note
+    All necessary clients and drivers can be found on IBM Support's
     [Download initial version 11.5 clients and drivers](https://www.ibm.com/support/pages/download-initial-version-115-clients-and-drivers)
     page.
+    :::
+
 
 - .Instance Discovery Job Group run successfully
 
@@ -66,7 +69,10 @@ Run Order
 The 0.Collection Jobs must be run first and in order. The other Db2 sub-job groups can be run in any
 order, together or individually, after running the 0.Collection Job Group.
 
-**_RECOMMENDED:_** Run the solution at the top level.
+:::info
+Run the solution at the top level.
+:::
+
 
 **Workflow**
 

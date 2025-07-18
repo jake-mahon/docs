@@ -10,9 +10,12 @@ The ExchangePS Data Collector requires a custom Connection Profile and host list
 assigned to the job conducting the data collection. The host inventory option during host list
 creation makes it necessary to configure the Connection Profile first.
 
-**NOTE:** It is not possible to target both Exchange Online and on-premises Exchange environments
+:::note
+It is not possible to target both Exchange Online and on-premises Exchange environments
 from the same job. Therefore, the Connection Profile should only contain the credentials for one
 type of environment.
+:::
+
 
 ## Exchange On-Premises
 

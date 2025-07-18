@@ -20,8 +20,11 @@ The job(s) in the Configuration Job Group are:
 Navigate to the **Jobs** > **Databases**> **Redshift** > **Configuration** >
 **Redshift_DatabaseSizing** > **Configure** node and select **Analysis** to view the Analysis Tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![analysisredshiftconfigurationjob](/img/product_docs/accessanalyzer/11.6/solutions/databases/redshift/analysisredshiftconfigurationjob.webp)
 

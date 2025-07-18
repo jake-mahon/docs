@@ -17,8 +17,11 @@ blog article for more information about this configuration and the related secur
 Navigate to the **Active Directory** > **2.Users** > **AD_UserDelegation** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_UserDelegation Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/userdelegationanalysis.webp)
 

@@ -87,11 +87,14 @@ tasks in order for permission/access reports to be accessible. For activity repo
 Information Center requires the execution of both the 2-SPAA Bulk Import Job default analysis tasks
 and the 2-SPAC Bulk Import Job default analysis tasks.
 
-**_RECOMMENDED:_** If only conducting one or two types of auditing, scope the solution by disabling
+:::info
+If only conducting one or two types of auditing, scope the solution by disabling
 the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not
 recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/11.6/admin/jobs/job/disableenable.md)
 topic for additional information.
+:::
+
 
 Query Configuration
 

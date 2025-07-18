@@ -33,10 +33,13 @@ be met in the order listed:
       [Access](/docs/accessanalyzer/11.6/admin/settings/access/overview.md)
       topic for additional information on Role Based Access
 
-    **NOTE:** Once the vault has been enabled, it is not possible to disable Role Based Access
+    :::note
+    Once the vault has been enabled, it is not possible to disable Role Based Access
     without first disabling the vault. Please contact
     [Netwrix Support](https://www.netwrix.com/support.html) for assistance in disabling Role Based
     Access.
+    :::
+
 
 - The Profile Security section of the Application node must be set to **Vault**
 

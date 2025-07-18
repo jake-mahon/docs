@@ -16,7 +16,10 @@ article for additional information.
 
 The SG_LSASettings job uses the Registry Data Collector for the following queries:
 
-**CAUTION:** The queries are preconfigured for this job. Never modify the queries.
+:::warning
+The queries are preconfigured for this job. Never modify the queries.
+:::
+
 
 ![Queries for the SG_LSASettings Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/lsasettingsqueries.webp)
 
@@ -30,8 +33,11 @@ The queries for the SG_LSASettings Job are:
 Navigate to the **Windows** > **Authentication** > **SG_LSASettings** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_LSASettings Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/lsasettingsanalysis.webp)
 

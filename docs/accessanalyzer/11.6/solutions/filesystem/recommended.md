@@ -11,10 +11,13 @@ node for most jobs. However, it is a best practice to assign the host list and t
 Profile at the data collection level. Once these are assigned to the job, it can be run manually or
 scheduled.
 
-_Remember,_ the credential permissions required for the scan and host lists are affected by the scan
+:::tip
+Remember, the credential permissions required for the scan and host lists are affected by the scan
 mode selected. See the
 [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
+
 
 Dependencies
 
@@ -60,13 +63,16 @@ may need to be updated manually. See the
 [Host Inventory](/docs/accessanalyzer/11.6/admin/settings/hostinventory.md)
 topic for additional information.
 
-**NOTE:** The host targeted by the File System scans is only the host entry for the cluster. For
+:::note
+The host targeted by the File System scans is only the host entry for the cluster. For
 example, the environment has a Windows File System Cluster named `ExampleCluster1` with three nodes
 named `ExampleNodeA`, `ExampleNodeB`, and `ExampleNodeC`. There would be four host entries in the
 Enterprise Auditor Master Host Table: `ExampleCluster1`, `ExampleNodeA`, `ExampleNodeB`, and
 `ExampleNodeC`. Each of these four entries would have the same value of the cluster name in the
 **WinCluster** column: `ExampleCluster1`. Only the `ExampleCluster1` host would be in the host list
 targeted by the File System scans.
+:::
+
 
 In order for the selected scan mode to be applied accurately for the target file system, it is
 necessary for host inventory to match the values in the table for OSType:
@@ -99,10 +105,13 @@ the global settings level. However, since this may not be the Connection Profile
 permissions for the assigned hosts, click the radio button for the **Select one of the following
 user defined profiles** option and select the appropriate Connection Profile drop-down menu.
 
-_Remember,_ if targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom
+:::tip
+Remember, if targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom
 Connection Profile containing the **API Access Key** and **Passcode** for each on-premise Nasuni
 Edge Appliance and cloud filer in the target environment. Nasuni API key names are case sensitive.
 When providing them, ensure they are entered in the exact same case as generated.
+:::
+
 
 See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
@@ -131,15 +140,21 @@ after running the 0.Collection Job Group. The FileSystemOverview Job pulls infor
 0.Collection Job Group and the other sub-job groups, and the report may contain blank sections if
 only select sub-job groups are run.
 
-**_RECOMMENDED:_** If only conducting one or two types of auditing, scope the solution by disabling
+:::info
+If only conducting one or two types of auditing, scope the solution by disabling
 the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not
 recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/11.6/admin/jobs/job/disableenable.md)
 topic for additional information.
+:::
 
-**NOTE:** If targeting Nasuni Edge Appliances, it is necessary to add the
+
+:::note
+If targeting Nasuni Edge Appliances, it is necessary to add the
 [0-FS_Nasuni Job](/docs/accessanalyzer/11.6/solutions/filesystem/collection/0-fs_nasuni.md)
 to the **0.Collection** Job Group.
+:::
+
 
 Query Configuration
 
@@ -269,8 +284,11 @@ Though the analysis tasks should not be deselected, the following parameters can
 
     - Customize within **6.Probable Owner** > **FS_ProbableOwner** Job analysis task
 
-        **NOTE:** Changes to an exception’s definition will impact all jobs dependent upon that
+        :::note
+        Changes to an exception’s definition will impact all jobs dependent upon that
         exception as well as all AIC Active Directory Exceptions reports.
+        :::
+
 
 There are also a few Notification analysis tasks which can be configured and then enabled in the
 following jobs:
@@ -291,6 +309,8 @@ The jobs contained in the group use custom SQL scripts to render views on collec
 are used to populate report element tables and graphs. Changing or modifying the group, job, or
 table names result in no data displayed within the reports or the AIC.
 
-_Remember,_ it is recommended to scope the 0.Collection Job Group to only include the collection
+:::tip
+Remember, it is recommended to scope the 0.Collection Job Group to only include the collection
 components desired by disabling the undesired collection jobs. Disabling them allows the solution to
 run more efficiently. It is not recommended to delete any jobs.
+:::

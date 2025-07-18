@@ -12,7 +12,10 @@ Access Information Center
 
 - Should be upgraded at the same time as Enterprise Auditor.
 
-    **NOTE:** The Enterprise Auditor upgrade should be completed first.
+    :::note
+    The Enterprise Auditor upgrade should be completed first.
+    :::
+
 
 See the Upgrade Procedure for Enterprise Auditor topic in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)[ ](https://www.stealthbits.com/jdownloads/Documentation%20User%20Guides%20PDF/Stealthbits_AIC_InstallConfigGuide.pdf)for
@@ -86,9 +89,12 @@ topic for additional information.
 
 ## Configure Global Sensitive Data Settings
 
-**CAUTION:** The new global Settings will overwrite any previously configured criteria. Make a note
+:::warning
+The new global Settings will overwrite any previously configured criteria. Make a note
 of any configured Sensitive Data Criteria before commencing the upgrade Enterprise Auditor.
 Sensitive Data Criteria must be reconfigured after an upgrade.
+:::
+
 
 If Sensitive Data Criteria are configured differently for each solution, re-configure the criteria
 selection at the solution level. See the

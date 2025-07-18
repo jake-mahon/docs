@@ -38,8 +38,11 @@ the 0.Collection job group and analyzed by the jobs listed above.
 View the analysis tasks by navigating to the **FileSystem** > **FS_SecurityAssessment** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the FS_SecurityAssessment Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/securityassessmentanalysis.webp)
 

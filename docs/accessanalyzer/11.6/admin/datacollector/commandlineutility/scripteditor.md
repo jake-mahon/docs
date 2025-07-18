@@ -13,5 +13,8 @@ page is disabled when the **Select Profile** option is selected on the Profile T
 
 ![Command Line Utility Data Collector Wizard Script Editor page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/commandlineutility/scripteditor.webp)
 
-**CAUTION:** Do not modify this page without guidance from Netwrix or the data may not be processed
+:::warning
+Do not modify this page without guidance from Netwrix or the data may not be processed
 by Enterprise Auditor.
+
+:::

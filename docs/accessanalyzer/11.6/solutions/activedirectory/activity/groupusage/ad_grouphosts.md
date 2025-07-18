@@ -13,8 +13,11 @@ The AD_GroupHosts Job attempts to identify where groups may be used to provide a
 Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **GroupUsage** >
 **AD_GroupHosts** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_GroupHosts Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/groupusage/grouphostsanalysis.webp)
 

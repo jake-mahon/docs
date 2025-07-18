@@ -13,8 +13,11 @@ The AWS_S3Buckets job provides a summary of AWS S3 buckets including total objec
 Navigate to the **AWS** > **7.S3 Content** > **AWS_S3Buckets** > **Configure** node and select
 **Analysis** to view the analysis task.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AWS_S3Buckets Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/s3content/s3bucketsanalysis.webp)
 

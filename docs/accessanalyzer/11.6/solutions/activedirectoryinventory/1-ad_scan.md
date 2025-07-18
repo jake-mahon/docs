@@ -39,8 +39,11 @@ opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The Active Directory Inventory
 DC Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Active Directory Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardoptions.webp)
 
@@ -64,10 +67,13 @@ topic for additional information.
 **Step 6 –** Navigate to the Summary page. Click **Finish** to save any setting modifications or
 click **Cancel** if no changes were made. Then click **OK** to close the Query Properties window.
 
-**NOTE:** In order for the Access Information Center to populate NFS permissions within File System
+:::note
+In order for the Access Information Center to populate NFS permissions within File System
 reports, the .Active Directory Inventory Job Group must be configured to collect the **uid** and
 **uidNumber** attributes for Users. See the
 [NFS Permissions for the AIC ](#nfs-permissions-for-the-aic) topic for additional information.
+:::
+
 
 The 1-AD_Scan Job is now ready to run with the customized settings. If any custom attributes are
 added to the data collection, the **Create Extended Attributes View** analysis task can be enabled
@@ -78,8 +84,11 @@ in order to have visibility into the collected data.
 View the analysis tasks by navigating to the **.Active Directory Inventory** > **1-AD_Scan** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the 1-AD_Scan Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scananalysis.webp)
 
@@ -132,8 +141,11 @@ the 1-AD_Scan Job.
 **Step 2 –** Navigate to the Options page. Ensure the **Collect only updates since last scan**
 option is deselected.
 
-**NOTE:** Whenever query configurations are modified, it is necessary to do a full scan. After the
+:::note
+Whenever query configurations are modified, it is necessary to do a full scan. After the
 first full scan, differential scanning can be re-enabled.
+:::
+
 
 ![Active Directory Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardcustomattributesnfs.webp)
 
@@ -163,7 +175,10 @@ task.
 The .Active Directory Inventory Job Group is now collecting attributes required for NFS data to be
 visible within the Access Information Center.
 
-_Remember,_ it is necessary to re-enable differential scanning after Step 5 if desired.
+:::tip
+Remember, it is necessary to re-enable differential scanning after Step 5 if desired.
+:::
+
 
 See the Resource Audit topics in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)

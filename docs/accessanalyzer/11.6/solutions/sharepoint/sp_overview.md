@@ -27,8 +27,11 @@ groups have been run, there will be blank sections of this overview report.
 Navigate to the **Jobs** > **SharePoint** > **SP_Overview** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_Overview Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/overviewanalysis.webp)
 

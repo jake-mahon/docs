@@ -35,11 +35,14 @@ The AD_ActivityCollection page has the following configurable parameters:
 - Enable to import AD events into the AIC
 - Enable to import authentication events into the AIC
 
-    **NOTE:** The import of AD events and authentication events is disabled by default. You must
+    :::note
+    The import of AD events and authentication events is disabled by default. You must
     enable these parameters for the activity data to be imported into the Netwrix Access Information
     Center. See the
     [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
     topic for instructions.
+    :::
+
 
 - List of attributes to track for Object Modified changes
 - Number of days to retain activity data in the AIC
@@ -53,8 +56,11 @@ topic for additional information.
 The AD Activity Collection query uses the ADActivity Data Collector to target the Activity Monitor
 archive logs for AD Activity.
 
-**NOTE:** The query can be configured to connect directly to the network share where the archive
+:::note
+The query can be configured to connect directly to the network share where the archive
 logs are stored or the API Server.
+:::
+
 
 ![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/queries.webp)
 
@@ -68,10 +74,13 @@ The AD_ActivityCollection Job requires configuration to collect data. Follow the
 query configuration when Netwrix Activity Monitor is configured to host domain activity logs on an
 API server.
 
-**NOTE:** Ensure the Activity Monitor API Server and the required Connection Profile are
+:::note
+Ensure the Activity Monitor API Server and the required Connection Profile are
 successfully set up. See the
 [Active Directory Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/activity.md)
 topic for additional information.
+:::
+
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
 **AD_ActivityCollection** Job. Select the **Configure** > **Queries** node.
@@ -106,10 +115,13 @@ last step.
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-**_RECOMMENDED:_** The threshold should be set to ensure the logs are collected before the Activity
+:::info
+The threshold should be set to ensure the logs are collected before the Activity
 Monitor domain output log retention expires. For example, if Enterprise Auditor runs the
 **AD_ActivityCollection** Job once a week (every 7 days), then the Activity Monitor output should be
 configured to retain at least 10 days of log files.
+:::
+
 
 **Step 10 –** Set the Retention period as desired. This is the number of days Enterprise Auditor
 keeps the collected data in the SQL Server database.
@@ -136,10 +148,13 @@ The AD_ActivityCollection Job requires configuration to collect data. Follow the
 query configuration when Netwrix Activity Monitor is configured to store activity logs on a network
 share.
 
-**NOTE:** Ensure the Activity Monitor domain output and the required Connection Profile are
+:::note
+Ensure the Activity Monitor domain output and the required Connection Profile are
 successfully set up. See the
 [File Archive Repository Option](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/filearchive.md)
 topic for additional information.
+:::
+
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
 **AD_ActivityCollection** Job. Select the **Configure** > **Queries** node.
@@ -166,10 +181,13 @@ Click **Next**.
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-**_RECOMMENDED:_** The threshold should be set to ensure the logs are collected before the Activity
+:::info
+The threshold should be set to ensure the logs are collected before the Activity
 Monitor domain output log retention expires. For example, if Enterprise Auditor runs the
 **AD_ActivityCollection** Job once a week (every 7 days), then the Activity Monitor output should be
 configured to retain at least 10 days of log files.
+:::
+
 
 **Step 7 –** Set the Retention period as desired. This is the number of days Enterprise Auditor
 keeps the collected data in the SQL Server database.
@@ -186,8 +204,11 @@ logs are archived.
 Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
 **AD_ActivityCollection** Job. Select the **Configure** > **Analysis** node.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/analysis.webp)
 

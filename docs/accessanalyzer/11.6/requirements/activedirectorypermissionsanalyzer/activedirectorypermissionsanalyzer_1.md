@@ -12,9 +12,12 @@ following Active Directory versions as targets:
 - Windows Server 2016 and later
 - Windows 2003 Forest level or higher
 
-**NOTE:** See the Microsoft
+:::note
+See the Microsoft
 [Windows Server end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/deployoffice/endofsupport/windows-server-support)
 article for additional information.
+:::
+
 
 Domain Controller Requirements
 

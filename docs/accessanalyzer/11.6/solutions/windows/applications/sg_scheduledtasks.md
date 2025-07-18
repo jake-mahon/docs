@@ -12,7 +12,10 @@ The SG_ScheduledTasks job lists scheduled task details on all targeted hosts.
 
 The SG_ScheduledTasks job uses the SystemInfo Data Collector for the following query:
 
-**CAUTION:** The query is preconfigured for this job. Never modify the query.
+:::warning
+The query is preconfigured for this job. Never modify the query.
+:::
+
 
 ![Queries for the SG_ScheduledTasks Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/scheduledtasksquery.webp)
 
@@ -26,8 +29,11 @@ The query for the SG_ScheduledTasks job is:
 Navigate to the **Windows** > **Applications** > **SG_ScheduledTasks** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_ScheduledTasks Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/scheduledtasksanalysis.webp)
 

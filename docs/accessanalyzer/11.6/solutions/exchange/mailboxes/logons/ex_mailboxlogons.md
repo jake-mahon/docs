@@ -14,8 +14,11 @@ Exchange environment.
 View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** > **Logons** >
 **EX_MailboxLogons** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_MailboxLogons Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/logons/mailboxlogonsanalysis.webp)
 
@@ -41,8 +44,11 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Delete All Historical Data** option. This analysis task is for
+:::warning
+Do not select the **00. Delete All Historical Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 - 00.Delete All Historical Data
 

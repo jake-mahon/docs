@@ -21,14 +21,20 @@ access model to the Enterprise Auditor Console. See the
 [Securing Published Reports Only](/docs/accessanalyzer/11.6/admin/settings/access/rolebased/securereports.md)
 topic for additional information.
 
-**NOTE:** The least privileged access model to the Enterprise Auditor Console does not work in
+:::note
+The least privileged access model to the Enterprise Auditor Console does not work in
 conjunction with the Exchange Solution. Role Based Access can be enabled, but the Administrator role
 is required to run the Exchange Solution jobs.
+:::
 
-**CAUTION:** Please use caution when enabling Role Based Access, as it is a very powerful tool
+
+:::warning
+Please use caution when enabling Role Based Access, as it is a very powerful tool
 within the console designed to be difficult to disable once activated. If Role Based Access is
 enabled by accident, please contact [Netwrix Support](https://www.netwrix.com/support.html) for
 assistance in disabling it.
+:::
+
 
 The account used to perform the initial Enterprise Auditor installation, as well as to change
 Storage Profile settings after installation, require additional rights in order to query objects in

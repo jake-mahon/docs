@@ -19,8 +19,11 @@ blog article for more information about this configuration and the related secur
 Navigate to the **Active Directory** > **3.Computers** > **AD_ComputerDelegation** > Configure node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the analysis task. The analysis task is preconfigured for
+:::warning
+Do not modify or deselect the analysis task. The analysis task is preconfigured for
 this job.
+:::
+
 
 ![Analysis Task for the AD_ComputerDelegation Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/computers/computerdelegationanalysis.webp)
 

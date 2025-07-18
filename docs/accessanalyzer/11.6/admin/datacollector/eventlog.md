@@ -50,7 +50,10 @@ In the Sample section, select from the following options:
 - Show – Click to preview the elements in the event log file for log paths manually entered in the
   File path box
 
-    **NOTE:** A preview displays automatically if the folder icons is used to navigate to the log.
+    :::note
+    A preview displays automatically if the folder icons is used to navigate to the log.
+    :::
+
 
 - Lookup user name – Select this checkbox to resolve SID or GUID values to friendly display values
 

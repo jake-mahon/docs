@@ -19,8 +19,11 @@ The AD_OpenAccess Job is located in the 5.Open Access Job Group.
 Navigate to the **Active Directory Permissions Analyzer** > **5.Open Access** > **AD_OpenAccess** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_OpenAccess Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/openaccessanalysis.webp)
 

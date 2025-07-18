@@ -103,5 +103,8 @@ The Build / Edit Pattern window has the following features:
 - Include — Reverts an exclusion. By default, all sub tables are included.
 - Pattern — Build a custom filter to be applied to the selected database objects
 
-    **NOTE:** Color-coding indicating Excluded and Included objects does not display until after a
+    :::note
+    Color-coding indicating Excluded and Included objects does not display until after a
     selection is validated using the **Validate Selections** button on the Filter page.
+    
+    :::

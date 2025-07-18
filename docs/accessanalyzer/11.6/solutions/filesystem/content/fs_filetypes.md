@@ -17,8 +17,11 @@ The FS_FileTypes job is located in the File Types job group.
 View the analysis tasks by navigating to the **FileSystem** > **4.Content** > **File Types** >
 **FS_FileTypes** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_FileTypes Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/content/filetypesanalysis.webp)
 

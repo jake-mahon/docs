@@ -13,8 +13,11 @@ The FS_MostActiveServers job is designed to report on the most active servers wi
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Usage
 Statistics** > **FS_MostActiveServers** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the FS_MostActiveServers Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/usagestatistics/mostactiveserversanalysis.webp)
 

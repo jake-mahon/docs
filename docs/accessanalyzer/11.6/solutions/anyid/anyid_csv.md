@@ -9,8 +9,11 @@ sidebar_position: 10
 The AnyID_CSV job imports a list of identities and attributes from a CSV file. Use this when a
 native integration may not be available, or an export is the best option.
 
-**_RECOMMENDED:_** Copy the CSV file to the Enterprise Auditor Console for the best import
+:::info
+Copy the CSV file to the Enterprise Auditor Console for the best import
 performance.
+:::
+
 
 ![AnyID_CSV Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/anyid/csvjoblocation.webp)
 
@@ -102,7 +105,10 @@ Wizard opens.
 **Step 5 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. Configure the following attributes:
 
-**CAUTION:** The following attributes must be configured in order for the job to execute properly.
+:::warning
+The following attributes must be configured in order for the job to execute properly.
+:::
+
 
 - $inputfile – File path to the CSV file which contains the identity and attribute information
 - $RequiredAttributes – The list of attributes that need to be found in the document in order to
@@ -134,8 +140,11 @@ The query is now ready to run.
 Navigate to the **Jobs** > **AnyID Connectors** > **AnyID_CSV** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AnyID_CSV Job](/img/product_docs/accessanalyzer/11.6/solutions/anyid/csvanalyses.webp)
 

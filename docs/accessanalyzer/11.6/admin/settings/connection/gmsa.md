@@ -22,8 +22,11 @@ To run a job or scheduled task with a gMSA/MSA account, the following prerequisi
 - The Data Collector used must support unicode characters in the Connection Profile's credential
   password to retrieve the gMSA account password
 
-**NOTE:** For FSAA, remote scans using gMSA credentials need to use the Windows Service launch
+:::note
+For FSAA, remote scans using gMSA credentials need to use the Windows Service launch
 mechanism in the query configuration.
+:::
+
 
 See the Microsoft
 [Group Managed Service Accounts](https://learn.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)

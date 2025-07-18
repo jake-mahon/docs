@@ -14,8 +14,11 @@ based on the selected scan criteria.
 Navigate to the **Jobs** > **Databases** > **Redshift** >  **Sensitive Data** >
 **Redshift_SensitiveData** > **Configure** node and select **Analysis** to view the Analysis Tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/redshift/sensitive_data/analysissensitivedata.webp)
 

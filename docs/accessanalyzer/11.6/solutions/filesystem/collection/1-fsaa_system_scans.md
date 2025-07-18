@@ -53,8 +53,11 @@ opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The File System Access Auditor
 Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Applet Settings](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekappletsettings.webp)
 
@@ -76,8 +79,11 @@ for additional information.
 [FSAA: Scan Settings](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/scansettings.md) topic
 for additional information.
 
-**NOTE:** If streaming is enabled, the **2-FSAA Bulk Import** job is no longer needed as part of the
+:::note
+If streaming is enabled, the **2-FSAA Bulk Import** job is no longer needed as part of the
 **0.Collection** job group.
+:::
+
 
 ![Azure Tennant Mapping](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekazuretenantmapping.webp)
 
@@ -141,8 +147,11 @@ topic for additional information.
 scans. See the
 [File Details Tab](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
 
-**_RECOMMENDED:_** Carefully consider configuring the following settings. Applying filters when file
+:::info
+Carefully consider configuring the following settings. Applying filters when file
 detail scanning has been enabled reduces the impact on the database.
+:::
+
 
 ![File Properties (Folder Summary) tab of the Default Scoping Options page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaadefaultscopingoptionsfileproperties.webp)
 
@@ -187,8 +196,11 @@ If changes were made, the **1-FSAA System Scans** job is now customized.
 View the analysis task by navigating to the **FileSystem** > **0.Collection** > **1-FSAA System
 Scans** > **Configure** node and selecting **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the 1-FSAA System Scans Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaasystemscansanalysis.webp)
 

@@ -13,7 +13,10 @@ systems.
 
 The RetrieveNetstat job is uses the TextSearch Data Collector for the following query:
 
-**CAUTION:** The query is preconfigured for this job. Never modify the query.
+:::warning
+The query is preconfigured for this job. Never modify the query.
+:::
+
 
 ![Queries for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/openportscan/remoteopenportquery.webp)
 
@@ -27,8 +30,11 @@ The query for the RetrieveNetstat job is:
 Navigate to the **Windows** > **Security Utilities** > **OpenPortScan** > **RetrieveNetstat** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/openportscan/retrievenetstatanalysis.webp)
 

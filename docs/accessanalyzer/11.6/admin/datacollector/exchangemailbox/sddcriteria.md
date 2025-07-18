@@ -23,8 +23,11 @@ The table contains the following types of criteria:
 - System Criteria – Lists pre-defined criteria
 - User Criteria – Lists user-defined criteria
 
-    **NOTE:** Until the Sensitive Data Discovery Add-On is installed, only the headers for the
+    :::note
+    Until the Sensitive Data Discovery Add-On is installed, only the headers for the
     System Criteria and User Criteria nodes will be visible in the table.
+    :::
+
 
 - Edit – Click this button to access the Criteria Editor where user-defined criteria can be created
   or customized. See the

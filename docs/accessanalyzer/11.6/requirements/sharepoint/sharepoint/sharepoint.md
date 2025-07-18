@@ -30,11 +30,14 @@ The following permissions are needed:
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 The following firewall ports are needed:
 
@@ -84,11 +87,14 @@ See the
 [SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/scanoptions.md)
 topic for additional information.
 
-**NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
+:::note
+You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
 [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/11.6/admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
+:::
+
 
 ## Supported SharePoint On-Premise
 

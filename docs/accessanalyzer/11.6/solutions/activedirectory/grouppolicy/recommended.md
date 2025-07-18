@@ -38,10 +38,13 @@ This job group can be scheduled to run as desired.
 
 Run at the Job Group Level
 
-**_RECOMMENDED:_** Run the jobs in the 4.Group Policy Job Group together and in order by running the
+:::info
+Run the jobs in the 4.Group Policy Job Group together and in order by running the
 entire job group, instead of the individual jobs. However, these jobs can be run independently, with
 the exception of the AD_OverlappingGPOs Job, which is dependent upon the AD_GroupPolicy Job for data
 collection.
+:::
+
 
 Workflow
 

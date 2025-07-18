@@ -66,9 +66,12 @@ Now that the target environment follows a Resource Based Groups model, the new r
 imported into the Access Information Center. Follow the steps to import the new resources into the
 AIC Ownership Workflow.
 
-**CAUTION:** It is important to run the .Active Directory Inventory Job Group and **File System** >
+:::warning
+It is important to run the .Active Directory Inventory Job Group and **File System** >
 **0. Collection** Job Group again so that the AD and permissions changes are captured by Enterprise
 Auditor.
+:::
+
 
 **Step 1 –** Run the **.Active Directory Inventory** Job Group and **FileSystem** > **0.Collection**
 Job Group again.

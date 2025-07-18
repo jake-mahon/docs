@@ -13,8 +13,11 @@ The AD_ComputerModifications Job provides a report of all changes to computer ob
 Navigate to the **Active Directory** > **6.Activity** > **Changes** > **AD_ComputerModifications** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_ComputerModifications Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/changes/computermodificationsanalysis.webp)
 

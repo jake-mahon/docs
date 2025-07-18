@@ -18,17 +18,23 @@ group implementation.
 
 **Step 3 –** (Optional) Configure a Host List for the job at the job level.
 
-**NOTE:** If a host list is not configured, this job will analyze and commit actions on every File
+:::note
+If a host list is not configured, this job will analyze and commit actions on every File
 System server known to Enterprise Auditor. To scope the actions to target specific servers,
 configure a host list at the job level to target only those servers.
+:::
+
 
 **Step 4 –** Model the intended changes:
 
 - Configure the Analyze Group Permissions analysis task
 - Verify that all actions are disabled
 
-    **CAUTION:** Do not make configuration changes to the analysis tasks after reviewing and
+    :::warning
+    Do not make configuration changes to the analysis tasks after reviewing and
     approving the Change Modeling report
+    :::
+
 
 - Execute the analysis tasks to generate the Change Modeling report and review the proposed changes
 - See the [Model Intended Changes](#model-intended-changes) topic for additional information
@@ -131,8 +137,11 @@ Follow the steps to model the proposed changes.
 
 **Step 1 –** Make sure all of the analysis tasks are enabled.
 
-**CAUTION:** Prior to executing the analysis tasks, make sure that all action tasks are disabled.
+:::warning
+Prior to executing the analysis tasks, make sure that all action tasks are disabled.
 The purpose at this point is only to model the intended changes.
+:::
+
 
 **Step 2 –** In the Configure node, select **Actions** and make sure that all of the action tasks
 are disabled.
@@ -150,8 +159,11 @@ before continuing with implementing them.
 
 ## Configure & Execute Active Directory Action Tasks
 
-**CAUTION:** Do not modify the analysis tasks after the Change Modeling report has been reviewed and
+:::warning
+Do not modify the analysis tasks after the Change Modeling report has been reviewed and
 approved. The approved modeled changes are implemented through the execution of the action tasks.
+:::
+
 
 The Active Directory action tasks create and populate resource based groups. The Create Groups and
 Update Members action tasks must be updated to specify a Target OU for group creation prior to
@@ -237,10 +249,16 @@ only at the job level.
 
 Follow the steps to execute the AD actions.
 
-**CAUTION:** Do not modify the analysis tasks after the Change Modeling report has been reviewed and
+:::warning
+Do not modify the analysis tasks after the Change Modeling report has been reviewed and
 approved. The approved modeled changes are implemented through the execution of the action tasks.
+:::
 
-**_RECOMMENDED:_** Disable the analysis tasks. It is not necessary to collect the data again.
+
+:::info
+Disable the analysis tasks. It is not necessary to collect the data again.
+:::
+
 
 **Step 1 –** On the Action Selection page, enable the **Create Groups** and **Update Members**
 actions.
@@ -253,8 +271,11 @@ The resource based groups are created and populated.
 
 ## Execute File System Action Tasks
 
-**CAUTION:** Prior to executing the File System action tasks, allow a grace period, for example one
+:::warning
+Prior to executing the File System action tasks, allow a grace period, for example one
 week. This is important for token refresh to occur as users log off and log on again.
+:::
+
 
 The File System actions modify folder permissions and break inheritance. The Modify Permissions and
 Break Inheritance actions modules do not require any configuration.
@@ -279,8 +300,11 @@ job’s Results node. The FS_ResourceBasedGroups Job will run analysis tasks aga
 
 Follow the steps to execute the FS actions.
 
-**CAUTION:** Do not modify the analysis tasks after the Change Modeling report has been reviewed and
+:::warning
+Do not modify the analysis tasks after the Change Modeling report has been reviewed and
 approved. The approved modeled changes are implemented through the execution of the action tasks.
+:::
+
 
 **Step 1 –** On the Action Selection page, disable the **Create Groups** and **Update Members**
 actions.
@@ -306,7 +330,10 @@ purposes.
 
 Follow the steps to analyze and report on action history.
 
-**CAUTION:** Disable all of the action tasks prior to generating the Action History report.
+:::warning
+Disable all of the action tasks prior to generating the Action History report.
+:::
+
 
 **Step 1 –** On the Action Selection page, disable the **Modify Permissions** and **Break
 Inheritance** actions. Make sure all of the action tasks are disabled.

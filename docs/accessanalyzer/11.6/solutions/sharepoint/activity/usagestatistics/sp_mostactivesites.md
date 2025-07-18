@@ -13,8 +13,11 @@ This job identifies the top five most active monitored sites.
 Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Usage Statistics** >
 **SP_MostActiveSites** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_MostActiveSites Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/activity/usagestatistics/mostactivesitesanalysis.webp)
 

@@ -13,8 +13,11 @@ The SQL_DatabaseSizing Job provides details on database file sizes and overall d
 Navigate to the **Databases** > Jobs > SQL > 4.Configuration > SQL_DatabaseSizing Job >Configure
 node and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/analysistask.webp)
 

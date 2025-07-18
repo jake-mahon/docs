@@ -12,9 +12,12 @@ Module provides options for changing attributes and permissions, as well as copy
 moving, and renaming file system contents. It is available with a special Enterprise Auditor
 license.
 
-**CAUTION:** Be careful when using this Action Module. Make sure that only the changes required are
+:::warning
+Be careful when using this Action Module. Make sure that only the changes required are
 applied and only to those target systems desired. Actions perform their functions on all rows in a
 table.
+:::
+
 
 Enterprise Auditor action modules contain one or more selectable operations. Each operation performs
 its function on a single object per row from the source table defined in the action.
@@ -31,7 +34,10 @@ Changes:
 - NetApp Data ONTAP Cluster-Mode Device – User credential must have role on SVM that has permission
   to modify share permissions
 
-    **NOTE:** Enter the following syntax to create role:
+    :::note
+    Enter the following syntax to create role:
+    :::
+
 
     ```
     ‑security login role create ‑role [DESIRED_ROLE_NAME] ‑cmddirname “vserver cifs share access-control” ‑vserver [VSERVER_NAME] ‑access all
@@ -67,8 +73,11 @@ execution of the action and with analysis and reports downstream.
 | rowGUID          | Identifies each data row as unique. The datatype in the table is uniqueidentifier (GUID).                                    |
 | RowKey           | Identifies each data row as unique. Sometimes the value is a GUID, but the datatype in the table is a varchar (text string). |
 
-_Remember,_ the individual File System actions may have their own column requirements in addition to
+:::tip
+Remember, the individual File System actions may have their own column requirements in addition to
 the above. These columns are made available through the File System Action Module wizard.
+:::
+
 
 The Operations page lists the operations that may be performed by the File System Action Module.
 Each operation has its own source table column requirements as follows:
@@ -96,7 +105,10 @@ Each operation has its own source table column requirements as follows:
 The File System Action module is configured through the File System Action Module Wizard, which
 contains the following wizard pages:
 
-**NOTE:** Depending on the selections on the various pages, not all pages may be accessible.
+:::note
+Depending on the selections on the various pages, not all pages may be accessible.
+:::
+
 
 - Welcome
 - [File System Action: Action](/docs/accessanalyzer/11.6/admin/action/filesystem/action.md)

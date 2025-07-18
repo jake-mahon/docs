@@ -16,8 +16,11 @@ control over the content they own and their security settings.
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_ExternalUserActivity** > **Configure**
 node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis for the Box_ExternalUserActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/externaluseractivityanalysis.webp)
 

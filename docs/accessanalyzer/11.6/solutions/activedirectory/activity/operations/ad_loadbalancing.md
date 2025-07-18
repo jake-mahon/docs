@@ -16,8 +16,11 @@ domain controllers which may be decommissioned.
 Navigate to the **Active Directory** > **6.Activity** > **Operations** > **AD_LoadBalancing** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_LoadBalancing Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/operations/loadbalancinganalysis.webp)
 

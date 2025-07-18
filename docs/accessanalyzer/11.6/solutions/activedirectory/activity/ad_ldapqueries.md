@@ -12,15 +12,21 @@ can be used to troubleshoot performance issues, load balancing, and poorly confi
 
 ![AD_LDAPQueries Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/ldapjobstree.webp)
 
-**_RECOMMENDED:_** Schedule this job to run with the 0.Collection job group.
+:::info
+Schedule this job to run with the 0.Collection job group.
+:::
+
 
 ## Analysis Tasks for the AD_LDAPQueries Job
 
 Navigate to the **Active Directory** > **6.Activity** > **LDAP** > **AD_LDAPQueries** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Except for the **Largest Queries** task, do not modify or deselect the remaining
+:::warning
+Except for the **Largest Queries** task, do not modify or deselect the remaining
 selected analysis tasks. The remaining analysis tasks are preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_LDAPQueries Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/ldapqueriesanalysis.webp)
 
@@ -61,7 +67,10 @@ analysis task’s parameters.
 **Step 2 –** In the Analysis Selection view, select the **Largest Queries** analysis task and click
 **Analysis Configuration**. The SQL Script Editor opens.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 ![Largest Queries analysis task in the SQL Script Editor](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/ldapsqlscripteditor.webp)
 

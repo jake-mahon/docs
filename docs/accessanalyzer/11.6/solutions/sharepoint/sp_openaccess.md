@@ -31,8 +31,11 @@ components of the
 Navigate to the **Jobs** > **SharePoint** > **2.High Risk Sites** > **SP_OpenAccess** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_OpenAccess Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/openaccessanalysis.webp)
 

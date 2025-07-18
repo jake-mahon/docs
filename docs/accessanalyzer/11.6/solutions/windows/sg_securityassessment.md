@@ -63,8 +63,11 @@ Workflow
 Navigate to the **Windows** > **SG_SecurityAssessment** > **Configure** node and select **Analysis**
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_SecurityAssessment Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityassessmentanalysis.webp)
 

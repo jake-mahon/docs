@@ -13,8 +13,11 @@ The FS_GroupUsage job is designed to report on group usage from targeted file se
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Usage
 Statistics** > **FS_GroupUsage** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_GroupUsage Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/usagestatistics/groupusageanalysis.webp)
 

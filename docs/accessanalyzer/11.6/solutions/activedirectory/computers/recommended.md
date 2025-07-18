@@ -30,8 +30,11 @@ Inventory job group collection has completed. These jobs can be scheduled to run
 
 Run at the Job Group Level
 
-**_RECOMMENDED:_** Run the jobs in the 3.Computers Job Group together and in order by running the
+:::info
+Run the jobs in the 3.Computers Job Group together and in order by running the
 entire job group, instead of the individual jobs.
+:::
+
 
 Analysis Configuration
 

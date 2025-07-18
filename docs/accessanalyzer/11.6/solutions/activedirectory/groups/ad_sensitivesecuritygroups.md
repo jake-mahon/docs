@@ -16,8 +16,11 @@ who require this level of administrative privileges.
 Navigate to the **Active Directory** > **1.Groups** > **AD_SensitiveSecurityGroups** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_SensitiveSecurityGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/sensitivesecuritygroupsanalysis.webp)
 

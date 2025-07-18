@@ -32,8 +32,11 @@ for additional information.
 Navigate to the **Jobs** > **SharePoint** > **4.Content** > **SP_StaleFiles** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job. Only the `@stale` parameter can be configured for the analysis task.
+:::
+
 
 ![Analysis Tasks for the SP_StaleFiles Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/content/stalefilesanalysis.webp)
 

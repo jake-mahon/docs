@@ -16,9 +16,12 @@ Supported Platforms
 - Windows Server 2016 and later
 - Windows 2003 Forest level or higher
 
-**NOTE:** See the Microsoft
+:::note
+See the Microsoft
 [Windows Server end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/deployoffice/endofsupport/windows-server-support)
 article for additional information.
+:::
+
 
 Requirements, Permissions, and Ports
 
@@ -40,8 +43,11 @@ e.g. 1.Groups Job Group. Other job groups run both data collection and analysis 
 The AD_SecurityAssessment Job summarizes security related results from both the Active Directory
 Solution and the Active Directory Permissions Analyzer Solution.
 
-**NOTE:** The Cleanup Job Group requires additional licenses to function. See the
+:::note
+The Cleanup Job Group requires additional licenses to function. See the
 [Active Directory Job Groups](#active-directory-job-groups) topic for additional information.
+:::
+
 
 See the
 [Instant Job Wizard](/docs/accessanalyzer/11.6/admin/jobs/instantjobs/overview.md)

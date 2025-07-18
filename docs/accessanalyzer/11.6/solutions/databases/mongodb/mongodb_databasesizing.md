@@ -9,8 +9,11 @@ sidebar_position: 30
 Navigate to the **Jobs > Databases > MongoDB > Configuration > MongoDB_DatabaseSizing > Configure**
 node and select Analysis to view the Analysis Tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mongodb/databasesizingjobanalysis.webp)
 

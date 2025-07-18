@@ -10,8 +10,11 @@ When the `AuthenticationDomains` parameter in the **WebServer.exe.config** file 
 domain users from the domain where the Enterprise Auditor Console resides can access the Web
 Console. Access can be granted from other domains when specified within this parameter.
 
-**NOTE:** Once another domain is added, then it is necessary to also add the domain where the
+:::note
+Once another domain is added, then it is necessary to also add the domain where the
 Enterprise Auditor Console resides.
+:::
+
 
 All domains provided or enumerated must have a trust relationship with the domain where Enterprise
 Auditor resides. Follow the steps to allow access to the Web Console from other domains.
@@ -40,7 +43,10 @@ service.
 
 The Web Console can now be accessed from multiple domains.
 
-**NOTE:** In order for the AIC to be accessed from these domains, this must also be configured for
+:::note
+In order for the AIC to be accessed from these domains, this must also be configured for
 the AIC. See the Multiple Domains topic in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)
 for additional information.
+
+:::

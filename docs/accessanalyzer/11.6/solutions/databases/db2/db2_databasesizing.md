@@ -17,8 +17,11 @@ This job is located in the Configuration job group.
 Navigate to the **Jobs** > **Databases** > **Db2** > **Configuration** > **Db2_DatabaseSizing** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Db2_DatabaseSizing Job](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/databasesizinganalysis.webp)
 

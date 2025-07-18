@@ -21,8 +21,11 @@ The 6.Probable Owner Job Group is comprised of:
 View the analysis tasks by navigating to the FileSystem > 6.Probable Owner > FS_ProbableOwner >
 Configure node and select Analysis.
 
-**CAUTION:** Do not modify or deselect the first and third selected analysis tasks. The analysis
+:::warning
+Do not modify or deselect the first and third selected analysis tasks. The analysis
 tasks are preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/probableowneranalysis.webp)
 

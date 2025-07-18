@@ -14,8 +14,11 @@ historical SID that has been granted direct permissions on resources from target
 View the analysis tasks by navigating to the **FileSystem** > **2.Direct Permissions** >
 **FS_SIDHistory** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_SIDHistory Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/directpermissions/sidhistoryanalysis.webp)
 

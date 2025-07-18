@@ -14,8 +14,11 @@ with a view of Reads, Updates, Deletes, and Permission changes performed by a us
 Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Usage Statistics** >
 **SP_MostActiveUsers** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_MostActiveUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/activity/usagestatistics/mostactiveusersanalysis.webp)
 

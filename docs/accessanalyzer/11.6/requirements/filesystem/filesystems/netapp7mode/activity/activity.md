@@ -89,11 +89,17 @@ Checklist Item 4:
 
     - FPolicy operates on the vFiler so the FPolicy must be created on the vFiler
 
-        **NOTE:** Activity Monitor must target the vFiler
+        :::note
+        Activity Monitor must target the vFiler
+        :::
+
 
 - Select method:
 
-    **_RECOMMENDED:_** Configure FPolicy Manually – A tailored FPolicy
+    :::info
+    Configure FPolicy Manually – A tailored FPolicy
+    :::
+
 
     - Allow the Activity Monitor to create an FPolicy automatically
         - This option is enabled when the Activity Monitor agent is configured to monitor the NetApp

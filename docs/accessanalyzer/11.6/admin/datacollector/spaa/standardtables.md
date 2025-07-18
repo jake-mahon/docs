@@ -125,7 +125,10 @@ Activity Changes Views (SPAC)
 
 The tables and their associated views are:
 
-**NOTE:** Lists and libraries are excluded from Sensitive Data Discovery Auditing.
+:::note
+Lists and libraries are excluded from Sensitive Data Discovery Auditing.
+:::
+
 
 SPDLP Tables
 

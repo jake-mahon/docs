@@ -13,7 +13,10 @@ Use this page to select and connect to a sample host, via which a set of remote 
 variables for use in scoping the action are loaded. Then, on the Target page, use the environment
 variables to build dynamic file path locations for the selected operation.
 
-**NOTE:** The environment variables from the local system load by default.
+:::note
+The environment variables from the local system load by default.
+:::
+
 
 ![File System Action Module Wizard Environment page](/img/product_docs/accessanalyzer/11.6/admin/action/filesystem/environment.webp)
 

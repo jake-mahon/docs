@@ -9,8 +9,11 @@ sidebar_position: 10
 The 1-Dropbox_Permissions Scan job collects data from the Dropbox environment on access rights,
 sharing policies, configurations, and content.
 
-**CAUTION:** This job should not be run if running sensitive data scans against the Dropbox Business
+:::warning
+This job should not be run if running sensitive data scans against the Dropbox Business
 environment.
+:::
+
 
 ## Queries for the 1-Dropbox_Permissions Scan Job
 

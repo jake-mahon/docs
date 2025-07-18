@@ -20,8 +20,11 @@ The FS_LeastPrivilegedAccess job is located in the Least Privileged Access job g
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Least Privileged
 Access** > **FS_LeastPrivilegedAccess** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_LeastPrivilegedAccess Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/leastprivilegedaccessanalysis.webp)
 

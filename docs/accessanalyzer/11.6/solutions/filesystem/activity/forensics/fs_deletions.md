@@ -14,8 +14,11 @@ servers.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Forensics** >
 **FS_Deletions** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_Deletions Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/forensics/deletionsanalysis.webp)
 
@@ -61,8 +64,11 @@ Follow the steps to configure a notification analysis task.
 **Step 2 –** In the Analysis Selection view, select the Notification analysis task and click
 **Analysis Configuration** . The Notification Data Analysis Module wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Notification Data Analysis Module wizard SMTP page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/forensics/notificationsmtp.webp)
 
@@ -79,7 +85,10 @@ provided. You can use the following options:
 - Combine multiple messages into single message – Sends one email for all objects in the record set
   instead of one email per object to all recipients
 
-    **_RECOMMENDED:_** Leave the **Combine multiple messages into single message** option selected.
+    :::info
+    Leave the **Combine multiple messages into single message** option selected.
+    :::
+
 
 ![Message section](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/forensics/notificationsmtpmessage.webp)
 
@@ -94,8 +103,11 @@ click **Cancel** if no changes were made. The Notification Data Analysis Module 
 recipient list. In the Analysis Selection view, select this task so that notifications can be sent
 automatically during the execution of the job.
 
-_Remember,_ all of the analysis tasks should remain in the default order indicated by the numbering.
+:::tip
+Remember, all of the analysis tasks should remain in the default order indicated by the numbering.
 Do not deselect any of the SQLscripting analysis tasks.
+:::
+
 
 Once the Notification analysis task is configured and enabled alerts are sent when the trigger has
 been identified by this job.

@@ -44,7 +44,10 @@ bottom of the SQL Script Editor. Follow the steps to customize an analysis taskâ
 **Step 2 â€“** In the Analysis Selection view, select the Group Member Activity analysis task and
 click on **Analysis Configuration**. The SQL Script Editor opens.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 ![Group Member Activity Analysis Task in the SQL Script Editor](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/groupusage/groupmemberactivitysqlscripteditor.webp)
 

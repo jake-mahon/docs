@@ -41,8 +41,11 @@ This job group can be scheduled to run as desired.
 
 Run at the Job Group Level
 
-**_RECOMMENDED:_** Run the jobs in the **5.Domains** job group together and in order by running the
+:::info
+Run the jobs in the **5.Domains** job group together and in order by running the
 entire job group, instead of the individual jobs.
+:::
+
 
 Query Configuration
 

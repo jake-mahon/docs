@@ -27,8 +27,11 @@ The UX_LargeGroups job has the following customizable parameter:
 Navigate to the **Unix** > **1.Users and Groups** > **UX_LargeGroups** > **Configure** node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_LargeGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/usersgroups/largegroupsanalysis.webp)
 

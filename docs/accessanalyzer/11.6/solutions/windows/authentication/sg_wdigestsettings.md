@@ -17,7 +17,10 @@ article for more information.
 The SG_WDigestSettings job uses the Registry and WMICollector Data Collectors for the following
 queries:
 
-**CAUTION:** The queries are preconfigured for this job. Never modify the queries.
+:::warning
+The queries are preconfigured for this job. Never modify the queries.
+:::
+
 
 ![Queries for the SG_WDigestSettings Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/wdigestsettingsqueries.webp)
 
@@ -32,8 +35,11 @@ The queries for the SG_WDigestSettings job are:
 Navigate to the **Windows** > **Authentication** > **SG_WDigestSettings** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_WDigestSettings Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/wdigestsettingsanalysis.webp)
 

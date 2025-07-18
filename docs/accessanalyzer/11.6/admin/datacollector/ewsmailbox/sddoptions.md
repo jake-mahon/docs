@@ -21,4 +21,7 @@ Select the applicable Sensitive data scan options:
 - Limit stored matches per criteria to [number] – Limits database storage of matches per criteria
   for discovered sensitive data
 
-    **NOTE:** This option is only available if **Store discovered sensitive data** is selected.
+    :::note
+    This option is only available if **Store discovered sensitive data** is selected.
+    
+    :::

@@ -51,5 +51,8 @@ The data collection is conducted by the AzureADInventory Data Collector. See the
 [Standard Reference Tables & Views for the AzureADInventory Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/azureadinventory/standardtables.md)
 topic for database table information.
 
-**NOTE:** This solution is required for SharePoint Online reports in the Netwrix Access Information
+:::note
+This solution is required for SharePoint Online reports in the Netwrix Access Information
 Center.
+
+:::

@@ -43,7 +43,10 @@ then an extra 16 GB of RAM are required (8x2=16).
 The EWSPublicFolder Data Collector is configured through the Exchange Public Folder Data Collector
 Wizard. The wizard contains the following pages:
 
-**NOTE:** The Category selected may alter the subsequent steps displayed by the wizard.
+:::note
+The Category selected may alter the subsequent steps displayed by the wizard.
+:::
+
 
 - [EWSPublicFolder: Category](/docs/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/category.md)
 - [EWSPublicFolder: Options](/docs/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/options.md)

@@ -9,10 +9,16 @@ sidebar_position: 10
 Dell CEE should be installed on a Windows or a Linux server. The Dell CEE software is not a Netwrix
 product. Dell customers have a support account with Dell to access the download.
 
-_Remember,_ the latest version is the recommended version of Dell CEE.
+:::tip
+Remember, the latest version is the recommended version of Dell CEE.
+:::
 
-**_RECOMMENDED:_** The Dell CEE package can be installed on the Windows server where the Activity
+
+:::info
+The Dell CEE package can be installed on the Windows server where the Activity
 Monitor agent will be deployed (recommended) or on any other Windows or Linux server.
+:::
+
 
 Follow the steps to install the Dell CEE.
 
@@ -26,8 +32,11 @@ guide to install and configure the CEE. The installation will add two services t
 - EMC Checker Service (Display Name: EMC CAVA)
 - EMC CEE Monitor (Display Name: EMC CEE Monitor)
 
-**_RECOMMENDED:_** The latest version of .NET Framework and Dell CEE is recommended to use with the
+:::info
+The latest version of .NET Framework and Dell CEE is recommended to use with the
 asynchronous bulk delivery (VCAPS) feature.
+:::
+
 
 See the
 [CEE Debug Logs](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellunity/activity/validate.md#cee-debug-logs)
@@ -85,7 +94,10 @@ Mover.
 **Step 1 –** Log into the Dell Celerra or VNX server with an administrator account. The
 administrative account should have a $ character in the terminal.
 
-**NOTE:** Do not use a # charter.
+:::note
+Do not use a # charter.
+:::
+
 
 **Step 2 –** Create or retrieve the `cepp.conf` file.
 
@@ -104,9 +116,12 @@ $ server_file [DATA_MOVER_NAME] -get cepp.conf cepp.conf
 [Using the Common Event Enabler for Windows Platforms](https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage-3/docu48055.pdf)
 guide instructions on how to add parameters or edit the values or existing parameters.
 
-**NOTE:** The information can be added to the file on one line or separate lines by using a space
+:::note
+The information can be added to the file on one line or separate lines by using a space
 and a ”\” at the end of each line, except for the last line and the lines that contain global
 options: `cifsserver`, `surveytime`, `ft`, and `msrpcuser`.
+:::
+
 
 The Activity Monitor requires the following parameters to be set in the `cepp.conf` file:
 
@@ -166,8 +181,11 @@ command:
 
 $ server_file [DATA_MOVER_NAME]‑put cepp.conf cepp.conf
 
-**NOTE:** Each Data Mover which runs Celerra Event Publishing Agent (CEPA) must have a `cepp.conf`
+:::note
+Each Data Mover which runs Celerra Event Publishing Agent (CEPA) must have a `cepp.conf`
 file, but each configuration file can specify different events.
+:::
+
 
 **Step 5 –** (This step is required only if using the `msrpcuser` parameter) Register the MSRPC user
 (see Step 3 for additional information on this parameter). Before starting CEPA for the first time,

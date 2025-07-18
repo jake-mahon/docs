@@ -60,8 +60,11 @@ located in the Web folder within the Enterprise Auditor installation.
 **Step 3 –** Update the following values in the **WebServer.exe.config** file with the values
 retrieved from the Enterprise Auditor Okta application.
 
-**CAUTION:** These values are case sensitive. The values used here must match the values in the
+:::warning
+These values are case sensitive. The values used here must match the values in the
 Enterprise Auditor Okta application.
+:::
+
 
 - `WSFederationMetadata` – Paste the copied link address into the **WebServer.exe.config** file as:
 
@@ -124,7 +127,10 @@ Click the **Edit Profile** button for the Enterprise Auditor application.
 - upn
 - department
 
-**NOTE:** The case of the attributes in bold must match the case used in the custom attribute.
+:::note
+The case of the attributes in bold must match the case used in the custom attribute.
+:::
+
 
 Click **Save** to save the attribute details and close the Add Attribute window. To add another
 attribute, click **Save and Add Another**.

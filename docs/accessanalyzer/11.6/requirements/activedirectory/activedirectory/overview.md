@@ -28,11 +28,14 @@ topic for additional information.
 
 ## Activity Auditing Permissions
 
-**NOTE:** Active Directory domain activity events can also be monitored through Netwrix Threat
+:::note
+Active Directory domain activity events can also be monitored through Netwrix Threat
 Prevention. This requires integration between it and Netwrix Activity Monitor to enable access to
 the data for Enterprise Auditor Active Directory Activity scans. See the
 [Getting Data from NTP for AD Activity Reporting](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/threatprevention.md)
 topic for additional information.
+:::
+
 
 Requirements to Deploy the AD Agent on the Domain Controller
 
@@ -44,8 +47,11 @@ server:
 - Membership in the Domain Administrators group
 - READ and WRITE access to the archive location for Archiving feature only
 
-**NOTE:** For monitoring an Active Directory domain, the AD Agent must be installed on all domain
+:::note
+For monitoring an Active Directory domain, the AD Agent must be installed on all domain
 controllers within the domain to be monitored.
+:::
+
 
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.

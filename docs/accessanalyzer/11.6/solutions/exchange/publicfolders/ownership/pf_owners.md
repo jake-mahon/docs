@@ -16,8 +16,11 @@ based on folder ownership, content posted, and size of content posted.
 View the analysis tasks by navigating to the **Exchange** > **5. Public Folders** > **Ownership** >
 **PF_Owners** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_Owners Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/ownersanalysis.webp)
 

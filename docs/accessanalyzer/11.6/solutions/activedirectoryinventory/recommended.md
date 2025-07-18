@@ -47,7 +47,10 @@ Not supported
 
 Schedule Frequency
 
-**_RECOMMENDED:_** Schedule the .Active Directory Inventory Job Group to run once a day.
+:::info
+Schedule the .Active Directory Inventory Job Group to run once a day.
+:::
+
 
 If there are frequent AD changes within the target environment, then it can be executed more often.
 It is best to rerun it anytime AD changes might have occurred.

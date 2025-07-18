@@ -13,7 +13,10 @@ provides details on the containers they are linked to, and the settings that are
 
 The AD_GroupPolicy Job uses the GroupPolicy Data Collector for the following query:
 
-**CAUTION:** Do not modify the queries. The queries are preconfigured for this job.
+:::warning
+Do not modify the queries. The queries are preconfigured for this job.
+:::
+
 
 ![Queries for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
@@ -31,8 +34,11 @@ The queries for this job are:
 Navigate to the **Active Directory** > **4.GroupPolicy** > **AD_GroupPolicy** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
 

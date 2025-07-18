@@ -22,8 +22,11 @@ The Dropbox_Sharing job is located in the 2.Sharing job group.
 View the analysis tasks by navigating to the **Jobs** > **Dropbox** > **2.Sharing** >
 **Dropbox_Sharing** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Dropbox_Sharing Job](/img/product_docs/accessanalyzer/11.6/solutions/dropbox/sharinganalysis.webp)
 

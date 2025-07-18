@@ -39,8 +39,11 @@ executions, analysis history, host query details, and analysis details.
 Navigate to the **Jobs** > **SAS_ExecutionStatistics** > **Configure** node and select **Analysis**
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks.webp)
 

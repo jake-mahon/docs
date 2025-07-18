@@ -84,7 +84,10 @@ Run Order
 The jobs in the 0.Collection job group must be run first and in order. The other job groups can be
 run in any order, together or individually, after running the 0.Collection job group.
 
-**_RECOMMENDED:_** Run the solution at the top level.
+:::info
+Run the solution at the top level.
+:::
+
 
 Run at the Solution Level
 

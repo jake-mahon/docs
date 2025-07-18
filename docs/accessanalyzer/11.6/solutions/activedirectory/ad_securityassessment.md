@@ -50,8 +50,11 @@ One or more of the following job groups or jobs must be run to produce results:
 
     - Windows > Privileged Accounts > Service Accounts > SG_ServiceAccounts
 
-**NOTE:** If any of the above jobs are not completed, the AD_SecurityAssessment job will run but all
+:::note
+If any of the above jobs are not completed, the AD_SecurityAssessment job will run but all
 checks will not be assessed.
+:::
+
 
 Target Host
 
@@ -79,8 +82,11 @@ console.
 Navigate to the **Jobs** > Active Directory > AD_SecurityAssessment > Configure node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/securityassessmentanalysis.webp)
 

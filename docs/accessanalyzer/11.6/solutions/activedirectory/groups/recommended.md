@@ -31,8 +31,11 @@ desired.
 
 Run at the Job Group Level
 
-**_RECOMMENDED:_** Run the jobs in the **1.Groups** Job Group together and in order by running the
+:::info
+Run the jobs in the **1.Groups** Job Group together and in order by running the
 entire job group, instead of the individual jobs.
+:::
+
 
 Analysis Configuration
 
@@ -46,8 +49,11 @@ Some analysis tasks have customizable parameters:
 
     - Customize within **.Active Directory Inventory** > **3-AD_Exceptions** Job analysis tasks
 
-        **NOTE:** Changes to an exception’s definition will affect all jobs dependent upon that
+        :::note
+        Changes to an exception’s definition will affect all jobs dependent upon that
         exception as well as all Access Information Center Exceptions reports.
+        :::
+
 
 Workflow
 

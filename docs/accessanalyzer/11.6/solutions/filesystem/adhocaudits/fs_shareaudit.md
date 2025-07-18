@@ -14,8 +14,11 @@ input.
 View the analysis tasks by navigating to the FileSystem > Ad Hoc Audits > FS_ShareAudit > Configure
 node and select Analysis.
 
-**CAUTION:** Do not modify or deselect the last three selected analysis tasks. The analysis tasks
+:::warning
+Do not modify or deselect the last three selected analysis tasks. The analysis tasks
 are preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
 

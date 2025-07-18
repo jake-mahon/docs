@@ -14,8 +14,11 @@ Anonymous Logon, or Domain users have been directly assigned permissions
 Navigate to the **Jobs** > **SharePoint** > **1.Direct Permissions** > **SP_HighRiskPermissions** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_HighRiskPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/directpermissions/highriskpermissionsanalysis.webp)
 

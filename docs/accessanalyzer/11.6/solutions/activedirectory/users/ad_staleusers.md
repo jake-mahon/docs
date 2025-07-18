@@ -10,20 +10,26 @@ The AD_StaleUsers job identifies potentially stale users based on the amount of 
 last login to the domain, or if the account has been disabled. These accounts should be reviewed and
 cleaned up in order to increase security and reduce complexity.
 
-**NOTE:** The definition of a stale user is set by the .Active Directory Inventory solution. These
+:::note
+The definition of a stale user is set by the .Active Directory Inventory solution. These
 parameters, including the number of days since last login to be considered stale (by default 60
 days), can be customized within the **.Active Directory Inventory** > **3-AD_Exceptions** job's
 **Stale Users** analysis task. See the
 [3-AD_Exceptions Job](/docs/accessanalyzer/11.6/solutions/activedirectoryinventory/3-ad_exceptions.md)
 topic for additional information.
+:::
+
 
 ## Analysis Tasks for the AD_StaleUsers Job
 
 Navigate to the **Active Directory** > **2.Users** > **AD_StaleUsers** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_StaleUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/staleusersanalysis.webp)
 

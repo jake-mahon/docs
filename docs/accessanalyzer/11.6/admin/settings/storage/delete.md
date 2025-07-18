@@ -8,8 +8,11 @@ sidebar_position: 40
 
 Follow the steps to delete a Storage Profile.
 
-**NOTE:** This procedure does not delete databases from the SQL Server. It only removes the selected
+:::note
+This procedure does not delete databases from the SQL Server. It only removes the selected
 Storage Profile from this Enterprise Auditor Console.
+:::
+
 
 ![Delete Storage Profile option](/img/product_docs/accessanalyzer/11.6/admin/settings/storage/delete.webp)
 

@@ -15,8 +15,11 @@ resources, or how much access is being granted to resources through these groups
 Navigate to the **Jobs** > **Entra ID** > **1.Groups** > **AAD_LargestGroups** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis tasks for AAD_LargestGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/groups/largestgroupsanalysis.webp)
 

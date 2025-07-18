@@ -34,8 +34,11 @@ server or mutual authentication.
 FPolicy may have a significant impact on file system throughput, and it is always a best practice to
 monitor performance when enabling FPolicy.
 
-**_RECOMMENDED:_** Create a tailored FPolicy which only collects the desired activity from the
+:::info
+Create a tailored FPolicy which only collects the desired activity from the
 environment to limit the scope and impact.
+:::
+
 
 For scale-out and fault tolerance purposes, the product supports a range of deployment options. A
 single agent can receive events from multiple SVMs. Or events from a single SVM can be distributed

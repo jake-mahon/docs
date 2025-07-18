@@ -14,8 +14,11 @@ over the past 30 days.
 Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Forensics** >
 **SP_PermissionChanges** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_PermissionChanges Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/activity/forensics/permissionchangesanalysis.webp)
 

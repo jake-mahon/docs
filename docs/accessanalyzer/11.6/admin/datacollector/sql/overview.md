@@ -113,8 +113,11 @@ then an extra 16 GB of RAM are required (8x2=16).
 The SQL Data Collector is configured through the SQL Data Collector Wizard. The wizard contains the
 following pages, which change based upon the query category selected:
 
-**NOTE:** The SQL Data Collector is used in multiple Enterprise Auditor Solutions, and the query
+:::note
+The SQL Data Collector is used in multiple Enterprise Auditor Solutions, and the query
 categories used are dependent on the solution.
+:::
+
 
 - [SQL: Category](/docs/accessanalyzer/11.6/admin/datacollector/sql/category.md)
 - [SQL: Options](/docs/accessanalyzer/11.6/admin/datacollector/sql/options.md)

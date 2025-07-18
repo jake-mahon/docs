@@ -14,8 +14,11 @@ servers and instances based on Oracle Unified Audit settings.
 Navigate to the **Oracle** > **2.Activity** > **Oracle_Activity** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup26.webp)
 

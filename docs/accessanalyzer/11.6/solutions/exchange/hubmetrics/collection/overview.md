@@ -25,7 +25,10 @@ The jobs in the 0.Collection Job Group are:
 - [EX_MetricsDetails Job](/docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/collection/ex_metricsdetails.md)
   – Collects user to user traffic per day
 
-    **NOTE:** This job's query needs to be configured to the internal domains from which to collect
+    :::note
+    This job's query needs to be configured to the internal domains from which to collect
     the sender to recipient traffic. By default, the query is configured to collect the previous 1
     day of Message Tracking Logs and has @netwrix.com configured as the domain. If the domains are
     not configured in the query, then most likely data collection does not return.
+    
+    :::

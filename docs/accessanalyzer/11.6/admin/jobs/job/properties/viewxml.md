@@ -22,4 +22,7 @@ value of:
 - 2 for Warning
 - 3 for Error
 
-**NOTE:** Job analysis configurations are kept in a separate XML file.
+:::note
+Job analysis configurations are kept in a separate XML file.
+
+:::

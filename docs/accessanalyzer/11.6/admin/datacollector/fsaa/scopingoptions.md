@@ -72,7 +72,10 @@ Both the Resource Name and Host Name textboxes support regular expressions and p
   Regular Expression: To provide an expression that would include all shares or files that start
   with the letter `A`:
 
-    **NOTE:** This option is case sensitive.
+    :::note
+    This option is case sensitive.
+    :::
+
 
     - `RE:\\\\[^\\[+\\A`
 
@@ -88,9 +91,12 @@ Then set Scoping Type and Priority:
     - Folder Exclude – Provided folder is excluded from the scan. All scoping options must match or
       it is excluded.
 
-    **NOTE:** Any included files or folders inherit all options previously checked in the
+    :::note
+    Any included files or folders inherit all options previously checked in the
     [FSAA: Default Scoping Options](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/defaultscopingoptions/defaultscopingoptions.md)
     page. Manually apply new options if the default ones are not desired in this scan.
+    :::
+
 
 - Priority – Numerical value that determines which options are used in the case of more than one
   scoping option overlaps for a particular resource. Lower numerical values have a higher priority

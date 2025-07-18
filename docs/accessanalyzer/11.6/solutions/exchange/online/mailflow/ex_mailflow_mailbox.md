@@ -30,8 +30,11 @@ topic for additional information.
 View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online** >
 **EX_Mailflow_Mailbox** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
 

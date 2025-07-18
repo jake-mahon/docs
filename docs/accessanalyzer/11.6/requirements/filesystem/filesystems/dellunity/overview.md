@@ -27,11 +27,14 @@ these target hosts requires these permissions. See the
 [Dell Unity Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellunity/access.md)
 topic for instructions.
 
-**NOTE:** These permissions are in addition to those needed to either deploy applet scans for
+:::note
+These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
 [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
+
 
 Troubleshooting Dell Unity Denied Access Errors
 
@@ -72,7 +75,10 @@ Dell Unity Requirements
 Additionally, the EMC Common Event Enabler (CEE) should be installed on the Windows proxy server,
 where the activity agent is deployed.
 
-**_RECOMMENDED:_** Use the latest available CEE version from the Dell Support website.
+:::info
+Use the latest available CEE version from the Dell Support website.
+:::
+
 
 EMC CEE requires .NET Framework 3.5 to be installed on the Windows proxy server in order for the EMC
 CEE service to start.

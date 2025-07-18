@@ -8,8 +8,11 @@ sidebar_position: 10
 
 This topic outlines what is supported for each type of Exchange version.
 
-**NOTE:** Sensitive Data Discovery is available with the EWSMailbox, EWSPublicFolder, and
+:::note
+Sensitive Data Discovery is available with the EWSMailbox, EWSPublicFolder, and
 ExchangeMailbox data collectors.
+:::
+
 
 ## Support by Data Collector
 
@@ -88,5 +91,8 @@ or action module to be used:
     -   5. Public Folders Job Group
     -   7. Sensitive Data Job Group
 
-**NOTE:** All MAPI-based data collectors require the **Settings** > **Exchange** node configured in
+:::note
+All MAPI-based data collectors require the **Settings** > **Exchange** node configured in
 the Enterprise Auditor Console.
+
+:::

@@ -13,8 +13,11 @@ The SG_LocalPolicies job identifies privileged accounts with high levels of serv
 Navigate to the **Windows** > **Privileged Accounts** > **Logon Rights** > **SG_LocalPolicies** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_LocalPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/logonrights/localpoliciesanalysis.webp)
 

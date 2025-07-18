@@ -39,8 +39,11 @@ Scheduling Frequency
 
 This group can be scheduled to run as desired.
 
-**_RECOMMENDED:_** Run from the 6.Activity Job Group level in order to correlate 0.Collection job
+:::info
+Run from the 6.Activity Job Group level in order to correlate 0.Collection job
 group data with other jobs.
+:::
+
 
 History Retention
 

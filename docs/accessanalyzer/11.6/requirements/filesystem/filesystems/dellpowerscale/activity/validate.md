@@ -36,8 +36,11 @@ agent in the following formats:
 
 - For the HTTP protocol,` StealthAUDIT@http://'ip-address-of-the-agent':'port'`
 
-**NOTE:** All protocol strings are case sensitive. The EndPoint parameter may also contain values
+:::note
+All protocol strings are case sensitive. The EndPoint parameter may also contain values
 for other applications, separated with semicolons.
+:::
+
 
 **Step 4 –** If you changed any of the settings, restart the CEE Monitor service.
 
@@ -58,8 +61,11 @@ agent in the following formats:
 - For the RPC protocol, `StealthVCAPS@'ip-address-of-the-agent'`
 - For the HTTP protocol, `StealthVCAPS@http://'ip-address-of-the-agent':'port'`
 
-**NOTE:** All protocol strings are case sensitive. The EndPoint parameter may also contain values
+:::note
+All protocol strings are case sensitive. The EndPoint parameter may also contain values
 for other applications, separated with semicolons.
+:::
+
 
 **Step 4 –** Ensure that the FeedInterval parameter is set to a value between 60 and 600; the
 MaxEventsPerFeed - between 10 and 10000.
@@ -111,12 +117,18 @@ HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\Configuration
 **Step 10 –** Right-click on **Debug** and select Modify. The Edit DWORD Value window opens. In the
 Value data field, enter the value of 3F. Click OK, and the Edit DWORD Value window closes.
 
-**NOTE:** If the Debug DWORD Value does not exist, it needs to be added.
+:::note
+If the Debug DWORD Value does not exist, it needs to be added.
+:::
+
 
 **Step 11 –** Right-click on **Verbose** and select Modify. The Edit DWORD Value window opens. In
 the Value data field, enter the value of 3F. Click OK, and the Edit DWORD Value window closes.
 
-**NOTE:** If the Verbose DWORD Value does not exist, it needs to be added.
+:::note
+If the Verbose DWORD Value does not exist, it needs to be added.
+:::
+
 
 **Step 12 –** Run the Debug View tool (from Microsoft). In the Capture menu, select the following:
 
@@ -134,16 +146,22 @@ and Enable monitoring.
 - Debug View Log (from Dell Debug View tool)
 - Use the **Collect Logs** button to collect debug logs from the activity agent
 
-**_RECOMMENDED:_** After the logs have been gathered and sent to Netwrix Support, reset these
+:::info
+After the logs have been gathered and sent to Netwrix Support, reset these
 configurations.
+:::
+
 
 ## Linux CEE Debug Log
 
 The debug log is stored in `/opt/CEEPack/emc_cee_svc.log` file. To enable verbose logging set Debug
 and Verbose parameters under **Configuration** to 255 and restart the CEE.
 
-**NOTE:** Debug logs should only be used for troubleshooting purposes. It's recommended to have
+:::note
+Debug logs should only be used for troubleshooting purposes. It's recommended to have
 Debug Logs disabled by default.
+:::
+
 
 ```xml
 ...
@@ -187,4 +205,7 @@ Debug Logs disabled by default.
 </CEEConfig>
 ```
 
-**NOTE:** All protocol strings are case sensitive.
+:::note
+All protocol strings are case sensitive.
+
+:::

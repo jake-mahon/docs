@@ -12,15 +12,21 @@ troubleshooting.
 
 ![AD_Lockouts Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/lockoutsjobstree.webp)
 
-**_RECOMMENDED:_** Schedule this job to run with the 0.Collection job group.
+:::info
+Schedule this job to run with the 0.Collection job group.
+:::
+
 
 ## Analysis Tasks for the AD_Lockouts Job
 
 Navigate to the **Active Directory** > **6.Activity** > **Lockouts** > **AD_Lockouts** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_Lockouts Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/lockoutsanalysis.webp)
 

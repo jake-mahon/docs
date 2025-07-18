@@ -24,11 +24,14 @@ addition, the following clients and drivers must be installed:
 - IBM Database Add-Ins for Visual Studio
 - IBM .NET Driver NuGet
 
-**NOTE:** All necessary clients and drivers can be found on IBM Support's
+:::note
+All necessary clients and drivers can be found on IBM Support's
 [Download initial version 11.5 clients and drivers](https://www.ibm.com/support/pages/download-initial-version-115-clients-and-drivers)
 page. From the list of available packages, select the IBM Data Server Client, which is the
 all-in-one client package. This package includes all of the client tools and available libraries, as
 well as the add-ins for Visual Studio.
+:::
+
 
 Data Collectors
 
@@ -44,11 +47,14 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 ## Ports
 

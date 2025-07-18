@@ -56,8 +56,11 @@ The subfolders depth is now saved to the configured level.
 Navigate to the **Windows** > **OpenAccess** > **SG_OpenFolders** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/openaccess/openfoldersanalysis.webp)
 

@@ -39,9 +39,12 @@ additional GB of RAM per host. By default, SDD scans are configured to run two c
 For example, if the job is configured to scan 8 hosts at a time with two concurrent SDD threads,
 then an extra 32 GB of RAM are required (8x2x2=32).
 
-_Remember,_ if employing either of the File System Proxy Mode as a Service scan mode options, it is
+:::tip
+Remember, if employing either of the File System Proxy Mode as a Service scan mode options, it is
 also necessary for the Sensitive Data Discovery Add-on to be installed on the server where the proxy
 service is installed.
+:::
+
 
 ## FSAA Query Configuration
 

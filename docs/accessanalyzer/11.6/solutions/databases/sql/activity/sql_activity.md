@@ -14,8 +14,11 @@ databases based on SQL Server Audit Specification settings.
 Navigate to the **Databases** > SQL > 2.Activity > SQL_Activity > Configure node and select Analysis
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup31.webp)
 

@@ -15,8 +15,11 @@ Navigate to the **Active Directory** > **Cleanup** > **3.Computers** >
 **AD_DeprovisionComputers_Status** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for AD_DeprovisionComputers_Status Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/computers/deprovisioncomputersstatusanalysis.webp)
 

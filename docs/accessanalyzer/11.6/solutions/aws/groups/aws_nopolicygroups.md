@@ -13,8 +13,11 @@ The AWS_NoPolicyGroups job provides details on groups that have no policies assi
 Navigate to the **AWS** > **3.Groups** > **AWS_NoPolicyGroups** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_NoPolicyGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/groups/nopolicygroupsanalysis.webp)
 

@@ -15,8 +15,11 @@ scoped audits of user access across the targeted SharePoint environment.
 Navigate to the **Jobs** > **SharePoint** > **Effective Access Audits** > **SP_TrusteeAudit** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_TrusteeAudit Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/effectiveaccessaudits/trusteeauditanalysis.webp)
 

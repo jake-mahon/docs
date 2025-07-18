@@ -14,8 +14,11 @@ or a file over the past 30 days.
 View the analysis tasks by navigating to the **Box** > **1.Activity** > **Suspicious Activity** >
 **Box_FirstTimeFolderAccess** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_FirstTimeFolderAccess Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/firsttimefolderaccessanalysis.webp)
 

@@ -57,8 +57,11 @@ topic for additional information.
 Navigate to the **FileSystem** > **Cleanup** > **1. Cleanup Assessment** >
 **FS_CleanupAssessment** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_CleanupAssessment Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/cleanupassessmentanalysis.webp)
 
@@ -135,8 +138,11 @@ Data Collector Wizard opens.
 **Step 5 –** On the File Details tab, select the **Scan file-level details** option, and then select
 the **Collect tags/keywords from file metadata properties** option.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 **Step 6 –** Navigate to the **Scoping Queries** page of the File System Access Auditor Data
 Collector Wizard and click Finish to save the changes and close the wizard.

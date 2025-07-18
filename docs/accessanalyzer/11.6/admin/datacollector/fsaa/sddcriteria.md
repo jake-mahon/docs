@@ -39,5 +39,8 @@ The table contains the following types of criteria:
     [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
     topic for additional information.
 
-**NOTE:** Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
+:::note
+Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
 Criteria and User Criteria nodes are visible in the table.
+
+:::

@@ -13,8 +13,11 @@ categories of:
 - Network Interface (NIC)
 - Open File Shares
 
-**NOTE:** This is a legacy feature, as it is more efficient to use the **FileSystemAccess** (FSAA)
+:::note
+This is a legacy feature, as it is more efficient to use the **FileSystemAccess** (FSAA)
 Data Collector to gather this information.
+:::
+
 
 ## File Shares and Open File Shares
 

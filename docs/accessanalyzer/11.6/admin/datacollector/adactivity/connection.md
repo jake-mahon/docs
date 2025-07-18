@@ -28,9 +28,12 @@ archive via an API Server:
   Refresh token.
 - Exclude – Select archives to be ignored by the Active Directory Activity DC scan
 
-    **CAUTION:** Save the Refresh token to a Text Editor for later use. The Refresh token resets
+    :::warning
+    Save the Refresh token to a Text Editor for later use. The Refresh token resets
     each time the Test SAM host option is connected to. It must be replaced in the Connection
     profile if it is regenerated.
+    :::
+
 
 - Refresh token – After generation, it must replace the old Access Token from the SAM API Server
   configuration in the Connection Profiles required to connect to the API Server

@@ -79,14 +79,22 @@ SDD Options
   database. Any sampled sensitive data discovered based on the matched criteria is stored in the
   Enterprise Auditor database. This functionality can be disabled by clearing this option.
 
-    **NOTE:** The **Store discovered sensitive data** option is required to view Content Audit
+    :::note
+    The **Store discovered sensitive data** option is required to view Content Audit
     reports in the Access Information Center for SQL data.
+    :::
 
-    **CAUTION:** Changing scan options, criteria, or filters when resuming a scan may prevent the
+
+    :::warning
+    Changing scan options, criteria, or filters when resuming a scan may prevent the
     can from resuming properly.
+    :::
+
 
 - Resume scan from last point on error – Resumes scan from where the previous scan left off when the
   previous scan was stopped as a result of an error
 
-_Remember,_ the Sensitive Data Discovery Add-on is required to use the sensitive data collection
+:::tip
+Remember, the Sensitive Data Discovery Add-on is required to use the sensitive data collection
 option.
+:::

@@ -43,13 +43,16 @@ have:
 
 - Group membership in the local Administrators group
 
-**NOTE:** All NetApp groups are assigned an RID. Built-in NetApp groups such as Power Users and
+:::note
+All NetApp groups are assigned an RID. Built-in NetApp groups such as Power Users and
 Backup Operators are assigned specific RID values. On 7-Mode NetApp devices, system access checks
 for a group are identified by the RID assigned to the group and not by the role it has. Therefore,
 application’s ability to bypass access checks with the Power Users and Backup Operators group has
 nothing to do with the power role or the backup role. Neither role is required. For example, the
 built-in Power User group, even when stripped of all roles, still has more file system access
 capabilities than any other non-built-in group.
+:::
+
 
 If only running the Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, proceed
 to the

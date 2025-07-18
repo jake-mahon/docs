@@ -14,8 +14,11 @@ sensitive data.
 Navigate to the **AWS** > **8.S3 Sensitive Data** > **AWS_SensitiveData** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_SensitiveData Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/sensitivedata/sensitivedataanalysis.webp)
 

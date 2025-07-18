@@ -48,5 +48,8 @@ selected.
   only collect files with extensions matching to the list of file types entered. If this option is
   not set, all file types are collected.
 
-**CAUTION:** Be careful when configuring these settings. If no filters are applied when file detail
+:::warning
+Be careful when configuring these settings. If no filters are applied when file detail
 scanning has been enabled, it can result in returning large amounts of data to the database.
+
+:::

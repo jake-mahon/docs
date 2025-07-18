@@ -15,8 +15,11 @@ The SendMail Action Module has multiple uses, for example:
 - In combination with other Enterprise Auditor action modules such as Survey, create an end-to-end
   workflow to contact clients and solicit feedback for use in the decision-making process
 
-**CAUTION:** This module sends one or more electronic messages to a selected audience. Prior to
+:::warning
+This module sends one or more electronic messages to a selected audience. Prior to
 executing the action, ensure the audience consists of only the desired members.
+:::
+
 
 ## Source Table Configuration
 

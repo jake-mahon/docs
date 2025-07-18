@@ -44,9 +44,12 @@ Workflow
 
 **Step 2 –** Configure a Host List for the job at the job level.
 
-**NOTE:** If a host list is not configured, this job will analyze and commit actions on every File
+:::note
+If a host list is not configured, this job will analyze and commit actions on every File
 System server known to Enterprise Auditor. To scope the actions to target specific servers,
 configure a host list at the job level to target only those servers.
+:::
+
 
 **Step 3 –** Configure and execute analysis tasks.
 
@@ -116,8 +119,11 @@ tasks are selected by default. Follow the steps to execute the analysis tasks.
 
 **Step 1 –** Make sure all of the analysis tasks are enabled.
 
-**CAUTION:** Prior to executing the analysis tasks, make sure that all action tasks are disabled.
+:::warning
+Prior to executing the analysis tasks, make sure that all action tasks are disabled.
 The purpose at this point is only to create the required traversal tables.
+:::
+
 
 **Step 2 –** In the Configure node, select **Actions** and make sure that all of the action tasks
 are disabled.
@@ -139,8 +145,11 @@ Groups job was installed from the Instant Jobs library. Then go to the **FS_Trav
 **Configure** node and select **Actions**. The Create Groups action task must be configured to
 specify the OU for group creation.
 
-**_RECOMMENDED:_** It is recommended to execute the actions one at a time and in order as opposed to
+:::info
+It is recommended to execute the actions one at a time and in order as opposed to
 running the entire job group with the actions enabled.
+:::
+
 
 ![FS_TraverseGroups action tasks](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/resourcebasedgroups/traverseactions.webp)
 
@@ -197,8 +206,11 @@ The resource based groups are created and populated.
 Once the Create Groups action has been executed, the Modify Permissions action can be executed.
 Follow the steps to execute the action.
 
-**CAUTION:** Prior to executing the File System action tasks, allow a grace period, for example one
+:::warning
+Prior to executing the File System action tasks, allow a grace period, for example one
 week. This is important for token refresh to occur as users log off and log on again.
+:::
+
 
 **Step 1 –** On the Action Selection page, disable the **Create Groups** action task.
 
@@ -223,8 +235,11 @@ environment by the action modules.
 
  Follow the steps to analyze and report on action history.
 
-**CAUTION:** Disable all of the action tasks prior to generating the List Traverse Group Changes
+:::warning
+Disable all of the action tasks prior to generating the List Traverse Group Changes
 report.
+:::
+
 
 **Step 1 –** On the Action Selection page, disable the **Modify Permissions** action task. Make sure
 all of the action tasks are disabled.

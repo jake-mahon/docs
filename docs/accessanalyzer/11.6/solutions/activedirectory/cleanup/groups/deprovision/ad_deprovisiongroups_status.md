@@ -14,8 +14,11 @@ Navigate to the **Active Directory** > **Cleanup** > **1.Groups** > **1. Deprovi
 **AD_Deprovision Groups_Status** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis tasks is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis tasks is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_DeprovisionGroups_Status Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsstatusanalysis.webp)
 

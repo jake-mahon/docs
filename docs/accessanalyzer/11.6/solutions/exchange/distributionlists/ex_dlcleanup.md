@@ -15,8 +15,11 @@ should be reviewed and cleaned up.
 View the analysis task by navigating to the **Exchange** > **6. Distribution Lists** >
 **EX_DLCleanup** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_DLCleanup Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/dlcleanupanalysis.webp)
 

@@ -71,14 +71,20 @@ job by clicking on the **Action Execute** link on the Action Selection view.
 
 ## Caution on Action Modules
 
-**CAUTION:** Enterprise Auditor action modules apply bulk changes to targeted objects within the
+:::warning
+Enterprise Auditor action modules apply bulk changes to targeted objects within the
 target environment. Actions perform operations on selected objects listed in each row of the source
 table. Exercise caution to ensure the action applies only the desired changes and only to the
 desired target objects.
+:::
 
-**_RECOMMENDED:_** Prior to configuring the action module, scope the source data table to include
+
+:::info
+Prior to configuring the action module, scope the source data table to include
 only the desired data. It is also recommended to run the action in a test environment before making
 changes to a production environment.
+:::
+
 
 ## Action Properties Page
 
@@ -87,8 +93,11 @@ action module, and source table. Access this page via the Action Selection view.
 
 ![Action Properties page for new action](/img/product_docs/accessanalyzer/11.6/admin/action/actionproperties.webp)
 
-**_RECOMMENDED:_** Provide unique and descriptive names and action task descriptions to all user
+:::info
+Provide unique and descriptive names and action task descriptions to all user
 created action tasks.
+:::
+
 
 - Name – Action task name. For new actions, an editable default name displays.
 - Description – Action task description. For new actions, this editable field is blank.
@@ -124,17 +133,23 @@ analysis and reports downstream.
 | rowGUID          | Identifies each data row as unique. The datatype in the table is uniqueidentifier (GUID).                                                                           |
 | RowKey           | Identifies each data row as unique. Sometimes the value is a GUID, but the datatype in the table is a varchar (text string).                                        |
 
-_Remember,_ the individual action modules may have their own column requirements in addition to the
+:::tip
+Remember, the individual action modules may have their own column requirements in addition to the
 above.
+:::
+
 
 #### Data Tables
 
 Enterprise Auditor native data tables generally contain all of the above columns. However, if all
 required columns are not present by default, add them manually.
 
-**CAUTION:** Do not use native data tables in action modules. Source data tables in actions should
+:::warning
+Do not use native data tables in action modules. Source data tables in actions should
 include only the data desired for the operation. Scope the data tables to include only the required
 columns prior to configuring the action.
+:::
+
 
 #### Module-Specific Source Table Requirements
 

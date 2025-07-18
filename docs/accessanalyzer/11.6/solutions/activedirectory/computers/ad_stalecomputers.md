@@ -29,8 +29,11 @@ topic for additional information.
 Navigate to the **Active Directory** > **3.Computers** > **AD_StaleComputers** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the **2. Summarize by Domain** analysis task. This analysis
+:::warning
+Do not modify or deselect the **2. Summarize by Domain** analysis task. This analysis
 task is preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_StaleComputers Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/computers/stalecomputersanalysis.webp)
 

@@ -28,7 +28,10 @@ location. However, copying an existing job within the Jobs directory is not supp
 already exists within the Enterprise Auditor Console server, copying outside of the console may
 result in reporting issues.
 
-**CAUTION:** Do not use these steps to copy an existing job.
+:::warning
+Do not use these steps to copy an existing job.
+:::
+
 
 There is no need to close the Enterprise Auditor application to instantiate a new job. Follow the
 steps to instantiate a new job into the Enterprise Auditor Jobs tree:

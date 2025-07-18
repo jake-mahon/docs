@@ -14,8 +14,11 @@ targeted Db2 database servers.
 Navigate to the **Jobs** > **Databases** > **Db2** > **Permissions** > **Db2_DirectPermissions** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Db2_DirectPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/permissions/directpermissionsanalysis.webp)
 

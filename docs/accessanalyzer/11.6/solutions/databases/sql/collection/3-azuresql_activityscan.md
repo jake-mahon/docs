@@ -22,8 +22,11 @@ The 3–AzureSQL_ActivityScan Job uses the SQL Data Collector for the following 
 Navigate to the **Databases** > **0.Collection** > **Azure SQL** >
 **3–AzureSQL_ActivityScan** > **Configure** node and select **Analysis** to view the analysis task.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![3-AzureSQL_ActivityScan Job - Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/activityscanjobanalysis.webp)
 

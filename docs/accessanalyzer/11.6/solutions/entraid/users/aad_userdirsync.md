@@ -14,8 +14,11 @@ Entra ID environment.
 Navigate to the **Jobs** > **Entra ID** > **2.Users** > **AAD_UserDirSync** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AAD_UserDirSync Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/users/userdirsyncanalysis.webp)
 

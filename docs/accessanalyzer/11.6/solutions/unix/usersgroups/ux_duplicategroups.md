@@ -15,8 +15,11 @@ cleanup.
 Navigate to the **Unix** > **1.Users and Groups** > **UX_DuplicateGroups** > **Configure** node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_DuplicateGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/usersgroups/duplicategroupsanalysis.webp)
 

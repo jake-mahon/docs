@@ -14,8 +14,11 @@ accesses to Oracle database objects both at the instance and object level.
 Navigate to the **Oracle** > **3.Permissions** > **Oracle_DomainUserPermissions** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/permissions/jobgroup34.webp)
 

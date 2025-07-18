@@ -13,8 +13,11 @@ The FS_StaleShares job is designed to report on stale shares from targeted file 
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Usage
 Statistics** > **FS_StaleShares** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_StaleShares Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/usagestatistics/stalesharesanalysis.webp)
 

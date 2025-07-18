@@ -13,8 +13,11 @@ The Box_Sharing Job provides details on sharing activity that has occurred over 
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_Sharing** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Sharing Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/sharinganalysis.webp)
 

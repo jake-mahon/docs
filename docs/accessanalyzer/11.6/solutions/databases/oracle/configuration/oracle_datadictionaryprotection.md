@@ -16,8 +16,11 @@ needed.
 Navigate to the **Jobs >  Databases > Oracle > 4.Configuration > Oracle_DataDictionaryProtection >
 Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/configuration/analysisddprotection.webp)
 

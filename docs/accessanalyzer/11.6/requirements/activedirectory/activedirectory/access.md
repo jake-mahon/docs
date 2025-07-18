@@ -12,9 +12,12 @@ Directory versions as targets:
 - Windows Server 2016 and later
 - Windows 2003 Forest level or higher
 
-**NOTE:** See the Microsoft
+:::note
+See the Microsoft
 [Windows Server end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/deployoffice/endofsupport/windows-server-support)
 article for additional information.
+:::
+
 
 Domain Controller Requirements
 
@@ -47,8 +50,11 @@ The majority of jobs in the Active Directory solutions rely on tables with queri
 data collectors mentioned above to perform analysis and generate reports. The remaining jobs utilize
 data collectors to scan environments, and require additional permissions on the target host.
 
-**_RECOMMENDED:_** Use Domain/Local Administrator privileges to run Enterprise Auditor against an
+:::info
+Use Domain/Local Administrator privileges to run Enterprise Auditor against an
 Active Directory domain controller.
+:::
+
 
 There is a least privilege model for scanning your domain. See the
 [Least Privilege Model](#least-privilege-model) topic for additional information.
@@ -110,11 +116,14 @@ minimum requirements, which must be configured at the Domain level in Active Dir
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 AD_WeakPasswords Job Permissions
 

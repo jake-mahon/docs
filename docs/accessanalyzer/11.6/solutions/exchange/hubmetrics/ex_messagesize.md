@@ -13,8 +13,11 @@ The EX_MessageSize Job provides information around the size of sent and received
 View the analysis task by navigating to the **Exchange** > **1. HUB Metrics** > **EX_MessageSize** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_MessageSize Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/messagesizeanalysis.webp)
 

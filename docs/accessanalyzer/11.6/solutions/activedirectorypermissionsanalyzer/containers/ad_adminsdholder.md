@@ -14,7 +14,10 @@ Container in Active Directory.
 
 The AD_AdminSDHolder Job uses the PowerShell Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Queries for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderquery.webp)
 
@@ -29,8 +32,11 @@ The AD_AdminSDHolder Job uses the PowerShell Data Collector for the following qu
 Navigate to the **Active Directory Permissions Analyzer** > **7.Containers** >
 **AD_AdminSDHolder** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderanalysis.webp)
 

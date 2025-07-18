@@ -36,7 +36,10 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The ExchangePS Data Collector
 Wizard opens.
 
-**CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::warning
+Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::
+
 
 ![ExchangePS Data Collector Wizard Scope page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
@@ -70,8 +73,11 @@ The job applies the modification to future job executions.
 View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** > **EX_ASPolicies** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_ASPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/aspoliciesanalysis.webp)
 

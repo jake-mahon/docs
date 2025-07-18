@@ -15,8 +15,11 @@ but there is limited control over the content they own and their security settin
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_ExternalUserCollaborations** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_ExternalUserCollaborations Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/externalusercollaborationsanalysis.webp)
 

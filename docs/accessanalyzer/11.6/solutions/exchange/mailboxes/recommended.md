@@ -103,9 +103,12 @@ Analysis Configuration
 
 The 4. Mailboxes job group should be run with the default analysis configurations.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified or
 deselected. There are some tasks that are deselected by default, as they are for troubleshooting
 purposes.
+:::
+
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 

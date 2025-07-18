@@ -15,8 +15,11 @@ days, or are disabled. These group memberships should be reviewed and possibly r
 Navigate to the **Active Directory** > **1.Groups** > **AD_StaleGroups** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_StaleGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/stalegroupsanalysis.webp)
 

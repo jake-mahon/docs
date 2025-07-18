@@ -43,7 +43,10 @@ then an extra 16 GB of RAM are required (8x2=16).
 The EWSMailbox Data Collector is configured through the Exchange Mailbox Data Collector Wizard,
 which contains the following wizard pages:
 
-**NOTE:** The Category selected may alter the subsequent steps displayed by the wizard.
+:::note
+The Category selected may alter the subsequent steps displayed by the wizard.
+:::
+
 
 - [EWSMailbox: Category](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/category.md)
 - [EWSMailbox: Options](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/options.md)

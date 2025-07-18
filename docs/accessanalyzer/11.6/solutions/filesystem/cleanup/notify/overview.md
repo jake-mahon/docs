@@ -9,10 +9,13 @@ sidebar_position: 20
 The 2. Notify job group is designed to report on and notify owners of resources of target file
 servers that data is pending cleanup.
 
-**NOTE:** The SendMail action module requires configuration of the Notification Settings in the
+:::note
+The SendMail action module requires configuration of the Notification Settings in the
 Global Settings. See the
 [Notification](/docs/accessanalyzer/11.6/admin/settings/notification.md)
 topic for additional information.
+:::
+
 
 ![2. Notify Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/jobstree.webp)
 

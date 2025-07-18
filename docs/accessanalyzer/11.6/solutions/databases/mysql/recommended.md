@@ -46,7 +46,10 @@ Run Order
 
 The 0.Collection Job Group must be run first before running the other jobs and job groups.
 
-**_RECOMMENDED:_** Run the solution at the top level: MySQL Job Group
+:::info
+Run the solution at the top level: MySQL Job Group
+:::
+
 
 Query Configuration
 
@@ -63,4 +66,7 @@ preconfigured and should not be modified or deselected.
 Disabling obsolete or run-desired jobs allows the solution to run more efficiently. To disable a job
 or job group, right-click on the item and select Disable Job.
 
-**_RECOMMENDED:_** Do not delete any jobs. Instead, jobs should be disabled.
+:::info
+Do not delete any jobs. Instead, jobs should be disabled.
+
+:::

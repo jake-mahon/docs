@@ -18,9 +18,12 @@ Adjust the following settings by sliding the needle up and down the line:
   configured to not respond to PING requests, allowing Enterprise Auditor to scan the target host
   without a PING response.
 
-    **NOTE:** In most cases, it is not recommend to deselect this option, as it causes the job to
+    :::note
+    In most cases, it is not recommend to deselect this option, as it causes the job to
     continue querying offline hosts until the job timeout value is reached, set by default to 20
     minutes.
+    :::
+
 
 - PING Timeout – The PING timeout value is the number of seconds before a host is identified as
   offline for not responding to PING

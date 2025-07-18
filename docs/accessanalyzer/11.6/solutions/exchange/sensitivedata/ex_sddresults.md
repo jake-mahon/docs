@@ -14,8 +14,11 @@ data that is located within Exchange mailboxes and public folders within the env
 View the analysis tasks by navigating to the **Exchange** > **7. Sensitive Data** >
 **EX_SDDResults** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_SDDResults Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
 
@@ -37,8 +40,11 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **Deletes all Stored Data** option. This analysis task is for
+:::warning
+Do not select the **Deletes all Stored Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 - Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical SDD data
 

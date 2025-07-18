@@ -47,7 +47,10 @@ Schedule Frequency
 
 This job group has been designed to run daily.
 
-**_RECOMMENDED:_** Run this job group at 1:00 AM.
+:::info
+Run this job group at 1:00 AM.
+:::
+
 
 Query Configuration
 

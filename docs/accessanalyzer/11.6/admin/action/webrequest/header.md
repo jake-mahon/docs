@@ -14,7 +14,10 @@ Use the following options to enter header values:
 
 - Insert field – Select a field to include in the request using the drop-down menu
 
-    **NOTE:** The fields available varies based on the source table columns.
+    :::note
+    The fields available varies based on the source table columns.
+    :::
+
 
 - Use the radio buttons to indicate:
 

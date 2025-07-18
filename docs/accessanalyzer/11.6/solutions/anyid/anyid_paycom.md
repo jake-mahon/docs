@@ -129,8 +129,11 @@ The query is now ready to run.
 Navigate to the **Jobs** > **AnyID Connectors** > **AnyID_Paycom** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AnyID_Paycom Job](/img/product_docs/accessanalyzer/11.6/solutions/anyid/paycomanalyses.webp)
 

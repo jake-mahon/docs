@@ -52,10 +52,13 @@ http://[IP ADDRESS]:[PORT]/cee
 
 http://[SERVER Name]:[PORT]/cee
 
-**_RECOMMENDED:_** When deploying multiple Dell CEE instances at scale, it is recommended that an
+:::info
+When deploying multiple Dell CEE instances at scale, it is recommended that an
 accommodating agent must be configured with each CEE instance. If multiple CEE instances send events
 to just one agent, it may create an overflow of data and overload the agent. Distributing the
 activity stream into pairs will be the most efficient way of monitoring large data sets at scale.
+:::
+
 
 **Step 5 –** Also in the Event Forwarding section, set the **Storage Cluster Name** value. It must
 be an exact match to the name which is entered in the Activity Monitor for the **Monitored Host**
@@ -64,10 +67,16 @@ list.
 This name is used as a ‘tag’ on all events coming through the CEE. This name must exactly match what
 is in the Activity Monitor or it does not recognize the events.
 
-**_RECOMMENDED:_** Use the CIFS DNS name for Dell OneFS.
+:::info
+Use the CIFS DNS name for Dell OneFS.
+:::
 
-**NOTE:** To use the Activity Monitor with Enterprise Auditor for Activity Auditing (FSAC) scans,
+
+:::note
+To use the Activity Monitor with Enterprise Auditor for Activity Auditing (FSAC) scans,
 the name entered here must exactly match what is used for Enterprise Auditor as a target host.
+:::
+
 
 If the Storage Cluster Name cannot be modified (for example, another third-party depends on it), you
 need to set the Host Aliases parameter in the Activity Monitor Console:

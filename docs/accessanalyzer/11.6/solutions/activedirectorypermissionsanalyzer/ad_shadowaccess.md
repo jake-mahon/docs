@@ -32,10 +32,13 @@ topic for additional information.
 Navigate to the **Active Directory Permissions Analyzer** > **AD_ShadowAccess** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks, with the exception of the
+:::warning
+Do not modify or deselect the selected analysis tasks, with the exception of the
 **Calculate Shadow Access** analysis tasks. The analysis tasks are preconfigured for this job. The
 **Calculate Shadow Access** analysis task is the only analysis task that has customizable
 parameters.
+:::
+
 
 ![Analysis Tasks for the AD_ShadowAccess Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/shadowaccessanalysis.webp)
 
@@ -110,7 +113,10 @@ Double-click on the current value and change as desired.
 
 - If the variable type is a table, select the cell and click **Edit Table** to modify the value.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 **Step 4 –** Click **Save and Close** to finalize the customization and close the SQL Script Editor
 window.
@@ -127,9 +133,12 @@ and attack paths within the targeted environments.
 Navigate to the **Active Directory Permissions Analyzer** > **AD_ShadowAccess** > **Results** node
 to view the AD_ShadowAccess job reports.
 
-**NOTE:** These reports can also be accessed through the Web Console. See the
+:::note
+These reports can also be accessed through the Web Console. See the
 [Viewing Generated Reports](/docs/accessanalyzer/11.6/admin/report/view.md)
 topic for additional information.
+:::
+
 
 ![Exploited Permissions and Vulnerabilities on Shadow Access reports](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/shadowaccessreport1.webp)
 

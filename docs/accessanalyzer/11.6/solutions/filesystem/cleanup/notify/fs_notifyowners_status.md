@@ -16,8 +16,11 @@ for additional information.
 Navigate to the **FileSystem** > **Cleanup** > **2. Notify** > **FS_NotifyOwners_Status** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_NotifyOwners_Status Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.webp)
 

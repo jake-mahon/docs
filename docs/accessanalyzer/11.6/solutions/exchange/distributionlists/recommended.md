@@ -28,7 +28,10 @@ This job group has been designed to run daily after the .Active Directory Invent
 been run, to analyze distribution list membership. This job group does not collect data. It uses the
 data collection from the .Active Directory Inventory Job Group.
 
-**_RECOMMENDED:_** Run this job group at 5:00 AM.
+:::info
+Run this job group at 5:00 AM.
+:::
+
 
 Workflow
 

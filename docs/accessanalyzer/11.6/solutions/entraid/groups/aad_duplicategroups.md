@@ -14,8 +14,11 @@ contain the same group membership as one another and are suitable candidates for
 Navigate to the **Jobs** > **Entra ID** > **1.Groups** > **AAD_DuplicateGroups** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Anaylsis tasks for AAD_DuplicateGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/groups/duplicategroupsanalysis.webp)
 

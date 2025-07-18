@@ -17,7 +17,10 @@ The EX_PFInfo job is located in the 2.PF job group.
 
 The EX_PFInfo Job uses the Exchange2K Data Collector for the query.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Queries for the EX_PFInfo Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/databases/collection/pfinfoquery.webp)
 
