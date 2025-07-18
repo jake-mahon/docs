@@ -11,6 +11,8 @@ a challenge to network administrators. WithNetwrix Endpoint Policy Manager (form
 can leverage its pre-configured pak for Internet Explorer 9, which makes configuring Internet
 Explorer as simple as can be. Check out this video to see how it's done.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/owNywxnUiQk?si=LflVRRMzZCq0-ntP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Manage Internet Explorer 9 using Group Policy and PolicyPak Video Transcript
 
 Hi, everybody. This is Jeremy Moskowitz, Microsoft MVP, Enterprise Mobility and Founder of PolicyPak
