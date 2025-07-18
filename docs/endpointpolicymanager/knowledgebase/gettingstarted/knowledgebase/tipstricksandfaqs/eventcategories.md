@@ -8,23 +8,23 @@ sidebar_position: 180
 
 ## Feature Specific Events
 
-[List of Endpoint Policy Manager Event Categories and IDs](#ListofEndpointPolicyManagerEventCategoriesandIDs)
+[Remote Work Delivery Manager](#remote-work-delivery-manager)
 
-[Feature Manager for Windows](#FeatureManagerforWindows)
+[Feature Manager for Windows](#feature-manager-for-windows)
 
-[Least Privilege Manager](#LeastPrivilegeManager)
+[Least Privilege Manager](#least-privilege-manager)
 
-[Least Privilege Manager Mac OS](#LeastPrivilegeManagerMaOS)
+[Least Privilege Manager Mac OS](#least-privilege-manager-mac-os)
 
-[Java Rules Manager](#JavaRulesManager)
+[Java Rules Manager](#java-rules-manager)
 
-[Browser Router](#BrowserRouter)
+[Browser Router](#browser-router)
 
-[Device Manager](#DeviceManager)
+[Device Manager](#device-manager)
 
-[Network Security Manager](#NetworkSecurityManager)
+[Network Security Manager](#network-security-manager)
 
-[Cloud Client](#CloudClient)
+[Cloud Client](#cloud-client)
 
 ## Global Event Ranges
 

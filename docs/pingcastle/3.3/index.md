@@ -42,7 +42,7 @@ securing Active Directories.
 You can get more information about this methodology by visiting the
 website https://www.pingcastle.com/methodology/
 
-# How to use PingCastle
+## How to use PingCastle
 
 The following sections describe how to use PingCastle.
 
@@ -168,7 +168,7 @@ the "interactive mode" can be activated manually using the command:
 PingCastle.exe --log --interactive
 ```
 
-# Performing an Active Directory health check
+## Performing an Active Directory health check
 
 The report can be generated in the interactive mode by choosing
 "healthcheck" or just by pressing Enter. Indeed it is the default
@@ -240,7 +240,7 @@ link. It contains data to help identify the underlying objects.
 
 ![](/img/product_docs/pingcastle/basicuser/image14.png)
 
-# Perform domain discovery
+## Perform domain discovery
 
 **Option 1: performing multiple health check reports (recommended)**
 
@@ -361,7 +361,7 @@ to find a specific IP address.
 
 ![](/img/product_docs/pingcastle/basicuser/image24.png)
 
-# Deploying PingCastle
+## Deploying PingCastle
 
 PingCastle has been designed to be scalable and used in a decentralized
 architecture.
@@ -668,7 +668,7 @@ You can query a PingCastle API server or build a client or server from
 The description of the API in swagger format can be found
 [here](https://gist.githubusercontent.com/vletoux/c6c565c8af07b4df5df65ed01ffeb917/raw/fca7a288050b7b17ba6024f2a23ef8c4d46fd813/pingcastle-swagger.json).
 
-# Getting an overview with multiple reports
+## Getting an overview with multiple reports
 
 How much users or computers to you have ? Should you purchase additional
 support for Windows XP or Windows 2003 ? Should you plan an
@@ -730,7 +730,7 @@ The third file is a map build on all trusts. See [domain discovery](#perform-dom
 
 [Example](https://www.pingcastle.com/PingCastleFiles/ad_hc_summary_simple_node_map.html)
 
-# Scanners
+## Scanners
 
 PingCastle has some builtin program to check for specific features.
 These programs are called \"scanners\" and are accessible from the
@@ -828,7 +828,7 @@ Then enter the domain which will be used as a pivot
 PingCastle --scanner foreignusers --foreigndomain <remote domain or sid> --server <pivot domain>
 ```
 
-# Annex
+## Annex
 
 **Command line reference**
 

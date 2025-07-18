@@ -11,7 +11,7 @@ Discovery** policy report. Device attributes such as Group, Type and Credentials
 can be edited below.
 
 - Devices are automatically assigned to a Device Group based on the Discovery Report results but
-  this can be overridden herel;
+  this can be overridden here;
 - The ‘Last Poll Time’ will also filter devices on a before or after date/time;
 - Click Edit to change Group Assignment and to enable Diagnostic Mode or to Block Events from the
   Device;
@@ -24,11 +24,7 @@ can be edited below.
 Use the **Filter Control Panel** to allow focus on just the Devices or Groups of interest.
 :::
 
-
-![Graphical user interface, application
-
-Description automatically
-generated](/img/product_docs/changetracker/8.0/admin/settings/page_guide_24.webp)
+![Filter control panel](/img/product_docs/changetracker/8.0/admin/settings/page_guide_24.webp)
 
 :::note
 Click on the ‘burger’ icon alongside any column heading to get a full list of column
@@ -36,9 +32,6 @@ options.
 :::
 
 
-![Graphical user interface, text, application, email
-
-Description automatically
-generated](/img/product_docs/changetracker/8.0/admin/settings/page_guide_25.webp)
+![Get full list](/img/product_docs/changetracker/8.0/admin/settings/page_guide_25.webp)
 
 ![page_guide_26](/img/product_docs/changetracker/8.0/admin/settings/page_guide_26.webp)
