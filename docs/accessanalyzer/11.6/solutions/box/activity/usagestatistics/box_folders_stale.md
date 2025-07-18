@@ -28,6 +28,7 @@ The following analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the Box_Folders_Stale Job produces the
 following pre-configured report:
 
-| Report        | Description                                                                                | Default Tags | Report Elements                                                                                                                                                                           |
-| ------------- | ------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Folders | This report highlights stale resources in the target Box environment over the last 30 days | None         | This report is comprised of three elements: - Bar Chart – Displays top 5 stale folders - Table – Provides summary of folders with no activity - Table – Provides details on stale folders |
+| Report        | Description                                                                                | Default Tags | Report Elements                                                                                                                                                                                                       |
+| ------------- | ------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Folders | This report highlights stale resources in the target Box environment over the last 30 days | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top 5 stale folders</li><li>Table – Provides summary of folders with no activity</li><li>Table – Provides details on stale folders</li></ul> |
+

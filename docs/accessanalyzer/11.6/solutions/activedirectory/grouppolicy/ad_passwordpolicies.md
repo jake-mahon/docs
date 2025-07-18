@@ -45,6 +45,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_UserDelegation Job produces
 the following pre-configured report:
 
-| Report                         | Description                                                                               | Default Tags | Report Elements                                                                                             |
-| ------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------- |
-| Fine-Grained Password Policies | This report highlights fine-grained password policies on all targeted domain controllers. | None         | This report is comprised of one element: - Table – Provides details on fine-grained password policy details |
+| Report                         | Description                                                                               | Default Tags | Report Elements                                                                                                             |
+| ------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Fine-Grained Password Policies | This report highlights fine-grained password policies on all targeted domain controllers. | None         | This report is comprised of one element: <ul><li>Table – Provides details on fine-grained password policy details</li></ul> |
+

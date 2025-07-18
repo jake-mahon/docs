@@ -29,6 +29,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_DeleteFiles_Status job
 produces the following pre-configured report.
 
-| Report         | Description                                                                          | Default Tags | Report Elements                                                                                                                                         |
-| -------------- | ------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| File Deletions | This report summarizes file deletions which have occurred during the Cleanup process | None         | This report is comprised of two elements: - Line Chart – Displays the historical summary of file deletions - Table – provides details on file deletions |
+| Report         | Description                                                                          | Default Tags | Report Elements                                                                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| File Deletions | This report summarizes file deletions which have occurred during the Cleanup process | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the historical summary of file deletions</li><li>Table – provides details on file deletions</li></ul> |
+

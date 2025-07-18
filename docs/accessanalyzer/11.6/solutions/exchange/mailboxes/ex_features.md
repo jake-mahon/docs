@@ -38,6 +38,7 @@ The following query is included with the EX_Features Job:
 In addition to the table created by the query, the EX_Features Job produces the following
 pre-configured report:
 
-| Report           | Description                                                              | Default Tags | Report Elements                                                                         |
-| ---------------- | ------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------- |
-| Mailbox Features | This report identifies features introduced in Exchange for each mailbox. | None         | This report is comprised of one element: - Table – Provides details on mailbox features |
+| Report           | Description                                                              | Default Tags | Report Elements                                                                                         |
+| ---------------- | ------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------- |
+| Mailbox Features | This report identifies features introduced in Exchange for each mailbox. | None         | This report is comprised of one element: <ul><li>Table – Provides details on mailbox features</li></ul> |
+

@@ -49,6 +49,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the SG_ServiceAccounts job produces the
 following pre-configured report.
 
-| Report           | Description                                                     | Default Tags | Report Elements                                                                                                                                                                              |
-| ---------------- | --------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Service Accounts | This report identifies domain accounts being used for services. | None         | This report is comprised of three elements: - Bar Chart – Displays domains by service accounts found - Table – Provides domains by service accounts found - Table – Provides service details |
+| Report           | Description                                                     | Default Tags | Report Elements                                                                                                                                                                                                          |
+| ---------------- | --------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Service Accounts | This report identifies domain accounts being used for services. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays domains by service accounts found</li><li>Table – Provides domains by service accounts found</li><li>Table – Provides service details</li></ul> |
+

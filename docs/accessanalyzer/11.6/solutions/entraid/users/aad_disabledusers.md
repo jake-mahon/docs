@@ -29,6 +29,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AAD_DisabledUsers Job produces the
 following pre-configured report.
 
-| Report                 | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                             |
-| ---------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Disabled User Accounts | This report identifies disabled user accounts and summarizes them by domain. | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays disabled users by domain - Table – Provides user details - Tables – Provides details on disabled users by domain |
+| Report                 | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                         |
+| ---------------------- | ---------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Disabled User Accounts | This report identifies disabled user accounts and summarizes them by domain. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays disabled users by domain</li><li>Table – Provides user details</li><li>Tables – Provides details on disabled users by domain</li></ul> |
+

@@ -27,6 +27,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the **Oracle_DatabaseSizing Job** produces
 the following preconfigured report:
 
-| Report          | Description                                                    | Default Tags | Report Elements                                                                                                                                                                                                |
-| --------------- | -------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Database Sizing | This report highlights the size of tablespace files in Oracle. | None         | This report is comprised of three elements: - Bar Chart – Provides information on top tablespaces by size - Bar Chart – Provides information on size by host (GB) - Table – Provides details on database sizes |
+| Report          | Description                                                    | Default Tags | Report Elements                                                                                                                                                                                                                            |
+| --------------- | -------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Database Sizing | This report highlights the size of tablespace files in Oracle. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top tablespaces by size</li><li>Bar Chart – Provides information on size by host (GB)</li><li>Table – Provides details on database sizes</li></ul> |
+

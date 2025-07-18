@@ -49,6 +49,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis task, the EX_Mailflow_Domain job
 produces the following pre-configured report:
 
-| Report               | Description                              | Default Tags | Report Elements                                                                                                        |
-| -------------------- | ---------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| Top Domains By Count | Displays top domains by recipient count. | None         | This report is comprised of two elements: - Bar Chart – Displays top domains - Table – Provides details on top domains |
+| Report               | Description                              | Default Tags | Report Elements                                                                                                                              |
+| -------------------- | ---------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Top Domains By Count | Displays top domains by recipient count. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top domains</li><li>Table – Provides details on top domains</li></ul> |
+

@@ -31,6 +31,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_MFAStatus job produces the
 following preconfigured report:
 
-| Report     | Description                                            | Default Tags | Report Element                                                                                                                                            |
-| ---------- | ------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MFA Status | This report identifies the MFA status of each AWS user | None         | This report is comprised of the following elements: - Pie Chart – Displays MFA status - Table – Shows status by account - Table – Provides details on MFA |
+| Report     | Description                                            | Default Tags | Report Element                                                                                                                                                                        |
+| ---------- | ------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MFA Status | This report identifies the MFA status of each AWS user | None         | This report is comprised of the following elements: <ul><li>Pie Chart – Displays MFA status</li><li>Table – Shows status by account</li><li>Table – Provides details on MFA</li></ul> |
+

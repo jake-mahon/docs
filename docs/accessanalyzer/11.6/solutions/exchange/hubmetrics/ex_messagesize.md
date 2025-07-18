@@ -26,6 +26,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis task, the EX_MessageSize Job produces
 the following pre-configured report:
 
-| Report       | Description                                                   | Default Tags | Report Elements                                                                                                                                                             |
-| ------------ | ------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message Size | This report identifies servers which handle the largest mail. | None         | This report is comprised of two elements: - Bar Chart – Displays top servers by average message size (KB) - Table – Provides details on average message size by server (KB) |
+| Report       | Description                                                   | Default Tags | Report Elements                                                                                                                                                                                   |
+| ------------ | ------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message Size | This report identifies servers which handle the largest mail. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top servers by average message size (KB)</li><li>Table – Provides details on average message size by server (KB)</li></ul> |
+

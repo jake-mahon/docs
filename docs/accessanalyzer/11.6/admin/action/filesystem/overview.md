@@ -73,22 +73,23 @@ the above. These columns are made available through the File System Action Modul
 The Operations page lists the operations that may be performed by the File System Action Module.
 Each operation has its own source table column requirements as follows:
 
-| Operation                       | Column requirements                                                                                                                         |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Change attributes               | Columns containing: - Object to change attributes for - UNC path or local path (files or folders)                                           |
-| Change permissions and Auditing | Columns containing: - Object to change permissions for - UNC path or local path - (Optional) Permission values to change (files or folders) |
-| Change permission inheritance   | Columns containing: - Object to change permission inheritance for - UNC path or local path (files or folders)                               |
-| Change Share permissions        | Columns containing: - Share to change permissions for - UNC path or local path (shares)                                                     |
-| Copy                            | Columns containing: - Object to copy - Location to copy the object to - UNC path or local path                                              |
-| Delete                          | Columns containing: - Object to delete - UNC Path or local path                                                                             |
-| Launch Remote Process           | No specific columns required                                                                                                                |
-| Move                            | Columns containing: - Object to move - Location to move the object to - UNC path or local path                                              |
-| Remove permissions              | Columns containing: - Object to remove permissions for - UNC path or local path (files or folders)                                          |
-| Remove Share permissions        | Columns containing: - Object to remove Share permissions for - UNC path or local path (shares)                                              |
-| Rename                          | Columns containing: - Object to rename - New name of the object - UNC path or local path                                                    |
-| Add tags                        | Columns containing: - Object to add tags to - UNC path or local path (files)                                                                |
-| Remove tags                     | Columns containing: - Object to remove tags from - UNC path or local path (files)                                                           |
-| Change Owner                    | Columns containing: - Object to change ownership for - UNC path or local path (folders)                                                     |
+| Operation                       | Column requirements                                                                                                                                                     |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Change attributes               | Columns containing: <ul><li>Object to change attributes for</li><li>UNC path or local path (files or folders)</li></ul>                                                 |
+| Change permissions and Auditing | Columns containing: <ul><li>Object to change permissions for</li><li>UNC path or local path</li><li>(Optional) Permission values to change (files or folders)</li></ul> |
+| Change permission inheritance   | Columns containing: <ul><li>Object to change permission inheritance for</li><li>UNC path or local path (files or folders)</li></ul>                                     |
+| Change Share permissions        | Columns containing: <ul><li>Share to change permissions for</li><li>UNC path or local path (shares)</li></ul>                                                           |
+| Copy                            | Columns containing: <ul><li>Object to copy</li><li>Location to copy the object to</li><li>UNC path or local path</li></ul>                                              |
+| Delete                          | Columns containing: <ul><li>Object to delete</li><li>UNC Path or local path</li></ul>                                                                                   |
+| Launch Remote Process           | No specific columns required                                                                                                                                            |
+| Move                            | Columns containing: <ul><li>Object to move</li><li>Location to move the object to</li><li>UNC path or local path</li></ul>                                              |
+| Remove permissions              | Columns containing: <ul><li>Object to remove permissions for</li><li>UNC path or local path (files or folders)</li></ul>                                                |
+| Remove Share permissions        | Columns containing: <ul><li>Object to remove Share permissions for</li><li>UNC path or local path (shares)</li></ul>                                                    |
+| Rename                          | Columns containing: <ul><li>Object to rename</li><li>New name of the object</li><li>UNC path or local path</li></ul>                                                    |
+| Add tags                        | Columns containing: <ul><li>Object to add tags to</li><li>UNC path or local path (files)</li></ul>                                                                      |
+| Remove tags                     | Columns containing: <ul><li>Object to remove tags from</li><li>UNC path or local path (files)</li></ul>                                                                 |
+| Change Owner                    | Columns containing: <ul><li>Object to change ownership for</li><li>UNC path or local path (folders)</li></ul>                                                           |
+
 
 ## Configuration
 

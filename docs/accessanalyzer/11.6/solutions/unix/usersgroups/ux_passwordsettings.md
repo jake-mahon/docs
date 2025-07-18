@@ -29,7 +29,8 @@ The default analysis tasks are:
 In addition to the table and views created by the analysis tasks, the UX_PasswordSettings job
 produces the following pre-configured reports:
 
-| Report                    | Description                                                                | Default Tags | Report Elements                                                                               |
-| ------------------------- | -------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------- |
-| Local User Passwords      | This report outlines password information for each local user on each host | None         | This report is comprised of one element: - Table – Provides details on User Password Settings |
-| Password Security Setting | This report lists password security settings for each audited host         | None         | This report is comprised of one element: - Table – Provides details on Password Settings      |
+| Report                    | Description                                                                | Default Tags | Report Elements                                                                                               |
+| ------------------------- | -------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
+| Local User Passwords      | This report outlines password information for each local user on each host | None         | This report is comprised of one element: <ul><li>Table – Provides details on User Password Settings</li></ul> |
+| Password Security Setting | This report lists password security settings for each audited host         | None         | This report is comprised of one element: <ul><li>Table – Provides details on Password Settings</li></ul>      |
+

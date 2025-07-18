@@ -44,6 +44,7 @@ The default analysis task is:
 In addition to the table and views created by the analysis tasks, the UX_LargeGroups job produces
 the following pre-configured report:
 
-| Report       | Description                                                    | Default Tags | Report Elements                                                                                                                           |
-| ------------ | -------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Large Groups | This report identifies large groups within the audited domains | None         | This report is comprised of two elements: - Bar Chart – Displays Top 5 Large Groups - Table – Provides information on Large Group Details |
+| Report       | Description                                                    | Default Tags | Report Elements                                                                                                                                                 |
+| ------------ | -------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Large Groups | This report identifies large groups within the audited domains | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays Top 5 Large Groups</li><li>Table – Provides information on Large Group Details</li></ul> |
+

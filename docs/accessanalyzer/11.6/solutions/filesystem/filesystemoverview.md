@@ -37,6 +37,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis task, the FileSystemOverview job
 produces the following pre-configured report:
 
-| Report               | Description                                                    | Default Tags | Report Elements                                                                                 |
-| -------------------- | -------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------- |
-| File System Overview | This report provides an overview of all targeted file servers. | None         | This report is comprised of one element: - Table – Provides summary of the targeted file system |
+| Report               | Description                                                    | Default Tags | Report Elements                                                                                                 |
+| -------------------- | -------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------- |
+| File System Overview | This report provides an overview of all targeted file servers. | None         | This report is comprised of one element: <ul><li>Table – Provides summary of the targeted file system</li></ul> |
+

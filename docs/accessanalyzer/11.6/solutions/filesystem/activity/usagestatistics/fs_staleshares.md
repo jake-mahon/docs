@@ -32,6 +32,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_StaleShares job produces
 the following pre-configured report:
 
-| Report       | Description                                                         | Default Tags | Report Elements                                                                                                                |
-| ------------ | ------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| Stale Shares | This report identifies the last date there was activity on a share. | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 stale shares - Table – Provides details on stale shares |
+| Report       | Description                                                         | Default Tags | Report Elements                                                                                                                                      |
+| ------------ | ------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Shares | This report identifies the last date there was activity on a share. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 stale shares</li><li>Table – Provides details on stale shares</li></ul> |
+

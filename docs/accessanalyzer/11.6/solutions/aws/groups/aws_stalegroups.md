@@ -65,6 +65,7 @@ topic for instructions on how to modify parameters.
 In addition to the tables and views created by the analysis task, the AWS_StaleGroups job produces
 the following preconfigured report:
 
-| Report       | Description                                               | Default Tags | Report Element                                                                                                                                                                      |
-| ------------ | --------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Groups | This report determines the staleness of group membership. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays group membership - Table – Shows group membership - Table – Provides details on group membership |
+| Report       | Description                                               | Default Tags | Report Element                                                                                                                                                                                                  |
+| ------------ | --------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Groups | This report determines the staleness of group membership. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays group membership</li><li>Table – Shows group membership</li><li>Table – Provides details on group membership</li></ul> |
+

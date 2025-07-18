@@ -65,6 +65,7 @@ topic for instructions on how to modify parameters.
 In addition to the tables and views created by the analysis task, the AWS_StaleRoles job produces
 the following preconfigured report:
 
-| Report      | Description                                                | Default Tags | Report Element                                                                                                                                                                                  |
-| ----------- | ---------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Roles | This report identifies stale roles in the AWS environment. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays top stale roles by account - Table – Shows stales roles by account - Table – Provides details on stale roles |
+| Report      | Description                                                | Default Tags | Report Element                                                                                                                                                                                                              |
+| ----------- | ---------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Roles | This report identifies stale roles in the AWS environment. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top stale roles by account</li><li>Table – Shows stales roles by account</li><li>Table – Provides details on stale roles</li></ul> |
+

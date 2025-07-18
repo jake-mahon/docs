@@ -32,6 +32,7 @@ preconfigured for this job.
 In addition to the tables created by the analysis tasks which display group membership details, the
 Dropbox_GroupMembership job produces the following pre-configured report.
 
-| Report           | Description                                                            | Default Tags | Report Elements                                                                                                                                                           |
-| ---------------- | ---------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Membership | This report lists membership and owners for all groups within Dropbox. | None         | This report is comprised of three elements: - Bar Chart – Displays largest groups - Table – Provides summary of group membership - Table – Provides details on membership |
+| Report           | Description                                                            | Default Tags | Report Elements                                                                                                                                                                                       |
+| ---------------- | ---------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Membership | This report lists membership and owners for all groups within Dropbox. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays largest groups</li><li>Table – Provides summary of group membership</li><li>Table – Provides details on membership</li></ul> |
+

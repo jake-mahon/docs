@@ -33,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created the analysis task, the PgSQL_DatabaseSizing Job produces
 the following pre-configured report.
 
-| Report          | Description                                                | Default Tags | Report Elements                                                                                                                                                             |
-| --------------- | ---------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Database Sizing | This report highlights the size of databases in PostgreSQL | None         | This report is comprised of three elements: - Bar Chart – Displays top databases by size (MB) - Bar Chart – Displays sizes by host (GB) - Table – Provides database details |
+| Report          | Description                                                | Default Tags | Report Elements                                                                                                                                                                                         |
+| --------------- | ---------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Database Sizing | This report highlights the size of databases in PostgreSQL | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top databases by size (MB)</li><li>Bar Chart – Displays sizes by host (GB)</li><li>Table – Provides database details</li></ul> |
+

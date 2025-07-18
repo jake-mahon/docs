@@ -80,9 +80,10 @@ The default actions are:
 In addition to the tables created by the analysis and action tasks, the
 AD_PasswordExpirationNotification Job produces the following pre-configured report.
 
-| Report                            | Description                                                                      | Default Tags | Report Elements                                                                                          |
-| --------------------------------- | -------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------- |
-| Passwords Expiring Within 15 Days | This report displays users accounts with passwords set to expire within 15 days. | None         | This report is comprised of one element: - Table – Displays details on passwords expiring within 15 days |
+| Report                            | Description                                                                      | Default Tags | Report Elements                                                                                                          |
+| --------------------------------- | -------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Passwords Expiring Within 15 Days | This report displays users accounts with passwords set to expire within 15 days. | None         | This report is comprised of one element: <ul><li>Table – Displays details on passwords expiring within 15 days</li></ul> |
+
 
 ## Customizable Analysis Tasks for the AD_PasswordExpirationNotification Job
 

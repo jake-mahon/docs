@@ -40,6 +40,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes job produces
 the following pre-configured report.
 
-| Report                            | Description                                                                                                                      | Default Tags | Report Elements                                                                   |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------- |
-| Network Ports (Open Ports Report) | This job is designed to report on all available ports on the targeted host. It will bring back the results of a `Netstat -b -a`. | None         | This report is comprised of one element: - Table – Provides details on open ports |
+| Report                            | Description                                                                                                                      | Default Tags | Report Elements                                                                                   |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------- |
+| Network Ports (Open Ports Report) | This job is designed to report on all available ports on the targeted host. It will bring back the results of a `Netstat -b -a`. | None         | This report is comprised of one element: <ul><li>Table – Provides details on open ports</li></ul> |
+

@@ -40,6 +40,7 @@ The default analysis tasks is:
 In addition to the table created by the analysis task which displays all direct user permissions,
 the SP_Overview Job produces the following pre-configured report:
 
-| Report              | Description                                                              | Default Tags | Report Elements                                                                                            |
-| ------------------- | ------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------- |
-| SharePoint Overview | This report provides an overview of the targeted SharePoint environment. | None         | This report is comprised of one element: - Table – Provides details on the targeted SharePoint environment |
+| Report              | Description                                                              | Default Tags | Report Elements                                                                                                            |
+| ------------------- | ------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| SharePoint Overview | This report provides an overview of the targeted SharePoint environment. | None         | This report is comprised of one element: <ul><li>Table – Provides details on the targeted SharePoint environment</li></ul> |
+

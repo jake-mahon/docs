@@ -31,6 +31,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_WeekendActivity job
 produces the following pre-configured report:
 
-| Report                                          | Description                                                               | Default Tags | Report Elements                                                                                                                                                    |
-| ----------------------------------------------- | ------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Weekend Activity (Most Active Users on Weekend) | This report shows users who are active on the weekend inside file shares. | None         | This report is comprised of two elements: - Bar Chart – Displays weekend share activity - top 5 users - Table – Provides details on weekend share activity by user |
+| Report                                          | Description                                                               | Default Tags | Report Elements                                                                                                                                                                                |
+| ----------------------------------------------- | ------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weekend Activity (Most Active Users on Weekend) | This report shows users who are active on the weekend inside file shares. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays weekend share activity</li><li>top 5 users</li><li>Table – Provides details on weekend share activity by user</li></ul> |
+

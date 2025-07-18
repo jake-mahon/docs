@@ -29,6 +29,7 @@ The default analysis tasks are :
 In addition to the tables and views created by the analysis tasks, the AD_CircularNesting Job
 produces the following pre-configured report:
 
-| Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                       |
-| ---------------- | ---------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Circular Nesting | This report identifies instances of circular nesting within the environment. | None         | This report is comprised of three elements: - Bar Chart – Displays circular nesting by domain - Table – Provides details on circular nesting - Table – Provides details on circular nesting by domain |
+| Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                   |
+| ---------------- | ---------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Circular Nesting | This report identifies instances of circular nesting within the environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays circular nesting by domain</li><li>Table – Provides details on circular nesting</li><li>Table – Provides details on circular nesting by domain</li></ul> |
+

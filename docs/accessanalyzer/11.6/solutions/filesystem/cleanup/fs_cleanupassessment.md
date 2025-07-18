@@ -88,11 +88,12 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_CleanupAssessment job
 produces the following pre-configured report.
 
-| Report                       | Description                                            | Default Tags | Report Elements                                                                                                                               |
-| ---------------------------- | ------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| File System Cleanup - Files  | This report highlights file-level cleanup information  | None         | This report is comprised of two elements: - Pie Chart – Displays enterprise stale file breakdown - Table – Provides details on files          |
-| File System Cleanup - Hosts  | This report highlights host-level cleanup information  | None         | This report is comprised of two elements: - Stacked Chart – Displays top hosts by stale file percentage - Table – Provides details on hosts   |
-| File System Cleanup - Shares | This report highlights share-level cleanup information | None         | This report is comprised of two elements: - Stacked Chart – Displays top shares by stale file percentage - Table – Provides details on shares |
+| Report                                       | Description                                            | Default Tags | Report Elements                                                                                                                                                     |
+| -------------------------------------------- | ------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| File System Cleanup <ul><li>Files</li></ul>  | This report highlights file-level cleanup information  | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays enterprise stale file breakdown</li><li>Table – Provides details on files</li></ul>          |
+| File System Cleanup <ul><li>Hosts</li></ul>  | This report highlights host-level cleanup information  | None         | This report is comprised of two elements: <ul><li>Stacked Chart – Displays top hosts by stale file percentage</li><li>Table – Provides details on hosts</li></ul>   |
+| File System Cleanup <ul><li>Shares</li></ul> | This report highlights share-level cleanup information | None         | This report is comprised of two elements: <ul><li>Stacked Chart – Displays top shares by stale file percentage</li><li>Table – Provides details on shares</li></ul> |
+
 
 ### Customizable Analysis Tasks for the FS_CleanupAssessment Job
 

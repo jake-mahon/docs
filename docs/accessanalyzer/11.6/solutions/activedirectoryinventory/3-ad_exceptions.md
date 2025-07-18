@@ -119,25 +119,27 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the 3-AD_Exceptions Job produces
 the following pre-configured report:
 
-| Report                                    | Description                                                                  | Default Tags | Report Elements                                                                                                                                                        |
-| ----------------------------------------- | ---------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Exceptions Summary (A.K.A. AD Exceptions) | This report summarizes common issues with user accounts and group membership | None         | This report is comprised of three elements: - Pie Chart – Displays exceptions by class - Table – Provides exceptions by count - Table – Provides details on exceptions |
+| Report                                    | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                    |
+| ----------------------------------------- | ---------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Exceptions Summary (A.K.A. AD Exceptions) | This report summarizes common issues with user accounts and group membership | None         | This report is comprised of three elements: <ul><li>Pie Chart – Displays exceptions by class</li><li>Table – Provides exceptions by count</li><li>Table – Provides details on exceptions</li></ul> |
+
 
 ### Customize Analysis Parameters for the 3-AD_Exceptions Job
 
 Exception definitions that can be customized have the following default values for the customizable
 parameters:
 
-| Analysis Task        | Customizable Parameter Name | Default Value                                       | Value Indicates                                                       |
-| -------------------- | --------------------------- | --------------------------------------------------- | --------------------------------------------------------------------- |
-| Large Groups         | @LARGE_THRESHOLD            | 10                                                  | A group object with 10 members or more                                |
-| Deeply Nested Groups | @NESTING_THRESHOLD          | 1                                                   | A group object nested 1 level or deeper within another group object   |
-| Stale Users          | @STALE_THRESHOLD            | 60                                                  | A user object that has been inactive for 60 days or more              |
-|                      | @INCLUDE_DISABLED           | True                                                | A user object that has been disabled                                  |
-|                      | @INCLUDE_EXPIRED            | True                                                | A user object that has expired                                        |
-| Stale Membership     | @STALE_THRESHOLD            | 10                                                  | A group with 10% of its effective members are stale users             |
-| Large Token          | @TOKEN_THRESHOLD            | 10                                                  | A user object with effective membership in more than 10 group objects |
-| Admin Historical SID | #ADMIN_GROUPS               | - Domain Admins - Enterprise Admins - Schema Admins | List of administrative groups                                         |
+| Analysis Task        | Customizable Parameter Name | Default Value                                                                   | Value Indicates                                                       |
+| -------------------- | --------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Large Groups         | @LARGE_THRESHOLD            | 10                                                                              | A group object with 10 members or more                                |
+| Deeply Nested Groups | @NESTING_THRESHOLD          | 1                                                                               | A group object nested 1 level or deeper within another group object   |
+| Stale Users          | @STALE_THRESHOLD            | 60                                                                              | A user object that has been inactive for 60 days or more              |
+|                      | @INCLUDE_DISABLED           | True                                                                            | A user object that has been disabled                                  |
+|                      | @INCLUDE_EXPIRED            | True                                                                            | A user object that has expired                                        |
+| Stale Membership     | @STALE_THRESHOLD            | 10                                                                              | A group with 10% of its effective members are stale users             |
+| Large Token          | @TOKEN_THRESHOLD            | 10                                                                              | A user object with effective membership in more than 10 group objects |
+| Admin Historical SID | #ADMIN_GROUPS               | <ul><li>Domain Admins</li><li>Enterprise Admins</li><li>Schema Admins</li></ul> | List of administrative groups                                         |
+
 
 See the
 [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)

@@ -29,6 +29,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_PasswordStatus Job
 produces the following pre-configured report:
 
-| Report          | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                          |
-| --------------- | ---------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Password Status | This report identifies the password status of all users and highlights potential issues. | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays password issues by domain - Table – Provides details on users - Provides details on password issues by domain |
+| Report          | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                                                      |
+| --------------- | ---------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Password Status | This report identifies the password status of all users and highlights potential issues. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays password issues by domain</li><li>Table – Provides details on users</li><li>Provides details on password issues by domain</li></ul> |
+

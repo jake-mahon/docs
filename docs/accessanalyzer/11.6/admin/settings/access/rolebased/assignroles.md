@@ -61,7 +61,8 @@ requiring local Administrator rights.
 
 |                                                                                                                                                       |                                                                                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Permissions - This folder only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionsfolder.webp) | ![Permissions - Subfolders and files only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionssubfolderfiles.webp) |
+| ![Permissions <ul><li>This folder only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionsfolder.webp)</li></ul>       | ![Permissions <ul><li>Subfolders and files only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionssubfolderfiles.webp)</li></ul>       |
+
 
 There are two separate sets of permissions:
 

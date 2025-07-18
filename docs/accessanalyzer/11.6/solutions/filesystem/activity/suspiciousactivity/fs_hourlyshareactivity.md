@@ -27,6 +27,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis task, the FS_HourlyShareActivity job
 produces the following pre-configured report:
 
-| Report                 | Description                                                                                       | Default Tags | Report Elements                                                                                                                       |
-| ---------------------- | ------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Unusual Share Activity | This report will show any outliers in hourly share activity, broken down by day of week and hour. | None         | This report is comprised of two elements: - Bar Chart – Displays abnormal share activity - Table – Provides details on share activity |
+| Report                 | Description                                                                                       | Default Tags | Report Elements                                                                                                                                             |
+| ---------------------- | ------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unusual Share Activity | This report will show any outliers in hourly share activity, broken down by day of week and hour. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays abnormal share activity</li><li>Table – Provides details on share activity</li></ul> |
+

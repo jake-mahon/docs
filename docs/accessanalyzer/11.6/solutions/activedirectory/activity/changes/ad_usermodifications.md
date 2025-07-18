@@ -28,6 +28,7 @@ The following non-configurable analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the AD_UserModifications Job produces the
 following pre-configured reports:
 
-| Report               | Description                    | Default Tags                                               | Report Elements                                                                                                                                                                 |
-| -------------------- | ------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| User Account Changes | Track changes to user objects. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: - Pie Chart – Displays changes by type - Table – Displays changes by user account - Table – Displays changes by user change details |
+| Report               | Description                    | Default Tags                                               | Report Elements                                                                                                                                                                                             |
+| -------------------- | ------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| User Account Changes | Track changes to user objects. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Pie Chart – Displays changes by type</li><li>Table – Displays changes by user account</li><li>Table – Displays changes by user change details</li></ul> |
+

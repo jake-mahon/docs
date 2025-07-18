@@ -29,7 +29,8 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_LargestResources job
 produces the following pre-configured reports:
 
-| Report          | Description                                                       | Default Tags | Report Elements                                                                                                                               |
-| --------------- | ----------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Largest Folders | This report identifies the largest folders found.                 | None         | This report is comprised of two elements: - Bar Chart – Displays the top 5 largest folders - Table – Provides details on largest folders      |
-| Largest Shares  | This report identifies the largest shares within the environment. | None         | This report is comprised of two elements: - Bar Chart – Displays the top 5 largest shares - Table – Provides details on the largest resources |
+| Report          | Description                                                       | Default Tags | Report Elements                                                                                                                                                     |
+| --------------- | ----------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Largest Folders | This report identifies the largest folders found.                 | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays the top 5 largest folders</li><li>Table – Provides details on largest folders</li></ul>      |
+| Largest Shares  | This report identifies the largest shares within the environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays the top 5 largest shares</li><li>Table – Provides details on the largest resources</li></ul> |
+

@@ -84,9 +84,10 @@ The optional analysis tasks is:
 In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes job produces
 the following pre-configured report.
 
-| Report                         | Description                                                                                                       | Default Tags | Report Elements                                                                                                                                                                             |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Suspicious PowerShell Commands | This report highlights instances where suspicious PowerShell commands have been found in a host's PowerShell log. | None         | This report is comprised of three elements: - Bar Chart – Displays suspicious commands by host - Table – Provides details on suspicious commands by host - Table – Provides command details |
+| Report                         | Description                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                         |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Suspicious PowerShell Commands | This report highlights instances where suspicious PowerShell commands have been found in a host's PowerShell log. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays suspicious commands by host</li><li>Table – Provides details on suspicious commands by host</li><li>Table – Provides command details</li></ul> |
+
 
 ### Configure the Notify on Suspicious Commands Analysis Task
 

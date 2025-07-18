@@ -27,6 +27,7 @@ The default analysis task is:
 In addition to the table created by the analysis task, the AD_DeprovisionGroups_Status Job produces
 the following pre-configured report.
 
-| Report               | Description                                                                           | Default Tags | Report Elements                                                                                                                                                       |
-| -------------------- | ------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Deprovisioning | This report tracks actions taken each day of the Stale Group Deprovisioning campaign. | None         | This report is comprised of three elements: - Line Chart – Displays cleanup progress - Table – Provides details on cleanup progress - Table – Provides action details |
+| Report               | Description                                                                           | Default Tags | Report Elements                                                                                                                                                                                   |
+| -------------------- | ------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Deprovisioning | This report tracks actions taken each day of the Stale Group Deprovisioning campaign. | None         | This report is comprised of three elements: <ul><li>Line Chart – Displays cleanup progress</li><li>Table – Provides details on cleanup progress</li><li>Table – Provides action details</li></ul> |
+

@@ -35,6 +35,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_ServiceAccounts Job
 produces the following pre-configured report:
 
-| Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                       |
-| ---------------- | ---------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Service Accounts | This report provides details on service accounts in the audited environment. | None         | This report is comprised of three elements: - Bar Chart – Displays service accounts by domain - Table – Provides details on service accounts - Table – Provides details on service accounts by domain |
+| Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                   |
+| ---------------- | ---------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Service Accounts | This report provides details on service accounts in the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays service accounts by domain</li><li>Table – Provides details on service accounts</li><li>Table – Provides details on service accounts by domain</li></ul> |
+

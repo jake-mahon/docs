@@ -33,6 +33,7 @@ The default analysis tasks are:
 In addition to the table created by the analysis task which displays probable ownership, the
 SP_ProbableOwner Job produces the following pre-configured report:
 
-| Report                        | Description                                                                                         | Default Tags | Report Elements                                                                        |
-| ----------------------------- | --------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
-| SharePoint Probable Ownership | This report identifies probable owners based on management structure, file ownership, and activity. | None         | This report is comprised of one element: - Table – Provides details on probable owners |
+| Report                        | Description                                                                                         | Default Tags | Report Elements                                                                                        |
+| ----------------------------- | --------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------ |
+| SharePoint Probable Ownership | This report identifies probable owners based on management structure, file ownership, and activity. | None         | This report is comprised of one element: <ul><li>Table – Provides details on probable owners</li></ul> |
+

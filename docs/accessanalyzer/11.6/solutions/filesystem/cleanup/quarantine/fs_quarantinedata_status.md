@@ -28,6 +28,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_QuarantineData_Status job
 produces the following pre-configured report.
 
-| Report            | Description                                                                            | Default Tags | Report Elements                                                                                                                                               |
-| ----------------- | -------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| File Quarantining | This report summarizes file quarantining which has occurred during the Cleanup process | None         | This report is comprised of two elements: - Line Chart – Displays the historical summary of file quarantining - Table – provides details on file quarantining |
+| Report            | Description                                                                            | Default Tags | Report Elements                                                                                                                                                                     |
+| ----------------- | -------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| File Quarantining | This report summarizes file quarantining which has occurred during the Cleanup process | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the historical summary of file quarantining</li><li>Table – provides details on file quarantining</li></ul> |
+

@@ -25,9 +25,10 @@ The default analysis task is:
 In addition to the tables created by the analysis tasks, the AD_GroupMemberActivity Job produces the
 follow pre-configured report:
 
-| Report                | Description                                                                                | Default Tags                                               | Report Elements                                                                   |
-| --------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Group Member Activity | This report identifies actions taken by the members of each group within your environment. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of one element: - Table – Displays group member activity |
+| Report                | Description                                                                                | Default Tags                                               | Report Elements                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Group Member Activity | This report identifies actions taken by the members of each group within your environment. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of one element: <ul><li>Table – Displays group member activity</li></ul> |
+
 
 ### Configure the Group Member Activity Analysis Task
 

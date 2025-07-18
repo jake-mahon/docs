@@ -71,7 +71,8 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the SG_OpenFolders job produces the
 following pre-configured reports.
 
-| Report              | Description                                                                     | Default Tags | Report Elements                                                                                                                           |
-| ------------------- | ------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Open Access By Host | This report enumerates hosts with openly accessible folders.                    | None         | This report is comprised of two elements: - Line Chart – Displays hosts with open folders - Table – Provides an open folder count by host |
-| Open Folders        | This report enumerates folders with open access across the audited environment. | None         | This report is comprised of two elements: - Line Chart – Displays open folders over time - Table – Provides details on all open folders   |
+| Report              | Description                                                                     | Default Tags | Report Elements                                                                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Open Access By Host | This report enumerates hosts with openly accessible folders.                    | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays hosts with open folders</li><li>Table – Provides an open folder count by host</li></ul> |
+| Open Folders        | This report enumerates folders with open access across the audited environment. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays open folders over time</li><li>Table – Provides details on all open folders</li></ul>   |
+

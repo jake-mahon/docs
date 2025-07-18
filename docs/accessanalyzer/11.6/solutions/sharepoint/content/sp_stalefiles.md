@@ -49,9 +49,10 @@ The default analysis task is:
 In addition to the table created by the analysis task which displays the stale file resources, the
 SP_StaleFiles Job produces the following pre-configured report:
 
-| Report      | Description                                                                                  | Default Tags | Report Elements                                                                                                                                                                                            |
-| ----------- | -------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Files | This report identifies the files which have not been modified in the longest amount of time. | Stale Data   | This report is comprised of three elements: - Bar Chart – Provides a comparison of stale vs active content - Bar Chart – Displays top 5 Sites by Stale Data (GB) - Table – Provides details on stale files |
+| Report      | Description                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                        |
+| ----------- | -------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Files | This report identifies the files which have not been modified in the longest amount of time. | Stale Data   | This report is comprised of three elements: <ul><li>Bar Chart – Provides a comparison of stale vs active content</li><li>Bar Chart – Displays top 5 Sites by Stale Data (GB)</li><li>Table – Provides details on stale files</li></ul> |
+
 
 ### Customizable Analysis Tasks for the SP_StaleFiles Job
 

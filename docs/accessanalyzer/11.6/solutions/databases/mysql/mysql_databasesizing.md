@@ -32,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created the analysis task, the MySQL_DatabaseSizing Job produces
 the following pre-configured reports.
 
-| Report          | Description                                                 | Default Tags | Report Elements                                                                                                                                                                               |
-| --------------- | ----------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Database Sizing | This report provides details on database tables and sizing. |              | This report is comprised of three elements: - Bar Chart - Displays top databases by size (MB) - Bar Chart - Displays database size by host (GB) - Table - Displays details on database sizing |
+| Report          | Description                                                 | Default Tags | Report Elements                                                                                                                                                                                                                             |
+| --------------- | ----------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Database Sizing | This report provides details on database tables and sizing. |              | This report is comprised of three elements: <ul><li>Bar Chart</li><li>Displays top databases by size (MB)</li><li>Bar Chart</li><li>Displays database size by host (GB)</li><li>Table</li><li>Displays details on database sizing</li></ul> |
+

@@ -51,6 +51,7 @@ The optional analysis tasks are:
 In addition to the tables created by the data collector, the SG_SecuritySupportProviders job
 produces the following pre-configured report.
 
-| Report                     | Description                                                                           | Default Tags | Report Elements                                                                                                                                                               |
-| -------------------------- | ------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Security Support Providers | This report lists non-standard security support providers in the audited environment. | None         | This report is comprised of two elements: - Pie Chart – Displays malicious security support providers by host - Table – Provides malicious security support providers details |
+| Report                     | Description                                                                           | Default Tags | Report Elements                                                                                                                                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Security Support Providers | This report lists non-standard security support providers in the audited environment. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays malicious security support providers by host</li><li>Table – Provides malicious security support providers details</li></ul> |
+

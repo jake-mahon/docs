@@ -29,6 +29,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis task, the FS_GroupUsage job produces the
 following pre-configured report:
 
-| Report       | Description                                                                                      | Default Tags | Report Elements                                                                                                                |
-| ------------ | ------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| Stale Groups | This report identifies the last possible time a group was used for providing file system access. | None         | This report is comprised of two elements: - Bar Chart – Displays top unused groups - Table – Provides details on unused groups |
+| Report       | Description                                                                                      | Default Tags | Report Elements                                                                                                                                      |
+| ------------ | ------------------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Groups | This report identifies the last possible time a group was used for providing file system access. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top unused groups</li><li>Table – Provides details on unused groups</li></ul> |
+

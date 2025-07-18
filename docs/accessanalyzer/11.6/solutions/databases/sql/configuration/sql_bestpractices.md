@@ -30,6 +30,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_BestPractices Job
 produces the following pre-configured report:
 
-| Report                    | Description                                                                             | Default Tags | Report Elements                                                                                                                                                         |
-| ------------------------- | --------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SQL Server Best Practices | Evaluates settings on SQL and Azure SQL Instances and Databases for SQL Best Practices. | None         | This report is comprised of three elements: - Pie Chart – Displays best practice adherence - Table– Displays configuration settings - Table – Displays instance summary |
+| Report                    | Description                                                                             | Default Tags | Report Elements                                                                                                                                                                                     |
+| ------------------------- | --------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SQL Server Best Practices | Evaluates settings on SQL and Azure SQL Instances and Databases for SQL Best Practices. | None         | This report is comprised of three elements: <ul><li>Pie Chart – Displays best practice adherence</li><li>Table– Displays configuration settings</li><li>Table – Displays instance summary</li></ul> |
+

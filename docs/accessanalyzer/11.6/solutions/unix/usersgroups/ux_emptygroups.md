@@ -29,6 +29,7 @@ The default analysis tasks are:
 In addition to the table and views created by the analysis tasks, the UX_EmptyGroups job produces
 the following pre-configured report:
 
-| Report       | Description                                                    | Default Tags | Report Elements                                                                                                                                                                                            |
-| ------------ | -------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Empty Groups | This report identifies empty groups within the audited domains | None         | This report is comprised of three elements: - Bar Chart – Displays Empty Groups by Type - Table – Provides details on Empty Groups by Type bar chart - Table – Provides information on Empty Group Details |
+| Report       | Description                                                    | Default Tags | Report Elements                                                                                                                                                                                                                        |
+| ------------ | -------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Empty Groups | This report identifies empty groups within the audited domains | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Empty Groups by Type</li><li>Table – Provides details on Empty Groups by Type bar chart</li><li>Table – Provides information on Empty Group Details</li></ul> |
+

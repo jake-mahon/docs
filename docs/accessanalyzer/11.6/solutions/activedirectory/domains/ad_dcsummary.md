@@ -30,6 +30,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_DCSummary Job produces the
 following pre-configured report:
 
-| Report                      | Description                                                                         | Default Tags | Report Elements                                                                                                                                          |
-| --------------------------- | ----------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Domain Controllers Overview | This report identifies domain controllers' roles and attributes within each domain. | None         | This report is comprised of two elements: - Bar Chart – Displays domain controllers by domain - Table – Provides details on domain controllers by domain |
+| Report                      | Description                                                                         | Default Tags | Report Elements                                                                                                                                                                |
+| --------------------------- | ----------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Domain Controllers Overview | This report identifies domain controllers' roles and attributes within each domain. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays domain controllers by domain</li><li>Table – Provides details on domain controllers by domain</li></ul> |
+

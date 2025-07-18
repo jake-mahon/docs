@@ -31,6 +31,7 @@ The following analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the Box_FailedLogins Job produces the
 following pre-configured report:
 
-| Report        | Description                                                                                                     | Default Tags | Report Elements                                                                                                                                                            |
-| ------------- | --------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Failed Logins | This report highlights the failed login activity occurring in the target Box environment over the last 30 days. | None         | This report is comprised of two elements: - Line Chart – Displays last 30 days summary of failed logins - Table – Provides details on last 30 days of failed login details |
+| Report        | Description                                                                                                     | Default Tags | Report Elements                                                                                                                                                                                  |
+| ------------- | --------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Failed Logins | This report highlights the failed login activity occurring in the target Box environment over the last 30 days. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays last 30 days summary of failed logins</li><li>Table – Provides details on last 30 days of failed login details</li></ul> |
+

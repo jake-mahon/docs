@@ -216,9 +216,10 @@ with the configured permissions. All other permissions will have been removed fr
 The Generate the List Traverse Group Changes report displays a list of changes made in the
 environment by the action modules.
 
-| Report                      | Description                                                                        | Default Tags | Report Elements                                                                                                                              |
-| --------------------------- | ---------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| List Traverse Group Changes | This report shows a list of changes made in the environment by the action modules. | None         | This report is comprised of one elements: - Table – This table provides details on the changes made to the environment by the action modules |
+| Report                      | Description                                                                        | Default Tags | Report Elements                                                                                                                                              |
+| --------------------------- | ---------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| List Traverse Group Changes | This report shows a list of changes made in the environment by the action modules. | None         | This report is comprised of one elements: <ul><li>Table – This table provides details on the changes made to the environment by the action modules</li></ul> |
+
 
  Follow the steps to analyze and report on action history.
 

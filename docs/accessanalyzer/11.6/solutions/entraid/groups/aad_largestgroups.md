@@ -28,6 +28,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AAD_LargestGroups Job produces the
 following pre-configured report.
 
-| Report         | Description                                                              | Default Tags | Report Elements                                                                                                  |
-| -------------- | ------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------- |
-| Largest Groups | This report identifies the largest groups within the audited environment | None         | This report is comprised of two elements: - Bar Chart – Displays largest groups - Table – Provides group details |
+| Report         | Description                                                              | Default Tags | Report Elements                                                                                                                        |
+| -------------- | ------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Largest Groups | This report identifies the largest groups within the audited environment | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest groups</li><li>Table – Provides group details</li></ul> |
+

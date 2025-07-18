@@ -29,9 +29,10 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_GroupStamping Job produces
 the following pre-configured reports.
 
-| Report         | Description                                                                     | Default Tags | Report Elements                                                                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Stamping | This report tracks all actions taken with the included group stamping workflow. | None         | This report is comprised of three elements: - Line Chart – Displays daily actions - Table – Provides details on daily actions - Table – Provides action details |
+| Report         | Description                                                                     | Default Tags | Report Elements                                                                                                                                                                             |
+| -------------- | ------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Stamping | This report tracks all actions taken with the included group stamping workflow. | None         | This report is comprised of three elements: <ul><li>Line Chart – Displays daily actions</li><li>Table – Provides details on daily actions</li><li>Table – Provides action details</li></ul> |
+
 
 ## Action Tasks for the AD_GroupStamping Job
 

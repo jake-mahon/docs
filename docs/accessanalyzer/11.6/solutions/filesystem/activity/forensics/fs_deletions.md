@@ -44,9 +44,10 @@ enabling it. The following analysis task is deselected by default:
 In addition to the tables and views created by the analysis tasks, the FS_Deletions job produces the
 following pre-configured report:
 
-| Report                                      | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                           |
-| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| File and Folder Deletions (Deletion Events) | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: - Line Chart– Displays the last 30 Days - Table – Provides details on deletions |
+| Report                                      | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                                 |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| File and Folder Deletions (Deletion Events) | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: <ul><li>Line Chart– Displays the last 30 Days</li><li>Table – Provides details on deletions</li></ul> |
+
 
 ### Configure the Notification Analysis Task
 

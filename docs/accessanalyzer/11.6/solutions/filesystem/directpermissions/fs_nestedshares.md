@@ -39,6 +39,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_NestedShares job produces
 the following pre-configured report:
 
-| Report        | Description                                                                                                           | Default Tags | Report Elements                                                                                                             |
-| ------------- | --------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Nested Shares | This report identifies where folders are exposed through multiple shares. This may cause issues with unwanted access. | None         | This report is comprised of two elements: - Bar Chart – Displays hosts by folder count - Table – Provides details on shares |
+| Report        | Description                                                                                                           | Default Tags | Report Elements                                                                                                                                   |
+| ------------- | --------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nested Shares | This report identifies where folders are exposed through multiple shares. This may cause issues with unwanted access. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays hosts by folder count</li><li>Table – Provides details on shares</li></ul> |
+

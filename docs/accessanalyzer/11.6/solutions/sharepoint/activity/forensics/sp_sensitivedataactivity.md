@@ -30,6 +30,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_SensitiveDataActivity Job
 produces the following pre-configured report:
 
-| Report                  | Description                                        | Default Tags | Report Elements                                                                                                                                |
-| ----------------------- | -------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sensitive Data Activity | This Report shows user activity on sensitive data. | None         | This report is comprised of two elements: - Bar Chart – Displays sensitive data activity - Table – Provides details on sensitive data activity |
+| Report                  | Description                                        | Default Tags | Report Elements                                                                                                                                                      |
+| ----------------------- | -------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sensitive Data Activity | This Report shows user activity on sensitive data. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays sensitive data activity</li><li>Table – Provides details on sensitive data activity</li></ul> |
+

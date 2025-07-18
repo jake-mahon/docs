@@ -30,6 +30,7 @@ The default analysis tasks are:
 In addition to the tables and views created the analysis task, the Db2_EffectivePermissions job
 produces the following preconfigured report.
 
-| Report                | Description                                                                        | Default Tags | Report Elements                                                                                                                                                |
-| --------------------- | ---------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Effective Permissions | This report shows details on effective permissions in the audited Db2 environment. | None         | This report is comprised of three elements: - Bar Chart – Displays Database Summary - Table – Displays Database Summary - Table – Displays permissions details |
+| Report                | Description                                                                        | Default Tags | Report Elements                                                                                                                                                                            |
+| --------------------- | ---------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Effective Permissions | This report shows details on effective permissions in the audited Db2 environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Database Summary</li><li>Table – Displays Database Summary</li><li>Table – Displays permissions details</li></ul> |
+

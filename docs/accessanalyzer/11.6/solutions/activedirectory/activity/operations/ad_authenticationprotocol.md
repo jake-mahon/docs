@@ -30,6 +30,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AD_AuthenticationProtocol Job produces
 the follow pre-configured reports:
 
-| Report                   | Description                                                          | Default Tags                                               | Report Elements                                                                                                                          |
-| ------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Authentication Protocols | Track the prevalence of NTLM versus Kerberos within the environment. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: - Pie – Displays authentication protocols - Table –  Displays authentication protocols summary |
+| Report                   | Description                                                          | Default Tags                                               | Report Elements                                                                                                                                                |
+| ------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authentication Protocols | Track the prevalence of NTLM versus Kerberos within the environment. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Pie – Displays authentication protocols</li><li>Table –  Displays authentication protocols summary</li></ul> |
+

@@ -29,6 +29,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the EX_Mailflow_DL Jjb produces
 the following pre-configured report:
 
-| Report                    | Description                                            | Default Tags | Report Elements                                                                                                                                                                                |
-| ------------------------- | ------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Top DLs by Received Count | The top distribution lists by total messages received. | None         | This report is comprised of two elements: - Bar Chart – Displays top five distribution lists by received count - Table – Provides details on the top five distribution lists by received count |
+| Report                    | Description                                            | Default Tags | Report Elements                                                                                                                                                                                                      |
+| ------------------------- | ------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Top DLs by Received Count | The top distribution lists by total messages received. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top five distribution lists by received count</li><li>Table – Provides details on the top five distribution lists by received count</li></ul> |
+

@@ -27,6 +27,7 @@ preconfigured for this job.
 In addition to the tables and views created by the analysis tasks, the FS_LocalUserActivity job
 produces the following pre-configured report:
 
-| Report              | Description                                                      | Default Tags | Report Elements                                                                                                                                                   |
-| ------------------- | ---------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Local User Activity | This report identifies local accounts with file system activity. | None         | This report is comprised of two elements: - Bar Chart – Displays top local user account activity (last 30 days) - Table – Provides details on local user activity |
+| Report              | Description                                                      | Default Tags | Report Elements                                                                                                                                                                         |
+| ------------------- | ---------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Local User Activity | This report identifies local accounts with file system activity. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top local user account activity (last 30 days)</li><li>Table – Provides details on local user activity</li></ul> |
+

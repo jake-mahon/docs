@@ -28,6 +28,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis task, the AWS_S3Buckets job produces the
 following preconfigured report:
 
-| Report     | Description                                   | Default Tags | Report Element                                                                                                                                                                    |
-| ---------- | --------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| S3 Buckets | This report summarizes AWS S3 Bucket content. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays top five buckets by size - Table – Shows buckets by size - Table – Provides details on buckets |
+| Report     | Description                                   | Default Tags | Report Element                                                                                                                                                                                                |
+| ---------- | --------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| S3 Buckets | This report summarizes AWS S3 Bucket content. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top five buckets by size</li><li>Table – Shows buckets by size</li><li>Table – Provides details on buckets</li></ul> |
+

@@ -27,6 +27,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_CleanupProgress job
 produces the following pre-configured report.
 
-| Report           | Description                                                                 | Default Tags | Report Elements                                                                                                                                      |
-| ---------------- | --------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Cleanup Progress | This report gives a high-level overview of an organization's cleanup effort | None         | This report is comprised of two elements: - Bar Chart – Displays the host summary of cleanup progress - Table – provides details on cleanup progress |
+| Report           | Description                                                                 | Default Tags | Report Elements                                                                                                                                                            |
+| ---------------- | --------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cleanup Progress | This report gives a high-level overview of an organization's cleanup effort | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays the host summary of cleanup progress</li><li>Table – provides details on cleanup progress</li></ul> |
+

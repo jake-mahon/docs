@@ -28,6 +28,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_OrphanedUsers Job produces
 the following pre-configured report:
 
-| Report         | Description                                                           | Default Tags | Report Elements                                                                                                                                                                                   |
-| -------------- | --------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Orphaned Users | A user is considered orphans when their manager is disabled or stale. | None         | This report is comprised of three elements: - Bar Chart – Displays top domains by orphaned users - Table – Provides details on orphaned users - Provides details on top domains by orphaned users |
+| Report         | Description                                                           | Default Tags | Report Elements                                                                                                                                                                                                               |
+| -------------- | --------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Orphaned Users | A user is considered orphans when their manager is disabled or stale. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by orphaned users</li><li>Table – Provides details on orphaned users</li><li>Provides details on top domains by orphaned users</li></ul> |
+

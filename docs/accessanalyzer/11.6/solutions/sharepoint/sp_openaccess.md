@@ -46,6 +46,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks which display resources with open access,
 the SP_OpenAccess Job produces the following pre-configured report:
 
-| Report      | Description                                                  | Default Tags | Report Elements                                                                                                                                                                       |
-| ----------- | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Open Access | This report identifies site collections with open resources. | Open Access  | This report is comprised of two elements: - Stacked Bar – Displays top site collections with open access - Table – Provides site collection details - Table – Provides access details |
+| Report      | Description                                                  | Default Tags | Report Elements                                                                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Open Access | This report identifies site collections with open resources. | Open Access  | This report is comprised of two elements: <ul><li>Stacked Bar – Displays top site collections with open access</li><li>Table – Provides site collection details</li><li>Table – Provides access details</li></ul> |
+

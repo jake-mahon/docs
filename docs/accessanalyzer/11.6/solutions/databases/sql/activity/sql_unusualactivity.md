@@ -29,6 +29,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_SensitiveDataActivity Job
 produces the following pre-configured report.
 
-| Report                         | Description                              | Default Tags | Report Elements                                                                                                                                                                                                    |
-| ------------------------------ | ---------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Unusual Hourly Activity Report | This report lists abnormal user activity | None         | This report is comprised of three elements: - Bar Chart – Displays abnormal user activity - Table – Provides details on number of outliers per instance - Table – Provides details on unusual hourly user activity |
+| Report                         | Description                              | Default Tags | Report Elements                                                                                                                                                                                                                                |
+| ------------------------------ | ---------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unusual Hourly Activity Report | This report lists abnormal user activity | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays abnormal user activity</li><li>Table – Provides details on number of outliers per instance</li><li>Table – Provides details on unusual hourly user activity</li></ul> |
+

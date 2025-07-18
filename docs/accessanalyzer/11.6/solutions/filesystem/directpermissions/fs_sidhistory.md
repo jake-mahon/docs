@@ -34,6 +34,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_SIDHistory job produces
 the following pre-configured report:
 
-| Report               | Description                                                                    | Default Tags | Report Elements                                                                                                                                                                         |
-| -------------------- | ------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SID History Overview | This report identifies any applied ACE which utilizes a trustee's SID history. | None         | This report is comprised of three elements: - Bar Chart – Displays the top 5 hosts by affected folders - Table – Provides details on permissions - Table – Provides details on trustees |
+| Report               | Description                                                                    | Default Tags | Report Elements                                                                                                                                                                                                     |
+| -------------------- | ------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SID History Overview | This report identifies any applied ACE which utilizes a trustee's SID history. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays the top 5 hosts by affected folders</li><li>Table – Provides details on permissions</li><li>Table – Provides details on trustees</li></ul> |
+

@@ -29,6 +29,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AAD_GroupDirSync Job produces the
 following pre-configured report.
 
-| Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                             |
-| ------------- | ------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Syncing | This report indicates the sync status of groups within the audited environment. | None         | This report is comprised of two elements: - Pie Chart – Displays an enterprise group synching summary - Table – Provides group sync details |
+| Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Syncing | This report indicates the sync status of groups within the audited environment. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays an enterprise group synching summary</li><li>Table – Provides group sync details</li></ul> |
+
