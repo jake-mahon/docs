@@ -68,9 +68,7 @@ Enforcer/Web deletes this range before sending the page to the user's web browse
 
 :::warning
 You may rebrand the Password Policy Enforcer/Web user interface, but it is a violation
-of the License Agreement to modify, remove or obscure any copyright notice. See the
-[License Agreement](/docs/passwordpolicyenforcer/10.2/web/license_agreement.md)
-topic for additional information.
+of the License Agreement to modify, remove or obscure any copyright notice.
 :::
 
 

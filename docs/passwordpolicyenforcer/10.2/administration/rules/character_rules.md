@@ -28,15 +28,16 @@ for all products) will always use the Password Policy Enforcer character set.
 
 This default character set contains the following:
 
-| Rule        | Default character set                              |
-| ----------- | -------------------------------------------------- |
-| Alpha Lower | Lowercase alphabetic (a - z)                       |
-| Alpha Upper | Uppercase alphabetic (A - Z)                       |
-| Alpha       | Uppercase and lowercase alphabetic (a - z & A - Z) |
-| Numeric     | Numerals (0 - 9)                                   |
-| Special     | All characters not included above                  |
-| High        | All characters above ANSI 126                      |
-| Custom      | No default characters                              |
+| Rule        | Default character set                                                    |
+| ----------- | ------------------------------------------------------------------------ |
+| Alpha Lower | Lowercase alphabetic (a <ul><li>z)</li></ul>                             |
+| Alpha Upper | Uppercase alphabetic (A <ul><li>Z)</li></ul>                             |
+| Alpha       | Uppercase and lowercase alphabetic (a <ul><li>z & A</li><li>Z)</li></ul> |
+| Numeric     | Numerals (0 <ul><li>9)</li></ul>                                         |
+| Special     | All characters not included above                                        |
+| High        | All characters above ANSI 126                                            |
+| Custom      | No default characters                                                    |
+
 
 Select the **Enabled** check box to enable the Character rule.
 
