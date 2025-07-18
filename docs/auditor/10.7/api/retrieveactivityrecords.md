@@ -31,8 +31,18 @@ with ?, others are joined with &, no spaces required (e.g., `?format=json&count=
 ## Response
 
 | Request Status | Response                                                                                                                  |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| Success        | The HTTP status code in the response header is 200 OK. The response body contains Activity Records and Continuation Mark. |     |     |     |     | --- | --- | --- |     | `HTTP/1.1 200 OK `````` Server: Microsoft-HTTPAPI/2.0 `````` Content-Length: 311896 `````` Content-Type: application/xml `````` Date: Fri, 08 Apr 2017 13:56:22 GMT` | or  | `HTTP/1.1 200 OK `````` Server: Microsoft-HTTPAPI/2.0 `````` Content-Length: 311896 `````` Content-Type: application/json `````` Date: Fri, 08 Apr 2017 13:56:22 GMT` |     |
+|----------------|--------------------------------------------------------------------------------------------------------------------------|
+| Success        | The HTTP status code in the response header is 200 OK. The response body contains Activity Records and Continuation Mark. |
+|                | `HTTP/1.1 200 OK`                                                                                                         |
+|                | `Server: Microsoft-HTTPAPI/2.0`                                                                                           |
+|                | `Content-Length: 311896`                                                                                                  |
+|                | `Content-Type: application/xml`                                                                                           |
+|                | `Date: Fri, 08 Apr 2017 13:56:22 GMT`                                                                                     |
+| or             | `HTTP/1.1 200 OK`                                                                                                         |
+|                | `Server: Microsoft-HTTPAPI/2.0`                                                                                           |
+|                | `Content-Length: 311896`                                                                                                  |
+|                | `Content-Type: application/json`                                                                                          |
+|                | `Date: Fri, 08 Apr 2017 13:56:22 GMT`                                                                                     |
 | Error          | The header status code is an error code. Depending on the error code, the response body may contain an error object.      |
 
 ## Usage Example—Retrieve All Activity Records
@@ -52,12 +62,61 @@ response body contains the `ActivityRecordList` root element with Activity Recor
 Continuation mark inside. For JSON, a response body contains the `ActivityRecordList` array with
 Activity Records collected in braces {} and a Continuation mark.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| XML                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| `<?xml version="1.0" standalone="yes"?> `````` <ActivityRecordList xmlns="http://schemas.netwrix.com/api/v1/activity_records/"> `````` <ContinuationMark>PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A</ContinuationMark> `````` <ActivityRecord> `````` <MonitoringPlan> `````` <Name>AD Monitoring</Name> `````` <ID>{42F64379-163E-4A43-A9C5-4514C5A23798}</ID> `````` </MonitoringPlan> `````` <DataSource>Active Directory</DataSource> `````` <Item> `````` <Name>enterprise.local (Domain)</Name> `````` </Item> `````` <ObjectType>user</ObjectType> `````` <RID>20160215110503420B9451771F5964A9EAC0A5F35307EA155</RID> `````` <What>\local\enterprise\Users\Jason Smith</What> `````` <Action>Added</Action> `````` <When>2017-02-14T15:42:34Z</When> `````` <Where>EnterpriseDC1.enterprise.local</Where> `````` <Who>ENTERPRISE\Administrator</Who> `````` <Workstation>EnterpriseDC1.enterprise.local</Workstation> `````` </ActivityRecord> `````` <ActivityRecord>...</ActivityRecord> `````` <ActivityRecord>...</ActivityRecord> `````` </ActivityRecordList>` |
-| JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| `{ `````` "ActivityRecordList": [ `````` { `````` "Action": "Added", `````` "MonitoringPlan" : { `````` "ID": "{42F64379-163E-4A43-A9C5-4514C5A23798}", `````` "Name": "AD Monitoring" `````` }, `````` "DataSource": "Active Directory", `````` "Item": {"Name": "enterprise.local (Domain)"}, `````` "ObjectType": "user", `````` "RID": "20160215110503420B9451771F5964A9EAC0A5F35307EA155", `````` "What": "\\local\\enterprise\\Users\\Jason Smith", `````` "When": "2017-02-14T15:42:34Z", `````` "Where": "EnterpriseDC1.enterprise.local", `````` "Who": "ENTERPRISE\\Administrator", `````` "Workstation": "EnterpriseDC1.enterprise.local" `````` }, `````` {...}, `````` {...} `````` ], `````` "ContinuationMark": "PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A" `````` }`                                                                                                                                                                                                                                                                                        |
+**XML:**
+
+```xml
+<?xml version="1.0" standalone="yes"?>
+<ActivityRecordList xmlns="http://schemas.netwrix.com/api/v1/activity_records/">
+    <ContinuationMark>PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A</ContinuationMark>
+    <ActivityRecord>
+        <MonitoringPlan>
+            <Name>AD Monitoring</Name>
+            <ID>{42F64379-163E-4A43-A9C5-4514C5A23798}</ID>
+        </MonitoringPlan>
+        <DataSource>Active Directory</DataSource>
+        <Item>
+            <Name>enterprise.local (Domain)</Name>
+        </Item>
+        <ObjectType>user</ObjectType>
+        <RID>20160215110503420B9451771F5964A9EAC0A5F35307EA155</RID>
+        <What>\local\enterprise\Users\Jason Smith</What>
+        <Action>Added</Action>
+        <When>2017-02-14T15:42:34Z</When>
+        <Where>EnterpriseDC1.enterprise.local</Where>
+        <Who>ENTERPRISE\Administrator</Who>
+        <Workstation>EnterpriseDC1.enterprise.local</Workstation>
+    </ActivityRecord>
+    <ActivityRecord>...</ActivityRecord>
+    <ActivityRecord>...</ActivityRecord>
+</ActivityRecordList>
+```
+**JSON:**
+
+```json
+{
+    "ActivityRecordList": [
+        {
+            "Action": "Added",
+            "MonitoringPlan": {
+                "ID": "{42F64379-163E-4A43-A9C5-4514C5A23798}",
+                "Name": "AD Monitoring"
+            },
+            "DataSource": "Active Directory",
+            "Item": {"Name": "enterprise.local (Domain)"},
+            "ObjectType": "user",
+            "RID": "20160215110503420B9451771F5964A9EAC0A5F35307EA155",
+            "What": "\\local\\enterprise\\Users\\Jason Smith",
+            "When": "2017-02-14T15:42:34Z",
+            "Where": "EnterpriseDC1.enterprise.local",
+            "Who": "ENTERPRISE\\Administrator",
+            "Workstation": "EnterpriseDC1.enterprise.local"
+        },
+        {...},
+        {...}
+    ],
+    "ContinuationMark": "PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A"
+}
+```
 
 **Step 3 –** Continue retrieving Activity Records. Send a POST request containing this Continuation
 mark to the same endpoint. See the [Continuation Mark](/docs/auditor/10.7/api/postdata/continuationmark.md) topic for more
