@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # What's New
 
-## New Netwrix Community!
+## Netwrix Community
 
 All Netwrix product announcements have moved to the new Netwrix Community. See announcements for
 Netwrix Password Secure in the
