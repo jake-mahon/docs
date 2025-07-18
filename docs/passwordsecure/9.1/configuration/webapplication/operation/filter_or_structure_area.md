@@ -17,13 +17,13 @@ The filter on the Web Application is based on the
 [Filter](/docs/passwordsecure/9.1/configuration/advancedview/operationandsetup/filter/filter.md).
 Therefore, only those characteristics specific to the Web Application will be described here.
 
-Using the filter
+**Using the filter**
 
 Operation of the “Web Application filter” barely differs from the operation of the client filter. It
 is only necessary to note that the Clear filter and Apply filter buttons can be found above the
 filter. The configuration settings can also be found directly above the Web Application filter.
 
-Configuring the filter
+**Configuring the filter**
 
 The configuration for the filter can be displayed via the following buttons:
 

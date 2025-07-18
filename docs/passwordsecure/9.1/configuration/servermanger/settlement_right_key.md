@@ -32,13 +32,13 @@ entries are highlighted in color).
 - Yellow = Repairable / Irreparable
 - Orange = users / roles who can fix the password
 
-Reparable records
+**Reparable records**
 
 Passwords in which users / roles with entitlement right and right key exist:
 
 ![installation_with_parameters_220_584x65](/img/product_docs/passwordsecure/9.1/configuration/server_manager/settlement_right_key/installation_with_parameters_220_584x65.webp)
 
-Irreparable records
+**Irreparable records**
 
 Passwords in which users / roles without a legal key or with a legal key but without an
 authorization right exist:
@@ -66,7 +66,7 @@ should be adjusted.
 Irreparable passwords cannot be corrected automatically. Nevertheless, it may happen that passwords
 marked as irreparably can be corrected manually.
 
-First case
+**First case**
 
 In the first case, no user / role has the right key on the password. Thus, no user can decrypt or
 correct the password.
@@ -77,7 +77,7 @@ The affected passwords have to be recreated. For the security, a new database wi
 can be included. From this database, the affected passwords / data can be taken over into the
 current database again.
 
-Second case
+**Second case**
 
 In the second case, there are users / roles who have the right key but not the right to claim. As
 far as the number of irreparable passwords is limited, these can be used to check the form field

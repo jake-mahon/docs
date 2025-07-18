@@ -29,7 +29,7 @@ The following points should be observed during the configuration.
 - A Netwrix Password Secure application server needs to be licensed for each location. Every
   application server has its own configuration database.
 
-Load balancer
+**Load balancer**
 
 - To reduce the load on the server, a load balancer can be installed upstream of the application
   server

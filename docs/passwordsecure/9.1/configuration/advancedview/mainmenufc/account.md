@@ -65,7 +65,7 @@ change the hardware or the hardware ID, an existing autologin needs to be recrea
 
 #### Relevant right
 
-Option to manage the autologin
+**Option to manage the autologin**
 
 User right
 

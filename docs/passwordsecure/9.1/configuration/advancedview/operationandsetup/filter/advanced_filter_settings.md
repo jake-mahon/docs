@@ -63,7 +63,7 @@ marked in the selection field, is always deleted. If an existing filter is to be
 name of the filter is retained and is overwritten with the filter criteria currently configured in
 the filter.
 
-—————————
+**—————————**
 
 #### **Advanced filter**
 
@@ -92,7 +92,7 @@ display all records that contain both the word “password” and the phrase “
 
 It is often important to be able to negate the filter.
 
-Activation
+**Activation**
 
 In the “Extended filter” category you have the possibility to activate the negation:
 

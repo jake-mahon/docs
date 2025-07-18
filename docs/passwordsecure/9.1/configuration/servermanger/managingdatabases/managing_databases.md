@@ -19,7 +19,7 @@ All database settings are saved in the database. It is necessary to log in to th
 editing the settings. Any user that exists in the database can be used for this purpose. You can
 always restore Global settings via the ribbon.
 
-Multifactor authentication
+**Multifactor authentication**
 
 This area can be used to configure which services will be used for multi-factor authentication. The
 available services are: RSA Secure ID, SafeNet, YubiKey NEO, and YubiKey Nano. After selecting the
@@ -29,12 +29,12 @@ this case, you can specify on the client which methods will be used by the indiv
 Further information on this subject can be found in the
 section[Multifactor Authentication](/docs/passwordsecure/9.1/configuration/servermanger/managingdatabases/databasesettings/multifactor_authentication_ac.md).
 
-PKCS#11
+**PKCS#11**
 
 Via the PKCS # 11 interface, the server keys can be protected via a hardware security module (HSM).
 The interface can be configured here.
 
-Automatic clean up
+**Automatic clean up**
 
 If desired, the logbook, **notifications, session recordings** and also the **historical documents**
 can be automatically cleaned up here. You merely have to enter how old the data needs to be before
@@ -49,7 +49,7 @@ be available.
 
 #### Database actions
 
-Show connection locks
+**Show connection locks**
 
 In the ribbon, all connection locks can be displayed. To do this, you must first log in to the
 database. All locked users will be displayed in a list. The following is displayed:
@@ -62,12 +62,12 @@ database. All locked users will be displayed in a list. The following is display
 A user can be locked manually using the corresponding button. It is necessary to select the user,
 configure the expiration of the lock and specify a reason.
 
-Show / disconnect sessions
+**Show / disconnect sessions**
 
 You can use the corresponding button to display all currently connected clients. After selecting a
 session, the connection can be disconnected.
 
-Migration
+**Migration**
 
 Once a database has been selected, the can be started via the ribbon. This also allows multiple
 version 7 databases to be merged into one.
@@ -80,11 +80,11 @@ continue working as soon as the migration is complete.
 :::
 
 
-Certificates
+**Certificates**
 
 Management of the certificates is very important. This is described in the section certificates.
 
-Display database users
+**Display database users**
 
 This button can be used to call up statistics about the users in the respective databases. It shows
 you which users are active in which database. Naturally, this list can also be exported.
@@ -93,11 +93,11 @@ you which users are active in which database. Naturally, this list can also be e
 
 Here you can view the history of all backups or also a single backup.
 
-Show history
+**Show history**
 
 All backups of the database are displayed hierarchically in a sortable list.
 
-Importing
+**Importing**
 
 A backup can be restored here. This can be done via a file or from the history. The procedure is
 described under Backup management

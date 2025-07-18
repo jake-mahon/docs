@@ -82,7 +82,7 @@ These keys are structured like this:
 
 ![profil-registry](/img/product_docs/passwordsecure/9.1/installation/installation_client/profil-registry-en.webp)
 
-Is the profile set with the following entries?
+**Is the profile set with the following entries?**
 
 
 ```

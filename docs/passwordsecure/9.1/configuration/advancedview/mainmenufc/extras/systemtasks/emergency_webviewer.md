@@ -37,7 +37,7 @@ a secure medium (USB stick, HDD, CD/DVD, …) and kept in a secure location!
 
 ## Data security
 
-• Naturally, the HTML WebViewer file is encrypted
+**• Naturally, the HTML WebViewer file is encrypted**
 
 • The export of the file is protected using a corresponding
 [User rights](/docs/passwordsecure/9.1/configuration/advancedview/mainmenufc/userrights/user_rights.md)
@@ -138,7 +138,7 @@ all data has been correctly entered, it is then possible to log in.
 NOTE: The current user needs to log in using their password. If an incorrect password is entered,
 access is temporarily blocked.
 
-Login data
+**Login data**
 
 - Database: Predefined
 - User: Predefined
@@ -153,7 +153,7 @@ After successfully logging in, the **overview page** for the **Emergency WebView
 displayed. This contains information about the saved **passwords** just like with the WebViewer
 export. The passwords are now available to the user.
 
-Overview: Emergency HTML WebViewer / passwords
+**Overview: Emergency HTML WebViewer / passwords**
 
 ![password in emergency webviewer](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_96-en.webp)
 

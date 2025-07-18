@@ -18,7 +18,7 @@ It is extremely important to create a sensible recovery plan and to make corresp
 Unfortunately, it is not possible to supply a finished recovery plan because it always needs to be
 created individually. The following points should be taken into account in this process:
 
-Creating backups
+**Creating backups**
 
 It is of course essential in the event of a disaster that you can access a backup that is as
 up-to-date as possible. Therefore, it is necessary to regularly create
@@ -30,7 +30,7 @@ The first thing to decide is who should take action in the event of a disaster. 
 deputies should also be defined. The responsible employee should have the corresponding rights
 within Netwrix Password Secure.
 
-Providing the required passwords
+**Providing the required passwords**
 
 What passwords do those people responsible need in order to restore Netwrix Password Secure?
 
@@ -55,21 +55,21 @@ times. The following options are possible:
 The following section will describe various disaster scenarios including the possible recovery
 steps.
 
-Scenario 1
+**Scenario 1**
 
 Problem:
 
-Database is corrupt
+**Database is corrupt**
 
 Solution:
 
 Restore the database from a backup.
 
-Scenario 2
+**Scenario 2**
 
 Problem:
 
-Database server is faulty
+**Database server is faulty**
 
 Solution:
 
@@ -81,11 +81,11 @@ basic configuration.
 
 Any existing offline databases will continue to function properly.
 
-Scenario 3
+**Scenario 3**
 
 Problem:
 
-Application server faulty
+**Application server faulty**
 
 Solution:
 
@@ -94,7 +94,7 @@ it may be that the licence can only be released again by Netwrix. The basic conf
 completed to restore the connection to the database server. If the server name changes, the database
 profile on the client needs to be amended.
 
-Any existing offline databases need to be recreated!
+**Any existing offline databases need to be recreated!**
 
 Scenario 4
 
@@ -109,7 +109,7 @@ Restore the database from the backup. The basic configuration must be completed 
 connection to the database server. If the licence has already been activated multiple times, it may
 be that it can only be released again by Netwrix.
 
-Any existing offline databases need to be recreated!
+**Any existing offline databases need to be recreated!**
 
 Scenario 5
 

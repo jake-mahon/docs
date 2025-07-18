@@ -64,7 +64,7 @@ should it be necessary to make changes later on.
 Once the data has been entered and successfully tested, the wizard can be completed by clicking on
 “Finish”.
 
-Security notes
+**Security notes**
 
 As soon as the setup wizard has been completed, two security notes will be displayed in the
 **Status**

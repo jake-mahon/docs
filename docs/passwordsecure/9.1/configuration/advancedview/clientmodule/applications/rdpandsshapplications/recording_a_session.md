@@ -31,11 +31,11 @@ disk space usage.
 Session recording firstly needs to be activated for the relevant RDP or SSH application before it
 can take place.
 
-RDP
+**RDP**
 
 ![activating session recording](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_2-en.webp)
 
-SSH
+**SSH**
 
 ![activating session recording](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_3-en.webp)
 
@@ -65,7 +65,7 @@ effectively and quickly viewed so as only to see the relevant actions.
 
 ![viewing a session recording](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_6-en.webp)
 
-When are indicators set?
+**When are indicators set?**
 
 - Mouse click
 - Keyboard command

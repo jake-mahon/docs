@@ -24,7 +24,7 @@ website. For some login masks, the auto-enrollment process starts automatically.
 you have to type once into the first field. The autofill itself can be divided into three different
 scenarios.
 
-Dialog
+**Dialog**
 
 Depending on the configuration and scenario, the dialog for entry can have different
 characteristics:
@@ -36,18 +36,18 @@ characteristics:
 - Finally, the iOS keychain can also be opened. If this function is not needed, it can be
   deactivated. The corresponding option will then no longer be offered.
 
-No password found
+**No password found**
 
 If no password is found that matches the app or the website, the desired password must first be
 selected.
 
-Exact password found
+**Exact password found**
 
 If there is a data record that contains exactly the URL that is called up, the corresponding
 password can be suggested. A simple click on the password is then sufficient to pass the data to the
 website or app.
 
-Several passwords found
+**Several passwords found**
 
 If several matching passwords are found in the database, the desired one must be selected.
 

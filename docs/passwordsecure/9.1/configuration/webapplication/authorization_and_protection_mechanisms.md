@@ -19,7 +19,7 @@ be clarified in this chapter.
 
 ###### Protections
 
-Password masking
+**Password masking**
 
 The password masking follows the familiar logic of the client. Due to this function, reference
 should be made to the chapter of
@@ -36,7 +36,7 @@ If a record is provided with a privacy protection, this is shown in the header o
 
 ![installation_with_parameters_184](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_184.webp)
 
-Seal
+**Seal**
 
 The seals also correspond in function to the known logic of the client. In the chapter seal further
 explanations can be found. The

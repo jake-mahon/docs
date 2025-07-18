@@ -26,7 +26,7 @@ longer needed.
 
 ## Relevant rights
 
-The following option is required for managing tags
+**The following option is required for managing tags**
 
 User right
 

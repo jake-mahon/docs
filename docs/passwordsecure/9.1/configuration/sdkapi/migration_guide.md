@@ -54,7 +54,7 @@ Below are code examples for the previous and updated authentication methods.
 
 #### C#
 
-Previous authentication method (deprecated)
+**Previous authentication method (deprecated)**
 
 ```
 var database = "your-database";
@@ -75,7 +75,7 @@ while (mfaRequest != null) {
 }
 ```
 
-New authentication method (required for version 9.0 onwards)
+**New authentication method (required for version 9.0 onwards)**
 
 ```
 var database = "your-database";
@@ -97,7 +97,7 @@ while (!authenticationFlow.IsAuthenticated) {
 
 #### JavaScript
 
-Previous authentication method (deprecated)
+**Previous authentication method (deprecated)**
 
 ```
 const database = 'your-database'
@@ -113,7 +113,7 @@ while (mfaRequest) {
 }
 ```
 
-New authentication method (required for version 9.0 onwards)
+**New authentication method (required for version 9.0 onwards)**
 
 ```
 const database = 'your-database'

@@ -16,7 +16,7 @@ for this:
 
 local user:
 
-e.g. administrator (user name administrator)
+**e.g. administrator (user name administrator)**
 
 ![image3](/img/product_docs/passwordsecure/9.1/configuration/basic_view/start_and_login/image3.webp)
 
@@ -41,7 +41,7 @@ As soon as the login was successful, you are now either:
 
 - directly in the web view of the Basic view, because the user is a Basic view user.
 
-or
+**or**
 
 - in the Web Application. To switch from the Web Application to the Basic view web view, you have to
   click on your profile name. There you will be offered the option **"Switch to the Basic view"**.

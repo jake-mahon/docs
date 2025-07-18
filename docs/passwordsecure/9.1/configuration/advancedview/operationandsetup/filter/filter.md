@@ -46,7 +46,7 @@ They are merely a supportive measure for filtering.
 
 ## Application example
 
-Filter without criteria
+**Filter without criteria**
 
 By selecting the desired criteria and applying the filter using the button of the same name, the set
 of all the records corresponding to the criteria is displayed in the list view. If you used the

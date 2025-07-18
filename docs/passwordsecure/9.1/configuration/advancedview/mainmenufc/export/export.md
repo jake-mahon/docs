@@ -53,7 +53,7 @@ administrator possesses all rights, including the right to export.
 
 The following option is required.
 
-User right
+**User right**
 
 - Can export
 

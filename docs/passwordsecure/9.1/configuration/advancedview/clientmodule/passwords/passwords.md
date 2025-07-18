@@ -63,7 +63,7 @@ The module-specific ribbon functions will be explained below.
 - **Permissions**: The drop-down menu can be used to set both password permissions and also form
   field permissions. This method only allows the manual setting of permissions for data (see
 
-    authorization concept)
+**authorization concept)**
 
 - **Password masking**: Masking passwords that need to be protected from unauthorized users is an
   important feature of the security concept in Netwrix Password Secure.

@@ -51,7 +51,7 @@ create new Entra ID profiles" enabled.
 Login to the [Azure portal](https://portal.azure.com/#azure-portal) and go to the management page of
 your Microsoft Entra ID.
 
-NOTE: You need an account with administrative permissions
+**NOTE: You need an account with administrative permissions**
 
 - Write down your "Tenant ID" shown in the Azure console or by using PowerShell:
 

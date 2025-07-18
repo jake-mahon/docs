@@ -24,7 +24,7 @@ The Autofill Add-on is installed together with the Netwrix Password Secure clien
 used by users (assuming they have sufficient permissions). A separate installation is thus not
 necessary. A desktop link is created for both the client and also for the Autofill Add-on.
 
-User rights
+**User rights**
 
 The right **Can create web applications** is required for creating new web applications\*
 

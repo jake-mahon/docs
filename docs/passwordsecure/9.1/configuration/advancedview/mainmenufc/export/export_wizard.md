@@ -43,7 +43,7 @@ The password export wizard can be started via the ribbon in two ways. **Selected
 only those passwords marked in list view, whereby **Passwords based on the filter** uses the
 currently defined filter settings as the criteria.
 
-The wizard
+**The wizard**
 
 A diverse range of variables for the export and the storage location can be defined in the wizard. A
 corresponding preview is also provided.

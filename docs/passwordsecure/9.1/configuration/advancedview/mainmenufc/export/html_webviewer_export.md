@@ -25,7 +25,7 @@ displayed in a current browse that has **JavaScript activated**.
 
 The **export right for the WebViewer** is configured via the **user rights**:
 
-User right
+**User right**
 
 - Can export HTML WebViewer
 

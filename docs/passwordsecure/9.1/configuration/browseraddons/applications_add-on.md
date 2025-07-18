@@ -24,7 +24,7 @@ the Browser Extension in encrypted form. The password is only decrypted in the a
 before it is entered. There are two ways in which the information is entered: **Data entry without
 application** and **Data entry with application**.
 
-Data entry without application
+**Data entry without application**
 
 The data entry without application process is sufficient for most websites because the fields can be
 directly assigned (mapping). The system checks in the background whether a login mask has been found
