@@ -1,7 +1,7 @@
 ---
 title: "Schema and Configuration Folder Templates"
 description: "Schema and Configuration Folder Templates"
-sidebar_position: 90
+sidebar_position: 120
 ---
 
 # Schema and Configuration Folder Templates
