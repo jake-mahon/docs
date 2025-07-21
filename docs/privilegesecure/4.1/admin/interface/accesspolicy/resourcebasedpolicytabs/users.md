@@ -41,7 +41,7 @@ The table has the following columns:
 - User Name — Displays the sAMAccountName for the account
 - Type — Icon indicates the type of object
 - Certified — Indicates the access entitlement for the user or group. See the
-  [Access Certification Page](/docs/privilegesecure/4.1/admin/interface/accesscertification/accesscertification.md)
+  [Access Certification Page](/docs/privilegesecure/4.1/admin/audit&reporting/accesscertification/accesscertification.md)
   topic for additional information.
 
     - Approved — Access entitlements have been approved
