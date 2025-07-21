@@ -15,7 +15,7 @@ The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor 
 which enables Sensitive Data criteria for scans.
 
 See the
-[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/aws/aws_1.md)
+[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/aws/target.md)
 topic for target environment requirements.
 
 ## AWS Solution Requirements on the Enterprise Auditor Console

@@ -36,7 +36,7 @@ practices that keep MongoDB Server safe and operational.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemongodb.md)
+[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/mongodb.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

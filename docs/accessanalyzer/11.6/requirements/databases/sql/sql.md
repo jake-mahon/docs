@@ -90,7 +90,7 @@ This solution employs the following data collector to scan the target environmen
     - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
 See the
-[Azure SQL Auditing Configuration](/docs/accessanalyzer/11.6/requirements/databases/databasesql/azuresqlaccess.md)
+[Azure SQL Auditing Configuration](/docs/accessanalyzer/11.6/requirements/databases/sql/azuresqlaccess.md)
 topic for additional information.
 
 ## Ports

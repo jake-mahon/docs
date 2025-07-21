@@ -20,7 +20,7 @@ See the
 [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/requirements/entraid/entraid/overview.md)
 topic for target environment requirements.
 
-## Entra ID Solution Requirements on the Enterprise Auditor Console
+## Entra ID Solution Requirements on the Enterprise Auditor Console
 
 **RAM, CPU, and Disk Space**
 

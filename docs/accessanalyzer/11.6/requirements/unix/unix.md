@@ -12,7 +12,7 @@ Server, and Access Information Center. See the
 topic for the core requirements.
 
 See the
-[Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/unix/unix_1.md)
+[Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/unix/target.md)
 topic for target environment requirements.
 
 ## Unix Solution Requirements on the Enterprise Auditor Console

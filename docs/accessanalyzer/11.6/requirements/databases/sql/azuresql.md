@@ -35,28 +35,28 @@ Follow the steps to configure the least privilege access model for AzureSQL col
 
 **Step 1 –** To login with the user, run the following script against the master database:
 
-**CREATE LOGIN LPAUser WITH PASSWORD = [insert password]**
+`CREATE LOGIN LPAUser WITH PASSWORD = [insert password]`
 
 CREATE USER LPAUser FROM LOGIN LPAUser
 
 **Step 2 –** Create the user in the target database with the following script:
 
-**CREATE USER LPAUser FROM LOGIN LPAUser**
+`CREATE USER LPAUser FROM LOGIN LPAUser`
 
 Once complete, confirm that the newly created user exists in the instance of the master database and
 the target database before proceeding to the next step.
 
 **Step 3 –** Run the following script against the target database to apply the db_datareader role:
 
-**EXEC sp_addrolemember N’db_datareader’, N’LPAUser’**
+`EXEC sp_addrolemember N’db_datareader’, N’LPAUser’`
 
 **Step 4 –** Apply the View Database State Permission against the target database with the following
 script:
 
-**GRANT VIEW DATABASE PERFORMANCE STATE TO LPAUSER**
+`GRANT VIEW DATABASE PERFORMANCE STATE TO LPAUSER`
 
 **Step 5 –** Grant the control permission with the following script:
 
-**GRANT CONTROL ON DATABASE**
+`GRANT CONTROL ON DATABASE`
 
 The user is granted Control permission based on the least privilege access model.

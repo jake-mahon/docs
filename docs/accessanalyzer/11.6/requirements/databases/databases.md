@@ -21,13 +21,13 @@ which enables Sensitive Data criteria for scans.
 
 See the following topics for target environment requirements:
 
-- [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasedb2.md)
-- [Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemongodb.md)
-- [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemysql.md)
-- [Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseoracle/databaseoracle.md)
-- [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasepostgresql.md)
-- [Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseredshift.md)
-- [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databasesql.md)
+- [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/db2.md)
+- [Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/mongodb.md)
+- [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/mysql.md)
+- [Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/oracle/oracle.md)
+- [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/postgresql.md)
+- [Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/redshift.md)
+- [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/sql/sql.md)
 
 ## Databases Solution Requirements on the Enterprise Auditor Console
 

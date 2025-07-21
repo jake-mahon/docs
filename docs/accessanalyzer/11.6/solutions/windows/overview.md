@@ -22,7 +22,7 @@ inventory.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/windows/windows_1.md)
+[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/windows/target.md)
 topic for additional information.
 
 **Location**

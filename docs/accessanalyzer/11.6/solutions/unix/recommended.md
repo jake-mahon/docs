@@ -28,7 +28,7 @@ Assignment** node. Select the UNIX servers host list created previously.
 Set a Connection Profile on the Unix job group with root permissions for Unix/Linux.
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/unix_1.md#least-privilege-model)
+[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/target.md#least-privilege-model)
 topic for permissions needed to target the supported platforms for data collection.
 
 **Schedule Frequency**

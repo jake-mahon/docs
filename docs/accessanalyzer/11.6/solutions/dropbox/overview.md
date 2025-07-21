@@ -29,7 +29,7 @@ using the Sensitive Data Discovery Add-on.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/dropbox/dropbox_1.md)
+[Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/dropbox/target.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

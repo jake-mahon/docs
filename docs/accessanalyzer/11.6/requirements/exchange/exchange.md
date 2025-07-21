@@ -23,7 +23,7 @@ which enables Sensitive Data criteria for scans.
 
 See the following topics for target environment requirements:
 
-- [Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/exchange_1.md)
+- [Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/target.md)
 - [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/exchangeonline/exchangeonline.md)
 
 ## Exchange Solution Requirements on the Enterprise Auditor Console

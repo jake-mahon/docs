@@ -22,7 +22,7 @@ The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor 
 which enables Sensitive Data criteria for scans.
 
 See the
-[Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/dropbox/dropbox_1.md)
+[Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/dropbox/target.md)
 topic for target environment requirements.
 
 ## Dropbox Solution Requirements on the Enterprise Auditor Console

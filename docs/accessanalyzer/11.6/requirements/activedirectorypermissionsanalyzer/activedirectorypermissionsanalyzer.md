@@ -12,7 +12,7 @@ Server, and Access Information Center. See the
 topic for the core requirements.
 
 See the
-[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/activedirectorypermissionsanalyzer/activedirectorypermissionsanalyzer_1.md)
+[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/activedirectorypermissionsanalyzer/target.md)
 topic for target environment requirements.
 
 ## Active Directory Permissions Analyzer Solution Requirements on the Enterprise Auditor Console

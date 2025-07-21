@@ -17,7 +17,7 @@ assets residing in Box.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/box/box_1.md)
+[Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/box/target.md)
 topic for additional information.
 
 **Location**

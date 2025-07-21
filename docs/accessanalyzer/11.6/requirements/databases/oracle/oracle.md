@@ -48,7 +48,7 @@ This solution employs the following data collector to scan the target environmen
   Unix operating systems
 
 There is a least privilege model for scanning your domain. See the
-[Oracle Target Least Privilege Model](/docs/accessanalyzer/11.6/requirements/databases/databaseoracle/databaseoracle_1.md)
+[Oracle Target Least Privilege Model](/docs/accessanalyzer/11.6/requirements/databases/oracle/leastprivilege.md)
 topic for additional information.
 
 ## Ports

@@ -107,7 +107,7 @@ additional:
 - [Box Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/box/box.md#box-solution-requirements-on-the-enterprise-auditor-console)
 - [Databases Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/databases/databases.md#databases-solution-requirements-on-the-enterprise-auditor-console)
 - [Dropbox Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/dropbox/dropbox.md#dropbox-solution-requirements-on-the-enterprise-auditor-console)
-- [Entra ID Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/entraid/entraid.md#entra-idsolution-requirements-on-the-enterprise-auditor-console)
+- [Entra ID Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/entraid/entraid.md#entra-id-solution-requirements-on-the-enterprise-auditor-console)
 - [Exchange Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/exchange/exchange.md#exchange-solution-requirements-on-the-enterprise-auditor-console)
 - [File System Solution Requirements on the Enterprise Auditor Console ](/docs/accessanalyzer/11.6/requirements/filesystem/filesystem.md#file-system-solution-requirements-on-the-enterprise-auditor-console)
 - [SharePoint Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint.md#sharepoint-solution-requirements-on-the-enterprise-auditor-console)

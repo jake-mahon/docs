@@ -12,7 +12,7 @@ Server, and Access Information Center. See the
 topic for the core requirements.
 
 See the
-[Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/box/box_1.md)
+[Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/box/target.md)
 topic for target environment requirements.
 
 ## Box Solution Requirements on the Enterprise Auditor Console

@@ -104,11 +104,6 @@ article.
 
 Once the access control role has been created, apply it to a domain account.
 
-**:::warning**
-
-:::
-
-
 - The SVM used in the following command must be the same SVM used when creating the role. See the
   [Create Security Role for FSAA Scans](#create-security-role-for-fsaa-scans) topic for additional
   information.

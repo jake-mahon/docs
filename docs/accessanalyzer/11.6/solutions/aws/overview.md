@@ -31,7 +31,7 @@ Add-On enables the solution to search AWS S3 content for sensitive data.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/aws/aws_1.md)
+[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/aws/target.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

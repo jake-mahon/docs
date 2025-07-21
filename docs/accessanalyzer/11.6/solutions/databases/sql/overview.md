@@ -23,7 +23,7 @@ security assessment.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databasesql.md)
+[Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/sql/sql.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

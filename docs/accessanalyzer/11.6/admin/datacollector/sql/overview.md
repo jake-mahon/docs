@@ -95,9 +95,9 @@ For SQL:
     - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
 See the
-[Azure SQL Auditing Configuration](/docs/accessanalyzer/11.6/requirements/databases/databasesql/azuresqlaccess.md)
+[Azure SQL Auditing Configuration](/docs/accessanalyzer/11.6/requirements/databases/sql/azuresqlaccess.md)
 topic and the
-[AzureSQL Target Least Privilege Model](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databaseazuresql.md)
+[AzureSQL Target Least Privilege Model](/docs/accessanalyzer/11.6/requirements/databases/sql/azuresql.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

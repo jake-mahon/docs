@@ -23,7 +23,7 @@ configurations.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/unix/unix_1.md)
+[Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/unix/target.md)
 topic for additional information.
 
 **Location**

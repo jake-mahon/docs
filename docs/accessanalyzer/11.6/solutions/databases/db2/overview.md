@@ -17,7 +17,7 @@ Permissions, and Sensitive Data.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasedb2.md)
+[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/db2.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

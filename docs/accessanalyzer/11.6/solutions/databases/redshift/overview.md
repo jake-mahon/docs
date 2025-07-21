@@ -21,7 +21,7 @@ Data Discovery Add-On enables the solution to search Redshift and AWS content fo
 **Requirements, Permissions, and Ports**
 
 See the
-[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseredshift.md)
+[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/redshift.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

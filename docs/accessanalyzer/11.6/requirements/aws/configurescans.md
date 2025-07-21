@@ -92,8 +92,6 @@ in the Master Account with the following JSON definition:
 :::
 
 
-[Copy](javascript:void(0);)
-
 ```
 {
     "Version": "2012-10-17",

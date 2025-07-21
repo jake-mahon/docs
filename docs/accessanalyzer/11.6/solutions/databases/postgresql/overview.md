@@ -36,7 +36,7 @@ best practices that keep PostgreSQL Server safe and operational.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasepostgresql.md)
+[Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/postgresql.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

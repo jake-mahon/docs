@@ -34,7 +34,7 @@ Access Token section.
 
 :::tip
 Remember, these are obtained from AWS when the permissions are configured. See the
-[Configure AWS for Scans](/docs/accessanalyzer/11.6/requirements/aws/aws_2.md)
+[Configure AWS for Scans](/docs/accessanalyzer/11.6/requirements/aws/configurescans.md)
 topic for additional information.
 :::
 

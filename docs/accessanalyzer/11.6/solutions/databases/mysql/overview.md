@@ -44,7 +44,7 @@ resources on the Enterprise Auditor server.
 **Requirements, Permissions, and Ports**
 
 See the
-[Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemysql.md)
+[Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/mysql.md)
 topic for additional information.
 
 **Sensitive Data Discovery Considerations**

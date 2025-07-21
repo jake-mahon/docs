@@ -15,30 +15,30 @@ Users Configuration, Mailboxes, Public Folders, and Exchange Online Mail-Flow.
 In addition to the permissions required by the ExchangePS Data Collector, the Connection Profile
 assigned to these job groups requires the following permissions:
 
--   2. CAS Metrics
+-   **2. CAS Metrics**
 
     - This job group also requires remote connection permissions for the SMARTLog Data Collector.
       See the
       [Exchange Remote Connections Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/remoteconnections.md)
       topic for additional information.
 
--   3. Databases
+-   **3. Databases**
 
     - This job group also requires permissions for the Exchange2K Data Collector, which is
       MAPI-based and has additional requirements
 
--   4. Mailboxes
+-   **4. Mailboxes**
 
     - This job group also requires Exchange Mailbox Access Auditing to be enabled. See the
       [Enable Exchange Mailbox Access Auditing](#enable-exchange-mailbox-access-auditing) topic for
       additional information.
 
--   5. Public Folders
+-   **5. Public Folders**
 
     - This job group also requires permissions for the ExchangePublicFolder Data Collector, which is
       MAPI-based and has additional requirements
 
--   8. Exchange Online
+-   **8. Exchange Online**
 
     - This job group uses Modern Authentication to target Exchange Online. See the
       [Exchange Online Auditing Configuration](/docs/accessanalyzer/11.6/requirements/exchange/exchangeonline/access.md) topic
@@ -73,7 +73,7 @@ ExchangeMailbox Data Collector, as well as the PublicFolder or Mailbox Action Mo
 required in order to make a connection through the MAPI protocol. The following job group requires
 the Public Folder Management Role Group:
 
--   5. Public Folders > Ownership
+-   **5. Public Folders > Ownership**
 
 If not running this collection, then this permission is not required.
 
@@ -82,7 +82,7 @@ If not running this collection, then this permission is not required.
 This is required to collect Mailbox Access Audit logs and run Mailbox Search queries through the
 ExchangePS Data Collector. The following job group requires the Mailbox Search Role:
 
--   4. Mailboxes > Logons
+-   **4. Mailboxes > Logons**
 
 **Application Impersonation Role**
 
