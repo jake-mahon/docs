@@ -19,9 +19,12 @@ Policy Manager sales associate.
 
 Figure 1. Inside the Endpoint Policy Manager Customer Portal.
 
-**NOTE:** Video: For an overview on how to use the Endpoint Policy Manager Customer Portal and
+:::note
+Video: For an overview on how to use the Endpoint Policy Manager Customer Portal and
 understand subscriptions, please watch the following video:
 [https://www.endpointpolicymanager.com/video/endpointpolicymanager-portal-how-to-download-endpointpolicymanager-and-get-free-training.html](https://www.endpointpolicymanager.com/video/endpointpolicymanager-portal-how-to-download-endpointpolicymanager-and-get-free-training.html)
+:::
+
 
 Go to the Download section and select "Download Everything (Bits, Paks, Manuals but not Advice),"
 and you will get a ZIP file with manuals. You will also receive the following:

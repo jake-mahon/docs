@@ -11,7 +11,10 @@ additional add-ons. First, if Endpoint Policy Manager is set to disable an add-o
 category of add-ons), those add-ons are AUTOMATICALLY hidden from the user so they cannot re-enable
 them.
 
-**CAUTION:** It is possible that a particularly clever user could temporarily re-enable the add-on.
+:::warning
+It is possible that a particularly clever user could temporarily re-enable the add-on.
+:::
+
 
 The Add-ons section in the Firefox AppSet has the following extra special checkboxes:
 
@@ -27,11 +30,14 @@ You can see these checkboxes below in Figure 25.
 
 Figure 25. Disabling and hiding add-ons.
 
-**NOTE:** If you select "Disable the installation of Firefox extensions" you must right-click the
+:::note
+If you select "Disable the installation of Firefox extensions" you must right-click the
 setting and specify "Lockdown this setting using the system-wide config file" or it will not
 function. The "Lockdown this setting using the system-wide config file" flag is only available when
 the AppSet is used on the Computer side. This effectively means that ALL users on the computer are
 blocked from installing Firefox extensions manually.
+:::
+
 
 The result of selecting "Disable the installation of Firefox extensions" is that when users attempt
 to install any extension, in any manner, they are blocked, as shown in Figure 26.

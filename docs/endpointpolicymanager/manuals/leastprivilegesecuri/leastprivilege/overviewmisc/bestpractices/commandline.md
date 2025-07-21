@@ -11,10 +11,13 @@ line, or there is an application that you want to run with specific command-line
 could occur in day-to-day use or with items that must run from a logon script and perform the task
 with elevated rights.
 
-**NOTE:** See the
+:::note
+See the
 [Prevent Users Running some commands with command lines](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/preventusercommands.md)
 video for an overview of using Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager
 and command-line arguments.
+:::
+
 
 A good example would be enabling standard users to start and stop services with a command line, or
 to run the Performance Monitor’s Resource Monitor. Both must be executed from the command line.
@@ -52,9 +55,12 @@ For **Check Mode**, there are four choices:
 - Any argument from the list - This means that any argument in the Arguments box (separated by
   spaces) is allowed in the command.
 
-**NOTE:** Ignore arguments order and **Any argument from the list** only work when the command has
+:::note
+Ignore arguments order and **Any argument from the list** only work when the command has
 slash-based switches. If the command line doesn’t have slashes, then use the **Strict equality**
 method.
+:::
+
 
 On the next screen, for **Action**, select **Run with elevated privileges**.
 

@@ -6,10 +6,13 @@ sidebar_position: 60
 
 # Overcoming Common UAC Prompts with Helper Tools
 
-**NOTE:** See the
+:::note
+See the
 [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/helperstoolsandtips/uacprompts.md)
 video for an overview of using Endpoint Policy Manager Least Privilege Manager Helper Tools in
 action.
+:::
+
 
 Three common areas where users need to overcome admin prompts are:
 
@@ -28,8 +31,11 @@ quickly going to encounter a UAC prompt, as seen here.
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
 
-**NOTE:** We used COM / CSLID rules earlier to overcome this concern, but this section and solution
+:::note
+We used COM / CSLID rules earlier to overcome this concern, but this section and solution
 gives you another option.
+:::
+
 
 Similarly, if a Standard User attempts to add a printer, they will receive another UAC prompt, shown
 here.

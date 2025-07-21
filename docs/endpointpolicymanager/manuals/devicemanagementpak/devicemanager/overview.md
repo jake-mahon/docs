@@ -9,9 +9,12 @@ sidebar_position: 10
 This manual is designed to be both an overview of what you can do with Endpoint Policy Manager
 Device Manager and a Quickstart guide for getting up and running quickly.
 
-**NOTE:** You may ignore the standard or complete designations in the Endpoint Policy Manager Device
+:::note
+You may ignore the standard or complete designations in the Endpoint Policy Manager Device
 Manager UI. Typically, Endpoint Policy Manager is sold in Enterprise or SaaS editions and in those
 configurations you get complete (meaning all the features).
+:::
+
 
 Before reading this section, please ensure you have read Book 2: Installation Quick Start, which
 will help you learn to do the following:
@@ -25,8 +28,11 @@ Optionally, this manual demonstrates how to use on-prem Active Directory and Gro
 Endpoint Policy Manager Device Manager directives. If you don't want to use Group Policy, see the
 [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md) topic to deploy directives for additional information.
 
-**NOTE:** For an overview of Endpoint Policy Manager Device Manager see the
+:::note
+For an overview of Endpoint Policy Manager Device Manager see the
 [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/devicemanager/videolearningcenter/videolearningcenter.md) topic for additional information.
+:::
+
 
 Endpoint Policy Manager Device Manager will manage USB and other removable media devices like
 CD-ROMs, DVD ROMs, and phones which plug in and have storage when attached to Windows.
@@ -59,9 +65,12 @@ these ways:
 Then allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to
 receive the directives and perform the work.
 
-**NOTE:** If you use an MDM service or Endpoint Policy Manager cloud service, you can deliver
+:::note
+If you use an MDM service or Endpoint Policy Manager cloud service, you can deliver
 Endpoint Policy Manager Device Privilege Manager settings even to non-domain-joined machines over
 the Internet.
+:::
+
 
 ## Endpoint Policy Device Manager Components
 
@@ -138,8 +147,11 @@ You can perform the following management on devices:
 
 None of this is possible with the in-box settings with Microsoft GPOs or MDM policies (like Intune).
 
-**NOTE:** Consider integrating with Netwrix Privilege Secure for Endpoints for additional features
+:::note
+Consider integrating with Netwrix Privilege Secure for Endpoints for additional features
 when managing devices:
+:::
+
 
 - Endpoint Policy Manager Device Manager only deals with aspects of removable data devices. For
   other device types, like Bluetooth, Serial Ports, printers and shares, consider Netwrix Endpoint

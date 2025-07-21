@@ -10,8 +10,11 @@ This guide will help you troubleshoot problems routing from browser to browser. 
 are inside Internet Explorer and expect Firefox or Chrome to automatically be opened, but it
 doesn't, then this is the guide for you.
 
-**NOTE:** Firefox version must be Firefox ESR and not Firefox RR (rapid release). For more details,
+:::note
+Firefox version must be Firefox ESR and not Firefox RR (rapid release). For more details,
 [https://www.endpointpolicymanager.com/pp-blog/policypak-will-soon-only-support-firefox-esr](https://www.endpointpolicymanager.com/pp-blog/endpointpolicymanager-will-soon-only-support-firefox-esr).
+:::
+
 
 **Step 1 –** This troubleshooting guide assumes you have already performed the steps in this initial
 troubleshooting guide: Browser Router >

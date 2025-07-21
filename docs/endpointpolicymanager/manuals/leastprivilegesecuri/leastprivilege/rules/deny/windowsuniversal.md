@@ -6,9 +6,12 @@ sidebar_position: 20
 
 # Denying UWP Applications
 
-**NOTE:** For an overview of how to manage UWP applications, see the
+:::note
+For an overview of how to manage UWP applications, see the
 [Manage, block and allow Windows Universal (UWP) applications](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/windowsuniversalapplications.md)
 video.
+:::
+
 
 Endpoint Policy Manager can be used to manage Universal Windows Platform (UWP) applications,
 allowing you to block one or more applications. To do this, select **Add** > **New UWP Policy**.

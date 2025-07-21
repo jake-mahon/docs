@@ -15,7 +15,10 @@ similar to this.
 
 **Step 2 –** Expand the Endpoint Policy Manager node and select **Least Privilege Manager**.
 
-**NOTE:** User or Computer policies may be used, but general recommendation is to target to users.
+:::note
+User or Computer policies may be used, but general recommendation is to target to users.
+:::
+
 
 **Step 3 –** Create a new **New Executable Policy**.
 
@@ -51,8 +54,11 @@ click **NEXT**.
 **Step 10 –** Name it according to your conventions (e.g. "`Elevate Services.msc`") and click
 **FINISH**.
 
-**NOTE:** Users will not acquire this new GPO until Group Policy is refreshed on the user's computer
+:::note
+Users will not acquire this new GPO until Group Policy is refreshed on the user's computer
 either through automatic or manual means.
+:::
+
 
 ## TESTING
 
@@ -65,8 +71,11 @@ Additionally, you can test with a command prompt. Again, the command has to matc
 
 ![203_15_image002_950x541](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/203_15_image002_950x541.webp)
 
-**NOTE:** If you attempt other avenues, like from the Start menu or alternate command lines, they
+:::note
+If you attempt other avenues, like from the Start menu or alternate command lines, they
 will not work. In the example below it does not work because it is notthe exact same command line.
+:::
+
 
 ![203_16_image003_950x496](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/203_16_image003_950x496.webp)
 

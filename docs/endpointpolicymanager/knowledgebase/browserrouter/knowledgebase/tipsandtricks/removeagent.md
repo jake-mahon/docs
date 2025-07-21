@@ -43,8 +43,11 @@ Settings** > **Registry** that will delete the following registry key.
 
 [```HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\PPBRAgent.exe```]
 
-**NOTE:** You can add this policy to your existing unlicensed PPBR policy instead of creating a new
+:::note
+You can add this policy to your existing unlicensed PPBR policy instead of creating a new
 policy if so desired.
+:::
+
 
 **Step 5 –** Set the GPO (or GPOs) containing these two policy items to apply to the OU or Domain
 level as needed (i.e. wherever your affected computers or users happen to live).

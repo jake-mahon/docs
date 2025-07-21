@@ -39,9 +39,12 @@ There are basically two major versions of .Net CLR: v2 and v4.
 
 It is recommended to have both installed (3.5 + 4.8).
 
-**NOTE:** there is never any reason to install outdated versions of .Net, so we recommend clients
+:::note
+there is never any reason to install outdated versions of .Net, so we recommend clients
 continue to have the most recent .NET installed with all security updates, and keep installing and
 updated all the time.
+:::
+
 
 More details about .Net framework versions can be found here:
 [https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/versions-and-dependencies)

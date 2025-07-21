@@ -5,13 +5,13 @@ sidebar_position: 10
 ---
 # Endpoint Policy Manager Start Screen Manager and Special Custom Icons
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2A8i7DhKWME" title="Endpoint Policy Manager Start Screen Manager and Special Custom Icons" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Tried to deploy custom icons and it didn't work as expected? Here's the workaround.  
 ADDITIONAL STEP: Remove the Chrome Shortcut from the following location: You'll need to sign-out and
 back in twice to see the changes the first time.
 
 `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2A8i7DhKWME" title="Endpoint Policy Manager Start Screen Manager and Special Custom Icons" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Endpoint Policy Manager Start Screen Manager and Special Custom Icons
 

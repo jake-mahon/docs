@@ -26,8 +26,11 @@ For this side, Start Screen Manager will be used to place the icons.
 
 **Step 1 –** Open the GPMC on your management station and create a new GPO where desired and edit it
 
-**NOTE:** This can also be added as part of the Least Privilege Manager policy GPO used to enable
+:::note
+This can also be added as part of the Least Privilege Manager policy GPO used to enable
 the helper tools
+:::
+
 
 **Step 2 –** Expand User or Computer Configuration -> Netwrix Endpoint Policy Manager (formerly
 PolicyPak) -> Windows 10 & Server Management and click on Start Screen Manager
@@ -46,8 +49,11 @@ recommended as the end users still have access to modify the rest of the start m
 
 ![773_3_image-20201225195625-3](/img/product_docs/endpointpolicymanager/startscreentaskbar/773_3_image-20201225195625-3.webp)
 
-**NOTE:** Item Level Targeting may be used to filter who or what gets the policies within this
+:::note
+Item Level Targeting may be used to filter who or what gets the policies within this
 collection
+:::
+
 
 **Step 5 –** Open the collection and add a New Group
 
@@ -69,7 +75,10 @@ collection
 
   ![773_5_image-20201225195625-5](/img/product_docs/endpointpolicymanager/startscreentaskbar/773_5_image-20201225195625-5.webp)
 
-**NOTE:** ILT can also be implemented here instead of at, or in addition too, the collection level.
+:::note
+ILT can also be implemented here instead of at, or in addition too, the collection level.
+:::
+
 
 **Step 7 –** Open the new group just created
 
@@ -121,8 +130,11 @@ folder, continue with the process below.
 **Step 1 –** Open the GPMC on your management station and create a new GPO where desired or use the
 GPO for the right-side icons
 
-**NOTE:** This can also be added as part of the Least Privilege Manager policy GPO used to enable
+:::note
+This can also be added as part of the Least Privilege Manager policy GPO used to enable
 the helper tools.
+:::
+
 
 **Step 2 –** Expand User or Computer Configuration -> Preferences -> Windows Settings and click on
 Shortcuts

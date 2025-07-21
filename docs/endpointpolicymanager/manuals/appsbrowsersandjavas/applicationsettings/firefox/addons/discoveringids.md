@@ -27,8 +27,11 @@ supplied below, as shown in Figure 19.
 
 Figure 19. The Console tab.
 
-**NOTE:** You may get a warning saying you cannot paste until you say it's okay. To permit pasting,
+:::note
+You may get a warning saying you cannot paste until you say it's okay. To permit pasting,
 type allow pasting," as shown in Figure 20.
+:::
+
 
 ![add_ons_4](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_4.webp)
 

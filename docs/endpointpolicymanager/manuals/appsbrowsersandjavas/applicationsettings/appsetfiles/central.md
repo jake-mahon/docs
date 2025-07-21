@@ -19,10 +19,13 @@ the Active Directory's SYSVOL (which is replicated to all domain controllers). T
 they're needed, the Endpoint Policy Manager MMC will utilize the DLL contained within the Central
 Storage—automatically.
 
-**NOTE:** If you are familiar with Group Policy's ADMX Central Storage, this feature is identical
+:::note
+If you are familiar with Group Policy's ADMX Central Storage, this feature is identical
 and accomplishes a similar task. For information on Microsoft's implementation of central storage,
 please read
 [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).
+:::
+
 
 Creating the Endpoint Policy Manager Central Storage is easy and only needs to be performed one
 time. The actions that a domain administrator needs to perform are:
@@ -68,16 +71,22 @@ Figure 71. Endpoint Policy Manager extensions available in the flyout menu.
 
 Figure 72. The extension location has been changed to Central Storage.
 
-**NOTE:** You may need to close the Group Policy Editor and then reopen it to see Endpoint Policy
+:::note
+You may need to close the Group Policy Editor and then reopen it to see Endpoint Policy
 Manager Application Settings Manager utilizing the Central Storage.
+:::
+
 
 Note that only a domain administrator may place Endpoint Policy Manager extension DLLs into the
 Central Storage. If an AppSet is later updated, only domain administrators will be able to perform
 the update. For more information on updating AppSets, see the section "Version Control of Endpoint
 Policy Manager Extension DLLs."
 
-**NOTE:** You're never "installing" these DLLs on the server. Nor are they copied inside each and
+:::note
+You're never "installing" these DLLs on the server. Nor are they copied inside each and
 every GPO. They're simply placed, one time, into the Central Storage so that administrators can roam
 from machine to machine and always have access to their Endpoint Policy Manager extension DLLs
 whenever they run the GPMC. (You won't see the Endpoint Policy Manager node until the Endpoint
 Policy Manager Admin Console.msi is installed alongside the GPMC.)
+
+:::

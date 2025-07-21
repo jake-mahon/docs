@@ -33,7 +33,10 @@ The idea is that you specify which computers are in what ring. You may have as m
 you like. Then, you can use the RingCatchAll, which will automatically work  for computers which are
 not specified to be in any ring.
 
-**CAUTION:** You must pick ONE style and NOT mix the styles.
+:::warning
+You must pick ONE style and NOT mix the styles.
+:::
+
 
 Therefore, if the first Ring element uses DateTime, then RingCatchAll MUST use DateTime too. If the
 first Ring element uses HoursBeforeUpdate, then RingCatchAll MUST use HoursBeforeUpdate too.
@@ -81,9 +84,12 @@ Some notes:
 
 With this method you set your rings apart with number of hours between updates.
 
-**NOTE:** Use the `<HoursBeforeUpdate>` value to specify how many hours to delay. Note that if
+:::note
+Use the `<HoursBeforeUpdate>` value to specify how many hours to delay. Note that if
 `<HoursBeforeUpdate>` is 0, then the update should perform immediately after the CSE checks in and
 sees what ring it is in.
+:::
+
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -133,10 +139,16 @@ Breakdown of the parameters for the `update.config` file and how to use them:
 | CSE32FILEname           | Optional value if you wish to expressly change the name of the 32-bit Endpoint Policy Manager Client-Side Extension MSI                                   | Any file name ending in MSI                       | By default, the auto-update mechanism is looking for Endpoint Policy Manager Client-Side Extension x86.MSI |
 | CSE64FILEname           | Optional value if you wish to expressly change the name of the 64-bit Endpoint Policy Manager Client-Side Extension MSI                                   | Any file name ending in MSI                       | By default, the auto-update mechanism is looking for Endpoint Policy Manager Client-Side Extension x64.MSI |
 
-**NOTE:** The ReportsRoot value should be set if GenerateReports is enabled (true).
+:::note
+The ReportsRoot value should be set if GenerateReports is enabled (true).
+:::
 
-**NOTE:**  ReportsRoot and MSIROOT parameters supports environment variables, such
+
+:::note
+ ReportsRoot and MSIROOT parameters supports environment variables, such
 as %LogonServer% and so on, if you care to use them.
+:::
+
 
 Setting up the Reports Share and Verifying Reports Are Working:
 
@@ -185,8 +197,11 @@ Endpoint Policy Manager products have four command-line commands to help with up
 4. `ppupdate /cseupdatenow /force`. When run from a target computer, this command will instruct the
    CSE to reread the` update.config` file and perform any needed updates immediately.
 
-**NOTE:** This is necessary only when the` update.config` file's enabled variable is set to "False"
+:::note
+This is necessary only when the` update.config` file's enabled variable is set to "False"
 and, thus, not performing any updates normally.
+:::
+
 
 ![640_4_hfkb-1128-img-04](/img/product_docs/endpointpolicymanager/install/640_4_hfkb-1128-img-04.webp)
 

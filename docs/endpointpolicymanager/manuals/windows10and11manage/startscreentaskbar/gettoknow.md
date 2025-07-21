@@ -11,8 +11,11 @@ and Computer sides: one for Start Screen settings and one for Taskbar settings, 
 Start Screen & Taskbar Manager MMC snap-in enables you to create a new Start Screen Manager or
 Taskbar Manager policy or collection.
 
-**NOTE:** You will only see the Start Screen Manager and Taskbar Manager nodes when the latest Admin
+:::note
+You will only see the Start Screen Manager and Taskbar Manager nodes when the latest Admin
 Console MSI is installed on the management station.
+:::
+
 
 ![about_policypak_start_screen_2](/img/product_docs/endpointpolicymanager/startscreentaskbar/about_endpointpolicymanager_start_screen_2.webp)
 

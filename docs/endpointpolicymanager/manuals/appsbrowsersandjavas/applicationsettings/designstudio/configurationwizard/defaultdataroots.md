@@ -42,14 +42,20 @@ for the data root, as shown in Figure 111.
 
 Figure 111. Changing the location of the data root.
 
-**NOTE:** This adjusts all existing elements such that their paths are now relative to this new
+:::note
+This adjusts all existing elements such that their paths are now relative to this new
 location.
+:::
+
 
 The ideal situation is to get as close to where most of the changes are in your application. For
 registry-based applications, this is usually the key which represents the vendor or the application.
 For file-based applications, this is usually root of the file itself.
 
-**NOTE:** While using the Configuration Wizard, it's possible to specify a section of the file,
+:::note
+While using the Configuration Wizard, it's possible to specify a section of the file,
 instead of the whole file to look for specific changes. This is only necessary in very large data
 files. In most cases, simply select the top most entry within a file and the Configuration Wizard
 will look for all changes that happen within that file.
+
+:::

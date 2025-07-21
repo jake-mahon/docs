@@ -6,9 +6,12 @@ sidebar_position: 20
 
 # Internal Item-Level Targeting for the AppSet Itself
 
-**NOTE:** To see an overview of Internal ItemLevel Targeting, including how to bypass the filters,
+:::note
+To see an overview of Internal ItemLevel Targeting, including how to bypass the filters,
 see this video:
 [http://www.endpointpolicymanager.com/videos/bypassing-internal-item-level-targeting-filters.html](http://www.endpointpolicymanager.com/products/endpointpolicymanager-preconfigured-paks.html).
+:::
+
 
 Many preconfigured AppSets that Endpoint Policy Manager Application Settings Manager makes available
 for free have built-in predefined, or internal, Item -Level Targeting filters.

@@ -11,8 +11,11 @@ map a printer whenever a user opens a designated application and then unmap the 
 once the VPN connection or application is closed. You can do this through the use of Endpoint Policy
 Manager scripts and triggers.
 
-**NOTE:** For an overview of Endpoint Policy Manager scripts and triggers see
+:::note
+For an overview of Endpoint Policy Manager scripts and triggers see
 [Endpoint Policy Manager Scripts + Triggers: Map a printer or drive when a process runs and un-map it when closed.](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/triggersexamples/mapdrivetriggers.md).
+:::
+
 
 **Step 1 –** Let's use an example in which you want to map a printer for your users whenever they
 use Acrobat Reader. There are a couple of script options we can use to map a printer. It is highly

@@ -9,8 +9,11 @@ sidebar_position: 20
 When Netwrix Endpoint Policy Manager (formerly PolicyPak) elevates a process it also changes its
 Integrity level.
 
-**NOTE:** To learn more about this topic please see the Microsoft article on
+:::note
+To learn more about this topic please see the Microsoft article on
 [What is the Windows Integrity Mechanism?](<https://learn.microsoft.com/en-us/previous-versions/dotnet/articles/bb625957(v=msdn.10)?redirectedfrom=MSDN>)
+:::
+
 
 As such, a newly elevated process may not be able to communicate with a normally running process.
 

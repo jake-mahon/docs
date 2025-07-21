@@ -9,6 +9,8 @@ sidebar_position: 130
 In this video learn how to use the PP DesignStudio to specify a specific VMware VMX file and then
 deliver settings and lock down the settings so users cannot work around them.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xRdB9qoVPWY?si=LCnR0kmTPCj89a_d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Lockdown VMware workstation
 
 Hello. This is Sal from PolicyPak technical support. In this video, I’m going to show you how you

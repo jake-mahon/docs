@@ -24,9 +24,12 @@ suggest choosing **Use Simple rule (recommended)** as we have shown previously. 
 Conditions page, options to select **Path**, **Hash**, **Signature**, or **Product Info** are
 available. For this Quick Start, we suggest you select **Hash**.
 
-**NOTE:** We realize that hash values often change for installers, but using Hash is only for the
+:::note
+We realize that hash values often change for installers, but using Hash is only for the
 Quick Start. To learn how to authorize users to keep applications up to do date, learn about Combo
 rules in [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/manuals/leastprivilegesecuri/leastprivilege/overviewmisc/overviewmisc.md).
+:::
+
 
 On the next page, click **Select windows installer** and select the SkypeSetup.MSI package
 (previously downloaded).

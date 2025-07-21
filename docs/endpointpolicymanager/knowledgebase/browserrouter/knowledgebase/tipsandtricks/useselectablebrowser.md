@@ -6,10 +6,13 @@ sidebar_position: 70
 
 # Where does Browser Router store user selected browser (and how can I fake it if I need to) in versions 2536 and later?
 
-**CAUTION:** This article pertains to build 2536 and later. For earlier builds, the instructions are
+:::warning
+This article pertains to build 2536 and later. For earlier builds, the instructions are
 different, and technically, not supported. If using a CSE version older than 2536, please upgrade to
 the latest Netwrix Endpoint Policy Manager (formerly PolicyPak) version before using the steps in
 this KB.
+:::
+
 
 Endpoint Policy Manager Browser Router has a function called **User Selectable browser**. Learn more
 about this feature first here:
@@ -54,9 +57,12 @@ Supported values in ProgID are:
 - Chrome:
   - ChromeHTML
 
-**NOTE:** Firefox uses a customized value for ProgId dependent on the version of Firefox installed.
+:::note
+Firefox uses a customized value for ProgId dependent on the version of Firefox installed.
 You can set the default browser to Firefox and then look under the following key to find the correct
 custom ProgId value:
+:::
+
 
 `HKCU\SOFTWARE\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice\ProgId`
 
@@ -76,8 +82,11 @@ Prerequisites:
 To do this you'll use a Group Policy Preferences Registry Item to SET the value Only do this iff
 Item Level Targeting proves the value is ABSENT OR if the value is set to MSEdgeHTM (Edge Chromium).
 
-**NOTE:** The GPO must be linked to where USERS are, not COMPUTERS, because the logged-in user SID
+:::note
+The GPO must be linked to where USERS are, not COMPUTERS, because the logged-in user SID
 is used during this operation.
+:::
+
 
 **Step 1 –** Set the value:
 
@@ -105,11 +114,17 @@ Be sure to have entries which set HTTP and HTTPS like these two values here (i.e
 
 ![507_6_image-20201229224350-6](/img/product_docs/endpointpolicymanager/browserrouter/507_6_image-20201229224350-6.webp)
 
-_Remember,_ You need two entries. One for HTTP and one for HTTPS.
+:::tip
+Remember, You need two entries. One for HTTP and one for HTTPS.
+:::
 
-**NOTE:** If Chrome is not installed, PPBR will fail back to Internet Explorer. Also, for first time
+
+:::note
+If Chrome is not installed, PPBR will fail back to Internet Explorer. Also, for first time
 logins, Chrome will not become the default browser until the 2nd processing of gpupdate.For
 convenience the required User side Group Policy Preference XMLS are attached below:
+:::
+
 
 HTTP: [https://www.endpointpolicymanager.com/pp-files/2020-12-29_no-default-or-default-edge-
 then-set-to-chrome-http.xml](https://www.endpointpolicymanager.com/pp-files/2020-12-29_no-default-or-default-edge-

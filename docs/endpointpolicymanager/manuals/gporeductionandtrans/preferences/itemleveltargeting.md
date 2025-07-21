@@ -9,8 +9,11 @@ sidebar_position: 30
 One of the best features of Microsoft Group Policy Preferences is its Item-Level Targeting. It
 enables you to filter where a particular Group Policy Preference item will take effect.
 
-**NOTE:** See [Group Policy Preferences: Item Level Targeting](/docs/endpointpolicymanager/knowledgebase/archive/itemleveltartgeting.md)
+:::note
+See [Group Policy Preferences: Item Level Targeting](/docs/endpointpolicymanager/knowledgebase/archive/itemleveltartgeting.md)
 for a video of Group Policy Preferences and Item-Level targeting
+:::
+
 
 If you followed the Quickstart guide in the previous section, then you deployed a Group Policy
 Preferences shortcut item to the desktop for every user. With Netwrix Endpoint Policy Manager

@@ -21,11 +21,14 @@ And also in SecureRun™ rules:
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_1.webp)
 
-**NOTE:** The Policy Scope option for Processes is only available when used on the Computer side; on
+:::note
+The Policy Scope option for Processes is only available when used on the Computer side; on
 the User side it is greyed out because this setting is only meant to express to the COMPUTER
 (system) how to work with User and User and System Processes. On the User side, the processes are
 always in the context of the User. However, the Scope filter for Users & Groups is available on the
 User side.
+:::
+
 
 ![A screenshot of a computer
 

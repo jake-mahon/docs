@@ -25,7 +25,10 @@ and Admin Approval correctly classifies it as installer and intercepts it as exp
 
 ### WORKAROUND 1: (Recommended)
 
-**NOTE:** Works only for Endpoint Policy Manager Least Privilege Manager versions 24.4 and later
+:::note
+Works only for Endpoint Policy Manager Least Privilege Manager versions 24.4 and later
+:::
+
 
 Using Endpoint Policy Manager Least Privilege Manager, now has a parent process condition to the
 Endpoint Policy Manager Least Privilege Manager explicit policy. Therefore you can instruct Endpoint
@@ -71,9 +74,12 @@ screen shots below.
 
 ![927_2_2_950x130](/img/product_docs/endpointpolicymanager/troubleshooting/scriptstriggers/927_2_2_950x130.webp)
 
-**NOTE:** If you are not licensed for Endpoint Policy Manager Scripts & Triggers you can still use
+:::note
+If you are not licensed for Endpoint Policy Manager Scripts & Triggers you can still use
 Workaround 1 by creating the policies below in Microsoft Group policy using regular computer or user
 side scripts.
+:::
+
 
 Policy 1: PowerShell script scoped to MACHINE that remove all versions of MS Teams that are
 currently installed on endpoint.
@@ -83,8 +89,11 @@ Policy 2: PowerShell script scoped to USER that Installs the latest version of M
 Code Snippet:
 [https://raw.githubusercontent.com/endpointpolicymanager/snippets/master/kb-articles/1306/Script2.ps1](https://raw.githubusercontent.com/endpointpolicymanager/snippets/master/kb-articles/1306/Script2.ps1)
 
-**NOTE:** You will need to update the path to the latest version of MS Teams file for your
+:::note
+You will need to update the path to the latest version of MS Teams file for your
 environment in policy #2, see below.
+:::
+
 
 ![927_3_3_950x296](/img/product_docs/endpointpolicymanager/troubleshooting/scriptstriggers/927_3_3_950x296.webp)
 

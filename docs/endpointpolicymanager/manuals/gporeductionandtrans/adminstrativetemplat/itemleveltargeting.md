@@ -73,5 +73,8 @@ or not you want Item-Level Targeting applied to the following settings:
 If you put Item-Level Targeting on a specific policy setting, you can see the icon's color change to
 orange, and the field **Item Level Targeting** will change to **Yes**.
 
-**NOTE:** Click the **Item-Level Targeting** button within any policy setting to open that policy's
+:::note
+Click the **Item-Level Targeting** button within any policy setting to open that policy's
 Item-Level Targeting editor.
+
+:::

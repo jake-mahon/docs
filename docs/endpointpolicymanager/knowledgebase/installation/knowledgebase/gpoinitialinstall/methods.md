@@ -11,8 +11,11 @@ There are two ways to install the GPMC.
 If you want to use a server as your GPMC editing station, you'll need to get the GPMC installed
 there.
 
-**NOTE:** This is already on your DCs, but Netwrix Endpoint Policy Manager (formerly PolicyPak) does
+:::note
+This is already on your DCs, but Netwrix Endpoint Policy Manager (formerly PolicyPak) does
 not require that you install the admin console MSI into a DC.
+:::
+
 
 On a server, go into Server Manager and select it as a featureto add.
 

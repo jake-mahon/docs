@@ -32,7 +32,10 @@ packages.
 
 **Step 6 –** Complete the remaining steps and apply group policy updates on the target machine.
 
-**NOTE:** The target application path must exist in the client machine.
+:::note
+The target application path must exist in the client machine.
+:::
+
 
 ![808_4_image-20201121192420-4](/img/product_docs/endpointpolicymanager/integration/808_4_image-20201121192420-4.webp)
 

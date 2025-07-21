@@ -14,8 +14,11 @@ If you want a different behavior in a child group than its parent, then change *
 Inheritance** to **Allow Child Override** then specify the event collection scheme you want, using
 the provided fields.
 
-**NOTE:** If a single computer is a member of several groups with conflicting Event Collection
+:::note
+If a single computer is a member of several groups with conflicting Event Collection
 settings, then the following rules apply:
+:::
+
 
 - Event Submission Interval will be minimal of all group(s), meaning the lowest number in Event
   submission interval between all groups wins.

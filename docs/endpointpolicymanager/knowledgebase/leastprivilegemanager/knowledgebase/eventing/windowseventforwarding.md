@@ -8,8 +8,11 @@ sidebar_position: 10
 
 #### Enable the Windows Remote Management (WinRM) Service on the Endpoints.
 
-**NOTE:** Since we need this service running on all the endpoints from where we plan to have forward
+:::note
+Since we need this service running on all the endpoints from where we plan to have forward
 events, it is recommended to use Group Policy to enable this setting.
+:::
+
 
 **Step 1 –** To enable this service using Group Policy, first create and link a GPO to the domain or
 OU where the computers (endpoints) live, give this a GPO a descriptive name, (i.e. Event Log
@@ -106,9 +109,12 @@ box next to it. Click**Ok**.
 
 ![381_24_image-20191023214431-13](/img/product_docs/endpointpolicymanager/leastprivilege/381_24_image-20191023214431-13.webp)
 
-**NOTE:** If you don't have the CSE installed, select the **XML** tab, then check the **Edit query
+:::note
+If you don't have the CSE installed, select the **XML** tab, then check the **Edit query
 manually** check box at the bottom before pasting in the query below, and clicking **Ok**. You will
 not be able to use the Filter tab after editing the XML query manually.
+:::
+
 
 ```
 <QueryList>    <Query Id="0" Path="PolicyPak">    <Select Path="PolicyPak">*[System[Provider[@Name='PolicyPak Least Privilege Manager Client - Operational']]]</Select>    </Query>    </QueryList>
@@ -116,7 +122,10 @@ not be able to use the Filter tab after editing the XML query manually.
 
 ![381_26_image-20191023214431-14](/img/product_docs/endpointpolicymanager/leastprivilege/381_26_image-20191023214431-14.webp)
 
-**NOTE:** Once you click **Ok** the text will be formatted correctly and aligned on the left.
+:::note
+Once you click **Ok** the text will be formatted correctly and aligned on the left.
+:::
+
 
 **Step 9 –** Run gpupdate /force on a test computer and wait until the 60 seconds or 15-minute
 interval has passed before clicking refresh in the Subscriptions Window or Forwarded Events log. If

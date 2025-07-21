@@ -44,4 +44,6 @@ get logs from multiple machines showing the issue so we can do some deeper inves
 
 [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/fastsupport.md)
 
-_Remember,_ We need AT LEAST two machines of logs to check in this case.
+:::tip
+Remember, We need AT LEAST two machines of logs to check in this case.
+:::

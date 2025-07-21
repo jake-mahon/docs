@@ -28,8 +28,11 @@ Over thirteen types of security settings can be managed with Netwrix Endpoint Po
 - Network Access Protection
 - Applocker (Application Control Policies)
 
-**NOTE:** The following items are NOT supported by Endpoint Policy Manager Security Settings
+:::note
+The following items are NOT supported by Endpoint Policy Manager Security Settings
 Manager:
+:::
+
 
 - IP Security
 - Wired Network (IEEE 802.3) Policies

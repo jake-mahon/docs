@@ -41,7 +41,10 @@ Properties"
 **Step 7 –** Select the Remote tab, and select the checkbox "Allow Remote Assistance connections to
 this computer" and then click the OK button.
 
-**NOTE:** Make sure that the selection is underlined as shown in the screenshot.
+:::note
+Make sure that the selection is underlined as shown in the screenshot.
+:::
+
 
 ![686_11_image-20200330200932-6](/img/product_docs/endpointpolicymanager/applicationsettings/686_11_image-20200330200932-6.webp)
 

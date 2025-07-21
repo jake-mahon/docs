@@ -57,10 +57,16 @@ To do so, use the following syntax: `\\Server\Share\FF.cer,1,C;C;C,add`. Note th
 authority is omitted in this correct syntax. For more information on this advanced syntax, see the
 following
 
-**NOTE:**
-[http://www.endpointpolicymanager.com/knowledge-base/preconfigured-paks/firefox-how-can-i-deliver-certificates-to-certificate-authority-store-and-select-websites-mail-users-and-software-makers.html](http://www.endpointpolicymanager.com/knowledge-base/preconfigured-paks/firefox-how-can-i-deliver-certificates-to-certificate-authority-store-and-select-websites-mail-users-and-software-makers.html).
+:::note
 
-**NOTE:** In order to decrease network load, you may want to specify the number of days explicitly.
+[http://www.endpointpolicymanager.com/knowledge-base/preconfigured-paks/firefox-how-can-i-deliver-certificates-to-certificate-authority-store-and-select-websites-mail-users-and-software-makers.html](http://www.endpointpolicymanager.com/knowledge-base/preconfigured-paks/firefox-how-can-i-deliver-certificates-to-certificate-authority-store-and-select-websites-mail-users-and-software-makers.html).
+:::
+
+
+:::note
+In order to decrease network load, you may want to specify the number of days explicitly.
+:::
+
 
 To delete a certificate, you must know its SHA 1 fingerprint. You do not need to specify where the
 certificate is currently stored; if the fingerprint matches a certificate in any store, it is

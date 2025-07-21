@@ -82,8 +82,11 @@ indicates that the data contained in those sections is not supported. An example
 Figure 23 where a test was made with Software Installation (on the Computer side) and Folder
 Redirection (on the User side). You can see the resulting error that occurred.
 
-**NOTE:** If a test contains supported and unsupported data, the supported data will work and the
+:::note
+If a test contains supported and unsupported data, the supported data will work and the
 unsupported data is will be ignored during testing.
+:::
+
 
 ![gpcr_concepts_and_quickstart_24](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_24.webp)
 

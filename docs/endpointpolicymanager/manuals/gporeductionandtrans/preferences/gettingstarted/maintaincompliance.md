@@ -25,5 +25,8 @@ system. Therefore, you can also try logging out and logging on again as a differ
 see the same result: the Group Policy Preference shortcut item appears on the desktop for every
 user.
 
-**NOTE:** You can filter which users will see this shortcut item via Item-Level Targeting or via
+:::note
+You can filter which users will see this shortcut item via Item-Level Targeting or via
 Targeting within the MSI itself.
+
+:::

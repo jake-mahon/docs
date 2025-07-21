@@ -7,7 +7,9 @@ sidebar_position: 170
 # Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter
 
 Use Microsoft Group Policy Preferences without using Group Policy. You can use SCCM, Windows Intune,
-KACE, or your own systems management software, and get your machines GPPreferecnes items
+KACE, or your own systems management software, and get your machines GPPreferecnes items.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4pGiDJx1ix0?si=jEBlnZG0A2Hd5ooJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### PolicyPak Preferences with PolicyPak Exporter
 

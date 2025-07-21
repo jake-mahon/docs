@@ -21,9 +21,12 @@ through SecureRun.
 
 ![703_2_image-20210206004430-2](/img/product_docs/endpointpolicymanager/leastprivilege/703_2_image-20210206004430-2.webp)
 
-**NOTE:** This policy (SYNAPTICS-Allow-AND-log.xml ) is provided in the
+:::note
+This policy (SYNAPTICS-Allow-AND-log.xml ) is provided in the
 [https://portal.endpointpolicymanager.com/downloads/guidance](https://portal.endpointpolicymanager.com/downloads/guidance)
 download, and can be found in the extracted contents under the PolicyPak Least Privilege Manager
 XMLs folder.
+:::
+
 
 ![703_3_image-20210206004430-3](/img/product_docs/endpointpolicymanager/leastprivilege/703_3_image-20210206004430-3.webp)

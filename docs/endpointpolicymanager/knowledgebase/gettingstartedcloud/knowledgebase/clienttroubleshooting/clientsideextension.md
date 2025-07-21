@@ -27,7 +27,10 @@ Review cached CSE installation file
 **Step 2 –** Compare size of file "Endpoint Policy Manager ClientSide Extension, xx.xx.xxxx.msi" to
 the same file on other computers
 
-**NOTE:** The Install`*.log` file will only be approximately 6 KB instead of Usual 900+ KB
+:::note
+The Install`*.log` file will only be approximately 6 KB instead of Usual 900+ KB
+:::
+
 
 - There will sometimes be multiple logs files for each attempt
 
@@ -73,4 +76,7 @@ and copy out the "Endpoint Policy Manager Client Side Extension x??.msi"
 
 **Step 4 –** Run the new MSI to install the CSE
 
-**NOTE:** Can be run from anywhere, does not have to be in the cached install folder above
+:::note
+Can be run from anywhere, does not have to be in the cached install folder above
+
+:::

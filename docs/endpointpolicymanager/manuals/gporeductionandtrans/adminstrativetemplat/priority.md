@@ -30,7 +30,10 @@ Admin Templates Manager enables you to specify the order policy settings are del
 
 Policy settings within a GPO are processed in order from lowest to highest.
 
-**NOTE:** This is the same way Group Policy Preferences performs ordering as well.
+:::note
+This is the same way Group Policy Preferences performs ordering as well.
+:::
+
 
 ![about_policypak_admin_templates_19](/img/product_docs/endpointpolicymanager/adminstrativetemplates/about_endpointpolicymanager_admin_templates_19.webp)
 

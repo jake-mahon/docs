@@ -5,15 +5,12 @@ sidebar_position: 60
 ---
 # Endpoint Policy Manager for Microsoft Office 2013 and 2016
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b7MBQBnRn-c" title="Endpoint Policy Manager: Manage Office 2013 using Group Policy, SCCM or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 Is there a more widely used application suite in the business world than Microsoft Office?
 
 This means you need to manage and enforce the configuration settings for these applications because
 if everyone in your organization is using them, that's a lot of potential helpdesk calls if
 Microsoft Office applications don't operate as expected when users meddle in the application's
 configuration settings.
-
 That's where Netwrix Endpoint Policy Manager (formerly PolicyPak) comes in. We enforce the optimum
 setting values that you, the administrator, want them to have. Endpoint Policy Manager sets and
 remediates your users' applications' settings, so that they get the same experience, every time they
@@ -21,6 +18,8 @@ launch it, especially for ubiquitous application such as this.
 
 Keep your Microsoft Office 2013 and 2016 configuration settings delivered, enforced and
 automatically remediated with Endpoint Policy Manager. Check out this video to see how it's done:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b7MBQBnRn-c" title="Endpoint Policy Manager: Manage Office 2013 using Group Policy, SCCM or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Let's start with Excel 2013 or 2016. Our PolicyPak software snaps-in to the Group Policy Editor and
 gives you the same user interface as Microsoft Excel 2013 and 2016 itself. A spreadsheet is all

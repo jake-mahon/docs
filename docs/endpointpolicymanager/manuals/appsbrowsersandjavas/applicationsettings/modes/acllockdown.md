@@ -6,8 +6,11 @@ sidebar_position: 50
 
 # ACL Lockdown™ Mode
 
-**NOTE:** For a demonstration of the ACL Lockdown™ Mode feature, please see this video:
+:::note
+For a demonstration of the ACL Lockdown™ Mode feature, please see this video:
 [ACL Lockdown for Registry Based Applications](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/acllockdown.md).
+:::
+
 
 ACL Lockdown mode can be seen when you right-click a setting within an AppSet (see Figure 34).
 

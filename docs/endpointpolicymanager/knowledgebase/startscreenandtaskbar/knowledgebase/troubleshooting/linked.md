@@ -44,7 +44,10 @@ The name of this group is changeable using Endpoint Policy Manager TaskBar manag
 
 ## Second Workaround
 
-**NOTE:** Use this workaround if you no longer use the Starts Screen and Taskbar Manager policies.
+:::note
+Use this workaround if you no longer use the Starts Screen and Taskbar Manager policies.
+:::
+
 
 **Step 1 –** Disable the Taskbar Manager collection policies.
 

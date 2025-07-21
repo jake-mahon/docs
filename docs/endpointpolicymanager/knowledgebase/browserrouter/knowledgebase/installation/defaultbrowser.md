@@ -34,11 +34,14 @@ default browser .. like what is seen here…
 Afterward, they should see the OS default web browser change accordingly and be maintained correctly
 at the next login.
 
-**NOTE:** When not using Legacy Browser Router mode and you remove the computer from the scope of
+:::note
+When not using Legacy Browser Router mode and you remove the computer from the scope of
 any Endpoint Policy Manager Browser Router rules or unlicenseEndpoint Policy Manager Browser Router
 after having a Endpoint Policy Manager Browser Router policy in place the default behavior is to
 revert the default browser to the value present beforeEndpoint Policy Manager Browser Router was
 enabled/licensed.
+:::
+
 
 What if:
 
@@ -71,9 +74,12 @@ You have to delete this file first…as a one time action using GPPPrefs if
   use it ALONGSIDEEndpoint Policy Manager File Associations Manager, so it is NOT
   recommended): [https://docs.microsoft.com/en-us/internet-explorer/ie11-deploy-guide/set-the-default-browser-using-group-policy](https://docs.microsoft.com/en-us/internet-explorer/ie11-deploy-guide/set-the-default-browser-using-group-policy)
 
-_Remember,_ The two methods above PERMANENTLY AFFIX it to IE, and don't make it changeable.
+:::tip
+Remember, The two methods above PERMANENTLY AFFIX it to IE, and don't make it changeable.
 (Technically, the user CAN change it, but then it's ‘snapped back' every time the user logs off and
 on.)
+:::
+
 
 -ANOTHER OPTION- … INSTEAD of forcing a particular browser, you can SET ONE BROWSER as the DEFAULT,
 then let the user CHANGE
@@ -93,11 +99,14 @@ And then it was later changeable by the user.
 
 ![141_6_img-05](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/install/141_6_img-05.webp)
 
-**NOTE:** If you uninstall the Endpoint Policy Manager Client Side Extensions on a machine where
+:::note
+If you uninstall the Endpoint Policy Manager Client Side Extensions on a machine where
 Endpoint Policy Manager Browser Router was set as the default browser then Microsoft Edge will
 become the default browser immediately after the Endpoint Policy Manager Client Side Extensions are
 uninstalled. You will see the notification below on your screen and if you check the default apps
 you will see that Edge has become the default browser.
+:::
+
 
 ![141_7_image](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/install/141_7_image.webp)
 

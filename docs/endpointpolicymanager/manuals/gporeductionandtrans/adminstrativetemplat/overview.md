@@ -6,9 +6,12 @@ sidebar_position: 10
 
 # Administrative Templates Manager
 
-**NOTE:** Before reading this section, please see the
+:::note
+Before reading this section, please see the
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md) topic  for more
 information on the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -22,9 +25,12 @@ information.
 Endpoint Policy Manager Admin Templates Manager enables administrators to harness the existing power
 of Microsoft's 3000+ Admin Template settings and a lot more.
 
-**NOTE:** See the
+:::note
+See the
 [Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmanager/collections.md)
 topic for more in formation on Endpoint Policy Manager Admin Templates Manager.
+:::
+
 
 ![about_policypak_admin_templates](/img/product_docs/endpointpolicymanager/adminstrativetemplates/about_endpointpolicymanager_admin_templates.webp)
 
@@ -63,8 +69,11 @@ The basic way to use Endpoint Policy Manager Admin Templates Manager is as follo
 Endpoint Policy Manager Admin Templates Manager lets admins use Group Policy to deliver settings and
 also lets you use a mechanism other than Group Policy to get policies delivered.
 
-**NOTE:** Additionally, using the Endpoint Policy Manager Cloud service, can even deliver Group
+:::note
+Additionally, using the Endpoint Policy Manager Cloud service, can even deliver Group
 Policy settings to non-domain-joined machines over the Internet.
+:::
+
 
 ## Components
 

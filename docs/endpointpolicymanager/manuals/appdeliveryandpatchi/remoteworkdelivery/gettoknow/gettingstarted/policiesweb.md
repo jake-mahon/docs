@@ -8,9 +8,12 @@ sidebar_position: 20
 
 Web policies enable you to copy a file from an HTTP source, like Dropbox or Amazon S3.
 
-**NOTE:** For a video overview of using Endpoint Policy Manager Remote Work Delivery Manager to
+:::note
+For a video overview of using Endpoint Policy Manager Remote Work Delivery Manager to
 install software using web-based shares, see
 [Install software using web-based shares](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/gettingstarted/webbasedshares.md).
+:::
+
 
 Web policies provide a specialized functionality that leverages Microsoft Background Intelligent
 Transfer Service (BITS) to facilitate the efficient transfer of files in the background. Microsoft
@@ -20,9 +23,12 @@ the BITS protocol works nicely. This is because even if the machines don't downl
 right away, have very slow connections, or are often totally offline, BITS can handle these
 scenarios.
 
-**NOTE:** See
+:::note
+See
 [Background Intelligent Transfer Service](https://learn.microsoft.com/en-us/windows/win32/bits/background-intelligent-transfer-service-portal?redirectedfrom=MSDN)
 for additional information on BITS.
+:::
+
 
 The following is a list of file-based web services that Endpoint Policy Manager has tested for
 compatibility (there may be others):

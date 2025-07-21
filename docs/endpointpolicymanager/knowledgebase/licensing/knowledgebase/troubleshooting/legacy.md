@@ -79,9 +79,12 @@ sidebar_position: 60
 
 ![1231_licenseadmxsetting](/img/product_docs/endpointpolicymanager/troubleshooting/license/1231_licenseadmxsetting.webp)
 
-**NOTE:** This ADMX setting only affects CSE 3421 and later is only a stopgap measure if you
+:::note
+This ADMX setting only affects CSE 3421 and later is only a stopgap measure if you
 literally have no way to transition from Legacy XML to Universal XML, but you do have some way to
 update your CSE.
+:::
+
 
 - Please honor the philosophy of Rings and don't "blast out" an upgrade CSE to all of your computers
   at once so you can control a rollout or a rollback. Use
@@ -94,10 +97,13 @@ update your CSE.
 - Video:
   [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
 
-  **NOTE:**   You cannot import both Legacy and Universal licenses into the same GPO. You need
+  :::note
+    You cannot import both Legacy and Universal licenses into the same GPO. You need
   separate GPOs for both license types. If you try to put both licenses into the same GPO you will
   get the error: "Sorry but you can't install GP and Enterprise licenses into the same GPO, please
   install them to different GPOs or select licenses with the same type."
+  :::
+
 
 ## What will happen if I do nothing?:
 
@@ -108,15 +114,21 @@ update your CSE.
   Policy Manager to stop processing and stop working as if your license file expired on Feb
   28, 2023.
 
-  **NOTE:** Exact behavior when licenses expire can be seen here:
+  :::note
+  Exact behavior when licenses expire can be seen here:
   [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/activedirectorygposccm/components_2.md)
+  :::
+
 
 ## What if I'm applying both Universal and Legacy licenses to an endpoint?
 
 - If a computer receives both Legacy and Universal licenses, then you should be all set, provided
   you are using a CSE (build 2687 and later) on the endpoint.
 
-  **NOTE:** More modern CSEs on the endpoints are preferred.
+  :::note
+  More modern CSEs on the endpoints are preferred.
+  :::
+
 
 ## How can I validate on a few endpoints that I am Valid and won't expire?
 
@@ -143,8 +155,11 @@ In build 3375, you might see something like this when you test `PPUPDATE`.
 
 ![840_5_image-20230126194031-1](/img/product_docs/endpointpolicymanager/troubleshooting/license/840_5_image-20230126194031-1.webp)
 
-_Remember,_ this is a display bug in 3375 which has been removed in the latest CSE version. This
+:::tip
+Remember, this is a display bug in 3375 which has been removed in the latest CSE version. This
 message can safely be ignored.
+:::
+
 
 As long as you can see you ARE getting licensed by the Universal key method (see section above
 entitled “How can I validate on a few endpoints that I am VALID and won’t expire?”) then you are

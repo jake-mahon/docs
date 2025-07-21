@@ -22,10 +22,13 @@ output, then here is the only alternative:
 us a screenshot. This is the number we will charge you for because it assumes all computers in the
 whole domain.
 
-_Remember,_ If you were to use our Netwrix Endpoint Policy Manager (formerly PolicyPak) On-Prem
+:::tip
+Remember, If you were to use our Netwrix Endpoint Policy Manager (formerly PolicyPak) On-Prem
 Licensing tool, you would be able to pick specific OUs and reduce this number. But if you are unable
 to use LT, there is a consequence: we must assume the whole domain and therefore assume all
 computers in it are to be licensed.
+:::
+
 
 We can un-count computers which are Trial , Non-Windows, and Disabled. To provide the count using
 Powershell:Import-Module ActiveDirectory :
@@ -84,6 +87,9 @@ PowerShell commands which gives us the minimum we need to know:
 - Since we don't know the names of the OUs, we are then required to charge you for all of the
   domain, even if you don't plan to use it in all places.
 
-**NOTE:** We still cannot get Number of Terminal Services connections (if any) via the Powershell
+:::note
+We still cannot get Number of Terminal Services connections (if any) via the Powershell
 method. So as per the EULA, you must manually state if you plan to use Endpoint Policy Manager upon
 Terminal Services sessions and add that number to the computer count.
+
+:::

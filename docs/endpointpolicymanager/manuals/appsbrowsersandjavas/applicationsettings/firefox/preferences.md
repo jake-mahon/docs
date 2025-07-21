@@ -88,7 +88,10 @@ show how multiple values are separated by commas.
 
 Figure 40. Copying the value to the Firefox 23.0 textbox.
 
-**CAUTION:** All values are comma separated instead of being one per line.
+:::warning
+All values are comma separated instead of being one per line.
+:::
+
 
 The result once Group Policy applies and Firefox is restarted is that the element is hidden.
 

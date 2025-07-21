@@ -16,8 +16,11 @@ Manager attempts to run a PowerShell script.
 
 ![867_1_image-20210721211958-1](/img/product_docs/endpointpolicymanager/scriptstriggers/867_1_image-20210721211958-1.webp)
 
-**NOTE:** Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the
+:::note
+Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the
 endpoint(s):
+:::
+
 
 - `%programdata%\Policypak\Policypak Scripts Manager`
 - `%localappdata%\Policypak\ Policypak Scripts Manager`
@@ -34,7 +37,10 @@ Processes created by Endpoint Policy Manager Scripts Manager"
 
 ![867_3_image-20210721211958-3](/img/product_docs/endpointpolicymanager/scriptstriggers/867_3_image-20210721211958-3.webp)
 
-**NOTE:** If you have a Software Restriction policy in place that blocks PowerShell.
+:::note
+If you have a Software Restriction policy in place that blocks PowerShell.
+:::
+
 
 Result: Any Endpoint Policy Manager Scripts & Triggers Manager policies will still be able to
 execute PowerShell Scripts successfully, and the Endpoint Policy Manager Logs will show a successful
@@ -42,8 +48,11 @@ run message similar to below when Endpoint Policy Manager runs a PowerShell scri
 
 ![867_4_image-20210721211958-4](/img/product_docs/endpointpolicymanager/scriptstriggers/867_4_image-20210721211958-4.webp)
 
-**NOTE:** Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the
+:::note
+Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the
 endpoint(s):
+:::
+
 
 - `%programdata%\Policypak\Policypak Scripts Manager`
 - `%localappdata%\Policypak\Policypak Scripts Manager`
@@ -59,15 +68,21 @@ messages similar to below.
 
 ![867_6_image-20210721211958-6](/img/product_docs/endpointpolicymanager/scriptstriggers/867_6_image-20210721211958-6.webp)
 
-**NOTE:** Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the
+:::note
+Endpoint Policy Manager Scripts and Triggers Manager logs can be found here on the
 endpoint(s):
+:::
+
 
 - `%programdata%\Policypak\Policypak Scripts Manager`
 - `%localappdata%\Policypak\Policypak Scripts Manager`
 
-**NOTE:** To ensure the SRP policy is applied properly during testing you can try running PowerShell
+:::note
+To ensure the SRP policy is applied properly during testing you can try running PowerShell
 manually from CMD as a standard user under either scenario 2 or 3 and if the SRP is applied properly
 then PowerShell will be blocked.
+:::
+
 
 ![867_7_image-20210721211958-7](/img/product_docs/endpointpolicymanager/scriptstriggers/867_7_image-20210721211958-7.webp)
 

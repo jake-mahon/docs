@@ -11,6 +11,8 @@ now: how are you able to guarantee key application and operating system settings
 you prevent users from messing up their apps? How can you ensure users will not work around your
 important security and operating system settings? Watch this video to find out.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uXFtzbSZdyE?si=4TamfffNC_NolRZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### PolicyPak supplements VMware View Video Transcript
 
 Hi, everybody. This is Jeremy Moskowitz, Microsoft MVP, Enterprise Mobility and Founder of PolicyPak

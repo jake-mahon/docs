@@ -14,4 +14,7 @@ Log into the Cylance console. Select Protection from the menu, then click Script
 Select one or more scripts from the list. Click SAFE. These scripts are added to the Global
 Safelist, and Endpoint Policy Manager Scripts will run PowerShell scripts as expected.
 
-**NOTE:** This note came from Cylance and is not validated by Endpoint Policy Manager.
+:::note
+This note came from Cylance and is not validated by Endpoint Policy Manager.
+
+:::

@@ -20,8 +20,11 @@ To install the Cloud Client quietly using JOINTOKEN with no UI and no restart:
 msiexec /i "C:\Temp\PolicyPak Cloud Client for company name.msi" JOINTOKEN="AXBCDeVXbieqP9WUWQwnYM=" /qn /norestart
 ```
 
-**NOTE:** Replace `JOINTOKEN="AXBCDeVXbieqP9WUWQwnYM="` with the relevant JOINTOKEN string for your
+:::note
+Replace `JOINTOKEN="AXBCDeVXbieqP9WUWQwnYM="` with the relevant JOINTOKEN string for your
 environment. See this video for more information on how to use JOINTOKEN:
+:::
+
 
 [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/jointoken.md)
 

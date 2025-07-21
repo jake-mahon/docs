@@ -18,5 +18,8 @@ The result will look like this:
 
 ![642_2_2](/img/product_docs/endpointpolicymanager/itemleveltargeting/642_2_2.webp)
 
-**NOTE:** For other unusual SKUs and information on how to get the ID, see the Microsoft article on
+:::note
+For other unusual SKUs and information on how to get the ID, see the Microsoft article on
 [OperatingSystemSKU Enum.](https://learn.microsoft.com/en-us/dotnet/api/microsoft.powershell.commands.operatingsystemsku?view=powershellsdk-1.1.0)
+
+:::

@@ -10,8 +10,11 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Feature Manager for Windows
 the Endpoint Policy Manager node. Endpoint Policy Manager Feature Manager for Windows MMC snap-in
 allows you to create new Endpoint Policy Manager Feature Manager collections or policies.
 
-**NOTE:** You will only see the Endpoint Policy Manager Feature Manager for Windows node when the
+:::note
+You will only see the Endpoint Policy Manager Feature Manager for Windows node when the
 latest Admin Console MSI is installed on the management station.
+:::
+
 
 ![getting_to_know_feature_manager](/img/product_docs/endpointpolicymanager/feature/getting_to_know_feature_manager.webp)
 

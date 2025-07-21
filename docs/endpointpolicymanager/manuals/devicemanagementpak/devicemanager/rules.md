@@ -25,8 +25,11 @@ There are three parts to Admin Approval:
 
 Start out by creating an Admin Approval policy, as shown below.
 
-**NOTE:** You can only have one Admin Approval entry per collection and only one will ultimately
+:::note
+You can only have one Admin Approval entry per collection and only one will ultimately
 apply.
+:::
+
 
 ![aa15](/img/product_docs/endpointpolicymanager/device/devicemanager/aa15.webp)
 
@@ -113,8 +116,11 @@ An Approver can set:
 
 The Response code will change based upon the Approver inputs.
 
-**NOTE:** Anytime TimeFrame is set to **Permanent**, it overrides all Uses limits and generates a
+:::note
+Anytime TimeFrame is set to **Permanent**, it overrides all Uses limits and generates a
 warning. For example: Uses set to **Once** and TimeFrame set to **Permanent**.
+:::
+
 
 ![aa8](/img/product_docs/endpointpolicymanager/device/devicemanager/aa8.webp)
 

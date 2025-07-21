@@ -29,6 +29,9 @@ You simply need to have the original Endpoint Policy Manager DLL for your projec
 Policy Manager GPOTouch utility will copy the DLL into the Central Storage (or Local Store) and
 remediate the GPO.
 
-**NOTE:** To see an overview of the Endpoint Policy Manager GPOTouch utility repairing Endpoint
+:::note
+To see an overview of the Endpoint Policy Manager GPOTouch utility repairing Endpoint
 Policy Manager DLL Orphans, please watch this video:
 [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).
+
+:::

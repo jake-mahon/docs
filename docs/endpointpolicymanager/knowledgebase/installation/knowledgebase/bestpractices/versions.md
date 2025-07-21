@@ -32,7 +32,10 @@ b) to show that something new is inside the download.
 When the CSE is installed on a client machine, you can see the version by running the PPupdate tool
 and see the version number:
 
-**NOTE:** At no time will you see a, b, c, etc in the actual CSE (See picture below.)
+:::note
+At no time will you see a, b, c, etc in the actual CSE (See picture below.)
+:::
+
 
 You'll only see the CSE ID which should match the build number.
 

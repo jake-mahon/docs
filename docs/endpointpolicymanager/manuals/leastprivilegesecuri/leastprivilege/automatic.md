@@ -13,9 +13,12 @@ Rule Generator Tool, which will help you create rules to elevate applications an
 as necessary. This tool operates on one machine at a time, and it is typically used on one or a few
 representative machines.
 
-**NOTE:** See the
+:::note
+See the
 [Auto Rules Generator Tool (with SecureRun)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/autorulesgeneratortool.md)
 video for a demo of Endpoint Policy Manager Automatic Rules Generator Tool in action.
+:::
+
 
 Following are the basic steps for operating the tool:
 

@@ -17,10 +17,13 @@ look for compiled extensions, so it's best to leave this as it is.
 
 Figure 166. The Compilation tab.
 
-**NOTE:** that only administrators can compile AppSets directly to this location. If you are running
+:::note
+that only administrators can compile AppSets directly to this location. If you are running
 Endpoint Policy Manager DesignStudio as a standard user (non-administrator) you are prompted for an
 alternate (writable) location. After compiling, you can use an administrator account to copy the
 AppSet DLL file to `c:\Program Files\PolicyPak\Extensions` to use it within the Group Policy Editor.
+:::
+
 
 Additionally, you can see the "Preferred C++ Compiler" in the Compilation tab. Endpoint Policy
 Manager Application Settings Manager is actually compatible with two compilers: Microsoft Visual C++

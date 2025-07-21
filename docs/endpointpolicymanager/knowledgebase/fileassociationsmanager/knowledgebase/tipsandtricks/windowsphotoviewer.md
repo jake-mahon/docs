@@ -19,8 +19,11 @@ and save your policy.
 
 **Step 3 –** Once the policy gets to your endpoints, photos will open in Windows Photo Viewer.
 
-**NOTE:** Like other File Associations Manager policies, this does not revert to the Windows default
+:::note
+Like other File Associations Manager policies, this does not revert to the Windows default
 when the policy falls out of scope.
+:::
+
 
 Policy Name: Open Images in Windows Photo Viewer [Recommended.]
 

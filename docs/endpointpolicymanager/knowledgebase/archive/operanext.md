@@ -9,6 +9,8 @@ sidebar_position: 90
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage Opera using Group Policy, SCCM or your
 own systems management utility.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9NivCskbpC0?si=dVaW8978R_qf6PfJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### PolicyPak: Manage Opera Next using Group Policy, SCCM or your own management utility
 
 Hi. This is Jeremy Moskowitz, Microsoft MVP, Enterprise Mobility and Founder of PolicyPak Software.

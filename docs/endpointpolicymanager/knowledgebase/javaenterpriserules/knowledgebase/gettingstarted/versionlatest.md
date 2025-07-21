@@ -24,8 +24,11 @@ case sensitive. This is not a Endpoint Policy Manager requirement but a Java one
 following link for details.
 [https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/ria_development.html](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/ria_development.html)
 
-**NOTE:** If the URLs do not match (case as well) then the PPJRM rule will be ignored and the latest
+:::note
+If the URLs do not match (case as well) then the PPJRM rule will be ignored and the latest
 version of java installed on the endpoint will be used instead.
+:::
+
 
 ![889_3_image-20210721212259-11](/img/product_docs/endpointpolicymanager/troubleshooting/javaenterpriserules/889_3_image-20210721212259-11.webp)
 
@@ -34,9 +37,12 @@ Resolution:
 Ensure that the URL specified in Endpoint Policy Manager JRM and the address URL in Internet
 Explorer both match, then refresh the tab in Internet Explorer.
 
-**NOTE:** If any changes are made to the JRM policy then the policy will need to be refreshed on the
+:::note
+If any changes are made to the JRM policy then the policy will need to be refreshed on the
 endpoint for the update to be received. If needed close and restart Internet Explorer before
 revisiting the page specified in the JRM policy.
+:::
+
 
 Once the URLs in both IE and PPJRM match the policy will function as intended and the site will use
 the required version of java.

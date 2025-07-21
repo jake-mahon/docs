@@ -5,11 +5,11 @@ sidebar_position: 10
 ---
 # Overcome Network Card, Printer, and Remove Programs UAC prompts
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lOmDtVNtgvM" title="Endpoint Policy Manager Least Priv Helper Tools: Overcome Network Card, Printer, and Remove Programs UAC prompts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Very often, users need to be able to manage their own network cards, printers with drivers, and
 remove software which is installed on the machine. With Netwrix Endpoint Policy Manager (formerly
 PolicyPak) Least Priv Manager, you can do all three, super duper easy. Check it out here.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lOmDtVNtgvM" title="Endpoint Policy Manager Least Priv Helper Tools: Overcome Network Card, Printer, and Remove Programs UAC prompts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Overcome Network Card, Printer, and Remove Programs UAC prompts
 

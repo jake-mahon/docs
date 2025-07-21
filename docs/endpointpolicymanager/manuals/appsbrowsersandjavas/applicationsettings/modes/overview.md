@@ -11,11 +11,17 @@ Policy Manager Application Settings Manager. Endpoint Policy Manager Application
 modes are available on a per-attribute basis, which provides for excellent flexibility when deciding
 which elements to configure, enforce, and even disable or hide.
 
-**NOTE:** To see an overview of the Enforcement modes, watch this quick tutorial video:
+:::note
+To see an overview of the Enforcement modes, watch this quick tutorial video:
 [https://www.endpointpolicymanager.com/video/endpointpolicymanager-the-superpowers.html](http://tinyurl.com/screenshotpilot).
+:::
 
-**NOTE:** To see an overview of ACL Lockdown™ mode, watch this tutorial:
+
+:::note
+To see an overview of ACL Lockdown™ mode, watch this tutorial:
 [https://www.endpointpolicymanager.com/video/endpointpolicymanager-acl-lockdown-for-registry-based-applications.html](https://support.microsoft.com/en-us/kb/3087759).
+:::
+
 
 In Figure 22, you can see which modes are available when right-clicking a Endpoint Policy Manager
 Application Settings Manager attribute with settings data inside.
@@ -36,7 +42,10 @@ highlighted the following modes:
 
 Figure 23. The areas of control for an element.
 
-**NOTE:** There is a special AppLock mode that you can apply to the entire tab to disable it. We'll
+:::note
+There is a special AppLock mode that you can apply to the entire tab to disable it. We'll
 discuss this in the "AppLock Modes" section.
+:::
+
 
 We first need to discuss how to set and deliver settings and values.

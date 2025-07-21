@@ -5,12 +5,12 @@ sidebar_position: 30
 ---
 # Force all websites to IE (but have some exceptions)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9nnxysZs1C4" title="PP Browser Router: Force all websites to IE (but have some exceptions)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Using PP Browser router, you can do a magic trick. Have ALL traffic go thru Internet Explorer,
 except a handful of websites (called Exceptions.) Here's how to do it. Two tips: If you cannot find
 the XML, just ask support. And, if you want to route all traffic thru, say, Firefox or Chrome…
 that's possible, but that's a DIFFERENT video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9nnxysZs1C4" title="PP Browser Router: Force all websites to IE (but have some exceptions)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### PolicyPak Browser Router: Force all websites to IE(but have some exceptions)
 

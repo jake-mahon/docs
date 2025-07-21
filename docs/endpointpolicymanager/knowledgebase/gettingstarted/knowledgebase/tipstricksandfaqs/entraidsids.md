@@ -85,8 +85,11 @@ the Azure account.
 
 ![1_13_image-20200129215924-7](/img/product_docs/endpointpolicymanager/itemleveltargeting/1_13_image-20200129215924-7.webp)
 
-**NOTE:** Azure Groups don't have SID translations at all, so you would need to add multiple user
+:::note
+Azure Groups don't have SID translations at all, so you would need to add multiple user
 SIDS if you want multiple people to be able to do the activity.
+:::
+
 
 Other Considerations:
 

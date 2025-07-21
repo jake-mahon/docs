@@ -36,8 +36,11 @@ By establishing to use Legacy File Assoc Method & Features the following occurs:
 
 - Endpoint Policy Manager File Associations Manager policies will ONLY apply on the COMPUTER side.
 
-  **NOTE:** The MMC and/or Cloud editors cannot know you've enabled this setting; and as such
+  :::note
+  The MMC and/or Cloud editors cannot know you've enabled this setting; and as such
   those editors will still work, but the CSE will then ignore the USER side directives.
+  :::
+
 
 - Endpoint Policy Manager File Associations Manager policies can only take effect on DOMAIN JOINED
   machines.

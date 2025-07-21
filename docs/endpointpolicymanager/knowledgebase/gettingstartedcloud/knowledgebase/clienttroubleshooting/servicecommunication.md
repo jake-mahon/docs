@@ -25,9 +25,12 @@ Follow the steps below to troubleshoot the connection issue.
 affected (wait listed) machine and perform a Telnet test to the Endpoint Policy Manager Cloud
 Service.
 
-**NOTE:** If you don't have Telnet on Windows, see this video on
+:::note
+If you don't have Telnet on Windows, see this video on
 [How to Enable Telnet on Windows 10](https://www.youtube.com/watch?v=ghGAfmz4gaA) for additional
 information.
+:::
+
 
 **Step 2 –** At a command prompt, type in the following: `telnet cloud-agent.endpointpolicymanager.com 443`
 

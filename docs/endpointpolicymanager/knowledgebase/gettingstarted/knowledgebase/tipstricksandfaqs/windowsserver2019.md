@@ -47,8 +47,11 @@ can use this registry match:
 
 `hklm:/software/microsoft/windows nt/currentversion/installationtype =  "Server Core"`
 
-**NOTE:** If you prefer to target the CurrentBuild instead of the ReleaseID, you can use the
+:::note
+If you prefer to target the CurrentBuild instead of the ReleaseID, you can use the
 following technique:
+:::
+
 
 **Step 1 –** Locate the CurrentBuildNumber using the registry.
 

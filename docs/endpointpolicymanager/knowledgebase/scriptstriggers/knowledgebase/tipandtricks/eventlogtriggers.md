@@ -6,8 +6,11 @@ sidebar_position: 150
 
 # How to use Scripts Manager Event Log Triggers to Map Network Drives when a VPN is Connected
 
-**_RECOMMENDED:_** Netwrix Endpoint Policy Manager (formerly PolicyPak) version 2791 or higher must
+:::info
+Netwrix Endpoint Policy Manager (formerly PolicyPak) version 2791 or higher must
 be used.
+:::
+
 
 **Step 1 –** Create a new Scripts & Triggers policy on the computer side, choose switched mode like
 in the screenshot below.
@@ -90,7 +93,10 @@ ensure your Trigger settings look similar to mine below, before clicking "Next".
 
 ![848_11_image-20210801230156-11](/img/product_docs/endpointpolicymanager/scriptstriggers/mappeddrives/848_11_image-20210801230156-11.webp)
 
-**NOTE:** You should have two policies now:
+:::note
+You should have two policies now:
+:::
+
 
 ![848_12_image-20210801230156-12](/img/product_docs/endpointpolicymanager/scriptstriggers/mappeddrives/848_12_image-20210801230156-12.webp)
 
@@ -115,5 +121,8 @@ VPN disconnect example using Azure Point-to-Site VPN
 
 ![848_17_image-20210801230156-17](/img/product_docs/endpointpolicymanager/scriptstriggers/mappeddrives/848_17_image-20210801230156-17.webp)
 
-**NOTE:** "On trigger" does not work with Revert action script which is why you need to create a new
+:::note
+"On trigger" does not work with Revert action script which is why you need to create a new
 policy to disconnect the drives.
+
+:::

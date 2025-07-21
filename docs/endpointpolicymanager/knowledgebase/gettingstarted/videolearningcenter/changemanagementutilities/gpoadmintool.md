@@ -6,13 +6,13 @@ sidebar_position: 30
 
 # Endpoint Policy Manager and Quest's GPOADmin Tool
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0_N9h1EKZ3s" title="Endpoint Policy Manager and Quest GPOadmin Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 GPOADmin from Quest is great. It provides full workflow management around Group Policy Objects. And
 Netwrix Endpoint Policy Manager (formerly PolicyPak) is fully compatible with all the GPOADmin
 constructs: check-in, check-out, deploy, differences reports, and more. Check out this video if
 you're a Quest GPOADmin customer to see how Endpoint Policy Manager integrates perfectly with your
 Quest GPOADmin Group Policy management solution.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0_N9h1EKZ3s" title="Endpoint Policy Manager and Quest GPOadmin Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Endpoint Policy Manager works along Quest's GPOADmin Video Transcript
 

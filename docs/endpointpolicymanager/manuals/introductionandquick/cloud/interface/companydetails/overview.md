@@ -72,6 +72,9 @@ Here is how the four modes operate:
 
 The default behavior is strict mode because it is the most secure.
 
-**NOTE:** Even in loose mode, Endpoint Policy Manager Cloud still verifies the client using the x509
+:::note
+Even in loose mode, Endpoint Policy Manager Cloud still verifies the client using the x509
 certificate embedded into the MSI. Therefore, guessing the UUID or MAC address is not enough for an
 unrelated person to join your Endpoint Policy Manager Cloud.
+
+:::

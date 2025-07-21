@@ -49,9 +49,12 @@ application and you have the pXML file handy. These two ways to perform the task
 equivalent. So, in this example, we have Endpoint Policy Manager DesignStudio running on Windows XP
 and capturing all the same items as the original project.
 
-**NOTE:** [Troubleshooting](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/applicationsettings/applicationsettings/overview.md), it was
+:::note
+[Troubleshooting](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/applicationsettings/applicationsettings/overview.md), it was
 suggested that you should capture only three tabs for the first project. When you're merging pXML
 files, capture the same tabs you have in your original project.
+:::
+
 
 In this example, we're assuming that WinZip has two new elements, a slider and a label, as shown in
 Figure 178. We have re-captured all the tabs and saved the file as "`WinZip-XP-Capture.xml`."

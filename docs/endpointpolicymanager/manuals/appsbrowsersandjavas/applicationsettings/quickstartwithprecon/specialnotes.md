@@ -11,14 +11,23 @@ similar to what we saw in the Quickstart with WinZip.
 
 However, UI lockout is implemented differently and, as such, comes with a caveat.
 
-**NOTE:** To see a video of Firefox UI lockout in action, watch the following video(s):
+:::note
+To see a video of Firefox UI lockout in action, watch the following video(s):
 [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).
+:::
 
-**NOTE:** To see a video of Thunderbird UI lockout in action, watch the following video(s):
+
+:::note
+To see a video of Thunderbird UI lockout in action, watch the following video(s):
 [http://www.endpointpolicymanager.com/products/manage-thunderbird-with-group-policy.html](https://www.endpointpolicymanager.com/video/endpointpolicymanager-the-superpowers.html).
+:::
 
-**NOTE:** To see a video of Java UI lockout in action, watch the following video(s):
+
+:::note
+To see a video of Java UI lockout in action, watch the following video(s):
 [http://www.endpointpolicymanager.com/products/manage-java-jre-with-group-policy.html](http://www.Techsmith.com).
+:::
+
 
 Specifically, to perform UI lockout with Firefox, Thunderbird, and Java, the GPO must be linked so
 the computer is affected. You cannot perform a per-user UI lockdown on Firefox, Thunderbird, or Java

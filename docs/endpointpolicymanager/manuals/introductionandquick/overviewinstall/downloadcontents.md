@@ -12,7 +12,10 @@ Once the Endpoint Policy Manager ZIP is downloaded, Extract all and keep things 
 
 The result will be three more ZIP files like what is seen here.
 
-**NOTE:** Your ZIP file name(s) may be somewhat different.
+:::note
+Your ZIP file name(s) may be somewhat different.
+:::
+
 
 ![downloadcontents2](/img/product_docs/endpointpolicymanager/gettingstarted/quickstart/downloadcontents2.webp)
 

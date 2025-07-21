@@ -6,8 +6,11 @@ sidebar_position: 20
 
 # Browser Router
 
-**NOTE:** Before reading this section, please ensure you have read
+:::note
+Before reading this section, please ensure you have read
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which explain how to:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -20,8 +23,11 @@ Manager (formerly PolicyPak) Cloud), located
 in[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md). This information on
 how to deploy your directives.
 
-**NOTE:** Watch this video for an overview of Endpoint Policy Manager Browser Router:
+:::note
+Watch this video for an overview of Endpoint Policy Manager Browser Router:
 [](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-ensure-users-utilize-the-right-browser-for-the-right-website.html)[Ensure users utilize the RIGHT browser for the right website !](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/rightbrowser.md).
+:::
+
 
 Let's say you wanted to apply the following routing policies:
 
@@ -72,12 +78,18 @@ Microsoft Endpoint Manager (SCCM and/or Intune)
 The client machine with the Endpoint Policy Manager client-side extension (CSE) embraces the
 directives and performs the work.
 
-**NOTE:** If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
+:::note
+If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
 settings over the Internet, even to non-domain-joined machines.
+:::
 
-**NOTE:** You can also use Endpoint Policy Manager Browser Router with your Citrix or RDS servers.
+
+:::note
+You can also use Endpoint Policy Manager Browser Router with your Citrix or RDS servers.
 See the following video for more information:
 [Using PP Browser Router on Citrix or RDS servers with published browser applications](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/citrixvirtualapps/citrix.md).
+:::
+
 
 ## Endpoint Policy Manager Browser Router Moving Parts
 

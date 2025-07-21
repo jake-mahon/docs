@@ -75,7 +75,10 @@ ticket number (e.g. `SRX0000????-gpcr.zip`)
 - For Endpoint: `%ProgramData%\PolicyPak\PolicyPak` Group Policy Compliance Reporter Auditor
   `Endpoint\Diagnostics`
 
-  **NOTE:** If also gathering Server and/or Client logs, add this log to the `SRX*-gpcr.zip` file
+  :::note
+  If also gathering Server and/or Client logs, add this log to the `SRX*-gpcr.zip` file
   created in the previous section
+  :::
+
 
 **Step 6 –** Upload to ShareFile link provided by your support rep.

@@ -26,5 +26,8 @@ Should look like this:
 
 ![949_3_image-20230719020305-3_950x638](/img/product_docs/endpointpolicymanager/leastprivilege/949_3_image-20230719020305-3_950x638.webp)
 
-**NOTE:** Keep in mind you are elevating the Application (Notepad in this case), not the file
+:::note
+Keep in mind you are elevating the Application (Notepad in this case), not the file
 itself.
+
+:::

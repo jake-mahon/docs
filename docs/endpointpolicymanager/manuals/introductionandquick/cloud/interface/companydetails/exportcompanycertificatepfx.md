@@ -11,5 +11,8 @@ typically embedded within the Endpoint Policy Manager Cloud client MSI to be exp
 there is no need to export the company certificate. However, exporting enables some advanced Cloud
 client installation scenarios if specified and directed by Endpoint Policy Manager Support.
 
-**NOTE:** If you perform the **Revoke Company Certificate** action, any previously downloaded
+:::note
+If you perform the **Revoke Company Certificate** action, any previously downloaded
 company certificate becomes invalid.
+
+:::

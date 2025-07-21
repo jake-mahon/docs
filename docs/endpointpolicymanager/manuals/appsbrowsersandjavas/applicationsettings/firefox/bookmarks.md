@@ -55,4 +55,7 @@ would DELETE an entry named Microsoft within a folder named Folder789 inside the
 Note that all bookmark items are merged with what is already on the system; if you have anything in
 Group Policy that conflicts, then the Group Policy setting will win.
 
-**NOTE:** You must specify precisely the name and folder where items will be DELETED.
+:::note
+You must specify precisely the name and folder where items will be DELETED.
+
+:::

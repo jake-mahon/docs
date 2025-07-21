@@ -6,10 +6,13 @@ sidebar_position: 60
 
 # When to Use "Apply to Child Processes"
 
-**NOTE:** See the
+:::note
+See the
 [Security and Child Processes](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/securitychildprocesses.md)
 video for an overview of using Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager
 and Child Processes rules.
+:::
+
 
 ![A screenshot of a computer
 

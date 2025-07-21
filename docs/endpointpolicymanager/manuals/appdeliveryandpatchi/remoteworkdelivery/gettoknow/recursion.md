@@ -8,10 +8,13 @@ sidebar_position: 30
 
 The final standard policy type is Copy multiple files based on criteria (Recursive and Advanced).
 
-**NOTE:** See
+:::note
+See
 [Mass copy folders and files (with filters and recursion)](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/gettingstarted/masscopy.md)
 a video overview of Endpoint Policy Manager Remote Work Delivery Manager with Advanced and Recursive
 options.
+:::
+
 
 ![getting_to_know_policypak_25](/img/product_docs/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_25.webp)
 
@@ -42,8 +45,11 @@ are going to be copied. You can see an example of this below.
 
 ![getting_to_know_policypak_28](/img/product_docs/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_28.webp)
 
-**NOTE:** There are other Wildcards available beyond \*\*. See the section on Wildcards and
+:::note
+There are other Wildcards available beyond \*\*. See the section on Wildcards and
 Variables later in the manual.
+:::
+
 
 The other unique screen in this wizard is the one that provides the ability to specify the file
 size, creation date and time, and modified date and time. When you change these settings, it reduces

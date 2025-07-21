@@ -39,7 +39,10 @@ Then created a REPLACE PP TBM policy with the following settings:
 
 ![719_9_image-20201007144149-1_619x269](/img/product_docs/endpointpolicymanager/startscreentaskbar/719_9_image-20201007144149-1_619x269.webp)
 
-**NOTE:** When creating a REPLACE policy you are shown the warning screen below:
+:::note
+When creating a REPLACE policy you are shown the warning screen below:
+:::
+
 
 ![719_10_image-20200212183953-6_756x226](/img/product_docs/endpointpolicymanager/startscreentaskbar/719_10_image-20200212183953-6_756x226.webp)
 
@@ -83,5 +86,8 @@ pinned.
 
 ![719_26_image-20200212183953-14_468x38](/img/product_docs/endpointpolicymanager/startscreentaskbar/719_26_image-20200212183953-14_468x38.webp)
 
-**NOTE:** After running gpupdate to apply policy you must logout then back in to receive the new PP
+:::note
+After running gpupdate to apply policy you must logout then back in to receive the new PP
 TBM policy settings.
+
+:::

@@ -17,8 +17,11 @@ This document is a QuickStart Guide for Endpoint Policy Manager Cloud and our fu
 Endpoint Policy Manager Cloud. It will help you understand Endpoint Policy Manager Cloud and how the
 Endpoint Policy Manager components work with it.
 
-**NOTE:** For more details on any of the Endpoint Policy Manager components themselves, see the
+:::note
+For more details on any of the Endpoint Policy Manager components themselves, see the
 related manual for that component.
+:::
+
 
 Getting started with Endpoint Policy Manager Cloud requires you to talk with Endpoint Policy Manager
 Sales. Endpoint Policy Manager Sales will set up your Endpoint Policy Manager Cloud trial account,

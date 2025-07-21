@@ -40,8 +40,11 @@ Arguments:
 
 ![1320_7_ee314a383e4b4e2d6f0723c6562c2fff](/img/product_docs/endpointpolicymanager/leastprivilege/allow/1320_7_ee314a383e4b4e2d6f0723c6562c2fff.webp)
 
-**NOTE:** For both policies above be sure to set **Ignore arguments** case to **True**, and
+:::note
+For both policies above be sure to set **Ignore arguments** case to **True**, and
 **Comparison mode** to **Strict Equality**.
+:::
+
 
 [Copy](<javascript:void(0);>)
 

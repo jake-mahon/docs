@@ -39,5 +39,8 @@ This means that any subkey within `Pager\Profiles `is automatically substituted 
 whoever uses this application will get the setting properly delivered because the substitution will
 happen automatically.
 
-**NOTE:** You can use the Endpoint Policy Manager DesignStudio "Global Search and Replace" function,
+:::note
+You can use the Endpoint Policy Manager DesignStudio "Global Search and Replace" function,
 which we'll discuss in a later section.
+
+:::

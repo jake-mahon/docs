@@ -18,8 +18,11 @@ An endpoint can become unlicensed due to a variety of reasons. Examples include:
 - You hand-uninstall or use SCCM or similar to un-intsall the Endpoint Policy Manager CSE
 - You remove the computer from a licensed domain
 
-**NOTE:** You may encounter a pop-up like this if you are using pre-CSE 24.4. Note the pop-up is
+:::note
+You may encounter a pop-up like this if you are using pre-CSE 24.4. Note the pop-up is
 opt-in only from 24.4. You won't see any pop up if you're using 24.4 or later.
+:::
+
 
 ![29_1_2202cm3yx](/img/product_docs/endpointpolicymanager/license/unlicense/29_1_2202cm3yx.webp)
 
@@ -27,8 +30,11 @@ See
 [How do I make the Grace Period licensing pop-up go away?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/troubleshooting/graceperiod.md)
 for additional information on Pop-Up behavior.
 
-**NOTE:** The actual behavior may be somewhat different than what is described here. An endpoint can
+:::note
+The actual behavior may be somewhat different than what is described here. An endpoint can
 have its directives removed because of a variety of reasons. Examples include:
+:::
+
 
 - Deleting / unlinking a GPO.
 - Removing an XML file placed with SCCM or by hand.
@@ -51,7 +57,10 @@ component is listed here (current as of January 2018).
 
 ## Application Settings Manager
 
-**NOTE:** Will not honor new Endpoint Policy Manager Application Manager requests.
+:::note
+Will not honor new Endpoint Policy Manager Application Manager requests.
+:::
+
 
 Unlicensed or Policy Reverts
 
@@ -76,8 +85,11 @@ When NTFS / ACL Lockdown is used, the end-user will be free to change these sett
 
 ![29_6_faq-01-04-pp-05](/img/product_docs/endpointpolicymanager/license/unlicense/29_6_faq-01-04-pp-05.webp)
 
-**NOTE:** Some Paks may be set to System Wide Lockdown, like Java and Firefox, as seen above. In
+:::note
+Some Paks may be set to System Wide Lockdown, like Java and Firefox, as seen above. In
 those cases, all users on the system are free to make changes after the GPO no longer applies.
+:::
+
 
 ## Least Privilege Manager
 

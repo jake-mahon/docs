@@ -12,5 +12,8 @@ should have, and then click **Create and Send Welcome Letter**.
 
 ![web_interface_and_controls_88_499x270](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_88_499x270.webp)
 
-**NOTE:** Once there are two admins already set up, additional admins must be agreed upon by the two
+:::note
+Once there are two admins already set up, additional admins must be agreed upon by the two
 admins who have the **Customer Admin Manager** role.
+
+:::

@@ -37,9 +37,12 @@ Policy Exists
 Cloud.log contains actioned items from the endpointpolicymanagerd.log file, processes that ran by the user and
 were either Allowed, Elevated or Blocked by Endpoint Policy Manager policies.
 
-**NOTE:** To get a better understanding of how you policies are working, or not working,
+:::note
+To get a better understanding of how you policies are working, or not working,
 endpointpolicymanagerd.log will tell not only what processes were affected by policies, but also what processes
 weren’t – and maybe should have been.
+:::
+
 
 ![1329_4_30c21b2015b47e5d92143f82a31997eb](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_4_30c21b2015b47e5d92143f82a31997eb.webp)
 
@@ -51,7 +54,10 @@ these logs and present the data in a more readable format.
 Our Event Collector in the cloud can take these events, upload them to your Endpoint Policy Manager
 cloud instance, and allow you to pull reports based on this data.
 
-**NOTE:** This is a paid, extra service that is not enabled by default.
+:::note
+This is a paid, extra service that is not enabled by default.
+:::
+
 
 Event collection is part of the Group configuration. There are two types of groups that your
 endpoints can be a part of: Built-in and Company.
@@ -126,8 +132,11 @@ cloud.log file with the following command:
 
 ![1329_9_e5dddf2ba28a115aa5782c49a21fbac6](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_9_e5dddf2ba28a115aa5782c49a21fbac6.webp)
 
-**NOTE:** This command can be run by a standard user. It does not require elevated or administrative
+:::note
+This command can be run by a standard user. It does not require elevated or administrative
 rights to perform.
+:::
+
 
 ## Reporting on Collected Events
 

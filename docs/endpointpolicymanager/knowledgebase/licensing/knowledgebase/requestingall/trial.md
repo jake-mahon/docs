@@ -16,13 +16,16 @@ with only:
 - Your Intune company name (for Intune method)
 - Or, nothing at all, which works for all methods:Just rename a computer.
 
-**CAUTION:** The details in this article get you started without having to count the number of
+:::warning
+The details in this article get you started without having to count the number of
 computers, which means we cannot get you a formal quote. Only when you count the computers are we
 able to provide you a formal quote. This process is slower and optional, but does mean we can get
 you a formal quote.
 See [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/requestall/licenserequestkey.md)
 for additional information. Then send your License Request Key XML to your sales person to get a
 formal quote generated.
+:::
+
 
 So, here's the rundown of how you can get a trial license quickly.. You need to pick just one:
 
@@ -40,7 +43,10 @@ So, here's the rundown of how you can get a trial license quickly.. You need to 
 
 With Endpoint Policy Manager, you don't even need a license file from us to get started.
 
-**NOTE:** This is the recommended  way to get going quickly with Endpoint Policy Manager.
+:::note
+This is the recommended  way to get going quickly with Endpoint Policy Manager.
+:::
+
 
 Simply rename a computer to have Computer in the name, and that's it. You're done. Here are the two
 methods of how to do that in Windows.

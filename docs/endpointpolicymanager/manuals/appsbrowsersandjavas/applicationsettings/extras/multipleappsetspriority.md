@@ -33,7 +33,10 @@ Figure 55. The order in which the Paks (in this scenario) are delivered.
 
 Paks within a GPO are processed in order from lowest to highest.
 
-**NOTE:** This is the same way the Group Policy Preferences prioritizes items.
+:::note
+This is the same way the Group Policy Preferences prioritizes items.
+:::
+
 
 To change the priority of a particular AppSet, simply right-click on it within the GPO and select
 either "Enable priority mode (press Enter to exit)" or "Set priority," which are both shown in

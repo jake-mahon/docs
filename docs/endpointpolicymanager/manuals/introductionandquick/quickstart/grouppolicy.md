@@ -26,9 +26,12 @@ details and how to do this.
 
 **Step 3 –** Install your license key or rename your example endpoint to have computer in the name
 
-**NOTE:** If you got a license file back from the Netwrix sales team, you can import it to enable
+:::note
+If you got a license file back from the Netwrix sales team, you can import it to enable
 computers in the locations (scope) you requested. Alternatively, you can merely rename an endpoint
 have the word Computer in the name, and the computer will act fully licensed.
+:::
+
 
 Follow the
 [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)

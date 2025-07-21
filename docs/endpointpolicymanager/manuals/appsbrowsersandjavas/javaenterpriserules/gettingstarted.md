@@ -6,16 +6,22 @@ sidebar_position: 20
 
 # Quick Start
 
-**NOTE:** Watch this video for an overview of Java Rules Manager: See
+:::note
+Watch this video for an overview of Java Rules Manager: See
 [Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/knowledgebase/javaenterpriserules/videolearningcenter/methods/cloud.md)
 Netwrix Endpoint Policy Manager (formerly PolicyPak).
+:::
+
 
 Endpoint Policy Manager Java Rules Manager editor is within the Endpoint Policy Manager node.
 Endpoint Policy Manager Java Rules Manager enables you to create a new Endpoint Policy Manager Java
 Rules Manager policy or collection.
 
-**NOTE:** You will only see the Java Rules Manager node when you have the latest Endpoint Policy
+:::note
+You will only see the Java Rules Manager node when you have the latest Endpoint Policy
 Manager Admin Console MSI installed on your management station.
+:::
+
 
 ![quickstart_policypak_java](/img/product_docs/endpointpolicymanager/javaenterpriserules/quickstart_endpointpolicymanager_java.webp)
 
@@ -83,9 +89,12 @@ Here is what each column in the above figure means:
 **Step 7 –** On the endpoint, reboot the computer or run GPupdate so the GPO with the policies that
 affect the computer will apply.
 
-**NOTE:** Logging in as a test user will not work in this case since these Endpoint Policy Manager
+:::note
+Logging in as a test user will not work in this case since these Endpoint Policy Manager
 entries are on the Computer side and are only processed when the computer is updated (at reboot or
 GPupdate).
+:::
+
 
 **Step 8 –** Now try out Endpoint Policy Manager Java Rules Manager by doing the following:
 

@@ -6,9 +6,12 @@ sidebar_position: 40
 
 # Understanding SecureCopy
 
-**NOTE:** See the
+:::note
+See the
 [SecureCopy(TM). Empower users to copy then elevate items](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/securecopy.md)
 for a video overview demonstration.
+:::
+
 
 Endpoint Policy Manager Least Privilege Manager SecureCopy feature lets you create your own store
 for users to take applications and installers which need elevation, and empower users to copy them

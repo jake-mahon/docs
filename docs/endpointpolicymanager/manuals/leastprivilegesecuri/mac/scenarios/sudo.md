@@ -6,11 +6,14 @@ sidebar_position: 40
 
 # SUDO
 
-**NOTE:** See the
+:::note
+See the
 [Endpoint Policy Manager Cloud and SUDO support](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/sudosupport.md)
 video and the
 [Endpoint Policy Manager Cloud Mac + SUDO Using Wildcard Example](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/wildcards.md)
 video for an overview of this section.
+:::
+
 
 The point of SUDO policies is to enable a standard user to perform SUDO commands without needing to
 provide actual admin credentials. In this example the user wants to perform the command

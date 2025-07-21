@@ -16,8 +16,11 @@ recommendations into a consumable format for Endpoint Policy Manager Application
 Below, find a portion of the download of what Endpoint Policy Manager provides as pre-converted STIG
 guidance.
 
-**NOTE:** That note all STIG guidance is convertible into Endpoint Policy Manager Application
+:::note
+That note all STIG guidance is convertible into Endpoint Policy Manager Application
 Manager format, so we only convert the ones that make sense.
+:::
+
 
 ![539_1_image-20200219201318-1_950x682](/img/product_docs/endpointpolicymanager/tips/539_1_image-20200219201318-1_950x682.webp)
 
@@ -69,9 +72,12 @@ existing GPOs.
 **Step 3 –** Use Endpoint Policy Manager Group Policy Compliance Reporter (Paid version) to report
 if endpoints got the contents of the CIS Benchmarks you expect.
 
-**NOTE:** View
+:::note
+View
 [https://www.endpointpolicymanager.com/products/compliance-reporter.html](https://www.endpointpolicymanager.com/products/compliance-reporter.html)
 to get the general feel for how you would do this.
+:::
+
 
 ### Endpoint Policy Manager + CIS Benchmarks Item #2: Use Endpoint Policy Manager Group Policy Compliance Reporter (Free Version) to report on CIS Benchmark GPO settings (for converted ADMX settings.)
 

@@ -29,8 +29,11 @@ attempting to PERFORM a sync.
 See below for two sections: one for Endpoint Policy Manager Cloud 23.5 client and one for pre-23.5
 client.
 
-**NOTE:** Only when you see the message "...has been proceeded successfully" is an indication of a
+:::note
+Only when you see the message "...has been proceeded successfully" is an indication of a
 truly successful sync and policy update.
+:::
+
 
 ## Checking Background Sync'ing for Endpoint Policy Manager Cloud 23.5 Client
 
@@ -38,8 +41,11 @@ To verify for yourself that that background syncs are occurring, when using the 
 Manager Cloud 23.5 or client, please turn to the APPLICATION or Endpoint Policy Manager logs where
 events will be for Endpoint Policy Manager Cloud.
 
-**NOTE:** Future versions of Endpoint Policy Manager Cloud client are slated to have its own event
+:::note
+Future versions of Endpoint Policy Manager Cloud client are slated to have its own event
 log.
+:::
+
 
 ![887_3_image-20230525200517-2](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_3_image-20230525200517-2.webp)
 
@@ -66,8 +72,11 @@ To look at them in order we have…
 
 ![887_12_image-20230525200517-11_950x267](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_12_image-20230525200517-11_950x267.webp)
 
-**NOTE:** Only when you see the message "...has been proceeded successfully" is an indication of a
+:::note
+Only when you see the message "...has been proceeded successfully" is an indication of a
 truly successful sync and policy update.
+:::
+
 
 ## Checking Background Sync'ing for clients BEFORE Endpoint Policy Manager Cloud 23.5
 

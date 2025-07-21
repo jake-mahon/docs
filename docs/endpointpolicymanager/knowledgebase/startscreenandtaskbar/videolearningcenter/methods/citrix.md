@@ -10,6 +10,8 @@ Menus and Taskbars? Good luck… if you don't have Netwrix Endpoint Policy Manag
 PolicyPak) Start Screen and Taskbar manager. Here's the video to show you how to manage XenApp and
 XenDesktop icons on the Start Menu and Taskbar.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YH7qWV_o9Ik?si=fYgnVCLycfs2_OGP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### PP Start Screen and Taskbar manager with Citrix XenApp and XenDesktop
 
 Hi. This is Jeremy Moskowitz, former Group Policy MVP and Founder of Endpoint Policy Manager

@@ -5,7 +5,10 @@ start to get Universal Licenses. These can be used on CSEs born from year 2021 a
 you likely also already have older CSEs (pre-2021) which also need to be licensed. This video
 explains how to perform initial licensing and upgrades.
 
-**NOTE:** Please download and install the latest Admin-Console MSI on your admin station before
+:::note
+Please download and install the latest Admin-Console MSI on your admin station before
 continuing (or else the license will not be able to be imported.)
+:::
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qUp9pP7EVy8" title="Endpoint Policy Manager: Universal and Original Licensing Installation and Upgrades for Existing Customers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

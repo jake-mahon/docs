@@ -18,7 +18,10 @@ Figure 77. Adding elements from the toolbar.
 Drag the element where you want to place it. Note that this does not configure the element (we will
 talk about how to configure the element later).
 
-**CAUTION:** Elements that are manually added are not eligible for Endpoint Policy Manager
+:::warning
+Elements that are manually added are not eligible for Endpoint Policy Manager
 AppLock™. That is, if these elements were not captured by the Capture Wizard, they cannot be locked
 out. Therefore, manually added elements are underlined, demonstrating that they cannot be locked out
 using Endpoint Policy Manager AppLock™.
+
+:::

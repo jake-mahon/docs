@@ -52,5 +52,8 @@ continue.
 
 **Step 7 –** You're done, lastly, test your policy to ensure it runs as expected.
 
-**NOTE:** This policy will create a local scheduled task that will reboot the PC daily at 9 AM even
+:::note
+This policy will create a local scheduled task that will reboot the PC daily at 9 AM even
 if no one is logged into the PC.
+
+:::

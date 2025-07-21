@@ -11,13 +11,16 @@ enables administrators to truly lock down their applications so users cannot wor
 configured settings. For example, in an earlier example we were able to hide all the settings in the
 Cameras tab for WinZip.
 
-**NOTE:** Endpoint Policy Manager Application Settings Manager AppLock™ modes are only available
+:::note
+Endpoint Policy Manager Application Settings Manager AppLock™ modes are only available
 when you utilize Endpoint Policy Manager DesignStudio Capture Wizard to capture an existing user
 interface from an application. If you use Endpoint Policy Manager DesignStudio and design your own
 interface from scratch, Endpoint Policy Manager DesignStudio won't capture the original
 user-interface (UI); therefore, it has no ability to lock it down. Note that not every UI is
 capturable, and not every capturable UI is able to be locked down. See Appendix B: Endpoint Policy
 Manager Application Settings Manager DesignStudio Guide for more information.
+:::
+
 
 There are three Endpoint Policy Manager Application Settings Manager AppLock™ modes.
 

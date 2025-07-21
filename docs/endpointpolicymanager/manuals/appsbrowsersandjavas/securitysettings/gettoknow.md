@@ -17,5 +17,8 @@ computer-side security settings as an XML file. This XML file can be used with E
 Manager Exporter (with Microsoft Endpoint Manager [SCCM and Intune], KACE, etc.) or uploaded to
 Endpoint Policy Manager Cloud.
 
-**NOTE:** Additionally, if you use the PolicyPak Cloud service, you can even deliver these Group
+:::note
+Additionally, if you use the PolicyPak Cloud service, you can even deliver these Group
 Policy security settings to non-domain-joined machines over the Internet.
+
+:::

@@ -57,8 +57,11 @@ Figure 11. The Start Screen Tile Group Editor is used to edit the Windows 10 Sta
 
 The Group Editor enables you to create or update a Windows 10 Start Menu Group.
 
-**NOTE:** The Group Editor only applies to groups you make using Endpoint Policy Manager, and
+:::note
+The Group Editor only applies to groups you make using Endpoint Policy Manager, and
 doesn't effect Windows 10 built-in, pre-made groups.
+:::
+
 
 The fields inside the Group Editor are as follows:
 

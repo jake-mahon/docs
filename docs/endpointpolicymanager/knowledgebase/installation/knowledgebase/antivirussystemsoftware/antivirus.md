@@ -49,7 +49,10 @@ For 64-bit machines:
 - `C:\Program Files\PolicyPak\Device Manager\Client\*\PPDMClient.dll` (\* should be replaced with
   your installed CSE version, i.e. 21.10.2943)
 
-**CAUTION:** The above location paths must be matched to your installed CSE version.
+:::warning
+The above location paths must be matched to your installed CSE version.
+:::
+
 
 To cover all the bases please also exclude PPWatchersvc64.exe and PPWatchersvc32.exe from the
 Exploit Mitigation feature.

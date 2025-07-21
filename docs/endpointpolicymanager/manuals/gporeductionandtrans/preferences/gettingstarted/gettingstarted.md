@@ -14,14 +14,20 @@ introduce the following:
 - Keeping Microsoft Group Policy Preferences settings compliant even when the computer goes offline
   (regardless of how they are deployed).
 
-**NOTE:** See Appendix E:
+:::note
+See Appendix E:
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md) and User Guide for
 additoinal information on Endpoint Policy Manager Preferences Manager in use with Endpoint Policy
 Manager Cloud
+:::
 
-**NOTE:** To perform these demonstrations, Microsoft Group Policy Preference items must be
+
+:::note
+To perform these demonstrations, Microsoft Group Policy Preference items must be
 available. You can use some of our preconfigured items from the Endpoint Policy Manager Portal, or
 you can create your own using the Group Policy Preferences Editor.
+:::
+
 
 ## Option 1 - Downloading Microsoft Group Policy Preference Example Items
 
@@ -66,8 +72,11 @@ Another way to do this is to right-click either the Endpoint Policy Manager or E
 Manager Preferences Manager node, as seen below, and use the Group Policy Preference Export wizard,
 which will export the Group Policy Preference items from the GPO.
 
-**NOTE:** The Group Policy Preference Export wizard will only export settings for the User side or
+:::note
+The Group Policy Preference Export wizard will only export settings for the User side or
 Computer side, depending on which side on are on.
+:::
+
 
 ![quickstart_using_policypak_3](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_3.webp)
 

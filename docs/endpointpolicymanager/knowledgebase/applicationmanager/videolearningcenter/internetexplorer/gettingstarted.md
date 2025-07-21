@@ -7,6 +7,8 @@ sidebar_position: 10
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Getting Started Managing Internet Explorer
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BTHJGamghzk?si=8jc--Za5d8T4u84j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager: Getting Started Managing Internet Explorer
 
 Hi. This is Jeremy Moskowitz, former Group Policy MVP and Founder of PolicyPak Software. In this

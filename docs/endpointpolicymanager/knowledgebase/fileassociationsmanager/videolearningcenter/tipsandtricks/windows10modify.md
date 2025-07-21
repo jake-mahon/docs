@@ -5,13 +5,13 @@ sidebar_position: 30
 ---
 # Windows 10 File Associations: Set, Change and Remove Easily
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nUCLWJ3VVNg" title="Endpoint Policy Manager File Associations Manager: Manage User and Computer File Associations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Getting Windows 10 file associations to work can really be a pain. Just mapping a PDF to work with
 Acrobat can be a challenge with Windows 10. Or getting MAILTO to work with outlook. This used to
 work great in Windows 7 with Group Policy, but not anymore. To change Windows 10 File Associations
 you need Netwrix Endpoint Policy Manager (formerly PolicyPak) File Associations Manager, which can
 be seen in this demo.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nUCLWJ3VVNg" title="Endpoint Policy Manager File Associations Manager: Manage User and Computer File Associations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Set, Change and Remove Windows 10 File Associations
 

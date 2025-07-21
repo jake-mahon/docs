@@ -18,6 +18,8 @@ and security settings and ensures they cannot be worked around.
 To see a video of ThinApp assigned packages via VMware Horizon View and Endpoint Policy Manager
 managing them, watch this video.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yEmivwu7YYw?si=nB_Ro39Fo5YWVqHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager and VMware Horizon View with ThinApp Assigned Packages
 
 Hello, everybody, and welcome. This is Jeremy Moskowitz, former Group Policy MVP and Founder of

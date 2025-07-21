@@ -13,9 +13,12 @@ Policy Manager (formerly PolicyPak) Support. Please review
 Then, when you're ready to automatically grab the logs from the machine please use the following
 commands (and see a sample result below.)
 
-**NOTE:** The commands must be run on the machine in question and will not work requesting the
+:::note
+The commands must be run on the machine in question and will not work requesting the
 details remotely. Therefore you can run a command like this from a scripting tool or anything else
 where the command will execute on the machine itself.
+:::
+
 
 `echo y|pplogs /out:"c:\temp\pplogs_"$env:computername"_"$env:username".zip"`
 `echo y|pplogs /out:"c:\temp\pplogs_"$env:computername"_admin.zip"`

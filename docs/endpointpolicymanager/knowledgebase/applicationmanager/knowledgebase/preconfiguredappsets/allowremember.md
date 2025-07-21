@@ -20,8 +20,11 @@ website.com, plugin:java, allow
 
 ![132_2_ff-kb-img-02](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/132_2_ff-kb-img-02.webp)
 
-**NOTE:** You might also need to add these lines as well, if adding the one line above doesn't work.
+:::note
+You might also need to add these lines as well, if adding the one line above doesn't work.
 It depends on the version of Firefox you have installed. Older versions require these lines:
+:::
+
 
 ```
 website.com, plugin-vulnerable:npdeployjava, allow website.com, plugin:npdeployjava, allow

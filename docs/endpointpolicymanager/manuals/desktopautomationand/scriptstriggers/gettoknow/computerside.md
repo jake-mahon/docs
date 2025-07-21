@@ -25,8 +25,11 @@ The two options to select from are:
   to run a script anytime a user logs into the computer, and then also specify the context (System
   or User.)
 
-**NOTE:** Scripts placed on the Computer side, but run in the User context can be run interactively.
+:::note
+Scripts placed on the Computer side, but run in the User context can be run interactively.
 But scripts run in the System context cannot be run interactively.
+:::
+
 
 The main advantage to applying scripts on the Computer side, but running in User context, is that
 you do not need Loopback in order to deliver user-side scripts to computers. In this way, you can

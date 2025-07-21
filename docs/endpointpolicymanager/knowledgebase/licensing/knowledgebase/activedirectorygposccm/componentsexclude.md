@@ -54,8 +54,11 @@ And/Or
 <component id="32f17e56-85b0-460f-b029-8eaa332f440b" name="PolicyPak File Association Manager" enabled="false" />
 ```
 
-**NOTE:** For the last component in the section you need to use:
+:::note
+For the last component in the section you need to use:
 `enabled="false" > instead of enabled="false" />`
+:::
+
 
 For example:
 
@@ -65,10 +68,13 @@ For example:
 
 ## How to Modify a Type 2 License:
 
-**CAUTION:** This procedure will only work when the endpoint is running a CSE build later than 23.8.
+:::warning
+This procedure will only work when the endpoint is running a CSE build later than 23.8.
 This is not expected to work on CSE 23.6 (which will accept Enterprise Full licenses, but will not
 accept the `<disabled>` block. Additionally, only MMC snap-ins 23.8 and later will accept Enterprise
 Full licenses with the `<disabled>` block.
+:::
+
 
 First, identify which component(s) you wish to unlicense.
 [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/guids.md)

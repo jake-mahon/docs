@@ -6,9 +6,12 @@ sidebar_position: 10
 
 # Scenario 1: Enhanced SecureRun / Prevent Untrusted Executables and Scripts from Running Even by LOCAL SYSTEM
 
-**NOTE:** For an overview of this scenario, see the
+:::note
+For an overview of this scenario, see the
 [SecureRun to block User AND System executables](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/usersystemexecutables.md)
 video demo.
+:::
+
 
 When you apply SecureRun on the user or computer side, you’re saying “Block all untrusted
 executables started by users.” This doesn’t (by default) block the attack vector of the System

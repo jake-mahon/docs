@@ -41,5 +41,8 @@ independently, as shown in Figure 129.
 
 Figure 129. Using the Configuration Wizard on each group of buttons.
 
-**NOTE:** If the wizard is unable to verify all the values, you may be asked to re-check a specific
+:::note
+If the wizard is unable to verify all the values, you may be asked to re-check a specific
 radio button item to definitively know if an item was changed or deleted.
+
+:::

@@ -42,8 +42,11 @@ But the user's perception of their Default Browser will be what you set here.
 So, when a user clicks on any URL which does not have a route, the default browser, as defined from
 Endpoint Policy Manager Browser Router, will open up.
 
-**NOTE:** there is a special Default Browser option available, called **User Selectable**
+:::note
+there is a special Default Browser option available, called **User Selectable**
 [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/defaultwindows10.md).
+:::
+
 
 You can get more information on theUser Selectable in the Endpoint Policy Manager Browser Router
 manual. But in essence the steps are as follows:

@@ -17,9 +17,12 @@ for additional information. You will import the license files while editing the
 Next, all normal operations in Endpoint Policy Manager are available to you, like Endpoint Policy
 Manager Application Manager and Endpoint Policy Manager Admin Templates Manager.
 
-**NOTE:** Note that Endpoint Policy Manager Application Manager Pak definitions can be stored in
+:::note
+Note that Endpoint Policy Manager Application Manager Pak definitions can be stored in
 regular shares, and don't need to be stored in the Central Store, which would require domain
 controllers.
+:::
+
 
 See[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
 for additional information on using shares with Endpoint Policy Manager Admin Templates Manager.

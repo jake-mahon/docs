@@ -27,8 +27,11 @@ the direct rule operation and elevate the application. An example of the steps c
 
 ![947_3_image-20230714222621-3_950x565](/img/product_docs/endpointpolicymanager/integration/947_3_image-20230714222621-3_950x565.webp)
 
-**NOTE:** The **Apply on demand** checkbox for direct rules will have no effect while Applocker is
+:::note
+The **Apply on demand** checkbox for direct rules will have no effect while Applocker is
 running.
+:::
+
 
 ![947_4_image-20230714222621-4_950x548](/img/product_docs/endpointpolicymanager/integration/947_4_image-20230714222621-4_950x548.webp)
 

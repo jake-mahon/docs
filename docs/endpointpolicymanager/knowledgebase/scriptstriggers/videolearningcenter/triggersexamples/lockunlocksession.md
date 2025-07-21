@@ -5,11 +5,11 @@ sidebar_position: 30
 ---
 # Endpoint Policy Manager Scripts + Triggers: Perform actions at LOCK and UNLOCK of session
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p00SeWdMn7U" title="Endpoint Policy Manager Scripts + Triggers: Perform actions at LOCK and UNLOCK of session" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 In this demo you'll see how to use Session Lock and Session Unlock trigger types with Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Scripts. It's easy to do ! Pre-test your script first,
-then you're off to the races. Remember which processes require RUN INTERACTIVE though !
+then you're off to the races. Remember which processes require RUN INTERACTIVE though!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p00SeWdMn7U" title="Endpoint Policy Manager Scripts + Triggers: Perform actions at LOCK and UNLOCK of session" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Hi, this is Jeremy Moskowitz, and in this video, I'm going to show you how you can use Endpoint
 Policy Manager scripts and triggers to fire off activities when the session is locked and unlocked.

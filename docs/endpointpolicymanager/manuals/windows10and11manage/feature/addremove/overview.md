@@ -6,9 +6,12 @@ sidebar_position: 20
 
 # Quick Start - Adding and Removing Features
 
-**NOTE:** For some video overviews of Netwrix Endpoint Policy Manager (formerly PolicyPak) Feature
+:::note
+For some video overviews of Netwrix Endpoint Policy Manager (formerly PolicyPak) Feature
 Manager for Windows, see
 [https://www.endpointpolicymanager.com/products/feature-manager-for-windows.html](https://www.endpointpolicymanager.com/products/feature-manager-for-windows.html).
+:::
+
 
 In this example we will uninstall and install the following:
 
@@ -34,5 +37,8 @@ Sales Desktops.
 
 Then click **Edit** to edit the GPO.
 
-**NOTE:** Even if you're using Endpoint Policy Manager Cloud or MDM edition, you still need to
+:::note
+Even if you're using Endpoint Policy Manager Cloud or MDM edition, you still need to
 create the policies within a GPO first.
+
+:::

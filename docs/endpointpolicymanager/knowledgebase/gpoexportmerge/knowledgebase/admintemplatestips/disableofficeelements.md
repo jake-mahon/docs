@@ -40,7 +40,10 @@ Follow the steps to disable the command bar buttons and menu items.
 
 **Step 2 –** Set the command ID in this setting to disable `any/ Page Color` command.
 
-**NOTE:** Use Item Level Targeting filter to control the scope of this setting.
+:::note
+Use Item Level Targeting filter to control the scope of this setting.
+:::
+
 
 **Step 3 –** Run `gpupdate` at the client end to enable the changes you just made.
 

@@ -6,10 +6,13 @@ sidebar_position: 50
 
 # Elevating Java JAR Files
 
-**NOTE:** For an overview on elevating JAR files and also preventing .JAR files from running, which
+:::note
+For an overview on elevating JAR files and also preventing .JAR files from running, which
 could need admin rights, see the
 [Elevate (or smack down) scripts and Java JAR files](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/scripts.md)
 video.
+:::
+
 
 You can use Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager to elevate a Java
 JAR file, or block it from running, in order to prevent attacks that originate over email or on USB

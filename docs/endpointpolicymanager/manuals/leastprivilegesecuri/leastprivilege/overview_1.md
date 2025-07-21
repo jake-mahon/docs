@@ -79,8 +79,11 @@ Additionally, Admin Approval is logged in the ppUser_Operational.log file as wel
 applications require Admin privileges and when the user successfully enters in a response code from
 an Admin when he or she uses the Endpoint Policy Manager Admin Approval Tool.
 
-**NOTE:** The Reason Code is also stored here and is a fixed list from within the Endpoint Policy
+:::note
+The Reason Code is also stored here and is a fixed list from within the Endpoint Policy
 Manager Admin Approval Tool.
+:::
+
 
 ```
 Admin Approval Dialog (2018/07/14, 15:55:20.312, PID: 1360, TID: 3020)

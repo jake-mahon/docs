@@ -27,8 +27,11 @@ This would select Windows 1703, which is that build number.
 
 ![14_2_faq-4-rev-1-img-2](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_2_faq-4-rev-1-img-2.webp)
 
-**CAUTION:** Note that you want to place a whole number and not a number with decimal places. The
+:::warning
+Note that you want to place a whole number and not a number with decimal places. The
 BUILDNUMBER field is actually nota numeric value, but a stringvalue and must match exactly.
+:::
+
 
 **Step 4 –** If you choose REGISTRY Query to detect the build number, search for the following item
 in the Registry:

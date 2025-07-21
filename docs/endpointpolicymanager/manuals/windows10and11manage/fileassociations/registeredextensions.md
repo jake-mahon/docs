@@ -49,7 +49,10 @@ automatically filled in.
 
 ![about_policypak_file_associations_21](/img/product_docs/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_21.webp)
 
-**NOTE:** The XML file type on the endpoint has no icon in particular.
+:::note
+The XML file type on the endpoint has no icon in particular.
+:::
+
 
 ![about_policypak_file_associations_23](/img/product_docs/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_23.webp)
 

@@ -20,4 +20,7 @@ videos
 3. Using Endpoint Policy Manager Scripts to determine Azure AD Group Membership via Endpoint Policy
    Manager MDM.
 
-**NOTE:** Scripts are available in the Advice section of the Portal.
+:::note
+Scripts are available in the Advice section of the Portal.
+
+:::

@@ -27,8 +27,11 @@ There is a Windows Defender Attack Surface Reduction Rule in place for Adobe:
 
 ### Option 2: (Recommended) Add exclusions for Endpoint Policy Manager under "Exclude files and paths from Attack Surface Reduction Rules" policy.
 
-**NOTE:** If you prefer you can block only the PPBR Agent executable instead of the entire Endpoint
+:::note
+If you prefer you can block only the PPBR Agent executable instead of the entire Endpoint
 Policy Manager folder:` "C:\Program Files\PolicyPak\Browser Router\Client\PPBRAgent.exe"`
+:::
+
 
 Excluding the "`C:\Program Files\PolicyPak"` folder, (or if you prefer just
 `"C:\Program Files\PolicyPak\Browser Router\Client\PPBRAgent.exe") `should be enough to resolve the

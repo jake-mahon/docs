@@ -7,6 +7,8 @@ sidebar_position: 100
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Managing Favorites in IE
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4xYA0FaD53A?si=KEXNMi7GUl7QwsU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager: Managing Favorites in IE
 
 Hi. This is Jeremy Moskowitz. In these videos, we're learning how to manage the favorites using

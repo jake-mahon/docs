@@ -12,11 +12,14 @@ to do to minimize or eliminate these requests. An example authentication request
 
 ![969_1_image-20231017185713-1_950x344](/img/product_docs/endpointpolicymanager/integration/auditor/969_1_image-20231017185713-1_950x344.webp)
 
-**NOTE:** First, note that if your browser is Firefox you must set the "URIS / SPNEGO" settings to
+:::note
+First, note that if your browser is Firefox you must set the "URIS / SPNEGO" settings to
 passthru authentication requests. One way to do this is via Endpoint Policy Manager Application
 Settings Manager with these instructions:
 [Firefox: How do I use the NTLM passthru (URIS) settings in the Firefox / about:config AppSets?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/preconfiguredappsets/ntlmpassthru.md).
 You may also use the Firefox ADMX settings to perform a similar option.
+:::
+
 
 If you are using Edge as your default browser, these steps are un-necessary and you will likely not
 be prompted for credentials.

@@ -6,10 +6,13 @@ sidebar_position: 130
 
 # Using Group Policy Preferences to Manage Local Admin Groups
 
-**NOTE:** See the
+:::note
+See the
 [Use Group Policy to remove local admin rights (then Endpoint Policy Manager to enable Least Privilege)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/removelocaladmin.md)
 video for an overview of using Group Policy preference with Endpoint Policy Manager Least Privilege
 Manager.
+:::
+
 
 Endpoint Policy ManagerLeast Privilege Manager is built on the principle of stripping local admin
 rights for standard users and then giving them the exact privileges they need to do their jobs. To
@@ -18,8 +21,11 @@ your Windows local admin groups. Before we do that, you should first confirm who
 Domain Admins group are and make sure that no one is listed there who shouldn't be there. If so,
 remove those accounts immediately.
 
-**NOTE:** Doing this will create the need to do some cleanup in the local admins group on each
+:::note
+Doing this will create the need to do some cleanup in the local admins group on each
 computer.
+:::
+
 
 Now let's move on to local admin groups. You can easily do this by creating a GPO, going to
 **Computer Configuration** > **Preferences** > **Control Panel Settings** > **Local Users and

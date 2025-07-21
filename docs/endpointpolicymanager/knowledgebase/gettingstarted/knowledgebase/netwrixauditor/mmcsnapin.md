@@ -9,9 +9,12 @@ sidebar_position: 10
 For a video overview of this process see
 [Endpoint Policy Manager and Netwrix Auditor - Setup Steps](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/netwrixauditor/auditorsetup.md)
 
-**NOTE:** Only the latest Endpoint Policy Manager MMC console supports the Endpoint Policy Manager →
+:::note
+Only the latest Endpoint Policy Manager MMC console supports the Endpoint Policy Manager →
 Netwrix Auditor. Make sure to use the Endpoint Policy Manager download and install the latest MMC
 console.
+:::
+
 
 ## Initial Setup for Netwrix Auditor
 
@@ -68,8 +71,11 @@ using, or update the Endpoint Policy Manager ADMX settings
 **Step 2 –** After the ` ADMX` files are in place, create a Group Policy Object and target it for
 your MMC management stations.
 
-**NOTE:** Endpoint Policy Manager CSE will ignore this policy because it is exclusively regarding
+:::note
+Endpoint Policy Manager CSE will ignore this policy because it is exclusively regarding
 the MMC snap-in.
+:::
+
 
 ![970_7_image-20231016154007-14_950x683](/img/product_docs/endpointpolicymanager/integration/auditor/970_7_image-20231016154007-14_950x683.webp)
 

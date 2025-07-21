@@ -6,8 +6,11 @@ sidebar_position: 20
 
 # Converting Existing IE Site List XMLs
 
-**NOTE:** To get an overview on how to convert existing IE site lists, please see:
+:::note
+To get an overview on how to convert existing IE site lists, please see:
 [Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md).
+:::
+
 
 Now let's see how you can take a Microsoft Enterprise Mode Internet Explorer site list and quickly
 convert it to be used in Endpoint Policy Manager Browser Router. This saves you the time and trouble

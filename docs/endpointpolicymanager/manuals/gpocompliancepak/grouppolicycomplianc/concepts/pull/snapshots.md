@@ -39,8 +39,11 @@ When you right-click on the computer set, Endpoint Policy Manager GPCR will quer
 the computer set to determine what Group Policy information is on them, also known as the resultant
 set of policy (RSOP).
 
-**NOTE:** Creation of computer sets is optional when using the Endpoint Policy Manager GPCR server
+:::note
+Creation of computer sets is optional when using the Endpoint Policy Manager GPCR server
 and clientless auditing (push mode).
+:::
+
 
 In order to create a snapshot, you must have administrative rights on the target machine in order to
 return RSOP. As the snapshot is created, each computer is queried to determine whether it will
