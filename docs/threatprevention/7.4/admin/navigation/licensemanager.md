@@ -101,7 +101,7 @@ See the following topics for additional information:
   – For Windows file servers and/or NAS devices
 - [File System Lockdown Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/filesystemlockdown.md)
   – For Windows file servers
-- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.4/admin/policies/eventtype/filesystemaccessanalyzer.md)
+- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/filesystemaccessanalyzer.md)
   – For Windows file servers
 
 ## LDAP Solution
