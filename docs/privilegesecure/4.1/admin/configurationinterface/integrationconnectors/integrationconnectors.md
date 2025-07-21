@@ -27,19 +27,19 @@ The selected connector details display at the top of the main pane:
 - Connector Type — Indicates the type of integration:
 
     - BYOV — Configure integration with any vault, or Bring Your Own Vault. See the
-      [Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.1/admin/interface/integrationconnectors/integrationbyov/integrationbyov.md)
+      [Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.1/admin/configurationinterface/integrationconnectors/integrationbyov/integrationbyov.md)
       topic for additional information.
     - CyberArk — Configure integration with CyberArk. See the
-      [CyberArk Integration](/docs/privilegesecure/4.1/admin/interface/integrationconnectors/integrationcyberark/integrationcyberark.md)
+      [CyberArk Integration](/docs/privilegesecure/4.1/admin/configurationinterface/integrationconnectors/integrationcyberark/integrationcyberark.md)
       topic for additional information.
     - HashiCorp — Configure integration with HashiCorp. See the
-      [HashiCorp Integration](/docs/privilegesecure/4.1/admin/interface/integrationconnectors/integrationhashicorp.md)
+      [HashiCorp Integration](/docs/privilegesecure/4.1/admin/configurationinterface/integrationconnectors/integrationhashicorp.md)
       topic for additional information.
     - LAPS — Configure integration with LAPS. See the
-      [LAPS Integration](/docs/privilegesecure/4.1/admin/interface/integrationconnectors/integrationlaps.md)
+      [LAPS Integration](/docs/privilegesecure/4.1/admin/configurationinterface/integrationconnectors/integrationlaps.md)
       topic for additional information.
     - StealthAUDIT — Configure integration with Netwrix Enterprise Auditor. See the
-      [StealthAUDIT Integration](/docs/privilegesecure/4.1/admin/interface/integrationconnectors/integrationaccessgovernance.md)
+      [StealthAUDIT Integration](/docs/privilegesecure/4.1/admin/configurationinterface/integrationconnectors/integrationaccessgovernance.md)
       topic for additional information.
 
     **NOTE:** The remaining fields vary based on the type selected.

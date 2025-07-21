@@ -39,7 +39,7 @@ include:
 the database.
 
 - See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 
     - Visit icon – Go to the Service Account page to view details of the selected service account.

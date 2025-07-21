@@ -12,7 +12,7 @@ displayed on the login page for the user.
 
 The list is populated from the previously configured authentication connectors on the
 Authentications page. See the
-[Authentication Page](/docs/privilegesecure/4.1/admin/interface/authentication/authentication.md)
+[Authentication Page](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/authentication.md)
 topic for additional information.
 
 ![Users Authentication Connector Tab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)

@@ -171,7 +171,7 @@ else {
 **Step 5 –** Click **Save** to create the BYOV connector.
 
 See the
-[Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.1/admin/interface/integrationconnectors/integrationbyov/integrationbyov.md)
+[Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.1/admin/configurationinterface/integrationconnectors/integrationbyov/integrationbyov.md)
 topic for additional information on configuring a BYOV connector.
 
 ### Create a User
