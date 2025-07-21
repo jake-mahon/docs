@@ -34,7 +34,7 @@ happens:
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.4/install/customsetup.webp)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.4/install/customsetup_1.webp)
 
 **Step 4 –** The Custom Setup page displays the components that are installed by default. These
 components require the following hard drive space for installation:

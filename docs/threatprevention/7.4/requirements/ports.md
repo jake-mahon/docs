@@ -29,26 +29,26 @@ topic for additional information.
 
 The following firewall settings are required for communication with the Enterprise Manager:
 
-| Communication Direction                                                                                                                             | Protocol         | Ports                                       | Description                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------- | ---------------------------------------------------- |
-| (For versions 7.3.5 and later Agents using auto security mode) Agents to Enterprise Manager                                                         | gRPC / TCP       | 3741                                        | Inbound Agent Communication                          |
-| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) Agents to Enterprise Manager | gRPC / TCP       | 3739                                        | Inbound Agent Communication                          |
-| Enterprise Manager to SQL Server                                                                                                                    | SQL Client / TCP | 1433                                        | SQL Server Communication                             |
-| Enterprise Manager to SQL Server                                                                                                                    | SQL Client / UDP | 1434                                        | SQL Server Communication                             |
-| Enterprise Manager to Agents                                                                                                                        | RPC / TCP        | 135                                         | WMI enabled Optional: required for Agent Auto Deploy |
-| Enterprise Manager to Agents                                                                                                                        | DCOM / TCP       | Dynamic Range 49152 <ul><li>65535</li></ul> | WMI enabled Optional: required for Agent Auto Deploy |
+| Communication Direction      | Protocol         | Ports          | Description       |
+| ----------------- | ---------------- | ----------------- | ---------------- |
+| (For versions 7.3.5 and later Agents using auto security mode) <br />Agents to Enterprise Manager      | gRPC / TCP       | 3741        | Inbound Agent Communication      |
+| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) <br />Agents to Enterprise Manager | gRPC / TCP       | 3739       | Inbound Agent Communication     |
+| Enterprise Manager to SQL Server     | SQL Client / TCP | 1433           | SQL Server Communication       |
+| Enterprise Manager to SQL Server      | SQL Client / UDP | 1434     | SQL Server Communication      |
+| Enterprise Manager to Agents         | RPC / TCP        | 135        | WMI enabled <br />Optional: required for Agent Auto Deploy |
+| Enterprise Manager to Agents     | DCOM / TCP       | Dynamic Range 49152 <ul><li>65535</li></ul> | WMI enabled <br />Optional: required for Agent Auto Deploy |
 
 
 ## Agent Firewall Rules
 
 The following firewall settings are required for communication with the Agent:
 
-| Communication Direction                                                                                                                             | Protocol   | Ports                                       | Description                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------- | ---------------------------------------------------- |
-| (For versions 7.3.5 and later Agents using auto security mode) Agents to Enterprise Manager gRPC / TCP                                              | gRPC / TCP | 3741                                        | Outbound Enterprise Manager Communication            |
-| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) Agents to Enterprise Manager | gRPC / TCP | 3739                                        | Outbound Enterprise Manager Communication            |
-| Enterprise Manager to Agent                                                                                                                         | RPC / TCP  | 135                                         | WMI enabled Optional: required for Agent Auto Deploy |
-| Enterprise Manager to Agent                                                                                                                         | DCOM / TCP | Dynamic Range 49152 <ul><li>65535</li></ul> | WMI enabled Optional: required for Agent Auto Deploy |
+| Communication Direction       | Protocol   | Ports          | Description       |
+| ------------ | ---------- | ------------ | ------------ |
+| (For versions 7.3.5 and later Agents using auto security mode) <br />Agents to Enterprise Manager gRPC / TCP       | gRPC / TCP | 3741       | Outbound Enterprise Manager Communication     |
+| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) <br />Agents to Enterprise Manager | gRPC / TCP | 3739     | Outbound Enterprise Manager Communication            |
+| Enterprise Manager to Agent      | RPC / TCP  | 135    | WMI enabled <br />Optional: required for Agent Auto Deploy |
+| Enterprise Manager to Agent      | DCOM / TCP | Dynamic Range 49152 <ul><li>65535</li></ul> | WMI enabled <br />Optional: required for Agent Auto Deploy |
 
 
 :::note
@@ -186,16 +186,16 @@ Agent server and the target Nasuni Edge Appliance:
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target NetApp Data ONTAP 7-Mode device:
 
-| Communication Direction           | Protocol         | Ports                                | Description |
-| --------------------------------- | ---------------- | ------------------------------------ | ----------- |
-| Activity Agent Server to NetApp\* | HTTP (optional)  | 80                                   | ONTAPI      |
-| Activity Agent Server to NetApp\* | HTTPS (optional) | 443                                  | ONTAPI      |
-| Activity Agent Server to NetApp   | TCP              | 135, 139 Dynamic Range (49152-65535) | RPC         |
-| Activity Agent Server to NetApp   | TCP              | 445                                  | SMB         |
-| Activity Agent Server to NetApp   | UDP              | 137, 138                             | RPC         |
-| NetApp to Activity Agent Server   | TCP              | 135, 139 Dynamic Range (49152-65535) | RPC         |
-| NetApp to Activity Agent Server   | TCP              | 445                                  | SMB         |
-| NetApp to Activity Agent Server   | UDP              | 137, 138                             | RPC         |
+| Communication Direction       | Protocol         | Ports      | Description |
+| --------- | ----------- | -------------------- | ----------- |
+| Activity Agent Server to NetApp\* | HTTP (optional)  | 80      | ONTAPI      |
+| Activity Agent Server to NetApp\* | HTTPS (optional) | 443     | ONTAPI      |
+| Activity Agent Server to NetApp   | TCP              | 135, 139 <br />Dynamic Range (49152-65535) | RPC    |
+| Activity Agent Server to NetApp   | TCP              | 445     | SMB         |
+| Activity Agent Server to NetApp   | UDP              | 137, 138     | RPC    |
+| NetApp to Activity Agent Server   | TCP              | 135, 139 <br />Dynamic Range (49152-65535) | RPC     |
+| NetApp to Activity Agent Server   | TCP              | 445    | SMB         |
+| NetApp to Activity Agent Server   | UDP              | 137, 138    | RPC    |
 
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
@@ -233,9 +233,9 @@ the case of a server reboot or service restart.
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Panzura device:
 
-| Communication Direction                    | Protocol      | Ports | Description             |
-| ------------------------------------------ | ------------- | ----- | ----------------------- |
-| Activity Agent Server to Panzura           | HTTPS         | 443   | Panzura API             |
+| Communication Direction     | Protocol      | Ports | Description    |
+| ----------- | ------------- | ----- | ----------------------- |
+| Activity Agent Server to Panzura     | HTTPS     | 443   | Panzura API     |
 | Panzura filers to to Activity Agent Server | AMQP over TCP | 4497  | Panzura Event Reporting |
 
 Protect the port with a username and password. The credentials will be configured in Panzura.
@@ -245,6 +245,6 @@ Protect the port with a username and password. The credentials will be configure
 The following firewall settings are required to integrate with the full version of Netwrix Threat
 Manager:
 
-| Communication Direction        | Protocol | Ports | Description                         |
-| ------------------------------ | -------- | ----- | ----------------------------------- |
+| Communication Direction        | Protocol | Ports | Description      |
+| --------------- | -------- | ----- | ----------- |
 | Agent Server to Threat Manager | TCP/UDP  | 10001 | Data event stream to Threat Manager |

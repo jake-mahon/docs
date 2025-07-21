@@ -191,10 +191,10 @@ Agent server and the target NetApp Data ONTAP 7-Mode device:
 | --------------------------------- | ---------------- | ------------------------------------ | ----------- |
 | Activity Agent Server to NetApp\* | HTTP (optional)  | 80                                   | ONTAPI      |
 | Activity Agent Server to NetApp\* | HTTPS (optional) | 443                                  | ONTAPI      |
-| Activity Agent Server to NetApp   | TCP              | 135, 139 Dynamic Range (49152-65535) | RPC         |
+| Activity Agent Server to NetApp   | TCP              | 135, 139 <br />Dynamic Range (49152-65535) | RPC   |
 | Activity Agent Server to NetApp   | TCP              | 445                                  | SMB         |
 | Activity Agent Server to NetApp   | UDP              | 137, 138                             | RPC         |
-| NetApp to Activity Agent Server   | TCP              | 135, 139 Dynamic Range (49152-65535) | RPC         |
+| NetApp to Activity Agent Server   | TCP              | 135, 139 <br />Dynamic Range (49152-65535) | RPC   |
 | NetApp to Activity Agent Server   | TCP              | 445                                  | SMB         |
 | NetApp to Activity Agent Server   | UDP              | 137, 138                             | RPC         |
 

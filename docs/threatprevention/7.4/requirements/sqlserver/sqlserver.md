@@ -27,9 +27,9 @@ server.
 
 These depend on the size of the target environment.
 
-| Environment              | Large with Analytics                           | Large without Analytics                        | Small with Analytics        | Small without Analytics     |
-| ------------------------ | ---------------------------------------------- | ---------------------------------------------- | --------------------------- | --------------------------- |
-| Definition               | 2,000 <ul><li>15,000 AD user objects</li></ul> | 2,000 <ul><li>15,000 AD user objects</li></ul> | Up to 2,000 AD user objects | Up to 2,000 AD user objects |
+| Environment     | Large with Analytics      | Large without Analytics       | Small with Analytics        | Small without Analytics     |
+| --------------- | ------------------------ | ------------- | -------------- | ------------------ |
+| Definition      | 2,000 - 15,000 AD user objects | 2,000 - 15,000 AD user objects | Up to 2,000 AD user objects | Up to 2,000 AD user objects |
 | RAM                      | 32 GB                                          | 16 GB                                          | 16 GB                       | 8 GB                        |
 | Cores                    | 4 CPU                                          | 4 CPU                                          | 4 CPU                       | 4 CPU                       |
 | Number of Disks          | 4                                              | 4                                              | 4                           | 1-4                         |
