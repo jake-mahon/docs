@@ -163,5 +163,5 @@ Navigate to the Resources page and add a new server. See the
 topic for additional information.
 
 Navigate to the Access Policies page and create a new access policy. See the
-[Add Access Policy](/docs/privilegesecure/4.1/admin/interface/accesspolicy/accesspolicy_1.md)
+[Add Access Policy](/docs/privilegesecure/4.1/admin/interface/accesspolicy/addaccesspolicy.md)
 topic for additional information.

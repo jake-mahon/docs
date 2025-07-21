@@ -1,7 +1,7 @@
 ---
 title: "Resources Tab for Protection Policies"
 description: "Resources Tab for Protection Policies"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # Resources Tab for Protection Policies

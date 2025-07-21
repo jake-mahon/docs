@@ -1,7 +1,7 @@
 ---
 title: "Groups Tab for Host"
 description: "Groups Tab for Host"
-sidebar_position: 50
+sidebar_position: 60
 ---
 
 # Groups Tab for Host

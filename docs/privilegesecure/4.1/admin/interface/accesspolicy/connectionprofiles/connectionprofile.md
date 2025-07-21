@@ -1,7 +1,7 @@
 ---
 title: "Add Connection Profile"
 description: "Add Connection Profile"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Connection Profile

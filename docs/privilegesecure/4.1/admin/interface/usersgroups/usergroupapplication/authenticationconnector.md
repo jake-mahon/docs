@@ -1,7 +1,7 @@
 ---
 title: "Authentication Connector Tab"
 description: "Authentication Connector Tab"
-sidebar_position: 70
+sidebar_position: 80
 ---
 
 # Authentication Connector Tab

@@ -1,7 +1,7 @@
 ---
 title: "Add Website URL Window"
 description: "Add Website URL Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Website URL Window

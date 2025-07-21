@@ -1,7 +1,7 @@
 ---
 title: "Computers Tab for Domain"
 description: "Computers Tab for Domain"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Computers Tab for Domain

@@ -1,7 +1,7 @@
 ---
 title: "Credential Groups Page"
 description: "Credential Groups Page"
-sidebar_position: 60
+sidebar_position: 10
 ---
 
 # Credential Groups Page

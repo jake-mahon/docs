@@ -1,7 +1,7 @@
 ---
 title: "Activities Tab for Resource Based Access Policies"
 description: "Activities Tab for Resource Based Access Policies"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # Activities Tab for Resource Based Access Policies

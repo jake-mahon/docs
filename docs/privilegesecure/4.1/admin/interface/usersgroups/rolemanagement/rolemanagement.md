@@ -1,7 +1,7 @@
 ---
 title: "Role Management Page"
 description: "Role Management Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Role Management Page

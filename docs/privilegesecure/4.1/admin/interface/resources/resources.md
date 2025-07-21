@@ -1,7 +1,7 @@
 ---
 title: "Resources Page"
 description: "Resources Page"
-sidebar_position: 50
+sidebar_position: 10
 ---
 
 # Resources Page

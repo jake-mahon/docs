@@ -1,7 +1,7 @@
 ---
 title: "Manage Internal Service Accounts"
 description: "Manage Internal Service Accounts"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Manage Internal Service Accounts

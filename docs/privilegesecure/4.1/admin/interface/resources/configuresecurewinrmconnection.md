@@ -1,7 +1,7 @@
 ---
 title: "Configure Secure WinRM Connection Window"
 description: "Configure Secure WinRM Connection Window"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Configure Secure WinRM Connection Window

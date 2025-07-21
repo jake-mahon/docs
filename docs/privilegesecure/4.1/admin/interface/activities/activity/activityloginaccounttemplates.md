@@ -1,7 +1,7 @@
 ---
 title: "Login Account Templates"
 description: "Login Account Templates"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Login Account Templates

@@ -1,7 +1,7 @@
 ---
 title: "Credentials Page"
 description: "Credentials Page"
-sidebar_position: 60
+sidebar_position: 10
 ---
 
 # Credentials Page

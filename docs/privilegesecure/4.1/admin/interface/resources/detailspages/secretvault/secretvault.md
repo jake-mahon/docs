@@ -1,7 +1,7 @@
 ---
 title: "Secret Vault Details Page"
 description: "Secret Vault Details Page"
-sidebar_position: 50
+sidebar_position: 10
 ---
 
 # Secret Vault Details Page

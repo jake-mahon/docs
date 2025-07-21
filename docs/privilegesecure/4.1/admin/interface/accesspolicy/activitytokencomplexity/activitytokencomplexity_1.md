@@ -1,7 +1,7 @@
 ---
 title: "Add Activity Token Complexity Policy"
 description: "Add Activity Token Complexity Policy"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Activity Token Complexity Policy

@@ -1,7 +1,7 @@
 ---
 title: "Installed Software Tab for Host"
 description: "Installed Software Tab for Host"
-sidebar_position: 90
+sidebar_position: 100
 ---
 
 # Installed Software Tab for Host

@@ -1,7 +1,7 @@
 ---
 title: "Policy Interface"
 description: "Policy Interface"
-sidebar_position: 40
+sidebar_position: 10
 ---
 
 # Policy Interface

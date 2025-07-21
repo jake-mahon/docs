@@ -1,7 +1,7 @@
 ---
 title: "Custom Role Details Page"
 description: "Custom Role Details Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Custom Role Details Page

@@ -1,7 +1,7 @@
 ---
 title: "Sessions Tab for Microsoft Entra ID"
 description: "Sessions Tab for Microsoft Entra ID"
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 # Sessions Tab for Microsoft Entra ID

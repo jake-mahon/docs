@@ -1,7 +1,7 @@
 ---
 title: "Add Secret Vault"
 description: "Add Secret Vault"
-sidebar_position: 50
+sidebar_position: 10
 ---
 
 # Add Secret Vault

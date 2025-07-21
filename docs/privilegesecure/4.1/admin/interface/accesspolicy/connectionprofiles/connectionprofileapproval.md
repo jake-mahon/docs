@@ -1,7 +1,7 @@
 ---
 title: "Add Approval Workflow"
 description: "Add Approval Workflow"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Add Approval Workflow

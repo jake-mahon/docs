@@ -1,7 +1,7 @@
 ---
 title: "URLs Tab for Microsoft Entra ID"
 description: "URLs Tab for Microsoft Entra ID"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # URLs Tab for Microsoft Entra ID

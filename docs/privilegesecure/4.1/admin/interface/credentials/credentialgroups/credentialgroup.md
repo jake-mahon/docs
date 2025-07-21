@@ -1,7 +1,7 @@
 ---
 title: "Add Credential Group"
 description: "Add Credential Group"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Credential Group

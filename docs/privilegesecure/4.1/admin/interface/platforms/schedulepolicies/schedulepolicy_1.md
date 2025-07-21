@@ -1,7 +1,7 @@
 ---
 title: "Edit Schedule Policy"
 description: "Edit Schedule Policy"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Edit Schedule Policy

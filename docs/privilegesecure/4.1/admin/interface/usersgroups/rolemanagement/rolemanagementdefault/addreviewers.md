@@ -1,7 +1,7 @@
 ---
 title: "Add Reviewers Window"
 description: "Add Reviewers Window"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Add Reviewers Window

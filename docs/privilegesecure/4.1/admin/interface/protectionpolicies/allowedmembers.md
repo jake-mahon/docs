@@ -1,7 +1,7 @@
 ---
 title: "Allowed Members Tab for Protection Policies"
 description: "Allowed Members Tab for Protection Policies"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Allowed Members Tab for Protection Policies

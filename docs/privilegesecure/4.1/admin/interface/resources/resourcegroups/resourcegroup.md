@@ -1,7 +1,7 @@
 ---
 title: "Add a Resource Group"
 description: "Add a Resource Group"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add a Resource Group

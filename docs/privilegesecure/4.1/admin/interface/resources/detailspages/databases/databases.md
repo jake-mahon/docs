@@ -1,7 +1,7 @@
 ---
 title: "Database Details Page"
 description: "Database Details Page"
-sidebar_position: 60
+sidebar_position: 10
 ---
 
 # Database Details Page

@@ -1,7 +1,7 @@
 ---
 title: "Default Role Details Page"
 description: "Default Role Details Page"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # Default Role Details Page

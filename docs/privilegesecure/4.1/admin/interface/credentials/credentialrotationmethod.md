@@ -1,7 +1,7 @@
 ---
 title: "Rotation Methods"
 description: "Rotation Methods"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Rotation Methods

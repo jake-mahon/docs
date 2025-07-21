@@ -1,7 +1,7 @@
 ---
 title: "Add Action Window"
 description: "Add Action Window"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # Add Action Window

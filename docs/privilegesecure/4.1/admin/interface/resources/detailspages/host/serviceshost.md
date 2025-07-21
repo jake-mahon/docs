@@ -1,7 +1,7 @@
 ---
 title: "Services Tab for Host"
 description: "Services Tab for Host"
-sidebar_position: 60
+sidebar_position: 70
 ---
 
 # Services Tab for Host

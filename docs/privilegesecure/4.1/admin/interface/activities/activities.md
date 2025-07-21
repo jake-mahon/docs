@@ -1,7 +1,7 @@
 ---
 title: "Activities Page"
 description: "Activities Page"
-sidebar_position: 70
+sidebar_position: 10
 ---
 
 # Activities Page

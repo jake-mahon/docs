@@ -1,7 +1,7 @@
 ---
 title: "Credentials Tab for Credential Based Access Policies"
 description: "Credentials Tab for Credential Based Access Policies"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Credentials Tab for Credential Based Access Policies

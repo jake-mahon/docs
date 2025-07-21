@@ -1,7 +1,7 @@
 ---
 title: "Action Types"
 description: "Action Types"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Action Types

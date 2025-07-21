@@ -1,7 +1,7 @@
 ---
 title: "Website Details Page"
 description: "Website Details Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Website Details Page

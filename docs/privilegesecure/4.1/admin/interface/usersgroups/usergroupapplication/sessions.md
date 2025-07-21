@@ -1,7 +1,7 @@
 ---
 title: "Sessions Tab"
 description: "Sessions Tab"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Sessions Tab

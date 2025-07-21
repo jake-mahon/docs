@@ -1,7 +1,7 @@
 ---
 title: "Add Credentials Window for Credential Group"
 description: "Add Credentials Window for Credential Group"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Add Credentials Window for Credential Group

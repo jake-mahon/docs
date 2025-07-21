@@ -1,7 +1,7 @@
 ---
 title: "Connection Profiles Page"
 description: "Connection Profiles Page"
-sidebar_position: 40
+sidebar_position: 10
 ---
 
 # Connection Profiles Page

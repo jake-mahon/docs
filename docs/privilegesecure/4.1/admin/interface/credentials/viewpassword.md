@@ -1,7 +1,7 @@
 ---
 title: "View Password Window"
 description: "View Password Window"
-sidebar_position: 50
+sidebar_position: 60
 ---
 
 # View Password Window

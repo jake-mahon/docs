@@ -1,7 +1,7 @@
 ---
 title: "Sync Errors Tab for Domain"
 description: "Sync Errors Tab for Domain"
-sidebar_position: 50
+sidebar_position: 60
 ---
 
 # Sync Errors Tab for Domain

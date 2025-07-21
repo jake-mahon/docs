@@ -1,7 +1,7 @@
 ---
 title: "Schedule Policies Page"
 description: "Schedule Policies Page"
-sidebar_position: 40
+sidebar_position: 10
 ---
 
 # Schedule Policies Page

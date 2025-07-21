@@ -1,7 +1,7 @@
 ---
 title: "Access Policies Tab for Microsoft Entra ID"
 description: "Access Policies Tab for Microsoft Entra ID"
-sidebar_position: 50
+sidebar_position: 60
 ---
 
 # Access Policies Tab for Microsoft Entra ID

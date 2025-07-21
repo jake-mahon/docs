@@ -1,7 +1,7 @@
 ---
 title: "Add Activities Window"
 description: "Add Activities Window"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Add Activities Window

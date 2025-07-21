@@ -1,7 +1,7 @@
 ---
 title: "Change Permission Assignment"
 description: "Change Permission Assignment"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Change Permission Assignment

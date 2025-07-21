@@ -1,7 +1,7 @@
 ---
 title: "Password Complexity Page"
 description: "Password Complexity Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Password Complexity Page

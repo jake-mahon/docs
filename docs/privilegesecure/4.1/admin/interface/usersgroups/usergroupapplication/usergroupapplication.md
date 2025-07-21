@@ -1,7 +1,7 @@
 ---
 title: "User, Group, & Application Details Page"
 description: "User, Group, & Application Details Page"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # User, Group, & Application Details Page
