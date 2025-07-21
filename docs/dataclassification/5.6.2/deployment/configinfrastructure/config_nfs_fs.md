@@ -1,5 +1,5 @@
 ---
-title: "Configure NFS File Share for Crawling"
+title: "NFS File Share"
 description: "Configure NFS File Share for Crawling"
 sidebar_position: 40
 ---

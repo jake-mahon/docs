@@ -1,5 +1,5 @@
 ---
-title: "Configure Dropbox for Crawling"
+title: "Dropbox"
 description: "Configure Dropbox for Crawling"
 sidebar_position: 20
 ---
