@@ -20,7 +20,7 @@ This operation returns a session hash value in the body of the response, that ca
 api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in
 the header of the request.
 
-Authentication required – No
+**Authentication required – No**
 
 Required Input Parameters
 
@@ -31,7 +31,7 @@ Required Input Parameters
 }
 ```
 
-Example
+**Example**
 
 ![POST api/account/login (Digest)](/img/product_docs/threatprevention/7.4/eperestsite/login.webp)
 
@@ -41,7 +41,7 @@ This API is used to log off from a specified session.
 
 This operation makes session for the specified account and the hash value is not valid anymore.
 
-Authentication required – Digest
+**Authentication required – Digest**
 
 Required Header Input Parameters
 
@@ -51,7 +51,7 @@ Required Header Input Parameters
 "Hash": <hashvalue>
 ```
 
-Example
+**Example**
 
 ![POST api/account/logoff (Digest)](/img/product_docs/threatprevention/7.4/eperestsite/logoff.webp)
 
@@ -63,7 +63,7 @@ This operation returns an access_token value in the body of the response, that c
 api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in
 the header of the request.
 
-Authentication required – Bearer
+**Authentication required – Bearer**
 
 Required Input Parameters (TEXT Format)
 
@@ -71,6 +71,6 @@ Required Input Parameters (TEXT Format)
 userName=<username>&password=<password>&grant_type=password&client_Id=self
 ```
 
-Example
+**Example**
 
 ![POST Token (Bearer)](/img/product_docs/threatprevention/7.4/eperestsite/token.webp)

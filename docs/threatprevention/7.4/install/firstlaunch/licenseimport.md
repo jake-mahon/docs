@@ -12,12 +12,15 @@ Follow the steps to import a license key file to continue using the product.
 
 **Step 1 –** Contact your Netwrix Sales Representative and request for a license key.
 
-**NOTE:** The .key file from sales must contain 'stealthintercept in its name for Threat Prevention
+:::note
+The .key file from sales must contain 'stealthintercept in its name for Threat Prevention
 to recognize it and convert it to a .lic file.
+:::
+
 
 **Step 2 –** Save the license key file to the following folder:
 
-…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager
+**…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager**
 
 ![Import License](/img/product_docs/threatprevention/7.4/install/importlicense.webp)
 

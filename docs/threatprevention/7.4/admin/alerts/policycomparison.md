@@ -29,8 +29,11 @@ File Comparison Tool window opens. In the Path to Comparison Tool box, provide t
 comparison tool location in quotations. Next, add **%1 %2** after the quoted location path. for
 example, _cmd.exe /K fc.exe %1 %2_. Click **OK** to close the window.
 
-**NOTE:** By default, fc.exe is specified as the path but it is recommended to replace this with a
+:::note
+By default, fc.exe is specified as the path but it is recommended to replace this with a
 path to a Windows based comparison tool such as Beyond Compare for best results.
+:::
+
 
 **Step 5 –** On the Policy Comparison window, click **Run Difference Tool** to run the specified
 compare command using the third party comparison tool.

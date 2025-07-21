@@ -10,7 +10,7 @@ You can use command line options to install the Agent silently. These options ca
 deploy the Agent via custom batch files, login scripts, or for integrating with third-party software
 distribution solutions that an organization may already have in their environment.
 
-MSI Compliant Command-Line Options
+**MSI Compliant Command-Line Options**
 
 The WiX installer application for Agent runs under control of Windows installer component (MSI).
 Therefore, standard MSI command-line options can be used with the
@@ -25,7 +25,7 @@ Two of the more useful options are:
 - Silent installation option – `/q`
 - Logging option – `/log "file_for_logging.log"`
 
-All Properties for the Agent Installer
+**All Properties for the Agent Installer**
 
 The following table details all properties that can be specified to the Agent installer via the
 command line.
@@ -48,13 +48,16 @@ command line.
 | CONFIGPARAMS                                          | Key value pairs used in SIWindowsAgent.exe.config Example Value: Key=value&SDEventFormat=PROTOBUF                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                         |
 | LOCALPWNEDDB                                          | HaveIBeenPwned (HIBP) hash Database mode for Agent or Enterprise Manager                                                                                                                                                                                                                                            | FALSE                                                                                                                                                                                                                                                                                                                                                                                   |
 
-Command Line Configuration Examples
+**Command Line Configuration Examples**
 
 The following examples show some standard scenarios for Agent installations.
 
-**NOTE:** Parameters with TRUE or FALSE are case sensitive. In the examples, EMCERTIFICATE and
+:::note
+Parameters with TRUE or FALSE are case sensitive. In the examples, EMCERTIFICATE and
 ENROLLMENTSECRET have been generated and are unique to each install. These need to be retrieved from
 the Administration Console.
+:::
+
 
 Installing a new Agent to monitor Active Directory and File Events Example
 
@@ -62,7 +65,7 @@ Installing a new Agent to monitor Active Directory and File Events Example
 “SI Agent.exe” /q ENTMGR_IPADDRESS=10.0.21.1 FILE_MONITOR_INSTALL=TRUE AD_MONITOR_INSTALL=TRUE EMCERTIFICATE=261730F6D0E6400ECB3E4A09DD38B10C8BCA494F ENROLLMENTSECRET=E2401994866965EB
 ```
 
-Upgrading an Agent Installation Example
+**Upgrading an Agent Installation Example**
 
 ```
 “SI Agent.exe” /q ENTMGR_IPADDRESS=10.0.21.1 FILE_MONITOR_INSTALL=TRUE AD_MONITOR_INSTALL=TRUE

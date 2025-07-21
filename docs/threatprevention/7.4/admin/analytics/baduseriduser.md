@@ -15,7 +15,10 @@ expires. After the time expires, any additional attempt will generate a new inci
 for a report on the number of times a particular bad user account tried to login during the time
 frame.
 
-**_RECOMMENDED:_** Configure the day limit to 30 days.
+:::info
+Configure the day limit to 30 days.
+:::
+
 
 | Bad User ID (by user) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,7 +27,7 @@ frame.
 | Trigger               | Any number of failed authentication attempts made by a non-existing account                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Recommended Settings  | Bad User ID (by user) groups attacks by account name where every new non-existing account will generate an analytic hit. The user-configurable parameter is based on time, where time is used to visualize how often an attempt is made to authenticate using the same non-existing account name. Netwrix recommends setting the default value to 30 days. If an attempt to use that same non-existing account name occurs after the 30 day time period, a new analytic hit will be produced rather than incrementing the previous hit count.                                                                                                                                                                                                     |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -49,7 +52,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Bad User ID (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/7.4/admin/analytics/baduseridsettings.webp)
 
@@ -59,7 +62,7 @@ additional attempt for the same bad user account will be added to the total numb
 through the limit of days set here, e.g. 30 days. After this number of days has elapsed from the
 first attempt, a new incident will be triggered for any additional attempt with a new count.
 
-Policy Tab
+**Policy Tab**
 
 ![Bad User ID (by User) Analytic Type - Policy tab](/img/product_docs/threatprevention/7.4/admin/analytics/policytab.webp)
 
@@ -79,9 +82,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - *Optional:* Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional:_ Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -89,9 +95,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.4/admin/policies/configuration/actions/overview.md)

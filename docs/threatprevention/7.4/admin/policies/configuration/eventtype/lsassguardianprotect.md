@@ -23,11 +23,17 @@ The event filters for the LSASS Guardian – Protect event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**CAUTION:** Lockdown/blocking policies with blank filters result in everything being locked down or
+:::warning
+Lockdown/blocking policies with blank filters result in everything being locked down or
 blocked.
+:::
 
-**_RECOMMENDED:_** Add exclusion process filters for undesired processes that make changes to LSASS,
+
+:::info
+Add exclusion process filters for undesired processes that make changes to LSASS,
 e.g. third-party malware applications.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -39,11 +45,14 @@ from being locked down.
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the
+:::note
+For the
 [Password Enforcement Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
+:::
+
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
@@ -54,10 +63,13 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## Domains/Servers Filter
 
@@ -75,18 +87,24 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## Processes Filter
 
 Use the Processes filter to set the scope of the policy to only lockdown specific processes or
 exclude specific processes from being locked down.
 
-**_RECOMMENDED:_** Add undesired processes that make changes to LSASS, e.g. third-party malware
+:::info
+Add undesired processes that make changes to LSASS, e.g. third-party malware
 applications, to the Allow list.
+:::
+
 
 ![Policy window - Processes filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/processesprotect.webp)
 
@@ -97,7 +115,10 @@ Type the process in the textbox. Use the buttons above the box to edit the list.
 - The **Add** (+) button adds a textbox to the list to add an additional process.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**CAUTION:** Leave this filter blank:
+:::warning
+Leave this filter blank:
+:::
+
 
 - While you can select to **Block** processes, it is _not recommended_ for locking down LSASS.
   Adding a process block filter will limit the policy to only block that process. Unknown malicious
@@ -122,8 +143,14 @@ the requesting process.
   - Among other things, this would prevent the creation of an LSASS dump file by Task Manager or
     other processes.
 
-**_RECOMMENDED:_** Leave these filters enabled. Do not deselect these options.
+:::info
+Leave these filters enabled. Do not deselect these options.
+:::
 
-**NOTE:** LSASS Guardian Protect does not fully block an operation like other lockdown policies. It
+
+:::note
+LSASS Guardian Protect does not fully block an operation like other lockdown policies. It
 allows the handle request to complete, but the handle returned will have the specified flags
 removed.
+
+:::

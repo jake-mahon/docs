@@ -20,7 +20,7 @@ Threat Prevention version.
 
 This release contains the following new features and enhancements.
 
-Rebranding
+**Rebranding**
 
 Netwrix StealthINTERCEPT is now Netwrix Threat Prevention. As part of rebranding:
 
@@ -38,14 +38,14 @@ Netwrix StealthINTERCEPT is now Netwrix Threat Prevention. As part of rebranding
   | SBTService          | Netwrix Windows File Monitoring Service        |
   | SIEnterpriseManager | Netwrix Threat Prevention Enterprise Manager   |
 
-Remote Administration Console Instances
+**Remote Administration Console Instances**
 
 Threat Prevention supports the deployment of remote Administration Console, enabling you to install
 additional consoles on standalone machines, like administrator or user workstations. In this way,
 users can launch the Administration Console on their workstations, as an alternate to using it on
 the Enterprise Manager server only.
 
-EPE (Enterprise Password Enforcer) Updates
+**EPE (Enterprise Password Enforcer) Updates**
 
 - EPE Multi-Language Support – EPE now offers multi-language support, ensuring users receive clear
   and consistent password rejection messages regardless of their location. This simplifies password
@@ -71,13 +71,13 @@ EPE (Enterprise Password Enforcer) Updates
   REST server to verify passwords against your EPE rules, ensuring consistent password strength
   across all your systems.
 
-LDAP Bind Detection
+**LDAP Bind Detection**
 
 A new event type, LDAP Bind, has been introduced that enables you to monitor suspicious attempts to
 connect (bind) to your LDAP server, so you can promptly detect unauthorized access attempts or
 malware activity.
 
-Improved FSMO Role Monitoring
+**Improved FSMO Role Monitoring**
 
 Get a clear view of which domain controller holds critical FSMO roles at any given time.
 
@@ -90,7 +90,7 @@ In this way, you can easily track FSMO role changes to quickly identify potentia
 unauthorized modifications. These additions provide comprehensive visibility into FSMO role
 assignments, empowering users with real-time insights for proactive Active Directory management.
 
-Up-to-date IP Blocking with Automatic DNS Refresh
+**Up-to-date IP Blocking with Automatic DNS Refresh**
 
 Regularly refreshed DNS ensures the blocking rules set in policies always have up-to-date IP
 addresses.
@@ -100,37 +100,40 @@ DNS refresh, which is set to four hours. That's how often it will resolve the DN
 names that are in filters for blocking rules and get fresh IP values; then send them down to the
 Agents.
 
-More Accurate Activity Source Reporting
+**More Accurate Activity Source Reporting**
 
 Improved attribution of actions performed through Active Directory Web Services such as when
 initiated by PowerShell; the system can identify and report the true source of changes (initiating
 perpetrator) rather than the proxy service (AD Web Service account).
 
-Streamlined Agent Management
+**Streamlined Agent Management**
 
 - Eliminated WMI access requirement for the Soften and Harden operations for the Agent
 - Improved Agent self-upgrade process, optimized for low-bandwidth connections
 
-Simplified Setup and Configuration
+**Simplified Setup and Configuration**
 
 - The custom-signed certificate wizard has been unified into a single component. This consolidated
   certificate management has eliminated the need for separate .key.pem and .crt.pem files.
 - Removed Web Console and Web Scheduler options from DBConfig.
 
-Netwrix Threat Manager Policy Template Improvements
+**Netwrix Threat Manager Policy Template Improvements**
 
 - Added more LDAP filters for BloodHound Detection
 - Added options for NTDS.dit file monitoring
 - Added options for DPAPI threat detection, which is an Active Directory Read monitoring policy on
   the secret class and currentvalue attribute
 
-Security Improvements
+**Security Improvements**
 
 Security infrastructure improvements are the primary focus of the 7.4 release.
 
 - The Enterprise Manager (server) is backwards compatible with the 7.3.9 Agent only.
 
-  **NOTE:** Existing customers must upgrade to SI 7.3.9 first; else pre 7.3.9 Agents are orphaned
+  :::note
+  Existing customers must upgrade to SI 7.3.9 first; else pre 7.3.9 Agents are orphaned
+  :::
+
 
 - Replaced insecure BinaryFormatter with more secure ProtoBuf over encrypted gRPC connection. The
   Enterprise Manager in v7.4 talks over the new interface in 7.3.9 Agents.
@@ -163,6 +166,6 @@ The Netwrix Threat Manager Reporting Module comes with more precise role-based a
 managing reporting and investigations, ensuring that only authorized users have access to sensitive
 information.
 
-Updated Investigations Interface
+**Updated Investigations Interface**
 
 The Investigations interface now has an improved design for a more intuitive user experience.

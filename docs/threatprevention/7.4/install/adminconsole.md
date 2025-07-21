@@ -64,11 +64,14 @@ to communicate with the other Threat Prevention components.
 
 - Enterprise Manager port for Console and PowerShell API Communications – 3740
 
-**NOTE:** As a prerequisite for using custom managed certificates, you must provide the Enterprise
+:::note
+As a prerequisite for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing Threat
 Prevention server, remote instance of the Administration Console, and the Agent. See the
 [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.4/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
+:::
+
 
 Checking the **Create Windows Firewall Rules** box automatically sets the Windows firewall rules
 needed to open these ports on the server during the installation process. If using a third party
@@ -91,8 +94,11 @@ Wizard page displays the **Run .NET 4.7 installation package** checkbox. Check i
 
 You can also cancel the built-in download of .NET Framework 4.7 and install it manually.
 
-**NOTE:** If the .NET Framework installation does not complete, run the installer through an
+:::note
+If the .NET Framework installation does not complete, run the installer through an
 Administrative command prompt.
+:::
+
 
 **Step 8 –** Click Finish on the Completed the Netwrix Threat Prevention Server Setup Wizard page.
 
@@ -115,8 +121,11 @@ CertsInfo folder path on the remote Administration Console machine:
 
 `…\Netwrix\Netwrix Threat Prevention\SIWinConsole\CertsInfo\`
 
-**CAUTION:** Never copy all files from the Certsinfo folder on the server to a machine where the
+:::warning
+Never copy all files from the Certsinfo folder on the server to a machine where the
 Enterprise Manager is not installed. Doing so exposes the Enterprise Manager private keys, which
 undermines security.
+:::
+
 
 The remote Administration Console is now ready to be launched.

@@ -64,7 +64,10 @@ Alerting window opens.
 **Step 2 –** In the SIEM Profiles area, click the Add (+) button to create a new SIEM profile. To
 rename the default text, select the name string and enter the new profile name.
 
-**_RECOMMENDED:_** For each profile, use a unique name for easy identification.
+:::info
+For each profile, use a unique name for easy identification.
+:::
+
 
 **Step 3 –** Use the Protocol drop-down menu to select either protocol:
 
@@ -105,7 +108,7 @@ of a policy or the
 [Actions Tab](/docs/threatprevention/7.4/admin/templates/configuration/actions.md) of a
 policy template.
 
-IBM QRadar Integration
+**IBM QRadar Integration**
 
 Netwrix has created a custom app for integration between Threat Prevention and QRadar. See the
 [Active Directory App for QRadar](/docs/threatprevention/7.4/siemdashboard/qradar/overview.md)
@@ -114,7 +117,7 @@ data from either Threat Prevention or Netwrix Activity Monitor. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for additional information.
 
-Splunk Integration
+**Splunk Integration**
 
 Netwrix has created custom apps for integration between Threat Prevention and Splunk. See the
 [Active Directory App for Splunk](/docs/threatprevention/7.4/siemdashboard/activedirectory/overview.md)
@@ -131,7 +134,7 @@ Custom SIEM mapping files can be added. First create the mapping file, and save 
 that the Administration Console can access. The default mapping files are stored in the following
 folder:
 
-…\Netwrix\Netwrix Threat Prevention\SIWinConsole\SIEMTemplates\
+**…\Netwrix\Netwrix Threat Prevention\SIWinConsole\SIEMTemplates\**
 
 Follow the steps to add a custom SIEM mapping file.
 

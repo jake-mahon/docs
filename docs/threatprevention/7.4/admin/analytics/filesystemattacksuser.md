@@ -21,7 +21,7 @@ If desired, the analytic can be configured to lockdown the monitored file system
 | Trigger                       | X number of files changed by an account in Y minutes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Recommended Settings          | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors 500 files affected in 3 minutes.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -47,7 +47,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![File System Attacks (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/7.4/admin/analytics/filesystemattackssettings.webp)
 
@@ -73,7 +73,7 @@ Type: File System Lockdown** > **AD Perpetrator (for Lockdown)** filter. As inci
 perpetrators of the triggering events will be added to the AD Perpetrators (for Lockdown) filter
 list and blocked from initiating future events.
 
-Policy Tab for Monitoring Only
+**Policy Tab for Monitoring Only**
 
 ![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/product_docs/threatprevention/7.4/admin/analytics/policytabfsmonitoring.webp)
 
@@ -93,14 +93,20 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
     Multiple paths and/or collections can be included and excluded, along with the option to
     monitor sub-folders.
 
-    _Remember,_ if no path is provided, an error message displays when the analytic policy is
+    :::tip
+        Remember, if no path is provided, an error message displays when the analytic policy is
     enabled: The “File System Analytic” policy must have at least one path to monitor defined.
+    :::
+
 
   - _Optional:_ Scope the operations being monitored on the File System filter. The default is to
     monitor Write and Rename operations.
 
-    **_RECOMMENDED:_** Do not scope to include Read operations due to the quantity of files read
+    :::info
+    Do not scope to include Read operations due to the quantity of files read
     within an organization.
+    :::
+
 
   - _Optional:_ Scope the monitoring Agents to use for monitoring on the Additional Agents filter.
   - _Optional:_ Scope the accounts to include in or exclude from being monitored on the AD
@@ -116,7 +122,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
   [System Alerting Window](/docs/threatprevention/7.4/admin/configuration/systemalerting/overview.md)
   to configure Email and SIEM alerts.
 
-Policy Tab for Monitoring & Lockdown
+**Policy Tab for Monitoring & Lockdown**
 
 ![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/product_docs/threatprevention/7.4/admin/analytics/policytabfsmonitoringlockdown.webp)
 
@@ -146,8 +152,11 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
     - _Optional:_ Scope the accounts to block additional perpetrators.
     - _Optional:_ Remove accounts that are being blocked from the list.
 
-      **NOTE:** Perpetrators manually removed from the list may be automatically re-added if
+      :::note
+      Perpetrators manually removed from the list may be automatically re-added if
       they trigger another incident
+      :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.4/admin/policies/configuration/actions/overview.md)
@@ -173,7 +182,10 @@ The top data grid includes the following information for each incident:
 
 - Attacking Account Name – Security principal of the account that triggered the incident
 
-  **NOTE:** The name will be red if the attacking account is the Administrator account.
+  :::note
+  The name will be red if the attacking account is the Administrator account.
+  :::
+
 
 - Attacking Account SID – Security Identifier of the account used in the event
 - First Attempt – Date timestamp of the first monitored event Hover over the data in this column to

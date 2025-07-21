@@ -25,8 +25,11 @@ The event filters for the Active Directory Lockdown event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**CAUTION:** Lockdown/blocking policies with blank filters result in everything being locked down or
+:::warning
+Lockdown/blocking policies with blank filters result in everything being locked down or
 blocked.
+:::
+
 
 ## AD Event Filter
 
@@ -68,12 +71,15 @@ areas to edit the lists.
 
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
 
-Sub Tree
+
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
 
@@ -101,10 +107,13 @@ Use the buttons in the Classes and Attributes areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -116,11 +125,14 @@ from being locked down.
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the
+:::note
+For the
 [Password Enforcement Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
+:::
+
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
@@ -131,10 +143,13 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## Hosts (from) Filter
 

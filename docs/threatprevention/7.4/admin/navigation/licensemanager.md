@@ -10,8 +10,11 @@ The License Manager window displays the Threat Prevention modules that you are l
 under an Enterprise license, it also displays an expiration date. On license expiry, the Enterprise
 Manager will refuse events from all Agents.
 
-_Remember,_ if events are not received and displayed in the Administration Console, check if your
+:::tip
+Remember, if events are not received and displayed in the Administration Console, check if your
 license has expired.
+:::
+
 
 Click **Help > License Manager** on the menu. The Netwrix Threat Prevention License Manager window
 is displayed.
@@ -24,9 +27,12 @@ Prevention solution.
 Following is a list of the solutions with their respective modules. You can also view the event
 types available with each module.
 
-**NOTE:** The Password Enforcement module is available under all licenses for monitoring weak
+:::note
+The Password Enforcement module is available under all licenses for monitoring weak
 passwords. However, you need the Enterprise Password Enforcer solution license to block weak
 passwords.
+:::
+
 
 ## Active Directory Solution
 

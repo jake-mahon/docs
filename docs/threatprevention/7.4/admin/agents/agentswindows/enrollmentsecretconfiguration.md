@@ -46,4 +46,7 @@ manually deploy the Agent. It has the following fields:
 - Click **Copy** to copy the enrollment secret and enter it in the Certificates window of the Agent
   Setup wizard during manual Agent installation.
 
-**NOTE:** Restarting the Enterprise Manager cancels the current enrollment secret.
+:::note
+Restarting the Enterprise Manager cancels the current enrollment secret.
+
+:::

@@ -24,7 +24,7 @@ See the
 [Reporting Module Server Requirements](/docs/threatprevention/7.4/requirements/reportingserver.md)
 topic for a list of permission requirements for each type of task.
 
-Best Practice Recommendation
+**Best Practice Recommendation**
 
 It is a best practice to:
 

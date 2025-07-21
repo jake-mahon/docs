@@ -58,12 +58,15 @@ areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
 
-Sub Folder
+
+**Sub Folder**
 
 ![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subfolder.webp)
 
@@ -86,14 +89,20 @@ Agents/Domains list on the right displays Agents and domains included in the pol
   - The single arrow buttons will move the selected item to the other list.
   - The double arrows will move all items to the other list.
 
-**NOTE:** There is no impact if a selected path does not exist on the server where an Agent resides.
+:::note
+There is no impact if a selected path does not exist on the server where an Agent resides.
+:::
+
 
 When a domain is added to the Selected Agents\Domains list, all Agents deployed in that domain are
 included in the policy. If a domain is specified, then any Agent later installed in that domain is
 also included in this policy.
 
-**NOTE:** There must be at least one Agent in the Selected Agents/Domains list for policies using
+:::note
+There must be at least one Agent in the Selected Agents/Domains list for policies using
 the File System Enterprise Auditor Event Type.
+:::
+
 
 ## Processes and Configuration Filter
 

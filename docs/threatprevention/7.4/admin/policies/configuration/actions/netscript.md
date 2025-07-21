@@ -73,16 +73,22 @@ The Tools menu contains the following options:
   for run time. See note below explaining why only a plain text string, information in thae script
   between quote marks (“), should be encrypted.
 
-_Remember,_ when testing a script in the Script Editor, the **Run** option executes the script in
+:::tip
+Remember, when testing a script in the Script Editor, the **Run** option executes the script in
 the context of the user logged into the Administration Console. In production, when this script is
 run as part of a policy, it will run in the context of the account configured for the Enterprise
 Manager. If the script depends on specific user/account rights, then that should be taken into
 account when using the **Run** option to test the script.
+:::
 
-**CAUTION:** The Tools > Encrypt option is used to obfuscate plain text strings, e.g. credentials,
+
+:::warning
+The Tools > Encrypt option is used to obfuscate plain text strings, e.g. credentials,
 within the script. Encrypting functions or other commands result in the script not working. Only a
 literal string should be encrypted, between the quote marks (“). The quote marks themselves should
 not be included in the encryption.
+:::
+
 
 ## Default Visual Basic Script
 

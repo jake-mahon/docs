@@ -12,12 +12,18 @@ while installing the application.
 
 Follow the steps to install the application.
 
-**CAUTION:** The PostgreSQL database application must be installed before the application is
+:::warning
+The PostgreSQL database application must be installed before the application is
 installed.
+:::
 
-**NOTE:** These steps assume you have launched the installer through the Netwrix Setup Launcher
+
+:::note
+These steps assume you have launched the installer through the Netwrix Setup Launcher
 (`Netwrix_Setup.exe`). If you are not using it, right-click on `NetwrixThreatManagerReporting.exe`
 and select Run as administrator. Then skip to Step 2.
+:::
+
 
 ![postgresqlcheck](/img/product_docs/threatprevention/7.4/install/reportingmodule/postgresqlcheck.webp)
 

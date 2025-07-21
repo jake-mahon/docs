@@ -16,7 +16,10 @@ The Threat Prevention Agent can be deployed through any of the following methods
 - Deploy the Agent to server(s) through the Administration Console – You can deploy the Agent to one
   or multiple servers through the Administration Console
 
-  **_RECOMMENDED:_** This is the recommended method for deploying the Agent.
+  :::info
+  This is the recommended method for deploying the Agent.
+  :::
+
 
 - Manually through the Windows Agent Setup Wizard – Run the Agent executable to launch this wizard
 
@@ -51,20 +54,26 @@ information for an Agent:
   - AD Event Latency – Time difference between when the event was detected by the Agent and when
     the Enterprise Manager received it
 
-    **NOTE:** When the **Send Latency Alerts** option is enabled in the
+    :::note
+    When the **Send Latency Alerts** option is enabled in the
     [Event Filtering Configuration Window](/docs/threatprevention/7.4/admin/configuration/eventfilteringconfiguration.md),
     a warning symbol appears to indicate excessive latency. This warning symbol also appears
     when the Agent fails to load the instrumentation DLL into the LSASS process or when it fails
     to load the instrumentation DLL to MS Exchange.
+    :::
+
 
 - FSMO Roles – The FSMO (Flexible Single Master Operation) role(s) currently assigned to the domain
   controller where the Agent is deployed. Role names are displayed as abbreviations. For example,
   'SM' is displayed for the Schema Master role. Hover over data in this column to view the full
   names.
 
-  **NOTE:** You can use the FSMO roles information in combination with a policy created for the
+  :::note
+  You can use the FSMO roles information in combination with a policy created for the
   [FSMO Role Monitoring Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/fsmorolemonitoring.md)
   to view events about which machine acquired a FSMO role and which machine relinquished it.
+  :::
+
 
 - Operating System – Operating system for the machine where the Agent is deployed with version
   information, including service pack details. For example, Windows Server 2022 Standard.. For
@@ -122,16 +131,17 @@ topic for additional information.
 The following icons above the data grid enable you to perform various actions on the Agents
 interface
 
-| Icon                                                                                                                                                 | Label                   | Action                                                                                                                                                                                                                                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Agents Interface - Export Agent List icon](/img/product_docs/threatprevention/7.4/admin/agents/exporticon.webp)                 | Export Agent List…      | Save the information to an XML file for export                                                                                                                                                                                                                                                                                         |
-| ![Agents Interface - Refresh Agent List icon](/img/product_docs/threatprevention/7.4/admin/agents/refreshicon.webp)               | Refresh Agent List…     | Refresh the Agent information                                                                                                                                                                                                                                                                                                          |
-| ![Agents Interface - Update Logging Levels icon](/img/product_docs/threatprevention/7.4/admin/agents/updateloggingicon.webp)      | Update Logging Levels…  | Configure the log levels for the Agent(s). It opens the [Log Level Configuration Window](/docs/threatprevention/7.4/admin/agents/agentswindows/loglevelconfiguration.md).                                                                                                                                                                     |
-| ![Agents Interface - Get Agent Log icon](/img/product_docs/threatprevention/7.4/admin/agents/getagentlogicon.webp)                | Get Agent Log…          | Access Agent log files. See the [Access Agent Log Files](/docs/threatprevention/7.4/admin/agents/agentswindows/loglevelconfiguration.md#access-agent-log-files) topic for additional information.                                                                                                                                             |
-| ![Agents Interface - Update Agent Installer icon](/img/product_docs/threatprevention/7.4/admin/agents/updateinstallericon.webp)   | Update Agent Installer  | Check with Netwrix for a newer version of the Agent Installer according to the version in use. It opens the [Agent Installer Update Window](/docs/threatprevention/7.4/admin/agents/agentswindows/agentinstallerupdate.md).                                                                                                                   |
-| ![Agents Interface - Configure Auto Deploy icon](/img/product_docs/threatprevention/7.4/admin/agents/autodeployicon.webp)         | Configure Auto Deploy   | If enabled, the Agent is automatically deployed to all domain controllers without an Agent. This feature requires at least one Agent to be present in the domain in order to detect additional domain controllers. It opens the [Configure Auto Deploy Window](/docs/threatprevention/7.4/admin/agents/agentswindows/configureautodeploy.md). |
-| ![Agents Interface - Agent Enrollment Secret icon](/img/product_docs/threatprevention/7.4/admin/agents/enrollmentsecreticon.webp) | Agent Enrollment Secret | Generate the enrollment secret used to deploy the Agent. Opens the [Enrollment Secret Configuration Window](/docs/threatprevention/7.4/admin/agents/agentswindows/enrollmentsecretconfiguration.md).                                                                                                                                          |
-| ![Agents Interface - Deploy Agent icon](/img/product_docs/threatprevention/7.4/admin/agents/deployagent.webp)                     | Deploy Agent            | Deploy the Agent to selected servers. It opens the Deploy Agents wizard. See the [Deploy Agents](/docs/threatprevention/7.4/admin/agents/deploy/overview.md) topic for additional information.                                                                                                                                         |
+| Icon           | Label                   | Action        |
+| --------------- | ----------------------- | -------------- |
+| ![Export Agent List icon](/img/product_docs/threatprevention/7.4/admin/agents/exporticon.webp)                   | Export Agent List…      | Save the information to an XML file for export                                                                                                                                                                                                                                                                                                |
+| ![Refresh Agent List icon](/img/product_docs/threatprevention/7.4/admin/agents/refreshicon.webp)                 | Refresh Agent List…     | Refresh the Agent information                                                                                                                                                                                                                                                                                                                 |
+| ![Update Logging Levels icon](/img/product_docs/threatprevention/7.4/admin/agents/updateloggingicon.webp)        | Update Logging Levels…  | Configure the log levels for the Agent(s). It opens the [Log Level Configuration Window](/docs/threatprevention/7.4/admin/agents/agentswindows/loglevelconfiguration.md).                                                                                                                                                                     |
+| ![Get Agent Log icon](/img/product_docs/threatprevention/7.4/admin/agents/getagentlogicon.webp)                  | Get Agent Log…          | Access Agent log files. See the [Access Agent Log Files](/docs/threatprevention/7.4/admin/agents/agentswindows/loglevelconfiguration.md#access-agent-log-files) topic for additional information.                                                                                                                                             |
+| ![Update Agent Installer icon](/img/product_docs/threatprevention/7.4/admin/agents/updateinstallericon.webp)     | Update Agent Installer  | Check with Netwrix for a newer version of the Agent Installer according to the version in use. It opens the [Agent Installer Update Window](/docs/threatprevention/7.4/admin/agents/agentswindows/agentinstallerupdate.md).                                                                                                                   |
+| ![Configure Auto Deploy icon](/img/product_docs/threatprevention/7.4/admin/agents/autodeployicon.webp)           | Configure Auto Deploy   | If enabled, the Agent is automatically deployed to all domain controllers without an Agent. This feature requires at least one Agent to be present in the domain in order to detect additional domain controllers. It opens the [Configure Auto Deploy Window](/docs/threatprevention/7.4/admin/agents/agentswindows/configureautodeploy.md). |
+| ![Agent Enrollment Secret icon](/img/product_docs/threatprevention/7.4/admin/agents/enrollmentsecreticon.webp)    | Agent Enrollment Secret | Generate the enrollment secret used to deploy the Agent. Opens the [Enrollment Secret Configuration Window](/docs/threatprevention/7.4/admin/agents/agentswindows/enrollmentsecretconfiguration.md).                                                                                                                                          |
+| ![Deploy Agent icon](/img/product_docs/threatprevention/7.4/admin/agents/deployagent.webp)                      | Deploy Agent            | Deploy the Agent to selected servers. It opens the Deploy Agents wizard. See the [Deploy Agents](/docs/threatprevention/7.4/admin/agents/deploy/overview.md) topic for additional information.                                                                                                                                                |
+
 
 ## Right-Click Menu
 
@@ -188,10 +198,13 @@ Below are some considerations:
   Prevention administrator should check if the Agent service is set to manual start. The most likely
   solution is to upgrade to the latest version of the Agent.
 
-  **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
+  :::info
+  Activate an email notification for the _LSASS process terminated_ alert. See
   the
   [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
   topic for additional information.
+  :::
+
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
   In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during
@@ -204,8 +217,11 @@ Below are some considerations:
   [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/agentmanagement/startpendingmodules.md)
   topic for additional information.
 
-  **_RECOMMENDED:_** Activate an email notification for this alert. See the
+  :::info
+  Activate an email notification for this alert. See the
   [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.4/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
   topic and the
   [Agent Safe Mode](/docs/threatprevention/7.4/admin/agents/safemode.md)
   topic for additional information.
+  
+  :::

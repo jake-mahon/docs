@@ -25,9 +25,12 @@ topic for information.
 Check the box for the desired event type and click **OK**. The corresponding event filters show at
 the bottom of the Event Type tab. Multiple event types can be assigned to a policy.
 
-**_RECOMMENDED:_** Create different policies for different event types for reporting purposes.
+:::info
+Create different policies for different event types for reporting purposes.
 Otherwise, one report will have a mix of different types of data. There are a few exceptions to this
 feature.
+:::
+
 
 Once the event type to be monitored by the policy is selected, use the filters to scope the policy.
 

@@ -27,9 +27,12 @@ See the
 [EPE User Feedback Module](/docs/threatprevention/7.4/install/epeuserfeedback.md)
 topic for additional information.
 
-**NOTE:** The Password Enforcement module is available under all licenses for monitoring weak
+:::note
+The Password Enforcement module is available under all licenses for monitoring weak
 passwords. However, you need the Enterprise Password Enforcer solution license to block weak
 passwords.
+:::
+
 
 The following event type is available for Enterprise Password Enforcer:
 

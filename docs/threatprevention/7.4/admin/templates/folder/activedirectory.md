@@ -9,7 +9,7 @@ sidebar_position: 40
 The **Templates** > **Microsoft** > **Active Directory** folder in the Navigation pane contains the
 following templates:
 
-Authentication Folder
+**Authentication Folder**
 
 | Subfolder               | Template                                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | TAGS |
 | ----------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
@@ -24,7 +24,7 @@ Authentication Folder
 | Service Accounts        | AD: Successful Service Account Authentications             | Gathers Successful AD Authentications for service accounts. Utilizes built-In “Service Accounts” – Include Perpetrators Collection to define which service accounts will be monitored for successful authentications. Add service accounts to be monitored to this collection                                                                                                                                                                                                                                             | None |
 | Service Accounts        | AD: Successful Service Account Logons                      | Utilizes built-in "Service Accounts" – Objects Collection. Add service accounts to be monitored to this collection Make sure the Exclude 'Noise' Events option on the [Event Filtering Configuration Window](/docs/threatprevention/7.4/admin/configuration/eventfilteringconfiguration.md) is Off for this policy.                                                                                                                                                                                                       | None |
 
-Groups Folder
+**Groups Folder**
 
 | Subfolder               | Template                                             | Description                                                                                                                                            | TAGS |
 | ----------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
@@ -43,17 +43,20 @@ Groups Folder
 | Administrative Groups   | AD: Group Membership Changes to Administrator Groups | Utilizes the built-in “Administrator Groups” – Objects Collection. Add administrator groups to be monitored to this collection                         | None |
 | Administrative Groups   | AD: Moves or Renames of Administrator Groups         | Utilizes the built-in “Administrator Groups” – Objects Collection. Add administrator groups to be monitored to this collection                         | None |
 
-Lockdown Folder
+**Lockdown Folder**
 
-**CAUTION:** Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
+:::warning
+Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
 being locked down or blocked.
+:::
+
 
 | Template              | Description                                                                                                                                                                   | TAGS |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
 | AD Generic Lockdown   | Set the appropriate AD event type(s) to be blocked. Then select the desired AD Objects and Containers, AD Classes and Attributes, and AD Perpetrators to be allowed or denied | None |
 | Auth Generic Lockdown | Set the appropriate AD Perpetrator(s) and/or Host(s) to be blocked                                                                                                            | None |
 
-Organizational Unit Folder
+**Organizational Unit Folder**
 
 | Template                     | Description                                                                                              | TAGS |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
@@ -63,20 +66,21 @@ Organizational Unit Folder
 | AD OU Moves or Renames       | No customizations required. Most common modifications: specify AD Perpetrator to be included or excluded | None |
 | AD OU Security Modifications | No customizations required. Most common modifications: specify AD Perpetrator to be included or excluded | None |
 
-Password Enforcement Folder
+**Password Enforcement Folder**
 
 | Template                        | Description                                                                                                                                         | TAGS |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
 | Password Enforcement Monitoring | No customizations required. Prevents users from changing a password to any value in the Threat Prevention dictionary of known compromised passwords | None |
 
-Replication Folder
+**Replication Folder**
 
-| Template                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | TAGS |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| AD Replication Lockdown   | USE CAUTION WITH ALL LOCKDOWN TEMPLATES Prevents Active Directory data synchronization requests from non-domain controllers using RPC call IDL_DRSGetNCChanges. Add legitimate domain controllers to be inored in one of the following ways to prevent them from being blocked: - Allow Perpetrators List – Add the Users OU > Domain Controllers group and any other groups with domain controllers for a dynamic list of domain controllers - Exclude Domains/Servers – Add specific domain controllers for a static list of domain controllers See the [AD Replication Lockdown Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/adreplicationlockdown.md) topic for additional information. | None |
-| AD Replication Monitoring | Utilizes the built-in “Domain Controllers” – Hosts Collection. Add domain controllers to not be monitored. Alternatively, add legitimate domain controllers to be ignored in one of the following ways: - Exclude Perpetrators List – Add the Users OU > Domain Controllers group and any other groups with domain controllers for a dynamic list of domain controllers - Exclude Domains/Servers – Add specific domain controllers for a static list of domain controllers See the [AD Replication Monitoring Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/adreplicationmonitoring.md) topic for additional information.                                                                   | None |
+| Template                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | TAGS |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| AD Replication Lockdown   | USE CAUTION WITH ALL LOCKDOWN TEMPLATES Prevents Active Directory data synchronization requests from non-domain controllers using RPC call IDL_DRSGetNCChanges. Add legitimate domain controllers to be inored in one of the following ways to prevent them from being blocked: <ul><li>Allow Perpetrators List – Add the Users OU > Domain Controllers group and any other groups with domain controllers for a dynamic list of domain controllers</li><li>Exclude Domains/Servers – Add specific domain controllers for a static list of domain controllers See the [AD Replication Lockdown Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/adreplicationlockdown.md) topic for additional information.</li></ul> | None |
+| AD Replication Monitoring | Utilizes the built-in “Domain Controllers” – Hosts Collection. Add domain controllers to not be monitored. Alternatively, add legitimate domain controllers to be ignored in one of the following ways: <ul><li>Exclude Perpetrators List – Add the Users OU > Domain Controllers group and any other groups with domain controllers for a dynamic list of domain controllers</li><li>Exclude Domains/Servers – Add specific domain controllers for a static list of domain controllers See the [AD Replication Monitoring Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/adreplicationmonitoring.md) topic for additional information.</li></ul>                                                                   | None |
 
-Server-Workstation Folder
+
+**Server-Workstation Folder**
 
 | Template                           | Description                                                                                              | TAGS |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------- | ---- |
@@ -84,7 +88,7 @@ Server-Workstation Folder
 | AD: Computer Account Deletions     | No customizations required. Most common modifications: specify AD Perpetrator to be included or excluded | None |
 | AD: Computer Account Modifications | No customizations required. Most common modifications: specify AD Perpetrator to be included or excluded | None |
 
-Users Folder
+**Users Folder**
 
 | Subfolder               | Template                                         | Description                                                                                                                                              | TAGS |
 | ----------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |

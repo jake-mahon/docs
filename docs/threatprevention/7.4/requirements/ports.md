@@ -18,37 +18,45 @@ or in step 7 of a
 then Threat Prevention will create the necessary Windows firewall rules. If using a third party
 firewall, it will be necessary to manually set these.
 
-**NOTE:** SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the
+:::note
+SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the
 [System Alerting Window](/docs/threatprevention/7.4/admin/configuration/systemalerting/overview.md)
 topic for additional information.
+:::
+
 
 ## Enterprise Manager Firewall Rules
 
 The following firewall settings are required for communication with the Enterprise Manager:
 
-| Communication Direction       | Protocol         | Ports             | Description       |
-| ------------- | ---------------- | ---------- | ------------------- |
-| (For versions 7.3.5 and later Agents using auto security mode) Agents to Enterprise Manager        | gRPC / TCP       | 3741         | Inbound Agent Communication        |
-| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) Agents to Enterprise Manager | gRPC / TCP       | 3739       | Inbound Agent Communication       |
-| Enterprise Manager to SQL Server     | SQL Client / TCP    | 1433       | SQL Server Communication      |
-| Enterprise Manager to SQL Server        | SQL Client / UDP | 1434       | SQL Server Communication     |
-| Enterprise Manager to Agents     | RPC / TCP     | 135       | WMI enabled Optional: required for Agent Auto Deploy |
-| Enterprise Manager to Agents     | DCOM / TCP       | Dynamic Range 49152 - 65535 | WMI enabled Optional: required for Agent Auto Deploy |
+| Communication Direction                                                                                                                             | Protocol         | Ports                                       | Description                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------- | ---------------------------------------------------- |
+| (For versions 7.3.5 and later Agents using auto security mode) Agents to Enterprise Manager                                                         | gRPC / TCP       | 3741                                        | Inbound Agent Communication                          |
+| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) Agents to Enterprise Manager | gRPC / TCP       | 3739                                        | Inbound Agent Communication                          |
+| Enterprise Manager to SQL Server                                                                                                                    | SQL Client / TCP | 1433                                        | SQL Server Communication                             |
+| Enterprise Manager to SQL Server                                                                                                                    | SQL Client / UDP | 1434                                        | SQL Server Communication                             |
+| Enterprise Manager to Agents                                                                                                                        | RPC / TCP        | 135                                         | WMI enabled Optional: required for Agent Auto Deploy |
+| Enterprise Manager to Agents                                                                                                                        | DCOM / TCP       | Dynamic Range 49152 <ul><li>65535</li></ul> | WMI enabled Optional: required for Agent Auto Deploy |
+
 
 ## Agent Firewall Rules
 
 The following firewall settings are required for communication with the Agent:
 
-| Communication Direction        | Protocol   | Ports          | Description       |
-| ---------- | ---------- | --------------------- | ------------- |
-| (For versions 7.3.5 and later Agents using auto security mode) Agents to Enterprise Manager gRPC / TCP      | gRPC / TCP | 3741      | Outbound Enterprise Manager Communication      |
-| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) Agents to Enterprise Manager | gRPC / TCP | 3739      | Outbound Enterprise Manager Communication      |
-| Enterprise Manager to Agent       | RPC / TCP  | 135           | WMI enabled Optional: required for Agent Auto Deploy |
-| Enterprise Manager to Agent      | DCOM / TCP | Dynamic Range 49152 - 65535 | WMI enabled Optional: required for Agent Auto Deploy |
+| Communication Direction                                                                                                                             | Protocol   | Ports                                       | Description                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------- | ---------------------------------------------------- |
+| (For versions 7.3.5 and later Agents using auto security mode) Agents to Enterprise Manager gRPC / TCP                                              | gRPC / TCP | 3741                                        | Outbound Enterprise Manager Communication            |
+| (For upgrading from versions prior to 7.3.5.x Agents using auto security mode, or any Agents using high security mode) Agents to Enterprise Manager | gRPC / TCP | 3739                                        | Outbound Enterprise Manager Communication            |
+| Enterprise Manager to Agent                                                                                                                         | RPC / TCP  | 135                                         | WMI enabled Optional: required for Agent Auto Deploy |
+| Enterprise Manager to Agent                                                                                                                         | DCOM / TCP | Dynamic Range 49152 <ul><li>65535</li></ul> | WMI enabled Optional: required for Agent Auto Deploy |
 
-**NOTE:** For NAS device file activity monitoring, additional ports are required. See the
+
+:::note
+For NAS device file activity monitoring, additional ports are required. See the
 [Ports for NAS Device Activity Monitoring](#ports-for-nasdevice-activity-monitoring) topic for
 additional information.
+:::
+
 
 ## Admin Console Firewall Rules
 
@@ -62,8 +70,11 @@ The following firewall settings are required for communication with the Administ
 
 The following firewall settings are required for communication with the SQL Server:
 
-**NOTE:** This port requirement is specifically needed when the SQL Server is on a separate box from
+:::note
+This port requirement is specifically needed when the SQL Server is on a separate box from
 the Enterprise Manager and/or the Administration Console.
+:::
+
 
 | Communication Direction          | Protocol         | Ports | Description                              |
 | -------------------------------- | ---------------- | ----- | ---------------------------------------- |
@@ -75,7 +86,7 @@ the Enterprise Manager and/or the Administration Console.
 Configure appropriate firewall rules to allow connections with the Netwrix Threat Manager Reporting
 Module.
 
-Application Console Access Firewall Rules
+**Application Console Access Firewall Rules**
 
 The following firewall settings are required to access the Netwrix Threat Manager Reporting Module
 console:
@@ -84,12 +95,15 @@ console:
 | ----------------------- | -------- | ----- | ---------------------------------------- |
 | Bidirectional           | TCP      | 8080  | Remote access to the application console |
 
-**NOTE:** Threat Manager requires the default dynamic port range specified by Microsoft (49152
+:::note
+Threat Manager requires the default dynamic port range specified by Microsoft (49152
 through 65535) for Windows Server client/server operations. If a firewall or other appliance is
 blocking these ports, this server will no longer properly respond to client requests and no longer
 support standard IP Stack operations that are required for the operation of this product.
+:::
 
-Active Directory Domain Controllers Firewall Rules
+
+**Active Directory Domain Controllers Firewall Rules**
 
 The following firewall settings are required for communication between the Netwrix Threat Manager
 Reporting Module server and Active Directory domain controllers:
@@ -102,7 +116,7 @@ Reporting Module server and Active Directory domain controllers:
 | Outbound                | TCP      | 636     | SSL LDAP        |
 | Outbound                | TCP      | Various | The port that 135 reports. Used to bulk translate AD object names between formats.(Ephemeral Ports)                           |
 
-Database Firewall Rules
+**Database Firewall Rules**
 
 The following firewall settings are required to allow the Netwrix Threat Manager Reporting Module to
 talk to the Threat Prevention SQL database:
@@ -137,7 +151,7 @@ Monitor Activity Agent server and the target Dell device:
 | Dell Device CEE Server          | TCP      | RPC Dynamic Range | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
-Dell Isilon/PowerScale Devices Additional Firewall Rules
+**Dell Isilon/PowerScale Devices Additional Firewall Rules**
 
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell Isilon/PowerScale device:
@@ -147,7 +161,7 @@ Monitor Activity Agent server and the target Dell Isilon/PowerScale device:
 | Dell Isilon/PowerScale to CEE Server           | TCP      | TCP 12228         | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
-Dell Unity Devices Additional Firewall Rules
+**Dell Unity Devices Additional Firewall Rules**
 
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell device:
@@ -157,7 +171,7 @@ Monitor Activity Agent server and the target Dell device:
 | Dell Device CEE Server         | TCP      | RPC Dynamic Range | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
-Nasuni Edge Appliance Additional Firewall Rules
+**Nasuni Edge Appliance Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Nasuni Edge Appliance:
@@ -167,7 +181,7 @@ Agent server and the target Nasuni Edge Appliance:
 | Agent Server to Nasuni          | HTTPS         | 8443  | Nasuni API calls       |
 | Nasuni to Activity Agent Server | AMQP over TCP | 5671  | Nasuni event reporting |
 
-NetApp Data ONTAP 7-Mode Device Additional Firewall Rules
+**NetApp Data ONTAP 7-Mode Device Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target NetApp Data ONTAP 7-Mode device:
@@ -186,11 +200,14 @@ Agent server and the target NetApp Data ONTAP 7-Mode device:
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
 
-**NOTE:** If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
+:::note
+If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
+:::
 
-NetApp Data ONTAP Cluster-Mode Device Additional Firewall Rules
+
+**NetApp Data ONTAP Cluster-Mode Device Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target NetApp Data ONTAP Cluster-Mode device:
@@ -204,11 +221,14 @@ Agent server and the target NetApp Data ONTAP Cluster-Mode device:
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
 
-**NOTE:** If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
+:::note
+If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
+:::
 
-Panzura Devices Additional Firewall Rules
+
+**Panzura Devices Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Panzura device:

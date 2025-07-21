@@ -12,14 +12,20 @@ Directory Activity reporting. This is accomplished by configuring Threat Prevent
 Netwrix Activity Monitor, which in turn creates the activity log files that Access Analyzer
 collects.
 
-**NOTE:** Threat Prevention can only be configured to send event data to one Netwrix application,
+:::note
+Threat Prevention can only be configured to send event data to one Netwrix application,
 either Netwrix Activity Monitor or Netwrix Threat Manager but not both. However, the Activity
 Monitor can be configured with outputs for Access Analyzer and Threat Manager
+:::
+
 
 Follow these steps to configure this integration.
 
-**_RECOMMENDED:_** It is a best practice to use the API Server option of the Activity Monitor for
+:::info
+It is a best practice to use the API Server option of the Activity Monitor for
 this integration between Threat Prevention and Access Analyzer.
+:::
+
 
 **Step 1 –** In the Threat Prevention Administration Console, click **Configuration** > **Netwrix
 Threat Manager Configuration** on the menu. The Netwrix Threat Manager Configuration window opens.

@@ -11,10 +11,13 @@ deployed and configured to monitor the device. A Threat Prevention Agent must be
 same Windows server hosting the Activity agent. Once monitoring begins, follow the steps to
 configure a Threat Prevention policy to monitor file system changes.
 
-**NOTE:** The Threat Prevention policy does not change what the Activity Monitor agent is
+:::note
+The Threat Prevention policy does not change what the Activity Monitor agent is
 monitoring. It reads information collected by the Activity Monitor and applies any additional
 filters defined in the policy. Therefore, it is necessary for the Activity Monitor agent to be
 configured to monitor the desired activity.
+:::
+
 
 Follow the steps to monitor NAS devices.
 
@@ -26,8 +29,11 @@ Follow the steps to monitor NAS devices.
 in the Include Paths area to open the
 [Select File System Objects Window](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/window/selectfilesystemobjects.md).
 
-_Remember,_ any files or folders to be excluded need to be a subset of a folder identified in the
+:::tip
+Remember, any files or folders to be excluded need to be a subset of a folder identified in the
 Include Paths area.
+:::
+
 
 **Step 4 –** Connect to the Threat Prevention Agent deployed to a Windows server hosting the
 Activity agent. The local drives of the Windows server and all NAS devices being monitored by the

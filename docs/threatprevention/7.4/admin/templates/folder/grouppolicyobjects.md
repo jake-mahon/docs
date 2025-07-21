@@ -9,8 +9,11 @@ sidebar_position: 70
 The **Templates** > **Microsoft** > **Group Policy Objects** folder in the Navigation pane contains
 the following templates:
 
-**CAUTION:** Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
+:::warning
+Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
 being locked down or blocked.
+:::
+
 
 | Subfolder | Template                             | Description                                                                                                                                                                   | TAGS |
 | --------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |

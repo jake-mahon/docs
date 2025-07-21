@@ -29,22 +29,22 @@ activity on a network:
 - Threat Prevention Agents deployed across the environment
 - Netwrix Threat Manager Reporting Module
 
-Threat Prevention Architecture
+**Threat Prevention Architecture**
 
 ![Threat Prevention Architecture Diagram](/img/product_docs/threatprevention/7.4/admin/systemdiagram.webp)
 
-Threat Prevention Enterprise Manager
+**Threat Prevention Enterprise Manager**
 
 The Threat Prevention Enterprise Manager stores and maintains policies and policy templates, as well
 as receives and processes all captured events. Only one Enterprise Manager is needed for any
 environment.
 
-Threat Prevention Administration Console
+**Threat Prevention Administration Console**
 
 The Threat Prevention Administration Console is used to create and manage policies and their
 associated alerts and actions. Multiple instances of the Administration Console are supported.
 
-Threat Prevention Agents
+**Threat Prevention Agents**
 
 The Threat Prevention Agents retrieve configuration data from the Enterprise Manager, monitor
 network activity, and report events to the Enterprise Manager. The events collected by an Agent are
@@ -55,7 +55,7 @@ topic for information on where to deploy Agents and supported platforms. See the
 [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
 section for deployment procedures.
 
-Netwrix Threat Manager Reporting Module
+**Netwrix Threat Manager Reporting Module**
 
 The Netwrix Threat Manager Reporting Module application provides a way to generate and to view
 reports for the event data that is collected by the Agent and stored in the event database. Reports
@@ -96,7 +96,7 @@ where on a network that policy applies, and when it is active. See the
 [Policy Configuration](/docs/threatprevention/7.4/admin/policies/configuration/configuration.md)
 topic for additional information.
 
-General
+**General**
 
 General components include the name and description of the policy, policy creation and modification
 information, policy schedule, whether or not the policy is sending alerts, and whether or not the
@@ -106,7 +106,7 @@ The schedule controls when the policy is active. For example, if it is desired t
 be more closely monitored outside of regular business hours, then a policy can be created and
 scheduled to be active only outside of regular business hours.
 
-Event Type
+**Event Type**
 
 Event Type components indicate what kind of events are to be monitored or blocked by the policy. A
 single policy can contain multiple event types, even from different event sources. For example, a
@@ -115,7 +115,7 @@ policy might monitor the creation of user accounts in Active Directory.
 Each event type has an optional set of filters associated with it. The available filters vary
 depending on the event source.
 
-Actions
+**Actions**
 
 Actions components are used to process and respond to events once they have been captured. A policy
 can include one or more actions (or event consumers). It can also have no actions, but this is not
@@ -154,13 +154,13 @@ Manager. See the
 [Application Server Install](/docs/threatprevention/7.4/install/application.md)
 topic for additional information.
 
-NVMonitorConfig Database
+**NVMonitorConfig Database**
 
 This database contains configuration information for the Threat Prevention product. The Threat
 Prevention Enterprise Manager maintains and shares this information with the Agents, primarily
 policy configuration information. .
 
-NVMonitorData Database
+**NVMonitorData Database**
 
 This database contains the event activity data captured by Threat Prevention policies. Agents
 capture these events, as defined by policies, and send them to the Enterprise Manager. The
