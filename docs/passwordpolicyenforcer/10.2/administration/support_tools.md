@@ -63,7 +63,7 @@ Policy Enforcer 10.0,CN=System).
 
 **Step 8 –** Import configuration with the following command:
 
-ldifde -i -f PPE10.1.txt
+**ldifde -i -f PPE10.1.txt**
 
 Check **URL** and **wWWHomePage** attributes in ADSIEdit or AD Users and Computers before opening
 PPE Management Console to ensure that configuration has been maintained.
@@ -73,8 +73,11 @@ PPE Management Console to ensure that configuration has been maintained.
 The Property Editor allows you to directly edit the Password Policy Enforcer configuration. You
 should only use the Property Editor if instructed to by Netwrix Support.
 
-**CAUTION:** Only configure the settings on the Property Editor tab if instructed to do so by
+:::warning
+Only configure the settings on the Property Editor tab if instructed to do so by
 [Netwrix Support](https://www.netwrix.com/support.html).
+:::
+
 
 Follow the steps below to open and configure the Property Editor.
 

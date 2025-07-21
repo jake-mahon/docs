@@ -29,19 +29,170 @@ box is selected, Password Policy Enforcer tests passwords with, and without char
 This stops users from circumventing the rule by substituting some characters. Password Policy
 Enforcer detects these common character substitutions:
 
-| Original |     | Substituted       |
-| -------- | --- | ----------------- |
-| A        | a   | ^ @               |
-| B        | b   | 8                 |
-| C        | c   | ( or \{ or < or [ |
-| D        | d   | ) or \} or > or ] |
-| E        | e   | 3                 |
-| G        | g   | 6 or 9            |
-| I        | i   | ! or \| or 1      |
-| O        | o   | 0 or (zero)       |
-| S        | s   | $ or 5            |
-| T        | t   | + or 7            |
-| Z        | z   | 2                 |
+ <table>
+            <thead>
+                <tr>
+                    <th colspan="2">
+                       Original
+                    </th>
+                    <th>
+                        Substituted
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                    A
+                    </td>
+                    <td>
+                        a
+                    </td>
+                    <td>
+                        ^ @
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        B
+                    </td>
+                    <td>
+                        b
+                    </td>
+                    <td>
+                        8
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        C
+                    </td>
+                    <td>
+                        c
+                    </td>
+                    <td>
+                        <table>
+                           <tbody>
+                                <tr>
+                                    <td>
+                                      ( or &lbrace;
+                                    </td>
+                                    <td>&lt;</td>
+                                    <td>[</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        D
+                    </td>
+                    <td>
+                        d
+                    </td>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        ) or }
+                                    </td>
+                                    <td>&gt;</td>
+                                    <td>]</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E
+                    </td>
+                    <td>
+                        e
+                    </td>
+                    <td>
+                        3
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        G
+                    </td>
+                    <td>
+                        g
+                    </td>
+                    <td>
+                        6 or 9
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        I
+                    </td>
+                    <td>
+                        i
+                    </td>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        ! or |
+                                    </td>
+                                    <td>&#160; 1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        O
+                    </td>
+                    <td>
+                        o
+                    </td>
+                    <td>
+                        0 or (zero)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        S
+                    </td>
+                    <td>
+                        s
+                    </td>
+                    <td>
+                        <p>$ or 5</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        T
+                    </td>
+                    <td>
+                        t
+                    </td>
+                    <td>
+                        + or 7
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Z
+                    </td>
+                    <td>
+                        z
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ## Tolerance
 

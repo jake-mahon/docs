@@ -6,9 +6,12 @@ sidebar_position: 40
 
 # Uninstall Netwrix Password Policy Enforcer
 
-**NOTE:** Uninstalling the product does not remove system files as the PPE.DLL from the System32
+:::note
+Uninstalling the product does not remove system files as the PPE.DLL from the System32
 folder. Before rebooting the Domain Controller, Windows has a lock on the system files. You can
 delete system files after rebooting the Domain Controller.
+:::
+
 
 Follow the steps to uninstall Password Policy Enforcer.
 

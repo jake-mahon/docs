@@ -1,7 +1,7 @@
 ---
 title: "What's New"
 description: "What's New"
-sidebar_position: 10
+sidebar_position: 2
 ---
 
 # What's New
@@ -18,12 +18,12 @@ Password Policy Enforcer version.
 
 ### Password Policy Enforcer v10.2
 
-NEW: Bulk Password Testing
+**NEW: Bulk Password Testing**
 
 Check a large number of passwords against a selected policy and a get a report of the accepted and
 rejected passwords.
 
-NEW: HIPB Updater
+**NEW: HIPB Updater**
 
 Downloads the most recent Have I Been Pwnd (HIBP) hash list and incremental updates directly from
 Netwrix Labs . Offers options to apply scheduling and triggers. This feature replaces the Pwnd
@@ -33,34 +33,34 @@ See the
 [HIBP Updater](/docs/passwordpolicyenforcer/10.2/administration/hibpupdater.md)
 topic for additional information.
 
-NEW: Password Quality Feedback
+**NEW: Password Quality Feedback**
 
 End users get real-time feedback when typing a new password on the Windows Change Password screen,
 indicating whether the new password meets the applied policies.
 
-Enhancement: Updated Password Checker User Interface
+**Enhancement: Updated Password Checker User Interface**
 
 Added a three-tab user layout for better separation of settings and improved usability. Password
 Checker can now be accessed from the PPS Properties page.
 
-Enhancement: Event Logging in Password Checker
+**Enhancement: Event Logging in Password Checker**
 
 Password Checker now has an option to log an event when it finds a compromised password.
 
-Enhancement: Force Password Expiration in Password Checker
+**Enhancement: Force Password Expiration in Password Checker**
 
 Password Checker now has an option to force password expiration for accounts where compromised
 passwords are found.
 
-Enhancement: License Usage Count
+**Enhancement: License Usage Count**
 
 The License tab on PPS Properties page now displays the number of connected active AD accounts and
 the number of AD accounts where policies are applied.
 
-Enhancement: Security Update
+**Enhancement: Security Update**
 
 Added option to utilize RPC Kerberos Sign/Seal protocol for client-server communication.
 
-Enhancement: Rule Name Properties
+**Enhancement: Rule Name Properties**
 
 Added the names of the rules to their properties’ windows for better identification.

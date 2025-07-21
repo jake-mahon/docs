@@ -10,8 +10,11 @@ The Password Policy Client is compatible with Windows 8, 8.1, 10, or 11. It is a
 Windows Server 2016, 2019, and 2022. The Password Policy Client can be used with Remote Desktop
 Services on these operating systems.
 
-**NOTE:** The Password Policy Client is also compatible with Windows XP, Vista, and 7. However,
+:::note
+The Password Policy Client is also compatible with Windows XP, Vista, and 7. However,
 Netwrix no longer provides technical support for these versions.
+:::
+
 
 ## System Requirements
 
@@ -59,7 +62,7 @@ and conditions.
 **Step 4 –** Right-click the **PPEClt10.2.msi** icon, click **Copy**, and then paste the file into
 the distribution point.
 
-![the_password_policy_client](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client.webp)
+![the_password_policy_client](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe.webp)
 
 **Step 5 –** Give the **Domain Computers** security group read access to the PPEClt10.2.msi file in
 the distribution point.
@@ -79,7 +82,7 @@ this domain, and Link it here...**.
 
 **Step 4 –** Enter **Password Policy Client** in the provided field, then press **ENTER**.
 
-![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_1.webp)
+![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe1.webp)
 
 ## Edit the Group Policy Object
 
@@ -94,14 +97,17 @@ the left pane.
 
 **Step 4 –** Enter the full **UNC path to PPEClt10.2.msi** in the Open dialog box.
 
-**NOTE:** You must enter a UNC path so that other computers can access this file over the network.
+:::note
+You must enter a UNC path so that other computers can access this file over the network.
 For example, `\\file server\distribution point share\PPEClt10.2.msi`
+:::
+
 
 **Step 5 –** Click **Open**.
 
 **Step 6 –** Select the **Assigned deployment method**, then click **OK**.
 
-![the_password_policy_client_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_2.webp)
+![the_password_policy_client_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
 
 **Step 7 –** Close the **Group Policy Management Editor**.
 
@@ -117,9 +123,12 @@ and clicking the **Change a password** item. If you do not see the password poli
 because a Password Policy Enforcer policy has not been assigned to you, or because the firewall
 rules have not been created.
 
-**NOTE:** The Password Policy Client does not store or send passwords or password hashes over the
+:::note
+The Password Policy Client does not store or send passwords or password hashes over the
 network. An attacker cannot determine user passwords by sniffing the communication protocol. The
 protocol is also encrypted by default for additional protection.
+:::
+
 
 ## Creating Firewall Rules for the Password Policy Client
 
@@ -141,7 +150,10 @@ the Domain Controllers OU.
 
 **Step 2 –** Right-click the **Password Policy Enforcer GPO**, and then click **Edit...**.
 
-**NOTE:** You need to create the GPO if you chose the Express Setup option.
+:::note
+You need to create the GPO if you chose the Express Setup option.
+:::
+
 
 **Step 3 –** Expand the **Computer Configuration**, **Policies**, **Administrative Templates**,
 **Network**, **Network Connections**, and **Windows Firewall** items.
@@ -149,7 +161,7 @@ the Domain Controllers OU.
 **Step 4 –** Click **Domain Profile** in the left pane then double-click **Windows Firewall: Define
 inbound port exceptions** in the right pane.
 
-![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_3.webp)
+![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe2.webp)
 
 **Step 5 –** Select the **Enabled** option, and then click **Show...**.
 
@@ -190,5 +202,8 @@ Password Policy Client:
 | Destination address | Client Computer IP address   |
 | Destination port    | Any                          |
 
-**NOTE:** If your firewall performs Stateful Packet Inspection, then only create a rule for the
+:::note
+If your firewall performs Stateful Packet Inspection, then only create a rule for the
 request datagram as the firewall will automatically recognize and allow the response datagram.
+
+:::

@@ -18,18 +18,24 @@ Info Tech group, then any policy assigned to the Info Tech group also applies to
 Helpdesk group. If this behavior is not desired, then you can assign a different policy to the
 Helpdesk group.
 
-**NOTE:** When a policy is assigned to a container, Password Policy Enforcer enforces the policy for
+:::note
+When a policy is assigned to a container, Password Policy Enforcer enforces the policy for
 all users in the container as well as any child containers. For example, if the Helpdesk and
 Managers OUs are children of the Info Tech OU, then any policy assigned to the Info Tech OU also
 applies to the two child OUs. If this behavior is not desired, then you can assign a different
 policy to a child OU.
+:::
+
 
 ![managing_policies_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_3.webp)
 
-**NOTE:** When a domain policy is assigned to a user or group, Password Policy Enforcer stores the
+:::note
+When a domain policy is assigned to a user or group, Password Policy Enforcer stores the
 user or group SID in the configuration. The assignment remains valid even if the user or group is
 renamed. When a local policy is assigned to a user, Password Policy Enforcer stores the username in
 the configuration. The assignment is invalidated if the user is renamed.
+:::
+
 
 ![managing_policies_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_4.webp)
 
@@ -70,8 +76,11 @@ Follow the steps to remove a policy assignment.
 
 **Step 7 –** Click OK to close the Policy Properties page.
 
-**NOTE:** Different assignment types can be used for a single policy. For example, you may assign
+:::note
+Different assignment types can be used for a single policy. For example, you may assign
 users to a policy by both OU and group at the same time.
+:::
+
 
 ## Policy Assignment Conflicts
 

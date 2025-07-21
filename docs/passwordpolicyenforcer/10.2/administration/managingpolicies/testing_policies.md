@@ -26,8 +26,11 @@ New Password text boxes.
 
 **Step 5 –** Click **Test**, or wait a few seconds if Test passwords as I type is selected.
 
-**NOTE:** Policy testing simulates a password change, but it does not change the password. As it is
+:::note
+Policy testing simulates a password change, but it does not change the password. As it is
 only a simulation, you do not have to enter the correct password in the Old Password text box.
+:::
+
 
 The Password Policy Enforcer management console displays a green check mark below the Test button if
 the new password complies with the Password Policy Enforcer password policy, or a red cross if it
@@ -70,8 +73,11 @@ Follow the steps below to test your configuration.
 
 **Step 4 –** Select the location of the folder where you want to upload the result.
 
-**NOTE:** It is recommended that the Password File and Result folder are not located on a shared
+:::note
+It is recommended that the Password File and Result folder are not located on a shared
 drive, so the processing can be done faster.
+:::
+
 
 **Step 5 –** Select a desired policy from the drop down list.
 

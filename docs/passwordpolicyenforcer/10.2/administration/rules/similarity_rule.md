@@ -28,6 +28,9 @@ Select the **Enabled** check box to enable the Similarity rule.
   tolerance is five (or lower), and accept it if the tolerance is six (or higher). Choose the
   **Auto** value to reject passwords that contain the user's entire current password.
 
-**NOTE:** Click the Messages tab to customize the Password Policy Client rule inserts. This rule is
+:::note
+Click the Messages tab to customize the Password Policy Client rule inserts. This rule is
 only enforced if the Password Policy Client is installed. It does not store or transmit passwords or
 password hashes.
+
+:::

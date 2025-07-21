@@ -34,8 +34,11 @@ conditions.
 **Step 5 –** If you are prompted to Modify, Repair, or Remove the installation, select **Modify**,
 then click **Next**. Proceed to step 11. Do not disable the other features as described below.
 
-**CAUTION:** If prompted to Modify, Repair, or Remove, do not modify any settings or disable any
+:::warning
+If prompted to Modify, Repair, or Remove, do not modify any settings or disable any
 features as described in steps 6 - 10.
+:::
+
 
 **Step 6 –** Click **Next** when the Password Policy Enforcer Installation Wizard opens.
 
