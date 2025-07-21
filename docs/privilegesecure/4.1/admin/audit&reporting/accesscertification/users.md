@@ -70,7 +70,7 @@ certification task.
 **Step 7 –** Click Add to add the selected user(s) or group(s).
 
 The new user(s) and group(s) are added to the certification task and are shown on the
-[Users Tab for Access Certification](/docs/privilegesecure/4.1/admin/interface/accesscertification/users.md).
+[Users Tab for Access Certification](/docs/privilegesecure/4.1/admin/audit&reporting/accesscertification/users.md).
 
 **Step 8 –** Click Close to return to the Access Certification page.
 

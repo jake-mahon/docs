@@ -8,7 +8,7 @@ sidebar_position: 40
 
 The SAML Configuration wizard is opened with the **Configuration Wizard** button in the
 Configuration >
-[Authentication Page](/docs/privilegesecure/4.1/admin/configuration/authentication/authentication.md)
+[Authentication Page](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/authentication.md)
 for an SAML Authentication Connector Type.
 
 ![configureclient](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/configureclient.webp)

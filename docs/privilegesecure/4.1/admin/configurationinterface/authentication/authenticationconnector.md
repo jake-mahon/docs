@@ -24,16 +24,16 @@ Follow the steps to add an authentication connector to the console.
 fields will change depending on the selection.
 
 **Step 4 –** Enter the information from the applicable authentication connector provider. See the
-[Authentication Page](/docs/privilegesecure/4.1/admin/configuration/authentication/authentication.md)
+[Authentication Page](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/authentication.md)
 section for detailed descriptions of the fields.
 
 - For OpenID Connect, open the
-  [OpenID Connect Configuration Wizard](/docs/privilegesecure/4.1/admin/interface/authentication/openidconnectconfiguration/openidconnectconfiguration.md)
+  [OpenID Connect Configuration Wizard](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/openidconnectconfiguration/openidconnectconfiguration.md)
 - For SAML, open the
-  [SAML Configuration Wizard](/docs/privilegesecure/4.1/admin/interface/authentication/samlconfiguration.md)
+  [SAML Configuration Wizard](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/samlconfiguration.md)
 
 See the
-[OpenID Connect Authentication](/docs/privilegesecure/4.1/admin/interface/authentication/openidconnectconfiguration/openidconnectauthentication.md)
+[OpenID Connect Authentication](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/openidconnectconfiguration/openidconnectauthentication.md)
 appendices for additional information on how to configure third party Authentication Connectors.
 
 **Step 5 –** Click **Save** to create the new authentication connector.

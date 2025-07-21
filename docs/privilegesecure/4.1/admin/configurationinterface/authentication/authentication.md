@@ -23,7 +23,7 @@ This pane has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 -   - button — Create a new connector. See the
-      [Add Authentication Connector](/docs/privilegesecure/4.1/admin/interface/authentication/authenticationconnector.md)
+      [Add Authentication Connector](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/authenticationconnector.md)
       topic for additional information.
 - Default icon — Indicates if connector is set as default. Icon appears when activity is hovered
   over. Click the icon to change or clear the default.
@@ -76,7 +76,7 @@ The following fields apply to the OpenID Connect Connector Type:
 
 - Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector.
   See the
-  [OpenID Connect Configuration Wizard](/docs/privilegesecure/4.1/admin/interface/authentication/openidconnectconfiguration/openidconnectconfiguration.md)
+  [OpenID Connect Configuration Wizard](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/openidconnectconfiguration/openidconnectconfiguration.md)
   topic for additional information.
 - Show / Hide Data link — Click the link to view or hide additional details
 - Issuer — Displays the OpenID Connect provider issuer URI
@@ -92,7 +92,7 @@ The following fields apply to the SAML Connector Type:
 
 - Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector.
   See the
-  [SAML Configuration Wizard](/docs/privilegesecure/4.1/admin/interface/authentication/samlconfiguration.md)
+  [SAML Configuration Wizard](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/samlconfiguration.md)
   topic for additional information.
 - Show / Hide Data link — Click the link to view or hide additional details
 - Login URI — Displays the SAML provider issuer URI
