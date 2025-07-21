@@ -19,7 +19,7 @@ tasks and has the following features:
 - Search – Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Add Access Cert. Task icon – Add an access certification task to the list. See the
-  [Add Access Certification Task](/docs/privilegesecure/4.1/admin/interface/accesscertification/accesscertificationtask.md)
+  [Add Access Certification Task](/docs/privilegesecure/4.1/admin/audit&reporting/accesscertification/accesscertificationtask.md)
   topic for additional information.
 - List of access certification tasks – Select a task from the list to view and edit settings:
 
@@ -48,5 +48,5 @@ features:
 - Date Started (only visible once review is started) – Date the reviewer begins to review the access
   entitlements
 - Date Completed – Date the reviewer finished reviewing the access elements
-- [Users Tab for Access Certification](/docs/privilegesecure/4.1/admin/interface/accesscertification/users.md)
+- [Users Tab for Access Certification](/docs/privilegesecure/4.1/admin/audit&reporting/accesscertification/users.md)
 - [Entitlements Tab for Access Certification](/docs/privilegesecure/4.1/admin/audit&reporting/accesscertification/entitlements.md)
