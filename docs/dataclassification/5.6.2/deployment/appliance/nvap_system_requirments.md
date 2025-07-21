@@ -1,3 +1,9 @@
+---
+title: "Requirements to Deploy Virtual Appliance"
+description: "Requirements to Deploy Virtual Appliance"
+sidebar_position: 30
+---
+
 # Requirements to Deploy Virtual Appliance
 
 This section provides the software requirements and represents the default hardware configuration

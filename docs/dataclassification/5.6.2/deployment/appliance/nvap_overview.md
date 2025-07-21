@@ -1,3 +1,9 @@
+---
+title: "Virtual Deployment"
+description: "Virtual Deployment"
+sidebar_position: 20
+---
+
 # Virtual Deployment
 
 In addition to traditional on-premises deployment, Netwrix Data Classification now offers new

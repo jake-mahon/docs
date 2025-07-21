@@ -1,3 +1,9 @@
+---
+title: "Import Virtual Machine from Image to VMware"
+description: "Import Virtual Machine from Image to VMware"
+sidebar_position: 40
+---
+
 # Import Virtual Machine from Image to VMware
 
 1. Connect to your vSphere infrastructure using vSphere Web client, right-click the object you
