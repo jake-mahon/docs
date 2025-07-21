@@ -10,15 +10,14 @@ sidebar_position: 30
 
 NOTE: Our Windows Application (Win App) is not available for MSP-customers!
 
-|                             |                                     |                        |
-| --------------------------- | ----------------------------------- | ---------------------- |
 | Attribute                   | Minimum                             | Recommended            |
+| --------------------------- | ----------------------------------- | ---------------------- |
 | OS                          | Win 10 21H2 19044 Win 11 21H2 22000 | Win 11 23H2 22631.3235 |
 | Architecture                | x64                                 | x64                    |
 | CPU [Cores]                 | 4                                   | 8                      |
-| RAM [GB]                    | 8                                   | 16                     |
+| RAM [GB]                    | 8                                   | 16                     |
 | Disk Space [GB]             | 50                                  | 100                    |
-| MS .NET Framework           | 4.8                                 | 4.8.1                  |
+| MS .NET Framework           | 4.8                                 | 4.8.1                  |
 | RDP-Version (if applicable) | 10                                  | 12                     |
 
 #### Required Configuration
