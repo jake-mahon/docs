@@ -11,8 +11,10 @@ the list of users with the role is displayed. The links open the appropriate rec
 example the **User** link opens the **User** record. Access membership reviews from **UAR List** in
 your menu bar, or one of the review shortcuts.
 
+:::note
 Reviews open on the **Review** tab. The **Review Notes** tab lists the review details for the
 review.
+:::
 
 ![Membership review](/img/product_docs/platgovnetsuite/uar/uar_owner/membership_review.webp)
 

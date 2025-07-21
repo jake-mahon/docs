@@ -8,25 +8,25 @@ sidebar_position: 110
 
 Here is a list of common questions customers have asked after they Go Live.
 
-> _How To_: Create a Change Request for Role Assignment
+> _How To_: [Create a Change Request for Role Assignment](#create-a-change-request-for-role-assignment)
 >
-> _How To_: Add New Customizations to a Change Request
+> _How To_: [Add New Customizations to a Change Request](#add-new-customizations-to-a-change-request)
 >
-> _How To_:Search for Customizations
+> _How To_: [Search for Customizations](#search-for-customizations)
 >
-> _About_: Prototype Customizations
+> _About_: [Prototype Customizations](#prototype-customizations)
 >
-> _About_: Approval Overrides
+> _About_: [Approval Overrides](#approval-overrides)
 >
-> _Help_: Change By Field Showing AutoSpider or Could Not Be Determined
+> _Help_: [Change By Field Showing AutoSpider or Could Not Be Determined](#change-by-field-showing-autospider-or-could-not-be-determined)
 >
-> _Help_: New Script Deployments on Non-Compliant Changes Report
+> _Help_: [New Script Deployments on Non-Compliant Changes Report](#new-script-deployments-on-non-compliant-changes-report)
 >
-> _Help_: Change Logs Attached to the Wrong Change Request
+> _Help_: [Change Logs Attached to the Wrong Change Request](#change-logs-attached-to-the-wrong-change-request)
 >
-> _Help_: Managed Bundle changes showing up as non-compliant changes?
+> _Help_: [Managed Bundle changes showing up as non-compliant changes?](#managed-bundle-changes-showing-up-as-non-compliant-changes)
 >
-> _Help_: You do not have a Valid License Message
+> _Help_: [You do not have a Valid License Message](#you-do-not-have-a-valid-license-message)
 
 ## Create a Change Request for Role Assignment
 

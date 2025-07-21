@@ -22,14 +22,17 @@ To create a change request:
 5. Under the **Impact Analysis tab**, the customizations you selected are listed under one or more
    tabs:
 
-- Can Be Safely Deleted or Modified
-- Cannot Be Safely Deleted or Modified or
-- Inactive Customizations (Already Deleted)
+    - Can Be Safely Deleted or Modified
+    - Cannot Be Safely Deleted or Modified or
+    - Inactive Customizations (Already Deleted)
 
-![archivefields1](/img/product_docs/platgovnetsuite/clean_up/archivefields1.webp)6.
-Click on the **Archive Customizations** if you find your customizations under **Cannot Be Safely
+![archivefields1](/img/product_docs/platgovnetsuite/clean_up/archivefields1.webp)
+
+6. Click on the **Archive Customizations** if you find your customizations under **Cannot Be Safely
 Deleted or Modified** and under **Warning it says Not Archived**
-![archivefields2](/img/product_docs/platgovnetsuite/clean_up/archivefields2.webp)7.
-Once your customizations are processed and archived, your customizations are listed under **Can be
+
+![archivefields2](/img/product_docs/platgovnetsuite/clean_up/archivefields2.webp)
+
+7. Once your customizations are processed and archived, your customizations are listed under **Can be
 Safely Deleted or Modified**. Your [archive folder](/docs/platgovnetsuite/cleanup/set_up_archive_folder.md) has the CSV file you
 can download. The file name has the field type and the script ID.

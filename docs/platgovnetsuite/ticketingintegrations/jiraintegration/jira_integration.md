@@ -16,7 +16,6 @@ compliant changes and automating the reconciliation of change logs during an aud
 
 - Features and Benefits
 - Technical Considerations
-- Jira Process Flow
 - Set Up the Integration
 
 ### Features and Benefits
@@ -54,16 +53,12 @@ Review these considerations prior to deploying the Jira integration:
 6. NetSuite connections use the REST Jira interface, executing on the client side to prevent server
    load.
 
-### Jira Process Flow
-
-![Jira Integration Process Flow](/img/product_docs/platgovnetsuite/integrations/strongpointjiraflow.webp)
-
 ## Set Up the Integration
 
 To set up the Strongpoint Jira integration:
 
 1. Review Your Jira Statuses
-2. Install the Netsuite Bundle
+2. Install the NetSuite Bundle
 3. Configure NetSuite and Jira
 4. Install the App
 5. Create an Integration User Account (optional)
@@ -82,7 +77,7 @@ The mapping is part of the Configure NetSuite and Jira procedure.
 Refer to the Atlassian documentation for instructions on
 [Defining status field values](https://confluence.atlassian.com/adminjiraserver070/defining-status-field-values-749382903.html?_ga=2.262596428.1900070949.1572132057-2138500458.1540834491).
 
-### Install the Netsuite Bundle
+### Install the NetSuite Bundle
 
 1. Open **Customization** > **SuiteBundler** > **Search & Install Bundles**
 2. Search for bundle **311231**
@@ -107,8 +102,8 @@ Refer to the Atlassian documentation for instructions on
     - **Jira Statuses for Pending Approval Status**
     - **Jira Statuses for Approved Status**
     - **Jira Statuses for Complete Status**
-    - Jira Statuses for Rejected Status
-    - Jira Statuses for Canceled Status
+    - **Jira Statuses for Rejected Status**
+    - **Jira Statuses for Canceled Status**
 
 6. Check **Automatic Synchronization** to enable Platform Governance for NetSuite to handle the
    synchronization between Jira and NetSuite when a Ticket status is updated to a mapped status.

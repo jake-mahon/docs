@@ -11,9 +11,11 @@ bar to access the list. Completed reviews cannot be modified. You can use **Filt
 your list. Additional reporting for extracting permission and membership data is available from the
 [administrator](/docs/platgovnetsuite/uar/adminoverview/admin_uar_list.md) and [owner](/docs/platgovnetsuite/uar/owneroverview/owner_uar_list.md) Review lists.
 
+:::note
 UAR Administrators and Auditors see all completed reviews.  
 Owners see their assigned, completed reviews.  
 Additional Reviewers see completed reviews where they were assigned.
+:::
 
 ![Open UAR History](/img/product_docs/platgovnetsuite/uar/uar_history.webp)
 

@@ -19,11 +19,17 @@ To create the first mass update:
 
     ![Select Use Expressions](/img/product_docs/platgovnetsuite/bundle_removal/bundle_removal_use_expressions.webp)
 
-4. Add the following filters on the **Criteria** tab: | | Parens | Filter | Description | Parens |
-   And/Or | | --- | --- | --- | --- | --- | --- | | Filter 1 | | Inactive | Is false | | and | |
-   Filter 2 | ( | Bundle | Bundle ID | | or | | Filter 3 | | Bundle | Bundle ID | ) | |
+4. Add the following filters on the **Criteria** tab:
 
+|  | Parens | Filter | Description | Parens | And/Or |
+| --- | :---: | --- | --- | :---: | --- |
+| Filter 1 | | Inactive | Is false | | and |
+| Filter 2 | ( | Bundle | Bundle ID | | or |
+| Filter 3 |  | Bundle | Bundle ID | ) | or |
+
+:::note
 You can remove more than one bundle at a time.
+:::
 
 ![Mass Update Filters](/img/product_docs/platgovnetsuite/bundle_removal/mass_update_filters.webp)
 
@@ -43,14 +49,18 @@ Customization to **To Be Investigated**. It identifies everything needing invest
 1. Open **Lists** > **Mass Update** > **Mass Updates**
 2. Open **General Updates** > **Custom Records** > **Customization**
 3. Check **Use Expressions** on the **Criteria** tab.
-4. Add the following filters on the Criteria tab: | | Parens | Filter | Description | Parens |
-   And/Or | | --- | --- | --- | --- | --- | --- | | Filter 1 | | Inactive | Is false | | and | |
-   Filter 2 | | Clean-Up Status | Is Not To Be Cleaned Up | | and | | Filter 3 | ( | Data Sources:
-   Clean-Up Status | Is To Be Cleaned Up | | or | | Filter 4 | | Scripts: Clean-Up Status | Is To Be
-   Cleaned Up | | or | | Filter 5 | | Forms: Clean-Up Status | Is To Be Cleaned Up | | or | | Filter
-   6 | | Workflows: Clean-Up Status | Is To Be Cleaned Up | | or | | Filter 7 | | List: Clean-Up
-   Status | Is To Be Cleaned Up | | or | | Filter 8 | | Searches/Mass Updates: Clean-Up Status | Is
-   To Be Cleaned Up | ) | |
+4. Add the following filters on the Criteria tab:
+
+|  | Parens | Filter | Description | Parens | And/Or |
+| --- | :---: | --- | --- | :---: | --- |
+| Filter 1 | | Inactive | Is false | | and |
+| Filter 2 | | Clean-Up Status | Is Not To Be Cleaned Up | | and |
+| Filter 3 | ( | Data Sources: Clean-Up Status | Is To Be Cleaned Up | | or |
+| Filter 4 | | Scripts: Clean-Up Status | Is To Be Cleaned Up | | or |
+| Filter 5 | | Forms: Clean-Up Status | Is To Be Cleaned Up | | or |
+| Filter 6 | | Workflows: Clean-Up Status | Is To Be Cleaned Up | | or |
+| Filter 7 | | List: Clean-Up Status | Is To Be Cleaned Up | | or | 
+| Filter 8 | | Searches/Mass Updates: Clean-Up Status | Is To Be Cleaned Up | ) |  |
 
 ![Adding filters](/img/product_docs/platgovnetsuite/bundle_removal/mass_update_filters2.webp)
 

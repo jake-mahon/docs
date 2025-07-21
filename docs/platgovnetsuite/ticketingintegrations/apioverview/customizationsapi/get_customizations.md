@@ -12,33 +12,35 @@ Returns a list of customizations using the available user-defined filters.
 
 **Name**
 
-URL :
+**URL**:
 `https://<account_id_xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_customization_api&deploy=1`
 
-HTTP Method : POST
+**HTTP Method**: POST
 
 ### Request Body JSON Object Definition
 
 **Name** / **Value**
 
-actionType : retrieveCustomizations
+**actionType**: retrieveCustomizations
 
-name : `<customization_name>`
+**name**: `<customization_name>`
 
-scriptId : `<script_id>`
+**scriptId**: `<script_id>`
 
-type : `<type>`
+**type**: `<type>`
 
-bundleId : `<bundle_id>`
+**bundleId**: `<bundle_id>`
 
-modifiedBy : `<employee_id>`
+**modifiedBy**: `<employee_id>`
 
-from : `<date_in_milliseconds_in_string_format>`
+**from**: `<date_in_milliseconds_in_string_format>`
 
-to : `<date_in_milliseconds_in_string_format>`
+**to**: `<date_in_milliseconds_in_string_format>`
 
+:::note
 Request body names are case sensitive and mandatory. For the **actionType** parameter, it is always
 a constant value, in this case **retrieveCustomizations**.
+:::
 
 ### Sample Request Body
 
@@ -62,7 +64,7 @@ credentials. Header tokens should be encoded in HMAC SHA256.
 
 ### Format
 
-Authorization: `<_encoded authentication code_>`
+**Authorization**: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -76,33 +78,33 @@ Returns a JSON format string.
 
 **Name** / **Type**
 
-status : string
+**status**: string
 
-message : string
+**message**: string
 
-data : Array of JSON objects
+**data**: Array of JSON objects
 
 ### Data Object Definition
 
 **Name** / **Type**
 
-name : string
+**name**: string
 
-scriptId : string
+**scriptId**: string
 
-internalId : string
+**internalId**: string
 
-type : JSON object
+**type**: JSON object
 
-customizationUrl : string
+*customizationUrl*: string
 
 ### Type Object Definition
 
 **Name** / **Type**
 
-name : string
+*name*: string
 
-value : string
+*value*: string
 
 ### Response JSON Object
 
@@ -129,10 +131,10 @@ value : string
 
 **Message**
 
-"Customization/s retrieved successfully" : Successfully pulled customization with the defined
+**"Customization/s retrieved successfully"**: Successfully pulled customization with the defined
 filters
 
-"No Customizations." : No customization/s found with the defined filters
+**"No Customizations."**: No customization/s found with the defined filters
 
 ### Error Messages
 
@@ -164,8 +166,8 @@ An error message is returned if any exceptions are encountered.
 
 The Customizations API is developed using a RESTlet with API version 2.1.
 
-Script Name : Strongpoint Int Customization API
+**Script Name**: Strongpoint Int Customization API
 
-Script ID : customscript_flo_int_customization_api
+**Script ID**: customscript_flo_int_customization_api
 
-Filename : StrongpointIntegrationCustomizationAPI.js
+**Filename**: StrongpointIntegrationCustomizationAPI.js

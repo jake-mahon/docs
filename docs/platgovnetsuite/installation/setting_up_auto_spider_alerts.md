@@ -17,9 +17,11 @@ created, the fields contain **Pending AutoSpider**. If too many days go by, the 
 
 ## Set Up the AutoSpider
 
+:::note
 The AutoSpider portlet should be installed on all Administrator homepages. The AutoSpider triggers
 when the Administrator logs in. Ideally daily or every other day. Best practice is to wait for the
 portlet to load and see the **Spider Triggered** message before continuing.
+:::
 
 The **AutoSpider Portlet** is required to update certain object types in NetSuite. Once triggered
 through the dashboard portlet, it picks up all changes on custom objects and triggers the scheduled

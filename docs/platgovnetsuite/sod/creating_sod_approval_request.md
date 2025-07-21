@@ -13,9 +13,9 @@ implementing your custom form.
 To create an SoD Approval request:
 
 1. Open **SoD** > **SoD Change Management** > **New SoD Approval**
-2. Select the SoD Examption Type. The **Scope** selections are different depending on the type.
+2. Select the SoD Exemption Type. The **Scope** selections are different depending on the type.
 
-    - **Cross Role Exemption** (default) isset on the employee level.
+    - **Cross Role Exemption** (default) is set on the employee level.
     - **Role Exemption** is set on the role level. With Role based exemptions, you have the option
       to apply to current and/or future employees to streamline onboarding.
 

@@ -28,6 +28,7 @@ Here is the process to create a control to monitor changes:
     | Formula (Numeric)       | Select **less than** for Formula (Numeric) Enter **0** for Value                                   | is less than 0                                    | **\{datecreated\}-\{lastmodifieddate\}** |
     | System Notes Fields     | Select **Field** Select **any of** Click **Purchase Approval Limit** Ctrl-Click **Purchase Limit** | Is any of Purchase Approval Limit, Purchase Limit |                                          |
     | System Notes Fields     | Select **Date** Select **on or after** Select **yesterday**                                        | is on or after yesterday                          |                                          |
+
     | Field                   | Summary Type                                                                                       |
     | ---                     | ---                                                                                                |
     | Name                    | Group                                                                                              |

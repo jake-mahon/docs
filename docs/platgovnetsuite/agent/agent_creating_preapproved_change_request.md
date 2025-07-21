@@ -21,11 +21,11 @@ Here are the steps to create a pre-approved change request for a control:
    loose approval criteria.
 
     | Pattern       | Description                              |
-    | ------------- | ---------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+    | --- | --- |
     | Value1        | Value1 must exist in the Diff            |
     | Value1,Value2 | Value1 AND Value2 must exist in the Diff |
-    | Value1,Value2 | Value3                                   | Value1 AND (Value2 OR Value3) must exist in the Diff |
-    | Value1,Value2 | Value3; Value4,Value5                    | Value6                                               | -( Value1 AND (Value2 OR Value3) ) OR ( Value4 AND (Value5 OR Value6) ) must exist in the Diff |
+    | Value1,Value2 \|Value3                                   | Value1 AND (Value2 OR Value3) must exist in the Diff |
+    | Value1,Value2\|Value3;Value4,Value5\|Value6                                               | -( Value1 AND (Value2 OR Value3) ) OR ( Value4 AND (Value5 OR Value6) ) must exist in the Diff |
 
 4. Click **In Progress** to advance the status bar.
 5. Click **Save**.

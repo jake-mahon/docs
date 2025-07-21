@@ -29,8 +29,12 @@ NetSuite users and have the correct
 3. Change Request owner
    [Completes and Validates the Change Request](/docs/platgovnetsuite/changemanagement/completing_validating_change_request.md).
 
+:::note
 Administrators can approve a Change Request. The status is set to **Approved (Override)** and the
-administrator's name is displayed in the **Approval Override By** field.
+administrator's name is displayed in the **Approval Override By** field. If the **Block Approval of Own Change Request** is enabled, Administrators cannot override their own change requests.
+:::
 
+:::note
 Once the Change Request is approved, you cannot change the customizations attached to the Change
 Request.
+:::

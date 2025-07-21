@@ -16,10 +16,12 @@ of these conditions occur:
 
 - NetSuite access is removed
 - Applicable role(s) are removed
-- Employee is In-activatated
+- Employee is In-activated
 
+:::note
 Netwrix recommends performing SoD testing and role clean up in a sandbox account. This lays the
 groundwork for a smooth transition to production with minimal compliance incidents to review.
+:::
 
 Saved Searches are:
 

@@ -10,8 +10,10 @@ This walkthrough is one example based on our test account. You must
 [install and configure](/docs/platgovnetsuite/ticketingintegrations/zendeskintegration/zendesk_integration.md) the Zendesk integration, prior to using this
 walkthrough.
 
+:::note
 Alerts and notifications may occur during this walkthrough, and are not included in these steps. For
 example, override alert, notifications for approvers, and notification for the change request.
+:::
 
 The walkthrough demonstrates these steps:
 
@@ -46,7 +48,9 @@ The walkthrough demonstrates these steps:
    other users, or select **Internal note** to add the info to the ticket without sending email. You
    can also **Apply macro** if applicable.
 
+:::note
 The app information is not available until the ticket is created.
+:::
 
 6. Click **Submit as New**.
 
@@ -56,10 +60,12 @@ The app information is not available until the ticket is created.
 
 Open your new Zendesk ticket. **Test Ticket** in this example.
 
+:::note
 If you do not see the app, make sure the Apps are toggled on using the Apps icon
 ![Zendesk Apps visibility icon](/img/product_docs/platgovnetsuite/integrations/zendesk_apps_icon.webp)
 and verify you are a member of a group or role
 [authorized to access the app](/docs/platgovnetsuite/ticketingintegrations/zendeskintegration/zendesk_integration.md).
+:::
 
 ![The Strongpoint app is available after you create the ticket.](/img/product_docs/platgovnetsuite/integrations/zendesk_strongpoint_app_ticket.webp)
 

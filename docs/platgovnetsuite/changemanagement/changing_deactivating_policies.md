@@ -23,11 +23,11 @@ To change an existing policy:
 1. Create a new change request.
 2. Fill in all mandatory fields including:
 
-- **Change Type**: Policy Change Approval
-- **Policies**: Select the policy you want to deactivate.
-- Get the Change Request **Approved**.
-- Click **Save**
-- Make the approved changes to the policy.
+    - **Change Type**: Policy Change Approval
+    - **Policies**: Select the policy you want to deactivate.
+    - Get the Change Request **Approved**.
+    - Click **Save**
+    - Make the approved changes to the policy.
 
 ## Deactivate a Policy
 
@@ -38,8 +38,8 @@ To deactivate a policy:
 1. Create a new **change request**.
 2. Fill in all mandatory fields including:
 
-- **Change Type**: Policy Change Approval
-- **Policies**: Select the policy you want to deactivate.
+    - **Change Type**: Policy Change Approval
+    - **Policies**: Select the policy you want to deactivate.
 
 ![deactivatepolicy](/img/product_docs/platgovnetsuite/change_management/deactivatepolicy.webp)3.
 Get the Change Request **Approved**. 4. Click **Save** 5. Check the **Inactive** box.

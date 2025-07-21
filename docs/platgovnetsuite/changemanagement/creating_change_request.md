@@ -16,8 +16,10 @@ SuiteCloud Development Framework (SDF) users can upload their Sandbox developmen
 a production ITGC Change Request. The Change Request populates the scope with the existing
 customizations and adds new ones to proposed customizations.
 
+:::note
 If you want to see if the change would have an impact in your sandbox, you can also create a change
 request in your sandbox account.
+:::
 
 ## Create the Change Request
 
@@ -76,7 +78,7 @@ request in your sandbox account.
       The ReSpider ensures that all change logs are complete prior to changing the status. If
       automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant
       if the change logs are not complete when the user changes the status to **Completed**. The
-      default for the **Do Not ReSpider Automically** is set on the
+      default for the **Do Not ReSpider Automatically** is set on the
       [Configuration and Stats Change Management](/docs/platgovnetsuite/installation/installation_settings_report.md)
       tab.
     - **Proposed Customizations**: Use this field when you are adding customizations that do not yet
@@ -86,11 +88,16 @@ request in your sandbox account.
       form. The Script ID must match the Script ID set in **Customizations** > **Forms** > **Entry
       Form** (prefix **custform** is automatically added for you on the **Custom Entry Form**). All
       Customizations and Proposed Customizations are evaluated to determine the Change Level. The
-      highest **Change Level** is used for the Change Request. | Proposed Customization | Change
-      Level | | --- | --- | | customworkflow, customscript, customdeploy or anything with
-      extensions: .js .ssp .ss | Script Object Changes | | customsearch, customreport | Searches and
-      Reports | | customrole | User Role Changes | | Files with extensions: .html .txt | Web-Related
-      Changes | | Everything else | Other Changes |
+      highest **Change Level** is used for the Change Request.
+      
+      | Proposed Customization | Change Level |
+      | --- | --- |
+      | customworkflow, customscript, customdeploy or anything with extensions: .js .ssp .ss | Script Object Changes |
+      | customsearch, customreport | Searches and Reports |
+      | customrole | User Role Changes |
+      | Files with extensions: .html .txt | Web-Related Changes |
+      | Everything else | Other Changes |
+
     - **Affected Process(es)**: Select any processes affected by this Change Request. Select
       **Import From Processes** to automatically import affected processes.
     - **Affected Bundle ID/APP ID**: Use this field to specify a bundle ID or SuiteApp ID. Separate
@@ -119,12 +126,8 @@ request in your sandbox account.
 
         | Indirect Dependency                                                | Change Level                  | Impact Analysis Results |
         | ------------------------------------------------------------------ | ----------------------------- | ----------------------- |
-        | Record referenced by a scripted field                              | Scripted Objects              | Dependent Scripts       |
-        | Search referenced by a scripted field                              |                               |                         |
-        | Custom Field referenced by another scripted field                  |                               |                         |
-        | Record referenced by a workflow related field                      | Workflows and Related Objects | Dependent Workflows     |
-        | Search referenced by a workflow related field                      |                               |                         |
-        | Custom Field referenced by another workflow related field          |                               |                         |
+        | Record referenced by a scripted field<br /><br />Search referenced by a scripted field<br /><br />Custom Field referenced by another scripted field                             | Scripted Objects              | Dependent Scripts       |
+        | Record referenced by a workflow related field<br /><br />Search referenced by a workflow related field<br /><br />Custom Field referenced by another workflow related field                      | Workflows and Related Objects | Dependent Workflows     |
         | List referenced by a search related field (in a filter or formula) | Formula Objects               | Critical Searches       |
 
         There are three categories for customizations: Review any warnings or issues with the

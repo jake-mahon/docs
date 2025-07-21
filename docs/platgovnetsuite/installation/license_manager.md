@@ -9,9 +9,11 @@ sidebar_position: 70
 The License Manager is where you manage your Platform Governance for NetSuite license and licensed
 users. Contact your customer service representative if you need modifications to your license.
 
+:::note
 If the **Take Web Site Offline for Maintenance** option is changed, you must use the  
 **Strongpoint** > **Strongpoint Support** > **License Manager** > **Get Lic. Number**  
  Or re-push the bundle to update the Spider link.
+:::
 
 ## Add a New License
 

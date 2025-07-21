@@ -63,5 +63,7 @@ To do this, in your **production** account:
 
     ![impactanalysissubtab](/img/product_docs/platgovnetsuite/change_management/impactanalysissubtab.webp)
 
+:::note
 If you want to see if the change would have an impact in your sandbox, you can also create a change
 request in your sandbox account.
+:::

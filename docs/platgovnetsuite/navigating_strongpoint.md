@@ -12,8 +12,10 @@ on your [License Type](/docs/platgovnetsuite/installation/features_by_license_ty
 can be hidden for each account through [Menu Management](/docs/platgovnetsuite/installation/managing_menus.md).
 These examples show all the options for an **Enterprise Compliance** license.
 
+:::note
 If you do not see the **Strongpoint** tab, contact your Administrator regarding
 [Setting Tab Access](/docs/platgovnetsuite/installation/setting_strongpoint_tab_access.md).
+:::
 
 ## Strongpoint Tab Menu
 

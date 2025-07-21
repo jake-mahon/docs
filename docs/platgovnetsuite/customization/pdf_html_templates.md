@@ -11,9 +11,11 @@ Platform Governance for NetSuite documents the custom templates you create. Cust
 identified with a ScriptID prefix of **custtmpl**. The template and relationships are documented in
 the Customization record.
 
+:::note
 If you create custom **SoD Exemption Approval Change Request Templates**, or **SoD Rule Change
 Approval Change Request templates**, add them to the installation settings to prevent them from
 being overwritten when new bundles are installed.
+:::
 
 1. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings**.
 2. Click **Edit**.

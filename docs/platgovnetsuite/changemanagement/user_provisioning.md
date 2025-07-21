@@ -11,7 +11,9 @@ _Enhanced User Provisioning_ work flow. The new **User Access Change Request** i
 remove access, or grant temporary access. You can specify the access by **Affected Employees** or
 **Affected Roles**. The existing approval process is used.
 
+:::note
 The **administrator** role cannot be automatically provisioned.
+:::
 
 The new form is accessed from **Strongpoint** > **Change Management Tools** > **User Provisioning
 Change Request**.
@@ -22,9 +24,11 @@ If you choose to continue with the original method, use the **Strongpoint** > **
 Tools** > **ITGC Change Request**. When you view the Change Log, you see **Change Type** is set to
 **User Role Assignment Change** instead of **User Onboarding**.
 
+:::note
 You can create a custom change request form for User Provisioning. Refer to
 [Using Custom Change Request Forms](/docs/platgovnetsuite/changemanagement/use_custom_cr_forms.md) for information on implementing your
 custom form.
+:::
 
 ## Enable Enhanced User Provisioning
 
@@ -93,8 +97,10 @@ the request is approved, you need to manually remove the roles and update the st
 
 A compliant Change Log is generated. The **Values** tab shows the details of the role changes.
 
-If there are more than15 employees or 20 roles, multiple runs are processed. The **User Provisioning
+:::note
+If there are more than 15 employees or 20 roles, multiple runs are processed. The **User Provisioning
 Error** field reports the Change Request is in process until all of the runs are complete.
+:::
 
 ## Viewing User Provisioning Change Requests
 

@@ -8,56 +8,30 @@ sidebar_position: 20
 
 Records supported by Agent searches and controls:
 
-> Account
->
-> Accounting Period
->
-> Amortization Schedule
->
-> Billing Schedule
->
-> Bins
->
-> Case
->
-> Contact
->
-> Customer
->
-> Department
->
-> Deleted Record
->
-> Employee
->
-> Entity
->
-> Planned Standard Cost
->
-> Roles
->
-> Project
->
-> Item
->
-> Item Demand Plan
->
-> Item Supply Plan
->
-> Location
->
-> Manufacturing Planned Time
->
-> Saved Search
->
-> Script
->
-> Script Deployment
->
-> Tax Group
->
-> Transactions
->
-> Vendor
->
-> Workflow
+Account<br />
+Accounting Period<br />
+Amortization Schedule<br />
+Billing Schedule<br />
+Bins<br />
+Case<br />
+Contact<br />
+Customer<br />
+Department<br />
+Deleted Record<br />
+Employee<br />
+Entity<br />
+Planned Standard Cost<br />
+Roles<br />
+Project<br />
+Item<br />
+Item Demand Plan<br />
+Item Supply Plan<br />
+Location<br />
+Manufacturing Planned Time<br />
+Saved Search<br />
+Script<br />
+Script Deployment<br />
+Tax Group<br />
+Transactions<br />
+Vendor<br />
+Workflow

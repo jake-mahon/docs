@@ -8,19 +8,13 @@ sidebar_position: 40
 
 You can find impacted objects in several ways:
 
-> Customization List
->
-> Customization Quick Search
->
-> ERD View
->
-> ERD Search Form
->
-> Customization Impact Search
->
-> Other Customizations
->
-> Process Documentation
+- [Customization List](#customization-list)
+- [Customization Quick Search](#customization-quick-search)
+- [ERD View](#erdview)
+- [ERD Search Form](#erd-search-form)
+- [Customization Impact Search](#customization-impact-search)
+- [Other Customizations](#other-customizations)
+- [Process Documentation](#process-documentation)
 
 ## Customization List
 
