@@ -76,7 +76,7 @@ Follow the steps to configure the key exchange.
 **Step 2 –** Type the following commands to export the encryption keys for the secondary:
 
 
-Encryption Key Export
+**Encryption Key Export**
 
 ```
 cd C:\Program Files\Stealthbits\PAM\KeyTools
@@ -99,7 +99,7 @@ server.
 **Step 6 –** Type the following commands to import the encryption keys:
 
 
-Encryption Key Import
+**Encryption Key Import**
 
 ```
 cd C:\Program Files\Stealthbits\PAM\KeyTools
@@ -119,7 +119,7 @@ Follow the steps to configure the Action Service.
 **Step 2 –** Change the directory path to the location of the Privilege Secure Action Service. The
 default path is:
 
-C:\Program Files\Stealthbits\PAM\ActionService\
+**C:\Program Files\Stealthbits\PAM\ActionService\**
 
 **Step 3 –** Run the following command to automatically register the action service. Enter the Admin
 password when prompted:
@@ -128,12 +128,12 @@ password when prompted:
 - The default `[Port]` parameter is 6500
 - The [admin] should be an NPS administrator in "DOMAIN\username" format
 
-ActionService.exe –register -u admin [PrivilegeSecureServer:Port]
+**ActionService.exe –register -u admin [PrivilegeSecureServer:Port]**
 
 - For installations without a trusted https certificate on the Privilege Secure server, the “-I”
   parameter must be added:
 
-ActionService.exe –register -u admin -I [PrivilegeSecureServer:Port]
+**ActionService.exe –register -u admin -I [PrivilegeSecureServer:Port]**
 
 - The command prompt will show if the configuration was successful.
 

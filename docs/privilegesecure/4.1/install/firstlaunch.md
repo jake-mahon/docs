@@ -26,7 +26,7 @@ There are two methods for launching the Setup Wizard:
 - Double-click the desktop icon. Your default browser opens to the Setup Wizard.
 - Open a supported browser window and navigate to the following URL, which opens the Setup Wizard:
 
-https://localhost:6500
+**https://localhost:6500**
 
 ## Setup Wizard
 

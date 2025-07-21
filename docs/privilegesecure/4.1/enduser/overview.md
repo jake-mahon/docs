@@ -24,14 +24,14 @@ topic for additional information.
 Once Privilege Secure is installed, users can launch the application from the desktop icon or can be
 accessed via the URL provided by an Privilege Secure Administrator, for example:
 
-https://ExampleServer01:6500
+**https://ExampleServer01:6500**
 
 Since Privilege Secure is a browser-based application, it is possible to access the web interface
 remotely. In most environments, enter the URL for the host on which Privilege Secure is installed
 into a supported browser address bar. For example, if Privilege Secure is installed on server
 `ExampleServer01`, then the address is:
 
-https://ExampleServer01:6500
+**https://ExampleServer01:6500**
 
 Depending on the organization’s network environment, use the NetBIOS name, fully qualified domain
 name (FQDN), or IP Address of the server in the browser. Also, access can be restricted through

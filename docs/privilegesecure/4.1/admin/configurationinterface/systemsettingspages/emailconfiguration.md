@@ -19,6 +19,6 @@ features:
 
     This field determines the link format in all emails and notifications sent by Privilege Secure.
 
-Example Email
+**Example Email**
 
 ![Emailed link](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/page/emailedlink.webp)

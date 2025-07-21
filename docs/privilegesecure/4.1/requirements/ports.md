@@ -40,7 +40,7 @@ Privilege Secure must be able to reach the following URLs via HTTPS (port 443)
 
 The following ports must be open for communication between the proxy and Privilege Secure.
 
-Proxy Server Sizing for Windows/Linux/Docker
+**Proxy Server Sizing for Windows/Linux/Docker**
 
 | Administrators | Concurrent Sessions | Memory | CPU Cores | Disk (max)    |
 | -------------- | ------------------- | ------ | --------- | ------------- |
@@ -48,7 +48,7 @@ Proxy Server Sizing for Windows/Linux/Docker
 | 900            | 300                 | 32 GB  | 8 cores   | 42 GB per day |
 | 1800           | 600                 | 64 GB  | 16 cores  | 84 G per day  |
 
-Additional Considerations
+**Additional Considerations**
 
 The following ports must be open for communication between the Client and Privilege Secure:
 

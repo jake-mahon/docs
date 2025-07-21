@@ -58,7 +58,7 @@ the **Integration Connectors** submenu.
 "Checkin Script Block" field may be left blank.)
 
 
-Checkout Script Block
+**Checkout Script Block**
 
 ```
 param (

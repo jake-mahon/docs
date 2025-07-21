@@ -22,7 +22,7 @@ Subject, and the NPS Rest URL value in the Services page exactly match.
 :::
 
 
-:::note
+**:::note**
 
 :::
 

@@ -38,18 +38,18 @@ The `nps-resource-import-template.csv` file is downloaded to your browser's defa
 
 ## Example CSV File
 
-DNS Host Name,Operating System,IP Address,Platform,Credential
+**DNS Host Name,Operating System,IP Address,Platform,Credential**
 
 NewYork10.nwxtech.com,Windows Server 2019,192.168.13.150,Windows,Windows Demo
 
-Wisconsim10.nwxtech.com,Windows Server 2022,192.168.13.155,Windows,
+**Wisconsim10.nwxtech.com,Windows Server 2022,192.168.13.155,Windows,**
 
 Arizona10.nwxtech.com,Windows Server 2019,,,
 
-Oregon50.nwxtech.com,,,,
+**Oregon50.nwxtech.com,,,,**
 
 ,Windows Server 2019,192.168.13.125,Windows,
 
-,,192.168.13.15,Linux,Linux Demo
+**,,192.168.13.15,Linux,Linux Demo**
 
 Texas70.nwxtech.com,,,,

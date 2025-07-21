@@ -46,36 +46,36 @@ topic for additional information.
 
 ## Functions for Login Account Templates
 
-first()
+**first()**
 
 The `first()` function returns the specified number of characters starting from the beginning of the
 string.
 
-%first(string stringToManipulate, int numCharactersReturned)/first%
+**%first(string stringToManipulate, int numCharactersReturned)/first%**
 
 Parameters
 
-stringToManipulate (string)
+**stringToManipulate (string)**
 
 The string or Privilege Secure Login Account Template mask to be manipulated.
 
-numCharactersReturned (int)
+**numCharactersReturned (int)**
 
 The number of characters, starting from the beginning of the string, to be returned based on
 supplied `stringToManipulate` parameter.
 
-Notes
+**Notes**
 
 `int numCharactersReturned` must be a positive number.
 
 If `int numCharactersReturned` exceeds string `stringToManipulate` then the entire string will be
 returned.
 
-Examples
+**Examples**
 
 %first(jsmith,3)/first%
 
-The above example will return: "jsm"
+**The above example will return: "jsm"**
 
 A common use case for this function is to manipulate Privilege Secure Login Account Template masks
 such as `%samaccountname%`, to change how what the Login Account Template evaluates to when an
@@ -88,38 +88,38 @@ For example:
 In the example above, if "`%samaccountname%`" normally evaluates to "jsmith" then the return value
 of the `first()` function will be "jsm"
 
-substr()
+**substr()**
 
 The `substr()` function starts from the specified index in the supplied string and returns from that
 index to the end of the supplied string. If a negative number is supplied for
 `int startIndexOrNumCharactersReturned` then the return value is that many characters from the end
 of the supplied string.
 
-Parameters
+**Parameters**
 
 stringToManipulate (string)
 
 The string or Privilege Secure Login Account Template mask to be manipulated.
 
-startIndexOrNumCharactersReturned (int)
+**startIndexOrNumCharactersReturned (int)**
 
 If non-negative, the return value is this index to the end of the supplied string. If negative, the
 return value is this many characters from the end of the supplied string.
 
-Notes
+**Notes**
 
 If `int startIndexOrNumCharactersReturned` is an index greater than the largest index in the
 supplied string, then an empty string is returned.
 
-Examples
+**Examples**
 
 `%substr(jsmith,2)/substr%`
 
-The above example will return "mith"
+**The above example will return "mith"**
 
 `%substr(jsmith,-2)/substr%`
 
-The above example will return "th"
+**The above example will return "th"**
 
 A common use case for this function is to manipulate Privilege Secure Login Account Template masks
 such as "`%samaccountname%`" to change how what the Login Account Template evaluates to when an

@@ -41,7 +41,7 @@ Azure.
 
 ## Generate Secret
 
-Generate a secret for the App Registration
+**Generate a secret for the App Registration**
 
 **Step 1 –** In the App Registration, click **Certificates & Secrets**.
 

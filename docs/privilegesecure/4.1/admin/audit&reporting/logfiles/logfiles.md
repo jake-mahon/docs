@@ -25,7 +25,7 @@ The right of the page shows the contents of the selected log file and has the fo
 
 The log files are saved in the default location:
 
-C:\ProgramData\Stealthbits\PAM\Log
+**C:\ProgramData\Stealthbits\PAM\Log**
 
 The log files are saved with a naming format of: `PAM-[Service][yyyymmdd]`. For example:
 `PAM-ActionService20191002.log`

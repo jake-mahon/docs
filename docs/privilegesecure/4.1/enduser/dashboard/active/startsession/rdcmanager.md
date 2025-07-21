@@ -33,19 +33,19 @@ Connection String Format:
 
 Connection String Example:
 
-Netwrix\JonSmith+Local Admin+SQL1.netwrix.com
+**Netwrix\JonSmith+Local Admin+SQL1.netwrix.com**
 
 JonSmith@netwrix.com+Local_Admin+SQL1.netwrix.com
 
 Note that some clients require you to use the _“_”_ (underscore) character as a replacement for a
 space in Activity names that are made up of multiple words, for example:
 
-Netwrix\JonSmith+Add_to_Local_Administrators+SQL1
+**Netwrix\JonSmith+Add_to_Local_Administrators+SQL1**
 
 If you wish to add notes, make sure to add the appropriate number of “+” delimiters if you are not
 defining an access policy:
 
-Netwrix\JonSmith+Local Admin+SQL1.netwrix.com++Server Maintenance
+**Netwrix\JonSmith+Local Admin+SQL1.netwrix.com++Server Maintenance**
 
 ## PuTTY (SSH)
 
@@ -78,7 +78,7 @@ Remote Host Format:
 
 Resource Host Example:
 
-Netwrix\JonSmith+rootAccess+centos1.lab.local@sbpamhost
+**Netwrix\JonSmith+rootAccess+centos1.lab.local@sbpamhost**
 
 Port:
 
@@ -102,7 +102,7 @@ Remote Host:
 
 Example:
 
-sbpamhost
+**sbpamhost**
 
 Username:
 
@@ -110,7 +110,7 @@ Username:
 
 Example:
 
-Netwrix\JonSmith+LocalAdmin+sql1
+**Netwrix\JonSmith+LocalAdmin+sql1**
 
 Port:
 
@@ -161,7 +161,7 @@ Server name:
 
 Server name example:
 
-Sbpamhost:4489
+**Sbpamhost:4489**
 
 User Name Format:
 
@@ -174,11 +174,11 @@ The user name starts with __ (back slash).
 
 User Name Example:
 
-\Netwrix\JonSmith+LocalAdmin+sql1
+**\Netwrix\JonSmith+LocalAdmin+sql1**
 
 Server Name/Port:
 
-localhost:4489
+**localhost:4489**
 
 If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the
 [Configure Remote Desktop Connection to Prompt for Password](#configure-remote-desktop-connection-to-prompt-for-password)

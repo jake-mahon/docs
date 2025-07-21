@@ -69,7 +69,7 @@ Remember, it is a best practice to read the agreement before accepting it.
 
 **Step 4 –** The default installation location for both the Install Folder and the Data Folder is:
 
-C:\Program Files\Stealthbits\Postgres12
+**C:\Program Files\Stealthbits\Postgres12**
 
 - To change the default location, click Browse and set a new location.
 - When the location is set, click **Next**.
@@ -125,7 +125,7 @@ Remember, it is a best practice to read the agreement before accepting it.
 
 **Step 3 –** The default installation location for Install Folder is:
 
-C:\Program Files\Stealthbits\PAM
+**C:\Program Files\Stealthbits\PAM**
 
 - To change the default location, click **Browse** and set a new location.
 - When the location is set, click **OK**.

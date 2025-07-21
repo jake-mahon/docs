@@ -66,7 +66,7 @@ Follow the steps to configure the key exchange.
 **Step 2 –** Type the following commands to export the encryption keys for the secondary:
 
 
-Encryption Key Export
+**Encryption Key Export**
 
 ```
 cd C:\Program Files\Stealthbits\PAM\KeyTools
@@ -89,7 +89,7 @@ server.
 **Step 6 –** Type the following commands to import the encryption keys:
 
 
-Encryption Key Import
+**Encryption Key Import**
 
 ```
 cd C:\Program Files\Stealthbits\PAM\KeyTools
@@ -109,7 +109,7 @@ Follow the steps to configure the Action Service.
 **Step 2 –** Change the directory path to the location of the Privilege Secure Action Service. The
 default path is:
 
-C:\Program Files\Stealthbits\PAM\NPS.SchedulerService\
+**C:\Program Files\Stealthbits\PAM\NPS.SchedulerService\**
 
 **Step 3 –** Run the following command to automatically register the scheduler service. Enter the
 Admin password when prompted:
@@ -117,7 +117,7 @@ Admin password when prompted:
 - The `[Privilege Secure]` parameter is the Host Name, IP, FQDN or URL
 - The default `[Port]` parameter is 6500
 
-    NPS.SchedulerService.exe –register -u admin [PrivilegeSecureServer:Port]
+**NPS.SchedulerService.exe –register -u admin [PrivilegeSecureServer:Port]**
 
 - For installations without a trusted https certificate on the Privilege Secure server, the “-I”
   parameter must be added:

@@ -20,7 +20,7 @@ Follow the steps to rotate a AWS KMS Key.
 
 **Step 1 –** Locate the KeyTools folder in the installation directory.
 
-C:\Program Files\Stealthbits\PAM\KeyTools
+**C:\Program Files\Stealthbits\PAM\KeyTools**
 
 **Step 2 –** Run the `SbPAM.RotateAwsKey` executable to launch the Rotate AWS Key wizard.
 

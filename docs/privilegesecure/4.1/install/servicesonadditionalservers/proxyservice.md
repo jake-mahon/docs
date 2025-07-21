@@ -51,7 +51,7 @@ Remember, it is a best practice to read the agreement before accepting it.
 
 **Step 4 –** The default installation location for Install Folder is:
 
-C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service
+**C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service**
 
 - To change the default location, click Browse and set a new location.
 - When the location is set, click OK.
@@ -81,7 +81,7 @@ Follow the steps to register the NPS Proxy Service.
 **Step 1 –** Validate the existence of the `sbpam_node.json` file in the installation directory of
 both the application and desired servers. The default location is:
 
-C:\ProgramData\Stealthbits\PAM\ProxyService
+**C:\ProgramData\Stealthbits\PAM\ProxyService**
 
 :::note
 This file will not exist and needs to be created, unless there is already an application
@@ -119,11 +119,11 @@ This file references the IP, FQDN, and hostname of the server you are on, not al
 
 **Step 4 –** Remove the `sbpam-node.crt` file from the following location on both servers:
 
-C:\ProgramData\Stealthbits\PAM\tls\certs
+**C:\ProgramData\Stealthbits\PAM\tls\certs**
 
 **Step 5 –** On the proxy server, run the following command:
 
-"C:\Program Files\Stealthbits\PAM\ProxyService\sbpam-proxy.exe" register ca-hash
+**"C:\Program Files\Stealthbits\PAM\ProxyService\sbpam-proxy.exe" register ca-hash**
 
 **Step 6 –** Copy the returned hash value and substitute it into the next step.
 
@@ -159,15 +159,15 @@ Follow the steps to add Cipher information to the NPS Proxy Service.
 **Step 2 –** Change the directory path to the ProxyService folder in the NPS Proxy Service
 installation directory. The default path is:
 
-C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service\ProxyService
+**C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service\ProxyService**
 
 **Step 3 –** Run the following command to automatically generate the "sbpam_ssh" file:
 
-.\sbpam-proxy.exe cfg -c sbpam_ssh
+**.\sbpam-proxy.exe cfg -c sbpam_ssh**
 
 **Step 4 –** Browse to the location of the newly created file in "ProgramData". The default path is:
 
-C:\ProgramData\Stealthbits\PAM\ProxyService
+**C:\ProgramData\Stealthbits\PAM\ProxyService**
 
 **Step 5 –** Copy and paste the following into the "nps_ssh.json" file.
 

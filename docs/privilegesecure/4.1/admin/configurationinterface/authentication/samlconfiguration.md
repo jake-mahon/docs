@@ -135,15 +135,15 @@ Field.
 
     - Examples for Microsoft Entra ID:
 
-        https://login.microsoftonline.com/common/oauth2/logout?post_logout_redirect_uri
+**https://login.microsoftonline.com/common/oauth2/logout?post_logout_redirect_uri**
 
     - Example for Auth0:
 
-        https://privilegesecure-dev.auth0.com/v2/logout?returnTo
+**https://privilegesecure-dev.auth0.com/v2/logout?returnTo**
 
     - Example for Okta:
 
-        https://dev-106968.okta.com/login/signout?fromURI
+**https://dev-106968.okta.com/login/signout?fromURI**
 
 - Signout Callback URI – Some SAML providers require that redirection URIs be authorized, so the
   page displays the URI details for the redirection.

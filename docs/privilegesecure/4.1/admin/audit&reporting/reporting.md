@@ -28,12 +28,12 @@ report name. The report tree will then be filtered down to the matching reports.
 
 The Reports tree contains the following folders.
 
-Favorites Folder
+**Favorites Folder**
 
 This folder in the report tree contains reports that have been marked with a star for easy access.
 Clicking the star on a favorite report will remove it from the Favorites folder.
 
-Predefined Reports
+**Predefined Reports**
 
 This folder contains predefined reports covering common reporting uses cases. Included are:
 
@@ -41,7 +41,7 @@ This folder contains predefined reports covering common reporting uses cases. In
 - All Activity Sessions
 - Password Rotations
 
-Predefined Platform-Based Reports
+**Predefined Platform-Based Reports**
 
 This folder contains predefined reports that are filtered to specific platforms. Included are:
 
@@ -54,7 +54,7 @@ This folder contains predefined reports that are filtered to specific platforms.
 - All Website Sessions
 - All Windows Sessions
 
-My Reports
+**My Reports**
 
 This folder contains all reports created using the “+” icon next to the Search Reports field or
 created by modifying and saving an existing predefined or platform based report.
@@ -91,7 +91,7 @@ The Filters tab has the following configuration options:
 
 The Source drop-down list contains the following data sources for reports.
 
-Activity Sessions
+**Activity Sessions**
 
 This data source contains activity session information, and allows the report to be filtered on the
 following attributes for a given activity session:
@@ -103,7 +103,7 @@ following attributes for a given activity session:
 - Target Host
 - User
 
-Resource Sync
+**Resource Sync**
 
 This data source contains resource sync information, and allows the report to be filtered on the
 following attributes for a given synced resource:
@@ -113,7 +113,7 @@ following attributes for a given synced resource:
 - IP Address
 - Operating System
 
-Password Rotation
+**Password Rotation**
 
 This data source contains password rotation information, and allows the report to be filtered on the
 following attributes for a given password rotation event:
@@ -123,7 +123,7 @@ following attributes for a given password rotation event:
 - Change Reason
 - User
 
-Password Age
+**Password Age**
 
 This data source contains password age information, and allows the report to be filtered on the
 following attributes for a given user account:

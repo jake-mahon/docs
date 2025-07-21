@@ -56,7 +56,7 @@ display. Use the Menu button to the left of the logo to collapse / expand the Na
 The Privilege Secure Console makes it easy to gather detailed information at a glance. The following
 tables show the main icons:
 
-Interface Icons
+**Interface Icons**
 
 | Icon                                                                                                                         | Interface           |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -71,7 +71,7 @@ Interface Icons
 | ![servicenodes](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
 | ![auditreporting](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
 
-Dashboard Icons
+**Dashboard Icons**
 
 | Icon                                                                                                                               | Session Data        |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -83,7 +83,7 @@ Dashboard Icons
 | ![resourcesdashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
 | ![credentialsdashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
 
-Active Directory Icons
+**Active Directory Icons**
 
 | Icon                                                                                                                                                               | Object              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
@@ -100,7 +100,7 @@ Active Directory Icons
 | ![Cisco icon](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
 | ![Windows icon](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
 
-Action Icons
+**Action Icons**
 
 | Icon                                                                                                                                                           | Action |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -112,7 +112,7 @@ Action Icons
 | ![chapter_1_stealthbits_privileged_21](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/chapter_1_stealthbits_privileged_21.webp) | Copy   |
 | ![chapter_1_stealthbits_privileged_22](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/chapter_1_stealthbits_privileged_22.webp) | Search |
 
-Information Icons
+**Information Icons**
 
 | Icon                                                                                                                                                             | Information            |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |

@@ -8,14 +8,14 @@ sidebar_position: 30
 
 Once installation is complete, Privilege Secure is accessible locally on the default port:
 
-https://localhost:6500
+**https://localhost:6500**
 
 Since Privilege Secure is a browser-based application, it is possible to access the web interface
 remotely. In most environments, enter the URL for the host on which Privilege Secure is installed
 into a supported browser address bar. For example, if Privilege Secure is installed on server
 `ExampleServer01`, then the address is:
 
-https://ExampleServer01:6500
+**https://ExampleServer01:6500**
 
 :::note
 This is the default port. If a custom port is configured, the address to the Privilege
