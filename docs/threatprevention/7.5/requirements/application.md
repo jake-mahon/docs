@@ -29,11 +29,11 @@ Additionally the server must meet these requirements:
 These depend on the size of the target environment and whether Analytics will be used.
 
 | Environment | Large with Analytics           | Large without Analytics        | Small with Analytics        | Small without Analytics     |
-| ----------- | ------------------------------ | ------------------------------ | --------------------------- | --------------------------- |
+| ----------- | ------- | ------------- | ------------- | --------- |
 | Definition  | 2,000 - 15,000 AD user objects | 2,000 - 15,000 AD user objects | Up to 2,000 AD user objects | Up to 2,000 AD user objects |
-| RAM         | 128+ GB                        | 32 GB                          | 32 GB                       | 16 GB                       |
-| Cores       | 4+ CPU                         | 4 CPU                          | 4 CPU                       | 4 CPU                       |
-| Disk Space  | 67 GB                          | 67 GB                          | 67 GB                       | 35 GB                       |
+| RAM         | 128+ GB       | 32 GB        | 32 GB     | 16 GB      |
+| Cores       | 4+ CPU        | 4 CPU        | 4 CPU     | 4 CPU      |
+| Disk Space  | 67 GB         | 67 GB        | 67 GB     | 35 GB      |
 
 :::info
 For large environments with Analytics, a physical machine is strongly

@@ -78,7 +78,7 @@ interface. The following interface options are available:
 - [Analytics Interface](/docs/threatprevention/7.4/admin/analytics/overview.md)
 - [Policies Interface](/docs/threatprevention/7.4/admin/policies/overview.md)
 - [Templates Interface](/docs/threatprevention/7.4/admin/templates/overview.md)
-- [Tags Node](/docs/threatprevention/7.4/admin/overview_1.md)
+- [Tags Node](/docs/threatprevention/7.4/admin/Tags.md)
 
 Several right-click menus and additional features are available within these interfaces.
 

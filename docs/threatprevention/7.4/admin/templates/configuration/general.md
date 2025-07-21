@@ -33,7 +33,7 @@ create a duplicate template, but rather display the template in different folder
 node. Multiple tags can be identified for a template with a comma-separated list. New tags can be
 created, which create a new folder under the TAGS node. Use the right-click Refresh option on the
 TAGS node in the Navigation pane to display new tags and/or display template-tag modifications. See
-the [Tags Node](/docs/threatprevention/7.4/admin/overview_1.md) topic
+the [Tags Node](/docs/threatprevention/7.4/admin/Tags.md) topic
 for additional information.
 
 ## History
