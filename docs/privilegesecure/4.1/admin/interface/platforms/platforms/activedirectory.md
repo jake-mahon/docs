@@ -1,10 +1,10 @@
 ---
-title: "Active Directory Platform Policy Configuration"
-description: "Active Directory Platform Policy Configuration"
+title: "Active Directory Platform"
+description: "Active Directory Platform"
 sidebar_position: 10
 ---
 
-# Active Directory Platform Policy Configuration
+# Active Directory Platform
 
 The Active Directory menu displays the configuration options for Active Directory platforms.
 
