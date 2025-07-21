@@ -71,7 +71,6 @@ saved in the local configuration file. The database connection can be made with 
 ```
 HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
 HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
-
 ```
 
 These keys are structured like this:
@@ -87,7 +86,6 @@ These keys are structured like this:
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
-
 ```
 
 Then the last used date base as well as the last registered user are created with the following ID,
@@ -96,7 +94,6 @@ when you log in for the first time:
 
 ```
 HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
-
 ```
 
 NOTE: When the corresponding registry entry is set and no related database profile exists, the

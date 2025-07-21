@@ -8,18 +8,16 @@ sidebar_position: 40
 
 #### System Components
 
-|           |                 |                   |
-| --------- | --------------- | ----------------- |
 | Webserver | Minimum         | Recommended       |
+| --------- | --------------- | ----------------- |
 | IIS       | 10              | 10                |
 | Apache    | 2.4.58          | 2.4.58            |
 | NGINX     | 1.24.0 (stable) | 1.25.4 (mainline) |
 
 #### Required Modules/Extensions
 
-|                       |         |             |            |
-| --------------------- | ------- | ----------- | ---------- |
 | Attribute             | Minimum | Recommended | Applies to |
+| --------------------- | ------- | ----------- | ---------- |
 | URL Rewrite mod       | 2.1     | 2.1         | IIS        |
 | ARR                   | 3.0     | 3.1         | IIS        |
 | Websocket Protocol    | -       | -           | IIS        |

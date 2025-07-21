@@ -13,9 +13,8 @@ various limitations. Our recommendation is to use MS SQL Server Standard as a mi
 
 Please follow Microsoft recommendations for system requirements for SQL Server.
 
-|                       |         |             |
-| --------------------- | ------- | ----------- |
 | Attribute             | Minimum | Recommended |
+| --------------------- | ------- | ----------- |
 | MS SQL Server Version | 2019    | 2022        |
 
 :::warning
