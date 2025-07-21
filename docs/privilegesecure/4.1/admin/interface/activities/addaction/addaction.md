@@ -42,15 +42,21 @@ See the
 [Action Types](/docs/privilegesecure/4.1/admin/interface/activities/addaction/activityactiontypes.md)
 section for detailed descriptions of the fields.
 
-**NOTE:** The fields will change depending on the selected Action Type.
+:::note
+The fields will change depending on the selected Action Type.
+:::
+
 
 **Step 5 –** Click Okay to create the new action.
 
 **Step 6 –** Continue to create as many actions for each stage of the session (Grant, Connect,
 Remove) as required.
 
-**NOTE:** It is not possible to change the Action Type once the action is created. Delete the
+:::note
+It is not possible to change the Action Type once the action is created. Delete the
 existing action and then create a new action to get a new Action Type.
+:::
+
 
 **Step 7 –** If desired, it is possible to automatically run any Protection Policies associated with
 the resource when the session completes. Simply add the _Invoke Protection Policies_ action to the
@@ -58,7 +64,10 @@ Post-Session group. See the
 [Protection Policies Page](/docs/privilegesecure/4.1/admin/interface/protectionpolicies/protectionpolicies.md)
 topic for additional information.
 
-**NOTE:** It is not necessary to select a protection policy. All protection policies that apply to
+:::note
+It is not necessary to select a protection policy. All protection policies that apply to
 the session host are executed.
+:::
+
 
 The new actions are added to the activity.

@@ -32,8 +32,11 @@ The right of the page shows details of the selected service and has the followin
 
     - Verbose – Extremely detailed logging
 
-        **NOTE:** There are not many Verbose log messages in Privilege Secure so the difference
+        :::note
+        There are not many Verbose log messages in Privilege Secure so the difference
         between Verbose and Debug is minimal.
+        :::
+
 
     - Debug – More information for detailed analysis of system behavior. Customer support may ask
       for logs with this log level enabled for troubleshooting purposes

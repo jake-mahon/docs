@@ -28,8 +28,11 @@ At the top of the About page, the following license information is displayed:
 - Customer Info – Name of the licensed customer
 - Licenses Applied – Number of licenses in use
 
-    **NOTE:** Licensing is done according to user count. Any user who has provisioned access will
+    :::note
+    Licensing is done according to user count. Any user who has provisioned access will
     consume a license after their first login. This is true for all users, regardless of role.
+    :::
+
 
 ![About page showing additional Customer Info details](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/aboutcustomerdetails.webp)
 

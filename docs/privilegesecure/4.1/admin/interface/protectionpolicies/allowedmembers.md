@@ -45,8 +45,11 @@ Allowed Members tab.
 
 - Group Name – Displays the name of the group.
 
-    **NOTE:** Privilege Secure cannot be used to create a group. The group must already exist on the
+    :::note
+    Privilege Secure cannot be used to create a group. The group must already exist on the
     resource.
+    :::
+
 
 - Group Member – The name of the group member
 

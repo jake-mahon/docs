@@ -22,15 +22,21 @@ Follow the steps to install the Remote Desktop Monitor service.
 
 **Step 1 –** Copy the **NPS.TSMon.exe** file to the target host.
 
-_Remember,_ this file is in the Extras folder of the Privilege Secure installation download
+:::tip
+Remember, this file is in the Extras folder of the Privilege Secure installation download
 extracted ZIP file.
+:::
+
 
 **Step 2 –** Run the EXE file. The Netwrix Privilege Secure Terminal Services Monitor Setup window
 opens.
 
 **Step 3 –** Check the I agree to the license terms and conditions box.
 
-_Remember,_ it is a best practice to read the terms before agreeing to them.
+:::tip
+Remember, it is a best practice to read the terms before agreeing to them.
+:::
+
 
 **Step 4 –** Click Install.
 
@@ -42,7 +48,10 @@ Monitor service is installed and enabled with Automatic Startup Type and Log On 
 
 The service is now listening for terminal services connections.
 
-**NOTE:** It is necessary for the Record Proxy Sessions option to be enabled on the connection
+:::note
+It is necessary for the Record Proxy Sessions option to be enabled on the connection
 profile for the associated access policy. See the
 [Connection Profiles Page](/docs/privilegesecure/4.1/admin/interface/accesspolicy/connectionprofiles/connectionprofiles.md)
 topic for additional information.
+
+:::

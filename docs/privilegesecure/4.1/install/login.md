@@ -17,8 +17,11 @@ into a supported browser address bar. For example, if Privilege Secure is instal
 
 https://ExampleServer01:6500
 
-**NOTE:** This is the default port. If a custom port is configured, the address to the Privilege
+:::note
+This is the default port. If a custom port is configured, the address to the Privilege
 Secure Console is:
+:::
+
 
 `https://ExampleServer01:[PortNumber]`
 
@@ -30,17 +33,23 @@ Users can still log in with an expired license. If a license is expired, and the
 not exceed the license count, users will still be able to log in. If a license is expired, and the
 login attempt does exceed the license count, Privilege Secure will prevent the login.
 
-**CAUTION:** If your license is expired, and you can still log in, you will not be able to create
+:::warning
+If your license is expired, and you can still log in, you will not be able to create
 activity sessions or new users.
+:::
+
 
 Follow the steps to log in to the Privilege Secure Console.
 
 **Step 1 –** Open Privilege Secure in a browser window. The Login screen will show the
 Authentication Connector that is set as the default.
 
-**NOTE:** Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator,
+:::note
+Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator,
 DUO, Symantec VIP, etc) for all user accounts unless otherwise configured in the Initial Set Up
 Wizard. If required, first time users must register with an MFA to use with their login credentials.
+:::
+
 
 ![Default Login](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/defaultloginuser.webp)
 

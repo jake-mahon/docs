@@ -28,8 +28,11 @@ topic for detailed descriptions of the fields.
 - Configure the **Session** **Control** settings to set up session duration and user logons
   parameters for a connection profile.
 
-    **NOTE:** On this step, you will need to also select a default Activity Token Complexity policy
+    :::note
+    On this step, you will need to also select a default Activity Token Complexity policy
     for the connection profile.
+    :::
+
 
 - Configure the **Credential Management** settings, which control parameters for the password used
   for this connection profile.

@@ -17,7 +17,10 @@ Follow the steps to edit the scheduled tasks.
 **Step 3 –** From the Frequency radio buttons, set the frequency of how often the scheduled task is
 run:
 
-**NOTE:** The fields will change depending on the selected frequency.
+:::note
+The fields will change depending on the selected frequency.
+:::
+
 
 - Every X Hours — Enter the number of hours between executions
 - Every X Days— Enter the time of day

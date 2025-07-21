@@ -12,10 +12,13 @@ locations within an organization. The Scheduler Service installer is in the zip 
 Privilege Secure Console installer. It is also available for download from the Stealthbits website
 if required.
 
-**NOTE:** Before you begin, the Proxy Service must be installed on any server running services for
+:::note
+Before you begin, the Proxy Service must be installed on any server running services for
 Privilege Secure. See the
 [Proxy Service Install](/docs/privilegesecure/4.1/install/servicesonadditionalservers/proxyservice.md)
 topic for installation instructions.
+:::
+
 
 Follow the steps to install the Scheduler Service.
 
@@ -72,8 +75,11 @@ cd C:\Program Files\Stealthbits\PAM\KeyTools
 
 **Step 3 –** Take note of the password for the export file.
 
-**CAUTION:** This temporary password protects the NPS-AM encryption keys during copying. Do not save
+:::warning
+This temporary password protects the NPS-AM encryption keys during copying. Do not save
 it to digital media or transmit it with the encryption key package.
+:::
+
 
 **Step 4 –** Copy the export file to "C:\Program Files\Stealthbits\PAM\KeyTools" on the secondary
 server.

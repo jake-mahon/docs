@@ -14,5 +14,8 @@ permits it. The supported browsers for Privilege Secure are:
 - Apple® Safari®
 - Mozilla® Firefox®
 
-**NOTE:** The browser compatibility mode must be turned off to access the Privilege Secure web
+:::note
+The browser compatibility mode must be turned off to access the Privilege Secure web
 service.
+
+:::

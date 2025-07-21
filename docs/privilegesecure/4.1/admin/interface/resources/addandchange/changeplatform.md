@@ -23,8 +23,11 @@ topic for additional information.
 **Step 5 –** When a platform is entered, the Okay button is enabled. Click **Okay** to update the
 platform type for the selected resource(s).
 
-**CAUTION:** The resources remain selected. Before proceeding, make sure that only the correct
+:::warning
+The resources remain selected. Before proceeding, make sure that only the correct
 resources are selected to avoid accidentally changing the settings.
+:::
+
 
 **Step 6 –** Deselect the resources to avoid accidentally changing the settings.
 

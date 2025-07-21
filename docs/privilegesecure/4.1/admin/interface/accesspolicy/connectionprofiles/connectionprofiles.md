@@ -80,8 +80,11 @@ The selected profile details display in the main pane:
       This setting is recommended if users are encountering authentication issues with direct
       connect SSH sessions.
 
-        **NOTE:** This will increase the session creation time for Linux based activities with
+        :::note
+        This will increase the session creation time for Linux based activities with
         managed domain users and activity token domain users.
+        :::
+
 
     - Require Notes for Sessions — Require the user to enter information in the Notes field when
       creating a session

@@ -38,8 +38,11 @@ Follow the steps to create an activity session.
 
 ![startsessionuser](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/access/startsessionuser.webp)
 
-**NOTE:** If an approval is required, the Waiting for approval message will display until it has
+:::note
+If an approval is required, the Waiting for approval message will display until it has
 been granted.
+:::
+
 
 ![stopsession](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/access/stopsession.webp)
 

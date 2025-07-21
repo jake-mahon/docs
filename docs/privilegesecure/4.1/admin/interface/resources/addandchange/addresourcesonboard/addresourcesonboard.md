@@ -52,7 +52,10 @@ opens. This option lists Available Resources that have been discovered by Privil
 **Step 4 –** Select the desired resources in the Available Resources table and it is immediately
 moved to the Resources to Add table.
 
-**NOTE:** To remove a resource from the Resources to Add table, uncheck it from either table.
+:::note
+To remove a resource from the Resources to Add table, uncheck it from either table.
+:::
+
 
 **Step 5 –** When the Resources to Add table is populated as desired, open the Service Account
 drop-down menu. Select a previously added service account with credentials for the selected
@@ -95,9 +98,12 @@ The table has the following columns:
 
 Follow the steps to onboard resources by importing from a CSV file.
 
-_Remember,_ the CSV file must contain either the DNS Host Name or IP Address for each resource. All
+:::tip
+Remember, the CSV file must contain either the DNS Host Name or IP Address for each resource. All
 other values are options. Also, the Platform and Credentials value must be an exact match to
 Platforms and Service Accounts already known to Privilege Secure.
+:::
+
 
 **Step 1 –** Navigate to either the Resources dashboard or the Resources page.
 
@@ -107,8 +113,11 @@ onboard new servers.
 **Step 3 –** Select the Import from CSV radio button. This option allows you to import a pre-created
 CSV file to onboard resources.
 
-**NOTE:** If you did not create the CSV file prior to starting these steps, click Download CSV
+:::note
+If you did not create the CSV file prior to starting these steps, click Download CSV
 Template to download the `nps-resource-import-template.csv` file with required columns.
+:::
+
 
 **Step 4 –** Click Import CSV. The Open window opens.
 
@@ -168,7 +177,10 @@ the resource. Click Add.
 
 **Step 5 –** Repeat Step 4 for each resource to be onboarded.
 
-**NOTE:** To remove a resource, select it in the table and click Remove.
+:::note
+To remove a resource, select it in the table and click Remove.
+:::
+
 
 **Step 6 –** When the table is populated as desired, open the Service Account drop-down menu. Select
 a previously added service account with credentials for the resources.

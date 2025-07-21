@@ -83,9 +83,12 @@ The table has the following columns:
     - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been
       stored
 
-    **NOTE:** See the
+    :::note
+    See the
     [Rotation Methods](/docs/privilegesecure/4.1/admin/interface/credentials/credentialrotationmethod.md)
     topic for additional information.
+    :::
+
 
 - Managed Type — Type of managed account:
 

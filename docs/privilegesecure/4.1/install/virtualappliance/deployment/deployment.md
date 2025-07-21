@@ -22,12 +22,15 @@ is available:
 - PostgreSQL 12
 - Netwrix Privilege Secure v3.0.8051
 
-**NOTE:** Consider Microsoft limits for evaluation versions of Windows Server 2019. You have 10 days
+:::note
+Consider Microsoft limits for evaluation versions of Windows Server 2019. You have 10 days
 to complete online activation, otherwise your Windows evaluation license expires and the virtual
 appliance will shut down every hour. Provide a valid license for Windows Server or ensure Internet
 connection to connect to Microsoft Licensing Activation Center and register your license. Refer to
 Microsoft article for more information:
 [Upgrade and conversion options for Windows Server 2019](https://docs.microsoft.com/en-us/windows-server/get-started/supported-upgrade-paths).
+:::
+
 
 Furthermore, you can register your license by phone. See
 [Microsoft Licensing Activation Centers worldwide telephone numbers](https://www.microsoft.com/en-us/licensing/existing-customer/activation-centers)

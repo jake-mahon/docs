@@ -33,7 +33,10 @@ include:
 
 **Step 8 –** Enter the fully qualified domain name (FDQN) for the server.
 
-**NOTE:** The domain is used as the default domain for database activities.
+:::note
+The domain is used as the default domain for database activities.
+:::
+
 
 **Step 9 –** From the drop-down menu, select a previously added service account with credentials for
 the database.

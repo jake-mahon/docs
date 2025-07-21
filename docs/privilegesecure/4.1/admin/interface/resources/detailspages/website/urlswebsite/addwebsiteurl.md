@@ -8,7 +8,10 @@ sidebar_position: 20
 
 Follow the steps to add or edit a Website URL used by a resource.
 
-**NOTE:** Only applicable to Microsoft Entra ID and Website resources.
+:::note
+Only applicable to Microsoft Entra ID and Website resources.
+:::
+
 
 **Step 1 –** Navigate to the **Resources** page.
 

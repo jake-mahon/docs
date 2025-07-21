@@ -62,9 +62,12 @@ displayed again.
 
 Add the App Registration to the User Administrators role.
 
-**NOTE:** User Administrator is the least privileged model and cannot manage Global Administrator.
+:::note
+User Administrator is the least privileged model and cannot manage Global Administrator.
 To manage the Global Administrator role, assign the Global Administrator role to the App
 registration instead of User Administrator.
+:::
+
 
 **Step 1 –** Navigate to **Azure Active Directory**.
 

@@ -46,8 +46,11 @@ Follow the steps to verify the OpenID Connect configuration:
 
     [protocol]//[hostname]:[port]
 
-**CAUTION:** In the next step, verify that the Sign In page displays as expected, but do NOT sign in
+:::warning
+In the next step, verify that the Sign In page displays as expected, but do NOT sign in
 at this step.
+:::
+
 
 **Step 4 –** Click Test Connection to verify the connection configuration. This opens the Sign In
 page in the browser. Do not sign in.
@@ -111,9 +114,12 @@ from the provider and will vary:
   the previous step. This represents the format of the value that will be used to sign in to the MFA
   during log in.
 
-    **NOTE:** These are not the credentials that will be used during the login process; only an
+    :::note
+    These are not the credentials that will be used during the login process; only an
     example of the format of those credentials. The actual credentials used are unique to each user
     and are setup during the MFA registration process for that user.
+    :::
+
 
 **Step 11 –** Select a field to use for the User Id Field and click Select.
 

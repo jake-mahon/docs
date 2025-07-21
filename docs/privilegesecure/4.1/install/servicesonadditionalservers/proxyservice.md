@@ -25,9 +25,12 @@ topic for additional information.
 Follow the steps to install the NPS Proxy Service on another server that will run services for the
 application.
 
-_Remember,_ You must configure the Antivirus exclusions according to the
+:::tip
+Remember, You must configure the Antivirus exclusions according to the
 [Exclusions for Antivirus (AV) & Endpoint Software](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000Hi8CAE.html)
 knowledge base article.
+:::
+
 
 **Step 1 –** Copy the `NPS.ProxyService.exe` file to the desktop of the remote server.
 
@@ -39,7 +42,10 @@ Secure Proxy Service Setup wizard opens.
 **Step 3 –** On the End User License Agreement page, check the I agree to the license terms and
 conditions box and click Options.
 
-_Remember,_ it is a best practice to read the agreement before accepting it.
+:::tip
+Remember, it is a best practice to read the agreement before accepting it.
+:::
+
 
 ![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/setupoptions.webp)
 
@@ -52,8 +58,11 @@ C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service
 
 **Step 5 –** You will return to the End User License Agreement page. Click Install.
 
-**NOTE:** The installation process begins and the wizard displays the its Progress. This may take a
+:::note
+The installation process begins and the wizard displays the its Progress. This may take a
 few moments.
+:::
+
 
 ![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/completed_2.webp)
 
@@ -74,8 +83,11 @@ both the application and desired servers. The default location is:
 
 C:\ProgramData\Stealthbits\PAM\ProxyService
 
-**NOTE:** This file will not exist and needs to be created, unless there is already an application
+:::note
+This file will not exist and needs to be created, unless there is already an application
 mesh or additional Proxy server installed.
+:::
+
 
 **Step 2 –** Open the JSON file as an Administrator (via Administrator command prompt) on both
 servers.
@@ -100,7 +112,10 @@ For example:
 }
 ```
 
-**NOTE:** This file references the IP, FQDN, and hostname of the server you are on, not all servers.
+:::note
+This file references the IP, FQDN, and hostname of the server you are on, not all servers.
+:::
+
 
 **Step 4 –** Remove the `sbpam-node.crt` file from the following location on both servers:
 

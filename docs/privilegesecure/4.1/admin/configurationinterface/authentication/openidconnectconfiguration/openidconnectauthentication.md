@@ -15,8 +15,11 @@ The following sections provide configuration information to use OpenID with an O
 In order to use the OpenID login functionality with Privilege Secure an Okta user must match a user
 in an AD domain that Privilege Secure is aware of.
 
-**NOTE:** The user will also need to be given access to Privilege Secure by assigning them a role
+:::note
+The user will also need to be given access to Privilege Secure by assigning them a role
 from the Config->Role Management screen.
+:::
+
 
 To create a new user click the Directory menu item and select People from the drop-down. You should
 see this screen.
@@ -39,8 +42,11 @@ Username will be matched against – under the Login Format dropdown:
 - User Principal Name
 - Email Address
 
-**NOTE:** Okta doesn’t allow sAMAccountName to be used as the Username so we can’t use that one
+:::note
+Okta doesn’t allow sAMAccountName to be used as the Username so we can’t use that one
 here.
+:::
+
 
 Users in sbpam.local are all set up with both UPN and Email Address – but they’re not the same.
 

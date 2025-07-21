@@ -11,8 +11,11 @@ third-party Remote Desktop Connection Management software. Passing a DirectConne
 proxy server will launch an RDP connection. This topic explains the formatting for the connection
 string, with specific examples given for some popular Remote Desktop Connection Management programs.
 
-**NOTE:** If a SAML or OIDC authentication connector is enabled for the requesting user,
+:::note
+If a SAML or OIDC authentication connector is enabled for the requesting user,
 DirectConnect functionality cannot be used.
+:::
+
 
 To configure the remote connection client, use a connection string with the following parameters,
 separated by “+” to the appropriate port on the proxy:
@@ -164,7 +167,10 @@ User Name Format:
 
 `\<connection string>`
 
-**NOTE:** The user name starts with __ (back slash).
+:::note
+The user name starts with __ (back slash).
+:::
+
 
 User Name Example:
 

@@ -15,11 +15,17 @@ wrong address, the services will show offline in the Services Node area.
 
 ![Service Settings page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/page/servicessettingspage.webp)
 
-**NOTE:** Make sure that the web certificate is updated in IIS prior to setting a new value in
+:::note
+Make sure that the web certificate is updated in IIS prior to setting a new value in
 Netwrix Privilege Secure. It is important to ensure the Binding Hostname in IIS, the certificate
 Subject, and the NPS Rest URL value in the Services page exactly match.
+:::
 
-**NOTE:**
+
+:::note
+
+:::
+
 
 The Services Settings page has the following features:
 

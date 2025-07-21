@@ -14,7 +14,10 @@ topic for additional information.
 
 Follow the steps to add or edit a managed user account for the resource.
 
-**NOTE:** Only applicable to Website resources.
+:::note
+Only applicable to Website resources.
+:::
+
 
 **Step 1 –** Navigate to the **Resources** page.
 

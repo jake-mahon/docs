@@ -31,7 +31,10 @@ The Users table has the following features:
 
 Follow the steps to add users and groups to the access certification task.
 
-**NOTE:** It is not possible to add or remove users after they have been added.
+:::note
+It is not possible to add or remove users after they have been added.
+:::
+
 
 **Step 1 –** Navigate to the Audit and Reporting > Access Certification page.
 
@@ -64,8 +67,11 @@ Users/Groups table and it is immediately moved to the Users & Groups to Add tabl
 **Step 6 –** (Optional) Click a row in the Users & Groups to Add table to move it back to the
 Available Users/Groups table.
 
-**CAUTION:** It is not possible to add or remove users after they have been added to the access
+:::warning
+It is not possible to add or remove users after they have been added to the access
 certification task.
+:::
+
 
 **Step 7 –** Click Add to add the selected user(s) or group(s).
 
@@ -74,8 +80,11 @@ The new user(s) and group(s) are added to the certification task and are shown o
 
 **Step 8 –** Click Close to return to the Access Certification page.
 
-**NOTE:** Only the assigned reviewer can interact with the entitlements once the access
+:::note
+Only the assigned reviewer can interact with the entitlements once the access
 certification task is created.
+:::
+
 
 The reviewer can now log in to see the access certification task(s) assigned to them and begin the
 review process. See the
