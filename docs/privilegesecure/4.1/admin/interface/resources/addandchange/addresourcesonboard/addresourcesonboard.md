@@ -27,7 +27,7 @@ The window has the following features:
 - Available Resources — Shows all available resources
 - Resources And Groups to Add — Shows selected resources
 - Service Account — Provides a list of available Service Accounts. See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window
@@ -77,7 +77,7 @@ The window has the following features:
   topic for additional information.
 - Remove — Removes the selected item
 - Service Account — Provides a list of available Service Accounts. See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window
@@ -143,7 +143,7 @@ The window has the following features:
 - Add — Adds the resource in the textbox to the table
 - Remove — Removes the selected item
 - Service Account — Provides a list of available Service Accounts. See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window

@@ -41,7 +41,7 @@ The dashboard has the following features:
   topic for additional information.
 - Schedule Rotation — Add the credential rotation task to the queue. This button is only available
   when the Method is Automatic managed. See the
-  [Scheduled Tasks Page](/docs/privilegesecure/4.1/admin/interface/servicenodes/scheduledtasks.md)
+  [Scheduled Tasks Page](/docs/privilegesecure/4.1/admin/configurationinterface/servicenodes/scheduledtasks.md)
   topic for additional information.
 - Verify — Checks that the credentials for the selected account match the credentials set by
   Privilege Secure
@@ -78,7 +78,7 @@ The table has the following columns:
     - Manual — Credential rotation must be initiated manually with the Rotate Service Account
       button, or the credential must be manually updated on both the resource and in Privilege
       Secure. See the
-      [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+      [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
       section for information on updating credentials for Internal service accounts.
     - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been
       stored
@@ -91,7 +91,7 @@ The table has the following columns:
 
     - Standard — Local or domain user account, including managed users created by activity sessions
     - Internal — Internal service account used by Privilege Secure with no dependencies. See the
-      [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+      [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
       topic for additional information.
     - Service — Local or domain service account with one or more dependencies. Includes Internal
       service accounts with one or more dependencies.

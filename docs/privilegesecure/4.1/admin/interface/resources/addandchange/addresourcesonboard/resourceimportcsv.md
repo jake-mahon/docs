@@ -16,7 +16,7 @@ Resources can be onboarded via a CSV import process. Create a CSV file with the 
   [Platforms Page](/docs/privilegesecure/4.1/admin/interface/platforms/overview.md).
 - Credential — Displays the service account associated with the resource. This is an optional value,
   but it must be an exact match to known service accounts on the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md).
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md).
 
 The CSV file must contain one resource per row. Each resource must be identified by either a DNS
 Host Name or an IP Address. All other values are optional.

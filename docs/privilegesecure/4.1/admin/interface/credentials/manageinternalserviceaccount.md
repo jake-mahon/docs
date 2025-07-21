@@ -33,7 +33,7 @@ Try the following possible solutions to resolve:
   [Users & Groups Page](/docs/privilegesecure/4.1/admin/interface/usersgroups/usersgroups.md)
   topic for additional information.
 - Check the spelling of the Username associated with the service account. See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 - Make sure the user is in Active Directory in the expected domain
 
