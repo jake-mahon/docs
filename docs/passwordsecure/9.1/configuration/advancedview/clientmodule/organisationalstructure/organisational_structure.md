@@ -73,8 +73,11 @@ This configuration means that the user password cannot be reset by administrator
 is that if the password is lost there is no technical solution for "resetting" the password in the
 system.
 
-**CAUTION:** It is not recommended to configure the permissions so that only the user themselves has
+:::warning
+It is not recommended to configure the permissions so that only the user themselves has
 membership. No other interventions can be made if the password is then lost.
+:::
+
 
 ## Adding local organisational units
 

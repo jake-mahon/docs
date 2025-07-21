@@ -11,9 +11,12 @@ sidebar_position: 30
 High availability is designed to guarantee the further operation of Netwrix Password Secure in the
 event of damage. A series of requirements need to be met in advance in order to use this feature
 
-**CAUTION:** As the configuration of high availability is complex, it is (generally) implemented
+:::warning
+As the configuration of high availability is complex, it is (generally) implemented
 during a consultation. If you are interested in this feature, please contact us directly or contact
 your responsible partner.
+:::
+
 
 #### Requirements
 
@@ -26,7 +29,7 @@ The following points should be observed during the configuration.
 - A Netwrix Password Secure application server needs to be licensed for each location. Every
   application server has its own configuration database.
 
-Load balancer
+**Load balancer**
 
 - To reduce the load on the server, a load balancer can be installed upstream of the application
   server

@@ -19,7 +19,7 @@ also be reused in other areas.
 
 The following option is required to manage password rules.
 
-User right
+**User right**
 
 - Can manage password rules
 

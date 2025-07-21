@@ -20,8 +20,11 @@ NOTE: The Password Reset certificate cannot be replaced by your own certificate.
 NOTE: The certificates for the Password Reset have an expiry date. However, this is not checked. The
 certificate thus does not need to be renewed.
 
-**CAUTION:** If the database is being moved to another server, it is essential that all Password
+:::warning
+If the database is being moved to another server, it is essential that all Password
 Reset certificate is also transferred!
+:::
+
 
 #### Exporting and importing the certificate
 

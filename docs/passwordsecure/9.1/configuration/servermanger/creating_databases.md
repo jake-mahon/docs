@@ -24,19 +24,19 @@ ribbon. The individual tabs of the wizard are explained below:
 
 ![database wizard](/img/product_docs/passwordsecure/9.1/configuration/server_manager/creatingdatabase/installation_with_parameters_217-en.webp)
 
-Database server
+**Database server**
 
 The first tab can be used to manually select the database server. By default, the value defined in
 the Advanced settings is preset. A user can also be entered or the service user can be selected
 instead.
 
-Name
+**Name**
 
 Enter the name of the new database here. Alternatively, you may select an existing database. A
 meaningful name makes it easier to differentiate between databases, especially when using multiple
 databases.
 
-Data
+**Data**
 
 This setting can be used to define whether a template should be used. The template will provide the
 database with ready-made forms and dashboard settings that make it easier to get started. The user
@@ -44,7 +44,7 @@ can select from English and German templates. However, it is also possible to pr
 template – you will then start with a completely empty database. If you have a backup from Password
 Safe version 7, this can be migrated.
 
-User
+**User**
 
 This setting is used to define the first user to be created – normally this is the administrator. If
 a migration is active, the user can be deleted after migration.

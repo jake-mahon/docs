@@ -66,7 +66,7 @@ Separate variables can be customized for each widget. This example shows how oft
 passwords displayed. Naturally, the variables are distinct for each widget since other information
 could be relevant.
 
-Widget event
+**Widget event**
 
 You can select the **Widget Event** option in the ribbon. This activates the interaction of the
 widgets. In the following example, this feature was enabled for the Activity widget. As a result,

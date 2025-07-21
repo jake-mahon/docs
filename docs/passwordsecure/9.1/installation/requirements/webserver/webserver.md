@@ -30,7 +30,7 @@ sidebar_position: 40
 
 #### Required Configuration
 
-Mandatory Ports/firewall rules
+**Mandatory Ports/firewall rules**
 
 - Port 443 HTTPS to address the web server from the client (inbound)
 - Port 11016 for communication with the application server (outgoing)

@@ -13,12 +13,15 @@ automated
 [System tasks](/docs/passwordsecure/9.1/configuration/advancedview/mainmenufc/extras/systemtasks/system_tasks.md)
 can extract information from Netwrix Password Secure in this manner.
 
-**CAUTION:** Please note that extracting passwords is always associated with a weakening of the
+:::warning
+Please note that extracting passwords is always associated with a weakening of the
 security concept. The informative value of the logbook will suffer when data is exported because the
 revision of this data will no longer be logged. This aspect needs to be taken into account
 particularly in conjunction with the Netwrix Password Secure
 [Export wizard](/docs/passwordsecure/9.1/configuration/advancedview/mainmenufc/export/export_wizard.md)
 because the export result is not separately secured by a password.
+:::
+
 
 The export function is accessed via the Main menu/Export. There are two fundamental types of export
 – the WebViewer export and the export wizard. However, the latter is divided into four
@@ -50,7 +53,7 @@ administrator possesses all rights, including the right to export.
 
 The following option is required.
 
-User right
+**User right**
 
 - Can export
 

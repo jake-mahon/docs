@@ -61,8 +61,11 @@ The server mode offers the following advantages:
 
 - No terminal service is required in terminal server operation
 
-**CAUTION:** Please note that SSO applications only work via Autofill Add-on. If you are in server
+:::warning
+Please note that SSO applications only work via Autofill Add-on. If you are in server
 mode and the Autofill Add-on has not been started, SSO applications do not work!
+:::
+
 
 After successful connection, the number of data records available for the current Internet page is
 displayed on the icon.

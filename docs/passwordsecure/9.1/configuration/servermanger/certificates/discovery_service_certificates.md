@@ -17,8 +17,11 @@ NOTE: The discovery service certificate cannot be replaced by your own certifica
 NOTE: The certificates for the discovery service have an expiry date. However, this is not checked.
 The certificate thus does not need to be renewed.
 
-**CAUTION:** If the database is being moved to another server, it is **essential that the discovery
+:::warning
+If the database is being moved to another server, it is **essential that the discovery
 service certificate is also transferred!**
+:::
+
 
 #### Exporting and importing the certificate
 

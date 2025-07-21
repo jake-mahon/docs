@@ -13,7 +13,7 @@ guide to setting up a password manager and leading you through the first few ste
 
 ## How to Log In
 
-Where can I find my username and password?
+**Where can I find my username and password?**
 
 You can find your login data in the email provided by your administrator. This email also contains
 the following information:

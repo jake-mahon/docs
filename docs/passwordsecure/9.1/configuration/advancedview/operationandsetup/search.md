@@ -29,7 +29,7 @@ case sensitive. No distinction is made between upper and lower case.
 
 NOTE: You can access quick search directly via \* Ctrl + Q\*!
 
-Negations in the quick search
+**Negations in the quick search**
 
 Negations restrict the results to such an extent that certain criteria may not be met. The following
 example searches for all records that contain the expression \* Delphi , **but not the expression

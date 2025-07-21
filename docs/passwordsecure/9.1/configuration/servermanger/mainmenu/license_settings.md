@@ -15,8 +15,11 @@ current license details are displayed in the window provided for this purpose.
 
 ## Licenses
 
-**CAUTION:** Version 7 licenses cannot be used for Netwrix Password Secure Version 8. “Please
+:::warning
+Version 7 licenses cannot be used for Netwrix Password Secure Version 8. “Please
 contact us”: http: //www.passwordsafe.de to obtain a version 8 license.
+:::
+
 
 Licenses are linked via the Netwrix license server. Here are the details:
 
@@ -39,8 +42,11 @@ licenses from a list. The license can be now used.
 NOTE: Optionally, you may specify a proxy. By default, the proxy stored in the operating system is
 used.
 
-**CAUTION:** The licence is called up in the context of the service user. If you experience
+:::warning
+The licence is called up in the context of the service user. If you experience
 connection problems, the firewall and, if relevant, the proxy should be checked.
+:::
+
 
 #### How to activate the license via license file
 

@@ -34,8 +34,11 @@ The following options are required to change forms.
 
 - Can change form for a password
 
-**CAUTION:** Please note that information could be lost during this process! In the example, this
+:::warning
+Please note that information could be lost during this process! In the example, this
 applies to the fields "Website" and "Information".
+:::
+
 
 ## The effects of changes to forms on existing records
 

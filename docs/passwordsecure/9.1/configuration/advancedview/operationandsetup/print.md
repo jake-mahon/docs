@@ -21,7 +21,7 @@ The following rights are relevant.
 
 - The **Print** right for the relevant record is required in each case.
 
-User right
+**User right**
 
 - Can print
 

@@ -62,5 +62,8 @@ releasing a seal requires approval from a person who only possesses or possessed
 permissions or will only possess them in future, this could naturally conflict with the configured
 release criteria.
 
-**CAUTION:** The combination of seals and temporary permissions is not recommended if the user with
+:::warning
+The combination of seals and temporary permissions is not recommended if the user with
 permissions to issue a release has only been given temporary permissions.
+
+:::

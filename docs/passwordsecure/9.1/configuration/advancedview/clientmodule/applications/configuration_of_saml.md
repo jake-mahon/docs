@@ -52,8 +52,11 @@ himself.
 
 After verification, the **SAML application** can be started from the Basic view view.
 
-**CAUTION:** As this is a passwordless authentication, it is not necessary to link the **SAML
+:::warning
+As this is a passwordless authentication, it is not necessary to link the **SAML
 application** with a password.
+:::
+
 
 NOTE: Setup and configuration instructions for
 [SAML Application for Dropbox](/docs/passwordsecure/9.1/configuration/advancedview/clientmodule/applications/exampleapplications/saml_application_for_dropbox.md)

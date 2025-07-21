@@ -25,7 +25,7 @@ Whether the user is permitted to import data is controlled by the corresponding
 
 The wizard supports the import of data into Netwrix Password Secure in four steps.
 
-Select type
+**Select type**
 
 ![installation_with_parameters_59](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_59.webp)
 
@@ -33,7 +33,7 @@ The first step is to define the file that is to be used for the import. It is on
 proceed to the second step when the defined type corresponds to the stated file to be imported. The
 second step is the settings.
 
-Settings
+**Settings**
 
 ![installation_with_parameters_60](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_60.webp)
 
@@ -51,7 +51,7 @@ NOTE: No folders exist in Netwrix Password Secure. For this reason, it is necess
 whether a folder is saved as an organisational structure or as a tag during the import. The same
 process is also used for the migration.
 
-Assignment of the form fields
+**Assignment of the form fields**
 
 ![installation_with_parameters_61](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_61.webp)
 
@@ -61,7 +61,7 @@ drag & drop. Depending on which form was selected on the top line, form fields f
 right can now be assigned to the form fields to be imported via drag & drop. It is also possible to
 create new forms.
 
-Finish
+**Finish**
 
 ![installation_with_parameters_62](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_62.webp)
 

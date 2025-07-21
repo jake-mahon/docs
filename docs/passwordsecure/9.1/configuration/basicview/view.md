@@ -53,8 +53,11 @@ When you click the button, the following options become visible:
 You can only perform the above operations if you are sufficiently authorized. Please point this out
 to your in-house administrator if this is not the case for you.
 
-**CAUTION:** You can only execute the mentioned operations if you are sufficiently authorized.
+:::warning
+You can only execute the mentioned operations if you are sufficiently authorized.
 Please point this out to your in-house administrator if this is not the case for you.
+:::
+
 
 ## Image management
 

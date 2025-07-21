@@ -12,7 +12,7 @@ It is important to ensure that the right requirements have been met before setti
 Add-on. The following configurations need to be defined in both the Server Manager and also the user
 rights/user settings.
 
-Requirements
+**Requirements**
 
 To set up offline databases, this option must be activated in the Server Manager first. This process
 is carried out separately for each database in the database view in the Server Manager in the
@@ -26,14 +26,14 @@ sections:[ Creating databases](/docs/passwordsecure/9.1/configuration/servermang
 and
 [Managing databases](/docs/passwordsecure/9.1/configuration/servermanger/managingdatabases/managing_databases.md)
 
-User rights
+**User rights**
 
 The user requires the “offline mode” right. In addition, how long offline mode can be used without a
 server connection can be defined in the user rights.
 
 ![User rights](/img/product_docs/passwordsecure/9.1/configuration/offlineclient/setup/installation_with_parameters_266-en.webp)
 
-Creating an offline database
+**Creating an offline database**
 
 The synchronization with the offline database can generally be carried out automatically. However,
 **the first synchronization must be carried out manually**. The synchronization is started via the

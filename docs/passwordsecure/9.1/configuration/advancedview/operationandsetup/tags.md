@@ -20,7 +20,7 @@ NOTE: Tags have no permissions. Any user can use any tag!
 
 The following option is required for creating new tags.
 
-User rights
+**User rights**
 
 - Can add new tags
 

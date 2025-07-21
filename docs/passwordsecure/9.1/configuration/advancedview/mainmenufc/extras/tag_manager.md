@@ -26,10 +26,13 @@ longer needed.
 
 ## Relevant rights
 
-The following option is required for managing tags
+**The following option is required for managing tags**
 
 User right
 
 - Manage tags
 
-**CAUTION:** It is only possible to delete tags if there are no more data associated with them
+:::warning
+It is only possible to delete tags if there are no more data associated with them
+
+:::

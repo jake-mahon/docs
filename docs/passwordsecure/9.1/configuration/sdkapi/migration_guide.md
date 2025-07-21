@@ -10,9 +10,12 @@ Overview: We've enhanced the login authentication process to offer a more dynami
 experience. This update introduces a new method of authentication, effective for servers from
 version 8.12 onward.
 
-**CAUTION:** Important Update: Starting from server version 9.0, the previous login method will no
+:::warning
+Important Update: Starting from server version 9.0, the previous login method will no
 longer be functional. Users must adopt the new authentication approach provided in our API to
 continue accessing the services.
+:::
+
 
 #### Why was this change done?
 
@@ -40,15 +43,18 @@ Transition details:
   older than 8.12 are no longer operational with the API. If you're using such an old version,
   please use the old API.
 
-**CAUTION:** Action Required: Ensure that your server version is 8.12 or later to implement the new
+:::warning
+Action Required: Ensure that your server version is 8.12 or later to implement the new
 authentication method and seamlessly access our services. Update your integration with the API to
 incorporate the revised login interface and maintain uninterrupted service access.
+:::
+
 
 Below are code examples for the previous and updated authentication methods.
 
 #### C#
 
-Previous authentication method (deprecated)
+**Previous authentication method (deprecated)**
 
 ```
 var database = "your-database";
@@ -69,7 +75,7 @@ while (mfaRequest != null) {
 }
 ```
 
-New authentication method (required for version 9.0 onwards)
+**New authentication method (required for version 9.0 onwards)**
 
 ```
 var database = "your-database";
@@ -91,7 +97,7 @@ while (!authenticationFlow.IsAuthenticated) {
 
 #### JavaScript
 
-Previous authentication method (deprecated)
+**Previous authentication method (deprecated)**
 
 ```
 const database = 'your-database'
@@ -107,7 +113,7 @@ while (mfaRequest) {
 }
 ```
 
-New authentication method (required for version 9.0 onwards)
+**New authentication method (required for version 9.0 onwards)**
 
 ```
 const database = 'your-database'

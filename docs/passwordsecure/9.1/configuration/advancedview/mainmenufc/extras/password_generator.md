@@ -50,7 +50,7 @@ separated and whether to use LeetSpeak.
 
 ![installation_with_parameters_84](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_84.webp)
 
-Password rule
+**Password rule**
 
 Already
 defined[Password rules](/docs/passwordsecure/9.1/configuration/advancedview/mainmenufc/extras/password_rules.md)

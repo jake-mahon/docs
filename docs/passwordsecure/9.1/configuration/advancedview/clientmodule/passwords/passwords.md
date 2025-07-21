@@ -63,7 +63,7 @@ The module-specific ribbon functions will be explained below.
 - **Permissions**: The drop-down menu can be used to set both password permissions and also form
   field permissions. This method only allows the manual setting of permissions for data (see
 
-    authorization concept)
+**authorization concept)**
 
 - **Password masking**: Masking passwords that need to be protected from unauthorized users is an
   important feature of the security concept in Netwrix Password Secure.
@@ -98,8 +98,11 @@ via RDP, SSH, general Windows applications or websites. This makes it possible t
 
 ![external link](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/passwords_5-en.webp)
 
-**CAUTION:** If several sessions are opened on a client, an external link is always called in the
+:::warning
+If several sessions are opened on a client, an external link is always called in the
 first session.
+:::
+
 
 - **History**: This icon opens the history for those records selected in list view in a new tab. Due
   to the comprehensive recording of historical versions of passwords, it is now possible to compare

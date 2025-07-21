@@ -51,7 +51,7 @@ create new Entra ID profiles" enabled.
 Login to the [Azure portal](https://portal.azure.com/#azure-portal) and go to the management page of
 your Microsoft Entra ID.
 
-NOTE: You need an account with administrative permissions
+**NOTE: You need an account with administrative permissions**
 
 - Write down your "Tenant ID" shown in the Azure console or by using PowerShell:
 
@@ -74,8 +74,11 @@ available in the Azure Gallery.
 - In the navigation, click "Users and groups"
 - Add the Users and groups that should be available to Netwrix Password Secure
 
-**CAUTION:** The import of Azure groups as Netwrix Password Secure roles is only possible if you
+:::warning
+The import of Azure groups as Netwrix Password Secure roles is only possible if you
 have booked the Azure package Entra ID Premium P1!
+:::
+
 
 - Navigate to the "Provisioning" page
 - Configure the Provisioning Mode to "Automatic"
@@ -111,10 +114,13 @@ created in Netwrix Password Secure now
 NOTE: Azure´s default provisioning interval is 40 Minutes. So it may some time until the users and
 roles are shown in Netwrix Password Secure.
 
-**CAUTION:** Please note that Azure establishes the connection to Netwrix Password Secure. For this,
+:::warning
+Please note that Azure establishes the connection to Netwrix Password Secure. For this,
 the client URL must be accessible from an external network / provisioning agent and any used SSL
 certificate must be valid! If the users are not created in Netwrix Password Secure, consult the
 Azure Enterprise Application Provisioning log for more information.
+:::
+
 
 ### Azure login configuration
 
