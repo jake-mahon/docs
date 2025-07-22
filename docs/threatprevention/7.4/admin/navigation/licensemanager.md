@@ -38,12 +38,12 @@ passwords.
 
 The Active Directory solution comes with the following licensed modules:
 
-| Licensed Module                                                                                | Available Event Type                                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Active Directory Changes                                                                       | Active Directory Changes Active Directory Read Monitoring AD Replication Monitoring Authentication Monitoring Effective Group Membership FSMO Role Monitoring LSASS Guardian – Monitor |
-| Active Directory Lockdown \*Requires Active Directory Changes Module                           | Active Directory Lockdown AD Replication Lockdown Authentication Lockdown LSASS Guardian – Protect                                                                                     |
-| GPO Lockdown \*Requires Active Directory Changes Module \*\*Requires File System Module        | GPO Setting Lockdown                                                                                                                                                                   |
-| GPO Setting Changes \*Requires Active Directory Changes Module \*\*Requires File System Module | GPO Setting Changes                                                                                                                                                                    |
+| Licensed Module          | Available Event Type         |
+| --------------------- | ------------------------------------- |
+| Active Directory Changes     | Active Directory Changes <br />Active Directory Read Monitoring <br />AD Replication Monitoring <br />Authentication Monitoring <br />Effective Group Membership <br />FSMO Role Monitoring <br />LSASS Guardian – Monitor |
+| Active Directory Lockdown <br />\*Requires Active Directory Changes Module        | Active Directory Lockdown <br />AD Replication Lockdown <br />Authentication Lockdown <br />LSASS Guardian – Protect    |
+| GPO Lockdown <br />\*Requires Active Directory Changes Module <br />\*\*Requires File System Module        | GPO Setting Lockdown       |
+| GPO Setting Changes <br />\*Requires Active Directory Changes Module <br />\*\*Requires File System Module | GPO Setting Changes        |
 
 See the following topics for additional information:
 
@@ -80,7 +80,7 @@ The Exchange solution comes with the following licensed modules:
 | Licensed Module                                            | Available Event Type |
 | ---------------------------------------------------------- | -------------------- |
 | Exchange Events Module                                     | Exchange Changes     |
-| Exchange Lockdown Module \*Requires Exchange Events Module | Exchange Lockdown    |
+| Exchange Lockdown Module <br />\*Requires Exchange Events Module | Exchange Lockdown    |
 
 See the following topics for additional information:
 
@@ -93,7 +93,7 @@ The File System solution comes with the following licensed modules:
 
 | Licensed Module    | Available Event Type                                                    |
 | ------------------ | ----------------------------------------------------------------------- |
-| File System Module | File System Changes File System Lockdown File System Enterprise Auditor |
+| File System Module | File System Changes <br />File System Lockdown <br />File System Enterprise Auditor |
 
 The File System Changes event type and File System Lockdown event type only generate event
 monitoring and blocking data for Threat Prevention. The File System Enterprise Auditor event type
@@ -114,9 +114,9 @@ See the following topics for additional information:
 
 The LDAP solution comes with the following licensed modules:
 
-| Licensed Module                                                   | Available Event Type                               |
-| ----------------------------------------------------------------- | -------------------------------------------------- |
-| LDAP Monitoring Module \*Requires Active Directory Changes Module | LDAP Lockdown LDAP Monitoring LDAP Bind Monitoring |
+| Licensed Module         | Available Event Type          |
+| --------------- | ---------- |
+| LDAP Monitoring Module <br />\*Requires Active Directory Changes Module | LDAP Lockdown <br />LDAP Monitoring <br />LDAP Bind Monitoring |
 
 See the following topics for additional information:
 
