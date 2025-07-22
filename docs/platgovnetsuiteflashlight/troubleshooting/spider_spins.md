@@ -11,5 +11,6 @@ causes:
 
 - You closed the web browser tab where the spider was running, or switched roles before the gears
   stopped spinning. In this case, restart the spider.
-- There is an issue with the **IP Restriction**. Contact Strongpoint support for assistance in
+- There is an issue with the **IP Restriction**. Contact Netwrix support at
+[https://www.netwrix.com/support.html](https://www.netwrix.com/support.html) for assistance in
   configuring your account.

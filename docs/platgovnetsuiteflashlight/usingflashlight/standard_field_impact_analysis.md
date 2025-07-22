@@ -18,8 +18,8 @@ To access this report:
 
 2. You can optionally filter on the following fields:
 
-- **Customization Type**: the type of Customization record that you wish to analyze
-- **Standard Field Script ID**: the Script ID for the specific Standard Field that you wish to
+    - **Customization Type**: the type of Customization record that you wish to analyze
+    - **Standard Field Script ID**: the Script ID for the specific Standard Field that you wish to
   analyze
 
 3. Click **Run** to execute your search.  

@@ -30,9 +30,9 @@ Run the manual spider:
 
 2. You can run the manual spider:
 
-- **Fast**: Only updates if there are changes to the customization records.
-- **Slow**: Re-spiders all customization records.
-- **By Record type**: updates A specific record type or several record types can be selected to be
+    - **Fast**: Only updates if there are changes to the customization records.
+    - **Slow**: Re-spiders all customization records.
+    - **By Record type**: updates a specific record type or several record types can be selected to be
   updated. The selected record types are added to an index. Strongpoint processes read the index,
   create customization records, and parse relationships and scripts.
 
