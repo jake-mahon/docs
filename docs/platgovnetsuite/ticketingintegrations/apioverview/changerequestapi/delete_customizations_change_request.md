@@ -12,25 +12,27 @@ Remove attached customization and proposed customizations from a Change Request.
 
 **Name**
 
-URL :
+**URL**:
 `https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_change_request_api&deploy=1`
 
-HTTP Method : POST
+**HTTP Method**: POST
 
 ### Request Body Object Definition
 
 **Name** / **Type**
 
-actionType : string
+**actionType**: string
 
-externalId : string
+**externalId**: string
 
-customizations : Array of strings
+**customizations**: Array of strings
 
-proposedCustomizations : Array of strings
+**proposedCustomizations**: Array of strings
 
+:::note
 Request body names are case sensitive and mandatory. For the **actionType** parameter, it is always
 a constant value, in this case **deleteCustomization**.
+:::
 
 ### Request Body Object
 
@@ -61,7 +63,7 @@ credentials. Header tokens should be encoded in HMAC SHA256.
 
 ### Format
 
-Authorization: `<_encoded authentication code_>`
+**Authorization**: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -75,29 +77,29 @@ Returns a JSON format string.
 
 **Name** / **Type**
 
-status : string
+**status**: string
 
-message : string
+**message**: string
 
-data : JSON object
+**data**: JSON object
 
 ### Data Object Definition
 
 **Name** / **Type**
 
-customizations : Array of JSON objects
+**customizations**: Array of JSON objects
 
-proposedCustomizations : Array of strings
+**proposedCustomizations**: Array of strings
 
 ### Customizations JSON Object
 
 **Name** / **Type**
 
-internalId : string
+**internalId**: string
 
-scriptId : string
+**scriptId**: string
 
-name : string
+**name**: string
 
 ### Response JSON Object
 
@@ -120,19 +122,19 @@ name : string
 
 **Message**
 
-"Customizations / proposed customizations deleted successfully." : Successfully removed
+**"Customizations / proposed customizations deleted successfully."**: Successfully removed
 customizations and/or proposed customizations from the change request.
 
-"No change detected." : Customizations/Proposed Customizations are already removed from the change
+**"No change detected."**: Customizations/Proposed Customizations are already removed from the change
 request(for duplicate deletions).
 
 ### Error Messages
 
 **Message**
 
-"Unable to load Change Request. External ID: xxxx" : There is an error with the change request.
+**"Unable to load Change Request. External ID: xxxx"**: There is an error with the change request.
 
-"Change Request update prohibited. Change Request status is xxxx" : The change request can not be
+**"Change Request update prohibited. Change Request status is xxxx"**: The change request can not be
 modified because of the current status.
 
 Error messages are returned if any exceptions are encountered.
@@ -177,8 +179,8 @@ Error messages are returned if any exceptions are encountered.
 
 The Change Request API is developed using a RESTlet with API version 2.1.
 
-Script Name : Strongpoint Int Change Request API
+**Script Name**: Strongpoint Int Change Request API
 
-Script ID : customscript_flo_int_change_request_api
+**Script ID**: customscript_flo_int_change_request_api
 
-Filename : StrongpointIntegrationChangeRequestAPI.js
+**Filename**: StrongpointIntegrationChangeRequestAPI.js

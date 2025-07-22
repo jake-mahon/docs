@@ -36,8 +36,10 @@ The walkthrough demonstrates these steps:
 
 5. Click **Create**.
 
+:::note
 Alerts and notifications may occur during this walkthrough, and are not included in these steps. For
 example, override alert, notifications for approvers, and notification for the change request.
+:::
 
 ## Enter your Credentials
 
@@ -56,7 +58,9 @@ example, override alert, notifications for approvers, and notification for the c
 4. Click **Connect**. If the connection is successful, the form is displayed (see Add Customizations
    section). The **Synchronized with**status displays the account you are logged into for NetSuite.
 
+:::note
 You cannot login if you do not have the **appropriate role permissions to create a Change Request**.
+:::
 
 If you do not enter the correct email or password, an error is displayed. After six unsuccessful
 consecutive attempts to login, your account is suspended for 30 minutes.

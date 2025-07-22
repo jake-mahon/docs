@@ -14,7 +14,9 @@ sidebar_position: 160
 4. Click **Add Selected Customization** to add the field as a proposed customization.
 5. Click **In Progress** in the status bar.
 6. Click **Save**. The Change Level Required, Current Stage and Change Policy are displayed.
-7. For this example, if you are not an **Approver**:
+7. For this example:
+
+    If you are not an **Approver**:
 
     1. Click **Edit**.
     2. Select yourself as an **Additional Approver**.
@@ -22,11 +24,11 @@ sidebar_position: 160
     4. Select yourself as **Approved By**.
     5. Click **Save**. The status bar indicates **Approved (Override)**.
 
-If you are an **Approver**:
+    If you are an **Approver**:
 
-1. Click **Pending Approval** in the status bar.
-2. Approve and Reject buttons appear for approvers. Click **Approve**.
-3. The status bar indicates **Approved**.
+    1. Click **Pending Approval** in the status bar.
+    2. Approve and Reject buttons appear for approvers. Click **Approve**.
+    3. The status bar indicates **Approved**.
 
 ## Create the Entity Field
 

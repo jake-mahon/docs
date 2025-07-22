@@ -8,23 +8,17 @@ sidebar_position: 90
 
 Here are the reports available for SoD:
 
-SoD Role Management
+SoD Role Management<br />
+SoD Incident Management<br />
+SoD Change Management<br />
+SoD Risk Management<br />
+SoD Audit<br />
+Reports on Employee Record SoD tab<br />
+SoD Employee Access<br />
+SoD Processing Status<br />
+SoD Testing<br />
 
-SoD Incident Management
-
-SoD Change Management
-
-SoD Risk Management
-
-SoD Audit Reports
-
-Reports on Employee Record SoD tab
-
-SoD Employee Access Reports
-
-SoD Processing Status
-
-SoD Testing
+## SoD Role Management
 
 | SoD Role Management                                     | Description                                                                                                                                                                                                                                                                                                                                             |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -35,35 +29,52 @@ SoD Testing
 | Transactional Activity by Role                          | List all Transaction activities that have occurred by role.                                                                                                                                                                                                                                                                                             |
 | Company Activity by Role                                | List all Company activities that have occurred by role. Defaults to **Vendor**.                                                                                                                                                                                                                                                                         |
 | Record Activity by Role                                 | List all Record activities that have occurred by role.Defaults to **Item**.                                                                                                                                                                                                                                                                             |
-| SoD Incident Management Reports                         | Description                                                                                                                                                                                                                                                                                                                                             |
+
+## SoD Incident Management
+
+| SoD Incident Management                         | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | Unresolved SoD Incidents                                | Log for all violations to be reviewed.                                                                                                                                                                                                                                                                                                                  |
 | Resolved SoD Incidents                                  | Log for all violations that have been reviewed and cleared.                                                                                                                                                                                                                                                                                             |
 | Compliant SoD Incidents                                 | Log for all exemptions / pre-authorizations using change management.                                                                                                                                                                                                                                                                                    |
 | SoD Incidents (Resolved/Unresolved) by Employee         | Lists number of SoD incidents for each affected employee.                                                                                                                                                                                                                                                                                               |
 | SoD Blocked Incidents (Resolved/Unresolved) by Employee | Lists number of SoD blocked incidents for each affected employee.                                                                                                                                                                                                                                                                                       |
+
+## SoD Change Management
+
 | SoD Change Management                                   | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | SoD Change Requests (List)                              | All SoD Change Requests for affected employees, approval status, affected rule and roles and rule status.                                                                                                                                                                                                                                               |
 | New SoD Approval (Form)                                 | Change Request form for employee, role or permission changes.                                                                                                                                                                                                                                                                                           |
 | New SoD Rule Change (Form)                              | Change Request form for a Rule change.                                                                                                                                                                                                                                                                                                                  |
+
+## SoD Risk Management
+
 | SoD Risk Management                                     | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | SoD Risk Analysis                                       | List of all SoD incidents documented for risk analysis.                                                                                                                                                                                                                                                                                                 |
 | SoD Risk and Control Matrix                             | Summary of processes and an internal ID count. Click a process to see the risk description and SoD details.                                                                                                                                                                                                                                             |
-| SoD Audit Reports                                       | Description                                                                                                                                                                                                                                                                                                                                             |
+## SoD Audit
+
+| SoD Audit                                       | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | SoD Audit Report                                        | A complete report of all SoD incidents documented for audit review.                                                                                                                                                                                                                                                                                     |
 | SoD Rules with Blocking On                              | List of SoD rules with blocking turned on.                                                                                                                                                                                                                                                                                                              |
 | SoD Rules Status Changes                                | Log of all SoD rule status changes.                                                                                                                                                                                                                                                                                                                     |
 | User Role SoD Violations                                | Log of SoD violations for each user role, including violated rule, non-compliant role and permissions, and explanations.                                                                                                                                                                                                                                |
+
+## Reports on Employee Record SoD Tab
+
 | Reports on Employee Record SoD Tab                      | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | Unresolved SoD Incidents                                | Log for all violations to be reviewed for this employee.                                                                                                                                                                                                                                                                                                |
 | Resolved SoD Incidents                                  | Log for all violations that have been reviewed and cleared for this employee.                                                                                                                                                                                                                                                                           |
 | SoD Approval Requests                                   | Log of all Approval Requests for this employee.                                                                                                                                                                                                                                                                                                         |
 | SoD Testing                                             | Log of all violations occurring for this employee in Test Mode.                                                                                                                                                                                                                                                                                         |
-| SoD Employee Access Reports                             | Description                                                                                                                                                                                                                                                                                                                                             |
+
+## SoD Employee Access
+
+| SoD Employee Access                             | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | Employee Access Review Report                           | Summary of employees with access. Click on employee to view roles, permissions and levels.                                                                                                                                                                                                                                                              |
 | Employees with Administrator Role                       | List of all employees with Administrator role.                                                                                                                                                                                                                                                                                                          |
@@ -75,10 +86,16 @@ SoD Testing
 | Employees with Multiple Roles Detailed                  | List all users with multiple roles and their roles.                                                                                                                                                                                                                                                                                                     |
 | Employees with Multiple Roles Summary                   | List all users with multiple roles.                                                                                                                                                                                                                                                                                                                     |
 | Current Global Permission                               | List all users with global permissions.                                                                                                                                                                                                                                                                                                                 |
+
+## SoD Processing Status
+
 | SoD Processing Status                                   | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | SoD Processing Status                                   | SoD processing status for each employee.                                                                                                                                                                                                                                                                                                                |
 | Run SoD on User Roles                                   | SoD for all user roles                                                                                                                                                                                                                                                                                                                                  |
+
+## SoD Testing
+
 | SoD Testing                                             | Description                                                                                                                                                                                                                                                                                                                                             |
 | ---                                                     | ---                                                                                                                                                                                                                                                                                                                                                     |
 | User Role Test Violations Summary                       | List of all test violations for roles. Includes SoD Violation, Non-Compliant Roles, Base Permissions and Conflicting Permissions.                                                                                                                                                                                                                       |

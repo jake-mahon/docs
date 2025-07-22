@@ -11,8 +11,10 @@ Permission List**. This controls access using Roles, Permission Lists and Strong
 verification to prevent unauthorized users from changing the records. Users with Roles not included
 in the Permission List for a record type are denied access.
 
+:::note
 Remember to give your [licensed](/docs/platgovnetsuite/installation/license_manager.md) users access to the
 [Strongpoint tab](/docs/platgovnetsuite/installation/setting_strongpoint_tab_access.md).
+:::
 
 To use Platform Governance for NetSuite with your custom roles, add the record types to the
 permission list for each role. The Strongpoint roles have the correct access levels by default.
@@ -65,7 +67,9 @@ Here are the Custom Permissions needed for each role.
 
 #### Manage SoD
 
+:::note
 On the Custom Role, you must check **Do Not Restrict Employee Fields**.
+:::
 
 > [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +  
 > Account Role: **Edit**  

@@ -4,7 +4,7 @@ description: "Welcome"
 sidebar_position: 110
 ---
 
-# Welcome
+# User Access Review
 
 Roles and Permissions are not a set once and forget about them activity. Both should be reviewed
 regularly to ensure your data is secured and users in your organization have the right access.

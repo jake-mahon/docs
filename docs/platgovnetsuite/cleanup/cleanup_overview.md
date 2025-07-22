@@ -10,8 +10,8 @@ Clean up involves some or all of the following steps:
 
 1. Identify and remove unused customizations (searches, records, fields, scripts):
 
-- Completely unused
-- Useless or inefficient
+    - Completely unused
+    - Useless or inefficient
 
 2. Identify and fix improperly set-up customizations (for example, fields with generic script ids or
    fields with no help).
@@ -35,8 +35,10 @@ There are many types of clean up, but they generally follow the same process:
 5. Manage the Change or Clean Up as Appropriate
 6. ReSpider
 
+:::note
 Always check the **Last Date Spidered** on any object and re-spider that object if necessary to
 ensure the information about that object is up to date.
+:::
 
 ### Select the Approach and Tools
 

@@ -21,7 +21,7 @@ Here are test case scenarios for SoD rules:
 
 Admin Role should not be assigned without second level approval and monitoring.
 
-Process
+**Process**
 
 To assign an administrator role to a user:
 
@@ -33,7 +33,7 @@ To assign an administrator role to a user:
 6. Click **Add**.
 7. Click **Save**.
 
-Result
+**Result**
 
 If the SoD rule is violated, the change made will not be allowed and will be blocked right away. A
 user should not be assigned an Administrator role unless there is a pre-approved change request. A
@@ -63,7 +63,7 @@ To set global permissions for a user:
 6. Click **Add** after each selection.
 7. Click **Save**.
 
-Result
+**Result**
 
 If the SoD rule is violated, an SoD incident is logged and the user is prompted with a warning.
 
@@ -92,11 +92,11 @@ If the SoD rule is violated, an SoD incident is logged and the user is prompted 
 
 ## Assign a Combination of Multiple Roles that Violates SoD rule
 
-SoD Rules
+**SoD Rules**
 
 Anyone who can create a bill should not be able to approve it and should not reconcile.
 
-Process
+**Process**
 
 To set up multiple roles:
 
@@ -114,11 +114,10 @@ If the SoD rule is violated, an SoD incident is logged and the user is prompted 
 
 ## Assign an Employee the Administrator Role with a Pre-Approved Change Request
 
-SoD Rules
-
+**SoD Rules**
 Administrator assignment requires approval.
 
-Process
+**Process**
 
 To assign an administrator role:
 
@@ -159,7 +158,7 @@ To assign an administrator role:
 
 ## Create an Approved Change Request to Clear a Violation
 
-SoD Rules
+**SoD Rules**
 
 Anyone who can create a journal should not be able to approve it.
 
@@ -186,7 +185,7 @@ Anyone entering customer orders cannot approve or process it.
     - **Approval Status**: Approved
     - **SoD** tab **Affected Employee**: Beverly Ucab
 
-Result
+**Result**
 
 Violations are caught after employee save.
 

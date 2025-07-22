@@ -12,18 +12,20 @@ Returns a list of URLs for the ERDs of each customization attached to a Change R
 
 **Name**
 
-URL :
+URL:
 `https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_change_request_api&deploy=1&actionType=getERD`
 
-HTTP Method : GET
+HTTP Method: GET
 
 ### URL Parameters
 
 **Name** / **Value**
 
-externalId : `<external_ticket_id>`
+externalId: `<external_ticket_id>`
 
+:::note
 URL parameters are case sensitive and mandatory.
+:::
 
 ### Sample Request URL
 
@@ -39,7 +41,7 @@ credentials. Header tokens should be encoded in HMAC SHA256.
 
 ### Format
 
-Authorization: `<_encoded authentication code_>`
+**Authorization**: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -53,23 +55,23 @@ Returns a JSON format string.
 
 **Name** / **Type**
 
-status : string
+**status**: string
 
-message : string
+**message**: string
 
-data : Array of JSON object
+**data**: Array of JSON object
 
 ### Data Object Definition
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
-scriptId : string
+**scriptId**: string
 
-erdLink : string
+**erdLink**: string
 
 ### Response JSON Object
 
@@ -92,14 +94,14 @@ erdLink : string
 
 **Message**
 
-"ERD retrieved successfully." : Successfully pulled a list of customizations and associated ERD
+**"ERD retrieved successfully."**: Successfully pulled a list of customizations and associated ERD
 links.
 
 ### Error Messages
 
 **Message**
 
-"Unable to load Change Request. External ID: xxxx" : There is an error with the change request.
+**"Unable to load Change Request. External ID: xxxx"**: There is an error with the change request.
 
 Error messages are returned if any exceptions are encountered.
 
@@ -125,8 +127,8 @@ Error messages are returned if any exceptions are encountered.
 
 The Change Request API is developed using a RESTlet with API version 2.1.
 
-Script Name : Strongpoint Int Change Request API
+**Script Name**: Strongpoint Int Change Request API
 
-Script ID : customscript_flo_int_change_request_api
+**Script ID**: customscript_flo_int_change_request_api
 
-Filename : StrongpointIntegrationChangeRequestAPI.js
+**Filename**: StrongpointIntegrationChangeRequestAPI.js

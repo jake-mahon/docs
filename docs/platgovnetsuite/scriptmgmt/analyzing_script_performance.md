@@ -20,7 +20,9 @@ exclude scripts set to DEBUG.
 
 ## Add Audit Start Tags
 
+:::note
 Do not use this Mass Update if you share files between your User Event Scripts and Client Scripts.
+:::
 
 The **Add Audit Tags Mass Update** inserts audit **Start Tags** into the scripts to enable the
 capture of script performance data. Script Monitoring calculates execution speed based on the
@@ -64,7 +66,8 @@ for more information.
 
 **FLOStart** and **FLOEnd** Tags are NetSuite Audit tags inserted using standard syntax:
 
-SuiteScript 2.0 syntax:  
+**SuiteScript 2.0 syntax:**
+
 `log.audit({title: 'FLOStart', details: '' });`
 
 **SuiteScript 1.0 syntax:**

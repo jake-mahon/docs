@@ -17,8 +17,10 @@ Development/Testing accounts. The design is based on:
   and validation of this process to ensure changes are deployed properly and can be reported for
   audits.
 
+:::note
 Platform Governance for NetSuite must be deployed on the target environment. You need to have a
 least the Strongpoint Developer Role to perform a Change Request Push.
+:::
 
 ## Create a Master Change Request in Production
 
@@ -43,18 +45,17 @@ they have an audit trail and approvals can be shown.
 1. Open **Strongpoint** > **Change Management Tools** > **Change Request**
 2. Click **Edit** on the Change Request that came from Production.
 
-- Attach **customizations created/updated**.
+    - Attach **customizations created/updated**.
 
     ![multi_env_1](/img/product_docs/platgovnetsuite/change_management/multi_env_1.webp)
 
-- **Stage**: **Deployment Record**
-- **Set Approval Status**: **Approved** (this is optional)
+    - **Stage**: **Deployment Record**
+    - **Set Approval Status**: **Approved** (this is optional)
 
     ![multi_env_2](/img/product_docs/platgovnetsuite/change_management/multi_env_2.webp)
 
 3. Open the **Sync Tool** tab.
-4. **Push** the updated Change Request back into Production. This adds a related deployment record
-   to the Master Change Request in Production.
+4. **Push** the updated Change Request back into Production. This adds a related deployment record to the Master Change Request in Production.
 
 ## Run Pre-Deployment Environment Comparison
 

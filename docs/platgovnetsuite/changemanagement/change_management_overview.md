@@ -19,9 +19,11 @@ We extend your current change management system to enable you to:
 - Detect and resolve non-compliant changes.
 - Manage deployments and sandbox refreshes using best practices.
 
+:::note
 Once a change request is complete, best practice is to change the status to **Completed**. If there
 are multiple open change requests referencing the same object, any changes to the object result in
 the change log being associated with the oldest of the approved change requests.
+:::
 
 ## Plan, Approve and Deploy Changes
 
@@ -37,8 +39,10 @@ A process issue can:
 - Be linked to subsequent Change Requests to provide end to end reporting of changes for audit
   purposes.
 
+:::note
 The Process issue is an optional step. If you have an established ticketing system, you can continue
 to use that and reference the external ticket in the Change Request.
+:::
 
 ### Plan with a Change Request
 
@@ -61,9 +65,11 @@ The **Advanced Change Management** Module provides additional functionality:
 - Archive fields.
 - Delete customizations.
 
+:::note
 Change Management can be integrated with other change tracking systems using the External Change
 Request Number field. It is beneficial to use the change records since they can be linked to
 processes, customizations and clean up activities.
+:::
 
 ### Confirm with a Deployment Record
 

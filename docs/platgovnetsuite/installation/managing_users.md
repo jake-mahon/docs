@@ -8,7 +8,7 @@ sidebar_position: 40
 
 Users are managed through the **[**License Manager**](/docs/platgovnetsuite/installation/license_manager.md)**.
 
-## Add a User:
+## Add a User
 
 1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
 2. Click **View**

@@ -18,9 +18,9 @@ script data.
 3. **Script Customization Record**: Script performance metrics are also available on the
    Customization Record for that script. These include:
 
-    1. Script Average Run Time
-    2. # of Daily Script Users
-    3. # of Daily Script Executions
+    - Script Average Run Time
+    - \# of Daily Script Users
+    - \# of Daily Script Executions
 
 You can create saved searches to analyze those metrics as required.
 

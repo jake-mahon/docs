@@ -29,11 +29,9 @@ the spider:
 
 There are three ways to use the Spider:
 
-> Manual Spider
->
-> AutoSpider
->
-> ReSpider Now
+- [Manual Spider](#manual-spider)
+- [AutoSpider](#autospider)
+- [ReSpider Now](#respider-now)
 
 ## Manual Spider
 

@@ -9,8 +9,10 @@ sidebar_position: 60
 The Automated Search Clean Up feature runs as scheduled, or on demand, using custom rules to find
 and manage Saved Searches. Accumulated searches contribute to inefficiency in NetSuite accounts.
 
+:::note
 Review the [Automated Search Clean Up Considerations](/docs/platgovnetsuite/automatedsearchcleanup/automated_search_cleanup_considerations.md)
 prior to using this feature.
+:::
 
 Saved Searches are powerful customizations used throughout NetSuite and interconnected to other
 customizations. As user-created Saved Searches proliferate, NetSuite accounts become inefficient and

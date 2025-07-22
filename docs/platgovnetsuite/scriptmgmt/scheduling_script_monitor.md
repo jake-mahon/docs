@@ -13,8 +13,8 @@ populates data such as:
 - Departments using customization
 - Locations using customization **Used by** system such as, other scripts)
 - Used by external such as. customers and vendors)
-- # of daily script execution
-- # of daily script uses
+- \# of daily script execution
+- \# of daily script uses
 - Script Average Run Time (for scripts with End Tags)
 
 To schedule the script:

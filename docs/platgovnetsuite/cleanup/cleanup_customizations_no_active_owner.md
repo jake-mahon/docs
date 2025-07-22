@@ -17,6 +17,8 @@ types where owner does not apply.
 3. Select a new **Owner**.
 4. Click **Save**
 
+:::note
 Using multi-line direct list editing does not update the actual customization record. Best practice
 is to edit the customization record so your changes are not overwritten during the next spider
 process.
+:::

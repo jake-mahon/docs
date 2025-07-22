@@ -10,9 +10,11 @@ Change Logs allow you to see the type of change, who made the change and view th
 the NetSuite record. Change Logs are accessed from the
 [Change Management Reports](/docs/platgovnetsuite/change_management_reports.md).
 
+:::note
 Once a change request is complete, best practice is to change the status to **Completed**. If there
 are multiple open change requests referencing the same object, any changes to the object result in
 the change log being associated with the oldest of the approved change requests.
+:::
 
 To open a Change Log:
 
@@ -122,13 +124,13 @@ Recorded types that are not supported can be retrieved from the AutoSpider.
 
 | Supported Records for System Notes Search                                                                                                                                                                                                                                                                                                                                                                                                       | Change By retrieved from the AutoSpider                                                                   |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Body Field Bundle Installation Script Client Script Column Field CRM Field Custom Record Field Entity Field Item Field Item Number Field Item Option Field Library Script File List Map/Reduce Script Mass Update Script Other Field Plug-in Script Portlet Script Record Restlet Script Scheduled Script Script Deployments Setup Preference\* Suitelet Script User Event Script User Role Workflow Workflow Action Script Deleted Objects\*\* | Bundle Custom Report Entry Form Mass Update Search Transaction Form User Role / Global Permission Changes |
+| Body Field<br />Bundle Installation Script<br />Client Script<br />Column Field<br />CRM Field<br />Custom Record Field<br />Entity Field<br />Item Field<br />Item Number Field<br />Item Option Field<br />Library Script File<br />List<br />Map/Reduce Script<br />Mass Update Script<br />Other Field<br />Plug-in Script<br />Portlet Script<br />Record RESTlet Script<br />Scheduled Script<br />Script Deployments<br />Setup Preference<sup>\*</sup><br />Suitelet Script<br />User Event Script<br />User Role<br />Workflow<br />Workflow Action Script<br />Deleted Objects<sup>\*\*</sup> | Bundle<br />Custom Report<br />Entry Form<br />Mass Update<br />Search<br />Transaction Form<br />User Role / Global Permission Changes<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> |
 
-\* System notes can be retrieved for: Company Preferences, Company Information, Enable Features,
+<sup>\*</sup> System notes can be retrieved for: Company Preferences, Company Information, Enable Features,
 Account, Foreign Currency Variance Posting Rule, Nexus, Tax Code, Taxation Type, Fair Value Formula,
 Fair Value Price List, Project Expense Type, and Item Revenue Category.
 
-\*\* Deleted by and actual delete date are available for: Workflow, Custom Record, List, Script
+<sup>\*\*</sup> Deleted by and actual delete date are available for: Workflow, Custom Record, List, Script
 Deployment, and Script.
 
 ## Viewing System Notes

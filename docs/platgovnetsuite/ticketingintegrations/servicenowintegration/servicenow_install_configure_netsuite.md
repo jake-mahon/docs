@@ -74,11 +74,9 @@ sidebar_position: 10
 
 You can configure ServiceNow for your users:
 
-> Display Action Buttons Only for Specific Conditions
->
-> Display Push Deployment Record Only Based on State
->
-> Display Strongpoint NetSuite Tab for Selected Users
+- [Display Action Buttons Only for Specific Conditions](#display-action-buttons-only-for-specific-conditions)
+- [Display Push Deployment Record Only Based on State](#display-push-deployment-record-only-based-on-state)
+- [Display Strongpoint NetSuite Tab for Selected Users](#display-strongpoint-netsuite-tab-for-selected-users)
 
 #### Display Action Buttons Only for Specific Conditions
 
@@ -153,7 +151,7 @@ modify this to only allow configured users to see the tab.
         ![Select Copy sys_id from the drop down menu](/img/product_docs/platgovnetsuite/integrations/servicenow_tab2.webp)
 
     5. Paste the identifier in a file where you can access it to add to the script when you are
-       finished locating the system identifiers. An example identifer is
+       finished locating the system identifiers. An example identifier is
        _b4fd7c8437201000deeabfc8bcbe5dc1_
 
 3. Filter for **Studio**

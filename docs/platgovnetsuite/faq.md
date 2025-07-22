@@ -10,16 +10,15 @@ Platform Governance for NetSuite is a stress-free change management and complian
 NetSuite and Salesforce. It helps companies manage change in their systems, enabling them to drive
 growth with confidence and certainty. Here are answer to Frequently Asked Questions:
 
-> Can Platform Governance for NetSuite provide a SOC1 Report?
->
-> Can I install Platform Governance for NetSuite in the Sandbox or Release Preview?
->
-> Is our private data being transmitted or shared in any way?
->
-> What is the time or effort required to use Platform Governance for NetSuite?
->
-> Who needs a Platform Governance for NetSuite License? What is the difference between an editor and
-> a viewer?
+-  [Can Platform Governance for NetSuite provide a SOC1 Report?](#can-platform-governance-for-netsuite-provide-a-soc1-report)
+
+-  [Can I install Platform Governance for NetSuite in the Sandbox or Release Preview?](#can-i-install-platform-governance-for-netsuite-in-the-sandbox-or-release-preview)
+
+-  [Is our private data being transmitted or shared in any way?](#is-our-private-data-being-transmitted-or-shared-in-any-way)
+
+-  [What is the time or effort required to use Platform Governance for NetSuite?](#what-is-the-time-or-effort-required-to-use-platform-governance-for-netsuite)
+
+-  [Who needs a Platform Governance for NetSuite License? What is the difference between an editor and a viewer?](#who-needs-a-platform-governance-for-netsuite-license-what-is-the-difference-between-an-editor-and-a-viewer)
 
 #### Can Platform Governance for NetSuite provide a SOC1 Report?
 

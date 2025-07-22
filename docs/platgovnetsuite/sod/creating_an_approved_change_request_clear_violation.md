@@ -8,8 +8,10 @@ sidebar_position: 80
 
 ## Assign a Non-Compliant Role to an Employee
 
+:::note
 Make sure the SoD Rule that it will violate is **Non-Blocking**. This way the employee record can be
 saved even if it is a non-compliant role.
+:::
 
 To assign a non-compliant role to an employee:
 

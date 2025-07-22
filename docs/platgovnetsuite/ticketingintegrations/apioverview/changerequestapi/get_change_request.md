@@ -12,18 +12,20 @@ Returns the Change Request associated with an external ID.
 
 **Name**
 
-URL :
+**URL**:
 `https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_change_request_api&deploy=1&actionType=getChangeRequest`
 
-HTTP Method : GET
+**HTTP Method**: GET
 
 ### URL Parameters
 
 **Name** / **Value**
 
-externalId : `<external_ticket_id>`
+**externalId**: `<external_ticket_id>`
 
+:::note
 URL parameters are case sensitive and mandatory.
+:::
 
 ### Sample Request URL
 
@@ -39,7 +41,7 @@ credentials. Header tokens should be encoded in HMAC SHA256.
 
 ### Format
 
-Authorization: `<_encoded authentication code_>`
+**Authorization**: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -53,89 +55,89 @@ Returns a JSON format string.
 
 **Name** / **Type**
 
-status : string
+**status**: string
 
-message : string
+**message**: string
 
-data : JSON object
+**data**: JSON object
 
 ### Data Object Definition
 
 **Name** / **Type**
 
-name : string
+**name**: string
 
-description : string
+**description**: string
 
-externalCrId : string
+**externalCrId**: string
 
-link : string
+**link**: string
 
-crStatus : JSON object
+**crStatus**: JSON object
 
-approvalStatus : JSON object
+**approvalStatus**: JSON object
 
-completionStatus : JSON object
+**completionStatus**: JSON object
 
-changeLevel : JSON object
+**changeLevel**: JSON object
 
-changePolicy : JSON object
+**changePolicy**: JSON object
 
-affectedBundleId : string
+**affectedBundleId**: string
 
-customizations : Array of JSON objects
+**customizations**: Array of JSON objects
 
-proposedCustomizations : Array of strings
+**proposedCustomizations**: Array of strings
 
 ### crStatus JSON Object
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
 ### approvalStatus JSON Object
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
 ### completionStatus JSON Object
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
 ### changeLevel JSON Object
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
 ### changePolicy JSON Object
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
 ### customizations JSON Object
 
 **Name** / **Type**
 
-internalId : string
+**internalId**: string
 
-scriptId : string
+**scriptId**: string
 
-name : string
+**name**: string
 
 ### Response JSON Object
 
@@ -185,14 +187,14 @@ name : string
 
 **Message**
 
-"Change Request retrieved successfully." : Successfully pulled a list of customizations and
+**"Change Request retrieved successfully."**: Successfully pulled a list of customizations and
 associated ERD links.
 
 ### Error Messages
 
 **Message**
 
-"Unable to load Change Request. External ID: xxxx" : There is an error with the change request.
+**"Unable to load Change Request. External ID: xxxx"**: There is an error with the change request.
 
 Error messages are returned if any exceptions are encountered.
 
@@ -244,8 +246,8 @@ Error messages are returned if any exceptions are encountered.
 
 The Change Request API is developed using a RESTlet with API version 2.1.
 
-Script Name : Strongpoint Int Change Request API
+**Script Name**: Strongpoint Int Change Request API
 
-Script ID : customscript_flo_int_change_request_api
+**Script ID**: customscript_flo_int_change_request_api
 
-Filename : StrongpointIntegrationChangeRequestAPI.js
+**Filename**: StrongpointIntegrationChangeRequestAPI.js

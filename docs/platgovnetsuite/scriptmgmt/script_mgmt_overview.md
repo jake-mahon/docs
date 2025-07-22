@@ -14,7 +14,9 @@ can:
   appropriately triggered
 - Understand script execution times
 
+:::note
 Platform Governance for NetSuite does not document or analyze locked scripts.
+:::
 
 ## Automatically Archiving Scripts
 
@@ -75,16 +77,16 @@ Governance for NetSuite can analyze for locked scripts.
 2. **Locked but readable (not hidden) Script File**: Script tags cannot be added to locked files,
    but Platform Governance for NetSuite can read them if they have audit tags already in them.
 
-- With audit tags:
-    - Spiders identify the audit tags and documents them in the **Audit Tags** field in the
+    - With audit tags:
+        - Spiders identify the audit tags and documents them in the **Audit Tags** field in the
       **Scripting** tab of the Customization Record.
-    - Document who is executing the script
-    - Provides a sense of how often it is executing. It tracks the number of executions per tag and
+        - Document who is executing the script
+        - Provides a sense of how often it is executing. It tracks the number of executions per tag and
       averages them. The number can vary based on the placement of the tags and how the script is
       executed any given time. While it does not provide an exact number, it will be within the
       right range and can help identify if a script is executing significantly more than the
       transaction volume would indicate.
-- Without audit tags: Same and locked and hidden scripts below.
+    - Without audit tags: Same and locked and hidden scripts below.
 
 3. **Locked and hidden script files**: For scripts where the script file is hidden and locked,
    Platform Governance for NetSuite cannot track performance metrics, in most cases. However, if the
