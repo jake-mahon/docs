@@ -9,9 +9,11 @@ sidebar_position: 120
 The **Change Logs Clean Up** tool enables you to schedule an automatic clean up of old Change Logs.
 Cleaning up these old logs helps keep your orgs efficient and organized.
 
+:::note
 Netwrix recommends this clean up process be used as part of your Salesforce data backup and recovery
 plan. You should discuss with your compliance team how many months/years of Change Logs you need to
 retain and how this should be split between live and archived data.
+:::
 
 1. Open **Netwrix Dashboard** > **Tools** > **Change Logs Clean Up**
 

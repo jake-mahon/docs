@@ -14,7 +14,9 @@ types of Change Requests to match the change you want to manage. Here are two op
 - **Data Record** - Change request is used for Data Changes to Revenue Cloud/
   [CPQ](/docs/platgovsalesforce/changemanagement/enhanced_cpq_support.md).
 
+:::note
 Data Record Change Requests are only available with an Enterprise Compliance license.
+:::
 
 1. Open the **Change Requests** tab.
 2. Click **New**
@@ -147,8 +149,11 @@ add additional approvers, approver notes and begin the approval process.
 5. Click **Submit for Approval** to start the process. Approval notifications are sent to the
    approvers.
 
+:::note
 If you created the Change Request in your sandbox to determine the scope of the change, recreate it
-in your Production environment to enable approvals and ongoing tracking.  
+in your Production environment to enable approvals and ongoing tracking.
+:::
+
 For new objects that do not yet exist in Production, edit the Change Request and enter the full API
 Names of these objects into the Proposed Customization fields in the Scope Section. You can add
 multiple API Names by using the Add button. Save the Change Request when complete.

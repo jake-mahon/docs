@@ -13,7 +13,9 @@ Metadata type of the affected customization, instead of scanning the entire envi
 of scan reduces the run time. For example if you change a Report, pick reports as the Metadata type
 and Platform Governance for Salesforce only scans reports.
 
+:::note
 The scanner is only available to Administrators.
+:::
 
 To run the scanner:
 
@@ -28,21 +30,20 @@ To run the scanner:
 4. Click **Run Scanner**.
 5. The batch runs in the background. You receive an email notification when the scan is complete.
 
-    You can create your own Salesforce view for the scanners.
-
-    - Open Salesforce **Setup**.
-    - Search for **apex jobs** or navigate to **Environments** > **Jobs** > **Apex Jobs**.
-    - Click **Create New View**.  
-      ![Set up a Strongpoint scanner view](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner_view.webp)
-    - Enter a **View Name**. The system assigns **View Unique Name**. _Netwrix Jobs1_ is used in
-      this example.
-    - Select **Apex Class** for the **Field**.
-    - Select **starts with** for the **Operator**.
-    - Assign **FLO, Strongpoint** for the **Value**.
-    - Click **Save**. You can now see the status of all of the Strongpoint jobs.  
-      ![Viewing running Strongpoin jobs](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner_view2.webp)
-
 6. From the Netwrix Dashboard: click **Configuration and Stats** in the **Resources** section, or
    open **Settings** > **Configuration and Stats**.
+
+You can create your own Salesforce view for the scanners:
+
+    1. Open Salesforce **Setup**.
+    2. Search for **apex jobs** or navigate to **Environments** > **Jobs** > **Apex Jobs**.
+    3. Click **Create New View**.  
+      ![Set up a Strongpoint scanner view](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner_view.webp)
+    4. Enter a **View Name**. The system assigns **View Unique Name**. _Netwrix Jobs1_ is used in this example.
+    5. Select **Apex Class** for the **Field**.
+    6. Select **starts with** for the **Operator**.
+    7. Assign **FLO, Strongpoint** for the **Value**.
+    8. Click **Save**. You can now see the status of all of the Strongpoint jobs.  
+      ![Viewing running Strongpoint jobs](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner_view2.webp)
 
 **Next Step:** [Validate the Data ](/docs/platgovsalesforce/installingstrongpoint/validating_data.md)

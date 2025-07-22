@@ -17,14 +17,9 @@ workflows, triggers), profiles or roles is essential. The severity level can be 
 change a policy should impose. For example, code-related changes normally follow a tighter approval
 process than simple data model changes.
 
-> **TIP**
->
-> **How Change Policies Work**: Every time a customization is created or changed in an org, Platform
-> Governance for Salesforce checks to see if the change should have been reviewed or approved. By
-> default, this depends on the dependencies — a picklist with no dependencies is a relatively safe
-> change compared to a picklist with risky code dependencies. Default policies can be customized and
-> applied to specific customizations. For example, most reports do not need change control, but
-> management reports need to be tightly controlled.
+:::tip
+**How Change Policies Work**: Every time a customization is created or changed in an org, Platform Governance for Salesforce checks to see if the change should have been reviewed or approved. By default, this depends on the dependencies — a picklist with no dependencies is a relatively safe change compared to a picklist with risky code dependencies. Default policies can be customized and applied to specific customizations. For example, most reports do not need change control, but management reports need to be tightly controlled.
+:::
 
 Policies define the level of change control to follow to reduce risk. The five change levels contain
 escalating levels of rigor and/or skill required to address a change:
@@ -33,7 +28,7 @@ escalating levels of rigor and/or skill required to address a change:
 | --------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | L1: Log Changes                         | This is a safe change.                                                                       | Ordinary report.                                                            | Anyone.                                                                                               |
 | L2: Process Issue                       | This is a relatively safe change but should be reviewed afterward.                           | Public report.                                                              | Anyone.                                                                                               |
-| L3: Change Request                      | This needs approval from management but not sandbox review.                                  | Management report or Control.                                               | Anyone, provided prior approval is granted                                                            |
+| L3: Change Request                      | This needs approval from management but not sandbox review.                                  | Management report or Control.                                               | Anyone, provided prior approval is granted.                                                          |
 | L4: Sandbox Development and Testing     | This is not a complex change, but best practices require it to be tested in a sandbox first. | Data model changes with no dependencies. For example, adding a new field.   | Business Analyst or Admin with prior approval, working in sandbox before deploying in production.     |
 | L5: Full Software Development Lifecycle | This is not a safe change. It needs to be changed carefully with rigorous testing.           | Changes to code or a picklist used in field with code or SoQL dependencies. | Admin / Developer with prior approval working through a full development cycle in multiple sandboxes. |
 
@@ -67,13 +62,10 @@ prioritize what you see.
 The default policy may be all you require. However, you should consider whether there are specific
 people, objects, reports or fields that need special protection. These can be addressed in two ways:
 
-> Specific People
->
-> Specific Customizations
->
-> Specific Changes
->
-> Adding Custom Fields and Objects to the Policy
+- Specific People
+- Specific Customizations
+- Specific Changes
+- Adding Custom Fields and Objects to the Policy
 
 ### Specific People
 

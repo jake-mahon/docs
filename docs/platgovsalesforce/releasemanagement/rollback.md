@@ -11,9 +11,8 @@ rollback to a previous state after a deployment. Platform Governance for Salesfo
 gives you the flexibility of rolling back all or selected components of your deployment,enabling you
 to take action on a specific problem. There are two steps:
 
-> Create the Rollback Record
->
-> Execute and Validate the Rollback
+- Create the Rollback Record
+- Execute and Validate the Rollback
 
 ## Create the Rollback Record
 

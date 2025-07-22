@@ -20,7 +20,9 @@ to extreme. We move rapidly through critical stages of Salesforce org management
 
 Each article ends with a link to the next topic in the **Managing Technical Debt** series.
 
-> **TIPS** and **PRO TIPS**:Provide optional background or details in these articles.
+::::tip
+Tips provide optional background or details in these articles.
+::::
 
 _Technical debt_ (tech debt) is the cost of reworking a system to fix or work around implemented
 solutions. A key cause of tech debt is solutions that were not fully engineered at the time they

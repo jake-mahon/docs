@@ -16,15 +16,11 @@ file. Here is the basic process:
 
 Open **Netwrix Dashboard** > **Tools** > **Environment Comparison**
 
-Select the Environments to Compare
-
-Add Filters for the Comparison
-
-Select Export Options
-
-Run the Comparison
-
-View the Report
+1. Select the Environments to Compare
+2. Add Filters for the Comparison
+3. Select Export Options
+4. Run the Comparison
+5. View the Report
 
 ## Select the Environments to Compare
 
@@ -46,8 +42,10 @@ Filters determine what is included in the comparison. There are four options to 
 - Option 3: Select Specific Customizations
 - Option 4: Packages to Exclude (All Options)
 
-**NOTE:** Filters are cumulative. Use a single filter (1 through 3) to avoid overlapping selections.
+:::note
+Filters are cumulative. Use a single filter (1 through 3) to avoid overlapping selections.
 **Packages to Exclude** can be used in conjunction with options 1 through 3.
+:::
 
 ### Set a Metadata Type
 

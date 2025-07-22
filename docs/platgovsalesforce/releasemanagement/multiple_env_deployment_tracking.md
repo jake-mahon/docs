@@ -11,19 +11,13 @@ they have an audit trail and approvals can be shown.
 
 Here is the overall process flow for multiple deployment tracking:
 
-> Create the Change Request
->
-> Push the Change Request
->
-> Push the Updated Change Back into Production
->
-> Create the Deployment Record
->
-> Create the Deployment Record
->
-> Deploy the Changes
->
-> Complete the Process
+- Create the Change Request
+- Push the Change Request
+- Push the Updated Change Back into Production
+- Create the Deployment Record
+- Create the Deployment Record
+- Deploy the Changes
+- Complete the Process
 
 ## Create the Change Request
 

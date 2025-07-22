@@ -11,13 +11,10 @@ environment(s). Each step in the deployment process complies with your policies 
 approval process. Deployments are blocked if approvals are not complete. A full audit trail of the
 entire deployment process is maintained.The process is:
 
-> Create a Change Request
->
-> Create a Deployment Record
->
-> Deploy the Changes
->
-> Complete the Process
+- Create a Change Request
+- Create a Deployment Record
+- Deploy the Changes
+- Complete the Process
 
 ## Create a Change Request
 
