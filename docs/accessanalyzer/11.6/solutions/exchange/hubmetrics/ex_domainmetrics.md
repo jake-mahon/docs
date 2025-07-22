@@ -24,9 +24,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. External Domain Traffic - Count – Creates the SA_EX_DomainMetrics_Count table, accessible
+-   **1. External Domain Traffic - Count** – Creates the SA_EX_DomainMetrics_Count table, accessible
        under the job’s Results node
--   2. External Domain Traffic - Volume – Creates the SA_EX_DomainMetrics_Volume table, accessible
+-   **2. External Domain Traffic - Volume** – Creates the SA_EX_DomainMetrics_Volume table, accessible
        under the job’s Results node
 
 In addition to the tables and views by the analysis tasks, the EX_DomainMetrics Job produces the

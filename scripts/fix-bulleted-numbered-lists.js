@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-def walkDir(dir, callback) {
+function walkDir(dir, callback) {
   fs.readdirSync(dir).forEach(f => {
     const dirPath = path.join(dir, f);
     const isDirectory = fs.statSync(dirPath).isDirectory();
@@ -25,6 +25,17 @@ function fixBulletedNumberedLists(filePath) {
   }
 }
 
-const targetDir = path.join(__dirname, '../docs/accessanalyzer/11.6/solutions');
+// Accept input path relative to the docs folder
+const inputArg = process.argv[2];
+if (!inputArg) {
+  console.error('Usage: node scripts/fix-bulleted-numbered-lists.js <relative-folder-path>');
+  process.exit(1);
+}
+const docsDir = path.join(__dirname, '../docs');
+const targetDir = path.join(docsDir, inputArg);
+if (!fs.existsSync(targetDir)) {
+  console.error('Target directory does not exist:', targetDir);
+  process.exit(1);
+}
 walkDir(targetDir, fixBulletedNumberedLists);
 console.log('Done.');

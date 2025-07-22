@@ -83,7 +83,7 @@ preconfigured for this job.
 
 The following analysis task is selected by default:
 
--   1. Update Nulls – Updates the NULLs in the table to show information
+-   **1. Update Nulls** – Updates the NULLs in the table to show information
 
 In addition to the tables and views created by the analysis task, the EX_ASPolicies Job produces the
 following pre-configured report:

@@ -45,7 +45,7 @@ The following analysis tasks are selected by default:
 The Notification analysis task is an optional analysis task which requires configuration before
 enabling it. The following analysis task is deselected by default:
 
--   5. Alert on Permission Changes – Alerts when permission changes have occurred
+-   **5. Alert on Permission Changes** – Alerts when permission changes have occurred
 
     - Add recipients, notification subject, and email content
     - See the

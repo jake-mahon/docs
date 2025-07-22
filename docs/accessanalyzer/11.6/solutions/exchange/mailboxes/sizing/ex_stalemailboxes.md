@@ -23,11 +23,11 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Mailbox Orphans – Creates the SA_EX_StaleMailboxes_Orphans table, accessible under the job’s
+-   **1. Mailbox Orphans** – Creates the SA_EX_StaleMailboxes_Orphans table, accessible under the job’s
        Results node
--   2. Stale User Mailboxes – Creates the SA_EX_StaleMailboxes_Details table, accessible under the
+-   **2. Stale User Mailboxes** – Creates the SA_EX_StaleMailboxes_Details table, accessible under the
        job’s Results node
--   3. Organization Summary – Creates the SA_EX_StaleMailboxes_OrgSummary table, accessible under
+-   **3. Organization Summary** – Creates the SA_EX_StaleMailboxes_OrgSummary table, accessible under
        the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the EX_StaleMailboxes Job

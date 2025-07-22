@@ -24,9 +24,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Stale User Details – Creates the SA_EX_StaleGroups_Details table, accessible under the job’s
+-   **1. Stale User Details** – Creates the SA_EX_StaleGroups_Details table, accessible under the job’s
        Results node
--   2. Group Summary – Creates the SA_EX_StaleGroups_GroupSummary table, accessible under the job’s
+-   **2. Group Summary** – Creates the SA_EX_StaleGroups_GroupSummary table, accessible under the job’s
        Results node
--   3. Stale Groups – Creates an interim processing table in the database, for use by downstream
+-   **3. Stale Groups** – Creates an interim processing table in the database, for use by downstream
        analysis and report generations

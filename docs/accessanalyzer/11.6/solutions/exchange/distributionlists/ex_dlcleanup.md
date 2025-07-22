@@ -25,7 +25,7 @@ preconfigured for this job.
 
 The following analysis task is selected by default:
 
--   1. DL Cleanup – Creates the SA_EX_GroupCleanup_GroupSummary table, accessible under the job’s
+-   **1. DL Cleanup** – Creates the SA_EX_GroupCleanup_GroupSummary table, accessible under the job’s
        Results node
 
 In addition to the tables and views created by the analysis task, the EX_DLCleanup job produces the

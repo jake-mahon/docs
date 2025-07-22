@@ -109,7 +109,7 @@ The following analysis tasks are selected by default:
 - 02.Update History Table – Updates the SA_EX_Mailflow_History table, with data from the .Active
   Directory Inventory and .Entra ID Inventory solutions to determine local users and distribution
   lists
--   3. SET HISTORY RETENTION – Sets retention period in months
+-   **3. SET HISTORY RETENTION** – Sets retention period in months
 
     - By default, retention is set to 6 months. This period can be modified. See the
       [Parameter Configuration](#parameter-configuration) topic for additional information.
@@ -126,7 +126,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 :::
 
 
--   0. Deletes all Stored Data - LEAVE UNCHECKED – Deletes all historical data
+-   **0. Deletes all Stored Data - LEAVE UNCHECKED** – Deletes all historical data
 
     - See the
       [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
