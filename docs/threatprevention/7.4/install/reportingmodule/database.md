@@ -32,7 +32,7 @@ and select Run as administrator. Then skip to Step 2.
 
 **Step 2 –** Click Install.
 
-![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/threatprevention/7.4/install/reportingmodule/eula.webp)
+![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/threatprevention/7.4/install/reportingmodule/eula_1.webp)
 
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click Next.

@@ -30,7 +30,7 @@ and select Run as administrator. Then skip to Step 2.
 **Step 1 –** Click **Netwrix Threat Manager Reporting**. The Netwrix Threat Manager Reporting Setup
 wizard opens.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the Install page](/img/product_docs/threatprevention/7.4/install/upgrade/install.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the Install page](/img/product_docs/threatprevention/7.4/install/reportingmodule/install.webp)
 
 **Step 2 –** Click **Install**.
 
@@ -39,7 +39,7 @@ wizard opens.
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click **Next**.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the Install Folder page](/img/product_docs/threatprevention/7.4/install/reportingmodule/folder.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the Install Folder page](/img/product_docs/threatprevention/7.4/install/reportingmodule/folder_1.webp)
 
 **Step 4 –** By default, the installation directory is set to:
 
