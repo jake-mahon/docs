@@ -1,3 +1,9 @@
+---
+title: "7-SPAA_Exceptions Job"
+description: "7-SPAA_Exceptions Job"
+sidebar_position: 70
+---
+
 # 7-SPAA_Exceptions Job
 
 This job searches scanned data for resources that match high risk conditions and retrieving a

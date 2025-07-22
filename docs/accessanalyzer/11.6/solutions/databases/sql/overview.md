@@ -61,7 +61,7 @@ The SQL Job Group includes:
   This information is used by other jobs in the SQL solution set for further analysis and for
   producing respective reports.
 - Databases > 0.Collection > AzureSQL >
-  [0.Collection > Azure SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/overview_1.md)
+  [0.Collection > Azure SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/sql/collection-azuresql/overview.md)
   — This job group is designed to collect high level summary information from targeted Azure SQL
   Instances. This information is used by other jobs in the Azure SQL solution set to provide further
   analysis and for producing respective reports.

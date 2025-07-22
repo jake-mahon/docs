@@ -17,14 +17,14 @@ The jobs in 0.Collection Jobs Group are:
 - 0-AzureSQL_InstanceDiscovery Job — Enumerates a list of Azure SQL Server Instances from target
   endpoints and populates the necessary instance connection information which is used throughout the
   solution set
-- [1-AzureSQL_PermissionScan Job](/docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/azuresql_permissionscan-1.md)
+- [1-AzureSQL_PermissionScan Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection-azuresql/1-azuresql_permissionscan.md)
   — Collects Azure SQL database level permissions from all targeted Azure SQL database servers
-- [2-AzureSQL_SensitiveDataScan Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/2-azuresql_sensitivedatascan.md)
+- [2-AzureSQL_SensitiveDataScan Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection-azuresql/2-azuresql_sensitivedatascan.md)
   — Discovers sensitive data in Azure SQL databases across all targeted Azure SQL database servers
   based on pre-defined or user-defined search criteria
-- [3-AzureSQL_ActivityScan Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/3-azuresql_activityscan.md)
+- [3-AzureSQL_ActivityScan Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection-azuresql/3-azuresql_activityscan.md)
   — Captures user activity from all targeted Azure SQL instances and databases
-- [4-AzureSQL_ServerSettings Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/4-azuresql_serversettings.md)
+- [4-AzureSQL_ServerSettings Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection-azuresql/4-azuresql_serversettings.md)
   — Collects Azure SQL instances and database configuration settings to evaluate them against
   recommended best practices
 

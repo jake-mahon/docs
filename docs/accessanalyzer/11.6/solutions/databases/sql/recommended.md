@@ -146,7 +146,7 @@ run directly or scheduled.
 
 
 - Define and validate connection information in the Connection screen
-- [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/0-azuresql_instancediscovery.md)
+- [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/solutions/databases/sql/collection-azuresql/0-azuresql_instancediscovery.md)
   run successfully
 
 **Targeted Host(s)**

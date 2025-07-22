@@ -32,7 +32,7 @@ The jobs in the 0.Collection Job Group are:
 - [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md)
   – Responsible for retrieving the SPAC Tier 2 Database information and importing it to the
   Enterprise Auditor SQL database
-- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md)
+- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md)
   – Searches scanned data for resources that match high risk conditions, retrieving a summary of
   SharePoint exceptions per host
 
@@ -94,7 +94,7 @@ The 0.Collection jobs that comprise this auditing component are:
 - [5-SPAA_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/5-spaa_bulkimport.md)
   – Responsible for retrieving the SPAA tier 2 database information and import it to the Enterprise
   Auditor SQL database
-- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md)
+- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md)
   – Searches scanned data for resources that match high risk conditions, retrieving a summary of
   SharePoint exceptions per host
 
@@ -128,7 +128,7 @@ topic for other Runtime Details.
 [5-SPAA_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/5-spaa_bulkimport.md).
 
 **Step 3 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 4 –** Run desired corresponding analysis and reporting sub-job groups.
 
@@ -196,7 +196,7 @@ for additional information.
 [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md).
 
 **Step 5 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 6 –** Run desired corresponding analysis and reporting sub-job groups.
 
@@ -232,7 +232,7 @@ only).
 [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md).
 
 **Step 6 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 7 –** Run desired corresponding analysis and reporting sub-job groups.
 
@@ -302,7 +302,7 @@ The 0.Collection jobs that comprise this auditing component are:
 - [4-SPSEEK_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/4-spseek_bulkimport.md)
   – Responsible for retrieving the Tier 2 SPDLP database information and importing it to the SQL
   Server where Enterprise Auditor stores data
-- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md)
+- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md)
   – Searches scanned data for resources that match high risk conditions, retrieving a summary of
   SharePoint exceptions per host
 
@@ -336,7 +336,7 @@ the SharePoint application server when applicable (once only).
 [4-SPSEEK_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/4-spseek_bulkimport.md).
 
 **Step 4 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 5 –** Run desired corresponding analysis and reporting sub-job groups.
 
@@ -364,7 +364,7 @@ remaining jobs are in the wrong order. Renaming the jobs is not an option.
 [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md).
 
 **Step 6 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 7 –** Run desired corresponding analysis and reporting sub-job groups.
 
