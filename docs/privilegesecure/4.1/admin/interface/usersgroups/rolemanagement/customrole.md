@@ -1,7 +1,7 @@
 ---
 title: "Add Custom Role"
 description: "Add Custom Role"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Custom Role

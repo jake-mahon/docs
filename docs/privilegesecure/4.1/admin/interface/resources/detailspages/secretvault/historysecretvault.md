@@ -1,7 +1,7 @@
 ---
 title: "History Tab for Secret Vault"
 description: "History Tab for Secret Vault"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # History Tab for Secret Vault

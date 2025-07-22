@@ -1,7 +1,7 @@
 ---
 title: "Groups Tab for Domain"
 description: "Groups Tab for Domain"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Groups Tab for Domain

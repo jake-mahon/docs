@@ -1,7 +1,7 @@
 ---
 title: "History Tab for Domain"
 description: "History Tab for Domain"
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 # History Tab for Domain

@@ -1,7 +1,7 @@
 ---
 title: "Groups Tab for Microsoft Entra ID"
 description: "Groups Tab for Microsoft Entra ID"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Groups Tab for Microsoft Entra ID

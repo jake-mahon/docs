@@ -1,7 +1,7 @@
 ---
 title: "Properties Tab"
 description: "Properties Tab"
-sidebar_position: 110
+sidebar_position: 120
 ---
 
 # Properties Tab

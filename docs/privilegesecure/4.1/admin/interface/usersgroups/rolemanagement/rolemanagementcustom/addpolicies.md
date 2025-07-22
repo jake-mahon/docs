@@ -1,7 +1,7 @@
 ---
 title: "Add Policies Window"
 description: "Add Policies Window"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Add Policies Window

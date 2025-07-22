@@ -1,7 +1,7 @@
 ---
 title: "Schedule Policies Page"
 description: "Schedule Policies Page"
-sidebar_position: 40
+sidebar_position: 10
 ---
 
 # Schedule Policies Page
@@ -38,7 +38,10 @@ has the following features:
 - Trashcan icon — Deletes the schedule policy. Icon appears when profile is hovered over. A
   confirmation window will display.
 
-**NOTE:** The default password policy cannot be deleted.
+:::note
+The default password policy cannot be deleted.
+:::
+
 
 The selected schedule policy details display in the main pane:
 

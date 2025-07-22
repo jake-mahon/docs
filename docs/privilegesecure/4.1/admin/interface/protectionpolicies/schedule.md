@@ -1,7 +1,7 @@
 ---
 title: "Schedule Tab for Protection Policies"
 description: "Schedule Tab for Protection Policies"
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 # Schedule Tab for Protection Policies

@@ -1,7 +1,7 @@
 ---
 title: "Website Details Page"
 description: "Website Details Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Website Details Page
@@ -27,7 +27,7 @@ The details page shows the following information:
   website will reference for authentication.
 - Service Account — Displays the service account associated with the resource
 - Blue arrow button — Opens the Service Account details page. See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 - Green plus button — Opens the Add New Service Account window. See the
   [Add New Service Account Window](/docs/privilegesecure/4.1/admin/interface/resources/addandchange/addnewserviceaccount.md)

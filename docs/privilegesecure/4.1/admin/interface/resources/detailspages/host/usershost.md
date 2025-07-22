@@ -1,7 +1,7 @@
 ---
 title: "Users Tab for Host"
 description: "Users Tab for Host"
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 # Users Tab for Host

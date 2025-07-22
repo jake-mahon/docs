@@ -1,7 +1,7 @@
 ---
 title: "Domain Details Page"
 description: "Domain Details Page"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # Domain Details Page

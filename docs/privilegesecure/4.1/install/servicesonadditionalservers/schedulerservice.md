@@ -12,10 +12,13 @@ locations within an organization. The Scheduler Service installer is in the zip 
 Privilege Secure Console installer. It is also available for download from the Stealthbits website
 if required.
 
-**NOTE:** Before you begin, the Proxy Service must be installed on any server running services for
+:::note
+Before you begin, the Proxy Service must be installed on any server running services for
 Privilege Secure. See the
 [Proxy Service Install](/docs/privilegesecure/4.1/install/servicesonadditionalservers/proxyservice.md)
 topic for installation instructions.
+:::
+
 
 Follow the steps to install the Scheduler Service.
 
@@ -63,7 +66,7 @@ Follow the steps to configure the key exchange.
 **Step 2 –** Type the following commands to export the encryption keys for the secondary:
 
 
-Encryption Key Export
+**Encryption Key Export**
 
 ```
 cd C:\Program Files\Stealthbits\PAM\KeyTools
@@ -72,8 +75,11 @@ cd C:\Program Files\Stealthbits\PAM\KeyTools
 
 **Step 3 –** Take note of the password for the export file.
 
-**CAUTION:** This temporary password protects the NPS-AM encryption keys during copying. Do not save
+:::warning
+This temporary password protects the NPS-AM encryption keys during copying. Do not save
 it to digital media or transmit it with the encryption key package.
+:::
+
 
 **Step 4 –** Copy the export file to "C:\Program Files\Stealthbits\PAM\KeyTools" on the secondary
 server.
@@ -83,7 +89,7 @@ server.
 **Step 6 –** Type the following commands to import the encryption keys:
 
 
-Encryption Key Import
+**Encryption Key Import**
 
 ```
 cd C:\Program Files\Stealthbits\PAM\KeyTools
@@ -103,7 +109,7 @@ Follow the steps to configure the Action Service.
 **Step 2 –** Change the directory path to the location of the Privilege Secure Action Service. The
 default path is:
 
-C:\Program Files\Stealthbits\PAM\NPS.SchedulerService\
+**C:\Program Files\Stealthbits\PAM\NPS.SchedulerService\**
 
 **Step 3 –** Run the following command to automatically register the scheduler service. Enter the
 Admin password when prompted:
@@ -111,7 +117,7 @@ Admin password when prompted:
 - The `[Privilege Secure]` parameter is the Host Name, IP, FQDN or URL
 - The default `[Port]` parameter is 6500
 
-    NPS.SchedulerService.exe –register -u admin [PrivilegeSecureServer:Port]
+**NPS.SchedulerService.exe –register -u admin [PrivilegeSecureServer:Port]**
 
 - For installations without a trusted https certificate on the Privilege Secure server, the “-I”
   parameter must be added:

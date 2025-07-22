@@ -1,7 +1,7 @@
 ---
 title: "Members Tab"
 description: "Members Tab"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Members Tab

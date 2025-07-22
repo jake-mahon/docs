@@ -1,7 +1,7 @@
 ---
 title: "Users Tab for Microsoft Entra ID"
 description: "Users Tab for Microsoft Entra ID"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Users Tab for Microsoft Entra ID

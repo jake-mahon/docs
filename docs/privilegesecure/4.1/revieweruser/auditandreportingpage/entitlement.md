@@ -21,8 +21,11 @@ certification task.
         - Approved – Existing access is approved
         - Denied – Access is removed for that specific user/resource/permission
 
-            **NOTE:** The user is not removed from the access policy. Instead, a ‘deny flag’ is set
+            :::note
+            The user is not removed from the access policy. Instead, a ‘deny flag’ is set
             against that attribute so that it can be re-enabled in the future.
+            :::
+
 
     - User Name – Displays the name of the account
     - Resource – Name of the resource
@@ -67,8 +70,11 @@ The Review Activity Details window has the following features:
         - Approved – Existing access is approved
         - Denied – Access is removed for that specific user/resource/permission
 
-            **NOTE:** The user is not removed from the access policy. Instead, a ‘deny flag’ is set
+            :::note
+            The user is not removed from the access policy. Instead, a ‘deny flag’ is set
             against that attribute so that it can be re-enabled in the future.
+            :::
+
 
     - Name – Name of the user or group
     - Resource – The resource access granted by the access policy
@@ -83,18 +89,27 @@ The Review Activity Details window has the following features:
 
 **Step 5 –** To remove access, select the applicable row(s) and click Deny.
 
-**NOTE:** The user is not removed from the access policy. Instead, a ‘deny flag’ is set against that
+:::note
+The user is not removed from the access policy. Instead, a ‘deny flag’ is set against that
 attribute so that it can be re-enabled in the future.
+:::
+
 
 **Step 6 –** When the entitlements have been reviewed, click Close. Changes are saved to the
 selected access certification task and shown on the Entitlements Tab.
 
-**NOTE:** It is not necessary to review all entitlements at once. Changes are automatically saved to
+:::note
+It is not necessary to review all entitlements at once. Changes are automatically saved to
 the selected access certification task and can be returned to at any time (the Status will show as
 Incomplete).
+:::
 
-**CAUTION:** Committed changes cannot be undone. A new access certification task must be created.
+
+:::warning
+Committed changes cannot be undone. A new access certification task must be created.
 Alternatively, it is possible to manually reassign users to an access policy.
+:::
+
 
 **Step 7 –** When all entitlements have been reviewed, the Commit button is enabled. Click Commit to
 save the changes to user access.

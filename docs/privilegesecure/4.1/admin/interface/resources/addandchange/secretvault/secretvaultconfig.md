@@ -1,7 +1,7 @@
 ---
 title: "Secret Vault Configuration"
 description: "Secret Vault Configuration"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Secret Vault Configuration
@@ -43,7 +43,10 @@ A secret vault has been created, and a secret added to the vault. See the
 [Secret Vault Details Page](/docs/privilegesecure/4.1/admin/interface/resources/detailspages/secretvault/secretvault.md)
 topic for additional information.
 
-**NOTE:** Vaulted credentials must be manually entered and updated.
+:::note
+Vaulted credentials must be manually entered and updated.
+:::
+
 
 See the
 [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.1/admin/interface/accesspolicy/credentialbasedpolicytabs/credentials/credentials.md)
@@ -53,10 +56,13 @@ topic for additional information.
 
 Follow these steps to add a credential-based access policy to Privilege Secure.
 
-_Remember,_ a connection profile is required to create an access policy. You can create one ahead of
+:::tip
+Remember, a connection profile is required to create an access policy. You can create one ahead of
 time on the
 [Connection Profiles Page](/docs/privilegesecure/4.1/admin/interface/accesspolicy/connectionprofiles/connectionprofiles.md)
 page or use the arrow button to create one during these steps.
+:::
+
 
 **Step 1 –** Navigate to the Policy > Access Policies page.
 

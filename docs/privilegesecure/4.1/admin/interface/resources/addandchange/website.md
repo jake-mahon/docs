@@ -29,7 +29,7 @@ Follow the steps to add a Website Resource to the Privilege Secure Console.
 - Service Account – _(optional)_ The service account used when activity _actions_ require a
   provisioned account to interact with the resource, e.g. custom PowerShell. From the drop-down
   menu, select a previously added service account. See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 
     - Add New Service Account — Open the Add New Service Account window. The fields are identical to

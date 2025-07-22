@@ -1,7 +1,7 @@
 ---
 title: "Authentication Connector Tab"
 description: "Authentication Connector Tab"
-sidebar_position: 70
+sidebar_position: 80
 ---
 
 # Authentication Connector Tab
@@ -12,7 +12,7 @@ displayed on the login page for the user.
 
 The list is populated from the previously configured authentication connectors on the
 Authentications page. See the
-[Authentication Page](/docs/privilegesecure/4.1/admin/interface/authentication/authentication.md)
+[Authentication Page](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/authentication.md)
 topic for additional information.
 
 ![Users Authentication Connector Tab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)
@@ -29,8 +29,11 @@ Select the method of authentication for the user or group:
   name and password. Intended for users who access Privilege Secure over a VPN where MFA has already
   been leveraged.
 
-    **CAUTION:** Disabling multi-factor authentication can create a significant security
+    :::warning
+    Disabling multi-factor authentication can create a significant security
     vulnerability.
+    :::
+
 
 The following information determines which MFA method has priority:
 

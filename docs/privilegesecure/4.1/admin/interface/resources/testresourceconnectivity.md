@@ -1,7 +1,7 @@
 ---
 title: "Test Resource Connectivity Window"
 description: "Test Resource Connectivity Window"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Test Resource Connectivity Window

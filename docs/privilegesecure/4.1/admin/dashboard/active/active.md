@@ -43,9 +43,12 @@ The dashboard has the following features:
 - Stop — Stop the selected session
 - Delete — Deletes the completed activity session
 
-**NOTE:** Sessions can be locked. See the
+:::note
+Sessions can be locked. See the
 [Lock Session](/docs/privilegesecure/4.1/admin/dashboard/active/locksession.md)
 topic for additional information.
+:::
+
 
 The table has the following columns:
 

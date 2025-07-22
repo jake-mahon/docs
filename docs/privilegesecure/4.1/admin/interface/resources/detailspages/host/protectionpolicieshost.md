@@ -1,7 +1,7 @@
 ---
 title: "Protection Policies Tab for Host"
 description: "Protection Policies Tab for Host"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Protection Policies Tab for Host

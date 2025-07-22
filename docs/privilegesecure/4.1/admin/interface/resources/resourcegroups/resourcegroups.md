@@ -1,7 +1,7 @@
 ---
 title: "Resource Groups Page"
 description: "Resource Groups Page"
-sidebar_position: 60
+sidebar_position: 10
 ---
 
 # Resource Groups Page

@@ -1,14 +1,17 @@
 ---
 title: "Add Website URL Window"
 description: "Add Website URL Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Website URL Window
 
 Follow the steps to add or edit a Website URL used by a resource.
 
-**NOTE:** Only applicable to Microsoft Entra ID and Website resources.
+:::note
+Only applicable to Microsoft Entra ID and Website resources.
+:::
+
 
 **Step 1 –** Navigate to the **Resources** page.
 

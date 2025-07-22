@@ -1,7 +1,7 @@
 ---
 title: "Add a Managed User Window"
 description: "Add a Managed User Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add a Managed User Window
@@ -14,7 +14,10 @@ topic for additional information.
 
 Follow the steps to add or edit a managed user account for the resource.
 
-**NOTE:** Only applicable to Website resources.
+:::note
+Only applicable to Website resources.
+:::
+
 
 **Step 1 –** Navigate to the **Resources** page.
 

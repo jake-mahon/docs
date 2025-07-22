@@ -1,7 +1,7 @@
 ---
 title: "Applications Tab for Microsoft Entra ID"
 description: "Applications Tab for Microsoft Entra ID"
-sidebar_position: 70
+sidebar_position: 80
 ---
 
 # Applications Tab for Microsoft Entra ID

@@ -1,7 +1,7 @@
 ---
 title: "Add Approval Workflow"
 description: "Add Approval Workflow"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Add Approval Workflow
@@ -79,8 +79,11 @@ The Add Users and Groups as Approvers window has the following features:
 **Step 10 –** To add a user or group to the Approval Tier as an Approver, click a row in the
 Available Users/Groups table and it is immediately moved to the Users & Groups to Add table.
 
-**_RECOMMENDED:_** It is usually desirable to add more approvers than required to approve the
+:::info
+It is usually desirable to add more approvers than required to approve the
 request, in order to ensure that approval is granted before the escalation timeout is reached.
+:::
+
 
 **Step 11 –** (Optional) Click a row in the Users & Groups to Add table to move it back to the
 Available Users/Groups table.
@@ -106,16 +109,22 @@ Workflow Tier settings (only visible when Approval Type is set to Tiered):
 - Remove Approver icon – Removes the selected Approver (A confirmation window will display)
 - Approvals Required – The number of Approvers required to approve the request
 
-_Remember,_ there must be enough Approvers in the list to meet the number of Approvals Required,
+:::tip
+Remember, there must be enough Approvers in the list to meet the number of Approvals Required,
 though it is usually desirable to have more than the minimum.
+:::
+
 
 **Step 14 –** To add an additional Approval Tier, click the Add Tier icon and repeat from Step 4.
 
 - Up to three Approval Tiers can be added. When the required number of approvals is reached in a
   Tier, the Approvers in the next Tier are notified. Each Tier must approve the request in sequence.
 
-**NOTE:** Connection profile approvals allow the same user that initiated the request to approve the
+:::note
+Connection profile approvals allow the same user that initiated the request to approve the
 session as well.
+:::
+
 
 The new Approval Workflow is added to the Connection Profile. See the Approvals Dashboard topic for
 additional information on how to approve a requested session.

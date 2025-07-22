@@ -1,7 +1,7 @@
 ---
 title: "Users Tab for Website"
 description: "Users Tab for Website"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # Users Tab for Website

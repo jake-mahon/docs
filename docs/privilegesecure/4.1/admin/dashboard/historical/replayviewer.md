@@ -31,13 +31,13 @@ The Replay Viewer window for RDP sessions is applicable to all resources except 
 
 The Replay Viewer for RDP Sessions window has the following features:
 
-Play options
+**Play options**
 
 - Control buttons — Play, pause, rewind, or fast forward the recording
 - Playback bar — Click to jump to a specific place in the recording
 - Speed slider — Use the slider to adjust the playback speed
 
-Recording Details
+**Recording Details**
 
 - User— Displays the account used to log onto the resource
 
@@ -56,11 +56,14 @@ Activity Details:
 - Time line — Displays recorded activity that occurred during the session in the pane to the left of
   the player. By default this time line will include keystroke activity.
 
-    **NOTE:** If RDP Session Monitoring is enabled, then it will also include Windows metadata
+    :::note
+    If RDP Session Monitoring is enabled, then it will also include Windows metadata
     activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop
     Monitor service to be installed on the target host. See the
     [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.1/install/servicesonadditionalservers/rdpmonitor.md)
     topic for additional information.
+    :::
+
 
 ## Replay Viewer for SSH Sessions
 
@@ -70,13 +73,13 @@ The Replay Viewer for SSH sessions is applicable to Linux and Cisco resources.
 
 The Replay Viewer for SSH Sessions window has the following features:
 
-Play options
+**Play options**
 
 - Control buttons — Play, pause, rewind, or fast forward the recording
 - Playback bar — Click to jump to a specific place in the recording
 - Speed slider — Use the slider to adjust the playback speed
 
-Recording Details
+**Recording Details**
 
 - User— Displays the account used to log onto the resource
 
@@ -103,7 +106,7 @@ The Replay Viewer window for Website host sessions is applicable only to Website
 
 The Replay Viewer for Website Host Sessions window has the following features:
 
-Play options
+**Play options**
 
 - Control buttons — Play or pause the recording
 - Playback bar — Click to jump to a specific place in the recording
@@ -112,7 +115,7 @@ Play options
 - Playback speed — Select Playback speed from the Options menu to adjust player speed
 - Picture in picture — Select Picture in picture from the Options menu to enable feature
 
-Recording Details
+**Recording Details**
 
 - User— Displays the account used to log onto the resource
 

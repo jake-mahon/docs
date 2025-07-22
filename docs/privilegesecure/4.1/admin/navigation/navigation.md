@@ -27,11 +27,11 @@ Help link and the User Menu:
       topic for additional information.
     - Configuration — Contains several pages to configure and manage authentication, integration
       connectors, service accounts, services, and other settings. See the
-      [Configuration Interface](/docs/privilegesecure/4.1/admin/interface/interface_1.md)
+      [Configuration Interface](/docs/privilegesecure/4.1/admin/configurationinterface/interface_1.md)
       topic for additional information.
     - Audit & Reporting Interface — Audit user access entitlement (Access Certification) and view
       activity statistics and reports. See the
-      [Audit & Reporting Interface](/docs/privilegesecure/4.1/admin/interface/interface_2.md)
+      [Audit & Reporting Interface](/docs/privilegesecure/4.1/admin/audit&reporting/interface_2.md)
       topic for additional information.
 
 - Help — Opens the Netwrix Privilege Secure documentation in the in another browser tab
@@ -56,7 +56,7 @@ display. Use the Menu button to the left of the logo to collapse / expand the Na
 The Privilege Secure Console makes it easy to gather detailed information at a glance. The following
 tables show the main icons:
 
-Interface Icons
+**Interface Icons**
 
 | Icon                                                                                                                         | Interface           |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -71,7 +71,7 @@ Interface Icons
 | ![servicenodes](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
 | ![auditreporting](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
 
-Dashboard Icons
+**Dashboard Icons**
 
 | Icon                                                                                                                               | Session Data        |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -83,7 +83,7 @@ Dashboard Icons
 | ![resourcesdashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
 | ![credentialsdashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
 
-Active Directory Icons
+**Active Directory Icons**
 
 | Icon                                                                                                                                                               | Object              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
@@ -100,7 +100,7 @@ Active Directory Icons
 | ![Cisco icon](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
 | ![Windows icon](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
 
-Action Icons
+**Action Icons**
 
 | Icon                                                                                                                                                           | Action |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -112,7 +112,7 @@ Action Icons
 | ![chapter_1_stealthbits_privileged_21](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/chapter_1_stealthbits_privileged_21.webp) | Copy   |
 | ![chapter_1_stealthbits_privileged_22](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/chapter_1_stealthbits_privileged_22.webp) | Search |
 
-Information Icons
+**Information Icons**
 
 | Icon                                                                                                                                                             | Information            |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |

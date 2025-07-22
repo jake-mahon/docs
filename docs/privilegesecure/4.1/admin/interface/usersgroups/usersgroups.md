@@ -1,7 +1,7 @@
 ---
 title: "Users & Groups Page"
 description: "Users & Groups Page"
-sidebar_position: 40
+sidebar_position: 10
 ---
 
 # Users & Groups Page

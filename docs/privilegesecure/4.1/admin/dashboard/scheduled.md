@@ -54,8 +54,11 @@ The table has the following columns:
 - End — Indicates when the session is scheduled to end the activity, which is determined by the
   start time plus the maximum session duration set by the access policy Connection Profile
 
-**NOTE:** Sessions can be locked. See the
+:::note
+Sessions can be locked. See the
 [Lock Session](/docs/privilegesecure/4.1/admin/dashboard/active/locksession.md)
 topic for additional information.
+:::
+
 
 The table columns can be resized and sorted in ascending or descending order.

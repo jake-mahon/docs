@@ -1,7 +1,7 @@
 ---
 title: "Sessions Tab"
 description: "Sessions Tab"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Sessions Tab
@@ -18,8 +18,11 @@ The Sessions tab has the following features:
 - View Log — View a detailed event log of the session. A new window opens that shows an event log
   for the session.
 
-    **NOTE:** If a session is associated with a Secret Vault, the activity log displays access to
+    :::note
+    If a session is associated with a Secret Vault, the activity log displays access to
     secrets but does not record the secret content.
+    :::
+
 
 - Lock/Unlock — Locks/Unlocks the user session. See the
   [Lock Session](/docs/privilegesecure/4.1/admin/dashboard/active/locksession.md)

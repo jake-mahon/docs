@@ -1,7 +1,7 @@
 ---
 title: "Add Resources and Resource Groups Window"
 description: "Add Resources and Resource Groups Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Resources and Resource Groups Window

@@ -1,7 +1,7 @@
 ---
 title: "Role Management Page"
 description: "Role Management Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Role Management Page
@@ -24,8 +24,11 @@ following features:
 - Trashcan icon — Deletes the access policy. Icon appears when policy is hovered over. A
   confirmation window will display.
 
-**NOTE:** The default Administrator, User, and Reviewer roles cannot be copied, deleted, or
+:::note
+The default Administrator, User, and Reviewer roles cannot be copied, deleted, or
 modified. Only custom roles can be copied, deleted, or modified.
+:::
+
 
 The details that display the main pane vary based on the type of role selected. See the
 [Default Role Details Page](/docs/privilegesecure/4.1/admin/interface/usersgroups/rolemanagement/rolemanagementdefault/rolemanagementdefault.md)

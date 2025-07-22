@@ -1,7 +1,7 @@
 ---
 title: "Add Secret Vault"
 description: "Add Secret Vault"
-sidebar_position: 50
+sidebar_position: 10
 ---
 
 # Add Secret Vault
@@ -26,7 +26,10 @@ A secret vault has been onboarded. See the
 [Secret Vault Details Page](/docs/privilegesecure/4.1/admin/interface/resources/detailspages/secretvault/secretvault.md)
 topic for additional information.
 
-**CAUTION:** Next, you will have to manually enter and update credentials for each applicable user.
+:::warning
+Next, you will have to manually enter and update credentials for each applicable user.
 Credentials are assigned through the Credential-based Access Policy for password release. See the
 [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.1/admin/interface/accesspolicy/credentialbasedpolicytabs/credentials/credentials.md)
 topic for additional information.
+
+:::

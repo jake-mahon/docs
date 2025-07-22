@@ -1,7 +1,7 @@
 ---
 title: "Sessions Tab for Secret Vault"
 description: "Sessions Tab for Secret Vault"
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # Sessions Tab for Secret Vault

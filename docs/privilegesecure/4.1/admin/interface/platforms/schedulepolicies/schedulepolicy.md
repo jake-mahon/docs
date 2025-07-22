@@ -1,7 +1,7 @@
 ---
 title: "Add Schedule Policy"
 description: "Add Schedule Policy"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Schedule Policy
@@ -16,7 +16,10 @@ Follow the steps to add a schedule policy to the console.
 
 **Step 3 –** Enter the following information:
 
-**NOTE:** The fields will change depending on the selected frequency.
+:::note
+The fields will change depending on the selected frequency.
+:::
+
 
 - Select the desired frequency:
 

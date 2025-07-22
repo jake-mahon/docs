@@ -1,7 +1,7 @@
 ---
 title: "Password Reset Options Window"
 description: "Password Reset Options Window"
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 # Password Reset Options Window
