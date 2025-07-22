@@ -42,9 +42,11 @@ The **Advanced Change Management** Module provides additional functionality:
 - Archive fields.
 - Delete customizations.
 
+:::note
 Change Management can be integrated with other change tracking systems using the External Change
 Request Number field. It is beneficial to use the change records since they can be linked to
 processes, customizations and clean up activities.
+:::
 
 ### Confirm with a Deployment Record
 

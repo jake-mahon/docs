@@ -9,7 +9,9 @@ sidebar_position: 40
 The Field Level Security Scanner creates a comprehensive list of Customizations, Field API Name,
 Parent Object, Package, and Salesforce Type for a selected Object.
 
+:::note
 Run the scanners before you search to ensure you have the latest data.
+:::
 
 1. Open **Netwrix Dashboard** > **Scanner** > Field-Level Security Scanner.
 
@@ -23,7 +25,9 @@ Run the scanners before you search to ensure you have the latest data.
 4. Select one or more fields to scan. The **Customization Name** is a link to the Customization
    Record.
 
-    **NOTE:** It is not technically possible to scan permissions on all fields in each object.
+    :::note
+     It is not technically possible to scan permissions on all fields in each object.
+    :::
 
 5. Selected fields are shown in a list at the bottom of the form. You can uncheck individual fields
    or all fields from the **Selected Field** list.

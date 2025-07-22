@@ -38,17 +38,12 @@ Customization record fields include:
 
 These are the tabs inside a customization record:
 
-> Metadata
->
-> Custom
->
-> DRD
->
-> Change Enablement
->
-> Clean Up
->
-> Related Lists
+- Metadata
+- Custom
+- DRD
+- Change Enablement
+- Clean Up
+- Related Lists
 
 ### Metadata
 
@@ -85,20 +80,19 @@ customizations and their relationships and dependencies.
 The Change Enablement tab accesses the policy and data tacking settings, and the add to change
 request feature.
 
-- **Change/Approval Policy**: This field designates the approval policy related to a customization.
+- **Change/Approval Policy**: designates the approval policy related to a customization.
 - **Add to Change Request**: Lookup tool to associate the clean up to an existing change request.
-- Data Change Tracking: tracking status.  
-  **Not Tracked**: changes in data records are not tracked.  
-  **Tracked, Blocking**: changes in data records are blocked if there is no approved Change
-  Request.  
-  **Tracked, Non-Blocking**: changes in data records are logged.
+- **Data Change Tracking**: tracking status.
+    - **Not Tracked**: changes in data records are not tracked.  
+    - **Tracked, Blocking**: changes in data records are blocked if there is no approved Change Request.  
+    - **Tracked, Non-Blocking**: changes in data records are logged.
 
 ### Clean Up
 
 The Clean Up tab provides information customization clean up:
 
-- **Clean Up Status**: This is the clean-up status of customizations that are to be deleted.
-- **Clean-up Classification**: This field shows an overview of the clean-up classification.
+- **Clean Up Status**: clean-up status of customizations that are to be deleted.
+- **Clean-up Classification**: overview of the clean-up classification.
 
 ### Related Lists
 

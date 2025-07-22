@@ -11,15 +11,11 @@ last date the Customization, or the data it contains, was created, changed, acce
 used.The DLU value indicates that the customization was used at least as late as the DLU. It does
 not indicate if it was used earlier. If DLU is blank, it indicates there in no verified date.
 
-> DLU CustomField Details
->
-> Setting the DLU Expiration
->
-> DLU Metadata Types
->
-> Excluded Metadata Extended Types
->
-> DLU Scheduler
+- DLU CustomField Details
+- Setting the DLU Expiration
+- DLU Metadata Types
+- Excluded Metadata Extended Types
+- DLU Scheduler
 
 ## DLU CustomField Details
 
@@ -29,7 +25,9 @@ make better decisions about the value of maintaining specific CustomFields. Usag
 - how often the field has data (_frequency_)
 - how recently the field has been used (_recency_)
 
+:::note
 DLU analysis should only be performed in Production orgs. Sandbox orgs do not reflect actual usage.
+:::
 
 **Usage data fields:**
 
@@ -46,16 +44,15 @@ DLU analysis should only be performed in Production orgs. Sandbox orgs do not re
   the CustomField populated. This provides usage recency information when Field History Tracking is
   disabled. **CreatedDate** is more accurate for the CustomField than the **LastModifiedDate** for
   the record.
-- **DLU Status** displays the current status:  
-  | DLU Status | DLU | Field History Tracking | Date DLU Analyzed | Parent Last Update Date | | ---
-  | --- | --- | --- | --- | | Unavailable | Blank | Never enabled for this field. | Blank |
-  Populated | | Pending | Blank | Enabled. Waiting for the scanner to run. | Blank | Populated | |
-  Current | Populated | Enabled. DLU is current and accurate using automated nightly scans. | Today
-  | Blank | | Recent | Populated, May be stale | Disabled. Last scan when enabled was within the
-  past three months. Three months is the default time period. See Setting the DLU Expiration. |
-  Within set time period | Populated | | Expired | Populated, May be stale | Disabled. Last scan
-  when enabled was longer than three months ago. Three months is the default time period. See
-  Setting the DLU Expiration. | Older than set time period | Populated |
+- **DLU Status** displays the current status:
+
+  | DLU Status | DLU | Field History Tracking | Date DLU Analyzed | Parent Last Update Date |
+  | --- | --- | --- | --- | --- |
+  | Unavailable | Blank | Never enabled for this field. | Blank | Populated |
+  | Pending | Blank | Enabled. Waiting for the scanner to run. | Blank | Populated |
+  | Current | Populated | Enabled. DLU is current and accurate using automated nightly scans. | Today | Blank |
+  | Recent | Populated, May be stale | Disabled. Last scan when enabled was within the past three months. Three months is the default time period. See [Setting the DLU Expiration](#setting-the-dluexpiration). | Within set time period | Populated |
+  | Expired | Populated, May be stale | Disabled. Last scan when enabled was longer than three months ago. Three months is the default time period. See [Setting the DLU Expiration](#setting-the-dluexpiration). | Older than set time period | Populated |
 
 If **Field History Tracking** is enabled for a CustomField with a **DLU Status** of either
 **Recent** or **Expired**, the status is changed to **Pending**. Here is an example:
@@ -67,7 +64,7 @@ If **Field History Tracking** is enabled for a CustomField with a **DLU Status*
 - When Field History Tracking is enabled, the **DLU** is accurate, and the **Parent Last Update
   Date** is blank.
 - If Field History Tracking has never been enabled, only **Parent Last Update Date** has a value.
-  Use **Parent Last Update Date**and **% Populated** together to get a sense of the usage.
+  Use **Parent Last Update Date** and **% Populated** together to get a sense of the usage.
 - If Field History Tracking was enabled and later disabled, there are values in **DLU** and **Parent
   Last Update Date**. Generally, you would use the most recent of the two together with **%
   Populated** to get a sense of usage. If **DLU Status** is Expired, it is probably safe to ignore
@@ -104,59 +101,59 @@ DLU can be used for the following metadata types:
 | Salesforce Family Types & Joins                | Metadata Types                                                                                       | DLU                                                                                               |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Workflow                                       | Workflow Rule                                                                                        | Date workflow rule was last run.                                                                  |
-| Workflow Approva lProcess Flow Validation Rule | Last date base record updated, if enabled                                                            |                                                                                                   |
-| Scripts                                        | Apex Class**\*** Apex Trigger**\*** Apex Component**\*** Lightning Component Lightning Web Component | The last date the code was triggered by any script based on the log of the last time it was run.  |
-| Forms                                          | Layout Compact Layout                                                                                | If assigned to a profile, it is the date the last record that belongs to the layout was updated . |
-| Apex Page**\***                                | The last date the page was accessed (the code was triggered).                                        |                                                                                                   |
+| | Workflow<br />Approval Process<br />Flow<br />Validation Rule | Last date base record updated, if enabled                                                            |                                                                                                   |
+| Scripts                                        | Apex Class<sup>\*</sup><br />Apex Trigger<sup>\*</sup><br />Apex Component<sup>\*</sup><br />Lightning Component<br />Lightning Web Component | The last date the code was triggered by any script based on the log of the last time it was run.  |
+| Forms                                          | Layout<br />Compact Layout                                                                                | If assigned to a profile, it is the date the last record that belongs to the layout was updated . |
+| | Apex Page<sup>\*</sup>                                | The last date the page was accessed (the code was triggered).                                        |                                                                                                   |
 | Reports                                        | Report                                                                                               | Last date report was run.                                                                         |
-| Dashboard                                      | Last date dashboard report was run.                                                                  |                                                                                                   |
-| Report Type                                    | Last date report using the report type was run.                                                      |                                                                                                   |
-| Analytic Snapshot                              | Last date a dashboard it is on or dependent script was run.                                          |                                                                                                   |
-| List View                                      | Last date the List View was accessed.                                                                |                                                                                                   |
+| | Dashboard                                      | Last date dashboard report was run.                                                                  |                                                                                                   |
+| | Report Type                                    | Last date report using the report type was run.                                                      |                                                                                                   |
+| | Analytic Snapshot                              | Last date a dashboard it is on or dependent script was run.                                          |                                                                                                   |
+| | List View                                      | Last date the List View was accessed.                                                                |                                                                                                   |
 | Data Sources                                   | Standard Field                                                                                       | Last date the value changed.                                                                      |
-| Standard Object Custom Object                  | Last date a record was saved.                                                                        |                                                                                                   |
-| Custom Field                                   | Last date the value changed or if formula field, the maximum last date of the fields in the formula. |                                                                                                   |
+| | Standard Object<br />Custom Object                  | Last date a record was saved.                                                                        |                                                                                                   |
+| | Custom Field                                   | Last date the value changed or if formula field, the maximum last date of the fields in the formula. |                                                                                                   |
 | Dependent Fields                               | Custom Field Lookup                                                                                  | Minimum of the DLU of the record it exists on and the DLU of the source field.                    |
 | Profiles and Roles                             | User                                                                                                 | Last login by the user.                                                                           |
-| Role                                           | Calculated based on the last time someone logged in with that role.                                  |                                                                                                   |
-| Profile                                        | Calculated based on the last time someone logged in with that profile.                               |                                                                                                   |
-| Permission Set                                 | Calculated based on the last time someone logged in with that permission set.                        |                                                                                                   |
+| | Role                                           | Calculated based on the last time someone logged in with that role.                                  |                                                                                                   |
+| | Profile                                        | Calculated based on the last time someone logged in with that profile.                               |                                                                                                   |
+| | Permission Set                                 | Calculated based on the last time someone logged in with that permission set.                        |                                                                                                   |
 | Package                                        | Text that displays the name of the package                                                           | Maximum DLU of object in the package.                                                             |
 | Extended Types (Other)                         | App Menu                                                                                             | DLU of the parent Custom Application.                                                             |
-| Assignment Rules                               | Date rule was last run.                                                                              |                                                                                                   |
-| Auto Response Rules                            | Date Auto Response rule was last run.                                                                |                                                                                                   |
-| Call Center                                    |                                                                                                      |                                                                                                   |
-| Connected App                                  | Date App was last run.                                                                               |                                                                                                   |
-| Custom Application                             | Maximum DLU of customizations belonging to the application.                                          |                                                                                                   |
-| Criteria Based Sharing Rule                    | Maximum of related Sharing Rules.                                                                    |                                                                                                   |
-| Custom Application Component                   | Maximum DLU from parent applications.                                                                |                                                                                                   |
-| Custom Label                                   | Maximum DLU of related field.                                                                        |                                                                                                   |
-| Custom Metadata                                | Date modified of the object that has the value in the metadata.                                      |                                                                                                   |
-| Custom Object Translation                      | DLU of the parent object.                                                                            |                                                                                                   |
-| Custom Page Web Link                           | DLU of the APEX page.                                                                                |                                                                                                   |
-| Custom Permission                              | DLU of a profile that has the custom permission.                                                     |                                                                                                   |
-| Custom Tab                                     | DLU of the parent Custom Application.                                                                |                                                                                                   |
-| Document                                       | Last time the file was opened or accessed by the system.                                             |                                                                                                   |
-| Email Template                                 | Date Template was last used to send emails.                                                          |                                                                                                   |
-| Escalation Rules                               | Date rule was last run.                                                                              |                                                                                                   |
-| Field Set                                      | Last date a field value changed.                                                                     |                                                                                                   |
-| Flow Definition                                | Date flow last accessed.                                                                             |                                                                                                   |
-| Global Picklist                                | Maximum DLU of fields that use the picklist.                                                         |                                                                                                   |
-| Group                                          | Last time someone from the group accessed the system (always employees).                             |                                                                                                   |
-| Installed Package                              | Maximum DLU of component of the package                                                              |                                                                                                   |
-| Letterhead                                     | Last date template accessed.                                                                         |                                                                                                   |
-| Matching Rule                                  | Date rule was last run.                                                                              |                                                                                                   |
-| Post Template                                  | Date Template was last used to send emails.                                                          |                                                                                                   |
-| Queue                                          | Maximum DLU of code / workflow run on the Queue.                                                     |                                                                                                   |
-| Record Type                                    | Maximum DLU of fields that use the record type.                                                      |                                                                                                   |
-| Sharing Rules                                  | Date rule was last run.                                                                              |                                                                                                   |
-| Static Resource                                | Max of last access date (document) or DLU code referencing it.                                       |                                                                                                   |
-| Synonym Dictionary                             | Maximum DLU of related fields.                                                                       |                                                                                                   |
-| Territory2                                     | Date Territory2 rule was last run.                                                                   |                                                                                                   |
-| Territory2 Model                               | Date Territory2 rule was last run.                                                                   |                                                                                                   |
-| Territory2 Rule                                | Date rule was last run.                                                                              |                                                                                                   |
-| Territory2 Type                                | Date Territory2 rule was last run.                                                                   |                                                                                                   |
-| Translations                                   | Maximum DLU of related fields.                                                                       |                                                                                                   |
+| | Assignment Rules                               | Date rule was last run.                                                                              |                                                                                                   |
+| | Auto Response Rules                            | Date Auto Response rule was last run.                                                                |                                                                                                   |
+| | Call Center                                    |                                                                                                      |                                                                                                   |
+| | Connected App                                  | Date App was last run.                                                                               |                                                                                                   |
+| | Custom Application                             | Maximum DLU of customizations belonging to the application.                                          |                                                                                                   |
+| | Criteria Based Sharing Rule                    | Maximum of related Sharing Rules.                                                                    |                                                                                                   |
+| | Custom Application Component                   | Maximum DLU from parent applications.                                                                |                                                                                                   |
+| | Custom Label                                   | Maximum DLU of related field.                                                                        |                                                                                                   |
+| | Custom Metadata                                | Date modified of the object that has the value in the metadata.                                      |                                                                                                   |
+| | Custom Object Translation                      | DLU of the parent object.                                                                            |                                                                                                   |
+| | Custom Page Web Link                           | DLU of the APEX page.                                                                                |                                                                                                   |
+| | Custom Permission                              | DLU of a profile that has the custom permission.                                                     |                                                                                                   |
+| | Custom Tab                                     | DLU of the parent Custom Application.                                                                |                                                                                                   |
+| | Document                                       | Last time the file was opened or accessed by the system.                                             |                                                                                                   |
+| | Email Template                                 | Date Template was last used to send emails.                                                          |                                                                                                   |
+| | Escalation Rules                               | Date rule was last run.                                                                              |                                                                                                   |
+| | Field Set                                      | Last date a field value changed.                                                                     |                                                                                                   |
+| | Flow Definition                                | Date flow last accessed.                                                                             |                                                                                                   |
+| | Global Picklist                                | Maximum DLU of fields that use the picklist.                                                         |                                                                                                   |
+| | Group                                          | Last time someone from the group accessed the system (always employees).                             |                                                                                                   |
+| | Installed Package                              | Maximum DLU of component of the package                                                              |                                                                                                   |
+| | Letterhead                                     | Last date template accessed.                                                                         |                                                                                                   |
+| | Matching Rule                                  | Date rule was last run.                                                                              |                                                                                                   |
+| | Post Template                                  | Date Template was last used to send emails.                                                          |                                                                                                   |
+| | Queue                                          | Maximum DLU of code / workflow run on the Queue.                                                     |                                                                                                   |
+| | Record Type                                    | Maximum DLU of fields that use the record type.                                                      |                                                                                                   |
+| | Sharing Rules                                  | Date rule was last run.                                                                              |                                                                                                   |
+| | Static Resource                                | Max of last access date (document) or DLU code referencing it.                                       |                                                                                                   |
+| | Synonym Dictionary                             | Maximum DLU of related fields.                                                                       |                                                                                                   |
+| | Territory2                                     | Date Territory2 rule was last run.                                                                   |                                                                                                   |
+| | Territory2 Model                               | Date Territory2 rule was last run.                                                                   |                                                                                                   |
+| | Territory2 Rule                                | Date rule was last run.                                                                              |                                                                                                   |
+| | Territory2 Type                                | Date Territory2 rule was last run.                                                                   |                                                                                                   |
+| | Translations                                   | Maximum DLU of related fields.                                                                       |                                                                                                   |
 
 ## Excluded Metadata Extended Types
 

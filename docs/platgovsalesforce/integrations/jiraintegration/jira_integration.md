@@ -19,10 +19,12 @@ User benefits include:
 - Navigate to DRD views.
 - Enable automatic synchronization of Jira and Platform Governance for Salesforce change tickets.
 
+:::note
 Change Requests are not automatically created, as not all tickets result in a Change Request.
 Tickets must be pushed to Platform Governance for Salesforce to begin the process. If Automatic
 Synchronization is turned on, then changes to the Status and Customizations are synchronized between
 Jira and Platform Governance for Salesforce without the need to keep manually pushing the changes.
+:::
 
 To set up the Jira integration:
 
@@ -40,8 +42,11 @@ To take advantage of the automatic synchronization feature, we recommend reviewi
 statuses to be mapped to the Change Request statuses. When a ticket status is updated to a mapped
 status, Platform Governance for Salesforce handles the synchronization between Jira and Salesforce.
 
-The mapping allows multiple Jira statuses to map to each Change Request status.  
-The mapping is part of the Set Up Status Mapping procedure.
+:::note
+The mapping allows multiple Jira statuses to map to each Change Request status.
+:::
+
+The mapping is part of the [Set Up Status Mapping](#set-up-status-mapping) procedure.
 
 Refer to the Atlassian documentation for instructions on
 [Defining status field values](https://confluence.atlassian.com/adminjiraserver070/defining-status-field-values-749382903.html?_ga=2.262596428.1900070949.1572132057-2138500458.1540834491).
@@ -53,8 +58,10 @@ Cloud Integration Credentials after installing the app.
 
 ### Jira Cloud Installation
 
+:::note
 You must be a Jira system administrator to install the **Strongpoint for Salesforce** app. Contact
 your Jira system administrator if you do not have administrative permissions.
+:::
 
 1. Open your **Jira Software Dashboard**.
 2. Select **Apps** > **Explore more Apps >**
@@ -69,9 +76,11 @@ your Jira system administrator if you do not have administrative permissions.
 You can use a connected app to request access to Salesforce data. These steps connect your Jira
 Cloud app to your Salesforce instance.
 
+:::note
 For a connected app to request access, it must be integrated with the Salesforce API using the OAuth
 2.0 protocol. OAuth 2.0 is an open protocol that authorizes secure data sharing between applications
 through the exchange of tokens.
+:::
 
 Configure the connected app:
 
@@ -88,7 +97,9 @@ Configure the connected app:
    **Perform requests at any time (refresh_token, offline_access)**
 6. Click **Save**.
 
+    :::note
     Your connected app requires 2-10 minutes after you save before it is available.
+    :::
 
 7. Click **Manage Consumer Details**.
 
@@ -126,17 +137,18 @@ By default, all projects are visible for the Jira Platform Governance for Salesf
 You can restrict this by project or profile.
 
 Users opening a restricted project receive a information message, instructions for enabling access,
-and a link to this topic. Follow the instructions for Restricting Access to a Project or Setting
-Groups/Profiles Visibility to grant the user appropriate access.
+and a link to this topic.
 
 > _The Strongpoint Salesforce Integration is not supported for this project._
+
+Follow the instructions for Restricting Access to a Project or Setting Groups/Profiles Visibility to grant the user appropriate access.
 
 1. Open a Jira project.
 
     ![Open a project](/img/product_docs/platgovsalesforce/integrations/jira_restrict_access1.webp)
 
 2. Select **Strongpoint Sf Settings**.
-3. Select the **Project Visability Settings** tab.
+3. Select the **Project Visibility Settings** tab.
 4. Enter the name of the project in the **Visibility Settings**. The specified project is the only
    one that is available to the Platform Governance for Salesforce integration. Leave **Visibility
    Settings** blank to allow all projects access.
@@ -151,14 +163,15 @@ Access to the Jira Platform Governance for Salesforce integration can also be pe
 groups.
 
 Users opening a restricted project receive a information message, instructions for enabling access,
-and a link to this topic. Follow the instructions for Restricting Access to a Project or Setting
-Groups/Profiles Visibility to grant the user appropriate access.
+and a link to this topic.
 
 > _The Strongpoint Salesforce Integration is not supported for this project._
 
+Follow the instructions for Restricting Access to a Project or Setting Groups/Profiles Visibility to grant the user appropriate access.
+
 1. Open a Jira project.
 2. Select **Strongpoint Sf Settings**.
-3. Select the **Profile Visability Settings** tab. There are two lists:  
+3. Select the **Profile Visibility Settings** tab. There are two lists:  
    **Existing Groups** are all of the current groups in Jira  
    **Selected Groups** are groups that can see the Platform Governance for Salesforce Jira
    integration. If **Selected Groups** is blank, all groups have access to the integration.
@@ -195,11 +208,13 @@ Groups/Profiles Visibility to grant the user appropriate access.
    without having to click **Push**. If you are using an org where you do not want to create a
    Change Request, leave this unchecked so you can do your research or testing without generating
    Change Requests.
-6. Change Requests are not automatically created, as not all tickets result in a Change Request.
+
+   :::note
+   Change Requests are not automatically created, as not all tickets result in a Change Request.
    Tickets must be pushed to Platform Governance for Salesforce to begin the process. If Automatic
    Synchronization is turned on, then changes to the Status and Customizations are synchronized
    between Jira and Platform Governance for Salesforce without the need to keep manually pushing the
    changes.
-7. Click **Save**.
+   :::
 
-**Next Step:** [Jira Walkthrough Example](/docs/platgovsalesforce/integrations/jiraintegration/jira_walkthrough_example.md)
+6. Click **Save**.

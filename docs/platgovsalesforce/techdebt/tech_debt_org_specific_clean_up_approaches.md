@@ -11,17 +11,12 @@ very flexible, to help you clean up objects quickly and effectively.
 
 Here are some guidelines to specific clean up problems:
 
-> Unused, Risky
->
-> Unused Automation
->
-> Unused Test Classes
->
-> Entire Object or Group of Parent / Child Objects
->
-> Layouts and List Views
->
-> Value-based Clean Up
+- Unused, Risky
+- Unused Automation
+- Unused Test Classes
+- Entire Object or Group of Parent / Child Objects
+- Layouts and List Views
+- Value-based Clean Up
 
 These guidelines assume you set up your List Views the same way as described
 [Step 1: Identify and Prioritize Targets](/docs/platgovsalesforce/techdebt/tech_debt_org_clean_up_example.md).
@@ -65,29 +60,29 @@ are two reasons that a test class may be unused:
 
 1. The code it tests is no longer used. To clean these up:
 
-1. Create a new Report based on the **Customizations with Dependencies** type.
-1. Filter for:
+    1. Create a new Report based on the **Customizations with Dependencies** type.
+    2. Filter for:
 
-    - Salesforce Type equals **Apex Class**
-    - Test Class equals **True**
-    - Customization's Date Last Used and/or the Dependency: Date Last Used is populated and older
+        - Salesforce Type equals **Apex Class**
+        - Test Class equals **True**
+        - Customization's Date Last Used and/or the Dependency: Date Last Used is populated and older
       than X
-    - Optional: Filter out objects from a managed package.
+        - Optional: Filter out objects from a managed package.
 
-1. Add **Clean Up Notes** that the code it tests is no longer in use.
+    3. Add **Clean Up Notes** that the code it tests is no longer in use.
 
-1. The assertions in the Test Class relate to fields no longer in use. To identify these:
+2. The assertions in the Test Class relate to fields no longer in use. To identify these:
 
-1. Create a new Report based on the **Customizations with Dependencies** report type.
-1. The following filters identify test classes referencing fields that have not been used in the
+    1. Create a new Report based on the **Customizations with Dependencies** report type.
+    2. The following filters identify test classes referencing fields that have not been used in the
    past six months:
 
-- Salesforce Type equals **Apex Class**
-- Test Class equals **True**
-- Dependency: Salesforce Type equals **CustomField**
-- Dependency: Date Last Used less than **180 DAYS AGO**
+        - Salesforce Type equals **Apex Class**
+        - Test Class equals **True**
+        - Dependency: Salesforce Type equals **CustomField**
+        - Dependency: Date Last Used less than **180 DAYS AGO**
 
-3. Add **Clean Up Notes** that the Test Class assertions relate to fields no longer in use.
+    3. Add **Clean Up Notes** that the Test Class assertions relate to fields no longer in use.
 
 ## Entire Object or Group of Parent / Child Objects
 

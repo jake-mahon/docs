@@ -20,7 +20,9 @@ Comparison tool features include:
   permissions.
 - _Export Results to Excel_: Share and analyze comparison results.
 
+:::note
 Run the scanners before you perform comparisons to ensure you have the latest data.
+:::
 
 ## System Permission Comparison
 

@@ -27,60 +27,31 @@ Here is an example change log for a **Profile** Metadata type.
 
 ## Details Tab
 
-> **Actual Change Date**: Date the Customization was last modified.
->
-> **Customization Created By**: User who created the customization.
->
-> **Customization Modified By**: User who last modified the customization.
->
-> **Customization**: Linked Customization(s) that have changed.
->
-> **Metadata Type**: Salesforce metatdata type of the Customization.
->
-> **Field Name**: Name of the changed field.
->
-> **Active**: Checked if the Customization is active.
->
-> **New Customization**: Checked if new customization.
->
-> **Package**: Name of the Managed Package if the customizations belong to a managed package.
->
-> **Operation**: Flag this field if a change or a new record is created.
->
-> **Change Overview**: Overview of the change.
->
-> **Data Record Id**: ID of the data record changed. This field is not in all Metadata Types.
->
-> **Data Record Name**: Name of the data record changed. This field is not in all Metadata Types.
->
-> **Data Record SObject API**: API name of the parent SObject of the data record changed. This field
-> is not in all Metadata Types.
->
-> **Related Change Request**: Change request related to the change or used to perform regression
-> analysis of a non-compliant change.
->
-> **Compliant Indicator**: Green flag indicates compliant, red flag indicates non-compliant.
->
-> **Non-Compliant**: Checked if the change is non-compliant.
->
-> **Compliance**: The change status: **Compliant** or **Non-compliant**.
->
-> **Policy**: Policies associated with the Change Log.
->
-> **Reason**: Name of the policy violated by the change.
->
-> **Filters**: List of filters satisfied for the data record change. If blank, no filters specified.
-> This field is not in all Metadata Types.
->
-> **Parent Change Log**: Name of the parent change log if applicable.
->
-> **Resolution Description**: Description of any steps taken to bring the change back into
-> compliance. This field is not in all Metadata Types.
->
-> **Short Resolution Description**: Summary description of any steps taken to bring the change back
-> into compliance.
->
-> **Status**: Current state of the Change Log. This field is manually set.
+- **Actual Change Date**: Date the Customization was last modified.
+- **Customization Created By**: User who created the customization.
+- **Customization Modified By**: User who last modified the customization.
+- **Customization**: Linked Customization(s) that have changed.
+- **Metadata Type**: Salesforce metadata type of the Customization.
+- **Field Name**: Name of the changed field.
+- **Active**: Checked if the Customization is active.
+- **New Customization**: Checked if new customization.
+- **Package**: Name of the Managed Package if the customizations belong to a managed package.
+- **Operation**: Flag this field if a change or a new record is created.
+- **Change Overview**: Overview of the change.
+- **Data Record Id**: ID of the data record changed. This field is not in all Metadata Types.
+- **Data Record Name**: Name of the data record changed. This field is not in all Metadata Types.
+- **Data Record SObject API**: API name of the parent SObject of the data record changed. This field is not in all Metadata Types.
+- **Related Change Request**: Change request related to the change or used to perform regression analysis of a non-compliant change.
+- **Compliant Indicator**: Green flag indicates compliant, red flag indicates non-compliant.
+- **Non-Compliant**: Checked if the change is non-compliant.
+- **Compliance**: The change status: **Compliant** or **Non-compliant**.
+- **Policy**: Policies associated with the Change Log.
+- **Reason**: Name of the policy violated by the change.
+- **Filters**: List of filters satisfied for the data record change. If blank, no filters specified. This field is not in all Metadata Types.
+- **Parent Change Log**: Name of the parent change log if applicable.
+- **Resolution Description**: Description of any steps taken to bring the change back into compliance. This field is not in all Metadata Types.
+- **Short Resolution Description**: Summary description of any steps taken to bring the change back into compliance.
+- **Status**: Current state of the Change Log. This field is manually set.
 
 ### Diff Summary
 
@@ -107,21 +78,14 @@ The **Created By** and **Last Modified By** users and dates are displayed at the
 The **Audit** section displays all fields related to an audit. Click the edit icon to edit the
 record.
 
-> **Sampled For Audit**: Select **None**, **Internal** or **External**.
->
-> **Audited By**: Auditor selects their user name from the list.
->
-> **Internal Audit Comments**: Internal notes added by the Auditor.
->
-> **Internal Audit Status**: Select **None**, **Approved**, **Rejected** or **Under Investigation**.
->
-> **Last Internal Audit**: User who made the last change in the Internal Audit fields.
->
-> **External Audit Comments**: External notes added by the Auditor.
->
-> **External Audit Status**: Select **None**, **Approved**, **Rejected** or **Under Investigation**.
->
-> **Last External Audit**: User who made the last change in the External Audit fields.
+- **Sampled For Audit**: Select **None**, **Internal** or **External**.
+- **Audited By**: Auditor selects their user name from the list.
+- **Internal Audit Comments**: Internal notes added by the Auditor.
+- **Internal Audit Status**: Select **None**, **Approved**, **Rejected** or **Under Investigation**.
+- **Last Internal Audit**: User who made the last change in the Internal Audit fields.
+- **External Audit Comments**: External notes added by the Auditor.
+- **External Audit Status**: Select **None**, **Approved**, **Rejected** or **Under Investigation**.
+- **Last External Audit**: User who made the last change in the External Audit fields.
 
 ## Related Tab
 

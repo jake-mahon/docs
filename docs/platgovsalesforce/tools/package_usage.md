@@ -14,7 +14,9 @@ provides a comprehensive overview of who is accessing the environment and for wh
 The Package Usage tool is available with the Intelligent Change Enablement and Enterprise Compliance
 [licenses](/docs/platgovsalesforce/installingstrongpoint/features_by_license_type.md).
 
+:::note
 Run the scanners first to ensure you have the latest data.
+:::
 
 Once you have run the scanner, you filter and export the data:
 

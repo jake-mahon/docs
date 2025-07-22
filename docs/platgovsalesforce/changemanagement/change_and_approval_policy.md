@@ -25,13 +25,13 @@ process are analyzed against the policy for compliance.
 
 For example, a company may have multiple policies:
 
-1. A **Default Policy** that applies to any customization or process without a specific policy. This
+1. **Default Policy** that applies to any customization or process without a specific policy. This
    generally requires that scripted changes go through a relatively high level of review compared to
    non-scripted changes.
-2. A **Controls Policy** that specifically applies to key reports and controls listed on the policy
+2. **Controls Policy** that specifically applies to key reports and controls listed on the policy
    that need very specific approval to modify and ensures there are no changes without a proper
    audit review.
-3. A **Custom Object Policy** to manage Custom fields and object.
+3. **Custom Object Policy** to manage Custom fields and object.
 
 Once in place, policies remind users of the level of change management required as well as monitors
 the changes that do occur and raises alerts to IT by custom reports if there are any change

@@ -43,6 +43,7 @@ You can schedule the scanners to auto-scan your environment:
 
     ![getting_started_wizard6](/img/product_docs/platgovsalesforce/installing_strongpoint/getting_started_wizard6.webp)
 
+:::note
     Netwrix recommends you schedule at least the following items:
 
     - **Automated Scan**: Daily
@@ -50,6 +51,7 @@ You can schedule the scanners to auto-scan your environment:
     - **Standard Fields Scan**: Weekly
     - **PermissionSet Assignment**: Weekly (Production orgs)
     - **Subscriber Users Scan**: Weekly (Production orgs)
+:::
 
 3. Click **Next**.
 

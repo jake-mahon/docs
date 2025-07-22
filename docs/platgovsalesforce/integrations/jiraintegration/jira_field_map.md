@@ -45,9 +45,11 @@ If your fields are not in the list, use the **New** button to add them.
 
 For this example, the **Strongpoint Version** and **SF Version Number** fields have been added.
 
-**NOTE:** You need the Salesforce API names when you create the mapping record. For this example,
-**Strongpoint Version** is **Strongpoint_Version**c** and **SF Version Number** is
-**Salesforce_Version_Number**c**.
+:::note
+You need the Salesforce API names when you create the mapping record. For this example,
+**Strongpoint Version** is **Strongpoint_Version__c** and **SF Version Number** is
+**Salesforce_Version_Number__c**.
+:::
 
 ![Verify fields exist](/img/product_docs/platgovsalesforce/integrations/field_map_verify_fields.webp)
 
@@ -78,9 +80,11 @@ In Jira, update the details for the fields. This example sets the **Strongpoint 
 
 ### Access Mapping Configuration
 
-**NOTE:** Make sure your custom fields have values before you start the mapping. The Jira API names
-are in the format _customfield_#####\_. You need to know the value to locate the Jira API name in
+:::note
+Make sure your custom fields have values before you start the mapping. The Jira API names
+are in the format _customfield\_#####_. You need to know the value to locate the Jira API name in
 the list.
+:::
 
 Open the Field Mapping tool:
 
@@ -117,7 +121,7 @@ The Jira API names are required to create the mapping record.
    details. **customfield_10052** is used in this example.
 6. Enter the **CR SF Field APIName**. This is the Salesforce API name obtained from **Salesforce
    Setup** > **Object Manager** > **Change Request** > **Fields & Relationships**. Refer to the
-   Verify Field Creation section for details. **Strongpoint_Version**c\_\_ is used in this example.
+   Verify Field Creation section for details. **Strongpoint_Version__c** is used in this example.
 7. Click **Save** or **Save & New** if you have additional mappings.
 
 The mapping is now complete. In the next update, the information is populated in the fields and

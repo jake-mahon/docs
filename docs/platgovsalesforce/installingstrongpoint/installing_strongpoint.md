@@ -15,25 +15,29 @@ customer success team. To install:
 3. Click **Install**
    ![install1](/img/product_docs/platgovsalesforce/installing_strongpoint/install1.webp)
 
+:::note
 The installation runs in the background. An email notification is sent to you when the installation
 is complete.
+:::
 
 ## Configure Platform Governance for Salesforce
 
-The following items are needed:
+**Requirements**
 
 - Create a **Connected App** to generate and extract the Salesforce **Consumer Key** and the
   Salesforce **Consumer Secret Key**
 - Your Salesforce **username**, **password** and **authentication token**
+
+**Installation**
 
 1. Open Salesforce **Setup** > **Apps** > **App Manager**
 2. Click **New Connected App**
 3. Select **Create a Connected App** and click **Continue**
 4. Under **Basic Information** enter the required fields:
 
-- **Connected App Name**: **Netwrix Platform Governance**
-- **API Name**: **Netwrix_Platform_Governance**
-- **Contact E-mail**
+    - **Connected App Name**: **Netwrix Platform Governance**
+    - **API Name**: **Netwrix_Platform_Governance**
+    - **Contact E-mail**
 
 5. Click **API (Enable OAuth Settings)** to expand the section.
 6. Set **Call Back URL** to **[https://localhost.com](https://localhost.com)**
@@ -55,4 +59,4 @@ The following items are needed:
 13. Locate and select **Netwrix Lightning**.
 14. Click **I Accept** for the EULA.
 
-**Next Step:** [Using the Getting Started Wizard](/docs/platgovsalesforce/installingstrongpoint/using_getting_started_wizard.md)
+**Next Step:** [Run the Getting Started Wizard](/docs/platgovsalesforce/installingstrongpoint/using_getting_started_wizard.md)

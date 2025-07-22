@@ -53,7 +53,7 @@ Error message:
 
 error=invalid_client_id&error_description=client%20identifier%20invalid
 
-Refer to [Access Data with API Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration#access-data-with-apiintegration) for
+Refer to [Access Data with API Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration.md) for
 more information on setting up the connected app.
 
 ## Error with Consumer Secret

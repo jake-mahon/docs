@@ -14,20 +14,20 @@ link to the [Export Object Attachment](/docs/platgovsalesforce/tools/export_obje
 download your file. You can also use the **Download Files** link on this page or on the Netwrix
 Dashboard to download your file.
 
+You can export **Permissions by Object** or **Object Permissions by Profile/PermSet**.
+
+:::note
 Platform Governance for Salesforce stores Object-level permissions in a Custom Object. There are two
 reports (**Netwrix Dashboard** > **Reports** > **Access Reports**) for easy access to this
 information:
-
-> **Permissions by Object**
->
-> **Object Permissions by Profile/PermSet**
+:::
 
 Open **Netwrix Dashboard** > **Tools** > **Export Objects**  
 **Objects** is the default tab.
 
 ![export_object](/img/product_docs/platgovsalesforce/tools/export_object.webp)
 
-Objects
+**Objects**
 
 Enter all or part of a name in **Filter** to filter the list of objects.
 
@@ -36,13 +36,13 @@ within the selected option to remove it. You can use the **Select All** and **Cl
 
 ![Select the objects](/img/product_docs/platgovsalesforce/tools/export_object_filter.webp)
 
-Settings to be Exported
+**Settings to be Exported**
 
 Click the toggles to activate or inactivate the settings you want to export.
 
 ![export_object_settings](/img/product_docs/platgovsalesforce/tools/export_object_settings.webp)
 
-Profiles: Object and Field Level Security (Optional)
+**Profiles: Object and Field Level Security (Optional)**
 
 Enter all or part of a name in **Filter** to filter the list of profiles.
 
@@ -52,7 +52,7 @@ options.
 
 ![export_object_profiles](/img/product_docs/platgovsalesforce/tools/export_object_profiles.webp)
 
-Permission Sets: Object and Field Level Security (Optional)
+**Permission Sets: Object and Field Level Security (Optional)**
 
 Enter all or part of a name in **Filter** to filter the list of permission sets.
 
@@ -62,12 +62,12 @@ options.
 
 ![export_object_permissions](/img/product_docs/platgovsalesforce/tools/export_object_permissions.webp)
 
-Download XLS
+**Download XLS**
 
 Click **Download XLS** to export your selections. An email is sent with a link to the file
 _Object_Export.xls_.
 
-Download Files
+**Download Files**
 
 Click **Download Files** to see a list of generated files. The file does not appear in the list
 until it is complete.

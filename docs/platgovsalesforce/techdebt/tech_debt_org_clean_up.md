@@ -27,11 +27,9 @@ license.
 
 These items can help you identify Customizations for Clean Up:
 
-> Date Last Used
->
-> Automated Report Clean Up
->
-> Employees Related to a Customization
+- Date Last Used
+- Automated Report Clean Up
+- Employees Related to a Customization
 
 ## Date Last Used
 
@@ -83,13 +81,13 @@ process is simple:
     - Private Reports
     - Date Last Used
 
-4.  - Excludes Reports covered by a special policy or with any downstream dependencies to ensure you
-      do not delete something important.
+4. Excludes Reports covered by a special policy or with any downstream dependencies to ensure you do not delete something important.
+
     - Emails Report owners (if desired) that the Report is being archived. The owner can retain the
       Report with a simple mouse click. The Date Last Used is updated to the current date.
     - Deletes the Reports that were not retained, but keeps the Report definition.
 
-    When you run the Clean Up, Archived Reports can be easily be restored if needed.
+   When you run the Clean Up, Archived Reports can be easily be restored if needed.
 
 5. Schedule your rules to run on a regular basis to keep your orgs cleaned up and efficient.
 
@@ -136,11 +134,8 @@ examples.
 The current owner of each Customization is tracked. By default, it is the person who created it. In
 cases such as Reports, this is useful to understand who needs to approve a change to a report.
 
-> **TIP**
->
-> You can use the **Change Owner** button on any Customization List View. For an individual
-> Customization, edit the Owner field on the Customization Record. Best practice if you have a staff
-> change, is to update the Process record, which then updates the owner for all the affected
-> Customizations.
+:::tip
+You can use the **Change Owner** button on any Customization List View. For an individual Customization, edit the Owner field on the Customization Record. Best practice if you have a staff change, is to update the Process record, which then updates the owner for all the affected Customizations.
+:::
 
 **Next Technical Debt Topic:**[ Org Clean Up Example](/docs/platgovsalesforce/techdebt/tech_debt_org_clean_up_example.md)

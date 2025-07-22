@@ -36,9 +36,10 @@ The walkthrough demonstrates these steps:
     - **Description** (optional)
 
 5. Click **Create**.
-6. Alerts and notifications may occur during this walkthrough, and are not included in these steps.
-   For example, override alert, notifications for approvers, and notification for the change
-   request.
+
+:::note
+Alerts and notifications may occur during this walkthrough, and are not included in these steps. For example, override alert, notifications for approvers, and notification for the change request.
+:::
 
 ## Connect to the App
 
@@ -53,7 +54,7 @@ The walkthrough demonstrates these steps:
 ### Connected App
 
 Use the **Connected App** tab if you set up the connected app using the procedure:
-[Access Data with API Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration#access-data-with-apiintegration)
+[Access Data with API Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration.md)
 
 1. Open the **Connected App** tab.
 
@@ -96,7 +97,9 @@ If you do not have your security token, you can use these steps to reset your to
 6. Click **Connect**. If the connection is successful, the form is displayed (see Add Customizations
    section). The **Synchronized with** status displays the org you are logged into for Salesforce.
 
+:::note
 You cannot login if you do not have the **appropriate role permissions to create a change request**.
+:::
 
 If you do not enter the correct credentials, an error is displayed. After six unsuccessful
 consecutive attempts to login, your account is suspended for 30 minutes.

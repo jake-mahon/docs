@@ -20,19 +20,15 @@ The **License Type** displays your current license.
 
 The report is divided into multiple tabs:
 
-> Scanner Status
->
-> > Documentation Stats
-> >
-> > Scanner Logs
-> >
-> > Scanner Additional Information
-> >
-> > Change Log Creation (sandbox option)
->
-> Jira Configuration
->
-> Orgs Credentials
+- Scanner Status
+    - Documentation Stats
+    - Scanner Logs
+    - Scanner Additional Information
+    - Change Log Creation (sandbox option)
+- Jira Configuration
+    - Credentials
+    - Status Mapping
+- Orgs Credentials
 
 ## Scanner Status
 
