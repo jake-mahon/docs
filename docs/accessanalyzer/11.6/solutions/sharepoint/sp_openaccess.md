@@ -41,9 +41,9 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Determine Access to Resources – Creates the SA_SP_OpenAccess_AccessDetails table accessible
+-   **1. Determine Access to Resources** – Creates the SA_SP_OpenAccess_AccessDetails table accessible
        under the job’s Results node
--   2. Summarize by Site Collection – Creates the SA_SP_OpenAccess_SiteCollectionSummary table
+-   **2. Summarize by Site Collection** – Creates the SA_SP_OpenAccess_SiteCollectionSummary table
        accessible under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display resources with open access,

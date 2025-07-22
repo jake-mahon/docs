@@ -25,11 +25,11 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Direct Permissions. Shows all Direct User Permissions – Creates the
+-   **1. Direct Permissions. Shows all Direct User Permissions** – Creates the
        SA_SP_StaleUsers_DirectPermissions table accessible under the job’s Results node
--   2. Rank Resources by Number of Stale Users – Creates the SA_SP_StaleUsers_ResourcePermCounts
+-   **2. Rank Resources by Number of Stale Users** – Creates the SA_SP_StaleUsers_ResourcePermCounts
        table accessible under the job’s Results node
--   3. Rank Domain Users by Number of Direct Assignments – Creates the
+-   **3. Rank Domain Users by Number of Direct Assignments** – Creates the
        SA_SP_StaleUsers_UserPermCount table accessible under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display direct permissions for stale

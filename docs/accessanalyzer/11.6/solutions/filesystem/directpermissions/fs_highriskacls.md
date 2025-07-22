@@ -24,11 +24,11 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. High Risk ACL Details – Creates the SA_FS_HighRiskACLs_Details table accessible under the
+-   **1. High Risk ACL Details** – Creates the SA_FS_HighRiskACLs_Details table accessible under the
        job’s Results node
--   2. High Risk Permissions Matrix – Creates an interim processing table in the database for use by
+-   **2. High Risk Permissions Matrix** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   3. Open Manage Rights – Creates an interim processing table in the database for use by
+-   **3. Open Manage Rights** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
 
 In addition to the tables and views created by the analysis task, the FS_HighRiskACLs job produces

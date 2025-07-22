@@ -24,7 +24,7 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Create History Table – Creates the SA_EX_MailboxLogons_Details table, accessible under the
+-   **1. Create History Table** – Creates the SA_EX_MailboxLogons_Details table, accessible under the
        job’s Results node
 - 02.Hourly Activity – Creates the SA_EX_MailboxLogons_HourlyActivity table, accessible under the
   job’s Results node

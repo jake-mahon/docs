@@ -24,22 +24,22 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   0. Create Permission Change Events Table – Creates an interim processing table in the database
+-   **0. Create Permission Change Events Table** – Creates an interim processing table in the database
        for use by downstream analysis and report generation
--   1. Create Permission Changes Table and View – Creates the SA_ENG_PermissionChangesView view
+-   **1. Create Permission Changes Table and View** – Creates the SA_ENG_PermissionChangesView view
        accessible under the job’s Results node
--   2. Last 30 Days – Creates the SA_FS_PermissionChanges_Last30Days table accessible under the
+-   **2. Last 30 Days** – Creates the SA_FS_PermissionChanges_Last30Days table accessible under the
        job’s Results node
--   3. Trend – Creates the SA_FS_PermissionChanges_TrendOverTime table accessible under the job’s
+-   **3. Trend** – Creates the SA_FS_PermissionChanges_TrendOverTime table accessible under the job’s
        Results node
--   4. Create view to notify on - By user, per share, for the past 24 hours – Creates the
+-   **4. Create view to notify on - By user, per share, for the past 24 hours** – Creates the
        SA_FS_PermissionChanges_Notification_NOTIFICATION table accessible under the job’s Results
        node
--   6. Raw Details – Creates the SA_FS_PermissionChanges_Details view accessible under the job’s
+-   **6. Raw Details** – Creates the SA_FS_PermissionChanges_Details view accessible under the job’s
        Results node
--   7. High risk permission changes – Creates the SA_FS_PermissionChanges_HighRisk table accessible
+-   **7. High risk permission changes** – Creates the SA_FS_PermissionChanges_HighRisk table accessible
        under the job’s Results node
--   8. High risk permission changes summary – Creates the SA_FS_PermissionChanges_HighRiskSummary
+-   **8. High risk permission changes summary** – Creates the SA_FS_PermissionChanges_HighRiskSummary
        table accessible under the job’s Results node
 
 The Notification analysis task is an optional analysis task which requires configuration before

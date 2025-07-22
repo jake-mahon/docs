@@ -30,22 +30,22 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Join Activity Data to Share – Creates the SA_FS_LeastPrivilegedAccess_ActivityByShare table
+-   **1. Join Activity Data to Share** – Creates the SA_FS_LeastPrivilegedAccess_ActivityByShare table
        accessible under the job’s Results node
--   2. Get Effective Share Access for all Shares with Activity – Creates the
+-   **2. Get Effective Share Access for all Shares with Activity** – Creates the
        SA_FS_LeastPrivilegedAccess_EffectiveShareAccess table accessible under the job’s Results
        node
--   3. Compare Users activity to access – Creates the SA_FS_LeastPrivilegedAccess_Comparision table
+-   **3. Compare Users activity to access** – Creates the SA_FS_LeastPrivilegedAccess_Comparision table
        accessible under the job’s Results node
--   4. Summarize Comparison by Share – Creates an interim processing table in the database for use
+-   **4. Summarize Comparison by Share** – Creates an interim processing table in the database for use
        by downstream analysis and report generation
--   5. Rollup by Share - Pie Chart – Creates an interim processing table in the database for use by
+-   **5. Rollup by Share - Pie Chart** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   6. Summarize Entitlement Usage - Enterprise Wide – Creates interim processing tables in the
+-   **6. Summarize Entitlement Usage - Enterprise Wide** – Creates interim processing tables in the
        database for use by downstream analysis and report generation
--   7. Recommend Changes to Group ACLs – Creates the SA_FS_LeastPrivilegedAccess_RecommendedChanges
+-   **7. Recommend Changes to Group ACLs** – Creates the SA_FS_LeastPrivilegedAccess_RecommendedChanges
        table accessible under the job’s Results node
--   8. Resource Based Groups – Creates the SA_FS_LeastPrivilegedAccess_ResourceGroups table
+-   **8. Resource Based Groups** – Creates the SA_FS_LeastPrivilegedAccess_ResourceGroups table
        accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_LeastPrivilegedAccess job

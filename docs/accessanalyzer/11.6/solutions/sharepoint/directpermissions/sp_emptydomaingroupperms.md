@@ -26,9 +26,9 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Find Empty Group Permission – Creates the SA_SP_EmptyDomainGroupPerms_DirectPermissions table
+-   **1. Find Empty Group Permission** – Creates the SA_SP_EmptyDomainGroupPerms_DirectPermissions table
        accessible under the job’s Results node
--   2. Find Affected Resource Count per Group – Creates the
+-   **2. Find Affected Resource Count per Group** – Creates the
        SA_SP_EmptyDomainGroupPerms_ResourceCount table accessible under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display direct permissions and

@@ -25,14 +25,14 @@ preconfigured for this job.
 
 They need to remain in the default order:
 
--   1. Site Collection Direct Permissions
+-   **1. Site Collection Direct Permissions**
 
     - Creates the SA_SP_SiteCollectionPerms_DirectPerms table accessible under the job’s Results
       node
     - Creates an interim processing table in the database for use by downstream analysis and report
       generation
 
--   2. Site Collection Details – Creates the SA_SP_SiteCollectionPerms_Details table accessible
+-   **2. Site Collection Details** – Creates the SA_SP_SiteCollectionPerms_Details table accessible
        under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display direct permissions at the root

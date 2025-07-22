@@ -25,11 +25,11 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Find Effective Access. Returns Only Site Collections – Creates the SA_SP_TrusteeAudit_Results
+-   **1. Find Effective Access. Returns Only Site Collections** – Creates the SA_SP_TrusteeAudit_Results
        table accessible under the job’s Results node
--   2. Find Direct Permissions. Unscoped - All Resource Types – Creates the
+-   **2. Find Direct Permissions. Unscoped - All Resource Types** – Creates the
        SA_SP_TrusteeAudit_DirectPermissions table accessible under the job’s Results node
--   3. Summarize Access – Creates an interim processing table in the database for use by downstream
+-   **3. Summarize Access** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
 
 In addition to the tables created by the analysis tasks which display effective access for the

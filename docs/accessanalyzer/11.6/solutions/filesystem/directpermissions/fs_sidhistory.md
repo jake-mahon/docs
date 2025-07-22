@@ -24,14 +24,14 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Find ACEs Through SID History
+-   **1. Find ACEs Through SID History**
 
     - Creates the SA_FS_SIDHistory_Details table accessible under the job’s Results node
     - Creates the SA_FS_SIDHistory_TrusteeDetails table accessible under the job’s Results node
 
--   2. Host Rollups – Creates the SA_FS_SIDHistory_HostSummary table accessible under the job’s
+-   **2. Host Rollups** – Creates the SA_FS_SIDHistory_HostSummary table accessible under the job’s
        Results node
--   3. Expose SID Details View – Makes the SA_FS_SIDHistory_TrusteeDetails table visible under the
+-   **3. Expose SID Details View** – Makes the SA_FS_SIDHistory_TrusteeDetails table visible under the
        job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_SIDHistory job produces

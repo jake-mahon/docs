@@ -44,9 +44,9 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Group Policy Analysis – Creates an interim processing table in the database for use by
+-   **1. Group Policy Analysis** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   2. Combined User and Computer Settings – Creates the SA_AD_GroupPolicy_SettingList table
+-   **2. Combined User and Computer Settings** – Creates the SA_AD_GroupPolicy_SettingList table
        accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the AD_GroupPolicy Job produces

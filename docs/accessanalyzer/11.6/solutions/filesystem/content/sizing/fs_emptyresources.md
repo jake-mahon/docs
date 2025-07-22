@@ -23,13 +23,13 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Folder Size View – Creates the SA_ENG_FSAA_FolderSizeView view accessible under the job’s
+-   **1. Folder Size View** – Creates the SA_ENG_FSAA_FolderSizeView view accessible under the job’s
        Results node
--   2. Empty Folders – Creates the SA_FS_EmptyResources_EmptyFolders table accessible under the
+-   **2. Empty Folders** – Creates the SA_FS_EmptyResources_EmptyFolders table accessible under the
        job’s Results node
--   3. Empty Shares – Creates the SA_FS_EmptyResources_EmptyShares table accessible under the job’s
+-   **3. Empty Shares** – Creates the SA_FS_EmptyResources_EmptyShares table accessible under the job’s
        Results node
--   4. Summarize by Host – Creates the SA_FS_EmptyResources_HostSummary table accessible under the
+-   **4. Summarize by Host** – Creates the SA_FS_EmptyResources_HostSummary table accessible under the
        job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_EmptyResources job

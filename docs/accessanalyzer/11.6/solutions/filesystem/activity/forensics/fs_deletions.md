@@ -24,21 +24,21 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Create deletions view – Creates the SA_FSAC_DeletesView view accessible under the job’s
+-   **1. Create deletions view** – Creates the SA_FSAC_DeletesView view accessible under the job’s
        Results node
--   2. Last 30 Days – Creates the SA_FS_Deletions_Last30Days table accessible under the job’s
+-   **2. Last 30 Days** – Creates the SA_FS_Deletions_Last30Days table accessible under the job’s
        Results node
--   3. Trend – Creates the SA_FS_Deletions_TrendOverTime table accessible under the job’s Results
+-   **3. Trend** – Creates the SA_FS_Deletions_TrendOverTime table accessible under the job’s Results
        node
--   4. Create view to alert - Past 24 hours – Creates the SA_FS_Deletions_Notification_NOTIFICATION
+-   **4. Create view to alert - Past 24 hours** – Creates the SA_FS_Deletions_Notification_NOTIFICATION
        table accessible under the job’s Results node
--   6. Raw Details – Creates the SA_FS_Deletions_Details view accessible under the job’s Results
+-   **6. Raw Details** – Creates the SA_FS_Deletions_Details view accessible under the job’s Results
        node
 
 The Notification analysis task is an optional analysis task which requires configuration before
 enabling it. The following analysis task is deselected by default:
 
--   5. Notify on large number of deletes – Alerts when large number of deletions have occurred
+-   **5. Notify on large number of deletes** – Alerts when large number of deletions have occurred
 
     - Add recipients, notification subject, and email content
     - See the [Configure the Notification Analysis Task](#configure-the-notification-analysis-task)

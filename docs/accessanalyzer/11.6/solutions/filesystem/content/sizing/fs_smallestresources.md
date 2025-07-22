@@ -24,9 +24,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Smallest Folders Ranked – Creates the SA_FS_SmallestResources_Ranked table accessible under
+-   **1. Smallest Folders Ranked** – Creates the SA_FS_SmallestResources_Ranked table accessible under
        the job’s Results node
--   2. Smallest Shares – Creates the SA_FS_SmallestResources_SharesRanked table accessible under the
+-   **2. Smallest Shares** – Creates the SA_FS_SmallestResources_SharesRanked table accessible under the
        job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_SmallestResources job

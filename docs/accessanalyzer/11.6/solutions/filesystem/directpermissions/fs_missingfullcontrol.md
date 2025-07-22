@@ -24,9 +24,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Determine folders which are missing full control – Creates an interim processing table in the
+-   **1. Determine folders which are missing full control** – Creates an interim processing table in the
        database for use by downstream analysis and report generation
--   2. Summarize folders which are missing full control – Creates an interim processing table in the
+-   **2. Summarize folders which are missing full control** – Creates an interim processing table in the
        database for use by downstream analysis and report generation
 
 In addition to the tables and views created by the analysis task, the FS_MissingFullControl job

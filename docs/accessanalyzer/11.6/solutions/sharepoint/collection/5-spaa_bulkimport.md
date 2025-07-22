@@ -73,11 +73,11 @@ selected analysis tasks.
 
 The default analysis tasks are:
 
--   0. TryConvert for UniqueIdentifiers – Simulates Try_Convert functionality for SQL Server 2008
+-   **0. TryConvert for UniqueIdentifiers** – Simulates Try_Convert functionality for SQL Server 2008
        and below
--   1. Update data types – Enterprise Auditor uses custom SQL data types to render data. This
+-   **1. Update data types** – Enterprise Auditor uses custom SQL data types to render data. This
        analysis creates updates to those data types.
--   2. Import new functions (for SA Core) – Creates functions used in the SharePoint Solution
--   3. Import new functions (for SA SPAA) – Creates functions used in the SharePoint Solution
--   4. Create exception schema – Creates the SA_SPAA_Exceptions table
--   5. Create views – Creates views visible through the Results node
+-   **2. Import new functions (for SA Core)** – Creates functions used in the SharePoint Solution
+-   **3. Import new functions (for SA SPAA)** – Creates functions used in the SharePoint Solution
+-   **4. Create exception schema** – Creates the SA_SPAA_Exceptions table
+-   **5. Create views** – Creates views visible through the Results node

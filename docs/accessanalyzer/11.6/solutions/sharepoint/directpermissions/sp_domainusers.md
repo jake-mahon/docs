@@ -24,11 +24,11 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Direct Permissions. Shows All Direct User Permissions – Creates the
+-   **1. Direct Permissions. Shows All Direct User Permissions** – Creates the
        SA_SP_DomainUsers_DirectPermissions table accessible under the job’s Results node
--   2. Rank Resources by Number of Directly Applied Users – Creates an interim processing table in
+-   **2. Rank Resources by Number of Directly Applied Users** – Creates an interim processing table in
        the database for use by downstream analysis and report generation
--   3. Rank Domain Users by Number of Direct Assignments – Creates an interim processing table in
+-   **3. Rank Domain Users by Number of Direct Assignments** – Creates an interim processing table in
        the database for use by downstream analysis and report generation
 
 In addition to the table created by the analysis task which displays all direct user permissions,

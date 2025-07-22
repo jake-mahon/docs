@@ -24,13 +24,13 @@ preconfigured for this job.
 
 They need to remain in the default order:
 
--   1. Create Function – Creates an interim processing table in the database for use by downstream
+-   **1. Create Function** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
--   2. Find Unresolved SID ACLs – Creates the SA_SP_UnresolvedSIDs_DirectPermissions table
+-   **2. Find Unresolved SID ACLs** – Creates the SA_SP_UnresolvedSIDs_DirectPermissions table
        accessible under the job’s Results node
--   3. Find Affected Resource Count per SID – Creates the SA_SP_UnresolvedSIDs_ResourceCount table
+-   **3. Find Affected Resource Count per SID** – Creates the SA_SP_UnresolvedSIDs_ResourceCount table
        accessible under the job’s Results node
--   4. Rank Resources by SID Count – Creates the SA_SP_UnresolvedSIDs_DirectPermissions table
+-   **4. Rank Resources by SID Count** – Creates the SA_SP_UnresolvedSIDs_DirectPermissions table
        accessible under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display direct permissions for
