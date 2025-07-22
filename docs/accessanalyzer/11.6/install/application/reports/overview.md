@@ -80,10 +80,8 @@ Follow the steps to login to the Web Console.
 - From the Enterprise Auditor Console server – Click the Published Reports desktop icon
   (`http://localhost:8082`)
 - For remote access – Enter one of the following URLs into a web browser:
-
-**http://[machinename]:8082**
-
-    https://[machinename]:8082
+  - `http://[machinename]:8082`
+  - `https://[machinename]:8082`
 
 :::note
 The URL that is used may need to be added to the browser’s list of trusted sites.

@@ -43,7 +43,7 @@ files, and reports remain in the installation directory after the uninstall proc
   folder of the installation directory. Any custom application settings contained in this file are
   kept as part of this upgrade process.
 
-![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/upgrade/welcome.webp)
+![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/welcome.webp)
 
 **Step 2 –** Install Enterprise Auditor 11.6. See the
 [Enterprise Auditor Core Installation](/docs/accessanalyzer/11.6/install/application/wizard.md)
