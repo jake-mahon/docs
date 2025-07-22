@@ -11,7 +11,7 @@ Follow the steps to create a Host Discovery query using the Query an Active Dire
 all computer objects. The query can be scoped to only return computer objects in specified
 containers or individual computer objects. See Step 3 for additional information.
 
-![Host Discovery Wizard Source page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/source.webp)
+![Host Discovery Wizard Source page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/source_4.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Query an Active
 Directory server (General)** option. Click **Next**.
@@ -96,7 +96,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/inventory.webp)
+![Host Discovery Wizard Inventory page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/inventory_4.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.

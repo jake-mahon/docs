@@ -35,7 +35,7 @@ action task).
 Navigate to the **Jobs** > **AD_PasswordExpirationNotification** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-![Default Analysis Tasks for the Job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis Tasks for the Job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/analysistasks_2.webp)
 
 The default analysis tasks are:
 
@@ -69,7 +69,7 @@ This action is enabled by default.
 :::
 
 
-![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/actiontasks.webp)
+![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/actiontasks_1.webp)
 
 The default actions are:
 

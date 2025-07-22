@@ -29,13 +29,13 @@ Applying these analysis tasks will result in the deletion of collected data.
 
 The default analysis tasks are:
 
--   1. Drop SPAA functions – Removes all functions and views from previous runs of the SharePoint
+-   **1. Drop SPAA functions** – Removes all functions and views from previous runs of the SharePoint
        Solution
--   2. Drop SPAC imports – Drops the SharePoint Activity Auditing tables imported from the previous
+-   **2. Drop SPAC imports** – Drops the SharePoint Activity Auditing tables imported from the previous
        runs
--   3. Drop SPDLP Tables – Drops the SharePoint Sensitive Data Discovery Auditing (SEEK) tables
+-   **3. Drop SPDLP Tables** – Drops the SharePoint Sensitive Data Discovery Auditing (SEEK) tables
        imported from the previous runs
--   4. Drop SPAA Tables – Drops the SharePoint Access Auditing tables imported from the previous
+-   **4. Drop SPAA Tables** – Drops the SharePoint Access Auditing tables imported from the previous
        runs
 
 Do not try to run these tasks separately, as they are designed to work together. Follow these steps

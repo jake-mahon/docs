@@ -54,17 +54,37 @@ When the checklist items do not resolve the issue, contact support with as much 
 information as possible from the table below. It is possible that a hot fix may already exist for
 the product.
 
-|                                                                                                                                                                                                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| What is the version of the Enterprise Auditor application? Within the Console, navigate to Help > About. The Version number is the build number                                                                                                   |
-| What is the version of the Solution Set (if applicable)? Within the File System go to %sainstalldir%DC > Find Data Collector DLL > Right-click and go to Properties > Details > File Version                                                      |
-| What is the version of the Data Collector that has the issue? Within the File System go to %sainstalldir%DC > Find Data Collector DLL > Right-click and go to Properties > Details > File Version                                                 |
-| What is the version of Analysis Module that has the issue? Within the File System go to %sainstalldir%PrivateAssemblies > Find Analysis Module DLL > Right-click and go to Properties > Details > File Version                                    |
-| What is the version of Action Module that has the issue? Within the File System go to %sainstalldir%Actions > Find Action Module DLL > Right-click and go to Properties > Details > File Version                                                  |
-| What is the Operating System and Version of the Enterprise Auditor Console server? For example: Windows Server 2012 R2 Standard, Server 2016 R2                                                                                                   |
-| What is the Operating System and Version of the Target Host? For example: Windows Server 2012 R2 Standard, Server 2016 R2                                                                                                                         |
-| What is the Application Version (if applicable) i.e. Exchange, SharePoint, etc                                                                                                                                                                    |
-| Did it ever work? Has anything changed? For example” OS Updates, Console Updates, Permission Changes, etc.                                                                                                                                        |
-| Use the Export function within Enterprise Auditor to send the job or job group, which includes the Job log and SA_Debug log to the support engineer working the case See the Export Job to Zip Archive Window section for additional instruction. |
-| Are there any errors in the Messages Table? Jobs > [Solution] > [Job Group and/or Job] > Status > Messages table                                                                                                                                  |
-| Are there any messages in the ConnectStatus Table? Jobs > [Solution] > [Job Group and/or Job] > Status > ConnectStatus table                                                                                                                      |
+**What is the version of the Access Analyzer application?**   
+Within the Console, navigate to Help > About. The Version number is the build number
+ 
+**What is the version of the Solution Set (if applicable)?**  
+Within the File System go to %sainstalldir%DC > Find Data Collector DLL > Right-click and go to Properties > Details > File Version 
+
+**What is the version of the Data Collector that has the issue**  
+Within the File System go to %sainstalldir%DC > Find Data Collector DLL > Right-click and go to Properties > Details > File Version
+
+**What is the version of Analysis Module that has the issue?**  
+Within the File System go to %sainstalldir%PrivateAssemblies > Find Analysis Module DLL > Right-click and go to Properties > Details > File Version
+
+**What is the version of Action Module that has the issue?**  
+Within the File System go to %sainstalldir%Actions > Find Action Module DLL > Right-click and go to Properties > Details > File Version
+
+**What is the Operating System and Version of the Access Analyzer Console server?**  
+For example: Windows Server 2012 R2 Standard, Server 2016 R2 
+
+**What is the Operating System and Version of the Target Host?**   
+For example: Windows Server 2012 R2 Standard, Server 2016 R2 
+
+**What is the Application Version (if applicable) i.e. Exchange, SharePoint, etc**  
+
+**Did it ever work? Has anything changed?**  
+For example” OS Updates, Console Updates, Permission Changes, etc.  
+
+**Use the Export function within Access Analyzer to send the job or job group, which includes the Job log and SA_Debug log to the support engineer working the case**  
+See the Export Job to Zip Archive Window section for additional instruction.
+
+**Are there any errors in the Messages Table?**  
+Jobs > [Solution] > [Job Group and/or Job] > Status > Messages table
+
+**Are there any messages in the ConnectStatus Table?**  
+Jobs > [Solution] > [Job Group and/or Job] > Status > ConnectStatus table 

@@ -35,26 +35,26 @@ action task).
 Navigate to the **Jobs** > **AD_PasswordExpirationNotification** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-![Default Analysis Tasks for the Job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis Tasks for the Job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_2.webp)
 
 The default analysis tasks are:
 
--   1. User Password Information – Creates the PasswordExpirationNotification_Details table
+-   **1. User Password Information** – Creates the PasswordExpirationNotification_Details table
        accessible under the job’s Results node
     - Contains a configurable parameter for the number of days until a password expires to be
       identified
     - See the
       [Customizable Analysis Tasks for the AD_PasswordExpirationNotification Job](#customizable-analysis-tasks-for-the-ad_passwordexpirationnotification-job)
       topic for additional information.
--   2. Domain Summary – Creates an interim processing table in the database for use by downstream
+-   **2. Domain Summary** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
--   3. Passwords Set to Expire Within 15 Days – Creates the
+-   **3. Passwords Set to Expire Within 15 Days** – Creates the
        PasswordExpirationNotification_ExpiresWithin15Days table accessible under the job’s Results
        node
--   4. Notification Data Table – Creates the
+-   **4. Notification Data Table** – Creates the
        PasswordExpirationNotification_ExpiresWithin15Days_UserNotifications table accessible under
        the job’s Results node
--   5. Help Desk Notification – Sends notification of users with passwords set to expire in X days
+-   **5. Help Desk Notification** – Sends notification of users with passwords set to expire in X days
     - See the
       [Notification Analysis Task in the AD_PasswordExpirationNotification Job](#notification-analysis-task-in-the-ad_passwordexpirationnotification-job)
       topic for additional information.
@@ -69,11 +69,11 @@ This action is enabled by default.
 :::
 
 
-![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/actiontasks.webp)
+![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/actiontasks_1.webp)
 
 The default actions are:
 
--   1. User Notification – Uses the SendMail Action Module to send notifications to users on
+-   **1. User Notification** – Uses the SendMail Action Module to send notifications to users on
        password expiration
     - Requires the Notification Actions license feature
     - See the
@@ -137,19 +137,17 @@ listed in the PasswordExpirationNotification_ExpiresWithin15Days table. The anal
 default. Therefore, when the job is executed the following message is sent to the specified
 recipient, such as the organization’s help desk, with information from the associated table:
 
-_Subject:_ Users with Passwords About To Expire
-
-**Support Team,**
-
-Heads-up.  The following users are facing password expiration in seven days or less:
-
-**[[ -- Password for [User] ([NTAccount]) expires in [DaysUntilExpiration] days**
-
-**]**
-
-Thank you,
-
-**Netwrix**
+> _Subject:_ Users with Passwords About To Expire
+>
+> Support Team,
+>
+> Heads-up.  The following users are facing password expiration in seven days or less:
+>
+> [ -- Password for [User] ([NTAccount]) expires in [DaysUntilExpiration] days]
+>
+> Thank you,
+>
+> Netwrix
 
 :::warning
 Do not modify the tags, highlighted in bold text above.
@@ -210,17 +208,17 @@ PasswordExpirationNotification_ExpiresWithin15Days_UserNotifications table. The 
 default. Therefore, when the job is executed the following message is sent to all users in the
 associated table:
 
-_Subject:_ Attention **[User]** - Your Password Expires in **[DaysUntilExpiration]** Days
-
-Hello **[User]**,
-
-The password for the account **[NTAccount]** expires on **[ExpirationDate]**. Please change the
-password prior to the expiration date.  If account profiles are used on mobile devices, please
-remember to update the password on each device used.
-
-**Thank you,**
-
-Netwrix
+> _Subject:_ Attention **[User]** - Your Password Expires in **[DaysUntilExpiration]** Days
+>
+> Hello **[User]**,
+>
+> The password for the account **[NTAccount]** expires on **[ExpirationDate]**. Please change the
+>password prior to the expiration date.  If account profiles are used on mobile devices, please
+>remember to update the password on each device used.
+>
+> Thank you,
+>
+> Netwrix
 
 :::warning
 Do not change the recipient for the action task. While the tags can be moved, do not

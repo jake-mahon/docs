@@ -44,7 +44,7 @@ preconfigured for this job.
 :::
 
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/analysistasks_3.webp)
 
 The default analysis tasks are:
 

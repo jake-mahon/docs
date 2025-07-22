@@ -255,14 +255,14 @@ Applying these analysis tasks result in the deletion of collected data.
 
 ![FS_DropTables Job Analysis Selection page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/droptablesanalysistasks.webp)
 
--   1. Drop FSAA functions – Removes all functions and views from previous runs of the File System
+-   **1. Drop FSAA functions** – Removes all functions and views from previous runs of the File System
        Solution
--   2. Drop FSAC tables – Drops the File System Activity Auditing tables imported from the previous
+-   **2. Drop FSAC tables** – Drops the File System Activity Auditing tables imported from the previous
        runs
--   3. Drop FSDLP Tables – Drops the File System Sensitive Data Discovery Auditing tables imported
+-   **3. Drop FSDLP Tables** – Drops the File System Sensitive Data Discovery Auditing tables imported
        from the previous runs
--   4. Drop FSDFS Tables – Drops the File System DFS Auditing tables imported from the previous runs
--   5. Drop FSAA Tables – Drops File System Access Auditing tables imported from the previous runs
+-   **4. Drop FSDFS Tables** – Drops the File System DFS Auditing tables imported from the previous runs
+-   **5. Drop FSAA Tables** – Drops File System Access Auditing tables imported from the previous runs
 
 Do not try to run these tasks separately, as they are designed to work together. Follow these steps
 to run the analysis tasks:
