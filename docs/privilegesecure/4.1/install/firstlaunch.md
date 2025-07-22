@@ -154,7 +154,7 @@ created by the Setup Wizard, Activity Token for Domain Admin Access, is displaye
 Take a
 [Product Tour](/docs/privilegesecure/4.1/admin/navigation/producttour.md)
 of the console or onboard more users and resources. See the
-[Getting Started](/docs/privilegesecure/4.1/overview/gettingstarted.md)
+[Getting Started](/docs/privilegesecure/4.1/gettingstarted.md)
 topic for additional information.
 
 ## Exit Wizard Early
