@@ -41,8 +41,11 @@ level of permission you are recommending.
 **Remove Access** button or by clicking on a checkmark icon. A blank yellow icon indicates you are
 recommending all permissions be removed; it appears in the column for the current level of access.
 
-_Remember,_ at any time you can save your recommendations and exit the review. It will remain
+:::tip
+Remember, at any time you can save your recommendations and exit the review. It will remain
 pending until you submit all recommendations for this resource.
+:::
+
 
 **Step 4 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
@@ -53,8 +56,11 @@ tab opens in the Resource Review page.
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave
 notes explaining why the change is recommended.
 
-**NOTE:** To make changes to your recommendations, you must return to the first tab. Click
+:::note
+To make changes to your recommendations, you must return to the first tab. Click
 **Previous**.
+:::
+
 
 **Step 6 –** When all recommendations are confirmed and the desire notes added, click **Submit**. A
 message displays stating that the review is complete. Click **OK** to close the message window.

@@ -32,47 +32,54 @@ Substitution Tokens are only valid for certain Notification message templates. B
 the Substitution Tokens, the value or string they represent, and the message templates in which they
 may be used.
 
-| Substitution Token    | Description                                                                                                                                       | Applicable Template(s)                                                                                                 |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| @AccessName@          | Descriptive name of the type of access being requested (Read, Modify, etc.) to a resource                                                         | AccessRequestConfirm AccessRequestExpired AccessRequestStatus                                                          |
-| @Changes@             | Number of review changes                                                                                                                          | EntitlementReviewUpdates                                                                                               |
-| @LoginUrl@            | URL that allows a user to access the default (login) page                                                                                         | AccessRequestConfirm AccessRequestReminder OwnershipChangeNotification ReminderDigest                                  |
-| @RequestCount@        | Numerically formatted count of pending access requests                                                                                            | ReminderDigest                                                                                                         |
-| @ResourceDescription@ | Description of resource - To use the resource's description in emails instead of the path, replace @ResourcePath@ with @ResourceDescription@      | AccessRequestConfirm AccessRequestStatus OwnershipConfirm ReminderDigest                                               |
-| @ResourcePath@        | Path of the current resource - To use the resources’ description in emails instead of the path, replace @ResourcePath@ with @ResourceDescription@ | AccessRequestConfirm AccessRequestExpired AccessRequestStatus EntitlementReviewUpdates OwnershipConfirm ReminderDigest |
-| @ResourceType@        | Type of resource                                                                                                                                  | AccessRequestConfirm AccessRequestExpired AccessRequestStatus EntitlementReviewUpdates OwnershipConfirm ReminderDigest |
-| @ResourceUrl@         | URL specifically created to respond to a request                                                                                                  | AccessRequestConfirm EntitlementReviewReminder OwnershipConfirm                                                        |
-| @ResponseCount@       | Numerically formatted count of pending reviews or access requests                                                                                 | AccessRequestReminder ReminderDigest                                                                                   |
-| @ReviewCount@         | Numerically formatted count of pending reviews                                                                                                    | ReminderDigest                                                                                                         |
-| @ReviewName@          | Name of the resource review                                                                                                                       | EntitlementReviewUpdates                                                                                               |
-| @ReviewType@          | Type of resource review                                                                                                                           | EntitlementReviewUpdates                                                                                               |
-| @StatusText@          | Status of an access request (Confirmed, Declined, Waiting)                                                                                        | AccessRequestStatus                                                                                                    |
-| @UserName@            | Name of the user who submitted the access request                                                                                                 | AccessRequestConfirm AccessRequestStatus EntitlementReviewUpdates                                                      |
-| @UserNotes@           | Any notes the user submitted as part of the access request                                                                                        | AccessRequestConfirm AccessRequestStatus                                                                               |
+| Substitution Token    | Description                                                                                                                                                       | Applicable Template(s)                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| @AccessName@          | Descriptive name of the type of access being requested (Read, Modify, etc.) to a resource                                                                         | AccessRequestConfirm AccessRequestExpired AccessRequestStatus                                                          |
+| @Changes@             | Number of review changes                                                                                                                                          | EntitlementReviewUpdates                                                                                               |
+| @LoginUrl@            | URL that allows a user to access the default (login) page                                                                                                         | AccessRequestConfirm AccessRequestReminder OwnershipChangeNotification ReminderDigest                                  |
+| @RequestCount@        | Numerically formatted count of pending access requests                                                                                                            | ReminderDigest                                                                                                         |
+| @ResourceDescription@ | Description of resource <ul><li>To use the resource's description in emails instead of the path, replace @ResourcePath@ with @ResourceDescription@</li></ul>      | AccessRequestConfirm AccessRequestStatus OwnershipConfirm ReminderDigest                                               |
+| @ResourcePath@        | Path of the current resource <ul><li>To use the resources’ description in emails instead of the path, replace @ResourcePath@ with @ResourceDescription@</li></ul> | AccessRequestConfirm AccessRequestExpired AccessRequestStatus EntitlementReviewUpdates OwnershipConfirm ReminderDigest |
+| @ResourceType@        | Type of resource                                                                                                                                                  | AccessRequestConfirm AccessRequestExpired AccessRequestStatus EntitlementReviewUpdates OwnershipConfirm ReminderDigest |
+| @ResourceUrl@         | URL specifically created to respond to a request                                                                                                                  | AccessRequestConfirm EntitlementReviewReminder OwnershipConfirm                                                        |
+| @ResponseCount@       | Numerically formatted count of pending reviews or access requests                                                                                                 | AccessRequestReminder ReminderDigest                                                                                   |
+| @ReviewCount@         | Numerically formatted count of pending reviews                                                                                                                    | ReminderDigest                                                                                                         |
+| @ReviewName@          | Name of the resource review                                                                                                                                       | EntitlementReviewUpdates                                                                                               |
+| @ReviewType@          | Type of resource review                                                                                                                                           | EntitlementReviewUpdates                                                                                               |
+| @StatusText@          | Status of an access request (Confirmed, Declined, Waiting)                                                                                                        | AccessRequestStatus                                                                                                    |
+| @UserName@            | Name of the user who submitted the access request                                                                                                                 | AccessRequestConfirm AccessRequestStatus EntitlementReviewUpdates                                                      |
+| @UserNotes@           | Any notes the user submitted as part of the access request                                                                                                        | AccessRequestConfirm AccessRequestStatus                                                                               |
+
 
 ## Customize Email Templates
 
 Email templates are shipped in a ZIP file and stored in the Access Information Center installation
 directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to customize the email templates.
 
-**NOTE:** To successfully modify these Notifications email templates, a familiarity with basic HTML
+:::note
+To successfully modify these Notifications email templates, a familiarity with basic HTML
 is necessary.
+:::
+
 
 ![Templates Zip file in the Installation Directory](/img/product_docs/accessinformationcenter/11.6/admin/additionalconfig/emailtemplateszipfile.webp)
 
 **Step 1 –** Navigate to the Access Information Center installation directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 **Step 2 –** Unzip the `Templates.zip` file and save the contents to a folder within this directory
 named `Templates`.
 
-**CAUTION:** The customized email templates must be in the `Templates` folder within the
+:::warning
+The customized email templates must be in the `Templates` folder within the
 installation directory to be preserved during future application upgrades.
+:::
+
 
 ![Unzipped Email Templates in Templates Folder](/img/product_docs/accessinformationcenter/11.6/admin/additionalconfig/emailtemplatesunzipped.webp)
 
@@ -80,8 +87,11 @@ installation directory to be preserved during future application upgrades.
 
 **Step 4 –** Open the file with a text editor, e.g. Notepad, and customize the email body.
 
-**NOTE:** Using a tool other than a text editor to edit HTML files, such as a WYSIWYG web page
+:::note
+Using a tool other than a text editor to edit HTML files, such as a WYSIWYG web page
 editor which may drastically alter the underlying HTML code, is not supported.
+:::
+
 
 **Step 5 –** Email subject lines can be edited by changing the text between the opening `<title>`
 tag and the closing `</title>` tag.

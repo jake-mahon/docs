@@ -22,9 +22,12 @@ See the
 [Model Changes in the AIC](/docs/accessinformationcenter/11.6/resourceaudit/changemodeling/model.md)
 topic for additional information.
 
-**CAUTION:** If the Access Information Center has been configured to commit changes to Active
+:::warning
+If the Access Information Center has been configured to commit changes to Active
 Directory and the automation prerequisites have been met for this type of review, this change will
 be committed when the review is complete.
+:::
+
 
 If the Access Information Center automatically commits the approved change, it is immediately
 visible in Access Information Center reports. It is not necessary to rescan with Netwrix Enterprise
@@ -40,9 +43,12 @@ for instructions on how to approve, decline, or defer all owner-recommended chan
 
 Follow the steps to perform a granular review of a resource owner's recommended changes.
 
-**CAUTION:** If the Access Information Center has been configured to commit changes to Active
+:::warning
+If the Access Information Center has been configured to commit changes to Active
 Directory and the automation prerequisites have been met for this type of review, this change will
 be committed when the review is complete.
+:::
+
 
 **Step 1 –** On the Manage Reviews page, select a review and click **View Details**. The Review
 Details page opens.
@@ -52,8 +58,11 @@ Details page opens.
 **Step 2 –** Select a resource in the list and click **View Responses**. The View Responses window
 opens.
 
-_Remember,_ the **Resource Audit** button opens the Resource Audit interface filtered to that
+:::tip
+Remember, the **Resource Audit** button opens the Resource Audit interface filtered to that
 resource's reports. This is where you can conduct change modeling.
+:::
+
 
 ![viewresponses](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/viewresponses.webp)
 
@@ -87,9 +96,12 @@ The review remains marked as Completed until the next instance is started.
 
 Follow the steps to perform a batch processing of a resource owner's recommended changes.
 
-**CAUTION:** If the Access Information Center has been configured to commit changes to Active
+:::warning
+If the Access Information Center has been configured to commit changes to Active
 Directory and the automation prerequisites have been met for this type of review, this change will
 be committed when the review is complete.
+:::
+
 
 **Step 1 –** On the Manage Reviews page, select a review and click **View Details**. The Review
 Details page opens.
@@ -100,13 +112,19 @@ Details page opens.
 also select multiple resources in the list to be processed at once using the **Ctrl** and **Shift**
 key and click combinations.
 
-_Remember,_ the **Resource Audit** button opens the Resource Audit interface filtered to that
+:::tip
+Remember, the **Resource Audit** button opens the Resource Audit interface filtered to that
 resource's reports. This is where you can conduct change modeling.
+:::
+
 
 **Step 3 –** Select the desired action for all recommended changes: Accept, Decline, or Defer.
 
-_Remember,_ all recommended changes for the selected resource will be processed with the same
+:::tip
+Remember, all recommended changes for the selected resource will be processed with the same
 resolution.
+:::
+
 
 **Step 4 –** Repeat Steps 2-3 for each resource included in the review.
 

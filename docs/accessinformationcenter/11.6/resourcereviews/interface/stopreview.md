@@ -13,7 +13,10 @@ Review window opens to confirm the action.
 
 ![Stop Review window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/stopreview.webp)
 
-**CAUTION:** This will prevent owners from completing the review, removing associated resources from
+:::warning
+This will prevent owners from completing the review, removing associated resources from
 their Pending Reviews list.
+:::
+
 
 Click **Yes** to stop the review. Click **No** to cancel the action. The Stop Review window closes.

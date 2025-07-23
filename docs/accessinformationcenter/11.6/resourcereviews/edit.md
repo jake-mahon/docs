@@ -42,8 +42,11 @@ edited.
   [Resource Reviewed Email](/docs/accessinformationcenter/11.6/resourcereviews/approvalprocess/resourcereviewed.md)
   topic for additional information.
 
-**NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
+:::note
+If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
+:::
+
 
 ![Edit Review wizard Criteria page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/criteria_1.webp)
 
@@ -57,24 +60,33 @@ more resources have already been submitted you can not add or remove criteria.
 - To remove a criteria, select the criteria in the Selected Criteria list on the right and click
   **Remove**
 
-**NOTE:** The sensitive data criteria listed is limited to what is configured to be collected by the
+:::note
+The sensitive data criteria listed is limited to what is configured to be collected by the
 Netwrix Enterprise Auditor data collection scans.
+:::
+
 
 **Step 4 –** Optionally edit the selection of the **Reviewers are able to see the sensitive data
 match if available** option to allow the owner with Console Access roles of Security Team or
 Administrator to view potentially sensitive data within the review. Click **Next** to continue.
 
-**CAUTION:** If this option is checked, but the data has not been collected with matches stored by
+:::warning
+If this option is checked, but the data has not been collected with matches stored by
 Netwrix Enterprise Auditor for all of the resources selected in Step 5, the “One or more resources
 selected have not been scanned” error occurs. The Create Review wizard will not allow the review to
 be created until those resources have been removed or the option unchecked.
+:::
+
 
 ![Edit Review wizard Resources page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/resources_1.webp)
 
 **Step 5 –** On the Resources page, modify the list of resources to be included in the review.
 
-**NOTE:** If the include child resources option was enabled during the review creation, then adding
+:::note
+If the include child resources option was enabled during the review creation, then adding
 or removing parent resources from the review also adds or removes their children.
+:::
+
 
 - The table displays the following information:
 

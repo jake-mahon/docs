@@ -21,7 +21,10 @@ notification sent to the requester.
 
 **Step 3 –** Click **Decline** to cancel the request.
 
-**NOTE:** You can click **Cancel** to close the window without denying the request.
+:::note
+You can click **Cancel** to close the window without denying the request.
+:::
+
 
 ![Saving Request window](/img/product_docs/accessinformationcenter/11.6/accessrequests/window/savingrequest.webp)
 

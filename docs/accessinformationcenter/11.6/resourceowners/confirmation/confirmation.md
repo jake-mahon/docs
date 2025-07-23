@@ -11,10 +11,13 @@ those resources without requiring IT Administrative privileges. In order for thi
 assigned owner needs to claim that ownership responsibility. Resources that do not have confirmed
 owners may fall through the cracks.
 
-**NOTE:** This requires the Notification settings to be configured for the Access Information
+:::note
+This requires the Notification settings to be configured for the Access Information
 Center. See the
 [Notifications Page](/docs/accessinformationcenter/11.6/admin/configuration/notifications.md)
 topic for additional information.
+:::
+
 
 ![Status Column in Resource Owners interface](/img/product_docs/accessinformationcenter/11.6/resourceowners/ownershipconfirmation.webp)
 

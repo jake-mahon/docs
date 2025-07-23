@@ -24,8 +24,11 @@ opens to confirm the action.
 
 ![Delete Review window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/deletereviewentire.webp)
 
-**CAUTION:** This will delete all instances of the selected review and all historical data
+:::warning
+This will delete all instances of the selected review and all historical data
 associated with it.
+:::
+
 
 Click **Yes** to complete the deletion. Click **No** to cancel it. The Delete Review window closes.
 
@@ -36,6 +39,9 @@ Select the desired review instance from the drop-down menu on the Review Details
 
 ![Delete Review window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/deletereviewinstance.webp)
 
-**CAUTION:** This will delete all historical data associated to the selected review instance.
+:::warning
+This will delete all historical data associated to the selected review instance.
+:::
+
 
 Click **Yes** to complete the deletion. Click **No** to cancel it. The Delete Review window closes.

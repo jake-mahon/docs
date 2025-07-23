@@ -8,11 +8,14 @@ sidebar_position: 10
 
 Role based access controls what interfaces users can see and where each user is directed upon login.
 
-**_RECOMMENDED:_** Send an email to your users. Let them know why you are implementing use of the
+:::info
+Send an email to your users. Let them know why you are implementing use of the
 application, provide the URL, and explain how to login with their domain credentials and the
 username format. See the
 [Enable Console Users](/docs/accessinformationcenter/11.6/admin/gettingstarted.md#enable-console-users)
 topic for additional information.
+:::
+
 
 ## Administrator Role
 

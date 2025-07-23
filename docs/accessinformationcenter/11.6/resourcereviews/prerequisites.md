@@ -19,7 +19,7 @@ Resource Reviews have the following prerequisites:
 
 The following prerequisites are required for reviews of file system data.
 
-Sensitive Data Reviews Requirement
+**Sensitive Data Reviews Requirement**
 
 Sensitive Data reviews of file system data requires the following setting be configured in the
 **FileSystem** > **0.Collection** Job Group in Netwrix Enterprise Auditor:
@@ -28,7 +28,7 @@ Sensitive Data reviews of file system data requires the following setting be con
   checkbox on the File Details tab on the Default Scoping Options page of the File System Access
   Auditor Data Collector Wizard.
 
-View Sensitive Content within Reviews Requirement
+**View Sensitive Content within Reviews Requirement**
 
 In order to view the potentially sensitive data during a review, the following setting must also be
 configured in the **FileSystem** > **0.Collection** Job Group in Netwrix Enterprise Auditor:
@@ -41,7 +41,7 @@ configured in the **FileSystem** > **0.Collection** Job Group in Netwrix Enterp
 
 The following prerequisites are required for reviews of SharePoint data.
 
-View Sensitive Content within Reviews Requirement
+**View Sensitive Content within Reviews Requirement**
 
 In order to view the potentially sensitive data during a review, the following setting must be
 configured in the **SharePoint** > **0.Collection** Job Group:
@@ -50,7 +50,7 @@ configured in the **SharePoint** > **0.Collection** Job Group:
   sensitive data** checkbox on the DLP Audit Settings page of the SharePoint Access Auditor Data
   Collector Wizard.
 
-False Positive Sensitive Data
+**False Positive Sensitive Data**
 
 Files that match multiple sensitive data criteria display in every sensitive data review with a
 matched criteria selected. Files that have been identified as false positives for sensitive content
@@ -58,8 +58,11 @@ can be flagged either through a resource review or through the **Settings** > **
 node of the Netwrix Enterprise Auditor Console. This removes the file from reports on sensitive data
 until it has been un-flagged or the file has been modified and rescanned.
 
-**NOTE:** A false positive is a file which matches the sensitive data criteria but does not contain
+:::note
+A false positive is a file which matches the sensitive data criteria but does not contain
 actual sensitive data.
+:::
+
 
 ## Automation Prerequisites
 
@@ -77,11 +80,14 @@ automation of approved changes.
   modified (Read, Modify, or Full Control)
 - Sensitive Data review — There are no additional prerequisites
 
-    **CAUTION:** Of the three possible actions of Keep, Remove, and Not Sensitive for a Sensitive
+    :::warning
+    Of the three possible actions of Keep, Remove, and Not Sensitive for a Sensitive
     Data review, the Remove action cannot be automated through the Access Information Center. It
     must be manually done outside of the application. See the
     [Sensitive Data Review Automation](#sensitive-data-review-automation) topic for additional
     information.
+    :::
+
 
 See the
 [Access Groups](/docs/accessinformationcenter/11.6/resourceowners/accessgroups.md)

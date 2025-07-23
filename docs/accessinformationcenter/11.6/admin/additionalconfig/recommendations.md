@@ -12,7 +12,7 @@ data). By default, these recommendations are based on a 90-day sample of activit
 configuration can be changed by editing the `AccessInformationCenter.Service.exe.config` file in the
 Access Information Center installation directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to modify the activity days parameter.
 

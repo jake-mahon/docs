@@ -34,7 +34,10 @@ Built-in group reports are opened through a search conducted for any of the foll
 - Cryptographic Operators
 - Account Operators
 
-**NOTE:** The Members report for a built-in group contains different information than the other
+:::note
+The Members report for a built-in group contains different information than the other
 group types. See the
 [Members Report for a Built-in Group](/docs/accessinformationcenter/11.6/resourceaudit/group/membersbuiltin.md) topic
 for additional information.
+
+:::

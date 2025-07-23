@@ -79,8 +79,11 @@ email.
 
 **Step 7 –** Click **Save**. Then click **OK** to confirm.
 
-**NOTE:** After the settings are saved, a re-authentication is required to continue using the Access
+:::note
+After the settings are saved, a re-authentication is required to continue using the Access
 Information Center.
+:::
+
 
 The Access Information Center is now configured to send email. See the following topics for
 additional Notification options.
@@ -106,8 +109,11 @@ populated:
 
     - This option is part of the Resources Reviews and Self-Service Access Requests workflows.
 
-_Remember,_ click **Save** after making modifications to the Notification settings. After the
+:::tip
+Remember, click **Save** after making modifications to the Notification settings. After the
 settings are saved, a re-authentication is required to continue using the Access Information Center.
+:::
+
 
 ## Reminders
 

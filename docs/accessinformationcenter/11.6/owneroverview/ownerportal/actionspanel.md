@@ -11,7 +11,7 @@ workflow features.
 
 ![Actions panel section of the Owner portal](/img/product_docs/accessinformationcenter/11.6/resourceowners/ownerportal/actionspanel.webp)
 
-Resource Review Workflow Features
+**Resource Review Workflow Features**
 
 The Reviews link in the Actions panel is part of the Resource Review feature.
 
@@ -21,7 +21,7 @@ The Reviews link in the Actions panel is part of the Resource Review feature.
   [Owners & Resource Reviews](/docs/accessinformationcenter/11.6/owneroverview/pendingreviews/pendingreviews.md)
   topic for additional information.
 
-Self-Service Access Requests Workflow Features
+**Self-Service Access Requests Workflow Features**
 
 The Access Requests and My Access links in the Actions panel are part of the Self-Service Access
 Requests feature.
@@ -36,5 +36,8 @@ Requests feature.
   [Your Access Portal Overview](/docs/accessinformationcenter/11.6/youraccessportal/overview.md)
   topic for additional information.
 
-    **NOTE:** If you have an assigned user role, you can access the Your Access portal with the
+    :::note
+    If you have an assigned user role, you can access the Your Access portal with the
     **Manage Your Access** link on the Home page.
+    
+    :::
