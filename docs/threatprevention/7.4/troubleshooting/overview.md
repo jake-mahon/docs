@@ -11,7 +11,7 @@ consideration when using the Administration Console.
 
 ## Best Practices
 
-Best Practice #1 – Collect What You Need, NOT Everything
+**Best Practice #1 – Collect What You Need, NOT Everything**
 
 While Threat Prevention is capable of collecting many events, it is recommended to carefully scope
 policies, e.g. admin group membership, finance data access, or VIP mailbox non-owner logons.
@@ -35,7 +35,7 @@ The
 enables you to set options that automatically groom the database to optimize performance.  
 Whether choosing to archive or delete data, this is always a good feature to enable.
 
-Best Practice #3 – Analytics? Turn on One at a Time & Tune
+**Best Practice #3 – Analytics? Turn on One at a Time & Tune**
 
 Analytics provide organizations with the ability to capture and analyze authentication or file
 system traffic. The best way to employ analytics is to turn on one at a time and then ‘tune’ it to
@@ -50,7 +50,7 @@ a best practice to configure and enable a monitoring policy with the desired fil
 trial run. This will allow you to ensure the filters set will block events the way they were
 intended. Once the desired filters are confirmed, then the blocking policy is good-to-go.
 
-Best Practice #5 – File System ‘Read’ Monitoring, in Moderation
+**Best Practice #5 – File System ‘Read’ Monitoring, in Moderation**
 
 It is recommended to limit the use of monitoring Read events within a file system to those files
 containing very sensitive data (e.g. super-secret blends of herbs and spices, launch codes, etc.).
@@ -61,8 +61,7 @@ The volume of Read events in most environments can fill the Threat Prevention da
 The following information provides basic troubleshooting techniques and frequently asked questions
 (FAQs) for the Administration Console users.
 
-FAQ: Microsoft just released a security bulletin that impacts LSASS. How do I know if the Microsoft
-KB will affect the Agent instrumentation?
+**FAQ: Microsoft just released a security bulletin that impacts LSASS. How do I know if the Microsoft KB will affect the Agent instrumentation?**
 
 The Agent has been configured to monitor LSASS after a reboot (triggered by the Microsoft KB). If
 LSASS stops shortly after a reboot (default within five minutes), then the Agent will be stopped and
@@ -87,7 +86,7 @@ topic for additional information.
 :::
 
 
-FAQ: The user interface is not displaying correctly and windows are cut off. What should I do?
+**FAQ: The user interface is not displaying correctly and windows are cut off. What should I do?**
 
 If any of the dialogs in the Administration Console have buttons or other user interface (UI)
 elements hidden or partially hidden, then you are advised to reduce their Windows font size. For
@@ -95,14 +94,14 @@ example, some high resolution laptops may have their system font size set to a d
 In such cases it may be necessary to change this to “Small” for all dialogs in theconsole to be
 displayed fully.
 
-FAQ: How are Active Directory and Authentication raw events handled by Threat Prevention?
+**FAQ: How are Active Directory and Authentication raw events handled by Threat Prevention?**
 
 There are two streams of data with their own memory buffers: one for Active Directory and another
 for Authentication traffic. This allows the Active Directory event data to flow without interruption
 even if there is a flood of Authentication traffic. A flood in Authentication traffic could result
 in a loss of Authentication event data. However, this will not impact Active Directory event data.
 
-FAQ: How can I prevent flooding the memory with authentication traffic?
+**FAQ: How can I prevent flooding the memory with authentication traffic?**
 
 The options in the
 [Event Filtering Configuration Window](/docs/threatprevention/7.4/admin/configuration/eventfilteringconfiguration.md)

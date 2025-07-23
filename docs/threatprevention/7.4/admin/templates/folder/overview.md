@@ -95,7 +95,7 @@ window. The location of the default templates is:
 **Step 3 –** To import all the available Threat Prevention policy templates, select the
 `SI_Templates_All.xml` file. Click **Open**.
 
-![Import window](/img/product_docs/threatprevention/7.4/admin/templates/templates.webp)
+![Import window](/img/product_docs/threatprevention/7.4/admin/templates/import.webp)
 
 **Step 4 –** The Import window auto-fills with the import file details. Do not change the defaults
 settings. Click **Import**.

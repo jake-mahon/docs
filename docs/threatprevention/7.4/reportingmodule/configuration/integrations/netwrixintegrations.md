@@ -110,7 +110,7 @@ view a list of the already integrated Netwrix products.
 
 **Step 9 –** Select a product from the table or the navigation pane to view the integration details.
 
-![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details_2.webp)
 
 The following information is displayed:
 
