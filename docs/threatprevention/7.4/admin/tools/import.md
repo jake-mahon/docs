@@ -36,7 +36,10 @@ structure in the Navigation pane for saving the policies and/or templates import
 file. For policies, you can specify a folder under the Policies node in the navigation pane. For
 templates, you can specify a folder under the Templates node.
 
-**NOTE:** You cannot create new folder locations.
+:::note
+You cannot create new folder locations.
+:::
+
 
 Select one of the following option buttons:
 

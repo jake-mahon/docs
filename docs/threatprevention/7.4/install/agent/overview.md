@@ -42,7 +42,7 @@ the Threat Prevention solutions:
 
   - Deploy Agents on all domain controllers with the Windows AD Events module
 
-WMI Requirement
+**WMI Requirement**
 
 The Agent server has the following requirement:
 
@@ -66,13 +66,13 @@ list.
 The Agent tracks all events occurring in Active Directory in real-time. The Agent must be installed
 on all domain controllers within the domains to be monitored.
 
-Supported Platforms for Microsoft Active Directory
+**Supported Platforms for Microsoft Active Directory**
 
 - Windows Server 2022
 - Windows Server 2019
 - Windows Server 2016
 
-Netwrix Activity Monitor Integration
+**Netwrix Activity Monitor Integration**
 
 Both Activity Monitor and Threat Prevention can monitor the same domain controller. Deploy agents
 from both products to the server. Activity Monitor identifies the Windows host as being “Managed by
@@ -82,7 +82,7 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/requirements/agent/threatprevention.md)
+[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/requirements/agent/NTPtoNAM.md)
 topic for additional information.
 
 ## Exchange Servers
@@ -97,23 +97,26 @@ on all domain controllers within the domains to be monitored.
 If only gathering Exchange event data for mailbox permission changes and mailbox logins, then the
 Agent must also be installed on one domain controller, which can be read only.
 
-Supported Platforms for Microsoft Exchange
+**Supported Platforms for Microsoft Exchange**
 
 - Exchange Server 2019
 - Exchange Server 2016
 - Exchange Server 2013
 - Exchange Server 2010
 
-**NOTE:** The Exchange Server Monitoring module is not started on an Agent if newer Exchange Server
+:::note
+The Exchange Server Monitoring module is not started on an Agent if newer Exchange Server
 updates are detected at run time, and a corresponding message displays in the Agent log file and the
 Agents interface.
+:::
+
 
 ## Windows File Servers
 
 The Agent monitors all events occurring in the file system in real-time. The Agent must be installed
 on all Windows file servers within the domains to be monitored.
 
-Netwrix Activity Monitor Integration
+**Netwrix Activity Monitor Integration**
 
 Both Activity Monitor and Threat Prevention can monitor the same Windows server. Deploy agents from
 both products to the server. Activity Monitor identifies the Windows host as being “Managed by
@@ -123,5 +126,5 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/requirements/agent/threatprevention.md)
+[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/requirements/agent/NTPtoNAM.md)
 topic for additional information.

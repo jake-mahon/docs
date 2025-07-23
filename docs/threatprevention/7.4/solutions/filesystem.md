@@ -32,7 +32,10 @@ Some important events Threat Prevention captures within a NAS file system are:
 - File Access Events (Create, Copy, Delete, Rename, Read, Update)
 - Permission Changes
 
-**NOTE:** For NAS monitoring, Threat Prevention employs the Netwrix Activity Monitor component.
+:::note
+For NAS monitoring, Threat Prevention employs the Netwrix Activity Monitor component.
+:::
+
 
 ## File System Event Types
 
@@ -40,4 +43,4 @@ The following event types are available for File System:
 
 - [File System Changes Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/filesystemchanges/filesystemchanges.md)
 - [File System Lockdown Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/filesystemlockdown.md)
-- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.4/admin/policies/eventtype/filesystemaccessanalyzer.md)
+- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/filesystemaccessanalyzer.md)

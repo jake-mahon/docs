@@ -24,8 +24,11 @@ If setting a filter to “Exclude” a domain from this blocking policy, this se
 ”Block” user filters. This means that in order to block a user, you must not “Exclude” the domain
 where that user resides.
 
-**CAUTION:** Lockdown/blocking policies with blank filters result in everything being locked down or
+:::warning
+Lockdown/blocking policies with blank filters result in everything being locked down or
 blocked.
+:::
+
 
 ## AD Group Policy Object Filter
 
@@ -65,10 +68,13 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -80,11 +86,14 @@ from being locked down.
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the
+:::note
+For the
 [Password Enforcement Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
+:::
+
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
@@ -95,7 +104,10 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+
+:::

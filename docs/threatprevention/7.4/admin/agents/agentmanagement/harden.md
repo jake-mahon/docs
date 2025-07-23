@@ -22,10 +22,13 @@ to connect to the target machine and query information about shares. A local Adm
 on the target machine should have access to the system shares. Click **OK** after entering the
 credentials.
 
-**NOTE:** The wizard does not block access to the Administration Console and can be minimized while
+:::note
+The wizard does not block access to the Administration Console and can be minimized while
 actions are in progress. If this wizard is hidden by clicking outside of the dialog box, a flashing
 blue link displays on the upper right corner of the interface with the action name displayed. Click
 this link to bring back the focus to the wizard.
+:::
+
 
 **Step 4 –** On the Access Verification window, the given credentials either succeed or fail during
 a prerequisites or verification check.
@@ -34,8 +37,11 @@ a prerequisites or verification check.
   of prior to the next attempt.
 - Success – Click **Next** to begin hardening the Agent.
 
-**NOTE:** Closing the Administration Console while this action is in process causes problems with
+:::note
+Closing the Administration Console while this action is in process causes problems with
 data collection.
+:::
+
 
 **Step 5 –** The Harden Agent window displays the task in progress and then its status as either:
 

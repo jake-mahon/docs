@@ -24,7 +24,7 @@ See the
 [Reporting Module Server Requirements](/docs/threatprevention/7.4/requirements/reportingserver.md)
 topic for a list of permission requirements for each type of task.
 
-Best Practice Recommendation
+**Best Practice Recommendation**
 
 It is a best practice to:
 
@@ -76,7 +76,7 @@ view a list of the already created Credential Profiles, if any.
 
 **Step 8 –** Select a Credential Profile from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details_1.webp)
 
 Select the profile from the list to see modification optionsThe following information is displayed
 for a Credential Profile:

@@ -9,8 +9,11 @@ sidebar_position: 100
 The **Impersonation Logins** analytic type identifies multiple authenticated accounts from a single
 system within the specified time frame.
 
-**_RECOMMENDED:_** Configure a subset of accounts and/or servers to be monitored in order to avoid
+:::info
+Configure a subset of accounts and/or servers to be monitored in order to avoid
 the excessive volume of event activity from monitoring all.
+:::
+
 
 | Impersonation Logins |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -19,7 +22,7 @@ the excessive volume of event activity from monitoring all.
 | Trigger              | X different authenticated accounts from a single system in Y hours                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors 3 different authenticated accounts from a single system in 2 hours.                                                                                                                                                                                                                                                                                                                                                       |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -44,7 +47,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Impersonation Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/7.4/admin/analytics/concurrentloginssettings.webp)
 
@@ -58,7 +61,7 @@ triggered, an incident record is saved to the database along with the events tha
 incident. Raw authentication event data that did not contribute to an incident are purged from
 memory once they are more than 24 hours old.
 
-Policy Tab
+**Policy Tab**
 
 ![Impersonation Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/7.4/admin/analytics/policytab.webp)
 
@@ -77,9 +80,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - _Optional:_ Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional:_ – Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -89,9 +95,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.4/admin/policies/configuration/actions/overview.md)

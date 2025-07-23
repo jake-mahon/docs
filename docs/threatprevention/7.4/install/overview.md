@@ -16,12 +16,15 @@ network.
   Password Enforcer (EPE) solution
 - Netwrix Threat Manager Reporting Module that is installed with a separate installation package
 
-**NOTE:** With SteathINTERVEPT v7.3.5 through 7.3.9, you could only install one instance of the
+:::note
+With SteathINTERVEPT v7.3.5 through 7.3.9, you could only install one instance of the
 Administration Console, and that too on the same machine as the Enterprise Manager. Threat
 Prevention v7.4 supports the deployment of remote Administration Console, enabling you to install
 additional consoles on standalone machines, like administrator or user workstations. In this way,
 users can launch the Administration Console on their workstations, as an alternate to using it on
 the Enterprise Manager server only.
+:::
+
 
 The following components are installed by the Threat Prevention installation package:
 
@@ -69,7 +72,7 @@ The following files are available for download:
 Occasionally, an organization’s anti-virus program may shut down the processes launched by Threat
 Prevention. The processes that may be impacted are listed below.
 
-Threat Prevention Server
+**Threat Prevention Server**
 
 Files located within the Threat Prevention installation directory:
 `…\Netwrix\Netwrix Threat Prevention`
@@ -80,7 +83,7 @@ Files located within the Threat Prevention installation directory:
 - SI.Services.Schedule.Host.exe
 - SIWindowsAgent.exe
 
-Agent Server
+**Agent Server**
 
 Files located within the Threat Prevention Agent installation directory:
 `…\Netwrix\Netwrix Threat Prevention\SIWindowsAgent`
@@ -99,7 +102,7 @@ The following file in the directory: `…\Netwrix\StealthAudit\FSAC`
 
 - SBTService.exe
 
-Client Machines
+**Client Machines**
 
 If you are using Threat Prevention's Enterprise Password Enforcer (EPE) User Feedback module for
 client machines, the following file should be excluded:
@@ -109,7 +112,7 @@ client machines, the following file should be excluded:
 If this file is blocked by antivirus software, the reasons for rejecting a candidate password will
 not be displayed to the end-user, but all EPE rules will be fully enforced.
 
-Domain Controllers
+**Domain Controllers**
 
 - PPE.dll – If PPE.dll does not load, the password policy will not get enforced
 
@@ -118,7 +121,7 @@ Domain Controllers
 If you are using Netwrix Password Policy Enforcer, the processes that may be impacted are listed
 below.
 
-Client Machines
+**Client Machines**
 
 The following DLLs on the client machines (all computers, mostly end user desktops/laptops) will not
 work if they get blocked by antivirus software:
@@ -126,7 +129,7 @@ work if they get blocked by antivirus software:
 - PPEClt.dll
 - APRClt.dll
 
-Netwrix Password Reset Server
+**Netwrix Password Reset Server**
 
 If you are using Netwrix Password Reset, then make sure the antivirus program does not block the
 following files on the Netwrix Password Reset server:

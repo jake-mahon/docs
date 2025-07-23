@@ -34,12 +34,15 @@ Netwrix Integrations in the navigation pane.
 
 ## Add a Netwrix Integration
 
-**NOTE:** Prior to adding a Netwrix Integration, you must first configure a Credential Profile with
+:::note
+Prior to adding a Netwrix Integration, you must first configure a Credential Profile with
 credentials properly provisioned for connecting to the database. See the
 [Reporting Module Server Requirements](/docs/threatprevention/7.4/requirements/reportingserver.md)
 topic for the permissions. See the
 [Credential Profile Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/credentialprofile.md)
 topic for additional information on creating a profile.
+:::
+
 
 Follow the steps to add a Netwrix product for integration.
 
@@ -89,8 +92,11 @@ error and repeat this step until a successful connection is established.
 
 The Netwrix Integration is listed in the Integrations navigation pane.
 
-**NOTE:** For integration with Netwrix Threat Prevention, you can add both the main `NVMonitorData`
+:::note
+For integration with Netwrix Threat Prevention, you can add both the main `NVMonitorData`
 database and the archive database, if one has been configured.
+:::
+
 
 ## Netwrix Integration Details
 
@@ -104,7 +110,7 @@ view a list of the already integrated Netwrix products.
 
 **Step 9 –** Select a product from the table or the navigation pane to view the integration details.
 
-![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details_2.webp)
 
 The following information is displayed:
 
@@ -201,15 +207,21 @@ Netwrix Integration.
 **Step 4 –** To modify the Credential Profile, select the Credential Profile by name from the
 drop-down menu. This was pre-created in the Credential Profiles page.
 
-**NOTE:** If you modify the Credential Profile for a domain, click **Test Connection** to ensure
+:::note
+If you modify the Credential Profile for a domain, click **Test Connection** to ensure
 connection to the database. This will take a moment. Then a message will appear in the upper right
 corner of the console indicating a successful or failed connection.
+:::
+
 
 **Step 5 –** For the Configuration Catalog Name, modify the value by typing in the textbox.
 
 **Step 6 –** For the Catalog Name, modify the value by typing in the textbox.
 
-_Remember,_ the Integration Service URL value should not be modified.
+:::tip
+Remember, the Integration Service URL value should not be modified.
+:::
+
 
 **Step 7 –** Check or uncheck the Show Deleted Policies box as desired.
 

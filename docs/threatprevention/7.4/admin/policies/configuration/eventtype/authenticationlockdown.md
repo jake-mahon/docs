@@ -22,8 +22,11 @@ The event filters for the Authentication Lockdown event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**CAUTION:** Lockdown/blocking policies with blank filters result in everything being locked down or
+:::warning
+Lockdown/blocking policies with blank filters result in everything being locked down or
 blocked.
+:::
+
 
 The Authentication Lockdown event type blocks authentication requests made through Kerberos and
 NTLM. These requests are used to access resources such as remote shares, establish RDP sessions,
@@ -37,11 +40,14 @@ Hosts (from) filter does not block authentications for these RDP sessions. Since
 host to information is available to Threat Prevention with this mode of RDP session, use the AD
 Perpetrator for lockdown filter and the Hosts (to) filter to block authentications.
 
-**NOTE:** When the Authentication Monitoring or Lockdown event type is assigned to a policy outside
+:::note
+When the Authentication Monitoring or Lockdown event type is assigned to a policy outside
 of the Analytic policies, then all collected authentication event data is stored in the database,
 not in memory as it is for the Analytic policies. However, it does consolidate the authentication
 events which occur every minute, resulting in up to a one minute delay between the event and the
 reporting of the event.
+:::
+
 
 ## Authentication Protocol Filter
 
@@ -57,22 +63,31 @@ being locked down.
   - Kerberos (TGT and/or TGS)
   - NTLM
 
-  **CAUTION:** Saving all TGT and/or TGS authentication data results in the bloating of the Threat
+  :::warning
+  Saving all TGT and/or TGS authentication data results in the bloating of the Threat
   Prevention database. Configure policy filters and use Database Maintenance while monitoring
   these protocols to retain data for the necessary timeframe. See the
   [Database Maintenance Window](/docs/threatprevention/7.4/admin/configuration/databasemaintenance/overview.md)
   topic for additional information.
+  :::
 
-  **_RECOMMENDED:_** Save only a few days' worth of TGT and TGS data at a time.
+
+  :::info
+  Save only a few days' worth of TGT and TGS data at a time.
+  :::
+
 
 - The Login Type options apply only to domain controllers. Use them to scope for **All** login types
   or only **Local** or **Remote** logins to the selected domain controllers.
 
 ## AD Perpetrator Filter
 
-**NOTE:** When the Block filter is used with this event type, it blocks the specified security
+:::note
+When the Block filter is used with this event type, it blocks the specified security
 principals from logging in or gaining access to resources through Active Directory authentication.
 When the Allow filter is used, it allows only the specified security principals to authenticate.
+:::
+
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific
 security principals committing changes or to exclude specific security principals committing changes
@@ -82,11 +97,14 @@ from being locked down.
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the
+:::note
+For the
 [Password Enforcement Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
+:::
+
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
@@ -97,10 +115,13 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## Hosts (from) Filter
 

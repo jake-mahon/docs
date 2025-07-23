@@ -27,16 +27,16 @@ server.
 
 These depend on the size of the target environment.
 
-| Environment              | Large with Analytics           | Large without Analytics        | Small with Analytics        | Small without Analytics     |
-| ------------------------ | ------------------------------ | ------------------------------ | --------------------------- | --------------------------- |
-| Definition               | 2,000 - 15,000 AD user objects | 2,000 - 15,000 AD user objects | Up to 2,000 AD user objects | Up to 2,000 AD user objects |
-| RAM                      | 32 GB                          | 16 GB                          | 16 GB                       | 8 GB                        |
-| Cores                    | 4 CPU                          | 4 CPU                          | 4 CPU                       | 4 CPU                       |
-| Number of Disks          | 4                              | 4                              | 4                           | 1-4                         |
-| Operating System Disk    | 10 GB                          | 10 GB                          | 10 GB                       | 10 GB                       |
-| SQL Database Disk        | 500 GB                         | 300 GB                         | 150 GB                      | 100 GB                      |
-| SQL Transaction Log Disk | 80 GB                          | 80 GB                          | 40 GB                       | 20 GB                       |
-| SQL TEMP DB Disk         | 160 GB                         | 160 GB                         | 80 GB                       | 40 GB                       |
+| Environment        | Large with Analytics     | Large without Analytics        | Small with Analytics        | Small without Analytics     |
+| ---------- | ---------- | --------- | --------- | --------- |
+| Definition       | 2,000 - 15,000 AD user objects | 2,000 - 15,000 AD user objects | Up to 2,000 AD user objects | Up to 2,000 AD user objects |
+| RAM       | 32 GB     | 16 GB      | 16 GB      | 8 GB      |
+| Cores     | 4 CPU     | 4 CPU      | 4 CPU      | 4 CPU     |
+| Number of Disks      | 4      | 4      | 4      | 1-4       |
+| Operating System Disk    | 10 GB       | 10 GB   | 10 GB    | 10 GB  |
+| SQL Database Disk   | 500 GB    | 300 GB      | 150 GB    | 100 GB   |
+| SQL Transaction Log Disk | 80 GB    | 80 GB     | 40 GB    | 20 GB   |
+| SQL TEMP DB Disk   | 160 GB      | 160 GB      | 80 GB     | 40 GB   |
 
 The disk sizes for the three SQL Server databases can be reduced if not utilizing all Threat
 Prevention solutions.

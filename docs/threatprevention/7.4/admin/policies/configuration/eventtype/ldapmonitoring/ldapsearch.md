@@ -20,7 +20,7 @@ selected configurations and scope of the LDAP query.
 
 ![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/usecase/ldapsearchscopes.webp)
 
-Secure configurations
+**Secure configurations**
 
 This setting determines if events should be captured for an LDAP operation based on the security
 protocol used by that operation.
@@ -36,7 +36,7 @@ protocol(s) are used.
 - Signed and Sealed
 - None – To capture events for an LDAP operation that did not use any of the secure protocols
 
-Search scopes
+**Search scopes**
 
 Select the All checkbox to search all scopes, or select specific scoping levels:
 

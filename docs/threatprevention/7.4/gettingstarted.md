@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 description: "Getting Started"
-sidebar_position: 10
+sidebar_position: 2
 ---
 
 # Getting Started
@@ -52,20 +52,29 @@ enable policies to begin monitoring your organization’s environment. Do either
 On enabling and saving a policy configuration, the Agent is automatically sent the necessary
 information to begin monitoring.
 
-**CAUTION:** Use extreme caution when enabling lockdown policies to ensure that the required events
+:::warning
+Use extreme caution when enabling lockdown policies to ensure that the required events
 do not unintentionally get blocked.
+:::
 
-**_RECOMMENDED:_** Start with monitoring the environment before enabling lockdown policies. For
+
+:::info
+Start with monitoring the environment before enabling lockdown policies. For
 example, first configure a monitoring policy for the events to be blocked. Watch the captured events
 to ensure the filters are returning the expected events. Once assured, create the lockdown policy to
 block those events.
+:::
 
-**_RECOMMENDED:_** After configuring a new policy, navigate to either the
+
+:::info
+After configuring a new policy, navigate to either the
 [Recent Events Tab](/docs/threatprevention/7.4/admin/policies/configuration/recentevents/overview.md)
 in the policy's configuration or to the
 [Investigate Interface](/docs/threatprevention/7.4/admin/investigate/overview.md)
 to confirm that the intended events being monitored are intended. Refresh the data to view the
 recent events.
+:::
+
 
 ### View Event Data
 
@@ -91,7 +100,7 @@ topic for additional information.
 
 ## Set Up the Threat Manager Reporting Module
 
-Prerequisites
+**Prerequisites**
 
 - See the
   [Reporting Module Server Requirements](/docs/threatprevention/7.4/requirements/reportingserver.md)
@@ -100,7 +109,7 @@ Prerequisites
   [Netwrix Threat Manager Reporting Module Ports](/docs/threatprevention/7.4/requirements/ports.md#netwrix-threat-manager-reporting-module-ports)
   topic for a list of firewall ports used.
 
-Installation
+**Installation**
 
 Install the Netwrix Threat Manager Reporting Module application. Typically, this is done on the same
 server where Threat Prevention resides, but it can be on any server within the same environment.
@@ -108,14 +117,14 @@ This application needs access to the Threat Prevention database. See the
 [Reporting Module Installation](/docs/threatprevention/7.4/install/reportingmodule/overview.md)
 topic for additional information.
 
-First Launch
+**First Launch**
 
 On launching Netwrix Threat Manager Reporting Module for the first time, you will set the password
 for the builtin Administrator account, and optionally enable MFA for that account. See the
 [First Launch](/docs/threatprevention/7.4/install/reportingmodule/firstlaunch.md)
 topic for additional information.
 
-Initial Configuration
+**Initial Configuration**
 
 Configure the following:
 

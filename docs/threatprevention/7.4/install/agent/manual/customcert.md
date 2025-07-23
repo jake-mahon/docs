@@ -11,11 +11,14 @@ If "custom-managed" is selected for the CA certificate configuration during
 use the `SIAgentCert.exe` command line utility to facilitate the creation of certificates for each
 Agent.
 
-**NOTE:** As a prerequisite for using custom managed certificates, you must provide the Enterprise
+:::note
+As a prerequisite for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing Threat
 Prevention server, remote instance of the Administration Console, and the Agent. See the
 [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.4/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
+:::
+
 
 The `SIAgentCert.exe` utility is located in the following folder:
 
@@ -37,8 +40,11 @@ generates an `agent-key.pem` file and an `agent-csr.pem` and places them in the 
 **Step 2 –** The `SIAgentCert.exe` utility prompts you to sign the certificate using the generated
 `agent-csr.pem` file.
 
-**NOTE:** It is the customer's responsibility to supply the `agent-csr.pem` file to their
+:::note
+It is the customer's responsibility to supply the `agent-csr.pem` file to their
 certificate authority to create a signed file.
+:::
+
 
 **Step 3 –** Copy the `agent-crt.pem` file created and signed by the customer's certificate
 authority to the CertsInfo folder on the machine where the Agent is deployed:
@@ -53,8 +59,11 @@ is deployed, which will enroll the `agent-crt.pem` file.
 **Step 6 –** Start the Agent service. This service has display name as _Netwrix Threat Prevention
 Windows Agent_ and service name as _SIWindowsAgent_.
 
-**NOTE:** After Agent deployment, you can configure and upgrade the Agent through the Administration
+:::note
+After Agent deployment, you can configure and upgrade the Agent through the Administration
 Console. Upgrades and configuration changes will continue to use the existing certificate.
+:::
+
 
 See the
 [Upgrade Procedure](/docs/threatprevention/7.4/install/upgrade/overview.md)

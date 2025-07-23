@@ -55,7 +55,7 @@ See the following topics for additional information:
 
 See the following topics for additional information:
 
-- [Remote Administration Console Machine Requirements](/docs/threatprevention/7.5/requirements/adminconsole.md)
+- [Remote Administration Console Requirements](/docs/threatprevention/7.5/requirements/adminconsole.md)
 - [EPE Rest Site Requirements](/docs/threatprevention/7.5/requirements/eperestsite.md)
 
 **Target Environment Considerations**

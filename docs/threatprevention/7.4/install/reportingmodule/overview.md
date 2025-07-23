@@ -13,21 +13,24 @@ topic.
 
 The Netwrix Threat Manager Reporting Module installer is packaged with three executable files.
 
-**CAUTION:** The PostgreSQL database must be installed before installing Netwrix Threat Manager
+:::warning
+The PostgreSQL database must be installed before installing Netwrix Threat Manager
 Reporting Module.
+:::
 
-Netwrix_Setup.exe
+
+**Netwrix_Setup.exe**
 
 This executable starts a setup launcher containing buttons to install the PostgreSQL database and
 the application. The launcher installs these components on the same server. See the installation
 details for each components below.
 
-NetwrixPostgreSQL14.exe
+**NetwrixPostgreSQL14.exe**
 
 This executable is for installing the PostgreSQL database on a different server from the
 application.
 
-NetwrixThreatManagerReporting.exe
+**NetwrixThreatManagerReporting.exe**
 
 This executable is for installing the application and its services:
 
@@ -93,5 +96,5 @@ launcher opens. You can now install the following components on the same server:
 topic for additional information.
 
 After completing the first launch, it is time to complete the initial configuration. See the
-[Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/overview/gettingstarted.md#set-up-the-threat-manager-reporting-module)
+[Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/gettingstarted.md#set-up-the-threat-manager-reporting-module)
 topic for additional information.

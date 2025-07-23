@@ -72,7 +72,10 @@ below in the default order of the data grid columns:
   - File System monitoring/blocking – Original path of the affected file or folder
   - Authenticate – DN of the user object making the request
 
-  **NOTE:** For LDAP bind/monitoring/blocking, Affected Object Path is not used
+  :::note
+  For LDAP bind/monitoring/blocking, Affected Object Path is not used
+  :::
+
 
 - Agent: Domain – Active Directory domain where the Agent that monitored/blocked the event is
   deployed

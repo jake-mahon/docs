@@ -31,15 +31,21 @@ Follow the steps to customize a policy that was created from a template.
 [General Tab](/docs/threatprevention/7.4/admin/policies/configuration/general.md)
 select the Active At Specified Times option and then set the schedule.
 
-**CAUTION:** Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
+:::warning
+Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
 being locked down or blocked.
+:::
+
 
 **Step 3 –** On the
 [Event Type Tab](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/overview.md),
 configure the Event Filters that are specific to each environment.
 
-_Remember,_ Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank
+:::tip
+Remember, Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank
 is treated like an "ALL" for that filter set.
+:::
+
 
 **Step 4 –** If desired, on the
 [Actions Tab](/docs/threatprevention/7.4/admin/policies/configuration/actions/overview.md)

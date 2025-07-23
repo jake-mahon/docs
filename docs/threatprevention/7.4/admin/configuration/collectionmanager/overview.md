@@ -51,49 +51,50 @@ Select a collection category and click **Manage…** i to open the
 
 Threat Prevention has the following pre-configured Collections:
 
-| Collection Type       | Name                                                      |
-| --------------------- | --------------------------------------------------------- |
-| Domains and Servers   | SBServers                                                 |
-| Objects               | Administrator Accounts                                    |
-| Objects               | Administrator Groups                                      |
-| Objects               | Sensitive Groups                                          |
-| Objects               | Service Accounts                                          |
-| Perpetrators          | Administrative Accounts                                   |
-| Perpetrators          | Domain Administrators                                     |
-| Perpetrators          | Failed Authentications                                    |
-| Perpetrators          | Service Accounts                                          |
-| Perpetrators          | Successful Authentications                                |
-| Perpetrators          | Successful HIPPAA PHI Account Authentications             |
-| Perpetrators          | System Accounts                                           |
-| Lockdown Perpetrators | Allow Perpetrators                                        |
-| Lockdown Perpetrators | Critical GPO - Allow Perpetrators                         |
-| Lockdown Perpetrators | DNS Records - Allow Perpetrators                          |
-| Lockdown Perpetrators | GPOs - Allow  Perpetrators                                |
-| Lockdown Perpetrators | Group Lockdown - Allow Perpetrators                       |
+| Collection Type       | Name                |
+| --------------------- | ------------------- |
+| Domains and Servers   | SBServers           |
+| Objects               | Administrator Accounts     |
+| Objects               | Administrator Groups       |
+| Objects               | Sensitive Groups           |
+| Objects               | Service Accounts           |
+| Perpetrators          | Administrative Accounts    |
+| Perpetrators          | Domain Administrators      |
+| Perpetrators          | Failed Authentications     |
+| Perpetrators          | Service Accounts           |
+| Perpetrators          | Successful Authentications        |
+| Perpetrators          | Successful HIPPAA PHI Account Authentications     |
+| Perpetrators          | System Accounts            |
+| Lockdown Perpetrators | Allow Perpetrators         |
+| Lockdown Perpetrators | Critical GPO - Allow Perpetrators   |
+| Lockdown Perpetrators | DNS Records - Allow Perpetrators    |
+| Lockdown Perpetrators | GPOs - Allow  Perpetrators          |
+| Lockdown Perpetrators | Group Lockdown - Allow Perpetrators     |
 | Lockdown Perpetrators | Group User OU Object Delete and Move - Allow Perpetrators |
-| Lockdown Perpetrators | Object Permissions - Allow Perpetrators                   |
-| Lockdown Perpetrators | OU Structure - Allow Perpetrators                         |
-| Lockdown Perpetrators | Root Object - Allow Perpetrators                          |
-| Lockdown Perpetrators | User Lockdown - Allow Perpetrators                        |
-| Classes               | Exclude Classes                                           |
-| Classes               | Threat Manager - AD Excluded Classes                      |
-| Attributes            | Exclude Attributes                                        |
-| Attributes            | Exclude User Attributes                                   |
-| Attributes            | Property Set: DNS-Host-Name-Attributes                    |
-| Attributes            | Property Set: Domain-Other-Parameters                     |
-| Attributes            | Property Set: Domain-Password                             |
-| Attributes            | Property Set: General-Information                         |
-| Attributes            | Property Set: Membership                                  |
-| Attributes            | Property Set: Personal-Information                        |
-| Attributes            | Property Set: Private-Information                         |
-| Attributes            | Property Set: Public-Information                          |
-| Attributes            | Property Set: RAS-Information                             |
-| Attributes            | Property Set: Terminal-Server-License-Server              |
-| Attributes            | Property Set: User-Account-Restrictions                   |
-| Attributes            | Property Set: User-Login                                  |
-| Attributes            | Property Set: Web-Information                             |
-| Attributes            | Threat Manager - AD Excluded Attributes                   |
-| Hosts                 | Domain Controllers                                        |
-| Hosts                 | Exchanges Servers                                         |
-| File Paths            | Folders with Sensitive Data. If you                       |
-| File Paths            | Open Shares                                               |
+| Lockdown Perpetrators | Object Permissions - Allow Perpetrators   |
+| Lockdown Perpetrators | OU Structure - Allow Perpetrators     |
+| Lockdown Perpetrators | Root Object - Allow Perpetrators  |
+| Lockdown Perpetrators | User Lockdown - Allow Perpetrators     |
+| Classes               | Exclude Classes          |
+| Classes               | Threat Manager - AD Excluded Classes     |
+| Attributes            | Exclude Attributes           |
+| Attributes            | Exclude User Attributes      |
+| Attributes            | Property Set: DNS-Host-Name-Attributes      |
+| Attributes            | Property Set: Domain-Other-Parameters       |
+| Attributes            | Property Set: Domain-Password               |
+| Attributes            | Property Set: General-Information           |
+| Attributes            | Property Set: Membership          |
+| Attributes            | Property Set: Personal-Information       |
+| Attributes            | Property Set: Private-Information        |
+| Attributes            | Property Set: Public-Information         |
+| Attributes            | Property Set: RAS-Information            |
+| Attributes            | Property Set: Terminal-Server-License-Server       |
+| Attributes            | Property Set: User-Account-Restrictions        |
+| Attributes            | Property Set: User-Login          |
+| Attributes            | Property Set: Web-Information       |
+| Attributes            | Threat Manager - AD Excluded Attributes    |
+| Hosts                 | Domain Controllers           |
+| Hosts                 | Exchanges Servers       |
+| File Paths            | Folders with Sensitive Data. If you     |
+| File Paths            | Open Shares          |
+

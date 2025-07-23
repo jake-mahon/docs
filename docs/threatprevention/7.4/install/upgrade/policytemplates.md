@@ -10,10 +10,13 @@ When new or updated policy templates are available with a Threat Prevention upgr
 automatically imported when you install the latest version. The Import feature can be used to update
 templates and import new templates.
 
-_Remember,_ use these steps when the Templates Update window option was selected as **No** during
+:::tip
+Remember, use these steps when the Templates Update window option was selected as **No** during
 the
 [Upgrade Procedure](/docs/threatprevention/7.4/install/upgrade/overview.md)
 process.
+:::
+
 
 Follow the steps to upgrade policy templates and import new templates.
 
@@ -21,7 +24,7 @@ Follow the steps to upgrade policy templates and import new templates.
 
 **Step 2 –** In the Select Import File field, use the ellipsis (…) to browse to:
 
-…\Netwrix\Netwrix Threat Prevention\SIWinConsole
+**…\Netwrix\Netwrix Threat Prevention\SIWinConsole**
 
 **Step 3 –** To import all new templates, select the **SI_Template_All** XML file. Click **Open**.
 
@@ -37,7 +40,10 @@ Choose between:
 
 **Step 6 –** Check the Apply to All box option to apply the selection to all duplicates found.
 
-**NOTE:** To only import new templates, check the **Apply to All** box and select **Skip**.
+:::note
+To only import new templates, check the **Apply to All** box and select **Skip**.
+:::
+
 
 **Step 7 –** When the Operation Completed message us displayed, click **OK**.
 

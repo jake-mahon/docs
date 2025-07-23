@@ -31,7 +31,10 @@ the environment:
 Prior to deploying the HIBP database, consider the pros and cons when choosing its deployment
 location. It can be deployed on the Threat Prevention Agent and/or the Enterprise Manager machine.
 
-_Remember,_ both the Agent and the Enterprise Manager can be in one environment.
+:::tip
+Remember, both the Agent and the Enterprise Manager can be in one environment.
+:::
+
 
 If the HIBP database is copied to and stored on the Agent:
 
@@ -64,7 +67,10 @@ If the HIBP database is kept only on the Enterprise Manager:
 
 Click **Configuration > EPE Settings** on the menu to open the EPE Settings window.
 
-**NOTE:** The EPE Settings window is only available to Threat Prevention administrators.
+:::note
+The EPE Settings window is only available to Threat Prevention administrators.
+:::
+
 
 ![EPE Settings window](/img/product_docs/threatprevention/7.4/admin/configuration/epesettings.webp)
 
@@ -78,16 +84,22 @@ Manager for the first time. It displays the source from where the database was d
 version, and the number of hashes it contains. It also shows a thumbprint value that changes
 whenever the content of the Hash DB changes.
 
-_Remember,_ the HIBP dataset is updated at random intervals by its publisher. It can go weeks or
+:::tip
+Remember, the HIBP dataset is updated at random intervals by its publisher. It can go weeks or
 even months with no changes.
+:::
+
 
 ### Check for Update Options
 
 The Check for Update options area specifies when the Netwrix website is checked for a new version of
 the HIBP database.
 
-**NOTE:** These options are enabled after the HIBP database has been deployed to Enterprise Manager
+:::note
+These options are enabled after the HIBP database has been deployed to Enterprise Manager
 for the first time.
+:::
+
 
 Configure the following options:
 
@@ -100,7 +112,10 @@ Configure the following options:
   HIBP database. If only this option is selected, then an alert is generated in the Administration
   Console when a new version is detected.
 
-  **NOTE:** This checkbox does not automatically download the new HIBP database version.
+  :::note
+  This checkbox does not automatically download the new HIBP database version.
+  :::
+
 
 - Update pwned DB on new version – Checks the Netwrix website for HIBP updates and then updates the
   Enterprise Manager server if a new version is detected
@@ -113,18 +128,24 @@ intervals.
 Threat Prevention utilizes the Passwords Hash database to check if users’ new and pending password
 (i.e. during a password reset) matches the hash of a compromised password from a data breach.
 
-**NOTE:** First-time configuration of this window requires downloading the HIBP database from the
+:::note
+First-time configuration of this window requires downloading the HIBP database from the
 Netwrix website. If the Administration Console does not have internet access, see the
 [Download and Configure the Have I Been Pwnd Hash List](#download-and-configure-the-have-i-been-pwnd-hash-list)
 topic for instructions.
+:::
 
-**CAUTION:** Ensure the initial update of the database occurs during non-office hours. Due to the
+
+:::warning
+Ensure the initial update of the database occurs during non-office hours. Due to the
 size of the hash file, this download takes up a significant amount of CPU and download time.
+:::
+
 
 - Passwords Hash Database Folder (path on Threat Prevention Server) – Central location of the Pwned
   database on the application server. The default path is:
 
-  …\Netwrix\Netwrix Treat Prevention\SIEnterpriseManager\PwnedStore
+**…\Netwrix\Netwrix Treat Prevention\SIEnterpriseManager\PwnedStore**
 
 - Update Type:
 
@@ -133,10 +154,13 @@ size of the hash file, this download takes up a significant amount of CPU and do
     instead of downloading the full HIBP database. This option is enabled after a full download of
     the HIBP database has completed.
 
-    **NOTE:** Only the full HIBP database file obtained from the Netwrix website has version
+    :::note
+    Only the full HIBP database file obtained from the Netwrix website has version
     information. That full HIBP database file can be obtained using the Website option.
     Alternately, the HIBP database can be obtained outside of the application by downloading it
     directly from the Netwrix website using an FTP connection:
+    :::
+
 
     - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip)
     - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt)
@@ -184,7 +208,10 @@ messages regardless of their location. Supported languages include:
 - Spanish
 - Thai
 
-_Remember,_ the module must be deployed to end user computers.
+:::tip
+Remember, the module must be deployed to end user computers.
+:::
+
 
 The User Feedback Module section has the following checkboxes:
 
@@ -233,8 +260,11 @@ The Password Dictionary window is a global setting used across all EPE policies.
 centralized copy of the dictionary.dat file. This modifiable file contains all compromised
 passwords. You can add, remove, and modify passwords in the list.
 
-_Remember,_ for the password to be rejected, the user pending password must match exactly to a
+:::tip
+Remember, for the password to be rejected, the user pending password must match exactly to a
 password in the Password Dictionary list.
+:::
+
 
 Click the **Modify Passwords Dictionary** button in the Rules area on the EPE Settings window. The
 Password Dictionary window is displayed.
@@ -288,7 +318,10 @@ The Substitutions Editor window is a global setting used across all EPE policies
 substitutions and their associated replacements are stored in this editor as rules (i.e. A = @). The
 Words List Dictionary applies these rules when checking all permutations of a user entered password.
 
-**NOTE:** All entries in the sequence column must be unique.
+:::note
+All entries in the sequence column must be unique.
+:::
+
 
 For example: If “Goal” is added to the Word List Dictionary and A=@ and O=0 are added to the
 substitutions editor, then the pending passwords of “Go@l” and “G0al” will be blocked.
@@ -306,7 +339,10 @@ The Substitutions Editor has the following options:
   installation. Any modifications are discarded.
 - Insert – Displays a custom row for the user to enter Sequence and Replacement values
 
-  **NOTE:** The new row is inserted underneath the current highlighted row.
+  :::note
+  The new row is inserted underneath the current highlighted row.
+  :::
+
 
 - Delete – Removes a single row from the Substitutions Editor list. Only one row can be deleted at a
   time.
@@ -323,15 +359,18 @@ The Pwnd Passwords Downloader is a Dotnet tool used to download all Pwned Passwo
 save them offline so they can be used without a dependency on the k-anonymity API. Use this tool to
 get the latest breached hashes from the Have I Been Pwnd (HIBP) database.
 
-**NOTE:** The
+:::note
+The
 [](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader)[Pwnd Passwords Downloader](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader)
 is a third party, open source tool, created by the HaveIBeenPwned team and distributed under a BSD
 3-Clause License. You might experience issues during the hash download process, depending on your
 threading settings or the load on the CloudFlare backend. The Pwnd Passwords Downloader tool will
 automatically retry to continue downloading the hashes until it fully completes the download
 process.
+:::
 
-Prerequisites
+
+**Prerequisites**
 
 The Pwnd Passwords Downloader has the following prerequisite:
 
@@ -343,7 +382,7 @@ The Pwnd Passwords Downloader has the following prerequisite:
 The Have I Been Pwnd database (HIBP) hashes can take up to 30 GB. Make sure that you have enough
 free space on your disk.
 
-Install the Pwnd Passwords Downloader
+**Install the Pwnd Passwords Downloader**
 
 Follow the steps to install the Pwnd Passwords Downloader.
 
@@ -360,7 +399,7 @@ dotnet tool install --global haveibeenpwned-downloader
 
 **Step 3 –** Close the command prompt.
 
-Update an Installed Pwnd Passwords Downloader
+**Update an Installed Pwnd Passwords Downloader**
 
 Follow the steps to update an installed Pwnd Passwords Downloader.
 
@@ -374,7 +413,7 @@ dotnet tool update --global haveibeenpwned-downloader
 
 ![hibp_installation_1](/img/product_docs/accessanalyzer/11.6/admin/datacollector/passwordsecurity/hibp_installation_1.webp)
 
-Download NTML Hashes with the Pwnd Passwords Downloader
+**Download NTML Hashes with the Pwnd Passwords Downloader**
 
 Follow the steps to download NTLM hashes.
 

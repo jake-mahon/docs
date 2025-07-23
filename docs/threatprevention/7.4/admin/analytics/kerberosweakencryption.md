@@ -10,14 +10,14 @@ The **Kerberos Weak Encryption** analytic type identifies Kerberos tickets with 
 encryption by detecting the use of weak encryption. Various attack methods utilize weak Kerberos
 encryption cyphers, including Overpass-the-Hash.
 
-| Kerberos Weak Encryption |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition               | Kerberos tickets with RC4_HMAC_MD5 encryption.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Example                  | Kerberos tickets are used as a sort of “pass card” to obtain access to resources. Once a domain controller authenticates a user, a TGT (ticket granting ticket) is granted with a limited lifespan. This is then used to obtain TGS (ticket granting service) and the TGS is what identifies a user to a resource on the network. If RC4_HMAC_MD5 encryption is used then it makes possible to obtain password value using Kerberoasting attack. If a user on the network were to attempt to use such a ticket, this analytic would detect this ticket and generate an alert. |
-| Trigger                  | Ticket uses RC4_HMAC_MD5 encryption.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Recommended Settings     | No additional configuration is needed                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Kerberos Weak Encryption |                 |
+| ------------------------ | ---------------- |
+| Definition               | Kerberos tickets with RC4_HMAC_MD5 encryption.      |
+| Example                  | Kerberos tickets are used as a sort of “pass card” to obtain access to resources. Once a domain controller authenticates a user, a TGT (ticket granting ticket) is granted with a limited lifespan. This is then used to obtain TGS (ticket granting service) and the TGS is what identifies a user to a resource on the network. <br />If RC4_HMAC_MD5 encryption is used then it makes possible to obtain password value using Kerberoasting attack. If a user on the network were to attempt to use such a ticket, this analytic would detect this ticket and generate an alert. |
+| Trigger                  | Ticket uses RC4_HMAC_MD5 encryption.     |
+| Recommended Settings     | No additional configuration is needed    |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -41,7 +41,7 @@ The Configure Analytics window has one tab:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Policy Tab
+**Policy Tab**
 
 ![Kerberos Weak Encryption Analytic Type - Policy tab](/img/product_docs/threatprevention/7.4/admin/analytics/policytab.webp)
 
@@ -60,9 +60,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - Scope the servers to be included in or excluded from monitoring on the IP Addresses (from)
     filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
   - *Alternatively:* Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -70,9 +73,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     enabling the analytic on a domain controller, also scope the login type. The Authentication
     Protocol filter is hard coded to ensure the Kerberos protocol is monitored.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional_ – Scope the accounts to include in or exclude from being monitored on the AD
     Perpetrator filter.

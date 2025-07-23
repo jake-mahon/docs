@@ -53,8 +53,11 @@ topic for additional information.
 
 Follow the steps to configure QRadar to receive data from Threat Prevention.
 
-_Remember,_ prior to using the Active Directory app for QRadar, Threat Prevention must be configured
+:::tip
+Remember, prior to using the Active Directory app for QRadar, Threat Prevention must be configured
 to send data to QRadar.
+:::
+
 
 **Step 1 –** Determine the IP address of the QRadar console. If QRadar is hosted on a UNIX machine,
 run `<ifconfig>`. If QRadar is hosted on a Windows machine, run `<ipconfig>`. This IP address is

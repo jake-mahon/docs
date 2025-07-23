@@ -40,8 +40,11 @@ it:
   - [Investigate Interface](/docs/threatprevention/7.4/admin/investigate/overview.md)
     data
 
-**NOTE:** These protections only apply to viewing event data within the Administration Console, and
+:::note
+These protections only apply to viewing event data within the Administration Console, and
 do not carry-over to the Netwrix Threat Manager Reporting Module application.
+:::
+
 
 ## Protect Policies
 
@@ -63,9 +66,12 @@ is displayed.
 **Step 3 –** On the Select User window, select the user to be granted permission on this folder and
 the policies within it.
 
-**NOTE:** Only users with rights assigned in the
+:::note
+Only users with rights assigned in the
 [Users and Roles Window](/docs/threatprevention/7.4/admin/configuration/userroles/overview.md)
 are available in the list.
+:::
+
 
 **Step 4 –** The window closes and the user is displayed in the Permissions list with the View Data
 permission granted by default. To add the Manage Policies permission, check the box for that user.

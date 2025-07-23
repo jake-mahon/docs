@@ -15,10 +15,13 @@ Enterprise Manager is not located. The following PowerShell APIs can be used:
   - Connect-SIEnterpriseManager
 - Informative APIs
 
-  **NOTE:** These APIs do not require any additional configuration. They display Agent status from
+  :::note
+  These APIs do not require any additional configuration. They display Agent status from
   the
   [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
   and a list of available PowerShell APIs the user can utilize.
+  :::
+
 
   - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the
     [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
@@ -62,7 +65,7 @@ The following prerequisites must be met before using the APIs:
   PowerShell. This module is stored in the installation directory within the Enterprise Manager
   folder:
 
-  …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\
+**…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\**
 
   To disallow the use of the PowerShell module, remove the module from the Enterprise Manager
   folder.

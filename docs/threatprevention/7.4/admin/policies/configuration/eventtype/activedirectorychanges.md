@@ -60,10 +60,13 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## AD Context Filter
 
@@ -83,7 +86,7 @@ Collections areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-Sub Tree
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
 
@@ -123,7 +126,7 @@ Collections areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-Attribute, Operator and Value
+**Attribute, Operator and Value**
 
 When an attribute is selected, it is added to the filter and a drop-down menu is displayed in the
 Operation column with **Any Value** selected. You can further scope the attributes to enable the
@@ -154,10 +157,13 @@ When you select another attribute, a new row is added, where you can specify an 
 for that attribute. Each row is treated as an “OR” statement. If any event matches any of the
 attribute filters, then the event data includes all attributes in the list.
 
-**NOTE:** You cannot specify more than one value for an attribute and you cannot select the same
+:::note
+You cannot specify more than one value for an attribute and you cannot select the same
 attribute twice. To use the same attribute again, you have to add the same event type again to the
 policy, select that event type and then select a previously used attribute to include in the Add
 Attributes filter.
+:::
+
 
 When the userAccountControl attribute is included or excluded in the filter, selecting the Any Value
 dropdown opens the
@@ -180,10 +186,13 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -203,12 +212,15 @@ Collections areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
 
-Sub Tree
+
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
 
@@ -232,10 +244,13 @@ Collections areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## Hosts (from) Filter
 
@@ -254,10 +269,13 @@ areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## Success Filter
 

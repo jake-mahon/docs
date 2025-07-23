@@ -9,7 +9,7 @@ sidebar_position: 50
 The **Templates** > **Microsoft** > **Exchange** folder in the Navigation pane contains the
 following templates:
 
-Managed Folders Folder
+**Managed Folders Folder**
 
 | Template                                                  | Description                | TAGS |
 | --------------------------------------------------------- | -------------------------- | ---- |
@@ -17,7 +17,7 @@ Managed Folders Folder
 | EX: Managed Folder Configuration Changes                  | No customizations required | None |
 | EX: Managed Folder Mailbox Policies Configuration Changes | No customizations required | None |
 
-Organization Folder
+**Organization Folder**
 
 | Subfolder     | Template                                             | Description                | TAGS |
 | ------------- | ---------------------------------------------------- | -------------------------- | ---- |
@@ -35,7 +35,7 @@ Organization Folder
 | Mailbox       | EX: Retention Policy Tag Changes                     | No customizations required | None |
 | Mailbox       | EX: Sharing Policy Changes                           | No customizations required | None |
 
-Recipient Folder
+**Recipient Folder**
 
 | Subfolder          | Template                                             | Description                | TAGS |
 | ------------------ | ---------------------------------------------------- | -------------------------- | ---- |
@@ -45,13 +45,13 @@ Recipient Folder
 | Mail Contact       | EX: Mail User Configuration Changes                  | No customizations required | None |
 | Mailbox            | EX: Mailbox Configuration Changes                    | No customizations required | None |
 
-Role Based Access Control Folder
+**Role Based Access Control Folder**
 
 | Template                                      | Description                | TAGS |
 | --------------------------------------------- | -------------------------- | ---- |
 | EX: Administrative Role Configuration Changes | No customizations required | None |
 
-Server Folder
+**Server Folder**
 
 | Subfolder     | Template                                                    | Description                | TAGS |
 | ------------- | ----------------------------------------------------------- | -------------------------- | ---- |

@@ -11,14 +11,14 @@ modified PAC. By manipulating the PAC, a field in the Kerberos ticket that conta
 authorization data (in Active Directory, this is group membership), an attacker is able to grant
 themselves elevated privileges.
 
-| Forged PAC           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition           | Kerberos tickets with modified Privilege Account Certificate (PAC)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Example              | Kerberos tickets are used as a sort of “pass card” to obtain access to resources. Once a domain controller authenticates a user, a TGT (ticket granting ticket) is granted with a limited lifespan. This is then used to obtain TGS (ticket granting service) and the TGS is what identifies a user to a resource on the network. A known vulnerability exists where PAC part of a ticket can be modified to include groups the user is not a member of. If a user on the network were to attempt to use such a ticket, this analytic would detect the altered ticket and generate an alert. |
-| Trigger              | PAC of the ticket contains RIDs that are not TokenGroups attribute.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Recommended Settings | No additional configuration needed                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Forged PAC           |             |
+| -------------------- | ---------------- |
+| Definition           | Kerberos tickets with modified Privilege Account Certificate (PAC)            |
+| Example              | Kerberos tickets are used as a sort of “pass card” to obtain access to resources. Once a domain controller authenticates a user, a TGT (ticket granting ticket) is granted with a limited lifespan. This is then used to obtain TGS (ticket granting service) and the TGS is what identifies a user to a resource on the network. <br />A known vulnerability exists where PAC part of a ticket can be modified to include groups the user is not a member of. If a user on the network were to attempt to use such a ticket, this analytic would detect the altered ticket and generate an alert. |
+| Trigger              | PAC of the ticket contains RIDs that are not TokenGroups attribute.          |
+| Recommended Settings | No additional configuration needed         |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -43,7 +43,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Forged PAC Analytic Type - Settings tab](/img/product_docs/threatprevention/7.4/admin/analytics/forgedpacsettings.webp)
 
@@ -61,7 +61,7 @@ for a mismatch to trigger the incident.
   monitored for modifications.
 - The **Remove** (**x**) button removes the selected item(s) from the incident criteria.
 
-Policy Tab
+**Policy Tab**
 
 ![Forged PAC Analytic Type - Policy tab](/img/product_docs/threatprevention/7.4/admin/analytics/policytab.webp)
 
@@ -80,9 +80,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - Scope the servers to be included in or excluded from monitoring on the IP Addresses (from)
     filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
   - _Alternatively:_ Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -90,9 +93,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     enabling the analytic on a domain controller, also scope the login type. The Authentication
     Protocol filter is hard coded to ensure the Kerberos protocol is monitored.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional:_ Scope the accounts to include in or exclude from being monitored on the AD
     Perpetrator filter.

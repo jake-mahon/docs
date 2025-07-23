@@ -26,21 +26,21 @@ information.
 
 The following firewall settings are required for communication with the Enterprise Manager:
 
-| Communication Direction                                                  | Protocol         | Ports      | Description                                            |
-| ------------------------------------------------------------------------ | ---------------- | ---------- | ------------------------------------------------------ |
-| Inbound Netwrix Threat Prevention Enterprise Manager Agent Communication | gRPC / TCP       | 3741       | Inbound Agent Communication                            |
-| Inbound Netwrix Threat Prevention Enterprise Manager Remote Console      | gRPC / TCP       | 3740       | Inbound Remote Console Communication                   |
-| Outbound Enterprise Manager to SQL Server                                | SQL Client / TCP | 1433       | SQL Server Communication                               |
-| Outbound Enterprise Manager to SQL Server                                | SQL Client / UDP | 1434       | SQL Server Communication                               |
-| Outbound Enterprise Manager to Agents                                    | RPC / TCP        | 135        | WMI enabled (optional): required for Agent Auto Deploy |
-| Outbound Enterprise Manager to Agents                                    | DCOM / TCP       | 1024-65535 | WMI enabled (optional): required for Agent Auto Deploy |
+| Communication Direction          | Protocol         | Ports      | Description          |
+| -------------- | ---------------- | ---------- | ---------- |
+| Inbound Netwrix Threat Prevention Enterprise Manager Agent Communication | gRPC / TCP       | 3741       | Inbound Agent Communication      |
+| Inbound Netwrix Threat Prevention Enterprise Manager Remote Console      | gRPC / TCP       | 3740       | Inbound Remote Console Communication      |
+| Outbound Enterprise Manager to SQL Server        | SQL Client / TCP | 1433       | SQL Server Communication      |
+| Outbound Enterprise Manager to SQL Server       | SQL Client / UDP | 1434       | SQL Server Communication      |
+| Outbound Enterprise Manager to Agents       | RPC / TCP        | 135        | WMI enabled (optional): required for Agent Auto Deploy |
+| Outbound Enterprise Manager to Agents        | DCOM / TCP       | 1024-65535 | WMI enabled (optional): required for Agent Auto Deploy |
 
 ## Agent Firewall Rules
 
 The following firewall settings are required for communication with the Agent:
 
-| Communication Direction                                                | Protocol   | Ports        | Description                               |
-| ---------------------------------------------------------------------- | ---------- | ------------ | ----------------------------------------- |
+| Communication Direction       | Protocol   | Ports        | Description         |
+| ---------------------- | ---------- | ------------ | ---------- |
 | Outbound Netwrix Threat Prevention Windows Agent to Enterprise Manager | gRPC / TCP | 3741         | Outbound Enterprise Manager Communication |
 | Outbound Netwrix Threat Prevention Windows Agent to Threat Manager     | TCP        | 10000, 10001 | Outbound Threat Manager Communication     |
 
@@ -54,8 +54,8 @@ NAS Device Activity Monitoring topic for additional information.
 
 The following firewall settings are required for communication with the Administration Console:
 
-| Communication Direction                      | Protocol   | Ports | Description                               |
-| -------------------------------------------- | ---------- | ----- | ----------------------------------------- |
+| Communication Direction        | Protocol   | Ports | Description          |
+| ------------------- | ---------- | ----- | ----------------- |
 | Administration Console to Enterprise Manager | gRPC / TCP | 3740  | Outbound Enterprise Manager Communication |
 
 ## Remote Admin Console Firewall Rules
@@ -63,8 +63,8 @@ The following firewall settings are required for communication with the Administ
 The following firewall settings are required for communication with the remote Administration
 Console:
 
-| Communication Direction                             | Protocol   | Ports | Description                               |
-| --------------------------------------------------- | ---------- | ----- | ----------------------------------------- |
+| Communication Direction     | Protocol   | Ports | Description        |
+| -------------- | ---------- | ----- | ---------------- |
 | Remote Administration Console to Enterprise Manager | gRPC / TCP | 3740  | Outbound Enterprise Manager Communication |
 
 ## Database Firewall Rules
@@ -77,8 +77,8 @@ the Enterprise Manager and/or the Administration Console.
 :::
 
 
-| Communication Direction          | Protocol         | Ports | Description                              |
-| -------------------------------- | ---------------- | ----- | ---------------------------------------- |
+| Communication Direction          | Protocol         | Ports | Description                   |
+| -------------------------------- | ---------------- | ----- | ----------------------------- |
 | Enterprise Manager to SQL Server | SQL Client / TCP | 1433  | Inbound Enterprise Manager Communication |
 | Enterprise Manager to SQL Server | SQL Client / UDP | 1434  | Inbound Enterprise Manager Communication |
 
@@ -109,21 +109,21 @@ support standard IP Stack operations that are required for the operation of this
 The following firewall settings are required for communication between the Netwrix Threat Manager
 Reporting Module server and Active Directory domain controllers:
 
-| Communication Direction | Protocol | Ports   | Description                                                                                                                   |
-| ----------------------- | -------- | ------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Outbound                | TCP      | 88      | Kerberos-sec                                                                                                                  |
+| Communication Direction | Protocol | Ports   | Description                            |
+| ----------------------- | -------- | ------- | -------------------------------------- |
+| Outbound                | TCP      | 88      | Kerberos-sec                           |
 | Outbound                | TCP      | 135     | The endpoint mapper tells the client which randomly assigned port a service (FRS, AD replication, MAPI, etc.) is listening on |
-| Outbound                | TCP      | 389     | LDAP                                                                                                                          |
-| Outbound                | TCP      | 636     | SSL LDAP                                                                                                                      |
-| Outbound                | TCP      | Various | The port that 135 reports. Used to bulk translate AD object names between formats.(Ephemeral Ports)                           |
+| Outbound                | TCP      | 389     | LDAP                                 |
+| Outbound                | TCP      | 636     | SSL LDAP                             |
+| Outbound                | TCP      | Various | The port that 135 reports. Used to bulk translate AD object names between formats.(Ephemeral Ports)       |
 
 **Database Firewall Rules**
 
 The following firewall settings are required to allow the Netwrix Threat Manager Reporting Module to
 talk to the Threat Prevention SQL database:
 
-| Communication Direction                                            | Protocol         | Ports | Description                                  |
-| ------------------------------------------------------------------ | ---------------- | ----- | -------------------------------------------- |
+| Communication Direction      | Protocol         | Ports | Description                                  |
+| ---------------------- | ---------------- | ----- | -------------------------- |
 | Netwrix Threat Manager Reporting Integration Service to SQL Server | SQL Client / TCP | 1433  | Inbound Netwrix Threat Manager Communication |
 | Netwrix Threat Manager Reporting Integration Service to SQL Server | SQL Client / UDP | 1434  | Inbound Netwrix Threat Manager Communication |
 
@@ -147,9 +147,9 @@ article.
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell device:
 
-| Communication Direction                                    | Protocol | Ports             | Description       |
-| ---------------------------------------------------------- | -------- | ----------------- | ----------------- |
-| Dell Device CEE Server                                     | TCP      | RPC Dynamic Range | CEE Communication |
+| Communication Direction         | Protocol | Ports             | Description       |
+| -------------------------- | -------- | ----------------- | ----------------- |
+| Dell Device CEE Server              | TCP      | RPC Dynamic Range | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
 **Dell Isilon/PowerScale Devices Additional Firewall Rules**
@@ -157,9 +157,9 @@ Monitor Activity Agent server and the target Dell device:
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell Isilon/PowerScale device:
 
-| Communication Direction                                    | Protocol | Ports             | Description       |
-| ---------------------------------------------------------- | -------- | ----------------- | ----------------- |
-| Dell Isilon/PowerScale to CEE Server                       | TCP      | TCP 12228         | CEE Communication |
+| Communication Direction           | Protocol | Ports             | Description       |
+| ------------------------------- | -------- | ----------------- | ----------------- |
+| Dell Isilon/PowerScale to CEE Server         | TCP      | TCP 12228         | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
 **Dell Unity Devices Additional Firewall Rules**
@@ -167,9 +167,9 @@ Monitor Activity Agent server and the target Dell Isilon/PowerScale device:
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell device:
 
-| Communication Direction                                    | Protocol | Ports             | Description       |
-| ---------------------------------------------------------- | -------- | ----------------- | ----------------- |
-| Dell Device CEE Server                                     | TCP      | RPC Dynamic Range | CEE Communication |
+| Communication Direction           | Protocol | Ports             | Description       |
+| ---------------------------- | -------- | ----------------- | ----------------- |
+| Dell Device CEE Server            | TCP      | RPC Dynamic Range | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
 **Nasuni Edge Appliance Additional Firewall Rules**
@@ -191,10 +191,10 @@ Agent server and the target NetApp Data ONTAP 7-Mode device:
 | --------------------------------- | ---------------- | ------------------------------------ | ----------- |
 | Activity Agent Server to NetApp\* | HTTP (optional)  | 80                                   | ONTAPI      |
 | Activity Agent Server to NetApp\* | HTTPS (optional) | 443                                  | ONTAPI      |
-| Activity Agent Server to NetApp   | TCP              | 135, 139 Dynamic Range (49152-65535) | RPC         |
+| Activity Agent Server to NetApp   | TCP              | 135, 139 <br />Dynamic Range (49152-65535) | RPC   |
 | Activity Agent Server to NetApp   | TCP              | 445                                  | SMB         |
 | Activity Agent Server to NetApp   | UDP              | 137, 138                             | RPC         |
-| NetApp to Activity Agent Server   | TCP              | 135, 139 Dynamic Range (49152-65535) | RPC         |
+| NetApp to Activity Agent Server   | TCP              | 135, 139 <br />Dynamic Range (49152-65535) | RPC   |
 | NetApp to Activity Agent Server   | TCP              | 445                                  | SMB         |
 | NetApp to Activity Agent Server   | UDP              | 137, 138                             | RPC         |
 

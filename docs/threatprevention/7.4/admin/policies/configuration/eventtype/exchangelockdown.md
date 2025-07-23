@@ -22,8 +22,11 @@ The event filters for the Exchange Lockdown event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**CAUTION:** Lockdown/blocking policies with blank filters result in everything being locked down or
+:::warning
+Lockdown/blocking policies with blank filters result in everything being locked down or
 blocked.
+:::
+
 
 After enabling an Exchange login blocking policy, mail clients with existing connections to Outlook,
 OWA, PowerShell, EWS, ECP, and ActiveSync will not be blocked while the existing connection remains.
@@ -31,10 +34,13 @@ See the
 [Exchange Lockdown Considerations](/docs/threatprevention/7.4/troubleshooting/exchangelockdown.md)
 topic for information on resolving this.
 
-**NOTE:** There are additional factors to consider in order to block delegations through Outlook.
+:::note
+There are additional factors to consider in order to block delegations through Outlook.
 See the
 [Troubleshooting FAQs](/docs/threatprevention/7.4/troubleshooting/overview.md#troubleshooting-faqs)
 topic for additional information.
+:::
+
 
 ## Exchange Event Filter
 
@@ -179,10 +185,13 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
+
 
 ## Rule Preview Filter
 

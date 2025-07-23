@@ -37,7 +37,7 @@ in the `Get-SICollection` command. The following parameter is required:
 
 Example of a remove collection command:
 
-Remove-SICollection –CollectionID “222”
+**Remove-SICollection –CollectionID “222”**
 
 ## Add or Modify Collections
 
@@ -61,11 +61,11 @@ The following parameter(s) are required:
 
 Example of multiple collection exports that are displayed in the PowerShell Console:
 
-Export-SICollection –CollectionIDs “222,131,44”
+**Export-SICollection –CollectionIDs “222,131,44”**
 
 Example of a single collection export to a file:
 
-Export-SICollection –CollectionIDs “222” >>c:\Import\ExampleExport1.xml
+**Export-SICollection –CollectionIDs “222” >>c:\Import\ExampleExport1.xml**
 
 ### Import Collections from an XML File
 
@@ -85,10 +85,16 @@ against the GUIDs in the XML file. One of the following actions occur:
   XML parameters. It is created with a Threat Prevention system generated GUID and Collection ID;
   the system discards the GUID and Collection ID from the source XML.
 
-**NOTE:** If an existing collection and a new collection in the pending XML import file share the
+:::note
+If an existing collection and a new collection in the pending XML import file share the
 same collection name, an error is displayed and the existing collection remains unchanged.
+:::
 
-**_RECOMMENDED:_** Provide a unique, descriptive name for any new collections.
+
+:::info
+Provide a unique, descriptive name for any new collections.
+:::
+
 
 The following parameter is required:
 
@@ -96,13 +102,15 @@ The following parameter is required:
 
 Example of adding an import XML file:
 
-Import-SICollection –FileName “c:\Import\ExampleImport2.xml”
+**Import-SICollection –FileName “c:\Import\ExampleImport2.xml”**
 
 The API returns as output the CollectionID, GUID, and Collection Name of the collection that has
 been updated or created. If a new collection was created, it is up to the user to capture the
 Collection ID and Collection GUID assigned by Threat Prevention in order to later access that
 collection.
 
-_Remember,_ the Collection ID and Collection GUID are not the same as those in the source XML file.
+:::tip
+Remember, the Collection ID and Collection GUID are not the same as those in the source XML file.
 Use the `Get-SICollection` API call to find the newly created collection and its associated GUID and
 Collection ID by name.
+:::
