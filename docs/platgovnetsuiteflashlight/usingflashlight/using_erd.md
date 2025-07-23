@@ -30,11 +30,11 @@ To access the ERD view:
 4. The left panel displays your selected **Record Type**
 5. Click on any field in the ERD to see:
 
-- **Scriptid**: Displays the record’s Script ID.
-- **Owner**: The current owner of the record.
-- **Data Type**: Displays the NetSuite Object Type.
-- **Last Modified**: Displays the Date Last Modified if available.
-- **Open record**: Opens the customization record.
+    - **Scriptid**: Displays the record’s Script ID.
+    - **Owner**: The current owner of the record.
+    - **Data Type**: Displays the NetSuite Object Type.
+    - **Last Modified**: Displays the Date Last Modified if available.
+    - **Open record**: Opens the customization record.
 
 6. All Workflows, Forms and Scripts joined to the selected record are displayed along with any
    associated metadata.  

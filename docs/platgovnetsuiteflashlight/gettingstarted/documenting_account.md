@@ -51,16 +51,16 @@ how to kick off your first spider:
    on how to use your system documentation to manage your customizations and to keep your account
    running smoothly.
 
-NOTE: During the initial indexing process, you must keep this window open, do not switch roles, do
+:::note
+During the initial indexing process, you must keep this window open, do not switch roles, do
 not switch accounts and do not logout until the gears stop spinning, otherwise the process stops and
 you must restart the spider.  
 Internet connection issues can also interrupt the indexing process. If the indexing continues over
 an hour with no progress, you must restart the spider.
+:::
 
 ## How To Video
 
 Watch this video to see Flashlight in action.
 
-|     |
-| --- |
-|     |
+<iframe width="1031" height="580" src="https://www.youtube.com/embed/R0rjruTWcPY" title="1 Flashlight How to: Kick Off and Updating Documentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

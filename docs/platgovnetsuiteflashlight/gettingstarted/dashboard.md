@@ -131,8 +131,10 @@ added visibility into your account.
 - **New Employees with Unused Logins**: Summarizes the number of Employees in the account that have
   access but have not logged in.
 
-NOTE: If a reminder from the list does not have any detected records, it does not appear on the
+:::note
+If a reminder from the list does not have any detected records, it does not appear on the
 dashboard.
+:::
 
 ## Resources
 
