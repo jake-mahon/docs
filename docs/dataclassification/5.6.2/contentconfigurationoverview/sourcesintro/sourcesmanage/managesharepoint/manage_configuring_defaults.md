@@ -1,5 +1,5 @@
 ---
-title: "Configuring defaults"
+title: "Configuring Defaults"
 description: "Configuring defaults"
 sidebar_position: 40
 ---

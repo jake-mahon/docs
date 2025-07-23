@@ -1,3 +1,9 @@
+---
+title: "Configure Virtual Appliance"
+description: "Configure Virtual Appliance"
+sidebar_position: 60
+---
+
 # Configure Virtual Appliance
 
 Follow the steps below to configure your virtual appliance with Netwrix Data Classification.

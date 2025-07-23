@@ -1,5 +1,5 @@
 ---
-title: "Set Up MIP Integration"
+title: "MIP Labels"
 description: "Set Up MIP Integration"
 sidebar_position: 70
 ---

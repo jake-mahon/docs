@@ -1,3 +1,9 @@
+---
+title: "Virtual Deployment"
+description: "Virtual Deployment"
+sidebar_position: 20
+---
+
 # Virtual Deployment
 
 In addition to traditional on-premises deployment, Netwrix Data Classification now offers new
@@ -31,6 +37,6 @@ and start the Virtual Appliance Download Manager.
 
 Review the following for additional information:
 
-- [Requirements to Deploy Virtual Appliance](/docs/dataclassification/5.6.2/appliance/nvap_system_requirments.md)
-- [Import Virtual Machine from Image to VMware](/docs/dataclassification/5.6.2/appliance/nvap_deploy_vmware.md)
-- [Import Virtual Machine from Image to Hyper-V ](/docs/dataclassification/5.6.2/appliance/nvap_deploy_hyperv.md)
+- [Requirements to Deploy Virtual Appliance](/docs/dataclassification/5.6.2/deployment/appliance/nvap_system_requirments.md)
+- [Import Virtual Machine from Image to VMware](/docs/dataclassification/5.6.2/deployment/appliance/nvap_deploy_vmware.md)
+- [Import Virtual Machine from Image to Hyper-V ](/docs/dataclassification/5.6.2/deployment/appliance/nvap_deploy_hyperv.md)

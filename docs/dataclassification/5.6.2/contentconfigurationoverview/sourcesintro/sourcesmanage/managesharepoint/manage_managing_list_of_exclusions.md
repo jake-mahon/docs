@@ -1,5 +1,5 @@
 ---
-title: "Managing list of exclusions"
+title: "Managing List of Exclusions"
 description: "Managing list of exclusions"
 sidebar_position: 50
 ---

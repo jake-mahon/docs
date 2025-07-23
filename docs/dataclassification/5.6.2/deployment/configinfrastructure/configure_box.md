@@ -1,5 +1,5 @@
 ---
-title: "Configure Box for Crawling"
+title: "Box"
 description: "Configure Box for Crawling"
 sidebar_position: 10
 ---

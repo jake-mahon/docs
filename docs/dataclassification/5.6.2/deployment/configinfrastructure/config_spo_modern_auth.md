@@ -1,5 +1,5 @@
 ---
-title: "Access SharePoint Online using modern authentication"
+title: "SharePoint Online"
 description: "Access SharePoint Online using modern authentication"
 sidebar_position: 60
 ---
