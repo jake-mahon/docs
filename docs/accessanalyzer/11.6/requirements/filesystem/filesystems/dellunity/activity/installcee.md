@@ -9,10 +9,16 @@ sidebar_position: 10
 Dell CEE should be installed on a Windows or a Linux server. The Dell CEE software is not a Netwrix
 product. Dell customers have a support account with Dell to access the download.
 
-_Remember,_ the latest version is the recommended version of Dell CEE.
+:::tip
+Remember, the latest version is the recommended version of Dell CEE.
+:::
 
-**_RECOMMENDED:_** The Dell CEE package can be installed on the Windows server where the Activity
+
+:::info
+The Dell CEE package can be installed on the Windows server where the Activity
 Monitor agent will be deployed (recommended) or on any other Windows or Linux server.
+:::
+
 
 Follow the steps to install the Dell CEE.
 
@@ -26,8 +32,11 @@ guide to install and configure the CEE. The installation will add two services t
 - EMC Checker Service (Display Name: EMC CAVA)
 - EMC CEE Monitor (Display Name: EMC CEE Monitor)
 
-**_RECOMMENDED:_** The latest version of .NET Framework and Dell CEE is recommended to use with the
+:::info
+The latest version of .NET Framework and Dell CEE is recommended to use with the
 asynchronous bulk delivery (VCAPS) feature.
+:::
+
 
 After Dell CEE installation is complete, it is necessary to complete the
 [Unity Initial Setup with Unisphere](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellunity/activity/setupunisphere.md).
@@ -44,7 +53,7 @@ manually set the Dell CEE registry key to forward events.
 
 **Step 2 –** Navigate to following location:
 
-HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration
+**HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration**
 
 **Step 3 –** Right-click on **Enabled** and select Modify. The Edit DWORD Value window opens.
 
@@ -56,11 +65,11 @@ window closes.
 **Step 6 –** In the Value data field, enter the StealthAUDIT value with the IP Address for the
 Windows proxy server hosting the Activity Monitor activity agent. Use the following format:
 
-StealthAUDIT@[IP ADDRESS]
+**StealthAUDIT@[IP ADDRESS]**
 
 Examples:
 
-StealthAUDIT@192.168.30.15
+**StealthAUDIT@192.168.30.15**
 
 **Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
 

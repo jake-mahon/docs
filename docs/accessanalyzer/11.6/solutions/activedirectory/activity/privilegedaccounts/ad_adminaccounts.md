@@ -13,8 +13,11 @@ The AD_AdminAccounts Job shows all actions taken by domain administrators within
 Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **Privileged Accounts** >
 **AD_AdminAccounts** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_AdminAccounts Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/adminaccountsanalysis.webp)
 
@@ -30,10 +33,11 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AD_AdminAccounts Job produces the
 follow pre-configured reports:
 
-| Report                | Description                                                                                                   | Default Tags                                               | Report Elements                                                                                                                                                                               |
-| --------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Admin Activity        | Highlights administrative account activity events.                                                            | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: - Bar Chart– Displays least active administrators - Table – Displays administrative user activity details                                           |
-| Admin Authentications | Authenticating from many different clients increases the risk of Administrator credentials being compromised. | GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001      | This report is comprised of three elements: - Bar Chart – Displays the top admin accounts by client usage - Table – Displays all client usage - Table – Displays administrator authentication |
+| Report                | Description                                                                                                   | Default Tags                                               | Report Elements                                                                                                                                                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Admin Activity        | Highlights administrative account activity events.                                                            | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Bar Chart– Displays least active administrators</li><li>Table – Displays administrative user activity details</li></ul>                                                 |
+| Admin Authentications | Authenticating from many different clients increases the risk of Administrator credentials being compromised. | GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001      | This report is comprised of three elements: <ul><li>Bar Chart – Displays the top admin accounts by client usage</li><li>Table – Displays all client usage</li><li>Table – Displays administrator authentication</li></ul> |
+
 
 ### Configure the Summarize Administrative Account Activity Analysis Task
 
@@ -49,7 +53,10 @@ the bottom of the SQL Script Editor. Follow the steps to customize an analysis t
 **Step 2 –** In the Analysis Selection view, select the **Summarizes Administrative Account
 Activity** analysis task and click **Analysis Configuration**. The SQL Script Editor opens.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 ![Summarizes Administrative Account Activity analysis task in the SQL Script Editor](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/adminaccountssqlscripteditor.webp)
 

@@ -13,8 +13,11 @@ The SQL_DatabaseSizing Job provides details on database file sizes and overall d
 Navigate to the **Databases** > Jobs > SQL > 4.Configuration > SQL_DatabaseSizing Job >Configure
 node and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/analysistask.webp)
 
@@ -26,6 +29,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the **SQL_DatabaseSizing Job** produces the
 following preconfigured report:
 
-| Report          | Description                                                | Default Tags | Report Elements                                                                                                                                                                                                                       |
-| --------------- | ---------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Database Sizing | This report provides details on database files and sizing. | None         | This report is comprised of three elements: - Bar Chart – Provides information on the top five databases by size (MB) - Bar Chart – Provides information on database sizes by host (GB) - Table – Provides details on database sizing |
+| Report          | Description                                                | Default Tags | Report Elements                                                                                                                                                                                                                                                   |
+| --------------- | ---------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Database Sizing | This report provides details on database files and sizing. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on the top five databases by size (MB)</li><li>Bar Chart – Provides information on database sizes by host (GB)</li><li>Table – Provides details on database sizing</li></ul> |
+

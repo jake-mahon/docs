@@ -16,8 +16,11 @@ versus SQL server authentication.
 Navigate to the **Databases** > SQL > 4.Configuration > SQL_Authentication > Configure node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/sqljobgroup43.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the SQL_Authentication Job
 produces the following pre-configured report.
 
-| Report              | Description                                                                                                                                                                                                                                                                                                                                                                 | Default Tags | Report Elements                                                                                                                                                     |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SQL  Authentication | This report identifies authentication settings on the targeted servers, and highlights those with SQL Authentication enabled. Additionally, the number of SQL logins on a given instance, and whether or not the 'sa' login exists, are indicated. Best practices recommend that SQL instances be integrated login only, and that the 'sa' principal be renamed or removed. | None         | This report is comprised of two elements: - Pie Chart – Displays instances with integrated security only - Table – Displays integrated security details by instance |
+| Report              | Description                                                                                                                                                                                                                                                                                                                                                                 | Default Tags | Report Elements                                                                                                                                                                           |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SQL  Authentication | This report identifies authentication settings on the targeted servers, and highlights those with SQL Authentication enabled. Additionally, the number of SQL logins on a given instance, and whether or not the 'sa' login exists, are indicated. Best practices recommend that SQL instances be integrated login only, and that the 'sa' principal be renamed or removed. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays instances with integrated security only</li><li>Table – Displays integrated security details by instance</li></ul> |
+

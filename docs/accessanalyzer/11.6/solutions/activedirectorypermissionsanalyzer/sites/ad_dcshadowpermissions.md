@@ -14,8 +14,11 @@ performing a DCShadow attack within the targeted domains.
 Navigate to the **Active Directory Permissions Analyzer** > **9.Sites** >
 **AD_DCShadowPermissions** > **Configure** node and select **Analysis** to view analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_DCShadowPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/sites/dcshadowpermissionsanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_DCShadowPermisssions Job
 produces the following pre-configured report.
 
-| Report               | Description                                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                    |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| DCShadow Permissions | This report highlights permissions applied to Site objects and Computer objects in Active Directory required to execute the DCShadow attack. By default this report excludes members of administrator groups such as Domain Admins, Schema Admins, and Enterprise Admins. | None         | This report is comprised of three elements: - Bar Chart – Displays top users by computer count - Table – Provides details on top users by computer count - Table – Provides details on DCShadow permission details |
+| Report               | Description                                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DCShadow Permissions | This report highlights permissions applied to Site objects and Computer objects in Active Directory required to execute the DCShadow attack. By default this report excludes members of administrator groups such as Domain Admins, Schema Admins, and Enterprise Admins. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by computer count</li><li>Table – Provides details on top users by computer count</li><li>Table – Provides details on DCShadow permission details</li></ul> |
+

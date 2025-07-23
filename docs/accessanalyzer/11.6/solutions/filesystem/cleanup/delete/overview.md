@@ -20,7 +20,7 @@ This job group includes the following jobs:
   – Designed to report on deleted resources from targeted file servers that were deleted from the
   DeleteFiles job
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow for using the job group:
 

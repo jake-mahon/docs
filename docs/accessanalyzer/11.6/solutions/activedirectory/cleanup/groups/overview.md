@@ -33,7 +33,7 @@ The jobs in the 1.Groups Job Group are:
       provisioned inside the environment. This overwrites the Notes field with data from Enterprise
       Auditor.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure the following prerequisites are met:
 

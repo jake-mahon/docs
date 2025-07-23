@@ -18,7 +18,10 @@ navigation pane.
 
 The options at the top of the Configuration Pane are:
 
-**NOTE:** Configuration settings for System Criteria cannot be modified.
+:::note
+Configuration settings for System Criteria cannot be modified.
+:::
+
 
 - Navigation Path – Displays information on the current location within the Sensitive Data Criteria
   Editor
@@ -50,7 +53,10 @@ The options at the top of the Configuration Pane are:
 
 The options at the bottom of the configuration pane are:
 
-**NOTE:** Configuration settings for System Criteria cannot be modified.
+:::note
+Configuration settings for System Criteria cannot be modified.
+:::
+
 
 - Add – Add a sub-criteria to the required matched criteria list. The three types of sub-criteria
   that can be added are **Keyword**, **Pattern**, and **Summary**. See the following topics for
@@ -69,8 +75,11 @@ The options at the bottom of the configuration pane are:
     - The maximum value is the number of sensitive data sub-criteria that has been added to the
       required matched criteria list
 
-    **CAUTION:** The character distance feature does not account for summaries that are nested
+    :::warning
+    The character distance feature does not account for summaries that are nested
     within other summaries.
+    :::
+
 
 - Matches should be within this proximity of characters – Match hits for this criteria should be
   within this many characters of one another in order for there to be a match. Adjust the slider to

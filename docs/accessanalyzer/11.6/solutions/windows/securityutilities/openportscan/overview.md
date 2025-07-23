@@ -12,8 +12,11 @@ executing a netstat command on the target hosts and collecting the results for r
 
 ![OpenPortScan Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/openportscan/openportscanjobstree.webp)
 
-_Remember,_ both jobs need to be assigned the same host list under the Host List Assignments node in
+:::tip
+Remember, both jobs need to be assigned the same host list under the Host List Assignments node in
 the OpenPortScan job group’s settings.
+:::
+
 
 The jobs in the OpenPortScan job group are:
 

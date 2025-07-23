@@ -14,7 +14,10 @@ different password policies within a single domain.
 
 The AD_PasswordPolicies Job uses the LDAP Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/passwordpoliciesquery.webp)
 
@@ -32,8 +35,11 @@ The query for this job is:
 Navigate to the **Active Directory** > **4.GroupPolicy** > **AD_PasswordPolicies** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/passwordpoliciesanalysis.webp)
 
@@ -45,6 +51,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_UserDelegation Job produces
 the following pre-configured report:
 
-| Report                         | Description                                                                               | Default Tags | Report Elements                                                                                             |
-| ------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------- |
-| Fine-Grained Password Policies | This report highlights fine-grained password policies on all targeted domain controllers. | None         | This report is comprised of one element: - Table – Provides details on fine-grained password policy details |
+| Report                         | Description                                                                               | Default Tags | Report Elements                                                                                                             |
+| ------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Fine-Grained Password Policies | This report highlights fine-grained password policies on all targeted domain controllers. | None         | This report is comprised of one element: <ul><li>Table – Provides details on fine-grained password policy details</li></ul> |
+

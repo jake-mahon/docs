@@ -9,8 +9,11 @@ sidebar_position: 30
 The 2-Dropbox_Permissions Bulk Import job imports the data collected by the 1-Dropbox _Permissions
 Scan job to the Enterprise Auditor database for use by the analysis tasks.
 
-**CAUTION:** This job should not be run if running sensitive data scans against the Dropbox Business
+:::warning
+This job should not be run if running sensitive data scans against the Dropbox Business
 environment.
+:::
+
 
 ## Queries for the 2-Dropbox_Permissions Bulk Import Job
 

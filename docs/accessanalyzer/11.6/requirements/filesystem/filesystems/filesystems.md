@@ -14,29 +14,35 @@ Monitoring (FSAC), and Sensitive Data Discovery Auditing scans. The Activity Mon
 also require an additional application, either Netwrix Activity Monitor or Netwrix Threat
 Prevention, to monitor the target environment.
 
-**NOTE:** Access Auditing and Sensitive Data Discovery Auditing support CIFS and NFSv3.
+:::note
+Access Auditing and Sensitive Data Discovery Auditing support CIFS and NFSv3.
+:::
+
 
 Ports and permissions vary based on the scan mode option selected as well as the target environment.
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
 - [ADInventory Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/adinventory/overview.md)
 - [FileSystemAccess Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/overview.md)
 
-Permissions and Ports for ADInventory Data Collector Prerequisite
+**Permissions and Ports for ADInventory Data Collector Prerequisite**
 
 The following permissions are needed:
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 The following firewall ports are needed:
 
@@ -44,7 +50,7 @@ The following firewall ports are needed:
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions and Ports for FileSystemAccess Data Collector
+**Permissions and Ports for FileSystemAccess Data Collector**
 
 - Permissions vary based on the Scan Mode Option selected. See the File System Supported Platforms
   topic for additional information.
@@ -61,11 +67,11 @@ See the
 [Windows File Server Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/windowsfile/overview.md)
 topic for target environment requirements.
 
-Windows File System Clusters
+**Windows File System Clusters**
 
 See the topic for target environment requirements.
 
-Windows File System DFS Namespaces
+**Windows File System DFS Namespaces**
 
 See the topic for target environment requirements.
 
@@ -73,7 +79,7 @@ See the topic for target environment requirements.
 
 The following are supported Network Attached Storage (NAS) devices.
 
-Dell Celerra® & VNX
+**Dell Celerra® & VNX**
 
 - Celerra 6.0+
 - VNX 7.1
@@ -83,7 +89,7 @@ See the
 [Dell Celerra & Dell VNX Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellcelerravnx/overview.md)
 topic for target environment requirements.
 
-Dell Isilon/PowerScale
+**Dell Isilon/PowerScale**
 
 - 7.0+
 
@@ -91,13 +97,13 @@ See the
 [Dell Isilon/PowerScale Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellpowerscale/overview.md)
 topic for target environment requirements.
 
-Dell Unity
+**Dell Unity**
 
 See the
 [Dell Unity Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/dellunity/overview.md)
 topic for target environment requirements.
 
-Hitachi
+**Hitachi**
 
 - 11.2+
 
@@ -105,7 +111,7 @@ See the
 [Hitachi Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/hitachi/overview.md)
 topic for target environment requirements.
 
-Nasuni Nasuni Edge Appliances
+**Nasuni Nasuni Edge Appliances**
 
 - 8.0+
 
@@ -113,25 +119,28 @@ See the
 [Nasuni Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/nasuni/overview.md) topic
 for target environment requirements.
 
-NetApp Data ONTAP
+**NetApp Data ONTAP**
 
 - 7-Mode 7.3+
 - Cluster-Mode 8.2+
 
-    **NOTE:** The Resiliency feature introduced in ONTAP 9.0 is not supported.
+    :::note
+    The Resiliency feature introduced in ONTAP 9.0 is not supported.
+    :::
+
 
 See the following topics for target environment requirements:
 
 - [NetApp Data ONTAP Cluster-Mode Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/netappcmode/overview.md)
 - [NetApp Data ONTAP 7-Mode Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/netapp7mode/overview.md)
 
-Nutanix
+**Nutanix**
 
 See the
 [Nutanix Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/nutanix/overview.md)
 topic for target environment requirements.
 
-Qumulo
+**Qumulo**
 
 - Qumulo Core 5.0.0.1B+
 

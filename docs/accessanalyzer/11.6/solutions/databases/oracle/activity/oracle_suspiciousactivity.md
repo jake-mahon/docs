@@ -14,8 +14,11 @@ user activity that does not conform to normal database activity.
 Navigate to the **Oracle** > **2.Activity** > **Oracle_SuspiciousActivity** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup31.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_SuspiciousActivity Job
 produces the following pre-configured report.
 
-| Report              | Description                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                             |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Suspicious Activity | This report highlights the number of suspicious events found per instance as well as provides the details about those events | None         | This report is comprised of three elements: - Bar Chart – Displays suspicious activity by instance - Table –  Provides details on suspicious activity by instance - Table – Provides details on suspicious activity details |
+| Report              | Description                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                         |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Suspicious Activity | This report highlights the number of suspicious events found per instance as well as provides the details about those events | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays suspicious activity by instance</li><li>Table –  Provides details on suspicious activity by instance</li><li>Table – Provides details on suspicious activity details</li></ul> |
+

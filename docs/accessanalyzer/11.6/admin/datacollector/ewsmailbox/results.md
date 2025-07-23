@@ -16,7 +16,10 @@ Select criteria using the following options:
 - Select the checkbox of any property to include it in the summary. All selected properties will be
   gathered.
 
-    **NOTE:** Available properties vary based on the category selected.
+    :::note
+    Available properties vary based on the category selected.
+    :::
+
 
 - Click **Select All** to select all properties
 - Click **Clear All** to clear all selected properties

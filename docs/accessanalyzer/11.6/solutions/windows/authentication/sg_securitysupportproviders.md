@@ -13,7 +13,10 @@ highlighting potentially malicious SSPs.
 
 The SG_SecuritySupportProviders job uses the Registry Data Collector for the following queries:
 
-**CAUTION:** The queries are preconfigured for this job. Never modify the queries.
+:::warning
+The queries are preconfigured for this job. Never modify the queries.
+:::
+
 
 ![Queries for the SG_SecuritySupportProviders Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/securitysupportprovidersqueries.webp)
 
@@ -27,8 +30,11 @@ The queries for the SG_SecuritySupportProviders job are:
 Navigate to the **Windows** > **Authentication** > **SG_SecuritySupportProviders** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_SecuritySupportProviders Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/securitysupportprovidersanalysis.webp)
 
@@ -51,6 +57,7 @@ The optional analysis tasks are:
 In addition to the tables created by the data collector, the SG_SecuritySupportProviders job
 produces the following pre-configured report.
 
-| Report                     | Description                                                                           | Default Tags | Report Elements                                                                                                                                                               |
-| -------------------------- | ------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Security Support Providers | This report lists non-standard security support providers in the audited environment. | None         | This report is comprised of two elements: - Pie Chart – Displays malicious security support providers by host - Table – Provides malicious security support providers details |
+| Report                     | Description                                                                           | Default Tags | Report Elements                                                                                                                                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Security Support Providers | This report lists non-standard security support providers in the audited environment. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays malicious security support providers by host</li><li>Table – Provides malicious security support providers details</li></ul> |
+

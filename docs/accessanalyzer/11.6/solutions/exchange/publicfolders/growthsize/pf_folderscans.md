@@ -33,8 +33,11 @@ The following query is included in the PF_FolderScans Job:
 View the analysis task by navigating to the **Exchange** > **5. Public Folders** > **Growth and
 Size** > **Collection** > **PF_FolderScans** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_FolderScans Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/growthsize/folderscansanalysis.webp)
 

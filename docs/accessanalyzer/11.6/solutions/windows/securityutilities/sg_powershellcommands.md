@@ -13,8 +13,11 @@ of commands considered can be customized by configuring the Check PowerShell Log
 
 The SG_PowerShellCommands job uses the SmartLog Data Collector for the following queries:
 
-**CAUTION:** The Check PowerShell Operations log query is preconfigured for this job. Never modify
+:::warning
+The Check PowerShell Operations log query is preconfigured for this job. Never modify
 the query.
+:::
+
 
 ![Queries for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsqueries.webp)
 
@@ -61,8 +64,11 @@ The Check PowerShell log query has now been saved with the new conditions.
 View the analysis tasks by navigating to the **Windows** > **Security Utilities** >
 **SG_PowerShellCommands** > **Configure** node and selecting **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsanalysis.webp)
 
@@ -84,9 +90,10 @@ The optional analysis tasks is:
 In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes job produces
 the following pre-configured report.
 
-| Report                         | Description                                                                                                       | Default Tags | Report Elements                                                                                                                                                                             |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Suspicious PowerShell Commands | This report highlights instances where suspicious PowerShell commands have been found in a host's PowerShell log. | None         | This report is comprised of three elements: - Bar Chart – Displays suspicious commands by host - Table – Provides details on suspicious commands by host - Table – Provides command details |
+| Report                         | Description                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                         |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Suspicious PowerShell Commands | This report highlights instances where suspicious PowerShell commands have been found in a host's PowerShell log. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays suspicious commands by host</li><li>Table – Provides details on suspicious commands by host</li><li>Table – Provides command details</li></ul> |
+
 
 ### Configure the Notify on Suspicious Commands Analysis Task
 

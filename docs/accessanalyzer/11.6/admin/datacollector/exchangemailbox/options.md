@@ -18,7 +18,10 @@ the following categories:
 
 The following options can be configured:
 
-**NOTE:** Options available vary based upon the category selected.
+:::note
+Options available vary based upon the category selected.
+:::
+
 
 - Message size units:
 

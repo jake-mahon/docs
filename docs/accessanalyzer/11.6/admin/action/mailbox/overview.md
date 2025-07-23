@@ -9,8 +9,11 @@ sidebar_position: 40
 The Mailbox action module allows you to perform bulk operations on Microsoft Exchange mailboxes, for
 example deleting mailbox content and modifying permissions and delegates.
 
-**CAUTION:** This action module can add, change, or remove permissions and delegates from an
+:::warning
+This action module can add, change, or remove permissions and delegates from an
 environment. Always verify the data and target mailboxes prior to executing any action.
+:::
+
 
 ## Mailbox Action Source Table Configuration
 

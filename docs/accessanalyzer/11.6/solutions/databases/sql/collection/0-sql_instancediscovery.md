@@ -23,8 +23,11 @@ The 0-SQL_InstanceDiscovery job uses the SQL Data Collector for the following qu
 Navigate to the **Databases** > **0.Collection** > **SQL** > **0-SQL_InstanceDiscovery** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/instancedisc_analysis.webp)
 

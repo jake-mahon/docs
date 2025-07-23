@@ -9,7 +9,7 @@ sidebar_position: 80
 The 5.Sensitive Data Job Group provides information on where sensitive data exists, and who has
 access to that sensitive data, across all targeted SQL and Azure SQL server databases.
 
-Special Dependency for Data Collection
+**Special Dependency for Data Collection**
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 

@@ -14,12 +14,18 @@ and to configure the operations performed against the selected folders.
 Prior to configuring the Pubic Folder Action Module Wizard, scope the source data table to ensure
 the actions apply only to the desired folders.
 
-**CAUTION:** Be careful when using this action module. Make sure that only the changes required are
+:::warning
+Be careful when using this action module. Make sure that only the changes required are
 applied and only to those target folders desired. Always verify the data prior to execution of any
 action.
+:::
 
-**_RECOMMENDED:_** Although rollbacks for some actions are available, having to use one should be
+
+:::info
+Although rollbacks for some actions are available, having to use one should be
 avoided
+:::
+
 
 ## Configuration
 

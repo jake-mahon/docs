@@ -14,5 +14,8 @@ The configurable option is:
 
 - Please select a data source – Select a data source table from the list
 
-    **NOTE:** The selectable data sources change based on which option is selected on the Input
+    :::note
+    The selectable data sources change based on which option is selected on the Input
     Scope page.
+    
+    :::

@@ -15,9 +15,12 @@ Navigate to the **.Entra ID Inventory** > **2-AAD_Exceptions** > **Configure** n
 **Analysis**. Analysis tasks with configuration parameters that define security concerns can be
 modified.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and not be
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified and not be
 deselected. There are a few which are deselected by default, as they are for troubleshooting
 purposes.
+:::
+
 
 ![Analysis Tasks for 2-AAD_Exceptions Job](/img/product_docs/accessanalyzer/11.6/solutions/entraidinventory/exceptionsanalysistasks.webp)
 
@@ -89,8 +92,11 @@ group objects during this job’s analysis. The parameters can be customized and
 section at the bottom of the SQL Script Editor. Follow the steps to customize an analysis task’s
 parameters.
 
-**CAUTION:** Modifying these parameters affects solutions with .Entra ID Inventory Job Group
+:::warning
+Modifying these parameters affects solutions with .Entra ID Inventory Job Group
 dependency.
+:::
+
 
 **Step 1 –** Navigate to the **.Entra ID Inventory** > **2-AAD_Exceptions** > **Configure** node and
 select **Analysis**.
@@ -106,7 +112,10 @@ Configuration**. The SQL Script Editor opens.
 
 **Step 4 –** Double-click in a field in the Value column and enter a custom value.
 
-**CAUTION:** Do not change any parameters where the Value states **Created during execution**.
+:::warning
+Do not change any parameters where the Value states **Created during execution**.
+:::
+
 
 **Step 5 –** Click **Save and Close** to finalize the customization and close the SQL Script Editor.
 

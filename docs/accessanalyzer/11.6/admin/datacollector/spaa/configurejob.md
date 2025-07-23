@@ -90,10 +90,13 @@ Create a Connection Profile and set the following information on the User Creden
     C:\Program Files
     (x86)\STEALTHbits\StealthAUDIT\PrivateAssemblies\spaa_cert_myorg.pfx,PasswordGoesHere,0
 
-    **NOTE:** `PasswordGoesHere` should be replaced with the password used when generating the
+    :::note
+    `PasswordGoesHere` should be replaced with the password used when generating the
     self-signed X.509 certificate if the Microsoft Entra ID Application was Registered and
     Provisioned manually or the $appPassword parameter used in the SP_RegisterAzureAppAuth Instant
     Job if that method was used.
+    :::
+
 
 Once the Connection Profile is created, it is time to create the custom host list. See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)

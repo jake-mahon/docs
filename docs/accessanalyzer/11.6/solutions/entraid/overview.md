@@ -11,17 +11,17 @@ regarding Microsoft Entra ID configuration, operational management, and trouble
 within this group help pinpoint potential areas of administrative and security concerns related to
 Microsoft Entra ID users and groups, including syncing with on-premises Active Directory.
 
-Supported Platforms
+**Supported Platforms**
 
 - Microsoft Entra ID (formerly Azure AD)
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/requirements/entraid/entraid/overview.md)
 topic for additional information.
 
-Location
+**Location**
 
 The Entra ID Solution requires a special Enterprise Auditor license. It can be installed from the
 Instant Job Wizard, see the

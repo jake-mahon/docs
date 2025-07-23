@@ -15,8 +15,11 @@ days.
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_Deletions** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Deletions Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/deletionsanalysis.webp)
 
@@ -29,6 +32,7 @@ The following analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the Box_Deletions Job produces the
 following pre-configured report:
 
-| Report                                      | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                     |
-| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| File and Folder Deletions (Deletion Events) | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: - Line Chart – Displays last 30 days of deletions - Table – Provides details on deletions |
+| Report                                      | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                                           |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| File and Folder Deletions (Deletion Events) | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays last 30 days of deletions</li><li>Table – Provides details on deletions</li></ul> |
+

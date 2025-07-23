@@ -34,8 +34,11 @@ Remove, or Not Sensitive column. Your selection is indicated by a yellow checkma
 - Not Sensitive – Recommend that the file does not contain sensitive data for the designated
   criteria
 
-_Remember,_ at any time you can save your recommendations and exit the review. It will remain
+:::tip
+Remember, at any time you can save your recommendations and exit the review. It will remain
 pending until you submit all recommendations for this resource.
+:::
+
 
 **Step 3 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
@@ -46,8 +49,11 @@ tab opens in the Resource Review page.
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave
 notes explaining why the change is recommended.
 
-**NOTE:** To make changes to your recommendations, you must return to the first tab. Click
+:::note
+To make changes to your recommendations, you must return to the first tab. Click
 **Previous**.
+:::
+
 
 **Step 5 –** When all recommendations are confirmed and the desire notes added, click **Submit**. A
 message displays stating that the review is complete. Click **OK** to close the message window.

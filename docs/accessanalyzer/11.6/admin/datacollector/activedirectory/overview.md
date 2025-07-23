@@ -12,19 +12,19 @@ available with a special Enterprise Auditor license. See the
 [Active Directory Solution](/docs/accessanalyzer/11.6/solutions/activedirectory/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - ADSI
 - LDAP
 - RPC
 
-Ports
+**Ports**
 
 - TCP 389/636
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group
 

@@ -15,8 +15,11 @@ maintaining, and securing SQL and Azure SQL servers.
 Navigate to the **Databases** > SQL > 4.Configuration > SQL_BestPractices > Configure node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/sqljobgroup44.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_BestPractices Job
 produces the following pre-configured report:
 
-| Report                    | Description                                                                             | Default Tags | Report Elements                                                                                                                                                         |
-| ------------------------- | --------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SQL Server Best Practices | Evaluates settings on SQL and Azure SQL Instances and Databases for SQL Best Practices. | None         | This report is comprised of three elements: - Pie Chart – Displays best practice adherence - Table– Displays configuration settings - Table – Displays instance summary |
+| Report                    | Description                                                                             | Default Tags | Report Elements                                                                                                                                                                                     |
+| ------------------------- | --------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SQL Server Best Practices | Evaluates settings on SQL and Azure SQL Instances and Databases for SQL Best Practices. | None         | This report is comprised of three elements: <ul><li>Pie Chart – Displays best practice adherence</li><li>Table– Displays configuration settings</li><li>Table – Displays instance summary</li></ul> |
+

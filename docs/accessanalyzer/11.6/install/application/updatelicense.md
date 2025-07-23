@@ -51,7 +51,7 @@ When the path to the file is visible in the text box, click **Next**. The licens
 license. It also displays the name of the organization which owns the license, the expiration date,
 and the host limit. These are the features that will be installed. Click **Next**.
 
-![Setup Wizard Ready to change page](/img/product_docs/accessanalyzer/11.6/install/application/ready.webp)
+![Setup Wizard Ready to change page](/img/product_docs/accessanalyzer/11.6/install/application/ready_1.webp)
 
 **Step 7 –** On the Ready to Change Enterprise Auditor page, click **Change** to begin the update.
 

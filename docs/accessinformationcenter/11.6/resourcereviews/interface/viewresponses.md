@@ -11,7 +11,7 @@ The View Responses window opens from the **View Response** button on the
 of the Resource Reviews interface. It displays all owner-recommended changes and notes for the
 selected resource.
 
-![View Responses window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/viewresponses.webp)
+![View Responses window](/img/product_docs/accessinformationcenter/11.6/resourcereviews/viewresponses.webp)
 
 The information displayed in the table includes:
 
@@ -32,9 +32,12 @@ owner-recommended changes. If deselected, all items included in the review are d
 selecting the items with no changes in the grid, the change buttons at the bottom of the page are
 disabled.
 
-**CAUTION:** If the Access Information Center has been configured to commit Active Directory
+:::warning
+If the Access Information Center has been configured to commit Active Directory
 changes, clicking **Accept** will commit the changes if all prerequisite for the review type have
 been met.
+:::
+
 
 If the Access Information Center has been configured to commit Active Directory changes, the icon at
 the front of the Item Reviewed column is yellow. The selected action is automatically committed
@@ -59,7 +62,7 @@ for additional information.
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:
 
-![viewresponsesbuttons](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/viewresponsesbuttons.webp)
+![viewresponsesbuttons](/img/product_docs/accessinformationcenter/11.6/resourcereviews/window/viewresponsesbuttons.webp)
 
 | Button     | Description                                                                                                                                                                                                                                                                          |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

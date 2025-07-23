@@ -9,8 +9,11 @@ sidebar_position: 10
 The AnyID_CSV job imports a list of identities and attributes from a CSV file. Use this when a
 native integration may not be available, or an export is the best option.
 
-**_RECOMMENDED:_** Copy the CSV file to the Enterprise Auditor Console for the best import
+:::info
+Copy the CSV file to the Enterprise Auditor Console for the best import
 performance.
+:::
+
 
 ![AnyID_CSV Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/anyid/csvjoblocation.webp)
 
@@ -20,43 +23,43 @@ The AnyID_CSV job is located in the **Jobs** > **AnyID Connectors** job group.
 
 The following are recommended configurations for the AnyID_CSV job:
 
-Dependencies
+**Dependencies**
 
 None
 
-Targeted Host
+**Targeted Host**
 
 Local Host
 
-Connection Profile
+**Connection Profile**
 
 The AnyID_CSV job does not require a connection profile.
 
-History Retention
+**History Retention**
 
 Default Retention Period. See the
 [History](/docs/accessanalyzer/11.6/admin/settings/history.md) topic
 for additional information.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
 Schedule the job as required.
 
-Query Configuration
+**Query Configuration**
 
 This job contains configurable queries. See the
 [Configure the AnyID_CSV Query](#configure-the-anyid_csvquery) topic for additional information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 See the [Analysis Tasks for the AnyID_CSV Job](#analysis-tasks-for-the-anyid_csvjob) topic for
 additional information.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Prepare a CSV file for import.
 
@@ -102,7 +105,10 @@ Wizard opens.
 **Step 5 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. Configure the following attributes:
 
-**CAUTION:** The following attributes must be configured in order for the job to execute properly.
+:::warning
+The following attributes must be configured in order for the job to execute properly.
+:::
+
 
 - $inputfile – File path to the CSV file which contains the identity and attribute information
 - $RequiredAttributes – The list of attributes that need to be found in the document in order to
@@ -134,8 +140,11 @@ The query is now ready to run.
 Navigate to the **Jobs** > **AnyID Connectors** > **AnyID_CSV** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AnyID_CSV Job](/img/product_docs/accessanalyzer/11.6/solutions/anyid/csvanalyses.webp)
 
@@ -149,6 +158,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AnyID_CSV job produces the following
 preconfigured report:
 
-| Report      | Description                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                               |
-| ----------- | --------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CSV Imports | This report highlights subjects imported from the provided CSV file, and summarizes attribute completion. | None         | This report is comprised of four elements: - Table – Contains information on imported subjects - Bar Chart – Provides information on subject types - Table – Contains information on the attributes summary - Table – Contains information on subject details |
+| Report      | Description                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                                                                 |
+| ----------- | --------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CSV Imports | This report highlights subjects imported from the provided CSV file, and summarizes attribute completion. | None         | This report is comprised of four elements: <ul><li>Table – Contains information on imported subjects</li><li>Bar Chart – Provides information on subject types</li><li>Table – Contains information on the attributes summary</li><li>Table – Contains information on subject details</li></ul> |
+

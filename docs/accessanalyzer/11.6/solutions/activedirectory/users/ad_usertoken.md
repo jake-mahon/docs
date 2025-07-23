@@ -17,8 +17,11 @@ article for more information about estimated token size.
 Navigate to the **Active Directory** > **2.Users** > **AD_UserToken** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_UserToken Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/usertokenanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_UserToken Job produces the
 following pre-configured report:
 
-| Report     | Description                                                                                                                                                     | Default Tags | Report Elements                                                                                                                                      |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| User Token | A user's token size is directly related to the number of SIDs associated with their user account, taking into account historical SIDs and effective membership. | None         | This report is comprised of two elements: - Stacked Bar Chart – Displays top users by estimated token size - Table – Provides details on user tokens |
+| Report     | Description                                                                                                                                                     | Default Tags | Report Elements                                                                                                                                                            |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| User Token | A user's token size is directly related to the number of SIDs associated with their user account, taking into account historical SIDs and effective membership. | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays top users by estimated token size</li><li>Table – Provides details on user tokens</li></ul> |
+

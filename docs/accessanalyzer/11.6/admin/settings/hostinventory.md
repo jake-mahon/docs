@@ -24,9 +24,12 @@ collected properties correspond to the columns in the Host Management tables. De
 prevents that information from being collected for target hosts. However, some solutions require
 this information.
 
-**_RECOMMENDED:_** Leave the default setting of all the groups selected. Consult with
+:::info
+Leave the default setting of all the groups selected. Consult with
 [Netwrix Support](https://www.netwrix.com/support.html) prior to turning off any of these property
 groups.
+:::
+
 
 In the Performance Tuning section, there are five settings which allocate console resources to the
 host inventory process:

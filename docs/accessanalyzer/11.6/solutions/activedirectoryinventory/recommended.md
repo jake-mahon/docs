@@ -10,11 +10,11 @@ The .Active Directory Inventory Solution has been configured by default to run w
 out-of-the-box settings, but some settings are optional for configuration. It can be run directly or
 scheduled.
 
-Dependencies
+**Dependencies**
 
 This job group does not have dependencies.
 
-Targeted Hosts
+**Targeted Hosts**
 
 The host list assignment has been configured under the **.Active Directory Inventory** >
 **Settings** > **Host List Assignment** node. It is set to target the Default domain controller host
@@ -27,7 +27,7 @@ The Default domain controller host list and ONE DOMAIN CONTROLLER PER DOMAIN hos
 host lists based on the host inventory value in the isDomainController field in the Host Master
 Table.
 
-Connection Profile
+**Connection Profile**
 
 The Connection Profile has been configured under the **.Active Directory Inventory** >
 **Settings** > **Connection** node. It is set to Use the Default Profile, as configured at the
@@ -37,33 +37,36 @@ targeted domains.
 If targeting multiple domains, ensure the assigned Connection Profile has the necessary permissions
 on all targeted domains.
 
-History Retention
+**History Retention**
 
 Not supported and should be turned off
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
-**_RECOMMENDED:_** Schedule the .Active Directory Inventory Job Group to run once a day.
+:::info
+Schedule the .Active Directory Inventory Job Group to run once a day.
+:::
+
 
 If there are frequent AD changes within the target environment, then it can be executed more often.
 It is best to rerun it anytime AD changes might have occurred.
 
-Run at the Solution Level
+**Run at the Solution Level**
 
 The jobs in the .Active Directory Inventory Job Group should be run together and in order by running
 the entire solution, instead of the individual jobs.
 
-Query Configuration
+**Query Configuration**
 
 The solution is best run with the default query configuration. However, a possible modification
 might be to include configurations of the scan options or additional custom attributes within the
 [1-AD_Scan Job](/docs/accessanalyzer/11.6/solutions/activedirectoryinventory/1-ad_scan.md).
 
-Analysis Configuration
+**Analysis Configuration**
 
 The solution is best run with the default analysis configuration. However, possible modifications
 might be to:
@@ -73,7 +76,7 @@ might be to:
 - Customize exception analysis parameters within the
   [3-AD_Exceptions Job](/docs/accessanalyzer/11.6/solutions/activedirectoryinventory/3-ad_exceptions.md)
 
-Workflow
+**Workflow**
 
 The .Active Directory Inventory Job Group has been set to run against the following default dynamic
 host list:

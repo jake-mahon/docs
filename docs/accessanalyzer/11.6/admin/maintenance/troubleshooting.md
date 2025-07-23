@@ -13,11 +13,11 @@ There are some general things to know when getting started troubleshooting Enter
 The shortcut opens the installation folder location where the Enterprise Auditor application is
 installed. The default installation directory is:
 
-C:\Program Files (x86)\STEALTHbits\StealthAUDIT\
+`C:\Program Files (x86)\STEALTHbits\StealthAUDIT\`
 
 If the installation directory was customized during installation, it will be:
 
-…\STEALTHbits\StealthAUDIT\
+`…\STEALTHbits\StealthAUDIT\`
 
 The Enterprise Auditor install directory has several logs that can be accessed for troubleshooting
 purposes. This includes:
@@ -46,8 +46,8 @@ level to Debug** and restart the application.
 
 | Log Name                                               | Log Location                                                                                                                                                               |
 | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SADebug (Enterprise Auditor Console)                   | `%sainstalldir%SADatabase\Logs\Application` SADebug Logs will be saved in the format: SADebug-[timestamp]-[PID].tsv                                                        |
-| Job Log (Enterprise Auditor Console)                   | Windows File Explorer Shortcut: `%sainstalldir%Jobs\Group_Name\Job_Name\Output\nameofjob.tsv` Console Shortcut: **Right click job** > **Explore folder** > `nameofjob.tsv` |
+| SADebug (Enterprise Auditor Console)                   | `%sainstalldir%SADatabase\Logs\Application` <br />SADebug Logs will be saved in the format:<br /> SADebug-[timestamp]-[PID].tsv                                                        |
+| Job Log (Enterprise Auditor Console)                   | Windows File Explorer Shortcut: <br />`%sainstalldir%Jobs\Group_Name\Job_Name\Output\nameofjob.tsv` <br />Console Shortcut:<br /> **Right click job** > **Explore folder** > `nameofjob.tsv` |
 | ExchangePS logs (Enterprise Auditor Console)           | `%sainstalldir%PrivateAssemblies\GUID`                                                                                                                                     |
 | PowerShell Logs (Enterprise Auditor Console)           | `%sainstalldir%Jobs\SA_CommonData\PowerShell`                                                                                                                              |
 | PowerShell logs (Remote Host):                         | ` C:\Program Files(x86)\STEALTHbits\StealthAUDIT\Applet\Powershell\GUID`                                                                                                   |

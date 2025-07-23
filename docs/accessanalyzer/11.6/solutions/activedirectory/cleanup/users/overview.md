@@ -17,7 +17,7 @@ The jobs in the 2.Users Job Group are:
 - [AD_DeprovisionUsers_Status Job](/docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/users/ad_deprovisionusers_status.md)
   – Tracks and reports all actions taken by the included Deprovisioning workflow
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure the following prerequisites are met:
 

@@ -15,7 +15,10 @@ topics for additional information.
 
 Follow the steps to configure a report using the wizard.
 
-**NOTE:** Skip any sections or pages that do not require changes to the existing configuration.
+:::note
+Skip any sections or pages that do not require changes to the existing configuration.
+:::
+
 
 **Step 1 –** Create a new report or open the Report Configuration wizard for an existing report.
 

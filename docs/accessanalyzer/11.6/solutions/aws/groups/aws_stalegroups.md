@@ -29,8 +29,11 @@ topic for additional information.
 Navigate to the **AWS** > **3.Groups** > **AWS_StaleGroups** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for
+:::warning
+Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for
 this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
+:::
+
 
 ![Analysis Tasks for the AWS_StaleGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/groups/stalegroupsanalysis.webp)
 
@@ -65,6 +68,7 @@ topic for instructions on how to modify parameters.
 In addition to the tables and views created by the analysis task, the AWS_StaleGroups job produces
 the following preconfigured report:
 
-| Report       | Description                                               | Default Tags | Report Element                                                                                                                                                                      |
-| ------------ | --------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Groups | This report determines the staleness of group membership. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays group membership - Table – Shows group membership - Table – Provides details on group membership |
+| Report       | Description                                               | Default Tags | Report Element                                                                                                                                                                                                  |
+| ------------ | --------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Groups | This report determines the staleness of group membership. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays group membership</li><li>Table – Shows group membership</li><li>Table – Provides details on group membership</li></ul> |
+

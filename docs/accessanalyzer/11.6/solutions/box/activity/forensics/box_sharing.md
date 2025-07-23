@@ -13,8 +13,11 @@ The Box_Sharing Job provides details on sharing activity that has occurred over 
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_Sharing** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Sharing Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/sharinganalysis.webp)
 
@@ -27,6 +30,7 @@ The following analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the Box_Sharing Job produces the following
 pre-configured report:
 
-| Report                   | Description                                                                                                                                                                    | Default Tags | Report Elements                                                                                                                                   |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sharing Activity Summary | This report identifies resource sharing within the target Box environments. The line graph will highlight time periods of the highest rate of sharing within the past 30 days. | None         | This report is comprised of two elements: - Line Chart – Displays last 30 days of sharing activity - Table – Provides details on sharing activity |
+| Report                   | Description                                                                                                                                                                    | Default Tags | Report Elements                                                                                                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sharing Activity Summary | This report identifies resource sharing within the target Box environments. The line graph will highlight time periods of the highest rate of sharing within the past 30 days. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays last 30 days of sharing activity</li><li>Table – Provides details on sharing activity</li></ul> |
+

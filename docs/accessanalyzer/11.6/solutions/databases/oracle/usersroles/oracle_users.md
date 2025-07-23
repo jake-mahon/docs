@@ -14,8 +14,11 @@ databases in targeted Oracle database servers.
 Navigate to the **Oracle** > **1.Users and Roles** > **Oracle_Users** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/usersroles/jobgroup24.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the Oracle_Users Job produces the
 following pre-configured report.
 
-| Report       | Description                                                          | Default Tags | Report Elements                                                                                                                                                                                       |
-| ------------ | -------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Oracle Users | This report shows details on users in the audited Oracle environment | None         | This report is comprised of three elements: - Bar Chart – Displays users by instance - Table – Provides details on oracle user instance summary - Table – Provides information on oracle user details |
+| Report       | Description                                                          | Default Tags | Report Elements                                                                                                                                                                                                                   |
+| ------------ | -------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Oracle Users | This report shows details on users in the audited Oracle environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays users by instance</li><li>Table – Provides details on oracle user instance summary</li><li>Table – Provides information on oracle user details</li></ul> |
+

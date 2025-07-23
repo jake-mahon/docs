@@ -13,15 +13,15 @@ available with a special Enterprise Auditor license. See the
 [AWS Solution](/docs/accessanalyzer/11.6/solutions/aws/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - 443
 
-Ports
+**Ports**
 
 - 443
 
-Permissions
+**Permissions**
 
 - To collect details about the AWS Organization, the following permission is required:
 
@@ -43,7 +43,7 @@ Permissions
     - s3:HeadBucket
     - s3:List\*
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it

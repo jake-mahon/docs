@@ -26,20 +26,20 @@ risks to sensitive data. Additionally, organizations can automate manual, time-c
 expensive processes associated with compliance, security, and operations to easily adhere to best
 practices that keep MongoDB Server safe and operational.
 
-Supported Platforms
+**Supported Platforms**
 
 - MongoDB 5.0
 - MongoDB 6.0
 - MongoDB 7.0
 - Windows and Linux distributions supported by MongoDB
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
-[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemongodb.md)
+[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/mongodb.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -50,13 +50,16 @@ then an extra 16 GB of RAM are required (8x2=16).
 By default, the job is configured to use 10 threads, which can be adjusted based on available
 resources on the Enterprise Auditor server.
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
 
-Location
+
+**Location**
 
 The Structured Sensitive Data Discovery License is required to run the MongoDB Solution. The MongoDB
 Solution can be installed from the Enterprise Auditor Instant Job Wizard. Once it has been installed

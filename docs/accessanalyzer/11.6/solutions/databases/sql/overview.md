@@ -11,7 +11,7 @@ run. The SQL Job Group is a comprehensive set of pre-configured audit jobs and r
 information on users and roles, activity, permissions, configuration, sensitive data, and overall
 security assessment.
 
-Supported Platforms
+**Supported Platforms**
 
 - Azure SQL
 
@@ -20,13 +20,13 @@ Supported Platforms
 - SQL Server 2017
 - SQL Server 2016
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
-[Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databasesql.md)
+[Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/sql/sql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans.If running Sensitive Data Discovery (SDD) scans, it
@@ -34,13 +34,16 @@ will be necessary to increase the minimum amount of RAM. Each thread requires a 
 additional GB of RAM per host.For example, if the job is configured to scan 8 hosts at a time , then
 an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
 
-Location
+
+**Location**
 
 The SQL Job Group within the Jobs tree, as part of the Database Solution: Jobs > Database > SQL.
 
@@ -58,7 +61,7 @@ The SQL Job Group includes:
   This information is used by other jobs in the SQL solution set for further analysis and for
   producing respective reports.
 - Databases > 0.Collection > AzureSQL >
-  [0.Collection > Azure SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/overview_1.md)
+  [0.Collection > Azure SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/sql/collection-azuresql/overview.md)
   — This job group is designed to collect high level summary information from targeted Azure SQL
   Instances. This information is used by other jobs in the Azure SQL solution set to provide further
   analysis and for producing respective reports.

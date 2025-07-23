@@ -14,7 +14,10 @@ to process and collect that previous 7 days of Message Tracking Logs the first t
 after that it only collects the previous day unless the **Enable Persistent Log State** option has
 been enabled in the query.
 
-**_RECOMMENDED:_** Run this job with the default configuration settings for all queries.
+:::info
+Run this job with the default configuration settings for all queries.
+:::
+
 
 See the
 [ExchangeMetrics Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/overview.md)
@@ -41,28 +44,31 @@ The following queries are included in the EX_MetricsCollection Job:
 View the analysis tasks by navigating to the **Exchange** > **1. HUB Metrics** > **0. Collection** >
 **EX_MetricsCollection** > **Configure** node and selecting **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_MetrixCollection Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/collection/metricscollectionanalysis.webp)
 
 The following analysis tasks are selected by default:
 
--   1. Delivery Times History – Creates the SA_ExhangeMetrics_DeliveryTimes table, accessible under
+-   **1. Delivery Times History** – Creates the SA_ExhangeMetrics_DeliveryTimes table, accessible under
        the job’s Results node
--   2. DL History – Creates the SA*EX* ExhangeMetrics_DistributionLists table, accessible under the
+-   **2. DL History** – Creates the SA*EX* ExhangeMetrics_DistributionLists table, accessible under the
        job’s Results node
--   3. Internet Traffic History – Creates the SA_EX_ExhangeMetrics_InternetTraffic table, accessible
+-   **3. Internet Traffic History** – Creates the SA_EX_ExhangeMetrics_InternetTraffic table, accessible
        under the job’s Results node
--   4. Hourly Traffic History – Creates the SA_EX_ExhangeMetrics_HourlyTraffic table, accessible
+-   **4. Hourly Traffic History** – Creates the SA_EX_ExhangeMetrics_HourlyTraffic table, accessible
        under the job’s Results node
--   5. User Traffic History – Creates the SA_EX_ExhangeMetrics_UserTraffic table, accessible under
+-   **5. User Traffic History** – Creates the SA_EX_ExhangeMetrics_UserTraffic table, accessible under
        the job’s Results node
--   6. Message Size History – Creates the SA_EX_ExhangeMetrics_MessageSize table, accessible under
+-   **6. Message Size History** – Creates the SA_EX_ExhangeMetrics_MessageSize table, accessible under
        the job’s Results node
--   7. Server Traffic History – Creates the SA_EX_ExhangeMetrics_ServerTraffic table, accessible
+-   **7. Server Traffic History** – Creates the SA_EX_ExhangeMetrics_ServerTraffic table, accessible
        under the job’s Results node
--   8. SET HISTORY RETENTION – Sets retention period in months
+-   **8. SET HISTORY RETENTION** – Sets retention period in months
 
     - By default set to retain **6 months**
     - This retention period can be modified. See the
@@ -71,10 +77,13 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain deselected unless specifically needed:
 
-**CAUTION:** Do not select the **00. Deletes all Stored Data** option. This analysis task is for
+:::warning
+Do not select the **00. Deletes all Stored Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
 
--   0. Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical data
+
+-   **0. Deletes all Stored Data - LEAVE UNCHECKED** – Clears all historical data
 
     - See the [Troubleshooting Data Collection](#troubleshooting-data-collection) topic for
       additional information
@@ -128,7 +137,10 @@ the database or truncating the data within the tables. This option is provided t
 task that is not selected by default. Only one analysis task within a job should be enabled when the
 desire is to purge that database.
 
-**CAUTION:** This analysis task deletes information collected or produced by jobs in this solution.
+:::warning
+This analysis task deletes information collected or produced by jobs in this solution.
+:::
+
 
 Follow these steps to troubleshoot data collection:
 
@@ -139,7 +151,10 @@ Follow these steps to troubleshoot data collection:
 **Step 2 –** In the Analysis Selection view, clear all default analysis tasks (if any) and select
 the analysis task which purges data.
 
-_Remember,_ only one task should be selected.
+:::tip
+Remember, only one task should be selected.
+:::
+
 
 **Step 3 –** In the Navigation pane, right-click the **Analysis** node and select **Execute
 Analyses**.

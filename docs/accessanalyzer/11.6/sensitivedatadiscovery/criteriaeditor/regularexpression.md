@@ -21,9 +21,12 @@ The options on the Regular Expression window are:
 - Validation – Select a validation method from the Validation drop-down. The default value is **No
   validation required**.
 
-    **NOTE:** See the
+    :::note
+    See the
     [Sensitive Data System Criteria](/docs/accessanalyzer/11.6/sensitivedatadiscovery/systemcriteria.md)
     topic for additional information on validation methods.
+    :::
+
 
 - Sample Value – Text entered into the Sample Value text box is used to test pattern matches for the
   expression in the Expression text box

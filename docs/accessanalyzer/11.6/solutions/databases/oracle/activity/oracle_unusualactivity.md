@@ -15,8 +15,11 @@ based on a modified z-score. Modified z-scores of 3.5 or over are considered pos
 Navigate to the **Oracle** > **2.Activity** > **Oracle_UnusualActivity** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup32.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_UnusualActivity Job
 produces the following pre-configured report.
 
-| Report                  | Description                                                                                                                | Default Tags | Report Elements                                                                                                                                                                                                    |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Unusual Hourly Activity | This report highlights the number of unusual events found per instance, hourly as well as provides details on those events | None         | This report is comprised of three elements: - Bar Chart – Displays unusual user activity - Table – Provides details on number of outliers per instance - Table – Provides details on unusual user activity details |
+| Report                  | Description                                                                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unusual Hourly Activity | This report highlights the number of unusual events found per instance, hourly as well as provides details on those events | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays unusual user activity</li><li>Table – Provides details on number of outliers per instance</li><li>Table – Provides details on unusual user activity details</li></ul> |
+

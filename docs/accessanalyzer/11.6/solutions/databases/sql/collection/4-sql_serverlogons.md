@@ -14,7 +14,10 @@ logons.
 The AppnLogSQL Query uses the SMARTLog Data Collector and has been preconfigured to process the
 Windows Event Log Type.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![sqljobgroup18](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup18.webp)
 

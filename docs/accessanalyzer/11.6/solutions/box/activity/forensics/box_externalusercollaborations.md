@@ -15,8 +15,11 @@ but there is limited control over the content they own and their security settin
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_ExternalUserCollaborations** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_ExternalUserCollaborations Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/externalusercollaborationsanalysis.webp)
 
@@ -30,6 +33,7 @@ The following analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the Box_ExternalUserCollaborations Job
 produces the following pre-configured report:
 
-| Report                       | Description                                                                                                            | Default Tags | Report Elements                                                                                                                                                           |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| External User Collaborations | This report identifies high-risk collaborations, highlighting most active collaborations by invites of external users. | None         | This report is comprised of two elements: - Line Chart – Displays last 30 days of external user collaborations - Table – Provides details on external user collaborations |
+| Report                       | Description                                                                                                            | Default Tags | Report Elements                                                                                                                                                                                 |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| External User Collaborations | This report identifies high-risk collaborations, highlighting most active collaborations by invites of external users. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays last 30 days of external user collaborations</li><li>Table – Provides details on external user collaborations</li></ul> |
+

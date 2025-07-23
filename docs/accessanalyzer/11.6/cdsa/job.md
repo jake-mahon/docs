@@ -29,7 +29,10 @@ The CDSA job generates three PowerPoint files:
     - The **Netwrix_CDSA_A4_Presentation.pptx** file is designed to be given to the customer for
       self-review as a PDF file
 
-**CAUTION:** Do not send any these presentations to a customer in PowerPoint format.
+:::warning
+Do not send any these presentations to a customer in PowerPoint format.
+:::
+
 
 The printable assets can be converted to PDFs or printed booklet style at a professional print shop
 (suggested) if desired.
@@ -54,7 +57,10 @@ are two presentation options for the live slide show:
 Use the Custom Slide Show drop-down menu on the Slide Show ribbon in PowerPoint to select the
 appropriate presentation.
 
-**NOTE:** Slide 17 is hidden by default as same information is available on Slides 18-20.
+:::note
+Slide 17 is hidden by default as same information is available on Slides 18-20.
+:::
+
 
 Netwrix University includes a training module with details on the key talking points for a live
 delivery of the slide shows. Check out the **315 – Getting Started with Credential & Data Security
@@ -83,7 +89,10 @@ Follow the steps to create the appropriate custom PDF.
 
 The presentation is converted to a PDF with only the applicable slides included.
 
-**NOTE:** Slide 16 is hidden by default as same information is available on Slides 17-19.
+:::note
+Slide 16 is hidden by default as same information is available on Slides 17-19.
+:::
+
 
 ## Custom Slide Show Alignment
 

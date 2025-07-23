@@ -15,8 +15,11 @@ could indicate a compromised account or a malicious insider.
 Navigate to **Box** > **1.Activity** > **Suspicious Activity** > **Box_UnusualUserActivity** >
 **Configure** node and select **Analysis** to view analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_UnusualUserActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/unusualuseractivityanalysis.webp)
 
@@ -28,6 +31,7 @@ The following analysis task is selected by default:
 In addition to the tables created by the analysis tasks, the Box_Content Job produces the following
 pre-configured report:
 
-| Report                | Description                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                              |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Unusual User Activity | This report provides insight into user activity that deviates from the normal range of expected activity.  This is determined by using historical data for each user. | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 most recent unusual user activity - Table – Provides details on unusual user activity |
+| Report                | Description                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                    |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unusual User Activity | This report provides insight into user activity that deviates from the normal range of expected activity.  This is determined by using historical data for each user. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 most recent unusual user activity</li><li>Table – Provides details on unusual user activity</li></ul> |
+

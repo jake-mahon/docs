@@ -13,7 +13,10 @@ Linux environments such as passwd, shadow, sudoers, hosts.deny, and more.
 
 The UX_CriticalFIles job uses the Unix Data Collector for the following query:
 
-**CAUTION:** The query is preconfigured for this job. Never modify the query.
+:::warning
+The query is preconfigured for this job. Never modify the query.
+:::
+
 
 ![Queries for the UX_CriticalFiles Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/privilegedaccess/criticalfilesquery.webp)
 
@@ -26,8 +29,11 @@ The query for the UX_CriticalFiles job is:
 Navigate to the **Unix** > **2.Privileged Access** > **UX_CriticalFiles** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_CriticalFiles Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/privilegedaccess/criticalfilesanalysis.webp)
 
@@ -43,6 +49,7 @@ The default analysis task is:
 In addition to the tables and views created by the analysis task, the UX_CriticalFiles job produces
 the following preconfigured report:
 
-| Report                  | Description                                                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                  |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Critical File Ownership | This report lists the ownership of critical files across the audited environment. The top non-root users and groups with critical file ownership are highlighted. | None         | This report is comprised of three elements: - Table – Provides details on Top 5 Critical File Owners (Users) - Table – Provides details on Top 5 Critical File Owners (Groups) - Table – Provides information on Critical File Ownership Details |
+| Report                  | Description                                                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                                              |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Critical File Ownership | This report lists the ownership of critical files across the audited environment. The top non-root users and groups with critical file ownership are highlighted. | None         | This report is comprised of three elements: <ul><li>Table – Provides details on Top 5 Critical File Owners (Users)</li><li>Table – Provides details on Top 5 Critical File Owners (Groups)</li><li>Table – Provides information on Critical File Ownership Details</li></ul> |
+

@@ -34,8 +34,11 @@ topic for additional information.
 View the analysis tasks by navigating to the **Jobs** > **Dropbox** > **4.Content** >
 **Dropbox_Content** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of the analysis tasks should not be modified or deselected. The analysis tasks are
+:::warning
+Most of the analysis tasks should not be modified or deselected. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Dropbox_Content Job](/img/product_docs/accessanalyzer/11.6/solutions/dropbox/contentanalysis.webp)
 
@@ -54,10 +57,11 @@ preconfigured for this job.
 In addition to the tables created by the analysis tasks which display content details, the
 Dropbox_Content job produces the following pre-configured reports.
 
-| Report          | Description                                                             | Default Tags | Report Elements                                                                                                                                                      |
-| --------------- | ----------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Content By Type | This report breaks down Dropbox content by mimetype and classification. | None         | This report is comprised of two elements: - Pie Chart – Displays content types by size - Table – Provides details on all content                                     |
-| Stale Content   | This report identifies stale content within Dropbox by owner.           | Stale Data   | This report is comprised of three elements: - Stacked Bar Chart – Displays data ownership - Table – Provides summary of content - Table – Provides details on owners |
+| Report          | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                  |
+| --------------- | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Content By Type | This report breaks down Dropbox content by mimetype and classification. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays content types by size</li><li>Table – Provides details on all content</li></ul>                                           |
+| Stale Content   | This report identifies stale content within Dropbox by owner.           | Stale Data   | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays data ownership</li><li>Table – Provides summary of content</li><li>Table – Provides details on owners</li></ul> |
+
 
 ### Customizable Analysis Tasks for the Dropbox_Content Job
 

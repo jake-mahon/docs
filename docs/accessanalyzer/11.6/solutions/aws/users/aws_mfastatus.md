@@ -14,8 +14,11 @@ disabled.
 Navigate to the **AWS** > **2.Users** > **AWS_MFAStatus** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_MFAStatus Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/users/mfastatusanalysis.webp)
 
@@ -31,6 +34,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_MFAStatus job produces the
 following preconfigured report:
 
-| Report     | Description                                            | Default Tags | Report Element                                                                                                                                            |
-| ---------- | ------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MFA Status | This report identifies the MFA status of each AWS user | None         | This report is comprised of the following elements: - Pie Chart – Displays MFA status - Table – Shows status by account - Table – Provides details on MFA |
+| Report     | Description                                            | Default Tags | Report Element                                                                                                                                                                        |
+| ---------- | ------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MFA Status | This report identifies the MFA status of each AWS user | None         | This report is comprised of the following elements: <ul><li>Pie Chart – Displays MFA status</li><li>Table – Shows status by account</li><li>Table – Provides details on MFA</li></ul> |
+

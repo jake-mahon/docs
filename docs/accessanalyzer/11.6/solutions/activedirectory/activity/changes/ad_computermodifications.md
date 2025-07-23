@@ -13,8 +13,11 @@ The AD_ComputerModifications Job provides a report of all changes to computer ob
 Navigate to the **Active Directory** > **6.Activity** > **Changes** > **AD_ComputerModifications** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_ComputerModifications Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/changes/computermodificationsanalysis.webp)
 
@@ -28,6 +31,7 @@ The following non-configurable analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the AD_ComputerModifications Job produces
 the following pre-configured report:
 
-| Report                   | Description                        | Default Tags                                               | Report Elements                                                                                                                                                      |
-| ------------------------ | ---------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Computer Account Changes | Track changes to computer objects. | CPAA GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: - Pie Chart – Displays Changes by Type - Table – Displays Changes by Computer - Table – Displays Computer Change Details |
+| Report                   | Description                        | Default Tags                                               | Report Elements                                                                                                                                                                                  |
+| ------------------------ | ---------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Computer Account Changes | Track changes to computer objects. | CPAA GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Pie Chart – Displays Changes by Type</li><li>Table – Displays Changes by Computer</li><li>Table – Displays Computer Change Details</li></ul> |
+

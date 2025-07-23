@@ -25,7 +25,7 @@ Profile assigned to the 1. HUB Metrics Job Group requires the following permissi
     - Go to Computer Configuration > Windows Settings > Security Settings > Local Policies > User
       Rights
 
-Applet Permissions
+**Applet Permissions**
 
 This is required because the ExchangeMetrics Data Collector is an applet-based data collector. It
 requires

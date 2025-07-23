@@ -10,7 +10,10 @@ The Permissions job group is comprised of data collection, analysis and reports 
 granted to each mailbox in the environment including, Mailbox Rights, Active Directory Permissions,
 Delegation, and Folder Permissions.
 
-**_RECOMMENDED:_** Schedule the Permissions job group to run weekly on Fridays at 6 PM.
+:::info
+Schedule the Permissions job group to run weekly on Fridays at 6 PM.
+:::
+
 
 ![Permissions Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/jobstree.webp)
 

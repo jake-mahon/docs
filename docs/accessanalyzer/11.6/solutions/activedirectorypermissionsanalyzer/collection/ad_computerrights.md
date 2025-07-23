@@ -13,7 +13,10 @@ Active Directory.
 
 The AD_ComputerRights Job uses the ADPermissions Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query for the AD_ComputerRights Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/computerrightsquery.webp)
 
@@ -28,8 +31,11 @@ The AD_ComputerRights Job uses the ADPermissions Data Collector for the followin
 Navigate to the **Active Directory Permissions Analyzer** > **0.Collection** >
 **AD_ComputerRights** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_ComputerRights Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/computerrightsanalysis.webp)
 

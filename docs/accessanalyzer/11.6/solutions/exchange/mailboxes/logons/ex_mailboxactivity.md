@@ -13,7 +13,10 @@ reporting around mailbox logon activity.
 
 The EX_MailboxActivity job is located in the 0.Collection job group.
 
-**NOTE:** This job requires that Exchange Access Auditing is enabled in the Exchange environment.
+:::note
+This job requires that Exchange Access Auditing is enabled in the Exchange environment.
+:::
+
 
 ## Queries for the EX_MailboxActivity Job
 
@@ -30,7 +33,10 @@ The following query is included with the EX_MailboxActivity job:
       [Scope the ExchangePS Data Collector](/docs/accessanalyzer/11.6/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
       topic for additional information
 
-    **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
+    :::note
+    The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
     [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
     topic for credential requirements.
+    
+    :::

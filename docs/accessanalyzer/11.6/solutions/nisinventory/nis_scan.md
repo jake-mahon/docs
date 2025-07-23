@@ -14,8 +14,11 @@ solutions.
 
 The NIS Scan Job uses the NIS Data Collector for the following query:
 
-**CAUTION:** This query must be modified. See the
+:::warning
+This query must be modified. See the
 [Configure the NIS Scan Query](#configure-the-nis-scan-query) topic for additional information.
+:::
+
 
 ![Query for the NIS Scan Job](/img/product_docs/accessanalyzer/11.6/solutions/nisinventory/nisscanquery.webp)
 
@@ -36,8 +39,11 @@ opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The NIS Data Collector Wizard
 opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![NIS Settings page](/img\product_docs\accessanalyzer\11.6\admin\datacollector\nis\settings.webp)
 
@@ -64,8 +70,11 @@ The NIS Scan Job is now ready to run.
 View the analysis tasks by navigating to the **.NIS Inventory** > **NIS Scan** > **Configure** node
 and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified or
 deselected. There is one that is deselected by default, as it is for troubleshooting purposes.
+:::
+
 
 ![Analysis Tasks for the NIS Scan Job](/img/product_docs/accessanalyzer/11.6/solutions/nisinventory/nisscananalysis.webp)
 
@@ -78,9 +87,12 @@ The following analysis tasks are selected by default:
 The following analysis task only needs to be selected when there is a need to remove the tables from
 the database:
 
-**CAUTION:** This analysis task is for troubleshooting and cleanup only. Data will be deleted from
+:::warning
+This analysis task is for troubleshooting and cleanup only. Data will be deleted from
 the database. Do not execute this task with the other analysis tasks, as that results in the
 deletion of data that was just collected.
+:::
+
 
 - Drop NIS Tables – Removes all tables and views created by this job from SQL Server database
 
@@ -102,7 +114,10 @@ task.
 **Step 4 –** After the analysis task has completed execution, the tables have been cleared from the
 SQL database.
 
-**CAUTION:** Do not forget to clear the Drop NIS Tables analysis task and reselect all of the other
+:::warning
+Do not forget to clear the Drop NIS Tables analysis task and reselect all of the other
 analysis tasks.
+:::
+
 
 The next time the job is run, the standard reference tables are recreated in the database.

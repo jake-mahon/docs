@@ -14,8 +14,11 @@ targeted SQL or Azure SQL servers.
 Navigate to the **Databases** > SQL > 3.Users and Roles > SQL_SQLLogins > Configure node and select
 Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup28.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the SQL_SQLLogins Job produces the
 following pre-configured report.
 
-| Report     | Description                               | Default Tags | Report Elements                                                                                                                                                                                    |
-| ---------- | ----------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SQL Logins | This report lists user login information. | None         | This report is comprised of three elements: - Bar Chart– Displays number of logins by instance - Table – Provides details on login exceptions by instance - Table – Provides details on SQL logins |
+| Report     | Description                               | Default Tags | Report Elements                                                                                                                                                                                                                |
+| ---------- | ----------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| SQL Logins | This report lists user login information. | None         | This report is comprised of three elements: <ul><li>Bar Chart– Displays number of logins by instance</li><li>Table – Provides details on login exceptions by instance</li><li>Table – Provides details on SQL logins</li></ul> |
+

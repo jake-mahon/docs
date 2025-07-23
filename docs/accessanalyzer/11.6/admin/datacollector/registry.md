@@ -20,17 +20,17 @@ special Enterprise Auditor licenses. See the following topics for additional inf
 - [Active Directory Solution](/docs/accessanalyzer/11.6/solutions/activedirectory/overview.md)
 - [Windows Solution](/docs/accessanalyzer/11.6/solutions/windows/overview.md)
 
-Protocols
+**Protocols**
 
 - Remote Registry
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

@@ -28,8 +28,11 @@ Customize message search filter conditions using the following options:
 
 - Select conditions – To add it to the search, select any of the following conditions:
 
-    **NOTE:** The conditions that are available in the Select Conditions box depends on the selected
+    :::note
+    The conditions that are available in the Select Conditions box depends on the selected
     **Message category**.
+    :::
+
 
     - with specific message classes
     - that is created in specific date
@@ -47,7 +50,10 @@ Customize message search filter conditions using the following options:
 - Edit Conditions – Click an underlined value, if present, in the Edit Conditions box to modify any
   of the template conditions
 
-    **NOTE:** The values present depends on the selections made in the Select conditions box.
+    :::note
+    The values present depends on the selections made in the Select conditions box.
+    :::
+
 
     - Click **specific** to open the MessageClasses Window. See the
       [MessageClasses Window](#messageclasses-window) topic for additional information.

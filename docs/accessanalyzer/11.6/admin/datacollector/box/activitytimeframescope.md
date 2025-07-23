@@ -25,5 +25,8 @@ Select one of the following options to configure the timeframe for Box data coll
 - Absolute Timespan – Enter the interval of days for which activity data collection is required. The
   default End Date is the current day.
 
-    **NOTE:** Choosing an absolute timespan will not affect activity data during relative timespan
+    :::note
+    Choosing an absolute timespan will not affect activity data during relative timespan
     scans.
+    
+    :::

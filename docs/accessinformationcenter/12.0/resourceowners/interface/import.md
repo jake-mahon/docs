@@ -26,28 +26,16 @@ The CSV file should list one resource per row using the following format:
 ![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/csvfileformat.webp)
 
 - Resource Formats:
-
     - File System Resources – Resource path should be the UNC path to the share or folder.
-
-`\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner`
-
+    `\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner`
     - SharePoint Resources – Resource path should be the URL to the site resource.
-
-`http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner`
-
-    - Groups – Resource path should be the NTAccount [DOMAIN\NAME] for the group or distribution
-      list
-
-`ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner`
-
+    `http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner`
+- Groups – Resource path should be the NTAccount [DOMAIN\NAME] for the group or distribution list
+  `ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner`
 - Multiple owners can be added, separated by a semicolon (;)
-
-`ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2`
-
-- _(Optional)_ A description for the resource can be added after the last owner
-
-    ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2,Security
-    group for access to the Example share
+  `ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2`
+- *(Optional)* A description for the resource can be added after the last owner
+  `ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2,Security group for access to the Example share`
 
 :::tip
 Remember, if the CSV file contains resources other than just Groups, this method only imports

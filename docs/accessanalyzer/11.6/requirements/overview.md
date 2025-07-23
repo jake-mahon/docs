@@ -15,7 +15,7 @@ exceptions are covered.
 
 The following servers and applications are required for installation of the application:
 
-Core Components
+**Core Components**
 
 - Enterprise Auditor Console Server – This is where the v11.6 application is installed.
 - SQL Server for Enterprise Auditor Database – As a data-intensive application, a well-provisioned,
@@ -24,10 +24,13 @@ Core Components
   Enterprise Auditor Console server and is a browser-based, interactive dashboard for exploring
   permissions, activity, and sensitive data.
 
-    **NOTE:** The Access Information Center is often installed on the same server as the Enterprise
+    :::note
+    The Access Information Center is often installed on the same server as the Enterprise
     Auditor application, but it can be installed separately.
+    :::
 
-Add-on Component
+
+**Add-on Component**
 
 - Enterprise Auditor Sensitive Data Discovery Add-On – This application is installed on the
   Enterprise Auditor Console server as an add-on enabling Sensitive Data criteria for scans. In some
@@ -35,12 +38,12 @@ Add-on Component
   [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
   topic for additional information.
 
-Exchange Solution-Specific Components
+**Exchange Solution-Specific Components**
 
 - Enterprise Auditor MAPI CDO – This application is installed on the Enterprise Auditor Console
   server to enable the Settings > Exchange global configuration interface within Enterprise Auditor.
 
-File System Solution-Specific Components
+**File System Solution-Specific Components**
 
 - Enterprise Auditor File System Proxy Server – In certain environments, a proxy server may be
   utilized to scan hosts in remote or firewalled sites to increase scan capacity in large
@@ -53,7 +56,7 @@ File System Solution-Specific Components
   system proxy server where the File System Proxy Service is installed as an add-on enabling
   Sensitive Data criteria for scans.
 
-SharePoint Solution-Specific Components
+**SharePoint Solution-Specific Components**
 
 - Enterprise Auditor SharePoint Agent Server – For agent-based scans, this application can be
   installed on the SharePoint application server that hosts the “Central Administration” component
@@ -65,7 +68,7 @@ SharePoint Solution-Specific Components
   server where the Enterprise Auditor SharePoint Agent is installed as an add-on enabling Sensitive
   Data criteria for scans.
 
-Activity Event Data Considerations
+**Activity Event Data Considerations**
 
 - Netwrix Activity Monitor – Enterprise Auditor depends upon integration with the Activity Monitor
   for monitored event data for several solutions. See the
@@ -77,7 +80,7 @@ Activity Event Data Considerations
   [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention)
   for installation requirements and information on collecting activity data.
 
-Target Environment Considerations
+**Target Environment Considerations**
 
 The target environment encompasses all servers, devices, or infrastructure to be audited by
 Enterprise Auditor. Most solutions have additional target requirements.
@@ -93,7 +96,7 @@ Additionally the server must meet these requirements:
 - US English language installation
 - Domain member
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment. See the following topics for
 additional:
@@ -104,14 +107,14 @@ additional:
 - [Box Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/box/box.md#box-solution-requirements-on-the-enterprise-auditor-console)
 - [Databases Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/databases/databases.md#databases-solution-requirements-on-the-enterprise-auditor-console)
 - [Dropbox Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/dropbox/dropbox.md#dropbox-solution-requirements-on-the-enterprise-auditor-console)
-- [Entra ID Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/entraid/entraid.md#entra-idsolution-requirements-on-the-enterprise-auditor-console)
+- [Entra ID Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/entraid/entraid.md#entra-id-solution-requirements-on-the-enterprise-auditor-console)
 - [Exchange Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/exchange/exchange.md#exchange-solution-requirements-on-the-enterprise-auditor-console)
 - [File System Solution Requirements on the Enterprise Auditor Console ](/docs/accessanalyzer/11.6/requirements/filesystem/filesystem.md#file-system-solution-requirements-on-the-enterprise-auditor-console)
 - [SharePoint Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint.md#sharepoint-solution-requirements-on-the-enterprise-auditor-console)
 - [Unix Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/unix/unix.md#unix-solution-requirements-on-the-enterprise-auditor-console)
 - [Windows Solution Requirements on the Enterprise Auditor Console](/docs/accessanalyzer/11.6/requirements/windows/windows.md#windows-solution-requirements-on-the-enterprise-auditor-console)
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the Console server:
 
@@ -121,7 +124,7 @@ The following are additional requirements for the Console server:
 - Microsoft SQL Server supports TLS 1.2, which requires the Enterprise Auditor Console server to
   have either SQL Server Native Client 11 or Microsoft OleDB 18 installed
 
-Additional Server Considerations
+**Additional Server Considerations**
 
 The following are recommended for the Console server:
 
@@ -129,15 +132,18 @@ The following are recommended for the Console server:
 - SQL Server Management Studio installed (Optional)
 - Font "arial-unicode-ms" installed (Needed for report Unicode character support)
 
-Permissions for Installation
+**Permissions for Installation**
 
 The following permissions are required to install and use the application:
 
 - Membership in the local Administrators group for the Enterprise Auditor Console server
 
-    **NOTE:** Role based access can be enabled for a least privilege user model.
+    :::note
+    Role based access can be enabled for a least privilege user model.
+    :::
 
-Supported Browsers
+
+**Supported Browsers**
 
 The following is a list of supported browsers for the Web Console and the Access Information Center:
 
@@ -156,7 +162,7 @@ Additionally the server must meet this requirement:
 
 - US English language installation
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment. See the following topics for
 additional:
@@ -173,14 +179,14 @@ additional:
 - [Unix Solution Requirements on the SQL Server](/docs/accessanalyzer/11.6/requirements/unix/unix.md#unix-solution-requirements-on-the-sql-server)
 - [Windows Solution Requirements on the SQL Server](/docs/accessanalyzer/11.6/requirements/windows/windows.md#windows-solution-requirements-on-the-sql-server)
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the SQL Server:
 
 - SQL Server must be equal or newer version than the version to be targeted
 - All SQL Server databases configured to use ‘Simple Recovery Model’
 
-Additional Server Considerations
+**Additional Server Considerations**
 
 The following additional considerations are recommended for the SQL Server:
 
@@ -192,7 +198,7 @@ The following additional considerations are recommended for the SQL Server:
   have either SQL Server Native Client 11 or Microsoft OleDB 18 installed.
 - _Optional_: SQL Server Management Studio installed on the Enterprise Auditor Console server
 
-Database Permissions
+**Database Permissions**
 
 The following permissions are required on the databases:
 

@@ -24,10 +24,13 @@ continue.
 **Step 3 –** On the Version Selection page, select the **I have no previous versions to migrate data
 from** and click **Next** to continue.
 
-**NOTE:** If you are upgrading from a previous version of Enterprise Auditor, select **Choose a
+:::note
+If you are upgrading from a previous version of Enterprise Auditor, select **Choose a
 StealthAUDIT root folder path to copy from**. See the
 [Enterprise Auditor Console Upgrade](/docs/accessanalyzer/11.6/install/application/upgrade/overview.md)
 topic for additional information.
+:::
+
 
 ![SQL Server Settings page](/img/product_docs/accessanalyzer/11.6/install/application/sqlserver.webp)
 
@@ -115,11 +118,14 @@ continue.
 **Step 8 –** After the Enterprise Auditor Configuration Wizard finishes configuring your
 installation, click **Finish** to open the Enterprise Auditor Console.
 
-**NOTE:** To view the log for the setup process, click **View Log** to open it. If you need to view
+:::note
+To view the log for the setup process, click **View Log** to open it. If you need to view
 the log after exiting the wizard, it is located in the installation directory at
 `..\STEALTHbits\StealthAUDIT\SADatabase\Logs`. See the
 [Troubleshooting](/docs/accessanalyzer/11.6/admin/maintenance/troubleshooting.md)
 topic for more information about logs.
+:::
+
 
 ![Netwrix Acces Governance Settings Node](/img/product_docs/accessanalyzer/11.6/install/application/settingsnode.webp)
 

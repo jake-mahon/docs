@@ -23,7 +23,10 @@ conducted by the SharePoint Agent for the target environment. The final step in 
 to transfer the data collected in the SQLite databases, or Tier 2 databases, on the Enterprise
 Auditor SharePoint Agent server back to the Enterprise Auditor Console server.
 
-**NOTE:** Agent-based scans can only target on-premise environments.
+:::note
+Agent-based scans can only target on-premise environments.
+:::
+
 
 See the following topics for additional information:
 
@@ -35,8 +38,11 @@ See the following topics for additional information:
 When SharePoint agent-less scans are run, it means all of the data collection processing is
 conducted by the Enterprise Auditor Console server across the network.
 
-**NOTE:** Agent-less scans can target both on-premise and online environments. This is the only scan
+:::note
+Agent-less scans can target both on-premise and online environments. This is the only scan
 mode that can run Activity Auditing (SPAC) scans.
+:::
+
 
 For Activity Auditing (SPAC) scans, target the server where the Netwrix Activity Monitor has a
 deployed activity agent.

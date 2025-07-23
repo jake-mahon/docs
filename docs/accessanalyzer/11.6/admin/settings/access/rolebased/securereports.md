@@ -47,9 +47,12 @@ ellipsis (**…**) to browse for accounts with the Select User or Group window.
 **Step 5 –** Select a role for the group or user from the Role list. Click **Finish**. The group or
 user and role is added to the Role Membership list in the Roles view.
 
-**CAUTION:** The first role or set of roles saved must include the Administrator role. Clicking Save
+:::warning
+The first role or set of roles saved must include the Administrator role. Clicking Save
 for the first role or set or roles without including the Administrator generates an error message in
 the Enterprise Auditor Console.
+:::
+
 
 **Step 6 –** Repeat Steps 2-4 to assign the Administrator, Web Administrator, and Report Viewer
 roles to other groups or users.

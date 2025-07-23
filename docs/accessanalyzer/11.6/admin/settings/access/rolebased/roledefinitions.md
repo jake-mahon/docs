@@ -10,8 +10,11 @@ The following is a list of all roles leveraged within Enterprise Auditor once Ro
 enabled, including their intended functionality. A user may have more than one role assigned to
 them.
 
-**NOTE:** When a job is moved or copied to a separate job group, it inherits the assigned roles at
+:::note
+When a job is moved or copied to a separate job group, it inherits the assigned roles at
 the parent and global level from the new job group. Any previous role inheritance is overwritten.
+:::
+
 
 - OS Administrator – Used only for installation purposes
 
@@ -23,9 +26,12 @@ the parent and global level from the new job group. Any previous role inheritanc
     - Rights to view all reports, tags, and report permissions within the Web Console
     - Rights to preform an upgrade on Enterprise Auditor
 
-**NOTE:** In order to use Role Base Access with the Exchange Solution, all Exchange users must be
+:::note
+In order to use Role Base Access with the Exchange Solution, all Exchange users must be
 assigned the Administrator role. This is because the solution requires local Administrator rights on
 the Enterprise Auditor Console server.
+:::
+
 
 - Power User
 
@@ -168,11 +174,11 @@ This table identifies the rights granted to users who have access to the Enterpr
 | Install / Uninstall Data Collectors (or other tool components)                                                                     | Yes        | No          | No           | No            | No                         | No         |
 | Upgrade Enterprise Auditor Console                                                                                                 | No         | No          | No           | No            | No                         | No         |
 
-\*When jobs are unlocked
+**\*When jobs are unlocked**
 
 \*\*When jobs are locked
 
-\*\*\*When jobs are locked and have no actions
+**\*\*\*When jobs are locked and have no actions**
 
 ## Web Console Roles & Rights
 
@@ -184,7 +190,7 @@ This table identifies the rights granted to users who have access only to the We
 | View Report Tags within the Web Console        | Yes               | Yes\*         |
 | View Report Permissions within the Web Console | Yes               | No            |
 
-\*According to where the role is assigned
+**\*According to where the role is assigned**
 
 ## SQL Server Database Roles & Rights
 

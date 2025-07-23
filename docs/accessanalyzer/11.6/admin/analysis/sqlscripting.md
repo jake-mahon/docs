@@ -52,7 +52,10 @@ SQLscripting and users. The window only displays when **Parameters** is clicked.
 
 ![Parameters window](/img/product_docs/accessanalyzer/11.6/admin/analysis/sqlscriptparameters.webp)
 
-**CAUTION:** not modify any parameters where the Value states `Created during execution`.
+:::warning
+not modify any parameters where the Value states `Created during execution`.
+:::
+
 
 The Parameters window has the following options:
 

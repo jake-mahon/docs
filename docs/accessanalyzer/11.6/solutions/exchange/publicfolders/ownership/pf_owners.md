@@ -16,8 +16,11 @@ based on folder ownership, content posted, and size of content posted.
 View the analysis tasks by navigating to the **Exchange** > **5. Public Folders** > **Ownership** >
 **PF_Owners** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_Owners Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/ownersanalysis.webp)
 
@@ -31,7 +34,8 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the PF_Owners job produces the
 following pre-configured reports:
 
-| Report                                                      | Description                                                                                                                                | Default Tags | Report Elements                                                                                                                                                                 |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Identification Success (Probable Owner Identification Rate) | This report identifies folder trees with a high success rate of probable owners identified. This may help scope initial cleanup campaigns. | None         | This report is comprised of two elements: - Stacked Bar Chart – Displays probable owner identification success - Table – Provides details probable owner identification success |
-| Probable Owners                                             | This report identifies probable owners for all scanned folders.                                                                            | None         | This report is comprised of one element: - Table – Provides details on probable owners                                                                                          |
+| Report                                                      | Description                                                                                                                                | Default Tags | Report Elements                                                                                                                                                                                       |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identification Success (Probable Owner Identification Rate) | This report identifies folder trees with a high success rate of probable owners identified. This may help scope initial cleanup campaigns. | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays probable owner identification success</li><li>Table – Provides details probable owner identification success</li></ul> |
+| Probable Owners                                             | This report identifies probable owners for all scanned folders.                                                                            | None         | This report is comprised of one element: <ul><li>Table – Provides details on probable owners</li></ul>                                                                                                |
+

@@ -14,8 +14,11 @@ environments.
 Navigate to the **Unix** > **1.Users and Groups** > **UX_LocalUsers** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_LocalUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/usersgroups/localusersanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the table and views created by the analysis tasks, the UX_LocalUsers job produces the
 following pre-configured report:
 
-| Report      | Description                                                                                                             | Default Tags | Report Elements                                                                                                                                                                                                 |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Local Users | This report summarizes local users in the audited environment. Hosts with large numbers of local users are highlighted. | None         | This report is comprised of three elements: - Bar Chart – Displays Top 5 Hosts by Local User Count - Table – Provides details on Top 5 Local User Count bar chart - Table – Provides details on All Local Users |
+| Report      | Description                                                                                                             | Default Tags | Report Elements                                                                                                                                                                                                                             |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Local Users | This report summarizes local users in the audited environment. Hosts with large numbers of local users are highlighted. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top 5 Hosts by Local User Count</li><li>Table – Provides details on Top 5 Local User Count bar chart</li><li>Table – Provides details on All Local Users</li></ul> |
+

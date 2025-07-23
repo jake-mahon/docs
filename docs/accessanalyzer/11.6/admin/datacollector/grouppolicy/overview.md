@@ -21,18 +21,18 @@ information:
 - [Active Directory Solution](/docs/accessanalyzer/11.6/solutions/activedirectory/overview.md)
 - [Windows Solution](/docs/accessanalyzer/11.6/solutions/windows/overview.md)
 
-Protocols
+**Protocols**
 
 - LDAP
 - RPC
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group (if targeting domain controllers)
 - Member of the Local Administrators group

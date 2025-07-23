@@ -18,15 +18,21 @@ folders, SharePoint sites, Active Directory (AD) groups, AD distribution lists, 
 Administrators groups.All data available within the Access Information Center is collected by
 Netwrix Enterprise Auditor according to the targeted environments.
 
-_Remember,_ owners are assigned to resources in the Resource Owners interface. Only resources with
+:::tip
+Remember, owners are assigned to resources in the Resource Owners interface. Only resources with
 assigned owners can be included in the Self-Service Access Requests workflow. These resources must
 also have the Allow access requests option selected.
+:::
 
-**_RECOMMENDED:_** When deploying the Access Information Center in an organization to enable
+
+:::info
+When deploying the Access Information Center in an organization to enable
 Self-Service Access Requests, notifications should be sent to assigned owners as well as domain
 users. See the
 [Owner Confirmation Request Email](/docs/accessinformationcenter/11.6/owneroverview/confirmationrequest.md)
 topic for additional information.
+:::
+
 
 The Your Access portal provides domain users with the ability to view current access to managed
 resources, request access to resources, and view the request status for pending and processed
@@ -40,12 +46,12 @@ to the Your Access portal at login. See the
 [Your Access Portal Overview](/docs/accessinformationcenter/11.6/youraccessportal/overview.md)
 topic for additional information.
 
-Who Can Manage Self-Service Access Requests (Request Administrators)?
+**Who Can Manage Self-Service Access Requests (Request Administrators)?**
 
 - Access Information Center Administrators
 - Access Information Center Security Team Members
 
-Who Participates in Self-Service Access Requests?
+**Who Participates in Self-Service Access Requests?**
 
 - Domain Users — Submit requests for access to resources or membership in groups
 - Owners — Approve or deny access requests
@@ -64,11 +70,14 @@ Prerequisites:
   [Notifications Page](/docs/accessinformationcenter/11.6/admin/configuration/notifications.md)
   topic for additional information.
 
-    **NOTE:** By default, the Access Information Center is configured to send notifications only to
+    :::note
+    By default, the Access Information Center is configured to send notifications only to
     the primary owner. However, this can be customized to send notifications to all assigned owners.
     See the
     [Notifications Page](/docs/accessinformationcenter/11.6/admin/configuration/notifications.md)
     topic for additional information.
+    :::
+
 
 - Access Information Center configured to commit AD changes
 - Resources and groups must be known to the Access Information Center, having been audited by

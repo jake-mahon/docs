@@ -14,7 +14,10 @@ weak passwords.
 
 The Collect Weak Passwords Job uses the PowerShell Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup24.webp)
 
@@ -29,8 +32,11 @@ The Collect Weak Passwords Job uses the PowerShell Data Collector for the follow
 Navigate to the Jobs > **Databases** > SQL > 3.Users and Roles > SQL_PasswordIssues > Configure node
 and select Analysis to view the analysis tasks.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified and or
 deselected unless otherwise specified.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
 
@@ -57,7 +63,8 @@ The following analysis task is deselected by default:
 In addition to the tables and views created by the analysis tasks, the SQL_PasswordIssues Job
 produces the following pre-configured reports.
 
-| Report           | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                      |
-| ---------------- | ----------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reused Passwords | This report highlights instances where a password hash is being reused. | None         | This report is comprised of one element: - Table – Provides details on reused password details                                                                                                                       |
-| Weak Passwords   | This report highlights SQL logins that have a weak password.            | None         | This report is comprised of three elements: - Bar Chart – Displays weak passwords by instance - Table – Provides details on weak passwords by instance data - Table – Provides details on logins with weak passwords |
+| Report           | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                                                  |
+| ---------------- | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Reused Passwords | This report highlights instances where a password hash is being reused. | None         | This report is comprised of one element: <ul><li>Table – Provides details on reused password details</li></ul>                                                                                                                                   |
+| Weak Passwords   | This report highlights SQL logins that have a weak password.            | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays weak passwords by instance</li><li>Table – Provides details on weak passwords by instance data</li><li>Table – Provides details on logins with weak passwords</li></ul> |
+

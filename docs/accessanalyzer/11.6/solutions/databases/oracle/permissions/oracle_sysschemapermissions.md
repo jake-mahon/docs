@@ -14,8 +14,11 @@ SYS schema, and the type permissions to those objects across all audited Oracle 
 Navigate to the **Oracle** > **3.Permissions** > **Oracle_SysSchemaPermissions** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/permissions/jobgroup38.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the Oracle_SysSchemaPermissions
 Job produces the following pre-configured reports.
 
-| Report                 | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                   |
-| ---------------------- | ---------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SYS Schema Permissions | This report highlights SYS schema permissions across the audited environment | None         | This report is comprised of three elements: - Bar Chart – Displays sys schema permission by instance - Table – Provides details on sys schema permissions by instance - Table – Provides details on sys schema permission details |
+| Report                 | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                               |
+| ---------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SYS Schema Permissions | This report highlights SYS schema permissions across the audited environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays sys schema permission by instance</li><li>Table – Provides details on sys schema permissions by instance</li><li>Table – Provides details on sys schema permission details</li></ul> |
+

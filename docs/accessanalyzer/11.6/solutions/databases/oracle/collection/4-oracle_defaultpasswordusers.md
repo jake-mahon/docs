@@ -32,8 +32,11 @@ Query Properties. The Query Properties window opens.
 
 **Step 3 –** Select the Data Source tab and click Configure. The SQL Data Collector wizard opens.
 
-**CAUTION:** Do not make changes to wizard pages not listed in these steps. They have been
+:::warning
+Do not make changes to wizard pages not listed in these steps. They have been
 pre-configured for this job.
+:::
+
 
 ![Filters Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/4oracledefaultpasswordsfilterpage.webp)
 

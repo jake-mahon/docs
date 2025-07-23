@@ -14,8 +14,11 @@ discovered in the targeted PostgreSQL servers based on the selected scan criter
 Navigate to the **Jobs > Databases > PostgreSQL > Sensitive Data > PgSQL_SensitiveData > Configure**
 node and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![pgsqlsensitivedataanalysis](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/sensitivedata/pgsqlsensitivedataanalysis.webp)
 
@@ -28,7 +31,8 @@ The default analysis tasks are:
 In addition to the tables and views created the analysis task, the PgSQL_SensitiveData Job produces
 the following pre-configured report.
 
-| Report                  | Description                                                                 | Default Tags   | Report Elements                                                                                                                                                                                                      |
-| ----------------------- | --------------------------------------------------------------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise | None           | This report is comprised of two elements: - Bar Chart – Displays exceptions by match count - Table – Provides exception details                                                                                      |
-| Sensitive Data Overview | This report highlights objects which contain sensitive data crtieria.       | Sensitive Data | This report is comprised of three elements: - Bar Chart - Displays top databases by Sensitive Data Hits - Table - Provides information on databases with sensitive data - Table - Provides details on sensitive data |
+| Report                  | Description                                                                 | Default Tags   | Report Elements                                                                                                                                                                                                                                                    |
+| ----------------------- | --------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise | None           | This report is comprised of two elements: <ul><li>Bar Chart – Displays exceptions by match count</li><li>Table – Provides exception details</li></ul>                                                                                                              |
+| Sensitive Data Overview | This report highlights objects which contain sensitive data crtieria.       | Sensitive Data | This report is comprised of three elements: <ul><li>Bar Chart</li><li>Displays top databases by Sensitive Data Hits</li><li>Table</li><li>Provides information on databases with sensitive data</li><li>Table</li><li>Provides details on sensitive data</li></ul> |
+

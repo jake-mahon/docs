@@ -14,28 +14,31 @@ servers.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Forensics** >
 **FS_Deletions** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_Deletions Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/forensics/deletionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
--   1. Create deletions view – Creates the SA_FSAC_DeletesView view accessible under the job’s
+-   **1. Create deletions view** – Creates the SA_FSAC_DeletesView view accessible under the job’s
        Results node
--   2. Last 30 Days – Creates the SA_FS_Deletions_Last30Days table accessible under the job’s
+-   **2. Last 30 Days** – Creates the SA_FS_Deletions_Last30Days table accessible under the job’s
        Results node
--   3. Trend – Creates the SA_FS_Deletions_TrendOverTime table accessible under the job’s Results
+-   **3. Trend** – Creates the SA_FS_Deletions_TrendOverTime table accessible under the job’s Results
        node
--   4. Create view to alert - Past 24 hours – Creates the SA_FS_Deletions_Notification_NOTIFICATION
+-   **4. Create view to alert - Past 24 hours** – Creates the SA_FS_Deletions_Notification_NOTIFICATION
        table accessible under the job’s Results node
--   6. Raw Details – Creates the SA_FS_Deletions_Details view accessible under the job’s Results
+-   **6. Raw Details** – Creates the SA_FS_Deletions_Details view accessible under the job’s Results
        node
 
 The Notification analysis task is an optional analysis task which requires configuration before
 enabling it. The following analysis task is deselected by default:
 
--   5. Notify on large number of deletes – Alerts when large number of deletions have occurred
+-   **5. Notify on large number of deletes** – Alerts when large number of deletions have occurred
 
     - Add recipients, notification subject, and email content
     - See the [Configure the Notification Analysis Task](#configure-the-notification-analysis-task)
@@ -44,9 +47,10 @@ enabling it. The following analysis task is deselected by default:
 In addition to the tables and views created by the analysis tasks, the FS_Deletions job produces the
 following pre-configured report:
 
-| Report                                      | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                           |
-| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| File and Folder Deletions (Deletion Events) | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: - Line Chart– Displays the last 30 Days - Table – Provides details on deletions |
+| Report                                      | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                                 |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| File and Folder Deletions (Deletion Events) | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: <ul><li>Line Chart– Displays the last 30 Days</li><li>Table – Provides details on deletions</li></ul> |
+
 
 ### Configure the Notification Analysis Task
 
@@ -60,8 +64,11 @@ Follow the steps to configure a notification analysis task.
 **Step 2 –** In the Analysis Selection view, select the Notification analysis task and click
 **Analysis Configuration** . The Notification Data Analysis Module wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Notification Data Analysis Module wizard SMTP page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/forensics/notificationsmtp.webp)
 
@@ -78,7 +85,10 @@ provided. You can use the following options:
 - Combine multiple messages into single message – Sends one email for all objects in the record set
   instead of one email per object to all recipients
 
-    **_RECOMMENDED:_** Leave the **Combine multiple messages into single message** option selected.
+    :::info
+    Leave the **Combine multiple messages into single message** option selected.
+    :::
+
 
 ![Message section](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/forensics/notificationsmtpmessage.webp)
 
@@ -93,8 +103,11 @@ click **Cancel** if no changes were made. The Notification Data Analysis Module 
 recipient list. In the Analysis Selection view, select this task so that notifications can be sent
 automatically during the execution of the job.
 
-_Remember,_ all of the analysis tasks should remain in the default order indicated by the numbering.
+:::tip
+Remember, all of the analysis tasks should remain in the default order indicated by the numbering.
 Do not deselect any of the SQLscripting analysis tasks.
+:::
+
 
 Once the Notification analysis task is configured and enabled alerts are sent when the trigger has
 been identified by this job.

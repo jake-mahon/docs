@@ -44,9 +44,12 @@ The following queries are included in the PF_FolderOwnership job:
 The ExchangePublicFolder Data Collector can be scoped if desired. Follow the steps to modify the
 query configuration.
 
-**NOTE:** These instructions include information on modifying the calculation used to determine
+:::note
+These instructions include information on modifying the calculation used to determine
 probable ownership. Step 5 is only applicable to the Probable Ownership Query in the
 PF_FolderOwnership Job.
+:::
+
 
 **Step 1 –** Navigate to job’s **Configure** node and select **Queries**.
 
@@ -56,7 +59,10 @@ Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The Exchange Public Folder
 Data Collector Wizard opens.
 
-**CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::warning
+Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::
+
 
 ![Exchange Public Folder Data Collector Wizard Scope page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
@@ -84,7 +90,10 @@ using the following settings:
     - Selected Table – Select this option to return only those public folders within the table and
       field name specified on the Scope page of the query
 
-    _Remember,_ the scoping options available vary based on the pre-defined query configurations.
+    :::tip
+        Remember, the scoping options available vary based on the pre-defined query configurations.
+    :::
+
 
 See the
 [ExchangePublicFolder: Scope](/docs/accessanalyzer/11.6/admin/datacollector/exchangepublicfolder/scope.md)
@@ -113,8 +122,11 @@ The job applies the modification to future job executions.
 View the analysis task by navigating to the **Exchange** > **5. Public Folders** > **Ownership** >
 **Collection** > **PF_FolderOwnership** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_FolderOwnership Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/folderownershipanalysis.webp)
 

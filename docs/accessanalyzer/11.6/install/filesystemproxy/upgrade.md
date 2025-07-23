@@ -13,9 +13,12 @@ This upgrade can be done in two ways:
 - Automatically – An instant job within the Enterprise Auditor Console
 - Manually – On each server hosting the proxy service
 
-**CAUTION:** When upgrading the Proxy Service to 11.6 from a previous version for the first time,
+:::warning
+When upgrading the Proxy Service to 11.6 from a previous version for the first time,
 you must manually uninstall the previous version and follow the [Manual Upgrade](#manual-upgrade)
 steps below. Subsequent 11.6 upgrades can be done using the automatic upgrade option.
+:::
+
 
 ## Automatic Upgrade
 

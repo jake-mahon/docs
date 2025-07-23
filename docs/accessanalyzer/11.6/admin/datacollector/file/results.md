@@ -15,8 +15,11 @@ wizard page for all of the categories.
 Properties can be selected individually or in groups with the **Select All** or **Clear All**
 buttons. The properties available vary based on the category selected.
 
-**NOTE:** When the **Calculate Group Size (Files Only)** category is selected, the properties and
+:::note
+When the **Calculate Group Size (Files Only)** category is selected, the properties and
 options on the Results page are grayed out.
+:::
+
 
 - Disable properties that require opening file – Disables properties that require opening files that
   trigger the last accessed date timestamp

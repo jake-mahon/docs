@@ -13,8 +13,11 @@ The AWS_ManagedPolicies job provides details on policies managed by Amazon in th
 Navigate to the **AWS** > **5.Policies** > **AWS_ManagedPolicies** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_ManagedPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/policies/managedpoliciesanalysis.webp)
 
@@ -30,6 +33,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_Accounts job produces the
 following preconfigured report:
 
-| Report               | Description                                                | Default Tags | Report Element                                                                                                                                                                                                        |
-| -------------------- | ---------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| AWS Managed Policies | This report analyzes AWS Managed Policies and their usage. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays AWS managed policies by account - Table – Shows AWS managed policies by account - Table – Provides details on AWS managed policies |
+| Report               | Description                                                | Default Tags | Report Element                                                                                                                                                                                                                                    |
+| -------------------- | ---------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AWS Managed Policies | This report analyzes AWS Managed Policies and their usage. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays AWS managed policies by account</li><li>Table – Shows AWS managed policies by account</li><li>Table – Provides details on AWS managed policies</li></ul> |
+

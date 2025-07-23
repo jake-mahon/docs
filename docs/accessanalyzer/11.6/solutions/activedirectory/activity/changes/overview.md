@@ -13,7 +13,10 @@ within the environment.
 
 The following Jobs make up the Changes Job Group:
 
-**_RECOMMENDED:_** Schedule these jobs to run with the 0.Collection job group.
+:::info
+Schedule these jobs to run with the 0.Collection job group.
+:::
+
 
 - [AD_ComputerModifications Job](/docs/accessanalyzer/11.6/solutions/activedirectory/activity/changes/ad_computermodifications.md)
   – Reports on activity relating to changes made on computer objects

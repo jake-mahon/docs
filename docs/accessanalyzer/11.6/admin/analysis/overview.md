@@ -65,7 +65,10 @@ The Analysis Selection page has the following options:
   Moving tasks up or down the list changes the order in which the task is run when the job is
   executed.
 
-    **NOTE:** Tasks can be drag-and-dropped to change position in the list.
+    :::note
+    Tasks can be drag-and-dropped to change position in the list.
+    :::
+
 
 - Select All – Enables/disables all tasks in the list
 - The **Validate**, **Validate Selected**, and **Edit Rules** buttons are specific to the Business

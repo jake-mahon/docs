@@ -14,8 +14,11 @@ may indicate unnecessary user accounts that are suitable candidates for review a
 Navigate to the **Active Directory** > **2.Users** > **AD_DirectMembership** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_DirectMembership Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/directmembershipanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_DirectMembership Job
 produces the following pre-configured report:
 
-| Report              | Description                                            | Default Tags | Report Elements                                                                                                                                                                                                                                   |
-| ------------------- | ------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No Group Membership | This report identifies users with no group membership. | None         | This report is comprised of three elements: - Bar Chart – Displays top domains by users with no membership - Table – Provides details on all users with no group membership - Table – Provides details on top domains by users with no membership |
+| Report              | Description                                            | Default Tags | Report Elements                                                                                                                                                                                                                                                               |
+| ------------------- | ------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No Group Membership | This report identifies users with no group membership. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by users with no membership</li><li>Table – Provides details on all users with no group membership</li><li>Table – Provides details on top domains by users with no membership</li></ul> |
+

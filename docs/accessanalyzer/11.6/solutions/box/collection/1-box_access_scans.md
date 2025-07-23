@@ -76,8 +76,11 @@ opens.
 configured. Click **Authorize** to launch the BoxLogin window and generate an authorization code.
 This code allows Enterprise Auditor to report on the Box Enterprise.
 
-**NOTE:** Authentication to the target Box environment only needs to be completed once, prior to the
+:::note
+Authentication to the target Box environment only needs to be completed once, prior to the
 first scan and only in one of the scan jobs.
+:::
+
 
 **Step 7 –** Navigate to the Summary page, click **Finish** to save any setting modifications or
 click **Cancel** if no changes were made. Then click **OK** to close the Query Properties window.

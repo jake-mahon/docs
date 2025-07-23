@@ -22,12 +22,12 @@ The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor 
 which enables Sensitive Data criteria for scans.
 
 See the
-[Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/dropbox/dropbox_1.md)
+[Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/dropbox/target.md)
 topic for target environment requirements.
 
 ## Dropbox Solution Requirements on the Enterprise Auditor Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -38,26 +38,32 @@ These are dependent upon the size of the target environment:
 | Cores       | 4 CPU                   | 2 CPU                  |
 | Disk Space  | 30 GB                   | 30 GB                  |
 
-**NOTE:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
+:::note
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
 minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For
 example, if the job is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are
 required (8x2=16).
+:::
 
-Sensitive Data Discovery Auditing Requirement
+
+**Sensitive Data Discovery Auditing Requirement**
 
 The following is required to run Sensitive Data Discovery scans:
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
+
 
 ## Dropbox Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

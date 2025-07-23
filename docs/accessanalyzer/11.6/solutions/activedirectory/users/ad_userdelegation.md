@@ -17,8 +17,11 @@ blog article for more information about this configuration and the related secur
 Navigate to the **Active Directory** > **2.Users** > **AD_UserDelegation** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_UserDelegation Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/userdelegationanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_UserDelegation Job produces
 the following pre-configured report:
 
-| Report                       | Description                                                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                           |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Users Trusted for Delegation | This report highlights which users are trusted for delegation, which accounts are sensitive, and whether the delegation is constrained or unconstrained. | None         | This report is comprised of three elements: - Bar Chart – Displays users trusted for delegation by domain - Table – Provides details on users trusted for delegation - Table – Provides details on users trusted for delegation by domain |
+| Report                       | Description                                                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                                                       |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Users Trusted for Delegation | This report highlights which users are trusted for delegation, which accounts are sensitive, and whether the delegation is constrained or unconstrained. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays users trusted for delegation by domain</li><li>Table – Provides details on users trusted for delegation</li><li>Table – Provides details on users trusted for delegation by domain</li></ul> |
+

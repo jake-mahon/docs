@@ -27,7 +27,10 @@ Remember, the following additional considerations:
   [SharePoint Agent Installation](/docs/accessanalyzer/11.6/install/sharepointagent/overview.md)
   topic for additional information.
 
-**NOTE:** Before running the installation package, please close the Enterprise Auditor application.
+:::note
+Before running the installation package, please close the Enterprise Auditor application.
+:::
+
 
 The Enterprise Auditor license file is needed during installation. It can be imported from the
 Enterprise Auditor installation directory when the add-on is installed on the Enterprise Auditor
@@ -35,7 +38,10 @@ Console server. Follow the steps to install the Sensitive Data Discovery Add-On.
 
 **Step 1 –** Run the `SensitiveDataAddon.exe` executable.
 
-_Remember,_
+:::tip
+Remember,
+:::
+
 
 - Install the Sensitive Data Add-on – FSAA & SPAA Agentless (or x86) version of the Sensitive Data
   Discovery Add-On on the Enterprise Auditor Console Server.
@@ -61,8 +67,11 @@ will target the license key within the Enterprise Auditor installation directory
 the SharePoint Agent server or the File System Proxy server, use the Browse button to navigate to
 the license file. Click **Next**.
 
-**NOTE:** The Enterprise Auditor license file needs to be locally accessible during the installation
+:::note
+The Enterprise Auditor license file needs to be locally accessible during the installation
 process.
+:::
+
 
 ![SDD Add-on Setup Wizard Ready to install page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/ready.webp)
 

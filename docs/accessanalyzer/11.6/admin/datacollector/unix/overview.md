@@ -13,21 +13,21 @@ See the
 [Unix Solution](/docs/accessanalyzer/11.6/solutions/unix/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - SSH
 
-Ports
+**Ports**
 
 - TCP 22
 - User configurable
 
-Permissions
+**Permissions**
 
 - Root permissions in Unix/Linux
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/unix_1.md#least-privilege-model)
+[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/target.md#least-privilege-model)
 topic additional information.
 
 ## Unix Query Configuration

@@ -11,7 +11,7 @@ is best practice to assign the host list and the Connection Profile at the data 
 0.Collection Job Group. Once these are assigned to the job group, it can be run directly or
 scheduled.
 
-Dependencies
+**Dependencies**
 
 - .Active Directory Inventory Job Group run successfully
 - For Activity Auditing – Oracle Server audit specifications to be configured on the target
@@ -25,7 +25,7 @@ SA_SQL_Instances table to be populated before attempting to scope the queries. T
 0-Oracle_Servers job must be executed before attempting to scope the rest of the 0.Collection Job
 Group queries.
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 The 0.Collection Job Group must be set to run against the following dynamic host list:
 
@@ -35,7 +35,7 @@ Default dynamic host lists are populated from hosts in the Host Master Table whi
 inventory criteria for the list. Ensure the appropriate host list(s) have been populated through
 host inventory results.
 
-Connection Profile
+**Connection Profile**
 
 The SQL Data Collector requires a specific set of permissions. The account used can be either an
 Active Directory account or an Oracle account.
@@ -75,24 +75,27 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 One of the most important decisions to make is how frequently to collect this data. The Oracle Job
 Group can be scheduled to run as desired depending on the types of auditing being conducted and the
 scope of the target environment. The general recommendation is to schedule the solution to run
 daily.
 
-Run Order
+**Run Order**
 
 The 0-Oracle_Servers Job within the Oracle 0.Collection Job Group must be run first, before running
 the rest of the jobs.
 
-**_RECOMMENDED:_** Run the solution at the top level: Oracle Job Group
+:::info
+Run the solution at the top level: Oracle Job Group
+:::
+
 
 The other job groups in the Jobs > Databases > Oracle Job Group can be run in any order only after
 running the 0.Collection Job Group.
 
-Query Configuration
+**Query Configuration**
 
 This solution is designed to be run with the default query configurations. However, the following
 SQL Data Collector configurations can be modified if desired:
@@ -114,10 +117,13 @@ SQL Data Collector configurations can be modified if desired:
     - 4-Oracle_DefaultPasswordUsers Job
     - 5-Oracle_Configuration Job
 
-    **_RECOMMENDED:_** For reporting purposes, scope all queries to target the same
+    :::info
+    For reporting purposes, scope all queries to target the same
     databases/instances if applying a scope.
+    :::
 
-Analysis Configuration
+
+**Analysis Configuration**
 
 This solution should be run with the default analysis configurations. These analysis tasks are
 preconfigured and should not be modified or deselected!
@@ -125,9 +131,12 @@ preconfigured and should not be modified or deselected!
 Remember, disabling obsolete or un-desired jobs allows the solution to run more efficiently. To
 disable a job or job group, right-click on the item and select Disable Job.
 
-**_RECOMMENDED:_** Do not delete any jobs. Instead, jobs should be disabled.
+:::info
+Do not delete any jobs. Instead, jobs should be disabled.
+:::
 
-Workflow
+
+**Workflow**
 
 1. Set a Connection Profile for the 0.Collection Job Group with the permissions listed in the
    Recommended Configurations section. See the

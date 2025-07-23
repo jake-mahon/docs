@@ -14,8 +14,11 @@ assigned at the bucket level, those assigned directly on objects within the buck
 Navigate to the **AWS** > **6.S3 Permissions** > **AWS_BrokenInheritance** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_BrokenInheritance Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/s3permissions/brokeninheritanceanalysis.webp)
 
@@ -31,6 +34,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_BrokenInheritance job
 produces the following preconfigured report:
 
-| Report             | Description                                                                     | Default Tags | Report Element                                                                                                                                                                                                      |
-| ------------------ | ------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Broken Inheritance | This report identifies permissions applied directly on files in AWS S3 Buckets. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays top buckets by broken inheritance - Table – Shows buckets by broken inheritance - Table – Provides details on broken inheritance |
+| Report             | Description                                                                     | Default Tags | Report Element                                                                                                                                                                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Broken Inheritance | This report identifies permissions applied directly on files in AWS S3 Buckets. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top buckets by broken inheritance</li><li>Table – Shows buckets by broken inheritance</li><li>Table – Provides details on broken inheritance</li></ul> |
+

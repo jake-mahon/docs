@@ -29,8 +29,11 @@ The jobs in the 2.CAS Metrics Job Group are:
   – Comprised of data collection and a report to show information about what policies are enabled
   for which users
 
-    **NOTE:** An actual CAS name is required for the data collection. When targeting Exchange 2013
+    :::note
+    An actual CAS name is required for the data collection. When targeting Exchange 2013
     or 2016, it is possible for the **Settings** > **Exchange** node to have been configured with a
     web address instead of an actual server. See the
     [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/11.6/solutions/exchange/recommended.md)
     topic for additional information.
+    
+    :::

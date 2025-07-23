@@ -15,8 +15,11 @@ access to resources, or how much access is being granted to resources through th
 Navigate to the **Active Directory** > **1.Groups** > **AD_LargestGroups** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_LargestGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/largestgroupsanalysis.webp)
 
@@ -28,6 +31,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_LargestGroups Job produces
 the following pre-configured report:
 
-| Report         | Description                                                               | Default Tags | Report Elements                                                                                                      |
-| -------------- | ------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------- |
-| Largest Groups | This report identifies the largest groups within the audited environment. | None         | This report is comprised of two elements: - Bar Chart – Displays largest groups - Table – Provides details on groups |
+| Report         | Description                                                               | Default Tags | Report Elements                                                                                                                            |
+| -------------- | ------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Largest Groups | This report identifies the largest groups within the audited environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest groups</li><li>Table – Provides details on groups</li></ul> |
+

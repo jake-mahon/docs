@@ -32,16 +32,22 @@ Each Storage Profile consists of the following parts:
   connect with an account configured with the DBO role (database owner rights) and provisioned to
   use DBO Schema.
 
-    **_RECOMMENDED:_** When possible, use Windows Authentication. Windows Authentication is more
+    :::info
+    When possible, use Windows Authentication. Windows Authentication is more
     secure than SQL Server Authentication. See the Microsoft
     [Choose an authentication mode](https://learn.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode) article
     for additional information.
+    :::
+
 
     - Windows authentication – Leverages the account used to run the Enterprise Auditor Console
 
-        **NOTE:** This option affects the credentials used for Schedule Service Accounts. See the
+        :::note
+        This option affects the credentials used for Schedule Service Accounts. See the
         [Schedule](/docs/accessanalyzer/11.6/admin/settings/schedule.md)
         topic for additional information.
+        :::
+
 
     - SQL Server authentication – Leverages the account provided in the **User name** and
       **Password** textboxes
@@ -70,7 +76,10 @@ At the Storage view, the following operations are available:
   [Delete a Storage Profile](/docs/accessanalyzer/11.6/admin/settings/storage/delete.md)
   topic for additional information.
 
-**NOTE:** A green checkmark in the Storage Profiles list indicates the default Storage Profile.
+:::note
+A green checkmark in the Storage Profiles list indicates the default Storage Profile.
+:::
+
 
 The **Cancel** and **Save** buttons are in the lower-right corner of the Storage view. These buttons
 become enabled when modifications are made to the Storage global setting. Whenever changes are made

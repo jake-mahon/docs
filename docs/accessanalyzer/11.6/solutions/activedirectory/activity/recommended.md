@@ -9,7 +9,7 @@ sidebar_position: 10
 The **Active Directory** > **6.Activity** Job Group has been configured by default to run with the
 out-of-the-box settings. It can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 - Successfully execute the **.Active Directory Inventory** Job Group
 - Netwrix Activity Monitor 4.1+ is archiving AD Activity Logs
@@ -19,39 +19,42 @@ Dependencies
   Job Group
 - (Optional) Successfully execute the **FileSystem** > **0.Collection** Job Group
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 Netwrix Activity Monitor API Server or the host with the network share housing archived log files.
 
-Connection Profile
+**Connection Profile**
 
 Connection Profiles must be set directly on the
 [0.Collection > AD_ActivityCollection Job](/docs/accessanalyzer/11.6/solutions/activedirectory/activity/ad_activitycollection.md)
 in order to connect to either the SAM API Server or the host with the network share housing the
 archived log files.
 
-Access Token
+**Access Token**
 
 Required for SAM API Server integration for the
 [0.Collection > AD_ActivityCollection Job](/docs/accessanalyzer/11.6/solutions/activedirectory/activity/ad_activitycollection.md).
 
-Scheduling Frequency
+**Scheduling Frequency**
 
 This group can be scheduled to run as desired.
 
-**_RECOMMENDED:_** Run from the 6.Activity Job Group level in order to correlate 0.Collection job
+:::info
+Run from the 6.Activity Job Group level in order to correlate 0.Collection job
 group data with other jobs.
+:::
 
-History Retention
+
+**History Retention**
 
 History is not supported. Turning on history will cause issues with data analysis and reporting.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Multiple Enterprise Auditor Consoles are not supported. This group should be run from a single
 Enterprise Auditor Console.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Successfully run the **.Active Directory Inventory** Job Group.
 

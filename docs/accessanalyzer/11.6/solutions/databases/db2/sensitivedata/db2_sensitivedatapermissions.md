@@ -15,8 +15,11 @@ Navigate to the **Jobs** > **Databases** > **Db2** > **Sensitive Data** >
 **Db2_SensitiveDataPermissions** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Db2_SensitiveDataPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/sensitivedata/sensitivedatapermissionsanalysis.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created the analysis task, the Db2_SensitiveDataPermissions job
 has the following preconfigured report.
 
-| Report                     | Description                                                                   | Default Tags | Report Elements                                                                                                                                                                                     |
-| -------------------------- | ----------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sensitive Data Permissions | This report highlights sensitive data permissions in the audited environment. | None         | This report is comprised of three elements: - Bar Chart – Displays Top Databases by Permission Count - Table – Displays Database Sensitive Data Permissions Summary - Table – Displays data details |
+| Report                     | Description                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                 |
+| -------------------------- | ----------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sensitive Data Permissions | This report highlights sensitive data permissions in the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Databases by Permission Count</li><li>Table – Displays Database Sensitive Data Permissions Summary</li><li>Table – Displays data details</li></ul> |
+

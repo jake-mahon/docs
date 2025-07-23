@@ -53,7 +53,7 @@ The section contains the following options:
 - Element Title – Enter a title for the element in the text box. This will be displayed in the
   element's header on the generated report.
 
-DataSource Options
+**DataSource Options**
 
 In order to generate results, a location must first be selected as the source of the data.
 
@@ -68,9 +68,12 @@ In order to generate results, a location must first be selected as the source of
 - Limit maximum number of displayed rows to [number] – Limits the number of rows of data displayed
   to less than or equal to the number chosen. By default it is set to **1000**.
 
-    **NOTE:** Limits that are larger than the default may slow down the run time.
+    :::note
+    Limits that are larger than the default may slow down the run time.
+    :::
 
-Export CSV Options
+
+**Export CSV Options**
 
 You can configure the table to allow the data to be exported as a CSV file.
 
@@ -103,12 +106,15 @@ There are two types of grid displays:
 - Non Interactive grid – Creates a report with fixed settings and stationary elements. This option
   disables all the fields within the Table Properties section.
 
-    **NOTE:** In order to view user configured Grouping in emailed reports, the report must be
+    :::note
+    In order to view user configured Grouping in emailed reports, the report must be
     emailed as a **Non Interactive Grid**.
+    :::
+
 
 The following settings are available when Interactive grid is selected:
 
-Grid Properties
+**Grid Properties**
 
 - Treat interactive grid contents as plain text (not HTML) – Enables interactive grid functionality.
   This option is selected by default.
@@ -118,12 +124,15 @@ Grid Properties
   [Paging](/docs/accessanalyzer/11.6/admin/report/interactivegrids/paging.md)
   topic for additional information.
 
-Column Properties
+**Column Properties**
 
 - Group Column – Arranges the table to be grouped by the attributes of the selected column
 
-    **NOTE:** Paging and grouping are not compatible. When Paging is enabled, the Grouping options
+    :::note
+    Paging and grouping are not compatible. When Paging is enabled, the Grouping options
     are disabled in the Table Properties section and in the generated report.
+    :::
+
 
 - Enum Column – Groups the data in tables based on the selected column
 - Color Column – Colors a column data displayed on the report’s table section
@@ -164,7 +173,7 @@ The section contains the following options:
 - Element Title – Enter a title for the element in the text box. This will be displayed in the
   element's header on the generated report.
 
-DataSource Options
+**DataSource Options**
 
 In order to generate results, a location must first be selected as the source of the data.
 
@@ -179,7 +188,10 @@ In order to generate results, a location must first be selected as the source of
 - Limit maximum number of displayed rows to [number] – Limits the number of rows of data displayed
   to less than or equal to the number chosen. By default it is set to **1000**.
 
-    **NOTE:** Limits that are larger than the default may slow down the run time.
+    :::note
+    Limits that are larger than the default may slow down the run time.
+    :::
+
 
 ### Chart Properties
 
@@ -199,7 +211,10 @@ The following options are the available in the Chart Properties:
       column can be numeric or string, but the second column should always be numeric.
     - Stacked – Consolidated bar chart for comparing values
 
-    **NOTE:** Negative numbers cannot be plotted.
+    :::note
+    Negative numbers cannot be plotted.
+    :::
+
 
 - Show Data Labels – Displays the column name for each section within a chart
 - Enum Column – Groups the data in chart by the selected column name
@@ -258,7 +273,10 @@ When you first configure a new text element, a dialog displays allowing you to s
 Text Editor. On this dialog, select either the Basic or Advanced Text Editor and click **Open
 Editor**. The selected editor then opens.
 
-**NOTE:** Once a Text Editor is selected for a Text element, it cannot be changed.
+:::note
+Once a Text Editor is selected for a Text element, it cannot be changed.
+:::
+
 
 ### Basic Text Editor
 

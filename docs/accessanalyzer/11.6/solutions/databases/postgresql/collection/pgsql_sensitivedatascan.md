@@ -34,8 +34,11 @@ The Query Properties window appears.
 
 **Step 3 –** Select the Data Source tab, and click Configure. The SQL Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for this
 job.
+:::
+
 
 ![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/collection/datascanjobsettings.webp)
 
@@ -43,9 +46,12 @@ job.
 [SQL Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/sql/overview.md)
 page. Select the desired scan options.
 
-**NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
+:::note
+The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
+:::
+
 
 ![Select DLP Criteria](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/collection/sensitivedatascancriteria.webp)
 
@@ -93,8 +99,11 @@ The PgSQL_SensitiveDataScan Job is now ready to run with the customized settings
 Navigate to the **Databases** > **0.Collection** > **PostgreSQL** > **PgSQL_SensitiveDataScan** >
 **Configure** node and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/collection/sensitivedataanalysis.webp)
 

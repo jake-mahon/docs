@@ -16,8 +16,11 @@ By default, all job groups are set to inherit **Use Default Setting** option fro
 [History](/docs/accessanalyzer/11.6/admin/settings/history.md) topic
 for additional information.
 
-**CAUTION:** It is important to understand that some pre-configured jobs require history retention
+:::warning
+It is important to understand that some pre-configured jobs require history retention
 while others do not support it. See job group and job descriptions for additional information.
+:::
+
 
 If the Default Setting is not preferred, select the custom type of retention settings desired below:
 

@@ -14,8 +14,11 @@ within the targeted domains.
 Navigate to the **Active Directory Permissions Analyzer** > **8.Domains** >
 **AD_DomainReplication** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_DomainReplication Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/domains/domainreplicationanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_DomainReplication Job
 produces the following pre-configured report.
 
-| Report                         | Description                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                                      |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Domain Replication Permissions | This report highlights domain replication permissions applied to domain objects in active directory. | None         | This report is comprised of three elements: - Bar Chart – Displays replication permission summary by domain - Table – Provides details on replication permissions - Table – Provides details on top users by replication permissions |
+| Report                         | Description                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                                                                  |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Domain Replication Permissions | This report highlights domain replication permissions applied to domain objects in active directory. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays replication permission summary by domain</li><li>Table – Provides details on replication permissions</li><li>Table – Provides details on top users by replication permissions</li></ul> |
+

@@ -20,19 +20,22 @@ topic for additional information.
 Navigate to the **Jobs** > **SP_DropTables** > **Configure** node and select **Analysis** to view
 the analysis tasks.
 
-**CAUTION:** Applying these analysis tasks will result in the deletion of collected data.
+:::warning
+Applying these analysis tasks will result in the deletion of collected data.
+:::
+
 
 ![SP_DropTables Job Analysis tasks](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/droptablesanalysis.webp)
 
 The default analysis tasks are:
 
--   1. Drop SPAA functions – Removes all functions and views from previous runs of the SharePoint
+-   **1. Drop SPAA functions** – Removes all functions and views from previous runs of the SharePoint
        Solution
--   2. Drop SPAC imports – Drops the SharePoint Activity Auditing tables imported from the previous
+-   **2. Drop SPAC imports** – Drops the SharePoint Activity Auditing tables imported from the previous
        runs
--   3. Drop SPDLP Tables – Drops the SharePoint Sensitive Data Discovery Auditing (SEEK) tables
+-   **3. Drop SPDLP Tables** – Drops the SharePoint Sensitive Data Discovery Auditing (SEEK) tables
        imported from the previous runs
--   4. Drop SPAA Tables – Drops the SharePoint Access Auditing tables imported from the previous
+-   **4. Drop SPAA Tables** – Drops the SharePoint Access Auditing tables imported from the previous
        runs
 
 Do not try to run these tasks separately, as they are designed to work together. Follow these steps
@@ -46,7 +49,10 @@ status will be visible from the **Running Jobs** node.
 **Step 3 –** When the job has completed, return to the Analysis Selection Pane and click **Select
 All** to deselect these analysis tasks.
 
-**_RECOMMENDED:_** Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::info
+Do not leave these analysis tasks checked in order to avoid accidental data loss.
+:::
+
 
 All of these tables have been dropped from the SQL Server database and the data is no longer
 available.

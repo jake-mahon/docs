@@ -50,8 +50,11 @@ completed. Proxy scanning architecture supports large deployments or widely disp
 
 A proxy server is any server that can be leveraged to process data collection against target hosts.
 
-**CAUTION:** The File System Proxy Service cannot be installed on the same server as Enterprise
+:::warning
+The File System Proxy Service cannot be installed on the same server as Enterprise
 Auditor.
+:::
+
 
 Two options are available for implementing the proxy scanning architecture:
 
@@ -119,11 +122,14 @@ be possible without proxy servers. This provides a clear benefit in scalability 
 
 The proxy functionality for the FSAA Data Collector provides security and reliability.
 
-_Remember,_ It is recommended that the File System Proxy Service is installed on the proxy server
+:::tip
+Remember, It is recommended that the File System Proxy Service is installed on the proxy server
 before running File System scans in proxy mode as a service. Once installed, the FileSystemAccess
 (FSAA) Data Collector must be configured to use the service. See the
 [File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/11.6/install/filesystemproxy/configuredatacollector.md)
 topic for additional information.
+:::
+
 
 ## Sensitive Data Discovery Auditing Consideration
 
@@ -134,8 +140,11 @@ Enterprise Auditor Console server. See the
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-**NOTE:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
+:::note
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
 minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. By
 default, SDD scans are configured to run two concurrent threads. For example, if the job is
 configured to scan 8 hosts at a time with two concurrent SDD threads, then an extra 32 GB of RAM are
 required (8x2x2=32).
+
+:::

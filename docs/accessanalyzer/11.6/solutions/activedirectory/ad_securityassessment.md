@@ -15,7 +15,7 @@ category with corresponding details that can be used to prioritize and remediate
 
 ## Recommended Configurations for the AD_SecurityAssessment Job
 
-Dependencies
+**Dependencies**
 
 One or more of the following job groups or jobs must be run to produce results:
 
@@ -50,26 +50,29 @@ One or more of the following job groups or jobs must be run to produce results:
 
     - Windows > Privileged Accounts > Service Accounts > SG_ServiceAccounts
 
-**NOTE:** If any of the above jobs are not completed, the AD_SecurityAssessment job will run but all
+:::note
+If any of the above jobs are not completed, the AD_SecurityAssessment job will run but all
 checks will not be assessed.
+:::
 
-Target Host
+
+**Target Host**
 
 This job group does not collect data. No target host is required.
 
-Connection Profile
+**Connection Profile**
 
 No specific Connection Profile is required.
 
-Schedule Frequency
+**Schedule Frequency**
 
 Scheduled to run as desired
 
-History Retention
+**History Retention**
 
 History is not supported. Turning on history will cause issues with data analysis and reporting.
 
-Multi-console Support
+**Multi-console Support**
 
 Multiple StealthAUDIT consoles are not supported. This job should be run from a single StealthAUDIT
 console.
@@ -79,8 +82,11 @@ console.
 Navigate to the **Jobs** > Active Directory > AD_SecurityAssessment > Configure node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/securityassessmentanalysis.webp)
 
@@ -92,6 +98,7 @@ The following non-configurable analysis task is selected by default:
 In addition to the tables created by the analysis task, the AD_SecurityAssessment job produces the
 following preconfigured report:
 
-| Report                 | Description                                                                                                                   | Default Tags       | Report Elements                                                                                                                                                                                                |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| AD Security Assessment | This report identifies security risks within a targeted Active Directory environment based on results of previously run jobs. | GDPR SOX PCI HIPAA | This report is comprised of four elements: - Table – Provides Scope of Audit on domains - Pie Chart – Displays Findings by Severity - Table – Provides Findings by Category - Table – Provides Details on Risk |
+| Report                 | Description                                                                                                                   | Default Tags       | Report Elements                                                                                                                                                                                                                                  |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| AD Security Assessment | This report identifies security risks within a targeted Active Directory environment based on results of previously run jobs. | GDPR SOX PCI HIPAA | This report is comprised of four elements: <ul><li>Table – Provides Scope of Audit on domains</li><li>Pie Chart – Displays Findings by Severity</li><li>Table – Provides Findings by Category</li><li>Table – Provides Details on Risk</li></ul> |
+

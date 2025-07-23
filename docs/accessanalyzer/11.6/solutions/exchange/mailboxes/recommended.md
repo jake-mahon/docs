@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Recommended Configurations for the 4. Mailboxes Job Group
 
-Dependencies
+**Dependencies**
 
 This job group requires the following items to be enabled:
 
@@ -29,7 +29,7 @@ The following job groups need to be successfully run:
     - Provides data on distribution list metrics for Exchange Online environments and the last time
       a distribution list received mail
 
-Targeted Hosts
+**Targeted Hosts**
 
 The **Features** > **EX_Features** job, **Logons** > **0.Collection** job group, **Permissions** >
 **0.Collection** job group, and **Sizing** > **0.Collection** job group have been set for Exchange
@@ -40,7 +40,7 @@ on-premises to run against:
 This Job Group can target a custom host list for Exchange Online instead of targeting Exchange
 on-premises. However, do not try to target both types of environments.
 
-Connection Profile
+**Connection Profile**
 
 A Connection Profile must be set directly on the collection jobs within each sub-job group:
 
@@ -61,7 +61,7 @@ topic for the required permissions. See the
 [Exchange Custom Connection Profile & Host List](/docs/accessanalyzer/11.6/admin/datacollector/exchangeps/configurejob.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 It is not recommended to run these jobs at the 4. Mailboxes job group level. The Logons sub-job
 group and Sizing job group have been designed to run daily. The Features sub-job group and
@@ -74,7 +74,7 @@ Permissions job group have been designed to run weekly. See the table for recomm
 | Features       | Weekly    | No recommendation, run when desired |
 | Permissions    | Weekly    | Fridays at 6 PM                     |
 
-History Retention
+**History Retention**
 
 History retention should not be enabled on this job group. History is kept through analysis tasks.
 Modify the following analysis tasks to customize the amount of history which is kept:
@@ -84,7 +84,7 @@ Modify the following analysis tasks to customize the amount of history which is 
 | EX_DMailboxLogons | SET HISTORY RETENTION | 6 Months        |
 | EX_MailboxSizes   | SET HISTORY RETENTION | 6 Months        |
 
-Query Configuration
+**Query Configuration**
 
 The 4. Mailboxes job group is designed to be run with the default query configurations. However, the
 following queries can be modified:
@@ -99,13 +99,16 @@ following queries can be modified:
 
 No other queries should be modified.
 
-Analysis Configuration
+**Analysis Configuration**
 
 The 4. Mailboxes job group should be run with the default analysis configurations.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified or
 deselected. There are some tasks that are deselected by default, as they are for troubleshooting
 purposes.
+:::
+
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
@@ -118,7 +121,7 @@ Netwrix Access Information Center:
 - **Permissions** > **EX_MailboxAccess** Job – **13.AIC Import - Export Exchange Permissions**
   Analysis Task
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set a Connection Profile on the jobs that run data collection.
 

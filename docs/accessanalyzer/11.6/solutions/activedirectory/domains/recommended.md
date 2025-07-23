@@ -9,11 +9,11 @@ sidebar_position: 10
 The **Active Directory > 5.Domains** job group has been configured by default to run with the
 default settings. It can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 This job group does not have dependencies.
 
-Targeted Hosts
+**Targeted Hosts**
 
 The **AD_DomainControllers** job has been configured to inherit its host from the **5.Domains >
 0.Collection > Settings > Host List Assignment** node. It is set to target the ONE DOMAIN CONTROLLER
@@ -30,21 +30,24 @@ The **5.Domains > AD_DomainInfo** job needs to be set to run against the followi
 
 - Custom host list with one domain controller per forest
 
-Connection Profile
+**Connection Profile**
 
 A Connection Profile should be assigned at the **5.Domains > Settings > Connection** node with
 Domain Administrator privileges.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-Run at the Job Group Level
+**Run at the Job Group Level**
 
-**_RECOMMENDED:_** Run the jobs in the **5.Domains** job group together and in order by running the
+:::info
+Run the jobs in the **5.Domains** job group together and in order by running the
 entire job group, instead of the individual jobs.
+:::
 
-Query Configuration
+
+**Query Configuration**
 
 The 5.Domains > 0.Collection > AD_DomainControllers job should be run with the default query
 configurations. Most of these queries are preconfigured for this Job Group and should not be
@@ -55,7 +58,7 @@ The following query can be modified to use a secure connection with TLS/SSL:
 - Domain Controller Listing Query which uses the
   [LDAP Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/ldap.md)
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set the host on the AD_DomainInfo job.
 

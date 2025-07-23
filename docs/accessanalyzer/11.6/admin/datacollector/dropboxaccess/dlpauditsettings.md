@@ -40,7 +40,9 @@ Configure the DLP audit settings:
     - Files modified since the last [number] days – Scans files modified within the specified number
       of days
 
-_Remember,_ the sensitive data discovery options require the Sensitive Data Discovery Add-On to have
+:::tip
+Remember, the sensitive data discovery options require the Sensitive Data Discovery Add-On to have
 been installed on the Enterprise Auditor Console. See the
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
+:::

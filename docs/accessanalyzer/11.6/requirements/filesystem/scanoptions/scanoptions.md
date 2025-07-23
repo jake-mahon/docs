@@ -34,8 +34,11 @@ See the following topics for additional information:
 
 ## Applet Mode
 
-**CAUTION:** The local policy, “Network access: Do not allow storage of passwords and credentials
+:::warning
+The local policy, “Network access: Do not allow storage of passwords and credentials
 for network authentication” must be disabled in order for the applet to start.
+:::
+
 
 When File System scans are run in applet mode, it means the File System applet is deployed to the
 target host when the job is executed to conduct data collection. However, the applet can only be
@@ -58,8 +61,11 @@ See the following topics for additional information:
 
 ## Proxy Mode with Applet
 
-**CAUTION:** The local policy, “Network access: Do not allow storage of passwords and credentials
+:::warning
+The local policy, “Network access: Do not allow storage of passwords and credentials
 for network authentication” must be disabled in order for the applet to start.
+:::
+
 
 When File System scans are run in proxy mode with applet, it means the File System applet is
 deployed to the Windows proxy server when the job is executed to conduct data collection. The data

@@ -32,8 +32,11 @@ The options on the Criteria page are:
 
 The table contains the following types of criteria:
 
-**NOTE:** Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
+:::note
+Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
 Criteria and User Criteria nodes are visible in the table.
+:::
+
 
 - System Criteria – Lists pre-defined criteria
 - User Criteria – Lists user-defined criteria
@@ -43,6 +46,9 @@ Criteria and User Criteria nodes are visible in the table.
     [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.
 
-**NOTE:** Adding unnecessary criteria can adversely impact the scanner performance and can cause the
+:::note
+Adding unnecessary criteria can adversely impact the scanner performance and can cause the
 scanning job to take a long time. If performance is adversely affected, revisit the sensitive data
 scanning criteria and remove criteria that is not required.
+
+:::

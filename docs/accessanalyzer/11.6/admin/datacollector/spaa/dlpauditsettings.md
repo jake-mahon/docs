@@ -9,10 +9,13 @@ sidebar_position: 90
 The DLP Audit Settings page is where sensitive data discovery settings are configured. It is a
 wizard page for the category of Scan For Sensitive Content.
 
-**CAUTION:** Users should not change scans in a way that would result in less data being returned on
+:::warning
+Users should not change scans in a way that would result in less data being returned on
 a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a
 shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in
 the Tier 2 database and subsequently removed from the Tier 1 database.
+:::
+
 
 ![DLP Audit Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/dlpauditsettings.webp)
 
@@ -32,10 +35,13 @@ Use the radio buttons to select the **File types to scan**:
 - Scan image files for OCR content – Use optical character recognition to scan image files for
   sensitive data content
 
-    **NOTE:** The OCR option is intended to work for clear scanned physical documents or documents
+    :::note
+    The OCR option is intended to work for clear scanned physical documents or documents
     directly converted to images, with standard fonts. It will not work for scanning photos of
     documents and may not be able to recognize text on images of credit cards, driver's licenses, or
     other identity cards.
+    :::
+
 
 Use the checkboxes to select to **Store Match Hits**:
 
@@ -45,6 +51,8 @@ Use the checkboxes to select to **Store Match Hits**:
 - Limit stored matches per criteria to [number] – Enabled when the Store discovered sensitive data
   checkbox is selected. Limits the number of stored matches per criteria to the specified number.
 
-_Remember,_ the sensitive data discovery options require the Sensitive Data Discovery Add-On to be
+:::tip
+Remember, the sensitive data discovery options require the Sensitive Data Discovery Add-On to be
 installed on the Enterprise Auditor Console. If the SharePoint Agent is used, then it must also be
 installed on the application server that hosts the Central Administration component.
+:::

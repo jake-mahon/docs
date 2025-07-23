@@ -35,8 +35,11 @@ information older than the time filter specified here.
 If either is left deselected, all available log files are collected and stored. This has a direct
 impact on both scan time and database size.
 
-_Remember,_ the file activity options require the Activity Monitor to be deployed, configured, and
+:::tip
+Remember, the file activity options require the Activity Monitor to be deployed, configured, and
 services running.
+:::
+
 
 In the Host Mapping section, configure the following:
 
@@ -92,5 +95,8 @@ Single-Host Multiple-Agent Example:
 
 ![Query Results window for multiple agent example](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/hostmappingsinglehostmultipleagent.webp)
 
-**NOTE:** For multiple-agent setup, the configured Host Mapping table must have the same value for
+:::note
+For multiple-agent setup, the configured Host Mapping table must have the same value for
 HostName and Host, as shown in the Single-Host Multiple-Agent example.
+
+:::
