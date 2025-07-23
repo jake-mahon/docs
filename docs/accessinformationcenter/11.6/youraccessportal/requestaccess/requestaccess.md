@@ -12,7 +12,7 @@ The Request Access wizard is opened with the **Request Access** button in the Yo
 
 It contains two pages:
 
--   1. Select Resource — Select the resource or group
+-   *1. Select Resource* — Select the resource or group
 
     :::note
     Only those resources or groups being managed through the Access Information Center
@@ -20,7 +20,7 @@ It contains two pages:
     :::
 
 
--   2. Add Notes — Allows you to enter a note explaining why the request is being made
+-   *2. Add Notes* — Allows you to enter a note explaining why the request is being made
 
 See the [Submit a Request](#submit-a-request) topic for additional information.
 
@@ -83,7 +83,7 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 
 **Step 5 –** When you selection list is set as desired, click **Next**.
 
-![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/11.6/accessrequests/wizard/addnotes.webp)
+![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/11.6/accessrequests/wizard/addnotes_1.webp)
 
 **Step 6 –** On the Add Notes page, enter the following information:
 

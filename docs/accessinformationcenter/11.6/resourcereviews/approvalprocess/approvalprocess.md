@@ -64,7 +64,7 @@ resource's reports. This is where you can conduct change modeling.
 :::
 
 
-![viewresponses](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/viewresponses.webp)
+![viewresponses](/img/product_docs/accessinformationcenter/11.6/resourcereviews/viewresponses.webp)
 
 **Step 3 –** By default, the table displays only the recommended changes. Select an item and click
 the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the

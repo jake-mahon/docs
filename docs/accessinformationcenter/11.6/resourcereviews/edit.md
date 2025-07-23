@@ -10,16 +10,16 @@ The Edit Review wizard is opened with the **Edit** button on the Resource Review
 [Manage Reviews Page](/docs/accessinformationcenter/11.6/resourcereviews/interface/interface.md#manage-reviews-page)
 topic for additional information.
 
-![Edit Review wizard](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype_1.webp)
 
 It contains four pages:
 
--   1. Review Type — Select whether to notify the review creator when the resources have been
+-   **1. Review Type** — Select whether to notify the review creator when the resources have been
        reviewed. The review type and name cannot be changed.
--   2. Criteria — Only applies to Sensitive Data reviews. Update the sensitive criteria to be
+-   **2. Criteria** — Only applies to Sensitive Data reviews. Update the sensitive criteria to be
        reviewed.
--   3. Resources — Modify the list of resources included in the review
--   4. Summary — Preview of the review selections
+-   **3. Resources** — Modify the list of resources included in the review
+-   **4. Summary** — Preview of the review selections
 
 See the [Edit a Review](#edit-a-review) topic for additional information.
 
@@ -29,7 +29,7 @@ Follow the steps to edit an active review.
 
 **Step 1 –** On the Manage Reviews page, click **Edit**. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype_1.webp)
 
 **Step 2 –** On the Review Type page, configure the notify review creator option as required. The
 Review Name and type are shown on the page but can not be edited. For Permissions, Access, and

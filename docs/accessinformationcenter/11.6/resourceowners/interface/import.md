@@ -12,10 +12,10 @@ The Import Owners wizard is opened with the **Import** button in the Resource Ow
 
 It contains two pages:
 
--   1. Select File — Select the CSV file with the resource or group to be managed through the Access
+-   **1. Select File** — Select the CSV file with the resource or group to be managed through the Access
        Information Center and the assigned owner. A preview of the selected file displays on this
        page.
--   2. Options — Provides the option for marking all imported resources as having confirmed
+-   **2. Options** — Provides the option for marking all imported resources as having confirmed
        ownership. If the CSV file only contains Groups, you can additionally select to enable Access
        Requests and Owner Ad Hoc changes for them.
 
@@ -26,28 +26,16 @@ The CSV file should list one resource per row using the following format:
 ![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/csvfileformat.webp)
 
 - Resource Formats:
-
     - File System Resources – Resource path should be the UNC path to the share or folder.
-
-**\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner**
-
+    `\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner`
     - SharePoint Resources – Resource path should be the URL to the site resource.
-
-**http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner**
-
-    - Groups – Resource path should be the NTAccount [DOMAIN\NAME] for the group or distribution
-      list
-
-**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner**
-
+    `http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner`
+- Groups – Resource path should be the NTAccount [DOMAIN\NAME] for the group or distribution list
+  `ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner`
 - Multiple owners can be added, separated by a semicolon (;)
-
-**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2**
-
-- _(Optional)_ A description for the resource can be added after the last owner
-
-    ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2,Security
-    group for access to the Example share
+  `ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2`
+- *(Optional)* A description for the resource can be added after the last owner
+  `ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2,Security group for access to the Example share`
 
 :::tip
 Remember, if the CSV file contains resources other than just Groups, this method only imports

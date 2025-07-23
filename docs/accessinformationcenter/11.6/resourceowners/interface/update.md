@@ -12,10 +12,10 @@ The Update resource wizard is opened with the **Update** button in the Resource 
 
 It contains four pages:
 
--   1. Select Owners — Lists the current owner(s). Modify by adding new owners, removing owners, or
+-   **1. Select Owners** — Lists the current owner(s). Modify by adding new owners, removing owners, or
        changing owner priority order (primary, secondary, etc.)
--   2. Description — Enter or modify a note describing the resource
--   3. Access Groups — Enable or disable Access Requests and Owner Ad Hoc changes for this resource.
+-   **2. Description** — Enter or modify a note describing the resource
+-   **3. Access Groups** — Enable or disable Access Requests and Owner Ad Hoc changes for this resource.
        When File System or SharePoint resources will be managed through the AIC, it is necessary to
        configure access groups for those resources in the target environment. An access group
        provides one of the following access levels to a specific resource: Read, Modify, or Full
@@ -30,7 +30,7 @@ It contains four pages:
     :::
 
 
--   4. Summary — Provides a preview of the settings selected within the wizard
+-   **4. Summary** — Provides a preview of the settings selected within the wizard
 
 See the [Update a Resource](#update-a-resource) topic for additional information.
 

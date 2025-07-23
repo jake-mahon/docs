@@ -165,7 +165,7 @@ The user is removed from the list on the Console Access page.
 The Builtin Administrator account can be disabled or its password can be changed. Follow the steps
 to modify this account.
 
-![modifybuiltinadministrator](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/modifybuiltinadministrator.webp)
+![modifybuiltinadministrator](/img/product_docs/accessinformationcenter/11.6/admin/configuration/modifybuiltinadministrator.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the Builtin
 Administrator account and click **Modify**. The Builtin Administrator window opens.
