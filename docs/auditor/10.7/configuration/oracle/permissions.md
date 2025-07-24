@@ -63,17 +63,33 @@ provide this account in the monitoring plan wizard.
 1. The `CREATE SESSION` system privilege must be granted to the account used to connect to Oracle
    Database for data collection.
 2. Depending on your Oracle Database version, the `SELECT` privilege on the certain objects must be
-   granted to that account: | | | | --- | --- | | Oracle Database 12c, 18c, 19c | Grant `SELECT`
-   privilege on the following objects: - `aud$ ` - `gv_$xml_audit_trail` - `dba_stmt_audit_opts` -
-   `v_$parameter` - `dba_obj_audit_opts` - `dba_audit_policies` - `dba_audit_mgmt_clean_events` -
-   `gv_$instance` - `fga_log$` - `gv_$unified_audit_trail` - `all_unified_audit_actions` -
-   `audit_unified_policies` - `audit_unified_enabled_policies` - `audsys.aud$unified` (for Oracle
-   Database 12c Release 2 and higher) | | Oracle Database 11g Starting with version 10.5, Netwrix
-   Auditor provides limited support of Oracle Database 11g. | Grant `SELECT` privilege on the
-   following objects: - `aud$ ` - `gv_$xml_audit_trail` - `dba_stmt_audit_opts` - `v_$parameter` -
-   `dba_obj_audit_opts` - `dba_audit_policies` - `dba_audit_mgmt_clean_events` - `gv_$instance` -
-   `fga_log$` |
-    - You can grant the default **Administrator** role to the account.
-    - If you are going to configure Fine Grained Auditing, make sure that you are using Oracle
-      Database _Enterprise Edition_. Then grant privileges depending on your Oracle Database
-      version.
+   granted to that account:
+
+| Version                  | Privileges Required                                                                                                               |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Oracle Database 12c, 18c, 19c | Grant SELECT privilege on the following objects:                                                                               |
+|                          | - aud$                                                                                                                            |
+|                          | - gv_$xml_audit_trail                                                                                                              |
+|                          | - dba_stmt_audit_opts                                                                                                              |
+|                          | - v_$parameter                                                                                                                     |
+|                          | - dba_obj_audit_opts                                                                                                               |
+|                          | - dba_audit_policies                                                                                                               |
+|                          | - dba_audit_mgmt_clean_events                                                                                                      |
+|                          | - gv_$instance                                                                                                                     |
+|                          | - fga_log$                                                                                                                         |
+|                          | - gv_$unified_audit_trail                                                                                                          |
+|                          | - all_unified_audit_actions                                                                                                        |
+|                          | - audit_unified_policies                                                                                                           |
+|                          | - audit_unified_enabled_policies                                                                                                   |
+|                          | - audsys.aud$unified (for Oracle Database 12c Release 2 and higher)                                                                |
+| Oracle Database 11g      | Starting with version 10.5, Netwrix Auditor provides limited support of Oracle Database 11g.                                       |
+|                          | Grant SELECT privilege on the following objects:                                                                                   |
+|                          | - aud$                                                                                                                            |
+|                          | - gv_$xml_audit_trail                                                                                                              |
+|                          | - dba_stmt_audit_opts                                                                                                              |
+|                          | - v_$parameter                                                                                                                     |
+|                          | - dba_obj_audit_opts                                                                                                               |
+|                          | - dba_audit_policies                                                                                                               |
+|                          | - dba_audit_mgmt_clean_events                                                                                                      |
+|                          | - gv_$instance                                                                                                                     |
+|                          | - fga_log$                                                                                                                         |

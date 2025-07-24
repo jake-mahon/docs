@@ -130,11 +130,12 @@ To configure Clustered Data ONTAP 8 and ONTAP 9 for monitoring, perform the foll
 Netwrix assumes that you are aware of basic installation and configuration steps. If not, refer to
 the following administration and management guides.
 
-| Version                  | Related documentation                                                                                                                                                                                                                                                                   |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Clustered Data ONTAP 8.2 | - [Clustered Data ONTAP® 8.2 File Access and Protocols Management Guide](https://library.netapp.com/ecm/ecm_download_file/ECMP1196891) - [Clustered Data ONTAP® 8.2 System Administration Guide for SVM Administrators](https://library.netapp.com/ecm/ecm_download_file/ECMP1368704) |
-| Clustered Data ONTAP 8.3 | - [Clustered Data ONTAP® 8.3 System Administration Guide for Cluster Administrators](https://library.netapp.com/ecm/ecm_get_file/ECMP1636037) - [Clustered Data ONTAP® 8.3 File Access Management Guide for CIFS](https://library.netapp.com/ecm/ecm_download_file/ECMP1610207)       |
-| ONTAP 9.0 - 9.10         | - [ONTAP 9 Documentation Center](http://docs.netapp.com/ontap-9/index.jsp)                                                                                                                                                                                                              |
+| Version                          | Related documentation                                                                                                                                                                                                                                                                                       |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Clustered Data ONTAP 8.2         | <ul><li>[Clustered Data ONTAP® 8.2 File Access and Protocols Management Guide](https://library.netapp.com/ecm/ecm_download_file/ECMP1196891)</li><li>[Clustered Data ONTAP® 8.2 System Administration Guide for SVM Administrators](https://library.netapp.com/ecm/ecm_download_file/ECMP1368704)</li></ul> |
+| Clustered Data ONTAP 8.3         | <ul><li>[Clustered Data ONTAP® 8.3 System Administration Guide for Cluster Administrators](https://library.netapp.com/ecm/ecm_get_file/ECMP1636037)</li><li>[Clustered Data ONTAP® 8.3 File Access Management Guide for CIFS](https://library.netapp.com/ecm/ecm_download_file/ECMP1610207)</li></ul>       |
+| ONTAP 9.0 <ul><li>9.10</li></ul> | <ul><li>[ONTAP 9 Documentation Center](http://docs.netapp.com/ontap-9/index.jsp)</li></ul>                                                                                                                                                                                                                  |
+
 
 Perform the following steps before proceeding with the audit configuration.
 

@@ -96,8 +96,9 @@ System Audit Policies.
 
 **Step 3 –** Configure the following audit policies.
 
-| Policy Subnode     | Policy Name                                                                                        | Audit Events |
-| ------------------ | -------------------------------------------------------------------------------------------------- | ------------ |
-| Account Management | - Audit Security Group Management - Audit User Account Management                                  | "Success"    |
-| Object Access      | - Audit Handle Manipulation - Audit Other Object Access Events - Audit Registry - Audit File Share | "Success"    |
-| Policy Change      | - Audit Audit Policy Change                                                                        | "Success"    |
+| Policy Subnode     | Policy Name                                                                                                                          | Audit Events |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| Account Management | <ul><li>Audit Security Group Management</li><li>Audit User Account Management</li></ul>                                              | "Success"    |
+| Object Access      | <ul><li>Audit Handle Manipulation</li><li>Audit Other Object Access Events</li><li>Audit Registry</li><li>Audit File Share</li></ul> | "Success"    |
+| Policy Change      | <ul><li>Audit Audit Policy Change</li></ul>                                                                                          | "Success"    |
+

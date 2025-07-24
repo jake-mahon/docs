@@ -42,12 +42,13 @@ System Audit Policies.
 
 **Step 3 –** Configure the following audit policies.
 
-| Policy Subnode              | Policy Name                                     | Audit Events                                                                  |
-| --------------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------- |
-| Object Access               | - Audit File System - Audit Handle Manipulation | "Success" and/or "Failure" depending on the type of events you want to track. |
-| - Audit Detailed File Share | "Failure"                                       |                                                                               |
-| - Audit File Share          | "Success"                                       |                                                                               |
-| Policy Change               | - Audit Policy Change                           | "Success"                                                                     |
-| Logon/Logoff                | - Logon                                         | "Success"                                                                     |
-| - Logoff                    | "Success"                                       |                                                                               |
-| System                      | - Security State Change                         | "Success"                                                                     |
+| Policy Subnode                              | Policy Name                                                           | Audit Events                                                                  |
+| ------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Object Access                               | <ul><li>Audit File System</li><li>Audit Handle Manipulation</li></ul> | "Success" and/or "Failure" depending on the type of events you want to track. |
+| <ul><li>Audit Detailed File Share</li></ul> | "Failure"                                                             |                                                                               |
+| <ul><li>Audit File Share</li></ul>          | "Success"                                                             |                                                                               |
+| Policy Change                               | <ul><li>Audit Policy Change</li></ul>                                 | "Success"                                                                     |
+| Logon/Logoff                                | <ul><li>Logon</li></ul>                                               | "Success"                                                                     |
+| <ul><li>Logoff</li></ul>                    | "Success"                                                             |                                                                               |
+| System                                      | <ul><li>Security State Change</li></ul>                               | "Success"                                                                     |
+

@@ -49,12 +49,79 @@ This example describes how to feed Activity Records to the Audit Database.
 **Step 1 –** Send a POST request containing Activity Records.
 [Activity Records](/docs/auditor/10.7/api/postdata/activityrecords.md) For example:
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| XML                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `curl -H "Content-Type:application/xml; Charset=UTF-8" https://WKSWin2012:9699/netwrix/api/v1/activity_records/ -u Enterprise\NetwrixUser:NetwrixIsCool --data-binary @C:\APIdocs\Input.xml`````` <?xml version="1.0" encoding="utf-8"?> `````` <ActivityRecordList xmlns="http://schemas.netwrix.com/api/v1/activity_records/"> `````` <ActivityRecord> `````` <Who>Admin</Who> `````` <ObjectType>Stored Procedure</ObjectType> `````` <Action>Added</Action> `````` <What>Databases\ReportServer\Stored Procedures\dbo.sp_New</What> `````` <MonitoringPlan> `````` <Name>Integrations and custom sources</Name> `````` </MonitoringPlan> `````` <Where>WKSWin12SQL</Where> `````` <When>2017-02-19T03:43:49-11:00</When> `````` </ActivityRecord> `````` <ActivityRecord> `````` <Action>Modified</Action> `````` <ObjectType>Mailbox</ObjectType> `````` <What>Shared Mailbox</What> `````` <When>2017-02-10T14:46:00Z</When> `````` <Where>BLUPR05MB1940</Where> `````` <Who>admin@enterprise.onmicrosoft.com</Who> `````` <DetailList> `````` <Detail> `````` <PropertyName>Custom_Attribute</PropertyName> `````` <Before>1</Before> `````` <After>2</After> `````` </Detail> `````` </DetailList> `````` </ActivityRecord> `````` </ActivityRecordList> ` |
-| JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `curl -H "Content-Type:application/json; Charset=UTF-8" https://WKSWin2012:9699/netwrix/api/v1/activity_records/?format=json -u Enterprise\NetwrixUser:NetwrixIsCool --data-binary @C:\APIdocs\Input.json` `[ `````` { `````` "Who": "Admin", `````` "ObjectType": "Stored Procedure", `````` "Action": "Added", `````` "MonitoringPlan": {"Name": "Integrations and custom sources"}, `````` "What": "Databases\\ReportServer\\Stored Procedures\\dbo.sp_New", `````` "Where": "WKSWin12SQL", `````` "When": "2017-02-19T03:43:49-11:00" `````` }, `````` { `````` "Action": "Modified", `````` "ObjectType": "Mailbox", `````` "What": "Shared Mailbox", `````` "When": "2017-02-10T14:46:00Z", `````` "Where": "BLUPR05MB1940", `````` "Who": "admin@enterprise.onmicrosoft.com", `````` "DetailList": [ `````` { `````` "PropertyName": "Custom_Attribute", `````` "Before": "1", `````` "After": "2" `````` } `````` ] `````` } `````` ]`                                                                                                                                                                                                                                                                                                                     |
+**XML:**
+
+```bash
+curl -H "Content-Type:application/xml; Charset=UTF-8" https://WKSWin2012:9699/netwrix/api/v1/activity_records/ -u Enterprise\NetwrixUser:NetwrixIsCool --data-binary @C:\APIdocs\Input.xml
+```
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<ActivityRecordList xmlns="http://schemas.netwrix.com/api/v1/activity_records/">
+    <ActivityRecord>
+        <Who>Admin</Who>
+        <ObjectType>Stored Procedure</ObjectType>
+        <Action>Added</Action>
+        <What>Databases\ReportServer\Stored Procedures\dbo.sp_New</What>
+        <MonitoringPlan>
+            <Name>Integrations and custom sources</Name>
+        </MonitoringPlan>
+        <Where>WKSWin12SQL</Where>
+        <When>2017-02-19T03:43:49-11:00</When>
+    </ActivityRecord>
+    <ActivityRecord>
+        <Action>Modified</Action>
+        <ObjectType>Mailbox</ObjectType>
+        <What>Shared Mailbox</What>
+        <When>2017-02-10T14:46:00Z</When>
+        <Where>BLUPR05MB1940</Where>
+        <Who>admin@enterprise.onmicrosoft.com</Who>
+        <DetailList>
+            <Detail>
+                <PropertyName>Custom_Attribute</PropertyName>
+                <Before>1</Before>
+                <After>2</After>
+            </Detail>
+        </DetailList>
+    </ActivityRecord>
+</ActivityRecordList> 
+```
+ 
+**JSON:**
+
+```bash
+curl -H "Content-Type:application/json; Charset=UTF-8" https://WKSWin2012:9699/netwrix/api/v1/activity_records/?format=json -u Enterprise\NetwrixUser:NetwrixIsCool --data-binary @C:\APIdocs\Input.json 
+```
+
+```json
+[
+    {
+        "Who": "Admin",
+        "ObjectType": "Stored Procedure",
+        "Action": "Added",
+        "MonitoringPlan": {"Name": "Integrations and custom sources"},
+        "What": "Databases\\ReportServer\\Stored Procedures\\dbo.sp_New",
+        "Where": "WKSWin12SQL",
+        "When": "2017-02-19T03:43:49-11:00"
+    },
+    {
+        "Action": "Modified",
+        "ObjectType": "Mailbox",
+        "What": "Shared Mailbox",
+        "When": "2017-02-10T14:46:00Z",
+        "Where": "BLUPR05MB1940",
+        "Who": "admin@enterprise.onmicrosoft.com",
+        "DetailList": [
+            {
+                "PropertyName": "Custom_Attribute",
+                "Before": "1",
+                "After": "2"
+            }
+        ]
+    }
+] 
+```
+ 
 
 Ensure to pass information about transferred data, including `Content-Type:application/xml` or
 `application/json `and encoding. The syntax greatly depends on the tool you use.
@@ -64,27 +131,22 @@ Ensure to pass information about transferred data, including `Content-Type:appli
 
 ```
 HTTP/1.1 200 OK
-```
 
 Server: Microsoft-HTTPAPI/2.0
 
-```
 Content-Length: 0
-```
 
 Content-Type: text/plain
 
-````
 Date: Fri, 08 Apr 2017 13:56:22 GMT
 ```
 
-__Step 3 –__ Send more POST requests containing Activity Records if necessary.
+**Step 3 –** Send more POST requests containing Activity Records if necessary.
 
-__Step 4 –__ Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity_records/search](/docs/auditor/10.7/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
+**Step 4 –** Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity_records/search](/docs/auditor/10.7/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
 
 ![apiactivity_thumb_0_0](/img/product_docs/auditor/10.7/api/apiactivity_thumb_0_0.webp)
 
-__Step 5 –__ For input Activity Records, the data source is set to Netwrix API.
+**Step 5 –** For input Activity Records, the data source is set to Netwrix API.
 
 ![apiactivitydetails](/img/product_docs/auditor/10.7/api/apiactivitydetails.webp)
-````

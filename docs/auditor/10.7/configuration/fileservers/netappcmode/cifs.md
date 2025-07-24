@@ -65,60 +65,46 @@ Do one of the following depending on the OS:
     | Failed change attempts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
     | The Auditing Entry below shows Advanced Permissions for auditing failed change attempts only: - Apply onto—Select _"This folder, subfolders and files"_. - Check _"Failed"_ next to the following permissions: - Create files / write data - Create folders / append data - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the **Apply these auditing entries to objects and/or containers within this container only** checkbox is cleared. |
 
-## To configure audit settings for the CIFS file shares from computers running Windows Server 2012 and above
+## Configure Object-level Access Auditing on Windows Server 2012 and Above
 
-1. Navigate to the root shared folder, right-click it and select Properties.
-2. In the **`<Share_Name>` Properties** dialog, select the **Security** tab and click **Advanced**.
+Follow the steps to configure Object-level access auditing on Windows Server 2012 and above.
 
-    If there is no such tab, it means a wrong security style has been specified for the volume
-    holding this file share.
+**Step 1 –** Navigate to the target file share, right-click it and select **Properties**.
 
-3. In the **Advanced Security Settings for `<Share_Name>`** dialog, navigate to the **Auditing**
-   tab, click Edit.
+**Step 2 –** In the `<Share_Name>` Properties dialog box, select the Security tab and click
+**Advanced**.
 
-    ![auditing_entries_netapp_2016](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
+**Step 3 –** In the Advanced Security Settings for `<Share_Name>` dialog box, navigate to the
+Auditing tab.
 
-4. Click Add to add a new principal. You can also select Everyone (or another user-defined group
-   containing users that are granted special permissions) and click Edit.
-5. In the Auditing Entry for `<Folder_Name>` dialog, click the Select a principal link and specify
-   Everyone.
+![Advanced Security Settings for Share_Name dialog box](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
 
-    You can specify any other user group, but in this case Netwrix Auditor will send emails with
-    warnings on incorrect audit configuration. In this case, the product will only monitor user
-    accounts that belong to the selected group.
+**Step 4 –** Click **Add** to add a new principal. You can select **Everyone** (or another
+user-defined group containing users that are granted special permissions) and click **Edit**.
 
-6. Apply settings to your Auditing Entries depending on actions that you want to audit. If you want
-   to audit all actions (successful reads and changes as well as failed read and change attempts),
-   you need to add three separate Auditing Entries for each file share. Otherwise, reports will
-   contain limited data and warning messages. Review the following for additional information:
+**Step 5 –** In the Auditing Entry for `<Folder_Name>` dialog box, click the **Select a principal**
+link and specify **Everyone**.
 
-    - Successful reads
-    - Successful changes
-    - Failed read attempts
-    - Failed change attempts | Auditing Entry | | | --- | --- | | Successful reads | | | The
-      Auditing Entry below shows Advanced Permissions for auditing successful reads only:
-      ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp) -
-      Type—Set to*"Success"*. - Applies to—Set to*"Files only"*. - Advanced permissions—SelectList
-      folder / read data. - Make sure that theOnly apply these auditing settings to objects and/or
-      containers within this containercheckbox is cleared. | | | Successful changes | | | The
-      Auditing Entry below shows Advanced Permissions for auditing successful changes only:
-      ![manualconfig_fileserver_auditingentry_2_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp) -
-      Type—Set to*"Success"*. - Applies to—Set to*"This folder, subfolders and files"*. - Advanced
-      permissions: - Create files / write data - Create folders / append data - Write extended
-      attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make
-      sure that theOnly apply these auditing settings to objects and/or containers within this
-      containercheckbox is cleared. | | | Failed read attempts | | | The Auditing Entry below shows
-      Advanced Permissions for auditing failed read attempts:
-      ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) -
-      Type—Set to*"Fail"*. - Applies to—Set to*"This folder, subfolders and files"*. - Advanced
-      permissions—SelectList folder / read data. - Make sure that theOnly apply these auditing
-      settings to objects and/or containers within this containercheckbox is cleared. | | | Failed
-      change attempts | | | The Auditing Entry below shows Advanced Permissions for auditing failed
-      change attempts:
-      ![manualconfig_fileserver_auditingentry_4_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_4_2016.webp) -
-      Type—Set to*"Fail"*. - Applies to—Set to*"This folder, subfolders and files"*. - Advanced
-      permissions: - Create files / write data - Create folders / append data - Write extended
-      attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make
-      sure that theOnly apply these auditing settings to objects and/or containers within this
-      containercheckbox is cleared. To audit successful changes on NetApp 8.x or earlier, also
-      selectWrite Attributesin the**Advanced permissions**list in the auditing entry settings. | |
+**NOTE:** You can specify any other user group, but in this case the emails will be sent with
+warnings on incorrect audit configuration. The product will audit only user accounts that belong to
+the selected group.
+
+**Step 6 –** Apply settings to your Auditing Entries depending on the access types that you want to
+audit. If you want to audit all access types (successful reads, modification as well as failed read
+and modification attempts), you need to add separate Auditing Entries for each file share.
+Otherwise, reports will contain limited data and warning messages.
+
+Review the following for additional information:
+
+| Auditing Entry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| Successful reads                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |     |
+| The Auditing Entry below shows Advanced Permissions for auditing successful reads only: ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp) <ul><li>Type—Set to _"Success"_.</li><li>Applies to—Set to _"Files only"_.</li><li>Advanced permissions—Select List folder / read data.</li><li>Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.</li></ul>                                                                                                                                                                                                         |     |
+| Successful changes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |     |
+| The Auditing Entry below shows Advanced Permissions for auditing successful changes only: ![manualconfig_fileserver_auditingentry_2_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp) <ul><li>Type—Set to _"Success"_.</li><li>Applies to—Set to _"This folder, subfolders and files"_.</li><li>Advanced permissions:</li><li>Create files / write data</li><li>Create folders / append data</li><li>Write extended attributes</li><li>Delete subfolders and files</li><li>Delete</li><li>Change permissions</li><li>Take ownership</li><li>Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.</li></ul> |     |
+| Failed read attempts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |     |
+| The Auditing Entry below shows Advanced Permissions for auditing failed read attempts: ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) <ul><li>Type—Set to _"Fail"_.</li><li>Applies to—Set to _"This folder, subfolders and files"_.</li><li>Advanced permissions—Select List folder / read data.</li><li>Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.</li></ul>                                                                                                                                                                                      |     |
+| Failed change attempts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |     |
+| The Auditing Entry below shows Advanced Permissions for auditing failed change attempts: ![manualconfig_fileserver_auditingentry_4_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_4_2016.webp) <ul><li>Type—Set to _"Fail"_.</li><li>Applies to—Set to _"This folder, subfolders and files"_.</li><li>Advanced permissions:</li><li>Create files / write data</li><li>Create folders / append data</li><li>Write extended attributes</li><li>Delete subfolders and files</li><li>Delete</li><li>Change permissions</li><li>Take ownership</li><li>Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.</li></ul>     |     |
+
+

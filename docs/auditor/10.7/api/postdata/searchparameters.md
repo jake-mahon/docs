@@ -12,12 +12,41 @@ parameters file includes one or more filters with operators and values (e.g., to
 _data source_ is _SharePoint_); it may also contain a [Continuation Mark](/docs/auditor/10.7/api/postdata/continuationmark.md).
 Generally, the Search parameters file looks similar to the following:
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| XML                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| `<?xml version="1.0" encoding="utf-8"?> `````` <ActivityRecordSearch xmlns="http//schemas.netwrix.com/api/v1/activity_records/"> `````` <ContinuationMark>Continuation mark</ContinuationMark> `````` <FilterList> `````` <Filter1>Value</Filter1> `````` <Filter2>Value1</Filter2> `````` <Filter2>Value2</Filter2> `````` <Filter3 Operator="MatchType1">Value1</Filter3> `````` <Filter3 Operator="MatchType2">Value2</Filter3> `````` <Filter4>Value1</Filter4> `````` <Filter4 Operator="MacthType">Value2</Filter4> `````` </FilterList> `````` </ActivityRecordSearch>` |
-| JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `{ `````` "ContinuationMark": "Continuation Mark", `````` "FilterList": { `````` "Filter1": "Value", `````` "Filter2": [ "Value1", "Value2" ], `````` "Filter3": { `````` "MatchType1": "Value1", `````` "MatchType2": "Value2" `````` }, `````` "Filter4": [ "Value1", { "MatchType": "Value2" } ] `````` } `````` }`                                                                                                                                                                                                                                                         |
+**XML:**
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<ActivityRecordSearch xmlns="http://schemas.netwrix.com/api/v1/activity_records/">
+    <ContinuationMark>Continuation mark</ContinuationMark>
+    <FilterList>
+        <Filter1>Value</Filter1>
+        <Filter2>Value1</Filter2>
+        <Filter2>Value2</Filter2>
+        <Filter3 Operator="MatchType1">Value1</Filter3>
+        <Filter3 Operator="MatchType2">Value2</Filter3>
+        <Filter4>Value1</Filter4>
+        <Filter4 Operator="MatchType">Value2</Filter4>
+    </FilterList>
+</ActivityRecordSearch> 
+```
+ 
+**JSON:**
+```json
+{
+    "ContinuationMark": "Continuation Mark",
+    "FilterList": {
+        "Filter1": "Value",
+        "Filter2": ["Value1", "Value2"],
+        "Filter3": {
+            "MatchType1": "Value1",
+            "MatchType2": "Value2"
+        },
+        "Filter4": [
+            "Value1",
+            {"MatchType": "Value2"}
+        ]
+    }
+} 
+```
 
 Ensure to pass information about transferred data, including `Content-Type:application/xml` or
 `application/json `and encoding. The syntax greatly depends on the tool you use.
@@ -36,9 +65,49 @@ Review the following for additional information:
 
 ## Example
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| XML                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `<?xml version="1.0" encoding="utf-8"?> `````` <ActivityRecordSearch xmlns="http://schemas.netwrix.com/api/v1/activity_records/"> `````` <FilterList> `````` <Who Operator="NotEqualTo">Administrator</Who> `````` <MonitoringPlan>My Hybrid Cloud enterprise</MonitoringPlan>  `````` <DataSource>Active Directory</DataSource> `````` <DataSource Operator="StartsWith">Exchange</DataSource> `````` <Action>Removed</Action> `````` <Action>Added</Action> `````` <ObjectType Operator="DoesNotContain">Group</ObjectType> `````` <When> `````` <From>2016-01-16T16:30:00+11:00</From> `````` <To>2017-01-01T00:00:00Z</To> `````` </When> `````` </FilterList> `````` </ActivityRecordSearch>` |
-| JSON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| `{ `````` "FilterList": { `````` "Who": { "NotEqualTo": "Administrator" }, `````` "MonitoringPlan": "My Hybrid Cloud enterprise", `````` "DataSource": [ "Active Directory", { "StartsWith": "Exchange" } ], `````` "Action": [ "Added", "Removed" ], `````` "ObjectType": { "DoesNotContain": "Group" }, `````` "When": { `````` "From": "2016-01-16T16:30:00+11:00", `````` "To": "2017-01-01T00:00:00Z" `````` } `````` } `````` }`                                                                                                                                                                                                                                                             |
+**XML:**
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<ActivityRecordSearch xmlns="http://schemas.netwrix.com/api/v1/activity_records/">
+    <FilterList>
+        <Who Operator="NotEqualTo">Administrator</Who>
+        <MonitoringPlan>My Hybrid Cloud enterprise</MonitoringPlan>
+        <DataSource>Active Directory</DataSource>
+        <DataSource Operator="StartsWith">Exchange</DataSource>
+        <Action>Removed</Action>
+        <Action>Added</Action>
+        <ObjectType Operator="DoesNotContain">Group</ObjectType>
+        <When>
+            <From>2016-01-16T16:30:00+11:00</From>
+            <To>2017-01-01T00:00:00Z</To>
+        </When>
+    </FilterList>
+</ActivityRecordSearch> 
+```
+ 
+**JSON:**
+```json
+{
+    "FilterList": {
+        "Who": { 
+            "NotEqualTo": "Administrator" 
+        },
+        "MonitoringPlan": "My Hybrid Cloud enterprise",
+        "DataSource": [
+            "Active Directory",
+            { "StartsWith": "Exchange" }
+        ],
+        "Action": [
+            "Added",
+            "Removed"
+        ],
+        "ObjectType": { 
+            "DoesNotContain": "Group" 
+        },
+        "When": {
+            "From": "2016-01-16T16:30:00+11:00",
+            "To": "2017-01-01T00:00:00Z"
+        }
+    }
+} 
+```
