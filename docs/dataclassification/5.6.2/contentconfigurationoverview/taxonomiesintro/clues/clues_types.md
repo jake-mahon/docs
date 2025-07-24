@@ -8,8 +8,7 @@ sidebar_position: 10
 
 The following clue types of clues are available, each clue type is described in detail below:
 
-- [Types of Clues](#types-of-clues)
-  - [Standard Clues](#standard-clues)
+- [Standard Clues](#standard-clues)
   - [Case-Sensitive Clues](#case-sensitive-clues)
   - [Phrasematch (Wildcard) Clues](#phrasematch-wildcard-clues)
   - [Metadata Clues](#metadata-clues)

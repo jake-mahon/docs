@@ -12,8 +12,7 @@ You will need to create a service account and authorize it to access data in ind
 Drives on behalf of users using the Google Drive API. Depending on your drive type, do the
 following:
 
-- [Configure G Suite and Google Drive for Crawling](#configure-g-suite-and-google-drive-for-crawling)
-  - [Сonfiguring G Suite for Crawling](#сonfiguring-g-suite-for-crawling)
+- [Сonfiguring G Suite for Crawling](#сonfiguring-g-suite-for-crawling)
   - [Configuring Personal Google Drive for Crawling](#configuring-personal-google-drive-for-crawling)
 
 ## Сonfiguring G Suite for Crawling

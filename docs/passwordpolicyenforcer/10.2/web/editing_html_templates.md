@@ -42,7 +42,7 @@ Password Policy Enforcer/Web deletes ranges (and the text inside them) when they
 Some ranges span only one word, while others span several lines. The other type of comment tag is
 called a field.
 
-**<!--USERNAME-->**
+`<!--USERNAME-->`
 
 Fields are replaced by some other information. For example, the field above is replaced with a
 username.
@@ -57,7 +57,7 @@ Templates end with a resource string section.
 
 @RES_EMPTY_FIELD_DOMAIN:    Enter your domain name in the Domain box.
 
-**--><!--/RESOURCE_STRINGS-->**
+`--><!--/RESOURCE_STRINGS-->`
 
 Resource strings are mostly validation error messages, but they can contain any text Password Policy
 Enforcer/Web may need to build the page. See the
@@ -108,11 +108,11 @@ or they may be displayed on the wrong page.
 <!--/SECTION_A-->
 ```
 
-**<!--SECTION_B-->**
+`<!--SECTION_B-->`
 
 <p>Enter your old and new passwords in the text boxes below.</p>
 
-**<!--/SECTION_B-->**
+`<!--/SECTION_B-->`
 
 ### Edit Validation Error Messages
 
@@ -152,7 +152,7 @@ error, but you can delete them if you do not want them.
 If you want to display some text for all error messages, then insert your text above or below the
 `<p>{/*ERROR*/}</p>` line. For example:
 
-**<p>{/*ERROR*/}</p>**
+`<p>{/*ERROR*/}</p>`
 
 <p>The help desk phone number is 555-555-5555.</p>
 
@@ -206,4 +206,4 @@ To display a different page when users click OK or Cancel, search for `en_defaul
 `en_ppeweb.htm`, `en_finished.htm`, and `en_error.htm` and replace `en_default.htm` with an
 alternative URL. For example:
 
-**https://myserver/accounts/login.htm**
+`https://myserver/accounts/login.htm`
