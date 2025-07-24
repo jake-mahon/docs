@@ -63,7 +63,7 @@ policy, these options are grayed-out. See the
 topic for additional information on protection.
 :::
 
-**&lt;Policy Name&gt; and &lt;Template Name&gt;**
+**Policy Name and Template Name**
 
 From the node for a specific policy or template, the right-click menu contains these commands.
 
@@ -96,7 +96,7 @@ From the Tags node, the right-click menu contains these commands.
 | ------------------- | -------------------------------------------------------------------------------------------------------- |
 | Refresh             | Refreshes the tag folders to display any new tags or any templates newly associated with an existing tag |
 
-**&lt;Template Name&gt; Node under Tags**
+**Template Name Node under Tags**
 
 From the template within a folder under the Tags node, the right-click menu contains these commands.
 
