@@ -19,8 +19,11 @@ Secure Channel for.
 
 ![300_3_image-20200623000029-3](/img/product_docs/endpointpolicymanager/scriptstriggers/300_3_image-20200623000029-3.webp)
 
-**NOTE:** If the user does not have the right to "Reset password" on the computer object then they
+:::note
+If the user does not have the right to "Reset password" on the computer object then they
 will receive the following error when they attempt to reset the Secure Channel:
+:::
+
 
 ![300_4_image-20200623000029-4_950x67](/img/product_docs/endpointpolicymanager/scriptstriggers/300_4_image-20200623000029-4_950x67.webp)
 
@@ -67,8 +70,11 @@ Should look similar to below after import:
 manually test from a computer that is currently connected to the company network via VPN and is
 experiencing this issue by running "ppcloud /sync" followed by ‘'ppupdate" from a CMD prompt.
 
-**NOTE:** Check the log file in `C:\Temp folder or run "Test-ComputerSecureChannel -verbose"` from
+:::note
+Check the log file in `C:\Temp folder or run "Test-ComputerSecureChannel -verbose"` from
 PowerShell to verify the Secure Channel is working again.
+:::
+
 
 Example of successful result in log file (`c:\temp\SecureChannel_PS.log` ) is below:
 

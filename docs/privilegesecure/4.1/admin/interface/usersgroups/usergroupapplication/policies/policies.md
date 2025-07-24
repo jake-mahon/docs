@@ -1,7 +1,7 @@
 ---
 title: "Policies Tab"
 description: "Policies Tab"
-sidebar_position: 40
+sidebar_position: 10
 ---
 
 # Policies Tab

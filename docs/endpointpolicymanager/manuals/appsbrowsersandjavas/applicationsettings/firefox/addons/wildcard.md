@@ -27,5 +27,8 @@ disable the "Clearly" extension from Evernote by its friendly name ID.
 readable@evernote.com, disable
 ```
 
-**CAUTION:** If you use \*all\*, disable, you could see Firefox close after disabling all
+:::warning
+If you use \*all\*, disable, you could see Firefox close after disabling all
 extensions; it could take a second launch to work.
+
+:::

@@ -23,10 +23,13 @@ updated:
 - [ServiceNow (if enabled)](#servicenow-if-enabled)
 - [Enterprise Auditor Services](#enterprise-auditor-services)
 
-**NOTE:** When updating passwords in Enterprise Auditor, you should also check the passwords in
+:::note
+When updating passwords in Enterprise Auditor, you should also check the passwords in
 Netwrix Activity Monitor. See the Update Credential Passwords topic in the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for additional information.
+:::
+
 
 ## Storage Profiles
 

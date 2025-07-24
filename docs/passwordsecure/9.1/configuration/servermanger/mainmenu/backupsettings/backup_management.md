@@ -26,7 +26,7 @@ created once a week.
 
 #### Managing the backup schedule
 
-Creating a backup schedule
+**Creating a backup schedule**
 
 You can create a new schedule via the ribbon. This is facilitated by a wizard. All the information
 entered under
@@ -57,7 +57,7 @@ task. Further information can be found in the section
 
 ![installation_with_parameters_259](/img/product_docs/passwordsecure/9.1/configuration/server_manager/main_menu/backup_settings/backup_management/installation_with_parameters_259.webp)
 
-Backup run
+**Backup run**
 
 The backups are executed by the SQL server in the background. If an error occurs, this is indicated
 in “orange” in the backup list. Information about any errors issued by the SQL server is displayed
@@ -65,7 +65,7 @@ under all backups. A backup will be automatically deactivated if it does not run
 will be marked in the list in red. The schedule cannot be reactivated directly. You will need to
 open it and amend it.
 
-Other backup actions
+**Other backup actions**
 
 A selected schedule can be deleted via the ribbon. The wizard for a schedule can be called up by
 double-clicking on it to make any changes. In addition, a backup can be started directly via the

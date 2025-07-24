@@ -13,6 +13,8 @@ story.
 Here's the video to show how Endpoint Policy Manager and Microsoft UE-V (or, really, any User
 Environment Manager (UEM) tool) can work together seamlessly.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0yIjVqid_A0?si=8bnUOZlCY8setNRe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Okay. Let's review:
 
 - Microsoft UE-V (or any other 3rd party UEM tool) can help when users change their own settings and

@@ -14,8 +14,11 @@ the same group membership as one another and are suitable candidates for cleanup
 Navigate to the **Active Directory** > **1.Groups** > **AD_DuplicateGroups** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_DuplicateGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/duplicategroupsanalysis.webp)
 
@@ -27,6 +30,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_DuplicateGroups Job
 produces the following pre-configured report:
 
-| Report           | Description                                                         | Default Tags | Report Elements                                                                                                                                                                                                                         |
-| ---------------- | ------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Duplicate Groups | This report identifies duplicate groups within the audited domains. | None         | This report is comprised of three elements: - Bar Chart – Displays domains by number of groups with duplicates - Table – Provides details on duplicate groups - Table – Provides details on domains by number of groups with duplicates |
+| Report           | Description                                                         | Default Tags | Report Elements                                                                                                                                                                                                                                                     |
+| ---------------- | ------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duplicate Groups | This report identifies duplicate groups within the audited domains. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays domains by number of groups with duplicates</li><li>Table – Provides details on duplicate groups</li><li>Table – Provides details on domains by number of groups with duplicates</li></ul> |
+

@@ -11,7 +11,7 @@ and NO FINDINGS categories based on severity.
 
 ![SQL_SecurityAssessment](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/sqljobgroup49.webp)
 
-Special Dependencies
+**Special Dependencies**
 
 One or more of the following jobs or job groups must be run to produce results:
 
@@ -40,6 +40,7 @@ The default analysis task is:
 In addition to the tables and views created by the analysis task, the SQL_SecurityAssessment Job
 produces the following pre-configured report.
 
-| Report                  | Description                                                                | Default Tags        | Report Elements                                                                                                                                                                                                                                                                |
-| ----------------------- | -------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| SQL Security Assessment | This report summarizes security related results from the SQL solution set. | Security Assessment | This report is comprised of four elements: - Table – Provides details on the scope of the audit of the SQL Solution set - Pie Chart – Displays job findings by severity - Table – Displays findings by category and provides details on the SQL_SecurityAssessment job results |
+| Report                  | Description                                                                | Default Tags        | Report Elements                                                                                                                                                                                                                                                                                            |
+| ----------------------- | -------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SQL Security Assessment | This report summarizes security related results from the SQL solution set. | Security Assessment | This report is comprised of four elements: <ul><li>Table – Provides details on the scope of the audit of the SQL Solution set</li><li>Pie Chart – Displays job findings by severity</li><li>Table – Displays findings by category and provides details on the SQL_SecurityAssessment job results</li></ul> |
+

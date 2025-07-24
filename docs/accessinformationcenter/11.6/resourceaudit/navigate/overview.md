@@ -68,14 +68,14 @@ There are two checkbox options depending on the report selected:
 
 Activity reports contain the following unique features.
 
-Date Range Filter
+**Date Range Filter**
 
 Activity reports display information for a selected date range. To adjust the date range, click the
 **Date Range** filter to open a calendar window. The date range can be changed manually by selecting
 dates in the calendars, using the arrows to change the month. Once the selection is made, click
 **OK**. The report loads data for the new date range.
 
-Trend Graphs
+**Trend Graphs**
 
 Trend graphs are line graphs that provide a visual representation of the activity that occurred over
 the selected date range.
@@ -106,10 +106,13 @@ See the
 [Change Modeling](/docs/accessinformationcenter/11.6/resourceaudit/changemodeling/overview.md)
 topic for additional information.
 
-**NOTE:** If the Access Information Center has been configured to commit changes to Active
+:::note
+If the Access Information Center has been configured to commit changes to Active
 Directory, then there is a **Commit** button within the **Changes** window. Click **Commit** to
 commit the modeled changes to Active Directory. Only Access Information Center Administrators can
 configure the Access Information Center to commit changes to Active Directory.
+:::
+
 
 While a resource owner has access to a Resource Audit interface filtered for their resource and can
 model changes, only users with an Administrator or a Security Team role are able to commit modeled

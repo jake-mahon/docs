@@ -15,21 +15,30 @@ Therefore, you may use either the Netwrix Endpoint Policy Manager (formerly Poli
 either within the Netwrix Privilege Secure download, or the Netwrix Endpoint Policy Manager
 (formerly PolicyPak) CSE found in the Netwrix Endpoint Policy Manager (formerly PolicyPak) download.
 
-**NOTE:** See the
+:::note
+See the
 [Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/netwrixprivilegesecure/privilegesecure.md)video
 for a demo on the relationship of the Netwrix Privilege Secure and Netwrix Endpoint Policy Manager
 (formerly PolicyPak) downloads and their moving parts.
+:::
 
-**CAUTION:** It might be best to use the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE
+
+:::warning
+It might be best to use the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE
 download since the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE download may have
 bugfixes, etc., which may not yet be available in the Netwrix Privilege Secure download due to lag
 time.
+:::
 
-**NOTE:** The interaction between Netwrix Privilege Secure and Netwrix Endpoint Policy Manager
+
+:::note
+The interaction between Netwrix Privilege Secure and Netwrix Endpoint Policy Manager
 (formerly PolicyPak) CSE does notneed to be licensed. When you evaluate or purchase Netwrix
 Privilege Secure, the major Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege
 Manager management and elevation functions are automatically available to you without needing to
 install any specific endpoint license.
+:::
+
 
 - The Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager directives which
   are distributed as part ofNetwrix Privilege Secure server performing the brokering\*will work even

@@ -40,10 +40,16 @@ displays.
 [SPAA: Bulk Import Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/bulkimportsettings.md)
 page, the **Set Host Identifier** is not configured by default. Click **Next**.
 
-**NOTE:** Unless SQL Server Replication is used, it should not be necessary to adjust the **Host
+:::note
+Unless SQL Server Replication is used, it should not be necessary to adjust the **Host
 Identifier** seed.
+:::
 
-**CAUTION:** Do not configure the options on the Results page.
+
+:::warning
+Do not configure the options on the Results page.
+:::
+
 
 **Step 5 –** On the Results page, all Available Properties are selected by default. Click **Next**.
 
@@ -57,12 +63,15 @@ If changes were made, the 6-SPAC_BulkImport Job has now been customized.
 Navigate to the **Jobs** > **SharePoint** > **0.Collection** > **6-SPAC_BulkImport** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
+:::warning
+The analysis tasks are preconfigured for this job. Never modify or deselect the
 selected analysis tasks.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/spacbulkimportanalysis.webp)
 
 The default analysis tasks are:
 
--   1. Create Event Name Table – Creates the SA_SPAC_EventNames table associated with SPAC
--   2. Create Views – Creates the views associated with SPAC
+-   **1. Create Event Name Table** – Creates the SA_SPAC_EventNames table associated with SPAC
+-   **2. Create Views** – Creates the views associated with SPAC

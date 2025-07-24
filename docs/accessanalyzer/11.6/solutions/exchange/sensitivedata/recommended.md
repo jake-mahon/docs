@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Recommended Configurations for the 7. Sensitive Data Job Group
 
-Dependencies
+**Dependencies**
 
 This job group requires the following item to be installed and configured on the Enterprise Auditor
 Console:
@@ -17,7 +17,7 @@ The following job groups need to be successfully run:
 
 - .Active Directory Inventory Job Group
 
-Targeted Hosts
+**Targeted Hosts**
 
 The 0.Collection Job Group needs to be set to run against:
 
@@ -31,11 +31,14 @@ to be set to run against the version-appropriate default dynamic host list:
 - Exchange 2016 MB Servers
 - Exchange 2019 MB Servers
 
-**NOTE:** Default dynamic host lists are populated from hosts in the Host Master Table which meet
+:::note
+Default dynamic host lists are populated from hosts in the Host Master Table which meet
 the host inventory criteria for the list. Ensure the appropriate host lists have been populated
 through host inventory results.
+:::
 
-Connection Profile
+
+**Connection Profile**
 
 A Connection Profile must be set directly on jobs within the 0.Collection job group. See the
 [Exchange Web Services API Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/webservicesapi.md)
@@ -45,11 +48,11 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group has been designed to run as desired.
 
-Query Configuration
+**Query Configuration**
 
 The 7. Sensitive Data Job Group is designed to be run with the default query configurations.
 However, the following queries can be modified:
@@ -59,7 +62,7 @@ However, the following queries can be modified:
 
 No other queries should be modified.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set the host on the EX_Mailbox_SDD or EX_PublicFolder_SDD job.
 

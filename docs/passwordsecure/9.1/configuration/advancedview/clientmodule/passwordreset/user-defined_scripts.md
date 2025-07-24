@@ -38,7 +38,6 @@ param (
         [String]$CredentialsUserName,
         [Security.SecureString]$CredentialsPassword
     )
-
 ```
 
 The following standard parameters can be used here:
@@ -67,7 +66,6 @@ been changed via a **Write-Output**. The following example simply uses the outpu
     } else {
         Write-Output "false"
     }
-
 ```
 
 Naturally, CredentialsUserName and CredentialsPassword can also be directly used in the script (i.e.

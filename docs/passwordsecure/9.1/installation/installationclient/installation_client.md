@@ -20,8 +20,11 @@ You are required to read and accept the terms of service. These can also be prin
 The next step is to define the location of the client. The suggested location can be retained.You
 can also define whether additional components should be installed.
 
-**CAUTION:** Please only install the Terminal Server Service (for Autofill Add-on) if terminal
+:::warning
+Please only install the Terminal Server Service (for Autofill Add-on) if terminal
 server operation is intended!
+:::
+
 
 ![installation wizard page 2](/img/product_docs/passwordsecure/9.1/installation/installation_client/installation-client-3-en.webp)
 
@@ -68,7 +71,6 @@ saved in the local configuration file. The database connection can be made with 
 ```
 HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
 HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
-
 ```
 
 These keys are structured like this:
@@ -79,12 +81,11 @@ These keys are structured like this:
 
 ![profil-registry](/img/product_docs/passwordsecure/9.1/installation/installation_client/profil-registry-en.webp)
 
-Is the profile set with the following entries?
+**Is the profile set with the following entries?**
 
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
-
 ```
 
 Then the last used date base as well as the last registered user are created with the following ID,
@@ -93,7 +94,6 @@ when you log in for the first time:
 
 ```
 HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
-
 ```
 
 NOTE: When the corresponding registry entry is set and no related database profile exists, the

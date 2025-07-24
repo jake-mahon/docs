@@ -11,11 +11,14 @@ how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy M
 deliver it using an MDM service such as Microsoft Endpoint Manager (SCCM and Intune), KACE, and so
 on, as well as via Endpoint Policy Manager Cloud.
 
-**NOTE:** For a video demonstrating the use of Endpoint Policy Manager scripts with Endpoint Policy
+:::note
+For a video demonstrating the use of Endpoint Policy Manager scripts with Endpoint Policy
 Manager Cloud and an MDM service see
 [Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/withcloud/cloud.md)
 and
 [Endpoint Policy Manager Scripts and YOUR MDM service: Un-real power](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/methods/mdm.md)
+:::
+
 
 Remember that Endpoint Policy Manager Scripts & Triggers Manager policies can be created and
 exported on the User or Computer side. For instance, in Figure 30, you can see an export from the
@@ -46,8 +49,11 @@ To export a policy for later use with Endpoint Policy Manager Exporter or Endpoi
 Cloud, right-click the collection or the policy and select "Export as XML," as demonstrated in
 Figure 32.
 
-**NOTE:** For a video showing how to export policies and use Endpoint Policy Manager Exporter, watch
+:::note
+For a video showing how to export policies and use Endpoint Policy Manager Exporter, watch
 [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/exportingtips/exporterutility.md).
+:::
+
 
 ![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting_8.webp)
 

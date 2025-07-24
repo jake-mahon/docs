@@ -63,7 +63,7 @@ Manager Reporting Module. The following message is displayed:
 
 **Step 3 –** Click **OK** to upgrade. The Netwrix Threat Manager Reporting Setup wizard opens.
 
-![Netwrix Threat Mannager Reporting Setup wizard - Install page](/img/product_docs/threatprevention/7.4/install/upgrade/install.webp)
+![Netwrix Threat Mannager Reporting Setup wizard - Install page](/img/product_docs/threatprevention/7.4/install/reportingmodule/install.webp)
 
 **Step 4 –** To follow through the steps of the wizard for upgrade, see the
 [Install the Netwrix Threat Manager Reporting Module](/docs/threatprevention/7.4/install/reportingmodule/application.md)

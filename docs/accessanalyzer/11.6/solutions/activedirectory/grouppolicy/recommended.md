@@ -9,11 +9,11 @@ sidebar_position: 10
 The **Active Directory** > **4.Group Policy** Job Group has been configured to run with the default
 settings. It can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 This job group does not have dependencies.
 
-Targeted Hosts
+**Targeted Hosts**
 
 The AD_GroupPolicy Job has been configured to inherit its host from the **4.Group Policy** >
 **Settings** > **Host List Assignment** node. It is set to target the **Default domain controller**
@@ -27,23 +27,26 @@ The **Default domain controller** and **ONE DOMAIN CONTROLLER PER DOMAIN** host 
 host lists based on the host inventory value in the **isDomainController** field in the Host Master
 Table.
 
-Connection Profile
+**Connection Profile**
 
 A Connection Profile must be set directly on the collection jobs with Domain Administrator
 privileges.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-Run at the Job Group Level
+**Run at the Job Group Level**
 
-**_RECOMMENDED:_** Run the jobs in the 4.Group Policy Job Group together and in order by running the
+:::info
+Run the jobs in the 4.Group Policy Job Group together and in order by running the
 entire job group, instead of the individual jobs. However, these jobs can be run independently, with
 the exception of the AD_OverlappingGPOs Job, which is dependent upon the AD_GroupPolicy Job for data
 collection.
+:::
 
-Workflow
+
+**Workflow**
 
 **Step 1 –** Run a host discovery query to discover domain controllers.
 

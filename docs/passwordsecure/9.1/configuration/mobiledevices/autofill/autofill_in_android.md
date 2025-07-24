@@ -27,18 +27,18 @@ There are two possible scenarios.
 - Selection of a password in the Netwrix Password Secure App. This dialog opens automatically if no
   password is found.
 
-No password found
+**No password found**
 
 If no password is found that matches the app or the website called up, the desired password must
 first be selected.
 
-Exactly one password found
+**Exactly one password found**
 
 If there is a data set that contains exactly the URL that is called up, the corresponding password
 can be suggested. A simple click on the password is then sufficient to pass the data to the website
 or app.
 
-Multiple passwords found
+**Multiple passwords found**
 
 If several matching passwords are found in the database, the desired one must be selected.
 

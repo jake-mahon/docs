@@ -12,9 +12,12 @@ Module provides options for changing attributes and permissions, as well as copy
 moving, and renaming file system contents. It is available with a special Enterprise Auditor
 license.
 
-**CAUTION:** Be careful when using this Action Module. Make sure that only the changes required are
+:::warning
+Be careful when using this Action Module. Make sure that only the changes required are
 applied and only to those target systems desired. Actions perform their functions on all rows in a
 table.
+:::
+
 
 Enterprise Auditor action modules contain one or more selectable operations. Each operation performs
 its function on a single object per row from the source table defined in the action.
@@ -31,7 +34,10 @@ Changes:
 - NetApp Data ONTAP Cluster-Mode Device – User credential must have role on SVM that has permission
   to modify share permissions
 
-    **NOTE:** Enter the following syntax to create role:
+    :::note
+    Enter the following syntax to create role:
+    :::
+
 
     ```
     ‑security login role create ‑role [DESIRED_ROLE_NAME] ‑cmddirname “vserver cifs share access-control” ‑vserver [VSERVER_NAME] ‑access all
@@ -67,35 +73,42 @@ execution of the action and with analysis and reports downstream.
 | rowGUID          | Identifies each data row as unique. The datatype in the table is uniqueidentifier (GUID).                                    |
 | RowKey           | Identifies each data row as unique. Sometimes the value is a GUID, but the datatype in the table is a varchar (text string). |
 
-_Remember,_ the individual File System actions may have their own column requirements in addition to
+:::tip
+Remember, the individual File System actions may have their own column requirements in addition to
 the above. These columns are made available through the File System Action Module wizard.
+:::
+
 
 The Operations page lists the operations that may be performed by the File System Action Module.
 Each operation has its own source table column requirements as follows:
 
-| Operation                       | Column requirements                                                                                                                         |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Change attributes               | Columns containing: - Object to change attributes for - UNC path or local path (files or folders)                                           |
-| Change permissions and Auditing | Columns containing: - Object to change permissions for - UNC path or local path - (Optional) Permission values to change (files or folders) |
-| Change permission inheritance   | Columns containing: - Object to change permission inheritance for - UNC path or local path (files or folders)                               |
-| Change Share permissions        | Columns containing: - Share to change permissions for - UNC path or local path (shares)                                                     |
-| Copy                            | Columns containing: - Object to copy - Location to copy the object to - UNC path or local path                                              |
-| Delete                          | Columns containing: - Object to delete - UNC Path or local path                                                                             |
-| Launch Remote Process           | No specific columns required                                                                                                                |
-| Move                            | Columns containing: - Object to move - Location to move the object to - UNC path or local path                                              |
-| Remove permissions              | Columns containing: - Object to remove permissions for - UNC path or local path (files or folders)                                          |
-| Remove Share permissions        | Columns containing: - Object to remove Share permissions for - UNC path or local path (shares)                                              |
-| Rename                          | Columns containing: - Object to rename - New name of the object - UNC path or local path                                                    |
-| Add tags                        | Columns containing: - Object to add tags to - UNC path or local path (files)                                                                |
-| Remove tags                     | Columns containing: - Object to remove tags from - UNC path or local path (files)                                                           |
-| Change Owner                    | Columns containing: - Object to change ownership for - UNC path or local path (folders)                                                     |
+| Operation                       | Column requirements                                                                                                                                                     |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Change attributes               | Columns containing: <ul><li>Object to change attributes for</li><li>UNC path or local path (files or folders)</li></ul>                                                 |
+| Change permissions and Auditing | Columns containing: <ul><li>Object to change permissions for</li><li>UNC path or local path</li><li>(Optional) Permission values to change (files or folders)</li></ul> |
+| Change permission inheritance   | Columns containing: <ul><li>Object to change permission inheritance for</li><li>UNC path or local path (files or folders)</li></ul>                                     |
+| Change Share permissions        | Columns containing: <ul><li>Share to change permissions for</li><li>UNC path or local path (shares)</li></ul>                                                           |
+| Copy                            | Columns containing: <ul><li>Object to copy</li><li>Location to copy the object to</li><li>UNC path or local path</li></ul>                                              |
+| Delete                          | Columns containing: <ul><li>Object to delete</li><li>UNC Path or local path</li></ul>                                                                                   |
+| Launch Remote Process           | No specific columns required                                                                                                                                            |
+| Move                            | Columns containing: <ul><li>Object to move</li><li>Location to move the object to</li><li>UNC path or local path</li></ul>                                              |
+| Remove permissions              | Columns containing: <ul><li>Object to remove permissions for</li><li>UNC path or local path (files or folders)</li></ul>                                                |
+| Remove Share permissions        | Columns containing: <ul><li>Object to remove Share permissions for</li><li>UNC path or local path (shares)</li></ul>                                                    |
+| Rename                          | Columns containing: <ul><li>Object to rename</li><li>New name of the object</li><li>UNC path or local path</li></ul>                                                    |
+| Add tags                        | Columns containing: <ul><li>Object to add tags to</li><li>UNC path or local path (files)</li></ul>                                                                      |
+| Remove tags                     | Columns containing: <ul><li>Object to remove tags from</li><li>UNC path or local path (files)</li></ul>                                                                 |
+| Change Owner                    | Columns containing: <ul><li>Object to change ownership for</li><li>UNC path or local path (folders)</li></ul>                                                           |
+
 
 ## Configuration
 
 The File System Action module is configured through the File System Action Module Wizard, which
 contains the following wizard pages:
 
-**NOTE:** Depending on the selections on the various pages, not all pages may be accessible.
+:::note
+Depending on the selections on the various pages, not all pages may be accessible.
+:::
+
 
 - Welcome
 - [File System Action: Action](/docs/accessanalyzer/11.6/admin/action/filesystem/action.md)

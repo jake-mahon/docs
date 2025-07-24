@@ -90,18 +90,21 @@ these steps.
 **Step 2 –** In the **Select Import File** box, click the ellipsis (**…**) to open the browser
 window. The location of the default templates is:
 
-…\Netwrix\Netwrix Threat Prevention\SIWinConsole
+**…\Netwrix\Netwrix Threat Prevention\SIWinConsole**
 
 **Step 3 –** To import all the available Threat Prevention policy templates, select the
 `SI_Templates_All.xml` file. Click **Open**.
 
-![Import window](/img/product_docs/threatprevention/7.4/admin/templates/templates.webp)
+![Import window](/img/product_docs/threatprevention/7.4/admin/templates/import.webp)
 
 **Step 4 –** The Import window auto-fills with the import file details. Do not change the defaults
 settings. Click **Import**.
 
-**NOTE:** The import process can take a few minutes to complete as there are several hundred
+:::note
+The import process can take a few minutes to complete as there are several hundred
 templates to import and configure.
+:::
+
 
 **Step 5 –** When the operation is complete, click **OK**.
 

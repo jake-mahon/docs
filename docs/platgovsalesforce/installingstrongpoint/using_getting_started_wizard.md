@@ -35,11 +35,11 @@ credentials.
 
 1. On the Credentials page, add the following values:
 
-- **Salesforce Username**
-- **Salesforce Password**
-- **Salesforce Security Token**
-- **Salesforce Consumer Key** Extracted when you created the Strongpoint Connected App
-- **Salesforce Consumer Secret** Extracted when you created the Strongpoint Connected App
+    - **Salesforce Username**
+    - **Salesforce Password**
+    - **Salesforce Security Token**
+    - **Salesforce Consumer Key** Extracted when you created the Strongpoint Connected App
+    - **Salesforce Consumer Secret** Extracted when you created the Strongpoint Connected App
 
 2. Click **Next**
 

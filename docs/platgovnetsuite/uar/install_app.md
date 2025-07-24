@@ -54,10 +54,10 @@ Platform Governance for NetSuite.
 6. Set **License Type** to **Full**.
 7. Assign one or more UAR roles:
 
-- **UAR Owner** reviews Role Permissions and/or Role Membership.
-- **UAR Auditor** read-only access.
-- **UAR Additional Reviewer** performs assigned Role Membership reviews.
-- **UAR Admin**manages the UAR process, assigns Role Owners to a role, creates Reviews, and views
+    - **UAR Owner** reviews Role Permissions and/or Role Membership.
+    - **UAR Auditor** read-only access.
+    - **UAR Additional Reviewer** performs assigned Role Membership reviews.
+    - **UAR Admin**manages the UAR process, assigns Role Owners to a role, creates Reviews, and views
   Reviews.
 
 8. Click **Save**.
@@ -77,10 +77,10 @@ Platform Governance for NetSuite.
 5. Set **License Type** to **Full**.
 6. Assign one or more UAR roles:
 
-- **UAR Owner** reviews Role Permissions and/or Role Membership.
-- **UAR Auditor** read-only access.
-- **UAR Additional Reviewer** performs assigned Role Membership reviews.
-- **UAR Admin**manages the UAR process, assigns Role Owners to a role, creates Reviews, and views
+    - **UAR Owner** reviews Role Permissions and/or Role Membership.
+    - **UAR Auditor** read-only access.
+    - **UAR Additional Reviewer** performs assigned Role Membership reviews.
+    - **UAR Admin**manages the UAR process, assigns Role Owners to a role, creates Reviews, and views
   Reviews.
 
 7. Click **Save**.

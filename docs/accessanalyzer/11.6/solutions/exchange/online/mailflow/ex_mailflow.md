@@ -43,7 +43,10 @@ The following queries are included in the EX_Mailflow job:
 
 - LocalDomains – Collects domains local to the Office 365 environment
 
-    **CAUTION:** Do not modify this query. The query is preconfigured for this job.
+    :::warning
+    Do not modify this query. The query is preconfigured for this job.
+    :::
+
 
     - See the
       [ExchangePS Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/exchangeps/overview.md)
@@ -65,7 +68,10 @@ Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The ExchangePS Data Collector
 Wizard opens.
 
-**CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::warning
+Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::
+
 
 ![ExchangePS Data Collector Wizard Mail Flow page](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.webp)
 
@@ -74,7 +80,10 @@ as desired. See the
 [ExchangePS Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/exchangeps/overview.md)
 topic for additional information.
 
-_Remember,_ the date range must be 7 days or less.
+:::tip
+Remember, the date range must be 7 days or less.
+:::
+
 
 **Step 5 –** Navigate to the Summary page. Click **Finish**.
 
@@ -85,8 +94,11 @@ The job applies the modification to future job executions.
 View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online** > **0.
 Collection** > **EX_Mailflow** > **Configure** node and selecting **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailflow Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowanalysis.webp)
 
@@ -97,7 +109,7 @@ The following analysis tasks are selected by default:
 - 02.Update History Table – Updates the SA_EX_Mailflow_History table, with data from the .Active
   Directory Inventory and .Entra ID Inventory solutions to determine local users and distribution
   lists
--   3. SET HISTORY RETENTION – Sets retention period in months
+-   **3. SET HISTORY RETENTION** – Sets retention period in months
 
     - By default, retention is set to 6 months. This period can be modified. See the
       [Parameter Configuration](#parameter-configuration) topic for additional information.
@@ -108,10 +120,13 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Deletes all Stored Data** option. This analysis task is for
+:::warning
+Do not select the **00. Deletes all Stored Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
 
--   0. Deletes all Stored Data - LEAVE UNCHECKED – Deletes all historical data
+
+-   **0. Deletes all Stored Data - LEAVE UNCHECKED** – Deletes all historical data
 
     - See the
       [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)

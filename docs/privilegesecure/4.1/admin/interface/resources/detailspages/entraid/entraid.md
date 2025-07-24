@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Entra ID Details Page"
 description: "Microsoft Entra ID Details Page"
-sidebar_position: 40
+sidebar_position: 10
 ---
 
 # Microsoft Entra ID Details Page

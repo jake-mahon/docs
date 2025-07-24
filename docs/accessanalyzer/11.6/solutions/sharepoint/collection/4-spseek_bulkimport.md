@@ -40,10 +40,16 @@ displays.
 [SPAA: Bulk Import Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/bulkimportsettings.md)
 page, the **Set Host Identifier** is not configured by default. Click **Next**.
 
-**NOTE:** Unless SQL Server Replication is used, it should not be necessary to adjust the **Host
+:::note
+Unless SQL Server Replication is used, it should not be necessary to adjust the **Host
 Identifier** seed.
+:::
 
-**CAUTION:** Do not configure the options on the Results page.
+
+:::warning
+Do not configure the options on the Results page.
+:::
+
 
 **Step 5 –** On the Results page, all Available Properties are selected by default. Click **Next**.
 
@@ -57,20 +63,23 @@ If changes were made, the 4-SPSEEK_BulkImport Job has now been customized.
 Navigate to the **Jobs** > **SharePoint** > **0.Collection** > **4-SPSEEK_BulkImport** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
+:::warning
+The analysis tasks are preconfigured for this job. Never modify or deselect the
 selected analysis tasks.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/spseekbulkimportanalysis.webp)
 
 The default analysis tasks are:
 
--   1. Update data types – Enterprise Auditor uses custom SQL data types to render data. This
+-   **1. Update data types** – Enterprise Auditor uses custom SQL data types to render data. This
        analysis creates updates to those data types.
--   2. Import new functions (for SA Core) – Creates functions used in the SharePoint Solution
--   3. Import new functions (for SA SPAA) – Creates functions used in the SharePoint Solution
--   4. Create exception schema – Creates the SA_SPAA_Exceptions table
--   5. Create DLP views – Creates the SA_SPDLP_MatchesView
--   6. Create exceptions view – Creates the SA_SPAA_ExceptionsView
+-   **2. Import new functions (for SA Core)** – Creates functions used in the SharePoint Solution
+-   **3. Import new functions (for SA SPAA)** – Creates functions used in the SharePoint Solution
+-   **4. Create exception schema** – Creates the SA_SPAA_Exceptions table
+-   **5. Create DLP views** – Creates the SA_SPDLP_MatchesView
+-   **6. Create exceptions view** – Creates the SA_SPAA_ExceptionsView
 
 The following analysis task is not selected by default, but can be enabled:
 

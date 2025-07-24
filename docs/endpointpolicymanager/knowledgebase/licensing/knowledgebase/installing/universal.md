@@ -24,5 +24,8 @@ machines with the PolicyPak CSE will:
 4. If machine has old CSE: The CSE is licensed.
 5. If machine has new CSE: The CSE is licensed.
 
-**CAUTION:** Only remove the old Licensing GPO when you are sure you have rolled out a CSE 2687 and
+:::warning
+Only remove the old Licensing GPO when you are sure you have rolled out a CSE 2687 and
 later (anything from year 2021 and later).
+
+:::

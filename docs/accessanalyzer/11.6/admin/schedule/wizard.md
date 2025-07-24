@@ -100,7 +100,10 @@ Choose the desired setting from the following options:
 - Use Profile from Job – A default setting and applies the Connection Profile designated at the job
   or job group level
 
-    **_RECOMMENDED:_** In most cases, this is the recommended setting
+    :::info
+    In most cases, this is the recommended setting
+    :::
+
 
 - Use the Windows account that the application is run with (System default) – Applies the account
   used to open the Enterprise Auditor Console

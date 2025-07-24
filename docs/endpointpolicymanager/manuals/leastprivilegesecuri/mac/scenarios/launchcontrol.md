@@ -6,8 +6,11 @@ sidebar_position: 50
 
 # Application Launch Approval (aka Launch Control)
 
-**NOTE:** See the [Application Launch Approval](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/applicationlaunch.md)
+:::note
+See the [Application Launch Approval](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/applicationlaunch.md)
 video for an overview of this section.
+:::
+
 
 You might have an application which is part of your deployment, but you want to prevent it from
 running. In this example Firefox is on the machine and runs as expected as a standard user.

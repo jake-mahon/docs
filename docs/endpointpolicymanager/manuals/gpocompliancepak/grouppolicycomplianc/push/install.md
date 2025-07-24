@@ -25,9 +25,12 @@ Figure 37. The Endpoint Policy Manager Group Policy Compliance Reporter Server S
 **Step 2 –** Next, choose the domain group that will have rights to the Endpoint Policy Manager GPCR
 server as shown in Figure 38.
 
-**NOTE:** To see a video on Compliance Reporter and specific group membership requirements, see the
+:::note
+To see a video on Compliance Reporter and specific group membership requirements, see the
 following link:
 [Enhanced Security for Server](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/videolearningcenter/gettingstarted/securityenhanced.md).
+:::
+
 
 ![gpcr_server_with_push_mode_2](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_2.webp)
 
@@ -43,8 +46,11 @@ Figure 39. Selecting the type of database.
 
 **Step 4 –** Once the installation process is complete, close the wizard.
 
-**NOTE:** If you need to uninstall Endpoint Policy Manager GPCR Server, use Add/Remove Programs and
+:::note
+If you need to uninstall Endpoint Policy Manager GPCR Server, use Add/Remove Programs and
 uninstall Endpoint Policy Manager. Then, remove
+:::
+
 
 `C:\ProgramData\PolicyPak\PolicyPak Group Policy Compliance Reporter Server` and all subfolders.
 Additionally, remove the Endpoint Policy Manager Group Policy Compliance Reporter (endpoint) license

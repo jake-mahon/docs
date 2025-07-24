@@ -6,9 +6,12 @@ sidebar_position: 20
 
 # Feature Manager for Windows
 
-**NOTE:** Before reading this section, please ensure you have read
+:::note
+Before reading this section, please ensure you have read
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
 with the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -28,8 +31,11 @@ on Windows 10 or Windows Server (2016 and later):
 - Limit which machines get policies via Item-Level Targeting
 - Specify how to handle reboot requests when features need them
 
-**NOTE:** Watch this video for an overview of Endpoint Policy Manager Feature Manager for Windows:
+:::note
+Watch this video for an overview of Endpoint Policy Manager Feature Manager for Windows:
 [https://www.endpointpolicymanager.com/video/endpointpolicymanager-feature-manager-for-windows.html](https://www.endpointpolicymanager.com/video/endpointpolicymanager-feature-manager-for-windows.html)
+:::
+
 
 Endpoint Policy Manager Feature Manager for Windows allows you to do the following:
 
@@ -44,8 +50,11 @@ Endpoint Policy Manager Feature Manager for Windows allows you to do the followi
 - Allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to embrace
   the directives and perform the work.
 
-**NOTE:** If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
+:::note
+If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
 settings even to non-domain-joined machines over the Internet.
+:::
+
 
 ## Moving Parts
 

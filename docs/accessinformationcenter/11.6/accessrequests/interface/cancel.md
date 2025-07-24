@@ -14,7 +14,7 @@ of the Access Requests interface.
 
 It contains one page:
 
--   1. Add Notes — Allows Request Administrator to enter a note explaining why the request is being
+-   **1. Add Notes** — Allows Request Administrator to enter a note explaining why the request is being
        canceled
 
 See the [Cancel an Access Request](#cancel-an-access-request) topic for additional information.

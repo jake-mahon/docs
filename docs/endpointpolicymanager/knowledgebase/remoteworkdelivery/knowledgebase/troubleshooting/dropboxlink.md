@@ -64,8 +64,11 @@ TO
 
 ![800_6_image-20210602100219-6](/img/product_docs/endpointpolicymanager/troubleshooting/remoteworkdelivery/800_6_image-20210602100219-6.webp)
 
-**NOTE:** by default, when you create a DropBox link it ends with [dl=0]. If it does, it must be
+:::note
+by default, when you create a DropBox link it ends with [dl=0]. If it does, it must be
 changed it to [dl=1] to work. This would normally be done by the application automatically.
+:::
+
 
 **Step 4 –** If needed alter any other sections that are required that were not previously
 configured within Netwrix Endpoint Policy Manager (formerly PolicyPak) (e.g. destination, afterApply
@@ -86,5 +89,8 @@ The XML can now be imported into your environment – Back into GPO land where i
 to an MSI for MDM distribution or imported into the Endpoint Policy Manager Cloud – through the
 regular means.
 
-**NOTE:** This policy cannot be altered by either of the Administrative Consoles (On-premise or
+:::note
+This policy cannot be altered by either of the Administrative Consoles (On-premise or
 Cloud). Any changes must be done manually to the XML and re-imported as detailed above.
+
+:::

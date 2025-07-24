@@ -11,5 +11,8 @@ should apply or not to any particular machine or user.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qsNx3vcRPAI" title="ILT VALIDATOR TOOL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
-**NOTE:** This tool only works when the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE is
+:::note
+This tool only works when the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE is
 installed on the machine you wish to perform ILT tests.
+
+:::

@@ -14,10 +14,13 @@ you can tap into both Computer and User policy settings.
 With both computer and user policy settings available in Endpoint Policy Manager Admin Templates
 Manager you can deliver user-side settings to any computer that has this GPO.
 
-**NOTE:** For more information on the Endpoint Policy Manager Admin Templates Manager delivering
+:::note
+For more information on the Endpoint Policy Manager Admin Templates Manager delivering
 user-side settings to computers, see the
 [Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmanager/switchedpolicies.md)
 topic for additional information.
+:::
+
 
 This feature allows you to avoid the complex process of Group Policy Loopback processing just for
 the sake of delivering one (or more) user-side settings to a series of computers. Alternatively, you

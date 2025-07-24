@@ -41,5 +41,8 @@ for hosts. Hosts are discoverable using one of the following options:
 - [Import From a Database](/docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/database.md)
   – Imports a host list from a specified SQL Server database
 
-**NOTE:** The Advanced Options checkbox in the lower-left corner is a legacy item and should not be
+:::note
+The Advanced Options checkbox in the lower-left corner is a legacy item and should not be
 selected.
+
+:::

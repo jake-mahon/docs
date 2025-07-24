@@ -13,18 +13,20 @@ impact analysis data are categorized as **Safe to modify**, **Not safe to modify
 
 **Name**
 
-URL :
+**URL**:
 `https://<account id xxx>.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=customscript_flo_int_change_request_api&deploy=1&actionType=getImpactAnalysis`
 
-HTTP Method : GET
+**HTTP Method**: GET
 
 ### URL Parameters
 
 **Name** / **Value**
 
-externalId : `<external_ticket_id>`
+**externalId**: `<external_ticket_id>`
 
+:::note
 URL parameters are case sensitive and mandatory.
+:::
 
 ### Sample Request URL
 
@@ -40,7 +42,7 @@ credentials. Header tokens should be encoded in HMAC SHA256.
 
 ### Format
 
-Authorization: `<_encoded authentication code_>`
+**Authorization**: `<_encoded authentication code_>`
 
 ### Sample Request Header
 
@@ -54,55 +56,55 @@ Returns a JSON format string.
 
 **Name** / **Type**
 
-status : string
+**status**: string
 
-message : string
+**message**: string
 
-data : JSON object
+**data**: JSON object
 
 ### Data Object Definition
 
 **Name** / **Type**
 
-safe : Array of JSON objects
+**safe**: Array of JSON objects
 
-notSafe : Array of JSON objects
+**notSafe**: Array of JSON objects
 
-notActive : Array of JSON objects
+**notActive**: Array of JSON objects
 
 ### Safe Object Definition
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
 ### Not Safe Object Definition
 
 **Name** / **Type**
 
-object : string
+**object**: string
 
-warning : string
+**warning**: string
 
-impactedCustomizations : Array of JSON object
+**impactedCustomizations**: Array of JSON object
 
 ### Impacted Customizations Object Definition
 
 **Name** / **Type**
 
-name : string
+**name**: string
 
-link : string
+**link**: string
 
 ### Not Active Object Definition
 
 **Name** / **Type**
 
-id : string
+**id**: string
 
-name : string
+**name**: string
 
 ### Response JSON Object
 
@@ -144,17 +146,17 @@ name : string
 
 **Message**
 
-"Impact Analysis retrieved successfully." : Successfully pulled impact analysis for the
+**"Impact Analysis retrieved successfully."**: Successfully pulled impact analysis for the
 customizations attached to the change request.
 
-"No Impact Analysis detected." : No impact analysis detected, either no customizations attached or
+**"No Impact Analysis detected."**: No impact analysis detected, either no customizations attached or
 the attached customizations do not have impact analysis data available.
 
 ### Error Messages
 
 **Message**
 
-"Unable to load Impact Analysis. External ID: xxxx" : There is an error with the change request.
+**"Unable to load Impact Analysis. External ID: xxxx"**: There is an error with the change request.
 
 Error messages are returned if any exceptions are encountered.
 
@@ -200,8 +202,8 @@ Error messages are returned if any exceptions are encountered.
 
 The Change Request API is developed using a RESTlet with API version 2.1.
 
-Script Name : Strongpoint Int Change Request API
+**Script Name**: Strongpoint Int Change Request API
 
-Script ID : customscript_flo_int_change_request_api
+**Script ID**: customscript_flo_int_change_request_api
 
-Filename : StrongpointIntegrationChangeRequestAPI.js
+**Filename**: StrongpointIntegrationChangeRequestAPI.js

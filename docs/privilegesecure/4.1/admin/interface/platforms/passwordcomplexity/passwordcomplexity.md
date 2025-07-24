@@ -1,7 +1,7 @@
 ---
 title: "Password Complexity Page"
 description: "Password Complexity Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Password Complexity Page
@@ -39,7 +39,10 @@ policies. This pane has the following features:
 - Trashcan icon — Deletes the password complexity policy. Icon appears when policy is hovered over.
   A confirmation window will display.
 
-**NOTE:** The default password policy cannot be deleted.
+:::note
+The default password policy cannot be deleted.
+:::
+
 
 The selected password complexity policy details display in the main pane:
 

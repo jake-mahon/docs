@@ -1,7 +1,7 @@
 ---
 title: "Add Activity Token Complexity Policy"
 description: "Add Activity Token Complexity Policy"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Activity Token Complexity Policy
@@ -22,7 +22,10 @@ page.
 - Provide an optional description to state the purpose of the policy
 - Configure the complexity parameters (Must Start With, Must End With, and Length), as desired
 
-    _Remember,_ The maximum account name length value is 19 characters.
+    :::tip
+        Remember, The maximum account name length value is 19 characters.
+    :::
+
 
 - Specify the maximum number of consecutive characters and select characters to exclude, if needed
 - You can specify additional characters to exclude from the account name and configure granular

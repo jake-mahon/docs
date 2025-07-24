@@ -43,7 +43,10 @@ Group).
 
 **Step 4 –** Drop in the modified policy.
 
-**NOTE:** The modified policy will process correctly, but the editor still wont magically show “User
+:::note
+The modified policy will process correctly, but the editor still wont magically show “User
 in group.”
+:::
+
 
 ![itemleveltargeting2](/img/product_docs/endpointpolicymanager/troubleshooting/log/itemleveltargeting/itemleveltargeting2.webp)

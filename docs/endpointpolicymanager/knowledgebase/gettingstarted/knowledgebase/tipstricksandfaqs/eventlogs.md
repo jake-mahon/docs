@@ -10,11 +10,14 @@ It's a Cloud, Cloud, Cloud, Cloud, Cloud, Cloud world. Except actually most of y
 likely mostly on-prem, or acts that way. Take Windows 10 for instance. Windows 10 has events in the
 event logs, and maybe you already know about on-prem Event Forwarding.
 
-**NOTE:** If you want to learn more about on-prem Event Forwarding, you can see my Walkthrough of
+:::note
+If you want to learn more about on-prem Event Forwarding, you can see my Walkthrough of
 that here
 [Using Windows Event Forwarding to search for interesting events](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/windowseventforwarding.md)
 and
 [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/eventing/windowseventforwarding.md).
+:::
+
 
 But how do we take on-prem events from Windows 10 (or Windows Server) and get the up to the cloud
 for later analysis? If you have 24, 250, or 25,000 domain joined (or even NON-domain joined)
@@ -186,7 +189,9 @@ Manager did the elevation ! Amazeballs !
 
 That's it. Well, that's basics anyway.
 
-_Remember,_ this blog is a simple walkthrough / getting started. This isn't "Magic Tricks with
+:::tip
+Remember, this blog is a simple walkthrough / getting started. This isn't "Magic Tricks with
 Windows Analytics." But if I had this guide, I would have been up and running about 10x faster. So I
 hope this helps you out and shows how you can take on-prem or "Always on the go" Windows 10 machines
 and record their logs, then sort thru them for actionable items and trends.
+:::

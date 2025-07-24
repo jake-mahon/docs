@@ -9,8 +9,11 @@ sidebar_position: 10
 The Enterprise Auditor File System Proxy requirements apply for servers where either the service is
 installed or the applet will be deployed unless otherwise stated.
 
-**NOTE:** Align the proxy server requirements to match the environment size the proxy server will be
+:::note
+Align the proxy server requirements to match the environment size the proxy server will be
 handling.
+:::
+
 
 The server can be physical or virtual. The requirements for Enterprise Auditor are:
 
@@ -19,15 +22,18 @@ The server can be physical or virtual. The requirements for Enterprise Auditor a
     - US English language installation
     - Domain member
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 RAM, CPU, and Disk Space are dependent upon the size of the target environment:
 
-**CAUTION:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
+:::warning
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
 minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. By
 default, SDD scans are configured to run two concurrent threads. For example, if the job is
 configured to scan 8 hosts at a time with two concurrent SDD threads, then an extra 32 GB of RAM are
 required (8x2x2=32).
+:::
+
 
 - Enterprise Environment (800 million+ files and folders)
 
@@ -77,30 +83,39 @@ permission collection + 1.25 GB for tag collection (10x125 MB) + 100 GB for sens
 collection (200x500 MB) + 600 GB additional for sensitive data collection (10% of 6 TB) = 861.25 GB
 Disk Space.
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the server:
 
 - .NET Framework 4.7.2 Installed
 
-    **NOTE:** .NET Framework 4.7.2 can be downloaded from the link in the Microsoft
+    :::note
+    .NET Framework 4.7.2 can be downloaded from the link in the Microsoft
     [.NET Framework 4.7.2 offline installer for Windows](https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2)
     article.
+    :::
+
 
 - Remote Registry Service enabled
 
-    **NOTE:** The Remote Registry Service only needs to be enabled when running Applet Mode or Proxy
+    :::note
+    The Remote Registry Service only needs to be enabled when running Applet Mode or Proxy
     Mode with Applet scans.
+    :::
 
-Sensitive Data Discovery Auditing
+
+**Sensitive Data Discovery Auditing**
 
 The following is required to run Sensitive Data Discovery scans:
 
 - Sensitive Data Discovery Add-On installed on the proxy server
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration. It will not conflict with other JDKs or Java Runtimes in the same environment.
+:::
+
 
 See the following topics for additional information, based on the type of proxy mode you plan to
 use:

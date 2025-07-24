@@ -25,9 +25,12 @@ The table displays the following information for selected trustee:
 - Update Type – Indicates if group membership was added or removed to process the change
 - Member Name – sAMAccountName associated with the domain user whose membership was being changed
 
-**NOTE:** The table data grid functions the same way as other Access Information Center table grids.
+:::note
+The table data grid functions the same way as other Access Information Center table grids.
 See the
 [Data Grid Features](/docs/accessinformationcenter/11.6/admin/navigate/datagrid.md) topic
 for additional information.
+:::
+
 
 Click **OK** to close the window.

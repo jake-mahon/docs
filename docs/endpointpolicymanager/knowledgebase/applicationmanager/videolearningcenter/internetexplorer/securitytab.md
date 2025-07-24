@@ -7,6 +7,8 @@ sidebar_position: 80
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Security
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RGT7E1b0FMI?si=WTVh46-C4sVh34Lb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager: Manage IE Security
 
 Hi. This is Jeremy Moskowitz. In this series of videos, we’re showing how to manage Internet

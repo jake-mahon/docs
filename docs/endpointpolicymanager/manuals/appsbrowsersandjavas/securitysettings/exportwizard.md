@@ -17,9 +17,12 @@ the security categories currently used within the GPO.
 
 ![about_policypak_security_settings_3](/img/product_docs/endpointpolicymanager/securitysettings/about_endpointpolicymanager_security_settings_3.webp)
 
-**NOTE:** Currently, all supported security settings within the GPO will be exported when you click
+:::note
+Currently, all supported security settings within the GPO will be exported when you click
 **Next**.  Note that some settings are interlocked and others are not. so not all may be
 individually selected for exporting.
+:::
+
 
 Clicking **Next** brings up the Item-Level Targeting filters screen.
 

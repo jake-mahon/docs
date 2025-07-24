@@ -19,7 +19,7 @@ The following options can be edited:
 - [Syslog](/docs/passwordsecure/9.1/configuration/servermanger/databaseproperties/syslog.md)
 - [Database firewall](/docs/passwordsecure/9.1/configuration/servermanger/databaseproperties/database_firewall.md)
 
-General Settings
+**General Settings**
 
 The following can be defined in the General Settings:
 

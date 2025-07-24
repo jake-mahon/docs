@@ -18,17 +18,17 @@ data collector and the solution are available with a special Enterprise Auditor 
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the local Administrator group on the targeted Exchange server(s)
 
@@ -52,7 +52,10 @@ which contains the following wizard pages:
 - [ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/messageactivityfilter.md)
 - [ExchangeMetrics: Summary](/docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/summary.md)
 
-    **NOTE:** Pages available vary depending on the Category selected.
+    :::note
+    Pages available vary depending on the Category selected.
+    :::
+
 
 ![Exchange Metrics Data Collector Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/welcome.webp)
 

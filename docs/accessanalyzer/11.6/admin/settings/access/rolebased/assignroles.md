@@ -61,7 +61,8 @@ requiring local Administrator rights.
 
 |                                                                                                                                                       |                                                                                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Permissions - This folder only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionsfolder.webp) | ![Permissions - Subfolders and files only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionssubfolderfiles.webp) |
+| ![Permissions This folder only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionsfolder.webp)       | ![Permissions Subfolders and files only](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/permissionssubfolderfiles.webp)      |
+
 
 There are two separate sets of permissions:
 
@@ -100,8 +101,11 @@ Follow the steps to delete a user from having access to the Enterprise Auditor C
 **Step 1 –** On the Access page, select the desired user and click **Delete Role Member**. The
 selected user will be removed from the list.
 
-**NOTE:** No confirmation will be requested. However the changes will not be finalized until Step 3
+:::note
+No confirmation will be requested. However the changes will not be finalized until Step 3
 is completed.
+:::
+
 
 **Step 2 –** Repeat Step 1 to remove other users as desired.
 

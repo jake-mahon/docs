@@ -10,8 +10,10 @@ Data tracking is used for Salesforce CPQ and any sensitive data fields you want 
 data tracking enables Platform Governance for Salesforce to track data and create change logs for
 any data changes.
 
+:::note
 If you track an object, all changes to the object and fields are tracked. Consult with your security
 and audit teams to develop a list of objects before enabling data tracking.
+:::
 
 ## Prerequisites
 

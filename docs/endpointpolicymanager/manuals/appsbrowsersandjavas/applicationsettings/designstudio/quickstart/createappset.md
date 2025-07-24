@@ -10,9 +10,12 @@ Endpoint Policy Manager DesignStudio generally works well with most applications
 items that are built into Windows, Windows Media Player, tons of third-party applications, and
 custom tools you might have built for your business.
 
-**NOTE:** You might find applications that are not good candidates for Endpoint Policy Manager
+:::note
+You might find applications that are not good candidates for Endpoint Policy Manager
 DesignStudio. If you do encounter one, then don't keep it a secret. Post your questions about
 Endpoint Policy Manager DesignStudio on the Endpoint Policy Manager DesignStudio support forum.
+:::
+
 
 In this section, we're going to perform the following procedures:
 
@@ -76,8 +79,11 @@ stored.
 
 Figure 9. Selecting "Registry" as the project type.
 
-**NOTE:** Your version of DesignStudio might support more file types than this one since
+:::note
+Your version of DesignStudio might support more file types than this one since
 DesignStudio is always being updated.
+:::
+
 
 **Step 8 –** Next, you'll specify the data root for your project, as shown in Figure 10. The data
 root is the topmost location where your application, in this case PuTTY, stores the majority of its
@@ -88,10 +94,13 @@ settings. Select "Simon Tatham," which is located in `HKEY_Current_USER\Software
 
 Figure 10. Selecting "Simon Tatham" as the data root.
 
-**NOTE:** Finding the data root for your project can take some amount of trial and error. Most
+:::note
+Finding the data root for your project can take some amount of trial and error. Most
 applications store their information in HKCU_Software or HKLM_Software. Then under the manufacturer,
 you'll find the product. Other applications use INI files, XML files, or other types of files to
 store their data.
+:::
+
 
 **Step 9 –** At this point, the Endpoint Policy Manager Capture Wizard will bring the first tab of
 settings into DesignStudio, as shown in Figure 11. While there are no tabs within the PuTTY
@@ -164,9 +173,12 @@ DesignStudio, as shown in Figure 18.
 
 Figure 18. Reordering the tabs.
 
-**NOTE:** The Endpoint Policy Manager Capture Wizard isn't perfect. There are some UI elements that
+:::note
+The Endpoint Policy Manager Capture Wizard isn't perfect. There are some UI elements that
 cannot be captured. If you find a UI element that isn't captured correctly, let us know so we can
 try to adjust the DesignStudio to capture more applications.
+:::
+
 
 When complete, your capture should have tabs such as PuTTY Configuration, Logging, and Keyboard.
 
@@ -201,9 +213,12 @@ element. In this case, we have selected the PuTTY subkey.
 
 Figure 21. Choosing the PuTTY subkey.
 
-**NOTE:** If you made a mistake earlier and selected the wrong data root, you can change it in the
+:::note
+If you made a mistake earlier and selected the wrong data root, you can change it in the
 Registry Key Selection window. Once there, select "Set this location as Default Data Root," as shown
 in Figure 20.
+:::
+
 
 **Step 19 –** Note that the current state of the Host Name (IP address) in PuTTY is blank. In
 Endpoint Policy Manager DesignStudio, ensure that the field is blank to begin with. This will help
@@ -288,10 +303,13 @@ is set to 0, as shown in Figure 31.
 
 Figure 31. The SSHLogOmitPasswords registry values have been discovered.
 
-**NOTE:** If you don't see the result shown in Figure 30, but instead get an error, it's possible
+:::note
+If you don't see the result shown in Figure 30, but instead get an error, it's possible
 that you didn't select the right default data root, or you didn't click "OK" in WinZip. Either way,
 DesignStudio needs to be able to see where the changes occurred. Try changing the default data root,
 as specified earlier, or try clicking "OK" in WinZip again if you didn't earlier.
+:::
+
 
 **Step 29 –** Next, you will be asked to choose the default state and revert state for the setting.
 Figure 32 shows how you can accept the checked value as is or uncheck it. You will do the same for
@@ -333,9 +351,12 @@ you are finished.
 
 Figure 36. The completion of the process.
 
-**NOTE:** A red shading on a value indicates that the Endpoint Policy Manager DesignStudio
+:::note
+A red shading on a value indicates that the Endpoint Policy Manager DesignStudio
 Configuration Wizard is not certain that it knows the value. You can start with a different default
 state to help the capture process.
+:::
+
 
 **Step 34 –** There are no spinbox elements within the PuTTY interface so let's use WinZip to
 illustrate how the capturing process works for spinboxes since you may come across these from time

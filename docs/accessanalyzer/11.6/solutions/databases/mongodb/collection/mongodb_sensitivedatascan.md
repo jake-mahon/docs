@@ -36,8 +36,11 @@ The Query Properties window opens.
 
 **Step 3 –** Select the Data Source tab, and click Configure. The NoSQL Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to wizard pages not listed in these steps. They have been
+:::warning
+Do not make changes to wizard pages not listed in these steps. They have been
 pre-configured for this job.
+:::
+
 
 **Step 4 –** Navigate to the
 [NoSQL: Options](/docs/accessanalyzer/11.6/admin/datacollector/nosql/options.md).
@@ -59,9 +62,12 @@ Global Criteria settings. See the
 [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
-**NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
+:::note
+The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
+:::
+
 
 **Step 8 –** Navigate to the
 [NoSQL: Filter](/docs/accessanalyzer/11.6/admin/datacollector/nosql/filter.md)
@@ -115,8 +121,11 @@ The MongoDB SDD Query is now ready to run with the customized settings.
 Navigate to the Databases > > 0.Collection > MongoDB > MongoDB_SensitiveDataScan > Configure node
 and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mongodb/collection/analysissensitivedatascan.webp)
 

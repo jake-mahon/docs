@@ -35,7 +35,7 @@ the icon in the system tray to open the context menu.
 - A diverse range of variables can be defined via the **Settings**
 - **Reload all Data**
 
-Settings
+**Settings**
 
 ![settings sso agent](/img/product_docs/passwordsecure/9.1/configuration/autofill_add-on/configuration/installation_with_parameters_131-en.webp)
 

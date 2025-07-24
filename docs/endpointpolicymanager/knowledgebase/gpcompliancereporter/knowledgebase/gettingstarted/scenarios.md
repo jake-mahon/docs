@@ -53,9 +53,12 @@ Therefore:
 - Full RSOP submission (remote exe) takes: 11.7 MB
 - Full RSOP submission (local exe) takes: 10.3 MB
 
-**NOTE:** Values may change slightly from run to run, but in summary: after a gpupdate, PPGPCR
+:::note
+Values may change slightly from run to run, but in summary: after a gpupdate, PPGPCR
 Auditor takes about 10 MB of network bandwidth on the next auditor run regardless of anything,
 because of the need to generate a new RSOP.
+:::
+
 
 The biggest problem, again, is that PPGPCR Auditor relies upon GPRESULT /X, which is a system
 command, and is hardcoded the way it works, and as such, is the bulk of the bandwidth.

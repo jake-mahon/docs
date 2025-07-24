@@ -64,16 +64,19 @@ should it be necessary to make changes later on.
 Once the data has been entered and successfully tested, the wizard can be completed by clicking on
 “Finish”.
 
-Security notes
+**Security notes**
 
 As soon as the setup wizard has been completed, two security notes will be displayed in the
 **Status**
 
 module that need to be confirmed.
 
-**CAUTION:** It is recommended that you only confirm the security notes when the corresponding point
+:::warning
+It is recommended that you only confirm the security notes when the corresponding point
 has actually been carried out. It is absolutely essential to ensure that regular
 [Backup management](/docs/passwordsecure/9.1/configuration/servermanger/mainmenu/backupsettings/backup_management.md)
 are created and the
 [Certificates](/docs/passwordsecure/9.1/configuration/servermanger/certificates/certificates.md)
 are backed up.
+
+:::

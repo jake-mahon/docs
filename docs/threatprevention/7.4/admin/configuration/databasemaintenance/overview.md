@@ -12,9 +12,12 @@ per Event Type, per Analytics, and/or per Policy. While all three options can be
 different operations and retention periods, the Event Type maintenance settings take precedence over
 Policy maintenance settings where the selected policy employs that event type.
 
-_Remember,_ See the Database Maintenance Permission details in the
+:::tip
+Remember, See the Database Maintenance Permission details in the
 [Database Maintenance Feature Requirements](/docs/threatprevention/7.4/requirements/sqlserver/dbmaintenance.md)
 topic for additional information.
+:::
+
 
 See the
 [Stored Procedures](/docs/threatprevention/7.4/admin/configuration/databasemaintenance/storedprocedures.md)
@@ -77,12 +80,15 @@ topic for additional information.
 
 **Step 5 –** Click **Save** to save the changes.
 
-**_RECOMMENDED:_** The SQL Server databases should be configured to use 'Simple Recovery Mode' in
+:::info
+The SQL Server databases should be configured to use 'Simple Recovery Mode' in
 the
 [SQL Server Requirements](/docs/threatprevention/7.4/requirements/sqlserver/sqlserver.md).
 This configuration has a direct impact on the size of the transaction log during database
 maintenance delete tasks. If Simple Recovery Mode is not configured on the databases, the
 transaction log may get quite large during delete tasks.
+:::
+
 
 ## Event Type Tab
 

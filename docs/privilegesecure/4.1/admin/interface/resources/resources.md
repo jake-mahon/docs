@@ -1,7 +1,7 @@
 ---
 title: "Resources Page"
 description: "Resources Page"
-sidebar_position: 50
+sidebar_position: 10
 ---
 
 # Resources Page
@@ -87,7 +87,7 @@ The table has the following columns:
   topic for additional information.
 - Service Account — Displays the service account associated with the resource. Click the link to
   view additional details. See the
-  [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
   topic for additional information.
 - Platform — Displays the type of platform, which defines the resource. See the
   [Platforms Page](/docs/privilegesecure/4.1/admin/interface/platforms/overview.md)

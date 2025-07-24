@@ -24,5 +24,8 @@ Then set the Policy for PPFAM as shown in the following screenshot:
 
 ![730_1_ddfgdsfgfg](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/730_1_ddfgdsfgfg.webp)
 
-**NOTE:** The path for EdgeDeflector. That has to be same on client computers.  
+:::note
+The path for EdgeDeflector. That has to be same on client computers.  
 Apply the policy on the client computers and reboot.
+
+:::

@@ -17,16 +17,16 @@ topic for additional information.
 
 ## Recommended Configurations for the FS_TraverseGroups Job
 
-Dependencies
+**Dependencies**
 
 - The **FS_ResourceBasedGroups** job must be successfully run prior to running this job
 
-Targeted Hosts
+**Targeted Hosts**
 
 - None – If targeting all file servers known to Enterprise Auditor
 - Scope the actions to a host list – If targeting specific file servers
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job can be scheduled to run as desired. Throughout this document reference to executing a job
 refers to either manual execution or scheduled execution, according to the needs of the
@@ -34,19 +34,22 @@ organization. See the
 [Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/11.6/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group)
 topic for additional information.
 
-History Retention
+**History Retention**
 
 Not supported
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run the **FS_ResourceBasedGroups** job.
 
 **Step 2 –** Configure a Host List for the job at the job level.
 
-**NOTE:** If a host list is not configured, this job will analyze and commit actions on every File
+:::note
+If a host list is not configured, this job will analyze and commit actions on every File
 System server known to Enterprise Auditor. To scope the actions to target specific servers,
 configure a host list at the job level to target only those servers.
+:::
+
 
 **Step 3 –** Configure and execute analysis tasks.
 
@@ -116,8 +119,11 @@ tasks are selected by default. Follow the steps to execute the analysis tasks.
 
 **Step 1 –** Make sure all of the analysis tasks are enabled.
 
-**CAUTION:** Prior to executing the analysis tasks, make sure that all action tasks are disabled.
+:::warning
+Prior to executing the analysis tasks, make sure that all action tasks are disabled.
 The purpose at this point is only to create the required traversal tables.
+:::
+
 
 **Step 2 –** In the Configure node, select **Actions** and make sure that all of the action tasks
 are disabled.
@@ -139,8 +145,11 @@ Groups job was installed from the Instant Jobs library. Then go to the **FS_Trav
 **Configure** node and select **Actions**. The Create Groups action task must be configured to
 specify the OU for group creation.
 
-**_RECOMMENDED:_** It is recommended to execute the actions one at a time and in order as opposed to
+:::info
+It is recommended to execute the actions one at a time and in order as opposed to
 running the entire job group with the actions enabled.
+:::
+
 
 ![FS_TraverseGroups action tasks](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/resourcebasedgroups/traverseactions.webp)
 
@@ -197,8 +206,11 @@ The resource based groups are created and populated.
 Once the Create Groups action has been executed, the Modify Permissions action can be executed.
 Follow the steps to execute the action.
 
-**CAUTION:** Prior to executing the File System action tasks, allow a grace period, for example one
+:::warning
+Prior to executing the File System action tasks, allow a grace period, for example one
 week. This is important for token refresh to occur as users log off and log on again.
+:::
+
 
 **Step 1 –** On the Action Selection page, disable the **Create Groups** action task.
 
@@ -216,14 +228,18 @@ with the configured permissions. All other permissions will have been removed fr
 The Generate the List Traverse Group Changes report displays a list of changes made in the
 environment by the action modules.
 
-| Report                      | Description                                                                        | Default Tags | Report Elements                                                                                                                              |
-| --------------------------- | ---------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| List Traverse Group Changes | This report shows a list of changes made in the environment by the action modules. | None         | This report is comprised of one elements: - Table – This table provides details on the changes made to the environment by the action modules |
+| Report                      | Description                                                                        | Default Tags | Report Elements                                                                                                                                              |
+| --------------------------- | ---------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| List Traverse Group Changes | This report shows a list of changes made in the environment by the action modules. | None         | This report is comprised of one elements: <ul><li>Table – This table provides details on the changes made to the environment by the action modules</li></ul> |
+
 
  Follow the steps to analyze and report on action history.
 
-**CAUTION:** Disable all of the action tasks prior to generating the List Traverse Group Changes
+:::warning
+Disable all of the action tasks prior to generating the List Traverse Group Changes
 report.
+:::
+
 
 **Step 1 –** On the Action Selection page, disable the **Modify Permissions** action task. Make sure
 all of the action tasks are disabled.

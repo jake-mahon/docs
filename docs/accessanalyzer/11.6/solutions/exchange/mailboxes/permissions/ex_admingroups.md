@@ -14,8 +14,11 @@ Administrative groups.
 View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** > **Permissions** >
 **EX_AdminGroups** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_AdminGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/admingroupsanalysis.webp)
 
@@ -29,6 +32,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the EX_AdminGroups Job produces
 the following pre-configured report:
 
-| Report                         | Description                                                                            | Default Tags | Report Elements                                                                                                             |
-| ------------------------------ | -------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Exchange Administration Groups | This report shows effective membership for the default Exchange Administration groups. | None         | This report is comprised of two elements: - Bar Chart – Displays largest admin groups - Table – Provides membership details |
+| Report                         | Description                                                                            | Default Tags | Report Elements                                                                                                                                   |
+| ------------------------------ | -------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Exchange Administration Groups | This report shows effective membership for the default Exchange Administration groups. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest admin groups</li><li>Table – Provides membership details</li></ul> |
+

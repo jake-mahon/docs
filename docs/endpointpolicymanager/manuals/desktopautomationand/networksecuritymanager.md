@@ -20,9 +20,12 @@ Some examples of use are:
 
 ## Getting started with Endpoint Policy Manager Network Security Manager
 
-**_RECOMMENDED:_** For an overview of this section, see this video: See
+:::info
+For an overview of this section, see this video: See
 [Endpoint Policy Manager Network Security Manager - The Basics](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/gettingstarted/basics.md)
 topic for additional information.
+:::
+
 
 Pick an application you wish to restrict, like a browser (such as Edge, Firefox, PaleMoon, etc) or a
 networking application (like Telnet, WinSCP, etc.). Then pick the destinations you wish for that
@@ -68,8 +71,11 @@ Create a New Policy like what's seen here.
 Next you'll want to match a specific application. You can do this via Simple or Combo rules. This
 example will use a Simple rule.
 
-**_RECOMMENDED:_** For details about Simple and Combo rules, refer to the Endpoint Policy
+:::info
+For details about Simple and Combo rules, refer to the Endpoint Policy
 Manager Least Privilege Manager Manual (as they won't be repeated here).
+:::
+
 
 Specify the location for Microsoft Edge via Path rule which is
 `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`
@@ -105,9 +111,12 @@ Microsoft.com, but are restricted to the specific network location you specified
 
 ## Auditing Events
 
-**_RECOMMENDED:_** See the
+:::info
+See the
 [Endpoint Policy Manager Network Security Manager - Auditing Events](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/gettingstarted/auditingevents.md)
 topic for additional information.
+:::
+
 
 Auditing Events can be useful if you want to determine if your rules are working. Each rule may be
 individually enabled like what's seen here.

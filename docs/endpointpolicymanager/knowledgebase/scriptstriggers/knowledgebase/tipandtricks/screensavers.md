@@ -46,8 +46,11 @@ Screensaver…) and click OK
 
 ![207_3_image-20200819181623-2](/img/product_docs/endpointpolicymanager/scriptstriggers/207_3_image-20200819181623-2.webp)
 
-**NOTE:** If rolling out different images for different sets of users, ILT may be set on collection
+:::note
+If rolling out different images for different sets of users, ILT may be set on collection
 to specified different groups of users or computers.
+:::
+
 
 **Step 4 –** Double-click to enter Collection
 
@@ -131,8 +134,11 @@ Screensaver…) and click OK
 
 ![207_23_image-20200819181623-12](/img/product_docs/endpointpolicymanager/scriptstriggers/207_23_image-20200819181623-12.webp)
 
-**NOTE:** If rolling out different images for different sets of users, ILT may be set on collection
+:::note
+If rolling out different images for different sets of users, ILT may be set on collection
 to specified different groups of users or computers.
+:::
+
 
 **Step 4 –** Double-click to enter the Collection
 

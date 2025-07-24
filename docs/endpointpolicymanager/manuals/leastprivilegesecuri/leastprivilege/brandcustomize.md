@@ -6,8 +6,11 @@ sidebar_position: 70
 
 # Branding and Customization
 
-**NOTE:** See the [Branding the UI and Dialogs](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/branding.md) video for an
+:::note
+See the [Branding the UI and Dialogs](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/branding.md) video for an
 overview of Branding and Customization.
+:::
+
 
 You can customized many of the dialogs presented to users. You start out by creating a Global
 Settings Policy on the Computer side.

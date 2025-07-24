@@ -1,7 +1,7 @@
 ---
 title: "Activity Token Complexity Page"
 description: "Activity Token Complexity Page"
-sidebar_position: 50
+sidebar_position: 10
 ---
 
 # Activity Token Complexity Page

@@ -11,7 +11,10 @@ permission levels for the selected site collection, including custom defined rol
 descriptions. It also displays a calculation of the actual rights that each role grants within the
 targeted SharePoint on-premise farm or SharePoint Online instance.
 
-**NOTE:** This report is only available at the site collection level.
+:::note
+This report is only available at the site collection level.
+:::
+
 
 ![Site Collections Roles report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/sitecollectionroles.webp)
 

@@ -34,10 +34,13 @@ Endpoint Policy Manager nodes.
 
 The Endpoint Policy Manager Admin Console MSI is a superset of the Privilege Secure Console MSI.
 
-**CAUTION:** It is technically possible to upgrade to the latest version of the Privilege Secure
+:::warning
+It is technically possible to upgrade to the latest version of the Privilege Secure
 Console MSI after installing some version of the Endpoint Policy Manager Admin Console MSI. If you
 do this, you will remove the Endpoint Policy Manager nodes and be left only with the Netwrix
 Privilege Secure node. Any Endpoint Policy Manager data and directives will still be in the GPO and
 active. Therefore it is recommended if you upgrade to Endpoint Policy Manager Admin Console MSI,
 then you maintain your console with upgrades only via the Endpoint Policy Manager Admin Console MSI
 and don't attempt a re-install of Privilege Secure Console MSI.
+
+:::

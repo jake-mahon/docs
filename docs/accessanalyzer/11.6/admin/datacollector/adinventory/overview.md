@@ -18,26 +18,29 @@ solution are available with all Enterprise Auditor license options. See the
 [.Active Directory Inventory Solution](/docs/accessanalyzer/11.6/solutions/activedirectoryinventory/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - LDAP
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
+
 
 ## Functional Design of the ADInventory Data Collector
 

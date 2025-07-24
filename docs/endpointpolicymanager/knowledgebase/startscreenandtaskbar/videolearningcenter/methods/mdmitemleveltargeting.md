@@ -5,11 +5,11 @@ sidebar_position: 30
 ---
 # Endpoint Policy Manager Start Screen Manager: Manage Windows 10 Start Screen & Taskbar with your MDM (Advanced scenarios with ILT)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/amWoU2LMiBk" title="Endpoint Policy Manager Start Screen Manager and MDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Making an MDM policy to manage the Start Menu and Taskbar can be a NIGHTMARE. But not with Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Start Screen Manager. With us you can have ONE policy
 which can be used again and again. See how it's done.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/amWoU2LMiBk" title="Endpoint Policy Manager Start Screen Manager and MDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### PolicyPak Start Screen Manager and MDM
 

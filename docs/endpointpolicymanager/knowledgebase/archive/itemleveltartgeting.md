@@ -10,6 +10,8 @@ Learn how to use **Group Policy Preferences**
 [https://www.endpointpolicymanager.com/pp-blog/item-level-targeting](https://www.endpointpolicymanager.com/pp-blog/item-level-targeting)
 from former Group Policy MVP Jeremy Moskowitz.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lIt_dPTD0os?si=c2_szR6fjIbcAWnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Group Policy Preferences: Item Level Targeting Video Transcript
 
 Hi. This is Jeremy Moskowitz, former Group Policy MVP and Founder of PolicyPak Software. In this

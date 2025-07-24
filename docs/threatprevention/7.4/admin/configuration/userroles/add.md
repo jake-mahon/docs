@@ -26,10 +26,13 @@ or Group list.
 Operator, are displayed. Select the checkbox for a role to assign it to the user. Checking
 Administrator automatically checks the Console Operator role.
 
-_Remember,_ the Report User role was a legacy role for the IIS-based SI Reporting Console and does
+:::tip
+Remember, the Report User role was a legacy role for the IIS-based SI Reporting Console and does
 not apply to the Netwrix Threat Manager Reporting Module console. See the
 [User Access Page](/docs/threatprevention/7.4/reportingmodule/configuration/interface/useraccess.md)
 topic for information on granting report access.
+:::
+
 
 **Step 5 –** _(Optional)_ Create as many users as required before clicking OK.
 

@@ -18,7 +18,10 @@ This file should be created in the Endpoint Policy Manager Central Storage CSE 
 name `update.config` must match exactly, otherwise, the file is ignored. The CSE attempts to read
 this file once every 90 minutes, but that is configurable in the `update.config` file itself.
 
-**NOTE:** The interval in our example below is set to 1 minute.
+:::note
+The interval in our example below is set to 1 minute.
+:::
+
 
 ![714_2_image-20201229220359-2](/img/product_docs/endpointpolicymanager/install/update/714_2_image-20201229220359-2.webp)
 
@@ -35,10 +38,16 @@ Breakdown of the parameters for the `update.config` file and how to use them:
 | CSE32FILEname           | Optional value if you wish to expressly change the name of the 32-bit Endpoint Policy Manager Client-Side Extension MSI                                   | Any file name ending in MSI                       | By default, the auto-update mechanism is looking for Endpoint Policy Manager Client-Side Extension x86.MSI  |
 | CSE64FILEname           | Optional value if you wish to expressly change the name of the 64-bit Endpoint Policy Manager Client-Side Extension MSI                                   | Any file name ending in MSI                       | By default, the auto-update mechanism is looking for Endpoint Policy Manager Client-Side Extension x64.MSI  |
 
-**NOTE:** The `ReportsRoot` value should be set if `GenerateReports` is enabled (true).
+:::note
+The `ReportsRoot` value should be set if `GenerateReports` is enabled (true).
+:::
 
-**NOTE:** `ReportsRoot` and `MSIROOT` parameters supports environment variables, such as
+
+:::note
+`ReportsRoot` and `MSIROOT` parameters supports environment variables, such as
 `%LogonServer%` and so on, if you care to use them.
+:::
+
 
 Setting up the Reports Share and verifying reports are working:
 
@@ -85,8 +94,11 @@ Endpoint Policy Manager products have three command-line commands to help with u
 - `ppupdate /cseupdatenow /force`. When run from a target computer, this command will instruct the
   CSE to reread the `update.config` file and perform any needed updates immediately.
 
-**NOTE:** This is necessary only when the `update.config` file's enabled variable is set to `False`
+:::note
+This is necessary only when the `update.config` file's enabled variable is set to `False`
 and, thus, not performing any updates normally.
+:::
+
 
 ![714_5_image-20201229220359-5](/img/product_docs/endpointpolicymanager/install/update/714_5_image-20201229220359-5.webp)
 

@@ -43,5 +43,8 @@ configurations. Conceivable constellations include a situation when the only use
 only has temporary permissions. When these permissions expire, there is no longer any user with full
 permissions. To prevent this happening, users with temporary permissions are handled differently.
 
-**CAUTION:** There must always be one user who has the “authorize” right to a record, who does not
+:::warning
+There must always be one user who has the “authorize” right to a record, who does not
 only have temporary permissions.
+
+:::

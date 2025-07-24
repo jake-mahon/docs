@@ -43,8 +43,11 @@ mouse button. A permissions tab appears:
 NOTE: The basic mechanisms for setting permissions is described in detail in the Authorization
 concept.
 
-**CAUTION:** It is important that the permissions displayed here are interpreted correctly! The
+:::warning
+It is important that the permissions displayed here are interpreted correctly! The
 example above shows the permissions for the "organisational structure IT".
+:::
+
 
 The user Max Muster possesses all rights to the organisational structure IT and can thus edit,
 delete and also grant permissions for this structure.
@@ -59,4 +62,7 @@ example above, only the administrator has the required permissions for adding ne
 IT manager – who possess all other rights to the organisational structure "IT" – does not have the
 right to add records.
 
-**CAUTION:** The add right merely describes the right to create objects in an organisational unit.
+:::warning
+The add right merely describes the right to create objects in an organisational unit.
+
+:::

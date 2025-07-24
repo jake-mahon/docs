@@ -35,8 +35,11 @@ versions 23.6 and later):
 - Use the `PPUPDATE` command which will always show if you are VALID and licensing type.
 - Example of a machine getting Universal licenses successfully:
 
-  **NOTE:** Enterprise Full licenses are not honored by pre 23.6 CSEs. You MAY run multiple
+  :::note
+  Enterprise Full licenses are not honored by pre 23.6 CSEs. You MAY run multiple
   licenses "side by side" to transition from your original license to Enterprise Full licenses.
+  :::
+
 
 Additional Examples for various circumstances are below.
 
@@ -66,8 +69,11 @@ Additional Examples for various circumstances are below.
 
 ## Example 7: When a computer is licensed for SOME components via Endpoint Policy Manager Cloud
 
-**NOTE:** The Expiry date expresses when the computer is required to check-in by to maintain the
+:::note
+The Expiry date expresses when the computer is required to check-in by to maintain the
 license; not the actual expiration date of all computers. (That information is only found in
 Endpoint Policy Manager Cloud Portal.)
+:::
+
 
 ![681_16_e7_954x1262](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_16_e7_954x1262.webp)

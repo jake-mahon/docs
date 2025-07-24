@@ -1,5 +1,5 @@
 ---
-title: "Configuring subsite and list processing"
+title: "Configuring Subsite and List Processing"
 description: "Configuring subsite and list processing"
 sidebar_position: 30
 ---

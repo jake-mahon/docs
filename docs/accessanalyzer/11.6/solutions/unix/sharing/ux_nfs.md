@@ -14,8 +14,11 @@ level. Separate lists of options are checked based on target operating system.
 Navigate to the **Unix** > **3.Sharing** > **UX_NFS** > **Configure** node and select **Analysis**
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_NFS Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/sharing/nfsanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the UX_NFS job produces the
 following pre-configured report:
 
-| Report                                       | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                                       |
-| -------------------------------------------- | ---------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NFS Shares with Potentially Insecure Options | This report identifies NFS shares with options which may lead to open access | None         | This report is comprised of three elements: - Bar Chart – Displays Top Hosts by Potentially Insecure Shares - Table – Provides details on Top Hosts by Potentially Insecure Shares bar chart - Table – Provides details on List of Potentially Insecure Share Options |
+| Report                                       | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                                                                   |
+| -------------------------------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| NFS Shares with Potentially Insecure Options | This report identifies NFS shares with options which may lead to open access | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Hosts by Potentially Insecure Shares</li><li>Table – Provides details on Top Hosts by Potentially Insecure Shares bar chart</li><li>Table – Provides details on List of Potentially Insecure Share Options</li></ul> |
+

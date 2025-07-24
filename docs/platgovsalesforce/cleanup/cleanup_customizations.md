@@ -53,9 +53,9 @@ Use these processes to Clean up Individual Customization or Clean Up Multiple Cu
 
 6. Restrict Visibility. You can choose to have the list view:
 
-- Only visible to you,
-- Visible to all users or
-- Visible to certain groups of users.
+    - Only visible to you,
+    - Visible to all users or
+    - Visible to certain groups of users.
 
 7. Click **Save**.
 8. Once your list view has been created, you can multi-select customizations for clean up by

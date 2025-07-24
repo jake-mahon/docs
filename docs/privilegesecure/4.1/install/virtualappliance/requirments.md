@@ -13,19 +13,23 @@ following sections for detailed information:
 - [Software Requirements](#software-requirements)
 - [Virtual Hardware Configuration](#virtual-hardware-configuration)
 
-**NOTE:** The requirements below are sufficient for evaluation purposes only. For production
+:::note
+The requirements below are sufficient for evaluation purposes only. For production
 deployment, see the Privilege Secure
 [Application Server Requirements](/docs/privilegesecure/4.1/requirements/applicationserver.md)
 topic for additional information.
+:::
+
 
 ## Software Requirements
 
 The table below lists minimum software requirements for the virtual appliance deployment:
 
-| Virtual Environment | Requirements                                                                                                                       |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| VMware              | - VMware server: ESXi 6.7, 6.5, 6.0 - VMware workstation: 11 and 12                                                                |
-| Hyper-V Server      | - Microsoft Windows Server 2022 - Microsoft Windows Server 2019 - Microsoft Windows Server 2016 - Microsoft Windows Server 2012 R2 |
+| Virtual Environment | Requirements                                                                                                                                                         |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| VMware              | <ul><li>VMware server: ESXi 6.7, 6.5, 6.0</li><li>VMware workstation: 11 and 12</li></ul>                                                                            |
+| Hyper-V Server      | <ul><li>Microsoft Windows Server 2022</li><li>Microsoft Windows Server 2019</li><li>Microsoft Windows Server 2016</li><li>Microsoft Windows Server 2012 R2</li></ul> |
+
 
 ## Virtual Hardware Configuration
 

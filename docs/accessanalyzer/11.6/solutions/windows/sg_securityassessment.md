@@ -15,7 +15,7 @@ corresponding details that can be used to prioritize and remediate security issu
 
 ## Recommended Configurations for the SG_SecurityAssessment Job
 
-Dependencies
+**Dependencies**
 
 One or more of the following jobs must be run to generate data for the report:
 
@@ -42,15 +42,15 @@ One or more of the following jobs must be run to generate data for the report:
 
 - Security Utilities > **SG_PowerShellCommands**
 
-Targeted Hosts
+**Targeted Hosts**
 
 None
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job can be scheduled to run as desired.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run one or more of the jobs needed to generate data for this report.
 
@@ -63,8 +63,11 @@ Workflow
 Navigate to the **Windows** > **SG_SecurityAssessment** > **Configure** node and select **Analysis**
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_SecurityAssessment Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityassessmentanalysis.webp)
 
@@ -76,6 +79,7 @@ The default analysis task is:
 In addition to the tables and views created by the analysis tasks, the SG_SecurityAssessment job
 produces the following pre-configured report.
 
-| Report                      | Description                                                                    | Default Tags          | Report Elements                                                                                                                                                                                                                                 |
-| --------------------------- | ------------------------------------------------------------------------------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Systems Security Assessment | This report summarizes security related results from the Windows solution set. | GDPR, SOX, PCI, HIPAA | This report is comprised of four elements: - Pie Chart – Displays a findings by severity - Table – Provides scope of audit details - Table – Displays details on security assessment results - Table – Provides details on findings by category |
+| Report                      | Description                                                                    | Default Tags          | Report Elements                                                                                                                                                                                                                                                                   |
+| --------------------------- | ------------------------------------------------------------------------------ | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Systems Security Assessment | This report summarizes security related results from the Windows solution set. | GDPR, SOX, PCI, HIPAA | This report is comprised of four elements: <ul><li>Pie Chart – Displays a findings by severity</li><li>Table – Provides scope of audit details</li><li>Table – Displays details on security assessment results</li><li>Table – Provides details on findings by category</li></ul> |
+

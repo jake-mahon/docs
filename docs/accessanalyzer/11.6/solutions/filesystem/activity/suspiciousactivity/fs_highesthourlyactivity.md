@@ -14,8 +14,11 @@ information from targeted file servers broken down by user.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Suspicious
 Activity** > **FS_HighestHourlyActivity** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_HighestHourlyActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/highesthourlyactivityanalysis.webp)
 
@@ -43,6 +46,7 @@ enabling it. The following analysis task is deselected by default:
 In addition to the tables and views created by the analysis tasks, the FS_HighestHourlyActivity job
 produces the following pre-configured report:
 
-| Report                | Description                                                                                                                            | Default Tags | Report Elements                                                                                                                            |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Unusual User Activity | This report identifies user accounts and time ranges where there was the largest and widest amount of activity across the file system. | None         | This report is comprised of two elements: - Bar Chart – Displays abnormal user activity - Table – Provides details on hourly user activity |
+| Report                | Description                                                                                                                            | Default Tags | Report Elements                                                                                                                                                  |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unusual User Activity | This report identifies user accounts and time ranges where there was the largest and widest amount of activity across the file system. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays abnormal user activity</li><li>Table – Provides details on hourly user activity</li></ul> |
+

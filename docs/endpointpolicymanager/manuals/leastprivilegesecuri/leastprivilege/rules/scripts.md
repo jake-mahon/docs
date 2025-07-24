@@ -6,10 +6,13 @@ sidebar_position: 40
 
 # Elevating Scripts
 
-**NOTE:** For an overview on elevating scripts and preventing scripts from running, which could need
+:::note
+For an overview on elevating scripts and preventing scripts from running, which could need
 admin rights, see the
 [Elevate (or smack down) scripts and Java JAR files](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/scripts.md)
 video.
+:::
+
 
 You might need to elevate a script that has contents that would perform admin-only functions, like
 editing the Registry, turning on or off Services, and so on. You might also want to block scripts

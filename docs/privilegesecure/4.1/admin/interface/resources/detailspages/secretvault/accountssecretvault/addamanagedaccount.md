@@ -1,7 +1,7 @@
 ---
 title: "Add a Managed Account Window"
 description: "Add a Managed Account Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add a Managed Account Window

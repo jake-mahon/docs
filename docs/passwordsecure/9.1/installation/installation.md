@@ -44,12 +44,15 @@ At least three servers are thus recommended:
 - Application server (Netwrix Password Secure services)
 - Web server (IIS, NginX, Apache 2)
 
-**CAUTION:** For databases in a production system, we recommend using a fail-safe cluster. Microsoft
+:::warning
+For databases in a production system, we recommend using a fail-safe cluster. Microsoft
 SQL Server can replicate the data to a different data centre, e.g via WAN. We also recommend
 providing a Windows server for each function. Separating the systems makes it easier to expand and
 scale the system landscape at a later point. However, it is not absolutely necessary to separate the
 systems. Accordingly, all of the components can also be installed on one server in the case of
 smaller installations or test environments.
+:::
+
 
 ### Firewall rules / Ports
 

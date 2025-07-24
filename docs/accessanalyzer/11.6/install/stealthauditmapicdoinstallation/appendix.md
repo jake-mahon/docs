@@ -6,8 +6,11 @@ sidebar_position: 10
 
 # Appendix for the StealthAUDIT MAPI CDO Installation Guide
 
-**CAUTION:** The Enterprise Auditor MAPI CDO must be installed first before installing the Microsoft
+:::warning
+The Enterprise Auditor MAPI CDO must be installed first before installing the Microsoft
 Exchange MAPI CDO.
+:::
+
 
 Before installing either binary, close the Enterprise Auditor application and ensure the following
 requirements have been met:
@@ -23,8 +26,11 @@ Follow these steps to install the Microsoft Exchange MAPI CDO.
 
 **Step 1 –** Download and run the ExchangeMapiCDO application from Microsoft.
 
-**NOTE:** The steps may be slightly different than the following. See Microsoft’s website for
+:::note
+The steps may be slightly different than the following. See Microsoft’s website for
 additional detail.
+:::
+
 
 ![appendix_for_the_stealthaudit](/img/product_docs/accessanalyzer/11.6/stealthaudit/install_guides/mapi_cdo_install/appendix_for_the_stealthaudit.webp)
 

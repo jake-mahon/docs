@@ -54,7 +54,10 @@ within tables, both interactive grid and plain HTML tables. See the
 [Grid](/docs/accessanalyzer/11.6/admin/report/wizard/widgets.md#grid)
 topic for additional information.
 
-**NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
+:::note
+Any browser used to access the Web Console must have JavaScript allowed for the site. See
 the
 [Configure JavaScript Settings for the Web Console](/docs/accessanalyzer/11.6/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
 topic for additional information.
+
+:::

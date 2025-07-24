@@ -9,9 +9,12 @@ sidebar_position: 70
 You can use the Endpoint Policy Manager Cloud in-cloud editors to create many types of policies (XML
 data files), with more types becoming available all the time.
 
-**CAUTION:** You must be licensed for the policy type for it to take effect. If you are not licensed
+:::warning
+You must be licensed for the policy type for it to take effect. If you are not licensed
 for the policy type, the editor will enable you to create the policy but you will be unable to link
 it to any groups.
+:::
+
 
 For the items which do not have in-cloud editors, you must use the steps described in the
 **[Upload XML Data File](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/interface/xmldatafiles/upload.md)** section. In this case, you must create the policy on-prem

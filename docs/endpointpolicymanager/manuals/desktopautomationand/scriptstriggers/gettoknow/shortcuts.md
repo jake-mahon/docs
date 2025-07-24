@@ -6,8 +6,11 @@ sidebar_position: 10
 
 # Quick Start - Making and Removing Shortcuts
 
-**NOTE:** For some video overviews of Endpoint Policy Manager Scripts & Triggers Manager, see
+:::note
+For some video overviews of Endpoint Policy Manager Scripts & Triggers Manager, see
 [https://www.endpointpolicymanager.com/products/endpointpolicymanager-scripts-manager.html](https://www.endpointpolicymanager.com/products/endpointpolicymanager-scripts-manager.html)
+:::
+
 
 In this Quickstart example, we're going to deliver a shortcut to the desktop with a script. The
 shortcut will appear when the policy applies, and disappear when the policy no longer applies (i.e.,
@@ -44,8 +47,11 @@ It should be noted that "Run interactively" is not checked in this example. This
 used when you want to see an individual script perform its work, or if the user needs to interact
 with the script.
 
-**NOTE:** The "Run interactively" option is not available when the policy specifies that a script is
+:::note
+The "Run interactively" option is not available when the policy specifies that a script is
 meant for computers.
+:::
+
 
 **Step 5 –** On the "On revert action" page, select "PowerShell script," then copy in the
 Remove_endpointpolicymanager_Shortcut.ps1 script contents, as seen in Figure 10.

@@ -32,8 +32,11 @@ for additional information.
 Navigate to the **Jobs** > **SharePoint** > **4.Content** > **SP_StaleFiles** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job. Only the `@stale` parameter can be configured for the analysis task.
+:::
+
 
 ![Analysis Tasks for the SP_StaleFiles Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/content/stalefilesanalysis.webp)
 
@@ -49,9 +52,10 @@ The default analysis task is:
 In addition to the table created by the analysis task which displays the stale file resources, the
 SP_StaleFiles Job produces the following pre-configured report:
 
-| Report      | Description                                                                                  | Default Tags | Report Elements                                                                                                                                                                                            |
-| ----------- | -------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Files | This report identifies the files which have not been modified in the longest amount of time. | Stale Data   | This report is comprised of three elements: - Bar Chart – Provides a comparison of stale vs active content - Bar Chart – Displays top 5 Sites by Stale Data (GB) - Table – Provides details on stale files |
+| Report      | Description                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                        |
+| ----------- | -------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Files | This report identifies the files which have not been modified in the longest amount of time. | Stale Data   | This report is comprised of three elements: <ul><li>Bar Chart – Provides a comparison of stale vs active content</li><li>Bar Chart – Displays top 5 Sites by Stale Data (GB)</li><li>Table – Provides details on stale files</li></ul> |
+
 
 ### Customizable Analysis Tasks for the SP_StaleFiles Job
 

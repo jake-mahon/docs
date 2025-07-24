@@ -25,9 +25,12 @@ topic for additional information.
 Follow the steps to install the NPS Proxy Service on another server that will run services for the
 application.
 
-_Remember,_ You must configure the Antivirus exclusions according to the
+:::tip
+Remember, You must configure the Antivirus exclusions according to the
 [Exclusions for Antivirus (AV) & Endpoint Software](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000Hi8CAE.html)
 knowledge base article.
+:::
+
 
 **Step 1 –** Copy the `NPS.ProxyService.exe` file to the desktop of the remote server.
 
@@ -39,21 +42,27 @@ Secure Proxy Service Setup wizard opens.
 **Step 3 –** On the End User License Agreement page, check the I agree to the license terms and
 conditions box and click Options.
 
-_Remember,_ it is a best practice to read the agreement before accepting it.
+:::tip
+Remember, it is a best practice to read the agreement before accepting it.
+:::
+
 
 ![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/setupoptions.webp)
 
 **Step 4 –** The default installation location for Install Folder is:
 
-C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service
+**C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service**
 
 - To change the default location, click Browse and set a new location.
 - When the location is set, click OK.
 
 **Step 5 –** You will return to the End User License Agreement page. Click Install.
 
-**NOTE:** The installation process begins and the wizard displays the its Progress. This may take a
+:::note
+The installation process begins and the wizard displays the its Progress. This may take a
 few moments.
+:::
+
 
 ![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/completed_2.webp)
 
@@ -72,10 +81,13 @@ Follow the steps to register the NPS Proxy Service.
 **Step 1 –** Validate the existence of the `sbpam_node.json` file in the installation directory of
 both the application and desired servers. The default location is:
 
-C:\ProgramData\Stealthbits\PAM\ProxyService
+**C:\ProgramData\Stealthbits\PAM\ProxyService**
 
-**NOTE:** This file will not exist and needs to be created, unless there is already an application
+:::note
+This file will not exist and needs to be created, unless there is already an application
 mesh or additional Proxy server installed.
+:::
+
 
 **Step 2 –** Open the JSON file as an Administrator (via Administrator command prompt) on both
 servers.
@@ -100,15 +112,18 @@ For example:
 }
 ```
 
-**NOTE:** This file references the IP, FQDN, and hostname of the server you are on, not all servers.
+:::note
+This file references the IP, FQDN, and hostname of the server you are on, not all servers.
+:::
+
 
 **Step 4 –** Remove the `sbpam-node.crt` file from the following location on both servers:
 
-C:\ProgramData\Stealthbits\PAM\tls\certs
+**C:\ProgramData\Stealthbits\PAM\tls\certs**
 
 **Step 5 –** On the proxy server, run the following command:
 
-"C:\Program Files\Stealthbits\PAM\ProxyService\sbpam-proxy.exe" register ca-hash
+**"C:\Program Files\Stealthbits\PAM\ProxyService\sbpam-proxy.exe" register ca-hash**
 
 **Step 6 –** Copy the returned hash value and substitute it into the next step.
 
@@ -144,15 +159,15 @@ Follow the steps to add Cipher information to the NPS Proxy Service.
 **Step 2 –** Change the directory path to the ProxyService folder in the NPS Proxy Service
 installation directory. The default path is:
 
-C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service\ProxyService
+**C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service\ProxyService**
 
 **Step 3 –** Run the following command to automatically generate the "sbpam_ssh" file:
 
-.\sbpam-proxy.exe cfg -c sbpam_ssh
+**.\sbpam-proxy.exe cfg -c sbpam_ssh**
 
 **Step 4 –** Browse to the location of the newly created file in "ProgramData". The default path is:
 
-C:\ProgramData\Stealthbits\PAM\ProxyService
+**C:\ProgramData\Stealthbits\PAM\ProxyService**
 
 **Step 5 –** Copy and paste the following into the "nps_ssh.json" file.
 

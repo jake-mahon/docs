@@ -11,7 +11,9 @@ selected **Object**, **User**, or **Profile / PermissionSet**. The results can b
 The Access Review Assistant feature is available with the Intelligent Change Enablement and
 Enterprise Compliance [licenses](/docs/platgovsalesforce/installingstrongpoint/features_by_license_type.md).
 
+:::note
 Run the scanners before you perform comparisons to ensure you have the latest data.
+:::
 
 There are three Access Assistance search types:
 

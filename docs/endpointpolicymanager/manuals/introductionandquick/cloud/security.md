@@ -26,8 +26,11 @@ within Endpoint Policy Manager Cloud.
 - Computer name: This is the FQDN computer name that has been assigned.
 - Check-in times: This is the first check-in date and time and last check-in date and time.
 
-**NOTE:** At no time are usernames, passwords, organizational units (OUs), or domain names used or
+:::note
+At no time are usernames, passwords, organizational units (OUs), or domain names used or
 stored within Endpoint Policy Manager Cloud.
+:::
+
 
 All communication to and from the client machines with Endpoint Policy Manager Cloud is always
 encrypted. Below is a description of how the client attempts to communicate with Endpoint Policy
@@ -42,5 +45,8 @@ Manager Cloud.
   Endpoint Policy Manager Cloud client verifies the identity of the server using a hard-coded
   certificate.
 
-**NOTE:** Endpoint Policy Manager Cloud will usually work using proxy servers with either HTTP or
+:::note
+Endpoint Policy Manager Cloud will usually work using proxy servers with either HTTP or
 HTTPS and should honor system-wide proxy settings.
+
+:::

@@ -60,8 +60,11 @@ The General tab provides options to enable or disable policy enforcement and log
     - Source (client or server)
     - The rules the password did not comply with.
 
-        **NOTE:** Password Policy Enforcer does not send passwords or password hashes over the
+        :::note
+        Password Policy Enforcer does not send passwords or password hashes over the
         network, even when logging rejections by the Password Policy Client.
+        :::
+
 
     Most Password Policy Enforcer rules are enforced by both the Password Policy Client and Password
     Policy Server. If the Password Policy Enforcer Client is installed, then it will often reject a
@@ -107,7 +110,10 @@ The General tab provides options to enable or disable policy enforcement and log
       Password Reset V3.x, or PPE/Web V7.x (or earlier). Password Policy Enforcer accepts both
       encrypted and unencrypted requests if this option is not selected.
 
-        **NOTE:** For versions v9.x and above, this option will be selected by default.
+        :::note
+        For versions v9.x and above, this option will be selected by default.
+        :::
+
 
 Choose a password policy from the Default Policy drop-down list. Users must comply with the default
 policy if no other policy is assigned to them. See the
@@ -135,8 +141,11 @@ for a particular user. See the
 [Managing Policies](/docs/passwordpolicyenforcer/10.2/administration/managingpolicies/managing_policies.md)
 topic for additional information.
 
-**CAUTION:** If Password Policy Enforcer has only one policy and that policy is also the default
+:::warning
+If Password Policy Enforcer has only one policy and that policy is also the default
 policy, then Password Policy Enforcer enforces the policy for all users.
+:::
+
 
 The Password Policy Client and Password Policy Server communicate over UDP port 1333 by default. If
 you need to change the default port, then type the new port number in the **Password Policy Server
@@ -180,7 +189,8 @@ Follow the steps below to re-enable Password Policy Enforcer.
 
 **Step 4 –** Click **OK** to close the PPS Properties page.
 
-**NOTE:** Password Policy Enforcer is disabled or enabled immediately, but if the management console
+:::note
+Password Policy Enforcer is disabled or enabled immediately, but if the management console
 is connected to a domain configuration, there will be some delay while Active Directory propagates
 the change to the other domain controllers. See the
 [Connect to a Configuration](/docs/passwordpolicyenforcer/10.2/administration/connecting.md)
@@ -188,6 +198,8 @@ topic for additional information. A user's password history may be updated even 
 Enforcer is disabled. See the
 [Rules](/docs/passwordpolicyenforcer/10.2/administration/rules/rules.md)
 topic for additional information.
+:::
+
 
 ## Email Tab
 

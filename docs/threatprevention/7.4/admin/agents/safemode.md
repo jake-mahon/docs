@@ -18,10 +18,13 @@ LSASS process. Below are some considerations:
   Prevention administrator should check if the Agent service is set to manual start. The most likely
   solution is to upgrade to the latest version of the Agent.
 
-  **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
+  :::info
+  Activate an email notification for the _LSASS process terminated_ alert. See
   the
   [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
   topic for additional information.
+  :::
+
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
   In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during
@@ -34,16 +37,25 @@ LSASS process. Below are some considerations:
   [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/agentmanagement/startpendingmodules.md)
   topic for additional information.
 
-  **_RECOMMENDED:_** Activate an email notification for this alert. See the
+  :::info
+  Activate an email notification for this alert. See the
   [Enable Agent Started in AD Monitor Pending Mode Email Alert](#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
   topic for additional information.
+  :::
 
-_Remember,_ in Safe Mode, Threat Prevention does not terminate the LSASS process; it only prevents
+
+:::tip
+Remember, in Safe Mode, Threat Prevention does not terminate the LSASS process; it only prevents
 the Active Directory monitoring/blocking module from loading on the Agent machine every time key
 LSASS DLLs are changed.
+:::
 
-**NOTE:** Most Microsoft Security Bulletins that alter LSASS will not interfere with Agent
+
+:::note
+Most Microsoft Security Bulletins that alter LSASS will not interfere with Agent
 instrumentation.
+:::
+
 
 Active Directory monitoring/blocking will not resume until the pending modules are started. To
 determine if the LSASS changes will conflict with the Agent instrumentation, start the pending
@@ -63,9 +75,12 @@ are overwritten with the current versions.
 Follow the steps to enable email notifications for the Agent Started in AD Monitor pending mode
 Operations alert.
 
-**NOTE:** These steps require the Threat Prevention administrator role. They also assume that the
+:::note
+These steps require the Threat Prevention administrator role. They also assume that the
 [System Alerting Window](/docs/threatprevention/7.4/admin/configuration/systemalerting/overview.md)
 has been configured and email alerts have been enabled.
+:::
+
 
 **Step 1 –** Clck **Configuration** > **Alerts** on the menu. The Netwrix Threat Prevention System
 Alerting window opens.

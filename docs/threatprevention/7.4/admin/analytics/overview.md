@@ -39,8 +39,11 @@ In the middle of the interface, you can view a list of the analytic types, numbe
 identified in the last 24 hours per type, the ability to enable or disable monitoring, access to the
 analytic configuration, and a tool tip with a brief summary of the analytic.
 
-**_RECOMMENDED:_** For most analytics, configure at least one filter before enabling an analytic
+:::info
+For most analytics, configure at least one filter before enabling an analytic
 type.
+:::
+
 
 The Refresh button on the Analytics ribbon repopulates both the graphical display and the analytic
 list.

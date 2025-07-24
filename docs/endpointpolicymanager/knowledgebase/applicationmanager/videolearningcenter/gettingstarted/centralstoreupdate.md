@@ -5,11 +5,11 @@ sidebar_position: 20
 ---
 # Updating Endpoint Policy Manager Central Store
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q-iVP4eF3jA" title="Endpoint Policy Manager: Updating Endpoint Policy Manager Central Store" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 Once you've created your Netwrix Endpoint Policy Manager (formerly PolicyPak) Central Store and
 populated it, eventually you'll need to update your Paks. This video shows two different ways to
 update your Paks and your GPOs.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q-iVP4eF3jA" title="Endpoint Policy Manager: Updating Endpoint Policy Manager Central Store" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 ### Endpoint Policy Manager: Updating Endpoint Policy Manager Central Store video transcript
 

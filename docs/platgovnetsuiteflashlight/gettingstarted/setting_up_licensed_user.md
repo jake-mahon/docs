@@ -18,10 +18,12 @@ Flashlight. You can use this same procedure to switch permissions to an existing
 
     ![Add or Change a Licensed User](/img/product_docs/platgovnetsuiteflashlight/getting_started/set_up_user2_800x142.webp)
 
-NOTE: If you are changing permission from one user to another, select **Edit** by the existing
+:::note
+If you are changing permission from one user to another, select **Edit** by the existing
 **User** name.
+:::
 
-4. Select your name from the **User** list and **Full** permission as the **License Type**.
+4. Select your name from the **User** list.
 
     ![Assign the License Type for a User](/img/product_docs/platgovnetsuiteflashlight/getting_started/set_up_user3_800x213.webp)
 

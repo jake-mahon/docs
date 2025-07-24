@@ -16,17 +16,23 @@ And also in SecureRun™ rules like this:
 
 ![319_2_faq-img-02_950x537](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_2_faq-img-02_950x537.webp)
 
-**NOTE:** At this time, Policy Scope rules are not yet available for:
+:::note
+At this time, Policy Scope rules are not yet available for:
+:::
+
 
 - Global Settings Policy (to perform Discovery audits.)
 - Admin Approval Policy
 
 These are coming soon.
 
-**NOTE:** The Policy Scope option is only available when used on the Computer side; on the User side
+:::note
+The Policy Scope option is only available when used on the Computer side; on the User side
 it is greyed out because this setting is only meant to express to the COMPUTER (system) how to work
 with User, and User and System Processes. On the User side, the processes are always in the context
 of the User.
+:::
+
 
 ![319_3_faq-img-03_950x571](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_3_faq-img-03_950x571.webp)
 
@@ -131,8 +137,11 @@ this.
 
 ![319_13_faq-img-13_950x534](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_13_faq-img-13_950x534.webp)
 
-_Remember,_ rule 2, the rule that does the ELEVATE or ALLOW, is just a standard rule, and can be
+:::tip
+Remember, rule 2, the rule that does the ELEVATE or ALLOW, is just a standard rule, and can be
 done on the user or computer side, like this:
+:::
+
 
 ![319_14_faq-img-14_950x458](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_14_faq-img-14_950x458.webp)
 
@@ -166,8 +175,11 @@ AND
 
 Scope Filter should be trimmed to the specific account you specified to run the service runs as.
 
-**NOTE:** It's also possible to use Scope Filter = SERVICES to make the rule apply to all services
+:::note
+It's also possible to use Scope Filter = SERVICES to make the rule apply to all services
 that run from the specified `.exe `regardless of the user.
+:::
+
 
 ![319_15_faq-img-15_950x467](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_15_faq-img-15_950x467.webp)
 

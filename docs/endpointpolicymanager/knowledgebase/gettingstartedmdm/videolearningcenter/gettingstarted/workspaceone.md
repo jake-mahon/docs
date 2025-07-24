@@ -5,12 +5,12 @@ sidebar_position: 50
 ---
 # Endpoint Policy Managerand Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/URF_gKbs6kc" title="Endpoint Policy Manager and Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Workspace One (Airwatch) is awesome, but it doesn't have real group policy, or extra Windows 10
 desktop management features. Watch this video and learn how to useNetwrix Endpoint Policy Manager
 (formerly PolicyPak) to deliver REAL Group Policy settings and Endpoint Policy Manager's extra
 settings to all your Workspace One (Airwatch) MDM joined Windows 10 machines.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/URF_gKbs6kc" title="Endpoint Policy Manager and Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### PolicyPak and Workspace One (Airwatch) MDM: Deploy Group Policy and PolicyPak superpowers today
 

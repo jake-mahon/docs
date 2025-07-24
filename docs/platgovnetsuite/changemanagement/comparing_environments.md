@@ -49,8 +49,10 @@ customizations with the **Change Account** feature on a Change Request. Refer to
 
 The tool is also available as a **Run Compare** button within a Change Request.
 
+:::note
 Token-based authentication (TBA) is required by NetSuite. Follow the steps in the **Set Up
 TBA Credentials** section the first time you use this feature.
+:::
 
 1. Open **Strongpoint** > **Change Management Tools** > **Compare Environments**
 
@@ -61,11 +63,13 @@ TBA Credentials** section the first time you use this feature.
 
 Here are the field and filter options.
 
+:::note
 Only administrators can view the Consumer Key, Consumer Secret, Token ID and Token Secret
 information.  
 This information is generated when you create your Integration Record with the Token-Based
 Authentication option enabled. If you lose or forget these credentials, you must reset them to
 obtain new values.
+:::
 
 ### Fields
 
@@ -121,14 +125,18 @@ Once you enter the source and targets, the following information is populated:
   the **Bundle/App Filter Mode**) in the comparison. You can set multiple bundles/apps to be
   included/excluded, separating them with commas.
 
+:::note
 When using filters, it is recommended that you only use one filter at a time. An exception is using
 **Customization Type** and **Get Items from Search** together.
+:::
 
 ## Determining What to Compare
 
 ### Pre-Deployment
 
+:::note
 If you are migrating new objects, they will not exist in your target account.
+:::
 
 To determine what to compare pre-deployment:
 

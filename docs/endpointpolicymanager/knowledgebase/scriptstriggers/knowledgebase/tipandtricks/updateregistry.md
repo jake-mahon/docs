@@ -9,9 +9,12 @@ sidebar_position: 60
 If an end-user does not have administrative rights to their PC, they are unable to modify the
 registry. Scripts Manager can be used to send out mass updates as required by the Admins.
 
-**NOTE:** We recommend you put the .REG file on a server so the file itself is under permissions
+:::note
+We recommend you put the .REG file on a server so the file itself is under permissions
 which cannot be tampered with. It could be a risk to put the .REG file locally on the hard drive
 where anyone could edit the raw contents.
+:::
+
 
 **Step 1 –** Create new GPO where required
 
@@ -45,8 +48,11 @@ appropriate commands to set the registry as required -> NEXT
 
 **Step 7 –** Specify when you want the command to be run -> NEXT
 
-**NOTE:** "Always" will ensure that if the value is every updated, it will be returned to the value
+:::note
+"Always" will ensure that if the value is every updated, it will be returned to the value
 specified each time Group Policy is processed
+:::
+
 
 ![654_9_image-20200510105609-20](/img/product_docs/endpointpolicymanager/scriptstriggers/654_9_image-20200510105609-20.webp)
 

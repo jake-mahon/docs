@@ -9,9 +9,12 @@ sidebar_position: 40
 The registry requires elevated rights to be updated. Least Privilege Manager can be used to elevate
 the rights of a standard user to allow specific .reg files be imported without an administrator.
 
-**NOTE:** We recommend you put the .REG file on a server so the file itself is under permissions
+:::note
+We recommend you put the .REG file on a server so the file itself is under permissions
 which cannot be tampered with. It could be a risk to put the .REG file locally on the hard drive
 where anyone could edit the raw contents.
+:::
+
 
 ## Method 1: New Executable Policy
 
@@ -79,8 +82,11 @@ Regedit.exe /s \\server\share\NewRegValue.reg
 
 **Step 4 –** Select **Use Combo Rule …** and click **Next**.
 
-**NOTE:** Although you can use a simple rule and simply use path as the qualifying factor, for
+:::note
+Although you can use a simple rule and simply use path as the qualifying factor, for
 security purposes it is recommended you have multiple qualifying factors.
+:::
+
 
 ![621_17_image-20200510100625-9](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
 
@@ -88,9 +94,12 @@ security purposes it is recommended you have multiple qualifying factors.
 
 ![621_19_image-20200510100625-10](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_19_image-20200510100625-10.webp)
 
-**NOTE:** If you make changes to the script, the Hash value will need to be updated for the policy
+:::note
+If you make changes to the script, the Hash value will need to be updated for the policy
 to remain valid. Alternatively, if you digitally sign your script, Signature can be used instead of
 Hash as the second method of validation.
+:::
+
 
 **Step 6 –** Under Path Condition click the **Add** drop-down and select .**Add file ...**.
 

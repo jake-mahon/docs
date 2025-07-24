@@ -13,7 +13,7 @@ passwords are located.
 
 Here you have the following options:
 
-Action menu
+**Action menu**
 
 With a click on
 ![three-points-en](/img/product_docs/passwordsecure/9.1/configuration/mobiledevices/tabs/three-points-en.webp)
@@ -29,7 +29,7 @@ The following actions are offered:
 - **Logout** (you will be logged out from the database)
 - **Cancel** (closes the action menu and returns to the tab view)
 
-Tabs
+**Tabs**
 
 Below the passwords there is a bar for managing tabs.
 

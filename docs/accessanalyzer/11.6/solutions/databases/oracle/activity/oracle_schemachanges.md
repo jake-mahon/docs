@@ -14,8 +14,11 @@ across all database objects.
 Navigate to the **Oracle** > **2.Activity** > **Oracle_SchemaChanges** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup29.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_SchemaChanges Job
 produces the following pre-configured report.
 
-| Report                 | Description                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                   |
-| ---------------------- | ------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Schema Change Activity | This report lists all schema change related Oracle events, and summarizes them by instance. | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by schema change activity - Table –  Provides details on instances by schema change activity - Table – Provides details on schema change details |
+| Report                 | Description                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                                               |
+| ---------------------- | ------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Schema Change Activity | This report lists all schema change related Oracle events, and summarizes them by instance. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by schema change activity</li><li>Table –  Provides details on instances by schema change activity</li><li>Table – Provides details on schema change details</li></ul> |
+

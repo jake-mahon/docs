@@ -18,7 +18,10 @@ The UX_UsersAndGroups job is located in the 0.Collection job group.
 
 The UX_UsersandGroups job uses the Unix Data Collector for the following queries:
 
-**CAUTION:** The queries are preconfigured for this job. Never modify the queries.
+:::warning
+The queries are preconfigured for this job. Never modify the queries.
+:::
+
 
 ![Queries for the UX_UsersAndGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/usersgroups/usersandgroupsqueries.webp)
 
@@ -40,8 +43,11 @@ The queries for the UX_UsersAndGroups job are:
 Navigate to the **Unix** > **1.Users and Groups** > **0.Collection** > **UX_UsersAndGroups** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_UsersAndGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/usersgroups/usersandgroupsanalysis.webp)
 

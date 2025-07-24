@@ -182,19 +182,25 @@ The idea of rings (or collections, groups, etc.) varies from tool to tool in the
   for additional information.
 - For other on-prem tools, see your corresponding documentation.
 
-**NOTE:** While it's possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group Policy
+:::note
+While it's possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group Policy
 software installation, it is not recommended. The best practice to deploy the Endpoint Policy
 Manager CSE, should you have no on-prem software deployment tool, is the free version of PDQ Deploy.
 For more information, see the video
 series[PolicyPak and PDQ](https://www.endpointpolicymanager.com/integration/endpointpolicymanager-and-pdq.html).
+:::
+
 
 ### Active Directory Option 2: Using the Built-in Endpoint Policy Manager CSE Update mechanism
 
 Not everyone has a 3rd party software deployment tool.
 
-**NOTE:** While it's possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group Policy
+:::note
+While it's possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group Policy
 Software Installation, it is not recommended. Our official recommended way to deploy the client is,
 again, via a tool like PDQ Deploy, SCCM, etc.
+:::
+
 
 As an alternative, you can use the Endpoint Policy Manager CSE Auto-Updater.  The general idea is
 that if you put the CSE in the Central Store, then the CSE will automatically look for updates,
@@ -229,7 +235,10 @@ Here's the outline of the process:
 
 ### Active Directory Option 4: Using Endpoint Policy Manager Remote Work Delivery Manager to specify an update
 
-**NOTE:** This is not a best practice, but could work for your situation.
+:::note
+This is not a best practice, but could work for your situation.
+:::
+
 
 Another way to make rings would be to use Group Policy to deliver a CSE update via Endpoint Policy
 Manager Remote Work Delivery Manager. You could create the rings using Active Directory groups or
@@ -316,11 +325,14 @@ Such a machine would have:
 - Not much else, and most specifically, no 3rd party system software or A/V software other than
   Endpoint Policy Manager
 
-**NOTE:** Minimize the exposure to third party problems and you're working cleanly like we are in
+:::note
+Minimize the exposure to third party problems and you're working cleanly like we are in
 our testing. You can just hand-install the latest Endpoint Policy Manager CSE and/or Cloud Client,
 and do some pre-flight testing before you even get to your rings. Then if you encounter a bug, you
 can quickly validate your bug report, and collect logs from a machine that's close to you and
 available whenever you need it, not just when the user is available.
+:::
+
 
 ## Final Thoughts and Recap
 

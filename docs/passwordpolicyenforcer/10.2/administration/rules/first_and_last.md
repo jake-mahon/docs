@@ -23,6 +23,9 @@ want to specify the **unacceptable** character.
 
 Choose one or more character sets by selecting the check boxes beside the character set names.
 
-**NOTE:** Click the Messages tab to customize the Password Policy Client rule inserts. The First and
+:::note
+Click the Messages tab to customize the Password Policy Client rule inserts. The First and
 Last Character rules use custom character set definitions from the Character rules, even if the
 Character rules are disabled.
+
+:::

@@ -39,11 +39,9 @@ The SoD 1.7 bundle is available in conjunction with Netwrix Strongpoint for NetS
 you are using the latest version in all accounts, update the SoD bundle in your sandboxes after
 updating to Strongpoint for NetSuite 7.6 as we are unable to push updates to them. The upgrade to
 your production account will be implemented during off-peak hours starting January 22nd. If you are
-an Enterprise Customer, we will push the SoD 1.7 bundle.
 
-|                                            |                      |                                       |
-| ------------------------------------------ | -------------------- | ------------------------------------- |
 | Spider                                     | New Schedule         | Previous Schedule                     |
+| ------------------------------------------ | -------------------- | ------------------------------------- |
 |                                            | Once a day, Off peak | Every 8 hours                         |
 | Search                                     | Once a day, Off peak | Every 3 hours if a change is detected |
 | Negative Deployment                        | Once a day, Off peak | Every time a change is detected       |

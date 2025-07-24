@@ -46,4 +46,7 @@ of the computers
 
 **Step 4 –** Verify service is installed and running: sc query msdtc and hit enter
 
-**NOTE:** this can also be performed after the uninstall to verify it was removed
+:::note
+this can also be performed after the uninstall to verify it was removed
+
+:::

@@ -47,13 +47,13 @@ outside of marketing = "-social media marketing").
 Netwrix Password Secure offers two different views - the list and tile view. Just **switch the
 button** on the upper right to change views!
 
-List View
+**List View**
 
 The screenshot below shows the list view.
 
 ![listview](/img/product_docs/passwordsecure/9.1/enduser/listview.webp)
 
-Tile View
+**Tile View**
 
 The screenshot below shows the title view.
 

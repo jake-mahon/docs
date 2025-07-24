@@ -15,8 +15,11 @@ Password Policy Enforcer/Web from their web browser.
 - 5 megabytes of free disk space.
 - 5 megabytes free RAM.
 
-**NOTE:** Password Policy Enforcer/Web can share server resources with other applications. It can be
+:::note
+Password Policy Enforcer/Web can share server resources with other applications. It can be
 installed on an existing, well secured web server.
+:::
+
 
 ## Preparing IIS
 
@@ -159,7 +162,10 @@ Enforcer/Web documentation and tools, then click **Next**.
 **Step 6 –** Select an **IIS Web Site** from the dropdown. Change the default Virtual Directory, if
 needed.
 
-**NOTE:** Password Policy Enforcer/Web should be installed in its own virtual directory.
+:::note
+Password Policy Enforcer/Web should be installed in its own virtual directory.
+:::
+
 
 **Step 7 –** Click **Next** twice.
 
@@ -176,13 +182,19 @@ The HTML templates and associated images are overwritten during an upgrade. You
 customized HTML templates and images before upgrading. The HTML templates and images are installed
 in the `\Inetpub\wwwroot\ppeweb\` folder by default.
 
-**NOTE:** A full backup of the PPE/Web server is recommended. This allows you to roll back to the
+:::note
+A full backup of the PPE/Web server is recommended. This allows you to roll back to the
 previous version if the upgrade cannot be completed. You may need to restart Windows after
 upgrading.
+:::
 
-**CAUTION:** PPE/Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade
+
+:::warning
+PPE/Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade
 Password Policy Enforcer to a compatible version if you have enabled Password Policy Enforcer
 integration.
+:::
+
 
 #### Upgrading to V7.11
 
@@ -203,13 +215,19 @@ The HTML templates and associated images are overwritten during an upgrade. You
 customized HTML templates and iages before upgrading The HTML templates and images are installed in
 the `\Inetpub\wwwroot\ppeweb\` folder by default.
 
-**NOTE:** A full backup of the PPE/Web server is recommended. This allows you to roll back to the
+:::note
+A full backup of the PPE/Web server is recommended. This allows you to roll back to the
 previous version if the upgrade cannot be completed. You may need to restart Windows after
 upgrading.
+:::
 
-**CAUTION:** PPE/Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade
+
+:::warning
+PPE/Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade
 Password Policy Enforcer to a compatible version if you have enabled Password Policy Enforcer
 integration.
+:::
+
 
 #### Upgrading to V7.11Upgrading to V7.11
 
@@ -245,7 +263,10 @@ Right-click the PPE/Web item in the right pane, then click Delete. Click Yes to 
 
 **Step 4 –** Back up the PPE/Web V3.x files.
 
-**NOTE:** the PPE/Web V3.x files are most likely located in the `\Inetpub\wwwroot\ppeweb\` folder.
+:::note
+the PPE/Web V3.x files are most likely located in the `\Inetpub\wwwroot\ppeweb\` folder.
+:::
+
 
 **Step 5 –** Delete the folder containing the PPE/Web V3.x files.
 
@@ -257,7 +278,10 @@ Follow the steps below to upgrade to PPE/Web V7.x.
 
 **Step 2 –** Open the Configuration console to configure PPE/Web and install your new license key.
 
-**NOTE:** Any customizations to the PPE/Web V3.x user interface will need to be recreated after
+:::note
+Any customizations to the PPE/Web V3.x user interface will need to be recreated after
 upgrading to PPE/Web V7.11. See the
 [Editing HTML Templates](/docs/passwordpolicyenforcer/10.2/web/editing_html_templates.md)
 topic for additional information.
+
+:::

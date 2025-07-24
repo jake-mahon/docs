@@ -24,16 +24,19 @@ The connection to the server is not considered secure.
 NOTE: Windows Server 2012 R2 requires the latest patch level, since it has been delivered with SSL3,
 and has been extended to include TLS 1.2
 
-**CAUTION:** The service user creates the databases. A separate certificate is also generated for
+:::warning
+The service user creates the databases. A separate certificate is also generated for
 each database. Therefore, the service user must be a local administrator or a domain administrator,
 as otherwise they would have no rights to save data in the certificate store.
+:::
+
 
 #### Structure of certificates
 
 The following information applies to both the **Netwrix Password Secure certificate** and also to
 your **own certificates:**
 
-Alternative applicant
+**Alternative applicant**
 
 Communication between the client and server can only take place using the path that is stored in the
 certificate with the alternative applicant. Therefore, the Netwrix Password Secure certificate
@@ -48,12 +51,12 @@ The name of the PSR certificate is **PSR8Server**. This can be done via the
 [Basic configuration](/docs/passwordsecure/9.1/configuration/servermanger/basic_configuration.md)
 in the AdminConsole. The certificate is saved locally under:
 
-Local computer -> own certificates -> certificates
+**Local computer -> own certificates -> certificates**
 
 NOTE: The certificate is valid from its creation up to the year 9999 – and is thus valid almost
 indefinitely. For this reason, it is not necessary to note any expiry date.
 
-Distributing the Netwrix Password Secure certificate
+**Distributing the Netwrix Password Secure certificate**
 
 In order for the certificate to be trusted, it can be exported to the server and then imported to
 the clients. The following storage location needs to be selected here:
@@ -62,7 +65,7 @@ local computer -> trusted root certificate location -> certificates
 
 The certificate can be both rolled out and distributed using group guidelines.
 
-Manually importing the Netwrix Password Secure certificate
+**Manually importing the Netwrix Password Secure certificate**
 
 If the Netwrix Password Secure certificate is not rolled out, it is also possible to manually import
 the certificate. To do this, firstly open the certificate information. In the warning notification,
@@ -91,9 +94,12 @@ If a CA already exists, you can also use your own certificate. You can specify t
 Please note that a server certificate for SSL encryption is used here. The CA must be configured so
 that all clients trust the certificate. It is necessary to adhere to the certification path.
 
-**CAUTION:** When configuring, you must ensure that the clients can access the CA lock lists
+:::warning
+When configuring, you must ensure that the clients can access the CA lock lists
+:::
 
-Wildcard certificates
+
+**Wildcard certificates**
 
 Wildcard certificates are not supported. In theory, it should be possible to use them but we cannot
 help with the configuration. You can use wildcard certificates at your own responsibility.

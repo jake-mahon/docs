@@ -18,8 +18,11 @@ The AD_OUPermissions Job is located in the 3.OUs Job Group.
 Navigate to the **Active Directory Permissions Analyzer** > **3.OUs** > **AD_OUPermissions** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_OUPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/oupermissionsanalysis.webp)
 
@@ -33,6 +36,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_OUPermissions Job produces
 the following pre-configured report.
 
-| Report         | Description                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                        |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OU Permissions | This report highlights instances where permissions are applied to Active Directory organizational units. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: - Bar Chart – Displays OU permissions by domain - Pie Chart – Displays OU permissions by type - Table – Provides details on OU permissions |
+| Report         | Description                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| OU Permissions | This report highlights instances where permissions are applied to Active Directory organizational units. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays OU permissions by domain</li><li>Pie Chart – Displays OU permissions by type</li><li>Table – Provides details on OU permissions</li></ul> |
+

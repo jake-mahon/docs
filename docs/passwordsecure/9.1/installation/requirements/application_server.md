@@ -8,9 +8,8 @@ sidebar_position: 10
 
 #### System Components
 
-|                   |                    |                    |
-| ----------------- | ------------------ | ------------------ |
 | Attribute         | Minimum            | Recommended        |
+| ----------------- | ------------------ | ------------------ |
 | OS                | MS Win Server 2019 | MS Win Server 2022 |
 | Architecture      | x64                | x64                |
 | CPU [# Cores]     | 4                  | 8                  |

@@ -14,8 +14,11 @@ all targeted Oracle database servers.
 Navigate to the **Oracle** > **1.Users and Roles** > **Oracle_RoleMembers** > Configure node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/usersroles/jobgroup22.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the Oracle_RoleMembers Job
 produces the following pre-configured report.
 
-| Report          | Description                                                                                   | Default Tags | Report Elements                                                                                                                                                                                                  |
-| --------------- | --------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Role Membership | This report shows details on the roles and role membership in the audited Oracle environment. | None         | This report is comprised of three elements: - Bar Chart – Displays top roles by role membership - Table – Provides details on roles by role membership - Table – Provides information on role membership details |
+| Report          | Description                                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                              |
+| --------------- | --------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Role Membership | This report shows details on the roles and role membership in the audited Oracle environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top roles by role membership</li><li>Table – Provides details on roles by role membership</li><li>Table – Provides information on role membership details</li></ul> |
+

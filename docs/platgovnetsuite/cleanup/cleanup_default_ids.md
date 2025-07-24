@@ -15,8 +15,8 @@ a critical clean up practice.
    customization record.
 4. If you have a **Documentation and Optimization** license:
     1. Change the **Script ID**.
-    2. Click Save
-    3. Click **ReSpider Now**
+    2. Click **Save**.
+    3. Click **ReSpider Now**.
     4. Return to your results and review the next item.
 5. If you have an **Intelligent Change Management** license, open the **Change Management** tab
 6. **Create a Change Request** or **Add to Change Request** (there is a shortcut link to open the

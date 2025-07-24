@@ -16,15 +16,21 @@ PolicyPak) Cloud: Rings and Rollouts in the topic below.
 
 - [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/bestpractices/rings.md)
 
-**NOTE:** When using the commands above both the CSE and PPC client will be updated if new versions
+:::note
+When using the commands above both the CSE and PPC client will be updated if new versions
 are available.
+:::
+
 
 ## Using Endpoint Policy Manager Group Policy (OnPrem) Edition
 
 From a CMD prompt run `ppupdate`followed by one of the switches in the examples provided below.
 
-**NOTE:** These switches are dependent on having the CSE MSI files present in the Central Store See
+:::note
+These switches are dependent on having the CSE MSI files present in the Central Store See
 Active Directory Options 2 & 3 in the KB below for more information.
+:::
+
 
 [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/bestpractices/rings.md)
 

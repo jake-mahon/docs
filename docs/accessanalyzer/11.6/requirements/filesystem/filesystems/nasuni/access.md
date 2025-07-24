@@ -27,8 +27,11 @@ The API Access Keys page opens.
 Both the Key Name and the Key Passcode are required for each Nasuni Edge Appliance and cloud filer.
 They are used as the credentials in the Enterprise Auditor Connection Profile for 0-FS_Nasuni Job.
 
-**NOTE:** Nasuni API key names are case sensitive. When providing them, ensure they are entered in
+:::note
+Nasuni API key names are case sensitive. When providing them, ensure they are entered in
 the exact same case as generated.
+:::
+
 
 See the Nasuni
 [Management Console Guide](https://nasuni.my.salesforce.com/sfc/p/#management-console-guide)
@@ -53,8 +56,11 @@ Name for the key; for example, the name of the application.
 Both the Key Name and the Key Passcode are required for each Nasuni Edge Appliance and cloud filer.
 They are used as the credentials in the Enterprise Auditor Connection Profile for 0-FS_Nasuni Job.
 
-**NOTE:** Nasuni API key names are case sensitive. When providing them, ensure they are entered in
+:::note
+Nasuni API key names are case sensitive. When providing them, ensure they are entered in
 the exact same case as generated.
+:::
+
 
 See the
 [Nasuni Management Console Guide](https://nasuni.my.salesforce.com/sfc/p/#nasuni-management-console-guide)

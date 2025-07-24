@@ -31,7 +31,10 @@ File**
 
 ![web_interface_and_controls_11_562x273](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_11_562x273.webp)
 
-**NOTE:** Different MMC snap-ins and editors could have somewhat different options for importing
+:::note
+Different MMC snap-ins and editors could have somewhat different options for importing
 from XML.
+:::
+
 
 ![web_interface_and_controls_12_562x337](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_12_562x337.webp)

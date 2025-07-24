@@ -9,7 +9,7 @@ sidebar_position: 40
 Connect to the instance where Netwrix Privilege Secure is going to be deployed. The Windows
 PowerShell opens and automatically runs the script.
 
-Configure SQL Server Instance
+**Configure SQL Server Instance**
 
 Follow the steps below to configure the SQL Server instance.
 
@@ -37,7 +37,7 @@ If you are alright with the default computer name or workgroup, press Y to acce
 agreement and deploy Netwrix Privilege Secure. If not, accept the license agreement and change the
 computer, domain, or work group manually.
 
-Configure a Guest instance
+**Configure a Guest instance**
 
 Follow the steps below to configure a guest instance.
 

@@ -1,7 +1,7 @@
 ---
 title: "Account Dependencies Window"
 description: "Account Dependencies Window"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Account Dependencies Window

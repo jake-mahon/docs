@@ -24,10 +24,13 @@ other keyboard layouts.
   keyboard patterns that contain direction changes. For example, "qwewq" and "4rfr4" are both
   recognized as five-character keyboard patterns if direction change detection is enabled.
 
-**NOTE:** Password Policy Enforcer detects direction changes in both axes if the pattern detection
+:::note
+Password Policy Enforcer detects direction changes in both axes if the pattern detection
 mode is set to "Horizontal or vertical". For example, "qawsed", "qwedsa", "qwedcv", and "qwsazx" are
 all recognized as six-character keyboard patterns if direction change detection is enabled and the
 pattern detection mode is set to "Horizontal or vertical".
+:::
+
 
 - Select the **Detect key repeat** check box if Password Policy Enforcer should detect keyboard
   patterns that contain repeated keystrokes. For example, "qwwert" and "qwwwer" are both recognized
@@ -48,7 +51,10 @@ pattern detection mode is set to "Horizontal or vertical".
 
 Click the **Messages** tab to customize the Password Policy Client rule inserts.
 
-**NOTE:** Modifier keys such as Shift and AltGr will not evade pattern detection. Key positions can
+:::note
+Modifier keys such as Shift and AltGr will not evade pattern detection. Key positions can
 differ, even in keyboards with matching layouts. The Keyboard Pattern rule may not detect some
 patterns because of these differences. Please report any missed patterns to
 [Netwrix Support](https://www.netwrix.com/support.html).
+
+:::

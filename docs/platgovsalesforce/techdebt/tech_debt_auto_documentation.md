@@ -11,32 +11,22 @@ a sandbox or production org and start the scanners.Platform Governance for Sales
 maintains automated digital documentation of each Salesforce org and provides easy to understand
 diagrams and clean up tools. You can print or export results for offline reference.
 
-> **TIP**
->
-> **Learning About the Scanners**: Review the
-> [Running the Scanner](/docs/platgovsalesforce/installingstrongpoint/running_scanner.md) topic or reach out to the
-> Customer Success team. It takes half an hour or so to get set up and on your way.
->
-> The scanning process is a function of size: smaller orgs index in only a few hours, while large
-> orgs can take up to 5 days.
->
-> Platform Governance for Salesforce is a 100% native Salesforce App. Our records and code usage DO
-> NOT count against your governance limits. Moreover, once the initial scan is complete, Platform
-> Governance for Salesforce automatically updates documentation relating only to things that have
-> changed, greatly reducing the amount of time required to scan.
+:::tip
+**Learning About the Scanners**: Review the [Running the Scanner](/docs/platgovsalesforce/installingstrongpoint/running_scanner.md) topic or reach out to the  Customer Success team. It takes half an hour or so to get set up and on your way.
+
+The scanning process is a function of size: smaller orgs index in only a few hours, while large orgs can take up to 5 days.
+
+Platform Governance for Salesforce is a 100% native Salesforce App. Our records and code usage DO NOT count against your governance limits. Moreover, once the initial scan is complete, Platform Governance for Salesforce automatically updates documentation relating only to things that have changed, greatly reducing the amount of time required to scan.
+:::
 
 Once your orgs are documented, understanding the downstream dependencies of any change is a
 straightforward, simple process. There are a number of ways to do this:
 
-> Dependency Relationship Diagram (DRD)
->
-> Customization Record
->
-> Finder
->
-> Object Exporter
->
-> Reports and List Views
+- Dependency Relationship Diagram (DRD)
+- Customization Record
+- Finder
+- Object Exporter
+- Reports and List Views
 
 ## Dependency Relationship Diagram (DRD)
 
@@ -67,10 +57,11 @@ the dependencies.
 4. Click **Open Record** to open the full Customization Record with complete access to the detailed
    metadata and change history for the Customization.
 
-> **PRO TIPS**
->
-> - Read more about the [Customization Record](/docs/platgovsalesforce/customizations/customizations_overview.md).
-> - Click **Show/Hide Standard Fields** to toggle displaying Standard Fields in the DRD.
+:::tip
+Read more about the [Customization Record](/docs/platgovsalesforce/customizations/customizations_overview.md).
+
+Click **Show/Hide Standard Fields** to toggle displaying Standard Fields in the DRD.
+:::
 
 ## Customization Record
 

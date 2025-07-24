@@ -17,9 +17,12 @@ The Extras tab in the IE AppSet enables you to do the following:
 - Set custom title bar (versions of IE prior to IE 10)
 - Manage certificates
 
-**NOTE:** Endpoint Policy Manager can only deploy binary/DER type certificates. If you need to
+:::note
+Endpoint Policy Manager can only deploy binary/DER type certificates. If you need to
 convert an existing certificate to DER format, please see the section, "Exporting Certificates to
 the Binary-Encoded DER Format."
+:::
+
 
 Examples of IE certificates are shown in Figure 29.
 
@@ -68,7 +71,10 @@ Table 1: Certificate stores and corresponding terms.
 | Trusted Publishers                     | TrustedPublisher                                  | Machine\TrustedPublisher |
 | Untrusted Publishers                   | Disallowed                                        | Machine\Disallowed       |
 
-**CAUTION:** Not all certificate types will work in all locations for IE certificates.
+:::warning
+Not all certificate types will work in all locations for IE certificates.
+:::
+
 
 The following line would look for a file named certificate.pfx on `\\DC\Share` and add it to the
 Personal certificate store: `\\DC\Share\certificate.pfx, personal, add`.
@@ -80,9 +86,12 @@ Authorities of the current user: `\\DC\Share\CA.cer, CA, add`, while the next li
 certificate to Intermediate Certification Authorities of the machine, meaning that all users on the
 machine will get it: `\\DC\Share\CA.cer, Machine\CA, add`.
 
-**NOTE:** Non-elevated users are not allowed to remove certificates from the machine store, so you
+:::note
+Non-elevated users are not allowed to remove certificates from the machine store, so you
 can use `Machine\{Store Name}` to ensure certificates are delivered to everyone and cannot be
 removed by users.
+:::
+
 
 ## Removing Certificates using the IE AppSet
 

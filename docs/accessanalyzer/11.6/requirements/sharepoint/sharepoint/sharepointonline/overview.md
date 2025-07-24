@@ -21,11 +21,14 @@ See the
 [SharePoint Online Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint/sharepointonline/access.md)
 topic for instructions.
 
-**NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
+:::note
+You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
 [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/11.6/admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
+:::
+
 
 ## Access & Sensitive Data Auditing Port Requirements
 
@@ -50,13 +53,13 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-SharePoint Requirements
+**SharePoint Requirements**
 
 See the
 [SharePoint Online Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint/sharepointonline/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also

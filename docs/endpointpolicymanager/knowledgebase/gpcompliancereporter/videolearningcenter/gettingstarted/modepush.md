@@ -5,13 +5,13 @@ sidebar_position: 30
 ---
 # Setting up Client-less Endpoint Auditing (Push Mode with Server)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9JPx_Ksuk6g?si=anX8gQH0jZ81OcDd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 Netwrix Endpoint Policy Manager (formerly PolicyPak)GP Compliance Reporter Server: Setting up
 Client-less Endpoint Auditing
 
 Use this video to set up PPGPCR Server’s Client-less endpoint Push-based auditing. Once set up, all
 clients will send GP data to the server in real time.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9JPx_Ksuk6g?si=anX8gQH0jZ81OcDd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Endpoint Policy Manager GP Compliance Reporter Server: Setting up Client-less Endpoint Auditing
 

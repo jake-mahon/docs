@@ -10,7 +10,7 @@ The Web Console is configured with a default timeout parameter of 15 minutes. Th
 within the **WebServer.exe.config** file in the Web folder of the Enterprise Auditor installation
 directory:
 
-…\STEALTHbits\StealthAUDIT\Web
+**…\STEALTHbits\StealthAUDIT\Web**
 
 Follow the steps to modify the timeout parameter for the Web Console.
 

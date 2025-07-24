@@ -9,8 +9,11 @@ sidebar_position: 50
 The PowerShell action module provides methods of running PowerShell scripts on the local machine or
 on remote hosts. Define PowerShell scripting actions using the PowerShell Action Module Wizard.
 
-**CAUTION:** Ensure that only the changes required are applied and only to those target systems
+:::warning
+Ensure that only the changes required are applied and only to those target systems
 desired.
+:::
+
 
 Enterprise Auditor action modules contain one or more selectable operations. Each operation performs
 its function on a single object per row from the source table defined in the action.

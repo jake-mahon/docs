@@ -18,15 +18,15 @@ Auditor license. See the
 [Active Directory Solution](/docs/accessanalyzer/11.6/solutions/activedirectory/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - LDAP
 
-Ports
+**Ports**
 
 - TCP 389
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group
 
@@ -44,9 +44,12 @@ following configuration options:
 - Connect – Connects to the domain specified. The root folder of the domain is displayed in the left
   pane of the window.
 
-    **NOTE:** Before clicking **Connect**, the server port must be configured. To configure the
+    :::note
+    Before clicking **Connect**, the server port must be configured. To configure the
     server port, click **Options** to open the Options window and configure the server port as
     described in the Options Window section.
+    :::
+
 
 - Options – Opens the Options window to configure connection options and multi-value results
   options. See the [Options Window](#options-window) topic for additional information.

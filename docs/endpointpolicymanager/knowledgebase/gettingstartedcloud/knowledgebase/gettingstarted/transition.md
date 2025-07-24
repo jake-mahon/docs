@@ -9,8 +9,11 @@ sidebar_position: 10
 Transitioning from Endpoint Policy Manager using Group Policy or SCCM method to Endpoint Policy
 Manager Cloud is very straightforward.
 
-_Remember,_ Once Endpoint Policy Manager settings are created, they are transferable to XML, which
+:::tip
+Remember, Once Endpoint Policy Manager settings are created, they are transferable to XML, which
 can be used with any method: Group Policy, Intune, SCCM, or Endpoint Policy Manager Cloud.
+:::
+
 
 This topic assumes you will have policies in the Group Policy editor and want to transfer them to
 Endpoint Policy Manager Cloud. The actual current delivery method you are starting from doesn’t
@@ -175,10 +178,13 @@ join the machines to Endpoint Policy Manager Cloud.
 
 ![941_12_image-20230521113923-12_950x461](/img/product_docs/endpointpolicymanager/cloud/941_12_image-20230521113923-12_950x461.webp)
 
-**NOTE:** If the machines already have the Endpoint Policy Manager CSE installed, there is no need
+:::note
+If the machines already have the Endpoint Policy Manager CSE installed, there is no need
 to uninstall the Endpoint Policy Manager CSE. It is permitted to pre-install the CSE on the machine
 before the Endpoint Policy Manager Cloud client and could actually save you a lot of time during
 Endpoint Policy Manager Cloud client rollout.
+:::
+
 
 There are a myriad of ways to install the Endpoint Policy Manager Cloud client, since it is just an
 MSI. When the Cloud Client is installed it will automatically install the Endpoint Policy Manager
@@ -186,9 +192,12 @@ CSE if it is not present on the machine like what’s seen here.
 
 ![941_13_image-20230521113923-13_950x691](/img/product_docs/endpointpolicymanager/cloud/941_13_image-20230521113923-13_950x691.webp)
 
-**NOTE:** The machine may also upgrade to a later CSE if a Endpoint Policy Manager Cloud group
+:::note
+The machine may also upgrade to a later CSE if a Endpoint Policy Manager Cloud group
 dictates a later CSE; but the CSE will never downgrade. (See the last section in this guide for more
 details.)
+:::
+
 
 Additionally, you may wish to investigate the idea of having computers automatically join the
 Endpoint Policy Manager Cloud group of your choice with the Jointoken property. Two videos on that
@@ -197,15 +206,21 @@ topic are:
 - [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/jointoken.md)
 - [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/mdm.md)
 
-**NOTE:** There are some other KB topicswith advanced scenarios on installing the Endpoint Policy
+:::note
+There are some other KB topicswith advanced scenarios on installing the Endpoint Policy
 Manager Cloud client for Azure Virtual Desktops, VDI and other scenarios. Please open a ticket at
 [Netwrix Support](https://www.netwrix.com/sign_in.html?rf=tickets.html#netwrix-support), if you have
 trouble locating those articles.
+:::
 
-**NOTE:** Here's some command line examples to help install the Endpoint Policy Manager Cloud client
+
+:::note
+Here's some command line examples to help install the Endpoint Policy Manager Cloud client
 silently. See the
 [How do I deploy the Endpoint Policy Manager Cloud Client via command line silently?](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/knowledgebase/clienttips/clientsilent.md) topic
 for additional information.
+:::
+
 
 ## Removing existing settings to machines (GPO and Non-GPO method)
 

@@ -6,9 +6,12 @@ sidebar_position: 10
 
 # Apply on Demand Rules
 
-**NOTE:** See the
+:::note
+See the
 [Least Privilege Manager: Apply On Demand](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/applyondemand.md) video for
 information on Endpoint Policy ManagerLeast Privilege Manager Apply on Demand.
+:::
+
 
 The Apply on Demand feature enables advanced users to know when they should self-elevate their own
 situations and programs. Up until now, each rule was automatically applied when a user tried to run
@@ -47,9 +50,12 @@ On-Demand**.
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
 
-**NOTE:** You can change the name of the menu item from **Run with** Endpoint Policy Manager
+:::note
+You can change the name of the menu item from **Run with** Endpoint Policy Manager
 **On-Demand** via Global Settings Policy.. See the
 [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/manuals/leastprivilegesecuri/leastprivilege/overviewmisc/overviewmisc.md) topic for additional
 information on Global Settings Policy.
+:::
+
 
 When the user does this, the application launches, bypassing the UAC prompt.

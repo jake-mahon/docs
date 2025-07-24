@@ -13,11 +13,13 @@ prior to deactivating a user.
 The User Login Activity feature is available with the Intelligent Change Enablement and Enterprise
 Compliance [licenses](/docs/platgovsalesforce/installingstrongpoint/features_by_license_type.md).
 
+:::note
 Run the scanners before you perform comparisons to ensure you have the latest data.
+:::
 
 Select **Tools** > **User Activity** from the Netwrix Dashboard page.
 
-There is a collapsible menu pane available. Click the u arrow on the left to expand/collapse the
+There is a collapsible menu pane available. Click the 🞂 arrow on the left to expand/collapse the
 menu. Refer to [Package Usage](/docs/platgovsalesforce/tools/package_usage.md) for details on the Package Usage tool.
 
 ![User Activity tool](/img/product_docs/platgovsalesforce/tools/user_activity.webp)

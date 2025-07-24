@@ -1,7 +1,7 @@
 ---
 title: "User and Group Collections Page"
 description: "User and Group Collections Page"
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 # User and Group Collections Page

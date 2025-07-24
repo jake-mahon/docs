@@ -16,8 +16,11 @@ Policy Manager Extras folder.
 
 ![helper1](/img/product_docs/endpointpolicymanager/device/devicemanager/helper1.webp)
 
-**NOTE:** The Endpoint Policy Manager Device Manager Helper tool may need local administrative
+:::note
+The Endpoint Policy Manager Device Manager Helper tool may need local administrative
 rights to run and also needs the WinRM service started.
+:::
+
 
 ## Generate a Device List
 

@@ -11,8 +11,11 @@ servers that can be cleaned up. Use this job group to assess and remediate stale
 the data collected by the **0.Collection** job group. The Cleanup job group runs independently from
 the rest of the File System solution.
 
-**NOTE:** The Cleanup job group requires additional licenses to function. For information, contact
+:::note
+The Cleanup job group requires additional licenses to function. For information, contact
 your Netwrix representative.
+:::
+
 
 ![Cleanup Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/jobstree.webp)
 
@@ -44,7 +47,7 @@ topic for additional information.
 
 The Cleanup job group has the following recommended configuration settings.
 
-Dependencies
+**Dependencies**
 
 The Cleanup job group has the following prerequisites:
 
@@ -63,10 +66,10 @@ The Cleanup job group has the following prerequisites:
 Individual jobs and job groups within the Cleanup job group may have their own prerequisites and
 dependencies. See the relevant topic for the job or job group for information about these.
 
-Target Host
+**Target Host**
 
 This job group does not collect data. No target host is required.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.

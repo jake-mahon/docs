@@ -45,8 +45,11 @@ DC Wizard.
 
 - Collect only updates since the last scan – Enables differential scanning.
 
-    **NOTE:** Enabling the Collect Open Extensions option on the Custom Attributes page overrides
+    :::note
+    Enabling the Collect Open Extensions option on the Custom Attributes page overrides
     this function.
+    :::
+
 
 - Collect sign-in activity with scan – Required to collect the LastLogonTimestamp attribute of user
   objects. A message will alert users that deselecting this option will disable this function.
@@ -60,8 +63,11 @@ attributes.
 - Select **Collect Open Extensions** to enable the data collector to collect all extension
   attributes in Microsoft Entra ID. Enabling this option will increase scan times.
 
-    **NOTE:** Enabling this option overrides the differential scan setting and will direct the data
+    :::note
+    Enabling this option overrides the differential scan setting and will direct the data
     controller to run a full scan every time the job is run.
+    :::
+
 
 - See the
   [AzureADInventory Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/azureadinventory/overview.md)
@@ -77,8 +83,11 @@ The 1-AAD_Scan Job is now ready to run with the customized settings.
 Navigate to the **.Entra ID Inventory** > **1-AAD_Scan** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for 1-AAD_Scan Job](/img/product_docs/accessanalyzer/11.6/solutions/entraidinventory/scananalysistasks.webp)
 
@@ -100,6 +109,7 @@ In addition to the tables and views listed in the
 [Standard Reference Tables & Views for the AzureADInventory Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/azureadinventory/standardtables.md)
 section, the 1-AAD_Scan Job produces the following preconfigured report.
 
-| Report           | Description                                                        | Default Tags | Report Elements                                                                                                                                                                                                                |
-| ---------------- | ------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Entra ID Summary | This report provides a summary of all audited domains and objects. | None         | This report has two elements: - Table – Provides details on general statistics on the Users and groups found with each tenant scanned - Table – Provides details on statistical information for each of these Entra ID objects |
+| Report           | Description                                                        | Default Tags | Report Elements                                                                                                                                                                                                                                      |
+| ---------------- | ------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entra ID Summary | This report provides a summary of all audited domains and objects. | None         | This report has two elements: <ul><li>Table – Provides details on general statistics on the Users and groups found with each tenant scanned</li><li>Table – Provides details on statistical information for each of these Entra ID objects</li></ul> |
+

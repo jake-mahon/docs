@@ -34,11 +34,17 @@ order.
 If there is a conflict between settings within multiple XML data files, the last written XML data
 file wins. Therefore, groups have the least precedence, and computer has the most precedence.
 
-**NOTE:** XML data files processed on a certain computer affect all users on that computer.
+:::note
+XML data files processed on a certain computer affect all users on that computer.
+:::
+
 
 Lastly, if there's a conflict between Endpoint Policy Manager XML data files and Endpoint Policy
 Manager Active Directory Group Policy directives, the Active Directory Group Policy directives are
 written last; therefore, they win.
 
-**NOTE:** Log files for the automatic application of XML data settings are found in
+:::note
+Log files for the automatic application of XML data settings are found in
 `%appdata%\local\PolicyPak` in a file called ppUser_onXMLdata.log.
+
+:::

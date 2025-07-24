@@ -43,5 +43,8 @@ Enforcer** folder.
 
 **Step 12 –** Click **Open**, then click **OK**.
 
-**NOTE:** Press F1 while using the management console to display help information for the current
+:::note
+Press F1 while using the management console to display help information for the current
 window.
+
+:::

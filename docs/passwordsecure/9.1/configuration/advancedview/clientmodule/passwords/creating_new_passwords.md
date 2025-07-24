@@ -75,8 +75,11 @@ and the permissions for a record are important aspects.
 NOTE: If any kind of automatic permissions have been activated for the selected OU, this will always
 be prioritized.
 
-**CAUTION:** Even when creating private records, inheritance of permissions based on the logged-in
+:::warning
+Even when creating private records, inheritance of permissions based on the logged-in
 user can also be activated as an option. This option is described in a separate section.
+:::
+
 
 NOTE: The user right Allow sharing of personal passwords can be used to define that personal
 passwords cannot be released to other users.

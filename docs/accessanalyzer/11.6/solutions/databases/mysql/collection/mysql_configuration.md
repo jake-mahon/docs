@@ -13,7 +13,10 @@ settings for use in the following analysis jobs and respective reports.
 
 The MySQL_Configuration Job uses the SQL Data Collector for queries.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/collection/configurationjob.webp)
 

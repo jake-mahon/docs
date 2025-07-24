@@ -6,9 +6,12 @@ sidebar_position: 30
 
 # Share-Based Storage for Endpoint Policy Manager Extension DLLs
 
-**NOTE:** For an overview of Share-Based Storage for Endpoint Policy Manager extension DLLs, see
+:::note
+For an overview of Share-Based Storage for Endpoint Policy Manager extension DLLs, see
 this video:
 [http://www.endpointpolicymanager.com/videos/endpointpolicymanager-using-shares-to-store-your-paks-share-based-storage.html](http://www.endpointpolicymanager.com/videos/bypassing-internal-item-level-targeting-filters.html).
+:::
+
 
 Some organizations' administrators cannot (or don't want to) create a Endpoint Policy Manager
 Central Storage to contain Endpoint Policy Manager DLL files.

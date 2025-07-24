@@ -1,7 +1,7 @@
 ---
 title: "Enroll Hosts in Management Window"
 description: "Enroll Hosts in Management Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Enroll Hosts in Management Window

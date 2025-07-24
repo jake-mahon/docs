@@ -14,21 +14,21 @@ with a special Enterprise Auditor license. See the
 [Dropbox Solution](/docs/accessanalyzer/11.6/solutions/dropbox/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - HTTP
 - HTTPS
 
-Ports
+**Ports**
 
 - TCP 80
 - TCP443
 
-Permissions
+**Permissions**
 
 - Dropbox Team Administrator
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it

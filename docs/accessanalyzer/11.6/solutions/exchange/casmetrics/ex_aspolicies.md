@@ -36,7 +36,10 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The ExchangePS Data Collector
 Wizard opens.
 
-**CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::warning
+Do not modify other wizard pages. The wizard pages are pre-configured for this job.
+:::
+
 
 ![ExchangePS Data Collector Wizard Scope page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
@@ -70,18 +73,22 @@ The job applies the modification to future job executions.
 View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** > **EX_ASPolicies** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_ASPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/aspoliciesanalysis.webp)
 
 The following analysis task is selected by default:
 
--   1. Update Nulls – Updates the NULLs in the table to show information
+-   **1. Update Nulls** – Updates the NULLs in the table to show information
 
 In addition to the tables and views created by the analysis task, the EX_ASPolicies Job produces the
 following pre-configured report:
 
-| Report                                         | Description                                                                                                                                              | Default Tags | Report Elements                                                                                                                     |
-| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| User ActiveSync Policies (ActiveSync Settings) | Exchange introduced many ActiveSync policies and settings which can be applied to users. This report identifies which users have these settings enabled. | None         | This report is comprised of two elements: - Pie Chart – Displays ActiveSync Policies - Table – Provides details ActiveSync Policies |
+| Report                                         | Description                                                                                                                                              | Default Tags | Report Elements                                                                                                                                           |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| User ActiveSync Policies (ActiveSync Settings) | Exchange introduced many ActiveSync policies and settings which can be applied to users. This report identifies which users have these settings enabled. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays ActiveSync Policies</li><li>Table – Provides details ActiveSync Policies</li></ul> |
+

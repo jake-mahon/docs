@@ -16,7 +16,10 @@ Select whether to scan **All Users** or **Limited Users**. If scanning for **Lim
 **Browse** and navigate to the path of the CSV file that contains the email addresses of users to be
 included in the scan. The CSV file should have one email address per row.
 
-**NOTE:** The query will collect information related to User names and Group membership for all
+:::note
+The query will collect information related to User names and Group membership for all
 users in a target environment. However, if the query is scoped to specific users, no additional
 information is collected for users outside out of the scope. User names and group membership for the
 target environment is necessary to generate the Box Solution reports.
+
+:::

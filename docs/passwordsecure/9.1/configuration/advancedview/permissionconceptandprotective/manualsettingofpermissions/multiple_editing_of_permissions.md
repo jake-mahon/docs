@@ -92,8 +92,11 @@ existing permissions. If you select **expand or reduce** at this stage, the same
 In the option **overwrite permissions**, the existing permissions are removed and then replaced by
 the newly defined permissions.
 
-**CAUTION:** It is important to proceed with great caution when overwriting permissions because this
+:::warning
+It is important to proceed with great caution when overwriting permissions because this
 function can quickly lead to a large number of records becoming unusable.
+:::
+
 
 ![permissions adapted on a filter](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-6-en.webp)
 
@@ -118,7 +121,10 @@ again by entering a PIN.
 
 ![security warning](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-9-en.webp)
 
-**CAUTION:** The removal of seals and password masking cannot be reversed!
+:::warning
+The removal of seals and password masking cannot be reversed!
+:::
+
 
 NOTE: Depending on the number of records, editing records may take a long time. This process is
 carried out in the background for this reason. A hint will indicate that the permissions process has

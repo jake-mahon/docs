@@ -14,8 +14,11 @@ Entra ID environment.
 Navigate to the **Jobs** > **Entra ID** > **1.Groups** > **AAD_GroupDirSync** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis tasks for AAD_GroupDirSync Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/groups/groupdirsyncanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AAD_GroupDirSync Job produces the
 following pre-configured report.
 
-| Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                             |
-| ------------- | ------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Syncing | This report indicates the sync status of groups within the audited environment. | None         | This report is comprised of two elements: - Pie Chart – Displays an enterprise group synching summary - Table – Provides group sync details |
+| Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Syncing | This report indicates the sync status of groups within the audited environment. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays an enterprise group synching summary</li><li>Table – Provides group sync details</li></ul> |
+

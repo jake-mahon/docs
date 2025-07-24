@@ -6,9 +6,12 @@ sidebar_position: 30
 
 # Getting Started: Netwrix Privilege Secure + Endpoint Policy Manager
 
-**NOTE:** See the
+:::note
+See the
 [Netwrix Privilege Secure and the NPS/Endpoint Policy Manager Client](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/netwrixprivilegesecure/privilegesecureclient.md)
 video for an overview of Netwrix Privilege Secure + Endpoint Policy Manager better together.
+:::
+
 
 The first policy type to enable theNetwrix Privilege Secure server and Endpoint Policy Manager
 client integration is a new Least Privilege Manager Global Policy. The three steps below cover a

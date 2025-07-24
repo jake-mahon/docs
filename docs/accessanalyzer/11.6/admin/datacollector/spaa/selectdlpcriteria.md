@@ -14,10 +14,13 @@ the application server that hosts the Central Administration component. See the
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-**CAUTION:** Users should not change scans in a way that would result in less data being returned on
+:::warning
+Users should not change scans in a way that would result in less data being returned on
 a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a
 shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in
 the Tier 2 database and subsequently removed from the Tier 1 database.
+:::
+
 
 ![Select DLP criteria for this scan page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/selectdlpcriteria.webp)
 
@@ -36,8 +39,11 @@ The options on the Select DLP Criteria page are:
 
 The table contains the following types of criteria:
 
-**NOTE:** Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
+:::note
+Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
 Criteria and User Criteria nodes are visible in the table.
+:::
+
 
 - System Criteria – Lists pre-defined criteria
 - User Criteria – Lists user-defined criteria

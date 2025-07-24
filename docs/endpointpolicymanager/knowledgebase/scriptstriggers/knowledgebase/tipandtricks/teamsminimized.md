@@ -23,16 +23,22 @@ applies to the OU containing only User objects, then create the policy on the us
 **Step 2 –** Enable the three settings (see image below) in the Microsoft Teams policy, then click
 Ok to save the settings.
 
-**NOTE:** Only the underlined settings are being reapplied when the policy processes, the other
+:::note
+Only the underlined settings are being reapplied when the policy processes, the other
 options are not being changed.
+:::
+
 
 ![364_2_image-20210414013029-7](/img/product_docs/endpointpolicymanager/scriptstriggers/364_2_image-20210414013029-7.webp)
 
 **Step 3 –** Next, create a new Scripts & Triggers policy within the same GPO, under the same
 configuration side, user or computer that you used in Step 1.
 
-**NOTE:** If applying the policy on the computer side choose switched mode like in the screenshot
+:::note
+If applying the policy on the computer side choose switched mode like in the screenshot
 below.
+:::
+
 
 ![364_3_image-20210414013029-8](/img/product_docs/endpointpolicymanager/scriptstriggers/579_1_image-20190918135807-1.webp)
 
@@ -96,6 +102,9 @@ clicking "Next" to continue.
 policy.  If everything works Teams should open minimized and you should see the MS Teams icon in the
 systray.
 
-**NOTE:** Users may initially see two MS Teams icons for a few seconds in the Systray at the same
+:::note
+Users may initially see two MS Teams icons for a few seconds in the Systray at the same
 time, however, one of the icons will disappear shortly. Also, if this is the first time logging in
 since the policy was applied it may take a 2nd login for the policy to kick in.
+
+:::

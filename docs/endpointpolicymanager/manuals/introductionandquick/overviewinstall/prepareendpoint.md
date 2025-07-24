@@ -10,9 +10,12 @@ During your trial period you will want to experience the power of Endpoint Polic
 operations upon an example endpoint or two. It is recommended you use machines which are not
 critical and/or ones you can rollback. A best practice in this situation is to use virtual machies.
 
-**NOTE:** Endpoint Policy Manager endpoints require that the Endpoint Policy Manager Client Side
+:::note
+Endpoint Policy Manager endpoints require that the Endpoint Policy Manager Client Side
 Extension must be installed in order to receive Endpoint Policy Manager policies. You will perform
 that step in a moment.
+:::
+
 
 After you have identified a machine or two that you wish to perform Endpoint Policy Manager
 operations upon, you need to get them licensed:
@@ -43,9 +46,12 @@ Locate the Endpoint Policy Manager Build folder and the Client Side Extension (C
 Next, install the Endpoint Policy Manager CSE on the endpoint. Use x64 for 64 bit and x86 for 32 bit
 machines.
 
-**NOTE:** See the
+:::note
+See the
 [Endpoint Policy Manager ARM Support Supportability Statement](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/gettingstarted/arm.md)
 topic about Endpoint Policy Manager Support on Arm processors.
+:::
+
 
 After the Endpoint Policy Manager CSE is installed, you can test verify that the license is valid
 because you renamed the computer to have COMPUTER in the name. Open a new command prompt and type
@@ -59,9 +65,12 @@ The important points to look for are:
 - Verify you see the Expiry date is in the future.
 - Verify you see all the Components of Endpoint Policy Manager listed.
 
-**NOTE:** The trial expires 90 days after the build of Endpoint Policy Manager was created - NOT 90
+:::note
+The trial expires 90 days after the build of Endpoint Policy Manager was created - NOT 90
 days after you perform the installation. Therefore, be aware of your Expiration date since it could
 be sooner than expected.
+:::
+
 
 See the
 [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/troubleshooting/components.md)

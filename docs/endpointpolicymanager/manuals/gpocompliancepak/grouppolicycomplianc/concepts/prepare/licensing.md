@@ -9,12 +9,18 @@ sidebar_position: 20
 Neither the Endpoint Policy Manager GPCR server nor the client (admin console) require a license;
 but the endpoint does.
 
-**NOTE:** Watch this video to see how to request a license:
+:::note
+Watch this video to see how to request a license:
 [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/requestall/licenserequestkey.md).
+:::
 
-**NOTE:** To install the license file received from Endpoint Policy Manager, see the following
+
+:::note
+To install the license file received from Endpoint Policy Manager, see the following
 video:
 [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md).
+:::
+
 
 Note that since the Endpoint Policy Manager client (admin console) does not need to be licensed, you
 may run unlimited numbers of it in any organizational unit (OU). The Endpoint Policy Manager client
@@ -92,13 +98,19 @@ Table 2: Group Policy supported and unsupported settings.
 
 \*File type actions are not in the RSOP and thus show as "missing" in PPGPCR.
 
-**NOTE:** Endpoint Policy Manager GPCR is licensed per computer; if a particular endpoint is not
+:::note
+Endpoint Policy Manager GPCR is licensed per computer; if a particular endpoint is not
 licensed, it will not return data.
+:::
 
-**NOTE:** It may look like there are more unsupported settings than supported settings. However, the
+
+:::note
+It may look like there are more unsupported settings than supported settings. However, the
 settings that are supported cover the top 90% of tasks that administrators typically do with Group
 Policy and the unsupported settings cover the bottom 10%. We will be expanding coverage as needed in
 the future.
+:::
+
 
 Endpoint Policy Manager Sales can send you a working Endpoint Policy Manager GPCR key. To install
 the key, follow these instructions:

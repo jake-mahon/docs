@@ -10,8 +10,11 @@ The following example illustrates the use of scripts within Enterprise Auditor. 
 database list from SQL Server and then proceeds to the File System Data Collector for the size of
 the database file, essentially inventorying the installed databases, their paths, and sizes.
 
-**NOTE:** Because the object instances are not thread-safe, scripts like these that use objects
+:::note
+Because the object instances are not thread-safe, scripts like these that use objects
 external to Enterprise Auditor should be run with only one thread.
+:::
+
 
 In this example, a connection is opened with a SQL server. The SQL server name is provided by
 Enterprise Auditor during the query. Enterprise Auditor provides the active host to the script using

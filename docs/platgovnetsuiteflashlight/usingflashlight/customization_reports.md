@@ -12,13 +12,13 @@ corrective action so that your customizations are aligned with NetSuite best pra
 
 The following reports can be accessed from Flashlight main menu under the **Customizations** menu:
 
-- Customizations with Poor Script Ids
+- Customizations with Standard Script Ids
 - Customizations with Missing Descriptions
 - Customizations with Missing Active Owner
 - Fields with Missing Help
 - Deleted Customizations
 
-## Customizations with Poor Script Ids
+## Customizations with Standard Script Ids
 
 It is a best practice to use Script IDs that are unique, short, and descriptive. Users often set
 Script IDs that do follow these best practices, or they do not set any Script IDs which causes

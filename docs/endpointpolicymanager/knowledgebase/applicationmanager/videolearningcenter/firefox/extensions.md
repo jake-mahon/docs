@@ -3,11 +3,13 @@ title: "Force Install Firefox Extensions (from URL or file)."
 description: "Force Install Firefox Extensions (from URL or file)."
 sidebar_position: 40
 ---
-# Force Install Firefox Extensions (from URL or file).
+# Force Install Firefox Extensions (from URL or file)
 
 Your users have a ton of (evil?) extensions in Firefox. How did they get there? Who knows. And now
 you have some you want them to have, but don't know how to get rid of the junk they put there. Check
 out this video to see how to add or remove Firefox extensions using URLs, Flies, or over HTTPS.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0vyJ6SUSKFs?si=CZ7VuXRkS87eFWsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Endpoint Policy Manager: Force Installing Extensions using Group Policy
 

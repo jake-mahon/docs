@@ -43,7 +43,7 @@ topic for additional information.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V8.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](/docs/passwordpolicyenforcer/10.2/overview/whatsnew.md) topic for additional information.
+See the [What's New](/docs/passwordpolicyenforcer/10.2/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -71,11 +71,14 @@ You can run a combination of V8.x and 10.2 Password Policy Servers, but extended
 versions is not recommended as it adds administrative overhead. Maintain both versions only for a
 short time while you roll out Password Policy Enforcer V9.x.
 
-**NOTE:** Any configuration changes made from the 10.2 management console will only affect 10.2
+:::note
+Any configuration changes made from the 10.2 management console will only affect 10.2
 domain controllers. Likewise, any changes made from the V8.x management console will only affect
 V8.x domain controllers. You must make configuration changes in both management consoles until all
 domain controllers are upgraded to 10.2. Failure to do so may lead to inconsistent enforcement of
 the password policy.
+:::
+
 
 Older versions of the Password Policy Enforcer Client (prior to V6.0) cannot detect passphrases.
 Users must comply with the policy's compliance level when these older clients are installed. See the
@@ -102,11 +105,14 @@ topic for additional information.
 PPE/Web V3.x and Netwrix Password Reset V1.x use the Password Policy Enforcer V3.x communication
 protocol. These clients are not compatible with the 10.2 server.
 
-**CAUTION:** Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
+:::warning
+Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
 These clients will enforce an extremely restrictive password policy if this option is enabled. They
 will reject any password that contains a character found in the comparison parameter. See the
 [Rules](/docs/passwordpolicyenforcer/10.2/administration/rules/rules.md)
 topic for additional information.
+:::
+
 
 ### Upgrading the Password Policy Client
 
@@ -127,7 +133,7 @@ topic for additional information.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V7.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](/docs/passwordpolicyenforcer/10.2/overview/whatsnew.md) topic for additional information.
+See the [What's New](/docs/passwordpolicyenforcer/10.2/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -153,11 +159,14 @@ You can run a combination of V7.x and V9.x Password Policy Servers, but extended
 versions is not recommended as it adds administrative overhead. Maintain both versions only for a
 short time while you roll out PPE V9.x.
 
-**NOTE:** Any configuration changes made from the V10.2 management console will only affect V10.x
+:::note
+Any configuration changes made from the V10.2 management console will only affect V10.x
 domain controllers. Likewise, any changes made from the V7.x management console will only affect
 V7.x domain controllers. You must make configuration changes in both management consoles until all
 domain controllers are upgraded to V10.x. Failure to do so may lead to inconsistent enforcement of
 the password policy.
+:::
+
 
 Older versions of the PPE Client (prior to V6.0) cannot detect passphrases. Users must comply with
 the policy's compliance level when these older clients are installed.
@@ -178,9 +187,12 @@ Netwrix Password Reset V2.x may truncate messages with long inserts.
 Password Policy Enforcer Web V3.x and Netwrix Password Reset V1.x use the Password Policy Enforcer
 V3.x communication protocol. These clients are not compatible with the V10.x server.
 
-**CAUTION:** Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
+:::warning
+Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
 These clients will enforce an extremely restrictive password policy if this option is enabled. They
 will reject any password that contains a character found in the comparison parameter.
+:::
+
 
 The PPE Client for Windows 8, 10, Server 2012, Server 2016, and Server 2019 displays messages in a
 smaller area than previous versions of Windows. Some of the default message components were
@@ -214,7 +226,7 @@ topic for complete installation instructions.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V6.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](/docs/passwordpolicyenforcer/10.2/overview/whatsnew.md) topic for additional information.
+See the [What's New](/docs/passwordpolicyenforcer/10.2/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -247,11 +259,14 @@ master role to Password Policy Enforcer V910x. See the
 [Rules](/docs/passwordpolicyenforcer/10.2/administration/rules/rules.md)
 topic for additional information.
 
-**NOTE:** Any configuration changes made from the 10.2 management console will only affect 10.2
+:::note
+Any configuration changes made from the 10.2 management console will only affect 10.2
 domain controllers. Likewise, any changes made from the V6.x management console will only affect
 V6.x domain controllers. You must make configuration changes in both management consoles until all
 domain controllers are upgraded to 10.2. Failure to do so may lead to inconsistent enforcement of
 the password policy.
+:::
+
 
 The **Do not check admin/helpdesk password resets** property in the PPS Properties page was renamed
 to **Enforce policy when password is reset**. The check box value changes after upgrading, but
@@ -293,11 +308,14 @@ inserts.
 PPE/Web V3.x and Netwrix Password Reset V1.x use the Password Policy Enforcer V3.x communication
 protocol. These clients are not compatible with the 10.2 server.
 
-**CAUTION:** Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
+:::warning
+Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
 These clients will enforce an extremely restrictive password policy if this option is enabled. They
 will reject any password that contains a character found in the comparison parameter. See the
 [Rules](/docs/passwordpolicyenforcer/10.2/administration/rules/rules.md)
 topic for additional information.
+:::
+
 
 The Password Policy Enforcer Client for Windows 2016, 2019, and 2022 displays messages in a smaller
 area than previous versions of Windows. Some of the default message components were shortened to fit

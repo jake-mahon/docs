@@ -8,13 +8,13 @@ sidebar_position: 40
 
 Review the following network port requirements for the virtual appliance:
 
-Inbound Communications to Privilege Secure Server
+**Inbound Communications to Privilege Secure Server**
 
 - From desktop browser – port 6500
 - From desktop RDP client – port 4489
 - From desktop SSH client – port 4422
 
-Outbound Communications from Privilege Secure Server
+**Outbound Communications from Privilege Secure Server**
 
 - To managed Windows Servers/Desktops & Domain Controllers (WinRM) – ports 5985 and 5986
 - To managed Windows Servers (RDP) – port 3389

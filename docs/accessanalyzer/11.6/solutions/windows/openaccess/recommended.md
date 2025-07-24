@@ -6,24 +6,24 @@ sidebar_position: 10
 
 # Recommended Configurations for the Open Access Job Group
 
-Dependencies
+**Dependencies**
 
 None
 
-Targeted Hosts
+**Targeted Hosts**
 
 All Windows Servers
 
-Connection Profile
+**Connection Profile**
 
 Configure a Connection Profile that is not part of the Domain Admin group. The report should be run
 with a non-privileged user account.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job in this job group should be scheduled to run daily.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Configure a Connection Profile that is not part of the Domain Admin group.
 

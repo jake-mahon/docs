@@ -17,8 +17,11 @@ available when you have a Netwrix Endpoint Policy Manager (formerly PolicyPak) c
 (CSE) which supports the feature. Inside the AppSet, we've noted when a feature requires a specific
 CSE version.
 
-**NOTE:** The Endpoint Policy Manager "About Config" AppSets are still valid and available and
+:::note
+The Endpoint Policy Manager "About Config" AppSets are still valid and available and
 should be used for settings within Firefox's About:config.
+:::
+
 
 Additionally, if you were using any of the other main Firefox AppSets created by Endpoint Policy
 Manager, those are now deprecated and are no longer to be used. These AppSets include:

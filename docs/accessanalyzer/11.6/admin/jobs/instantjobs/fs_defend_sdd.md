@@ -56,7 +56,7 @@ Request Action Module to send the data to Threat Manager.
 Navigate to the **Jobs** > **FS_DEFEND_SDD** > **Configure** node and select **Analysis** to view
 the analysis tasks.
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_1.webp)
 
 The default analysis tasks are:
 
@@ -68,7 +68,10 @@ The default analysis tasks are:
 Navigate to the **Jobs** > **FS_DEFEND_SDD** > **Configure** node and select **Actions** to view the
 actions.
 
-**CAUTION:** This action is enabled by default.
+:::warning
+This action is enabled by default.
+:::
+
 
 ![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/actiontasks.webp)
 

@@ -13,7 +13,10 @@ Directory.
 
 The AD_SiteRights Job uses the ADPermissions Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query for the AD_SiteRights Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/siterightsquery.webp)
 
@@ -28,8 +31,11 @@ The AD_SiteRights Job uses the ADPermissions Data Collector for the following qu
 Navigate to the **Active Directory Permissions Analyzer** > **0.Collection** > **AD_SiteRights** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_SiteRights Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/userrightsanalysis.webp)
 

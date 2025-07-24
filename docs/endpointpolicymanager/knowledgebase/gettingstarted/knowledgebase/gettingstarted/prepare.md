@@ -6,9 +6,12 @@ sidebar_position: 80
 
 # How must I prepare for my Endpoint Policy Manager QuickStart / Onboarding?
 
-_Remember,_ This session is designed to integrateNetwrix Endpoint Policy Manager (formerly
+:::tip
+Remember, This session is designed to integrateNetwrix Endpoint Policy Manager (formerly
 PolicyPak) into your environment within 60 or 90 minutes. While this may seem sufficient, the time
 is limited, so preparation in advance is essential.
+:::
+
 
 If these steps are not completed beforehand, a significant portion of the session may be spent on
 setup, potentially requiring a follow-up to address core objectives. Completing the steps below in
@@ -33,14 +36,23 @@ Before the meeting ensure the following:
 Remote control or view access to your admin/GPMC machine is required to observe actions and provide
 guidance effectively.
 
-**NOTE:** The GPMC machine should be running Windows 10 or Server 2016 or later.
+:::note
+The GPMC machine should be running Windows 10 or Server 2016 or later.
+:::
 
-_Remember,_ Endpoint Policy Manager does not require installing anything on Domain Controllers, nor
+
+:::tip
+Remember, Endpoint Policy Manager does not require installing anything on Domain Controllers, nor
 is access to a Domain Controller necessary.. If you happen to use a DC for the GPMC,it is acceptable
 but not mandatory.
+:::
 
-**NOTE:** Check this link on how to install the GPMC on your Admin / GPMC machine:
+
+:::note
+Check this link on how to install the GPMC on your Admin / GPMC machine:
 [What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/gpoinitialinstall/methods.md)
+:::
+
 
 Here are the options for remote viewing of the Admin/GPMC machine:
 
@@ -59,9 +71,15 @@ Everything.
 
 ![289_1_image-20240111131924-2](/img/product_docs/endpointpolicymanager/gettingstarted/289_1_image-20240111131924-2.webp)
 
-**NOTE:** If you cannot remember your password, you can reset it right on this page.
+:::note
+If you cannot remember your password, you can reset it right on this page.
+:::
 
-**NOTE:** Inside the ZIP download there is an ISO (the bits) and also a ZIP file (the AppSets).
+
+:::note
+Inside the ZIP download there is an ISO (the bits) and also a ZIP file (the AppSets).
+:::
+
 
 **Step 2 –** Create a share on a server and ensure the share is available from the GPMC computer and
 Client (test endpoint) machine.
@@ -80,8 +98,11 @@ For all versions of Endpoint Policy Manager (Group Policy, MDM, and Cloud), you 
 Domain Controller (DC) running Active Directory to create real GPOs. This DC can be a real or fake
 DC.
 
-**NOTE:** If you have a real domain and can create real GPOs during our session, there is no need to
+:::note
+If you have a real domain and can create real GPOs during our session, there is no need to
 do anything.
+:::
+
 
 **Step 1 –** If you have no domain at all, you need one first. Download and install Windows Server
 2016 or 2019 180-day evaluation here:
@@ -90,7 +111,10 @@ do anything.
 **Step 2 –** Then be sure to run these steps on this video to make your first domain controller in a
 new domain: [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md)
 
-**NOTE:** The domain controller name and domain name do no matter.
+:::note
+The domain controller name and domain name do no matter.
+:::
+
 
 **Step 3 –** Have newly created / clean test endpoint computers available. Please do not take a
 machine with "everything in your standard image" with 200 pieces of software, and drag it into these
@@ -98,8 +122,11 @@ first tests.
 
 - Clean Windows 10 is preferred, but Windows 11 is okay as well.
 
-  _Remember,_ the cleaner, the better. A fresh copy of Windows 10, with the latest version, is
+  :::tip
+    Remember, the cleaner, the better. A fresh copy of Windows 10, with the latest version, is
   ideal.
+  :::
+
 
 - If you can do without a special Antivirus or special security software on this example machine,
   that will be best. If you MUST use A/V or security software, please perform these steps:
@@ -152,13 +179,19 @@ Privilege Manager and overcome UAC prompts. For instance, if you have something 
 rights, but the configuration is unclear then ensure it is already installed on your example
 machine. Rules can then be created collaboratively so that you can see it working.
 
-**NOTE:** If you want to "convert" from another least privilege tool to Endpoint Policy Manager
+:::note
+If you want to "convert" from another least privilege tool to Endpoint Policy Manager
 Least Privilege Manager, see section 9 for additional steps.
+:::
+
 
 ## Part 4: Remote controlling from your GPMC machine to your example endpoint machine.
 
-_Remember,_ that we will be using RingCentral or TeamViewer to remote control YOUR machine, the one
+:::tip
+Remember, that we will be using RingCentral or TeamViewer to remote control YOUR machine, the one
 with the GPMC. And from your machine, we need to remote control the example endpoint.
+:::
+
 
 Maybe you're using some kind of fancy remote control utility, or everything is nicely inside VMware
 or Hyper-V. That's great.
@@ -170,8 +203,11 @@ adjust that: [http://screencast.com/t/arnYvvhXt](http://screencast.com/t/arnYvvh
 Verify and test that from your machine (the one with the GPMC) you can Remote Control (MSTSC.EXE /
 RDP / some other way) into your endpoint(s) (like COMPUTER1) as an example standard user.
 
-_Remember,_ We can only see your machine, we need you to verify that we will be able to see the
+:::tip
+Remember, We can only see your machine, we need you to verify that we will be able to see the
 target example machines.
+:::
+
 
 ## Part 5: All about licensing
 
@@ -201,9 +237,12 @@ To run Endpoint Policy Manager Un-licensed (any version):
 
   - Ensure that the computer is named COMPUTER1 or something similar with COMPUTER in the name.
 
-    **NOTE:** When a computer has COMPUTER in the name it pretends to be fully licensed for
+    :::note
+    When a computer has COMPUTER in the name it pretends to be fully licensed for
     trial purposes. More details on this topic:
     [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/mdm.md)
+    :::
+
 
 Example machine renamed to work UN-licensed:
 
@@ -237,7 +276,10 @@ Endpoint Policy Manager MDM Licensing can be a little tricky.
 
 ## Part 8: Final thoughts for Endpoint Policy Manager Cloud and Endpoint Policy Manager MDM
 
-**_RECOMMENDED:_** Reminder about having a real or not really real domain:
+:::info
+Reminder about having a real or not really real domain:
+:::
+
 
 Even though the PP Cloud service requires no real on-prem Active Directory, it does require at least
 one “not really real” domain and domain controller, and we have recommended you join one machine to

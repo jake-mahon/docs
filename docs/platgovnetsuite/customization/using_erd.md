@@ -10,7 +10,7 @@ The Entity Relationship Diagram, **ERD** is a visual representation of your Cust
 can easily review the relationships and dependencies. The ERD is easily accessible:
 
 - **Strongpoint** > **Customizations** > **ERD View**
-- ERD Search, refer to Enabling the ERD Search on the Dashboard
+- ERD Search, refer to [Enabling the ERD Search on the Dashboard](#enabling-the-erdsearch-on-the-dashboard)
 - Tabs on various pages, for example, Customization record, Change Requests, and Process Issues.
 
 The ERD provides a way to look at customizations by record type. A left click on the customization

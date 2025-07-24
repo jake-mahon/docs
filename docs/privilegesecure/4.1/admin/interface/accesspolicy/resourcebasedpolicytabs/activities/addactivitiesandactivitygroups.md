@@ -1,7 +1,7 @@
 ---
 title: "Add Activities and Activity Groups Window"
 description: "Add Activities and Activity Groups Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Activities and Activity Groups Window

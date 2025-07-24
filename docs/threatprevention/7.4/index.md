@@ -1,32 +1,37 @@
-# Threat Prevention 7.4
+---
+title: "Netwrix Threat Prevention v7.4 Documentation"
+description: "Netwrix Threat Prevention v7.4 Documentation"
+sidebar_position: 1
+---
 
-> Proactive security firewall for critical IT infrastructure
+# Netwrix Threat Prevention v7.4 Documentation
 
-Threat Prevention 7.4 acts as an intelligent firewall around your most critical systems including Active Directory, Exchange, and file systems. This solution intercepts and blocks malicious activities in real-time, overcoming the limitations of native Windows security controls to provide comprehensive protection against both internal and external threats while maintaining detailed audit trails for compliance and forensics.
+Netwrix Threat Prevention safeguards an organization from internal and external threats by acting
+like a firewall around the critical systems and applications: Active Directory, Exchange, and file
+systems. It empowers organizations to overcome limitations in native Windows logging and security
+controls with features such as:
 
-## Key Features
+- Active Monitoring – Threat Prevention intercepts all critical activity at the source, actively
+  monitors user behavior and alerts on suspicious activities, thus generating security intelligence
+  that provides visibility and security over your business assets.
+- Proactive Remediation – When a suspicious pattern of activity is identified, Threat Prevention
+  issues an alert along with immediate remediation, such as blocking the compromised user account
+  from further authentications. In this way, it protects business critical systems and sensitive
+  data from threats such as malware and ransomware.
+- Real-time alerts – Provides inspection, alerting, and policy enforcement, serving as a security
+  enhancement that protects sensitive assets and eliminates downtime from careless error.
+- Audit Trail – Provides administrators and auditors detailed records of every change, access, and
+  authentication activity.
+- Third-party Integration – Threat Prevention seamlessly integrates with SIEM dashboards that an
+  organization is currently leveraging. It sends SIEM reliable, insightful and context laden data in
+  real-time to SIEM dashboards, removing the need for native logs.
+- Modern Architecture – With a FIPS 104-2 compliant architecture, Threat Prevention has been built
+  specifically for the modern security landscape.
 
-- **Active Threat Interception**: Monitor and block suspicious activities at the source before damage occurs
-- **Automated Remediation**: Instantly disable compromised accounts and reverse unauthorized changes
-- **Policy-Based Protection**: Define granular security policies for different systems and user groups
-- **Comprehensive Forensics**: Capture detailed audit trails of all activities for investigation
+Organizations can benefit from Threat Prevention in many ways, such as:
 
-## Benefits
-
-- **Stop Attacks in Progress**: Block malicious activities in real-time, not after the fact
-- **Protect Critical Assets**: Safeguard Active Directory, Exchange, and file systems from compromise
-- **Reduce Security Incidents**: Prevent attacks rather than just detecting them
-- **Simplify Compliance**: Maintain detailed audit trails for regulatory requirements
-
-## What's New in Version 7.4
-
-- Enhanced machine learning algorithms for threat detection
-- Improved SIEM integration with QRadar and Splunk
-- New policy templates for common attack scenarios
-- Performance optimizations for large-scale deployments
-
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-```
+- Catch suspicious authentication events
+- Proactively prevent unauthorized changes
+- Block the riskiest actions
+- Accelerate investigation and harden security
+- Tighten security and compliance practices

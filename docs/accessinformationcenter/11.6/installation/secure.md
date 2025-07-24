@@ -26,10 +26,13 @@ for additional information.
 
 Enable Secure Sockets Layer (SSL) for secure, remote connections to the application web server.
 
-**NOTE:** Organizations typically have one or more system administrators responsible for Public Key
+:::note
+Organizations typically have one or more system administrators responsible for Public Key
 Infrastructure (PKI) and certificates. To continue with this configuration, it will first be
 necessary to confer with the PKI administrator to determine which certificate method will conform to
 the organization’s security policies.
+:::
+
 
 Follow the steps to enable SSL.
 
@@ -83,7 +86,7 @@ HTTPS.
 **Step 1 –** Open the `AccessInformationCenter.Service.exeWeb.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
-…\Program Files\STEALTHbits\Access Information Center
+**…\Program Files\STEALTHbits\Access Information Center**
 
 ![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/11.6/installation/configfilessl.webp)
 
@@ -125,10 +128,13 @@ configured for the Web Console. See the Enable Single Sign-On topic of the
 [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
-**NOTE:** The Access Information Center also supports using Microsoft Entra ID single sign-on. See
+:::note
+The Access Information Center also supports using Microsoft Entra ID single sign-on. See
 the
 [Microsoft Entra ID Single Sign-On](/docs/accessinformationcenter/11.6/admin/additionalconfig/entraidsso.md)
 topic for additional information.
+:::
+
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.
 
@@ -137,7 +143,7 @@ Follow the steps to enable SSO for accessing the Access Information Center webs
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
-…\Program Files\STEALTHbits\Access Information Center
+**…\Program Files\STEALTHbits\Access Information Center**
 
 ![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/11.6/installation/configfilesso.webp)
 
@@ -193,5 +199,8 @@ qualified domain name is in the following format: `https://<server>.<domain>.com
 Authentication will now pass through Windows Authentication and bypass SSO configuration Prompts for
 credentials via Browser pop-up
 
-**NOTE:** A list of allowed authentication servers can also be configured using the
+:::note
+A list of allowed authentication servers can also be configured using the
 AuthServerAllowList policy.
+
+:::

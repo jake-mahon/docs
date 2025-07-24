@@ -6,8 +6,11 @@ sidebar_position: 40
 
 # Installation Web Application
 
-**CAUTION:** This guide focuses on the initial installation of the Web Application and is not
+:::warning
+This guide focuses on the initial installation of the Web Application and is not
 relevant for further updates.
+:::
+
 
 ## Preparations for installation
 
@@ -39,7 +42,10 @@ firstly needs to be entered:
 
 Name the folder where the ZIP archive with the Web Application should be placed.
 
-**CAUTION:** If t Do not use the Server Manager installation directory
+:::warning
+If t Do not use the Server Manager installation directory
+:::
+
 
 NOTE: If the web server is created on IIS, execute config.bat to handle integration of the web
 server.

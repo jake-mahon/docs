@@ -18,7 +18,10 @@ some examples on how to use the special section.
 
 Figure 2. Site to Zone assignment special section.
 
-**NOTE:** If you leave the MODE line off, the default is MERGE.
+:::note
+If you leave the MODE line off, the default is MERGE.
+:::
+
 
 Here's what each mode does:
 

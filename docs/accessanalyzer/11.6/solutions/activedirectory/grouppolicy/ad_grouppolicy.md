@@ -13,7 +13,10 @@ provides details on the containers they are linked to, and the settings that are
 
 The AD_GroupPolicy Job uses the GroupPolicy Data Collector for the following query:
 
-**CAUTION:** Do not modify the queries. The queries are preconfigured for this job.
+:::warning
+Do not modify the queries. The queries are preconfigured for this job.
+:::
+
 
 ![Queries for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
@@ -31,22 +34,26 @@ The queries for this job are:
 Navigate to the **Active Directory** > **4.GroupPolicy** > **AD_GroupPolicy** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
 
 The default analysis tasks are:
 
--   1. Group Policy Analysis – Creates an interim processing table in the database for use by
+-   **1. Group Policy Analysis** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   2. Combined User and Computer Settings – Creates the SA_AD_GroupPolicy_SettingList table
+-   **2. Combined User and Computer Settings** – Creates the SA_AD_GroupPolicy_SettingList table
        accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the AD_GroupPolicy Job produces
 the following pre-configured reports:
 
-| Report       | Description                                              | Default Tags | Report Elements                                                                                                                                                                                                                 |
-| ------------ | -------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GPO Details  | This report lists all Group Policies and their settings. | None         | This report is comprised of four elements: - Bar Chart – Displays GPO count by domain - Table – Provides details on policies by domain - Table – Provides details on GPO count by domain - Table – Provides details on settings |
-| GPO Overview | This report lists all Group Policies and their settings. | None         | This report is comprised of three elements: - Bar Chart – Displays GPO configuration by domain - Table – Provides details on GPOs - Table – Provides details on GPO configuration by domain                                     |
+| Report       | Description                                              | Default Tags | Report Elements                                                                                                                                                                                                                                                   |
+| ------------ | -------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GPO Details  | This report lists all Group Policies and their settings. | None         | This report is comprised of four elements: <ul><li>Bar Chart – Displays GPO count by domain</li><li>Table – Provides details on policies by domain</li><li>Table – Provides details on GPO count by domain</li><li>Table – Provides details on settings</li></ul> |
+| GPO Overview | This report lists all Group Policies and their settings. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays GPO configuration by domain</li><li>Table – Provides details on GPOs</li><li>Table – Provides details on GPO configuration by domain</li></ul>                                           |
+

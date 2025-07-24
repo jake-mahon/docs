@@ -1,7 +1,7 @@
 ---
 title: "Add Credentials Window"
 description: "Add Credentials Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Credentials Window

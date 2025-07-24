@@ -13,10 +13,13 @@ Threat Prevention installation or the Windows account configured to run the Ente
 Windows Authentication to the SQL Server) must have enough rights to execute the Database
 Maintenance feature.
 
-**NOTE:** If the account used to run Database Maintenance is changed, it is necessary to manually
+:::note
+If the account used to run Database Maintenance is changed, it is necessary to manually
 delete the DBMaintenance SQL Agent Job in the SQL Server Management Studio.
+:::
 
-Permissions Summary
+
+**Permissions Summary**
 
 The database user must have the following rights to run Database Maintenance:
 
@@ -28,7 +31,7 @@ The database user must have the following rights to run Database Maintenance:
 - Execute sp_updatestats for the NVMonitorData database
 - Create Server Link
 
-Database Permissions
+**Database Permissions**
 
 The following rights are required to run database maintenance:
 
@@ -52,15 +55,18 @@ The following rights are required to run database maintenance:
 
   - Be owner of this database
 
-    **NOTE:** There is a least privilege option for this requirement. See the
+    :::note
+    There is a least privilege option for this requirement. See the
     [Less Privilege Model for NVMonitorData Database Permission](#less-privilege-model-for-nvmonitordata-database-permission)
     topic for additional information.
+    :::
+
 
 See the
 [Database Components](/docs/threatprevention/7.4/admin/overview.md#database-components)
 topic for a discussion of these databases.
 
-Archive Database Permissions
+**Archive Database Permissions**
 
 If the **Move** option is selected on the
 [Archive Data](/docs/threatprevention/7.4/admin/configuration/databasemaintenance/archive.md)
@@ -73,9 +79,12 @@ server/database. This account must have rights to:
 
 ## Less Privilege Model for NVMonitorData Database Permission
 
-**NOTE:** If this less privileged model is used, then the last step in the Database Maintenance
+:::note
+If this less privileged model is used, then the last step in the Database Maintenance
 process, executing sp_updatestats, will fail. However, all other steps in the process will complete
 successfully and all data will be deleted/moved as configured.
+:::
+
 
 If it is not possible to grant the ‘user’ owner rights to the NVMonitorData database, grant the
 following instead:
@@ -188,9 +197,15 @@ set @q = 'ALTER AUTHORIZATION ON DATABASE::NVMonitorData TO [' + @usr + ']'
 exec(@q);
 ```
 
-**CAUTION:** Errors may occur if this script designates an existing user for granting Less Privilege
+:::warning
+Errors may occur if this script designates an existing user for granting Less Privilege
 Model permissions for database maintenance. This happens because the user is directed to be dropped
 and subsequently recreated.
+:::
 
-**_RECOMMENDED:_** Rather than using this script as it is, create a dedicated role for this user
+
+:::info
+Rather than using this script as it is, create a dedicated role for this user
 with required permission based on the recommended best practices.
+
+:::

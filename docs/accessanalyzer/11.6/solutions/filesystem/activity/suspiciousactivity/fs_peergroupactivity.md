@@ -14,8 +14,11 @@ peer group analysis from targeted file servers.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Suspicious
 Activity** > **FS_PeerGroupActivity** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_PeerGroupActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/peergroupactivityanalysis.webp)
 
@@ -25,6 +28,7 @@ preconfigured for this job.
 In addition to the tables and views created by the analysis tasks, the FS_PeerGroupActivity job
 produces the following pre-configured report:
 
-| Report                      | Description                                                                                                                                                                                                                                | Default Tags | Report Elements                                                                                     |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------- |
-| Unusual Peer Group Activity | This report highlights unusual periods of activity based on peer group analysis. When a user accesses an abnormal amount of data from outside of their own department, the failure of separation of duties can indicate a security threat. | None         | This report is comprised of one element: - Table – Provides details on abnormal peer group activity |
+| Report                      | Description                                                                                                                                                                                                                                | Default Tags | Report Elements                                                                                                     |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------- |
+| Unusual Peer Group Activity | This report highlights unusual periods of activity based on peer group analysis. When a user accesses an abnormal amount of data from outside of their own department, the failure of separation of duties can indicate a security threat. | None         | This report is comprised of one element: <ul><li>Table – Provides details on abnormal peer group activity</li></ul> |
+

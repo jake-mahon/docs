@@ -18,8 +18,11 @@ The AD_BrokenInheritance Job is located in the 6.Broken Inheritance Job Group.
 Navigate to the **Active Directory Permissions Analyzer** > **6.BrokenInheritance** >
 **AD_BrokenInheritance** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_BrokenInheritance Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/brokeninheritanceanalysis.webp)
 
@@ -33,6 +36,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_BrokenInheritance Job
 produces the following pre-configured report.
 
-| Report                       | Description                                                                                                                   | Default Tags | Report Elements                                                                                                                                                                                         |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Broken Inheritance by Domain | This report highlights instances of broken inheritance on Active Directory objects. This information is summarized by domain. | None         | This report is comprised of three elements: - Bar Chart – Displays broken inheritance by domain - Table – Provides summary of broken inheritance by OU - Table – Provides details on broken inheritance |
+| Report                       | Description                                                                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                     |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Broken Inheritance by Domain | This report highlights instances of broken inheritance on Active Directory objects. This information is summarized by domain. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays broken inheritance by domain</li><li>Table – Provides summary of broken inheritance by OU</li><li>Table – Provides details on broken inheritance</li></ul> |
+

@@ -15,7 +15,7 @@ topic for additional information.
 
 It contains four pages:
 
--   1. Review Type
+-   **1. Review Type**
 
     - Review Name — Visible only to Review Administrators
     - Select the type of review to be created:
@@ -26,25 +26,31 @@ It contains four pages:
         - Sensitive Data – Review files containing potentially sensitive data stored within
           resources
 
-            **NOTE:** The Sensitive Data content within reports and reviews is visible to all users
+            :::note
+            The Sensitive Data content within reports and reviews is visible to all users
             and roles. The Matches table in the report will only be populated for Console User with
             Security Team and Administrator roles.
+            :::
+
 
     - Select whether to notify the review creator when the resources have been reviewed
     - For Access and Permissions reviews, indicate whether or not child resources with permission
       changes will be included.
 
-        **NOTE:** This typically occurs due to broken inheritance and permissions being explicitly
+        :::note
+        This typically occurs due to broken inheritance and permissions being explicitly
         set. This option allows the entire resource hierarchy to be reviewed where permissions have
         been changed. It is not applicable to Membership and Sensitive Data reviews.
+        :::
+
 
     - For Sensitive Data reviews, select if child resources that contain sensitive content should be
       included.
 
--   2. Criteria — Only applies to Sensitive Data reviews. Select the type of sensitive criteria to
+-   **2. Criteria** — Only applies to Sensitive Data reviews. Select the type of sensitive criteria to
        be reviewed.
--   3. Resources — Select resources to be included in the review
--   4. Summary — Preview of the review selections
+-   **3. Resources** — Select resources to be included in the review
+-   **4. Summary** — Preview of the review selections
 
 See the [Create a Review](#create-a-review) topic for additional information.
 
@@ -74,8 +80,11 @@ Follow the steps to create a review.
   [Resource Reviewed Email](/docs/accessinformationcenter/11.6/resourcereviews/approvalprocess/resourcereviewed.md)
   topic for additional information.
 
-    **NOTE:** This option is not available for the Builtin Administrator account as it has no email
+    :::note
+    This option is not available for the Builtin Administrator account as it has no email
     to receive notifications.
+    :::
+
 
 - Include children with permission changes — When checked, this option automatically includes any
   child folders and resources in the review that have different permissions than the selected
@@ -83,8 +92,11 @@ Follow the steps to create a review.
 - Include children with sensitive content — When checked, this option automatically includes any
   child folders and resources in the review that contain sensitive content.
 
-**NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
+:::note
+If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
+:::
+
 
 ![Create Review wizard Criteria page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/criteria.webp)
 
@@ -94,17 +106,23 @@ together by using the **Ctrl** or **Shift** key with mouse click combinations. T
 is added to the Selected Criteria list. Repeat this until you have all required criteria selected.
 To remove a criteria, select it in the Selected Criteria list and click **Remove**.
 
-**NOTE:** The sensitive data criteria listed is limited to what is configured to be collected by the
+:::note
+The sensitive data criteria listed is limited to what is configured to be collected by the
 Netwrix Enterprise Auditor data collection scans.
+:::
+
 
 **Step 4 –** Optionally check the **Reviewers are able to see the sensitive data match if
 available** option to allow the owner with Console Access roles of Security Team or Administrator to
 view potentially sensitive data within the review. Click **Next** to continue.
 
-**CAUTION:** If this option is checked, but the data has not been collected with matches stored by
+:::warning
+If this option is checked, but the data has not been collected with matches stored by
 Netwrix Enterprise Auditor for all of the resources selected in Step 5, the One or more resources
 selected have not been scanned error occurs. The Create Review wizard will not allow the review to
 be created until those resources have been removed or the option unchecked.
+:::
+
 
 ![Create Review wizard Resources page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/resources.webp)
 

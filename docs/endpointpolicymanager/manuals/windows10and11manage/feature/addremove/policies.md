@@ -43,8 +43,11 @@ computers.
 
 ![quickstart_adding_and_removing_7](/img/product_docs/endpointpolicymanager/feature/addremove/quickstart_adding_and_removing_7.webp)
 
-**NOTE:** You do not need to add Item-Level Targeting for this example, it is just shown here for
+:::note
+You do not need to add Item-Level Targeting for this example, it is just shown here for
 future reference.
+:::
+
 
 The final page of the wizard displays:.
 

@@ -37,7 +37,7 @@ for additional information.
 The View Details button at the bottom of the Review History page opens the Review Details window for
 a resource where changes were recommended.
 
-![Review Details Window](/img/product_docs/accessinformationcenter/11.6/resourcereviews/reviewdetails.webp)
+![Review Details Window](/img/product_docs/accessinformationcenter/11.6/resourcereviews/reviewdetails_1.webp)
 
 The information displayed in the table includes:
 

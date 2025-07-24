@@ -13,17 +13,17 @@ the Windows Solution is only available with a special Enterprise Auditor license
 [Windows Solution](/docs/accessanalyzer/11.6/solutions/windows/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 
@@ -42,6 +42,9 @@ The Services Data Collector is configured through the Service Browser window.
 - Connect – Click **Connect** to connect to the host and display a list of all services found
 - Available Properties – Select the properties to be returned
 
-**NOTE:** In cases where the query does not find the selected services on the target host, the
+:::note
+In cases where the query does not find the selected services on the target host, the
 `InternalName` column that is returned reflects the `DisplayName` column and no other values are
 retrieved. If the services are found on the host, the `DisplayName` value in the table is resolved.
+
+:::

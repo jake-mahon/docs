@@ -6,9 +6,12 @@ sidebar_position: 30
 
 # Java Enterprise Rules Manager
 
-**NOTE:** Before reading this section, please ensure you have read Book 2:
+:::note
+Before reading this section, please ensure you have read Book 2:
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -31,9 +34,12 @@ circumstances. It is the fastest way to implement Oracle's Java Deployment Rule 
 will be explained later). PolicyPak is not reinventing the wheel or tricking Java. Instead, it works
 alongside Oracle's sanctioned method for the mapping of Java versions to Java applets.
 
-**NOTE:** See this video
+:::note
+See this video
 [Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/knowledgebase/javaenterpriserules/videolearningcenter/methods/cloud.md) for
 an overview of Endpoint Policy Manager Java Rules Manager.
+:::
+
 
 For instance, you might want to ensure that the following policies are running on your machine:
 
@@ -81,5 +87,8 @@ There are a few basic ways you can use PolicyPak Java Rules Manager.
   - PolicyPak Cloud service
   - The client machine with the PolicyPak client-side extension (CSE)
 
-**NOTE:** If you use the PolicyPak Cloud service, you can deliver Group Policy settings even to
+:::note
+If you use the PolicyPak Cloud service, you can deliver Group Policy settings even to
 non-domain-joined machines over the Internet.
+
+:::

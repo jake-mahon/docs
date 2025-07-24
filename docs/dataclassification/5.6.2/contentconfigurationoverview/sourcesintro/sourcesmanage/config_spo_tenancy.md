@@ -1,5 +1,5 @@
 ---
-title: "Configure the Product to Crawl an Entire SharePoint Online Tenancy"
+title: "Crawling SharePoint Online Tenancy"
 description: "Configure the Product to Crawl an Entire SharePoint Online Tenancy"
 sidebar_position: 80
 ---

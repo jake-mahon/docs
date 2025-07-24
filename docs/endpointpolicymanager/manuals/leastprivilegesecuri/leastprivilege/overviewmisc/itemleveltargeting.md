@@ -6,10 +6,13 @@ sidebar_position: 70
 
 # Item-Level Targeting with Collections and Policies
 
-**NOTE:** For more information on Endpoint Policy Manager Least Privilege Manager and Item Level
+:::note
+For more information on Endpoint Policy Manager Least Privilege Manager and Item Level
 Targeting, please see the
 [Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply.](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/itemleveltargeting.md)
 video.
+:::
+
 
 Item-Level Targeting is used in Microsoft Group Policy Preferences and other areas of Endpoint
 Policy Manager to target or filter where specific items will apply. With Endpoint Policy
@@ -57,10 +60,13 @@ same way parentheses are used in an equation. In this way, you can create a comp
 about where a policy will be applied. Collections may be set to **And**, **Or**, **Is**, or **Is
 Not**.
 
-**NOTE:** Additionally, Endpoint Policy Manager Least Privilege Manager allows you to target users
+:::note
+Additionally, Endpoint Policy Manager Least Privilege Manager allows you to target users
 or user groups, even if the policy is on the computer side. See the
 [Link to Computer, Filter by User](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/userfilter.md) video for details on this
 superpower.
+:::
+
 
 Below are some real-world examples of how you can use Item-Level Targeting.
 

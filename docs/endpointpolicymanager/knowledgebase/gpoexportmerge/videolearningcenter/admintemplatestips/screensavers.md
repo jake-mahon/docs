@@ -5,11 +5,11 @@ sidebar_position: 10
 ---
 # The Ultimate Guide to Managing Screensavers
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zuYhG4hbhb8" title="Endpoint Policy Manager: The Ultimate Guide to Managing Screensavers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Let me guess: You have MOST machines that you want to get standard screensaver settings. But SOME
 machines where you want to BYPASS getting the screensaver. This video will blow your mind. Only with
 Netwrix Endpoint Policy Manager (formerly PolicyPak) !
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zuYhG4hbhb8" title="Endpoint Policy Manager: The Ultimate Guide to Managing Screensavers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Endpoint Policy Manager: The Ultimate Guide to Managing Screensavers
 

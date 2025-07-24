@@ -6,9 +6,12 @@ sidebar_position: 40
 
 # Security Settings Manager
 
-**NOTE:** Before reading this section, please ensure you have read Book 2:
+:::note
+Before reading this section, please ensure you have read Book 2:
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -27,8 +30,11 @@ these items are not supported by Endpoint Policy Manager.
 
 ![about_policypak_security_settings](/img/product_docs/endpointpolicymanager/securitysettings/about_endpointpolicymanager_security_settings.webp)
 
-**NOTE:** The following items are NOT supported by Endpoint Policy Manager Security Settings
+:::note
+The following items are NOT supported by Endpoint Policy Manager Security Settings
 Manager:
+:::
+
 
 - IP Security
 - Wired network (IEEE 802.3) policies

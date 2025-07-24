@@ -6,9 +6,12 @@ sidebar_position: 20
 
 # Preferences Manager
 
-**NOTE:** Before reading this section, please ensure you have read Book 2:
+:::note
+Before reading this section, please ensure you have read Book 2:
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -51,13 +54,19 @@ Endpoint Policy Manager Preferences Manager does the following jobs:
   information about using Endpoint Policy Manager with an MDM service, see Appendix A:
   [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md).
 
-**NOTE:** If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
+:::note
+If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
 Preferences directives even to non-domain-joined machines.
+:::
 
-**NOTE:** See
+
+:::note
+See
 [Which settings can be managed with the Preferences Manager component?](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/knowledgebase/exportinggrouppolicypreferences/settings.md)for additional
 information on Endpoint Policy Manager Preferences Manager used with SCCM, Endpoint Policy Manager
 Cloud, or an MDM service,
+:::
+
 
 The basic way to use Endpoint Policy Manager Preferences Manager is to perform the following
 procedures:

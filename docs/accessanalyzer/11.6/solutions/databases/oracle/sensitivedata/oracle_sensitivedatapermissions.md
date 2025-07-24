@@ -14,8 +14,11 @@ database objects containing sensitive data across all targeted Oracle database s
 Navigate to the **Oracle > 5.Sensitive Data > Oracle_SensitiveDataPermissions > Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/sensitivedata/jobgroup45.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the
 **Oracle_SensitiveDataPermissions Job** produces the following pre-configured report.
 
-| Report                     | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                    |
-| -------------------------- | ---------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sensitive Data Permissions | This report highlights sensitive data permissions in the audited environment | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by permission count - Table – Provides details on instance permission summary - Table – Provides information on sensitive data permission details |
+| Report                     | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                                |
+| -------------------------- | ---------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sensitive Data Permissions | This report highlights sensitive data permissions in the audited environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by permission count</li><li>Table – Provides details on instance permission summary</li><li>Table – Provides information on sensitive data permission details</li></ul> |
+

@@ -33,6 +33,9 @@ KACE, etc.
 Figure 30. The correlation between applications and systems when using Endpoint Policy Manager with
 any systems management utility.
 
-**NOTE:** For a series of videos to get started with Endpoint Policy Manager and any UEM tool, like
+:::note
+For a series of videos to get started with Endpoint Policy Manager and any UEM tool, like
 SCCM, KACE, etc., see the following link: Getting Started with Endpoint Policy Manager (Misc) >
 [Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md).
+
+:::

@@ -19,13 +19,19 @@ reauthenticate**.
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication.webp)
 
-**NOTE:** See the
+:::note
+See the
 [Endpoint Policy Manager Least Priv Manager: Self Elevate Mode](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/selfelevatemode.md)
 video for a demonstration of Justification text for Self Elevate.
+:::
 
-**NOTE:** See the
+
+:::note
+See the
 [Endpoint Privilege: Re-Authenticate with Self Elevate](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/reauthenticate.md)
 video for a demonstration of re-authentication for Self Elevate.
+:::
+
 
 You can force a user to **Require Justification Text** for normal elevation actions, as well as Self
 Elevate policies.

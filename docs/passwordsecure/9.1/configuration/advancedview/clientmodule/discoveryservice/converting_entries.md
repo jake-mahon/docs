@@ -76,8 +76,11 @@ The **settings** will be described in more detail below:
 5. The **responsible user for the Password Reset** is entered here.
 6. Various **triggers for the Password Reset** can be selected here.
 
-**CAUTION:** After clicking on **Finish**, the **Password Resets** will be **immediately executed**
+:::warning
+After clicking on **Finish**, the **Password Resets** will be **immediately executed**
 and the **passwords changed!**. This also applies to **Windows passwords!**
+:::
+
 
 If option 1: **Do you also want to add a Password Reset?** is not selected, \*steps 4, 5 and 6 are
 not displayed for configuration.
@@ -137,12 +140,18 @@ creating **Password Resets**. If the option **Execute Password Resets immediatel
 created** is used in the configuration, the **selected passwords** are immediately changed after
 clicking on **Finish**.
 
-**CAUTION:** **If you are not paying careful attention, this could have inconvenient consequences.**
+:::warning
+**If you are not paying careful attention, this could have inconvenient consequences.**
+:::
+
 
 **Security level 1:** An **Important note** is displayed in the **Summary** after clicking on
 **Finish**.
 
-**CAUTION:** **Please observe the note and read it through carefully!**
+:::warning
+**Please observe the note and read it through carefully!**
+:::
+
 
 An **Overview** of which actions will be carried out is displayed for the user together with this
 note. The user can then still decide to **Cancel** the process. If you click on **OK**, an
@@ -155,7 +164,10 @@ note. The user can then still decide to **Cancel** the process. If you click on 
 Another **confirmation prompt** highlights that it is important to understand what you are about to
 do. It will no longer be possible to reverse the actions afterwards!
 
-**CAUTION:** **Last chance to cancel the execution!**
+:::warning
+**Last chance to cancel the execution!**
+:::
+
 
 ![securtiy warning](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_11-en.webp)
 

@@ -15,8 +15,11 @@ activity could indicate a compromised account or a malicious insider.
 Navigate to **Box** > **1.Activity** > **Suspicious Activity** > **Box_UnusualDownloadActivity** >
 **Configure** node and select **Analysis** to view analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the Box_UnusualDownloadActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/unusualdownloadactivityanalysis.webp)
 
@@ -28,6 +31,7 @@ The following analysis task is selected by default:
 In addition to the tables created by the analysis tasks, the Box_UnusualDownloadActivity Job
 produces the following pre-configured report:
 
-| Report                    | Description                                                                                                                                                                | Default Tags | Report Elements                                                                                                                                                      |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Unusual Download Activity | This report provides insight into download activity that deviates from the normal range of expected downloads.  This is determined by using historical data for each file. | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 most recent unusual download activity - Table – Provides details on unusual download activity |
+| Report                    | Description                                                                                                                                                                | Default Tags | Report Elements                                                                                                                                                                            |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Unusual Download Activity | This report provides insight into download activity that deviates from the normal range of expected downloads.  This is determined by using historical data for each file. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 most recent unusual download activity</li><li>Table – Provides details on unusual download activity</li></ul> |
+

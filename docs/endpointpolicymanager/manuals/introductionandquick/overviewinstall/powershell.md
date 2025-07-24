@@ -57,8 +57,11 @@ The request output is shownbelow.
 
 ![policypak_and_powershell_2](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_2.webp)
 
-**NOTE:** To understand scope versus SOM, see
+:::note
+To understand scope versus SOM, see
 [Why does License Tool ask Who am I and Where do I want to use Endpoint Policy Manager?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/faqactivedirectory/scope.md).
+:::
+
 
 Method 2 requires indicating specific organizational units (OUs), as shown below. In this example,
 the scope is the whole domain, but the SOM is the Sales OU within the Fabrikam.com domain. Below is

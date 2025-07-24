@@ -9,12 +9,12 @@ sidebar_position: 10
 The Unix job group has been configured by default to run with the default settings. It can be run
 directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 If applicable, the **.NIS Inventory** job group can be run to enable reporting on users and groups
 from NIS environments.
 
-Target Host(s)
+**Target Host(s)**
 
 All Unix Servers. Create a custom host list in Host Management that contains all Unix servers that
 are in scope to be auditing with the Unix solution.
@@ -23,36 +23,36 @@ The Unix job group has been configured to inherit the host list assignment from 
 The host list assignment should be assigned under the **Unix** > **Settings** > **Host List
 Assignment** node. Select the UNIX servers host list created previously.
 
-Connection Profile
+**Connection Profile**
 
 Set a Connection Profile on the Unix job group with root permissions for Unix/Linux.
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/unix_1.md#least-privilege-model)
+[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/target.md#least-privilege-model)
 topic for permissions needed to target the supported platforms for data collection.
 
-Schedule Frequency
+**Schedule Frequency**
 
 Schedule the Unix Solution or individual job groups to run as desired.
 
-History Retention
+**History Retention**
 
 This is not supported in this job group and should be turned off.
 
-Run at the Job Group Level
+**Run at the Job Group Level**
 
 It is a common practice to run the job in the **1.Users and Groups** job group by running the entire
 job group, instead of the individual jobs.
 
-Query Configuration
+**Query Configuration**
 
 The queries in this job group are preconfigured to run with the default configurations.
 
-Analysis Configuration
+**Analysis Configuration**
 
 The analysis tasks in this job group are preconfigured to run with the default configurations.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run a Host Discovery Query to create a host list with All Unix Servers, and assign that
 host list under the **Unix** > **Settings** > **Host List Assignment** node.

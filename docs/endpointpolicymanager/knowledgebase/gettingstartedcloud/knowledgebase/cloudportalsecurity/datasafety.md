@@ -11,8 +11,11 @@ sidebar_position: 10
 As expected, a small amount ofdata from your organization is stored within Netwrix Endpoint Policy
 Manager (formerly PolicyPak) Cloud after a computer joins Endpoint Policy Manager cloud.
 
-**NOTE:** times At no times are any usernames, passwords, OUs, domain names, or anything else
+:::note
+times At no times are any usernames, passwords, OUs, domain names, or anything else
 utilized or stored within Endpoint Policy Manager Cloud.
+:::
+
 
 Below is a detailed list of what is stored within Endpoint Policy Manager Cloud with terms of
 endpoint data

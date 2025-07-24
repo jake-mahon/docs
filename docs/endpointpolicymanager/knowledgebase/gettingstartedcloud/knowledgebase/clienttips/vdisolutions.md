@@ -53,7 +53,10 @@ below:
 PPCloud /sysprep
 ```
 
-**NOTE:**
+:::note
+
+:::
+
 
 1. If using JOINTOKEN then you must also specify the JOINTOKEN value for the PPCloud /sysprep
    command above.

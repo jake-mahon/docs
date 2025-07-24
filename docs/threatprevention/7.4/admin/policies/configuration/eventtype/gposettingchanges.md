@@ -61,12 +61,15 @@ Collections areas to edit the lists.
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
 [Dynamic Collections](/docs/threatprevention/7.4/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
+:::
 
-Sub Tree
+
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
 
@@ -83,7 +86,7 @@ Filter statements can be added to the Include condition and Exclude condition bo
 pre-defined logical and comparison operators to create filter criteria for the scan. Conditions can
 be singular or grouped by a logical operator.
 
-Logical Operator
+**Logical Operator**
 
 The logical operator displays as left aligned red text. To apply more filters to the set or start a
 new group of filters, click the **Add** (+) icon. To change the logical operator, click on it to
@@ -100,16 +103,16 @@ open a menu with the following options:
 On clicking the **Add** (+) icon, a new row is inserted that displays a column (attribute), a
 comparison operator, and a Value box.
 
-Column Selection
+**Column Selection**
 
 The selected column is displayed in blue text. Click on it to open a menu with all available columns
 from the GPO Setting Changes Recent Events data grid.
 
-Comparison Operator
+**Comparison Operator**
 
 The comparison operator is displayed in green text. To change it, click on it to open a menu with
 options that associate with the data in the GPO Setting Changes Recent Events data grid.
 
-Filter Criteria
+**Filter Criteria**
 
 Specify a filter criteria into the `<enter a value>` textbox.

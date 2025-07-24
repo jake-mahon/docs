@@ -9,11 +9,14 @@ sidebar_position: 10
 To use Endpoint Policy Manager DesignStudio, you will need the following components installed on
 your Endpoint Policy Manager creation station.
 
-**NOTE:** It's best if the Endpoint Policy Manager creation station is a machine that you can use
+:::note
+It's best if the Endpoint Policy Manager creation station is a machine that you can use
 and reuse. We suggest you use a virtual machine loaded with the following components. You can then
 restore to go back to this original configuration before creating each AppSet. This idea is borrowed
 from creating MSI or App-V packages. You want a clean machine with only the Endpoint Policy Manager
 creation station utilities on it before installing your package and producing an AppSet.
+:::
+
 
 **Step 1 –** The `.NET` Framework can be introduced through `Add/Remove programs`, as shown in
 Figure 1.

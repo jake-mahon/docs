@@ -9,12 +9,16 @@ sidebar_position: 20
 The first time the spider is run the entire account is scanned. Subsequent spider runs scan the
 changes since the last run.
 
+:::note
 The **Strongpoint** tab is only available to Administrators unless you specifically add it to other
 roles. Refer to [Setting Access and Permissions](/docs/platgovnetsuite/installation/setting_strongpoint_tab_access.md) for more
 information.
+:::
 
+:::note
 You must keep this window open for the spider to complete. Do not change roles or accounts during
 this process.
+:::
 
 To run the spider:
 
@@ -85,9 +89,11 @@ validate the data.
 8. Click **Start Spider**. Customization and Records processed information is displayed when the
    spider completes.
 
+:::note
 If some of the Data Validation searches return a result, it does not mean there is a problem. In
 most cases if there are many results for any given search, you can fix this by ReSpidering the
 record type with the issue.
+:::
 
 ## ReSpidering
 
@@ -158,10 +164,13 @@ Here is the schedule for each customization type.
 
 All other deployed back-end spiders continue to run once a day.
 
+:::note
 If a schedule is set through the Configuration and Stats page, scheduled spiders run at that time.
 Otherwise they are run once per day.  
 Spiders that run during off peak hours begin running at the hour set on the script deployment, or
-5:00 pm based on the company timezone if not set.  
+5:00 pm based on the company timezone if not set.
+:::
+  
 Negative Spiders are run sequentially.
 
 **Next Step:** [ Setting Up the AutoSpider and Alerts](/docs/platgovnetsuite/installation/setting_up_auto_spider_alerts.md)

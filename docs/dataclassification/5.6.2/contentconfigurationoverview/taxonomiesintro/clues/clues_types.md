@@ -8,17 +8,18 @@ sidebar_position: 10
 
 The following clue types of clues are available, each clue type is described in detail below:
 
-- [Standard Clues](#standard-clues)
-- [Case-Sensitive Clues](#case-sensitive-clues)
-- [Phrasematch (Wildcard) Clues](#phrasematch-wildcard-clues)
-- [Metadata Clues](#metadata-clues)
-- [Phonetic Clues ](#phonetic-clues)
-- [Regex Clues ](#regex-clues)
-- [Required Terms clue ](#required-terms-clue)
-- [Term Boost Clues](#term-boost-clues)
-- [Language Clues](#language-clues)
-- [Static Clues](#static-clues)
-- [Hierarchical Clues](#hierarchical-clues)
+- [Types of Clues](#types-of-clues)
+  - [Standard Clues](#standard-clues)
+  - [Case-Sensitive Clues](#case-sensitive-clues)
+  - [Phrasematch (Wildcard) Clues](#phrasematch-wildcard-clues)
+  - [Metadata Clues](#metadata-clues)
+  - [Phonetic Clues](#phonetic-clues)
+  - [Regex Clues](#regex-clues)
+  - [Required Terms clue](#required-terms-clue)
+  - [Term Boost Clues](#term-boost-clues)
+  - [Language Clues](#language-clues)
+  - [Static Clues](#static-clues)
+  - [Hierarchical Clues](#hierarchical-clues)
 
 ## Standard Clues
 
@@ -288,6 +289,7 @@ Microsoft:
 [Regular Expression Syntax](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/ae5bf541(v=vs.100)).
 
 The following example clue matches US Social Security Numbers found anywhere in the document text:
+
 
 `[/,,/.,/=,\s]((?!000)[0-6]\d{2}|7[0-6]\d|77[0-2])-((?!00)\d{2})-((?!0000)\d{4})[/,,/.,\s]`
 

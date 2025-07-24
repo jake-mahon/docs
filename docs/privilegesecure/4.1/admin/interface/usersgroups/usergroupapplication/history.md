@@ -1,7 +1,7 @@
 ---
 title: "History Tab"
 description: "History Tab"
-sidebar_position: 60
+sidebar_position: 70
 ---
 
 # History Tab

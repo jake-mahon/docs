@@ -33,8 +33,11 @@ Auditor, this must be an exact match to the name of the cluster in the Master Ho
 In order to monitor activity on DFS Namespaces, an Activity Agent needs to be deployed on all DFS
 servers.
 
-**NOTE:** The FileSystem > 0.Collection > 0-FSDFS System Scans Job in Netwrix Enterprise Auditor can
+:::note
+The FileSystem > 0.Collection > 0-FSDFS System Scans Job in Netwrix Enterprise Auditor can
 be used to identify all DFS servers.
+:::
+
 
 The credential used to deploy the Activity Agent must have the following permissions on the server:
 

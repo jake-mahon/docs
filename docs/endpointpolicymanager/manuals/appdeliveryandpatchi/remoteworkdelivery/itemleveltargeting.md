@@ -60,6 +60,9 @@ to orange, which shows that it now has Item-Level Targeting.
 
 ![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_3.webp)
 
-**NOTE:** When Item-Level Targeting is on, the policy won't apply unless the conditions are True. If
+:::note
+When Item-Level Targeting is on, the policy won't apply unless the conditions are True. If
 Item-Level Targeting is applied to a collection, then none of the items in the collection will apply
 unless the Item-Level Targeting on the collection evaluates to True.
+
+:::

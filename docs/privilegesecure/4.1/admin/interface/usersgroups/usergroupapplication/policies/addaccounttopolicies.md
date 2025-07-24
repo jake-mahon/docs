@@ -1,7 +1,7 @@
 ---
 title: "Add Account to Policies Window"
 description: "Add Account to Policies Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Account to Policies Window

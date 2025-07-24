@@ -24,11 +24,11 @@ User benefits include:
 
 To set up the Zendesk integration:
 
-1. Install the Netsuite Bundle
+1. Install the NetSuite Bundle
 2. Install the App
 3. Set up Approvals
 
-## Install the Netsuite Bundle
+## Install the NetSuite Bundle
 
 1. Open **Customization** > **SuiteBundler** > **Search & Install Bundles**
 2. Search for bundle **402177**
@@ -79,6 +79,7 @@ app.
     - **Token ID**: Enter the Token ID of the Integration Record from your NetSuite account.
     - **Token Secret**: Enter the Token Secret of the Integration Record from your NetSuite account.
 
+    :::note
     Token-based authentication (TBA) is required by NetSuite. Refer to the NetSuite help:
     [TBA Setup Requirements](https://netsuite.custhelp.com/app/answers/detail/a_id/51000/kw/tba) for
     details if you have not yet set up TBA.  
@@ -87,6 +88,7 @@ app.
     This information is generated when you create your Integration Record with the Token-Based
     Authentication option enabled. If you lose or forget these credentials, you must reset them to
     obtain new values.
+    :::
 
     - **Enable role restrictions**: Check this option to restrict access to the app based on roles.
       Enter the roles allowed to access the app.
@@ -108,6 +110,6 @@ After you install the Zendesk app, set up the approvals.
     - **Allow these Zendesk groups to approve** one or more groups who can approve a change request.
       Select a group from the drop down list. Click **+**. Repeat as needed.
     - **Approval process** select the approval process to use. **Strongpoint Approval in Zendesk**,
-      **Strongpoint Approval in NetSuite**, **No Appoval Needed**, or **Not set**.
+      **Strongpoint Approval in NetSuite**, **No Approval Needed**, or **Not set**.
 
 **Next Step:** [ Zendesk Walkthrough Example](/docs/platgovnetsuite/ticketingintegrations/zendeskintegration/zendesk_walkthrough_example.md)

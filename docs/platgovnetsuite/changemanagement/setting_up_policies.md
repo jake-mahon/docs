@@ -6,15 +6,15 @@ sidebar_position: 20
 
 # Setting Up Policies
 
-- Policy Information general information about the policy.
-- Set Up a Default Policy procedure to set up your default policy and approvers.
-- Change Controls reference information for the Change Controls tab.
-- Approvals reference information for the Approvals tab.
-- Process Policies reference information for the Process Policies tab.
-- Customization Policies reference information for the Customization Policies tab.
-- Control Policies reference information for the Control Policies tab.
-- SoD Policies reference information for the SoD Policies tab.
-- Set Up Additional Policies set up additional policies as required.
+- **Policy Information** general information about the policy.
+- **Set Up a Default Policy** procedure to set up your default policy and approvers.
+- **Change Controls** reference information for the Change Controls tab.
+- **Approvals** reference information for the Approvals tab.
+- **Process Policies** reference information for the Process Policies tab.
+- **Customization Policies** reference information for the Customization Policies tab.
+- **Control Policies** reference information for the Control Policies tab.
+- **SoD Policies** reference information for the SoD Policies tab.
+- **Set Up Additional Policies** set up additional policies as required.
 
 ## Policy Information
 
@@ -22,13 +22,13 @@ sidebar_position: 20
 - **Default Policy**: Checked if it is the default policy.
 - **Enable Global Object Level Policy**: Disabled by default. Check to enable.  
    Change Policy picking process with **Global Object Level Policy** _disabled_:
-    - If customizations or customization processes are attached to specific policies, pick the most
+        - If customizations or customization processes are attached to specific policies, pick the most
       stringent policy.
-    - If there are no object-specific policies, pick **Default Policy**.  
+        - If there are no object-specific policies, pick **Default Policy**.  
       Change Policy picking process with **Global Object Level Policy** _enabled_:
-    - If customizations or customization processes are attached to specific policies, pick the most
+        - If customizations or customization processes are attached to specific policies, pick the most
       stringent policy.
-    - If there are no object-specific policies, look for policies that are not attached to any
+        - If there are no object-specific policies, look for policies that are not attached to any
       customization or process. Compare the change level among all resulting policies and the
       Default Policy, then pick the most stringent policy.
 - **Parent Policy**: Parent policy information to help organize policies, does not impact the
@@ -47,12 +47,12 @@ sidebar_position: 20
 1. Open **Strongpoint** > **Change Management Tools** > **Change/Approval Policy**
 2. Edit the **Default Policy** so that it has the following settings:
 
-- **Header**: Everything in the Header should remain the same including the name Default.
-- **Change Controls:**
+    - **Header**: Everything in the Header should remain the same including the name Default.
+    - **Change Controls:**
 
     ![Policy Default Change Controls](/img/product_docs/platgovnetsuite/change_management/policy_default_change_controls2.webp)
 
-- **Approvals**: Select the policy approvers on the Approvals tab.
+    - **Approvals**: Select the policy approvers on the Approvals tab.
 
 3. Click **Save**
 
@@ -138,7 +138,7 @@ Approvers initiate the change request and enable it to move to the next stage.
 
 ![Policy Approvals tab](/img/product_docs/platgovnetsuite/change_management/policy_approvals_tab.webp)
 
-Policy Change Approvers
+**Policy Change Approvers**
 
 This section is only applies to the default policy.
 
@@ -147,13 +147,16 @@ This section is only applies to the default policy.
 - **Final Approver (Policy Change)**: Specifies the final approver required for a policy change. The
   person who needs to approve after all other approvals have been obtained.
 
-    **NOTE:** Specifying a **Final Approver** locks the default policy and all child policies. If a
+    :::note
+    Specifying a **Final Approver** locks the default policy and all child policies. If a
     user attempts to change a policy, a notice is displayed. Click **Request Approval**. The form is
     launched, with your proposed changes populated.
+    :::
+
 
     ![Record Save Blocked](/img/product_docs/platgovnetsuite/change_management/record_save_blocked.webp)
 
-ITGC Approvers
+**ITGC Approvers**
 
 Groups are an efficient method to specify approvers. For example, if you need one approver from each
 of several company functions, you can create a group for each functional area, and select a minimum
@@ -168,7 +171,7 @@ of 1 approval. Once each group has approved, the policy moves on to the **Final 
 - **Add Row**: click to add another ITGC Approver Group. Click the red **X** to delete an existing
   group.
 
-Final Approver
+**Final Approver**
 
 - **Final Approver**: Specifies the final approver of changes affected by given policies.
 - **No Order Required**: Check this box to allow concurrent approvers. If blank, approvals route in
@@ -235,7 +238,7 @@ you can attach the Customization Record to the policy.
 
 To set up additional policies:
 
-1. Open **Strongpoint**> **Change Management Tools** > **Change/Approval Policy** > **New**
+1. Open **Strongpoint** > **Change Management Tools** > **Change/Approval Policy** > **New**
 2. Enter the policy information.
 3. Assign the **Change Levels** on the **Change Controls** tab.
 4. Assign the **Approvers** on the **IT Policies** tab.
@@ -245,8 +248,8 @@ To set up additional policies:
 
 ![policy_add_customizations](/img/product_docs/platgovnetsuite/change_management/policy_add_customizations.webp)
 
-- Check **Require Object Owner Approval** if needed.
-- Check **Require Impacted Customization Approval** if needed.
+    - Check **Require Object Owner Approval** if needed.
+    - Check **Require Impacted Customization Approval** if needed.
 
 8. Add Customizations. Attaching customizations to the policy is how Platform Governance for
    NetSuite knows a particular policy should be applied to specific objects. If there are multiple

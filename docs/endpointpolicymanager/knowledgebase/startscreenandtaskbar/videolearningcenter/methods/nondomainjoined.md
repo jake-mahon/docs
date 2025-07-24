@@ -5,11 +5,11 @@ sidebar_position: 10
 ---
 # Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WUBMbTRJXiM" title="Endpoint Policy Manager Start Screen &amp; Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Got non-domain joined machines? Use Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud to
 deliver Endpoint Policy Manager Start Screen and Taskbar settings to them. Couldn't be easier.
 Here's how.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WUBMbTRJXiM" title="Endpoint Policy Manager Start Screen &amp; Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### PolicyPak Start Screen & Taskbar Manager: Manage non-domain joined machines using PolicyPak Cloud
 

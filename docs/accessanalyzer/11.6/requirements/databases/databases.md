@@ -21,17 +21,17 @@ which enables Sensitive Data criteria for scans.
 
 See the following topics for target environment requirements:
 
-- [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasedb2.md)
-- [Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemongodb.md)
-- [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemysql.md)
-- [Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseoracle/databaseoracle.md)
-- [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasepostgresql.md)
-- [Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseredshift.md)
-- [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databasesql.md)
+- [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/db2.md)
+- [Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/mongodb.md)
+- [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/mysql.md)
+- [Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/oracle/oracle.md)
+- [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/postgresql.md)
+- [Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/redshift.md)
+- [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/sql/sql.md)
 
 ## Databases Solution Requirements on the Enterprise Auditor Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -42,12 +42,15 @@ These are dependent upon the size of the target environment:
 | Cores       | 8 CPU                | 8 CPU                    | 4 CPU                 | 2 CPU                |
 | Disk Space  | 460 GB               | 280 GB                   | 160 GB                | 80 GB                |
 
-**NOTE:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
+:::note
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
 minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For
 example, if the job is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are
 required (8x2=16).
+:::
 
-Additional Server Considerations for Oracle Scans
+
+**Additional Server Considerations for Oracle Scans**
 
 For scanning Oracle databases, the following are additional requirements for the Console server:
 
@@ -56,28 +59,31 @@ For scanning Oracle databases, the following are additional requirements for the
 - NMAP installed
 - For Instance Discovery, NMAP installed
 
-Additional Server Considerations for SQL Server Scans
+**Additional Server Considerations for SQL Server Scans**
 
 For scanning SQL databases, the following are additional requirements for the Console server:
 
 - Windows Management Framework 3+ installed
 - PowerShell 3.0+ installed
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
 The following is required to run Sensitive Data Discovery scans:
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 
-**NOTE:** The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
+:::note
+The Sensitive Data Discovery Add-on installation package installs the appropriate JDK
 (Java) version on the server. The JDK deployed is prepackaged and does not require any
 configuration; it has been preconfigured to work with Enterprise Auditor and should never be
 customized through Java. It will not conflict with other JDKs or Java Runtimes in the same
 environment.
+:::
+
 
 ## Databases Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

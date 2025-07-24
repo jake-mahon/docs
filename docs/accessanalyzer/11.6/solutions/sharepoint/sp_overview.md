@@ -27,8 +27,11 @@ groups have been run, there will be blank sections of this overview report.
 Navigate to the **Jobs** > **SharePoint** > **SP_Overview** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_Overview Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/overviewanalysis.webp)
 
@@ -40,6 +43,7 @@ The default analysis tasks is:
 In addition to the table created by the analysis task which displays all direct user permissions,
 the SP_Overview Job produces the following pre-configured report:
 
-| Report              | Description                                                              | Default Tags | Report Elements                                                                                            |
-| ------------------- | ------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------- |
-| SharePoint Overview | This report provides an overview of the targeted SharePoint environment. | None         | This report is comprised of one element: - Table – Provides details on the targeted SharePoint environment |
+| Report              | Description                                                              | Default Tags | Report Elements                                                                                                            |
+| ------------------- | ------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| SharePoint Overview | This report provides an overview of the targeted SharePoint environment. | None         | This report is comprised of one element: <ul><li>Table – Provides details on the targeted SharePoint environment</li></ul> |
+

@@ -1,7 +1,7 @@
 ---
 title: "Add Administrators Window"
 description: "Add Administrators Window"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Administrators Window

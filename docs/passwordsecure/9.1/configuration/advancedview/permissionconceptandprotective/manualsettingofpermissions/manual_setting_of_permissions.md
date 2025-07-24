@@ -92,5 +92,8 @@ itself, as well as by users with the permission “Is database administrator”.
 The owner permission prevents other users who have the “Authorize” permission from removing someone
 with the owner permission from the record.
 
-**CAUTION:** The owner permission does not protect a record from being deleted. Any user who has
+:::warning
+The owner permission does not protect a record from being deleted. Any user who has
 deletion permission can delete the record!
+
+:::

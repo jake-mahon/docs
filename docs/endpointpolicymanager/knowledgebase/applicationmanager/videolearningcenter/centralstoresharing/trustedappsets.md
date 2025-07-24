@@ -11,7 +11,10 @@ AppSets from Netwrix. This means that all the DLLs (AppSets) we ship are digital
 unaltered and you know they came from us. Watch this video to understand how to take advantage of
 this feature.
 
-**NOTE:** Before heading down this path please watch the backup / restore videos:
+:::note
+Before heading down this path please watch the backup / restore videos:
+:::
+
 
 - [Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md)
 - [Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backupoptions.md)

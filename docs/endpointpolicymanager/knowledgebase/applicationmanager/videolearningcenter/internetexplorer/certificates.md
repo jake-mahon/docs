@@ -7,6 +7,8 @@ sidebar_position: 20
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Certificates
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bh74f4V0nTo?si=61GoaSGC3gQBDIxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Endpoint Policy Manager: Manage IE Certificates
 
 Hi. This is Jeremy Moskowitz, former Group Policy MVP. In this video, I'm showing you how to manage

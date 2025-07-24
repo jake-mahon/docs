@@ -38,5 +38,8 @@ Additionally, on this page you can:
 - Set up a default search provider
 - Enable or disable accelerators
 
-**NOTE:** These items are more configurable using the Endpoint Policy Manager DesignStudio if you
+:::note
+These items are more configurable using the Endpoint Policy Manager DesignStudio if you
 need to add more entries.
+
+:::

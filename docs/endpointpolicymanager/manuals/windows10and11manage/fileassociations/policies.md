@@ -11,8 +11,11 @@ node. Endpoint Policy Manager File Associations Manager MMC snap-in enables you 
 Endpoint Policy Manager File Associations Manager policy or collection. You can create policies on
 the Computer side or User side.
 
-**NOTE:** You will only see the Endpoint Policy Manager File Associations Manager node when the
+:::note
+You will only see the Endpoint Policy Manager File Associations Manager node when the
 latest Admin Console MSI is installed on the management station.
+:::
+
 
 The functions of collections and policies are as follows:
 

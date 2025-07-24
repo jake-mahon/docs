@@ -10,7 +10,10 @@ The requirements for the (Privilege Secure) application server are:
 
 - Windows Server 2016 R2 through Windows Server 2022
 
-    **_RECOMMENDED:_** Windows Server 2022, non-domain-joined for security
+    :::info
+    Windows Server 2022, non-domain-joined for security
+    :::
+
 
 - US English language installation
 - Hardened / dedicated to Netwrix Privilege Secure (recommended)
@@ -34,7 +37,7 @@ The requirements for the (Privilege Secure) application server are:
   forwards and backwards
 - Multi-Factor Authentication (MFA) token (Authenticator, DUO, Symantec VIP, etc.)
 
-RAM, CPU and Disk Space
+**RAM, CPU and Disk Space**
 
 These are dependent upon the total number of administrators using Privilege Secure.
 
@@ -47,7 +50,7 @@ These are dependent upon the total number of administrators using Privilege Secu
 | Application drive | 300 GB      | 200 GB  | 100 GB | 100 GB     |
 | Recording drive   | 500 GB      | 300 GB  | 200 GB | 150 GB     |
 
-Permissions
+**Permissions**
 
 The following permission is required to install the application:
 

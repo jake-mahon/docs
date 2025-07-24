@@ -44,8 +44,11 @@ $Path = "$env:USERPROFILE\AppData\Local\Microsoft\Outlook\RoamCache\*"$FileName�
 
 ![438_4_image-20200626100413-3](/img/product_docs/endpointpolicymanager/scriptstriggers/438_4_image-20200626100413-3.webp)
 
-**NOTE:** Outlook has to be closed to make this change, so be sure to add the "stop-process" line
+:::note
+Outlook has to be closed to make this change, so be sure to add the "stop-process" line
 before the "set-content".
+:::
+
 
 **Step 3 –** Finally, select an option to apply Once or when forced, and complete the remaining
 steps on the wizard.

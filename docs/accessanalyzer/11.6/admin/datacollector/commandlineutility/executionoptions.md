@@ -14,14 +14,14 @@ the **Edit Profile** and **Create a New Profile** selections on the Profile Type
 The available options on the page vary depending on the selected profile type. The possible options
 are as follows:
 
-Execution Type
+**Execution Type**
 
 The Execution Type section identifies the mode of execution:
 
 - Local – Execute the utility within the Enterprise Auditor Console
 - Remote – Execute the utility on the target host
 
-Output options
+**Output options**
 
 The output options include:
 
@@ -34,7 +34,7 @@ The output options include:
   [CLU: Profile Parameters](/docs/accessanalyzer/11.6/admin/datacollector/commandlineutility/profileparameters.md) topic
   for additional information.
 
-Remote Execution Options
+**Remote Execution Options**
 
 The Remote Execution Options apply to the Remote mode of execution:
 
@@ -42,7 +42,7 @@ The Remote Execution Options apply to the Remote mode of execution:
   before executing it
 - Leave .exe on remote host – Keeps the executable on the remote machine after execution
 
-Other Settings
+**Other Settings**
 
 The Other Settings section provides additional options:
 

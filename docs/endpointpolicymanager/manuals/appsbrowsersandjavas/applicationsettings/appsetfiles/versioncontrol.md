@@ -22,13 +22,16 @@ created using the Endpoint Policy Manager DesignStudio. The most common reasons 
 If you need to update an AppSet, you will need to understand Endpoint Policy Manager Application
 Settings Manager's version control methodology.
 
-**NOTE:** Transitioning from one DLL to another DLL isn't difficult, but a strong cautionary note is
+:::note
+Transitioning from one DLL to another DLL isn't difficult, but a strong cautionary note is
 needed. That is, when you provide the next version of a DLL, you could be removing elements or whole
 tabs with a lot of elements. When you do this, you could lose the ability to manage previously
 deployed elements from existing AppSets.  
 Please read this whole section in its entirety to understand the issues surrounding version control
 before attempting to perform an upgrade. Additionally, you'll likely want to test out the version
 control mechanism in a test lab before rolling out an update into your production environment.
+:::
+
 
 An AppSet is defined by its project name. You can see the project name when you utilize an AppSet
 and also when you're working with the project within Endpoint Policy Manager DesignStudio by
@@ -136,9 +139,12 @@ Figure 84. Upgrading an existing Pak item with a newer DLL.
 
 ## Manually Migrating to Newer AppSet DLLs in the Central Storage
 
-**NOTE:** If you would like to see a video overview of how to manually migrate to newer DLLs and
+:::note
+If you would like to see a video overview of how to manually migrate to newer DLLs and
 update GPOs, please watch this tutorial video:
 [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).
+:::
+
 
 With the versioning system, you will be able to create Endpoint Policy Manager DLLs locally and
 create and test GPOs, as needed, to make sure the new DLL works exactly as expected. Then, when

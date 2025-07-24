@@ -16,8 +16,11 @@ the Azure SQL server, it can be used to launch malicious attacks. Microsoft reco
 Navigate to the **Databases** > SQL > 4.Configuration > SQL_CMDShell > Configure node and select
 Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/sqljobgroup45.webp)
 
@@ -28,6 +31,7 @@ The default analysis task is:
 In addition to the tables and views created by the analysis task, the SQL_CMDShell Job produces the
 following pre-configured report.
 
-| Report               | Description                                                                                                                                                                                                                       | Default Tags | Report Elements                                                                                                           |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| xp_cmdshell Settings | Because malicious users sometimes attempt to elevate their privileges by using xp_cmdshell, xp_cmdshell is disabled by default. Use sp_configure or Policy Based Management to disable it on any instances which have it enabled. | None         | This report is comprised of two elements: - Pie Chart – Displays instance summary - Table– Displays configuration details |
+| Report               | Description                                                                                                                                                                                                                       | Default Tags | Report Elements                                                                                                                                 |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| xp_cmdshell Settings | Because malicious users sometimes attempt to elevate their privileges by using xp_cmdshell, xp_cmdshell is disabled by default. Use sp_configure or Policy Based Management to disable it on any instances which have it enabled. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays instance summary</li><li>Table– Displays configuration details</li></ul> |
+

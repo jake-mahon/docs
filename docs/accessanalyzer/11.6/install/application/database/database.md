@@ -28,8 +28,11 @@ The account configured in the storage profile to be used by Enterprise Auditor t
 database should have the necessary rights to Add, Alter, Create, Drop, Select, and Update. These
 rights are critical to normal Enterprise Auditor operations and functionality.
 
-**_RECOMMENDED:_** The account used by Enterprise Auditor should have database owner (DBO) level
+:::info
+The account used by Enterprise Auditor should have database owner (DBO) level
 access to the database.
+:::
+
 
 If database owner rights cannot be obtained, the following SQL script can be executed by a database
 administrator (DBA) against the Enterprise Auditor database to grant the necessary permissions to
@@ -151,7 +154,10 @@ node and choose **New Database**.
 **Step 2 –** Set the **Database name**. Set any other desired data files configuration per company
 standards. Click **OK** on the New Database window.
 
-**_RECOMMENDED:_** Enter Enterprise Auditor as the Database name.
+:::info
+Enter Enterprise Auditor as the Database name.
+:::
+
 
 ![SQL Server Management Studio create New Login](/img/product_docs/accessanalyzer/11.6/install/application/newlogin.webp)
 
@@ -172,8 +178,11 @@ authentication.
 - **_RECOMMENDED:_** If **SQL Server authentication** is desired, use a login name called Enterprise
   Auditor.
 
-**NOTE:** Set the **Default Database** as Enterprise Auditor (or the desired Enterprise Auditor
+:::note
+Set the **Default Database** as Enterprise Auditor (or the desired Enterprise Auditor
 database) and choose English as the **Default Language**.
+:::
+
 
 ![SQL Server Management Studio New Login User Mapping](/img/product_docs/accessanalyzer/11.6/install/application/loginusermapping.webp)
 
@@ -187,9 +196,12 @@ Console.
 **Step 7 –** Configure the Enterprise Auditor Console to access the assigned database using the
 newly secured login account.
 
-**NOTE:** This step requires the completion of the Enterprise Auditor installation. See the
+:::note
+This step requires the completion of the Enterprise Auditor installation. See the
 [Enterprise Auditor Core Installation](/docs/accessanalyzer/11.6/install/application/wizard.md)
 topic for instructions.
+:::
+
 
 ![Storage Profile configuration page](/img/product_docs/accessanalyzer/11.6/install/application/storageprofile.webp)
 
@@ -210,9 +222,12 @@ topic for instructions.
 
 ![Change storage profile dialog](/img/product_docs/accessanalyzer/11.6/install/application/changestorageprofile.webp)
 
-**NOTE:** If previously connected to another database which already had the Enterprise Auditor DB
+:::note
+If previously connected to another database which already had the Enterprise Auditor DB
 schema applied, then a prompt should appear to merge the host management data. Choose the
 appropriate options and then click **OK** to migrate data.
+:::
+
 
 **Step 9 –** Make sure to close and re-open the Enterprise Auditor Console before continuing to
 configure or use Enterprise Auditor if a new database Storage Profile was chosen as the default.

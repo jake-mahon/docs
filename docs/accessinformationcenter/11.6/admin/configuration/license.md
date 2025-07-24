@@ -44,8 +44,11 @@ third-party data into reports.
 
 Follow the steps to update the license key.
 
-**NOTE:** The LIC file must be named to `StealthAUDIT.lic`. If it has another name, rename it before
+:::note
+The LIC file must be named to `StealthAUDIT.lic`. If it has another name, rename it before
 completing the steps.
+:::
+
 
 ![Configuration interface showing the License page with unlicensed features](/img/product_docs/accessinformationcenter/11.6/admin/configuration/licenseunlicensedfeatures.webp)
 

@@ -18,10 +18,13 @@ wizard page for the category of Sensitive Data Scan.
 - Perform Optical Character Recognition for image files – Enables the data collector to scan for
   sensitive data within digital images of physical documents
 
-    **NOTE:** The OCR option is intended to work for clear scanned physical documents or documents
+    :::note
+    The OCR option is intended to work for clear scanned physical documents or documents
     directly converted to images, with standard fonts. It will not work for scanning photos of
     documents and may not be able to recognize text on images of credit cards, driver's licenses, or
     other identity cards.
+    :::
+
 
 - Store discovered sensitive data – Stores discovered sensitive data in the database
 - Limit stored matches per criteria to [number] – Limits database storage of matches per criteria
@@ -50,8 +53,11 @@ Use the radio buttons to select the File types to scan:
     - Files modified within the last [number] days – Only scans files with a modified date within
       the specified date range
 
-_Remember,_ the sensitive data discovery options require the Sensitive Data Discovery Add-On to be
+:::tip
+Remember, the sensitive data discovery options require the Sensitive Data Discovery Add-On to be
 been installed on the Enterprise Auditor Console.
+:::
+
 
 The Performance Options section allows the user to modulate the efficiency of SDD scans.
 
@@ -59,5 +65,8 @@ The Performance Options section allows the user to modulate the efficiency of SD
   as part of a scan, increasing parallel scanning. The value should not exceed 2x the number of CPU
   threads available.
 
-    **_RECOMMENDED:_** For optimal performance, the total number of scan processes on a scan host
+    :::info
+    For optimal performance, the total number of scan processes on a scan host
     should be 1 to 2 times the number of CPU threads available.
+    
+    :::

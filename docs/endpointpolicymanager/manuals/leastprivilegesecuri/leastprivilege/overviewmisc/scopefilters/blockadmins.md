@@ -6,9 +6,12 @@ sidebar_position: 40
 
 # Scenario 3: Running or Elevating Applications or Installers, but Blocking Other Admins from Running Them
 
-**NOTE:** For an overview video of this section, see the
+:::note
+For an overview video of this section, see the
 [Elevate apps as standard user, BLOCK other Admins](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/appblock.md)
 video .
+:::
+
 
 In this scenario you want to do work with Endpoint Policy Manager Least Privilege Manager (Elevate,
 Allow, or Block) but prevent other admins (local admins or domain admins) from overcoming your rule.
@@ -25,8 +28,11 @@ Two rules:
 If you want to block only local admins (but not domain admins), then Rule #1 needs to look like
 this.
 
-**NOTE:** This group is not available when editing a GPO from a DC, and only available when creating
+:::note
+This group is not available when editing a GPO from a DC, and only available when creating
 the GPO from a Windows endpoint computer.)
+:::
+
 
 ![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_3_running_or_elevating.webp)
 

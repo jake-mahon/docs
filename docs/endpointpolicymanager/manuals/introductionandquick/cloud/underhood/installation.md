@@ -25,9 +25,12 @@ You might install the Endpoint Policy Manager Cloud client during a time when th
 connection, or some other issue might occur when your client initially joins Endpoint Policy Manager
 Cloud.
 
-**NOTE:** If you always use a proxy, and the Endpoint Policy Manager Cloud client cannot seem to
+:::note
+If you always use a proxy, and the Endpoint Policy Manager Cloud client cannot seem to
 contact the Endpoint Policy Manager services, please read this Endpoint Policy Manager KB article:
 [http://www.endpointpolicymanager.com/knowledge-base/client-installation-troubleshooting/i-always-use-a-proxy-and-the-cloud-client-cannot-seem-to-make-contact-with-the-services-see-faq-item-3-above-first-what-else-can-i-try.html](http://www.endpointpolicymanager.com/knowledge-base/client-installation-troubleshooting/i-always-use-a-proxy-and-the-cloud-client-cannot-seem-to-make-contact-with-the-services-see-faq-item-3-above-first-what-else-can-i-try.html).
+:::
+
 
 During installation, the Endpoint Policy Manager Cloud client will try to connect with Endpoint
 Policy Manager Cloud for a maximum of 60 seconds. If it is able to make a connection and acquire a

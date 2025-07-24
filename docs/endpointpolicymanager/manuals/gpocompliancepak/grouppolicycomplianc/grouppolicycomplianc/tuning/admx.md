@@ -46,9 +46,12 @@ The "Maximum check-ins per day" setting allows you to limit how many times per d
 `PPGPCR.Auditor.exe` will run on an endpoint automatically. The default maximum is 20 audits in a
 calendar day (not 24 hours from when the computer is started).
 
-**NOTE:** If you were to run `PPGPCR.Auditor.exe` with the /force switch to manually start the
+:::note
+If you were to run `PPGPCR.Auditor.exe` with the /force switch to manually start the
 auditing process, it would not count toward this maximum number. The` PPGPCR.Auditor.exe` can only
 run with the /force switch when run as SYSTEM (not as an admin).
+:::
+
 
 ## Time Period Allowed to Run
 

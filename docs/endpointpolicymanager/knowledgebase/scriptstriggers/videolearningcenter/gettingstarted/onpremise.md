@@ -10,6 +10,8 @@ and enables you to deliver settings MORE than once, use any language you want, a
 [https://www.endpointpolicymanager.com/pp-blog/group-policy-loopback](https://www.endpointpolicymanager.com/pp-blog/group-policy-loopback)
 so you can apply scripts to all users on the machine.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WVsQurIIJpY?si=vN94cOUbhE3JqYox" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### PolicyPak Scripts-Use with on-prem Group Policy
 
 Hi. This is Jeremy Moskowitz, former Group Policy MVP and Founder of Endpoint Policy Manager

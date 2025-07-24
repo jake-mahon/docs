@@ -21,8 +21,11 @@ NOTE: The Master Key certificate cannot be replaced by your own certificate.
 NOTE: The certificates for Master Key mode have an expiry date. However, this is not checked. The
 certificate thus does not need to be renewed.
 
-**CAUTION:** If the database is being moved to another server, it is essential that the Master Key
+:::warning
+If the database is being moved to another server, it is essential that the Master Key
 certificate is also transferred!
+:::
+
 
 #### Exporting and importing the certificate
 

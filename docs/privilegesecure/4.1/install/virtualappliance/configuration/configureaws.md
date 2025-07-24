@@ -42,9 +42,12 @@ Consider that this password will be used to connect to the instance where the pr
 deployed. It will also function as a service password for Netwrix Privilege Secure and SQL Server
 and Reporting Services.
 
-**NOTE:** You can always reset it later upon Netwrix Privilege Secure deployment completion. See the
+:::note
+You can always reset it later upon Netwrix Privilege Secure deployment completion. See the
 [Reset your Windows password](https://support.microsoft.com/en-us/help/14048/windows-7-reset-your-windows-password)
 Microsoft article for additional information.
+:::
+
 
 **Step 6 –** Select **Download Remote Desktop File** and launch the Remote Desktop Connection window
 by clicking the downloaded **RDP file**.

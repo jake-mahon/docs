@@ -18,12 +18,18 @@ this KB to apply to all your DCs:
 
 Then retry the Netwrix Endpoint Policy Manager (formerly PolicyPak) operation.
 
-**NOTE:** Troubleshooting Group Policy Replication problems is beyond the normal Endpoint Policy
+:::note
+Troubleshooting Group Policy Replication problems is beyond the normal Endpoint Policy
 Manager tech support, since it's not specifically a Endpoint Policy Manager issue. If you have a
 replication problem, here is our suggestion to help you overcome replication problems.
+:::
 
-**CAUTION:** These tips are USE AT YOUR OWN RISK, since Directory Services troubleshooting is beyond
+
+:::warning
+These tips are USE AT YOUR OWN RISK, since Directory Services troubleshooting is beyond
 the scope of the Endpoint Policy Manager troubleshooting support team.
+:::
+
 
 Symptoms: Everything might be running smoothly until you get inconsistent results upon clients when
 your Endpoint Policy Manager directives embedded within GPOs. Some of your workstations are
@@ -50,7 +56,10 @@ Here are some great troubleshooting tips however.
 
 ![3_1_troubleshooting-grou-policy-replication2](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/3_1_troubleshooting-grou-policy-replication2.webp)
 
-**NOTE:**
+:::note
+
+:::
+
 
 It's very possible the first GPO to express an error one that contains Endpoint Policy Manager
 directives. But it's equally likely that it's another GPO as well.

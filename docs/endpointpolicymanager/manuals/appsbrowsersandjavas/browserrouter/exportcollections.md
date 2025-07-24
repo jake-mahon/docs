@@ -22,7 +22,10 @@ to save an XML file for later use.
 
 Choose a policy and select Export to XML.
 
-**NOTE:** Exported collections or policies maintain any Item-Level Targeting that is set. Endpoint
+:::note
+Exported collections or policies maintain any Item-Level Targeting that is set. Endpoint
 Policy Manager Browser Router policies are always contained within collections, even if you export
 one single policy. In other words, a collection is automatically created at the time of export if
 you export a single policy.
+
+:::

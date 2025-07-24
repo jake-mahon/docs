@@ -14,33 +14,39 @@ solutions. Key information includes user status, user attributes, and group memb
 collected data is accessed by other Enterprise Auditor solutions and the Netwrix Access Information
 Center for analysis.
 
-**NOTE:** This solution is required for using the Access Information Center.
+:::note
+This solution is required for using the Access Information Center.
+:::
+
 
 This topic covers information on using the ADInventory Data Collector and the .Active Directory
 Inventory Job Group.
 
-Supported Platforms
+**Supported Platforms**
 
 - Windows 2003 Forest level or higher
 
-Permissions
+**Permissions**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
 
-Ports
+
+**Ports**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Location
+**Location**
 
 The .Active Directory Inventory Solution is a core component of all Enterprise Auditor
 installations. Typically this solution is instantiated during installation, but it can be installed

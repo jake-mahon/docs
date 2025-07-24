@@ -13,24 +13,24 @@ available with a special Enterprise Auditor license. See the
 [File System Solution](/docs/accessanalyzer/11.6/solutions/filesystem/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - Remote Registry
 - WMI
 
-Ports
+**Ports**
 
 - Ports vary based on the Scan Mode Option selected. See the
   [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md)
   topic for additional information.
 
-Permissions
+**Permissions**
 
 - Permissions vary based on the Scan Mode Option selected. See the
   [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
   topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -39,9 +39,12 @@ additional GB of RAM per host. By default, SDD scans are configured to run two c
 For example, if the job is configured to scan 8 hosts at a time with two concurrent SDD threads,
 then an extra 32 GB of RAM are required (8x2x2=32).
 
-_Remember,_ if employing either of the File System Proxy Mode as a Service scan mode options, it is
+:::tip
+Remember, if employing either of the File System Proxy Mode as a Service scan mode options, it is
 also necessary for the Sensitive Data Discovery Add-on to be installed on the server where the proxy
 service is installed.
+:::
+
 
 ## FSAA Query Configuration
 

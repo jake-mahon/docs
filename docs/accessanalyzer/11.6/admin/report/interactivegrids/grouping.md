@@ -9,8 +9,11 @@ sidebar_position: 10
 If grouping is enabled, the **Group by** field provides a drop-down list of categories by which the
 data can be grouped.
 
-**NOTE:** Grouping and filtering cannot be enabled at the same time. If grouping is enabled, the
+:::note
+Grouping and filtering cannot be enabled at the same time. If grouping is enabled, the
 Filter icon is disabled in the report.
+:::
+
 
 The following example shows an interactive grid in which grouping has been enabled. See the
 [Grid](/docs/accessanalyzer/11.6/admin/report/wizard/widgets.md#grid)

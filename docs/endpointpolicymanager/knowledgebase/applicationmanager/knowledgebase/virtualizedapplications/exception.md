@@ -25,5 +25,7 @@ DirectoryIsolationMode=FULL
 
 What this does is exclude the PolicyPak CSE files from interacting with the ThinApp application EXE.
 
-_Remember,_ This prevents PolicyPak from managing that application, but, works around any Exception
+:::tip
+Remember, This prevents PolicyPak from managing that application, but, works around any Exception
 Errors on launch.
+:::

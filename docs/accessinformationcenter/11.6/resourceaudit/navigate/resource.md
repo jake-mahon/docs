@@ -64,7 +64,10 @@ pane.
 
 These icons are designed to draw attention to resources where potential security concerns may exist.
 
-**NOTE:** The Domain Group icon is used to indicate both Active Directory groups and Entra ID
+:::note
+The Domain Group icon is used to indicate both Active Directory groups and Entra ID
 groups. See the
 [AIC Icons ](/docs/accessinformationcenter/11.6/resourceaudit/navigate/icons.md)topic
 for additional information.
+
+:::

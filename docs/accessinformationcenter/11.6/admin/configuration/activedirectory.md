@@ -52,8 +52,11 @@ the
 [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
-**NOTE:** All domains enabled to access the Access Information Center must also have data collected
+:::note
+All domains enabled to access the Access Information Center must also have data collected
 by the **.Active Directory Inventory** solution of Enterprise Auditor.
+:::
+
 
 ## Commit Group Membership changes
 
@@ -68,7 +71,10 @@ Directory service account to commit group membership changes. See the
 topic for additional information on provisioning the Active Directory service account and best
 practices for group and resource management through the Access Information Center
 
-_Remember,_ click **Save** when any changes are made to this page.
+:::tip
+Remember, click **Save** when any changes are made to this page.
+:::
+
 
 ## Update the Active Directory Service Account Password
 

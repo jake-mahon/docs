@@ -14,7 +14,7 @@ Manager preconfigured script.
 Check out this video to see Endpoint Policy Manager instantly remove junk from the Windows 10
 desktop… in no time flat.
 
-Removing Unwanted Windows Apps Using Endpoint Policy Manager and PDQ Deploy
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HAfS48RAz1I?si=MyV7Bq88X4zOS71-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Shane: Hey, everybody, I'm Shane.
 

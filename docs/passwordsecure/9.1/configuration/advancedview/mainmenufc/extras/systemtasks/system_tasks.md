@@ -17,7 +17,7 @@ represented as system tasks. Predefined tasks can thus be carried out at freely 
 
 The following options are required for managing system tasks.
 
-User right
+**User right**
 
 - Can manage Active Directory system tasks
 - Can manage system task reports
@@ -63,27 +63,27 @@ shows an HTML WebViewer export to be configured.
 
 ![installation_with_parameters_87](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_87.webp)
 
-WebViewer generator
+**WebViewer generator**
 
 - Filter: The passwords that should be exported are defined using a filter.
 - Password: The HTML WebViewer creates an encrypted HTML file. The password is defined here and must
   then be confirmed.
 
-Reports
+**Reports**
 
 - Report request: The report requests defined in Reports are available and can be selected here.
 
-Discovery Service
+**Discovery Service**
 
 - The Discovery Service scans the network and lists all of the services for which a service user has
   been saved. These can then be maintained using Netwrix Password Secure. The information collected
   can then be directly transferred to the Password Reset for this purpose.
 
-Active Directory synchronization
+**Active Directory synchronization**
 
 - The Active Directory profile required for the synchronization is selected from those available.
 
-Emergency WebViewer export
+**Emergency WebViewer export**
 
 - The Emergency WebViewer export creates an encrypted HTML file that contains all passwords. In an
   emergency, the data required to get the system up and running again can be accessed in this file.
@@ -91,7 +91,7 @@ Emergency WebViewer export
 NOTE: Tags could be defined for individual tasks – yet they have no relevance and can also not be
 used as filter criteria in the system tasks.
 
-Status
+**Status**
 
 A corresponding note will be displayed to indicate if a task is currently being executed.
 

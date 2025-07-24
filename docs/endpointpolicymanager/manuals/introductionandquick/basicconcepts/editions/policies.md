@@ -8,7 +8,10 @@ sidebar_position: 30
 
 Endpoint Policy Manager policies are configurable items which perform work on the endpoint.
 
-**NOTE:** Policies are also known as components, and that wording may be used interchangeably.
+:::note
+Policies are also known as components, and that wording may be used interchangeably.
+:::
+
 
 Each policy has a different function, so we are going to briefly explore what these components can
 do for you. Remember, you may use any of the solution methods to deploy a policy, provided your
@@ -44,12 +47,15 @@ machines.
 For more information on this topic, please see this video:
 [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/videolearningcenter.md) > Privilege Manager.
 
-**NOTE:** Note that Endpoint Policy Manager Least Privilege Manager has two versions: Standard and
+:::note
+Note that Endpoint Policy Manager Least Privilege Manager has two versions: Standard and
 Complete. If a customer is a Endpoint Policy Manager Enterprise or SaaS customer, they get Least
 Privilege Manager Complete. If the customer is a Endpoint Policy Manager Professional customer, they
 can decide between Least Privilege Manager Standard or Complete. For an overview of the two
 versions, check out this page:
 [https://www.endpointpolicymanager.com/paks/least-privilege-security-pak/](https://www.endpointpolicymanager.com/paks/least-privilege-security-pak/).
+:::
+
 
 ## Browser Router
 
@@ -117,10 +123,13 @@ using Microsoft SCCM, Windows Intune, or your own systems management software. I
 Endpoint Policy Manager Cloud or your own MDM service, Endpoint Policy Manager Preferences Manager
 deploys Group Policy Preference items over the Internet, even to non-domain-joined machines.
 
-**NOTE:** The license for this policy is not provided unless specifically requested by the customer
+:::note
+The license for this policy is not provided unless specifically requested by the customer
 when Endpoint Policy Manager is used with the Group Policy delivery mechanism. For more details on
 why the license is not automatically provided, please see the following link:
 [Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/knowledgebase/exportinggrouppolicypreferences/componentlicense.md).
+:::
+
 
 **Note**: For more information on this topic, please see this
 video:[Preferences Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/preferences/overview.md)
@@ -146,9 +155,12 @@ Endpoint Policy Manager Start Screen & Taskbar Manager enables you to map specif
 It gives you granular control to create groups of individual tiles and locks those groups down.
 Additionally, you can use this component to pin items to the Windows 10 taskbar.
 
-**NOTE:** You may wish to watch our Quickstart videos of Endpoint Policy Manager Start Screen &
+:::note
+You may wish to watch our Quickstart videos of Endpoint Policy Manager Start Screen &
 Taskbar Manager: Start Screen & Task Bar Manager >
 [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/videolearningcenter.md).
+:::
+
 
 **Note**: For more information on this topic, please see this video:
 [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/videolearningcenter.md) > Start Screen & Task

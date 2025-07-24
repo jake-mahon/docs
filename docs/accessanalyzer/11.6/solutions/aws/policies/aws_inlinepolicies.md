@@ -14,8 +14,11 @@ to a user or group.
 Navigate to the **AWS** > **5.Policies** > **AWS_InlinePolicies** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_InlinePolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/policies/inlinepoliciesanalysis.webp)
 
@@ -31,6 +34,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_InlinePolicies job
 produces the following pre-configured report:
 
-| Report          | Description                                                                               | Default Tags | Report Element                                                                                                                                                                                         |
-| --------------- | ----------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Inline Policies | This report identifies AWS Inline Policies that are assigned directly on an AWS Identity. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays inline policies by account - Table – Shows inline policies by account - Table – Provides details on inline policies |
+| Report          | Description                                                                               | Default Tags | Report Element                                                                                                                                                                                                                     |
+| --------------- | ----------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Inline Policies | This report identifies AWS Inline Policies that are assigned directly on an AWS Identity. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays inline policies by account</li><li>Table – Shows inline policies by account</li><li>Table – Provides details on inline policies</li></ul> |
+

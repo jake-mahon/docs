@@ -111,5 +111,8 @@ the Enterprise Auditor pop-up window to confirm the merge.
 
 Changes between releases are tracked. Only jobs that are locked can be upgraded.
 
-**NOTE:** Jobs that are included in Enterprise Auditor are locked and changes cannot be made to
+:::note
+Jobs that are included in Enterprise Auditor are locked and changes cannot be made to
 those jobs.
+
+:::

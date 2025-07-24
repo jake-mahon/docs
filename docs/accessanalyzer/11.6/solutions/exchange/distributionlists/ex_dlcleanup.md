@@ -15,19 +15,23 @@ should be reviewed and cleaned up.
 View the analysis task by navigating to the **Exchange** > **6. Distribution Lists** >
 **EX_DLCleanup** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_DLCleanup Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/dlcleanupanalysis.webp)
 
 The following analysis task is selected by default:
 
--   1. DL Cleanup – Creates the SA_EX_GroupCleanup_GroupSummary table, accessible under the job’s
+-   **1. DL Cleanup** – Creates the SA_EX_GroupCleanup_GroupSummary table, accessible under the job’s
        Results node
 
 In addition to the tables and views created by the analysis task, the EX_DLCleanup job produces the
 following pre-configured report:
 
-| Report                                                 | Description                                                                               | Default Tags | Report Elements                                                                          |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------- |
-| Distribution List Cleanup (Distribution List Overview) | This report identifies common issues which may affect distribution list group membership. | None         | This report is comprised of one element: - Table – Provides a distribution list overview |
+| Report                                                 | Description                                                                               | Default Tags | Report Elements                                                                                          |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------- |
+| Distribution List Cleanup (Distribution List Overview) | This report identifies common issues which may affect distribution list group membership. | None         | This report is comprised of one element: <ul><li>Table – Provides a distribution list overview</li></ul> |
+

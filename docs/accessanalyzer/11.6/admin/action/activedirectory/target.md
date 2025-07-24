@@ -33,5 +33,8 @@ Use the following options to configure the action:
     - E-Mail
     - Employee (employeeID)
 
-**NOTE:** While one field is usually sufficient to identify AD objects, if specifying multiple
+:::note
+While one field is usually sufficient to identify AD objects, if specifying multiple
 fields, each field type can only be used once.
+
+:::

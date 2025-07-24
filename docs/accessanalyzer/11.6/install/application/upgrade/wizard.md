@@ -6,23 +6,32 @@ sidebar_position: 20
 
 # Enterprise Auditor Core Upgrade Instructions
 
-**CAUTION:** If Role Based Access has been enabled, a user with the Administrator role must perform
+:::warning
+If Role Based Access has been enabled, a user with the Administrator role must perform
 the upgrade. Other user roles do not have the necessary permissions to perform upgrades.
+:::
+
 
 Follow the steps to upgrade to Enterprise Auditor 11.6 on the same server where an older version of
 Enterprise Auditor is installed.
 
-**NOTE:** If any customizations have been done by a Netwrix Engineer, please ensure the custom work
+:::note
+If any customizations have been done by a Netwrix Engineer, please ensure the custom work
 is not lost during the upgrade process. While using the Upgrade Wizard, customizations are archived
 prior to solution upgrades. These archives are available after the solution upgrades have been
 completed. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
 information.
+:::
 
-**CAUTION:** The new global Settings will overwrite any previously configured Sensitive Data
+
+:::warning
+The new global Settings will overwrite any previously configured Sensitive Data
 criteria. Make a note of any configured Sensitive Data Criteria before upgrading Enterprise Auditor.
 Sensitive Data Criteria must be reconfigured after an upgrade. See the
 [Configure Global Sensitive Data Settings](/docs/accessanalyzer/11.6/install/application/upgrade/solutionconsiderations.md#configure-global-sensitive-data-settings)
 topic for additional information.
+:::
+
 
 ![Windows Control Panel Uninstall or change a program window](/img/product_docs/accessanalyzer/11.6/install/application/controlpaneluninstall.webp)
 
@@ -34,7 +43,7 @@ files, and reports remain in the installation directory after the uninstall proc
   folder of the installation directory. Any custom application settings contained in this file are
   kept as part of this upgrade process.
 
-![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/upgrade/welcome.webp)
+![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/welcome.webp)
 
 **Step 2 –** Install Enterprise Auditor 11.6. See the
 [Enterprise Auditor Core Installation](/docs/accessanalyzer/11.6/install/application/wizard.md)
@@ -88,8 +97,11 @@ upgrade is complete. Conflict resolution can be done on the Changes window by un
 customization. However, if the conflict is undone prior to a solution upgrade, then the
 customization will not be archived.
 
-**CAUTION:** If Role Based Access has been enabled, a user with the Administrator role must perform
+:::warning
+If Role Based Access has been enabled, a user with the Administrator role must perform
 the upgrade. Other user roles do not have the necessary permissions to perform upgrades.
+:::
+
 
 Follow the steps to use the Upgrade Wizard.
 
@@ -100,15 +112,21 @@ Enterprise Auditor icon on the desktop.
 
 **Step 2 –** The Enterprise Auditor Configuration Wizard opens. Click **Next** to continue.
 
-**NOTE:** When Enterprise Auditor11.6 is installed on a server where a previous version of
+:::note
+When Enterprise Auditor11.6 is installed on a server where a previous version of
 Enterprise Auditor had been installed, the Version Selection page of the Configuration Wizard will
 not appear.
+:::
+
 
 ![Configuration Wizard Solution Set Files page with conflicts](/img/product_docs/accessanalyzer/11.6/install/application/upgrade/solutionsetfiles.webp)
 
 **Step 3 –** On the Solution Set Files page, only upgrade conflicts are displayed by default.
 
-**_RECOMMENDED:_** Investigate the changes where conflicts have been identified before proceeding.
+:::info
+Investigate the changes where conflicts have been identified before proceeding.
+:::
+
 
 **Step 4 –** (Optional) Select an item with the Conflict State and click **View conflicts** to open
 the Changes window.

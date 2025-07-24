@@ -10,7 +10,10 @@ sidebar_position: 60
 
 Use Least Privilege Manager to Elevate the install of MyKi Password Manager for the standard user.
 
-**NOTE:** This option requires less rules to be created than option 2.
+:::note
+This option requires less rules to be created than option 2.
+:::
+
 
 ![844_1_image-20210705210753-1_950x127](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/844_1_image-20210705210753-1_950x127.webp)
 
@@ -43,8 +46,11 @@ select only **Signature** and **File Info** before clicking **Next**.
 **Step 6 –** Under the **Combo condition** > **Select reference file** drop down, choose From EXE
 file, then browse to and select `%LocalAppData%\myki\MYKI.exe`.
 
-**NOTE:** This file can be found at the specified location only after a successful MyKi
+:::note
+This file can be found at the specified location only after a successful MyKi
 installation.
+:::
+
 
 **Step 7 –** Click **Yes** when prompted, then click **Next** to continue.
 
@@ -62,8 +68,11 @@ installation.
 
 Create Allow and Log rules for a Standard user to be able to install and run MyKi Password Manager.
 
-**NOTE:** If the user has already installed MyKi using their standard user account, then use this
+:::note
+If the user has already installed MyKi using their standard user account, then use this
 option.
+:::
+
 
 ![844_10_image-20210705210753-10_950x133](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/844_10_image-20210705210753-10_950x133.webp)
 
@@ -123,8 +132,11 @@ select only **Signature** and **File Info** before clicking **Next**.
 **Step 10 –** Under the **Combo condition** > **Select reference file** drop-down, choose **From EXE
 file** then browse to and select `%LocalAppData%\myki\MYKI.exe`.
 
-**NOTE:** This file can be found at the specified location only after a successful MyKi
+:::note
+This file can be found at the specified location only after a successful MyKi
 installation.
+:::
+
 
 **Step 11 –** Click **Yes** when prompted, then click **Next** to continue.
 

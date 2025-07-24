@@ -12,11 +12,17 @@ be provided while installing the application.
 
 Follow the steps to install the PostgreSQL database application.
 
-**CAUTION:** The PostgreSQL database application must be installed before the application.
+:::warning
+The PostgreSQL database application must be installed before the application.
+:::
 
-**NOTE:** These steps assume you have launched the installer through the Netwrix Setup Launcher
+
+:::note
+These steps assume you have launched the installer through the Netwrix Setup Launcher
 `(Netwrix_Setup.exe`). If you are not using the launcher, right-click on `NetwrixPostgreSQL14.exe`
 and select Run as administrator. Then skip to Step 2.
+:::
+
 
 ![Netwrix Setup Launcher](/img/product_docs/threatprevention/7.4/install/reportingmodule/setuplauncher.webp)
 
@@ -26,7 +32,7 @@ and select Run as administrator. Then skip to Step 2.
 
 **Step 2 –** Click Install.
 
-![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/threatprevention/7.4/install/reportingmodule/eula.webp)
+![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/threatprevention/7.4/install/reportingmodule/eula_1.webp)
 
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click Next.

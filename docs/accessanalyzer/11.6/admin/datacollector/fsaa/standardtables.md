@@ -14,7 +14,7 @@ these tables regardless of the job executing the query.
 
 The tables and their associated views are grouped by types.
 
-Structure Tables
+**Structure Tables**
 
 | Tables                | Details                                                                                                                                                                                                      |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -22,7 +22,7 @@ Structure Tables
 | SA_FSAA_ImportHistory | Contains historical information about the import process for each host that is imported                                                                                                                      |
 | SA_FSAA_Resources     | Contains information about all audited resources, which can be file shares or folders. This provides information on the hierarchy relationship and references to the name and rights applied to that folder. |
 
-Trustee Tables
+**Trustee Tables**
 
 | Tables                     | Details                                                                                                                                                                                                                                |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +30,7 @@ Trustee Tables
 | SA_FSAA_LocalTrustees      | Contains information about any trustees that do not belong to a domain, primarily local users and local groups                                                                                                                         |
 | SA_FSAA_TrusteeEquivalence | Contains information about Local Group membership. The trustees described can be found in the SA_FSAA_LocalTrustees table.                                                                                                             |
 
-Access Calculation Tables
+**Access Calculation Tables**
 
 | Tables             | Details                                                                                                                                                                                                                                                                                                            |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -40,14 +40,14 @@ Access Calculation Tables
 | SA_FSAA_Policies   | Contains information about what trustees are allowed or denied through the policies described in the SA_FSAA_Gates table                                                                                                                                                                                           |
 | SA_FSAA_UnixRights | Contains information about permissions as they exist within the targeted Unix environment                                                                                                                                                                                                                          |
 
-Calculated Tables
+**Calculated Tables**
 
 | Tables                 | Details                                                                                                                                                                                                                                                                             |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SA_FSAA_Exceptions     | Contains information about security issues and concerns. One out-of-box exception stored inside this table is the Open Shares exception. This exception identifies where resources which are open to Everyone, Authenticated Users, or Domain users are located.                    |
 | SA_FSAA_ExceptionTypes | Identifies how many instances of exceptions exist on the audited hosts. This table will contain a row for each exception type for each host. Exceptions are specific conditions set forth by Enterprise Auditor that are considered to be issues, such as folders with open access. |
 
-Folder Content Tables
+**Folder Content Tables**
 
 | Tables                 | Details                                                                                                                                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@ Folder Content Tables
 | SA_FSAA_TagProxies     | Contains the unique combination of the TagID and TagProxyID                                                                                                                                     |
 | SA_FSAA_Tags           | Contains file tags and the unique ID                                                                                                                                                            |
 
-System Tables
+**System Tables**
 
 | Tables              | Details                                                        |
 | ------------------- | -------------------------------------------------------------- |
@@ -72,7 +72,7 @@ FSAA Data Collector. They contain additional information for building queries ea
 is an explanation of the corresponding views created for some of the tables generated by the FSAA
 Data Collector:
 
-Permission Views
+**Permission Views**
 
 | Views                            | Details                                                                                                                 |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -83,7 +83,7 @@ Permission Views
 | SA_FSAA_EffectiveAccessView      | Correlates share folder permissions and group membership                                                                |
 | SA_FSAA_ExceptionsView           | Contains how many instances of exceptions exist on the audited hosts                                                    |
 
-Resources Views
+**Resources Views**
 
 | Views                       | Details                                                                                                                                                                                                                                                                                                     |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -91,7 +91,7 @@ Resources Views
 | SA_FSAA_SharesTraversalView | Contains information about shared folders. It also provides useful information for the locations of these resources, including the local and network paths. Additionally, mount/junction points will show as a normal path traversal, unless the mount/junction point has system and hidden attributes set. |
 | SA_FSAA_Paths               | Contains information about the full paths to every distinct folder location for which permissions have been scanned and child folders exist                                                                                                                                                                 |
 
-Additional Views
+**Additional Views**
 
 | Views                         | Details                                                                                       |
 | ----------------------------- | --------------------------------------------------------------------------------------------- |
@@ -101,7 +101,7 @@ Additional Views
 
 The tables and their associated views are grouped by types.
 
-Activity Changes Tables (FSAC)
+**Activity Changes Tables (FSAC)**
 
 | Tables                     | Details                                                                                                                                            |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -121,7 +121,7 @@ FSAA Data Collector. They contain additional information for building queries ea
 is an explanation of the corresponding views created for some of the tables generated by the FSAA
 Data Collector:
 
-Activity Change Views (FSAC)
+**Activity Change Views (FSAC)**
 
 | Views                             | Details                                                                   |
 | --------------------------------- | ------------------------------------------------------------------------- |
@@ -137,7 +137,7 @@ Activity Change Views (FSAC)
 
 The tables and their associated views are grouped by types.
 
-FSDFS Tables
+**FSDFS Tables**
 
 | Tables              | Details                                                                                                        |
 | ------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -149,7 +149,7 @@ FSAA Data Collector. They contain additional information for building queries ea
 is an explanation of the corresponding views created for some of the tables generated by the FSAA
 Data Collector:
 
-FSDFS Views
+**FSDFS Views**
 
 | Views                            | Details                               |
 | -------------------------------- | ------------------------------------- |
@@ -159,7 +159,7 @@ FSDFS Views
 
 The tables and their associated views are grouped by types.
 
-FSDLP Tables
+**FSDLP Tables**
 
 | Tables                            | Details                                                                                                                  |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -174,7 +174,7 @@ FSAA Data Collector. They contain additional information for building queries ea
 is an explanation of the corresponding views created for some of the tables generated by the FSAA
 Data Collector:
 
-FSDLP Views
+**FSDLP Views**
 
 | Views                  | Details                                                                                    |
 | ---------------------- | ------------------------------------------------------------------------------------------ |

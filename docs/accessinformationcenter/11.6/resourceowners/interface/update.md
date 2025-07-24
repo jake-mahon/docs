@@ -12,22 +12,25 @@ The Update resource wizard is opened with the **Update** button in the Resource 
 
 It contains four pages:
 
--   1. Select Owners — Lists the current owner(s). Modify by adding new owners, removing owners, or
+-   **1. Select Owners** — Lists the current owner(s). Modify by adding new owners, removing owners, or
        changing owner priority order (primary, secondary, etc.)
--   2. Description — Enter or modify a note describing the resource
--   3. Access Groups — Enable or disable Access Requests and Owner Ad Hoc changes for this resource.
+-   **2. Description** — Enter or modify a note describing the resource
+-   **3. Access Groups** — Enable or disable Access Requests and Owner Ad Hoc changes for this resource.
        When File System or SharePoint resources will be managed through the AIC, it is necessary to
        configure access groups for those resources in the target environment. An access group
        provides one of the following access levels to a specific resource: Read, Modify, or Full
        Control.
 
-    **NOTE:** This feature requires the Access Information Center is to be configured to commit
+    :::note
+    This feature requires the Access Information Center is to be configured to commit
     changes in Active Directory. Additionally, resource based groups must be set up on the resource.
     See the
     [Commit Active Directory Changes](/docs/accessinformationcenter/11.6/admin/additionalconfig/commitchanges.md) topic
     for additional information.
+    :::
 
--   4. Summary — Provides a preview of the settings selected within the wizard
+
+-   **4. Summary** — Provides a preview of the settings selected within the wizard
 
 See the [Update a Resource](#update-a-resource) topic for additional information.
 
@@ -49,8 +52,11 @@ click **Next** to continue.
 - Remove an owner — Select an owner and click **Remove**
 - Change owner priority — Select an owner and use the arrow buttons to change the order
 
-_Remember,_ the first owner in the list is the primary owner. The table has several columns with
+:::tip
+Remember, the first owner in the list is the primary owner. The table has several columns with
 information on the owners:
+:::
+
 
 - Owner Name — Name of the assigned owner
 - Owner Account — sAMAccountName associated with the owner, as read from Active Directory
@@ -77,7 +83,8 @@ Requests or Owner Ad Hoc changes. Modify as desired and click **Next** to contin
 - Allow owners to change access — Enable/Disable the owner to make ad hoc access changes for this
   resource
 
-**NOTE:** File System and SharePoint resources must have resource based groups configured for each
+:::note
+File System and SharePoint resources must have resource based groups configured for each
 level of access: Read, Modify, and Full Control. If either option is selected for this resource, it
 is necessary to set a group for at least one access level. Select the desired access level and click
 **Change**. The Select Group Window opens. Select the desired group and click **OK**. The Select
@@ -85,6 +92,8 @@ Group window closes and the group appears in the table. Repeat this step for eac
 desired. See the
 [Select Group Window](/docs/accessinformationcenter/11.6/resourceowners/interface/selectgroup.md)
 topic for additional information.
+:::
+
 
 ![Update resource wizard showing 4. Summary page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/summary.webp)
 

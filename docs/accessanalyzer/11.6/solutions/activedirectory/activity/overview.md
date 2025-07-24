@@ -14,7 +14,10 @@ injection on domain controllers.
 The jobs that comprise the 6.Activity Job Group collect data, process analysis tasks, and generate
 reports.
 
-_Remember,_ this job group requires the Active Directory Activity license.
+:::tip
+Remember, this job group requires the Active Directory Activity license.
+:::
+
 
 ![6.Activity Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/jobstree.webp)
 

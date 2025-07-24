@@ -28,8 +28,11 @@ If none of the times work for you, contact your Endpoint Policy Manager sales pe
 It will help you to quickly understand all the moving parts to Endpoint Policy Manager and it
 answers more than 90% of use cases and installation questions.
 
-**_RECOMMENDED:_** Learn about what you already own/what it can do. Sign up for the IT Admin webinar
+:::info
+Learn about what you already own/what it can do. Sign up for the IT Admin webinar
 at: [https://www.endpointpolicymanager.com/demo/](https://www.endpointpolicymanager.com/demo/)
+:::
+
 
 ## Verify Logins for Portal and Cloud
 
@@ -48,7 +51,10 @@ Login page at Endpoint Policy Manager.com:
 - If you are unable to logon as expected as a customer, open a ticket to contact
   [Netwrix Support](https://www.netwrix.com/tickets.html#netwrix-support).
 
-**NOTE:** The credentials are not shared or single sign on between Portal and Cloud service.
+:::note
+The credentials are not shared or single sign on between Portal and Cloud service.
+:::
+
 
 ## Quick Start and Implementation Topics
 
@@ -93,13 +99,19 @@ way to get oriented on the navigation.
 
 ## Get Help from Support
 
-**CAUTION:** Email is no longer monitored at the old support @endpointpolicymanager.com email address.
+:::warning
+Email is no longer monitored at the old support @endpointpolicymanager.com email address.
+:::
+
 
 To get help during a Trial or as a customer, it is the same motion. Open a ticket to contact
 [Netwrix Support](https://www.netwrix.com/tickets.html#netwrix-support).
 
-**NOTE:** The Netwrix ticket portal is another set of credentials and is not related to Endpoint
+:::note
+The Netwrix ticket portal is another set of credentials and is not related to Endpoint
 Policy Manager Portal or Endpoint Policy Manager Cloud.
+:::
+
 
 Reasons to Contact Endpoint Policy Manager Support
 

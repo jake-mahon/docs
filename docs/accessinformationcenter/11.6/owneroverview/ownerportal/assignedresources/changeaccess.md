@@ -15,17 +15,17 @@ the resource by the Ownership Administrators.
 This wizard has four pages, but you will only be directed to the pages applicable to your selection
 on the first page:
 
--   1. Select Change — Choose between adding access for a new user and changing access for an
+-   **1. Select Change** — Choose between adding access for a new user and changing access for an
        existing user
--   2. Add Access — Select new user and identify access level. See the [Add Access](#add-access)
+-   **2. Add Access** — Select new user and identify access level. See the [Add Access](#add-access)
        topic for additional information.
 
     - New users can be imported in bulk from a CSV file. See the
       [Import Users CSV File](#import-users-csv-file) topic for additional information.
 
--   3. Change Access — Select users and indicate a new access level. See the
+-   **3. Change Access** — Select users and indicate a new access level. See the
        [Change Access](#change-access) topic for additional information.
--   4. Add Notes — Enter notes that will be included in the notification sent to the user (if
+-   **4. Add Notes** — Enter notes that will be included in the notification sent to the user (if
        selected) and recorded with the historical record of this change
 
 ## Add Access
@@ -49,8 +49,11 @@ you type. You can also import a list of users by clicking **Import**, navigating
 and clicking **Open** to select the file. See the [Import Users CSV File](#import-users-csv-file)
 topic for additional information.
 
-**NOTE:** All users in the list will be given the same level of access. Use the **Remove** button to
+:::note
+All users in the list will be given the same level of access. Use the **Remove** button to
 remove a selected user from the list.
+:::
+
 
 **Step 4 –** When the user list is complete, select the desired access level from the drop-down
 menu.
@@ -74,18 +77,24 @@ menu.
 
 **Step 7 –** Click **Next**. The Access Information Center will begin to process the updates.
 
-_Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
+:::tip
+Remember, Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
+:::
+
 
 ![Change Resource Access wizard completed updates message](/img/product_docs/accessinformationcenter/11.6/resourceowners/ownerportal/completed.webp)
 
 **Step 8 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.
 
-**NOTE:** If an error is reported on the Commit page, it indicates the access changes could not be
+:::note
+If an error is reported on the Commit page, it indicates the access changes could not be
 made. Reach out to the Ownership Administrator. If an existing request is pending, approve the
 request on the Pending Requests tab of the Access Requests page via the **Access Requests** link on
 the Actions panel.
+:::
+
 
 The access changes that completed successfully can be viewed in the History tab of the Access
 Requests page via the **Access Requests** link on the Actions panel.
@@ -134,18 +143,24 @@ drop-down menu.
 explaining the reason for the change. Click **Next**. The Access Information Center will begin to
 process the updates.
 
-_Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
+:::tip
+Remember, Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
+:::
+
 
 ![Change Resource Access wizard completed updates message](/img/product_docs/accessinformationcenter/11.6/resourceowners/ownerportal/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.
 
-**NOTE:** If an error is reported on the Commit page, it indicates the access changes could not be
+:::note
+If an error is reported on the Commit page, it indicates the access changes could not be
 made. Reach out to the Ownership Administrator. If an existing request is pending, process the
 request on the Pending Requests tab of the Access Requests page via the **Access Requests** link on
 the Actions panel.
+:::
+
 
 The access changes that completed successfully can be viewed in the History tab of the Access
 Requests page via the **Access Requests** link on the Actions panel.

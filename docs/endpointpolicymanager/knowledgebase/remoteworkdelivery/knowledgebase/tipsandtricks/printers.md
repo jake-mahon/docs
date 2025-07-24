@@ -13,7 +13,10 @@ For Example:
 
 ![571_1_image-20210320020022-1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/571_1_image-20210320020022-1.webp)
 
-**NOTE:** This zip should contain the driver INF file for the printer to be installed.
+:::note
+This zip should contain the driver INF file for the printer to be installed.
+:::
+
 
 ![571_2_image-20210320020022-2](/img/product_docs/endpointpolicymanager/remoteworkdelivery/571_2_image-20210320020022-2.webp)
 
@@ -39,7 +42,10 @@ click **Next**.
 **Step 6 –** Specify the target folder on the endpoint(s) where you would like the zip to be
 downloaded to, provide the file name for the destination, then click **Next**. 
 
-**NOTE:** The target folder will be created if it does not exist
+:::note
+The target folder will be created if it does not exist
+:::
+
 
 ![571_7_image-20210320020022-7](/img/product_docs/endpointpolicymanager/remoteworkdelivery/571_7_image-20210320020022-7.webp)
 
@@ -78,6 +84,9 @@ Plus PS3" in this example) must match one of the names in the INF file!
 **Step 11 –** Run GPUPDATE on an endpoint that receives this policy to test, then verify under
 Printers & Scanners that you see the printer installed.
 
-**NOTE:** The printer may take around 30 seconds to install.
+:::note
+The printer may take around 30 seconds to install.
+:::
+
 
 ![571_13_image-20210320020022-13](/img/product_docs/endpointpolicymanager/remoteworkdelivery/571_13_image-20210320020022-13.webp)

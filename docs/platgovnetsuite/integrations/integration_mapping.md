@@ -8,23 +8,17 @@ sidebar_position: 10
 
 The Integration Mapping tool maps customizations between External Systems and NetSuite.
 
-Here is the basic process. You can click on any of the steps to jump to the section.
+Here is the basic process. 
 
-Step 1: Create the External System Customization record. (optional)
+1. Create the External System Customization record. (optional)
+2. Create a **.csv** file.
+3. Open Integration Mapping tool.
+4. Select or Enter the External System.
+5. Upload your **.csv** file.
+6. Review and Finish.
+7. View the Summary and ERD.
 
-Step 2: Create a **.csv** file.
-
-Step 3: Open Integration Mapping tool.
-
-Step 4: Select or Enter the External System.
-
-Step 5: Upload your **.csv** file.
-
-Step 6: Review and Finish.
-
-Step 7: View the Summary and ERD.
-
-## Step 1: Create the External System Customization Record
+## Create the External System Customization Record
 
 You can create the External System before using the mapping tool. If you do not create the External
 System, it can be automatically created by the tool.
@@ -36,7 +30,7 @@ System, it can be automatically created by the tool.
 4. Select **External System** from the **Type** list.
 5. Click **Save**.
 
-## Step 2: Create a .csv file
+## Create a .csv file
 
 The **.csv** file is where you specify the customization mapping between the External System and
 NetSuite. The file is uploaded when you run the tool. You can create a file with the specified
@@ -54,7 +48,7 @@ Do not change the specified headings. Here is the template:
 - **Target Object Name or ScriptID** is the Object’s **Name** or **ScriptID** in NetSuite.
 - **NS Parent** is the **Parent** of the **Target Object** in NetSuite.
 
-## Step 3: Open Integration Mapping tool
+## Open Integration Mapping tool
 
 The Mapping Tool menu item is hidden by default. If you do not see the option in your menu, refer to
 the [Managing Menus](/docs/platgovnetsuite/installation/managing_menus.md) topic for information on making it
@@ -64,7 +58,7 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
 
 **![int_mapping_menu](/img/product_docs/platgovnetsuite/integrations/int_mapping_menu.webp)**
 
-## Step 4: Select or Enter the External System
+## Select or Enter the External System
 
 1. Select an existing External System from the list if you created it during Step 1, or Enter a new
    name to have the tool automatically create a new External System, for example: _Salesforce_.
@@ -75,7 +69,7 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
 2. You can use the link to download the **.csv** template if you have not already created the file.
 3. Click **Next** to continue.
 
-## Step 5: Upload your .csv file
+## Upload your .csv file
 
 1. Click **Choose File**.
 
@@ -84,7 +78,7 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
 2. Navigate to the**.csv file** containing your mappings.
 3. Click **Next** to continue.
 
-## Step 6: Review and Finish
+## Review and Finish
 
 1. Review customization mappings. If you entered a **ScriptID** in your **.csv**, the associated
    **Link Object** is shown.
@@ -108,7 +102,7 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
 4. Click [X] to remove a **Link Object**.
 5. Click **Finish** to begin the mapping.
 
-## Step 7: View the Summary and ERD
+## View the Summary and ERD
 
 1. Check the Summary for any **Import Errors**.
 

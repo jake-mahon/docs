@@ -24,8 +24,11 @@ If you want to test if a particular version is still published, you can use a UR
 
 This will indicate to you if the extension is still published or not.
 
-**NOTE:** Edge Chromium uses the same PPBR Chrome Extension.You can see the extension ID in Edge
+:::note
+Edge Chromium uses the same PPBR Chrome Extension.You can see the extension ID in Edge
 Chromium by visiting edge://extensions from within Edge Chromium.
+:::
+
 
 ![202_1_image-20220105135628-1](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/clientsideextension/202_1_image-20220105135628-1.webp)
 

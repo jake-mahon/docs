@@ -10,9 +10,12 @@ If there’s no Endpoint Policy ManagerLeast Privilege Manager rule to automatic
 application (or allow it to bypass SecureRun™), the user is prompted with a special dialog to
 request access.
 
-**NOTE:** See the [Admin Approval demo](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/demo.md) video for
+:::note
+See the [Admin Approval demo](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/demo.md) video for
 Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager Admin Approval mode setup and
 in action.
+:::
+
 
 Endpoint Policy Manager (formerly PolicyPak) Least Privilege Managerr’s Admin Approval works as if
 the person with the Admin Approval Tool has a shared secret, which is a secret key that is deployed
@@ -25,9 +28,12 @@ There are three parts to Admin Approval:
 - Securing the secret key (if using Group Policy method)
 - The Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager Admin Approval Tool
 
-**NOTE:** The secret key must be delivered to the computer. You cannot deploy the key to the user.
+:::note
+The secret key must be delivered to the computer. You cannot deploy the key to the user.
 You could have one secret key for all computers and all admins, or you could have a secret key for
 only some computers and some admins.
+:::
+
 
 Admin Approval will show the user the Endpoint Policy Manager Admin Approval prompt instead of the
 Windows UAC prompt when any of the following conditions are true:

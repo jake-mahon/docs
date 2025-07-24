@@ -12,13 +12,16 @@ initial install of the Enterprise Manager package. See the
 [Application Server Install](/docs/threatprevention/7.4/install/application.md)
 topic for additional information.
 
-_Remember,_ the host, port, and user for the NVMonitorConfig and NVMonitorData databases are
+:::tip
+Remember, the host, port, and user for the NVMonitorConfig and NVMonitorData databases are
 displayed on the
 [Events Database Configuration Window](/docs/threatprevention/7.4/admin/configuration/eventsdatabaseconfiguration.md).
 The current Archive Database settings are located on the Archive DB tab of the Database Maintenance
 window. See the
 [Archive Data](/docs/threatprevention/7.4/admin/configuration/databasemaintenance/archive.md)
 topic for additional information.
+:::
+
 
 Follow the steps to manage database settings on the DB Connection Manager Wizard.
 
@@ -37,7 +40,7 @@ Connection Manager wizard.
   ellipsis (...) to locate the configuration file if it is not available at the default location.
   The default location is:
 
-  ...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\SIEnterpriseManager.exe.config
+**...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\SIEnterpriseManager.exe.config**
 
 The Database Connection Manager application generates a new connection string to either the
 NVMonitorConfig/NVMonitorData database or the Archive database. To update either of these strings,

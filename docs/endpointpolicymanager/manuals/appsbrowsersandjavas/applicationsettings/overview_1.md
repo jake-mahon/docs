@@ -21,8 +21,11 @@ Let's recall the three pieces that constitute Endpoint Policy Manager Applicatio
 
 ## Backup and Restore
 
-**NOTE:** Video: For an overview video of how to backup and restore, please see this
+:::note
+Video: For an overview video of how to backup and restore, please see this
 video:[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md).
+:::
+
 
 The three pieces that constitute Endpoint Policy Manager Application Settings Manager should be
 backed up in case of loss, failure, overwriting, or some other damage. Below, we describe some
@@ -55,9 +58,12 @@ When restoring, the Endpoint Policy Manager Application Settings Manager data an
 
 ## Settings for XML Export and Import
 
-**NOTE:** For an overview of exporting and importing settings, please see this video:
+:::note
+For an overview of exporting and importing settings, please see this video:
 [Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md)
 (at the 2 minute and 50 second mark).
+:::
+
 
 The exact settings you specified inside an AppSet within a GPO can be exported and imported. This
 might be useful if you have to test out different scenarios (perhaps again and again) but don't want
@@ -84,9 +90,12 @@ that are defined within the XML you are importing. That is, the import process m
 existing values, and it may also leave existing values alone. Again, only values defined in the XML
 are changed upon import.
 
-**NOTE:** Exporting settings in XML is different than XML data export, which is described in
+:::note
+Exporting settings in XML is different than XML data export, which is described in
 Appendix A: Using Endpoint Policy Manager with MDM and UEM Tools. Use "Exporting Directives as XML
 Data Files" to export settings to save or reload into Group Policy Objects. Use XML data export
 (Appendix A) to deploy Endpoint Policy Manager settings without using Group Policy Objects, for
 instance, with use of Microsoft Endpoint Configuration Manager, Endpoint Policy Manager MDM or
 Endpoint Policy Manager Cloud.
+
+:::

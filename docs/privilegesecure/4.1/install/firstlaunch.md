@@ -12,9 +12,12 @@ Once the database and application are installed, the next step is to walk throug
 
 The Netwrix Setup Launcher can be closed, if it was used during installation.
 
-**_RECOMMENDED:_** The first user, your primary Administrator, will be setup through the wizard. It
+:::info
+The first user, your primary Administrator, will be setup through the wizard. It
 is recommended that you have a multi-factor authentication (MFA) solution (Authenticator, DUO,
 Symantec VIP, etc.) ready to setup for this account through the wizard.
+:::
+
 
 There are two methods for launching the Setup Wizard:
 
@@ -23,7 +26,7 @@ There are two methods for launching the Setup Wizard:
 - Double-click the desktop icon. Your default browser opens to the Setup Wizard.
 - Open a supported browser window and navigate to the following URL, which opens the Setup Wizard:
 
-https://localhost:6500
+**https://localhost:6500**
 
 ## Setup Wizard
 
@@ -31,19 +34,28 @@ You will need to following information for your environment to complete the wiza
 
 - Domain account and its password to be the primary application Administrator
 
-    **_RECOMMENDED:_** Use a non-privileged account and use the application to access privileged
+    :::info
+    Use a non-privileged account and use the application to access privileged
     accounts.
+    :::
+
 
 - Multi-factor authenticator (MFA) app on your phone to register this application Administrator
   account
 
-    **NOTE:** This step can be skipped during the wizard, and an MFA can be added at a later time,
+    :::note
+    This step can be skipped during the wizard, and an MFA can be added at a later time,
     but that is not recommended.
+    :::
+
 
 - Active Directory service account and its password
 
-    **NOTE:** This service account must have membership in the Domain Admins group for the domain
+    :::note
+    This service account must have membership in the Domain Admins group for the domain
     where the primary application Administrator account resides.
+    :::
+
 
 Follow the steps to walk through the Setup Wizard.
 
@@ -72,11 +84,14 @@ MFA provider.
 - Enter the verification code in the textbox.
 - Click **Next**, while the code is still active.
 
-    **NOTE:** MFA for this account can be done at a later time through the User details page. If
+    :::note
+    MFA for this account can be done at a later time through the User details page. If
     that is desired, click Setup Later and skip to Step 6 of these instructions. The initial account
     will be set to Not Required MFA. See the
     [User, Group, & Application Details Page](/docs/privilegesecure/4.1/admin/interface/usersgroups/usergroupapplication/usergroupapplication.md)
     topic for additional information.
+    :::
+
 
 ![Setup Wizard on the Step 2 page displaying the recovery codes](/img/product_docs/privilegesecure/4.1/accessmanagement/install/authenticatorcodes.webp)
 
@@ -92,19 +107,25 @@ administrator privileges. Enter the following information and then click **Next*
 - Username – Enter the account. The domain will auto-populate from the Step 1 page.
 - Password – Enter the account's password. The eye icon can be used to view the entry.
 
-**NOTE:** This service account will be used to run domain synchronization. If you do not have an
+:::note
+This service account will be used to run domain synchronization. If you do not have an
 account with domain administrator privileges ready when walking through the Setup Wizard, you can
 click the Exit Wizard link. See the [Exit Wizard Early](#exit-wizard-early) topic for additional
 information.
+:::
+
 
 ![Setup Wizard on the Step 4 page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/sync.webp)
 
 **Step 7 –** On the Step 4 page, click **Sync**. The Active Directory domain synchronization begins
 and is tracked by the status bar. When synchronization is complete, the Step 5 page opens.
 
-**NOTE:** Problems with service registration may occur if accessing the wizard from a remote
+:::note
+Problems with service registration may occur if accessing the wizard from a remote
 IP address. If this does occur during domain synchronization, you will be redirected to a dedicated
 error page, which allows you to ignore certificate errors during the initial configuration.
+:::
+
 
 ![Setup Wizard on the Step 5 page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/resource.webp)
 
@@ -113,8 +134,11 @@ create your first access policy to grant Domain Admin Access with an Activity To
 resource. The selected resource displays a green checkmark at the beginning of the row. Click **Add
 resource**.
 
-**NOTE:** Available resources were discovered on the domain during the synchronization completed on
+:::note
+Available resources were discovered on the domain during the synchronization completed on
 the Step 3 page. You can use the Search resources box to filter the list.
+:::
+
 
 ![Check resources window](/img/product_docs/privilegesecure/4.1/accessmanagement/install/checkresource.webp)
 
@@ -163,5 +187,5 @@ Navigate to the Resources page and add a new server. See the
 topic for additional information.
 
 Navigate to the Access Policies page and create a new access policy. See the
-[Add Access Policy](/docs/privilegesecure/4.1/admin/interface/accesspolicy/accesspolicy_1.md)
+[Add Access Policy](/docs/privilegesecure/4.1/admin/interface/accesspolicy/addaccesspolicy.md)
 topic for additional information.

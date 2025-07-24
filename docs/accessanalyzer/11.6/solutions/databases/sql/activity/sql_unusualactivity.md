@@ -14,8 +14,11 @@ all targeted SQL and Azure SQL server instances.
 Navigate to the **Databases** > SQL > 2.Activity > SQL_UnusualActivity > Configure node and select
 Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup35.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_SensitiveDataActivity Job
 produces the following pre-configured report.
 
-| Report                         | Description                              | Default Tags | Report Elements                                                                                                                                                                                                    |
-| ------------------------------ | ---------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Unusual Hourly Activity Report | This report lists abnormal user activity | None         | This report is comprised of three elements: - Bar Chart – Displays abnormal user activity - Table – Provides details on number of outliers per instance - Table – Provides details on unusual hourly user activity |
+| Report                         | Description                              | Default Tags | Report Elements                                                                                                                                                                                                                                |
+| ------------------------------ | ---------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unusual Hourly Activity Report | This report lists abnormal user activity | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays abnormal user activity</li><li>Table – Provides details on number of outliers per instance</li><li>Table – Provides details on unusual hourly user activity</li></ul> |
+

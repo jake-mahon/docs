@@ -1,5 +1,5 @@
 ---
-title: "Configure Microsoft Exchange for Crawling and Classification"
+title: "Microsoft Exchange"
 description: "Configure Microsoft Exchange for Crawling and Classification"
 sidebar_position: 30
 ---

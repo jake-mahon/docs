@@ -20,6 +20,6 @@ possibility to switch from filter to structure.
 The Tabs represent a secondary navigation function within the Web Application. For each action you
 will do a new tab will be opend.
 
-Example
+**Example**
 
 ![tab system](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/operation/navigation_bar/installation_with_parameters_173-en.webp)

@@ -26,8 +26,11 @@ Agreement** box and click **Next**.
 and a custom folder. Click Change to browse for a different location. When the destination is set as
 desired, click **Next**.
 
-**NOTE:** The default location is `C:\Program Files\STEALTHbits\Access Information Center\`. There
+:::note
+The default location is `C:\Program Files\STEALTHbits\Access Information Center\`. There
 are no specific requirements for changing the path.
+:::
+
 
 ![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessinformationcenter/11.6/installation/sqlserver.webp)
 
@@ -51,12 +54,15 @@ open.
     - For Windows Authentication — **User Name** format must be [DOMAIN]\[username] , e.g.
       NWXTECH\ad.bruce
 
-**NOTE:** The Server and Database information are available in the Enterprise Auditor Console in the
+:::note
+The Server and Database information are available in the Enterprise Auditor Console in the
 **Settings** > **Storage** node, and will be auto-populated if installing the Access Information
 Center on the same server as Enterprise Auditor. The Database settings can be modified after
 installation. See the
 [Database Page](/docs/accessinformationcenter/11.6/admin/configuration/database.md)
 topic for additional information.
+:::
+
 
 ![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessinformationcenter/11.6/installation/webserver.webp)
 

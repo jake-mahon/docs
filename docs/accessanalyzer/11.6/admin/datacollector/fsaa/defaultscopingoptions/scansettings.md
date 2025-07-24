@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Scan Settings tab allows configuration of data collection settings.
 
-![FSAA Data Collector Wizard Default Scoping Options page Scan Settings tab](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/scansettings_1.webp)
+![FSAA Data Collector Wizard Default Scoping Options page Scan Settings tab](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/scansettings.webp)
 
 The Scan Settings tab has the following configurable options:
 

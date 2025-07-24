@@ -12,8 +12,11 @@ SQLite Agent Queue option dumps the queue and all pending events are lost.
 
 Follow the steps to clear the SQLite Agent queue for an Agent:
 
-**CAUTION:** These events are permanently deleted and are not processed by the Enterprise Manager on
+:::warning
+These events are permanently deleted and are not processed by the Enterprise Manager on
 reconnection. This option is for diagnostic and troubleshooting purposes only.
+:::
+
 
 **Step 1 –** Click Agents in the left pane to launch the Agents interface.
 
@@ -26,10 +29,13 @@ to connect to the target machine and query information about shares. A local Adm
 on the target machine should have access to the system shares. Click **OK** after entering the
 credentials.
 
-**NOTE:** The wizard does not block access to the Administration Console and can be minimized while
+:::note
+The wizard does not block access to the Administration Console and can be minimized while
 actions are in progress. If this wizard is hidden by clicking outside of the dialog box, a flashing
 blue link displays on the upper right corner of the interface with the action name displayed. Click
 this link to bring back the focus to the wizard.
+:::
+
 
 **Step 4 –** On the Access Verification window, the given credentials either succeed or fail during
 a prerequisites or verification check.
@@ -38,8 +44,11 @@ a prerequisites or verification check.
   of prior to the next attempt.
 - Success – Click **Next** to begin clearing the SQLite Agent Queue
 
-**NOTE:** Closing the Administration Console while this action is in process causes problems with
+:::note
+Closing the Administration Console while this action is in process causes problems with
 data collection.
+:::
+
 
 **Step 5 –** The Clear Agent Queue window displays the task in progress and then its status as
 either:

@@ -30,8 +30,11 @@ closes the host lists under the Host Management node, the hosts reorganize in al
 Like the default host lists, custom dynamic host lists are auto-populated and updated according to
 host inventory.
 
-**_RECOMMENDED:_** Do not modify the criteria once a dynamic based list has been created. It is
+:::info
+Do not modify the criteria once a dynamic based list has been created. It is
 better to delete and recreate the list in order to modify a dynamic-based list.
+:::
+
 
 See the
 [Dynamic Host Lists](/docs/accessanalyzer/11.6/admin/hostmanagement/lists.md#dynamic-host-lists)

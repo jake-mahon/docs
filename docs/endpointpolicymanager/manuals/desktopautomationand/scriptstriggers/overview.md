@@ -6,9 +6,12 @@ sidebar_position: 20
 
 # Scripts & Triggers Manager
 
-**NOTE:** Before reading this section, please ensure you have read Book 2:
+:::note
+Before reading this section, please ensure you have read Book 2:
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -26,8 +29,11 @@ perform the following operations on Windows 10:
 - Deliver scripts to both User and Computer sides
 - Deliver an "On" script when conditions are true, and an "Off" script when conditions are false.
 
-**NOTE:** Watch this video for an overview of Endpoint Policy Manager Scripts & Triggers Manager:
+:::note
+Watch this video for an overview of Endpoint Policy Manager Scripts & Triggers Manager:
 [Use with on-prem Group Policy](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/gettingstarted/onpremise.md)
+:::
+
 
 The basic way to use Scripts & Triggers Manager is as follows:
 
@@ -42,8 +48,11 @@ The basic way to use Scripts & Triggers Manager is as follows:
 - Allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to embrace
   the directives and perform the work.
 
-**NOTE:** If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
+:::note
+If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
 settings even to non-domain-joined machines over the Internet.
+:::
+
 
 ## Moving Parts
 

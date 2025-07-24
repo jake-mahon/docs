@@ -22,5 +22,8 @@ Use the following options to log into a ServiceNow account:
     - Instance – Domain name for the ServiceNow account
     - User Name/Password – Specify the credentials to access the ServiceNow account
 
-**NOTE:** ServiceNow accounts must have an administrator role to modify incidents on the
+:::note
+ServiceNow accounts must have an administrator role to modify incidents on the
 configuration page.
+
+:::

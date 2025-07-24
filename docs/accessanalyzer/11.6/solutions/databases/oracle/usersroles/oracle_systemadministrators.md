@@ -14,8 +14,11 @@ and SYSOPER roles across all targeted Oracle database servers.
 Navigate to the **Oracle** > **1.Users and Roles** > **Oracle_SystemAdministrators** > Configure
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/usersroles/jobgroup23.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_SystemAdministrators
 Job produces the following pre-configured report.
 
-| Report        | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                                            |
-| ------------- | ---------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Admin Summary | This report highlights all principals which are members of specified administrator roles | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by admin count - Table – Provides information on admin details - Table – Provides details on top instances by admin count |
+| Report        | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                        |
+| ------------- | ---------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Admin Summary | This report highlights all principals which are members of specified administrator roles | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by admin count</li><li>Table – Provides information on admin details</li><li>Table – Provides details on top instances by admin count</li></ul> |
+

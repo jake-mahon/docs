@@ -6,9 +6,12 @@ sidebar_position: 10
 
 # Remote Work Delivery Manager
 
-**NOTE:** Before reading this section, please ensure you have read Book 2:
+:::note
+Before reading this section, please ensure you have read Book 2:
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -28,8 +31,11 @@ you to perform the following operations on Windows:
 - Copy files from an HTTP(S) source, like OneDrive, Dropbox, Amazon S3, and some other services, to
   a desktop
 
-**NOTE:** See [Install software with SMB (standard share)](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/gettingstarted/smb.md)for an
+:::note
+See [Install software with SMB (standard share)](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/gettingstarted/smb.md)for an
 overview of PolicyPak Remote Work Delivery Manager.
+:::
+
 
 Endpoint Policy Manager Remote Work Delivery Manager allows you to do the following:
 
@@ -47,8 +53,11 @@ Endpoint Policy Manager Remote Work Delivery Manager allows you to do the follow
 - Allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to embrace
   the directives and perform the work.
 
-**NOTE:** If you use theEndpoint Policy Manager Cloud service, you can deliver Group Policy settings
+:::note
+If you use theEndpoint Policy Manager Cloud service, you can deliver Group Policy settings
 even to non-domain-joined machines over the Internet.
+:::
+
 
 ## Moving Parts
 

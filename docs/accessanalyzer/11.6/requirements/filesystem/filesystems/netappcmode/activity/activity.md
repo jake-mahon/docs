@@ -34,8 +34,11 @@ server or mutual authentication.
 FPolicy may have a significant impact on file system throughput, and it is always a best practice to
 monitor performance when enabling FPolicy.
 
-**_RECOMMENDED:_** Create a tailored FPolicy which only collects the desired activity from the
+:::info
+Create a tailored FPolicy which only collects the desired activity from the
 environment to limit the scope and impact.
+:::
+
 
 For scale-out and fault tolerance purposes, the product supports a range of deployment options. A
 single agent can receive events from multiple SVMs. Or events from a single SVM can be distributed
@@ -43,13 +46,13 @@ among multiple agents. Or a set of SVMs can distribute events among a set of age
 depends on the fault tolerance requirements and the expected event flow. As a rule of thumb, the
 _average_ load on a single agent should not exceed 5000 events per second.
 
-Configuration Checklist
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring the activity monitoring of NetApp Data ONTAP
 Cluster-Mode devices. Instructions for each item of the checklist are detailed within the following
 sections.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Gather the following information:
 
@@ -200,7 +203,7 @@ Checklist Item 4:
           configuration.
         - Requires a Privileged Access credential be provided.
 
-Checklist Item 5: Activity Monitor Configuration
+**Checklist Item 5: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor Agent to a Windows server.
 - Configure the Agent to monitor the SVM.

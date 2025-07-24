@@ -17,8 +17,11 @@ The EX_GroupExpansion job is located in the Effective Membership job group.
 View the analysis tasks by navigating to the **Exchange** > **6. Distribution Lists** > **Effective
 Membership** > **EX_GroupExpansion** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_GroupExpansion Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/groupexpansionanalysis.webp)
 
@@ -26,5 +29,5 @@ The following analysis tasks are selected by default:
 
 - Drop Tables – Drops all previously-created tables and creates the group expansion function
 - 1a. Expand Distribution Groups – Expands the distribution group’s direct members
--   2. Create Group Membership View – Creates an interim processing table in the database for use by
+-   **2. Create Group Membership View** – Creates an interim processing table in the database for use by
        downstream analysis and report generation

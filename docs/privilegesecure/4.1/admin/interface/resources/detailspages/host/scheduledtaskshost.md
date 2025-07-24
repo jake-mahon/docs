@@ -1,7 +1,7 @@
 ---
 title: "Scheduled Tasks Tab for Host"
 description: "Scheduled Tasks Tab for Host"
-sidebar_position: 70
+sidebar_position: 80
 ---
 
 # Scheduled Tasks Tab for Host

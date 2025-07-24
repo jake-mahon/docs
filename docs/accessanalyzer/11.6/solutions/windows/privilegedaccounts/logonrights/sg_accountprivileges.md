@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The SG_AccountPrivileges job identifies accounts privileges on hosts in the targeted environment.
 
-Targeted Hosts
+**Targeted Hosts**
 
 All Windows Hosts
 
@@ -16,7 +16,10 @@ All Windows Hosts
 
 The SG_AccountPrivileges job uses the PowerShell Data Collector for the following query:
 
-**CAUTION:** The query is preconfigured for this job. Never modify the query.
+:::warning
+The query is preconfigured for this job. Never modify the query.
+:::
+
 
 ![Queries for the SG_AccountPrivileges Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/logonrights/accountprivilegesquery.webp)
 
@@ -29,8 +32,11 @@ The query for the SG_AccountPrivileges job is:
 Navigate to the **Windows** > **Privileged Accounts** > **Logon Rights** >
 **SG_AccountPrivileges** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_AccountPrivileges Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/logonrights/accountprivilegesanalysis.webp)
 
@@ -42,6 +48,7 @@ The default analysis task is:
 In addition to the tables created by the analysis tasks, the SG_AccountPrivileges job produces the
 following pre-configured report.
 
-| Report                    | Description                                                                                                                                         | Default Tags | Report Elements                                                                       |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------- |
-| Account Privilege Details | This report highlights account privileges on hosts in the targeted environment. Default privileges present on all Windows hosts have been filtered. | None         | This report is comprised of one element: - Table – Provides account privilege details |
+| Report                    | Description                                                                                                                                         | Default Tags | Report Elements                                                                                       |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
+| Account Privilege Details | This report highlights account privileges on hosts in the targeted environment. Default privileges present on all Windows hosts have been filtered. | None         | This report is comprised of one element: <ul><li>Table – Provides account privilege details</li></ul> |
+

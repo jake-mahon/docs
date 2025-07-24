@@ -12,12 +12,12 @@ Follow the steps to install the Privilege Secure application from the command pr
 
 **Step 2 –** Run the following command as an administrator:
 
-nps.exe /quiet
+**nps.exe /quiet**
 
 - To add a non-default installation directory, append the following to the command where the
   `[Path]` parameter is the desired installation directory location:
 
-    nps.exe /quiet PRODUCTDIR="[Path]"
+**nps.exe /quiet PRODUCTDIR="[Path]"**
 
     For example: `nps.exe /quiet PRODUCTDIR="D:\Stealthbits\PAM"`
 

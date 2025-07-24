@@ -10,7 +10,7 @@ Enterprise Auditor jobs and solutions are comprised of files contained within th
 installation directory. All jobs and job groups contained within the Jobs tree are housed in the
 Jobs directory. The default location is:
 
-…\STEALTHbits\StealthAUDIT\Jobs
+**…\STEALTHbits\StealthAUDIT\Jobs**
 
 ![Explore Folder option from Jobs Tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/explorefolder.webp)
 
@@ -28,7 +28,10 @@ location. However, copying an existing job within the Jobs directory is not supp
 already exists within the Enterprise Auditor Console server, copying outside of the console may
 result in reporting issues.
 
-**CAUTION:** Do not use these steps to copy an existing job.
+:::warning
+Do not use these steps to copy an existing job.
+:::
+
 
 There is no need to close the Enterprise Auditor application to instantiate a new job. Follow the
 steps to instantiate a new job into the Enterprise Auditor Jobs tree:
@@ -41,7 +44,7 @@ colleague, or other entity, it is most likely in one of two formats:
 
 **Step 2 –** Open the Jobs directory. The default location is:
 
-…\STEALTHbits\StealthAUDIT\Jobs
+**…\STEALTHbits\StealthAUDIT\Jobs**
 
 **Step 3 –** Place the job or job group into the Jobs directory.
 

@@ -19,4 +19,4 @@ Select from the following options:
 
 These log files are stored in the following location on the target host:
 
-…\STEALTHbits\StealthAUDIT\ExchangePS
+**…\STEALTHbits\StealthAUDIT\ExchangePS**

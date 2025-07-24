@@ -18,16 +18,20 @@ The requirements for the (Privilege Secure) application server are:
 - The following ports must be open for communication between Privilege Secure and Active Directory
   domain controllers:
 
-| Port     | Protocol | Source                  | Direction                                                                                                                                   | Target            | Purpose                                                                                                                                                                                                                                                |
-| -------- | -------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 135      | TCP      | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                   | Domain Controller | MS-RPC                                                                                                                                                                                                                                                 |
-| 389 636  | TCP UDP  | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                   | Domain Controller | LDAP/LDAPS                                                                                                                                                                                                                                             |
-| 53       | TCP UDP  | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                   | DNS Service       | DNS                                                                                                                                                                                                                                                    |
-| 137 138  | UDP      | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                   | Domain Controller | Net BIOS related                                                                                                                                                                                                                                       |
-| **9389** | TCP      | Privilege Secure server | ![single_direction_arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/single_direction_arrow.webp) | Domain Controller | Active Directory Web Services **NOTE:** Make sure that you have configured the Antivirus exclusions according to the following Netwrix knowledge base article: [SbPAM: Exclusions for Antivirus (AV) & Endpoint Software](https://kb.netwrix.com/5938) |
-| **88**   | UDP      | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                   | Domain Controller | Kerberos                                                                                                                                                                                                                                               |
+| Port     | Protocol | Source                  | Direction                                                                                                                                   | Target            | Purpose                                                                                                                                                                                                                                                      |
+| -------- | -------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 135      | TCP      | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                                    | Domain Controller | MS-RPC                                                                                                                                                                                                                                                       |
+| 389 636  | TCP UDP  | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                                    | Domain Controller | LDAP/LDAPS                                                                                                                                                                                                                                                   |
+| 53       | TCP UDP  | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                                    | DNS Service       | DNS                                                                                                                                                                                                                                                          |
+| 137 138  | UDP      | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                                    | Domain Controller | Net BIOS related                                                                                                                                                                                                                                             |
+| **9389** | TCP      | Privilege Secure server | ![single_direction_arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/single_direction_arrow.webp)                  | Domain Controller | Active Directory Web Services <br />**NOTE:** Make sure that you have configured the Antivirus exclusions according to the following Netwrix knowledge base article: [SbPAM: Exclusions for Antivirus (AV) & Endpoint Software](https://kb.netwrix.com/5938) |
+| **88**   | UDP      | Privilege Secure server | ![arrow](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arrow.webp)                                                    | Domain Controller | Kerberos                                                                                                                                                                                                                                                     |
 
-**NOTE:** Privilege Secure must be able to reach the following URLs via HTTPS (port 443)
+
+:::note
+Privilege Secure must be able to reach the following URLs via HTTPS (port 443)
+:::
+
 
 - https://login.microsoftonline.com
 - https://graph.microsoft.com
@@ -36,7 +40,7 @@ The requirements for the (Privilege Secure) application server are:
 
 The following ports must be open for communication between the proxy and Privilege Secure.
 
-Proxy Server Sizing for Windows/Linux/Docker
+**Proxy Server Sizing for Windows/Linux/Docker**
 
 | Administrators | Concurrent Sessions | Memory | CPU Cores | Disk (max)    |
 | -------------- | ------------------- | ------ | --------- | ------------- |
@@ -44,7 +48,7 @@ Proxy Server Sizing for Windows/Linux/Docker
 | 900            | 300                 | 32 GB  | 8 cores   | 42 GB per day |
 | 1800           | 600                 | 64 GB  | 16 cores  | 84 G per day  |
 
-Additional Considerations
+**Additional Considerations**
 
 The following ports must be open for communication between the Client and Privilege Secure:
 

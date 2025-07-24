@@ -38,8 +38,11 @@ Application Access page.
 
 Click Next to proceed.
 
-**NOTE:** Only select items that the application needs to access. Type in the **Filter objects by
+:::note
+Only select items that the application needs to access. Type in the **Filter objects by
 name** box to filter the list of objects by the characters entered.
+:::
+
 
 ![Application Details page of the Access Role Wizard](/img/product_docs/accessanalyzer/11.6/admin/settings/access/restapi/applicationdetails.webp)
 

@@ -9,8 +9,11 @@ sidebar_position: 60
 You can also create policies that will enforce a given file association one time so that users can
 then drift from your configuration and choose their own application.
 
-**NOTE:** For a video on applying policies only once, see
+:::note
+For a video on applying policies only once, see
 [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/gettingstarted/applyonce.md).
+:::
+
 
 Let's create a file association policy on the User side so that Adobe Acrobat Reader is the assigned
 application for all its associated files.

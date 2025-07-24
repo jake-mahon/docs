@@ -30,8 +30,11 @@ saver (rolled up into one XML file directive):
 - Set the number of minutes for screen saver timeout to 17 minutes
 - Set **On resume, display logon screen**
 
-**NOTE:** **Personalization** window might show **Screen Saver: None**, but in reality you can see
+:::note
+**Personalization** window might show **Screen Saver: None**, but in reality you can see
 that the screen saver is being set in the **Screen Saver Settings** window.
+:::
+
 
 ![policypak_cloud_quickstart_6_624x426](/img/product_docs/endpointpolicymanager/cloud/endpointpolicymanager_cloud_quickstart_6_624x426.webp)
 
@@ -86,8 +89,11 @@ Here you can see which XML data files (directives) are being delivered to this c
 
 ![policypak_cloud_quickstart_13_468x265](/img/product_docs/endpointpolicymanager/cloud/endpointpolicymanager_cloud_quickstart_13_468x265.webp)
 
-**NOTE:** By default your computer is only a member of two special built-in groups named **All** and
+:::note
+By default your computer is only a member of two special built-in groups named **All** and
 **Unassigned**.
+:::
+
 
 These examples show that Endpoint Policy Manager Cloud is working. You are now all set up and ready
 to create and upload your own directives to Endpoint Policy Manager Cloud.

@@ -29,8 +29,11 @@ for additional information.
 View the analysis tasks by navigating to the **FileSystem** > **0.Collection** > **3-FSAA
 Exceptions** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified and or
 deselected. While it is possible to deselect particular tasks as specified, it is not recommended.
+:::
+
 
 ![Analysis Tasks for the 3-FSAA Exceptions Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaexceptionsanalysis.webp)
 

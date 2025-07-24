@@ -11,9 +11,12 @@ Follow the steps to install Threat Prevention.
 **Step 1 –** From the Threat Prevention Installer package, run the server executable
 (threatprevention-server-7.4.0.xxx.msi). The Threat Prevention Server Setup wizard opens.
 
-**NOTE:** Run the msi via the command prompt with elevated privileges (domain admin rights) on a
+:::note
+Run the msi via the command prompt with elevated privileges (domain admin rights) on a
 domain-joined machine. Else the installer runs and completes without errors, though no components
 are installed.
+:::
+
 
 ![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/threatprevention/7.4/install/welcome.webp)
 
@@ -31,7 +34,7 @@ happens:
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.4/install/customsetup.webp)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.4/install/customsetup_1.webp)
 
 **Step 4 –** The Custom Setup page displays the components that are installed by default. These
 components require the following hard drive space for installation:
@@ -65,11 +68,14 @@ to communicate with the other Threat Prevention components.
 - Enterprise Manager port for Agent Communications – 3741
 - Enterprise Manager port for Console and PowerShell API Communications – 3740
 
-**NOTE:** As a prerequisite for using custom managed certificates, you must provide the Enterprise
+:::note
+As a prerequisite for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing Threat
 Prevention server, remote instance of the Administration Console, and the Agent. See the
 [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.4/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
+:::
+
 
 Checking the **Create Windows Firewall Rules** box automatically sets the Windows firewall rules
 needed to open these ports on the server during the installation process. If using a third party
@@ -95,8 +101,11 @@ connection.
   - For SQL Server authentication, provide SQL credentials in the **Login ID** and **Password**
     boxes.
 
-  **NOTE:** The account used for authentication, either a Windows or SQL account, requires a
+  :::note
+  The account used for authentication, either a Windows or SQL account, requires a
   minimum of the following permissions on the SQL Server:
+  :::
+
 
   - Create schema
   - Read
@@ -107,9 +116,12 @@ connection.
   - If using Windows authentication, continue with the next step.
   - If using SQL Server authentication, skip the next step.
 
-    **NOTE:** In case of SQL Server authentication, the credentials are tested on clicking
+    :::note
+    In case of SQL Server authentication, the credentials are tested on clicking
     **Next**. If the credential authentication fails, the setup does not proceed and a pop-up
     window displays failure details.
+    :::
+
 
 ![Threat Prevention Server Setup wizard – Logon page](/img/product_docs/threatprevention/7.4/install/logon.webp)
 
@@ -119,14 +131,20 @@ connection.
   Manager service will impersonate when connecting to the database. These credentials must have
   elevated privileges with rights to create and modify the database.
 
-  **NOTE:** Windows authentication uses an Active Directory account. Local Windows accounts are
+  :::note
+  Windows authentication uses an Active Directory account. Local Windows accounts are
   not supported.
+  :::
+
 
 - Click **Next**.
 
-  **NOTE:** For Windows authentication, the credentials are tested on clicking **Next**. If the
+  :::note
+  For Windows authentication, the credentials are tested on clicking **Next**. If the
   credential authentication fails, the setup does not proceed and a pop-up window displays failure
   details.
+  :::
+
 
 ![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/threatprevention/7.4/install/readytoinstall.webp)
 
@@ -141,8 +159,11 @@ Wizard page displays the **Run .NET 4.7 installation package** checkbox. Check i
 
 You can also cancel the built-in download of .NET Framework 4.7 and install it manually.
 
-**NOTE:** If the .NET Framework installation does not complete, run the installer through an
+:::note
+If the .NET Framework installation does not complete, run the installer through an
 Administrative command prompt.
+:::
+
 
 **Step 10 –** The installation process begins and the wizard displays the installation status. When
 installation is complete, click **Finish**.

@@ -9,12 +9,15 @@ sidebar_position: 10
 Any Threat Prevention license can use the Password Enforcement Event type to monitor for the
 creation of weak passwords in your environment.
 
-**NOTE:** See the
+:::note
+See the
 [Prevent Weak Passwords Use Case](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/passwordenforcement/preventweakpasswords.md)
 topic for instructions on creating a policy to block weak passwords, which requires the Threat
 Prevention
-for[ Enterprise Password Enforcer](/docs/threatprevention/7.4/overview/solutions/epe.md)
+for[ Enterprise Password Enforcer](/docs/threatprevention/7.4/solutions/epe.md)
 solution.
+:::
+
 
 Follow the steps to configure a policy to monitor the creation of weak passwords.
 

@@ -44,7 +44,10 @@ unless the machine is domain-joined. Finally, both methods will not affect a use
 computer the first time. The policy will take effect on the second login after the computer gets the
 Group Policy update.
 
-**NOTE:** For a video demonstrating how neither Endpoint Policy Manager File Associations Manager
+:::note
+For a video demonstrating how neither Endpoint Policy Manager File Associations Manager
 nor Microsoft's method can affect a user until the second login, see the
 [Endpoint Policy Manager File Associations Manager: Understanding the First Login](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/tipsandtricks/firstlogin.md)
 topic for additional information..
+
+:::

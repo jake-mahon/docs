@@ -11,7 +11,7 @@ node. However, it is a best practice to assign the host list and the Connection 
 collection level, 0.Collection Job Group. Once these are assigned to the job group, it can be run
 directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 - The **.Active Directory Inventory** Job Group needs to be executed prior to running the SharePoint
   Solution against a SharePoint on-premises environment
@@ -24,7 +24,7 @@ Dependencies
 - The Sensitive Data Discovery Add-on must be installed on the SharePoint application server (for
   Sensitive Data Discovery Auditing with agent-based scans only)
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 For the 0.Collection Job Group:
 
@@ -41,7 +41,7 @@ See the
 [Add Hosts](/docs/accessanalyzer/11.6/admin/hostmanagement/actions/add.md)
 topic for additional information.
 
-Connection Profile
+**Connection Profile**
 
 The SPAA Data Collector requires a specific set of permissions. See the
 [SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/scanoptions.md)
@@ -69,11 +69,11 @@ See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 The jobs in this job group can be scheduled to run as desired.
 
-Run Order
+**Run Order**
 
 The 0.Collection Jobs must be run first and in order. RunSystem Scans jobs and then the Bulk Import
 jobs according to the desired workflow. The other SharePoint Solution sub-job groups can be run in
@@ -87,13 +87,16 @@ tasks in order for permission/access reports to be accessible. For activity repo
 Information Center requires the execution of both the 2-SPAA Bulk Import Job default analysis tasks
 and the 2-SPAC Bulk Import Job default analysis tasks.
 
-**_RECOMMENDED:_** If only conducting one or two types of auditing, scope the solution by disabling
+:::info
+If only conducting one or two types of auditing, scope the solution by disabling
 the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not
 recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/11.6/admin/jobs/job/disableenable.md)
 topic for additional information.
+:::
 
-Query Configuration
+
+**Query Configuration**
 
 This solution can be run with the default query configuration. However, the most common
 customizations include:
@@ -154,7 +157,7 @@ customizations include:
           event log files
         - Set on the **0.Collection** > **1-SPAC_SystemScans** Job for Activity Auditing
 
-Analysis Configuration
+**Analysis Configuration**
 
 This solution should be run with the default analysis configuration. Most of these analysis tasks
 are preconfigured. There are a few which are deselected by default, as they are for troubleshooting
@@ -176,12 +179,12 @@ including SharePoint, which incorporate this analyzed data into further analysis
 
 - Customize within .Active Directory Inventory > 3-AD_Exceptions Job analysis tasks
 
-Additional Considerations
+**Additional Considerations**
 
 The Effective Access Audits Job Group is designed to work independently of the rest of the solution,
 but it is dependent upon the 0.Collection Job Group and the user-modified CSV files.
 
-Additional Notes
+**Additional Notes**
 
 The jobs contained in the group use custom SQL scripts to render views on collected data. SQL views
 are used to populate report element tables and graphs. Changing or modifying the group, job, or

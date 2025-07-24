@@ -5,12 +5,15 @@ sidebar_position: 40
 ---
 # Automatic Patching and Updates
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5Z0vb2XXz8A" title="Endpoint Policy Manager Remote Work Delivery Manager: Automatic Patching and Updates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Instead of specifying time and time again which computers should update, instead use the auto-update
 feature. This video shows how to use the "Always" property to always check for updates. Here's how !
 
-**NOTE:** This technique works with SMB and web-based shares.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Z0vb2XXz8A" title="Endpoint Policy Manager Remote Work Delivery Manager: Automatic Patching and Updates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
+:::note
+This technique works with SMB and web-based shares.
+:::
+
 
 Hi, this is Jeremy Moskowitz, and in a previous video, you saw me use Netwrix Endpoint Policy
 Manager (formerly PolicyPak) Remote Work Delivery Manager to deploy new software to endpoints. I did

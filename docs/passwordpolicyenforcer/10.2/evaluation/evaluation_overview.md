@@ -18,8 +18,11 @@ Unlike password cracking products that check passwords after they are accepted b
 system, Password Policy Enforcer checks new passwords immediately to ensure that weak passwords do
 not jeopardize system security.
 
-**NOTE:** You can also use Password Policy Enforcer to ensure that passwords are compatible with
+:::note
+You can also use Password Policy Enforcer to ensure that passwords are compatible with
 other systems, and to synchronize passwords with other systems and applications.
+:::
+
 
 The
 [Administration](/docs/passwordpolicyenforcer/10.2/administration/administration_overview.md)

@@ -12,7 +12,10 @@ by the user from targeted file servers.
 The Ad Hoc Audits Job Group tables and reports are blank if the CSV file is not modified to contain
 the required information before job execution.
 
-**_RECOMMENDED:_** Run these jobs independently of the solution.
+:::info
+Run these jobs independently of the solution.
+:::
+
 
 ![Ad Hoc Audits Job Group](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/adhocaudits/jobstree.webp)
 

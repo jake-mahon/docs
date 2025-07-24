@@ -1,7 +1,7 @@
 ---
 title: "History Tab for Microsoft Entra ID"
 description: "History Tab for Microsoft Entra ID"
-sidebar_position: 60
+sidebar_position: 70
 ---
 
 # History Tab for Microsoft Entra ID

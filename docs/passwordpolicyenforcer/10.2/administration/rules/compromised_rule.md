@@ -16,8 +16,11 @@ Select the **Enabled** check box to enable the Compromised rule.
 Click the **...** (ellipsis) button beside each text box to select a hash file. You can also type a
 path into the text box. The path can contain environment variables like
 
-**CAUTION:** %SystemRoot%. hash files should only be read from a local disk. Using shared hash files
+:::warning
+%SystemRoot%. hash files should only be read from a local disk. Using shared hash files
 degrades performance, and could jeopardize security.
+:::
+
 
 Click the **Messages** tab to customize the Password Policy Client rule inserts.
 

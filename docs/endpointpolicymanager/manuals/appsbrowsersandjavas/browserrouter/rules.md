@@ -29,8 +29,11 @@ browser.
 
 ![about_policypak_browser_router_15](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_15.webp)
 
-**NOTE:** For specific URL strings, **Apply to child URLs** is set to **yes** by default. This means
+:::note
+For specific URL strings, **Apply to child URLs** is set to **yes** by default. This means
 that any website that falls underneath that URL will also be affected.
+:::
+
 
 You can also select **Block**, which means Endpoint Policy Manager Browser Router won't launch the
 URL in any supported browser (Internet Explorer, Firefox, or Chrome), blocking it from launching.

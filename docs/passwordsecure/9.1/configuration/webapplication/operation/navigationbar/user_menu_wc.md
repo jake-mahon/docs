@@ -13,27 +13,27 @@ logged in user opens it.
 
 ![bin_1](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/operation/navigation_bar/user_menu/bin_1.webp)
 
-Settings
+**Settings**
 
 All possible settings can be viewed in the following chapter settings.
 
-Bin
+**Bin**
 
 In the bin you can manage your deleted passwords.
 
-Help
+**Help**
 
 A click on help takes you directly to the Netwrix Password Secure documentation page.
 
-Switch to Basic view
+**Switch to Basic view**
 
 What the Basic view is able to do in the web view can be inspected here.
 
-Lock
+**Lock**
 
 This locks the user who is currently logged in and only needs to enter his password to use the web
 client again.
 
-Log out
+**Log out**
 
 The logged in user is logged out. All relevant information is now required to log on again.

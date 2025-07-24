@@ -22,11 +22,17 @@ $key = (1,2,3,4,5,1,2,3,4,5,11,12,13,14,15,20,30,40,50,5,4,3,2,1)
 read-host -assecurestring | convertfrom-securestring -key $key | out-file \\server\share\file.txt
 ```
 
-**NOTE:** The PowerShell Script above was borrowed from:
+:::note
+The PowerShell Script above was borrowed from:
 [https://community.spiceworks.com/topic/584947-local-users-and-groups-group-policy-update](https://community.spiceworks.com/topic/584947-local-users-and-groups-group-policy-update))
+:::
 
-**CAUTION:** The targeted endpoint must have rights to read the share and file used above (i.e.,
+
+:::warning
+The targeted endpoint must have rights to read the share and file used above (i.e.,
 `\\server\share\file.txt` ).
+:::
+
 
 Then use that Security Key to encrypt the clear text password that you enter on the screen, i.e.,
 "Password!"
@@ -73,7 +79,10 @@ below).
 
 ![923_5_image-20221221103111-5](/img/product_docs/endpointpolicymanager/scriptstriggers/923_5_image-20221221103111-5.webp)
 
-**CAUTION:** The targeted endpoint must have rights to read the share and file used above (i.e.,
+:::warning
+The targeted endpoint must have rights to read the share and file used above (i.e.,
 `\\server\share\file.txt`).
+:::
+
 
 Lastly, apply the policy to any endpoints as needed and you are good to go.

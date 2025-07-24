@@ -36,5 +36,8 @@ unable to acquire Endpoint Policy Manager AppLock™ data for the item. Therefor
 be locked out in the target application. However, this doesn't prevent the disabling of the whole
 tab, it just means these underlined elements cannot be singularly disabled or hidden.
 
-**NOTE:** To set up a perfect AppSet, you will also need to read the section called "Using the Grays
+:::note
+To set up a perfect AppSet, you will also need to read the section called "Using the Grays
 Wizard" for how to control how elements work inside the Group Policy Editor.
+
+:::

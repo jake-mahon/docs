@@ -11,15 +11,21 @@ new command-line options that allow administrators to set and update an uninstal
 This ensures that CSE can only be uninstalled with the correct password, adding an extra layer of
 protection.
 
-**CAUTION:** This feature is not strictly considered to be a security feature, but rather another
+:::warning
+This feature is not strictly considered to be a security feature, but rather another
 layer of uninstallation protection. If someone is a local administrator on the machine or provided
 admin rights to certain tools via Endpoint Policy Manager Least Privilege Manager (or similar), they
 may be able to work around the password.
+:::
 
-**NOTE:** At the end of this topic, there is an explanation of how a true local administrator on the
+
+:::note
+At the end of this topic, there is an explanation of how a true local administrator on the
 machine is authorized to uninstall the CSE without a password for emergency purposes. However, this
 may be exploited by any local administrator or those with admin-like rights when a tool like
 Endpoint Policy Manager Least Privilege Manager is used.
+:::
+
 
 Based on the information in this guide, you can determine if the password uninstall mechanism is
 enough for your company and should be used or not.
@@ -137,9 +143,12 @@ password.
 
 ![disableuninstallpw](/img/product_docs/endpointpolicymanager/troubleshooting/clientsideextension/disableuninstallpw.webp)
 
-**CAUTION:** Again as stated in the introduction of this document, someone with access rights to
+:::warning
+Again as stated in the introduction of this document, someone with access rights to
 change the KHLM part of the registry or use the Endpoint Policy Manager ADMX files could circumvent
 the password previously set earlier.
+:::
+
 
 ## Conclusion
 
@@ -148,5 +157,7 @@ the password previously set earlier.
 - Administrators should carefully manage passwords to ensure seamless management and prevent
   unauthorized removals.
 
-_Remember,_ anyone with full admin rights (or ability to use the Endpoint Policy Manager ADMX
+:::tip
+Remember, anyone with full admin rights (or ability to use the Endpoint Policy Manager ADMX
 settings) can circumvent the password set on the machine.
+:::

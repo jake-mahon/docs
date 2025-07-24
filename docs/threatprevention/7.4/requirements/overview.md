@@ -15,7 +15,7 @@ all exceptions are covered.
 
 The following servers are required to install the application:
 
-Core Component
+**Core Component**
 
 - Threat Prevention Application Server – The following v7.4 application components are installed
   here:
@@ -38,7 +38,7 @@ See the following topics for additional information:
 - [Agent Server Requirements](/docs/threatprevention/7.4/requirements/agent/agent.md)
 - [Reporting Module Server Requirements](/docs/threatprevention/7.4/requirements/reportingserver.md)
 
-Optional Components
+**Optional Components**
 
 - Remote Administration Console Instances – The Administration Console can be deployed remotely on
   additional machines. As a prerequisite, the Threat Prevention server must already be provisioned.
@@ -48,15 +48,18 @@ Optional Components
   the
   [EPE Settings Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md).
 
-  **NOTE:** This interface does not change the password; it only validates it against the EPE
+  :::note
+  This interface does not change the password; it only validates it against the EPE
   rules.
+  :::
+
 
 See the following topics for additional information:
 
-- [Remote Administration Console Machine Requirements](/docs/threatprevention/7.4/requirements/adminconsole.md)
+- [Remote Administration Console Requirements](/docs/threatprevention/7.4/requirements/adminconsole.md)
 - [EPE Rest Site Requirements](/docs/threatprevention/7.4/requirements/eperestsite.md)
 
-Target Environment Considerations
+**Target Environment Considerations**
 
 The target environment encompasses all servers, devices, or infrastructure to be monitored and/or
 protected by Threat Prevention:

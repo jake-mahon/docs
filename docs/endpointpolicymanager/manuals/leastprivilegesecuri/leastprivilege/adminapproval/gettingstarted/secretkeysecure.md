@@ -31,7 +31,10 @@ admins who create and edit GPOs).
 **Step 4 –** Add in Domain Computers with Read access and Apply Group Policy access (required once
 you remove Authenticated Users).
 
-**NOTE:** You will have to reboot the computer to pick up the new computer group membership.
+:::note
+You will have to reboot the computer to pick up the new computer group membership.
+:::
+
 
 The **Scope** tab of the GPO, shown here, displays an example of a GPO where only Sales Desktops
 would be able to determine the contents of the GPO (and therefore download the key as a Computer,

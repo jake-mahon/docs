@@ -68,8 +68,11 @@ opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The File System Access Auditor
 Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Applet Settings](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekappletsettings.webp)
 
@@ -92,8 +95,11 @@ for additional information.
 [FSAA: Scan Settings](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/scansettings.md) topic
 for additional information.
 
-**NOTE:** If streaming is enabled, the **2-SEEK Bulk Import** job is no longer needed as part of the
+:::note
+If streaming is enabled, the **2-SEEK Bulk Import** job is no longer needed as part of the
 **0.Collection** job group.
+:::
+
 
 ![Azure Tenant Mapping](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekazuretenantmapping.webp)
 
@@ -165,7 +171,10 @@ for additional information:
 - Add share and folder exclusions
 - Scope to scan only Open shares
 
-**NOTE:** This option only works in conjunction with File System Access Auditing.
+:::note
+This option only works in conjunction with File System Access Auditing.
+:::
+
 
 See the
 [FSAA: Scoping Queries](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/scopingqueries.md)
@@ -181,15 +190,21 @@ topic for additional information.
 - Enable differential scanning
 - Modify the number of SDD scan processes
 
-    **_RECOMMENDED:_** For optimal performance, the total number of scan processes on a scan host
+    :::info
+    For optimal performance, the total number of scan processes on a scan host
     should be 1 to 2 times the number of CPU threads available.
+    :::
+
 
 - Enable Optical Character Recognition (OCR) scans
 
-    **NOTE:** The OCR option is intended to work for clear scanned physical documents or documents
+    :::note
+    The OCR option is intended to work for clear scanned physical documents or documents
     directly converted to images, with standard fonts. It will not work for scanning photos of
     documents and may not be able to recognize text on images of credit cards, driver's licenses, or
     other identity cards.
+    :::
+
 
 See the
 [FSAA: Sensitive Data Settings](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/sensitivedatasettings.md)
@@ -205,8 +220,11 @@ for additional information.
   [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/overview.md)
   topic for additional information
 
-**NOTE:** By default, discovered sensitive data strings are not stored in the Enterprise Auditor
+:::note
+By default, discovered sensitive data strings are not stored in the Enterprise Auditor
 database.
+:::
+
 
 **Step 13 –** Click **Finish** to save any setting modifications or click **Cancel** if no changes
 were made. Then click **OK** to close the Query Properties window.

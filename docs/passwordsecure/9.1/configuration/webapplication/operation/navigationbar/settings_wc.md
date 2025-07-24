@@ -17,15 +17,15 @@ does not require you to restart the browser.
 
 #### Extras
 
-Seal management
+**Seal management**
 
 Here you have the possibility to manage templates for seals.
 
-Tag management
+**Tag management**
 
 The tag management allows you to manage the tags.
 
-Image management
+**Image management**
 
 With the image management, you can manage your icons and logos easily and quickly.
 
@@ -41,7 +41,7 @@ After filling in and uploading the icon/logo, the process only needs to be saved
 
 ![save new image](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_181-en.webp)
 
-Edit / Delete icons and logos
+**Edit / Delete icons and logos**
 
 If an icon and/or logo is outdated, you can edit or even delete the stored icons/logos.
 
@@ -68,6 +68,6 @@ The following settings are not available on the Web Application:
 - Clipboard gallery
 - Category: Proxy
 
-Account
+**Account**
 
 Here it is possible to change the password of the logged in user.

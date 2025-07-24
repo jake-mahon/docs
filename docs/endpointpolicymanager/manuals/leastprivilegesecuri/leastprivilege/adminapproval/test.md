@@ -19,8 +19,11 @@ generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/
 The user needs to present this **Request Code**, typically over the phone, to an Admin who can
 create a **Response Code**.
 
-**NOTE:** If you (the admin) are on the machine, you may use your credentials by clicking the
+:::note
+If you (the admin) are on the machine, you may use your credentials by clicking the
 **Approve with alternate Admin Credentials**.
+:::
+
 
 The Admin Approval Tool can be run in three ways:
 
@@ -41,10 +44,13 @@ You can save the secret key in the Registry of this Admin’s machine, secured w
 password. You could also require that the key cannot be viewed ever again when this tool is run by
 choosing **Forbidden to view secret key from previous session**.
 
-**NOTE:** If you ever need to fully reset and start the Endpoint Policy Manager Admin Approval Tool
+:::note
+If you ever need to fully reset and start the Endpoint Policy Manager Admin Approval Tool
 from scratch, simply open the Admin machine from which the tool was run and use regedit.exe to
 remove the two keys located at `HKEY_CURRENT_USER\SOFTWARE\PolicyPak` named `GlobalSecurityKey` and
 `GlobalSecurityKeyChecksum`.
+:::
+
 
 Once you click **OK**, you’ll be in the main Admin Approval Tool, seen here. Here is where you can
 accept the Request (Challenge) Code from the user and return a **Response Code** back. Simply type
@@ -62,8 +68,11 @@ in the **Request Code**, then pick the option that makes sense. The items you ca
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_2.webp)
 
-**NOTE:** The Admin Approval Tool may be branded. See the section **Branding and Customization** in
+:::note
+The Admin Approval Tool may be branded. See the section **Branding and Customization** in
 this guide.
+:::
+
 
 After filling in these options, assign a value to the **Response Code** and the application will
 launch.

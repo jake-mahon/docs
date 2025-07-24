@@ -28,8 +28,11 @@ to reboot those endpoint computers so they know they have changed group membersh
 they will know their group membership and start to report data. They will transition from this
 report to "Computers Reporting Audit Data."
 
-**NOTE:** Since all computers are always automatically in the built-in Domain Computers group, you
+:::note
+Since all computers are always automatically in the built-in Domain Computers group, you
 can choose that group and no reboot is required.
+:::
+
 
 ## Missing Endpoint Data
 
@@ -49,5 +52,8 @@ Manager GPCR scheduled task, as shown in Figure 72.
 
 Figure 72. The "Has Audit Task" column.
 
-**NOTE:** The "Has Audit Task" column is only present when the Endpoint Policy Manager GPCR client
+:::note
+The "Has Audit Task" column is only present when the Endpoint Policy Manager GPCR client
 is communicating with a Endpoint Policy Manager GPCR server (clientless auditing mode).
+
+:::

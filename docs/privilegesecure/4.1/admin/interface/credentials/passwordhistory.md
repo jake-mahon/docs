@@ -1,7 +1,7 @@
 ---
 title: "Password History Window"
 description: "Password History Window"
-sidebar_position: 40
+sidebar_position: 50
 ---
 
 # Password History Window

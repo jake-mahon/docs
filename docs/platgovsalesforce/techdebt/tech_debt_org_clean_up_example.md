@@ -76,26 +76,22 @@ complications.
    ignored Customizations, select:  
    **Strongpoint** > **Reports** > **Clean Up** > **Customizations Excluded From Clean Up**
 
-> **PRO TIP**
->
-> If you are cleaning up a very large object, add a filter for **Clean Up Status** equals **“”**.
-> This shortens your list as you work your way through the fields and set an appropriate **Clean Up
-> Status**. Remove the filter later when you want to work through the fields.
->
-> - **Archived**: tracks automatically cleaned up Reports.
-> - **Deleted**: tracks Customizations that have been deleted.
-> - **Reassign Owner**: reassigns the Owner of one or more Customizations.
+:::tip
+If you are cleaning up a very large object, add a filter for **Clean Up Status** equals **“”**. This shortens your list as you work your way through the fields and set an appropriate **Clean Up Status**. Remove the filter later when you want to work through the fields.
+
+- **Archived**: tracks automatically cleaned up Reports.
+- **Deleted**: tracks Customizations that have been deleted.
+- **Reassign Owner**: reassigns the Owner of one or more Customizations.
+:::
 
 ## Step 3: Track the Progress of the Clean Up Process
 
 You now have a list of unused fields on the Account object grouped into fields that are relatively
 simple to clean up and fields with code and other critical dependencies.
 
-> **TIP**
->
-> If you have a blank List View, remove the filter on the **Clean Up Status** or set it to **To Be
-> Cleaned Up**. If you set a **Project Name** in the **Clean Up Classification**, you can filter for
-> it in the search box at the top of the List View.
+:::tip
+If you have a blank List View, remove the filter on the **Clean Up Status** or set it to **To Be Cleaned Up**. If you set a **Project Name** in the **Clean Up Classification**, you can filter for it in the search box at the top of the List View.
+:::
 
 Some of the fields may have associated Reports or List Views. If you open the DRD in the
 Customization Record, you can drill into the details to see if removing the field is likely to cause
@@ -140,17 +136,12 @@ a Change Request directly from the List View:
    Customizations** list. **Save** when you are finished.
 6. When you are ready, Submit your Change Request for Approval.
 
-> **PRO TIP**
->
-> You can add additional approvers (beyond what is required for the policy) to the Change Request.
-> Initially, only the approvers from your default policy are required. There are two methods to add
-> additional approvers:
->
-> - Create a Process Record and specify approvers. Add the Process Record to the Change Request
->   under the **Affected Processes** field. The additional approvers are added to this Change
->   Request and can be reused on future Change Requests. **Process Owner Approvals** must be enabled
->   on the applicable Policy.
-> - Manually specify one or more approvers in the **Additional Approvers** field.
+:::tip
+You can add additional approvers (beyond what is required for the policy) to the Change Request. Initially, only the approvers from your default policy are required. There are two methods to add additional approvers:
+
+- Create a Process Record and specify approvers. Add the Process Record to the Change Request under the **Affected Processes** field. The additional approvers are added to this Change Request and can be reused on future Change Requests. **Process Owner Approvals** must be enabled on the applicable Policy.
+- Manually specify one or more approvers in the **Additional Approvers** field.
+:::
 
 If you are not using Change Enablement, you can export the results to Excel by clicking the **Export
 To Excel** on the Change Request **Impact Analysis** tab. You can also create a report of

@@ -5,11 +5,11 @@ sidebar_position: 30
 ---
 # Endpoint Policy Export Manager with MDM (like Intune)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pyVAtIGv10Y" title="Endpoint Policy Export Manager with MDM (like Intune)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 After you use Netwrix Endpoint Policy Manager (formerly PolicyPak) Export Manager to export your
 GPOs, you need to get them to be deployed with your MDM service like Intune or Workspace ONE. Here's
 how to do that.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pyVAtIGv10Y" title="Endpoint Policy Export Manager with MDM (like Intune)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 In a previous video, we took our existing Microsoft Group Policy settings and exported them,
 security settings, admin templates, and Group Policy preferences items, and we've got them as XMLs.

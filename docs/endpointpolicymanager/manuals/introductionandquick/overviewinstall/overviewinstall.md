@@ -16,12 +16,15 @@ overview of the process you need to follow:
   Endpoint Policy Manager Device Manager, etc.)
 - Talk to Sales if you need help and/or wish to try Endpoint Policy Manager Cloud
 
-**NOTE:** This guide provides you with the most basic steps to get Endpoint Policy Manager unpacked
+:::note
+This guide provides you with the most basic steps to get Endpoint Policy Manager unpacked
 and installed and ready to use. See the other topics in the parent publication, as well as the
 [Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md) > All Things Installation & Upkeep and the
 All Things Installation & Upkeep
 [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/installation/videolearningcenter/videolearningcenter.md) topics for additional
 information.
+:::
+
 
 If you are unfamiliar with what Endpoint Policy Manager even does, consider watching this two minute
 overview:

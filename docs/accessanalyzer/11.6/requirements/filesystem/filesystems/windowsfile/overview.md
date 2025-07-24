@@ -17,13 +17,13 @@ Auditing (FSAC) scans.
   [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
   topic for additional information.
 
-Windows File System Cluster Requirements
+**Windows File System Cluster Requirements**
 
 See the
 [Windows File Server Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/windowsfile/access.md)
 topic for instructions.
 
-Windows File System DFS Namespaces Requirements
+**Windows File System DFS Namespaces Requirements**
 
 See the
 [Windows File Server Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/windowsfile/access.md)
@@ -53,19 +53,19 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Enterprise Auditor, the credential used by
 Enterprise Auditor to read the activity log files must have also have this permission.
 
-Windows File System Cluster Requirements
+**Windows File System Cluster Requirements**
 
 See the
 [Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/windowsfile/activity.md)
 topic for instructions.
 
-Windows File System DFS Namespaces Requirements
+**Windows File System DFS Namespaces Requirements**
 
 See the
 [Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/windowsfile/activity.md)
 topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Enterprise Auditor to read the activity log files must also

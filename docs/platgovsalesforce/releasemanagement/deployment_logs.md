@@ -11,17 +11,12 @@ access the logs from **Strongpoint** > **Reports** > **Release and Deployment**.
 
 Deployment logs have these sections:
 
-> Deployment Log Detail
->
-> Customizations
->
-> Deployed Components and Apex Test Information
->
-> Deployment Error Messages
->
-> Notes and Attachments
->
-> Deployment Components
+- Deployment Log Detail
+- Customizations
+- Deployed Components and Apex Test Information
+- Deployment Error Messages
+- Notes and Attachments
+- Deployment Components
 
 ## Sample Deployment Log
 
@@ -29,41 +24,32 @@ Deployment logs have these sections:
 
 ## Deployment Log Detail
 
-> **Deployment Log Name**: Name of the Deployment Record.
->
-> **Change Request**: Link to the change request associated with the deployment record.
->
-> **Start Date**: Date deployment was started.
->
-> **Owner**: Link to the Deployment Owner. Click **Change** to edit the owner information.
->
-> **Status**: Current status of the deployment. Double click to edit. Status options are:
->
-> - Pending
-> - InProgress
-> - Succeeded
-> - SucceededPartial
-> - Failed
-> - Canceling
-> - Canceled
-> - Retrieve In Progress
-> - Retrieve Completed
-> - Retrieve Failed
-> - Validation In Progress
-> - Validation Completed
-> - Validation Failed
-> - Rollback In Progress
-> - Rollback Partial
-> - Rollback Completed
-> - Rollback Failed
->
-> **Deployment Status**: Green Flag for Succeeded Red Flag for Failed.
->
-> **Retrieve Status**: Green Flag for Succeeded Red Flag for Failed.
->
-> **Completed Date**: Date deployment was completed.
->
-> **State Detail**: Component being deployed or the Apex test class running.
+- **Deployment Log Name**: Name of the Deployment Record.
+- **Change Request**: Link to the change request associated with the deployment record.
+- **Start Date**: Date deployment was started.
+- **Owner**: Link to the Deployment Owner. Click **Change** to edit the owner information.
+- **Status**: Current status of the deployment. Double click to edit. Status options are:
+    - Pending
+    - InProgress
+    - Succeeded
+    - SucceededPartial
+    - Failed
+    - Canceling
+    - Canceled
+    - Retrieve In Progress
+    - Retrieve Completed
+    - Retrieve Failed
+    - Validation In Progress
+    - Validation Completed
+    - Validation Failed
+    - Rollback In Progress
+    - Rollback Partial
+    - Rollback Completed
+    - Rollback Failed
+- **Deployment Status**: Green Flag for Succeeded Red Flag for Failed.
+- **Retrieve Status**: Green Flag for Succeeded Red Flag for Failed.
+- **Completed Date**: Date deployment was completed.
+- **State Detail**: Component being deployed or the Apex test class running.
 
 ## Customizations
 
@@ -72,29 +58,20 @@ record.
 
 ## Deployed Components and Apex Test Information
 
-> **Components Total**: Number of components in the deployment.
->
-> **Components Deployed**: Number of components deployed in the deployment process.
->
-> **Component Errors**:Number of components generating errors during the deployment.
->
-> **# of Tests Total**: Number of Apex tests for the deployment.
->
-> **# of Tests Completed**: Number of Apex tests completed for the deployment.
->
-> **# of Test Errors**: Number of Apex tests generating errors during the deployment.
+- **Components Total**: Number of components in the deployment.
+- **Components Deployed**: Number of components deployed in the deployment process.
+- **Component Errors**:Number of components generating errors during the deployment.
+- **# of Tests Total**: Number of Apex tests for the deployment.
+- **# of Tests Completed**: Number of Apex tests completed for the deployment.
+- **# of Test Errors**: Number of Apex tests generating errors during the deployment.
 
 ## Deployment Error Messages
 
-> **Deploy Error Messages**: Lists the components and generated errors.
->
-> **Tests Error Message**: Lists the test failures.
->
-> **Retrieve Error Message**: Lists the error message if a retrieve fails.
->
-> **Created By**: Link to user who created the deployment log.
->
-> **Last Modified By**: Link to user who last modified the deployment log.
+- **Deploy Error Messages**: Lists the components and generated errors.
+- **Tests Error Message**: Lists the test failures.
+- **Retrieve Error Message**: Lists the error message if a retrieve fails.
+- **Created By**: Link to user who created the deployment log.
+- **Last Modified By**: Link to user who last modified the deployment log.
 
 ## Notes and Attachments
 

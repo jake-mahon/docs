@@ -12,17 +12,17 @@ execute a command line utility and capture its output as Enterprise Auditor data
 collector is a core component of Enterprise Auditor and is available with all Enterprise Auditor
 licenses.
 
-Protocols
+**Protocols**
 
 - Remote Registry
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the local Administrators group
 

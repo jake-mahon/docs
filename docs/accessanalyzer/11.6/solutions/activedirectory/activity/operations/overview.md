@@ -14,7 +14,10 @@ controller traffic and activity, and authentication protocols being used in the 
 
 The following Jobs make up the Operations Job Group:
 
-**_RECOMMENDED:_** Schedule these jobs to run with the 0.Collection job group.
+:::info
+Schedule these jobs to run with the 0.Collection job group.
+:::
+
 
 - [AD_AuthenticationProtocol Job](/docs/accessanalyzer/11.6/solutions/activedirectory/activity/operations/ad_authenticationprotocol.md)
   – Shows what protocols are being used to authenticate across the environment and will help to

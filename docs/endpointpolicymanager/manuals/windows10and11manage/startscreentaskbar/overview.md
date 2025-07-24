@@ -6,9 +6,12 @@ sidebar_position: 30
 
 # Start Screen & Taskbar Manager
 
-**NOTE:** Before reading this section, please ensure you have read
+:::note
+Before reading this section, please ensure you have read
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
+:::
+
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -29,9 +32,12 @@ perform the following operations on Windows 10:
 - Configure the Start Menu to enable users to create their own groups
 - Pin applications to the Taskbar or remove user-pinned applications from the Taskbar
 
-**NOTE:** For an overview of Endpoint Policy Manager Start Screen & Taskbar Manager, watch the
+:::note
+For an overview of Endpoint Policy Manager Start Screen & Taskbar Manager, watch the
 videos at
 [https://www.endpointpolicymanager.com/products/endpointpolicymanager-start-screen-taskbar-manager.html](https://www.endpointpolicymanager.com/products/endpointpolicymanager-start-screen-taskbar-manager.html).
+:::
+
 
 The basic way to use Start Screen & Taskbar Manager is as follows:
 
@@ -46,8 +52,11 @@ The basic way to use Start Screen & Taskbar Manager is as follows:
 - Allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to embrace
   the directives and perform the work.
 
-**NOTE:** If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
+:::note
+If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
 settings even to non-domain-joined machines over the Internet.
+:::
+
 
 ## Moving Parts
 

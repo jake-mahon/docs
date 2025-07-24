@@ -67,8 +67,11 @@ Or you can upload the XML to Endpoint Policy Manager Cloud.
 
 All well-formed XML will be accepted and should process on the endpoint.
 
-**NOTE:** Endpoint Policy Manager Preferences will need to be licensed for Endpoint Policy Manager
+:::note
+Endpoint Policy Manager Preferences will need to be licensed for Endpoint Policy Manager
 Cloud. In domain-joined scenarios that component is automatically disabled until expressly enabled.
+:::
+
 
 See
 [Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/activedirectorygposccm/forceddisabled.md)

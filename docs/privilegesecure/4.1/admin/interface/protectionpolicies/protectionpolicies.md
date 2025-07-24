@@ -1,7 +1,7 @@
 ---
 title: "Protection Policies Page"
 description: "Protection Policies Page"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Protection Policies Page

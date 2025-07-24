@@ -29,6 +29,8 @@ The options on the Category page are:
     - Bulk Import SharePoint Activity Scan Results – Imports SharePoint activity into the Enterprise
       Auditor database
 
-_Remember,_ the sensitive data discovery options require the Sensitive Data Discovery Add-On to be
+:::tip
+Remember, the sensitive data discovery options require the Sensitive Data Discovery Add-On to be
 installed on the Enterprise Auditor Console. If the SharePoint Agent is used, then it must also be
 installed on the application server that hosts the Central Administration component.
+:::

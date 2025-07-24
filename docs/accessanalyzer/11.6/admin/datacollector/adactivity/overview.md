@@ -13,16 +13,16 @@ the
 [Active Directory Solution](/docs/accessanalyzer/11.6/solutions/activedirectory/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - HTTP
 - RPC
 
-Ports
+**Ports**
 
 - TCP 4494 (configurable within the Netwrix Activity Monitor)
 
-Permissions
+**Permissions**
 
 - Netwrix Activity Monitor API Access activity data
 - Netwrix Activity Monitor API Read

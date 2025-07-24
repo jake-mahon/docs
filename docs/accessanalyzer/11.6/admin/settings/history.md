@@ -27,10 +27,13 @@ Set the Data Retention Period at the global level to **Never retain previous job
 for more control over the quantity of data by applying history retention at the job group or job
 level. All jobs run with this default setting only keep the most current record set.
 
-**CAUTION:** It is important to understand that some pre-configured jobs require history retention
+:::warning
+It is important to understand that some pre-configured jobs require history retention
 while others do not support it. Changing the history retention settings at the global level can
 cause issues with data analysis and reporting on jobs that don't support it. See the relevant job
 group and job descriptions for additional information.
+:::
+
 
 The Diagnostics Retention Period settings determine how long this data is retained for all jobs that
 do not have an explicit setting. Setting the retention period for a specific job overrides the

@@ -13,8 +13,11 @@ The AWS_Roles job provides details on roles in the AWS IAM environment.
 Navigate to the **AWS** > **4.Roles** > **AWS_Roles** > **Configure** node and select **Analysis**
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_Roles Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/roles/rolesanalysis.webp)
 
@@ -30,6 +33,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_Roles job produces the
 following preconfigured report:
 
-| Report | Description                                                       | Default Tags | Report Element                                                                                                                                                               |
-| ------ | ----------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Roles  | This report provides details on roles in the AWS IAM environment. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays top roles by account - Table – Shows roles by account - Table – Provides details on roles |
+| Report | Description                                                       | Default Tags | Report Element                                                                                                                                                                                           |
+| ------ | ----------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Roles  | This report provides details on roles in the AWS IAM environment. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top roles by account</li><li>Table – Shows roles by account</li><li>Table – Provides details on roles</li></ul> |
+

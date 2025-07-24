@@ -20,10 +20,13 @@ and
 topics for additional information). If you want to keep the default, then you can skip this page of
 the wizard by clicking **Next**.
 
-**NOTE:** In order for reports to be emailed, the SMTP server information must be configured in the
+:::note
+In order for reports to be emailed, the SMTP server information must be configured in the
 **Settings** > **Notification** node. See the
 [Notification](/docs/accessanalyzer/11.6/admin/settings/notification.md)
 topic for additional information.
+:::
+
 
 To configure the setting for the report, use the Settings drop-down menu to select one of the
 following options:

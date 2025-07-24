@@ -41,12 +41,18 @@ fraudulent parent process (cmd.exe in this case).
 
 ![804_4_image-20210819150136-4](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/804_4_image-20210819150136-4.webp)
 
-**NOTE:** Either **Hash** or **File Info** may be used in addition to, or instead of,
+:::note
+Either **Hash** or **File Info** may be used in addition to, or instead of,
 **Signature**, but it is recommended at least one or more conditions be used in addition
 to the command-line arguments.
+:::
 
-**NOTE:** **Apply to child processes** may or may not be required, but removing this checkbox limits
+
+:::note
+**Apply to child processes** may or may not be required, but removing this checkbox limits
 the scope further. For this example, however, it was required.
+:::
+
 
 **Step 4 –** Set up your **Path Condition**: be as specific as possible
 
@@ -63,14 +69,23 @@ come up in the path. In this example, \Random014\ was replaced by \Random\*\
 
 ![804_7_image-20210819150136-7](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/804_7_image-20210819150136-7.webp)
 
-**NOTE:** "\*" is the only supported wildcard character.
+:::note
+"\*" is the only supported wildcard character.
+:::
 
-**NOTE:** **Ignore arguments case** should be checked by
+
+:::note
+**Ignore arguments case** should be checked by
 default![804_8_image-20210819150136-8](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/804_8_image-20210819150136-8.webp)
+:::
+
 
 **Step 7 –** Set action as needed: generally, either **Allow and Log** (this example) or **Run with
 elevated Privileges** (if needed)
 
 ![804_9_image-20210819150136-9](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/804_9_image-20210819150136-9.webp)
 
-**NOTE:** For security and compatibility reasons, only elevate if necessary to do so.
+:::note
+For security and compatibility reasons, only elevate if necessary to do so.
+
+:::

@@ -17,46 +17,26 @@ You can create a New Policy, or edit an existing one:
 
 ## Details
 
-> Information general information about the policy.
->
-> Code and Data Model Changes change control level for code and data model changes.
->
-> Automation Changes change control level for approval process, business process, flow, workflow and
-> process builder changes.
->
-> Sharing and Visibility Changes change control level for role, profile, permission set, data
-> security, sharing non material and indirect changes to profile changes.
->
-> Integration Changes change control level for external site, identity, and access changes.
->
-> Configuration Changes change control level for data quality and general settings changes.
->
-> Display and UI Changes change control level for application, label and translation, layout and
-> template changes.
->
-> Analytics Changes change control level for reports, dashboards, list view, and Einstein changes.
->
-> Control Changes change control level for control changes.
->
-> Application Configuration Changes (Data)
->
-> Health Check Changes change control level for health check changes.
->
-> IT Policies preliminary and final approvers.
->
-> Customization Policies impacted customization approval.
->
-> Management Policies executive approver and approval settings.
->
-> Change Enablement Defaults merge approval list, non conforming alerts, and sequential approval
-> requests.
->
-> **System Information**, **Created By** and **Last Modified By** dates. Informational only, cannot
-> be edited.
+- **Information** general information about the policy.
+- **Code and Data Model Changes** change control level for code and data model changes.
+- **Automation Changes** change control level for approval process, business process, flow, workflow and process builder changes.
+- **Sharing and Visibility Changes** change control level for role, profile, permission set, data security, sharing non material and indirect changes to profile changes.
+- **Integration Changes** change control level for external site, identity, and access changes.
+- **Configuration Changes** change control level for data quality and general settings changes.
+- **Display and UI Changes** change control level for application, label and translation, layout and template changes.
+- **Analytics Changes** change control level for reports, dashboards, list view, and Einstein changes.
+- **Control Changes** change control level for control changes.
+- **Application Configuration Changes (Data)**
+- **Health Check Changes** change control level for health check changes.
+- **IT Policies** preliminary and final approvers.
+- **Customization Policies** impacted customization approval.
+- **Management Policies** executive approver and approval settings.
+- **Change Enablement Defaults** merge approval list, non conforming alerts, and sequential approval requests.
+- **System Information**, **Created By** and **Last Modified By** dates. Informational only, cannot be edited.
 
 Once the policy is saved, **System Information** is added show the **Created By** and **Last
 Modified By** user and time stamp. The information you entered on the form is shown on the
-**Details** tab. The Related tab is now available to add Customizations and view additional
+**Details** tab. The Related tab is available to add Customizations and view additional
 information and history.
 
 ### Information
@@ -72,10 +52,10 @@ Set the required Change Level for each Metadata Type. The Default is shown in th
 
 | **Change Level**                        | **Description**                                                                                                                                                                         |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Log Changes Only**                    | Since the system automatically logs all changes, this change level requires no actions for compliance. Any changes to these objects are automatically marked compliant.                 |
-| **Change Request**                      | Any changes to these objects require an Approved Change Request.                                                                                                                        |
-| **Sandbox Development & Testing**       | Any changes to these objects require an Approved Change Request in the Stage Development Project. It also requires that a parent Change Request is attached to the Development Project. |
-| **Full Software Development Lifecycle** | Any changes to these objects require an Approved Change Request.                                                                                                                        |
+| Log Changes Only                    | Since the system automatically logs all changes, this change level requires no actions for compliance. Any changes to these objects are automatically marked compliant.                 |
+| Change Request                      | Any changes to these objects require an Approved Change Request.                                                                                                                        |
+| Sandbox Development & Testing       | Any changes to these objects require an Approved Change Request in the Stage Development Project. It also requires that a parent Change Request is attached to the Development Project. |
+| Full Software Development Lifecycle | Any changes to these objects require an Approved Change Request.                                                                                                                        |
 
 ### Code and Data Model Changes
 

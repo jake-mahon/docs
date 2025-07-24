@@ -15,7 +15,10 @@ Click **Configuration** > **Users** on the menu to open the Users and Roles wind
 
 ![Users and Roles window](/img/product_docs/threatprevention/7.4/admin/configuration/userroles/usersroleswindow.webp)
 
-**NOTE:** This window is only available to Threat Prevention administrators.
+:::note
+This window is only available to Threat Prevention administrators.
+:::
+
 
 The user account that ran the installation is automatically set with the administrator role. This is
 the only active user until more are added. This ensures that no unauthorized accounts can open the
@@ -29,12 +32,15 @@ There are two roles that can be applied to a Threat Prevention user:
   the [Administrator Permissions](#administrator-permissions) topic for additional information.
 - Console Operator – Can create and run policies, and view event data.
 
-**NOTE:** The Report User role was a legacy feature for the IIS-based Reporting Console and is no
+:::note
+The Report User role was a legacy feature for the IIS-based Reporting Console and is no
 longer applicable. See the
 [Reporting Module](/docs/threatprevention/7.4/reportingmodule/overview.md)
 topic for information on the new reporting console.
+:::
 
-Administration Console Rights
+
+**Administration Console Rights**
 
 |                                                             | Administrator                   | Console Operator                |
 | ----------------------------------------------------------- | ------------------------------- | ------------------------------- |

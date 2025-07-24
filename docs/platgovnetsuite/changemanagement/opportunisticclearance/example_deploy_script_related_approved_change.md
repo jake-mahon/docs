@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Example: Deployment or Library Script Changes related to an Approved Script Change
 
-Use Case
+**Use Case**
 
 A developer plans to make changes to a Suitelet, including the Suitelet library file and depoyment.
 

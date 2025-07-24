@@ -26,5 +26,8 @@ topic for additional information.
 The selection is displayed in the appropriate box of the AD Account filter, the AD Perpetrator
 filter, the Exchange Perpetrators filter, or the Perpetrators to Exclude filter.
 
-**NOTE:** For information on the well-known SID types, see the Microsoft article
+:::note
+For information on the well-known SID types, see the Microsoft article
 [Well-known SIDs](https://learn.microsoft.com/en-us/windows/win32/secauthz/well-known-sids).
+
+:::

@@ -75,9 +75,12 @@ Notes on Collection Configuration:
 - If a computer is a member of multiple groups, the behavior is essentially accumulative. That is
   all selected IDs will be included and uploaded at the shortest interval set.
 
-**NOTE:** See the
+:::note
+See the
 [How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/knowledgebase/eventcollection/childgroups.md)
 topic for more information.
+:::
+
 
 Forcing Event Submission
 
@@ -90,5 +93,8 @@ Policypak cloud-push-logs
 
 ![setting_up_policypak_cloud_4](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_9_e5dddf2ba28a115aa5782c49a21fbac6.webp)
 
-**NOTE:** This command can be run by a standard user. It does not require elevated or administrative
+:::note
+This command can be run by a standard user. It does not require elevated or administrative
 rights to perform.
+
+:::

@@ -37,10 +37,13 @@ settings will automatically affect every user who logs onto the targeted compute
 
 Figure 40. A GPO that affects Computer accounts.
 
-_Remember,_ that in order for Switched policies to apply, the GPO must be linked to an
+:::tip
+Remember, that in order for Switched policies to apply, the GPO must be linked to an
 organizational unit (OU) containing computers, and the chosen computer must be in that OU to
 retrieve the GPO. Switched mode logs are generated automatically when users log in and when Group
 Policy reapplies in the background.
+:::
+
 
 If you need to troubleshoot Switched mode, all log files in this mode will appear in the user's own
 `%localappdata%\PolicyPak` directory and start with "ppSwitched". There are four times a ppSwitched
@@ -54,10 +57,13 @@ log file might be generated or written to. They are as follows:
   timer mechanism, which is off by default (See the section "Automatic Reapplication of Settings
   with the Reinforcement Timer" for details on how to use the timer.)
 
-**NOTE:** Experienced Group Policy administrators may note the similarities between Endpoint Policy
+:::note
+Experienced Group Policy administrators may note the similarities between Endpoint Policy
 Manager Application Settings Manager Switched mode and Group Policy's own loopback processing mode.
 Endpoint Policy Manager Application Settings Manager Switched policies can be handier than loopback
 processing because with Endpoint Policy Manager Application Settings Manager Switched mode, you can
 specify a single policy with particular settings to apply to everyone on the computer. With loopback
 processing, loopback is enabled for every GPO, which often means a lot more policy settings are
 placed on the machine than are desired.
+
+:::

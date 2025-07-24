@@ -11,8 +11,11 @@ The Data Source tab is used to select the data collector to be used. The configu
 - Source – Used to select data collector
 - Path – Displays the returned path from the data collector
 
-    **CAUTION:** Editing the path is considered an advanced operation. Entering an incorrect value
+    :::warning
+    Editing the path is considered an advanced operation. Entering an incorrect value
     may render the query inoperable.
+    :::
+
 
     - The path is used to identify the selection from within the data collector. The path
       essentially tells the data collector where the data is and depending on the data collector,
@@ -33,8 +36,11 @@ The Data Source tab is used to select the data collector to be used. The configu
       order and the ability to graph content. In some cases, the data collector is unable to
       determine the correct data type for the returned data.
 
-    **CAUTION:** Setting this value manually to an incorrect data type may render your results
+    :::warning
+    Setting this value manually to an incorrect data type may render your results
     invalid and inaccessible by Enterprise Auditor.
+    :::
+
 
     - For example: Querying the registry for a value stored as **REG_SZ** returns a string, as
       **REG_SZ** is a string type in the registry. However, sometimes numbers are recorded in

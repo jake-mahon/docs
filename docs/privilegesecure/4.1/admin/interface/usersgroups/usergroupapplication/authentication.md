@@ -1,7 +1,7 @@
 ---
 title: "Authentication Tab"
 description: "Authentication Tab"
-sidebar_position: 100
+sidebar_position: 110
 ---
 
 # Authentication Tab

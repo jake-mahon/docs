@@ -17,8 +17,11 @@ security vulnerability. Additional information on this registry key is available
 Navigate to the **Active Directory > 5.Domains > AD_DSRMSettings > Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![dsrmsettingsanalysis](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/domains/dsrmsettingsanalysis.webp)
 
@@ -32,6 +35,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_DSRMSettings Job produces
 the following pre-configured report:
 
-| Report              | Description                                                                                                                                                                                                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                          |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DSRM Admin Security | This report highlights domain controller registry settings for the DSRMAdminLogonBehavior key. If this key is set to 1 or 2, the DSRM Admin account can be used to log in to the domain controller even if it has not been started in DSRM. This is a potential vulnerability. See the Microsoft [Restartable AD DS Step-by-Step Guide](https://technet.microsoft.com/en-us/library/cc732714(v=ws.10).aspx) for additional information. | None         | This report is comprised of two elements: - Pie Chart – Displays DSRM admin logon  by domain controller - Table – Provides details on domain controllers |
+| Report              | Description                                                                                                                                                                                                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| DSRM Admin Security | This report highlights domain controller registry settings for the DSRMAdminLogonBehavior key. If this key is set to 1 or 2, the DSRM Admin account can be used to log in to the domain controller even if it has not been started in DSRM. This is a potential vulnerability. See the Microsoft [Restartable AD DS Step-by-Step Guide](https://technet.microsoft.com/en-us/library/cc732714(v=ws.10).aspx) for additional information.   | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays DSRM admin logon  by domain controller</li><li>Table – Provides details on domain controllers</li></ul> |
+

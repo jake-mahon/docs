@@ -30,10 +30,13 @@ from the [Splunkbase](https://splunkbase.splunk.com/). Then follow the
 [Splunk Add-ons](http://docs.splunk.com/Documentation/AddOns/released/Overview/Installingadd-ons)
 guide provided by Splunk to install the app.
 
-**NOTE:** In order to use the User Behavior Analytics dashboard in the app, install
+:::note
+In order to use the User Behavior Analytics dashboard in the app, install
 [Splunk User Behavior Analytics](https://www.splunk.com/en_us/products/premium-solutions/user-behavior-analytics.html)
 (any version) and the [Machine Learning Toolkit](https://splunkbase.splunk.com/app/2890/) app for
 Splunk (version 2.0.0+).
+:::
+
 
 The Netwrix Active Directory tab will appear in the Splunk web interface.
 
@@ -44,8 +47,11 @@ Threat Prevention.
 
 Follow the steps to configure Splunk to receive data from Threat Prevention.
 
-_Remember,_ prior to using the Active Directory App for Splunk, the relevant Netwrix product must be
+:::tip
+Remember, prior to using the Active Directory App for Splunk, the relevant Netwrix product must be
 configured to send data to Splunk.
+:::
+
 
 **Step 1 –** Determine the IP address of the Splunk console. If Splunk is hosted on a UNIX machine,
 run `<ifconfig>`. If Splunk is hosted on a Windows machine, run `<ipconfig>`. This IP address is

@@ -1,7 +1,7 @@
 ---
 title: "Reset User MFA"
 description: "Reset User MFA"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Reset User MFA

@@ -63,9 +63,12 @@ When making manual snapshots, if you see many machines reporting back "Connectio
 that there was a communication problem between the Endpoint Policy Manager GPCR client (admin
 console) and each target machine requesting RSOP. An example of these errors is shown in Figure 64.
 
-**NOTE:** For a video addressing the opening of the firewall ports as described in this section,
+:::note
+For a video addressing the opening of the firewall ports as described in this section,
 please go to the following link:
 [Open required firewall ports](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/videolearningcenter/troubleshooting/firewallports.md).
+:::
+
 
 ![tuning_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_6.webp)
 
@@ -95,17 +98,23 @@ Figure 65. Enabling the setting "WIndows Firewall: Allow inbound remote administ
 
 When you do this, you will be able to remotely grab RSOP from target computers.
 
-**NOTE:** After you make this change, it could take up to 120 minutes for all computers in the
+:::note
+After you make this change, it could take up to 120 minutes for all computers in the
 organizational unit (OU) to receive this signal. You can reboot them or manually run GPUpdate
 instead of waiting.
+:::
+
 
 ## License Errors
 
 When computers return "No License" in the snapshot status, this means a successful connection was
 established, but a Endpoint Policy Manager GPCR license was not found.
 
-**NOTE:** Target machines must be licensed for Endpoint Policy Manager GPCR to return all data
+:::note
+Target machines must be licensed for Endpoint Policy Manager GPCR to return all data
 (Microsoft and Endpoint Policy Manager data).
+:::
+
 
 When a machine is licensed for Endpoint Policy Manager GP Compliance Reporter, you should see its
 status shown as "OK," as shown in Figure 66. A status of "Connection Error" or "No License"

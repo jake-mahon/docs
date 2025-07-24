@@ -61,8 +61,11 @@ radio buttons. Then, click **Next**.
 
 **Step 7 –** When the installation completes, click **Finish** to exit the wizard.
 
-**NOTE:** If the File System Proxy Service is installed on multiple servers, then a custom host list
+:::note
+If the File System Proxy Service is installed on multiple servers, then a custom host list
 of proxy servers should also be created in Netwrix Enterprise Auditor.
+:::
+
 
 Once the File System Proxy Service has been installed on any proxy server, it is necessary to
 configure the File System Solution certificate exchange method for Proxy Mode as a Service. See the
@@ -74,7 +77,7 @@ topic for additional information.
 The port and priority parameters can be modified for the File System Proxy Service on the registry
 key:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath**
 
 - Port parameter – Only needs to be added to the registry key value if a custom port is used. The
   default port of 8766 does not need to be set as a parameter
@@ -84,10 +87,16 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
 
     - Append `-r 0` to the ImagePath key value
 
-    **NOTE:** If both parameters are added, there is no required order.
+    :::note
+    If both parameters are added, there is no required order.
+    :::
 
-    **_RECOMMENDED:_** Stop the Netwrix Enterprise Auditor FSAA Proxy Scanner service before
+
+    :::info
+    Stop the Netwrix Enterprise Auditor FSAA Proxy Scanner service before
     modifying the registry key.
+    :::
+
 
 Follow the steps to configure these service parameters.
 
@@ -101,7 +110,7 @@ Scanner service and select **Stop**.
 
 **Step 2 –** Open Registry Editor (`regedit`) and navigate to the following registry key:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath**
 
 **Step 3 –** Right-click on the **ImagePath** key and select **Modify**. The Value data was set
 during installation according to the installation directory location selected.
@@ -114,9 +123,12 @@ during installation according to the installation directory location selected.
 
         Example with Port number 1234:
 
-        C:\Program Files (x86)\STEALTHbits\StealthAUDIT\FSAA\StealthAUDITRPC.EXEFSAASrv.DLL -e 1234
+**C:\Program Files (x86)\STEALTHbits\StealthAUDIT\FSAA\StealthAUDITRPC.EXEFSAASrv.DLL -e 1234**
 
-        **NOTE:** The port number needs to be added to the path only if a custom port is used.
+        :::note
+        The port number needs to be added to the path only if a custom port is used.
+        :::
+
 
 **Step 4 –** Click **OK** and close Registry Editor.
 
@@ -129,9 +141,12 @@ Proxy Scanner service. Close the Services Management Console.
 **[Job]** > **Configure** > **Queries** node and open the File System Access Auditor Data Collector
 Wizard. On the Applet Settings wizard page, change the **Port number** to the custom port.
 
-**NOTE:** See the
+:::note
+See the
 [File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/11.6/install/filesystemproxy/configuredatacollector.md)
 section for additional configurations required to run scans in proxy mode as a service.
+:::
+
 
 **Step 7 –** Repeat the previous step for each of the **FileSystem** > **0.Collection** jobs to
 employ this proxy service.

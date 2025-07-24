@@ -70,8 +70,11 @@ button.
 
 **Step 4 –** Enter the full **UNC path to PPE10.1.msi** in the Open dialog box.
 
-**NOTE:** You must enter a UNC path so that other computers can access this file over the network.
+:::note
+You must enter a UNC path so that other computers can access this file over the network.
 For example: \\file server\distribution point share\PPE10.1.msi
+:::
+
 
 **Step 5 –** Click **Open**.
 

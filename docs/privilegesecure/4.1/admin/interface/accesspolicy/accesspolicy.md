@@ -18,7 +18,7 @@ has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Green + button — Create a new access policy. See the
-  [Add Access Policy](/docs/privilegesecure/4.1/admin/interface/accesspolicy/accesspolicy_1.md)
+  [Add Access Policy](/docs/privilegesecure/4.1/admin/interface/accesspolicy/addaccesspolicy.md)
   topic for additional information.
 - Trashcan icon — Deletes the access policy. Icon appears when policy is hovered over. A
   confirmation window will display.

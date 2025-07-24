@@ -10,16 +10,11 @@ Platform Governance for Salesforce is a stress-free change management and compli
 NetSuite and Salesforce. It helps companies manage change in their systems, enabling them to drive
 growth with confidence and certainty. Here are answer to Frequently Asked Questions:
 
-> Can Platform Governance for Salesforce provide a SOC1 Report?
->
-> Can I install Platform Governance for Salesforce in the Sandbox or Release Preview?
->
-> Is our private data being transmitted or shared in any way?
->
-> What is the time or effort required to use Platform Governance for Salesforce?
->
-> Who needs a Platform Governance for Salesforce License? What is the difference between an editor
-> and a viewer?
+- Can Platform Governance for Salesforce provide a SOC1 Report?
+- Can I install Platform Governance for Salesforce in the Sandbox or Release Preview?
+- Is our private data being transmitted or shared in any way?
+- What is the time or effort required to use Platform Governance for Salesforce?
+- Who needs a Platform Governance for Salesforce License? What is the difference between an editor and a viewer?
 
 #### Can Platform Governance for Salesforce provide a SOC1 Report?
 

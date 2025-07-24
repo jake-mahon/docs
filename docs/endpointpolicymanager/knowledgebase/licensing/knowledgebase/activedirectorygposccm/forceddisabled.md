@@ -10,8 +10,11 @@ Starting with build 2862, Netwrix Endpoint Policy Manager (formerly PolicyPak) P
 automatically forced disabled when detected as licensed on domain joined machines. This happens even
 if there is a valid corresponding Universal or Legacy license which would normally enable it.
 
-**NOTE:** This restriction is only forced for domain joined machines, and doesn't impact non-domain
+:::note
+This restriction is only forced for domain joined machines, and doesn't impact non-domain
 joined machines.
+:::
+
 
 ## Why did we make this change?
 
@@ -156,9 +159,12 @@ don't have conflicts with on-prem GPPreferences.
 We recommend you keep this component disabled unless you know you need it, or you plan to migrate
 away from on-prem GPPreferences and use CLOUD or MDM with Endpoint Policy Manager exclusively.
 
-**NOTE:** If Endpoint Policy Manager Preferences license is disabled by ADMX policy (see below),
+:::note
+If Endpoint Policy Manager Preferences license is disabled by ADMX policy (see below),
 then PolicyPak Preferences will always be unlicensed and disabled (even if the aforementioned
 **Specifically enable PolicyPak Preferences (Original version) if licensed** ADMX setting is set.
+:::
+
 
 ![forcedisabled1](/img/product_docs/endpointpolicymanager/license/unlicense/forcedisabled1.webp)
 

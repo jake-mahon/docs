@@ -10,16 +10,16 @@ The Edit Review wizard is opened with the **Edit** button on the Resource Review
 [Manage Reviews Page](/docs/accessinformationcenter/11.6/resourcereviews/interface/interface.md#manage-reviews-page)
 topic for additional information.
 
-![Edit Review wizard](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype_1.webp)
 
 It contains four pages:
 
--   1. Review Type — Select whether to notify the review creator when the resources have been
+-   **1. Review Type** — Select whether to notify the review creator when the resources have been
        reviewed. The review type and name cannot be changed.
--   2. Criteria — Only applies to Sensitive Data reviews. Update the sensitive criteria to be
+-   **2. Criteria** — Only applies to Sensitive Data reviews. Update the sensitive criteria to be
        reviewed.
--   3. Resources — Modify the list of resources included in the review
--   4. Summary — Preview of the review selections
+-   **3. Resources** — Modify the list of resources included in the review
+-   **4. Summary** — Preview of the review selections
 
 See the [Edit a Review](#edit-a-review) topic for additional information.
 
@@ -29,7 +29,7 @@ Follow the steps to edit an active review.
 
 **Step 1 –** On the Manage Reviews page, click **Edit**. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype_1.webp)
 
 **Step 2 –** On the Review Type page, configure the notify review creator option as required. The
 Review Name and type are shown on the page but can not be edited. For Permissions, Access, and
@@ -42,8 +42,11 @@ edited.
   [Resource Reviewed Email](/docs/accessinformationcenter/11.6/resourcereviews/approvalprocess/resourcereviewed.md)
   topic for additional information.
 
-**NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
+:::note
+If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
+:::
+
 
 ![Edit Review wizard Criteria page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/criteria_1.webp)
 
@@ -57,24 +60,33 @@ more resources have already been submitted you can not add or remove criteria.
 - To remove a criteria, select the criteria in the Selected Criteria list on the right and click
   **Remove**
 
-**NOTE:** The sensitive data criteria listed is limited to what is configured to be collected by the
+:::note
+The sensitive data criteria listed is limited to what is configured to be collected by the
 Netwrix Enterprise Auditor data collection scans.
+:::
+
 
 **Step 4 –** Optionally edit the selection of the **Reviewers are able to see the sensitive data
 match if available** option to allow the owner with Console Access roles of Security Team or
 Administrator to view potentially sensitive data within the review. Click **Next** to continue.
 
-**CAUTION:** If this option is checked, but the data has not been collected with matches stored by
+:::warning
+If this option is checked, but the data has not been collected with matches stored by
 Netwrix Enterprise Auditor for all of the resources selected in Step 5, the “One or more resources
 selected have not been scanned” error occurs. The Create Review wizard will not allow the review to
 be created until those resources have been removed or the option unchecked.
+:::
+
 
 ![Edit Review wizard Resources page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/resources_1.webp)
 
 **Step 5 –** On the Resources page, modify the list of resources to be included in the review.
 
-**NOTE:** If the include child resources option was enabled during the review creation, then adding
+:::note
+If the include child resources option was enabled during the review creation, then adding
 or removing parent resources from the review also adds or removes their children.
+:::
+
 
 - The table displays the following information:
 

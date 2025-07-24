@@ -34,8 +34,11 @@ one of the following three ways:
 3. Global settings apply to all users of a database without exception. You can configure them in the
    client settings.
 
-**CAUTION:** In addition to personal and global settings (as opposed to authorizations), settings
+:::warning
+In addition to personal and global settings (as opposed to authorizations), settings
 are not assigned via roles, but via organisational units!
+:::
+
 
 ![installation_with_parameters_112](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
 

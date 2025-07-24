@@ -13,7 +13,10 @@ in addition to providing context around potentially stale distribution lists.
 
 The following comprise the 6. Distribution Lists job group:
 
-**NOTE:** These jobs are compatible with the Office 365 environment.
+:::note
+These jobs are compatible with the Office 365 environment.
+:::
+
 
 - [Effective Membership > EX_GroupExpansion Job](/docs/accessanalyzer/11.6/solutions/exchange/distributionlists/ex_groupexpansion.md)
   – Expands the direct membership of distribution groups in the environment

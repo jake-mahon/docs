@@ -10,7 +10,10 @@ The AD_ServiceAccounts Job offers information about service accounts and if they
 Kerberoasting. An account is deemed vulnerable to a Kerberoasting attack if the
 msDS-SupportedEncryptionTypes value supports RC4 as the highest encryption type.
 
-_Remember,_ the 1-AD_Scan Job needs to be configured to collect these Custom Attributes:
+:::tip
+Remember, the 1-AD_Scan Job needs to be configured to collect these Custom Attributes:
+:::
+
 
 - servicePrincipalName – Provides service account information. See the Microsoft
   [Service Principal Names](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc961723(v=technet.10))
@@ -22,8 +25,11 @@ _Remember,_ the 1-AD_Scan Job needs to be configured to collect these Custom Att
 Navigate to the **Active Directory** > **2.Users** > **AD_ServiceAccounts** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the AD_ServiceAccounts Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/serviceaccountsanalysis.webp)
 
@@ -35,6 +41,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_ServiceAccounts Job
 produces the following pre-configured report:
 
-| Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                       |
-| ---------------- | ---------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Service Accounts | This report provides details on service accounts in the audited environment. | None         | This report is comprised of three elements: - Bar Chart – Displays service accounts by domain - Table – Provides details on service accounts - Table – Provides details on service accounts by domain |
+| Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                   |
+| ---------------- | ---------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Service Accounts | This report provides details on service accounts in the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays service accounts by domain</li><li>Table – Provides details on service accounts</li><li>Table – Provides details on service accounts by domain</li></ul> |
+

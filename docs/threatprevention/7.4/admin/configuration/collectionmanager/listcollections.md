@@ -115,9 +115,12 @@ settings.
 
 **Step 1 –** Select a collection on the List of Collections window and click **Remove**.
 
-**NOTE:** You cannot delete a collection that is assigned to an active policy, as indicated in the
+:::note
+You cannot delete a collection that is assigned to an active policy, as indicated in the
 Dependency Count column. Remove a collection from all policies it has been assigned to before
 deleting it.
+:::
+
 
 ![Confirm Removal window](/img/product_docs/threatprevention/7.4/admin/configuration/collectionmanager/confirmremoval.webp)
 

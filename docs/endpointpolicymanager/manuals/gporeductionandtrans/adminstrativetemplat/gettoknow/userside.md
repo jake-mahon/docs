@@ -10,8 +10,11 @@ When you add a Endpoint Policy Manager Admin Template policy setting on the User
 **New Admin Templates Entry** window. Here you can search for and find all the same policy settings
 that Microsoft has, and you can select to use the Microsoft Central Storage or local ADMX files.
 
-**NOTE:** The User side only displays user-side policies, and the Scope Filter section is grayed out
+:::note
+The User side only displays user-side policies, and the Scope Filter section is grayed out
 and unchangeable.
+:::
+
 
 ![about_policypak_admin_templates_3](/img/product_docs/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_3.webp)
 

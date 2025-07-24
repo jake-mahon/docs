@@ -15,9 +15,12 @@ message.
 The fastest way to automate this is with Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Application Settings Manager Java AppSets. Starting with Java 7 U 25 they all have this feature.
 
-**NOTE:** See
+:::note
+See
 [Manage and Lock down Java Site List Exceptions](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/java/lockdown.md)
 for additional information.
+:::
+
 
 Here are some other Endpoint Policy Manager Application Settings Manager Java prompts you may
 encounter that can be overcome:

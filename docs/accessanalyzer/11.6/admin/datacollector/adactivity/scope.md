@@ -19,8 +19,11 @@ The Timespan is defined according to the following two elements:
 - Relative Timespan – Number of days AD Activity is collected when the scan is run
 - Absolute Timespan – Set the date range for the scan to collect AD Activity
 
-    **_RECOMMENDED:_** The threshold should be set for after the Netwrix Activity Monitor collects
+    :::info
+    The threshold should be set for after the Netwrix Activity Monitor collects
     and archives its data but before they are deleted after a set retention period.
+    :::
+
 
 The Retention section sets what event type is collected and how many days Enterprise Auditor keeps
 the collected data in its SQL database. The table has the following columns:

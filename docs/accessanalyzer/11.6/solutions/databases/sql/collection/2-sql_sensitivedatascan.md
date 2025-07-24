@@ -9,7 +9,7 @@ sidebar_position: 30
 The 2-SQL_SensitiveDataScan Job discovers sensitive data in the database SQL server instances and
 databases based on a pre-defined or user defined search criteria.
 
-Special Dependency
+**Special Dependency**
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
     - See the
@@ -46,8 +46,11 @@ Properties. The Query Properties window appears.
 
 **Step 3 –** Select the Data Source tab, and click Configure. The SQL Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for this
 job.
+:::
+
 
 ![2sqlsensitivedatascanoptionspage](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
 
@@ -55,9 +58,12 @@ job.
 [SQL: Options](/docs/accessanalyzer/11.6/admin/datacollector/sql/options.md)
 page for additional information.
 
-**NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
+:::note
+The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
+:::
+
 
 ![Criteria Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
 
@@ -97,8 +103,11 @@ The 2-SQL_SensitsveDataScan Job is now ready to run with the customized settings
 Navigate to the **Databases** > 0.Collection > SQL > 2-SQL_SensitiveDataScan > Configure node and
 select Analysis to view the analysis task.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup13.webp)
 

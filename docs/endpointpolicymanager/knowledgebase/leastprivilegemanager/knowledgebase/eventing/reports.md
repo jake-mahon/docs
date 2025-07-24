@@ -55,7 +55,10 @@ Active Directory container, or via IP Range.
 
 ![1325_6](/img/product_docs/endpointpolicymanager/integration/auditor/1325_6.webp)
 
-**NOTE:** You can add multiple types of computer items to your monitoring plan.
+:::note
+You can add multiple types of computer items to your monitoring plan.
+:::
+
 
 ![1325_7](/img/product_docs/endpointpolicymanager/integration/auditor/1325_7.webp)
 
@@ -123,7 +126,10 @@ Then click **Add** to add a new alert.
 **Step 11 –** In the next window add alerts for any event IDs as needed using the screenshots below
 as a guide.
 
-**NOTE:** There is no need to configure anything under the **Insertion Strings** tab at this time.
+:::note
+There is no need to configure anything under the **Insertion Strings** tab at this time.
+:::
+
 
 Single Event Alert Example:
 
@@ -151,6 +157,9 @@ Event level etc.
 
 ![1325_21](/img/product_docs/endpointpolicymanager/integration/auditor/1325_21.webp)
 
-**NOTE:** You can click on the interactive link in the **Date** column to see event details:
+:::note
+You can click on the interactive link in the **Date** column to see event details:
+:::
+
 
 ![1325_22](/img/product_docs/endpointpolicymanager/integration/auditor/1325_22.webp)

@@ -10,8 +10,8 @@ sidebar_position: 30
 
 Administrator needs to enable custom record field's Show in List option.
 
-1. Administrator creates a new Change Request and adds the field customization to enable the Show in
-   List option.
+1. Administrator creates a new Change Request and adds the field customization to enable the **Show in
+   List** option.
 
     ![opp_clearance_case3-1](/img/product_docs/platgovnetsuite/change_management/opp_clearance_case3-1.webp)
 

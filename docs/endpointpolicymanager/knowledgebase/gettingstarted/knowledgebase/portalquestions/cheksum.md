@@ -8,8 +8,11 @@ sidebar_position: 40
 
 In the portal you will see a SHA256 checksum for each download.
 
-**NOTE:** This is only for BUILD ISO/ ZIPs and not available for other items such as XML guidance or
+:::note
+This is only for BUILD ISO/ ZIPs and not available for other items such as XML guidance or
 scripts.
+:::
+
 
 After you download the software, use the build-in windows command line to validate the SHA256
 checksum.
@@ -24,7 +27,10 @@ and/or
 
 `certutil -hashfile endpointpolicymanager-Software-Build-3155.iso SHA256`
 
-**NOTE:** You must put the SHA256 at the end, or the command is interpreted as SHA1, which will
+:::note
+You must put the SHA256 at the end, or the command is interpreted as SHA1, which will
 produce a different result.
+:::
+
 
 ![912_2_image002_950x217](/img/product_docs/endpointpolicymanager/cloud/912_2_image002_950x217.webp)

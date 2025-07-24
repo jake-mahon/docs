@@ -12,8 +12,11 @@ Chrome website.
 
 ![about_policypak_browser_router_23](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_23.webp)
 
-**NOTE:** For a video on using Endpoint Policy Manager Browser Router and ports, see
+:::note
+For a video on using Endpoint Policy Manager Browser Router and ports, see
 [Endpoint Policy Manager Browser Router and Ports](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/ports.md).
+:::
+
 
 In this way, you can have granular control over which browser is opened for which website.
 Additionally, for Internet Explorer 11, Endpoint Policy Manager Browser Router will automatically
@@ -22,6 +25,9 @@ route similar to the one shown below.
 
 ![about_policypak_browser_router_24](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_24.webp)
 
-**NOTE:** Not every version of Internet Explorer 11 is ready to receive v2 site lists. For a list of
+:::note
+Not every version of Internet Explorer 11 is ready to receive v2 site lists. For a list of
 which versions of Internet Explorer 11 use v1 vs v2, see
 [When does Endpoint Policy Manager Browser Router write v1 or v2 Enterprise Mode site lists?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/versions.md).
+
+:::

@@ -24,9 +24,12 @@ For this Quickstart example, select Calculator, as seen in Figure 14.
 
 Figure 14. Picking UWP applications from a common list or from your machine.
 
-**NOTE:** Optionally, if you don't have the application installed on your management station, but
+:::note
+Optionally, if you don't have the application installed on your management station, but
 you know the ID of the UWP (also known as the UWA or Universal Windows Application Identifier) you
 can select "Custom Universal Windows Platform application," then input the ID.
+:::
+
 
 **Step 3 –** Next, in the tile settings window, you'll see that UWP applications have four possible
 sizes. For this Quickstart, select the largest tile size, as shown in Figure 15, and click "Next."

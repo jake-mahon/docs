@@ -1,5 +1,5 @@
 ---
-title: "Setting advanced configuration"
+title: "Setting Advanced Configuration"
 description: "Setting advanced configuration"
 sidebar_position: 20
 ---

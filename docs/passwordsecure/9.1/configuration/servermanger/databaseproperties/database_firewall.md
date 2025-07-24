@@ -56,22 +56,22 @@ The functionality of the firewall will be explained in more detail using the fol
 
 ![defined firewall rules](/img/product_docs/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_231-en.webp)
 
-Approving an IP range (Rule 1)
+**Approving an IP range (Rule 1)**
 
 The first rule in the example allows access from a range of IP addresses from 192.168.150.1 to
 192.168.150.254
 
-Locking a particular computer (Rule 2)
+**Locking a particular computer (Rule 2)**
 
 The computer with the IP 192.168.150.64 is within the range defined in Rule 1. Access from this PC
 is blocked using this rule.
 
-Blocking an individual user (Rule 3)
+**Blocking an individual user (Rule 3)**
 
 If you want to block a particular user (perhaps because they have left the company) then this is
 also possible.
 
-Computer-independent access for a user (Rule 4)
+**Computer-independent access for a user (Rule 4)**
 
 This rule grants access to the administrator. It is irrelevant which computer the administrator uses
 to log in to the database.

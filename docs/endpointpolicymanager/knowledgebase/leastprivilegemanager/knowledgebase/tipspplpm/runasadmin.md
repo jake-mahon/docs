@@ -25,9 +25,12 @@ first: [Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgeba
 
 ![862_1_image-20230228200619-1_950x319](/img/product_docs/endpointpolicymanager/leastprivilege/862_1_image-20230228200619-1_950x319.webp)
 
-**NOTE:** These ADMX settings are also built into Endpoint Policy Manager Cloud and you're welcome
+:::note
+These ADMX settings are also built into Endpoint Policy Manager Cloud and you're welcome
 to use those as well.  The policy screen shots below in this article were all taken from Endpoint
 Policy Manager Cloud.
+:::
+
 
 ![1243_2_232bf02612716c9cb1420ae8801dbfd2](/img/product_docs/endpointpolicymanager/leastprivilege/1243_2_232bf02612716c9cb1420ae8801dbfd2.webp)
 
@@ -78,12 +81,15 @@ by Windows OS and not Endpoint Policy Manager.
 
 ![862_8_image-20230601145346-1](/img/product_docs/endpointpolicymanager/leastprivilege/862_8_image-20230601145346-1.webp)
 
-**NOTE:** Because this method will ALSO turn off NTPRINT.EXE elevations, you can still use the
+:::note
+Because this method will ALSO turn off NTPRINT.EXE elevations, you can still use the
 legacy Printer elevation method within “Endpoint Policy Manager Helper Tools” to perform Printer
 operations in this mode, because it doesn’t rely on the updated functionality to perform elevation
 directly upon NTPRINT.EXE. To see the Endpoint Policy Manager Helper Tools in action to add
 printers, please refer to these videos: Least Privilege Manager >
 [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/videolearningcenter.md).
+:::
+
 
 ## Scenario 3: I want to use the native tools to elevate printers (aka NTPRINT.EXE) AND Windows Settings (aka SystemSettingsAdminFlows.exe) and I also sometimes need to perform Run as administrator operations.
 

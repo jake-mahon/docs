@@ -60,9 +60,12 @@ The simplest way to populate the Device Selection Mode screen is to take the Dev
 and copy and paste it into the editor. When you do, the Vendor ID, Product ID, Product Rev and
 Serial Number are all auto-detected.
 
-**NOTE:** You may ignore the **STANDARD** or **COMPLETE** designations in the Endpoint Policy
+:::note
+You may ignore the **STANDARD** or **COMPLETE** designations in the Endpoint Policy
 Manager Device Manager UI. Typically, Endpoint Policy Manager is sold in Enterprise or SaaS editions
 and in those configurations you get **COMPLETE** (meaning all the features).
+:::
+
 
 ![device10](/img/product_docs/endpointpolicymanager/device/devicemanager/device10.webp)
 
@@ -86,11 +89,14 @@ On the next screen, you can **Add domain member** meaning an Active Directory us
 Alternatively you can select **Add member...** and select a specific SID which can be useful if
 you're adding users not-joined to Active Directory, and only using an MDM service.
 
-**NOTE:** To get an overview of how to acquire SIDs with your MDM service and then use them with
+:::note
+To get an overview of how to acquire SIDs with your MDM service and then use them with
 Endpoint Policy Manager Device Manager, see the
 [How do I get Azure AD SIDs and use them with Item Level Targeting?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/tipstricksandfaqs/entraidsids.md)
 and [Block and Allow USB and CD-ROMs with your MDM solution](/docs/endpointpolicymanager/knowledgebase/devicemanager/videolearningcenter/methods/mdm.md) topics for
 additional information.
+:::
+
 
 ![usb2](/img/product_docs/endpointpolicymanager/device/devicemanager/usb2.webp)
 
@@ -134,9 +140,12 @@ WPD stands for Windows Portable Device. WPDS are any kinds of portable storage 
 players which may have addressable storage. Phone/WPD policies are only Allow/Deny. There is no way
 to dial in the rights to these devices.
 
-**NOTE:** Not every kind of Phone or WPD device may be immediately supported because they sometimes
+:::note
+Not every kind of Phone or WPD device may be immediately supported because they sometimes
 use protocols which are unexpected. You may open a support case to investigate if we can attempt to
 support your unique Phone/WPD device.
+:::
+
 
 If creating a Phone/WPD policy in place with no Global Settings policy, a Wizard will help guide you
 to configure both a Global Settings policy and a Phone/WPDpolicy at the same time.

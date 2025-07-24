@@ -10,8 +10,11 @@ You can block specific websites by making a rule and selecting the **Block** web
 choose to provide **Block Text**, which will appear in a pop-up for the user, explaining why they
 cannot visit the website.
 
-**NOTE:** For an overview of using Block policies, see the following video:
+:::note
+For an overview of using Block policies, see the following video:
 [Block web sites from opening in all browsers.](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/blockwebsites.md)
+:::
+
 
 ![about_policypak_browser_router_16](/img/product_docs/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_16.webp)
 
@@ -20,6 +23,9 @@ pop-up like this one.
 
 ![about_policypak_browser_router_17](/img/product_docs/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_17.webp)
 
-**NOTE:** If you leave the **Block Text** field empty, default text is automatically provided.
+:::note
+If you leave the **Block Text** field empty, default text is automatically provided.
+:::
+
 
 ![about_policypak_browser_router_18](/img/product_docs/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_18.webp)

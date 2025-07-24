@@ -51,8 +51,11 @@ the Host Master Table or at any host list node. See the
 [Filter](/docs/accessanalyzer/11.6/admin/navigate/datagrid.md#filter)
 topic for additional information on filtering data grids.
 
-**_RECOMMENDED:_** Do not modify the criteria once a dynamic based list has been created. It is
+:::info
+Do not modify the criteria once a dynamic based list has been created. It is
 better to delete and recreate the list in order to modify a dynamic-based list.
+:::
+
 
 ## Static Host Lists
 

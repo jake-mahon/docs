@@ -16,5 +16,8 @@ topic for video details on downloading.
 Next, Netwrix Endpoint Policy Manager (formerly PolicyPak) enables you to deliver settings via Group
 Policy, MDM or PolicyPak Cloud.
 
-**_RECOMMENDED:_** Use Group Policy for your Quick Start. However, any delivery method may be used
+:::info
+Use Group Policy for your Quick Start. However, any delivery method may be used
 as appropriate.
+
+:::

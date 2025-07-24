@@ -44,8 +44,11 @@ step.
       [Import From a Database](/docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/database.md)
       topic for additional information.
 
-        **NOTE:** The Provider, Advanced, and All tabs of the Data Link Properties window should not
+        :::note
+        The Provider, Advanced, and All tabs of the Data Link Properties window should not
         be modified.
+        :::
+
 
     - Table – Use the dropdown to select the table that contains the hosts to be imported. A preview
       of the selected table is displayed in the preview box.

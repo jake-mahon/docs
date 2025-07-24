@@ -9,8 +9,11 @@ sidebar_position: 60
 The **Templates** > **Microsoft** > **File System** folder in the Navigation pane contains the
 following templates:
 
-**CAUTION:** ‘Reads’ are left out due to the potential high volume of data that could be gathered;
+:::warning
+‘Reads’ are left out due to the potential high volume of data that could be gathered;
 recommended only for highly sensitive content.
+:::
+
 
 | Subfolder  | Template                                              | Description                                                                                                                                                        | TAGS |
 | ---------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
@@ -25,7 +28,7 @@ recommended only for highly sensitive content.
 |            | WinFS: Video File Access                              | Specify the files and/or folders to be monitored. Optionally, add any AD Perpetrators to be included or excluded                                                   | None |
 | Access     | WinFS Access: Creates                                 | Specify the files and/or folders to be monitored. Optionally, add any ‘Wildcards’ and/or AD Perpetrators to be included or excluded                                | None |
 | Access     | WinFS Access: Deletes                                 | Specify the files and/or folders to be monitored. Optionally, add any ‘Wildcards’ and/or AD Perpetrators to be included or excluded                                | None |
-| Access     | WinFS Access: Reads                                   | USE CAUTION WITH THIS TEMPLATE Specify the files and/or folders to be monitored. Optionally, add any ‘Wildcards’ and/or AD Perpetrators to be included or excluded | None |
+| Access     | WinFS Access: Reads                                   | USE CAUTION WITH THIS TEMPLATE <br />Specify the files and/or folders to be monitored. Optionally, add any ‘Wildcards’ and/or AD Perpetrators to be included or excluded | None |
 | Access     | WinFS Access: Renames                                 | Specify the files and/or folders to be monitored. Optionally, add any ‘Wildcards’ and/or AD Perpetrators to be included or excluded                                | None |
 | Access     | WinFS Access: Writes                                  | Specify the files and/or folders to be monitored. Optionally, add any ‘Wildcards’ and/or AD Perpetrators to be included or excluded                                | None |
 | Properties | WinFS Property: Attribute Modifications               | Specify the files and/or folders to be monitored. Optionally, add any ‘Wildcards’ and/or AD Perpetrators to be included or excluded                                | None |

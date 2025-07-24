@@ -32,7 +32,7 @@ assigned.
 
 #### Link via QR code
 
-Fulluser
+**Fulluser**
 
 The quickest way to create a link is via a QR code. To do this, first log in to the client. You will
 find the corresponding QR code in the Backstage under Account:
@@ -46,7 +46,7 @@ meaningful name and log in directly:
 
 ![log in with your data](/img/product_docs/passwordsecure/9.1/configuration/mobiledevices/setup/linking_database/integration-ma-en.webp)
 
-LightUser
+**LightUser**
 
 Using the Light view, the user must click on their user account and click on the **Account** option
 

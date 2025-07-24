@@ -6,8 +6,11 @@ sidebar_position: 130
 
 # How-to Fix EXPLORER.EXE crash when right-clicking document files, pdf, docx, xlsx, etc.?
 
-**NOTE:** This should be automatically fixed for MOST CUSTOMERS with CSE BUILD 3068 and later, these
+:::note
+This should be automatically fixed for MOST CUSTOMERS with CSE BUILD 3068 and later, these
 steps are only required if you are still experiencing this issue.
+:::
+
 
 SecureCopy can run into conflicts with some third-party software shell extensions. When this
 happens, instead of opening a right-click context menu EXPLORER.EXE crashes or restarts instead. The
@@ -21,8 +24,11 @@ into a collection and attached within this KB below.
 Once the SecureCopy extension registration is removed from the registry, the EXPLORER.EXE crash
 issue will no longer occur.
 
-**NOTE:** After disabling SecureCopy in the registry, SecureCopy policies will no longer affect the
+:::note
+After disabling SecureCopy in the registry, SecureCopy policies will no longer affect the
 endpoint.
+:::
+
 
 ```
 <?xml version="1.0" encoding="utf-8"?>

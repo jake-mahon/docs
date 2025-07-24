@@ -15,9 +15,12 @@ working run the following to show all WLAN profiles on the PC:
 to your WiFi `settings/Environment`  
 netsh wlan export profile name="Company WiFi " key=clear folder=c:\temp
 
-**NOTE:** This means the XML file will contain your WiFi password in clear text, this KB uses
+:::note
+This means the XML file will contain your WiFi password in clear text, this KB uses
 Dropbox for demonstration purposes only. It is NOT recommended to store your WLAN profile on the
 internet.
+:::
+
 
 **Step 3 –** Copy the `C:\temp\"Company WiFi.xml"` to Dropbox, then create a Share link. Copy the
 link address, then replace the [www.dropbox.com](http://www.dropbox.com/) in your shared link with
@@ -76,9 +79,15 @@ click save.
 
 ![658_4_img-4](/img/product_docs/endpointpolicymanager/scriptstriggers/658_4_img-4.webp)
 
-**NOTE:** The same policy will work if applied to user side and user OU as well.
+:::note
+The same policy will work if applied to user side and user OU as well.
+:::
 
-**NOTE:** If needed you can delete this WLAN profile from a computer using an elevated PowerShell
+
+:::note
+If needed you can delete this WLAN profile from a computer using an elevated PowerShell
 command prompt.
+:::
+
 
 `netsh wlan delete profile name="Company WiFi"`

@@ -18,11 +18,11 @@ the following link: web view Basic view
 There is no database profile on the Web Application. All databases approved for the Web Application
 will be made available. The following information needs to be entered to log in:
 
-Database name
+**Database name**
 
 User name
 
-Password
+**Password**
 
 ![Login WebClient](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/operation/installation_with_parameters_167-en.webp)
 
@@ -40,7 +40,7 @@ parameters are used here:
 The parameters are simply attached to the URL for the Web Application and separated from one another
 with a **&**.
 
-Example
+**Example**
 
 You want to call up the Web Application under **https://psr_Web Application.firma.com.** In the
 process, you want the login mask to be directly filled with the database **Passwords** and the user

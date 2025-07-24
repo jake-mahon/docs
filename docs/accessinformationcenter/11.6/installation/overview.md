@@ -22,8 +22,11 @@ information.
 The .Active Directory Inventory Solution must be successfully executed prior to installing the
 Access Information Center.
 
-**_RECOMMENDED:_** Successfully execute other solutions, like File System or SharePoint, which
+:::info
+Successfully execute other solutions, like File System or SharePoint, which
 supply the data for Resource Audits.
+:::
+
 
 ### Permissions
 
@@ -48,7 +51,7 @@ these will be referred to as the Database service account and the Active Directo
   [Active Directory Page](/docs/accessinformationcenter/11.6/admin/configuration/activedirectory.md)
   topic for additional information.
 
-Commit Active Directory Changes
+**Commit Active Directory Changes**
 
 If configured and enabled, the Access Information Center can commit group membership changes within
 Active Directory. This is an optional component of change modeling, resource owner ad hoc changes,
@@ -81,8 +84,11 @@ Auditor Console, the following minimal server requirements are needed for Access
 - 20+ GB Disk Space
 - .NET Framework 4.7.2+
 
-**NOTE:** If utilizing any of the Access Information Center workflows (Resource Reviews or
+:::note
+If utilizing any of the Access Information Center workflows (Resource Reviews or
 Self-Service Access Requests), additional CPU cores, memory, and disk space may be needed.
+:::
+
 
 ## Software Compatibility & Versions
 
@@ -91,7 +97,7 @@ compatible with the existing Enterprise Auditor installation. If necessary,
 [Netwrix Support](https://www.netwrix.com/support.html) can confirm whether the two product versions
 are compatible.
 
-Latest Version Compatibility
+**Latest Version Compatibility**
 
 | Component                         | Current Version |
 | --------------------------------- | --------------- |

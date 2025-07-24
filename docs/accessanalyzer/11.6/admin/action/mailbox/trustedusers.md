@@ -49,5 +49,8 @@ The following additional options are available for the Remove Delegates operatio
   rights
 - Remove Permissions from Child Folders – Removes permissions from child folders
 
-    **NOTE:** This option is only enabled if the **Remove Permissions for Delegate** option is
+    :::note
+    This option is only enabled if the **Remove Permissions for Delegate** option is
     selected.
+    
+    :::

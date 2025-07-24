@@ -13,9 +13,12 @@ is a wizard page for the categories of:
 - File System Activity Scan
 - Sensitive Data Scan
 
-**NOTE:** This wizard page identifies options associated with the scan mode to be used. See the
+:::note
+This wizard page identifies options associated with the scan mode to be used. See the
 [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
+
 
 ![FSAA Data Collector Wizard Applet Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettings.webp)
 
@@ -116,8 +119,11 @@ In the Certificate Exchange Options section, configure the following options:
       [FSAA Manual Certificate Configuration](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/certificatemanagement/manualcertificate.md)
       topic for additional information.
 
-        **NOTE:** If the FSAA Data Collector and the applet server are on separate domains without a
+        :::note
+        If the FSAA Data Collector and the applet server are on separate domains without a
         trust, this option must be used.
+        :::
+
 
     - Provide Certificate Authority – Enables the **Select** button, which allows you to upload an
       existing certificate

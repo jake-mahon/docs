@@ -13,7 +13,7 @@ the course for all further developments. Of course, security was also taken into
 development of the Netwrix Password Secure app and the latest technologies were used. The following
 encryption techniques and algorithms are currently used:
 
-Global
+**Global**
 
 - AES 256 / RSA 4096 encrypted
 - PBKDF2 with up to 100,000 iterations
@@ -30,7 +30,7 @@ Global
 - Expiration date of databases to ensure automatic deletion
 - Server and app side security settings. Who is allowed to use the app and to what extent?
 
-iOS
+**iOS**
 
 - Full support of FaceID and TouchID for passwordless login to the Netwrix Password Secure Mobile
   app.

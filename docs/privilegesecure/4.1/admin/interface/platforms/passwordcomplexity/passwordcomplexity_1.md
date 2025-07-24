@@ -1,7 +1,7 @@
 ---
 title: "Add Password Complexity Policy"
 description: "Add Password Complexity Policy"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Password Complexity Policy

@@ -12,25 +12,25 @@ the solution are available with a special Enterprise Auditor license. See the
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - HTTPS
 - ADSI
 - LDAP
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 443
 
-Permissions
+**Permissions**
 
 - Exchange Admin Role
 - Discovery Management Role
 - Application Impersonation Role
 - Exchange Online License
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -43,7 +43,10 @@ then an extra 16 GB of RAM are required (8x2=16).
 The EWSMailbox Data Collector is configured through the Exchange Mailbox Data Collector Wizard,
 which contains the following wizard pages:
 
-**NOTE:** The Category selected may alter the subsequent steps displayed by the wizard.
+:::note
+The Category selected may alter the subsequent steps displayed by the wizard.
+:::
+
 
 - [EWSMailbox: Category](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/category.md)
 - [EWSMailbox: Options](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/options.md)

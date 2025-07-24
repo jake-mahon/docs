@@ -12,7 +12,7 @@ wizard page for the categories of:
 - System Access/Permission Auditing Scan
 - Sensitive Data
 
-![FSAA Data Collector Wizard Scan Settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/scansettings.webp)
+![FSAA Data Collector Wizard Scan Settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/scansettings_1.webp)
 
 In the Scan Protocols section, select the desired checkboxes for including certain types of shared
 folders:

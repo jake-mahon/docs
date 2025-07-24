@@ -5,14 +5,14 @@ sidebar_position: 30
 ---
 # Use Endpoint Policy Manager Cloud to choose which version of Java for what website
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/85lzyp5oTmg" title="Use Endpoint Policy Manager Cloud to choose which version of Java for what website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Use Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud to deliver Endpoint Policy Manager
 Java Rules Manager policies. Configure websites to use the version of Java you choose, or block Java
 websites entirely
 ([https://www.endpointpolicymanager.com/pp-blog/windows-10-block-websites](https://www.endpointpolicymanager.com/pp-blog/windows-10-block-websites))
 – even for remote machines via the Cloud. Making a Java Deployment Rule Set for your Enterprise has
 never been easier or more flexible.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/85lzyp5oTmg" title="Use Endpoint Policy Manager Cloud to choose which version of Java for what website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Hi, this is Whitney with PolicyPak software. Have you ever had the situation where you were using
 some older legacy web app that needs an older version of Java but everywhere else you wanted to run

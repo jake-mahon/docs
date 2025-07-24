@@ -23,5 +23,8 @@ products,  see theEndpoint Policy Manager website. After your testing is comple
 to license Endpoint Policy Manager GPCR, send an email to
 [sales@endpointpolicymanager.com](mailto:sales@endpointpolicymanager.com) or call (800) 883-8002.
 
-**NOTE:** You may also wish to watch our Quickstart videos of Endpoint Policy Manager GPCR if you're
+:::note
+You may also wish to watch our Quickstart videos of Endpoint Policy Manager GPCR if you're
 in a hurry: [Concepts and Quick Start](/docs/endpointpolicymanager/manuals/gpocompliancepak/grouppolicycomplianc/concepts/concepts.md).
+
+:::

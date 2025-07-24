@@ -18,7 +18,7 @@ The jobs in the 3.Computers Job Group are:
 - [AD_DeprovisionComputers_Status Job](/docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers_status.md)
   – Tracks all actions taken by the included deprovisioning workflow
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure the following prerequisites are met:
 

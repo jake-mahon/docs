@@ -58,8 +58,11 @@ desired. (**Note**: It is possible to select
 [Password rules](/docs/passwordsecure/9.1/configuration/advancedview/mainmenufc/extras/password_rules.md)
 within the field settings; they are defined as part of the options in the main menu)
 
-**CAUTION:** If a form has been created, it can then be selected for use when creating new records.
+:::warning
+If a form has been created, it can then be selected for use when creating new records.
 The prerequisite is that the logged-in user has at least read rights to the form.
+:::
+
 
 ## Permissions for forms
 

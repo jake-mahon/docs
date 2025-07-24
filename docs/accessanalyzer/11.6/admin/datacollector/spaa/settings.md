@@ -12,10 +12,13 @@ a wizard page for the categories of:
 - Scan SharePoint Access
 - Scan For Sensitive Content
 
-**CAUTION:** Users should not change scans in a way that would result in less data being returned on
+:::warning
+Users should not change scans in a way that would result in less data being returned on
 a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a
 shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in
 the Tier 2 database and subsequently removed from the Tier 1 database.
+:::
+
 
 ![SharePoint data collection settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/datacollectionsettings.webp)
 
@@ -45,14 +48,20 @@ query treats personal sites to which it does not have access:
       Administrator role for SharePoint Online or be a Farm Administrator for SharePoint on premise.
       This permission is required to facilitate altering the administrators of site collections.
 
-        **NOTE:** The Microsoft SharePoint API employed to remove personal Site Collection
+        :::note
+        The Microsoft SharePoint API employed to remove personal Site Collection
         Administrator is unreliable, and occasionally the scanning account is left as a Site
         Collection Administrator of personal sites. This may leave the scanning account visible to
         SharePoint users on the permissions of the files in their personal sites.
+        :::
 
-        **_RECOMMENDED:_** Only use this option if that account is clearly identifiable as an
+
+        :::info
+        Only use this option if that account is clearly identifiable as an
         administrative account, and users are advised of the possibility that the account could
         appear on the permissions of their personal site collection documents.
+        :::
+
 
 - Force Company Administrator as admin of inaccessible personal sites – Make the special Company
   Administrator account an administrator of any personal sites to which it does not have access
@@ -64,8 +73,11 @@ query treats personal sites to which it does not have access:
       Administrator role for SharePoint Online or be a Farm Administrator for SharePoint on premise.
       This permission is required to facilitate altering the administrators of site collections.
 
-        **NOTE:** The Company Administrator account is a special SharePoint Online and SharePoint
+        :::note
+        The Company Administrator account is a special SharePoint Online and SharePoint
         2013 group which contains all accounts which have the Global Administrators role.
+        :::
+
 
 The **Extract Document Tags** option enables the collection of metadata tags from Microsoft Office
 files in SharePoint. Since this option requires the retrieval and scanning of each document, it

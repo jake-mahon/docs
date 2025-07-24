@@ -15,8 +15,11 @@ Navigate to the **Jobs** > **Databases** > **Db2** > **Permissions** >
 **Db2_EffectivePermissions** > **Configure** node and select **Analysis** to view the Analysis
 Tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Db2 _EffectivePermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/permissions/effectivepermissionsanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created the analysis task, the Db2_EffectivePermissions job
 produces the following preconfigured report.
 
-| Report                | Description                                                                        | Default Tags | Report Elements                                                                                                                                                |
-| --------------------- | ---------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Effective Permissions | This report shows details on effective permissions in the audited Db2 environment. | None         | This report is comprised of three elements: - Bar Chart – Displays Database Summary - Table – Displays Database Summary - Table – Displays permissions details |
+| Report                | Description                                                                        | Default Tags | Report Elements                                                                                                                                                                            |
+| --------------------- | ---------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Effective Permissions | This report shows details on effective permissions in the audited Db2 environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Database Summary</li><li>Table – Displays Database Summary</li><li>Table – Displays permissions details</li></ul> |
+

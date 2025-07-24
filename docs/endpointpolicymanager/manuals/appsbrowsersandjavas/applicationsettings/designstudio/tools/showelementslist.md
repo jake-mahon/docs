@@ -43,9 +43,12 @@ right-click to run the Configuration Wizard to configure it.
 
 Figure 173. Determining which elements have not been configured.
 
-**NOTE:** Items with N/A in the Configured column cannot be configured, like labels, frames, and
+:::note
+Items with N/A in the Configured column cannot be configured, like labels, frames, and
 tabs. Items with N/A in the Label Link column do not need to be labeled, as they are self-labeling,
 like checkboxes, etc.
+:::
+
 
 Lastly, in the rare instances when compiling your AppSet fails, you may be able to help
 troubleshooting efforts by locating the ID number of the element that is causing problems. In Figure
@@ -56,9 +59,15 @@ the "List all Elements" items by ID number, this element can be quickly found.
 
 Figure 174. Sorting elements by ID number.
 
-**NOTE:** The color coding is only to express if the element will work in Community Edition or
+:::note
+The color coding is only to express if the element will work in Community Edition or
 Licensed Mode and Trial Mode.
+:::
 
-**NOTE:** Sometimes disabling the item can help you continue to compile the AppSet. You should send
+
+:::note
+Sometimes disabling the item can help you continue to compile the AppSet. You should send
 any failed compiles to [support@endpointpolicymanager.com](mailto:support@endpointpolicymanager.com) along with your pXML
 file for inspection.
+
+:::

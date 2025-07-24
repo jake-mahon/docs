@@ -10,8 +10,10 @@ This type of review is used to keep your role permissions up to date. When you c
 review, the permissions list is displayed. Access permission reviews from **UAR List** in your menu
 bar, or one of the review shortcuts.
 
+:::note
 Reviews open on the **Review** tab. The **Review Notes** tab lists the review details for the
 review.
+:::
 
 ![Permission Review](/img/product_docs/platgovnetsuite/uar/uar_owner/permission_review.webp)
 

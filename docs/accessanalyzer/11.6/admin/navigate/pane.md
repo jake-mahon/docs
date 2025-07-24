@@ -130,8 +130,11 @@ topic for additional information on these actions.
 
 The Job tree primary nodes have the following right-click menu items:
 
-**NOTE:** These menu items apply to a Jobs Tree, Job Group, and a Job. Depending on the chosen
+:::note
+These menu items apply to a Jobs Tree, Job Group, and a Job. Depending on the chosen
 selection, some menu items are grayed out.
+:::
+
 
 | ![Jobs Tree Primary Nodes](/img/product_docs/accessanalyzer/11.6/admin/navigate/navigationpane4.webp) | ![Jobs Tree Primary Nodes](/img/product_docs/accessanalyzer/11.6/admin/navigate/navigationpane5.webp) | ![Jobs Tree Primary Nodes](/img/product_docs/accessanalyzer/11.6/admin/navigate/navigationpane6.webp) |
 | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -169,15 +172,21 @@ Menu items include:
 - Copy – Copies the selected job group or job (Ctrl+C)
 - Paste – Pastes a copied/cut job group or job to the selected location (Ctrl+V)
 
-    **CAUTION:** Delete Group/Job will also delete all tables that match the job’s naming convention
+    :::warning
+    Delete Group/Job will also delete all tables that match the job’s naming convention
     from the database.
+    :::
+
 
 - Delete Group/Job – Deletes the selected job group or job. See the
   [Report Cleanup when Deleting a Job or Job Group](/docs/accessanalyzer/11.6/admin/report/cleanup.md)
   topic for additional information.
 
-    **CAUTION:** Rename Group/Job will rename all tables that match the job’s naming convention
+    :::warning
+    Rename Group/Job will rename all tables that match the job’s naming convention
     within the database.
+    :::
+
 
 - Rename Group/Job – Opens a textbox over the selected job group or job to rename
 - Export – Zips the selected job group or job. Options allow for including the job, the reports,
@@ -294,7 +303,10 @@ The [Job] > Configure node right-click menu items are:
   [Instant Job Wizard](/docs/accessanalyzer/11.6/admin/jobs/instantjobs/overview.md)
 - Create Job – Creates a new job at the same location as the selected job group or job (Ctrl+Alt+A)
 
-    **NOTE:** This right-click menu is also opened at the Configure > Hosts node.
+    :::note
+    This right-click menu is also opened at the Configure > Hosts node.
+    :::
+
 
 #### [Job] > Configure > [Configuration] Nodes
 

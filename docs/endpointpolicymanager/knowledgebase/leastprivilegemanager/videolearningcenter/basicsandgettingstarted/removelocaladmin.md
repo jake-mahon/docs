@@ -5,12 +5,12 @@ sidebar_position: 20
 ---
 # Use Group Policy to remove local admin rights (then Endpoint Policy Manager to enable Least Privilege)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iD4HSQJjak0" title="Endpoint Policy Manager: Use Group Policy to remove local admin rights (then Endpoint Policy Manager to enable Least Privilege)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 This video shows the one-two combination. Start out by finding where you have local admin rights,
 then remove the source using in-box GPpreferences. Then use Netwrix Endpoint Policy Manager
 (formerly PolicyPak) to elevate your now-standard-users to keep doing the (admin like) things they
 always have.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iD4HSQJjak0" title="Endpoint Policy Manager: Use Group Policy to remove local admin rights (then Endpoint Policy Manager to enable Least Privilege)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### Endpoint Policy Manager: Use Group Policy to remove local admin rights – then Endpoint Policy Manager to enable Least Privilege
 

@@ -38,8 +38,11 @@ Netwrix Data Classification allows you to save report configuration settings as 
 future use. Then if you need to run the report with the specified parameters more than once, you can
 just load its configuration from the template you have saved.
 
-NOTE: This capability is supported for built-in reports (Classification, Clue Building, Document,
+:::note
+This capability is supported for built-in reports (Classification, Clue Building, Document,
 and System reports).
+:::
+
 
 To view all templates available to you, open the **Reports** tab and select **Report Templates** on
 the left.
@@ -55,7 +58,10 @@ To save a report configuration template
 
     ![report_template](/img/product_docs/dataclassification/5.6.2/reporting/report_template.webp)
 
-    NOTE: Report configuration templates are saved per user.
+    :::note
+    Report configuration templates are saved per user.
+    :::
+
 
 4. Enter a name for the report configuration template.
 5. To create a subscription for the report configuration template, check the **Create a

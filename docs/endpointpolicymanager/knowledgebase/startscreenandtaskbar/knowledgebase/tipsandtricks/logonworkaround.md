@@ -53,6 +53,12 @@ could use "SLEEP 20").
 Scripts and Triggers will look for the flag file at EVERY login… one minute after login (using the
 settings from above). Then, if the flag file is ABSENT… Kill explorer and write the flag file.
 
-**NOTE:** You will see a very brief flash on the end-user computer for new logins.
+:::note
+You will see a very brief flash on the end-user computer for new logins.
+:::
 
-**CAUTION:** This policy should be set to apply after the PPSSM policy.
+
+:::warning
+This policy should be set to apply after the PPSSM policy.
+
+:::

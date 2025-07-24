@@ -5,15 +5,18 @@ sidebar_position: 50
 ---
 # Endpoint Policy Manager File Associations Manager: Understanding the First Login
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PH8zDNUE8XI" title="Endpoint Policy Manager File Associations Manager: Understanding the First Login" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 This isn't a problem with Endpoint Policy Manager File Associations Manager, but it's worth noting
 the behavior of what occurs at very first login. Good news: There's a quick fix; just log out and
 back on, and then.. boom. Problem solved for good!
 
-**NOTE:** This is OLD behavior; Endpoint Policy Manager doesn't require logoff and back on for File
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PH8zDNUE8XI" title="Endpoint Policy Manager File Associations Manager: Understanding the First Login" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
+:::note
+This is OLD behavior; Endpoint Policy Manager doesn't require logoff and back on for File
 Associations unless the old method is specifically enabled. This would only be requested by Endpoint
 Policy Manager support team.
+:::
+
 
 ### Endpoint Policy Manager File Associations Manager: Understanding the First Login
 

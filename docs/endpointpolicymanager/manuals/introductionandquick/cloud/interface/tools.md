@@ -43,7 +43,10 @@ automatically join from the Cloud client.
 **Step 4 –** You can click on the button within the Show column to get a display of your actual join
 token value.
 
-**NOTE:** All join token values will end with an **=** sign.
+:::note
+All join token values will end with an **=** sign.
+:::
+
 
 **Step 5 –** Finally, on a command line, you can kick off the assignment to your groups as shown
 below. Note that there is no slash before the word JOINTOKEN.

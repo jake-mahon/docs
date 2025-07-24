@@ -1,7 +1,7 @@
 ---
 title: "Users Tab for Domain"
 description: "Users Tab for Domain"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Users Tab for Domain

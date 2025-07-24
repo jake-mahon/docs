@@ -29,8 +29,11 @@ may need to change the "0" to "1" for testing in a browser.
 info for your public link, lastly, click **Validate Link**. If the link is valid you will see a
 message stating **Link is valid**".
 
-**NOTE:** Clicking **Validate Link** also updates the "0" in your public download link to a "1" if
+:::note
+Clicking **Validate Link** also updates the "0" in your public download link to a "1" if
 needed.
+:::
+
 
 ![788_2_image-20210309203819-2](/img/product_docs/endpointpolicymanager/cloud/788_2_image-20210309203819-2.webp)           
 ![788_3_image-20210309203819-3](/img/product_docs/endpointpolicymanager/cloud/788_3_image-20210309203819-3.webp)

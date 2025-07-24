@@ -15,8 +15,11 @@ Navigate to the **Active Directory** > **Cleanup** > **1.Groups** > **2. Group S
 **AD_GroupCleanup_Permissions** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_GroupCleanup_Permissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/stamping/groupcleanuppermissionsanalysis.webp)
 
@@ -44,7 +47,8 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_GroupCleanup_Permissions
 Job produces the following pre-configured reports.
 
-| Report                          | Description                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                         |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Direct Permission Details | This report shows all direct permissions found by DAG for FileSystem, DAG for SharePoint, or imported into the Access Information Center from other sources. | None         | This report is comprised of one element: - Table – Provides group direct permission details                                                                                                                             |
-| Group Permission Summary        | This report identifies what types of resources each security group is being used to apply permissions.                                                       | None         | This report is comprised of four elements: - Table – Provides details on permission scans - Table – Provides details on group access - Table – Provides details on toxic conditions - Table – Provides a group overview |
+| Report                          | Description                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                           |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Direct Permission Details | This report shows all direct permissions found by DAG for FileSystem, DAG for SharePoint, or imported into the Access Information Center from other sources. | None         | This report is comprised of one element: <ul><li>Table – Provides group direct permission details</li></ul>                                                                                                                                               |
+| Group Permission Summary        | This report identifies what types of resources each security group is being used to apply permissions.                                                       | None         | This report is comprised of four elements: <ul><li>Table – Provides details on permission scans</li><li>Table – Provides details on group access</li><li>Table – Provides details on toxic conditions</li><li>Table – Provides a group overview</li></ul> |
+

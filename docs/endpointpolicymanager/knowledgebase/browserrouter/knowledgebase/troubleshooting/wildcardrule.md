@@ -37,7 +37,10 @@ Said another way, wildcard rules like \*.site.com apply to all subdomains of .si
 To workaround this issue you can either create a URL policy for http://microsoft.com or a wildcard
 policy for \*Microsoft\*. Either of the policies below will resolve this issue.
 
-**NOTE:** There is no "www" in the URL rule below.
+:::note
+There is no "www" in the URL rule below.
+:::
+
 
 ![712_2_image-20201230005141-2](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/712_2_image-20201230005141-2.webp)
 

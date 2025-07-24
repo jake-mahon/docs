@@ -10,8 +10,11 @@ Use the Scan Options page to authorize Enterprise Auditor to generate an Access 
 DropboxAccess Data Collector to access and scan an organization’s Dropbox environment. The Access
 Token is used as the credential in the Connection Profile.
 
-**NOTE:** The Access Token needs to be generated only once, prior to the first execution of any job
+:::note
+The Access Token needs to be generated only once, prior to the first execution of any job
 in which the DropboxAccess Data Collector is used in a query.
+:::
+
 
 The Scan Options page is a wizard page for the following categories:
 
@@ -38,5 +41,7 @@ Create a Connection Profile using this access token as the credential. See the
 [Custom Dropbox Connection Profile & Host List](/docs/accessanalyzer/11.6/admin/datacollector/dropboxaccess/configurejob.md)
 topic for additional information on configuring the Dropbox credential.
 
-_Remember,_ assign this Connection Profile to the job group or job where the host assignment for the
+:::tip
+Remember, assign this Connection Profile to the job group or job where the host assignment for the
 Dropbox environment to be targeted has been assigned.
+:::

@@ -51,5 +51,8 @@ checked first.
 
 Figure 202.; Turning on assistive technology.
 
-**NOTE:** Not every Java-based UI will capture perfectly. Let us know if there's a particular
+:::note
+Not every Java-based UI will capture perfectly. Let us know if there's a particular
 application you're having trouble with.
+
+:::

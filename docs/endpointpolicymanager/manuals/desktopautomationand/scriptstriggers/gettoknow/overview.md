@@ -11,8 +11,11 @@ the PolicyPak node, as demonstrated in Figure 4. Endpoint Policy Manager Scripts
 MMC snap-in enables you to create a new Endpoint Policy Manager Scripts & Triggers Manager policy or
 collection.
 
-**NOTE:** You will only see the Endpoint Policy Manager Scripts & Triggers Manager node when the
+:::note
+You will only see the Endpoint Policy Manager Scripts & Triggers Manager node when the
 latest Admin Console MSI is installed on the management station.
+:::
+
 
 ![getting_to_know_scripts_triggers](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers.webp)
 

@@ -15,7 +15,7 @@ usually used by more than one user.
 
 ![Mobile App - global passwords](/img/product_docs/passwordsecure/9.1/configuration/mobiledevices/passwords/global-passwords-ma-en.webp)
 
-Prerequisites
+**Prerequisites**
 
 The following prerequisites must be met in order to create new global passwords:
 
@@ -28,7 +28,7 @@ Personal passwords are passwords to which only the creating user is authorized.
 
 ![MobileApp - personal passwords](/img/product_docs/passwordsecure/9.1/configuration/mobiledevices/passwords/personal-passwords-ma-en.webp)
 
-Requirement
+**Requirement**
 
 The following user rights are required to create personal passwords:
 

@@ -9,9 +9,12 @@ sidebar_position: 110
 This topic provides the basic steps needed to upgrade StealthINTERCEPT 7.3.7+. For older versions,
 please reach out to [Netwrix Support](https://www.netwrix.com/support.html) for assistance.
 
-**NOTE:** By design, the Threat Prevention 7.4 server (Enterprise Manager) will not accept
+:::note
+By design, the Threat Prevention 7.4 server (Enterprise Manager) will not accept
 connections from pre 7.3.9 Agents. Existing customers must upgrade to 7.3.9 first. Else pre 7.3.9
 Agents will be orphaned.
+:::
+
 
 Typically a new release includes new policy templates. The Templates Update window displays the
 following message after an update: “Changes to Default Templates Detected. Do you want to update
@@ -20,7 +23,7 @@ Templates?” Click **Yes** to import or **No** to skip. See the
 topic for instructions on importing these templates if you selected **No** during the upgrade
 process.
 
-See the [What's New](/docs/threatprevention/7.4/overview/whatsnew.md) topic for
+See the [What's New](/docs/threatprevention/7.4/whatsnew.md) topic for
 details on new and improved features included with each release.
 
 ## Considerations
@@ -30,8 +33,11 @@ installed as well as all systems where the Agent is deployed. For deploying Agen
 [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
 topic.
 
-**_RECOMMENDED:_** It is a best practice to export policies for backup prior to performing an
+:::info
+It is a best practice to export policies for backup prior to performing an
 upgrade.
+:::
+
 
 For NAS file system monitoring, Threat Prevention works in conjunction with the Activity Monitor.
 Hence, the agent versions for the two products must be compatible. See the
@@ -87,8 +93,11 @@ topic for additional information. See the
 [Manual Uninstall on the Agent Server](/docs/threatprevention/7.4/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server)
 topic for information on removing the Agent from the server where it was deployed.
 
-**NOTE:** If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 and
+:::note
+If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 and
 then to 7.4.
+:::
+
 
 ## Infrastructure Upgrade Procedure for 7.3.7 to 7.3.9
 

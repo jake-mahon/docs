@@ -10,17 +10,17 @@ The INIFile Data Collector provides options to configure a task to collect infor
 entries on target hosts. This data collector is a core component of Enterprise Auditor and is
 available with all Enterprise Auditor licenses.
 
-Protocols
+**Protocols**
 
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - Optional TCP 445
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

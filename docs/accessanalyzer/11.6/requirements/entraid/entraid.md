@@ -6,7 +6,10 @@ sidebar_position: 70
 
 # Entra ID Solution
 
-**NOTE:** The Entra ID solution is for scanning Microsoft Entra ID, formerly Azure Active Directory.
+:::note
+The Entra ID solution is for scanning Microsoft Entra ID, formerly Azure Active Directory.
+:::
+
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
@@ -17,9 +20,9 @@ See the
 [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/requirements/entraid/entraid/overview.md)
 topic for target environment requirements.
 
-## Entra ID Solution Requirements on the Enterprise Auditor Console
+## Entra ID Solution Requirements on the Enterprise Auditor Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -32,7 +35,7 @@ These are dependent upon the size of the target environment:
 
 ## Entra ID Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

@@ -1,7 +1,7 @@
 ---
 title: "Add Resources Window for Protected Policy"
 description: "Add Resources Window for Protected Policy"
-sidebar_position: 10
+sidebar_position: 20
 ---
 
 # Add Resources Window for Protected Policy

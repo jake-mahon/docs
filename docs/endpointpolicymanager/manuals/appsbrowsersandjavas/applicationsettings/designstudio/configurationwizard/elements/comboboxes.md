@@ -19,7 +19,10 @@ In the example in Figure 136, however, Endpoint Policy Manager DesignStudio brou
 
 Figure 136. An incorrect number of entries has been brought in by DesignStudio.
 
-**NOTE:** You can see the entries by double-clicking on a combo box.
+:::note
+You can see the entries by double-clicking on a combo box.
+:::
+
 
 You can adjust for this in two ways:
 

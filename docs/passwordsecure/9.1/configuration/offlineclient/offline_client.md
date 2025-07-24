@@ -15,7 +15,7 @@ the local copy of the server database will be automatically synchronized accordi
 definable cycles. This ensures that you can always use a (relatively) up-to-date version of the
 database offline.
 
-Facts
+**Facts**
 
 - “Microsoft SqlServer Compact 4.0.8876.1” is used for creating offline databases
 - The database is encrypted using AES-128 or SHA-256. A so-called “platform default” is used for

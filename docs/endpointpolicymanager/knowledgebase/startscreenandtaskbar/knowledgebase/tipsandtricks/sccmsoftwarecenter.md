@@ -25,10 +25,13 @@ Like what's seen here.
 
 ![724_5_hf-936-img-03](/img/product_docs/endpointpolicymanager/startscreentaskbar/724_5_hf-936-img-03.webp)
 
-**NOTE:** If you don't like that page, you can pick a page… (NOT TESTED, but should work.) Special
+:::note
+If you don't like that page, you can pick a page… (NOT TESTED, but should work.) Special
 keywords can be found at this link.
 [https://www.prajwaldesai.com/create-shortcuts-for-configmgr-software-center/#:~:text=By%20default%20you%20will%20find,%5CCCM%5CSCClient.exe](https://www.prajwaldesai.com/create-shortcuts-for-configmgr-software-center/#httpswwwprajwaldesaicomcreate-shortcuts-for-configmgr-software-centertextby20default20you20will20find5cccm5cscclientexe).
 Finally, take the defaults… and/or change the ShortCut name to suit.
+:::
+
 
 ![724_7_hf-936-img-04](/img/product_docs/endpointpolicymanager/startscreentaskbar/724_7_hf-936-img-04.webp)
 

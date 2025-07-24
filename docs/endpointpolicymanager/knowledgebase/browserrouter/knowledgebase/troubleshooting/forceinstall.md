@@ -20,11 +20,14 @@ around various items in Endpoint Policy Manager On-Prem. See this video to imple
 
 [Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
 
-**NOTE:** You shouldn't need to perform these steps (any of them) if you want to dictate Chrome
+:::note
+You shouldn't need to perform these steps (any of them) if you want to dictate Chrome
 "forced installed" extensions on the COMPUTER side. On the COMPUTER side... when you force install
 extensions, Endpoint Policy Manager Browser knows what to do and just adds in the correct Chrome
 Extension. This KB is only required if you are opting to dictate Chrome "forced installed"
 extensions on the USER side.
+:::
+
 
 Then, the policy setting which must be applied to the computer side which is called PREVENT COMPUTER
 SIDED INSTALLATION OF CHROME EXTENSION

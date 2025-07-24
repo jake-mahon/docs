@@ -43,10 +43,15 @@ The relationship between the scan and bulk import jobs requires the following co
 - For the Dropbox Solution, the bulk import jobs require the same connection profile as used in the
   corresponding scan jobs
 
-**_RECOMMENDED:_** When running the sensitive data jobs, disable the permissions jobs, and vice
+:::info
+When running the sensitive data jobs, disable the permissions jobs, and vice
 versa.
+:::
 
-_Remember,_ prior to running the Dropbox Solution for the first time, it is necessary to generate an
+
+:::tip
+Remember, prior to running the Dropbox Solution for the first time, it is necessary to generate an
 access token to be used in the Connection Profile. This only needs to be done once. See the
 [Configure the Dropbox Access Query](/docs/accessanalyzer/11.6/solutions/dropbox/collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query)
 topic for additional information.
+:::

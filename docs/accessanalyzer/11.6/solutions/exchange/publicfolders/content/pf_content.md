@@ -14,8 +14,11 @@ content aging.
 View the analysis tasks by navigating to the **Exchange** > **5. Public Folders** > **Content** >
 **PF_Content** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the PF_Content Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/content/contentanalysis.webp)
 
@@ -33,7 +36,8 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the PF_Content job produces the
 following pre-configured reports:
 
-| Report                                                  | Description                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                         |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Aging by File Count (Public Folder Aging by File Count) | This report highlights content aging within the targeted Public Folder environment, with a focus on the number of files. | None         | This report is comprised of three elements: - Bar Chart – Displays public folder environment aging - Table – Provides details on public folder environment aging by file count - Table – Provides details on aging by sub tree          |
-| Aging by File Size (Public Folder Aging by File Size)   | This report highlights content aging within the targeted Public Folder environment, with a focus on the size of files.   | None         | This report is comprised of three elements: - Column Chart – Displays public folder environment aging by file size - Table – Provides details on public folder environment by file size - Table – Provides details on aging by sub tree |
+| Report                                                  | Description                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aging by File Count (Public Folder Aging by File Count) | This report highlights content aging within the targeted Public Folder environment, with a focus on the number of files. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays public folder environment aging</li><li>Table – Provides details on public folder environment aging by file count</li><li>Table – Provides details on aging by sub tree</li></ul>          |
+| Aging by File Size (Public Folder Aging by File Size)   | This report highlights content aging within the targeted Public Folder environment, with a focus on the size of files.   | None         | This report is comprised of three elements: <ul><li>Column Chart – Displays public folder environment aging by file size</li><li>Table – Provides details on public folder environment by file size</li><li>Table – Provides details on aging by sub tree</li></ul> |
+

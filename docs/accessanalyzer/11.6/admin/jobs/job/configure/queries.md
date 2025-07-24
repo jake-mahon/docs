@@ -45,8 +45,11 @@ The Tables section at the top has three options:
 - Delete Table – Deletes the selected table from the list, all associated query tasks, and the
   database table if it has already been created. This action does require confirmation.
 
-    **CAUTION:** Do not delete the last table in a job’s Query Selection view. Doing so will also
+    :::warning
+    Do not delete the last table in a job’s Query Selection view. Doing so will also
     delete the Messages table. In order to delete the last table, it is necessary to delete the job.
+    :::
+
 
 ## Queries
 

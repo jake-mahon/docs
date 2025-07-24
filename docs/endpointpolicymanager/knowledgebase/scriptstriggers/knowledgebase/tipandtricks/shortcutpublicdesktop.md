@@ -55,7 +55,10 @@ Lastly, log into a computer that lives in the OU where this GPO is applied and w
 logging in you should see the WinZip shortcut get created on the desktop. If needed you can run
 `GPUPDATE /FORCE` from a CMD prompt to speed up the process, or for testing.
 
-**NOTE:** When installing WinZip from MSI, WinZip will remove any desktop icons by default, for this
+:::note
+When installing WinZip from MSI, WinZip will remove any desktop icons by default, for this
 shortcut policy to work properly you should have it apply after WinZip is already installed, or
 upgraded. Alternatively, you can change the "Policy process mode configuration" to run "Always"
 instead of "Once or when forced" to always create the shortcut at login or when `GPUPDATE` runs.
+
+:::

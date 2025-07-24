@@ -8,27 +8,25 @@ sidebar_position: 80
 
 Platform Governance for Salesforce offers three license types:
 
-> Automated Documentation
->
-> Intelligent Change Enablement
->
-> Enterprise Compliance
+- Automated Documentation
+- Intelligent Change Enablement
+- Enterprise Compliance
 
 This table summarizes what is included in each type.
 
 | Feature                                                    | Automated Documentation                                                                                           | Intelligent Change Enablement                                                                                     | Enterprise Compliance                                                                                             |
-| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Customization, Scanners and DRD                            | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Field-Level Scanner                                        | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Clean Up: Reports, and Scheduler, Processes, DLU           | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Profile / Permission Set Comparison                        | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| User Access Assistance                                     |                                                                                                                   | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| User Activity                                              |                                                                                                                   | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Implementation, Planned Customizations, Map Customizations |                                                                                                                   | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Change Request (Change Management)                         |                                                                                                                   | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Release & Deployment (Deployment, Rollback & Sync Tool)    |                                                                                                                   | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Compare Environments                                       |                                                                                                                   | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
-| Financial Controls                                         |                                                                                                                   |                                                                                                                   | ![orangecheck](/img/product_docs/platgovsalesforce/installing_strongpoint/orangecheck.webp) |
+| ---------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| Customization, Scanners and DRD                            | **&#10003;** | **&#10003;** | **&#10003;** |
+| Field-Level Scanner                                        | **&#10003;** | **&#10003;** | **&#10003;** |
+| Clean Up: Reports, and Scheduler, Processes, DLU           | **&#10003;** | **&#10003;** | **&#10003;** |
+| Profile / Permission Set Comparison                        | **&#10003;** | **&#10003;** | **&#10003;** |
+| User Access Assistance                                     |                                                                                                                   | **&#10003;** | **&#10003;** |
+| User Activity                                              |                                                                                                                   | **&#10003;** | **&#10003;** |
+| Implementation, Planned Customizations, Map Customizations |                                                                                                                   | **&#10003;** | **&#10003;** |
+| Change Request (Change Management)                         |                                                                                                                   | **&#10003;** | **&#10003;** |
+| Release & Deployment (Deployment, Rollback & Sync Tool)    |                                                                                                                   | **&#10003;** | **&#10003;** |
+| Compare Environments                                       |                                                                                                                   | **&#10003;** | **&#10003;** |
+| Financial Controls                                         |                                                                                                                   |                                                                                                                   | **&#10003;** |
 
 ## Automated Documentation
 

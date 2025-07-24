@@ -10,9 +10,12 @@ You can clear alert data displayed on the
 [Alerts Interface](/docs/threatprevention/7.4/admin/alerts/overview.md)
 as well as schedule cleanups for this data.
 
-**_RECOMMENDED:_** Export alert data before using the Clear option. See the
+:::info
+Export alert data before using the Clear option. See the
 [Alerts Export Window](/docs/threatprevention/7.4/admin/alerts/alertsexport.md)
 topic for additional information.
+:::
+
 
 Follow the steps to clear the alerts data.
 

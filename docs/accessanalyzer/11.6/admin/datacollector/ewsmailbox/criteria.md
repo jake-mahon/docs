@@ -31,8 +31,11 @@ The options on the Criteria page are:
 
 The table contains the following types of criteria:
 
-**NOTE:** Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
+:::note
+Until the Sensitive Data Discovery Add-On is installed, only the headers for the System
 Criteria and User Criteria nodes are visible in the table.
+:::
+
 
 - System Criteria – Lists pre-defined criteria
 - User Criteria – Lists user-defined criteria

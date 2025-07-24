@@ -65,7 +65,10 @@ Note there is a Endpoint Policy Manager Browser Router policy to set Default Bro
 have already set. Windows 11 and Endpoint Policy Manager CSE version 3068 and later will see this
 and make a decision accordingly if you've set this to Internet Explorer.
 
-**NOTE:** Windows 10 will honor the Internet explorer setting, but Windows 11 needs to have a plan.
+:::note
+Windows 10 will honor the Internet explorer setting, but Windows 11 needs to have a plan.
+:::
+
 
 ![736_3_image-20220128125242-3](/img/product_docs/endpointpolicymanager/requirements/support/736_3_image-20220128125242-3.webp)
 

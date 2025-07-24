@@ -6,8 +6,11 @@ sidebar_position: 10
 
 # Item-Level Targeting for an AppSet Entry
 
-**NOTE:** For a demonstration of Item-Level Targeting, please see this video:
+:::note
+For a demonstration of Item-Level Targeting, please see this video:
 [http://www.endpointpolicymanager.com/videos/sn6j7q1clmq.html](https://www.youtube.com/watch)
+:::
+
 
 After you've configured an AppSet to your preferred settings, and those settings are saved into the
 group policy object (GPO), you can perform Item-Level Targeting (also known as filtering) with that

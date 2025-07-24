@@ -18,8 +18,11 @@ target machine. It is done here only for demonstration purposes.
 By running the `Deploy GPP MSI.msi` file (providing credentials as needed), you will be installing
 your MSI, which is simply the Group Policy Preferences XML file.
 
-**NOTE:** In the real world, your software delivery tool would provide credentials and elevate the
+:::note
+In the real world, your software delivery tool would provide credentials and elevate the
 install, and the MSI would install silently in the background.
+:::
+
 
 Next, the Group Policy Preferences XML file is placed within a Endpoint Policy Manager directory on
 the machine, to be read and processed. Within 10 seconds, you should see the Group Policy Preference
@@ -27,6 +30,9 @@ item apply the www.endpointpolicymanager.com shortcut URL on the desktop.
 
 ![quickstart_using_policypak_10](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_10.webp)
 
-**NOTE:** This demonstration will only work successfully when the computer is in Licensed or Trial
+:::note
+This demonstration will only work successfully when the computer is in Licensed or Trial
 mode (with "computer" in the name) and the Endpoint Policy Manager Preferences Manager client-side
 extension (CSE) is installed on the machine.
+
+:::

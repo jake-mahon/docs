@@ -20,7 +20,10 @@ with MODE=REPLACE. The figure also shows some examples on how to use the special
 
 Figure 3. Using the Site to Zone Assignment special section.
 
-**NOTE:** If you leave the MODE line off, the default is MERGE.
+:::note
+If you leave the MODE line off, the default is MERGE.
+:::
+
 
 Here's what each mode does:
 

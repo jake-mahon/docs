@@ -13,8 +13,11 @@ three ways to manage a RIA:
 - Specific RIA (by name when signed)
 - By signing certificate
 
-**NOTE:** Endpoint Policy Manager Java Rules manager only works for websites and not when a user
+:::note
+Endpoint Policy Manager Java Rules manager only works for websites and not when a user
 runs a Java applet locally.
+:::
+
 
 ## Managing RIAs by Location
 
@@ -23,8 +26,11 @@ For instance, you can specify a specific URL such as https://java.com, you can s
 java.com with java.com, or you can specify specific servers, including wildcards, as in
 \*.abc.java.com, which would affect all applets on the ABC server of java.com.
 
-**NOTE:** For more examples of how to use location to manage RIAs, hover over the information button
+:::note
+For more examples of how to use location to manage RIAs, hover over the information button
 next to the Location field in the Java Enterprise Deployment Policy Editor.
+:::
+
 
 ## Managing RIAs by Name
 
@@ -38,7 +44,10 @@ important that only signed Java applets have a name.
 
 Once you know this, your rule will display the properties shown below.
 
-**NOTE:** In this instance, the **Latest in family** option has been chosen for Java 8.
+:::note
+In this instance, the **Latest in family** option has been chosen for Java 8.
+:::
+
 
 ![using_policypak_java_rules_1](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_1.webp)
 

@@ -21,7 +21,10 @@ However, Winget is not present on Windows Servers, which you may be using as you
 Object creation / management station. As such you might wish to install Winget on a server to then
 create Endpoint Policy Manager Software Package Manager Winget policies.
 
-**NOTE:** We are not encouraging this nor is it supported, but it should work.
+:::note
+We are not encouraging this nor is it supported, but it should work.
+:::
+
 
 See
 [Install Winget in Windows Server 2022 – No applicable app licenses error](https://www.virtualizationhowto.com/2021/11/install-winget-in-windows-server-2022-no-applicable-app-licenses-error/)

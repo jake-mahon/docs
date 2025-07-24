@@ -58,8 +58,11 @@ And/or
 
 Turn on 64-bit tab processes when running in Enhanced Protection Mode :: Set to Enabled
 
-_Remember,_ Remember that each machine needs to be rebooted after it receives these directives; just
+:::tip
+Remember, Remember that each machine needs to be rebooted after it receives these directives; just
 like you did in your manual tests.
+:::
+
 
 ![415_4_image0061](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_4_image0061.webp)
 

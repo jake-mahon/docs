@@ -37,14 +37,17 @@ topic for additional information.
 View the analysis tasks by navigating to the **FileSystem** > **3.Broken Inheritance** >
 **FS_BrokenInheritance** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified and or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+:::
+
 
 ![Analysis Tasks for the FS_BrokenInheritance Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/brokeninheritanceanalysis.webp)
 
 The following analysis tasks are selected by default:
 
--   1. Analyze Broken Inheritance
+-   **1. Analyze Broken Inheritance**
 
     - Creates an interim processing table in the database for use by downstream analysis and report
       generation
@@ -53,7 +56,7 @@ The following analysis tasks are selected by default:
     - Creates the SA_FS_BrokenInheritance_UniqueTrusteesPivot table accessible under the job's
       Results node
 
--   2. Choose to analyze only folders with modified permissions – Creates an interim processing
+-   **2. Choose to analyze only folders with modified permissions** – Creates an interim processing
        table in the database for use by downstream analysis and report generation
 
     - By default set to only analyze resources with changed permissions from parent
@@ -65,26 +68,27 @@ The following analysis tasks are selected by default:
       [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information.
 
--   3. Determine Permission Changes – Creates an interim processing table in the database for use by
+-   **3. Determine Permission Changes** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   4. Analyze Trustee Differences – Creates an interim processing table in the database for use by
+-   **4. Analyze Trustee Differences** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   5. Inheritance Types. Categorizes Permission Changes – Creates an interim processing table in
+-   **5. Inheritance Types. Categorizes Permission Changes** – Creates an interim processing table in
        the database for use by downstream analysis and report generation
--   6. Summarize by Share – Creates an interim processing table in the database for use by
+-   **6. Summarize by Share** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
 
 The following analysis tasks are deselected by default:
 
--   7. Bring Table to Console - Unique trustees – Restores the
+-   **7. Bring Table to Console - Unique trustees** – Restores the
        SA_FS_BrokenInheritance_UniqueTrustees table to be visible under the job's Results node
--   8. Bring Table to Console - Trustees pivot – Restores the
+-   **8. Bring Table to Console - Trustees pivot** – Restores the
        SA_FS_BrokenInheritance_UniqueTrusteesPivot table to be visible under the job's Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_BrokenInheritance job
 produces the following pre-configured reports:
 
-| Report                                                   | Description                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                     |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Broken Inheritance by Share (Broken Inheritance Details) | Broken inheritance between resources can lead to incorrect access for users, either overprovisioning them, or locking them out of critical data. This report identifies the shares and folders with the most permission changes from the parent resource. | None         | This report is comprised of three elements: - Bar Chart – Displays top five shares by permission changes - Table – Provides details on folders - Table – Provides details on shares |
-| Unique Trustees                                          | This report identifies permission changes between folders. These trustees have been either removed, added, or had their rights adjusted.                                                                                                                  | None         | This report is comprised of one element: - Table – Provides details on unique trustees                                                                                              |
+| Report                                                   | Description                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                 |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Broken Inheritance by Share (Broken Inheritance Details) | Broken inheritance between resources can lead to incorrect access for users, either overprovisioning them, or locking them out of critical data. This report identifies the shares and folders with the most permission changes from the parent resource. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top five shares by permission changes</li><li>Table – Provides details on folders</li><li>Table – Provides details on shares</li></ul> |
+| Unique Trustees                                          | This report identifies permission changes between folders. These trustees have been either removed, added, or had their rights adjusted.                                                                                                                  | None         | This report is comprised of one element: <ul><li>Table – Provides details on unique trustees</li></ul>                                                                                                          |
+

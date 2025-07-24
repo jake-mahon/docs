@@ -16,7 +16,10 @@ about.
 
 ![352_2_image001](</img/product_docs/endpointpolicymanager/license/virtualization/352_1_image001.webp>)
 
-**NOTE:** Sometimes LT can acquired the correct number of RDS connections, and sometimes it cannot.
+:::note
+Sometimes LT can acquired the correct number of RDS connections, and sometimes it cannot.
+:::
+
 
 ![352_2_image002](/img/product_docs/endpointpolicymanager/license/virtualization/352_2_image002.webp)
 

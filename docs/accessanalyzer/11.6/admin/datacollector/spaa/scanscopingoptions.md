@@ -23,7 +23,10 @@ The options on the Scan Scoping Options page are:
       [Scoping to SharePoint Host Named Site Collections](#scoping-to-sharepoint-host-named-site-collections)
       topic for additional information.
 
-    **NOTE:** If sites are included in the Scope box, all other sites are excluded from the scan.
+    :::note
+    If sites are included in the Scope box, all other sites are excluded from the scan.
+    :::
+
 
 - Import CSV – Opens a file explorer to browse for a CSV file
 - Scope box – Lists all added URLs
@@ -92,6 +95,9 @@ A new host folder is created for each Virtual Host in `Jobs/SA_CommonData/SHAREP
 will also see a separate line on the Running Instances tab for each Virtual Host included in the
 scan.
 
-**NOTE:** The Host List for Bulk Import should be configured to contain each Virtual Host included
+:::note
+The Host List for Bulk Import should be configured to contain each Virtual Host included
 in the above scan using the `HOSTNAME#DESIGNATOR` format. After Bulk Import, the data contained in
 Tier 1 Database tables and views will resemble a scan run against multiple hosts.
+
+:::

@@ -51,7 +51,10 @@ is correct. Click **Next**.
 
 ![778_4_image-20210113000713-4](/img/product_docs/endpointpolicymanager/remoteworkdelivery/778_4_image-20210113000713-4.webp)
 
-**NOTE:** You can use Environment Variables.
+:::note
+You can use Environment Variables.
+:::
+
 
 **Step 9 –** Select **Access both source and destination as User** and click **Next**.
 
@@ -65,7 +68,10 @@ command `(msiexec.exe /qb /i %destination%)`. Click **Next**.
 
 ![778_6_image-20210113000713-6](/img/product_docs/endpointpolicymanager/remoteworkdelivery/778_6_image-20210113000713-6.webp)
 
-**NOTE:** `%Destination% = destination path + filename` (`%Systemdrive\temp\CSE\PPx54.MSI`)
+:::note
+`%Destination% = destination path + filename` (`%Systemdrive\temp\CSE\PPx54.MSI`)
+:::
+
 
 **Step 12 –** Under Revert actions, select **Do Nothing** (the application cannot uninstall itself).
 Click **Next**.

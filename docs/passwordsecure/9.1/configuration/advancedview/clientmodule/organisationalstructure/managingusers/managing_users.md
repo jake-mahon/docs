@@ -20,7 +20,7 @@ The following options are required to add local users.
 
 ### User rights
 
-Can add new users -Display organisational structure module
+**Can add new users -Display organisational structure module**
 
 ## Adding local users
 
@@ -45,7 +45,7 @@ only the differences will be covered below.
   themselves. The property **restricted user** is used to limit the visibility of the password
   field. It thus deals with purely administrative users or controlling entities.
 
-NOTE: Restricted users cannot view any passwords
+**NOTE: Restricted users cannot view any passwords**
 
 ### Configuring rights
 
@@ -71,8 +71,11 @@ other editions you can only purchase Advanced view licenses. Please note that li
 users are not able to use the Advanced view. However, Advanced view Users can also switch to the
 Basic view.
 
-**CAUTION:** For licensing reasons, it is not intended to switch from a Advanced view user to a
+:::warning
+For licensing reasons, it is not intended to switch from a Advanced view user to a
 Basic view user!
+:::
+
 
 Our sales team will be happy to answer any questions you may have about licensing.
 

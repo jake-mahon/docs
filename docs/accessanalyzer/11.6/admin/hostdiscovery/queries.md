@@ -26,7 +26,10 @@ The list of previously configured queries is provided in a table format with the
     - Cumulative – Grows the host list by appending newly discovered hosts with each query execution
     - Snapshot – Only shows host found during the most recent query execution
 
-    **NOTE:** The Snapshot mode is configured on the Options page of the Host Discovery Wizard.
+    :::note
+    The Snapshot mode is configured on the Options page of the Host Discovery Wizard.
+    :::
+
 
 ## View Hidden Columns
 

@@ -8,24 +8,24 @@ sidebar_position: 60
 
 The Access Information Center can be accessed through a supported browser from a machine within your
 company's network. The URL is the hosting machine's name and the
-port, http://[HOSTNAME.DOMAIN.COM]:81. For example, if the application was installed on a server
+port, `http://[HOSTNAME.DOMAIN.COM]:81`. For example, if the application was installed on a server
 named NEWYORKSRV10.NWXTech.com with the default port of 81, the URL would be
-http://NEWYORKSRV10.NWXTech.com:81.
+`http://NEWYORKSRV10.NWXTech.com:81`.
 
-Administrators
+**Administrators**
 
 Administrators with access to the server hosting the application can use the desktop icon to launch
 the application in their default browser. Alternatively, the localhost URL can be used:
 
 - HTTP URL
 
-    - http://localhost:81
+    - `http://localhost:81`
 
 - HTTPS URL
 
-    - https://localhost:481
+    - `https://localhost:481`
 
-Enterprise Auditor Web Console
+**Enterprise Auditor Web Console**
 
 On the server hosting Netwrix Enterprise Auditor, the Published Reports icon can be used to launch
 the Web Console. This provides access to both Netwrix Enterprise Auditor published reports and the
@@ -33,13 +33,13 @@ Access Information Center in a browser with a default port of 8082, which can al
 Alternatively, the URL can be used:
 
 - HTTP URL
-    - (on hosting server) http://localhost:8082
-    - (remote access) http://[HOSTNAME.DOMAIN.COM]:8082
+    - (on hosting server) `http://localhost:8082`
+    - (remote access) `http://[HOSTNAME.DOMAIN.COM]:8082`
 - HTTPS URL
-    - (on hosting server) https://localhost:8082
-    - (remote access) https://[HOSTNAME.DOMAIN.COM]:8082
+    - (on hosting server) `https://localhost:8082`
+    - (remote access) `https://[HOSTNAME.DOMAIN.COM]:8082`
 
-Remote Access
+**Remote Access**
 
 Since the Access Information Center is a browser-based application, it is possible to access the web
 interface remotely. It is up to the Administrator to provide users with the correct URL for access.
@@ -59,7 +59,10 @@ Users login with their domain credentials. If only one domain is known to the Ac
 Center, the credentials need only be username and password. If multiple domains are known to the
 Access Information Center, then the username needs to be entered in the `domain\username` format.
 
-**NOTE:** The URL may need to be added to the browser’s list of trusted sites.
+:::note
+The URL may need to be added to the browser’s list of trusted sites.
+:::
+
 
 ![AIC Login page](/img/product_docs/accessinformationcenter/11.6/admin/loginpage.webp)
 

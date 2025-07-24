@@ -73,14 +73,20 @@ topic for additional information.
 Navigate to the **Active Directory** > **Cleanup** > **2.Users** > **AD_DeprovisionUsers** >
 **Configure** node and select **Actions** to view the actions.
 
-**CAUTION:** Do not enable the actions unless it is required. Disable the actions after execution to
+:::warning
+Do not enable the actions unless it is required. Disable the actions after execution to
 prevent making unintended and potentially harmful changes to Active Directory.
+:::
+
 
 ![Action Tasks for the AD_DeprovisionUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/users/deprovisionusersaction.webp)
 
 The action tasks are:
 
-**CAUTION:** The action tasks must be executed together and in order.
+:::warning
+The action tasks must be executed together and in order.
+:::
+
 
 - Move Users – Move users to staging OU for deletion
 

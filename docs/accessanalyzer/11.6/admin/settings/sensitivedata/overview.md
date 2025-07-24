@@ -11,10 +11,13 @@ positive exclusion filters. These settings require the Sensitive Data Discovery 
 [Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-**NOTE:** Sensitive data exclusion filters can only be applied to the
+:::note
+Sensitive data exclusion filters can only be applied to the
 [File System Solution](/docs/accessanalyzer/11.6/solutions/filesystem/overview.md)
 and the
 [SharePoint Solution](/docs/accessanalyzer/11.6/solutions/sharepoint/overview.md).
+:::
+
 
 ![Sensitive Data settings](/img/product_docs/accessanalyzer/11.6/admin/settings/sensitivedata/sensitivedata.webp)
 

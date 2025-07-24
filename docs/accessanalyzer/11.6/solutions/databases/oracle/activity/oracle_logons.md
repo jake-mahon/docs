@@ -14,8 +14,11 @@ login activity across all targeted Oracle database servers.
 Navigate to the **Oracle** > **2.Activity** > **Oracle_Logons** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup27.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the Oracle_Logons Job produces
 the following pre-configured report.
 
-| Report        | Description                                                             | Default Tags | Report Elements                                                                                                                                                                           |
-| ------------- | ----------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Logon Summary | This report outlines successful and failed logins over the last 30 days | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by failed logons - Table – Provides details on logon summary - Table – Provides details on logon details |
+| Report        | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                       |
+| ------------- | ----------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Logon Summary | This report outlines successful and failed logins over the last 30 days | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by failed logons</li><li>Table – Provides details on logon summary</li><li>Table – Provides details on logon details</li></ul> |
+

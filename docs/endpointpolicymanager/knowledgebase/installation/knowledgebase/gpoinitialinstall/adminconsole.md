@@ -27,7 +27,10 @@ users actually log on to or use
 - A share
   [Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md).
 
-**NOTE:** Point 3 is needed for Endpoint Policy Manager Application Settings Manager (PPASM) only.
+:::note
+Point 3 is needed for Endpoint Policy Manager Application Settings Manager (PPASM) only.
+:::
+
 
 So, nothing is ever needed to be installed on DCs. And nothing is ever required to be running on
 DCs.

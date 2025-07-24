@@ -32,7 +32,7 @@ The jobs in the 0.Collection Job Group are:
 - [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md)
   – Responsible for retrieving the SPAC Tier 2 Database information and importing it to the
   Enterprise Auditor SQL database
-- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md)
+- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md)
   – Searches scanned data for resources that match high risk conditions, retrieving a summary of
   SharePoint exceptions per host
 
@@ -94,7 +94,7 @@ The 0.Collection jobs that comprise this auditing component are:
 - [5-SPAA_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/5-spaa_bulkimport.md)
   – Responsible for retrieving the SPAA tier 2 database information and import it to the Enterprise
   Auditor SQL database
-- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md)
+- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md)
   – Searches scanned data for resources that match high risk conditions, retrieving a summary of
   SharePoint exceptions per host
 
@@ -119,7 +119,7 @@ See the
 [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/11.6/solutions/sharepoint/recommended.md)
 topic for other Runtime Details.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run
 [2-SPAA_SystemScans Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/2-spaa_systemscans.md).
@@ -128,7 +128,7 @@ Workflow
 [5-SPAA_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/5-spaa_bulkimport.md).
 
 **Step 3 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 4 –** Run desired corresponding analysis and reporting sub-job groups.
 
@@ -136,11 +136,14 @@ Please see the
 [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/11.6/solutions/sharepoint/recommended.md)
 topic before continuing with this workflow.
 
-**_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
+:::info
+Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/11.6/admin/jobs/job/disableenable.md)
 topic for additional information.
+:::
+
 
 ## SharePoint Activity Auditing
 
@@ -178,7 +181,7 @@ See the SharePoint Reports topics in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)
 for additional information.
 
-Recommended Workflow 1 (for Access & Activity Auditing)
+**Recommended Workflow 1 (for Access & Activity Auditing)**
 
 **Step 1 –** Run
 [2-SPAA_SystemScans Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/2-spaa_systemscans.md).
@@ -193,19 +196,25 @@ Recommended Workflow 1 (for Access & Activity Auditing)
 [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md).
 
 **Step 5 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 6 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Once an initial 2-SPAA SystemScans job (scoped to at least 0-level depth) and the
+:::note
+Once an initial 2-SPAA SystemScans job (scoped to at least 0-level depth) and the
 corresponding 5-SPAA Bulk Import job have been run, then the SPAA Scans can be run concurrently with
 SPAC Scans and Bulk Import jobs as desired.
+:::
+
 
 Recommended Workflow 2 (for Access, Sensitive Data Discovery & Activity Auditing)
 
-**CAUTION:** The jobs must be run in the order shown. It is not possible to disable the
+:::warning
+The jobs must be run in the order shown. It is not possible to disable the
 1-SPAA_SystemScan and 2-SPAA_BulkImport jobs and run the 0.Collection Job Group because the
 remaining jobs are in the wrong order. Renaming the jobs is not an option.
+:::
+
 
 **Step 1 –** Install the Sensitive Data Discovery Add-on on the Enterprise Auditor Console (once
 only).
@@ -223,15 +232,18 @@ only).
 [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md).
 
 **Step 6 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 7 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
+:::note
+Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
 corresponding 4-SPSEEK Bulk Import job have been run, then the SPSEEK Scans jobs can be run
 concurrently with the SPAC Scans and the Bulk Import jobs as desired.
+:::
 
-Optional Workflow (for Activity Auditing Only)
+
+**Optional Workflow (for Activity Auditing Only)**
 
 **Step 1 –** Run
 [3-SPAC_SystemScans Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/3-spac_systemscans.md).
@@ -241,15 +253,21 @@ Optional Workflow (for Activity Auditing Only)
 
 **Step 3 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Please see the
+:::note
+Please see the
 [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/11.6/solutions/sharepoint/recommended.md)
 topic before continuing with this workflow.
+:::
 
-**_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
+
+:::info
+Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/11.6/admin/jobs/job/disableenable.md)
 topic for additional information.
+:::
+
 
 ## SharePoint Sensitive Data Discovery Auditing (SEEK)
 
@@ -261,11 +279,14 @@ tables and views are prefaced with `SPDLP`. See the
 [SharePoint Sensitive Data Discovery Auditing Tables & Views](/docs/accessanalyzer/11.6/admin/datacollector/spaa/standardtables.md)
 topic for additional information on the data collected.
 
-**NOTE:** The Sensitive Data Discovery Auditing (SEEK) component is an add-on to the SharePoint
+:::note
+The Sensitive Data Discovery Auditing (SEEK) component is an add-on to the SharePoint
 Solution. Though the jobs are visible within the console, it requires an additional installer
 package before data collection will occur. See the
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
+:::
+
 
 Customized search criteria can be created with the Criteria Editor accessible through the
 [SPAA: Select DLP Criteria](/docs/accessanalyzer/11.6/admin/datacollector/spaa/selectdlpcriteria.md)
@@ -281,7 +302,7 @@ The 0.Collection jobs that comprise this auditing component are:
 - [4-SPSEEK_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/4-spseek_bulkimport.md)
   – Responsible for retrieving the Tier 2 SPDLP database information and importing it to the SQL
   Server where Enterprise Auditor stores data
-- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md)
+- [7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md)
   – Searches scanned data for resources that match high risk conditions, retrieving a summary of
   SharePoint exceptions per host
 
@@ -315,15 +336,18 @@ the SharePoint application server when applicable (once only).
 [4-SPSEEK_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/4-spseek_bulkimport.md).
 
 **Step 4 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 5 –** Run desired corresponding analysis and reporting sub-job groups.
 
 Recommended Workflow 2 (for Access, Sensitive Data Discovery & Activity Auditing)
 
-**CAUTION:** The jobs must be run in the order shown. It is not possible to disable the
+:::warning
+The jobs must be run in the order shown. It is not possible to disable the
 2-SPAA_SystemScan and 5-SPAA_BulkImport jobs and run the 0.Collection Job Group because the
 remaining jobs are in the wrong order. Renaming the jobs is not an option.
+:::
+
 
 **Step 1 –** Install the Sensitive Data Discovery Add-on the Enterprise Auditor Console (once only).
 
@@ -340,20 +364,29 @@ remaining jobs are in the wrong order. Renaming the jobs is not an option.
 [6-SPAC_BulkImport Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/6-spac_bulkimport.md).
 
 **Step 6 –** Run
-[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaa_exceptions-7.md).
+[7-SPAA_Exceptions Job](/docs/accessanalyzer/11.6/solutions/sharepoint/collection/7-spaa_exceptions.md).
 
 **Step 7 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
+:::note
+Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
 corresponding 4-SPSEEK Bulk Import job have been run, then the SPSEEK Scans can be run concurrently
 with the SPAC Scans and the Bulk Import jobs as desired.
+:::
 
-**NOTE:** Please see the
+
+:::note
+Please see the
 [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/11.6/solutions/sharepoint/recommended.md)
 topic before continuing with this workflow.
+:::
 
-**_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
+
+:::info
+Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/11.6/admin/jobs/job/disableenable.md)
 topic for additional information.
+
+:::

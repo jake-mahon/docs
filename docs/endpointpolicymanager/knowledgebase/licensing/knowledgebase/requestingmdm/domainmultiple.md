@@ -16,8 +16,11 @@ use that information to cut you an overall license for any domain name within yo
 The screenshot below shows you what to provide to Endpoint Policy Manager Sales or Support when
 asked.
 
-**NOTE:** This optional licensing method is only available with Microsoft Intune, and is not
+:::note
+This optional licensing method is only available with Microsoft Intune, and is not
 available on VMware Workspace One (Airwatch). It may or may not be available with other MDM
 services.
+:::
+
 
 ![356_1_image_950x402](/img/product_docs/endpointpolicymanager/license/mdm/356_1_image_950x402.webp)

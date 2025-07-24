@@ -57,23 +57,32 @@ If you choose option 1, please take this screenshot and return it to us:
 
 ![154_2_image004](/img/product_docs/endpointpolicymanager/license/virtualization/154_2_image004.webp)
 
-**NOTE:** In this example this would be counted as 50 + 50 or, 100 concurrent RDS licenses.
+:::note
+In this example this would be counted as 50 + 50 or, 100 concurrent RDS licenses.
+:::
+
 
 If you choose option 2, please take this screenshot and send it to us
 
 ![154_3_image005](/img/product_docs/endpointpolicymanager/license/virtualization/154_3_image005.webp)
 
-**NOTE:** In this example the count of licenses would be 10 (Presentation) + 10 (XenDesktop
+:::note
+In this example the count of licenses would be 10 (Presentation) + 10 (XenDesktop
 System) + 10 (User), or 30 concurrent licenses.
+:::
+
 
 Therefore, wherever you pay either Microsoft or Citrix, Endpoint Policy Manager also gets paid a
 license (whichever is higher,if one is higher).
 
-**NOTE:** If you purchased or acquired either Microsoft Volume License keys, or got your keys from
+:::note
+If you purchased or acquired either Microsoft Volume License keys, or got your keys from
 the Microsoft CSP (Cloud Solution Provider) Program, you might find that these licenses show up as
 500 licenses purchased, instead of the actual quantity you purchased. In this case Endpoint Policy
 Manager License Request Tool (LT) will think you have purchased 500 licenses, where you might have
 bought only 10, 20, etc.
+:::
+
 
 ![154_4_image001_950x198](/img/product_docs/endpointpolicymanager/license/virtualization/154_4_image001_950x198.webp)
 

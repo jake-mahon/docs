@@ -42,10 +42,13 @@ Endpoint Policy Manager Cloud waiting list is used to describe two conditions:
   online and there are available licenses (and the computer can communicate with the cloud service),
   the license will then transition from waiting back to consumed.
 
-**NOTE:** If you have available licenses, but computers are unexpectedly transitioning to the
+:::note
+If you have available licenses, but computers are unexpectedly transitioning to the
 waiting list, this means that the computers are not able to communicate as expected with the
 Endpoint Policy Manager Cloud service. After about 14 days, the computers will lose their licenses
 and those licenses becomes available.
+:::
+
 
 - Condition #2: All licenses are already consumed but then you add more computers. This is called
   being oversubscribed. Computers cannot claim a license because there are no more licenses

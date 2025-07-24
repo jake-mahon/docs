@@ -11,12 +11,15 @@ node for most jobs. However, it is a best practice to assign the host list and t
 Profile at the data collection level. Once these are assigned to the job, it can be run manually or
 scheduled.
 
-_Remember,_ the credential permissions required for the scan and host lists are affected by the scan
+:::tip
+Remember, the credential permissions required for the scan and host lists are affected by the scan
 mode selected. See the
 [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
 
-Dependencies
+
+**Dependencies**
 
 - The .Active Directory Inventory Job Group needs to be executed prior to running the File System
   Solution
@@ -27,7 +30,7 @@ Dependencies
 - Sensitive Data Discovery Add-On installed on the proxy server (for Sensitive Data Discovery
   Auditing via proxy scanning architecture only)
 
-Targeted Hosts
+**Targeted Hosts**
 
 The host list assignment should be assigned under the **FileSystem** > **0.Collection** >
 **[job]** > **Host** node. The list should be a custom created list for the file system environments
@@ -60,13 +63,16 @@ may need to be updated manually. See the
 [Host Inventory](/docs/accessanalyzer/11.6/admin/settings/hostinventory.md)
 topic for additional information.
 
-**NOTE:** The host targeted by the File System scans is only the host entry for the cluster. For
+:::note
+The host targeted by the File System scans is only the host entry for the cluster. For
 example, the environment has a Windows File System Cluster named `ExampleCluster1` with three nodes
 named `ExampleNodeA`, `ExampleNodeB`, and `ExampleNodeC`. There would be four host entries in the
 Enterprise Auditor Master Host Table: `ExampleCluster1`, `ExampleNodeA`, `ExampleNodeB`, and
 `ExampleNodeC`. Each of these four entries would have the same value of the cluster name in the
 **WinCluster** column: `ExampleCluster1`. Only the `ExampleCluster1` host would be in the host list
 targeted by the File System scans.
+:::
+
 
 In order for the selected scan mode to be applied accurately for the target file system, it is
 necessary for host inventory to match the values in the table for OSType:
@@ -81,7 +87,7 @@ necessary for host inventory to match the values in the table for OSType:
 | ARX     | N/A or Unknown |
 | UNIX    | N/A or Unknown |
 
-Connection Profile
+**Connection Profile**
 
 The FSAA Data Collector requires permissions based on the platform being targeted for data
 collection as well as the scan mode selected. See the
@@ -99,16 +105,19 @@ the global settings level. However, since this may not be the Connection Profile
 permissions for the assigned hosts, click the radio button for the **Select one of the following
 user defined profiles** option and select the appropriate Connection Profile drop-down menu.
 
-_Remember,_ if targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom
+:::tip
+Remember, if targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom
 Connection Profile containing the **API Access Key** and **Passcode** for each on-premise Nasuni
 Edge Appliance and cloud filer in the target environment. Nasuni API key names are case sensitive.
 When providing them, ensure they are entered in the exact same case as generated.
+:::
+
 
 See the
 [Connection](/docs/accessanalyzer/11.6/admin/settings/connection/overview.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 One of the most important decisions to make is how frequently to collect this data. This is
 dependent on the size of the target environment. The FileSystem Solution can be scheduled to run
@@ -119,7 +128,7 @@ For example, it may be desired in large environments to run Activity Auditing co
 daily basis, but to only run Access Auditing and Sensitive Data Discovery Auditing collection jobs
 on a weekly basis followed by the analysis and reporting job groups.
 
-Run Order
+**Run Order**
 
 Whatever schedule frequency may be configured, it is also recommended to streamline the collection
 jobs to those desired. The jobs in the 0.Collection Job Group must be run in order for the auditing
@@ -131,17 +140,23 @@ after running the 0.Collection Job Group. The FileSystemOverview Job pulls infor
 0.Collection Job Group and the other sub-job groups, and the report may contain blank sections if
 only select sub-job groups are run.
 
-**_RECOMMENDED:_** If only conducting one or two types of auditing, scope the solution by disabling
+:::info
+If only conducting one or two types of auditing, scope the solution by disabling
 the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not
 recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/11.6/admin/jobs/job/disableenable.md)
 topic for additional information.
+:::
 
-**NOTE:** If targeting Nasuni Edge Appliances, it is necessary to add the
+
+:::note
+If targeting Nasuni Edge Appliances, it is necessary to add the
 [0-FS_Nasuni Job](/docs/accessanalyzer/11.6/solutions/filesystem/collection/0-fs_nasuni.md)
 to the **0.Collection** Job Group.
+:::
 
-Query Configuration
+
+**Query Configuration**
 
 This solution can be run with the default query configuration. However, the most common
 customizations include:
@@ -242,7 +257,7 @@ customizations include:
     - Recommendation to run with default setting of 60 days
     - Set on the **0.Collection** > **1-FSAC System Scans** Job for Activity Auditing
 
-Analysis Configuration
+**Analysis Configuration**
 
 This solution should be run with the default analysis configuration. Most of these analysis tasks
 are preconfigured and should not be modified or deselected. There are a few which are deselected by
@@ -269,8 +284,11 @@ Though the analysis tasks should not be deselected, the following parameters can
 
     - Customize within **6.Probable Owner** > **FS_ProbableOwner** Job analysis task
 
-        **NOTE:** Changes to an exception’s definition will impact all jobs dependent upon that
+        :::note
+        Changes to an exception’s definition will impact all jobs dependent upon that
         exception as well as all AIC Active Directory Exceptions reports.
+        :::
+
 
 There are also a few Notification analysis tasks which can be configured and then enabled in the
 following jobs:
@@ -281,7 +299,7 @@ following jobs:
 
 Please see the appropriate topics for details on these tasks.
 
-Additional Consideration
+**Additional Consideration**
 
 The Ad Hoc Audits Job Group is designed to work independent from the rest of the solution, but it is
 dependent upon the 0.Collection Job Group. The jobs are scoped to specific shares and trustees
@@ -291,6 +309,8 @@ The jobs contained in the group use custom SQL scripts to render views on collec
 are used to populate report element tables and graphs. Changing or modifying the group, job, or
 table names result in no data displayed within the reports or the AIC.
 
-_Remember,_ it is recommended to scope the 0.Collection Job Group to only include the collection
+:::tip
+Remember, it is recommended to scope the 0.Collection Job Group to only include the collection
 components desired by disabling the undesired collection jobs. Disabling them allows the solution to
 run more efficiently. It is not recommended to delete any jobs.
+:::

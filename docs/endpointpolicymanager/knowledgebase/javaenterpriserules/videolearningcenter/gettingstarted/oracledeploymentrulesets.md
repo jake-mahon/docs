@@ -5,9 +5,9 @@ sidebar_position: 50
 ---
 # Endpoint Policy Manager Java Rules Manager... Import from Oracle's Deployment Rule Sets
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D1FaES1a9sY" title="Endpoint Policy Manager Java Rules Manager... Import from Oracle's Deployment Rule Sets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Got existing Oracle Deployment Rule Sets? No problem. Right-click and import.. and.. you're done.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D1FaES1a9sY" title="Endpoint Policy Manager Java Rules Manager... Import from Oracle's Deployment Rule Sets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Hi, this is Jeremy Moskowitz. From time to time, people ask us hey, I want to transition from an
 existing Oracle Java deployment rule set over to PolicyPak Java Rules Manager. Do you have a quick

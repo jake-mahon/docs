@@ -9,9 +9,12 @@ sidebar_position: 10
 If you have a Group Policy Object (GPO) with an existing Endpoint Policy Manager Application
 Settings Manager directive within the GPO, you can use it to create XML data files.
 
-**NOTE:** If you don't already have a Endpoint Policy Manager Application Settings Manager directive
+:::note
+If you don't already have a Endpoint Policy Manager Application Settings Manager directive
 ready, you can use our Endpoint Policy Manager Exporter utility to make one (which will be discussed
 next).
+:::
+
 
 **Step 1 –** To utilize an existing GPO with a Endpoint Policy Manager Application Settings Manager
 directive, right-click the directive containing your existing settings and select "Export settings

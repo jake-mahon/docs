@@ -16,23 +16,23 @@ The ExchangeMailbox Data Collector is available with a special Enterprise Audito
 [Exchange Solution](/docs/accessanalyzer/11.6/solutions/exchange/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - MAPI
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Exchange Administrator group
 - Organization Management
 - Discovery Management
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor Console server,
 which enables Sensitive Data criteria for scans. If running Sensitive Data Discovery (SDD) scans, it
@@ -58,7 +58,7 @@ permissions on the Welcome page.
 
 ![Exchange Mailbox Data Collector Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangemailbox/welcome.webp)
 
-Connection Setting
+**Connection Setting**
 
 Select one of the following options for the connection setting:
 
@@ -76,7 +76,7 @@ Select one of the following options for the connection setting:
     - Client Access Server – A private store server is needed if the Exchange server only has public
       stores
 
-Test Connection Setting
+**Test Connection Setting**
 
 Enter a server to test the connection string:
 

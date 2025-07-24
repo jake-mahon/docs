@@ -18,6 +18,9 @@ Servers: [https://learn.microsoft.com/en-us/windows/release-health/windows-serv
 Any exceptions, if any, to the above will be noted in the RELEASE-NOTES in the Endpoint Policy
 Manager Portal.
 
-**NOTE:**   For complete clarity, Endpoint Policy Manager is not supported on Server 2012 R2,
+:::note
+  For complete clarity, Endpoint Policy Manager is not supported on Server 2012 R2,
 Windows 7, and so on. The final build with best effort support is 23.8, and no more builds will be
 produced after that.
+
+:::

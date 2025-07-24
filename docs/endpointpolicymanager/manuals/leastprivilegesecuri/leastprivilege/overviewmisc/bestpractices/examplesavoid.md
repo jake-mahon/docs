@@ -69,6 +69,9 @@ could open the door to attacks.
 In summary, use Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager as its name
 suggest: for the Least Amount of Privileges required.
 
-**CAUTION:** Avoid taking shortcuts by elevating everything by signature or whole folder- even if it
+:::warning
+Avoid taking shortcuts by elevating everything by signature or whole folder- even if it
 takes a little more work to make the exact rules you need for the least amount of privilege required
 for users to do their jobs.
+
+:::

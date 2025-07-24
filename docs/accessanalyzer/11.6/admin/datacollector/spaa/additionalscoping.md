@@ -12,10 +12,13 @@ page for the categories of:
 - Scan SharePoint Access
 - Scan For Sensitive Content
 
-**CAUTION:** Users should not change scans in a way that would result in less data being returned on
+:::warning
+Users should not change scans in a way that would result in less data being returned on
 a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a
 shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in
 the Tier 2 database and subsequently removed from the Tier 1 database.
+:::
+
 
 ![Additional Scoping page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/additionalscoping.webp)
 
@@ -28,5 +31,8 @@ Check the **Perform differential scan** box to enable the job to run a different
 Differential scanning is enabled by default. When this option is enabled, SPAA scan will only parse
 files for content/SDD if it has been modified since the last scan.
 
-**NOTE:** This option only applies to Tag collection and Sensitive data collection. Files will be
+:::note
+This option only applies to Tag collection and Sensitive data collection. Files will be
 still be scanned for permissions regardless of whether this option is checked or not.
+
+:::

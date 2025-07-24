@@ -5,13 +5,13 @@ sidebar_position: 20
 ---
 # Endpoint Policy Manager Cloud: Managing File Assocations
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wDQX54Omoz4" title="Endpoint Policy Manager File Associations Manager: Use it with Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Got PDF? And don't want Edge to open it? Or MP4, and don't want the built-in movie player to open
 it? How about protocols like MAILTO: .. want to map those to Outlook? It's drop dead easy.. with
 Endpoint Policy Manager File Associations Manager. Trying to manage with "Set a default associations
 configuration" is for the birds, and isn't flexible. Instead, manage it quickly using Group Policy,
 and PolicyPak.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wDQX54Omoz4" title="Endpoint Policy Manager File Associations Manager: Use it with Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 If you've got not domain-joined machines, as I have here, and you're using Endpoint Policy Manager
 Cloud, how do you use Endpoint Policy Manager File Associations Manager with it? Well, it's super

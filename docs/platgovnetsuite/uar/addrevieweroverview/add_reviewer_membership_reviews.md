@@ -14,8 +14,10 @@ As an **Additional Reviewer**, you can only review Users in the Role Membership 
 you. Look for rows with no highlighting, with the **Status** of **Additional Reviewer** assigned to
 you.
 
+:::note
 Reviews open on the **Review** tab. The **Review Notes** tab lists the review details for the
 review.
+:::
 
 ![Opening a review as an additional user](/img/product_docs/platgovnetsuite/uar/uar_additional_reviewer/additional_user_review.webp)
 
