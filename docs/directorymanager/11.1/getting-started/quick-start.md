@@ -7,7 +7,7 @@ To get started with Directory Manager, it would be helpful to get an understandi
 - Compatible devices and browsers
 - Supported languages
 
-## Clients
+## Clients 
 
 The Directory Manager application comprises of the following main modules or clients:
 
