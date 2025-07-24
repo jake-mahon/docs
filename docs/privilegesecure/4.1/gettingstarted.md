@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 description: "Getting Started"
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Getting Started
@@ -43,7 +43,7 @@ regardless of role (Administrator, Reviewer, User, or Custom Role).
 Prior to using Privilege Secure, it is necessary to add the service accounts and domains that
 contain the users, groups and resources:
 
-- [Service Accounts Page](/docs/privilegesecure/4.1/admin/configurationinterface/serviceaccounts/serviceaccounts.md)
+- [Service Accounts Page](/docs/privilegesecure/4.1/admin/interface/serviceaccounts/serviceaccounts.md)
   — Add the account credentials that will grant access to the required resources
 - [Add New Domain](/docs/privilegesecure/4.1/admin/interface/resources/addandchange/domain.md)
   — Add the Active Directory domains that contain the users, groups, resources and service accounts
