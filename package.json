@@ -3,6 +3,9 @@
   "version": "0.1",
   "private": true,
   "main": "docusaurus.config.js",
+  "engines": {
+    "node": "22.13.0"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "cross-env NODE_OPTIONS=--max-old-space-size=12288 CHOKIDAR_USEPOLLING=false npx docusaurus start",
