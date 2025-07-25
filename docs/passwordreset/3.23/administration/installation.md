@@ -227,7 +227,7 @@ Reset**, and **3.0** registry keys.
 **Step 12 –** Set the **ServerIP** registry value to the IP address of the computer that you
 installed the Password Reset Server onto.
 
-![RegistryEditor](/img/product_docs/passwordreset/3.23/administration/registryeditor.webp)
+![RegistryEditor](/img/product_docs/passwordreset/3.23/administration/RegistryEditor.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the
 files to another directory and publish several Web Interfaces from one server. This allows you to
