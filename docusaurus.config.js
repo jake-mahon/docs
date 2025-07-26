@@ -41,11 +41,9 @@ const config = {
       rspackBundler: true,
       rspackPersistentCache: true, // 2-5x faster rebuilds
       mdxCrossCompilerCache: true,
-      ssgWorkerThreads: false, // Disable in CI to reduce memory usage
     },
     v4: {
       removeLegacyPostBuildHeadAttribute: true,
-      // useCssCascadeLayers: true, // Temporarily disabled - may cause style conflicts
     },
   },
 
