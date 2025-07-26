@@ -109,34 +109,34 @@ Add the end of the procedure, you will get "Tenant ID" and "Client ID".
 
 **Connect to \"Azure Portal\" located at https://portal.azure.com**
 
-![](/img/product_docs/pingcastle/proinstall/image4.png)
+![](/img/product_docs/pingcastle/proinstall/image4.webp)
 
 Then authenticate.
 
 Select the App Registrations pane.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image5.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image5.webp)
 
 And then click on New registration from the toolbar in the top. That
 will open a dialog "Register and app".
 
-![](/img/product_docs/pingcastle/proinstall/image6.png)
+![](/img/product_docs/pingcastle/proinstall/image6.webp)
 
 Add a name but also the redirect Uri. Please note that the redirect URI
 must point to the FQDN of the server that will be accessed. It MUST
 starts with HTTPS and MUST ends with /signin-oidc
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image7.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image7.webp)
 
 Go to authentication and enable "Access tokens (used for implicit
 flows".
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image8.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image8.webp)
 
 After the app is created, open the app by clicking on its name and copy
 ClientID and TenantID and keep it with you.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image9.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image9.webp)
 
 :::note
 The permission can be granted implicitly by the first user
@@ -154,11 +154,11 @@ Download SQL Express 2019 here:
 
 Select "Basic"and let the installation proceed.
 
-![](/img/product_docs/pingcastle/proinstall/image10.png)
+![](/img/product_docs/pingcastle/proinstall/image10.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image11.png)
+![](/img/product_docs/pingcastle/proinstall/image11.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image12.png)
+![](/img/product_docs/pingcastle/proinstall/image12.webp)
 
 # Quick Installation
 
@@ -181,13 +181,13 @@ It requires:
   https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 ```
 
-> ![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/proinstall/image13.png)
+> ![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/proinstall/image13.webp)
 
 1.  IIS should be installed before the ASP.NET 8.0 Hosting Bundle. If
     not, then the Hosting Bundle installation may be required to be
     repaired.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/proinstall/image14.png)
+![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/proinstall/image14.webp)
 
 ## API Key and endpoint
 
@@ -202,14 +202,14 @@ file.
 
 The MSI file guides the installation of the software:
 
-![](/img/product_docs/pingcastle/proinstall/image15.png)
+![](/img/product_docs/pingcastle/proinstall/image15.webp)
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image16.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image16.webp)
 
 Once the license terms are accepted, the software requires a license key
 which should have been distributed alongside the MSI files.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image17.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image17.webp)
 
 3.  If the license key is missing, reach out PingCastle support.
 
@@ -220,19 +220,19 @@ There are two options to configure the database:
 - Using a connection to a database: it implies the software will create
   the database on behalf of the user
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image18.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image18.webp)
 
 Option which creates the database:
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image19.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image19.webp)
 
 Option with the direct connection string:
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image20.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image20.webp)
 
 Then the authentication configuration is asked.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image21.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image21.webp)
 
 For Windows, default group which is allowed to PingCastle is everyone.
 To change the group, select the browse button. A new dialog is shown.
@@ -242,24 +242,24 @@ To change the group, select the browse button. A new dialog is shown.
     "Domain admins" even if it belongs to the group. Run whoami /all in
     a command prompt to see the groups presented to the application.
 
-![](/img/product_docs/pingcastle/proinstall/image22.png)
+![](/img/product_docs/pingcastle/proinstall/image22.webp)
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image23.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image23.webp)
 
 For Azure, the tenantID and the client ID collected before has to be
 entered here.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image24.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image24.webp)
 
 To send email notification, the SMTP configuration can be set. The email
 addresses that will received the email notifications has to be entered
 here as "destination email".
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image25.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image25.webp)
 
 Then the setup is ready to perform its activity.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image26.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image26.webp)
 
 The setup configures automatically the website, the database, the
 application and if the database is being created, grant the permission
@@ -279,32 +279,32 @@ Sometimes, the PingCastlePro is not started because the Default WebSite
 is. Please not the back square at the right of the PingCastlePro
 website.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image27.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image27.webp)
 
 If this happens, Stop the Default Web Site and Starts the PingCastlePro
 website.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image28.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image28.webp)
 
 Make sure you have a certificate installed. If this is not the case, you
 can create one with the Server Certificates configuration option.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image29.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image29.webp)
 
 Select "Create Self Signed Certificate" at the right to do so.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image30.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image30.webp)
 
 Then edit the binding of the website:
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image31.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image31.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image32.png)
+![](/img/product_docs/pingcastle/proinstall/image32.webp)
 
 Then add a HTTPS binding and be sure to select a SSL certificate, like
 the one you create before.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image33.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image33.webp)
 
 # Custom installation
 
@@ -347,7 +347,7 @@ and may conflict with the PingCastle Pro application.
 The solution is to stop the default website and configure it to not
 start automatically.
 
-![](/img/product_docs/pingcastle/proinstall/image34.png)
+![](/img/product_docs/pingcastle/proinstall/image34.webp)
 
 ## Database
 
@@ -409,7 +409,7 @@ sudo -u postgres createdb -O pingcastle pingcastle
 
 You first need to create a local account inside Sql Server.
 
-![](/img/product_docs/pingcastle/proinstall/image35.png)
+![](/img/product_docs/pingcastle/proinstall/image35.webp)
 
 Select SQL Server authentication.
 
@@ -417,33 +417,33 @@ Be sure to uncheck "user must change password at the next login" as
 PingCastleEnterprise does not support password rotation. (you can change
 later the password inside the application.Production.json file)
 
-![Une image contenant texte, capture d'écran, logiciel, Icône d'ordinateur Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image36.png)
+![Une image contenant texte, capture d'écran, logiciel, Icône d'ordinateur Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image36.webp)
 
 Then create a database.
 
-![](/img/product_docs/pingcastle/proinstall/image37.png)
+![](/img/product_docs/pingcastle/proinstall/image37.webp)
 
 **Then create a database**
 
-![](/img/product_docs/pingcastle/proinstall/image38.png)
+![](/img/product_docs/pingcastle/proinstall/image38.webp)
 
 Do not forget to set the owner as the user you created before.
 
 You should verify that the credentials and that the server is available
 before going further.
 
-![Une image contenant texte, capture d'écran, nombre, affichage Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image39.png)
+![Une image contenant texte, capture d'écran, nombre, affichage Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image39.webp)
 
 In SQL Server configuration, a typical mistake is to use tcp connection.
 TCP/IP needs to be enabled manually in SQL Server as it is disabled by
 default.
 
-![Une image contenant texte, capture d'écran, Police, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image40.png)
+![Une image contenant texte, capture d'écran, Police, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image40.webp)
 
 At the installation step, indicate that you want to use an ad-hoc
 connection string.
 
-![](/img/product_docs/pingcastle/proinstall/image41.png)
+![](/img/product_docs/pingcastle/proinstall/image41.webp)
 
 Specify the following:
 
@@ -458,31 +458,31 @@ change the connection string after the installation by editing the file
 appsettings.production.json. Do not forget that special characters may
 need to be escaped as they are located inside a json string.
 
-![Une image contenant texte, capture d'écran, Police Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image42.png)
+![Une image contenant texte, capture d'écran, Police Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image42.webp)
 
-![Une image contenant texte, Police, nombre, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image43.png)
+![Une image contenant texte, Police, nombre, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image43.webp)
 
 **Configure SQL Server with an Active Directory user**
 
 You need to first create this Windows user.
 
-![](/img/product_docs/pingcastle/proinstall/image35.png)
+![](/img/product_docs/pingcastle/proinstall/image35.webp)
 
 You have to create a new Windows login. Go to create a new login.
 
 Then select the Windows user you created.
 
-![Une image contenant texte, capture d'écran, logiciel, nombre Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image44.png)
+![Une image contenant texte, capture d'écran, logiciel, nombre Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image44.webp)
 
 You can then create a database with the Windows user as the owner of the
 database:
 
-![Une image contenant texte, logiciel, capture d'écran, nombre Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image45.png)
+![Une image contenant texte, logiciel, capture d'écran, nombre Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image45.webp)
 
 At the installation step, indicate that you want to use an ad-hoc
 connection string.
 
-![](/img/product_docs/pingcastle/proinstall/image41.png)
+![](/img/product_docs/pingcastle/proinstall/image41.webp)
 
 Specify the following:
 
@@ -496,11 +496,11 @@ After the installation, another steep need to be done: you need to
 change the Application Pool identity.\
 Go to IIS and select the application pool. Go to the advanced settings
 
-![Une image contenant texte, Appareils électroniques, capture d'écran, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image46.png)
+![Une image contenant texte, Appareils électroniques, capture d'écran, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image46.webp)
 
 Go to Identity and select the custom user account:
 
-![Une image contenant texte, capture d'écran, affichage, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image47.png)
+![Une image contenant texte, capture d'écran, affichage, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image47.webp)
 
 Restart IIS.
 
@@ -509,7 +509,7 @@ Restart IIS.
 The settings are located in the appsettings.Production.json located at
 the root of the application folder.
 
-![](/img/product_docs/pingcastle/proinstall/image48.png)
+![](/img/product_docs/pingcastle/proinstall/image48.webp)
 
 Two settings are needed for the application: the database and the
 license information.
@@ -549,7 +549,7 @@ PingCastle requires a configuration to be able to send emails.
 
 It is located in the appsettings.Production.json file.
 
-![](/img/product_docs/pingcastle/proinstall/image49.png)
+![](/img/product_docs/pingcastle/proinstall/image49.webp)
 
 The Email is the address used to send email,.
 
@@ -572,7 +572,7 @@ the Azure Configuration page.
 The minimal required fields to be configured are: database, license and
 the connection string, named as "DefaultConnection".
 
-![](/img/product_docs/pingcastle/proinstall/image50.png)
+![](/img/product_docs/pingcastle/proinstall/image50.webp)
 
 # Initial startup
 
@@ -583,11 +583,11 @@ or hosting, the next screen will not be displayed.
 For Azure configuration, the application asks you to connect using
 Azure.
 
-![](/img/product_docs/pingcastle/proinstall/image51.png)
+![](/img/product_docs/pingcastle/proinstall/image51.webp)
 
 **It then display the welcome screen**
 
-![](/img/product_docs/pingcastle/proinstall/image52.png)
+![](/img/product_docs/pingcastle/proinstall/image52.webp)
 
 # Initial configuration
 
@@ -642,14 +642,14 @@ The easiest way is to change the user from Application to LocalSystem.
 Open the IIS console and go to the application pools settings. Go to
 advanced settings.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image53.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image53.webp)
 
 Find the Identity setting and change ApplicationPoolIdentity to
 LocalSystem.
 
-![](/img/product_docs/pingcastle/proinstall/image54.png)
+![](/img/product_docs/pingcastle/proinstall/image54.webp)
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image55.png)
+![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image55.webp)
 
 Then restart the application pool.
 
@@ -790,14 +790,14 @@ On Linux, the command `service <name-of-service> status` can indicate if
 the service is running or not. If an error prohibit the start of the
 service, the log is shown.
 
-![](/img/product_docs/pingcastle/proinstall/image56.png)
+![](/img/product_docs/pingcastle/proinstall/image56.webp)
 
 When no log is available, the program can be run manually outside of the
 service scope to have a more detailed error message.
 
 Example:
 
-![](/img/product_docs/pingcastle/proinstall/image57.png)
+![](/img/product_docs/pingcastle/proinstall/image57.webp)
 
 Here are a couple of well-known errors, their description and their
 solution
@@ -806,17 +806,17 @@ solution
 
 Here are the messages displayed when running under a service:
 
-![](/img/product_docs/pingcastle/proinstall/image58.png)
+![](/img/product_docs/pingcastle/proinstall/image58.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image59.png)
+![](/img/product_docs/pingcastle/proinstall/image59.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image60.png)
+![](/img/product_docs/pingcastle/proinstall/image60.webp)
 
 And the message when running on the command line:
 
-![C:\Users\Adiant\AppData\Local\Temp\dotnet_pingastleenterprise.dll.png](/img/product_docs/pingcastle/proinstall/image61.png)
+![C:\Users\Adiant\AppData\Local\Temp\dotnet_pingastleenterprise.dll.webp](/img/product_docs/pingcastle/proinstall/image61.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image62.png)Solution:
+![](/img/product_docs/pingcastle/proinstall/image62.webp)Solution:
 
 identify the correct version of the framework and install it. Do not
 forget to install the IIS middleware is you are installing on IIS.
@@ -830,14 +830,14 @@ The last error was related to the missing KB KB2533623
 When the application is unable to start, the following message are
 shown:
 
-![C:\Users\Adiant\AppData\Local\Temp\brower_error.png](/img/product_docs/pingcastle/proinstall/image63.png)
+![C:\Users\Adiant\AppData\Local\Temp\brower_error.webp](/img/product_docs/pingcastle/proinstall/image63.webp)
 
-![C:\Users\Adiant\AppData\Local\Temp\event1000.png](/img/product_docs/pingcastle/proinstall/image64.png)
+![C:\Users\Adiant\AppData\Local\Temp\event1000.webp](/img/product_docs/pingcastle/proinstall/image64.webp)
 
 A more detailed message are shown in the event log or directly on the
 command line:
 
-![C:\Users\Adiant\AppData\Local\Temp\event1026.png](/img/product_docs/pingcastle/proinstall/image65.png)
+![C:\Users\Adiant\AppData\Local\Temp\event1026.webp](/img/product_docs/pingcastle/proinstall/image65.webp)
 
 In this case, the license was invalid and need to be replaced in the
 file appsettings.Production.json.
@@ -848,7 +848,7 @@ When the database doesn\'t contain the table needed, the application
 tries to create them. If the permissions are not granted, a message will
 be generated and the application will not be able to start.
 
-![C:\Users\Adiant\AppData\Local\Temp\sql_auth_error.png](/img/product_docs/pingcastle/proinstall/image66.png)
+![C:\Users\Adiant\AppData\Local\Temp\sql_auth_error.webp](/img/product_docs/pingcastle/proinstall/image66.webp)
 
 Solution:
 
@@ -868,7 +868,7 @@ remote connection and that the database may not be exposed. Be sure that
 it is available through TCP. (in the following case, remote access is
 forbidden because TCP/IP is disabled)
 
-![](/img/product_docs/pingcastle/proinstall/image67.png)
+![](/img/product_docs/pingcastle/proinstall/image67.webp)
 
 You have 2 solutions to grant PingCastle an identity allowed on SQL
 Server:
@@ -876,11 +876,11 @@ Server:
 - Changing the application pool identity to match an active directory
   user which are granted permissions to the database
 
-![](/img/product_docs/pingcastle/proinstall/image68.png)
+![](/img/product_docs/pingcastle/proinstall/image68.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image69.png)
+![](/img/product_docs/pingcastle/proinstall/image69.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image70.png)
+![](/img/product_docs/pingcastle/proinstall/image70.webp)
 
 - You can use a SQL Server local account and specify its login password
   in the connection string
@@ -888,9 +888,9 @@ Server:
 Edit the application.setting file and locate the connection string. Then
 add `;User ID=sa;Password=pass123`
 
-![](/img/product_docs/pingcastle/proinstall/image71.png)
+![](/img/product_docs/pingcastle/proinstall/image71.webp)
 
-![](/img/product_docs/pingcastle/proinstall/image72.png)
+![](/img/product_docs/pingcastle/proinstall/image72.webp)
 
 ## Enable Debug Logging
 

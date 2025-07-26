@@ -41,6 +41,7 @@ const config = {
       rspackBundler: true,
       rspackPersistentCache: true, // 2-5x faster rebuilds
       mdxCrossCompilerCache: true,
+      ssgWorkerThreads: true,
     },
     v4: {
       removeLegacyPostBuildHeadAttribute: true,

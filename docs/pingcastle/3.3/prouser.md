@@ -27,7 +27,7 @@ will not run in the browser. This protection can be checked via third
 party service such as \"security headers\". It means that
 \"unsafe-inline\" and \"unsafe-eval\" are not accepted.
 
-![](/img/product_docs/pingcastle/prouser/image3.png)
+![](/img/product_docs/pingcastle/prouser/image3.webp)
 
 The application uses enforced controls which force parameters to be
 checked twice against a model (in the browser then in the server
@@ -69,7 +69,7 @@ The application is divided is 2 different areas:
 - The configuration
 
 > ![A logo with a triangle and dots Description automatically
-generated](/img/product_docs/pingcastle/prouser/image4.png)
+generated](/img/product_docs/pingcastle/prouser/image4.webp)
 
 # Technical view (\"Audit data\")
 
@@ -86,18 +86,18 @@ timeline and cartography. This can be modified by selecting a tab.
 
 Last report tab:
 
-![](/img/product_docs/pingcastle/prouser/image5.png)
+![](/img/product_docs/pingcastle/prouser/image5.webp)
 
 The full detail of the last report performed is accessible in this tab,
 though it is not shown here.
 
 History tab:
 
-![](/img/product_docs/pingcastle/prouser/image6.png)
+![](/img/product_docs/pingcastle/prouser/image6.webp)
 
 Timeline tab:
 
-![](/img/product_docs/pingcastle/prouser/image7.png)
+![](/img/product_docs/pingcastle/prouser/image7.webp)
 
 The events that you can view are the following:
 
@@ -131,7 +131,7 @@ a very rare event and it is not likely that you have this kind of event.
 
 Cartography tab:
 
-![](/img/product_docs/pingcastle/prouser/image8.png)
+![](/img/product_docs/pingcastle/prouser/image8.webp)
 
 # Tool configuration (\"Configuration\")
 
@@ -147,7 +147,7 @@ adapts to the company specific context. It is indeed possible to
 configure how PingCastle Pro handles exceptions specific to your
 perimeter.
 
-![](/img/product_docs/pingcastle/prouser/image9.png)
+![](/img/product_docs/pingcastle/prouser/image9.webp)
 
 **Rule exceptions**
 
@@ -194,21 +194,21 @@ message to help you in the process of uploading the file.
 
 Import **page**
 
-![](/img/product_docs/pingcastle/prouser/image10.png)
+![](/img/product_docs/pingcastle/prouser/image10.webp)
 
-![](/img/product_docs/pingcastle/prouser/image11.png)
+![](/img/product_docs/pingcastle/prouser/image11.webp)
 
 - Option 2: Importing the file automatically through the Agent mode
 
 From the \"Configuration\" tab, you first need to get an API key using
 the \"Agents\" page and configurate the PingCastle agent accordingly.
 
-![](/img/product_docs/pingcastle/prouser/image12.png)
+![](/img/product_docs/pingcastle/prouser/image12.webp)
 
 The first step is to create an Agent API key. Click on the create button
 to reach the creation page.
 
-![](/img/product_docs/pingcastle/prouser/image13.png)
+![](/img/product_docs/pingcastle/prouser/image13.webp)
 
 To map the agent to a responsible, the Owner field must be completed. It
 can be an entity or a domain, such as the \"default\" entity.
@@ -223,7 +223,7 @@ automatically using the command:
 pingcastle --healthcheck --api-endpoint <endpoint> --api-key <key>
 ```
 
-![](/img/product_docs/pingcastle/prouser/image14.png)
+![](/img/product_docs/pingcastle/prouser/image14.webp)
 
 :::note
 By default, all detailed information will be filtered.
@@ -236,4 +236,4 @@ pingcastle --healthcheck --api-endpoint <endpoint> --api-key <key> --level Full
 
 The API can be browsed using the link found in the agent page:
 
-![](/img/product_docs/pingcastle/prouser/image15.png)
+![](/img/product_docs/pingcastle/prouser/image15.webp)
