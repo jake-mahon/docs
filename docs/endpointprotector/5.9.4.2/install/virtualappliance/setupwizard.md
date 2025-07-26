@@ -52,7 +52,7 @@ the appliance is correctly set up and accessible.
 
 **Step 3 –** Press **Tab**.
 
-![Select tab to move to the apply button](\img\product_docs\endpointprotector\5.9.4.2\install\setip2.webp)
+![Select tab to move to the apply button](\img\product_docs\endpointprotector\5.9.4.2\install\setip21.webp)
 
 **Step 4 –** Select **Apply**. The virtual appliance is now accessible from the conﬁgured IP
 Address. (e.g., https:// 192.168.7.94).
