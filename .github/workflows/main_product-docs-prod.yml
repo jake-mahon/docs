@@ -27,6 +27,9 @@ jobs:
         env:
           NODE_OPTIONS: "--max-old-space-size=16384"
 
+      - name: Install zip (if needed)
+        run: sudo apt-get update && sudo apt-get install -y zip
+
       - name: Zip build directory
         run: zip -r build.zip build
 
