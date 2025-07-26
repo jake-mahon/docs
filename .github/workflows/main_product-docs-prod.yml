@@ -21,12 +21,21 @@ jobs:
         with:
           node-version: '22.x'
 
+      - name: Cache Node.js dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install dependencies and build site
         run: |
           npm ci
           npm run build
         env:
           NODE_OPTIONS: "--max-old-space-size=16384"
+          DOCUSAURUS_URL: "https://product-docs-prod-hdhbe6h2hddcghd7.eastus2-01.azurewebsites.net"
 
       - name: Install zip (if needed)
         run: sudo apt-get update && sudo apt-get install -y zip

@@ -5,12 +5,11 @@
   "main": "docusaurus.config.js",
   "scripts": {
     "docusaurus": "npx docusaurus",
-    "start": "npx serve -s . -l 8080",
+    "start": "npx serve -s build -l 8080",
     "build": "npx docusaurus build",
     "swizzle": "npx docusaurus swizzle",
-    "deploy": "npx docusaurus deploy",
     "clear": "npx docusaurus clear",
-    "serve": "npx docusaurus serve",
+    "serve": "npx serve -s build -l 8080",
     "write-translations": "npx docusaurus write-translations",
     "write-heading-ids": "npx docusaurus write-heading-ids"
   },
@@ -24,12 +23,10 @@
     "@docusaurus/preset-classic": "^3.8.1",
     "@docusaurus/theme-mermaid": "^3.8.1",
     "@mdx-js/react": "^3.0.0",
-    "pm2": "^6.0.8",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-typed": "^2.0.12",
-    "serve": "^14.2.4"
+    "react-typed": "^2.0.12"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.8.1",

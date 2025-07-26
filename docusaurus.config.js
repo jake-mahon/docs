@@ -16,7 +16,7 @@ const config = {
   // Set the production url of your site here
   // Use environment variable for dynamic URL configuration
   projectName: 'docs',
-  url: process.env.RENDER_EXTERNAL_URL || 'http://localhost:3000',
+  url: process.env.APP_EXTERNAL_URL || 'http://localhost:3000',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
