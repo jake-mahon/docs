@@ -9,6 +9,7 @@
 .cache-loader
 build
 claude_logs
+packages
 
 # Misc
 .DS_Store
