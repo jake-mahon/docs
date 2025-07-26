@@ -20,7 +20,7 @@ Setup wizard opens.
 **Step 2 –** On the Welcome page, click **Install**. The Setup Progress page is displayed, followed
 by another Welcome page.
 
-![Threat Prevention Windows Agent - Welcome Page](/img/product_docs/activitymonitor/8.0/install/agent/welcome2.webp)
+![Threat Prevention Windows Agent - Welcome Page](/img/product_docs/activitymonitor/8.0/install/agent/welcome.webp)
 
 **Step 3 –** Click **Next**.
 
