@@ -46,7 +46,7 @@ topic for additional information.
 you want to install the Agent. Then run the executable. The Netwrix Threat Prevention Windows Agent
 Setup wizard opens.
 
-![Threat Prevention Windows Agent Setup wizard - Welcome page](/img/product_docs/threatprevention/7.4/install/agent/welcome_1.webp)
+![Threat Prevention Windows Agent Setup wizard - Welcome page](/img/product_docs/threatprevention/7.4/install/agent/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Install**. The Setup Progress page is displayed, followed
 by another Welcome page.
