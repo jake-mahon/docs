@@ -40,9 +40,11 @@ jobs:
       - name: Install zip (if needed)
         run: sudo apt-get update && sudo apt-get install -y zip
 
-      - name: Zip project for Azure run-from-package
+      - name: Zip static files for Azure deployment
         run: |
-          zip -r build.zip build/ package.json package-lock.json node_modules/
+          cd build
+          zip -r ../build.zip *
+          cd ..
 
       - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
