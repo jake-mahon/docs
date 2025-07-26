@@ -5,7 +5,7 @@
   "main": "docusaurus.config.js",
   "scripts": {
     "docusaurus": "npx docusaurus",
-    "start": "npx docusaurus start",
+    "start": "npx serve -s . -l 8080",
     "build": "npx docusaurus build",
     "swizzle": "npx docusaurus swizzle",
     "deploy": "npx docusaurus deploy",
