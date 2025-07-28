@@ -63,10 +63,9 @@
           with:
             path: |
               .docusaurus
-              build
-            key: ${{ runner.os }}-docusaurus-build-${{ hashFiles('src/**', 'docs/**', 'blog/**', 'docusaurus.config.js', 'sidebars.js', 'package-lock.json') }}
+            key: ${{ runner.os }}-docusaurus-${{ hashFiles('src/**', 'docs/**', 'blog/**', 'docusaurus.config.js', 'sidebars.js') }}
             restore-keys: |
-              ${{ runner.os }}-docusaurus-build-
+              ${{ runner.os }}-docusaurus-
 
         - name: Cache webpack
           uses: actions/cache@v3
@@ -137,115 +136,55 @@
               --expiry $end_date \
               --output tsv)
 
-            # Create comprehensive content type mapping file for azcopy
-            cat > content-type-map.json << EOF
-            {
-              "*.css": "text/css",
-              "*.js": "application/javascript",
-              "*.mjs": "application/javascript",
-              "*.json": "application/json",
-              "*.html": "text/html",
-              "*.htm": "text/html",
-              "*.xml": "application/xml",
-              "*.txt": "text/plain",
-              "*.md": "text/markdown",
-
-              "*.png": "image/png",
-              "*.jpg": "image/jpeg",
-              "*.jpeg": "image/jpeg",
-              "*.gif": "image/gif",
-              "*.webp": "image/webp",
-              "*.avif": "image/avif",
-              "*.svg": "image/svg+xml",
-              "*.bmp": "image/bmp",
-              "*.tiff": "image/tiff",
-              "*.ico": "image/x-icon",
-
-              "*.woff": "font/woff",
-              "*.woff2": "font/woff2",
-              "*.ttf": "font/ttf",
-              "*.otf": "font/otf",
-              "*.eot": "application/vnd.ms-fontobject",
-
-              "*.pdf": "application/pdf",
-              "*.doc": "application/msword",
-              "*.docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-              "*.xls": "application/vnd.ms-excel",
-              "*.xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-              "*.ppt": "application/vnd.ms-powerpoint",
-              "*.pptx": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-              "*.odt": "application/vnd.oasis.opendocument.text",
-              "*.ods": "application/vnd.oasis.opendocument.spreadsheet",
-              "*.odp": "application/vnd.oasis.opendocument.presentation",
-
-              "*.zip": "application/zip",
-              "*.rar": "application/vnd.rar",
-              "*.7z": "application/x-7z-compressed",
-              "*.tar": "application/x-tar",
-              "*.gz": "application/gzip",
-              "*.bz2": "application/x-bzip2",
-
-              "*.mp4": "video/mp4",
-              "*.webm": "video/webm",
-              "*.avi": "video/x-msvideo",
-              "*.mov": "video/quicktime",
-              "*.wmv": "video/x-ms-wmv",
-
-              "*.mp3": "audio/mpeg",
-              "*.wav": "audio/wav",
-              "*.ogg": "audio/ogg",
-              "*.m4a": "audio/mp4",
-
-              "*.csv": "text/csv",
-              "*.rtf": "application/rtf",
-              "*.epub": "application/epub+zip",
-              "*.mobi": "application/x-mobipocket-ebook"
-            }
-            EOF
-
-            # Use azcopy sync with comprehensive content type mapping
+            # Use azcopy sync without content type mapping (will be set in fallback step)
             azcopy sync "./build/" \
               "https://${{ secrets.STORAGE_ACCOUNT_NAME }}.blob.core.windows.net/\$web?$sas_token" \
               --delete-destination=true \
               --compare-hash=MD5 \
               --log-level=INFO \
               --cap-mbps=0 \
-              --block-size-mb=4 \
-              --content-type-map="content-type-map.json"
+              --block-size-mb=4
 
             echo "Sync completed with comprehensive MIME types!"
 
-        - name: Fallback MIME type setting for critical files
+        - name: Set MIME types for all file types
           run: |
-            echo "Setting MIME types for critical files as fallback (in case azcopy mapping failed)..."
+            echo "Setting MIME types for all file types..."
 
             # Install Azure CLI if not available
             if ! command -v az &> /dev/null; then
               curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
             fi
 
-            # Set MIME types for most critical files (CSS and JS) that affect styling
-            echo "Ensuring CSS files have correct MIME type..."
-            az storage blob update-batch \
-              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-              --source '$web' \
-              --pattern "*.css" \
-              --content-type "text/css" \
-              --if-unmodified-since "1970-01-01T00:00:00Z" \
-              --no-progress || echo "CSS MIME type update completed (some files may have been skipped)"
+            # Web files
+            echo "Setting MIME types for web files..."
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.css" --content-type "text/css" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.js" --content-type "application/javascript" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.mjs" --content-type "application/javascript" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.json" --content-type "application/json" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.html" --content-type "text/html" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.htm" --content-type "text/html" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.xml" --content-type "application/xml" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.txt" --content-type "text/plain" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
 
-            echo "Ensuring JS files have correct MIME type..."
-            az storage blob update-batch \
-              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-              --source '$web' \
-              --pattern "*.js" \
-              --content-type "application/javascript" \
-              --if-unmodified-since "1970-01-01T00:00:00Z" \
-              --no-progress || echo "JS MIME type update completed (some files may have been skipped)"
+            # Images
+            echo "Setting MIME types for images..."
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.png" --content-type "image/png" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.jpg" --content-type "image/jpeg" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.jpeg" --content-type "image/jpeg" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.gif" --content-type "image/gif" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.webp" --content-type "image/webp" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.svg" --content-type "image/svg+xml" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.ico" --content-type "image/x-icon" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
 
-            echo "Critical MIME types verified!"
+            # Fonts
+            echo "Setting MIME types for fonts..."
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.woff" --content-type "font/woff" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.woff2" --content-type "font/woff2" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.ttf" --content-type "font/ttf" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+            az storage blob update-batch --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} --source '$web' --pattern "*.otf" --content-type "font/otf" --if-unmodified-since "1970-01-01T00:00:00Z" --no-progress || true
+
+            echo "All MIME types set successfully!"
 
         - name: Purge CDN endpoint (if configured)
           run: |
