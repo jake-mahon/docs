@@ -48,7 +48,7 @@ Setup wizard opens.
 **Step 2 –** On the Welcome page, click **Install**. The Setup Progress page is displayed, followed
 by another Welcome page.
 
-![welcome2](/images/threatprevention/7.5/install/agent/welcome.webp)
+![welcome2](/images/threatprevention/7.5/install/agent/Welcome.webp)
 
 **Step 3 –** Click **Next**.
 
