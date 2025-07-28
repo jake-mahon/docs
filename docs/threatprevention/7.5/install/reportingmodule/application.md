@@ -30,7 +30,7 @@ and select Run as administrator. Then skip to Step 2.
 **Step 1 –** Click **Netwrix Threat Manager Reporting**. The Netwrix Threat Manager Reporting Setup
 wizard opens.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the Install page](/images/threatprevention/7.5/install/reportingmodule/Install.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the Install page](/images/threatprevention/7.5/install/reportingmodule/install.webp)
 
 **Step 2 –** Click **Install**.
 

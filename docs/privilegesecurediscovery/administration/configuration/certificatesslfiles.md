@@ -111,7 +111,7 @@ Once you have installed Win32 OpenSSL, start the cmd prompt as administrator and
 install location i.e. C:\Program Files\OpenSSL-Win32\bin
 
 Type openssl to run
-![Command Prompt for OpenSSL](https://www.nuttyabouthosting.co.uk/images/img/kb/OpenSSL_CmdPrompt.webp)
+![Command Prompt for OpenSSL](https://www.nuttyabouthosting.co.uk/images/img/kb/lOpenSSL_CmdLPrompt.webp)
 
 Here are the commands using a wildcard certificate for an example
 

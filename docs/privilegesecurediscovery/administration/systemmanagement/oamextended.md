@@ -103,13 +103,13 @@ administrators have access to configure these settings.
 Below is a screenshot when the policy has not yet been applied, or has been set to disabled AKA
 “Unmanaged”.
 
-![OAM-UI-test-Unmanaged-default.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-ui-test-unmanaged-default.webp)
+![LOAM-UI-test-Unmanaged-default.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-ui-test-unmanaged-default.webp)
 
 As an example of seeing most of the options in action, the screenshot below show a custom strategy
 setting by selecting “Advanced...”. In the case shown, this is just “Best Practice” plus the added
 feature of randomizing the Alt-Admin name.
 
-![OAM-grant-access-overview2.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-grant-access-overview2.webp)
+![LOAM-grant-access-overview2.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-grant-access-overview2.webp)
 
 Note that if the “Best Practice” option is selected, no “Offline Access Policy Options” dialog will
 be displayed. All options will be set automatically with the exception that any previously set
@@ -144,14 +144,14 @@ API protects password visibility and returns a “forbidden” error.
 In a very similar process as on the Grant Access page, default settings may be saved so that any
 newly discovered system will have those policy settings automatically applied
 
-![OAM-S1-1043_copy.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1043_copy.webp)
+![LOAM-S1-1043_copy.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1043_copy.webp)
 
 The domain level OAM default policy settings are persisted to the
 `default_system_config.policies.offline_access_management` object in the `ldap_config` collection in
 the database as shown below. If “Best Practice” is selected, even though the dialog is not
 displayed, all options will be saves as displayed in the bottom of the image.
 
-![OAM_domain_config_to_DB.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_domain_config_to_db.webp)
+![LOAM_domain_config_to_DB.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_domain_config_to_db.webp)
 
 ## QuickStart Utility
 
@@ -163,7 +163,7 @@ The image below shows the column structure of the excel spreadsheet that has bee
 in blue is the system data that had been exported, while the data in yellow has been entered by a
 user to be imported to Privilege Secure.
 
-![OAM-S1-1824.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1824.webp)
+![LOAM-S1-1824.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1824.webp)
 
 The following policy options will be displayed for the computer's OAM Policy if it exists.
 
@@ -197,7 +197,7 @@ Default Settings by Strategy
 If an invalid combination of settings is entered, the API end-point will protect against sending
 invalid options.
 
-![OAM-S1-2343-validate_paramts_dont_conflic_using_quickstart.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-2343-validate_paramts_dont_conflic_using_quickstart.webp)
+![LOAM-S1-2343-validate_paramts_dont_conflic_using_quickstart.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-2343-validate_paramts_dont_conflic_using_quickstart.webp)
 
 For example, if the following settings are entered:
 
@@ -215,7 +215,7 @@ Response Body:
 Policies can be set using the Privilege Secure API.
 The screenshot below shows access using Postman to test access to the API end-point.
 
-![OAM_postman.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_postman.webp)
+![LOAM_postman.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_postman.webp)
 
 ## Querying the database by OAM policy settings
 
@@ -361,7 +361,7 @@ There are several mechanisms that can trigger a password rotation:
 - or, on demand via the Grant Access page as shown below. This requires a Rescan to perform the
   process right away.
 
-![S1-911_rotate_password_menu_item.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_s1-911_rotate_password_menu_item.webp)
+![LS1-911_rotate_password_menu_item.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_s1-911_rotate_password_menu_item.webp)
 
 ## Logging
 

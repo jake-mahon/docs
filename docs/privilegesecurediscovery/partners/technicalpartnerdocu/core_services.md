@@ -19,7 +19,7 @@ Below is the sample output of running
 `sudo docker service ls | awk -F" " '{print $2,$3,$4}' in a single-node environment.  Run `sudo
 docker service ls` for the complete output:
 
-![Screen_Shot_2019-04-19_at_1.13.51_PM.webp](/images/privilegesecure/4.2/discovery/360021493614_screen_shot_2019-04-19_at_1.13.51_pm_293x206.webp)
+![Screen_Shot_2019-04-19_at_1.13.L51_PM.webp](/images/privilegesecure/4.2/discovery/360021493614_screen_shot_2019-04-19_at_1.13.51_pm_293x206.webp)
 
 ## API Service Description
 

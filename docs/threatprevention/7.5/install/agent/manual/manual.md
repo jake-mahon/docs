@@ -43,12 +43,12 @@ topic for additional information.
 you want to install the Agent. Then run the executable. The Netwrix Threat Prevention Windows Agent
 Setup wizard opens.
 
-![Threat Prevention Windows Agent Setup wizard - Welcome page](/images/threatprevention/7.5/install/agent/Welcome.webp)
+![Threat Prevention Windows Agent Setup wizard - Welcome page](/images/threatprevention/7.5/install/agent/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Install**. The Setup Progress page is displayed, followed
 by another Welcome page.
 
-![welcome2](/images/threatprevention/7.5/install/agent/Welcome.webp)
+![welcome2](/images/threatprevention/7.5/install/agent/welcome.webp)
 
 **Step 3 –** Click **Next**.
 
@@ -57,14 +57,14 @@ by another Welcome page.
 **Step 4 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Threat Prevention Windows Agent Setup wizard - Destination Folder page](/images/threatprevention/7.5/install/agent/DestinationFolder.webp)
+![Threat Prevention Windows Agent Setup wizard - Destination Folder page](/images/threatprevention/7.5/install/agent/destinationfolder.webp)
 
 **Step 5 –** _(Optional)_ On the Destination Folder page, change the installation directory
 location.
 
 - To change the default installation directory location, click **Change…**.
 
-![Change Destination Folder Page](/images/threatprevention/7.5/install/agent/ChangeDestination.webp)
+![Change Destination Folder Page](/images/threatprevention/7.5/install/agent/changedestination.webp)
 
 > > - Use the Look In field to select the desired installation folder.
 > > - When the Folder name is as desired, click **OK**. The wizard returns to the Destination Folder
@@ -74,7 +74,7 @@ location.
 > To use the default installation directory location, skip the previous step and click **Next** on
 > the Destination Folder page.
 
-![Threat Prevention Windows Agent Setup wizard - CA Certificate Configuration page](/images/threatprevention/7.5/install/agent/CACertConfig.webp)
+![Threat Prevention Windows Agent Setup wizard - CA Certificate Configuration page](/images/threatprevention/7.5/install/agent/cacertconfig.webp)
 
 **Step 6 –** On the CA Certificate Configuration page, select one of the following options for the
 certificate and click **Next**:
@@ -203,13 +203,13 @@ being deployed. Click **Next**.
 - NetApp Security Event Log – Available for legacy versions. Option should be grayed-out.
 - Workstation Events – Available for legacy versions. Option should be grayed-out.
 
-![Threat Prevention Windows Agent Setup wizard – Ready page](/images/threatprevention/7.5/install/agent/ReadytoInstall.webp)
+![Threat Prevention Windows Agent Setup wizard – Ready page](/images/threatprevention/7.5/install/agent/readytoinstall.webp)
 
 **Step 10 –** On the Ready to install Threat Prevention Windows Agent page, click **Install**. The
 Setup wizard displays the installation status. When the installation completes, the Operation
 Successful page is displayed.
 
-![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/images/threatprevention/7.5/install/agent/Success.webp)
+![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/images/threatprevention/7.5/install/agent/success.webp)
 
 **Step 11 –** When installation is complete, click **Close**.
 

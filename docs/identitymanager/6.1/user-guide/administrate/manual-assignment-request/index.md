@@ -73,7 +73,7 @@ Act on an existing identity by proceeding as follows:
 
     ````
     <img
-      src="/buttons/Home_roleReview_V523.webp"  alt="Home Page - Role Review"  style=""/>
+      src="/buttons/LHome_roleReview_V523.webp"  alt="Home Page - Role Review"  style=""/>
 
     ```In this case, the requested entitlement will be displayed in the user's \*\*View Permissions\*\* tab only after the request is reviewed.
     ````

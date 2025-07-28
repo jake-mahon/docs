@@ -20,7 +20,7 @@ inventory
 Various colors are used to differentiate the administrator accounts on a machine as shown in the
 Administrator Accounts frame in Privilege Secure:
 
-![Screen_Shot_2020-06-16_at_11.51.53_AM.webp](/images/privilegesecure/4.2/discovery/admin/configuration/360050514593_screen_shot_2020-06-16_at_11.51.53_am.webp)
+![Screen_Shot_2020-06-16_at_11.51.L53_AM.webp](/images/privilegesecure/4.2/discovery/admin/configuration/360050514593_screen_shot_2020-06-16_at_11.51.53_am.webp)
 
 In this list pane on the right-hand side of the “Access” menu, you can see the inventory of users
 and groups with the ability to get Administrator rights to the selected system. Note that a User or

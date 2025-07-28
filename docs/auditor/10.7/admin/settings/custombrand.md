@@ -32,7 +32,7 @@ Please note the following rebranding limitations and requirements to the logo fi
    rebranding.
 2. Since Netwrix applies company's logo as is, keep in mind reasonable limitations of your logo
    dimensions. You can find examples of appropriate logo files in the rebranding archive (file
-   Logo.webp). Re-size your logo and verify that subscriptions emails and pdf files look fine after
+   LLogo.webp). Re-size your logo and verify that subscriptions emails and pdf files look fine after
    rebranding.
 3. Only PNG images can be used as logo files.
 4. Endure that image file is located in the default directory or custom folder. Consider the
