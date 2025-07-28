@@ -187,10 +187,13 @@ jobs:
           ./set_content_types.sh
 
       - name: Purge CDN endpoint (if configured)
-        if: ${{ secrets.CDN_ENDPOINT_NAME != '' && secrets.CDN_PROFILE_NAME != '' && secrets.CDN_RESOURCE_GROUP != '' }}
         run: |
-          echo "Note: CDN purge requires Azure login. Skipping CDN purge when using storage key authentication."
-          echo "To use CDN purge, you'll need to use Azure AD authentication or purge CDN manually."
+          if [[ -n "${{ secrets.CDN_ENDPOINT_NAME }}" ]] && [[ -n "${{ secrets.CDN_PROFILE_NAME }}" ]] && [[ -n "${{ secrets.CDN_RESOURCE_GROUP }}" ]]; then
+            echo "Note: CDN purge requires Azure login. Skipping CDN purge when using storage key authentication."
+            echo "To use CDN purge, you'll need to use Azure AD authentication or purge CDN manually."
+          else
+            echo "CDN configuration not found, skipping CDN purge."
+          fi
 
       - name: Display deployment URL
         run: |
