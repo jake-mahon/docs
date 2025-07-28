@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - develop  # Add your development branch here
+      - dev
   workflow_dispatch:
     inputs:
       environment:
@@ -113,8 +113,6 @@ jobs:
         with:
           name: build-output
           path: build/
-
-      # Azure login step removed - using storage account key instead
 
       - name: Install azcopy
         run: |
