@@ -13,7 +13,7 @@ Compared to Parent.
 If activity is being monitored for the selected resource, then this report indicates where stale
 permissions exist. See the Stale Permissions topic for additional information.
 
-![Permissions report at the share and subfolder levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharepermissions.webp)
+![Permissions report at the share and subfolder levels](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharepermissions.webp)
 
 This report is comprised of the following columns:
 
@@ -56,7 +56,7 @@ displays the group membership, including nested groups.
 There is one table at the bottom displaying Compared to Parent permissions for the select trustee.
 It contains information on explicit permissions granted for the selected resource.
 
-![Compared to Parent table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharepermissionstable.webp)
+![Compared to Parent table](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharepermissionstable.webp)
 
 This table will be blank unless an Explicit Permissions icon is attached to the resource in the
 Resources pane. See the [Resources Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/resource.md#resources-pane) topic for
@@ -79,20 +79,20 @@ resource, a yellow icon is displayed for the permission type to indicate the acc
 perform the activity. Therefore, access level cells not highlighted when activity is being monitored
 represent permissions that are identified as stale.
 
-![Stale and active permissions](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/stalepermissions.webp)
+![Stale and active permissions](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/stalepermissions.webp)
 
 In the Permissions report, the yellow icons show permissions that are active, and the green check
 marks show permissions that are stale. The example shows that Jazmina’s activity has used the List,
 Write, Delete, and Manage permissions but not the Read permission. It also shows there are at least
 three other trustees with stale permissions.
 
-![Activity Statistics report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/stalepermissionsevents.webp)
+![Activity Statistics report](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/stalepermissionsevents.webp)
 
 The Activity Statisticsreport indicates that the trustee Jazmina has performed write, manage, and
 delete events on the selected resource. See the
 [Activity Statistics Report](/docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/activitystatistics.md) topic for additional information.
 
-![Effective Access report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/stalepermissionsaccess.webp)
+![Effective Access report](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/stalepermissionsaccess.webp)
 
 The Effective Access report shows that Jazmina has access to the resource through the Group_Manage
 group, and the access is directly applied. See the

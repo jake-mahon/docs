@@ -9,7 +9,7 @@ sidebar_position: 30
 This configuration tab contains the classification engine settings. Each configuration option has an
 associated “i” which describes the nature of the setting.
 
-![core_collector](/img/product_docs/dataclassification/5.6.2/configuration/core/core_collector.webp)
+![core_collector](/images/dataclassification/5.6.2/configuration/core/core_collector.webp)
 
 | Option                             | Description                                                                                                                                                                                                                                                                                                                                                                  | Comment                                                                                                                                                                                                                               |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

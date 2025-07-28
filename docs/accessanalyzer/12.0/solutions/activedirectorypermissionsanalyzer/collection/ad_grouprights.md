@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the AD_GroupRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/grouprightsquery.webp)
+![Query for the AD_GroupRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/grouprightsquery.webp)
 
 - Group Access Permissions – Returns group access permissions
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_GroupRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/grouprightsanalysis.webp)
+![Analysis Tasks for the AD_GroupRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/grouprightsanalysis.webp)
 
 The default analysis tasks are:
 

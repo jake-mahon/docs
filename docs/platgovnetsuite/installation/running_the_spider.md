@@ -59,7 +59,7 @@ any issues that arise are captured during the data validation phase.
 Open **Strongpoint** > **Strongpoint Support** > **Installation Settings** and review the **Spider
 Status** tab to confirm the **Last Completed Spider** shows a date.
 
-![Review the Spider Status tab of the Installation Settings](/img/product_docs/platgovnetsuite/installing_strongpoint/install_settings_spider_status.webp)
+![Review the Spider Status tab of the Installation Settings](/images/platgovnetsuite/installing_strongpoint/install_settings_spider_status.webp)
 
 - **Strongpoint Record Server Side Spider Scheduled Script** is no longer running.
 - **Strongpoint Search Customization to Make Join (By Join Proc)** should not have any results. If
@@ -166,11 +166,11 @@ All other deployed back-end spiders continue to run once a day.
 
 :::note
 If a schedule is set through the Configuration and Stats page, scheduled spiders run at that time.
-Otherwise they are run once per day.  
+Otherwise they are run once per day.
 Spiders that run during off peak hours begin running at the hour set on the script deployment, or
 5:00 pm based on the company timezone if not set.
 :::
-  
+
 Negative Spiders are run sequentially.
 
 **Next Step:** [ Setting Up the AutoSpider and Alerts](/docs/platgovnetsuite/installation/setting_up_auto_spider_alerts.md)

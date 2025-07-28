@@ -22,7 +22,7 @@ GroupID. On changing it, the portal is displayed with the new name.
 
 **To change a portal's display name:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal card displays its info, including its name.
 2. Click the ellipsis button for a portal and select **Settings**.
 3. On the **General Settings** page, enter a new name for the portal in the **Application Name**
@@ -39,7 +39,7 @@ Users can connect a portal to an associated identity store only.
 
 **To associate an identity store:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal card displays its info, including the identity stores
    associated with it.
 2. Click the ellipsis button for a portal and select **Settings**.
@@ -56,7 +56,7 @@ Users can connect a portal to an associated identity store only.
 
 NOTE: You may observe the following message on the **Server Settings – General** page:
 
-![linked_message](/img/product_docs/directorymanager/11.0/admincenter/portal/linked_message.webp)
+![linked_message](/images/directorymanager/11.0/admincenter/portal/linked_message.webp)
 
 It relates to the scenario when identity stores in GroupID have been linked, as discussed in the
 [Linked Identity Stores and the GroupID Portal](/docs/directorymanager/11.0/signin/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
@@ -72,7 +72,7 @@ settings for each deployment instance of a portal.
 
 **To view a portal’s deployment instances:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal card displays its info, including all its deployment
    instances.
 2. Click the ellipsis button for a portal and select **Settings**.

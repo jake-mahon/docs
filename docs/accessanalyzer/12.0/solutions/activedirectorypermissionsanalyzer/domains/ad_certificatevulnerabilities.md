@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_CertificateVulnerabilities Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificatevulnerabilitiesanalysis.webp)
+![Analysis Tasks for the AD_CertificateVulnerabilities Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificatevulnerabilitiesanalysis.webp)
 
 The default analysis task is:
 
@@ -43,4 +43,3 @@ job produces the following pre-configured report.
 | Report                      | Description                                                                                                                                      | Default Tags | Report Elements                                                                                                                                               |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Certificate Vulnerabilities | This report highlights Certificate Authority and template configurations and permissions that create vulnerabilities in the audited environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays vulnerabilities by count</li><li>Table – Provides details on vulnerabilities</li></ul> |
-

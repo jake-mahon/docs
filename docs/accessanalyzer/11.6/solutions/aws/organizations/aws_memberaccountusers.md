@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_MemberAccountUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/organizations/memberaccountusersanalysis.webp)
+![Analysis Tasks for the AWS_MemberAccountUsers Job](/images/accessanalyzer/11.6/solutions/aws/organizations/memberaccountusersanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ produces the following preconfigured report:
 | Report               | Description                                                                            | Default Tags | Report Element                                                                                                                                                                                                                                |
 | -------------------- | -------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Member Account Users | This report highlights user accounts that are not contained in the AWS Master Account. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top member account users by org</li><li>Table – Shows member account users by Org</li><li>Table – Provides details on member account users</li></ul> |
-

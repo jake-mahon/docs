@@ -33,7 +33,7 @@ right **Can display organisational structure module**. **Read** and **write** ri
 are also required. Finally, membership of the user is required. Normally, the user themselves and
 the user who created or imported the user have the right to change their password.
 
-![Permission for user](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_1-en.webp)
+![Permission for user](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_1-en.webp)
 
 ### Assigning and changing passwords
 
@@ -45,7 +45,7 @@ passwords after the import.
 The passwords can be directly assigned or changed via the ribbon. Naturally, it is also possible to
 select multiple users if e.g. several imported users should be assigned the same password.
 
-![change password](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_2-en.webp)
+![change password](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_2-en.webp)
 
 ### Change password on next login
 
@@ -55,7 +55,7 @@ users**, this can be activated during the creation of the user. In the case of *
 mode**, this option is directly activated during import for security reasons. This option is
 automatically deactivated after the user has successfully logged in and changed the password.
 
-![change password next login](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_3-en.webp)
+![change password next login](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_3-en.webp)
 
 ### Security of passwords
 
@@ -72,9 +72,9 @@ The process for logging into the database differs depending on the type of user.
 
 Local users simply log in using their user name and the assigned password.
 
-![login username](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_4-en_415x238.webp)
+![login username](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_4-en_415x238.webp)
 
-![login password](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_5-en.webp)
+![login password](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_5-en.webp)
 
 ## AD user
 
@@ -85,7 +85,7 @@ with the same name, the name of the domain must be entered in front of the user 
 The name of the domain must be entered as it is configured in the AD profile under **Domains**. The
 option **Other domain names** can be used to save other forms of the domain name.
 
-![AD User](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_6-en.webp)
+![AD User](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/user_passwords_6-en.webp)
 
 NOTE: The logon to the client is automatically forwarded to the Autofill Add-on and other clients on
 the same computer. The same applies to logging on to the Autofill Add-on.

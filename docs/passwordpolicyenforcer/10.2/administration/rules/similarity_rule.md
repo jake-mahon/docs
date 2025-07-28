@@ -11,7 +11,7 @@ similarity may indicate that a user is serializing their passwords. For example,
 "password2", "password3", etc. Password serialization should be avoided because it may allow an
 attacker to guess the new password.
 
-![ppe_rules_9](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_9.webp)
+![ppe_rules_9](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_9.webp)
 
 Select the **Enabled** check box to enable the Similarity rule.
 

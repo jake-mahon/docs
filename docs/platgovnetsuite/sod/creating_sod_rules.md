@@ -41,7 +41,7 @@ The following are general definitions of access levels for permissions in NetSui
 
 1. Open **SoD** > **SoD Rule** > **SoD Rule Library** > **New**
 
-    ![sod_rule_new](/img/product_docs/platgovnetsuite/sod/sod_rule_new.webp)
+    ![sod_rule_new](/images/platgovnetsuite/sod/sod_rule_new.webp)
 
 2. **External ID** is assigned by Platform Governance for NetSuite. Custom rules are numbered 1000
    or above. External IDs for custom rules can be edited. SoD Library rule External IDs are 1
@@ -59,7 +59,7 @@ The following are general definitions of access levels for permissions in NetSui
    permissions/roles violates this rule (optional).
 9. Select the **Access Control Type**:
 
-    ![SoD Access Controls](/img/product_docs/platgovnetsuite/sod/sod_access_controls.webp)
+    ![SoD Access Controls](/images/platgovnetsuite/sod/sod_access_controls.webp)
 
     - **Role-based** - Select one or more **Roles** from the displayed list. The Permissions and
       Advanced Permission Controls are not available for this option.
@@ -86,7 +86,7 @@ The following are general definitions of access levels for permissions in NetSui
 10. Add Restrictions to limit the SoD rule to employees associated in one or more of the categories:
     **Subsidiaries**, **Departments**, **Classes**, and **Locations**.
 
-    ![SoD Classifications](/img/product_docs/platgovnetsuite/sod/sod_classifications.webp)
+    ![SoD Classifications](/images/platgovnetsuite/sod/sod_classifications.webp)
 
 11. **Save** the rule.
 
@@ -102,7 +102,7 @@ There are four tabs to access details:
   a new control. Compensating Controls are defined on the Customization record.
 - **Workflow**: displays Active Workflows and Workflow History.
 
-![SoD Processing Status](/img/product_docs/platgovnetsuite/sod/sod_proc_status_tab.webp)
+![SoD Processing Status](/images/platgovnetsuite/sod/sod_proc_status_tab.webp)
 
 When you add or change a rule, you can manually start the evaluation process, or wait until the
 Spider runs overnight. To manually run the process:
@@ -117,7 +117,7 @@ To view the updates to your SoD rules:
 
 **SoD** > **SoD Rule** > **Updates to SoD Rules**
 
-![Updates to SoD Rules report](/img/product_docs/platgovnetsuite/sod/sod_rules_update_report.webp)
+![Updates to SoD Rules report](/images/platgovnetsuite/sod/sod_rules_update_report.webp)
 
 With this report, you can easily identify modified pre-defined SoD rules. There is a saved import
 SoD Rule Import available to enable bulk add or update SoD rules to your production environment.

@@ -20,11 +20,11 @@ sidebar_position: 20
 
 - **Name**: Policy name.
 - **Default Policy**: Checked if it is the default policy.
-- **Enable Global Object Level Policy**: Disabled by default. Check to enable.  
+- **Enable Global Object Level Policy**: Disabled by default. Check to enable.
    Change Policy picking process with **Global Object Level Policy** _disabled_:
         - If customizations or customization processes are attached to specific policies, pick the most
       stringent policy.
-        - If there are no object-specific policies, pick **Default Policy**.  
+        - If there are no object-specific policies, pick **Default Policy**.
       Change Policy picking process with **Global Object Level Policy** _enabled_:
         - If customizations or customization processes are attached to specific policies, pick the most
       stringent policy.
@@ -40,7 +40,7 @@ sidebar_position: 20
   internal changes.Recommended to leave this unchecked due to the volume of false positives you
   would need to manage.
 
-![changeandapprovalpolicy1](/img/product_docs/platgovnetsuite/change_management/changeandapprovalpolicy1.webp)
+![changeandapprovalpolicy1](/images/platgovnetsuite/change_management/changeandapprovalpolicy1.webp)
 
 ## Set Up a Default Policy
 
@@ -50,7 +50,7 @@ sidebar_position: 20
     - **Header**: Everything in the Header should remain the same including the name Default.
     - **Change Controls:**
 
-    ![Policy Default Change Controls](/img/product_docs/platgovnetsuite/change_management/policy_default_change_controls2.webp)
+    ![Policy Default Change Controls](/images/platgovnetsuite/change_management/policy_default_change_controls2.webp)
 
     - **Approvals**: Select the policy approvers on the Approvals tab.
 
@@ -136,7 +136,7 @@ To add new change levels, select **New** or use the **+** next to a field when e
 
 Approvers initiate the change request and enable it to move to the next stage.
 
-![Policy Approvals tab](/img/product_docs/platgovnetsuite/change_management/policy_approvals_tab.webp)
+![Policy Approvals tab](/images/platgovnetsuite/change_management/policy_approvals_tab.webp)
 
 **Policy Change Approvers**
 
@@ -154,7 +154,7 @@ This section is only applies to the default policy.
     :::
 
 
-    ![Record Save Blocked](/img/product_docs/platgovnetsuite/change_management/record_save_blocked.webp)
+    ![Record Save Blocked](/images/platgovnetsuite/change_management/record_save_blocked.webp)
 
 **ITGC Approvers**
 
@@ -246,7 +246,7 @@ To set up additional policies:
 6. Click **Edit**
 7. Open the **Customization Policies** tab.
 
-![policy_add_customizations](/img/product_docs/platgovnetsuite/change_management/policy_add_customizations.webp)
+![policy_add_customizations](/images/platgovnetsuite/change_management/policy_add_customizations.webp)
 
     - Check **Require Object Owner Approval** if needed.
     - Check **Require Impacted Customization Approval** if needed.

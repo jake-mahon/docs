@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Users tab shows the users and groups associated with the selected access policy.
 
-![Resource based policy users tab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/policyresource/userstab.webp)
+![Resource based policy users tab](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/policyresource/userstab.webp)
 
 The Users tab has the following features:
 

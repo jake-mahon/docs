@@ -26,7 +26,7 @@ ServiceNow, EasyVista, SAP, SharePoint, etc.
 
 A connector, therefore, acts as an interface between Usercube and a managed system.
 
-![Connector Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/connectorcreation_connectorschema.webp)
+![Connector Schema](/images/identitymanager/6.1/user-guide/set-up/connect-system/connectorcreation_connectorschema.webp)
 
 NETWRIX strongly recommends the creation of one connector for one application.
 
@@ -42,7 +42,7 @@ NETWRIX strongly recommends the creation of one connector for one application.
 In the early steps of a project, we'll consider most of our connectors to be outbound, i.e. Usercube
 will feed data into connected managed systems.
 
-![Outbound System=](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/connectorcreation_outbound.webp)
+![Outbound System=](/images/identitymanager/6.1/user-guide/set-up/connect-system/connectorcreation_outbound.webp)
 
 In this case, data flows between Usercube and the managed system are also called:
 
@@ -119,7 +119,7 @@ Usercube's connectors all operate on the same basic principles. Technically spea
     > accounts, which we want Usercube to provision automatically; `AD User (administration)` for
     > sensitive administration accounts, which we want to provision manually through Usercube.
 
-![Connector Technical Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/connectorcreation_connectortechnicalschema.webp)
+![Connector Technical Schema](/images/identitymanager/6.1/user-guide/set-up/connect-system/connectorcreation_connectortechnicalschema.webp)
 
 A connector requires at least one connection and one entity type.
 

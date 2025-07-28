@@ -19,7 +19,7 @@ the query.
 :::
 
 
-![Queries for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsqueries.webp)
+![Queries for the SG_PowerShellCommands Job](/images/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsqueries.webp)
 
 The queries for the SG_PowerShellCommands job are:
 
@@ -49,7 +49,7 @@ Wizard opens.
 **Step 4 –** If the **Criteria** tab is grayed out, click **Next** through the windows until the tab
 is accessible.
 
-![Smart Log Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/smartlogdcwizardcriteria.webp)
+![Smart Log Data Collector Wizard Criteria page](/images/accessanalyzer/11.6/solutions/windows/securityutilities/smartlogdcwizardcriteria.webp)
 
 **Step 5 –** On the Criteria page, click the **press the button to add a new condition** box.
 
@@ -70,7 +70,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_PowerShellCommands Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsanalysis.webp)
+![Analysis Tasks for the SG_PowerShellCommands Job](/images/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -105,12 +105,12 @@ Follow these steps to configure the notification analysis task.
 **Step 2 –** In the Analysis Selection view, select the **Notify on suspicious commands** analysis
 task and click **Analysis Configuration**. The Notification Data Analysis Module opens.
 
-![Notification Data Analysis Module wizard SMTP properties page](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsnotifysmtp.webp)
+![Notification Data Analysis Module wizard SMTP properties page](/images/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsnotifysmtp.webp)
 
 **Step 3 –** Use the **Next** button to navigate to the SMTP page. Do not make changes to the
 preceding pages.
 
-![Recipients section](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsnotifyrecipients.webp)
+![Recipients section](/images/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsnotifyrecipients.webp)
 
 **Step 4 –** In the Recipients section, provide the email addresses or distribution lists (fully
 qualified address) for those who are to receive this notification. Multiple addresses can be
@@ -121,7 +121,7 @@ provided. You can use the following options:
 - Combine multiple messages into single message – Sends one email for all objects in the record set
   instead of one email per object to all recipients
 
-![Message section](/img/product_docs/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsnotifymessage.webp)
+![Message section](/images/accessanalyzer/11.6/solutions/windows/securityutilities/powershellcommandsnotifymessage.webp)
 
 **Step 5 –** In the Message section, edit the **Subject**. It is not recommended to remove any
 parameters. Then, customize the email content in the textbox to provide an explanation of the

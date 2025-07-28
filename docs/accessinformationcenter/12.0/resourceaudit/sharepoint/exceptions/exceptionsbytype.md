@@ -10,7 +10,7 @@ The Exceptions report at the exception type level provides details on the select
 An exception is defined as a problem or risk to data governance security. This report includes a
 Permission Source table.
 
-![Exceptions report at the exception type level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/exceptions/exceptionsbytype.webp)
+![Exceptions report at the exception type level](/images/accessinformationcenter/12.0/resourceaudit/sharepoint/exceptions/exceptionsbytype.webp)
 
 This report is comprised of the following columns:
 
@@ -23,7 +23,7 @@ displays the group membership, including nested groups.
 There is one table at the bottom displaying Permission Source for the select trustee. It contains
 all of the ways the selected trustee has been granted rights to the selected resource.
 
-![Permission Source table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/exceptions/exceptionsbytypetable.webp)
+![Permission Source table](/images/accessinformationcenter/12.0/resourceaudit/sharepoint/exceptions/exceptionsbytypetable.webp)
 
 The number of rows for this table indicates the number of ways this trustee has been granted access.
 This table is comprised of the following columns:

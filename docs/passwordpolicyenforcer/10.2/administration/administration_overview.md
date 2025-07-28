@@ -11,7 +11,7 @@ strong passwords. When a user chooses a password that does not comply with the p
 Password Policy Enforcer immediately rejects the password and tells them why their password was
 rejected.
 
-![introduction_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+![introduction_2](/images/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
 
 Unlike password cracking products that check passwords after they are accepted by the operating
 system, Password Policy Enforcer checks new passwords immediately to ensure that weak passwords do

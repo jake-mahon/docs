@@ -17,7 +17,7 @@ passphrases.
 
 Follow the steps to configure a password policy with fewer requirements for passphrases.
 
-![managing_policies_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_7.webp)
+![managing_policies_7](/images/passwordpolicyenforcer/10.2/administration/managing_policies_7.webp)
 
 **Step 1 –** Click the Policies item to display the
 [Policies View](/docs/passwordpolicyenforcer/10.2/administration/managementconsole/management_console_views.md#policies-view).

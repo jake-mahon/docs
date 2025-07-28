@@ -9,7 +9,7 @@ sidebar_position: 50
 The 4. Mailboxes job group is comprised of data collection, analysis, and reports around mailbox
 features, logons, permissions, and sizing.
 
-![4.Mailboxes Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/jobstree.webp)
+![4.Mailboxes Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/jobstree.webp)
 
 The following comprise the 4. Mailboxes job group:
 

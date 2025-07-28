@@ -21,7 +21,7 @@ the following languages:
 - German
 - Spanish
 
-    ![predefined_clues](/img/product_docs/dataclassification/5.6.2/taxonomies/predefined_clues.webp)
+    ![predefined_clues](/images/dataclassification/5.6.2/taxonomies/predefined_clues.webp)
 
 Users can easily extend the out-of-the-box classification rules by adding relevant keywords and
 terms in other languages.
@@ -30,7 +30,7 @@ In addition, there are predefined classification rules for various national iden
 registration numbers. These rules typically look for ID patterns supplemented by related keywords
 for better classification precision.
 
-![clues_1](/img/product_docs/dataclassification/5.6.2/taxonomies/clues_1.webp)
+![clues_1](/images/dataclassification/5.6.2/taxonomies/clues_1.webp)
 
 These rules are provided for the following countries (coverage varies):
 
@@ -57,7 +57,7 @@ These rules are provided for the following countries (coverage varies):
 To work with the clues, select the required subnode (terms set) under the taxonomy tree on the left
 and then select Clues on the right:
 
-![taxonomyclues_thumb_0_0](/img/product_docs/dataclassification/5.6.2/taxonomies/taxonomyclues_thumb_0_0.webp)
+![taxonomyclues_thumb_0_0](/images/dataclassification/5.6.2/taxonomies/taxonomyclues_thumb_0_0.webp)
 
 - For each clue in the list, you can view and manage its type, score, and other properties.
 - To add a new clue, go to the topmost row in the list and specify its properties.
@@ -67,7 +67,7 @@ and then select Clues on the right:
 Click the Doc Counts link in the top right corner to get the number of documents that match the word
 / phrase used within the clue:
 
-![doccounts](/img/product_docs/dataclassification/5.6.2/taxonomies/doccounts.webp)
+![doccounts](/images/dataclassification/5.6.2/taxonomies/doccounts.webp)
 
 ## Suggested Clues
 

@@ -28,16 +28,16 @@ The Bundle ID has been updated due to NetSuite changes.
 3. Enter **294336** in **Keywords**
 4. Click **Search**
 
-    ![Search for the Strongpoint Bundle](/img/product_docs/platgovnetsuite/installing_strongpoint/searchandinstallbundles.webp)
+    ![Search for the Strongpoint Bundle](/images/platgovnetsuite/installing_strongpoint/searchandinstallbundles.webp)
 
 5. Click **Strongpoint**
 6. Click **Install** to start the bundle installation.
 7. Verify the installation is complete. Open **Customization** > **SuiteBundler** > **Search &
-   Install Bundles** > **List**  
+   Install Bundles** > **List**
    In the **Installed Bundles** list, the **Strongpoint** bundle is marked with a green check in the
    **Status** column when the bundle is installed.
 
-    ![Verify Strongpoint Bundle Installation](/img/product_docs/platgovnetsuite/installing_strongpoint/verify_bundle_install.webp)
+    ![Verify Strongpoint Bundle Installation](/images/platgovnetsuite/installing_strongpoint/verify_bundle_install.webp)
 
 ## Set the Number of Row in List Segments
 

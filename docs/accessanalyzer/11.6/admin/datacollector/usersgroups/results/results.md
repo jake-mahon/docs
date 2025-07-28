@@ -9,7 +9,7 @@ sidebar_position: 10
 The Results page is where the type of data to be returned is configured. Each type has a different
 set of options.
 
-![Users and Groups Browser wizard Results page Category selection](/img/product_docs/accessanalyzer/11.6/admin/datacollector/usersgroups/results.webp)
+![Users and Groups Browser wizard Results page Category selection](/images/accessanalyzer/11.6/admin/datacollector/usersgroups/results.webp)
 
 Choose from the following query categories:
 

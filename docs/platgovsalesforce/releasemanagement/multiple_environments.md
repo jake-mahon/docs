@@ -20,20 +20,20 @@ Salesforce is installed, and to deploy changes and promote code from one environ
 
 1. Open **Change Requests** and locate the completed change request to push/pull.
 
-    ![Open Completed Change Request](/img/product_docs/platgovsalesforce/release_management/push_pullcr-1.webp)
+    ![Open Completed Change Request](/images/platgovsalesforce/release_management/push_pullcr-1.webp)
 
 2. Edit the change request and add all necessary details.
 
-    ![Edit the Change Request](/img/product_docs/platgovsalesforce/release_management/push_pull_cr.webp)
+    ![Edit the Change Request](/images/platgovsalesforce/release_management/push_pull_cr.webp)
 
 3. Click on **Sync CR**.
 
-    ![Sync the Change Request](/img/product_docs/platgovsalesforce/release_management/push_pull_sync_cr.webp)
+    ![Sync the Change Request](/images/platgovsalesforce/release_management/push_pull_sync_cr.webp)
 
 4. Choose a **Saved Environment**, where you are planning to push or pull the Change Request.
 5. Add your **Credentials**.
 
-    ![Enter Credentials](/img/product_docs/platgovsalesforce/release_management/push_pull_popup.webp)
+    ![Enter Credentials](/images/platgovsalesforce/release_management/push_pull_popup.webp)
 
 6. Click on **Test Connection** to make sure your credentials are correct. If your credentials are
    not correct, you can click on **Save Credentials** and edit.
@@ -45,7 +45,7 @@ To push a change request into another environment:
 1. Click **Push**.
 2. Click **Push CR**.
 
-    ![pushcr](/img/product_docs/platgovsalesforce/release_management/pushcr.webp)
+    ![pushcr](/images/platgovsalesforce/release_management/pushcr.webp)
 
 Your Change Request is pushed to your selected environment.
 
@@ -56,11 +56,11 @@ To pull a change request from the selected environment:
 1. Select **Pull**
 2. Click on **Get Change Requests**
 
-    ![pullcr](/img/product_docs/platgovsalesforce/release_management/pullcr.webp)
+    ![pullcr](/images/platgovsalesforce/release_management/pullcr.webp)
 
 3. Add the change requests you want to pull from the selected environment.
 
-    ![pullchangerequest](/img/product_docs/platgovsalesforce/release_management/pullchangerequest.webp)
+    ![pullchangerequest](/images/platgovsalesforce/release_management/pullchangerequest.webp)
 
 4. Click **Pull Change Request.**
 

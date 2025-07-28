@@ -18,11 +18,11 @@ Follow the steps to configure the Syslog server.
 
 **Step 2 –** Navigate to **Network wide** > **Configure** > **General**.
 
-![nand_meraki_network](/img/product_docs/auditor/10.7/configuration/networkdevices/nand_meraki_network.webp)
+![nand_meraki_network](/images/auditor/10.7/configuration/networkdevices/nand_meraki_network.webp)
 
 **Step 3 –** Locate the Reporting section and click Add a syslog server.
 
-![nand_meraki_server](/img/product_docs/auditor/10.7/configuration/networkdevices/nand_meraki_server.webp)
+![nand_meraki_server](/images/auditor/10.7/configuration/networkdevices/nand_meraki_server.webp)
 
 **Step 4 –** In the dialog that opens, complete the following fields:
 

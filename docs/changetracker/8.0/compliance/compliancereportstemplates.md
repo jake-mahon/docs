@@ -16,7 +16,7 @@ produced for new or updated platforms.
 To import a new template or update an existing one, just upload the template: use the
 ‘**Overwrite**’ option if updating.
 
-![ComplianceReportsTemplates](/img/product_docs/changetracker/8.0/admin/compliancereportstemplates.webp)
+![ComplianceReportsTemplates](/images/changetracker/8.0/admin/compliancereportstemplates.webp)
 
 ## Reports Layout Templates Administration
 
@@ -29,4 +29,4 @@ new template through the UI, this can be updated, or the current format preserve
 For report template modifications or new formats, please contact
 [Netwrix Support](https://www.netwrix.com/support.html).
 
-![ComplianceReportsLayout](/img/product_docs/changetracker/8.0/admin/compliancereportslayout.webp)
+![ComplianceReportsLayout](/images/changetracker/8.0/admin/compliancereportslayout.webp)

@@ -13,7 +13,7 @@ for the wizard, e.g. the Access Analyzer Host Discovery Wizard. If the currently
 section has an associated Activities Pane, it can be found on the right-hand side of the Access
 Analyzer Console.
 
-![activitiespane](/img/product_docs/accessanalyzer/12.0/admin/navigate/activitiespane.webp)
+![activitiespane](/images/accessanalyzer/12.0/admin/navigate/activitiespane.webp)
 
 The following console sections have associated Activities Panes:
 

@@ -10,7 +10,7 @@ Password Reset is a web application. You can also
 access Password Reset from another computer by replacing 127.0.0.1 in the URL with the IP address or
 hostname of the evaluation server.
 
-![using_apr_1](/img/product_docs/passwordreset/3.23/evaluation/using_apr_1.webp)
+![using_apr_1](/images/passwordreset/3.23/evaluation/using_apr_1.webp)
 
 You should install an SSL certificate on the web server when using Password Reset on a production
 network with real passwords. See the
@@ -27,7 +27,7 @@ Follow the steps below to manually enroll into Password Reset.
 
 **Step 1 –** Click the **Enroll** item in the menu.
 
-![using_apr_1_1](/img/product_docs/passwordreset/3.23/evaluation/using_apr_1_1.webp)
+![using_apr_1_1](/images/passwordreset/3.23/evaluation/using_apr_1_1.webp)
 
 **Step 2 –** Enter a **Username**, **Domain**, and **Password** in the respective fields.
 

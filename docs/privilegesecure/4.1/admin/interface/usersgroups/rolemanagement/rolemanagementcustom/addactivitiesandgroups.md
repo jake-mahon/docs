@@ -10,7 +10,7 @@ The Add Activities and Groups window provides a list of Activities that have bee
 Activities are created in the
 [Activities Page](/docs/privilegesecure/4.1/admin/interface/activities/activities.md).
 
-![Add activities and activity groups window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
+![Add activities and activity groups window](/images/privilegesecure/4.1/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
 
 The window has the following features:
 

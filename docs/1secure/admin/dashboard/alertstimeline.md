@@ -21,7 +21,7 @@ To access the Alerts Timeline page, click **Home** at the top and do one of the 
   page, then click the Alerts Timeline chart. It opens the Alerts Timeline page that displays
   alert-related data for the organization selected in the organizations list.
 
-![Alerts Timeline Page](/img/product_docs/1secure/admin/dashboard/alertstimeline.webp)
+![Alerts Timeline Page](/images/1secure/admin/dashboard/alertstimeline.webp)
 
 If you are a managed organization user, this page displays insights specific to your organization.
 
@@ -32,7 +32,7 @@ organizations.
 
 This card displays a pie chart illustrating the five most frequently triggered alert types. Each
 slice represents the share of an alert type relative to the others. Hover over a slice to view the
-exact number of alerts for that type.  
+exact number of alerts for that type.
 The legend maps the colors used in the pie chart to the names of the alert types along with the
 share percentage.
 

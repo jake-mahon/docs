@@ -15,7 +15,7 @@ Directory, see the [Enable SSL Option](#enable-ssloption) topic for additional 
 
 The 1-AD_Scan Job uses the ADInventory Data Collector for the following query:
 
-![Queries for the 1-AD Scan Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scanqueries.webp)
+![Queries for the 1-AD Scan Job](/images/accessanalyzer/11.6/solutions/activedirectoryinventory/scanqueries.webp)
 
 - AD Inventory – Targets a domain controller to collect inventory data for user, group, and computer
   objects
@@ -45,7 +45,7 @@ purpose of this job.
 :::
 
 
-![Active Directory Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardoptions.webp)
+![Active Directory Inventory DC Wizard Options page](/images/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardoptions.webp)
 
 **Step 4 –** (Optional) On the Options page, you can:
 
@@ -57,7 +57,7 @@ See the
 [ADInventory: Options](/docs/accessanalyzer/11.6/admin/datacollector/adinventory/options.md)
 topic for more information.
 
-![Active Directory Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
+![Active Directory Inventory DC Wizard Custom Attributes page](/images/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
 
 **Step 5 –** (Optional) On the Custom Attributes page, add any desired custom attributes to be used
 in the Active Directory scan. See the
@@ -90,7 +90,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the 1-AD_Scan Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scananalysis.webp)
+![Analysis Tasks for the 1-AD_Scan Job](/images/accessanalyzer/11.6/solutions/activedirectoryinventory/scananalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -136,7 +136,7 @@ Follow the steps to add the custom attributes.
 **Step 1 –** Navigate to the Active Directory Inventory DC Wizard for the AD Inventory Query within
 the 1-AD_Scan Job.
 
-![Active Directory Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardoptionsnfs.webp)
+![Active Directory Inventory DC Wizard Options page](/images/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardoptionsnfs.webp)
 
 **Step 2 –** Navigate to the Options page. Ensure the **Collect only updates since last scan**
 option is deselected.
@@ -147,7 +147,7 @@ first full scan, differential scanning can be re-enabled.
 :::
 
 
-![Active Directory Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardcustomattributesnfs.webp)
+![Active Directory Inventory DC Wizard Custom Attributes page](/images/accessanalyzer/11.6/solutions/activedirectoryinventory/scandcwizardcustomattributesnfs.webp)
 
 **Step 3 –** Use the **Next** button to navigate to the Custom Attributes page. Add both **uid** and
 **uidNumber** attributes to the existing list of custom attributes. See the

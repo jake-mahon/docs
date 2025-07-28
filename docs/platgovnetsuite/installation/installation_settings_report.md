@@ -79,13 +79,13 @@ Accesses change management features:
   based on the provided mappings. **Change Request Field Mapping** includes an optional Formula to
   handle complex fields. After the **Enable Case to Change Request Workflow** is enabled, a **Create
   Change Request** button is available on the **Case** record (**Lists** > **Support** >
-  **Cases**).  
-  Here is an example using a **Formula** for the **Case to Change Request Field Mapping**:  
-  ![Example of a Formula in the Case to Change Request Field Mapping](/img/product_docs/platgovnetsuite/installing_strongpoint/casetocrformula.webp)
+  **Cases**).
+  Here is an example using a **Formula** for the **Case to Change Request Field Mapping**:
+  ![Example of a Formula in the Case to Change Request Field Mapping](/images/platgovnetsuite/installing_strongpoint/casetocrformula.webp)
 - **Do Not ReSpider Automatically**: sets the default condition for the **Do Not ReSpider
   Automatically** setting on the
   [ITGC Change Request](/docs/platgovnetsuite/changemanagement/creating_change_request.md). The default is
-  unchecked.  
+  unchecked.
   When enabled, an automatic ReSpider occurs when a Change Request status is changed to
   **Completed**. This starts the ReSpider and ensures that all change logs are complete prior to
   changing the status. If automatic ReSpidering is turned off, there is a risk of changes being
@@ -107,8 +107,8 @@ Accesses change management features:
     - **SoD Rule Change**
 - **CR Email Template**: if you customize your **SoD Exemption Approval** or **SoD Rule Change
   Approval** CR Templates, add them here so they are not overwritten when the next bundle is
-  installed. Refer to [Advanced PDF / HTML Templates](/docs/platgovnetsuite/customization/pdf_html_templates.md).  
-  ![CR Email Template section on the Installation Settings Change Management tab](/img/product_docs/platgovnetsuite/installing_strongpoint/change_management_cr_email_template.webp)
+  installed. Refer to [Advanced PDF / HTML Templates](/docs/platgovnetsuite/customization/pdf_html_templates.md).
+  ![CR Email Template section on the Installation Settings Change Management tab](/images/platgovnetsuite/installing_strongpoint/change_management_cr_email_template.webp)
 
 ### Installation
 

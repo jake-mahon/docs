@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection - Mongo DB](/img/product_docs/accessanalyzer/11.6/solutions/databases/mongodb/collection/configurationjob.webp)
+![Query Selection - Mongo DB](/images/accessanalyzer/11.6/solutions/databases/mongodb/collection/configurationjob.webp)
 
 The query is:
 

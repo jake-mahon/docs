@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_HourlyShareActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/suspiciousactivity/hourlyshareactivityanalysis.webp)
+![Analysis Tasks for the FS_HourlyShareActivity Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/suspiciousactivity/hourlyshareactivityanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -33,4 +33,3 @@ produces the following pre-configured report:
 | Report                 | Description                                                                                       | Default Tags | Report Elements                                                                                                                                             |
 | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unusual Share Activity | This report will show any outliers in hourly share activity, broken down by day of week and hour. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays abnormal share activity</li><li>Table – Provides details on share activity</li></ul> |
-

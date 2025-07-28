@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_StaleUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/directpermissions/staleusersanalysis.webp)
+![Analysis Tasks for the SP_StaleUsers Job](/images/accessanalyzer/11.6/solutions/sharepoint/directpermissions/staleusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ users, the SP_StaleUsers Job produces the following pre-configured report:
 | Report                 | Description                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                                           |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stale User Permissions | A stale user is defined as either currently disabled within Active Directory, or has not logged onto the domain for over 90 days. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top 5 users by affected resources</li><li>Table – Provides details on top resource by stale user permissions</li><li>Table – Provides details on top stale users by affected resources</li></ul> |
-

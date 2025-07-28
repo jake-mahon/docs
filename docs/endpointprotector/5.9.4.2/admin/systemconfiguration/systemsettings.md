@@ -21,7 +21,7 @@ See the System Settings topic for additional information.
 :::
 
 
-![Department Usage](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/departmentusage.webp)
+![Department Usage](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/departmentusage.webp)
 
 ## Session Settings
 
@@ -36,21 +36,21 @@ Example: If you deﬁne the Session Timeout to 5 minutes and the Timeout counter
 after 4 minutes of inactivity you will be notiﬁed by the pop-up window that in 60 seconds you will
 be logged out.
 
-![Session Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/sessionsettings.webp)
+![Session Settings](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/sessionsettings.webp)
 
 If you remain idle for the deﬁned amount of time, then Endpoint Protector stops responding and
 displays a message that indicates the session will expire in the predeﬁned countdown.
 
 You can choose to log out or continue your session, resetting the session timeout interval.
 
-![Session timeout interval](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/sessiontimeout.webp)
+![Session timeout interval](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/sessiontimeout.webp)
 
 ## Endpoint Protector Rights Functionality
 
 Set functionality rights for computer, user, or both, in which case you can prioritize user rights
 or computer rights.
 
-![Endpoint Protector Rights Functionality](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/rightsfunctionality.webp)
+![Endpoint Protector Rights Functionality](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/rightsfunctionality.webp)
 
 ## Smart Groups
 
@@ -81,7 +81,7 @@ By disabling this setting, you will delete the Default Group for Users.
 :::
 
 
-![Smart Groups](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/smartgroups.webp)
+![Smart Groups](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/smartgroups.webp)
 
 ## Client Update Mechanism
 
@@ -98,7 +98,7 @@ policies and any security requirements.
 :::
 
 
-![Client Update Mechanism](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/clientupdatemechanism.webp)
+![Client Update Mechanism](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/clientupdatemechanism.webp)
 
 ## Custom Settings
 
@@ -110,7 +110,7 @@ To display more information in Endpoint Protector, enable the following:
 - MAC Address Priority
 - Show Universal Oﬄine Temporary Password only to Super Admins
 
-![Custom Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/customsettings.webp)
+![Custom Settings](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/customsettings.webp)
 
 ## Log Settings
 
@@ -146,7 +146,7 @@ You can set a number of reported threats between 100 and 1000.
 :::
 
 
-![Log Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/logsettings.webp)
+![Log Settings](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/logsettings.webp)
 
 ### Log Settings Use Case and Terminology
 
@@ -204,7 +204,7 @@ The maximum number of reported threats will be automatically modiﬁed as follow
 |            |               |
 |            |               |
 
-![Content Aware Protection – Ignore Thresholds ](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/capignorethresholds.webp)
+![Content Aware Protection – Ignore Thresholds ](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/capignorethresholds.webp)
 
 Limit Reporting Content Aware Protection refers to Report Only policies.
 
@@ -408,14 +408,14 @@ reported threats’ under ‘Ignore Thresholds’ is reached.
 Enable the Virtual Desktop Clones Support setting to allow the Endpoint Protector server to identify
 the virtual desktop clone and interact accordingly with the Endpoint Protector client.
 
-![Virtual Desktop Clones](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/virtualdesktopclones.webp)
+![Virtual Desktop Clones](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/virtualdesktopclones.webp)
 
 ## Deep Packet Inspection Certiﬁcate
 
 Disable the Deep Packet Inspection certiﬁcate download to require the Endpoint Protector clients to
 use the legacy certiﬁcate. You can also download the **Client CA Certiﬁcate**.
 
-![Deep Packet Inspection Certiﬁcate ](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/dpinspectioncert.webp)
+![Deep Packet Inspection Certiﬁcate ](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/dpinspectioncert.webp)
 
 ## Server Certiﬁcate Stack
 
@@ -452,14 +452,14 @@ Endpoint Protector server.
 :::
 
 
-![Server Certiﬁcate Stack](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/servercertstack.webp)
+![Server Certiﬁcate Stack](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/servercertstack.webp)
 
 ## Single Sign On
 
 Enable the Single Sign On Login setting to log into Endpoint Protector and then select a **Failover
 Login User** to use when single sign on is not functional.
 
-![Single Sign On](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/singlesignon.webp)
+![Single Sign On](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/singlesignon.webp)
 
 :::note
 See the [Single Sign On](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/singlesignon/singlesignon.md) topic for additional information.
@@ -501,11 +501,11 @@ the System Administrators section.
 :::
 
 
-![Active Directory Authentication](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/activedirectoryauthentication.webp)
+![Active Directory Authentication](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/activedirectoryauthentication.webp)
 
 ## E-mail Server Settings
 
-![E-mail Server Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/mailserversettings.webp)
+![E-mail Server Settings](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/mailserversettings.webp)
 
 Manage Email server settings based on the email type you use - native or SMTP.
 
@@ -516,9 +516,9 @@ To enable this feature, you need an Internet connection.
 
 Manage email server settings based on your email type—native or SMTP, with support for TLS 1.3.
 
-![E-mail Server Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/mailserversettingstwo.webp)
+![E-mail Server Settings](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/mailserversettingstwo.webp)
 
-![E-mail Server Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/mailserversettingsthree.webp)
+![E-mail Server Settings](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/mailserversettingsthree.webp)
 
 ### Proxy Server Settings
 
@@ -537,13 +537,13 @@ liveupdate.endpointprotector.com.
 :::
 
 
-![Proxy Server Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/proxyserversettings.webp)
+![Proxy Server Settings](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/proxyserversettings.webp)
 
 ## Main Administrator Contact Details
 
 Edit contact details for the main administrator and then click Save to keep all modiﬁcations.
 
-![Main Administrator Contact Details](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/mainadministratorcontact.webp)
+![Main Administrator Contact Details](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/mainadministratorcontact.webp)
 
 ### Server Display Name
 
@@ -553,4 +553,4 @@ Protector logo on the login page and alongside the logo in the Endpoint Protecto
 customize text and upload a custom logo for further personalization. These visual cues are designed
 to prevent incidents like unintentional modiﬁcations on the wrong environment
 
-![EPP Server Display Name](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/serverdisplayname.webp)
+![EPP Server Display Name](/images/endpointprotector/5.9.4.2/admin/systemconfiguration/serverdisplayname.webp)

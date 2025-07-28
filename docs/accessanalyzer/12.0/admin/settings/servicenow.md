@@ -11,7 +11,7 @@ settings are exclusive to the Access Analyzer integration with ServiceNow and ar
 ServiceNow Action Module. See the [ServiceNow Action Module](/docs/accessanalyzer/12.0/admin/action/servicenow/overview.md) topic
 for additional information.
 
-![ServiceNow node](/img/product_docs/accessanalyzer/12.0/admin/settings/servicenow.webp)
+![ServiceNow node](/images/accessanalyzer/12.0/admin/settings/servicenow.webp)
 
 Provide ServiceNow authentication information to your ServiceNow instance.
 

@@ -67,7 +67,7 @@ Quick Search**
 You can search using several factors and submit. When looking up by **Name**, using **Contains**
 helps if you do not have the exact name.
 
-![custquicksearch](/img/product_docs/platgovnetsuite/customizations/custquicksearch.webp)
+![custquicksearch](/images/platgovnetsuite/customizations/custquicksearch.webp)
 
 ## Prototype Customizations
 
@@ -93,7 +93,7 @@ Administrators can perform Approval Overrides on a Change Request.
 2. Click **Edit**.
 3. Select **Approved** from the **Approval Status** list.
 
-    ![Change Status to Approved](/img/product_docs/platgovnetsuite/installing_strongpoint/golive_approval_override.webp)
+    ![Change Status to Approved](/images/platgovnetsuite/installing_strongpoint/golive_approval_override.webp)
 
 The Status bar is set to **Approved (Override)** and the administrator's name is displayed in the
 **Approval Override By** field.

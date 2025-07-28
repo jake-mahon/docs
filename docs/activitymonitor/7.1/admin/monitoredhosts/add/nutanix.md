@@ -45,7 +45,7 @@ monitoring the target environment.
 Ensure that the correct network adapter is specified in the Network page for an agent before adding
 a Nutanix file server to be monitored.
 
-![nutanixnetworkadapter](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixnetworkadapter.webp)
+![nutanixnetworkadapter](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixnetworkadapter.webp)
 
 The agent registers the IP address of the network adapter in the Nutanix auditing configuration for
 activity delivery. Nutanix Files server connects to the agent using the TCP port 4501. See the
@@ -59,17 +59,17 @@ Follow the steps to add a Nutanix files host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click **Add**. The Add New Host
 window opens.
 
-![Choose Agent](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/addagent01.webp)
+![Choose Agent](/images/activitymonitor/7.1/admin/monitoredhosts/add/addagent01.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the file server from the
 drop-down list. Click **Next**.
 
-![Add Host](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/addhost02.webp)
+![Add Host](/images/activitymonitor/7.1/admin/monitoredhosts/add/addhost02.webp)
 
 **Step 3 –** On the Add Host page, select the **Nutanix Files** radio button and enter the file
 server name. Click **Next**.
 
-![Nutanix Options](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_04.webp)
+![Nutanix Options](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_04.webp)
 
 **Step 4 –** On the Nutanix Options page, enter the user name and password.
 
@@ -88,14 +88,14 @@ access.
 
 Click **Next**.
 
-![Configure Operations](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_05.webp)
+![Configure Operations](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_05.webp)
 
 **Step 5 –** On the Configure Operations page, select the File Operations and Directory Operations
 to be monitored.
 
 Click **Next**.
 
-![Configure Operations](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_06.webp)
+![Configure Operations](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_06.webp)
 
 **Step 6 –** On the Configure Basic Operations page, choose which settings to enable. The “Log
 files” are the activity logs created by the activity agent on the agent's server. Select one of the
@@ -112,7 +112,7 @@ following options:
 
 Click **Next**.
 
-![Where to log the activity](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_07.webp)
+![Where to log the activity](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_07.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 Log File or Syslog Server. Click **Next**.
@@ -122,7 +122,7 @@ An option must be selected before moving to the next step.
 :::
 
 
-![File Output](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_08.webp)
+![File Output](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_08.webp)
 
 **Step 8 –** If Log File is selected on the Where To Log The Activity page, configure the File
 Output page.
@@ -158,7 +158,7 @@ Output page.
 
 Click **Next**.
 
-![Syslog Output](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_09.webp)
+![Syslog Output](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_09.webp)
 
 **Step 9 –** If Syslog Server is selected on the Where To Log The Activity page, configure the
 Syslog Output page.
@@ -192,7 +192,7 @@ Syslog Output page.
 
 Click **Finish**.
 
-![nutanixoptions_10](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_10.webp)
+![nutanixoptions_10](/images/activitymonitor/7.1/admin/monitoredhosts/add/nutanixoptions_10.webp)
 
 The added Nutanix host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the

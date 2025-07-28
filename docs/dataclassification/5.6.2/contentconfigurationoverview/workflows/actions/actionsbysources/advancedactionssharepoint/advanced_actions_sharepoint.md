@@ -45,4 +45,4 @@ To configure actions for SharePoint documents using the Advanced interface:
 3. In the Add Action dialog, select the action you need from the **SharePoint** section in the
    Action Type list.
 
-![action_advanced_sp_update_field_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/advanced_window/action_advanced_sp_update_field_thumb_0_0.webp)
+![action_advanced_sp_update_field_thumb_0_0](/images/dataclassification/5.6.2/workflows/advanced_window/action_advanced_sp_update_field_thumb_0_0.webp)

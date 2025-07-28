@@ -32,7 +32,7 @@ including the following a,nd many more.
 - Device lock-down
 - Regional settings
 
-![about_policypak_gpo_export](/img/product_docs/endpointpolicymanager/preferences/about_endpointpolicymanager_gpo_export.webp)
+![about_policypak_gpo_export](/images/endpointpolicymanager/preferences/about_endpointpolicymanager_gpo_export.webp)
 
 Despite these advantages, Microsoft's Group Policy Preferences have some issues that cannot be
 overcome without a little help. That's where Endpoint Policy Manager Preferences Manager comes in.
@@ -104,7 +104,7 @@ Endpoint Policy Manager Preferences Manager has the following main components:
   portable MSI file for deployment using Microsoft Endpoint Manager (SCCM and Intune), or your own
   systems management software.
 
-![about_policypak_gpo_export_1](/img/product_docs/endpointpolicymanager/preferences/about_endpointpolicymanager_gpo_export_1.webp)
+![about_policypak_gpo_export_1](/images/endpointpolicymanager/preferences/about_endpointpolicymanager_gpo_export_1.webp)
 
 Endpoint Policy Manager Preferences Manager does not require any particular type of domain
 controllers (DCs). Nothing is installed on any DC, and you don't need to extend the Active Directory

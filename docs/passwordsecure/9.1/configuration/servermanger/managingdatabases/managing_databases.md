@@ -11,7 +11,7 @@ sidebar_position: 70
 The available actions can be selected via the context menu that is accessed using the right mouse
 button or also via the ribbon.
 
-![Managing databases](/img/product_docs/passwordsecure/9.1/configuration/server_manager/managing_databases/installation_with_parameters_234-en.webp)
+![Managing databases](/images/passwordsecure/9.1/configuration/server_manager/managing_databases/installation_with_parameters_234-en.webp)
 
 ## Database settings
 

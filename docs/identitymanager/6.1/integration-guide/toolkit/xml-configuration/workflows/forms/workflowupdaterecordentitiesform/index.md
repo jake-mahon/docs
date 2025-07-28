@@ -29,7 +29,7 @@ And with the following form for the data that groups records together:
 
 The contents of `MainControl` and `RecordControl` are visible during the workflow's execution:
 
-![Form Example - Mass Update](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentitiesform/formexample_workflowupdaterecordentitiesform_v603.webp)
+![Form Example - Mass Update](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentitiesform/formexample_workflowupdaterecordentitiesform_v603.webp)
 
 The content of `RecordUniqueItemControl` is not visible. The user's records that have the same
 values for all the properties in `RecordUniqueItemControl` will be modified as one.

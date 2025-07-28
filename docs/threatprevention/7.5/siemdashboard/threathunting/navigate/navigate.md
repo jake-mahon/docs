@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Netwrix Threat Hunting App for Splunk contains only one dashboard called Threat Hunting.
 
-![ribbon](/img/product_docs/threatprevention/7.5/siemdashboard/splunk/threathunting/ribbon.webp)
+![ribbon](/images/threatprevention/7.5/siemdashboard/splunk/threathunting/ribbon.webp)
 
 - The Timeframe interval is identified in the upper-left corner of each dashboard and uses the
   default Splunk search features. The drop-down menu provides additional options. To search within a

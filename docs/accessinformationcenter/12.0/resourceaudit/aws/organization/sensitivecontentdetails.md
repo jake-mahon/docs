@@ -12,7 +12,7 @@ Matches visible to Access Information Center users with either Security Team Mem
 roles. The Matches table requires the storage of discovered sensitive data within the Access
 Analyzer database or it will be blank.
 
-![Sensitive Content Details report at the Organization level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/aws/organization/serversensitivecontentdetails.webp)
+![Sensitive Content Details report at the Organization level](/images/accessinformationcenter/12.0/resourceaudit/aws/organization/serversensitivecontentdetails.webp)
 
 This report is comprised of the following columns:
 

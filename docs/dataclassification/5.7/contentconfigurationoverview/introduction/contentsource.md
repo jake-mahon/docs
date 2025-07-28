@@ -43,7 +43,7 @@ Complete the following fields:
 
 Alternatively, individual files can be added by using the Files section:
 
-![addfile](/img/product_docs/dataclassification/5.7/admin/sources/filesystem/addfile.webp)
+![addfile](/images/dataclassification/5.7/admin/sources/filesystem/addfile.webp)
 
 When Upload Files is selected the file will be uploaded into the SQL database. This allows an
 application to present the file to users even if they do not have access to the original file

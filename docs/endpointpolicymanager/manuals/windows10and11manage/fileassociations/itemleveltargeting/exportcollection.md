@@ -17,7 +17,7 @@ File Associations Manager, so if you decide to use Endpoint Policy Manager Cloud
 domain-joined machines, Endpoint Policy Manager File Associations Manager will function as expected
 using Endpoint Policy Manager Cloud.
 
-![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_8.webp)
+![using_item_level_targeting_8](/images/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_8.webp)
 
 :::note
 For a video demonstrating the use of Endpoint Policy Manager Cloud with domain-joined
@@ -38,9 +38,9 @@ topic for additional information.
 :::
 
 
-![using_item_level_targeting_9](/img/product_docs/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_9.webp)
+![using_item_level_targeting_9](/images/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_9.webp)
 
-![using_item_level_targeting_10](/img/product_docs/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_10.webp)
+![using_item_level_targeting_10](/images/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_10.webp)
 
 :::note
 Exported collections or policies maintain any Item-Level Targeting set within them. If

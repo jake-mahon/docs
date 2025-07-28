@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_SDDResults Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
+![Analysis Tasks for the EX_SDDResults Job](/images/accessanalyzer/11.6/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -60,4 +60,3 @@ the following pre-configured reports.
 | Enterprise Summary (Sensitive Content)                        | This report identifies the type and amount of sensitive content found in scanned mailboxes. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays exceptions by item count</li><li>Table – Provides a criteria summary</li></ul>                                                                                              |
 | Mailbox Details (Mailboxes with Sensitive Content)            | This report identifies the mailboxes containing sensitive data.                             | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top mailboxes by sensitive item count</li><li>Table – Provides mailbox details</li><li>Table – Provides details on top mailboxes by sensitive item count</li></ul>        |
 | Public Folder Details (Public Folders with Sensitive Content) | This report identifies the public folders containing sensitive data.                        | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top folders by sensitive data item count</li><li>Table – Provides public folder details</li><li>Table – Provides details on top folders by sensitive item count</li></ul> |
-

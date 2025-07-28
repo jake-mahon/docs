@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup34.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup34.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ Job produces the following pre-configured report.
 | Report             | Description                                                                             | Default Tags | Report Elements                                                                                                                                                                                                             |
 | ------------------ | --------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Domain User Access | This report looks at permissions granted to domain users across the audited environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by instance count</li><li>Table – Provides details on access sprawl</li><li>Table – Provides information on permission details</li></ul> |
-

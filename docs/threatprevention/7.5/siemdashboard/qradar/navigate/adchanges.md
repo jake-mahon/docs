@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The AD Changes dashboard contains the following cards:
 
-![AD Changes Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/qradar/dashboard/adchanges.webp)
+![AD Changes Dashboard](/images/threatprevention/7.5/siemdashboard/qradar/dashboard/adchanges.webp)
 
 - Changes by Type – Breakdown of changes that have been recorded in the specified timeframe by event
   type. See the [Graph Card Features](/docs/threatprevention/7.5/siemdashboard/qradar/navigate/navigate.md#graph-card-features) topic for additional

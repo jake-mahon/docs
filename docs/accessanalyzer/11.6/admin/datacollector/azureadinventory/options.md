@@ -9,7 +9,7 @@ sidebar_position: 40
 The Options page provides scan options to use when gathering Microsoft Entra ID information. It is a
 wizard page for the Scan Entra ID category.
 
-![Entra ID Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/azureadinventory/options.webp)
+![Entra ID Inventory DC Wizard Options page](/images/accessanalyzer/11.6/admin/datacollector/azureadinventory/options.webp)
 
 Scan options for collecting Microsoft Entra ID information include:
 

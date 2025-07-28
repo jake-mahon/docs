@@ -12,4 +12,4 @@ Open **Flashlight** > **Support** > **Stop Scripts**
 
 This stops the next execution of the scheduled scripts.
 
-![Stop Scripts](/img/product_docs/platgovnetsuiteflashlight/troubleshooting/stop_scripts.webp)
+![Stop Scripts](/images/platgovnetsuiteflashlight/troubleshooting/stop_scripts.webp)

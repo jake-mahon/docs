@@ -26,8 +26,8 @@ The columns show the existing relationships for the customizations that use:
 - Workflows
 - Data Sources
 - Forms
-- List  
-  ![Results columns of Saved Searches](/img/product_docs/platgovnetsuite/bundle_removal/results_saved_searches.webp)
+- List
+  ![Results columns of Saved Searches](/images/platgovnetsuite/bundle_removal/results_saved_searches.webp)
 
 **Next Step:**
 [Exporting Information to Excel](/docs/platgovnetsuite/bundleremoval/exporting_information_to_excel.md)

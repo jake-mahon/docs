@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The 2.Users Job Group provides a workflow to deprovision stale and unused user accounts.
 
-![2.Users Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/users/usersjobtree.webp)
+![2.Users Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/users/usersjobtree.webp)
 
 The jobs in the 2.Users Job Group are:
 

@@ -12,8 +12,8 @@ SharePoint Online.
 
 | Icon                                                                                          | Description                                                                  |
 | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the settings of the integration type. |
-| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp)       | Bin Icon. Click the Bin icon to delete the SharePoint Online integration.    |
+| ![alerts_editicon](/images/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the settings of the integration type. |
+| ![deletebutton](/images/1secure/integration/deletebutton.webp)       | Bin Icon. Click the Bin icon to delete the SharePoint Online integration.    |
 
 ## Add a SharePoint Online Integration in a System
 
@@ -22,12 +22,12 @@ Follow the steps to add the SharePoint Online integration in Netwrix 1Secure.
 **Step 1 –** Go to Configuration > **Integrations** and click the **Add** icon to add the SharePoint
 integration.
 
-![Integration type pane](/img/product_docs/1secure/integration/integrationtypewindow.webp)
+![Integration type pane](/images/1secure/integration/integrationtypewindow.webp)
 
 **Step 2 –** In the displayed Integration type window, click **SharePoint Online** and click
 **Next**.
 
-![Configure connection pane](/img/product_docs/1secure/integration/integrationconfigureconnectionsharepoint.webp)
+![Configure connection pane](/images/1secure/integration/integrationconfigureconnectionsharepoint.webp)
 
 **Step 3 –** In the Configure connection window, specify the required fields:
 
@@ -56,7 +56,7 @@ additional information.
 
 The SharePoint Online integration is added now. The status displays "Ok" in green.
 
-![Integrations list](/img/product_docs/1secure/integration/integrationssharepointonline.webp)
+![Integrations list](/images/1secure/integration/integrationssharepointonline.webp)
 
 You can click the **Edit** icon or the **Bin** icon to edit or delete the integration.
 

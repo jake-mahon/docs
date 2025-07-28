@@ -20,7 +20,7 @@ investigation is located in the folder where it was saved.
 
 **Step 3 –** Click the Edit option.
 
-![Edit Investigation with Save page](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/options/editinvestigationtm.webp)
+![Edit Investigation with Save page](/images/threatprevention/7.4/reportingmodule/investigations/options/editinvestigationtm.webp)
 
 **Step 4 –** The Edit option opens the Save Investigation window in edit mode. You can modify the
 name, description, and folder of the saved investigation. If you save the investigation to a
@@ -46,7 +46,7 @@ You can save it as a new investigation.
 **Step 3 –** Modify the investigation filter statement and click **Save**. The Save Investigation
 window is displayed.
 
-![Investigation Open as New option](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/options/investigationduplicate.webp)
+![Investigation Open as New option](/images/threatprevention/7.4/reportingmodule/investigations/options/investigationduplicate.webp)
 
 The Name box displays the investigation name with the word "copy" appended to it.
 

@@ -13,7 +13,7 @@ evaluation against recommended best practices.
 
 The 5-SQL_ServerSettings Job uses the SQL Data Collector for the following queries:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup19.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup19.webp)
 
 - Configuration – Collects configuration properties
     - (Optional) This query can be modified to target specific databases/instances. See the
@@ -52,7 +52,7 @@ purpose of this job.
 :::
 
 
-![Instance Filters](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
+![Instance Filters](/images/accessanalyzer/11.6/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
 **Step 4 –** To scope the query for specific database/instance, navigate to the
 [SQL Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/sql/overview.md)
@@ -91,7 +91,7 @@ purpose of this job.
 :::
 
 
-![Filter Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
+![Filter Page](/images/accessanalyzer/11.6/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
 **Step 4 –** To scope the query for specific database/instance, navigate to the
 [SQL Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/sql/overview.md)

@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The SIEM Service shows the SIEM-specific details for the selected service.
 
-![servicenodes_siemservice](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/servicetype/servicenodes_siemservice.webp)
+![servicenodes_siemservice](/images/privilegesecure/4.2/accessmanagement/admin/configuration/servicetype/servicenodes_siemservice.webp)
 
 The SIEM Service page has the following features:
 

@@ -31,23 +31,23 @@ REM Put your code here, which will be executed once
 
 Your settings should look similar to the screenshot below:
 
-![929_1_image-20221021235430-1](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/929_1_image-20221021235430-1.webp)
+![929_1_image-20221021235430-1](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/929_1_image-20221021235430-1.webp)
 
 **Step 3 –** For the Revert action screen, click Next and do not set a revert action as Triggers do
 not support Revert actions.
 
-![929_2_image-20221021235430-2](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/929_2_image-20221021235430-2.webp)
+![929_2_image-20221021235430-2](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/929_2_image-20221021235430-2.webp)
 
 **Step 4 –** For the Trigger type setting choose "Logon"
 
-![929_3_image-20221021235430-3](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/929_3_image-20221021235430-3.webp)
+![929_3_image-20221021235430-3](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/929_3_image-20221021235430-3.webp)
 
 **Step 5 –** Optional: Set the Triger settings wait period for 1 minute after login if desired. 
 Note, you can also uncheck this setting here and then programmatically in your BATCH script set a
 wait period for seconds if desired, (i.e., to wait 20 seconds before running the next command you
 could use "SLEEP 20").
 
-![929_4_image-20221021235430-4](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/929_4_image-20221021235430-4.webp)
+![929_4_image-20221021235430-4](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/929_4_image-20221021235430-4.webp)
 
 **Step 6 –** Lastly, save and apply the policy, then test from an endpoint, the result will be that
 Scripts and Triggers will look for the flag file at EVERY login… one minute after login (using the

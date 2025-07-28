@@ -45,7 +45,7 @@ identity store that user belongs to.
 After the History Retention schedule runs, the following information is displayed on the **History**
 page in identity store configurations:
 
-![History Retension Information ](/img/product_docs/directorymanager/11.1/admincenter/schedule/historyretention.webp)
+![History Retension Information ](/images/directorymanager/11.1/admincenter/schedule/historyretention.webp)
 
 You cannot create or delete a History Retention schedule; only update the existing one.
 
@@ -62,7 +62,7 @@ Step 4 – On the Schedules page, click the plus sign next to **History Retentio
 ellipsis button for the schedule and select **Edit**.
 
 Step 5 – On the Edit Schedule page, the schedule name is displayed in the Schedule Name box as
-read-only.  
+read-only.
 The default name format is: _HistoryRetention_`<identity store ID>`_`<identity store name>`_.
 
 Step 6 – The Name Preview box displays the schedule name as HistoryRetention; the schedule is
@@ -99,7 +99,7 @@ topic to manage triggers.
 
 Step 9 – Click **Update Schedule**.
 
-Step 10 – On the Schedules page, click **Save**.  
+Step 10 – On the Schedules page, click **Save**.
 For general schedule info, see the
 [View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic
 for additional information.

@@ -28,12 +28,12 @@ left pane.
 
 Step 2 – Right-click **Protocols for `<instance Name>`**, and then select **Properties**.
 
-![SQL Configuration Manager Properties dialog box](/img/product_docs/directorymanager/11.1/requirements/sqlconfigmgr.webp)
+![SQL Configuration Manager Properties dialog box](/images/directorymanager/11.1/requirements/sqlconfigmgr.webp)
 
 Step 3 – On the Certificate tab, select the **certificate** you created from theCertificate
 drop-down.
 
-![SQL Configuration Manager Properties Flag tab](/img/product_docs/directorymanager/11.1/requirements/flagstab.webp)
+![SQL Configuration Manager Properties Flag tab](/images/directorymanager/11.1/requirements/flagstab.webp)
 
 Step 4 – On the Flags tab, check the **Force Encryption** option to **Yes**.
 

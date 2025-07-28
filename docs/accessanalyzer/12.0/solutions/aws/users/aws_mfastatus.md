@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_MFAStatus Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/users/mfastatusanalysis.webp)
+![Analysis Tasks for the AWS_MFAStatus Job](/images/accessanalyzer/12.0/solutions/aws/users/mfastatusanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ following preconfigured report:
 | Report     | Description                                            | Default Tags | Report Element                                                                                                                                                                        |
 | ---------- | ------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | MFA Status | This report identifies the MFA status of each AWS user | None         | This report is comprised of the following elements: <ul><li>Pie Chart – Displays MFA status</li><li>Table – Shows status by account</li><li>Table – Provides details on MFA</li></ul> |
-

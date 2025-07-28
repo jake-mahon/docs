@@ -26,11 +26,11 @@ two very similar machines. This first machine is going to represent your machine
 machine. The second machine represents Mr. or Ms. endpoint machine, the person who actually uses
 stuff.
 
-![21_1_windows-10-file-association-demo-admin-machine](/img/product_docs/endpointpolicymanager/video/fileassociations/21_1_windows-10-file-association-demo-admin-machine.webp)
+![21_1_windows-10-file-association-demo-admin-machine](/images/endpointpolicymanager/video/fileassociations/21_1_windows-10-file-association-demo-admin-machine.webp)
 
 Figure 1: Admin Machine
 
-![21_2_windows-10-file-association-endpoint-machine](/img/product_docs/endpointpolicymanager/video/fileassociations/21_2_windows-10-file-association-endpoint-machine.webp)
+![21_2_windows-10-file-association-endpoint-machine](/images/endpointpolicymanager/video/fileassociations/21_2_windows-10-file-association-endpoint-machine.webp)
 
 #### Common Windows 10 File Association Issues
 
@@ -39,7 +39,7 @@ issues that you've probably seen and have driven you crazy.
 
 #### Problem #1: Change Windows 10 File Associations for PDF
 
-![21_3_windows-10-file-association-pdf-edge](/img/product_docs/endpointpolicymanager/video/fileassociations/21_3_windows-10-file-association-pdf-edge.webp)
+![21_3_windows-10-file-association-pdf-edge](/images/endpointpolicymanager/video/fileassociations/21_3_windows-10-file-association-pdf-edge.webp)
 
 Figure 3: Trying to set Windows 10 file associations for PDF to Adobe Reader always reverts back to
 Microsoft Edge
@@ -56,7 +56,7 @@ one that you have likely seen.
 
 #### Problem #2: Change Windows 10 File Associations for MP4
 
-![21_4_windows-10-file-association-for-mp4-files](/img/product_docs/endpointpolicymanager/video/fileassociations/21_4_windows-10-file-association-for-mp4-files.webp)
+![21_4_windows-10-file-association-for-mp4-files](/images/endpointpolicymanager/video/fileassociations/21_4_windows-10-file-association-for-mp4-files.webp)
 
 Figure 4: Windows 10 file association for MP4 defaults to Microsoft's movie player
 
@@ -67,11 +67,11 @@ installed. How do you automatically get users to connect to that? That's another
 
 #### Problem #3: Change Windows 10 File Associations for MAILTO
 
-![21_5_windows-10-file-association-mailto-default](/img/product_docs/endpointpolicymanager/video/fileassociations/21_5_windows-10-file-association-mailto-default.webp)
+![21_5_windows-10-file-association-mailto-default](/images/endpointpolicymanager/video/fileassociations/21_5_windows-10-file-association-mailto-default.webp)
 
 Figure 5: Prompt for MAILTO asking if you want to email this person
 
-![21_6_windows-10-file-association-mailto-mailer](/img/product_docs/endpointpolicymanager/video/fileassociations/21_6_windows-10-file-association-mailto-mailer.webp)
+![21_6_windows-10-file-association-mailto-mailer](/images/endpointpolicymanager/video/fileassociations/21_6_windows-10-file-association-mailto-mailer.webp)
 
 Figure 6: The Windows 10 file association for MAILTO is Microsoft's built-in mailer
 
@@ -81,7 +81,7 @@ likely.
 
 #### Problem #4: Set Windows 10 File Associations for Unknown Applications
 
-![21_7_windows-10-file-association-unknown-application](/img/product_docs/endpointpolicymanager/video/fileassociations/21_7_windows-10-file-association-unknown-application.webp)
+![21_7_windows-10-file-association-unknown-application](/images/endpointpolicymanager/video/fileassociations/21_7_windows-10-file-association-unknown-application.webp)
 
 Figure 7: Set Windows 10 file associations for unknown applications
 
@@ -98,13 +98,13 @@ there.
 
 ### How to Change Windows 10 File Associations with Endpoint Policy Manager File Associations Manager
 
-![21_8_policy-pak-file-association-manager-for-windows-10](/img/product_docs/endpointpolicymanager/video/fileassociations/21_8_policy-pak-file-association-manager-for-windows-10.webp)
+![21_8_policy-pak-file-association-manager-for-windows-10](/images/endpointpolicymanager/video/fileassociations/21_8_policy-pak-file-association-manager-for-windows-10.webp)
 
 Figure 8: Endpoint Policy Manager File Associations Manager for Windows 10
 
 #### Step #1: Start with the Group Policy Management Console (GPMC)
 
-![21_9_start-with-gpmc-policypak-file-association-manager](/img/product_docs/endpointpolicymanager/video/fileassociations/21_9_start-with-gpmc-endpointpolicymanager-file-association-manager.webp)
+![21_9_start-with-gpmc-policypak-file-association-manager](/images/endpointpolicymanager/video/fileassociations/21_9_start-with-gpmc-endpointpolicymanager-file-association-manager.webp)
 
 Figure 9: Using the Group Policy Management Console to create a new GPO
 
@@ -120,7 +120,7 @@ out all four problems.
 
 #### Step 2: Create Windows 10 File Association Policy for PDF to Acrobat
 
-![21_10_create-windows-10-file-association-policy-with-policypak](/img/product_docs/endpointpolicymanager/video/fileassociations/21_10_create-windows-10-file-association-policy-with-endpointpolicymanager.webp)
+![21_10_create-windows-10-file-association-policy-with-policypak](/images/endpointpolicymanager/video/fileassociations/21_10_create-windows-10-file-association-policy-with-endpointpolicymanager.webp)
 
 Figure 10: Creating a Policy with Endpoint Policy Manager File Associations Manager
 
@@ -128,7 +128,7 @@ Endpoint Policy Manager File Associations Manager is on the computer side, and w
 below. The first thing we want to do is associate Acrobat with PDF. We'll right-click, "Add/New
 Policy" here. We'll call this "PDF to Acrobat."
 
-![21_11_windows-10-file-association-pdf-to-acrobat](/img/product_docs/endpointpolicymanager/video/fileassociations/21_11_windows-10-file-association-pdf-to-acrobat.webp)
+![21_11_windows-10-file-association-pdf-to-acrobat](/images/endpointpolicymanager/video/fileassociations/21_11_windows-10-file-association-pdf-to-acrobat.webp)
 
 Figure 11: Creating a Windows 10 File Association Policy for PDF to Acrobat
 
@@ -140,7 +140,7 @@ simple as that. You can click "OK," and there we go. You've solved that problem.
 
 #### Step 3: Change Windows 10 File Association Policy for MP4 to VLC Media Player
 
-![21_12_create-windows-10-file-association-policy-for-mp4-with-policypak-file-associations-manager](/img/product_docs/endpointpolicymanager/video/fileassociations/21_12_create-windows-10-file-association-policy-for-mp4-with-endpointpolicymanager-file-associations-manager.webp)
+![21_12_create-windows-10-file-association-policy-for-mp4-with-policypak-file-associations-manager](/images/endpointpolicymanager/video/fileassociations/21_12_create-windows-10-file-association-policy-for-mp4-with-endpointpolicymanager-file-associations-manager.webp)
 
 Figure 12: Change Windows 10 File Association for MP4 to VLC Player
 
@@ -150,13 +150,13 @@ just say the "Video Player" itself will be a "Registered application." We have "
 this machine, so we'll go ahead and "Select Program." There we go. We'll just go ahead and pick "VLC
 media player," and you've solved that problem.
 
-![21_13_windows-10-file-association-for-mp4-changed-to-vlc-player](/img/product_docs/endpointpolicymanager/video/fileassociations/21_13_windows-10-file-association-for-mp4-changed-to-vlc-player.webp)
+![21_13_windows-10-file-association-for-mp4-changed-to-vlc-player](/images/endpointpolicymanager/video/fileassociations/21_13_windows-10-file-association-for-mp4-changed-to-vlc-player.webp)
 
 Figure 13: MP4 is now associated with VLC Media Player
 
 #### Step 4: Set Windows 10 File Association Policy for Mailto to Outlook
 
-![21_14_windows-10-file-association-changed-mailto-outlook](/img/product_docs/endpointpolicymanager/video/fileassociations/21_14_windows-10-file-association-changed-mailto-outlook.webp)
+![21_14_windows-10-file-association-changed-mailto-outlook](/images/endpointpolicymanager/video/fileassociations/21_14_windows-10-file-association-changed-mailto-outlook.webp)
 
 Figure 14: Use Network protocol MAILTO and set Windows 10 file association to Outlook
 
@@ -169,7 +169,7 @@ This protocol is called "MAILTO." If somebody clicks on a link that says "mailto
 run another "Registered application." Which one? I happen to have Outlook already preinstalled on
 this machine.
 
-![21_15_windows-10-file-association-for-mailto-set-with-policypak](/img/product_docs/endpointpolicymanager/video/fileassociations/21_15_windows-10-file-association-for-mailto-set-with-endpointpolicymanager.webp)
+![21_15_windows-10-file-association-for-mailto-set-with-policypak](/images/endpointpolicymanager/video/fileassociations/21_15_windows-10-file-association-for-mailto-set-with-endpointpolicymanager.webp)
 
 Figure 15: Setting Windows 10 File Association from MAILTO to Outlook with Endpoint Policy Manager
 
@@ -181,7 +181,7 @@ click "OK," and you've solved that problem right there.
 Then the last Windows 10 file association we want to do is to "Add Policy" that says "XML to
 Notepad++."
 
-![21_16_windows-10-file-association-custome-application](/img/product_docs/endpointpolicymanager/video/fileassociations/21_16_windows-10-file-association-custome-application.webp)
+![21_16_windows-10-file-association-custome-application](/images/endpointpolicymanager/video/fileassociations/21_16_windows-10-file-association-custome-application.webp)
 
 Figure 17: Use a custom application to set Windows 10 File Associations for Notepad++
 
@@ -194,7 +194,7 @@ endpoint or this isn't going to work. I'm going to "Browse" for it on my machine
 the target machine: "c:Notepad++PortableNotepad++Portable.exe." We automatically put in
 "%SYSTEMDRIVE%" and all that stuff. You can see, we have the "Path" all settled in.
 
-![21_17_windows-10-file-association-notepad-confirmation](/img/product_docs/endpointpolicymanager/video/fileassociations/21_17_windows-10-file-association-notepad-confirmation.webp)
+![21_17_windows-10-file-association-notepad-confirmation](/images/endpointpolicymanager/video/fileassociations/21_17_windows-10-file-association-notepad-confirmation.webp)
 
 Figure 18: Change Windows 10 File Associations for Notepad++ to XML
 
@@ -206,7 +206,7 @@ that requires command line arguments, you can put in your own things here. Just 
 
 #### Step 6: Run GP Update to Set Windows 10 File Associations Changes
 
-![21_18_windows-10-file-association-group-policy-update-successful](/img/product_docs/endpointpolicymanager/video/fileassociations/21_18_windows-10-file-association-group-policy-update-successful.webp)
+![21_18_windows-10-file-association-group-policy-update-successful](/images/endpointpolicymanager/video/fileassociations/21_18_windows-10-file-association-group-policy-update-successful.webp)
 
 Run GP Update to set Windows 10 file associations changes
 

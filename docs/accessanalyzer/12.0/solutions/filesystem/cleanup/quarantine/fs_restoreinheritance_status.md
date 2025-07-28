@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_RestoreInheritance_Status Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/restoreinheritancestatusanalysis.webp)
+![Analysis Tasks for the FS_RestoreInheritance_Status Job](/images/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/restoreinheritancestatusanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -34,4 +34,3 @@ job produces the following pre-configured report.
 | Report               | Description                                                                               | Default Tags | Report Elements                                                                                                                                                                           |
 | -------------------- | ----------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Restored Inheritance | This report summarizes restored inheritance which has occurred during the Cleanup process | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the historical summary of restored inheritance</li><li>Table – provides details on restored inheritance</li></ul> |
-

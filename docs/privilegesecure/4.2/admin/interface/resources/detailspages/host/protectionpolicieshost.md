@@ -9,7 +9,7 @@ sidebar_position: 30
 The Protection Policies tab shows information about the protection policies associated with the
 selected resource.
 
-![Host Protection Policies Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/protectionpolicieshost.webp)
+![Host Protection Policies Tab](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/protectionpolicieshost.webp)
 
 The Protection Policies tab has the following feature:
 

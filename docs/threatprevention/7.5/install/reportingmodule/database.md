@@ -24,20 +24,20 @@ and select Run as administrator. Then skip to Step 2.
 :::
 
 
-![Netwrix Setup Launcher](/img/product_docs/threatprevention/7.5/install/reportingmodule/setuplauncher.webp)
+![Netwrix Setup Launcher](/images/threatprevention/7.5/install/reportingmodule/setuplauncher.webp)
 
 **Step 1 –** Click PostgreSQL Setup. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatprevention/7.5/install/upgrade/install.webp)
+![Netwrix PostgreSQL Setup wizard](/images/threatprevention/7.5/install/upgrade/install.webp)
 
 **Step 2 –** Click Install.
 
-![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/threatprevention/7.5/install/reportingmodule/eula_1.webp)
+![Netwrix PostgreSQL Setup wizard on the EULA page](/images/threatprevention/7.5/install/reportingmodule/eula_1.webp)
 
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click Next.
 
-![Netwrix PostgreSQL Setup wizard on the Folder Location page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+![Netwrix PostgreSQL Setup wizard on the Folder Location page](/images/threatprevention/7.5/install/reportingmodule/folder.webp)
 
 **Step 4 –** By default, the installation directories are set to:
 
@@ -46,12 +46,12 @@ checkbox. Click Next.
 
 Optionally, enter a new path or use the **Browse** buttons to modify as desired. Click Next.
 
-![Netwrix PostgreSQL Setup wizard on the Successfully Installed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Netwrix PostgreSQL Setup wizard on the Successfully Installed page](/images/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 5 –** The installation begins and the installer displays a Setup Progress window. Click Exit
 when the installation is successful. The Netwrix PostgreSQL Setup wizard closes.
 
-![postgresqlcheck](/img/product_docs/threatprevention/7.5/install/reportingmodule/postgresqlcheck.webp)
+![postgresqlcheck](/images/threatprevention/7.5/install/reportingmodule/postgresqlcheck.webp)
 
 The PostgreSQL database application is now installed. Nest you can install the Netwrix Threat
 Manager Reporting Module application. See the

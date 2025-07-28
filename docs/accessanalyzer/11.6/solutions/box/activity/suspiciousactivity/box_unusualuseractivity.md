@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_UnusualUserActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/unusualuseractivityanalysis.webp)
+![Analysis Tasks for the Box_UnusualUserActivity Job](/images/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/unusualuseractivityanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -34,4 +34,3 @@ pre-configured report:
 | Report                | Description                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                    |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unusual User Activity | This report provides insight into user activity that deviates from the normal range of expected activity.  This is determined by using historical data for each user. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 most recent unusual user activity</li><li>Table – Provides details on unusual user activity</li></ul> |
-

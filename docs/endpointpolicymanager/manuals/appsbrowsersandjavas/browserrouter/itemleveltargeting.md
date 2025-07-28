@@ -13,12 +13,12 @@ within collections.
 
 To do this, right-click **Collection** and select **Change Item Level Targeting**
 
-![about_policypak_browser_router_37](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_37.webp)
+![about_policypak_browser_router_37](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_37.webp)
 
 Alternatively, within a Browser Router policy, you can dictate when a policy will apply by clicking
 **Item Level Targeting**.
 
-![about_policypak_browser_router_38](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_38.webp)
+![about_policypak_browser_router_38](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_38.webp)
 
 The **Edit Item Level Targeting** menu item brings up the **Targeting Editor**. You can select any
 combination of characteristics you want to test for. Administrators familiar with Group Policy
@@ -31,7 +31,7 @@ same way parentheses are used in an equation. In this way, you can create a comp
 about where a policy will be applied. Collections may be set to **And**, **Or**, **Is**, or **Is
 Not**.
 
-![about_policypak_browser_router_39](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_39.webp)
+![about_policypak_browser_router_39](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_39.webp)
 
 In this example, the Pak would only apply to Windows 10 machines when the machine is portable and
 the user is in the FABRIKAM\Traveling Sales Users group.
@@ -58,13 +58,13 @@ shows that it now has Item-Level Targeting on the whole collection. In other wor
 items in the collection will apply unless the Item-Level Targeting on the collection evaluates to
 **True**.
 
-![about_policypak_browser_router_40](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_40.webp)
+![about_policypak_browser_router_40](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_40.webp)
 
 Within the collection, if you set Item-Level Targeting within any policy, you'll see the icon turn
 orange, and the Item-Level Targeting column will indicate if Item-Level Targeting is on **Yes** or
 off **No**.
 
-![about_policypak_browser_router_41](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_41.webp)
+![about_policypak_browser_router_41](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_41.webp)
 
 This feature allows you toadd very granular filters. First, filter with Item-Level Targeting in a
 collection, and then filter on any specific rule if any Item-Level Targeting is applied there.

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_Deletions Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/forensics/deletionsanalysis.webp)
+![Analysis Tasks for the FS_Deletions Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/forensics/deletionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -70,11 +70,11 @@ purpose of this job.
 :::
 
 
-![Notification Data Analysis Module wizard SMTP page](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/forensics/notificationsmtp.webp)
+![Notification Data Analysis Module wizard SMTP page](/images/accessanalyzer/12.0/solutions/filesystem/activity/forensics/notificationsmtp.webp)
 
 **Step 3 –** Navigate to the SMTP page of the wizard.
 
-![Recipients section](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/forensics/notificationsmtprecipients.webp)
+![Recipients section](/images/accessanalyzer/12.0/solutions/filesystem/activity/forensics/notificationsmtprecipients.webp)
 
 **Step 4 –** In the Recipients section, provide the email addresses or distribution lists (fully
 qualified address) for those who are to receive this notification. Multiple addresses can be
@@ -90,7 +90,7 @@ provided. You can use the following options:
     :::
 
 
-![Message section](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/forensics/notificationsmtpmessage.webp)
+![Message section](/images/accessanalyzer/12.0/solutions/filesystem/activity/forensics/notificationsmtpmessage.webp)
 
 **Step 5 –** In the Message section, edit the **Subject**. It is not recommended to remove any
 parameters. Then, customize the email content in the textbox to provide an explanation of the

@@ -22,14 +22,14 @@ application server.
 The plausibility has not been fulfilled when saving a password. The mandatory fields of the
 deposited form should be checked.
 
-![installation_with_parameters_156_795x595](/img/product_docs/passwordsecure/9.1/configuration/basic_view/administration/errorcodes/installation_with_parameters_156_795x595.webp)
+![installation_with_parameters_156_795x595](/images/passwordsecure/9.1/configuration/basic_view/administration/errorcodes/installation_with_parameters_156_795x595.webp)
 
 **NoDefaultForm**
 
 No standard form was selected. The form can be stored in the settings under **Standard form (for the
 Basic view).**
 
-![installation_with_parameters_157](/img/product_docs/passwordsecure/9.1/configuration/basic_view/administration/errorcodes/installation_with_parameters_157.webp)
+![installation_with_parameters_157](/images/passwordsecure/9.1/configuration/basic_view/administration/errorcodes/installation_with_parameters_157.webp)
 
 **DefaultFormNotFound**
 

@@ -52,7 +52,7 @@ the MMC editor.
 
 **Step 5 –** Roll out the CSE in a controlled fashion to your endpoints using the ring methodology.
 
-![upgrading_tips_624x267](/img/product_docs/endpointpolicymanager/install/upgrade/upgrading_tips_624x267.webp)
+![upgrading_tips_624x267](/images/endpointpolicymanager/install/upgrade/upgrading_tips_624x267.webp)
 
 :::warning
 Do not attempt to roll out the CSE to 100% of your computer population at once. If

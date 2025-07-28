@@ -10,7 +10,7 @@ The Description page provides details on the incidents entered into a field on t
 page. A description of the incident and related comments are included with the incident’s report to
 provide additional feedback to the system administrator, and may be saved to a template.
 
-![ServiceNow Action Module wizard Description page](/img/product_docs/accessanalyzer/12.0/admin/action/servicenow/description.webp)
+![ServiceNow Action Module wizard Description page](/images/accessanalyzer/12.0/admin/action/servicenow/description.webp)
 
 Create a report using the following options:
 
@@ -22,7 +22,7 @@ Create a report using the following options:
     - Click the file icon with the magnifying glass to preview the sourced table for values. The
       default is 1000 rows.
 
-        ![Sample Source Data window](/img/product_docs/accessanalyzer/12.0/admin/action/servicenow/samplesourcedata.webp)
+        ![Sample Source Data window](/images/accessanalyzer/12.0/admin/action/servicenow/samplesourcedata.webp)
 
 - Click the **Clear Template** button to remove content from the Short Description section and
   Comments section
@@ -33,6 +33,6 @@ Create a report using the following options:
     - Click the **Save to Template** link to preserve the Short Description and Comments sections
       for later use under a template name.
 
-        ![Save ServiceNow Template window](/img/product_docs/accessanalyzer/12.0/admin/action/servicenow/savetemplate.webp)
+        ![Save ServiceNow Template window](/images/accessanalyzer/12.0/admin/action/servicenow/savetemplate.webp)
 
         Enter a name for the template, and click **OK**.

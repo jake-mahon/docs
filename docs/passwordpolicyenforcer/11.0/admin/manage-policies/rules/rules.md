@@ -12,8 +12,8 @@ rules for a policy:
 
 **Step 1 –** Open the Configuration Console:
 
-Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**  
-or  
+Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**
+or
 Double click the **PPE Configuration** desktop shortcut.
 
 **Step 2 –** Click on a policy name to open the policy configuration page.
@@ -21,7 +21,7 @@ Double click the **PPE Configuration** desktop shortcut.
 The **Rules** tab opens by default. A check mark beside a rule indicates that the rule is enabled
 (being enforced). Click a rule to set the rule's properties.
 
-![Enabled rules are checked](/img/product_docs/passwordpolicyenforcer/11.0/administration/enabledrules.webp)
+![Enabled rules are checked](/images/passwordpolicyenforcer/11.0/administration/enabledrules.webp)
 
 Review the sections on **Detecting Character Substitution** and **Tolerance** prior to setting up
 the rules for your policy.

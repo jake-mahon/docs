@@ -19,9 +19,9 @@ Image keys:
 
 | Icon                                                                                          | Description                                                                     |
 | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the settings of the integration type.    |
-| ![servicenowicon](/img/product_docs/1secure/integration/servicenowicon.webp)   | ServiceNow Icon. Click the ServiceNow icon to make the settings for ServiceNow. |
-| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp)       | Bin Icon. Click the Bin icon to delete the ServiceNow integration               |
+| ![alerts_editicon](/images/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the settings of the integration type.    |
+| ![servicenowicon](/images/1secure/integration/servicenowicon.webp)   | ServiceNow Icon. Click the ServiceNow icon to make the settings for ServiceNow. |
+| ![deletebutton](/images/1secure/integration/deletebutton.webp)       | Bin Icon. Click the Bin icon to delete the ServiceNow integration               |
 
 ## Add a ServiceNow Integration System
 
@@ -29,11 +29,11 @@ Follow the steps to add a ServiceNow integration system.
 
 **Step 1 –** Go to Configuration > **Integrations** and click the **Add** icon to add the system.
 
-![integrationtypewindowservicenow](/img/product_docs/1secure/integration/integrationtypewindowservicenow.webp)
+![integrationtypewindowservicenow](/images/1secure/integration/integrationtypewindowservicenow.webp)
 
 **Step 2 –** In the displayed Integration type window, click **ServiceNow** and click **Next**.
 
-![servicenowconnection](/img/product_docs/1secure/integration/servicenowconnection.webp)
+![servicenowconnection](/images/1secure/integration/servicenowconnection.webp)
 
 **Step 3 –** In the Configure connection window, specify the required boxes - Server Name, Username,
 and Password.
@@ -57,7 +57,7 @@ View Fields Here:
 
 The ServiceNow profile is added now. The status displays "Ok" in green.
 
-![servicenowstatus](/img/product_docs/1secure/integration/servicenowstatus.webp)
+![servicenowstatus](/images/1secure/integration/servicenowstatus.webp)
 
 Click the **Edit** icon or the **Bin** icon to edit or delete the integration.
 
@@ -70,7 +70,7 @@ Follow the steps to manage delivery settings for ServiceNow.
 **Step 2 –** Click the Service Now icon\* under Delivery Settings. The ServiceNow Delivery Settings
 panel displays.
 
-![alerts_servicenowdeliverysettings](/img/product_docs/1secure/integration/alerts_servicenowdeliverysettings.webp)
+![alerts_servicenowdeliverysettings](/images/1secure/integration/alerts_servicenowdeliverysettings.webp)
 
 **Step 3 –** Specify the Assignment Group, which should receive the tickets.
 

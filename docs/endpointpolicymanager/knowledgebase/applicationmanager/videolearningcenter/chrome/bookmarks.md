@@ -11,7 +11,7 @@ can deliver Chrome bookmarks.
 - Launch Google Chrome PAK properties
 - Select Extras tab and find an option Managed Bookmarks
 
-  ![491_1_gg_900x644](/img/product_docs/endpointpolicymanager/video/applicationsettings/chrome/491_1_gg_900x644.webp)
+  ![491_1_gg_900x644](/images/endpointpolicymanager/video/applicationsettings/chrome/491_1_gg_900x644.webp)
 
 - Insert string as following. Change the URL and Name to reflect your required bookmarks.
 

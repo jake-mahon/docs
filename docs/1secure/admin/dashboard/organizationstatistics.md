@@ -14,7 +14,7 @@ identify any potential vulnerabilities or areas for improvement.
 To view an organization's statistics, click **Home** in the top bar. On the dashboard, click an
 organization name in the Organizations list to open the Statistics page for it.
 
-![Organization Statistics Page](/img/product_docs/1secure/admin/dashboard/organizationstatistics.webp)
+![Organization Statistics Page](/images/1secure/admin/dashboard/organizationstatistics.webp)
 
 You can view the following insights for an organization.
 

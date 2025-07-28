@@ -32,7 +32,7 @@ In list view, Shift or Ctrl + mouse click can be used to select multiple records
 also be granted for these records via the selection. The marked records are displayed in a different
 color. 6 records are marked in the following image.
 
-![password list](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-1-en.webp)
+![password list](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-1-en.webp)
 
 ## Dialogue for configuring the permissions
 
@@ -40,7 +40,7 @@ A new tab will be opened in the ribbon above the "Permissions" button in which t
 be configured. The tab will display the number of records that will be affected by the defined
 changes.
 
-![rights for selected passwords](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-2-en.webp)
+![rights for selected passwords](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-2-en.webp)
 
 NOTE: As the already granted permissions for the selected records may differ, it is not possible to
 display the permissions here.
@@ -67,14 +67,14 @@ removed from the permissions.
 In the following example, Mr. Steiner receives read permissions to all selected records. In
 contrast, Mr. Brewery receives all permissions:
 
-![rights for selected passwords](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-3-en.webp)
+![rights for selected passwords](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-3-en.webp)
 
 The read permission will be removed for Mr. Steiner. As removing the read permissions means that no
 other permissions exist for the record, Mr. Steiner is completely removed from the permissions. The
 authorize, move, export and print permissions are being removed from Mr. Brewery. Assuming that he
 previously had all permissions, he will then have read, write and delete permissions remaining:
 
-![edit rights for selected passwords](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-4-en.webp)
+![edit rights for selected passwords](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-4-en.webp)
 
 ## Batch processing using a filter
 
@@ -83,7 +83,7 @@ hand, a maximum limit of 1000 records exists and on the other hand, handling a v
 records via list view is not always the best solution. The **Batch processing using a filter** mode
 has been developed for this purpose. This is directly initiated via the ribbon.
 
-![Batch processing using a filter](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-5-en.webp)
+![Batch processing using a filter](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-5-en.webp)
 
 In the subsequent dialogue, you define whether you want to expand, reduce or completely overwrite
 existing permissions. If you select **expand or reduce** at this stage, the same logic as for
@@ -98,14 +98,14 @@ function can quickly lead to a large number of records becoming unusable.
 :::
 
 
-![permissions adapted on a filter](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-6-en.webp)
+![permissions adapted on a filter](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-6-en.webp)
 
 The filter itself defines the selection criteria for the records to be edited. The currently
 configured filter will be used as default. The records that will be affected by the changes are also
 not displayed in this view. Only the number of records is displayed. In the following example, 9
 passwords are being edited to add the read permission the role "Sales".
 
-![permissions change for selected records](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-7-en.webp)
+![permissions change for selected records](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-7-en.webp)
 
 ## Seals and password masking
 
@@ -113,13 +113,13 @@ Sealed or masked records cannot be edited using batch processing. If these types
 selected, a dialogue will be displayed when carrying out batch processing to inquire how these
 records should be handled.
 
-![security warning because of sealed or masked passwords](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-8-en.webp)
+![security warning because of sealed or masked passwords](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-8-en.webp)
 
 It is possible to select whether the affected records are skipped or whether the seal or password
 masking should be removed. If the **remove** option is selected, the process needs to be confirmed
 again by entering a PIN.
 
-![security warning](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-9-en.webp)
+![security warning](/images/passwordsecure/9.1/configuration/advanced_view/permissionconcept/manual_settings/multiple_editing_of_permissions/multiple-editing-of-permissions-9-en.webp)
 
 :::warning
 The removal of seals and password masking cannot be reversed!

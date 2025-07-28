@@ -13,7 +13,7 @@ applied to a mailbox.
 
 The EX_SendAs job uses the ExchangePS Data Collector.
 
-![Queries for the EX_SendAs Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/collection/sendasquery.webp)
+![Queries for the EX_SendAs Job](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/collection/sendasquery.webp)
 
 The following query is included in the EX_SendAs Job:
 
@@ -43,7 +43,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_SendAs Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/collection/sendasanalysis.webp)
+![Analysis Tasks for the EX_SendAs Job](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/collection/sendasanalysis.webp)
 
 The following analysis task is selected by default:
 

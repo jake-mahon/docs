@@ -8,7 +8,7 @@ sidebar_position: 20
 
 Use the Header page to enter the header values for the request.
 
-![Web Request Action Module Wizard Header page](/img/product_docs/accessanalyzer/12.0/admin/action/webrequest/header.webp)
+![Web Request Action Module Wizard Header page](/images/accessanalyzer/12.0/admin/action/webrequest/header.webp)
 
 Use the following options to enter header values:
 

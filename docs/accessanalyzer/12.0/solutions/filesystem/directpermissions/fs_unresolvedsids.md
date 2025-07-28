@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_UnresolvedSIDs Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/unresolvedsidsanalysis.webp)
+![Analysis Tasks for the FS_UnresolvedSIDs Job](/images/accessanalyzer/12.0/solutions/filesystem/directpermissions/unresolvedsidsanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -33,4 +33,3 @@ the following pre-configured report:
 | Report          | Description                                                                            | Default Tags | Report Elements                                                                                                                                                                                                                              |
 | --------------- | -------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unresolved SIDs | This report identifies where permissions are assigned for users which no longer exist. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top servers by affected folders</li><li>Table – Provides details on top unresolved SIDs</li><li>Table – Provides details on top servers by affected folders</li></ul> |
-

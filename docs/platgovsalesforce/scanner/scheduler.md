@@ -13,10 +13,10 @@ is displayed if you create an overlapping scanner schedule.
 
 To use the scheduler tool:
 
-1. Open **Netwrix Dashboard** > **Scanner** > **Scheduler**  
+1. Open **Netwrix Dashboard** > **Scanner** > **Scheduler**
    All categories are initially disabled by default.
 
-    ![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)
+    ![scheduler](/images/platgovsalesforce/clean_up/scheduler.webp)
 
 2. Select the category to automate by clicking on **Disabled** to enable it. There is no save
    button, automation is turned on and saved by toggling **Disabled**/**Enabled**.

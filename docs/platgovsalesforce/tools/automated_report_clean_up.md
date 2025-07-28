@@ -35,7 +35,7 @@ criteria. Report Clean Up rules are used for both Automatic and Run Now.
 To create or edit rules, access **Netwrix Dashboard**> **Tools** > **Automated Report Clean Up
 Tool**
 
-![automated_report_cleanup](/img/product_docs/platgovsalesforce/tools/automated_report_cleanup.webp)
+![automated_report_cleanup](/images/platgovsalesforce/tools/automated_report_cleanup.webp)
 
 - **Name** is the assigned name for the **Report Clean Up Rule Record**.
 - **Description** is the purpose of the rule record. An informative description helps administrators
@@ -52,11 +52,11 @@ Tool**
 **Basic Filters**
 
 - **Report Name** filters reports to clean-up by name. Filter operator is _startswith_ and the
-  wildcard _%_ may be used. Default is blank.  
+  wildcard _%_ may be used. Default is blank.
    Example: _Custom % Report%_ returns all reports with a name starting with '_Custom_ ' followed by
   any character and the name must contain '_Report_' such as _Custom Inventory Detail Report_.
 - **Report API Name** filters reports to clean-up by API Name. Filter operator is _startswith_ and
-  the wildcard _%_ may be used. Default is blank.  
+  the wildcard _%_ may be used. Default is blank.
    Example: _%testing_ returns all reports with an API Name containing the word '_testing_' such as
   _customreport_testing_1_.
 - **Months Since Date Last Used, Retained/Restored** filters reports by the last run date of the
@@ -97,14 +97,14 @@ clean up. The Run Now feature begins an immediate run for the rule.
 
 1. Administrators can click **Preview** on an Report Clean Up Rule. **Preview** displays the rule,
    filters and conditions.
-2. Review the Report List.  
+2. Review the Report List.
    Click **Include All** or **Exclude All** to mark all the reports. **Include** triggers a final
    notification email to be sent to the report owners. Unchecked retains the report.
 3. Click Run Now to begin a Report Clean Up for the rule.
 4. After previewing, you can click **Automatic** on the Report Clean Up Rule to include the rule for
    automatic reports.
 
-![automated_report_cleanup_preview](/img/product_docs/platgovsalesforce/tools/automated_report_cleanup_preview.webp)
+![automated_report_cleanup_preview](/images/platgovsalesforce/tools/automated_report_cleanup_preview.webp)
 
 #### Run Now
 
@@ -157,17 +157,17 @@ reports**, **scheduled to be archived reports** and **archived reports**.
 Open **Netwrix Dashboard**> **Tools** > **Automated Report Clean Up Tool** > **Report Clean Up
 Status** to view current status.
 
-- **Status**:  
-  **Pending** - initial status for the run.  
-  **Pending Notification** - reports have been identified, no notifications sent.  
-  **In Notice Period** - at least one notification has been sent.  
-  **Processing** - report is being auto-archived.  
+- **Status**:
+  **Pending** - initial status for the run.
+  **Pending Notification** - reports have been identified, no notifications sent.
+  **In Notice Period** - at least one notification has been sent.
+  **Processing** - report is being auto-archived.
   **Completed** - all identified reports have been archived, and email sent to rule owner and
-  administrator.  
+  administrator.
   **Canceled** - **Automatic** checkbox was turned off for the rule.
 - **Automatic**: rule is set to **Automatic** if checked.
 
-![automated_report_cleanup_status](/img/product_docs/platgovsalesforce/tools/automated_report_cleanup_status.webp)
+![automated_report_cleanup_status](/images/platgovsalesforce/tools/automated_report_cleanup_status.webp)
 
 ### Retaining a Report
 
@@ -192,7 +192,7 @@ report is archived. The Archive process:
 - Auto Archive notifications are sent to the rule owner and administrators. A **Restore** link is
   included in the email.
 
-![automated_report_cleanup_archive](/img/product_docs/platgovsalesforce/tools/automated_report_cleanup_archive.webp)
+![automated_report_cleanup_archive](/images/platgovsalesforce/tools/automated_report_cleanup_archive.webp)
 
 ### Restoring an Auto Archived Report
 

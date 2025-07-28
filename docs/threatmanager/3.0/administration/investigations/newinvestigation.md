@@ -9,7 +9,7 @@ sidebar_position: 30
 The New Investigation page within the Investigations interface enables you to run queries on
 available data with desired filters for a specific timeframe.
 
-![Investigations interface on the New Investigation page](/img/product_docs/threatmanager/3.0/administration/investigations/interface.webp)
+![Investigations interface on the New Investigation page](/images/threatmanager/3.0/administration/investigations/interface.webp)
 
 To generate a new investigation report, configure the filters as desired and set the timeframe. See
 the [Filters Section](/docs/threatmanager/3.0/administration/investigations/options/filters.md) topic for additional information.
@@ -43,7 +43,7 @@ roles.
 **Step 1 –** On the New Investigation page, click **Save** in the upper right corner. The Save
 Investigation window opens.
 
-![saveinvestigation](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/saveinvestigation.webp)
+![saveinvestigation](/images/threatprevention/7.5/reportingmodule/investigations/saveinvestigation.webp)
 
 **Step 2 –** Enter a unique, descriptive name for this investigation in the **Name** field.
 

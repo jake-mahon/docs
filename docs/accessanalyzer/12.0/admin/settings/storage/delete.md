@@ -14,11 +14,11 @@ Storage Profile from this Access Analyzer Console.
 :::
 
 
-![Delete Storage Profile option](/img/product_docs/accessanalyzer/12.0/admin/settings/storage/delete.webp)
+![Delete Storage Profile option](/images/accessanalyzer/12.0/admin/settings/storage/delete.webp)
 
 **Step 1 –** Select the Storage Profile to be removed, and click **Delete**.
 
-![Confirm delete selected profile dialog](/img/product_docs/accessanalyzer/12.0/admin/settings/storage/deleteconfirm.webp)
+![Confirm delete selected profile dialog](/images/accessanalyzer/12.0/admin/settings/storage/deleteconfirm.webp)
 
 **Step 2 –** Confirm the operation by clicking **OK**.
 

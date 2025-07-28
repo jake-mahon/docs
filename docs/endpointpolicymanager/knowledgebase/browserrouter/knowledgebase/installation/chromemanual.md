@@ -28,7 +28,7 @@ Note down the Extension ID. You'll need this step every time we release updates
 **Step 2 –** Append the PPBR Chrome Extension ID with the following URL:
 [https://chrome.google.com/webstore/detail/policypak-browser-router/[PPBR-Extension-ID](https://chrome.google.com/webstore/detail/endpointpolicymanager-browser-router/[PPBR-Extension-ID)]
 
-![535_1_image-20191222210303-1](/img/product_docs/endpointpolicymanager/browserrouter/install/535_1_image-20191222210303-1.webp)
+![535_1_image-20191222210303-1](/images/endpointpolicymanager/browserrouter/install/535_1_image-20191222210303-1.webp)
 
 **Step 3 –** ote the PPBR Chrome Extension's Version Number.
 
@@ -36,11 +36,11 @@ Note down the Extension ID. You'll need this step every time we release updates
 
 **Step 5 –** Insert the updated PPBR Chrome Extension URL that you appended in step 1.2.
 
-![535_3_image-20191222210303-2_457x162](/img/product_docs/endpointpolicymanager/browserrouter/install/535_3_image-20191222210303-2_457x162.webp)
+![535_3_image-20191222210303-2_457x162](/images/endpointpolicymanager/browserrouter/install/535_3_image-20191222210303-2_457x162.webp)
 
 **Step 6 –** Click **OK**
 
-![535_5_image-20191222210303-3](/img/product_docs/endpointpolicymanager/browserrouter/install/535_5_image-20191222210303-3.webp)
+![535_5_image-20191222210303-3](/images/endpointpolicymanager/browserrouter/install/535_5_image-20191222210303-3.webp)
 
 **Step 7 –** Click on Get .CRX
 
@@ -54,7 +54,7 @@ Copy the` .CRX` extension file using Group Policy Preference item.
 
 **Step 2 –** Right-click on the **Files** node and select **New** and then **File**.
 
-![535_7_image-20191222210303-4](/img/product_docs/endpointpolicymanager/browserrouter/install/535_7_image-20191222210303-4.webp)
+![535_7_image-20191222210303-4](/images/endpointpolicymanager/browserrouter/install/535_7_image-20191222210303-4.webp)
 
 **Step 3 –** Configure this policy as shown below. Change **Source** and **Destination** paths as
 needed.
@@ -71,7 +71,7 @@ Follow these steps to only install PPBR Chrome Extension.
 
 **Step 2 –** Right-click on **Registry node**, then click on **New** > **Registry Item**
 
-![535_9_image-20191222210303-5](/img/product_docs/endpointpolicymanager/browserrouter/install/535_9_image-20191222210303-5.webp)
+![535_9_image-20191222210303-5](/images/endpointpolicymanager/browserrouter/install/535_9_image-20191222210303-5.webp)
 
 **Step 3 –** Configure the setting as shown below. The value's references are under Chrome REG
 section.
@@ -103,20 +103,20 @@ VALUE: [version of your .crx as specified in the manifest
 
 This section has to be executed by the end-user.
 
-![535_11_image-20191222210303-6](/img/product_docs/endpointpolicymanager/browserrouter/install/535_11_image-20191222210303-6.webp)
+![535_11_image-20191222210303-6](/images/endpointpolicymanager/browserrouter/install/535_11_image-20191222210303-6.webp)
 
 **Step 1 –** Relaunch Google Chrome and wait for the notification banner, thenclick the **Enable
 extension** button.
 
-![535_13_image-20191222210303-7](/img/product_docs/endpointpolicymanager/browserrouter/install/535_13_image-20191222210303-7.webp)
+![535_13_image-20191222210303-7](/images/endpointpolicymanager/browserrouter/install/535_13_image-20191222210303-7.webp)
 
 If you aren't prompted forthe **Enable extension** window, look for this icon -in the Chrome Browser
 and follow the instructions in the next step to enable it.
 
-![535_15_image-20191222210303-8](/img/product_docs/endpointpolicymanager/browserrouter/install/535_15_image-20191222210303-8.webp)
+![535_15_image-20191222210303-8](/images/endpointpolicymanager/browserrouter/install/535_15_image-20191222210303-8.webp)
 
 **Step 2 –** Select an option for Endpoint Policy Manager Browser Router Chrome Extension:
 
-![535_17_image-20191222210303-9](/img/product_docs/endpointpolicymanager/browserrouter/install/535_17_image-20191222210303-9.webp)
+![535_17_image-20191222210303-9](/images/endpointpolicymanager/browserrouter/install/535_17_image-20191222210303-9.webp)
 
 **Step 3 –** Click on **Enable extension** button:

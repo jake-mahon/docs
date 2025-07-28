@@ -27,7 +27,7 @@ security role:
   members for building queries for Smart Groups and Dynasties. For each attribute, you can also
   specify the operators that role members can apply to it.
 
-![querydesigner](/img/product_docs/directorymanager/11.0/admincenter/securityrole/policy/querydesigner.webp)
+![querydesigner](/images/directorymanager/11.0/admincenter/securityrole/policy/querydesigner.webp)
 
 You can also specify a default filter criterion, involving an attribute, an operator, and a value,
 that will be displayed to users on the Filter Criteria tab of the Query Designer. Role members can
@@ -160,7 +160,7 @@ the object types so that role members cannot exclude an allowed object type from
 7. The **Objects** area lists the object types with their sub-types. Here is a mapping of the object
    types displayed here with the options in the **Find** list on the Query Designer:
 
-    - Exchange = Messaging System Recipients  
+    - Exchange = Messaging System Recipients
       Note that the sub-types displayed under **Exchange** are the same as displayed on the General
       tab when you select _Messaging System Recipients_ in the **Find** drop-down list.
     - Computer = Computers
@@ -211,7 +211,7 @@ objects displayed on it, as discussed in the
    **Policies** area.
 6. On the **Add Policies** pane, click the **Query Designer** tab.
 7. The **Tabs** area lists the tabs available on the Query Designer, except the General tab. By
-   default, all tabs are selected, indicating that they are displayed to role members.  
+   default, all tabs are selected, indicating that they are displayed to role members.
    Clear the check box for a tab to hide it from role members.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
@@ -235,7 +235,7 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
 5. On the **Edit Security Role** page, click **Specify policies for the members** in the
    **Policies** area.
 6. On the **Add Policies** pane, click the **Query Designer** tab.
-7. Click **Edit Allowed Attributes** in the **Attributes** area.  
+7. Click **Edit Allowed Attributes** in the **Attributes** area.
    The **Allowed Attributes** dialog box is displayed. By default, all attributes are selected. This
    indicates that all attributes are available to role members on the **Filter Criteria** tab of the
    Query Designer for creating queries.
@@ -246,7 +246,7 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
       the check boxes for the required attributes. At least one attribute must be selected.
 
 8. For each attribute, you can specify the operator(s) that can be applied to the attribute on the
-   **Filter Criteria** tab.  
+   **Filter Criteria** tab.
    On the **Allowed Attributes** dialog box, click the plus sign next to an attribute and select the
    check box for the operators you want to provide for the attribute. When role members select an
    attribute, only the respective operators will be displayed for it. For example, if you allow the
@@ -259,7 +259,7 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
     topic.
 
 9. Click **Save Selection** on the **Allowed Attributes** dialog box. The **Attributes** area
-   displays the allowed attributes count.  
+   displays the allowed attributes count.
    To view or update the allowed attributes, click **Edit Allowed Attributes**. On the **Allowed
    Attributes** dialog box, select the **Show only selected** check box to get a list of the allowed
    attributes. Make the desired changes and close the dialog box.
@@ -274,8 +274,8 @@ determine a group's membership. This criteria is created using an attribute, ope
 For example, the following criterion will add the users in the Human Resources department to the
 membership of the group.
 
-Attribute: department  
-Operator: Equals  
+Attribute: department
+Operator: Equals
 Value: Human Resources
 
 You can specify a default criteria, that will be displayed to role members on the **Filter
@@ -307,7 +307,7 @@ attributes and operators are available to create a default filter criteria.
 8. You can also create an advanced query by adding more rows and applying the **AND** or **OR**
    operator to group them. See steps 1-2 in the Advanced Filter section of the
    [Designate a Criterion for the Search Scope](/docs/directorymanager/11.0/signin/securityrole/policy/search.md#designate-a-criterion-for-the-search-scope)
-   topic.  
+   topic.
    After creating a query, you can:
 
     - Click **Preview** to get a list of the objects fetched by the query created by the current

@@ -18,7 +18,7 @@ Do not modify the queries. The queries are preconfigured for this job.
 :::
 
 
-![Queries for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
+![Queries for the AD_GroupPolicy Job](/images/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
 The queries for this job are:
 
@@ -40,7 +40,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
+![Analysis Tasks for the AD_GroupPolicy Job](/images/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
 
 The default analysis tasks are:
 
@@ -56,4 +56,3 @@ the following pre-configured reports:
 | ------------ | -------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | GPO Details  | This report lists all Group Policies and their settings. | None         | This report is comprised of four elements: <ul><li>Bar Chart – Displays GPO count by domain</li><li>Table – Provides details on policies by domain</li><li>Table – Provides details on GPO count by domain</li><li>Table – Provides details on settings</li></ul> |
 | GPO Overview | This report lists all Group Policies and their settings. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays GPO configuration by domain</li><li>Table – Provides details on GPOs</li><li>Table – Provides details on GPO configuration by domain</li></ul>                                           |
-

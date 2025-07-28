@@ -83,7 +83,7 @@ The following is
 
 To sum up IIS settings:
 
-![IIS Settings](/img/product_docs/identitymanager/6.1/installation-guide/production-ready/server/iis_settings.webp)
+![IIS Settings](/images/identitymanager/6.1/installation-guide/production-ready/server/iis_settings.webp)
 
 An SSL Certificate should also be
 [set to the IIS Server](https://docs.microsoft.com/en-US/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)
@@ -177,7 +177,7 @@ This guide will show you how to perform these operations using SQL Server Manage
 
     - From the **Login** node, right-click and select **New** > **Login**.
 
-        ![New Login](/img/product_docs/identitymanager/6.1/installation-guide/production-ready/server/newlogin.webp)
+        ![New Login](/images/identitymanager/6.1/installation-guide/production-ready/server/newlogin.webp)
 
     - On the **General** page, enter the service account login name in the down-level logon format,
       such as `CONTOSO/identitymanagerContosoServer`. If you're not sure about the correct spelling of your
@@ -200,7 +200,7 @@ This guide will show you how to perform these operations using SQL Server Manage
     **6** or **7**.
 14. Grant the **Administer bulk operations** permission.
 
-    ![Bulk](/img/product_docs/identitymanager/6.1/installation-guide/production-ready/server/bulk.webp)
+    ![Bulk](/images/identitymanager/6.1/installation-guide/production-ready/server/bulk.webp)
 
 15. Confirm with **OK**.
 
@@ -251,7 +251,7 @@ The Usercube Server service account that was chosen in the previous step:
     5. Select the newly added user name in the **Group or user names** panel at the top of the
        window.
 
-        ![Object Names](/img/product_docs/identitymanager/6.1/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
+        ![Object Names](/images/identitymanager/6.1/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
     6. Check the `Allow` column for the
        [relevant permissions](/docs/identitymanager/6.1/installation-guide/requirements/server-requirements/index.md).

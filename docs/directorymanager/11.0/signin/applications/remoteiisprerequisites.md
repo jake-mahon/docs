@@ -18,15 +18,15 @@ remote IIS, you must set up the following prerequisites:
 Before you can deploy GroupID portals and services in remote IIS, make sure the following
 prerequisite software is installed on the remote IIS machine. Install them in the following order:
 
-1. ASP.NET Core Runtime 6.0.30 (Hosting Bundle)  
+1. ASP.NET Core Runtime 6.0.30 (Hosting Bundle)
    Click [here](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-6.0.30-windows-hosting-bundle-installer)
    to download.
-2. .NET Desktop Runtime 6.0.30  
+2. .NET Desktop Runtime 6.0.30
    Click [here](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer)
    to download.
-3. ASP.NET Core Runtime 2.1.25 (Hosting Bundle)  
+3. ASP.NET Core Runtime 2.1.25 (Hosting Bundle)
    Click [here](https://dotnet.microsoft.com/download/dotnet/2.1) to download.
-4. Microsoft IIS Administration 2.3.0  
+4. Microsoft IIS Administration 2.3.0
    Click [here](https://github.com/microsoft/IIS.Administration/releases/tag/v2.3.0) to download.
 
 ## Create a Site in Remote IIS
@@ -41,11 +41,11 @@ site.
    [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90).
 2. In the left pane, right-click **Sites** and select **Add Website**.
 
-    ![Add a website in IIS](/img/product_docs/directorymanager/11.0/admincenter/portal/addsite.webp)
+    ![Add a website in IIS](/images/directorymanager/11.0/admincenter/portal/addsite.webp)
 
 3. Enter the information as shown below and click **OK**:
 
-    ![Add Website window](/img/product_docs/directorymanager/11.0/admincenter/portal/addwebsite.webp)
+    ![Add Website window](/images/directorymanager/11.0/admincenter/portal/addwebsite.webp)
 
     1. Enter a name for the site in the **Site name** box.
     2. Create a new folder on the remote machine and bind this site to that folder. Provide the
@@ -64,7 +64,7 @@ site.
 The next step is to assign permissions on the physical folder that binds to your site in remote IIS.
 
 1. Go to the physical path of your IIS site folder and provide the full control to a local group
-   IIS_IUSRS on this folder.  
+   IIS_IUSRS on this folder.
    To assign these permissions:
 
     1. Right click the group you created and select **Properties**.
@@ -95,7 +95,7 @@ The next step is to assign permissions on the physical folder that binds to your
 
 3. Open the **appsettings.json** file and add the highlighted script at the end of the file:
 
-    ![Script for appsettings.json file](/img/product_docs/directorymanager/11.0/admincenter/portal/appsettings-full.webp)
+    ![Script for appsettings.json file](/images/directorymanager/11.0/admincenter/portal/appsettings-full.webp)
 
 4. The script to be added is given below:
 
@@ -129,20 +129,20 @@ service on the remote IIS machine.
 
 To connect to the API, an access key is required. Follow the steps below to generate it.
 
-1. Go to _https://localhost:55539/_ to launch the Microsoft Administration API interface.  
+1. Go to _https://localhost:55539/_ to launch the Microsoft Administration API interface.
    Note that this is the default URL. It may change for reasons such as when a different port is
    used.
 2. Click **ACCESS KEYS**.
 
-    ![Access Keys](/img/product_docs/directorymanager/11.0/admincenter/portal/accesskeys.webp)
+    ![Access Keys](/images/directorymanager/11.0/admincenter/portal/accesskeys.webp)
 
 3. Click **Create Access Key** to generate an access key and provide the following information:
 
-    ![Access Key Purpose window](/img/product_docs/directorymanager/11.0/admincenter/portal/accesskeyspurpose.webp)
+    ![Access Key Purpose window](/images/directorymanager/11.0/admincenter/portal/accesskeyspurpose.webp)
 
 4. On clicking **Create**, the access key is generated.
 
-    ![Access Token window](/img/product_docs/directorymanager/11.0/admincenter/portal/accesstoken.webp)
+    ![Access Token window](/images/directorymanager/11.0/admincenter/portal/accesstoken.webp)
 
 **See Also**
 

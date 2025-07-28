@@ -9,7 +9,7 @@ sidebar_position: 10
 The EX_MailboxActivity job collects logs of Native Mailbox Access Auditing from Exchange to provide
 reporting around mailbox logon activity.
 
-![0.Collection > EX_MailboxActivity Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/logons/collectionjobstree.webp)
+![0.Collection > EX_MailboxActivity Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/logons/collectionjobstree.webp)
 
 The EX_MailboxActivity job is located in the 0.Collection job group.
 
@@ -22,7 +22,7 @@ This job requires that Exchange Access Auditing is enabled in the Exchange envir
 
 The EX_MailboxActivity Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_MailboxActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/logons/mailboxactivityquery.webp)
+![Queries for the EX_MailboxActivity Job](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/logons/mailboxactivityquery.webp)
 
 The following query is included with the EX_MailboxActivity job:
 
@@ -38,5 +38,5 @@ The following query is included with the EX_MailboxActivity job:
     Exchange on-premises environments. See the
     [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
     topic for credential requirements.
-    
+
     :::

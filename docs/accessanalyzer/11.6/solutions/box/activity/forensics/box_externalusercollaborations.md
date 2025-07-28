@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_ExternalUserCollaborations Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/externalusercollaborationsanalysis.webp)
+![Analysis Tasks for the Box_ExternalUserCollaborations Job](/images/accessanalyzer/11.6/solutions/box/activity/forensics/externalusercollaborationsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report:
 | Report                       | Description                                                                                                            | Default Tags | Report Elements                                                                                                                                                                                 |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | External User Collaborations | This report identifies high-risk collaborations, highlighting most active collaborations by invites of external users. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays last 30 days of external user collaborations</li><li>Table – Provides details on external user collaborations</li></ul> |
-

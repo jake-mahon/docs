@@ -13,7 +13,7 @@ additional information on the protection feature.
 
 Click **Investigate** in the left pane to launch the Investigate interface.
 
-![Investigate Interface](/img/product_docs/threatprevention/7.5/admin/investigate/investigateinterface.webp)
+![Investigate Interface](/images/threatprevention/7.5/admin/investigate/investigateinterface.webp)
 
 Next to the Investigate title, use the drop-down menu to select LDAP Policies or All Other Policies
 to be shown in the data grid. Select the Show Deleted Policies checkbox to view deleted policies

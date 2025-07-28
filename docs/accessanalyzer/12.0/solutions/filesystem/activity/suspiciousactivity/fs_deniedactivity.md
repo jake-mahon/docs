@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_DeniedActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/suspiciousactivity/deniedactivityanalysis.webp)
+![Analysis Tasks for the FS_DeniedActivity Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/suspiciousactivity/deniedactivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -33,4 +33,3 @@ the following pre-configured report:
 | Report          | Description                                                                          | Default Tags | Report Elements                                                                                                                                                              |
 | --------------- | ------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Denied Activity | This report highlights high periods of denied user activity during the past 30 days. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top denied periods for the last 30 days</li><li>Table – Provides details on denied activity</li></ul> |
-

@@ -8,7 +8,7 @@ sidebar_position: 60
 
 The Oracle menu displays the configuration options for Oracle platforms.
 
-![Oracle Platform Configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/oracle.webp)
+![Oracle Platform Configuration](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/oracle.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for an Oracle Platform.

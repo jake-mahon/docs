@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_LAPSPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/computers/lapspermissionsanalysis.webp)
+![Analysis Tasks for the AD_LAPSPermissions Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/computers/lapspermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ produces the following pre-configured reports.
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | LAPS Attributes  | Identify Active Directory objects that have access to LAPS attributes on Computers within your organization.                                          | None         | This report is comprised of three elements: <ul><li>Pie Chart – Displays top attribute permissions by trustee</li><li>Table – Provides details on attribute permissions by trustee</li><li>Table – Provides details on attributes</li></ul> |
 | LAPS Permissions | Identify Active Directory objects that have access to computers objects within your organization that may lead to indirect access to LAPS attributes. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays LAPS permissions by domain</li><li>Pie Chart – Displays LAPS permissions by type</li><li>Table – Provides details on LAPS permissions</li></ul>                    |
-

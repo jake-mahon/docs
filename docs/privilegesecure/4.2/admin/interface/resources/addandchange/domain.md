@@ -12,7 +12,7 @@ Follow the steps to add a domain to the console.
 
 **Step 2 –** Click the **Plus** icon and select Domain from the drop-down list.
 
-![Add Domian Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/adddomain.webp)
+![Add Domian Resource](/images/privilegesecure/4.2/accessmanagement/admin/policy/add/adddomain.webp)
 
 **Step 3 –** Enter the following information:
 

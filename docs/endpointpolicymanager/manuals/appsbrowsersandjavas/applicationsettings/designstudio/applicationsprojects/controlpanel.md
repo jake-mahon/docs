@@ -14,14 +14,14 @@ Manager, and as such, there is special procedure in order to lock them down. In 
 64-bit machines to try to capture Control Panel applets. Figure 203 shows that Endpoint Policy
 Manager DesignStudio sees the process as rundll32.exe when it is running on a 64-bit machine.
 
-![special_applications_and_project_3](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_3.webp)
+![special_applications_and_project_3](/images/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_3.webp)
 
 Figure 203. The Control Panel item when running DesignStudio on a 64-bit machine.
 
 When Endpoint Policy Manager DesignStudio is running on a 32-bit machine, can see that the Control
 Panel applet's name is being called by a CPL extension (see Figure 204).
 
-![special_applications_and_project_4](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_4.webp)
+![special_applications_and_project_4](/images/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_4.webp)
 
 Figure 204. The Control Panel item when running DesignStudio on a 32-bit machine.
 

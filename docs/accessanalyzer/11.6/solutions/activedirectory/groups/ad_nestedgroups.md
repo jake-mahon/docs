@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_NestedGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/nestedgroupsanalysis.webp)
+![Analysis Tasks for the AD_NestedGroups Job](/images/accessanalyzer/11.6/solutions/activedirectory/groups/nestedgroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ the following pre-configured report:
 | Report        | Description                                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                      |
 | ------------- | --------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Nested Groups | This report identifies the groups with the largest amount of nested groups, and how many levels of nesting there are. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top groups by nesting</li><li>Table – Provides details on nested groups</li><li>Table – Provides details on top groups by nesting</li></ul> |
-

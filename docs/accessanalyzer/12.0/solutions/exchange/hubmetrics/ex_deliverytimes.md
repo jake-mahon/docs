@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_DeliveryTimes Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/deliverytimesanalysis.webp)
+![Analysis Tasks for the EX_DeliveryTimes Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/deliverytimesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ the following pre-configured report:
 | Report         | Description                                                                                         | Default Tags | Report Elements                                                                                                                                                                                                                                                                                |
 | -------------- | --------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Delivery Times | This report highlights delivery times overall and by server to identify potential issues with SLAs. | None         | This report is comprised of three elements: <ul><li>Line Chart – Displays percent of mail delivered by time frame (last 30 days)</li><li>Table – Provides details on mail delivered by time frame</li><li>Table – Provides details on percentage of mail delivered in under 1 minute</li></ul> |
-

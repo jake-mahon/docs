@@ -20,11 +20,11 @@ The User Access Review app must be installed and licensed before it can be used.
 3. Enter **433078** in **Keywords**.
 4. Click **Search**.
 
-    ![Search for the UAR bundle](/img/product_docs/platgovnetsuite/uar/bundle_uar.webp)
+    ![Search for the UAR bundle](/images/platgovnetsuite/uar/bundle_uar.webp)
 
 5. Click **Strongpoint UAR**.
 
-    ![Select the bundle](/img/product_docs/platgovnetsuite/uar/bundle_uar2.webp)
+    ![Select the bundle](/images/platgovnetsuite/uar/bundle_uar2.webp)
 
 6. Click **Install** to start the bundle installation.
 7. Verify the installation is complete. Open **Customization** > **SuiteBundler** > **Search &
@@ -44,11 +44,11 @@ Platform Governance for NetSuite.
 2. Click **View**.
 3. Set the **View** to **Strongpoint Licensed Users**.
 
-    ![Set View to Strongpoint Licensed Users](/img/product_docs/platgovnetsuite/uar/licensing_uar.webp)
+    ![Set View to Strongpoint Licensed Users](/images/platgovnetsuite/uar/licensing_uar.webp)
 
 4. Click **New Licensed User**.
 
-    ![UAR Licensed User](/img/product_docs/platgovnetsuite/uar/app_access.webp)
+    ![UAR Licensed User](/images/platgovnetsuite/uar/app_access.webp)
 
 5. Select the **User**.
 6. Set **License Type** to **Full**.
@@ -68,11 +68,11 @@ Platform Governance for NetSuite.
 2. Click **View**.
 3. Set the **View** to **Strongpoint Licensed Users**.
 
-    ![Set View to Strongpoint Licensed Users](/img/product_docs/platgovnetsuite/uar/licensing_uar.webp)
+    ![Set View to Strongpoint Licensed Users](/images/platgovnetsuite/uar/licensing_uar.webp)
 
 4. Click **Edit** beside the User name.
 
-    ![UAR Licensed User](/img/product_docs/platgovnetsuite/uar/licensing_uar2.webp)
+    ![UAR Licensed User](/images/platgovnetsuite/uar/licensing_uar2.webp)
 
 5. Set **License Type** to **Full**.
 6. Assign one or more UAR roles:
@@ -93,18 +93,18 @@ Determine the **Roles** and **Center Types** that need access to UAR.
    listed for each **Role**. For example, if you are adding UAR to the **Controller** role, you can
    see the **Center Type** is **Accounting Center**.
 
-    ![Find the Center Type for each Role](/img/product_docs/platgovnetsuite/uar/role_review.webp)
+    ![Find the Center Type for each Role](/images/platgovnetsuite/uar/role_review.webp)
 
 2. Open **Customization** > **Centers and Tabs** > **Center Tabs**
 3. Click **Edit** by **User Access Review**.
 4. Select the **Center**. This example shows the **Accounting Center**.
 
-    ![Assign the Center](/img/product_docs/platgovnetsuite/uar/center_tab.webp)
+    ![Assign the Center](/images/platgovnetsuite/uar/center_tab.webp)
 
 5. Open the **Audience** tab.
 6. Select the **Role**. This example show the **Controller - Basic** role.
 
-    ![Add the role](/img/product_docs/platgovnetsuite/uar/center_tab_audience.webp)
+    ![Add the role](/images/platgovnetsuite/uar/center_tab_audience.webp)
 
 7. Select **Save** > **Save a Copy**.
 8. Repeat for each **Center Type** and **Role**.

@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Settings page configures the Unix Data Collector settings.
 
-![Unix Data Collector Wizard Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/unix/settings.webp)
+![Unix Data Collector Wizard Settings page](/images/accessanalyzer/11.6/admin/datacollector/unix/settings.webp)
 
 The configurable options are:
 

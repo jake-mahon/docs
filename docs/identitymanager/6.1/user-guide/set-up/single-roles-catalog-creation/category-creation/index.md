@@ -50,17 +50,17 @@ Create a category by proceeding as follows:
 1. On the home page in the **Configuration** section, click on **Access Roles** to access the roles
    page.
 
-    ![Home Page - Access Roles](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+    ![Home Page - Access Roles](/images/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 2. All existing
    [categories](/docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/index.md)
    are shown in the menus on the left. To create a new category, click on **+**.
 
-    ![Add a New Category](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/category-creation/singlerolescatalog_newcategory_v602.webp)
+    ![Add a New Category](/images/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/category-creation/singlerolescatalog_newcategory_v602.webp)
 
 3. Fill in the fields.
 
-    ![Create a Category](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/category-creation/singlerolescatalog_createcategory_v602.webp)
+    ![Create a Category](/images/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/category-creation/singlerolescatalog_createcategory_v602.webp)
 
     - `Identifier`: must be unique among categories and without any whitespace.
     - `Name`: will be displayed in the UI to identify the created category.
@@ -80,4 +80,4 @@ Create a category by proceeding as follows:
 In order to verify the process, check on the **Access Roles** screen that the category is created
 with the right parameters.
 
-![Verify Category](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/category-creation/categorycreation_test_v602.webp)
+![Verify Category](/images/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/category-creation/categorycreation_test_v602.webp)

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_Downloads Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/forensics/downloadsanalysis.webp)
+![Analysis Tasks for the Box_Downloads Job](/images/accessanalyzer/12.0/solutions/box/activity/forensics/downloadsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -34,4 +34,3 @@ following pre-configured report:
 | Report                              | Description                                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                             |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Download Activity (Download Events) | This report identifies download events for the past 30 days. The detailed report shows all resources that were successfully downloaded as well as which users performed those events. | None         | This report is comprised of three elements: <ul><li>Line Chart – Displays last 30 days of downloads</li><li>Table – Provides details on downloads</li></ul> |
-

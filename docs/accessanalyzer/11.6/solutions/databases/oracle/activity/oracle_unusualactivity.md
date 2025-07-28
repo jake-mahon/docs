@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup32.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup32.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ produces the following pre-configured report.
 | Report                  | Description                                                                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unusual Hourly Activity | This report highlights the number of unusual events found per instance, hourly as well as provides details on those events | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays unusual user activity</li><li>Table – Provides details on number of outliers per instance</li><li>Table – Provides details on unusual user activity details</li></ul> |
-

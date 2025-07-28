@@ -78,7 +78,7 @@ topic for additional information.
 
 The position of the pointcut is specified by an activity state and a mode (before or after).
 
-![pointcut Schema](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.webp)
+![pointcut Schema](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.webp)
 
 | Property               | Type         | Description                                                                                                                                                                                                                                                                                                                                    |
 | ---------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

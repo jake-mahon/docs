@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the AD_OURights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/ourightsquery.webp)
+![Query for the AD_OURights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/ourightsquery.webp)
 
 - OU Access Permissions – Returns organizational unit permissions
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_OURights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/ourightsanalysis.webp)
+![Analysis Tasks for the AD_OURights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/ourightsanalysis.webp)
 
 The default analysis tasks are:
 

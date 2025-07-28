@@ -22,7 +22,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_MicrosoftLAPS Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsquery.webp)
+![Queries for the SG_MicrosoftLAPS Job](/images/accessanalyzer/12.0/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsquery.webp)
 
 The query for the SG_MicrosoftLAPS job is:
 
@@ -39,7 +39,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_MicrosoftLAPS Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsanalysis.webp)
+![Analysis Tasks for the SG_MicrosoftLAPS Job](/images/accessanalyzer/12.0/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsanalysis.webp)
 
 The default analysis task is:
 
@@ -52,4 +52,3 @@ following pre-configured report.
 | Report                  | Description                                                                                                                                                             | Default Tags | Report Elements                                                                                                                                   |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Microsoft LAPS Overview | This report gives an overview of LAPS policies in the audited environment. LAPS allows for centralized local administrator password management within Active Directory. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays LAPS status by host</li><li>Table – Provides LAPS policy details</li></ul> |
-

@@ -15,7 +15,7 @@ The Access Analyzer data collectors can collect information from a wide range of
 collection tasks are assigned to jobs at the **Configure** > **Queries** node level. See the
 [Queries Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/queries.md) topic for additional information.
 
-![Query Selection page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/queryselection.webp)
+![Query Selection page](/images/accessanalyzer/12.0/admin/datacollector/queryselection.webp)
 
 The Query Selection page is split into the Tables and Queries sections. The Tables section has the
 following options:
@@ -41,7 +41,7 @@ following options:
 
 Pre-built queries can be added to the Data Collector job through the Libraries window.
 
-![Libraries window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/addqueryfromlibrary.webp)
+![Libraries window](/images/accessanalyzer/12.0/admin/datacollector/addqueryfromlibrary.webp)
 
 The Libraries window toolbar has the following options:
 
@@ -74,7 +74,7 @@ all three tabs listed.
 
 Use the General tab to modify the name or description of the query.
 
-![General tab of the Query Properties window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesgeneral.webp)
+![General tab of the Query Properties window](/images/accessanalyzer/12.0/admin/datacollector/querypropertiesgeneral.webp)
 
 The General tab displays:
 
@@ -103,7 +103,7 @@ information displays in the table on the Query Selection view. See the
 
 Use the Data Source tab to configure the data collector and query.
 
-| ![Data Source tab of Query Properties for new Query](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatasourcenew.webp) | ![Data Source tab of Query Properties for existing Query](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatasourceexisting.webp)         |
+| ![Data Source tab of Query Properties for new Query](/images/accessanalyzer/12.0/admin/datacollector/querypropertiesdatasourcenew.webp) | ![Data Source tab of Query Properties for existing Query](/images/accessanalyzer/12.0/admin/datacollector/querypropertiesdatasourceexisting.webp)         |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | *New Query*                                                                                                                                       | *Existing Query*                                                                                                                                                    |
 
@@ -134,7 +134,7 @@ See the individual data collector section for configuration wizard page informat
 
 Use the Filters tab to include filters into the data collection process.
 
-| ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatafilters.webp) | ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatafilterswithfilter.webp)  |
+| ![Filters tab of Query Properties window](/images/accessanalyzer/12.0/admin/datacollector/querypropertiesdatafilters.webp) | ![Filters tab of Query Properties window](/images/accessanalyzer/12.0/admin/datacollector/querypropertiesdatafilterswithfilter.webp)  |
 |:------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|
 | *No FIlter*                                                                                                                          | *With FIlter*                                                                                                                                   |
 

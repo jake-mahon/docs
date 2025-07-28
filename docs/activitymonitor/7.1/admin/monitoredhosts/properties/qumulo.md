@@ -10,7 +10,7 @@ The Qumulo tab allows users to modify settings after a Qumulo host has been conf
 Qumulo host is added to the monitored hosts table, the configuration can be edited in the host
 Properties.
 
-![Qumulo Host Properties](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/qumulohostproperties.webp)
+![Qumulo Host Properties](/images/activitymonitor/7.1/admin/monitoredhosts/properties/qumulohostproperties.webp)
 
 The configurable options are:
 
@@ -25,7 +25,7 @@ The configurable options are:
 
 - Connect – Click to connect using the selected protocol and validate the connection with Qumulo
 
-![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/trustedservercertificate.webp)-
+![Trusted Server Certificate popup window](/images/activitymonitor/7.1/admin/monitoredhosts/add/trustedservercertificate.webp)-
 HTTPS Options – Opens the Trusted server certificate window to customize the certificate
 verification during a TLS session
 

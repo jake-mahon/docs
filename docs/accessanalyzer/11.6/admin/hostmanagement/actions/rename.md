@@ -15,7 +15,7 @@ fail.
 :::
 
 
-![Host list name window](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/actions/hostlistname.webp)
+![Host list name window](/images/accessanalyzer/11.6/admin/hostmanagement/actions/hostlistname.webp)
 
 Select the host list to rename and click **Rename List** to open the Host list name window. Enter
 the new name for the host list and click **OK**.

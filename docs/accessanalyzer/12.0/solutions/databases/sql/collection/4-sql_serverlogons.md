@@ -19,7 +19,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![sqljobgroup18](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/collection/sqljobgroup18.webp)
+![sqljobgroup18](/images/accessanalyzer/12.0/solutions/databases/sql/collection/sqljobgroup18.webp)
 
 - AppnLogSQL – Uses SmartLog Data Collector to gather logon events
     - See the [SMARTLog Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/overview.md) topic

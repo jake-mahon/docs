@@ -17,7 +17,7 @@ the Tier 2 database and subsequently removed from the Tier 1 database.
 :::
 
 
-![Select DLP criteria for this scan page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/spaa/selectdlpcriteria.webp)
+![Select DLP criteria for this scan page](/images/accessanalyzer/12.0/admin/datacollector/spaa/selectdlpcriteria.webp)
 
 The options on the Select DLP Criteria page are:
 

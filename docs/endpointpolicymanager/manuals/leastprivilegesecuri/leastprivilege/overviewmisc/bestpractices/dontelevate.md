@@ -18,7 +18,7 @@ The default on all rules is **Don't Elevate the Open/Save dialog**.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_don_t_elevate.webp)
+generated](/images/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_don_t_elevate.webp)
 
 In general it should be left as is, unless there is a reason to change it.
 
@@ -29,11 +29,11 @@ Open/Save dialog and possibly bypass security to run programs. In the screenshot
 can right click inside the Open/Save dialog and select **Open PowerShell window here**. This would
 launch PowerShell elevated.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_don_t_elevate.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_don_t_elevate.webp)
 
 Don't elevate Open/Save dialogs to bypass security
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_don_t_elevate.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_don_t_elevate.webp)
 
 Note that Wordpad.exe was launched elevated from an LPM rule. But the Open dialog was not elevated
 because **"Don't Elevate the Open/Save dialog"** is selected. This makes it impossible for users to

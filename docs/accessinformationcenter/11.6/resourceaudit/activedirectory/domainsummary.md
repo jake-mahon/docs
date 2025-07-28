@@ -9,7 +9,7 @@ sidebar_position: 20
 The Domain Summary report at the **Active Directory** node provides a top-level view of domains that
 have been scanned.
 
-![Domain Summary report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/activedirectory/domainsummary.webp)
+![Domain Summary report](/images/accessinformationcenter/11.6/resourceaudit/activedirectory/domainsummary.webp)
 
 This report is comprised of the following columns:
 

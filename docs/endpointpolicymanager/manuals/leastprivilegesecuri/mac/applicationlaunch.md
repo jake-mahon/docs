@@ -23,12 +23,12 @@ has multiple executables.
 ![A screen shot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/using_macos_admin_approval.webp)
+generated](/images/endpointpolicymanager/mac/using_macos_admin_approval.webp)
 
 ![A computer screen with a screen showing a login page
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/using_macos_admin_approval_1.webp)
+generated](/images/endpointpolicymanager/mac/using_macos_admin_approval_1.webp)
 
 :::note
 The Endpoint Policy Manager Least Privilege Admin Approval tool for Windows must be used
@@ -41,4 +41,4 @@ The following options are honored in the Mac (and Windows) client:
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/using_macos_admin_approval_2.webp)
+generated](/images/endpointpolicymanager/mac/using_macos_admin_approval_2.webp)

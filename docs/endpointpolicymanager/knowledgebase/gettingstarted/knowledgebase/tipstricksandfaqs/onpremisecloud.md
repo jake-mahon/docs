@@ -15,4 +15,4 @@ Group Policy or SCCM to deliver your setting.
 All policies are simply merged together. If there's a conflict, the on-premise directive (say, using
 Group Policy) wins.
 
-![609_1_img19-deliveryconflict005-resized-450px](/img/product_docs/endpointpolicymanager/tips/609_1_img19-deliveryconflict005-resized-450px.webp)
+![609_1_img19-deliveryconflict005-resized-450px](/images/endpointpolicymanager/tips/609_1_img19-deliveryconflict005-resized-450px.webp)

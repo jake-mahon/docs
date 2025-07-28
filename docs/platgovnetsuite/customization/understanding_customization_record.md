@@ -44,7 +44,7 @@ The main section of the Customization Record summarizes the key information for 
   open detailed view. For example, there could be multiple scripts and workflows that depend on this
   object. Click links to open detailed view as shown.
 
-![cust_ui_related_objects](/img/product_docs/platgovnetsuite/customizations/cust_ui_related_objects.webp)
+![cust_ui_related_objects](/images/platgovnetsuite/customizations/cust_ui_related_objects.webp)
 
 ### Buttons
 
@@ -90,12 +90,12 @@ report.
 
 #### Detailed Metadata tab
 
-![cust_ui_detailed_metadata](/img/product_docs/platgovnetsuite/customizations/cust_ui_detailed_metadata.webp)
+![cust_ui_detailed_metadata](/images/platgovnetsuite/customizations/cust_ui_detailed_metadata.webp)
 
 #### Detailed Metadata tab for Script Customizations
 
-![cust_ui_detailed_metadata_scripts](/img/product_docs/platgovnetsuite/customizations/cust_ui_detailed_metadata_scripts.webp)
+![cust_ui_detailed_metadata_scripts](/images/platgovnetsuite/customizations/cust_ui_detailed_metadata_scripts.webp)
 
 #### Detailed Metadata tab with Data Sources Integration
 
-![cust_ui_detailed_metadata_data_sources](/img/product_docs/platgovnetsuite/customizations/cust_ui_detailed_metadata_data_sources.webp)
+![cust_ui_detailed_metadata_data_sources](/images/platgovnetsuite/customizations/cust_ui_detailed_metadata_data_sources.webp)

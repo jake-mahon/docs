@@ -12,7 +12,7 @@ domain account, or Privilege Secure application local account that has its crede
 the application. This includes managed user accounts created by activity sessions. The Credentials
 dashboard displays the same information as the [Credentials Page](/docs/privilegesecure/4.2/admin/interface/credentials/credentials.md).
 
-![Credentials Dashboard Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/dashboard/credentials.webp)
+![Credentials Dashboard Page](/images/privilegesecure/4.2/accessmanagement/admin/dashboard/credentials.webp)
 
 The dashboard has the following features:
 

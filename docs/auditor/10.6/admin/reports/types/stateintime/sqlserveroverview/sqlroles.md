@@ -17,7 +17,7 @@ To instruct Netwrix Auditor to collect data needed for this report, make sure th
 for state-in-time reports** option is selected in the monitoring plan properties. See Settings for
 Data Collection.
 
-![sqlserverlevelroles](/img/product_docs/auditor/10.6/admin/reports/types/stateintime/sqlserverlevelroles.webp)
+![sqlserverlevelroles](/images/auditor/10.6/admin/reports/types/stateintime/sqlserverlevelroles.webp)
 
 ## Reported data
 

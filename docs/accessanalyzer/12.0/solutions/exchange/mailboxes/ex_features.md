@@ -14,7 +14,7 @@ Schedule the Features Job Group to run weekly on any desired recurrence.
 :::
 
 
-![Features > EX_Features Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/featuresjobstree.webp)
+![Features > EX_Features Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/exchange/mailboxes/featuresjobstree.webp)
 
 The EX_Features job is located in the Features job group.
 
@@ -22,7 +22,7 @@ The EX_Features job is located in the Features job group.
 
 The EX_Features Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Features Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/featuresquery.webp)
+![Queries for the EX_Features Job](/images/accessanalyzer/12.0/solutions/exchange/mailboxes/featuresquery.webp)
 
 The following query is included with the EX_Features Job:
 
@@ -47,4 +47,3 @@ pre-configured report:
 | Report           | Description                                                              | Default Tags | Report Elements                                                                                         |
 | ---------------- | ------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------- |
 | Mailbox Features | This report identifies features introduced in Exchange for each mailbox. | None         | This report is comprised of one element: <ul><li>Table – Provides details on mailbox features</li></ul> |
-

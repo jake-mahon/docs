@@ -16,12 +16,12 @@ the query to fail.
 :::
 
 
-![Host Discovery Wizard Source page for CSV import](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/source_3.webp)
+![Host Discovery Wizard Source page for CSV import](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/source_3.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Import from a CSV
 file** option on the Source page. Click **Next**.
 
-![Host Discovery Wizard Query page for CSV import](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/query_3.webp)
+![Host Discovery Wizard Query page for CSV import](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/query_3.webp)
 
 **Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
@@ -49,7 +49,7 @@ The source in this case is the Enterprise Auditor Console server.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard CSV File Import page](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/fileimport.webp)
+![Host Discovery Wizard CSV File Import page](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/fileimport.webp)
 
 **Step 3 –** On the CSV File Import page, identify the CSV file to import and the column from within
 the file where the host names are located:
@@ -64,7 +64,7 @@ the file where the host names are located:
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Options page for CSV import](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/options_3.webp)
+![Host Discovery Wizard Options page for CSV import](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/options_3.webp)
 
 **Step 4 –** On the Options page, configure the query options as required.
 
@@ -88,7 +88,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for CSV import](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/inventory_3.webp)
+![Host Discovery Wizard Inventory page for CSV import](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/inventory_3.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.
@@ -113,13 +113,13 @@ the discovery query.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Summary page for CSV import](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/summary_3.webp)
+![Host Discovery Wizard Summary page for CSV import](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/summary_3.webp)
 
 **Step 6 –** The Summary page displays all the selected query configuration settings. To make
 changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the
 configuration process.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
+![Confirm dialog box](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 **Step 7 –** A Confirm dialog box opens. Click **Yes** to run the query now or **No** to run the
 query at another time.

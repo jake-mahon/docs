@@ -11,7 +11,7 @@ to an MSI. In addition to this option, you can also select Paste XMLdata from Cl
 first exporting items as files from the MMC editor. You can see the general steps for this option
 below.
 
-![policypak_exporter_tips_tricks_3](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_3.webp)
+![policypak_exporter_tips_tricks_3](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_3.webp)
 
 **Step 1 –** As for Group Policy Preference item content, you can right-click the content inside the
 Group Policy Preferences editor, and select Display XML. As shown below, the first line must always
@@ -24,4 +24,4 @@ Explorer includes in order to make it easier to read.
 
 **Step 4 –** Click **Validate**. If successful, the **Validate** button will change to Save.
 
-![policypak_exporter_tips_tricks_4](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_4.webp)
+![policypak_exporter_tips_tricks_4](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_4.webp)

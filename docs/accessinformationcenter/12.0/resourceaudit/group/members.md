@@ -16,7 +16,7 @@ information.
 :::
 
 
-![Members report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/group/members.webp)
+![Members report](/images/accessinformationcenter/12.0/resourceaudit/group/members.webp)
 
 This report is comprised of the following columns:
 

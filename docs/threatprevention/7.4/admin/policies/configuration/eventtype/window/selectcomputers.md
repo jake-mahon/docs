@@ -9,7 +9,7 @@ sidebar_position: 100
 The Select Computer window provides a list of available computers. Selected objects are added to the
 filter from where you clicked the **Add** (+) button to open this window.
 
-![Select Computer Window](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/window/selectcomputers.webp)
+![Select Computer Window](/images/threatprevention/7.4/admin/policies/eventtype/window/selectcomputers.webp)
 
 - Select either Browse Mode or Search Mode.
 

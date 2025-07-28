@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/sqljobgroup45.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/configuration/sqljobgroup45.webp)
 
 The default analysis task is:
 
@@ -34,4 +34,3 @@ following pre-configured report.
 | Report               | Description                                                                                                                                                                                                                       | Default Tags | Report Elements                                                                                                                                 |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | xp_cmdshell Settings | Because malicious users sometimes attempt to elevate their privileges by using xp_cmdshell, xp_cmdshell is disabled by default. Use sp_configure or Policy Based Management to disable it on any instances which have it enabled. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays instance summary</li><li>Table– Displays configuration details</li></ul> |
-

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_Samba Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/sharing/sambaanalysis.webp)
+![Analysis Tasks for the UX_Samba Job](/images/accessanalyzer/11.6/solutions/unix/sharing/sambaanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following pre-configured report:
 | Report                                                | Description                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                                                                          |
 | ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Samba Shares with Potentially Insecure Configurations | This report identifies Samba shares with parameters which may lead to open access | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Hosts by Potentially Insecure Shares</li><li>Table – Provides details on Top Hosts by Potentially Insecure Shares bar chart</li><li>Table – Provides details on List of Potentially Insecure Share Configurations</li></ul> |
-

@@ -11,7 +11,7 @@ The Users and Roles page displays the accounts with access to Recovery for Activ
 Click **Configuration** in the left pane. Then click the **Users and Roles tab** on the
 Configuration page to open the Users and Roles page.
 
-![Users and Roles page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/roles.webp)
+![Users and Roles page](/images/recoveryforactivedirectory/2.6/admin/configuration/roles.webp)
 
 The table displays the following information:
 
@@ -38,7 +38,7 @@ all its members can log in.
 **Step 1 –** Click the **Add Account Role** button on the Users and Roles page. The Add Account Role
 wizard opens.
 
-![Add Account Role wizard – Account page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/account.webp)
+![Add Account Role wizard – Account page](/images/recoveryforactivedirectory/2.6/admin/configuration/account.webp)
 
 **Step 2 –** Enter a user's first or last name, display name, sAMAccountName, or group name in the
 **Search** field. As you type, the system will find matches in Active Directory and display the
@@ -46,7 +46,7 @@ results.
 
 **Step 3 –** Select the desired user and click **Next**.
 
-![Add Account Role wizard – Role page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/role.webp)
+![Add Account Role wizard – Role page](/images/recoveryforactivedirectory/2.6/admin/configuration/role.webp)
 
 **Step 4 –** Select the Administrator or Operator role for the account from the **Role** drop-down
 menu.
@@ -59,7 +59,7 @@ menu.
 
 **Step 5 –** Click **Next**.
 
-![Add Account Role wizard – Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/confirm.webp)
+![Add Account Role wizard – Confirm page](/images/recoveryforactivedirectory/2.6/admin/configuration/confirm.webp)
 
 **Step 6 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
@@ -94,7 +94,7 @@ This action is only available for manually added accounts and not for the defaul
 
 **Step 2 –** Click the **Remove** button to remove that user or group from the table.
 
-![Delete Role Confirmation](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/deleterole.webp)
+![Delete Role Confirmation](/images/recoveryforactivedirectory/2.6/admin/configuration/deleterole.webp)
 
 **Step 3 –** Click **OK** to confirm the action.
 

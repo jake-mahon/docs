@@ -14,7 +14,7 @@ various resources related to threats and events in Threat Manager. Pages include
 - [Group Details Page](/docs/threatmanager/3.0/administration/threats/activedirectoryobjects/group.md)
 - [Host Details Page](/docs/threatmanager/3.0/administration/threats/activedirectoryobjects/host.md)
 
-![threatlist](/img/product_docs/threatmanager/3.0/administration/threatlist.webp)
+![threatlist](/images/threatmanager/3.0/administration/threatlist.webp)
 
 The [Threats Page](/docs/threatmanager/3.0/administration/threats/threats.md) contains a threats list with hyperlinks which can be clicked to
 access these pages.
@@ -23,7 +23,7 @@ access these pages.
 
 The User Details, Group Details, and Host Details pages contain some common page elements.
 
-![page](/img/product_docs/threatmanager/3.0/administration/threatdetails/page_1.webp)
+![page](/images/threatmanager/3.0/administration/threatdetails/page_1.webp)
 
 Common details page elements include:
 
@@ -35,7 +35,7 @@ Common details page elements include:
 
 The profile card displays information about the selected user, group, or host.
 
-![This screenshot displays a Profile Card.](/img/product_docs/threatmanager/3.0/administration/threatdetails/profilecard.webp)
+![This screenshot displays a Profile Card.](/images/threatmanager/3.0/administration/threatdetails/profilecard.webp)
 
 The type information displayed depends on the information available for the user, group, or host.
 
@@ -43,7 +43,7 @@ The type information displayed depends on the information available for the user
 
 The following icons may be displayed in the profile card for user accounts and computers:
 
-![profileicon](/img/product_docs/threatmanager/3.0/administration/threatdetails/profileicon.webp)
+![profileicon](/images/threatmanager/3.0/administration/threatdetails/profileicon.webp)
 
 1. Non-Synced object icon : This icon appears when an object was not found in a sync but was created
    by an event.
@@ -56,7 +56,7 @@ The following icons may be displayed in the profile card for user accounts and c
 
 Depending on the selected user, group, or host, the following tabs may be displayed:
 
-![This screenshot displays the tabs for the Active Directory Objects page. Tabs include Threats, Activity Summary, and Group Membership.](/img/product_docs/threatmanager/3.0/administration/threatdetails/adobjecttabs.webp)
+![This screenshot displays the tabs for the Active Directory Objects page. Tabs include Threats, Activity Summary, and Group Membership.](/images/threatmanager/3.0/administration/threatdetails/adobjecttabs.webp)
 
 - Threats Tab – Displays a chart with threats detected for the user, group, or host
 - Activity Summary Tab – Depending on the selected user, group, or host, the page may display the
@@ -79,7 +79,7 @@ provides the option to create new tags.
 
 Follow the steps to add a tag to a user, group, or computer.
 
-![addtagbutton](/img/product_docs/threatmanager/3.0/administration/threatdetails/addtagbutton.webp)
+![addtagbutton](/images/threatmanager/3.0/administration/threatdetails/addtagbutton.webp)
 
 **Step 1 –** Click the Add Tag button.
 

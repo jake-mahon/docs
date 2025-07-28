@@ -9,7 +9,7 @@ sidebar_position: 50
 The Sessions tab for Microsoft Entra ID (formerly Azure AD) shows information about the sessions of
 the selected resource.
 
-![Sessions Tab Azure AD](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/sessionsazuread.webp)
+![Sessions Tab Azure AD](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/sessionsazuread.webp)
 
 The Sessions tab has the following features:
 

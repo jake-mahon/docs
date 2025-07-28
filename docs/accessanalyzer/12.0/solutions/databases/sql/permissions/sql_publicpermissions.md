@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/permissions/sqljobgroup40.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/permissions/sqljobgroup40.webp)
 
 The default analysis tasks are:
 
@@ -39,4 +39,3 @@ produces the following pre-configured report.
 | Report             | Description                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                                    |
 | ------------------ | -------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Public Permissions | This report determines highlights objects with public permissions applied. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top databases by public permission count</li><li>Table – Provides details on databases by public permission count</li><li>Table – Provides details on public permission details</li></ul> |
-

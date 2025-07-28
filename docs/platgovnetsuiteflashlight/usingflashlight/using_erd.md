@@ -21,11 +21,11 @@ To access the ERD view:
 1. Open **Flashlight** > **Tools** > **ERD**
 2. Select a **Record Type**
 
-    ![ERD Filter Options](/img/product_docs/platgovnetsuiteflashlight/using_flashlight/erd_filters_800x231.webp)
+    ![ERD Filter Options](/images/platgovnetsuiteflashlight/using_flashlight/erd_filters_800x231.webp)
 
 3. Click **Show Record ERD** to generate the diagram.
 
-    ![ERD](/img/product_docs/platgovnetsuiteflashlight/using_flashlight/erd_800x517.webp)
+    ![ERD](/images/platgovnetsuiteflashlight/using_flashlight/erd_800x517.webp)
 
 4. The left panel displays your selected **Record Type**
 5. Click on any field in the ERD to see:
@@ -37,7 +37,7 @@ To access the ERD view:
     - **Open record**: Opens the customization record.
 
 6. All Workflows, Forms and Scripts joined to the selected record are displayed along with any
-   associated metadata.  
+   associated metadata.
    As you click through the ERD diagram, the associated dependencies are displayed. This tool allows
    you to easily understand what customizations are impacted by a given field on the customization
    record.

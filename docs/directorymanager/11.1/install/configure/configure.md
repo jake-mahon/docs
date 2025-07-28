@@ -18,11 +18,11 @@ Step 1 – Run the Configuration Tool in one of the following ways:
 
 In either case, the tool opens to the **Introduction** page.
 
-![Introduction page](/img/product_docs/directorymanager/11.1/install/configure/intro.webp)
+![Introduction page](/images/directorymanager/11.1/install/configure/intro.webp)
 
 Step 2 – Read the welcome message and click **Next**.
 
-![Create new server page](/img/product_docs/directorymanager/11.1/install/configure/select_to_create_a_new_server-new.webp)
+![Create new server page](/images/directorymanager/11.1/install/configure/select_to_create_a_new_server-new.webp)
 
 Step 3 – To configure a Directory Manager server or a Directory Manager client, select the relevant
 option.

@@ -26,7 +26,7 @@ rule will be automatically created.
 **Step 4 –** If you use a third-party firewall, you must create a rule for inbound connections
 manually.
 
-![Integration API Settings](/img/product_docs/auditor/10.6/addon/connectwise/integrations.webp)
+![Integration API Settings](/images/auditor/10.6/addon/connectwise/integrations.webp)
 
 ## Configure Audit Database Settings
 

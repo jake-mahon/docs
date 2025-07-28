@@ -9,7 +9,7 @@ sidebar_position: 20
 The About page is accessed by selecting About from the User Options menu (icon beside the logged in
 user name).
 
-![About page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/aboutpage.webp)
+![About page](/images/privilegesecure/4.1/accessmanagement/admin/aboutpage.webp)
 
 It displays your license information and details about the third party components used by the
 application. It also allows you to upload a new license file. See the
@@ -34,7 +34,7 @@ At the top of the About page, the following license information is displayed:
     :::
 
 
-![About page showing additional Customer Info details](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/aboutcustomerdetails.webp)
+![About page showing additional Customer Info details](/images/privilegesecure/4.1/accessmanagement/admin/aboutcustomerdetails.webp)
 
 Click the arrow icon beside the Customer Info information to view additional customer details:
 
@@ -49,6 +49,6 @@ Click the arrow icon beside the Customer Info information to view additional cus
 
 Click About third party components to open the About third party components window.
 
-![About third party components window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/thirdpartycomponents.webp)
+![About third party components window](/images/privilegesecure/4.1/accessmanagement/admin/thirdpartycomponents.webp)
 
 This window displays detailed information about all third party components used by the application.

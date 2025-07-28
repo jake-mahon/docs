@@ -9,7 +9,7 @@ sidebar_position: 50
 The Attribute Changes report for a user object provides specific details for every attribute change
 to the audited user during the selected date range.
 
-![Attribute Changes report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/user/attributechanges.webp)
+![Attribute Changes report](/images/accessinformationcenter/11.6/resourceaudit/user/attributechanges.webp)
 
 This report is comprised of the following columns:
 

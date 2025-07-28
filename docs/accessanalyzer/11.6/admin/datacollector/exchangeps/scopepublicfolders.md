@@ -23,7 +23,7 @@ The option selected changes how the public folders are identified for scoping.
 The **Selected Public Folders** scope option retrieves all public folders in the Exchange
 organization, populating them in the Available list.
 
-![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Public Folders option](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangeps/scopepublicfolders.webp)
+![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Public Folders option](/images/accessanalyzer/11.6/admin/datacollector/exchangeps/scopepublicfolders.webp)
 
 The **Search** feature filters this list. Select the desired public folders and click **Add**. The
 selected public folders are added to the Selected list. Use the **Remove** option to delete selected
@@ -39,7 +39,7 @@ selection. Additional scoping options include:
 The **Selected Table** scope option populates the Available tables list with tables from the
 Enterprise Auditor database.
 
-![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Table option](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangeps/scopepublicfoldersselectedtable.webp)
+![ExchangePS Data Collector Wizard Scope by Public Folders page with Selected Table option](/images/accessanalyzer/11.6/admin/datacollector/exchangeps/scopepublicfoldersselectedtable.webp)
 
 The **Search** feature filters this list. Select the table that houses the list of public folders
 for which this query will be scoped. The Field containing EntryIDs list is populated with columns

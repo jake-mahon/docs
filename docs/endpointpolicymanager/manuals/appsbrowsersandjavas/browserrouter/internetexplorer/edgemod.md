@@ -29,7 +29,7 @@ Create a rule for
 [www.endpointpolicymanager.com](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-and-ports.html) and
 assign it to IE. This time select **Open as IE in Edge tab** .
 
-![about_policypak_browser_router_29](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_29.webp)
+![about_policypak_browser_router_29](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_29.webp)
 
 When the user logs on and tries to access [www.endpointpolicymanager.com](http://www.endpointpolicymanager.com/) they should
 see it open as an IE tab in Edge. We say should because the rule will not work right away. There is
@@ -40,7 +40,7 @@ From the first time a user accesses
 a period of 65 seconds or so has to transpire until the rule comes fully into effect. Here you can
 see that the Endpoint Policy Manager website now appears in IE mode within the Edge browser itself:
 
-![about_policypak_browser_router_30](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_30.webp)
+![about_policypak_browser_router_30](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_30.webp)
 
 ### Converting Existing IE Site List XMLs
 
@@ -59,26 +59,26 @@ Microsoft has a tool you can use to create these lists that you can download at
 [https://www.microsoft.com/en-us/download/details.aspx?id=49974](https://www.microsoft.com/en-us/download/details.aspx?id=49974).
 Simply run the tool and add the sites along with their necessary parameters.
 
-![about_policypak_browser_router_31](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_31.webp)
+![about_policypak_browser_router_31](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_31.webp)
 
 When this is complete, save the list as an XML file. Once you have a list, create a **From
 Enterprise Mode Site List** rule using Endpoint Policy Manager Browser Router.
 
-![about_policypak_browser_router_32](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_32.webp)
+![about_policypak_browser_router_32](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_32.webp)
 
 You are then prompted to point to the created list. Once selected, a pop-up confirms the number of
 rules being imported. You can choose to import the rules into the existing collection or a new
 collection.
 
-![about_policypak_browser_router_33](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_33.webp)
+![about_policypak_browser_router_33](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_33.webp)
 
 The imported rules now appear.
 
-![about_policypak_browser_router_34](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_34.webp)
+![about_policypak_browser_router_34](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_34.webp)
 
 You can review any of the rules to confirm or change their settings.
 
-![about_policypak_browser_router_35](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_35.webp)
+![about_policypak_browser_router_35](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_35.webp)
 
 ### Using Special Policy Types for Internet Explorer
 
@@ -94,7 +94,7 @@ Microsoft Edge, please see
 
 The policies are **All intranet to IE** policy and **All Enterprise from Edge to I**E policy.
 
-![about_policypak_browser_router_36](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_36.webp)
+![about_policypak_browser_router_36](/images/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_36.webp)
 
 The **All intranet to IE** policy will take all websites that are already defined in the Intranet
 zone and ensure that those sites open in Internet Explorer 11 whenever the user tries to use

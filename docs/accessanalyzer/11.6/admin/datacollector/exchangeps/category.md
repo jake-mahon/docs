@@ -10,7 +10,7 @@ The Category page contains a connection section where connection options are def
 where the query category is selected. The available query categories are sub-divided by auditing
 focus.
 
-![ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangeps/category.webp)
+![ExchangePS Data Collector Wizard Category page](/images/accessanalyzer/11.6/admin/datacollector/exchangeps/category.webp)
 
 ## Connection
 

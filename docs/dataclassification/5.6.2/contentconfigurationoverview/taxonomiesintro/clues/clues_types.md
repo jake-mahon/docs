@@ -56,11 +56,11 @@ A clue based on document metadata, with matching based on:
 
 Helpers are provided to format metadata clues, to activate the helper simply select the appropriate
 icon for the desired clue type (numeric, date, and basic):
-![metadatacluehelpers](/img/product_docs/dataclassification/5.6.2/taxonomies/metadatacluehelpers.webp)
+![metadatacluehelpers](/images/dataclassification/5.6.2/taxonomies/metadatacluehelpers.webp)
 
 The date helper supports assisting in the creation of both static and dynamic date clues:
 
-![createdateclue](/img/product_docs/dataclassification/5.6.2/taxonomies/createdateclue.webp)
+![createdateclue](/images/dataclassification/5.6.2/taxonomies/createdateclue.webp)
 
 Both field and value are case-insensitive for metadata matches. Wildcard matches must included a \*
 character before the equals sign (as shown in the example above).
@@ -354,7 +354,7 @@ To add a validation check:
 3. Select the desired check **Type** from the drop-down list, and specify other settings depending
    on the type.
 
-![clues_regexp_validationcheck_thumb_0_48](/img/product_docs/dataclassification/5.6.2/taxonomies/clues_regexp_validationcheck_thumb_0_48.webp)
+![clues_regexp_validationcheck_thumb_0_48](/images/dataclassification/5.6.2/taxonomies/clues_regexp_validationcheck_thumb_0_48.webp)
 
 4. Click Save.
 
@@ -384,7 +384,7 @@ The valid entries for this type of clue are:
 
 A tree view control makes selecting the required class easy:
 
-![requiredterm](/img/product_docs/dataclassification/5.6.2/taxonomies/requiredterm.webp)
+![requiredterm](/images/dataclassification/5.6.2/taxonomies/requiredterm.webp)
 
 For example, suppose that we have a topic _Pensions_ with two children:
 
@@ -404,14 +404,14 @@ This is most often used when a complex class is implemented using several child 
 classes. Basically, you would want to apply these clues to refer to the other term or taxonomy and
 review the score for each term, not drilling down to each term. Review the example:
 
-![termboostclue_int_thumb_0_0](/img/product_docs/dataclassification/5.6.2/taxonomies/termboostclue_int_thumb_0_0.webp)
+![termboostclue_int_thumb_0_0](/images/dataclassification/5.6.2/taxonomies/termboostclue_int_thumb_0_0.webp)
 
 In a tree view you can find the list of terms, which are displayed in the Term boost list to the
 right. This way you can review or edit the average score for each term.
 
 Use the tree view control below to select boosting classes easy.
 
-![termboost](/img/product_docs/dataclassification/5.6.2/taxonomies/termboost.webp)
+![termboost](/images/dataclassification/5.6.2/taxonomies/termboost.webp)
 
 The score may be entered as a number (if a fixed boost is required regardless of the source term’s
 score) or as a percentage (if the boost score is to be calculated as a percentage of the source
@@ -420,7 +420,7 @@ term’s score).
 When referencing a specific node it is also possible to include all of the levels of that nodes
 descendants at once.
 
-![termboostclue_allterms_thumb_0_0](/img/product_docs/dataclassification/5.6.2/taxonomies/termboostclue_allterms_thumb_0_0.webp)
+![termboostclue_allterms_thumb_0_0](/images/dataclassification/5.6.2/taxonomies/termboostclue_allterms_thumb_0_0.webp)
 
 At classification time if the referenced node or any of its descendants (up to the configured level)
 reach their threshold then the term boost will be applied.
@@ -431,7 +431,7 @@ tagging for your taxonomy. For example, you have UK ZIP code, which was tagged a
 Tagging** before. It doesn't qualify as sensitive for your Confidential term. Therefore, you can
 apply this feature.
 
-![termboostclue_exludenotavailablefortagging_thumb_0_0](/img/product_docs/dataclassification/5.6.2/taxonomies/termboostclue_exludenotavailablefortagging_thumb_0_0.webp)
+![termboostclue_exludenotavailablefortagging_thumb_0_0](/images/dataclassification/5.6.2/taxonomies/termboostclue_exludenotavailablefortagging_thumb_0_0.webp)
 
 ## Language Clues
 
@@ -441,7 +441,7 @@ language as a filter on classification.
 For example, if you create a new class and want documents to be classified only if they are written
 in a Scandinavian language then you would create a Language clue, like this:
 
-![languageclue](/img/product_docs/dataclassification/5.6.2/taxonomies/languageclue.webp)
+![languageclue](/images/dataclassification/5.6.2/taxonomies/languageclue.webp)
 
 ## Static Clues
 

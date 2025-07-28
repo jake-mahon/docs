@@ -40,4 +40,4 @@ additional information.
   Queue performance.
 - [System Settings](/docs/changetracker/8.1/admin/settingstab/systemsettings/systemsettings.md) – Upload new license key.
 
-![Graphical user interface, website](/img/product_docs/changetracker/8.1/admin/settings/page_guide_23.webp)
+![Graphical user interface, website](/images/changetracker/8.1/admin/settings/page_guide_23.webp)

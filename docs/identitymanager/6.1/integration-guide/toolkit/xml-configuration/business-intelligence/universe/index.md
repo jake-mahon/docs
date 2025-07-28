@@ -24,13 +24,13 @@ The following example builds a universe called `Universe1`:
 
 ```
 
-![Universe - Basic Example](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
+![Universe - Basic Example](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
 
 When
 [getting Usercube data in Power BI](/docs/identitymanager/6.1/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (Display Names)](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
+![Universe (Display Names)](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
 
 ##### Basic universe with identifiers instead of display names
 
@@ -43,13 +43,13 @@ display names:
 
 ```
 
-![Universe - Basic Example](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
+![Universe - Basic Example](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
 
 When
 [getting Usercube data in Power BI](/docs/identitymanager/6.1/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (Identifiers)](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
+![Universe (Identifiers)](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
 
 ## Properties
 

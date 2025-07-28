@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_SensitiveData Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/sensitivedata/sensitivedataanalysis.webp)
+![Analysis Tasks for the AWS_SensitiveData Job](/images/accessanalyzer/12.0/solutions/aws/sensitivedata/sensitivedataanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ the following preconfigured reports:
 | ----------------------- | ----------------------------------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise.  | None           | This report is comprised of the following elements: <ul><li>Chart – Displays exceptions by match count</li><li>Table – Provides details on exceptions</li></ul>                                                                         |
 | Sensitive Data Overview | This report identifies objects in AWS S3 buckets that contain sensitive data. | Sensitive Data | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top buckets by sensitive data hit</li><li>Table – Shows sensitive data by account</li><li>Table – Provides details on sensitive data</li></ul> |
-

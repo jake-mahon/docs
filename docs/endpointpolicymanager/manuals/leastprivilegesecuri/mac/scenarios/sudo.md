@@ -25,14 +25,14 @@ Sudo mkdir /Users/Sudo/test1 but is blocked with a password request.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/sudo.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/sudo.webp)
 
 To overcome this, create a SUDO rule like this one:
 
 :![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/sudo_1.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/sudo_1.webp)
 
 The Actions are:
 
@@ -50,4 +50,4 @@ runs without password requirement.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/sudo_2.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/sudo_2.webp)

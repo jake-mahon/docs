@@ -19,20 +19,20 @@ Follow the steps to upgrade from PostgreSQL 14.8.x to 14.13.x.
 **Step 1 –** Run `Netwrix_Setup.exe` as an administrator. The Netwrix Setup Launcher window is
 displayed.
 
-![Netwrix Threat Manager Setup window](/img/product_docs/threatprevention/7.5/install/upgrade/tm3installation.webp)
+![Netwrix Threat Manager Setup window](/images/threatprevention/7.5/install/upgrade/tm3installation.webp)
 
 **Step 2 –** Click **PostgreSQL Setup** to upgrade the PostgreSQL version. The following message is
 displayed, indicating the currently installed version:
 
-![Threat Manager Reporting - Upgrade DB Confirmation dialog box](/img/product_docs/threatprevention/7.5/install/upgrade/upgradedbprompt.webp)
+![Threat Manager Reporting - Upgrade DB Confirmation dialog box](/images/threatprevention/7.5/install/upgrade/upgradedbprompt.webp)
 
 **Step 3 –** Click **OK** to upgrade. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/installdb1.webp)
+![Netwrix PostgreSQL Setup wizard](/images/threatmanager/3.0/install/installdb1.webp)
 
 **Step 4 –** Click **Install**.
 
-![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+![Netwrix PostgreSQL Setup wizard on the EULA page](/images/activitymonitor/8.0/install/eula.webp)
 
 **Step 5 –** Read the End User License Agreement and select the I accept the license agreement checkbox. Click Next.
 
@@ -59,20 +59,20 @@ PostgreSQL may fail to start or behave unexpectedly when monitored by any tool.
 **Step 1 –** Click the Netwrix Threat Manager **Setup** button on the Netwrix Threat Manager setup
 window. The following message displays:
 
-![Existing Threat Manager version message](/img/product_docs/threatmanager/3.0/install/existingtmvver.webp)
+![Existing Threat Manager version message](/images/threatmanager/3.0/install/existingtmvver.webp)
 
 **Step 2 –** Click **OK**. The following window is displayed:
 
-![Install Threat Manager 3.0 Page](/img/product_docs/threatmanager/3.0/install/installtm3.0.webp)
+![Install Threat Manager 3.0 Page](/images/threatmanager/3.0/install/installtm3.0.webp)
 
 **Step 3 –** Click **Install**.
 
-![Install Netwrix Threat Manager 3.0 page](/img/product_docs/threatmanager/3.0/install/tm3eula.webp)
+![Install Netwrix Threat Manager 3.0 page](/images/threatmanager/3.0/install/tm3eula.webp)
 
 **Step 4 –** On the End User License Agreement page, review and accept the licensing agreement and
 then click **Next**.
 
-![Threat Manager 3.0 Defalt Setup Folder](/img/product_docs/threatmanager/3.0/install/tm3defaultfolder.webp)
+![Threat Manager 3.0 Defalt Setup Folder](/images/threatmanager/3.0/install/tm3defaultfolder.webp)
 
 **Step 5 –** By default, the installation directory is set to:
 
@@ -80,7 +80,7 @@ then click **Next**.
 
 Enter a new path or use the Browse button to modify as desired. Click **Next**.
 
-![Connect to a Threat Manager Database page](/img/product_docs/threatmanager/3.0/install/tmdatababse.webp)
+![Connect to a Threat Manager Database page](/images/threatmanager/3.0/install/tmdatababse.webp)
 
 **Step 6 –** On the database page, ensure the host and port are set correctly.
 
@@ -95,17 +95,17 @@ it can be modified as desired.
 
 **Step 8 –** After successful validation, click **Next**.
 
-![Firewall Rules Page of Threat Manager Installation wizard](/img/product_docs/threatmanager/3.0/install/firewallrules.webp)
+![Firewall Rules Page of Threat Manager Installation wizard](/images/threatmanager/3.0/install/firewallrules.webp)
 
 **Step 9 –** By default, the installer will Create Inbound Windows Firewall Rules. Deselect the
 checkbox if you do not want the installer to automatically create these rules, because you have
 already created them. Click **Next**.
 
-![Threat Manager Installation Progress page](/img/product_docs/threatmanager/3.0/install/installprogress.webp)
+![Threat Manager Installation Progress page](/images/threatmanager/3.0/install/installprogress.webp)
 
 **Step 10 –** The installation process will begin and the Setup wizard will display the progress.
 
-![Threat Manager 3.0 Installed Successfully page](/img/product_docs/threatmanager/3.0/install/completed.webp)
+![Threat Manager 3.0 Installed Successfully page](/images/threatmanager/3.0/install/completed.webp)
 
 **Step 11 –** Click **Exit** when the installation completes successfully. The Netwrix Threat
 Manager Setup wizard closes.

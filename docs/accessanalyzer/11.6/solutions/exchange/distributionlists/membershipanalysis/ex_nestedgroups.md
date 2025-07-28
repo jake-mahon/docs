@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_NestedGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.webp)
+![Analysis Tasks for the EX_NestedGroups Job](/images/accessanalyzer/11.6/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

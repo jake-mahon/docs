@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The Events page shows event logs for the Privilege Secure Console.
 
-![Audit and Reporting Events Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/eventspage.webp)
+![Audit and Reporting Events Page](/images/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/eventspage.webp)
 
 The Events page has the following features:
 

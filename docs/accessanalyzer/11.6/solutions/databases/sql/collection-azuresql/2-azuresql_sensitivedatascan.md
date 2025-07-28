@@ -13,7 +13,7 @@ instances and databases based on pre-defined or user-defined search criteria.
 
 The 2–AzureSQL_SensitiveDataScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/sensitivedatascanjob.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/sensitivedatascanjob.webp)
 
 - Sensitive Data Scan — Collects sensitive data from targeted instances
 
@@ -28,7 +28,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/sensitivedatascananalysis.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/sensitivedatascananalysis.webp)
 
 The default analysis tasks are:
 

@@ -94,7 +94,7 @@ to avoid misuse.
     openssl rsa -in [drlive.key] -out [drlive-decrypted.key]
     ```
 
-Type the password that you created to protect the private key file in the previous step.   
+Type the password that you created to protect the private key file in the previous step. 
 The `.crt` file and the decrypted and encrypted `.key` files are available in the path, where you
 started OpenSSL.
 
@@ -110,18 +110,18 @@ This guide will use Win32 OpenSSL as reference.
 Once you have installed Win32 OpenSSL, start the cmd prompt as administrator and navigate to the
 install location i.e. C:\Program Files\OpenSSL-Win32\bin
 
-Type openssl to run  
-![Command Prompt for OpenSSL](https://www.nuttyabouthosting.co.uk/assets/img/kb/OpenSSL_CmdPrompt.webp)
+Type openssl to run
+![Command Prompt for OpenSSL](https://www.nuttyabouthosting.co.uk/images/img/kb/OpenSSL_CmdPrompt.webp)
 
 Here are the commands using a wildcard certificate for an example
 
-1. Extract Private Key.  
+1. Extract Private Key.
    pkcs12 -in "C:\CA-PovidedSSLCert.pfx" -nocerts -out "C:\ExtractedKey.pem"
 
-2. Now to remove the passphrase from the private key pem file.  
+2. Now to remove the passphrase from the private key pem file.
    rsa -in "C:\ExtractedSSL.pem" -out "C:\ExtractedKey.key"
 
-3. Now extract the certificate file.  
+3. Now extract the certificate file.
    pkcs12 -in "C:\CA-PovidedSSLCert.pfx" -clcerts -nokeys -out "C: \ExtractedCert.pem"
 
 4. Now use a program such as Notepad ++, Word, or any text editor to open and view the above

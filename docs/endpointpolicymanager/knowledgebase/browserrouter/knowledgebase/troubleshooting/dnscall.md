@@ -16,14 +16,14 @@ that is querying that dead host computer' FQDN.
 
 Like in an example screenshot below.
 
-![878_1_image-20211223234143-1](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/878_1_image-20211223234143-1.webp)
+![878_1_image-20211223234143-1](/images/endpointpolicymanager/troubleshooting/browserrouter/878_1_image-20211223234143-1.webp)
 
 ## Cause:
 
 The cause of the problem is a Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router
 (PPBR) rule that has an Item-level Targeting (ILT) filter of the decommissioned host computer.
 
-![878_2_image-20211223234143-2](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/878_2_image-20211223234143-2.webp)
+![878_2_image-20211223234143-2](/images/endpointpolicymanager/troubleshooting/browserrouter/878_2_image-20211223234143-2.webp)
 
 ## Resolution:
 

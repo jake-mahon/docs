@@ -20,7 +20,7 @@ The event filters for the Active Directory Lockdown event type are:
 - User Account Control
 - Rule Preview
 
-![Policy window - Active Directory Lockdown Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adlockdown.webp)
+![Policy window - Active Directory Lockdown Event Type](/images/threatprevention/7.5/admin/policies/eventtype/adlockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -36,7 +36,7 @@ blocked.
 Use the AD Event filter to select Active Directory events to be monitored or locked down by the
 policy.
 
-![Policy window - AD Event filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adevent.webp)
+![Policy window - AD Event filter](/images/threatprevention/7.5/admin/policies/eventtype/adevent.webp)
 
 Check the **All** box to monitor or lockdown all operations, or select specific operations:
 
@@ -54,7 +54,7 @@ Use the AD Objects and Containers filter to set the scope of the policy to lockd
 specific objects or containers within Active Directory or to exclude changes to specific objects or
 containers from being locked down.
 
-![Policy window - AD Objects and Containers filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adobjectsandcontainers.webp)
+![Policy window - AD Objects and Containers filter](/images/threatprevention/7.5/admin/policies/eventtype/adobjectsandcontainers.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -79,7 +79,7 @@ for additional information.
 
 **Sub Tree**
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/images/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -98,7 +98,7 @@ Use the AD Classes And Attributes filter to set the scope of the policy to lockd
 specific Active Directory classes and/or attributes, or to exclude changes to specific classes
 and/or attributes from being locked down.
 
-![Policy window - AD Classes And Attributes filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adclassesattributes.webp)
+![Policy window - AD Classes And Attributes filter](/images/threatprevention/7.5/admin/policies/eventtype/adclassesattributes.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -125,7 +125,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](/images/threatprevention/7.5/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -157,7 +157,7 @@ for additional information.
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific
 hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/hostsfromlockdown.webp)
+![Policy window - Hosts (from) filter](/images/threatprevention/7.5/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -176,7 +176,7 @@ Use the buttons in the Include Hosts area to edit the list.
 
 Use the User Account Control (UAC) filter to block specific UAC settings by the policy.
 
-![Policy window - User Account Control (UAC) filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/useraccountcontrol.webp)
+![Policy window - User Account Control (UAC) filter](/images/threatprevention/7.5/admin/policies/eventtype/useraccountcontrol.webp)
 
 The User Account Control filter displays a list of UAC flags. Choose specific userAccountControl
 flags from the list using the **Attribute Set** and/or **Attribute Clear** checkboxes. If an
@@ -187,7 +187,7 @@ attribute is added or removed in Active Directory, it is blocked based on the fi
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](/images/threatprevention/7.5/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

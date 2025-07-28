@@ -16,11 +16,11 @@ Do the following:
 
 1. Map the **Type binding expression** list to the first worksheet (0-`<worksheet name>`) of the
    source Excel workbook. The portal fields use the binding expression to obtain reference to the
-   worksheet in the source file to retrieve and display data from.  
+   worksheet in the source file to retrieve and display data from.
    Expressions in the **Type binding expression** list are auto generated with respect to the number
    of sheets in the source Excel workbook and the number of columns in a sheet. It is as:
 
-    ![binding_expressions_examples](/img/product_docs/directorymanager/11.1/admincenter/portal/linkedcombo/binding_expressions_examples.webp)
+    ![binding_expressions_examples](/images/directorymanager/11.1/admincenter/portal/linkedcombo/binding_expressions_examples.webp)
 
     In an expression, worksheet names are enclosed in brackets while the names of the data columns
     in the worksheets are without brackets. The expressions in the figure above indicate that the
@@ -35,11 +35,11 @@ Do the following:
 
     1. Click **Add** to add a row.
 
-        ![child_fields](/img/product_docs/directorymanager/11.1/admincenter/portal/linkedcombo/child_fields.webp)
+        ![child_fields](/images/directorymanager/11.1/admincenter/portal/linkedcombo/child_fields.webp)
 
     2. In the **Linked Field** drop-down list, select a field (for example, Country). This field
        will be linked to the data column represented by the binding expression you select in the
-       **Binding Expression** drop-down list.  
+       **Binding Expression** drop-down list.
        The **Linked Field** list contains predefined, hard coded fields, where each field is already
        mapped to a schema attribute. When you map a field to an expression, the values in the
        worksheet’s data column will be available for the field in the portal. When a portal user
@@ -48,7 +48,7 @@ Do the following:
        select the name of the parent field for the selected linked field. For example, when _State_
        is selected in the _Linked Field_ list, select Country as the parent field.
     4. In the **Binding Expression** drop-down list, select an expression that represents the data
-       column you want to link to the field selected in the **Linked Field** list.  
+       column you want to link to the field selected in the **Linked Field** list.
        Expressions are auto generated with respect to the number of sheets in the source Excel
        workbook and the number of columns in a sheet, as shown in the figure above.
 
@@ -56,7 +56,7 @@ Do the following:
     0-Company, 1-Country, and 2-City. (You can also create two linked combos to manage the
     relationship between these three fields.)
 
-    ![schema](/img/product_docs/directorymanager/11.1/admincenter/portal/linkedcombo/schema.webp)
+    ![schema](/images/directorymanager/11.1/admincenter/portal/linkedcombo/schema.webp)
 
     The relationship formed between fields can be explained as:
 

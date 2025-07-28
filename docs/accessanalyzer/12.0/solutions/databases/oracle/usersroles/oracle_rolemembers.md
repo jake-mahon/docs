@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup22.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup22.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report          | Description                                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                              |
 | --------------- | --------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Role Membership | This report shows details on the roles and role membership in the audited Oracle environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top roles by role membership</li><li>Table – Provides details on roles by role membership</li><li>Table – Provides information on role membership details</li></ul> |
-

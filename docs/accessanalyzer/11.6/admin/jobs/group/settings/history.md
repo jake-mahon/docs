@@ -9,7 +9,7 @@ sidebar_position: 20
 At the job group level, the History node identifies data retention and log retention periods
 assigned for the job group.
 
-![Job Group History Settings](/img/product_docs/accessanalyzer/11.6/admin/jobs/group/history.webp)
+![Job Group History Settings](/images/accessanalyzer/11.6/admin/jobs/group/history.webp)
 
 By default, all job groups are set to inherit **Use Default Setting** option from the global level
 (**Settings** > **History**) or a parent job group. See the

@@ -24,21 +24,21 @@ Cloud client will do the following:
   group/911-policypak-cloud-automatically-join-groups-with-jointoken/
 - Automatically upgrade to the latest Cloud client directed to that group
 
-![web_interface_and_controls_108_625x221](/img/product_docs/endpointpolicymanager/cloud/interface/web_interface_and_controls_108_625x221.webp)
+![web_interface_and_controls_108_625x221](/images/endpointpolicymanager/cloud/interface/web_interface_and_controls_108_625x221.webp)
 
 **Step 1 –** To do this, go to the Tools tab, then click on the Join Tokens action.
 
-![web_interface_and_controls_109_624x306](/img/product_docs/endpointpolicymanager/cloud/interface/web_interface_and_controls_109_624x306.webp)
+![web_interface_and_controls_109_624x306](/images/endpointpolicymanager/cloud/interface/web_interface_and_controls_109_624x306.webp)
 
 **Step 2 –** Click on **Add Join Token**. For a new join token add a description and expiry time.
 Then, click on **Select Groups** and pick a specific group or groups that you want the computer to
 automatically join from the Cloud client.
 
-![web_interface_and_controls_110_312x333](/img/product_docs/endpointpolicymanager/cloud/interface/web_interface_and_controls_110_312x333.webp)
+![web_interface_and_controls_110_312x333](/images/endpointpolicymanager/cloud/interface/web_interface_and_controls_110_312x333.webp)
 
 **Step 3 –** Click **Save**.
 
-![web_interface_and_controls_111_623x205](/img/product_docs/endpointpolicymanager/cloud/interface/web_interface_and_controls_111_623x205.webp)
+![web_interface_and_controls_111_623x205](/images/endpointpolicymanager/cloud/interface/web_interface_and_controls_111_623x205.webp)
 
 **Step 4 –** You can click on the button within the Show column to get a display of your actual join
 token value.

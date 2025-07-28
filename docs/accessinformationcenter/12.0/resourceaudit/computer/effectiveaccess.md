@@ -16,7 +16,7 @@ Systems for additional information on the effective access calculations for file
 See the [Effective Access Report](/docs/accessinformationcenter/12.0/resourceaudit/sharepoint/sitecollections/effectiveaccess.md) topic for
 SharePoint for additional information on the effective access calculations for SharePoint resources.
 
-![Effective Access report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/computer/effectiveaccess.webp)
+![Effective Access report](/images/accessinformationcenter/12.0/resourceaudit/computer/effectiveaccess.webp)
 
 This report contains a list of all resources the audited computer has the ability to access within
 the targeted environments. When this report is opened, the Access Information Center begins
@@ -60,7 +60,7 @@ The following rights are a normalized representation of the permissions granted 
 There is one table at the bottom displaying Permission Source for the select resource. It contains
 all of the ways the audited computer has been granted rights to the selected resource.
 
-![Permission Source table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/computer/effectiveaccesstable.webp)
+![Permission Source table](/images/accessinformationcenter/12.0/resourceaudit/computer/effectiveaccesstable.webp)
 
 The number of rows for this table indicates the number of ways the audited computer has been granted
 access to selected resource. This table is comprised of the following columns:

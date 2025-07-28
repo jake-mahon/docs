@@ -12,7 +12,7 @@ default, which means the report displays both direct and inherited permissions u
 the Access Information Center user. See the [Results Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/overview.md#results-pane)
 topic for information on filter options.
 
-![Permissions report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/computer/permissions.webp)
+![Permissions report](/images/accessinformationcenter/12.0/resourceaudit/computer/permissions.webp)
 
 This report is comprised of the following columns:
 

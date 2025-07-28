@@ -39,7 +39,7 @@ Start troubleshooting by verifying that the following conditions (seen here) are
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_1.webp)
+generated](/images/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_1.webp)
 
 The final log to check is the ppUser_Operational.log, which can indicate why something is denied
 (blocked), allowed, or elevated. It shows what was trying to run and which GPO, collection, and
@@ -49,21 +49,21 @@ result.
 ![A screenshot of a computer code
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_2.webp)
+generated](/images/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_2.webp)
 
 An Allowed result can be seen here.
 
 ![A screenshot of a computer code
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_3.webp)
+generated](/images/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_3.webp)
 
 An Elevated result can be seen here.
 
 ![A screenshot of a computer code
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_4.webp)
+generated](/images/endpointpolicymanager/troubleshooting/leastprivilege/troubleshooting_4.webp)
 
 Additionally, as expressed earlier, you can also see when Admin Approval dialogs are shown to end
 users, when they are canceled, and which processes failed to run because they did not get
@@ -73,7 +73,7 @@ the end user was not permitted to perform an action which required a UAC prompt.
 ![A screenshot of a computer program
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
 
 Additionally, Admin Approval is logged in the ppUser_Operational.log file as well, which shows when
 applications require Admin privileges and when the user successfully enters in a response code from

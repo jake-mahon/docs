@@ -9,7 +9,7 @@ sidebar_position: 40
 The SG_ServiceAccounts job determines which domain accounts are being used to run services on member
 servers, identifying password age and settings.
 
-![Service Accounts > SG_ServiceAccounts Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/serviceaccountsjobstree.webp)
+![Service Accounts > SG_ServiceAccounts Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/serviceaccountsjobstree.webp)
 
 The SG_ServiceAccounts job is located in the Service Account job group.
 
@@ -22,7 +22,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_ServiceAccounts Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/serviceaccountsquery.webp)
+![Queries for the SG_ServiceAccounts Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/serviceaccountsquery.webp)
 
 The query for the SG_ServiceAccounts job is:
 
@@ -43,7 +43,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_ServiceAccounts Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/serviceaccountsanalysis.webp)
+![Analysis Tasks for the SG_ServiceAccounts Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/serviceaccountsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -58,4 +58,3 @@ following pre-configured report.
 | Report           | Description                                                     | Default Tags | Report Elements                                                                                                                                                                                                          |
 | ---------------- | --------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Service Accounts | This report identifies domain accounts being used for services. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays domains by service accounts found</li><li>Table – Provides domains by service accounts found</li><li>Table – Provides service details</li></ul> |
-

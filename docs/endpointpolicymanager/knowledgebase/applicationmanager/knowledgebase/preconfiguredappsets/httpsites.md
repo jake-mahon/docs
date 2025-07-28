@@ -15,4 +15,4 @@ server verification https" are both UNDERLINED and UN-Checked.
 
 This will deliver "un-check" to these settings, allowing for HTTP zones.
 
-![240_1_image002](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/internetexplorer/240_1_image002.webp)
+![240_1_image002](/images/endpointpolicymanager/troubleshooting/applicationsettings/internetexplorer/240_1_image002.webp)

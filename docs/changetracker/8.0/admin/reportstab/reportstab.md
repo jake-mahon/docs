@@ -26,9 +26,9 @@ New reports can be added using the dropdown selector and **+Add** button in the 
 corner of the page, or by using the Query/Report button found on the **Events** and **Planned
 Change** tabs.
 
-![QueryReportButton](/img/product_docs/changetracker/8.0/admin/tabs/queryreportbutton.webp)
+![QueryReportButton](/images/changetracker/8.0/admin/tabs/queryreportbutton.webp)
 
-![ReportsAndQuesriesTab](/img/product_docs/changetracker/8.0/admin/tabs/reportsandquesriestab.webp)
+![ReportsAndQuesriesTab](/images/changetracker/8.0/admin/tabs/reportsandquesriestab.webp)
 
 :::note
 Report formatting is controlled by the built-in Compliance reports templates. See the
@@ -43,7 +43,7 @@ regenerated at any time if needed at a subsequent future date.
 :::
 
 
-![ReportsReportViewerDialog](/img/product_docs/changetracker/8.0/admin/tabs/reportsreportviewerdialog.webp)
+![ReportsReportViewerDialog](/images/changetracker/8.0/admin/tabs/reportsreportviewerdialog.webp)
 
 ## Executive Summary Report
 

@@ -10,7 +10,7 @@ You can use Endpoint Policy Manager with any MDM service you already have, like 
 Workspace ONE (formerly Airwatch), MobileIron, etc. Below we see a systems hierarchical breakdown
 when using Endpoint Policy Manager with any MDM system.
 
-![using_policypak_with_mdm_and_1](/img/product_docs/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_1.webp)
+![using_policypak_with_mdm_and_1](/images/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_1.webp)
 
 :::note
 
@@ -57,7 +57,7 @@ system.
 Optionally, you can view or hide these components by using the Add/Remove Programs applet in the
 Control Panel. An example of a final deployment would look something like this:
 
-![using_policypak_with_mdm_and_2](/img/product_docs/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_2.webp)
+![using_policypak_with_mdm_and_2](/images/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_2.webp)
 
 The typical command you want your MDM service to run for each component would be something like
 this:

@@ -9,7 +9,7 @@ sidebar_position: 30
 The Configuration interface is available only to users with the Administrator role. It is opened by
 the **Configuration** tab.
 
-![Configuration interface showing the Console Access page](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/consoleaccess.webp)
+![Configuration interface showing the Console Access page](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccess.webp)
 
 It has the following pages:
 

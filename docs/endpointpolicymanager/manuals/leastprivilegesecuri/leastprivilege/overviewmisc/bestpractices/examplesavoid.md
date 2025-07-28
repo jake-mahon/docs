@@ -13,7 +13,7 @@ processes** (which is the default.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples.webp)
+generated](/images/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples.webp)
 
 While these settings would ensure that the install would run uninhibited without UAC prompt
 interruptions, you would also be allowing all applications that have that signature to install as
@@ -26,7 +26,7 @@ warning and a recommendation against attempting this.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_1.webp)
 
 Saying **Yes** generates an additional rule match for File info condition enabling you to get more
 specific than just **Signature** alone. This is the Endpoint Policy Manager (formerly PolicyPak)
@@ -37,7 +37,7 @@ Policy Manager (formerly PolicyPak) Least Privilege Manager UI is requesting you
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_2.webp)
+generated](/images/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_2.webp)
 
 Therefore, it is important not to take shortcuts. Size your privilege levels accordingly, allocating
 the least amount of privilege possible in order to get the job done.
@@ -53,7 +53,7 @@ instance, a developer package, Cygwin has hundreds of little utilities in it lik
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_3.webp)
+generated](/images/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_3.webp)
 
 But very few require elevation. A common mistake is to elevate all files in the folder making it
 easy for the admin and for the user.
@@ -61,7 +61,7 @@ easy for the admin and for the user.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_4.webp)
+generated](/images/endpointpolicymanager/leastprivilege/bestpractices/what_not_to_do_some_examples_4.webp)
 
 However, giving full admin rights on all these utilities, without understanding the ramifications,
 could open the door to attacks.

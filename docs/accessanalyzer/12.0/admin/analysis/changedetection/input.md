@@ -8,7 +8,7 @@ sidebar_position: 20
 
 Use the Input Data Source page to choose a data source to analyze for changes.
 
-![Change Detection Data Analysis Module wizard Input Data Source page](/img/product_docs/accessanalyzer/12.0/admin/analysis/changedetection/input.webp)
+![Change Detection Data Analysis Module wizard Input Data Source page](/images/accessanalyzer/12.0/admin/analysis/changedetection/input.webp)
 
 The configurable option is:
 
@@ -17,5 +17,5 @@ The configurable option is:
     :::note
     The selectable data sources change based on which option is selected on the Input
     Scope page.
-    
+
     :::

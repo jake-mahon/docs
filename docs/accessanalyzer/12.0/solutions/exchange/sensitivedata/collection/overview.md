@@ -9,7 +9,7 @@ sidebar_position: 20
 The 0.Collection job group locates sensitive data found in mailboxes and public folders in the
 Exchange environment.
 
-![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/exchange/sensitivedata/collection/collectionjobstree.webp)
+![0.Collection Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/exchange/sensitivedata/collection/collectionjobstree.webp)
 
 The jobs in the 0.Collection job group are:
 

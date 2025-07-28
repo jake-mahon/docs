@@ -9,7 +9,7 @@ sidebar_position: 20
 If you encounter the following error (or something like it) when launching a ThinApp packaged
 application, there is a workaround.
 
-![242_1_image001-2](/img/product_docs/endpointpolicymanager/troubleshooting/error/applicationsettings/242_1_image001-2.webp)
+![242_1_image001-2](/images/endpointpolicymanager/troubleshooting/error/applicationsettings/242_1_image001-2.webp)
 
 You can fully isolate PolicyPak from trying to manage a specific ThinApp application, thus working
 around the exception error.
@@ -20,7 +20,7 @@ package, first create a folder in the Thin App Package to the location of where 
 So %ProgramFilesDir%PolicyPakApplication ManagerClient then add a new file named ATTRIBUTES.INI and
 set the file to:
 
-[Isolation]  
+[Isolation]
 DirectoryIsolationMode=FULL
 
 What this does is exclude the PolicyPak CSE files from interacting with the ThinApp application EXE.

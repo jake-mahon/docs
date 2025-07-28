@@ -13,7 +13,7 @@ enable us to search customizations and to attach them to processes.
 
 Here is an example Customization Record for a Scheduled Script:
 
-![Customization Record](/img/product_docs/platgovnetsuiteflashlight/using_flashlight/customization_record_800x402.webp)
+![Customization Record](/images/platgovnetsuiteflashlight/using_flashlight/customization_record_800x402.webp)
 
 #### Menu
 

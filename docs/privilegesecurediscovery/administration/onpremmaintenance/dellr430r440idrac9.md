@@ -11,7 +11,7 @@ Dell R430/R440 iDrac 9 LOM Network Configuration via Reboot
 # Dell R430/R440 iDrac 9 LOM Network Configuration via Reboot
 
 This document will guide the reader through the process of accessing the iDRAC 9 configuration
-settings via a reboot, using the Boot Menu > System Setup method.  
+settings via a reboot, using the Boot Menu > System Setup method.
 The steps below start from a successful Virtual Console (VC) for a single node.
 
 **Step 1 –** Within the VC will want to confirm/notate the below items from the command line of the
@@ -32,9 +32,9 @@ After the reboot command runs, the next screen will either show the “STOPPED�
 “No Signal” screen, or will jump directly to the “No Signal” screen before loading the "Dell"
 trademarked screen.
 
-![blobid0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid0.webp)
+![blobid0.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid0.webp)
 
-![blobid1.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid1.webp)
+![blobid1.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid1.webp)
 
 After the shutdown is completed, the boot up process will start with the below “Dell” trademarked
 screen. This screen will show with a “loading bar” at the bottom as it loads the different system
@@ -43,25 +43,25 @@ configurations.
 **NOTE:** The IP address for the iDrac will likely be different or not display at all in reference
 to the screenshot below.
 
-![blobid2.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid2.webp)
+![blobid2.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid2.webp)
 
 **Step 3 –** After the above “Dell” screen is cycled through twice, the next screen should show the
 boot menu with the options below through the “F” keys. At this screen choose the F2 = System Setup
 option.
 
-![blobid4.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid4.webp)
+![blobid4.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid4.webp)
 
 The next screen will show the highlighted text below of “Entering System Setup”.
 
-![blobid5.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid5.webp)
+![blobid5.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid5.webp)
 
 **Step 4 –** Select the “iDRAC Settings” option on the System Setup page.
 
-![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_mceclip0.webp)
+![mceclip0.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_mceclip0.webp)
 
 **Step 5 –** Select “Network” on the iDRAC Settings screen.
 
-![blobid7.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid7.webp)
+![blobid7.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid7.webp)
 
 **Step 6 –** Under the iDRAC Settings > Network page. Here is where the iDRAC NIC selection, static
 IP address/gateway/subnet mask, and DNS servers will be set for remote iDRAC access through a
@@ -72,7 +72,7 @@ images in bullets.
 - Enable NIC: Enabled
 - NIC Selection: LOM1
 
-![blobid8.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid8.webp)
+![blobid8.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid8.webp)
 
 ---
 
@@ -84,19 +84,19 @@ images in bullets.
 - Static Preferred DNS Server: Set to the organizations DNS server
 - Static Alternative DNS Server: Set to the organizations DNS server
 
-![blobid9.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid9.webp)
+![blobid9.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid9.webp)
 
 **Step 7 –** Once the specific networking details have been enter, click **Back**, click **Finish**,
 and then click **Yes**. The network information is saved, and the system reboots.
 
-![blobid10.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid10_336x254.webp)
+![blobid10.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid10_336x254.webp)
 
-![blobid11.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid11_336x252.webp)
+![blobid11.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360056509814_blobid11_336x252.webp)
 
 DRAC configuration is now completed.
 
 The iDRAC Web User Interface can now be reached with any supported browser (IE, Firefox, Chrome,
-Safari). In that case, the iDRAC responds on the IP "192.168.0.120."  
+Safari). In that case, the iDRAC responds on the IP "192.168.0.120."
 If there is any access issue:
 
 - Try to ping the iDRAC IP to check that the network configuration has been replied.

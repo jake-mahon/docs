@@ -16,12 +16,12 @@ the query to fail.
 :::
 
 
-![Host Discovery Wizard Source page for database import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source.webp)
+![Host Discovery Wizard Source page for database import](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/source.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Import from a
 database** option. Click **Next**.
 
-![Host Discovery Wizard Query page for database import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/query.webp)
+![Host Discovery Wizard Query page for database import](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/query.webp)
 
 **Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
@@ -43,7 +43,7 @@ database** option. Click **Next**.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Database Import page](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/databaseimport.webp)
+![Host Discovery Wizard Database Import page](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/databaseimport.webp)
 
 **Step 3 –** On the Database Import page, identify the database, table, and column where the host
 names are located:
@@ -51,7 +51,7 @@ names are located:
 - Data source – Identify the database. Click the ellipsis (**…**) to open the Data Link Properties
   window. Then provide the required information on the Connection tab.
 
-    ![Data Link Properties window Connection tab](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/datalinkproperties.webp)
+    ![Data Link Properties window Connection tab](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/datalinkproperties.webp)
 
     - Server name – Use the drop-down menu to select the server. The **Refresh** button refreshes
       the list of available servers.
@@ -63,7 +63,7 @@ names are located:
           **Allow saving password** option
         - If selected, the **Blank password** option indicates that no password is required
 
-        ![Test connection succeeded confirmation window](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/datalinkpropertiestestconnection.webp)
+        ![Test connection succeeded confirmation window](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/datalinkpropertiestestconnection.webp)
 
     - Click **Test Connection** to confirm a connection has been established. Click **OK** on the
       confirmation window.
@@ -87,7 +87,7 @@ names are located:
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Options page for database import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/options.webp)
+![Host Discovery Wizard Options page for database import](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/options.webp)
 
 **Step 4 –** On the Options page, configure the query options as required.
 
@@ -111,7 +111,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for database import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory.webp)
+![Host Discovery Wizard Inventory page for database import](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.
@@ -135,13 +135,13 @@ the discovery query.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Summary page for database import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/summary.webp)
+![Host Discovery Wizard Summary page for database import](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/summary.webp)
 
 **Step 6 –** The Summary page displays all the selected query configuration settings. To make
 changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the
 configuration process.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
+![Confirm dialog box](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 **Step 7 –** A Confirm dialog box opens. Click **Yes** to run the query now or **No** to run the
 query at another time.

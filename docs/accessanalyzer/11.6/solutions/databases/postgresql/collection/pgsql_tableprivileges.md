@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/collection/tableprivileges_query.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/postgresql/collection/tableprivileges_query.webp)
 
 The query is:
 
@@ -35,7 +35,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/collection/tableprivileges_analysis.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/postgresql/collection/tableprivileges_analysis.webp)
 
 The default analysis task is:
 

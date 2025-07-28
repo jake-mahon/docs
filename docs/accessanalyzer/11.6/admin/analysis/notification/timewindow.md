@@ -8,7 +8,7 @@ sidebar_position: 110
 
 Use this page to specify whether to include only rows collected in the last execution.
 
-![Notification Data Analysis Module wizard Time window page](/img/product_docs/accessanalyzer/11.6/admin/analysis/notification/timewindow.webp)
+![Notification Data Analysis Module wizard Time window page](/images/accessanalyzer/11.6/admin/analysis/notification/timewindow.webp)
 
 The following option is available:
 
@@ -18,5 +18,5 @@ The following option is available:
     :::note
     The checkbox is only enabled if the table selected on the Select Table page has a
     Enterprise Auditor **JobRunTimeKey** property. Otherwise, the checkbox is cleared by default.
-    
+
     :::

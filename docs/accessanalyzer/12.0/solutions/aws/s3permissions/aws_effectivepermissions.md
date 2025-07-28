@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_Accounts Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/s3permissions/effectivepermissionsanalysis.webp)
+![Analysis Tasks for the AWS_Accounts Job](/images/accessanalyzer/12.0/solutions/aws/s3permissions/effectivepermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ produces the following preconfigured report:
 | Report                | Description                                                                    | Default Tags | Report Element                                                                                                                                                                                                                                           |
 | --------------------- | ------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Effective Permissions | This report identifies and summarizes effective permissions on AWS S3 Buckets. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top buckets by effective permissions</li><li>Table – Shows buckets by effective permissions</li><li>Table – Provides details on effective permissions</li></ul> |
-

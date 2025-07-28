@@ -26,14 +26,14 @@ You can define and save your own reports.
   coverage and determine if they being used.
 
 :::note
-To access all reports, the following setting must be enabled:  
+To access all reports, the following setting must be enabled:
 Open **Strongpoint**  **Scanner**  **Scheduler**
 
 **PermissionSet Assignment** and **System Permission** must be **Enabled**, and the **Frequency** set to **Daily**.
 
 If you have questions, contact your CSM or Salesforce Specialist.
 
-![Enabling reports](/img/product_docs/platgovsalesforce/reports/access_reports_enabled.webp)
+![Enabling reports](/images/platgovsalesforce/reports/access_reports_enabled.webp)
 :::
 
 ## Access Reports
@@ -51,12 +51,12 @@ name. Separate each name with a comma.
 - **Permissions by Object**: Displays the permissions on each object for all Permission Sets and
 Profiles.
 
-![Permission by object](/img/product_docs/platgovsalesforce/reports/access_reports_permission_by_object.webp)
+![Permission by object](/images/platgovsalesforce/reports/access_reports_permission_by_object.webp)
 
 - **Object Permission by Profile/PermSet**: Displays the object permissions organized by Permission
 Set and Profile.
 
-![Access report by PermissionSet/Profile](/img/product_docs/platgovsalesforce/reports/access_reports_permission_by_permset.webp)
+![Access report by PermissionSet/Profile](/images/platgovsalesforce/reports/access_reports_permission_by_permset.webp)
 
 - **Users to Profiles/PermissionSets**: Displays the Profile, PermissionSet and PermissionSet Group
 assigned to each user. You can filter the report information. For example, if you want a list of
@@ -69,14 +69,14 @@ users that have Admin profiles, you can set two filters:
 Profiles. If your org does not use the **Expires on** feature, you can remove the column from the
 report.
 
-![Users to Profile/PermissionSets](/img/product_docs/platgovsalesforce/reports/access_reports_users_to_profile.webp)
+![Users to Profile/PermissionSets](/images/platgovsalesforce/reports/access_reports_users_to_profile.webp)
 
 - **Profiles to PermissionsSets Changes**: Displays the changes made to your Profiles,
 PermissionSets,and PermissionSet Groups. If there is an active policy, the **Compliance** column
 displays whether the change was Compliant or Non-Compliant. If no policy, all changes are
 Compliant.
 
-![Access Report Profile Permissions Changes](/img/product_docs/platgovsalesforce/reports/access_reports_profile_changes.webp)
+![Access Report Profile Permissions Changes](/images/platgovsalesforce/reports/access_reports_profile_changes.webp)
 
 - **Changes to Users**: Displays the changes to tracked user data fields. Refer to
 [Enhanced CPQ Support](/docs/platgovsalesforce/changemanagement/enhanced_cpq_support.md) for more information on
@@ -85,23 +85,23 @@ means the governor limits have been reached. Profiles and PermissionSets are ver
 Platform Governance for Salesforce skips the record and continues the scan the next day to ensure
 there is no impact to your org.
 
-![Changes to Users](/img/product_docs/platgovsalesforce/reports/accses_reports_user_changes.webp)
+![Changes to Users](/images/platgovsalesforce/reports/accses_reports_user_changes.webp)
 
 - **Record Types and Page Layout Assignments**: Displays the objects, record types and assigned
 layouts organized by profile.
 
-![Access Reports Record Types and Layouts](/img/product_docs/platgovsalesforce/reports/access_reports_record_types.webp)
+![Access Reports Record Types and Layouts](/images/platgovsalesforce/reports/access_reports_record_types.webp)
 
 - **System Permissions**: displays the list of System Permissions, the Profile or Permission set
 that has access to it and the list of Users that have this system permission enabled.
 
-![System Permissions](/img/product_docs/platgovsalesforce/reports/report_systems_permissions.webp)
+![System Permissions](/images/platgovsalesforce/reports/report_systems_permissions.webp)
 
 - **Field Permissions**: Displays the related objects, shows if there is a Read / Edit permission,
 the Profile or Permission set that give that field level access and the users related to those
 Profiles and permission sets.
 
-![Field Permissions report](/img/product_docs/platgovsalesforce/reports/report_field_permissions.webp)
+![Field Permissions report](/images/platgovsalesforce/reports/report_field_permissions.webp)
 
 To generate this report:
 

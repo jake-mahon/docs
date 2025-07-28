@@ -11,7 +11,7 @@ by server. It is a wizard page for the category of:
 
 - Message Size Statistics Custom.
 
-![Exchange Metrics Data Collector Wizard Message Sizes page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/messagesizes.webp)
+![Exchange Metrics Data Collector Wizard Message Sizes page](/images/accessanalyzer/11.6/admin/datacollector/exchangemetrics/messagesizes.webp)
 
 Configure the desired message size frames using the following options:
 

@@ -247,7 +247,7 @@ fpolicy policy external-engine show -instance
 
 Verify that the output is displayed as follows:
 
-![Output Displayed](/img/product_docs/activitymonitor/7.1/config/netappcmode/validateexternalenginecreation.webp)
+![Output Displayed](/images/activitymonitor/7.1/config/netappcmode/validateexternalenginecreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating an external engine, please visit the
 NetApp website and read the
@@ -271,7 +271,7 @@ IMPORTANT:
           `StealthAUDITScreeningFailedCifs` for failed events.
         - For NFS shares – `StealthAUDITScreeningNfsV3, StealthAUDITScreeningNfsV4` for successful
           events; `StealthAUDITScreeningFailedNfsV3, StealthAUDITScreeningFailedNfsV4` for failed
-          events.  
+          events.
           The names of the event objects can be customized (see
           [Customization of FPolicy Object Names](#customization-of-fpolicy-object-names)).
 
@@ -408,7 +408,7 @@ fpolicy policy event show -event-name StealthAUDITScreeningCifs -instance
 
 Verify that the output is displayed as follows:
 
-![Output Displayed](/img/product_docs/activitymonitor/7.1/config/netappcmode/fpolicyeventcreation.webp)
+![Output Displayed](/images/activitymonitor/7.1/config/netappcmode/fpolicyeventcreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating an event, please visit the NetApp
 website and read the
@@ -488,7 +488,7 @@ Run the following command to validate the creation of the FPolicy policy:
 fpolicy policy show -instance
 ```
 
-![Output Displayed](/img/product_docs/activitymonitor/7.1/config/netappcmode/validatefpolicypolicycreation.webp)
+![Output Displayed](/images/activitymonitor/7.1/config/netappcmode/validatefpolicypolicycreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating a policy, please visit the NetApp
 website and read the
@@ -539,7 +539,7 @@ Run the following command to validate the FPolicy scope creation:
 fpolicy policy scope show -instance
 ```
 
-![Output Displayed](/img/product_docs/activitymonitor/7.1/config/netappcmode/validatefpolicyscopecreation.webp)
+![Output Displayed](/images/activitymonitor/7.1/config/netappcmode/validatefpolicyscopecreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating scope, please visit the NetApp website
 and read the
@@ -615,7 +615,7 @@ Run the following command to validate the FPolicy scope creation:
 vserver fpolicy show
 ```
 
-![Output Displayed](/img/product_docs/activitymonitor/7.1/config/netappcmode/validatefpolicyenabled.webp)
+![Output Displayed](/images/activitymonitor/7.1/config/netappcmode/validatefpolicyenabled.webp)
 
 Relevant NetApp Documentation: To learn more about enabling a policy, please visit the NetApp
 website and read the
@@ -648,7 +648,7 @@ Run the following command to validate connection to the Cluster Node:
 fpolicy show-engine -vserver [SVM_NAME] -policy-name StealthAUDIT -node *
 ```
 
-![Output Displayed](/img/product_docs/activitymonitor/7.1/config/netappcmode/connectiontoclusternode.webp)
+![Output Displayed](/images/activitymonitor/7.1/config/netappcmode/connectiontoclusternode.webp)
 
 ## Automatic Configuration of FPolicy
 

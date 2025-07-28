@@ -10,15 +10,15 @@ The data grid provides all host inventory information collected on the hosts. Vi
 at the **Host Management** node (the Host Master Table) or at individual host list nodes. See the
 [Hosts Lists](/docs/accessanalyzer/12.0/admin/hostmanagement/lists.md) topic for information on host lists.
 
-![Host Inventory Data Grid](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/datagrid.webp)
+![Host Inventory Data Grid](/images/accessanalyzer/12.0/admin/hostmanagement/datagrid.webp)
 
 The icon for each host entry is an indicator of its inventory state:
 
 | Icon                                                                                                                                                       | Inventory State |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
-| ![Idle inventory state icon](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/inventoryidle.webp)              | Idle            |
-| ![In Queue inventory state icon](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/inventoryinqueue.webp)       | In Queue        |
-| ![In Progress inventory state icon](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/inventoryinprogress.webp) | In Progress     |
+| ![Idle inventory state icon](/images/accessanalyzer/12.0/admin/hostmanagement/inventoryidle.webp)              | Idle            |
+| ![In Queue inventory state icon](/images/accessanalyzer/12.0/admin/hostmanagement/inventoryinqueue.webp)       | In Queue        |
+| ![In Progress inventory state icon](/images/accessanalyzer/12.0/admin/hostmanagement/inventoryinprogress.webp) | In Progress     |
 
 The **Name**, **HostStatus**, and **InventoryState** grid columns are fixed by default. If desired,
 you can move these columns to the scrollable section of the table.
@@ -91,7 +91,7 @@ the [Host Management Activities](/docs/accessanalyzer/12.0/admin/hostmanagement/
 The right-click menu available in the Host Management data grid varies according to the selection in
 the Navigation pane.
 
-| ![Host Management node right-click menu](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/rightclickhostmanagement.webp) | ![Individual Host List right-click menu](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/rightclickindividualhost.webp) | ![Query-Created Host List right-click menu](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/rightclickquerycreated.webp)       |
+| ![Host Management node right-click menu](/images/accessanalyzer/12.0/admin/hostmanagement/rightclickhostmanagement.webp) | ![Individual Host List right-click menu](/images/accessanalyzer/12.0/admin/hostmanagement/rightclickindividualhost.webp) | ![Query-Created Host List right-click menu](/images/accessanalyzer/12.0/admin/hostmanagement/rightclickquerycreated.webp)       |
 |:----------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|
 | *Host Management Node*                                                                                                             | *Individual Host List*                                                                                                               | *Query-Created Host List*                                                                                                                 |
 

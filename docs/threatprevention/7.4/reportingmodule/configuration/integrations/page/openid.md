@@ -22,7 +22,7 @@ select **Integrations** to open the Integrations interface.
 On the Integrations interface, select an authentication provider under the Authentication Provider
 node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for an OpenID authneication provider](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/openid.webp)
+![Integrations interface displaying the details for an OpenID authneication provider](/images/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/openid.webp)
 
 The details page for an OpenID authentication provider has two tabs:
 
@@ -33,7 +33,7 @@ The details page for an OpenID authentication provider has two tabs:
 
 Configure the following settings for an OpenID provider on the Configuration tab:
 
-![Configuration tab for an OpenID authneication provider](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.webp)
+![Configuration tab for an OpenID authneication provider](/images/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles.
   When off, the profile will be determined in alphabetical order of the profile name. Toggle off and
@@ -57,7 +57,7 @@ profile. To give access to the application to new users, click the New Access bu
 the Add Console Access window. To assign this authentication provider to existing users, go to
 System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
+![UserGroups tab for an authneication provider](/images/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
 
 The table displays the following information:
 

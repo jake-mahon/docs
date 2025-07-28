@@ -23,7 +23,7 @@ use data from `Workflow_Directory_Guest:Directory_Guest`, and on the styles from
 ```
 
 The notification will be sent after the `Request` activity of the `Directory_Guest_AdvancedStart`
-workflow is executed.  
+workflow is executed.
 The notification will be sent to all email addresses defined by `Directory_Guest:Mail`.
 
 ## Properties
@@ -45,7 +45,7 @@ A pointcut is a mechanism telling Identity Manager when to execute the linked
 
 The position of the pointcut is specified by an activity state and a mode (before or after).
 
-![pointcut Schema](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.webp)
+![pointcut Schema](/images/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.webp)
 
 | Property               | Details                                                                                                                                                                                                                                                                                                                                                                                        |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

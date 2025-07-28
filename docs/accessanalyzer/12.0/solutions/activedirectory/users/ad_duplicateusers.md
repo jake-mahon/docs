@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_DuplicateUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/duplicateusersanalysis.webp)
+![Analysis Tasks for the AD_DuplicateUsers Job](/images/accessanalyzer/12.0/solutions/activedirectory/users/duplicateusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report:
 | Report                  | Description                                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                       |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Duplicate User Accounts | This report identifies user accounts which may belong to a single employee, based on a variety of common attributes. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays a domain summary</li><li>Table – Provides details on matches</li><li>Table – Provides details on duplicate user accounts by domain</li></ul> |
-

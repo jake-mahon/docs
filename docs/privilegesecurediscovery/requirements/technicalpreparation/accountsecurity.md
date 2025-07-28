@@ -21,7 +21,7 @@ manage Windows systems.
 Customers often challenge the security of our approach using a single AD domain user account to
 administer all the computers in the domain managed by Privilege Secure. Their typical concern is
 that compromising the account credentials on an endpoint would allow an attacker to compromise all
-computers where the account is configured to have admin privilege.  
+computers where the account is configured to have admin privilege.
 However, Privilege Secure is designed to ensure service account credentials can not be compromised
 on managed endpoints.
 
@@ -40,7 +40,7 @@ on managed endpoints.
             - Deny log on through remote desktop services **or in older** Deny log on through
               terminal service
 
-![image__18_.webp](/img/product_docs/privilegesecure/4.2/discovery/5773725444759_image__18__746x366.webp)
+![image__18_.webp](/images/privilegesecure/4.2/discovery/5773725444759_image__18__746x366.webp)
 
 ## Appendix
 
@@ -54,7 +54,7 @@ Kerberos Authentication to Windows Systems
 AD Managed Service Accounts
 
 **CAUTION:** Customers inquire about using **AD Managed Service Accounts (MSA’s) or AD Group Managed
-Service** Accounts as a means to reduce exposure of Privilege Secure service account credentials.  
+Service** Accounts as a means to reduce exposure of Privilege Secure service account credentials.
 MSA’s are not supported on Linux operating systems, and Privilege Secure services run on Linux
 operating systems.
 

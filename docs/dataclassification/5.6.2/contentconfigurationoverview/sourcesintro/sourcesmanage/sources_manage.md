@@ -43,7 +43,7 @@ Besides, in the source list on the **General** tab you can do the following for 
 - **View detailed information** by clicking on the “i” icon
 - **Navigate to the source** by clicking on the “link” icon
 
-![sources](/img/product_docs/dataclassification/5.6.2/sources/sources.webp)
+![sources](/images/dataclassification/5.6.2/sources/sources.webp)
 
 **NOTE:** When adding a source or managing source configuration, the most commonly used source
 settings are displayed by default. However, some source types have additional configuration options

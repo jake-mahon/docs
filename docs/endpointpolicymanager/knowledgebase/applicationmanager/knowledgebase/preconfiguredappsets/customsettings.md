@@ -13,4 +13,4 @@ Sites" dropdown (for instance) set to nothing.
 
 This formula will deliver the specific custom settings you choose.
 
-![313_1_2015-03-16_1607](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/313_1_2015-03-16_1607.webp)
+![313_1_2015-03-16_1607](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/313_1_2015-03-16_1607.webp)

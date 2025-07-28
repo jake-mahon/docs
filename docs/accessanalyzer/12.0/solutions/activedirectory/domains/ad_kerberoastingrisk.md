@@ -48,7 +48,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_KerberoastingRisk Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
+![Analysis Tasks for the AD_KerberoastingRisk Job](/images/accessanalyzer/12.0/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
 
 The default analysis tasks are:
 
@@ -67,4 +67,3 @@ produces the following pre-configured report:
 | Report             | Description                                                                                                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                                                                             |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Kerberoasting Risk | An account is vulnerable to kerberoasting if it has an SPN assigned and one of the following is true: <ul><li>RC4 or DES (or AES-128 if enabled)</li><li>Weak password exception</li><li>Trusted for delegation</li><li>Is an administrator</li></ul> | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays vulnerable accounts</li><li>Table – Provides a summary of accounts vulnerable to kerberoasting</li><li>Table – Provides details on the accounts vulnerabilities to kerberoasting</li></ul> |
-

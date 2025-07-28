@@ -9,7 +9,7 @@ sidebar_position: 30
 Use the (Disable/Enable Computers page to configure the action to enable or disable users' operation
 options on target computers.
 
-![Active Directory Action Module Wizard Disable/Enable Computers page](/img/product_docs/accessanalyzer/12.0/admin/action/activedirectory/operations/disableenablecomputers.webp)
+![Active Directory Action Module Wizard Disable/Enable Computers page](/images/accessanalyzer/12.0/admin/action/activedirectory/operations/disableenablecomputers.webp)
 
 Select the radio button for the desired option:
 

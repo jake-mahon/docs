@@ -11,11 +11,11 @@ installed on multiple servers/workstations as convenient.
 
 Open the Configuration Console:
 
-Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**  
-or  
+Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**
+or
 Double click the **PPE Configuration** desktop shortcut.
 
-![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+![Configuration Console Dashboard](/images/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
 
 ## Dashboard Controls
 
@@ -40,15 +40,15 @@ See the specific topics for details.
 The toggle enables/disables Password Policy Enforcer on all domain controllers. It is enabled by
 default.
 
-![Enable/Disable PPE](/img/product_docs/passwordpolicyenforcer/11.0/administration/enabledisableppeconsole.webp)
+![Enable/Disable PPE](/images/passwordpolicyenforcer/11.0/administration/enabledisableppeconsole.webp)
 
 Click the toggle to disable PPE:
 
-![Disable PPE](/img/product_docs/passwordpolicyenforcer/11.0/administration/disable.webp)
+![Disable PPE](/images/passwordpolicyenforcer/11.0/administration/disable.webp)
 
 If PPE  is disabled, click the toggle to enable:
 
-![Enable PPE](/img/product_docs/passwordpolicyenforcer/11.0/administration/disabled.webp)
+![Enable PPE](/images/passwordpolicyenforcer/11.0/administration/disabled.webp)
 
 ### Connected To
 
@@ -75,7 +75,7 @@ Users with write permission to these objects can configure Password Policy Enfor
 - Select a Domain Controller from the list of domain controllers where PPE is installed.
 - Configuration is replicated to all the domain controllers in the domain.
 
-![Connect To Domain Configuration](/img/product_docs/passwordpolicyenforcer/11.0/administration/connecttodomain.webp)
+![Connect To Domain Configuration](/images/passwordpolicyenforcer/11.0/administration/connecttodomain.webp)
 
 **Local**
 
@@ -86,7 +86,7 @@ Users with write permission to these objects can configure Password Policy Enfor
   Policy to distribute a local configuration to many computers. See the
   [Domain and Local Policies](/docs/passwordpolicyenforcer/11.0/installation/domain_and_local_policies.md) topic for additional information.
 
-![Connected To Local Configuration](/img/product_docs/passwordpolicyenforcer/11.0/administration/connecttodomain.webp)
+![Connected To Local Configuration](/images/passwordpolicyenforcer/11.0/administration/connecttodomain.webp)
 
 ### Help
 
@@ -121,7 +121,7 @@ If you make changes, click **Save** to keep your changes or **Discard** to cance
 
 Here are the default settings.
 
-![General Settings PPE](/img/product_docs/passwordpolicyenforcer/11.0/administration/settingsgeneral.webp)
+![General Settings PPE](/images/passwordpolicyenforcer/11.0/administration/settingsgeneral.webp)
 
 - **Default policy** sets the policy to be enforced on the domain or local computer unless users
   have a different policy assigned to them.
@@ -183,7 +183,7 @@ If you make changes, click **Save** to keep your changes or **Discard** to cance
 
 Here are the default settings.
 
-![Notifications Settings](/img/product_docs/passwordpolicyenforcer/11.0/administration/settingsnotifications.webp)
+![Notifications Settings](/images/passwordpolicyenforcer/11.0/administration/settingsnotifications.webp)
 
 - **Send email reminders**: check this option to send reminders. Default is not checked.
 
@@ -223,7 +223,7 @@ either the domain or to a local computer, depending on your Connected To configu
 To add or update your license, copy it from the email or file, then click **Paste license from
 clipboard**.
 
-![License Settings Tab](/img/product_docs/passwordpolicyenforcer/11.0/administration/settingslicense.webp)
+![License Settings Tab](/images/passwordpolicyenforcer/11.0/administration/settingslicense.webp)
 
 - **License type** and **Licensed to** are set based on your sales agreement.
 - **Users** is the total number of available licenses.

@@ -9,7 +9,7 @@ sidebar_position: 30
 The Complexity rule rejects passwords that do not contain characters from a variety of character
 sets. Using several character types can make passwords more difficult to crack.
 
-![Character Complexity Rule](/img/product_docs/passwordpolicyenforcer/11.0/administration/charcomplexity.webp)
+![Character Complexity Rule](/images/passwordpolicyenforcer/11.0/administration/charcomplexity.webp)
 
 Select the **Characters (Complexity)** checkbox to enable the Character Complexity rule.
 
@@ -42,4 +42,3 @@ This default character set contains the following:
 | Special     | All characters not included above                                        |
 | High        | All characters above ANSI 126                                            |
 | Custom      | No default characters                                                    |
-

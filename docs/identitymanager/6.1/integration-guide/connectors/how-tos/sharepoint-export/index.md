@@ -27,7 +27,7 @@ sites. It includes the following substeps:
 - Click on the **Add members** button.
 - Enter the name of the Usercube service account or its email address.
 
-![SharePoint Export Add Member](/img/product_docs/identitymanager/6.1/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.webp)
+![SharePoint Export Add Member](/images/identitymanager/6.1/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.webp)
 
 The service account is now a member of the site. However, to scan the site, the service account
 needs to be owner of the site.
@@ -36,7 +36,7 @@ needs to be owner of the site.
 - Under the name of the Usercube service account, click on the arrow.
 - Choose **Owner**.
 
-![SharePoint Export Role Owner](/img/product_docs/identitymanager/6.1/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.webp)
+![SharePoint Export Role Owner](/images/identitymanager/6.1/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.webp)
 
 ### Usercube configuration
 
@@ -90,7 +90,7 @@ In the newly created subsection, fill in:
 For pedagogical reasons, this guide focuses on the simplest way to set up the export, but it's not
 the most secure. Hence it is strongly recommended that you
 [protect credentials using Azure Key Vault or Cyber Ark](/docs/identitymanager/6.1/integration-guide/connectors/references-connectors/sharepoint/index.md)
-in a production environment.  
+in a production environment.
 NETWRIX recommends completing this guide once, testing the configuration, and only then, switching
 to a more secure way of storing credentials.
 

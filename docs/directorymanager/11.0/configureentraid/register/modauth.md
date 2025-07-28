@@ -19,14 +19,14 @@ To generate a certificate using GroupID PowerShell:
        $mycert | Export-Certificate -FilePath c:\mycert.cer
     ```
 
-    ![GroupID PowerShell Command ](/img/product_docs/directorymanager/11.0/configureentraid/register/modern_auth_command.webp)
+    ![GroupID PowerShell Command ](/images/directorymanager/11.0/configureentraid/register/modern_auth_command.webp)
 
     The generated certificate will be saved at the root level of Drive C:.
 
     In Microsoft Entra Admin Center portal, while configuring the GroupID application, upload this
     certificate using the Certificate & secrets node.
 
-    ![certificates_n_secrets](/img/product_docs/directorymanager/11.0/configureentraid/register/certificates_n_secrets.webp)
+    ![certificates_n_secrets](/images/directorymanager/11.0/configureentraid/register/certificates_n_secrets.webp)
 
     On the **Upload certificate** page:
 
@@ -37,7 +37,7 @@ To generate a certificate using GroupID PowerShell:
 3. After uploading the certificate successfully, Certificate Thumbprint is displayed. Copy it and
    keep it safe.
 
-    ![Generated Thumbprint ](/img/product_docs/directorymanager/11.0/configureentraid/register/thumbprint.webp)
+    ![Generated Thumbprint ](/images/directorymanager/11.0/configureentraid/register/thumbprint.webp)
 
     The certificate Thumbprint will be used:
 

@@ -6,8 +6,8 @@ sidebar_position: 50
 
 # Approving Policy Changes
 
-1. Open **Strongpoint** > **Change Management Tools** > **Policy Change Approval (Beta)  
-   ![policy_approval_new](/img/product_docs/platgovnetsuite/change_management/policy_approval_new.webp)**
+1. Open **Strongpoint** > **Change Management Tools** > **Policy Change Approval (Beta)
+   ![policy_approval_new](/images/platgovnetsuite/change_management/policy_approval_new.webp)**
 2. Enter information into the required **Name**, **Change Overview** and **Policies** fields.
    **Change Type** is preset to **Policy Change Approval**.
 3. Click **In Progress** on the status bar.
@@ -16,7 +16,7 @@ sidebar_position: 50
    themselves as an additional approver and set the Approval Status to Approved to immediately
    approve the request. The status bar shows **Approved (Override)**.
 
-    ![change_request_bar_approved_override](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
+    ![change_request_bar_approved_override](/images/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
 
 6. Click **Pending Approval** to begin the normal approval process. Approvers must be
    [licensed](/docs/platgovnetsuite/installation/license_manager.md) Platform Governance for NetSuite users

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_SmallestResources Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/content/sizing/smallestresourcesanalysis.webp)
+![Analysis Tasks for the FS_SmallestResources Job](/images/accessanalyzer/12.0/solutions/filesystem/content/sizing/smallestresourcesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report:
 | Report          | Description                                            | Default Tags | Report Elements                                                                                            |
 | --------------- | ------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------- |
 | Smallest Shares | Identifies the smallest shares within the environment. | None         | This report is comprised of one element: <ul><li>Table – Provides details on the smallest shares</li></ul> |
-

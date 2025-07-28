@@ -7,8 +7,7 @@ sidebar_position: 70
 # Install Password Policy Enforcer Web
 
 Password Policy Enforcer Web V7.11 is a web server enabling users to change their Windows domain
-password from a web browser. Review the [Requirements](/docs/passwordpolicyenforcer/11.0/requirements.md) prior to running the
-installation.
+password from a web browser.
 
 Click the following link to download Password Policy Enforcer Web:
 

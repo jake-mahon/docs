@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_AdminGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/admingroupsanalysis.webp)
+![Analysis Tasks for the EX_AdminGroups Job](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/admingroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,4 +35,3 @@ the following pre-configured report:
 | Report                         | Description                                                                            | Default Tags | Report Elements                                                                                                                                   |
 | ------------------------------ | -------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Exchange Administration Groups | This report shows effective membership for the default Exchange Administration groups. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest admin groups</li><li>Table – Provides membership details</li></ul> |
-

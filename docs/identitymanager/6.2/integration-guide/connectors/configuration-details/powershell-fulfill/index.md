@@ -103,7 +103,7 @@ To define and apply additional settings when authenticating to an external syste
 In the example above, the `Basic` AuthType was chosen to show how to fill the credentials, but it isn't mandatory to use this. See the
 [Microsoft Exchange](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/microsoftexchange/index.md) topic for additional information.
 
-For pedagogical reasons, this guide focuses on the simplest way to set up the fulfillment, but it's not the most secure. Hence, it is strongly recommended to use Kerberos AuthType or credentials protection via Azure Key Vault or CyberArk in a production environment. See the [PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.  
+For pedagogical reasons, this guide focuses on the simplest way to set up the fulfillment, but it's not the most secure. Hence, it is strongly recommended to use Kerberos AuthType or credentials protection via Azure Key Vault or CyberArk in a production environment. See the [PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.
 Netwrix Identity Manager (formerly Usercube) recommends completing this guide once, testing the configuration, and only then, switching to a more secure way of storing credentials.
 
 ## Build the Connector
@@ -116,7 +116,7 @@ It is strongly recommended that the applicative configuration be stored in the w
 
 In the `MicrosoftExchange` directory, create a `MicrosoftExchange Connector.xml` file. This file contains the declaration of the connector and the associated [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md).
 
-> This example declares the 
+> This example declares the
 > `MicrosoftExchange`[Connector](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 > on the `Local` agent, and the
 > [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) linked to the
@@ -388,7 +388,7 @@ This example adds a new menu item under the `Nav_Connectors` menu item declared 
 `Conf/Nav.xml` file. This new menu item gives access to the list of synchronized Microsoft Exchange
 entities.
 
-![Microsoft Exchange Menu Items](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.webp)
+![Microsoft Exchange Menu Items](/images/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.webp)
 
 ### Configuration
 
@@ -433,7 +433,7 @@ Conf/MicrosoftExchange/MicrosoftExchange UI.xml
 This example configures the following display for
 [wolfgang.abendroth@acme.com](mailto:wolfgang.abendroth@acme.com).
 
-![Microsoft Exchange Display Entity Type](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.webp)
+![Microsoft Exchange Display Entity Type](/images/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.webp)
 
 The scalar properties require no configuration: they are automatically displayed. The only
 information that the
@@ -462,7 +462,7 @@ Conf/MicrosoftExchange/MicrosoftExchange UI.xml
 
 This example configures the following list display:
 
-![Microsoft Exchange Display Table](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.webp)
+![Microsoft Exchange Display Table](/images/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.webp)
 
 #### Internal Display Name
 
@@ -590,7 +590,7 @@ tool.
 An Active Directory configuration is required for Microsoft Exchange to work. Fill the AD Microsoft
 Exchange Export Fulfillment settings in accordance with the configuration.
 
-To reset the password, if **AuthType** is `Basic`, then **EnableSSL** must be `true`.  
+To reset the password, if **AuthType** is `Basic`, then **EnableSSL** must be `true`.
 Otherwise, if **AuthType** is `Kerberos`, then **EnableSSL** is not required.
 
 #### Mailbox Creation
@@ -611,7 +611,7 @@ existing mailbox, the Active Directory part can be skipped.
 The Synchronization job should be found in the UI, under the **Job Execution** menu, with the name
 input in the Job's **DisplayName_Li** attribute.
 
-![Microsoft Exchange Jobs](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_jobs_5.1.7.webp)
+![Microsoft Exchange Jobs](/images/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_jobs_5.1.7.webp)
 
 From there, the Synchronization job can be launched and debugged (if needed).
 
@@ -620,8 +620,8 @@ the SQL Server database.
 
 The results can also be viewed on the UI:
 
-![Microsoft Exchange Menu Items](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.webp)
+![Microsoft Exchange Menu Items](/images/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_menu_item_5.1.7.webp)
 
-![Microsoft Exchange Display Entity Type](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.webp)
+![Microsoft Exchange Display Entity Type](/images/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_entity_type_5.1.7.webp)
 
-![Microsoft Exchange Display Table](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.webp)
+![Microsoft Exchange Display Table](/images/identitymanager/saas/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_fulfill_display_table_5.1.7.webp)

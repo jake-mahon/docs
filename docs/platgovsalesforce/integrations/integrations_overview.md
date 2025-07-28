@@ -29,6 +29,6 @@ logs during an audit. This provides the following benefits to your users:
 - The ability for auditors to track compliant changes and avoid manually reconciling change tickets
   to change logs during audit.
 
-![Jira Integration](/img/product_docs/platgovsalesforce/integrations/jira_overview.webp)
+![Jira Integration](/images/platgovsalesforce/integrations/jira_overview.webp)
 
 **Next Step:** [ Set Up the Jira Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration.md)

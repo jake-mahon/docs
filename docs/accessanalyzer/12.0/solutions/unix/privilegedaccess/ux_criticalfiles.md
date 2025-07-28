@@ -18,7 +18,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the UX_CriticalFiles Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/privilegedaccess/criticalfilesquery.webp)
+![Queries for the UX_CriticalFiles Job](/images/accessanalyzer/12.0/solutions/unix/privilegedaccess/criticalfilesquery.webp)
 
 The query for the UX_CriticalFiles job is:
 
@@ -35,7 +35,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_CriticalFiles Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/privilegedaccess/criticalfilesanalysis.webp)
+![Analysis Tasks for the UX_CriticalFiles Job](/images/accessanalyzer/12.0/solutions/unix/privilegedaccess/criticalfilesanalysis.webp)
 
 The default analysis task is:
 
@@ -52,4 +52,3 @@ the following preconfigured report:
 | Report                  | Description                                                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                                              |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Critical File Ownership | This report lists the ownership of critical files across the audited environment. The top non-root users and groups with critical file ownership are highlighted. | None         | This report is comprised of three elements: <ul><li>Table – Provides details on Top 5 Critical File Owners (Users)</li><li>Table – Provides details on Top 5 Critical File Owners (Groups)</li><li>Table – Provides information on Critical File Ownership Details</li></ul> |
-

@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_WeekendActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/suspiciousactivity/weekendactivityanalysis.webp)
+![Analysis Tasks for the Box_WeekendActivity Job](/images/accessanalyzer/12.0/solutions/box/activity/suspiciousactivity/weekendactivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -36,4 +36,3 @@ following pre-configured report:
 | Report           | Description                                                                                                    | Default Tags | Report Elements                                                                                                                                                                                                                                                   |
 | ---------------- | -------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Weekend Activity | This report highlights the activity occurring on weekends in the target Box environment over the last 30 days. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays last 30 days of weekend activity for top 5 users</li><li>Table – Provides summary top 30 days of weekend activity</li><li>Table – Provides details on weekend Activity Details</li></ul> |
-

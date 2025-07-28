@@ -20,7 +20,7 @@ the Tier 2 database and subsequently removed from the Tier 1 database.
 :::
 
 
-![SharePoint data collection settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/spaa/datacollectionsettings.webp)
+![SharePoint data collection settings page](/images/accessanalyzer/12.0/admin/datacollector/spaa/datacollectionsettings.webp)
 
 The Probable Owners section provides options for how probable ownership will be calculated:
 

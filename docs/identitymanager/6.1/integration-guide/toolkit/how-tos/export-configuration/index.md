@@ -79,7 +79,7 @@ Export a SaaS configuration by proceeding as follows:
 
 2. Log in to the IDP to be redirected back to this screen:
 
-    ![Usercube-Login.exe Success Screen](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/how-tos/export-configuration/identitymanager-login_success_v602.webp)
+    ![Usercube-Login.exe Success Screen](/images/identitymanager/6.1/integration-guide/toolkit/how-tos/export-configuration/identitymanager-login_success_v602.webp)
 
     Once authenticated, an identification token is stored on your local machine for the
     authentication to Usercube's deployment and export processes.

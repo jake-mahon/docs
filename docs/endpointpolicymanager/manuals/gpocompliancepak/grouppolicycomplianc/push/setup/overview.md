@@ -15,7 +15,7 @@ Auditing.
 :::
 
 
-![gpcr_server_with_push_mode_7](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_7.webp)
+![gpcr_server_with_push_mode_7](/images/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_7.webp)
 
 Figure 43. Setting up clientless auditing.
 
@@ -23,13 +23,13 @@ Figure 43. Setting up clientless auditing.
 or change the security group (see Figure 44). Choose the option, "Create and deploy a scheduled task
 to run the auditor executable and submit audit data."
 
-![gpcr_server_with_push_mode_8](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_8.webp)
+![gpcr_server_with_push_mode_8](/images/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_8.webp)
 
 Figure 44. Two options for setting up clientless auditing.
 
 **Step 3 –** Then you can perform each step in the Audit Setup Wizard, as shown in Figure 45. These
 steps are covered in the following sections.
 
-![gpcr_server_with_push_mode_9](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_9.webp)
+![gpcr_server_with_push_mode_9](/images/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_9.webp)
 
 Figure 45. The Audit Setup Wizard.

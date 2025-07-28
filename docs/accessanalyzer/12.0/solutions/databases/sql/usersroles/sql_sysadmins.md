@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/usersroles/sqljobgroup29.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/usersroles/sqljobgroup29.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ the following pre-configured report.
 | Report        | Description                                                     | Default Tags | Report Elements                                                                                                                                                                                                                                                                       |
 | ------------- | --------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Admin Summary | This report highlights all principals with the 'sysadmin' role. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by admin count</li><li>Table – Provides top instances by admin count</li><li>Table – Provides details on admin details</li><li>Table – Provides details on domain user admin details</li></ul> |
-

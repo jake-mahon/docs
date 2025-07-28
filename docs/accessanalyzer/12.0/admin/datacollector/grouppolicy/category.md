@@ -8,7 +8,7 @@ sidebar_position: 10
 
 On the GroupPolicy Data Collector Category page, select the required query category to be executed.
 
-![Group Policy Data Collector Wizard Category page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/category.webp)
+![Group Policy Data Collector Wizard Category page](/images/accessanalyzer/12.0/admin/datacollector/grouppolicy/category.webp)
 
 The available categories are:
 

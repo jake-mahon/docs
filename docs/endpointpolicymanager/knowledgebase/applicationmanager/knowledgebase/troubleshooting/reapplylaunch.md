@@ -14,4 +14,4 @@ Reapply on Launch (up to build 901.) 64-bit patch. 32-bit patch is found here:
 After Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE build 901, this patch is no longer
 required.
 
-![518_1_image0011](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/518_1_image0011.webp)
+![518_1_image0011](/images/endpointpolicymanager/troubleshooting/applicationsettings/518_1_image0011.webp)

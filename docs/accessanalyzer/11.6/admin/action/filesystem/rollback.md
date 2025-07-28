@@ -15,7 +15,7 @@ Not all actions support Rollback.
 :::
 
 
-![File System Action Module Wizard Rollback page](/img/product_docs/accessanalyzer/11.6/admin/action/filesystem/rollback.webp)
+![File System Action Module Wizard Rollback page](/images/accessanalyzer/11.6/admin/action/filesystem/rollback.webp)
 
 Use the following options:
 

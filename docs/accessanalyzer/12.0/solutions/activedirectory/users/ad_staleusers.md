@@ -31,7 +31,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_StaleUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/staleusersanalysis.webp)
+![Analysis Tasks for the AD_StaleUsers Job](/images/accessanalyzer/12.0/solutions/activedirectory/users/staleusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -45,4 +45,3 @@ the following pre-configured report:
 | Report      | Description                                                                                                                                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                          |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stale Users | This report identifies user accounts which have not logged into the domain for an extended amount of time or are currently disabled. A user account is considered stale if the last logon is over 60 days ago, is currently disabled, or expired. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays users by domain</li><li>Table – Provides details on users</li><li>Table – Provides details on users by domain</li></ul> |
-

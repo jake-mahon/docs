@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the Box_UnusualDownloadActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/suspiciousactivity/unusualdownloadactivityanalysis.webp)
+![Analysis Task for the Box_UnusualDownloadActivity Job](/images/accessanalyzer/12.0/solutions/box/activity/suspiciousactivity/unusualdownloadactivityanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -34,4 +34,3 @@ produces the following pre-configured report:
 | Report                    | Description                                                                                                                                                                | Default Tags | Report Elements                                                                                                                                                                            |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Unusual Download Activity | This report provides insight into download activity that deviates from the normal range of expected downloads.  This is determined by using historical data for each file. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 most recent unusual download activity</li><li>Table – Provides details on unusual download activity</li></ul> |
-

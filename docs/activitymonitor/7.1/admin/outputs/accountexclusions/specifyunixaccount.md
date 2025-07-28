@@ -8,7 +8,7 @@ sidebar_position: 40
 
 The Specify Unix Account or group window is opened from a field where a Unix account is needed.
 
-![Specify Unix Account popup window](/img/product_docs/activitymonitor/7.1/admin/outputs/window/unixspecifyunixaccount.webp)
+![Specify Unix Account popup window](/images/activitymonitor/7.1/admin/outputs/window/unixspecifyunixaccount.webp)
 
 Type the UID for the desired account in the textbox. Multiple UIDs can be added using a semicolon
 (;), a comma (,), or a space. Then click OK. The Specify Unix Account window closes, and the account

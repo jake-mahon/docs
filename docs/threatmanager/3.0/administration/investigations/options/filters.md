@@ -11,7 +11,7 @@ Operator, and Filter value. A time period for the report data is also configured
 data sources have been configured, there is also a Source drop-down menu. Filter statements can be
 simple with one value statement or complex with multiple value statements.
 
-![Filters section of an investigation](/img/product_docs/threatmanager/3.0/administration/investigations/options/filterstm.webp)
+![Filters section of an investigation](/images/threatmanager/3.0/administration/investigations/options/filterstm.webp)
 
 The section has the following options for configuring a filter statement:
 
@@ -41,7 +41,7 @@ You must set a timeframe for an investigation query. When you run a query, the a
 available data for activity events that match the set filters for the specified timeframe. By
 default, the timeframe is set for the "Last Hour" of activity.
 
-![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/timeframe.webp)
+![Investigations Interface showing the Timeframe drop-down menu](/images/threatprevention/7.5/reportingmodule/investigations/options/timeframe.webp)
 
 Click the displayed timeframeto open a window, which provides several timeframe options as well as a
 clock and a calendar for setting a custom range:
@@ -97,7 +97,7 @@ to the selected investigation, unless you are running an ad hoc query.
 The Attribute menu in the Filters section has the following options grouped by the type of
 attribute:
 
-![attrributemenu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/attrributemenu.webp)
+![attrributemenu](/images/threatprevention/7.5/reportingmodule/investigations/options/attrributemenu.webp)
 
 - Event ( group header in the menu):
 
@@ -190,7 +190,7 @@ attribute:
 The options available for the Operator menu in the Filters section change to match the selected
 Attribute. The following is a list of all possible operator options:
 
-![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/operatormenu.webp)
+![Operator Menu in the investigations Filters section](/images/threatprevention/7.5/reportingmodule/investigations/options/operatormenu.webp)
 
 - Equals
 - Not Equal To
@@ -206,7 +206,7 @@ the steps to build a filter statement.
 
 **Step 1 –** Navigate to the desired investigation's Filters section.
 
-![filtersimple](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/filtersimple.webp)
+![filtersimple](/images/threatprevention/7.5/reportingmodule/investigations/options/filtersimple.webp)
 
 **Step 2 –** If multiple data sources are configure, select a source from the **Source** drop-down
 menu.

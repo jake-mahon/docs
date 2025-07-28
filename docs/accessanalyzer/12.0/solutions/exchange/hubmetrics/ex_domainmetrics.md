@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_DomainMetrics Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/domainmetricsanalysis.webp)
+![Analysis Tasks for the EX_DomainMetrics Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/domainmetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -36,4 +36,3 @@ following pre-configured reports:
 | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Top External Domains by Message Count (Top External Domains)  | This report identifies which external domains have the largest traffic flow between organizations. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays access by team</li><li>Table – Provides a database access summary</li><li>Table – Provides database access details</li></ul> |
 | Top External Domains by Message Volume (Top External Domains) | This report identifies which external domains have the largest traffic flow between orgs.          | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays top domain by message count (30 days)</li><li>Table – Provides details on top domain by message count (30 days)</li></ul>      |
-

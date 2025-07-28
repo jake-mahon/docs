@@ -21,7 +21,7 @@ option. See Step 3 on the [Configuration Tool](/docs/directorymanager/11.1/insta
 
 Step 2 – Click **Next**.
 
-![database_settings](/img/product_docs/directorymanager/11.1/install/configure/databasesettings.webp)
+![database_settings](/images/directorymanager/11.1/install/configure/databasesettings.webp)
 
 Step 3 – In the SQL Server list, select the SQL Server to use with this new Directory Manager
 Server. The SQL Server must be the same used with the master node of Directory Manager.
@@ -57,7 +57,7 @@ Database button has no relevance here.
 
 Step 7 – Click **Next**.
 
-![License page](/img/product_docs/directorymanager/11.1/install/configure/license_w_existing_db_option.webp)
+![License page](/images/directorymanager/11.1/install/configure/license_w_existing_db_option.webp)
 
 Step 8 – On the License page, license information of Directory Manager installed on the master node
 is displayed. A valid license and key enable the Next button. If the Next button remains disabled,
@@ -65,7 +65,7 @@ check your entries for errors.
 
 Step 9 – Click **Next**.
 
-![GroupID Service Configurations](/img/product_docs/directorymanager/11.1/install/configure/servicesconfiguration.webp)
+![GroupID Service Configurations](/images/directorymanager/11.1/install/configure/servicesconfiguration.webp)
 
 Step 10 – Directory Manager requires two services:
 
@@ -97,7 +97,7 @@ This Directory Manager instance will use Email and Scheduler services of the sel
 
 Step 11 – Click **Next**.
 
-![Elasticsearch Settings page](/img/product_docs/directorymanager/11.1/install/configure/elasticsearchsettings.webp)
+![Elasticsearch Settings page](/images/directorymanager/11.1/install/configure/elasticsearchsettings.webp)
 
 Step 12 – Directory Manager provides the following two options for Elasticsearch configuration.
 Select the relevant option:
@@ -106,7 +106,7 @@ Select the relevant option:
   Manager Configuration Tool will install Elasticsearch. It presents you default configuration of
   Elasticsearch cluster it will create:
 
-    ![Select Elastic Cluster page](/img/product_docs/directorymanager/11.1/install/configure/select_cluster_w_existing_db_option.webp)
+    ![Select Elastic Cluster page](/images/directorymanager/11.1/install/configure/select_cluster_w_existing_db_option.webp)
 
     1. Cluster Name: lists all the clusters defined so far. Select one to create an Elasticsearch
        node within the selected cluster.
@@ -123,7 +123,7 @@ Select the relevant option:
     I will install and manage Elasticsearch myself: If you select this option, the following page is
     displayed:
 
-    ![Elasticsearch settings page](/img/product_docs/directorymanager/11.1/install/configure/elasticsearchsettings-2.webp)
+    ![Elasticsearch settings page](/images/directorymanager/11.1/install/configure/elasticsearchsettings-2.webp)
 
     Provide configurations of Elasticsearch you want to use with Directory Manager:
 
@@ -133,7 +133,7 @@ Select the relevant option:
 
 Step 13 – Click **Next**.
 
-![Service Account Settings page](/img/product_docs/directorymanager/11.1/install/configure/service_account_settings_w_existing_db.webp)
+![Service Account Settings page](/images/directorymanager/11.1/install/configure/service_account_settings_w_existing_db.webp)
 
 :::note
 If you configure a Group Managed Service Account (gMSA) as an App Pool service account then
@@ -181,13 +181,13 @@ Step 15 – You can specify a service accounts for the app pool in any of the fo
 
 - Use an existing account: Click **Browse**.
 
-    ![Find Service Account page](/img/product_docs/directorymanager/11.1/install/configure/findserviceaccount.webp)
+    ![Find Service Account page](/images/directorymanager/11.1/install/configure/findserviceaccount.webp)
 
     On the Find Service Account dialog box, search and select the required account and click **OK**.
 
 - Create a new service account: Click the **Create New** button on the Service Account Setting page.
 
-    ![Create a new service account page](/img/product_docs/directorymanager/11.1/install/configure/createserviceaccount.webp)
+    ![Create a new service account page](/images/directorymanager/11.1/install/configure/createserviceaccount.webp)
 
     On the Create Service Account dialog box, select the kind of account you want to create. Enter a
     name, container and password for the account. Click **Create**.
@@ -208,7 +208,7 @@ Account) in the Password box.
 
 Step 17 – Click **Configure**.
 
-![Configuring GroupID ](/img/product_docs/directorymanager/11.1/install/configure/configuring.webp)
+![Configuring GroupID ](/images/directorymanager/11.1/install/configure/configuring.webp)
 
 Step 18 – The next page displays the progress while a Directory Manager server is configured on the
 machine. While configuring the machine, the Configuration Tool checks the application’s signing key
@@ -216,10 +216,10 @@ status and update it according to your Directory Manager environment. See the
 [Update Signing Key](/docs/directorymanager/11.1/install/configure/signingkeyinfo.md) topic for information how Configuration Tool will update
 Directory Manager's Signing Key.
 
-Step 19 – This completes the configuration of Directory Manager as a slave node on your machine.  
+Step 19 – This completes the configuration of Directory Manager as a slave node on your machine.
 Click **Launch GroupID** to start using Directory Manager. The Sign In pa ge opens:
 
-![GroupID Sign In page](/img/product_docs/directorymanager/11.1/install/configure/launchgid.webp)
+![GroupID Sign In page](/images/directorymanager/11.1/install/configure/launchgid.webp)
 
 To login in to Directory Manager Admin Center for the first time, provide Directory Manager
 Administrator user name and password.

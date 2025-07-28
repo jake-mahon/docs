@@ -28,7 +28,7 @@ appliances are racked (or VMs created). iDRAC access should also be confirmed.
 ## Install Netwrix Privilege Secure for Discovery
 
 In order to install Privilege Secure, the Netwrix Customer Success (CS) team will require SSH access
-to the appliances or virtual machines setup forPrivilege Secure.  
+to the appliances or virtual machines setup forPrivilege Secure.
 The Netwrix Customer Success team will install Privilege Secure. This can either be on appliances or
 on VMs. Some key questions need to be determined prior to install:
 
@@ -39,9 +39,9 @@ on VMs. Some key questions need to be determined prior to install:
   used in the case of a serious impact to the production environment that takes down multiple nodes.
 
 The Customer Success team can provide guidance and documentation to determine the best approach for
-DR.  
+DR.
 For a VM installation, the required virtual machine sizes are in this article:
-[Virtual Machines](/docs/privilegesecurediscovery/requirements/virtualmachines.md)  
+[Virtual Machines](/docs/privilegesecurediscovery/requirements/virtualmachines.md)
 Allow
 for a two hour window to install the production environment and another two hour window to install
 the DR environment. A further 2hr window should be setup for backup and restore scripts to be
@@ -57,7 +57,7 @@ Prerequisites
 These need to be added to Privilege Secure in the server configuration screen (Config, Server
 Configuration). This is domain specific and is opened by clicking the > sign next to the domain:
 
-![blobid0.webp](/img/product_docs/privilegesecure/4.2/discovery/360048268793_blobid0.webp)
+![blobid0.webp](/images/privilegesecure/4.2/discovery/360048268793_blobid0.webp)
 
 - The scan mode account should then be used to rollout a GPO change to ensure all Windows machines
   are able to be scanned. The details on how to make this GPO change are detailed in this article:
@@ -77,13 +77,13 @@ The dashboard can now be reviewed. An explanation of the dashboard is available 
 
 Privilege Secure utilizes two levels of user accounts, User and Administrator. These are explained
 in the article below:
-[Add a User or Group to a Systems' Administrator Account Inventory](/docs/privilegesecurediscovery/administration/systemmanagement/adduserorgroup.md)  
+[Add a User or Group to a Systems' Administrator Account Inventory](/docs/privilegesecurediscovery/administration/systemmanagement/adduserorgroup.md)
 Before
 protect mode is rolled out users that would require privileged access should be added to Privilege
 Secure. This is typically done by means of an AD group. The Config/Users and Groups page is used to
 add the group:
 
-![blobid1.webp](/img/product_docs/privilegesecure/4.2/discovery/360048268793_blobid1.webp)
+![blobid1.webp](/images/privilegesecure/4.2/discovery/360048268793_blobid1.webp)
 
 ## Adding the Protect Account to Local Administrator Group
 
@@ -106,13 +106,13 @@ protected status:
 The accounts with access to a machine can be viewed from the Insight/Computer page in Privilege
 Secure:
 
-![blobid2.webp](/img/product_docs/privilegesecure/4.2/discovery/360048268793_blobid2.webp)
+![blobid2.webp](/images/privilegesecure/4.2/discovery/360048268793_blobid2.webp)
 
-Here all the accounts groups are listed over several pages.  
+Here all the accounts groups are listed over several pages.
 Once the access has been determined, and Active Directory cleaned up, the machine can be added to
 protect mode JITA. This can be done from the Access/Grant Access page.
 
-![blobid3.webp](/img/product_docs/privilegesecure/4.2/discovery/360048268793_blobid3.webp)
+![blobid3.webp](/images/privilegesecure/4.2/discovery/360048268793_blobid3.webp)
 
 Placing the server into protect mode removes the accounts, that are not persistent, from the server
 and adds them to Privilege Secure. These remain available for use, but they are now available for

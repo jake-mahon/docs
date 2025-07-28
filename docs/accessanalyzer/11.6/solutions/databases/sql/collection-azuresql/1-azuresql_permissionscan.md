@@ -13,7 +13,7 @@ permissions from all the targeted instances.
 
 The 1–AzureSQL_PermissionsScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/permissionjob.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/permissionjob.webp)
 
 - PermissionScan — Collects permissions from the targeted instances
 
@@ -36,7 +36,7 @@ job.
 :::
 
 
-![Filters](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
+![Filters](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the
 [SQL Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/sql/overview.md)
@@ -48,7 +48,7 @@ instances can be added in the following ways:
 - Use the Import CSV button to import a list from a CSV file, if desired.
 - Optionally, use the Add Custom Filter button to create and apply a custom filter.
 
-![Managed Connection Window](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/managedconnections.webp)
+![Managed Connection Window](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/managedconnections.webp)
 
 **Step 5 –** To view all managed connections discovered during the 1-AzureSQL_PermissionScan Job
 run, click Connections within the Filter page. This screen will list the following items retrieved
@@ -76,7 +76,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/jobanalysis.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/jobanalysis.webp)
 
 The default analysis tasks are:
 

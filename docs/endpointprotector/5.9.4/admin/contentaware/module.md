@@ -42,7 +42,7 @@ If not previously provided, the contact details of the Main Administrator will b
 **NOTE:** Any details provided will only be used to ensure the Live Update Server is conﬁgured
 correctly and that the Content Aware Protection module was enabled successfully.
 
-![The module is displayed but requires a simple activation by pressing the Enable button](/img/product_docs/endpointprotector/5.9.4/admin/contentawareprotection/activation.webp)
+![The module is displayed but requires a simple activation by pressing the Enable button](/images/endpointprotector/5.9.4/admin/contentawareprotection/activation.webp)
 
 **NOTE:** The Content Aware Protection module is separate from Device Control or eDiscovery modules,
 and requires separate licensing.
@@ -52,4 +52,4 @@ and requires separate licensing.
 This section offers a quick overview in the form of graphics and charts related to the Content Aware
 Protection module.
 
-![A quick overview in the form of graphics and charts related to the Content Aware Protection module](/img/product_docs/endpointprotector/5.9.4/admin/contentawareprotection/dashboard.webp)
+![A quick overview in the form of graphics and charts related to the Content Aware Protection module](/images/endpointprotector/5.9.4/admin/contentawareprotection/dashboard.webp)

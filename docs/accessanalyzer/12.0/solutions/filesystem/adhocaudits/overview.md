@@ -17,7 +17,7 @@ Run these jobs independently of the solution.
 :::
 
 
-![Ad Hoc Audits Job Group](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/adhocaudits/jobstree.webp)
+![Ad Hoc Audits Job Group](/images/accessanalyzer/12.0/solutions/filesystem/adhocaudits/jobstree.webp)
 
 The Ad Hoc Audits Job Group is comprised of:
 

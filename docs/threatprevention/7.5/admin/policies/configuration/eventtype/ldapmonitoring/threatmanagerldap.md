@@ -18,14 +18,14 @@ Policies.
 **Step 2 –** On the Policies page, expand the Honeytokens list and select the related Honeytoken
 policy from the Policies list. Or, select the policy from the Policies table in the Overview box.
 
-![honeytoken](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/honeytoken.webp)
+![honeytoken](/images/threatprevention/7.5/admin/policies/eventtype/usecase/honeytoken.webp)
 
 **Step 3 –** On the Configuration tab of the policy, fill in the requested information and click
 **Copy LDAP Filter**. The Copy LDAP Filter button will automatically copy the exact string that is
 required for Activity Monitor or Threat Prevention to the clipboard to configure the LDAP events for
 this Honeytoken.
 
-![ldapfiltercopiedtoclipboard](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/ldapfiltercopiedtoclipboard.webp)
+![ldapfiltercopiedtoclipboard](/images/threatprevention/7.5/admin/policies/eventtype/usecase/ldapfiltercopiedtoclipboard.webp)
 
 A notification will pop up and the filter will be saved to the clipboard.
 
@@ -38,7 +38,7 @@ Manager** > **Netwrix Threat Manager for AD LDAP**.
 
 **Step 5 –** Click the **Event Type** tab.
 
-![Netwrix Threat Manager for AD LDAP template – Event Type tab with LDAP Query filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/ldapmonitoringfortm.webp)
+![Netwrix Threat Manager for AD LDAP template – Event Type tab with LDAP Query filter](/images/threatprevention/7.5/admin/policies/eventtype/usecase/ldapmonitoringfortm.webp)
 
 **Step 6 –** Under Event Filters select **LDAP Query**. If the Include LDAP Queries list is empty,
 select the other **LDAP Monitoring** event type in the list above.

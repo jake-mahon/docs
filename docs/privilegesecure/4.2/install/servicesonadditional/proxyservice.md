@@ -36,7 +36,7 @@ knowledge base article.
 **Step 2 –** Right-click on the installer and select Run as administrator. The Netwrix Privilege
 Secure Proxy Service Setup wizard opens.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/licenseagreement_2.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](/images/privilegesecure/4.2/accessmanagement/install/licenseagreement_2.webp)
 
 **Step 3 –** On the End User License Agreement page, check the I agree to the license terms and
 conditions box and click Options.
@@ -46,7 +46,7 @@ Remember, it is a best practice to read the agreement before accepting it.
 :::
 
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/setupoptions.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/images/privilegesecure/4.2/accessmanagement/install/setupoptions.webp)
 
 **Step 4 –** The default installation location for Install Folder is:
 
@@ -63,7 +63,7 @@ few moments.
 :::
 
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/completed_2.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/images/privilegesecure/4.2/accessmanagement/install/completed_2.webp)
 
 **Step 6 –** When installation is complete, click Close.
 

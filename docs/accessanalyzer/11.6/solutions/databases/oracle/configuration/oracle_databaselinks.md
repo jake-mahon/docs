@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/configuration/analysisdblinks.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/configuration/analysisdblinks.webp)
 
 The default analysis tasks are:
 
@@ -33,4 +33,3 @@ the following preconfigured report:
 | Report         | Description                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                                                      |
 | -------------- | -------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Database Links | This report highlights Database Links where the listed Oracle Server is able to execute remote commands. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top five database links by instance</li><li>Bar Chart – Provides information on database links by instance (GB)</li><li>Table – Provides details on database links</li></ul> |
-

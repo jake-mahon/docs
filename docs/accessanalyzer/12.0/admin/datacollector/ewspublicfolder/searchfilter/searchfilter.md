@@ -11,7 +11,7 @@ a wizard page for the category of:
 
 - PublicFolder search
 
-![EWS Public Folder Data Collector Wizard Search Filter page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter.webp)
+![EWS Public Folder Data Collector Wizard Search Filter page](/images/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter.webp)
 
 Click **Add Filter** to open the Filter Wizard
 

@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The General tab is for changing the job name and description.
 
-![General tab of Job Properties](/img/product_docs/accessanalyzer/11.6/admin/jobs/job/properties/general.webp)
+![General tab of Job Properties](/images/accessanalyzer/11.6/admin/jobs/job/properties/general.webp)
 
 The following options are available:
 
@@ -57,6 +57,6 @@ shall be set for messaging in the application.
 :::
 
 
-![Log Level Options](/img/product_docs/accessanalyzer/11.6/admin/jobs/job/properties/generalloglevel.webp)
+![Log Level Options](/images/accessanalyzer/11.6/admin/jobs/job/properties/generalloglevel.webp)
 
 For example, this is where you set the messaging for Info, Warning, or Error at a job level.

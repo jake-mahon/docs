@@ -15,7 +15,7 @@ results using the column headers. Below the Search button is the
 [Export](/docs/activitymonitor/7.1/admin/search/overview.md#export)
 option.
 
-![Exchange Online - Search Results](/img/product_docs/activitymonitor/7.1/admin/search/results/searchresults.webp)
+![Exchange Online - Search Results](/images/activitymonitor/7.1/admin/search/results/searchresults.webp)
 
 The results data grid columns display the following information for each event:
 

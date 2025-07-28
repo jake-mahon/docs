@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The EX_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.
 
-![ActiveSync > EX_ActiveSync Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/activesyncjobstree.webp)
+![ActiveSync > EX_ActiveSync Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/casmetrics/activesyncjobstree.webp)
 
 The EX_ActiveSync job is located in the ActiveSync job group.
 
@@ -23,7 +23,7 @@ deselected. There are some that are deselected by default, as they are for troub
 :::
 
 
-![Analysis Tasks for the EX_ActiveSync Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/activesyncanalysis.webp)
+![Analysis Tasks for the EX_ActiveSync Job](/images/accessanalyzer/11.6/solutions/exchange/casmetrics/activesyncanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -76,4 +76,3 @@ the following pre-configured reports:
 | Server Traffic (Top Servers by Average Daily Traffic) | This report ranks CAS servers by volume of ActiveSync traffic.                                                                                 | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users by average daily traffic</li><li>Table – Provides details on top users by average daily traffic</li></ul> |
 | Top Users (Top Users by Average Daily Traffic)        | This report shows the top users of ActiveSync.                                                                                                 | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users by average daily traffic</li><li>Table – Provides details on top users by average daily traffic</li></ul> |
 | User Devices (User Phones)                            | This report identifies all devices which have been associated with a User, and the time frames when they were used.                            | None         | This report is comprised of one element: <ul><li>Table – Provides details on user devices</li></ul>                                                                                        |
-

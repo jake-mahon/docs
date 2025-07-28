@@ -9,7 +9,7 @@ sidebar_position: 20
 The jobs in the 1.Groups group identify group conditions and areas of administrative concern within
 Microsoft Entra ID, such as toxic group conditions or synchronization issues.
 
-![1.Groups Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/entraid/groups/jobstree.webp)
+![1.Groups Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/entraid/groups/jobstree.webp)
 
 The jobs in the 1.Groups Job Group are:
 

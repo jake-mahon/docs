@@ -23,7 +23,7 @@ generated using the Automatic option below, they are stored in the user’s cert
 :::
 
 
-![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
+![Certificate Exchange Options section of the Applet Settings page](/images/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
 
 There are three Certificate Exchange Options provided by the FSAA Data collector:
 

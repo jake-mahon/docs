@@ -9,7 +9,7 @@ sidebar_position: 20
 The OneDrive Scan Summary report at the **OneDrive for Business** node provides an overview of
 scanned personal drives.
 
-![OneDrive Scan Summary report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/onedrive/onedrivescansummary.webp)
+![OneDrive Scan Summary report](/images/accessinformationcenter/12.0/resourceaudit/sharepoint/onedrive/onedrivescansummary.webp)
 
 This report is comprised of the following columns:
 

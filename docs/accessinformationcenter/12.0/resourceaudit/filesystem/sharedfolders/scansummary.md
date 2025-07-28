@@ -9,7 +9,7 @@ sidebar_position: 10
 The Scan Summary report at the **Shared Folders** node provides a summary view of all shares on the
 server with the share type of Shared.
 
-![Scan Summary report at the Shared Folders node](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharedfolders/sharedfoldersscansummary.webp)
+![Scan Summary report at the Shared Folders node](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharedfolders/sharedfoldersscansummary.webp)
 
 This report is comprised of the following columns:
 

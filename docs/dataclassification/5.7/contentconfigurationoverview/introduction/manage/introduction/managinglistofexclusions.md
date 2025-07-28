@@ -15,7 +15,7 @@ on the left, and click **Add**.
     To exclude a certain document, enter the page URL with no wildcard indicators (e.g.
     _http://test.sharepoint.com/sites/documents/excluded%20document.docx_
 
-    ![manage_managing_list_of_exclusions](/img/product_docs/dataclassification/5.7/admin/sources/sharepoint/manage_managing_list_of_exclusions.webp)
+    ![manage_managing_list_of_exclusions](/images/dataclassification/5.7/admin/sources/sharepoint/manage_managing_list_of_exclusions.webp)
 
     You can use wildcards anywhere in the exclusion pattern definition as follows:
 
@@ -44,7 +44,7 @@ Exclusions are case-insensitive.
     | Has any value | Exclude the document if its metadata field has any value. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                                   |
     | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                              |
 
-    ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
+    ![gdrive_exclusion_condition_2_thumb_0_0](/images/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
 
     When finished, click **Add**.
 

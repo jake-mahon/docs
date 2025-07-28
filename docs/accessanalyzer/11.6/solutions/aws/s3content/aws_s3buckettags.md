@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_S3BucketTagsJob](/img/product_docs/accessanalyzer/11.6/solutions/aws/s3content/s3buckettagsanalysis.webp)
+![Analysis Tasks for the AWS_S3BucketTagsJob](/images/accessanalyzer/11.6/solutions/aws/s3content/s3buckettagsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ the following preconfigured report:
 | Report      | Description                                | Default Tags | Report Element                                                                                                                                                                                                               |
 | ----------- | ------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Bucket Tags | This report highlights AWS S3 Bucket Tags. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays buckets tagged by account</li><li>Table – Shows bucket tagging summary</li><li>Table – Provides details on bucket tagging</li></ul> |
-

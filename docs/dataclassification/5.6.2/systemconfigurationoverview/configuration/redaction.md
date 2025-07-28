@@ -30,17 +30,17 @@ types (depending on the configuration):
 Masking based redaction will ensure that a specified number of start / end characters will be
 retained from each redacted value.
 
-![configredactionplans](/img/product_docs/dataclassification/5.6.2/configuration/configredactionplans.webp)
+![configredactionplans](/images/dataclassification/5.6.2/configuration/configredactionplans.webp)
 
 ## Redaction Entity Groups
 
 Entity Groups can be used to add redaction entities to specific groups.
 
-![redactionentitygroups](/img/product_docs/dataclassification/5.6.2/configuration/redactionentitygroups.webp)
+![redactionentitygroups](/images/dataclassification/5.6.2/configuration/redactionentitygroups.webp)
 
 ## Redaction Entities
 
 Entities can be used to specify any custom words or phrases that should be removed by a redaction
 plan.
 
-![configredactionentities](/img/product_docs/dataclassification/5.6.2/configuration/configredactionentities.webp)
+![configredactionentities](/images/dataclassification/5.6.2/configuration/configredactionentities.webp)

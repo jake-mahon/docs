@@ -27,7 +27,7 @@ workstations. You can configure advanced audit policies for the same purpose too
     | **Audit directory service access** | _"Success"_  |
     | **Audit logon events**             | _"Success"_  |
 
-    ![manualconfig_ad_localpolicy_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_localpolicy_winserver2016.webp)
+    ![manualconfig_ad_localpolicy_winserver2016](/images/1secure/configuration/ad/manualconfig_ad_localpolicy_winserver2016.webp)
 
     The Audit logon events policy is only required to collect the information on the originating
     workstation, i.e., the computer from which a change was made. This functionality is optional and

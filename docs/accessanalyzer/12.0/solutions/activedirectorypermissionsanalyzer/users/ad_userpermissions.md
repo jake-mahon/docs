@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_UserPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/users/userpermissionsanalysis.webp)
+![Analysis Tasks for the AD_UserPermissions Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/users/userpermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -41,4 +41,3 @@ produces the following pre-configured reports.
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User Ownership   | This report highlights instances where Active Directory user objects are owned by non admin principals. This information is summarized at the domain level.          | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays a summary of user ownership by domain</li><li>Table – Provides details on non-standard user ownership</li></ul>                                   |
 | User Permissions | This report highlights instances where permissions are applied to Active Directory user objects. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays user permissions by domain</li><li>Pie Chart – Provides details on user permission types</li><li>Table – Provides details on user permissions</li></ul> |
-

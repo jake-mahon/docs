@@ -9,7 +9,7 @@ sidebar_position: 10
 Configure what applications, users, and groups have access to Enterprise Auditor using the Access
 node
 
-![Access Window](/img\product_docs\accessanalyzer\11.6\admin\settings\access\access.webp)
+![Access Window](/images/accessanalyzer/11.6/admin/settings/access/access.webp)
 
 The first type of access that can be granted is Role Based Access for a user or group accessing the
 Enterprise Auditor Console. The second type of access grants access to an application accessing data

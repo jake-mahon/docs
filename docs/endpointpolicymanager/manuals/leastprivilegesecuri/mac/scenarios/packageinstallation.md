@@ -19,4 +19,4 @@ Skype for Business prompts the user for admin credentials before installing.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/package_installation_policy.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/package_installation_policy.webp)

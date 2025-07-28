@@ -10,7 +10,7 @@ Generates the rights to access the workflow supervision page.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Workflow Overview](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/home_workflowoverview_v602.webp)
+![Workflow Overview](/images/identitymanager/6.1/user-guide/administrate/reporting/home_workflowoverview_v602.webp)
 
 ## Examples
 

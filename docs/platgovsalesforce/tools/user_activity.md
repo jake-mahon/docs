@@ -22,7 +22,7 @@ Select **Tools** > **User Activity** from the Netwrix Dashboard page.
 There is a collapsible menu pane available. Click the 🞂 arrow on the left to expand/collapse the
 menu. Refer to [Package Usage](/docs/platgovsalesforce/tools/package_usage.md) for details on the Package Usage tool.
 
-![User Activity tool](/img/product_docs/platgovsalesforce/tools/user_activity.webp)
+![User Activity tool](/images/platgovsalesforce/tools/user_activity.webp)
 
 ## User Login Activity
 

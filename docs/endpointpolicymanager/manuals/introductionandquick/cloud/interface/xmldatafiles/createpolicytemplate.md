@@ -13,10 +13,10 @@ which you can read about at the following link:
 If you want to quickly implement these templates, you can use the **Create Policy from Template**
 action.
 
-![web_interface_and_controls_33_624x193](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_33_624x193.webp)
+![web_interface_and_controls_33_624x193](/images/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_33_624x193.webp)
 
 Once selected, all the policies from that level are implemented, but are changeable.
 
-![web_interface_and_controls_34_624x344](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_34_624x344.webp)
+![web_interface_and_controls_34_624x344](/images/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_34_624x344.webp)
 
 Once saved, the policy is like any other XML data file.

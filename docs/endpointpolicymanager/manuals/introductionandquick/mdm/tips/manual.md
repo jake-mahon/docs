@@ -27,7 +27,7 @@ who has logged on to that machine. Within Groups, you will see a subdirectory wi
 every group of every user who has logged on to that machine (both local and Active Directory
 groups).
 
-![policypak_exporter_tips_tricks_8](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_8.webp)
+![policypak_exporter_tips_tricks_8](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_8.webp)
 
 To license (or extend the license) of an existing machine that is domain-joined, place the license
 file you received from Endpoint Policy Manager in the computer folder. To make the client computer
@@ -42,13 +42,13 @@ use` OBJ::SID`, which can be downloaded for free at
 copy and paste the SID folder name into the OBJ::SID tool, which is automatically generated. The
 output will reveal the name:
 
-![policypak_exporter_tips_tricks_9](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_9.webp)
+![policypak_exporter_tips_tricks_9](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_9.webp)
 
 Alternatively, you can type in the user or group name to receive the SID name:
 
-![policypak_exporter_tips_tricks_10](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_10.webp)
+![policypak_exporter_tips_tricks_10](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_10.webp)
 
-![policypak_exporter_tips_tricks_11](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_11.webp)
+![policypak_exporter_tips_tricks_11](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_11.webp)
 
 The reason Endpoint Policy Manager uses the SID and not the actual user or group name is because
 SIDs are permanent, whereas the underlying name in Active Directory can be changed. Once the

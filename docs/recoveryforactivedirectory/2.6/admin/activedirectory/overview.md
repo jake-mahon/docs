@@ -11,7 +11,7 @@ On the Active Directory page, you can access all the domains that you have confi
 
 Click **Active Directory** in the left pane to open the Active Directory page.
 
-![Active Directory page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/activedirectory.webp)
+![Active Directory page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/activedirectory.webp)
 
 Select a domain from the drop-down menu and expand it to view the domain tree and container
 structure, which is exactly the same as you get in Active Directory Users and Computers. Objects in
@@ -56,7 +56,7 @@ additional information.
 When you right-click an object in a domain on the Active Directory page, the right-click menu is
 displayed as:
 
-![Right-click menu on the Active Directory page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/rightclickmenu.webp)
+![Right-click menu on the Active Directory page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/rightclickmenu.webp)
 
 The Show audit history and Show activity options are enabled only when both the following conditions
 are met:
@@ -75,7 +75,7 @@ On the Active Directory page, select and expand a domain in the left pane and lo
 want to view the audit history for. Right-click this object and select **Show audit history** on the
 menu. The Audit History window is displayed.
 
-![Audit History window](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/audithistory.webp)
+![Audit History window](/images/recoveryforactivedirectory/2.6/admin/activedirectory/audithistory.webp)
 
 The following information is displayed for every action performed on the object:
 
@@ -98,7 +98,7 @@ On the Active Directory page, select and expand a domain in the left pane and lo
 whose activity you want to view. Right-click this object and select **Show activity** on the menu.
 The Audit Activity window is displayed.
 
-![Audit Activity window](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/auditactivity.webp)
+![Audit Activity window](/images/recoveryforactivedirectory/2.6/admin/activedirectory/auditactivity.webp)
 
 The following information is displayed for the actions performed by the object:
 

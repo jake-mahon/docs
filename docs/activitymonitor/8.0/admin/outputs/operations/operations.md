@@ -16,7 +16,7 @@ window. The tab varies based on the type of host selected.
 
 The tab contains the following settings and features:
 
-![linux](/img/product_docs/activitymonitor/8.0/admin/outputs/linux.webp)
+![linux](/images/activitymonitor/8.0/admin/outputs/linux.webp)
 
 Use the options in the Operations tab to filter the list of available audit activities. The options
 are:
@@ -33,7 +33,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![Host Properties - Azure AD Operations tab](/img/product_docs/activitymonitor/8.0/admin/outputs/azureadoperationstab.webp)
+![Host Properties - Azure AD Operations tab](/images/activitymonitor/8.0/admin/outputs/azureadoperationstab.webp)
 
 - Monitor Sign-Ins activity – Indicates if user sign-ins activity is monitored
 - Monitor Audit activity – Indicates if audit for all operations is monitored
@@ -78,7 +78,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![operations](/img/product_docs/activitymonitor/8.0/admin/outputs/operations.webp)
+![operations](/images/activitymonitor/8.0/admin/outputs/operations.webp)
 
 - File Operations – Scope by file operation events: Add, Delete, Rename, Permission change, Read,
   Update
@@ -91,7 +91,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![qumulooutputproperties](/img/product_docs/activitymonitor/8.0/admin/outputs/qumulooutputproperties.webp)
+![qumulooutputproperties](/images/activitymonitor/8.0/admin/outputs/qumulooutputproperties.webp)
 
 - File Operations – Scope by file operation events: Add, Delete, Rename, Permission change, Read,
   Update
@@ -108,7 +108,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![Operations Tab for SharePoint](/img/product_docs/activitymonitor/8.0/admin/outputs/sp.webp)
+![Operations Tab for SharePoint](/images/activitymonitor/8.0/admin/outputs/sp.webp)
 
 - SharePoint operations – Scope by SharePoint operation events: Check-Out, View, Update, Child
   Delete, Undelete, Copy, Audit Mask Change, Child Move, Custom, Check-In, Delete, Profile Change,
@@ -127,7 +127,7 @@ Properties window closes.
 The tab contains a subset of tabs. Each tab has a **Select All** check box to include all events for
 that tab.
 
-![Operations Tab for SharePoint Online Properties](/img/product_docs/activitymonitor/8.0/admin/outputs/operationstab.webp)
+![Operations Tab for SharePoint Online Properties](/images/activitymonitor/8.0/admin/outputs/operationstab.webp)
 
 You can scope by the following events:
 
@@ -289,7 +289,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![sql](/img/product_docs/activitymonitor/8.0/admin/outputs/sql.webp)
+![sql](/images/activitymonitor/8.0/admin/outputs/sql.webp)
 
 - DML operations – Scope by DML operation events: Select, Update, Merge, Insert, Delete, Execute
 - Audit operations – Scope by audit operation events: Login, Logout, Login Failed, Error
@@ -303,7 +303,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![Operations Tab for File System](/img/product_docs/activitymonitor/8.0/admin/outputs/fs.webp)
+![Operations Tab for File System](/images/activitymonitor/8.0/admin/outputs/fs.webp)
 
 - Operation Type – Scope events by operation type:
 

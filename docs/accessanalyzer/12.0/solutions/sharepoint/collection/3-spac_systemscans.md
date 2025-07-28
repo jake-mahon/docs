@@ -20,7 +20,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/collection/spacsystemscansquery.webp)
+![Query Selection](/images/accessanalyzer/12.0/solutions/sharepoint/collection/spacsystemscansquery.webp)
 
 The query for the 3-SPAC_SystemScans Job is:
 

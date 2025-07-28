@@ -20,7 +20,7 @@ be done at regular intervals:
 - This lists the status of all containers in the docker environment for Privilege Secure. They
   should all be scaled to 1/1 in a production environment. All nodes should be listed
 
-![image.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/360053539334_image.webp)
+![image.webp](/images/privilegesecure/4.2/discovery/admin/maintenance/360053539334_image.webp)
 
 - The manager status should be listed as "Leader" for a single node or "Leader" and "Reachable" as
   above. The Leader is the primary manager node and the Reachable nodes are managers. In the event
@@ -88,16 +88,16 @@ Time Sync
   'rs.printSlaveReplicationInfo()'
 - The result should show that there is little or no difference in time:
 - secureone@ip-10-100-11-27:/secureone/conf/fluentd$ sudo docker exec -it $(sudo docker ps | grep
-  mongo | cut -d' ' -f1) mongo SecureONE --eval 'rs.printSlaveReplicationInfo()'  
-  MongoDB shell version v4.0.20  
-  connecting to: mongodb://127.0.0.1:27017/SecureONE?gssapiServiceName=mongodb  
-  Implicit session: session \{ "id" : UUID("dcab2535-4051-48df-80fd-eec1136f692b") \}  
-  MongoDB server version: 4.0.20  
-  source: mongo2:27017  
-   syncedTo: Tue Sep 22 2020 16:03:34 GMT+0000 (UTC)  
-   0 secs (0 hrs) behind the primary  
-  source: mongo3:27017  
-   syncedTo: Tue Sep 22 2020 16:03:34 GMT+0000 (UTC)  
+  mongo | cut -d' ' -f1) mongo SecureONE --eval 'rs.printSlaveReplicationInfo()'
+  MongoDB shell version v4.0.20
+  connecting to: mongodb://127.0.0.1:27017/SecureONE?gssapiServiceName=mongodb
+  Implicit session: session \{ "id" : UUID("dcab2535-4051-48df-80fd-eec1136f692b") \}
+  MongoDB server version: 4.0.20
+  source: mongo2:27017
+   syncedTo: Tue Sep 22 2020 16:03:34 GMT+0000 (UTC)
+   0 secs (0 hrs) behind the primary
+  source: mongo3:27017
+   syncedTo: Tue Sep 22 2020 16:03:34 GMT+0000 (UTC)
    0 secs (0 hrs) behind the primary
 - In the event of a variation in time, contact the Remediant Customer Success team.
 

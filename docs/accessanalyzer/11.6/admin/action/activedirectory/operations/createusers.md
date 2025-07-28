@@ -8,7 +8,7 @@ sidebar_position: 50
 
 Use the Create Users page to create users on the selected target.
 
-![Active Directory Action Module Wizard Create Users page](/img/product_docs/accessanalyzer/11.6/admin/action/activedirectory/operations/createusers.webp)
+![Active Directory Action Module Wizard Create Users page](/images/accessanalyzer/11.6/admin/action/activedirectory/operations/createusers.webp)
 
 Use the following options to configure the action:
 

@@ -16,13 +16,13 @@ use the fields in a portal to add and update values for the respective attribute
 
 Each schema attribute requires a value of a certain type.
 
-- Some attributes require a single string value.  
+- Some attributes require a single string value.
   Example: Active Directory attributes _name_ and _sAMAccountName_
-- Other attributes can accept multiple values.  
+- Other attributes can accept multiple values.
   Example: Active Directory attribute _proxyAddress_
-- Some attributes accept only one or more distinguished names (DN).  
+- Some attributes accept only one or more distinguished names (DN).
   Example: Active Directory attributes _members_ and _memberOf_
-- Some attributes allow only Boolean values (true or false).  
+- Some attributes allow only Boolean values (true or false).
   Example: Active Directory attributes _hideDLMembership_ and _isDeleted_
 
 To ensure that portal users update these attributes as supported by the directory, display types
@@ -61,10 +61,10 @@ You can link a basic display type to a schema attribute straight away. Basic dis
 
 - **Multi-value**
 
-    Use it for schema attributes that can accept multiple string values.  
+    Use it for schema attributes that can accept multiple string values.
      A multi-value display type is displayed in the portal as:
 
-    ![multi-value_display_type](/img/product_docs/directorymanager/11.0/admincenter/portal/displaytype/multi-value_display_type.webp)
+    ![multi-value_display_type](/images/directorymanager/11.0/admincenter/portal/displaytype/multi-value_display_type.webp)
 
     Clicking **Add** launches a dialog box where users can add new values.
 
@@ -80,7 +80,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     this display type appears as a button that launches the **Find** dialog box, where users can
     search and select objects. It is as:
 
-    ![dn](/img/product_docs/directorymanager/11.0/admincenter/portal/displaytype/dn.webp)
+    ![dn](/images/directorymanager/11.0/admincenter/portal/displaytype/dn.webp)
 
 - **DNs**
 
@@ -88,7 +88,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     Directory attributes _member_ and _memberOf_. The user interface element for this display type
     is as follows:
 
-    ![multi-value_display_type](/img/product_docs/directorymanager/11.0/admincenter/portal/displaytype/multi-value_display_type.webp)
+    ![multi-value_display_type](/images/directorymanager/11.0/admincenter/portal/displaytype/multi-value_display_type.webp)
 
     Clicking **Add** displays a quick search field along with an option to launch the **Find**
     dialog box where users can search and select the desired objects.

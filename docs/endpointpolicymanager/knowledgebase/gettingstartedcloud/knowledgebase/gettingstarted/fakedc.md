@@ -61,7 +61,7 @@ Here’s an example. Black text are policy types which are available. Grayed out
 available yet. Some policy types might be some percent complete, or might never be ported over at
 all.
 
-![622_1_sadf_950x462](/img/product_docs/endpointpolicymanager/cloud/622_1_sadf_950x462.webp)
+![622_1_sadf_950x462](/images/endpointpolicymanager/cloud/622_1_sadf_950x462.webp)
 
 Lastly, here is the table of what’s currently in Endpoint Policy Manager Cloud editors and our own
 self-assessed ranking of Percent complete.

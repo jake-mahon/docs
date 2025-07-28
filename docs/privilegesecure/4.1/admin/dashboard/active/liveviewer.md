@@ -14,7 +14,7 @@ recorded using a granular metadata search that works across both live and record
 Click the expand icon for an active session on the
 [Active Dashboard](/docs/privilegesecure/4.1/admin/dashboard/active/active.md).
 
-![Active Session expanded](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/dashboard/window/activesessionexpand.webp)
+![Active Session expanded](/images/privilegesecure/4.1/accessmanagement/admin/dashboard/window/activesessionexpand.webp)
 
 If the user has logged into the activity session more than once, multiple session recordings will
 display. Only the current session can be viewed live. See the
@@ -32,7 +32,7 @@ Select the desired recording and the Live Session Viewer window opens.
 
 The Live Session Viewer window for RDP sessions is applicable to all resources except the Websites.
 
-![livesessionviewerrdp](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/dashboard/window/livesessionviewerrdp.webp)
+![livesessionviewerrdp](/images/privilegesecure/4.1/accessmanagement/admin/dashboard/window/livesessionviewerrdp.webp)
 
 The Live Session Viewer for RDP Sessions window has the following features:
 
@@ -76,7 +76,7 @@ The Live Session Viewer for RDP Sessions window has the following features:
 
 The Live Session Viewer for SSH sessions is applicable to Linux and Cisco resources.
 
-![livesessionviewerssh](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/dashboard/window/livesessionviewerssh.webp)
+![livesessionviewerssh](/images/privilegesecure/4.1/accessmanagement/admin/dashboard/window/livesessionviewerssh.webp)
 
 The Live Session Viewer for SSH Sessions window has the following features:
 
@@ -112,7 +112,7 @@ The Live Session Viewer for SSH Sessions window has the following features:
 The Recording Session Viewer window for Website host sessions is applicable only to Website hosts
 and Microsoft Entra ID.
 
-![recordingsessionviewer](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/dashboard/window/recordingsessionviewer.webp)
+![recordingsessionviewer](/images/privilegesecure/4.1/accessmanagement/admin/dashboard/window/recordingsessionviewer.webp)
 
 The Live Session Viewer for Recording Sessions window has the following features:
 

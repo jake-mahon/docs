@@ -8,7 +8,7 @@ sidebar_position: 20
 
 On the Processing Settings step, select options for data processing and classification.
 
-![processing_settings](/img/product_docs/dataclassification/5.6.2/deployment/processing_settings.webp)
+![processing_settings](/images/dataclassification/5.6.2/deployment/processing_settings.webp)
 
 Review the following for additional information:
 

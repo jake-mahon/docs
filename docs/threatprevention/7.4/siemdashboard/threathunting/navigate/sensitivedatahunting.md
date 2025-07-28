@@ -11,7 +11,7 @@ searching for threats. Wildcard characters (%) are allowed.
 
 The Sensitive Data Hunting option contains the following card:
 
-![Sensitive Data Hunting](/img/product_docs/threatprevention/7.4/siemdashboard/splunk/threathunting/dashboard/sensitivedatahunting.webp)
+![Sensitive Data Hunting](/images/threatprevention/7.4/siemdashboard/splunk/threathunting/dashboard/sensitivedatahunting.webp)
 
 - Last Fifty Events Related to File Name – Shows the details of the last fifty File System events
   recorded in the specified timeframe

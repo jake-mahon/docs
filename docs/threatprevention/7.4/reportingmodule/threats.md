@@ -8,7 +8,7 @@ sidebar_position: 30
 
 Threat data is available in the full version of Netwrix Threat Manager.
 
-![Threats interface](/img/product_docs/threatprevention/7.4/reportingmodule/threats.webp)
+![Threats interface](/images/threatprevention/7.4/reportingmodule/threats.webp)
 
 The Threats interface in the Netwrix Threat Manager Reporting Module provides information about the
 full feature. It includes:

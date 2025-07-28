@@ -16,7 +16,7 @@ Figure 116, the Configuration Wizard detects both changes and asks you which one
 make. If you know which one you wanted to select, you can check the corresponding box in the wizard.
 In the example below, we want to choose "passwordreqlower," as shown in Figure 116.
 
-![configuring_elements_using_9](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_9.webp)
+![configuring_elements_using_9](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_9.webp)
 
 Figure 116. Selecting which of the two boxes was intended to be checked.
 
@@ -29,7 +29,7 @@ Sometimes setting one element (checkbox, dropdown, etc.) will add a lot of unexp
 application. For instance, clicking this one checkbox in Figure 117 below added what appears to be
 five changes.
 
-![configuring_elements_using_10](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_10.webp)
+![configuring_elements_using_10](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_10.webp)
 
 Figure 117. Unexpected changes after selecting an element.
 
@@ -42,7 +42,7 @@ Configuration Wizard. Doing so will isolate the one change that the checkbox (dr
 really changing. A successful attempt is shown in Figure 118. Instead of five changed values, there
 is only one.
 
-![configuring_elements_using_11](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_11.webp)
+![configuring_elements_using_11](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_11.webp)
 
 Figure 118. A successful attempt at making changes after the Configuration Wizard has been
 restarted.
@@ -57,7 +57,7 @@ Sometimes one element (checkbox, dropdown, etc.) will actually control multiple 
 time. In the example in Figure 119, "Default page layout" has four possible settings. When one of
 those settings, "Facing," is selected, the wizard detects two changes as shown.
 
-![configuring_elements_using_12](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_12.webp)
+![configuring_elements_using_12](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_12.webp)
 
 Figure 119. Two changes being detected for one element.
 
@@ -67,7 +67,7 @@ continuing onward makes sense. In Figure 120, we can see the results of changing
 simultaneously. If only one checkmark was checked in the previous step, the dropdown would not have
 been configured correctly.
 
-![configuring_elements_using_13](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_13.webp)
+![configuring_elements_using_13](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_13.webp)
 
 Figure 120. Successfully changing two items simultaneously.
 

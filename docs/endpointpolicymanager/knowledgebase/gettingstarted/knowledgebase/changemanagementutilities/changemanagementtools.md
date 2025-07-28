@@ -69,15 +69,15 @@ Endpoint Policy Manager-specific GPO settings:
 - What was changed
 - History and differences of the changes
 
-![921_1_image-1](/img/product_docs/endpointpolicymanager/troubleshooting/921_1_image-1.webp)
+![921_1_image-1](/images/endpointpolicymanager/troubleshooting/921_1_image-1.webp)
 
-![921_2_image-2](/img/product_docs/endpointpolicymanager/troubleshooting/921_2_image-2.webp)
+![921_2_image-2](/images/endpointpolicymanager/troubleshooting/921_2_image-2.webp)
 
 However, Endpoint Policy Manager’s history and differences function applies only to its own
 settings. For instance, Microsoft Group Policy Preferences (like "Services") do not have a history
 function, as they are not managed by Endpoint Policy Manager.
 
-![921_2_image-3](/img/product_docs/endpointpolicymanager/troubleshooting/921_2_image-3.webp)
+![921_2_image-3](/images/endpointpolicymanager/troubleshooting/921_2_image-3.webp)
 
 You can watch a demo of how Endpoint Policy Manager stores and tracks changes in this video:
 [Endpoint Policy Manager MMC: Showing History of items you create](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/changemanagementutilities/changemanagementtools.md).
@@ -117,4 +117,4 @@ Here are examples of Endpoint Policy Manager working alongside popular GPO Chang
 Additionally, tools like Netwrix Auditor can monitor all GPO changes for both Microsoft and Endpoint
 Policy Manager-specific and alert you to unwanted changes.
 
-![921_3_image-20230207205126-1](/img/product_docs/endpointpolicymanager/troubleshooting/921_3_image-20230207205126-1.webp)
+![921_3_image-20230207205126-1](/images/endpointpolicymanager/troubleshooting/921_3_image-20230207205126-1.webp)

@@ -11,7 +11,7 @@ sidebar_position: 30
 All settings that are not linked to a particular module are defined in the Backstage (main menu).
 This makes it easy to access the settings at any time and in any module.
 
-![Main menu](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/installation_with_parameters_56-en.webp)
+![Main menu](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/installation_with_parameters_56-en.webp)
 
 - [Extras](/docs/passwordsecure/9.2/configuration/advancedview/mainmenufc/extras/extras.md)
 - [Account](/docs/passwordsecure/9.2/configuration/advancedview/mainmenufc/account.md)

@@ -23,8 +23,6 @@ Templates?” Click **Yes** to import or **No** to skip. See the
 topic for instructions on importing these templates if you selected **No** during the upgrade
 process.
 
-See the [What's New](/docs/threatprevention/7.4/whatsnew.md) topic for
-details on new and improved features included with each release.
 
 ## Considerations
 

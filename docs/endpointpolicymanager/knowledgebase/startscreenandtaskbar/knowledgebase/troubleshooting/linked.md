@@ -10,7 +10,7 @@ You might have noticed when you try to deliver NOTHING (aka. a blank start scree
 using the Taskbar Manager), you will still see a Netwrix Endpoint Policy Manager (formerly
 PolicyPak) advertisement tile even you didn't put it there.
 
-![692_1_img-1](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/692_1_img-1.webp)
+![692_1_img-1](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/692_1_img-1.webp)
 
 The Taskbar Manager and Start Screen Manager are actually interlinked, even if you’re only using one
 of them.
@@ -29,18 +29,18 @@ Use the PolicyPak Start Screen PARTIAL/MERGE function which will let you add one
 
 Here is an example of us setting a URL to a home page in a group called **Company Apps**.
 
-![692_2_img-2_950x669](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/692_2_img-2_950x669.webp)
+![692_2_img-2_950x669](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/692_2_img-2_950x669.webp)
 
 Alternatively, use the FULL/REPLACE mode to deliver a single tile of your choosing, your users will
 still have no ability to change the Start Screen, and the Endpoint Policy Manager tile will go away.
 
 Note that the Advertisement group is still present on the LEFT side.
 
-![692_3_img-3](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/692_3_img-3.webp)
+![692_3_img-3](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/692_3_img-3.webp)
 
 The name of this group is changeable using Endpoint Policy Manager TaskBar manager as seen here.
 
-![692_4_img-4](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/692_4_img-4.webp)
+![692_4_img-4](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/692_4_img-4.webp)
 
 ## Second Workaround
 
@@ -58,4 +58,4 @@ Rd /s /q "%APPDATA%\Microsoft\Windows\Start Menu\PolicyPak Start Screen Manager\
 It will remove the Endpoint Policy Manager tile from the Start Menu. The example screen shot and
 sample script is below.
 
-![819_5_c4b607f18774d1a207d45cbd8a96b426](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/819_5_c4b607f18774d1a207d45cbd8a96b426.webp)
+![819_5_c4b607f18774d1a207d45cbd8a96b426](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/819_5_c4b607f18774d1a207d45cbd8a96b426.webp)

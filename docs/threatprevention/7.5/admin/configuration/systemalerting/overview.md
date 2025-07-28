@@ -9,7 +9,7 @@ sidebar_position: 100
 The System Alerting window is only available to administrators, enabling them to configure and
 manage all alerting avenues. Click **Configuration** > **Alerts** on the menu to open it.
 
-![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/systemalerting.webp)
+![Netwrix Threat Prevention System Alerting window](/images/threatprevention/7.5/admin/configuration/systemalerting/systemalerting.webp)
 
 Alerts can be sent to recipients via email, to Windows Event Log, and to SIEM products. Alerts are
 grouped into five types:
@@ -93,5 +93,5 @@ Below are some considerations:
   Activate an email notification for this alert. See the
   [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
   topic and the [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.
-  
+
   :::

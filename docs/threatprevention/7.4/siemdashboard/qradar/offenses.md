@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Netwrix Active Directory App for QRadar feeds several QRadar Offenses.
 
-![INTERCEPT Offenses in QRadar](/img/product_docs/threatprevention/7.4/siemdashboard/qradar/offenses.webp)
+![INTERCEPT Offenses in QRadar](/images/threatprevention/7.4/siemdashboard/qradar/offenses.webp)
 
 While the
 [Authentication Attacks Dashboard](/docs/threatprevention/7.4/siemdashboard/qradar/navigate/authenticationattacks.md)

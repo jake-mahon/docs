@@ -10,14 +10,14 @@ Using Windows Explorer, you can look for INI files (expressed as "Configuration 
 file type in Explorer), XML files, and other file types. In Figure 88, you can see an INI file for
 an application within Program Files (x86).
 
-![discovering_configuration_1_624x213](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_1_624x213.webp)
+![discovering_configuration_1_624x213](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_1_624x213.webp)
 
 Figure 88. Example of INI files.
 
 However, if you try to select this file using Netwrix Endpoint Policy Manager (formerly PolicyPak)
 DesignStudio, you will be provided a warning message, as shown in Figure 89.
 
-![discovering_configuration_2](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_2.webp)
+![discovering_configuration_2](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_2.webp)
 
 Figure 89. Warning message when selecting an INI file.
 
@@ -52,7 +52,7 @@ When this application is run as a standard user, the configuration data is withi
 because this application was smart enough to know to use
 `%appdata% as its data store when run as a standard user.`
 
-![discovering_configuration_3](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_3.webp)
+![discovering_configuration_3](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_3.webp)
 
 `Figure 90. Configuration data stored within %appdata%\roaming.`
 

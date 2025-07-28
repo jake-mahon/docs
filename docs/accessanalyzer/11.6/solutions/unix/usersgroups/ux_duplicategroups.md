@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_DuplicateGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/usersgroups/duplicategroupsanalysis.webp)
+![Analysis Tasks for the UX_DuplicateGroups Job](/images/accessanalyzer/11.6/solutions/unix/usersgroups/duplicategroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report:
 | Report           | Description                                                        | Default Tags | Report Elements                                                                                                                                                             |
 | ---------------- | ------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Duplicate Groups | This report identifies duplicate groups within the audited domains | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays Largest Groups with Duplicates</li><li>Table – Provides details on Duplicate Group Details</li></ul> |
-

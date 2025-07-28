@@ -9,7 +9,7 @@ sidebar_position: 10
 The Global Filters options are for excluding specific Active Directory and Authentication events
 from being monitored.
 
-![Global Filters Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/globalfilterstab.webp)
+![Global Filters Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/globalfilterstab.webp)
 
 The filter options are grouped by AD Global Pre-Filters, and Authentication Global Pre-Filters.
 Check the boxes to activate the filters. To disable for diagnostic purposes, simply uncheck the
@@ -81,7 +81,7 @@ conditions to be excluded:
 This option is enabled by default to filter out machine logins. Click the configure link to open the
 Edit Accounts window.
 
-![Edit Accounts window](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeloginsmachineaccounts.webp)
+![Edit Accounts window](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeloginsmachineaccounts.webp)
 
 The Exclude Logins from Machine Accounts collection is only accessible for configuration through the
 Global Filters tab.
@@ -115,7 +115,7 @@ noisy ‘machine accounts’.
 This option is disabled by default as it requires configuration before it can be enabled. Click the
 selected hosts link to open the Edit Hosts window.
 
-![edithostsexcludeselectedhosts](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/edithostsexcludeselectedhosts.webp)
+![edithostsexcludeselectedhosts](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/edithostsexcludeselectedhosts.webp)
 
 The Exclude Authentication Events from selected hosts collection is only accessible for
 configuration through the Global Filters tab. All three methods of identification for a host (IP
@@ -132,7 +132,7 @@ been entered in the list. Then click **OK**.
 This option is disabled by default as it requires configuration before it can be enabled. Click the
 selected accounts link to open the Edit Accounts window.
 
-![editaccountsexcludeauthenticationselectedaccounts](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeauthenticationselectedaccounts.webp)
+![editaccountsexcludeauthenticationselectedaccounts](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/editaccountsexcludeauthenticationselectedaccounts.webp)
 
 The Exclude Authentication Events from selected accounts collection is only accessible for
 configuration through the Global Filtering tab. Account names [domain name\account] can also be

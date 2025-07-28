@@ -15,7 +15,7 @@ password is restored.
 
 The following diagram shows when and according to which criteria a rollback is initiated:
 
-![rollback run](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwordreset/rollback/rollback_1-en.webp)
+![rollback run](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwordreset/rollback/rollback_1-en.webp)
 
 ## Procedure
 

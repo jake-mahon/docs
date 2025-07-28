@@ -9,7 +9,7 @@ sidebar_position: 40
 The first time you run the Endpoint Policy Manager GPCR client (admin console) you are presented
 with a wizard, as shown in Figure 8.
 
-![gpcr_concepts_and_quickstart_9](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_9.webp)
+![gpcr_concepts_and_quickstart_9](/images/endpointpolicymanager/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_9.webp)
 
 Figure 8. The GPCR Configuration Wizard.
 
@@ -17,7 +17,7 @@ In the wizard, you can select if you want to use Endpoint Policy Manager GPCR in
 (Pull Mode only)" or "Server mode (Pull Mode or Push Mode using Audit)," as shown in Figure 9. For
 this Quickstart, select standalone mode.
 
-![gpcr_concepts_and_quickstart_10](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_10.webp)
+![gpcr_concepts_and_quickstart_10](/images/endpointpolicymanager/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_10.webp)
 
 Figure 9. Selecting between "Standalone mode" or "Server mode."
 
@@ -29,7 +29,7 @@ Server mode is used in conjunction with the Endpoint Policy Manager GPCR server.
 You can also select where you want to store Endpoint Policy Manager GPCR data in the wizard. The
 default is shown in Figure 10.
 
-![gpcr_concepts_and_quickstart_11](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_11.webp)
+![gpcr_concepts_and_quickstart_11](/images/endpointpolicymanager/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_11.webp)
 
 Figure 10. Choosing the location for Endpoint Policy Manager GPCR data.
 

@@ -14,7 +14,7 @@ here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval.webp)
 
 The user needs to present this **Request Code**, typically over the phone, to an Admin who can
 create a **Response Code**.
@@ -38,7 +38,7 @@ requires you to enter in the same secret key from the GPO you used earlier.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_1.webp)
 
 You can save the secret key in the Registry of this Admin’s machine, secured with his own encrypted
 password. You could also require that the key cannot be viewed ever again when this tool is run by
@@ -66,7 +66,7 @@ in the **Request Code**, then pick the option that makes sense. The items you ca
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_2.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_2.webp)
 
 :::note
 The Admin Approval Tool may be branded. See the section **Branding and Customization** in
@@ -80,7 +80,7 @@ launch.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_3.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_3.webp)
 
 In our example, we specified that the code could be used one time, so if the user tries to rerun the
 same application, they are prompted again.
@@ -91,7 +91,7 @@ installed.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval.webp)
 
 You can also see and launch the Admin Approval Tool from within a GPO, provided you have the secret
 key inside the GPO, as seen here.
@@ -99,4 +99,4 @@ key inside the GPO, as seen here.
 ![A computer screen shot of a computer screen
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_4.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/testing_admin_approval_4.webp)

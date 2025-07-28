@@ -42,7 +42,7 @@ Follow the steps below to prepare IIS is IIS is not installed on Windows 2012.
 
 **Step 1 –** Start the Server Manager (ServerManager.exe).
 
-![installing_ppe_web](/img/product_docs/passwordpolicyenforcer/10.2/web/installing_ppe_web.webp)
+![installing_ppe_web](/images/passwordpolicyenforcer/10.2/web/installing_ppe_web.webp)
 
 **Step 2 –** Click **Manage** > **Add Roles and Features**.
 
@@ -58,7 +58,7 @@ Follow the steps below to prepare IIS is IIS is not installed on Windows 2012.
 
 **Step 8 –** Click **Next** three times.
 
-![installing_ppe_web_1](/img/product_docs/passwordpolicyenforcer/10.2/web/installing_ppe_web_1.webp)
+![installing_ppe_web_1](/images/passwordpolicyenforcer/10.2/web/installing_ppe_web_1.webp)
 
 **Step 9 –** Expand the Application Development group, then select **ISAPI Extensions**.
 
@@ -72,7 +72,7 @@ Follow the steps below to prepare IIS is IIS is already installed on Windows 2
 
 **Step 1 –** Start the Server Manager (ServerManager.exe).
 
-![installing_ppe_web](/img/product_docs/passwordpolicyenforcer/10.2/web/installing_ppe_web.webp)
+![installing_ppe_web](/images/passwordpolicyenforcer/10.2/web/installing_ppe_web.webp)
 
 **Step 2 –** Click **Manage** > **Add Roles and Features**.
 
@@ -86,7 +86,7 @@ Follow the steps below to prepare IIS is IIS is already installed on Windows 2
 
 **Step 7 –** Expand the Web Server (Installed) group.
 
-![installing_ppe_web_2](/img/product_docs/passwordpolicyenforcer/10.2/web/installing_ppe_web_2.webp)
+![installing_ppe_web_2](/images/passwordpolicyenforcer/10.2/web/installing_ppe_web_2.webp)
 
 **Step 8 –** Expand the Application Development group, then select **ISAPI Extensions**.
 
@@ -102,7 +102,7 @@ Follow the steps below to prepare IIS if IIS is not installed on Windows 2008.
 
 **Step 2 –** Click the **Roles** item in the left pane.
 
-![installing_ppe_web_3](/img/product_docs/passwordpolicyenforcer/10.2/web/installing_ppe_web_3.webp)
+![installing_ppe_web_3](/images/passwordpolicyenforcer/10.2/web/installing_ppe_web_3.webp)
 
 **Step 3 –** Click **Add Roles** in the right pane.
 
@@ -110,7 +110,7 @@ Follow the steps below to prepare IIS if IIS is not installed on Windows 2008.
 
 **Step 5 –** Select the Web Server (IIS) role, then click **Next** twice.
 
-![installing_ppe_web_4](/img/product_docs/passwordpolicyenforcer/10.2/web/installing_ppe_web_4.webp)
+![installing_ppe_web_4](/images/passwordpolicyenforcer/10.2/web/installing_ppe_web_4.webp)
 
 **Step 6 –** Select **ISAPI Extensions** in the Application Development group.
 
@@ -128,7 +128,7 @@ Follow the steps below to prepare IIS is IIS is already installed on Windows 20
 
 **Step 3 –** Scroll down to the Role Services section in the right pane.
 
-![installing_ppe_web_5](/img/product_docs/passwordpolicyenforcer/10.2/web/installing_ppe_web_5.webp)
+![installing_ppe_web_5](/images/passwordpolicyenforcer/10.2/web/installing_ppe_web_5.webp)
 
 **Step 4 –** Click **Add Role Services**.
 

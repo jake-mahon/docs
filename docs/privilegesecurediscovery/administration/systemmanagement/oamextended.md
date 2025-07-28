@@ -16,7 +16,7 @@ All Microsoft Windows systems have a built-in administrator account named “Adm
 be removed. It provides mechanism to log into a system with the local administrator privileges in
 the event the system is either offline or other administrator accounts are unavailable for any
 reason. Because it is a local account, password management of this account is not done by the
-domain.  
+domain.
 This exposes several risk factors:
 
 - It is a very powerful account with a known name.
@@ -30,7 +30,7 @@ disable the built-in administrator account.
 ## Main Document
 
 Privilege Secures OAM feature provides a simple solution to manage offline access to local computer
-administrator/root accounts on Windows.  
+administrator/root accounts on Windows.
 It automates the coordination of:
 
 - Creation of an alternate administrator account.
@@ -99,21 +99,21 @@ Built-In, and Custom.  These strategies are detailed below.
 
 As a starting point to understand what options can be set and how the affect the system, we’ll look
 at the Grant Access page before and after setting the OAM policy. Only Privilege Secure
-administrators have access to configure these settings.  
+administrators have access to configure these settings.
 Below is a screenshot when the policy has not yet been applied, or has been set to disabled AKA
 “Unmanaged”.
 
-![OAM-UI-test-Unmanaged-default.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-ui-test-unmanaged-default.webp)
+![OAM-UI-test-Unmanaged-default.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-ui-test-unmanaged-default.webp)
 
 As an example of seeing most of the options in action, the screenshot below show a custom strategy
 setting by selecting “Advanced...”. In the case shown, this is just “Best Practice” plus the added
 feature of randomizing the Alt-Admin name.
 
-![OAM-grant-access-overview2.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-grant-access-overview2.webp)
+![OAM-grant-access-overview2.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-grant-access-overview2.webp)
 
 Note that if the “Best Practice” option is selected, no “Offline Access Policy Options” dialog will
 be displayed. All options will be set automatically with the exception that any previously set
-“Alternative account name template” will be reused.  
+“Alternative account name template” will be reused.
 Note also that after setting options a rescan is needed for those changes to reflect on the host
 system.
 
@@ -122,48 +122,48 @@ system.
 By default, only S1 administrators can retrieve the built-in Administrator or alternate admin
 passwords, but it may be desirable to allow others such as help-desk to have access to log in
 locally to a system. To allow this, the option “JITA or persistent users can access passwords”
-option may be selected.  
+option may be selected.
 The screenshot below shows two browsers. On the left, a Privilege Secure admin setting that option.
 On the right, a JITA or persistent non-admin user’s view. When the option is checked, the non-admin
 user will see “key” icon indicating that a current password is available, and the action menu items
 to reveal it as well as to access the password history.
 
-![jita-or-persistent-modal.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_jita-or-persistent-modal.webp)
+![jita-or-persistent-modal.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_jita-or-persistent-modal.webp)
 
 When the option is not selected by the administrator, access to the password will no longer exist.
 
-![jit-modal-2.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_jit-modal-2.webp)
+![jit-modal-2.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_jit-modal-2.webp)
 
 In the event that an S1 administrator deselect that option while a non-admin’s browser is open, the
 API protects password visibility and returns a “forbidden” error.
 
-![jit-modal-api-smart-alert.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_jit-modal-api-smart-alert.webp)
+![jit-modal-api-smart-alert.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_jit-modal-api-smart-alert.webp)
 
 ## UI - Domain Configuration Page
 
 In a very similar process as on the Grant Access page, default settings may be saved so that any
 newly discovered system will have those policy settings automatically applied
 
-![OAM-S1-1043_copy.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1043_copy.webp)
+![OAM-S1-1043_copy.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1043_copy.webp)
 
 The domain level OAM default policy settings are persisted to the
 `default_system_config.policies.offline_access_management` object in the `ldap_config` collection in
 the database as shown below. If “Best Practice” is selected, even though the dialog is not
 displayed, all options will be saves as displayed in the bottom of the image.
 
-![OAM_domain_config_to_DB.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_domain_config_to_db.webp)
+![OAM_domain_config_to_DB.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_domain_config_to_db.webp)
 
 ## QuickStart Utility
 
 The excel sheet Computer Data contains a group of columns which report the system's "Offline Access
-Management" policy.  
+Management" policy.
 Offline Access Management Enabled will report TRUE/FALSE if Privilege Secure is managing the
-built-in administrator account and/or an alternate administrator account.  
+built-in administrator account and/or an alternate administrator account.
 The image below shows the column structure of the excel spreadsheet that has been exported. The data
 in blue is the system data that had been exported, while the data in yellow has been entered by a
 user to be imported to Privilege Secure.
 
-![OAM-S1-1824.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1824.webp)
+![OAM-S1-1824.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-1824.webp)
 
 The following policy options will be displayed for the computer's OAM Policy if it exists.
 
@@ -180,11 +180,11 @@ The following policy options will be displayed for the computer's OAM Policy if 
 If you wish to change any of this policy's options, set the Set OAM Enabled to TRUE/FALSE as
 appropriate. The Strategy may be entered with any of following values: OS-BEST-PRACTICE,
 MANAGED-BUILT-IN, CUSTOM. If left blank it will default to the current value, or to OS-BEST-PRACTICE
-if no previous policy was set.  
+if no previous policy was set.
 The OAM Name Template accepts a string with wildcards expressed by question marks (?). If left blank
 it will default to the current value, or to S1_ALT_ADMIN.
 
-The remaining options may be included, but must not conflict with the defined strategy.  
+The remaining options may be included, but must not conflict with the defined strategy.
 Default Settings by Strategy
 
 | Option \ Strategy       | OS-BEST-PRACTICE | MANAGED-BUILT-IN | CUSTOM   |
@@ -197,7 +197,7 @@ Default Settings by Strategy
 If an invalid combination of settings is entered, the API end-point will protect against sending
 invalid options.
 
-![OAM-S1-2343-validate_paramts_dont_conflic_using_quickstart.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-2343-validate_paramts_dont_conflic_using_quickstart.webp)
+![OAM-S1-2343-validate_paramts_dont_conflic_using_quickstart.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam-s1-2343-validate_paramts_dont_conflic_using_quickstart.webp)
 
 For example, if the following settings are entered:
 
@@ -212,10 +212,10 @@ Response Body:
 
 ## API
 
-Policies can be set using the Privilege Secure API.  
+Policies can be set using the Privilege Secure API.
 The screenshot below shows access using Postman to test access to the API end-point.
 
-![OAM_postman.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_postman.webp)
+![OAM_postman.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_oam_postman.webp)
 
 ## Querying the database by OAM policy settings
 
@@ -282,19 +282,19 @@ the next scan.
 
 The scanner service will enforce the OAM policy during its regular scan cycle, or when a rescan is
 requested by the UI. For the policy to be fully enforced, the the OAM policy must be enabled, Scan
-Mode must be enabled, and Protect Mode must not be disabled.  
+Mode must be enabled, and Protect Mode must not be disabled.
 If the Protect Mode policy is disabled, only password rotation will be performed, but the creation
 of the alternate administrator account and disabling of the built-in Administrator account will not
-be allowed.  
+be allowed.
 The first task of enforcing the policy is to create an alternate administrator account if needed. If
 one already exists, the scanner will ensure that it has not been renamed on the host system If it
 has been renamed, that account will be deleted and a new one with the correct name will be
-recreated. When the account is created, it will immediately have its password created and managed.  
+recreated. When the account is created, it will immediately have its password created and managed.
 The second step is to ensure that the built-in administrator account is enabled or disabled as
-configured.  
+configured.
 If the Alternate administrator account name setting has been changed, the scanner will remove any
 previous alternate administrator account that is not longer in us. This will **fully** remove that
-user from the system, not just remove them from the administrators group.  
+user from the system, not just remove them from the administrators group.
 Passwords of the alternate and built-in Administrator accounts will then be rotated as needed.
 
 ## Password Rotation Configuration
@@ -312,7 +312,7 @@ variables, a restart of the service would be required to take effect.
 If the database contains a `managed_sids` entry in the `ldap_config` record in the
 `discovery_config` collection, then any specified value will take precedence.
 
-![password_rotation_config.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_password_rotation_config.webp)
+![password_rotation_config.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_password_rotation_config.webp)
 
 If a database entry is not specified for any value, then the following environment variables will be
 checked. If neither a database value nor an environment variable is specified, the default value
@@ -330,7 +330,7 @@ will be used.
 | RID_500_PW_EXCLUDE_CHARS     | ""            |                                                                                                                                                                                                           |
 
 Note that some of these settings are minimum values, not maximum values. It can have any number
-greater than or equal to setting. Keep in mind it that other criteria must be maintained too.  
+greater than or equal to setting. Keep in mind it that other criteria must be maintained too.
 For example:
 
 - If I set RID_500_PW_MIN_LENGTH=10,
@@ -341,7 +341,7 @@ For example:
 
 If in the case above we had set RID_500_PW_MIN_LENGTH=20, then 11 chars would be restricted to the
 uppercase and digits requirement shown, and the remaining 9 could be any alphanumeric plus
-punctuation minus the excluded characters.  
+punctuation minus the excluded characters.
 The resulting password length will be the greater of:
 
 - RID_500_PW_MIN_LENGTH,
@@ -361,7 +361,7 @@ There are several mechanisms that can trigger a password rotation:
 - or, on demand via the Grant Access page as shown below. This requires a Rescan to perform the
   process right away.
 
-![S1-911_rotate_password_menu_item.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_s1-911_rotate_password_menu_item.webp)
+![S1-911_rotate_password_menu_item.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360043745553_s1-911_rotate_password_menu_item.webp)
 
 ## Logging
 

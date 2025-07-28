@@ -13,7 +13,7 @@ organizations** page.
 
 The Managed organizations page has the following tabs:
 
-![tabsview](/img/product_docs/1secure/admin/organizations/tabsview.webp)
+![tabsview](/images/1secure/admin/organizations/tabsview.webp)
 
 - Sources – Add, edit, or delete sources for your organization, review its statuses, and so on. See
   the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional information.

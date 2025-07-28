@@ -52,7 +52,7 @@ there are several steps you may need to take after upgrading:
     1. In administrative web console, navigate to Taxonomies → Global Settings.
     2. Click Update in the right corner next to each taxonomy
 
-    ![update_taxonomy](/img/product_docs/dataclassification/5.6.2/deployment/update_taxonomy.webp)
+    ![update_taxonomy](/images/dataclassification/5.6.2/deployment/update_taxonomy.webp)
 
 2. After the upgrade, indexing mode will be set to Compound Term mode. Refer to the following
    Netwrix knowledge base article for instructions on how to modify default Index Processing Mode:

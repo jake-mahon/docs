@@ -18,11 +18,11 @@ choices:
 
 1. Revert a specific element back when it no longer applies as seen here.
 
-   ![417_1_image005](/img/product_docs/endpointpolicymanager/troubleshooting/417_1_image005.webp)
+   ![417_1_image005](/images/endpointpolicymanager/troubleshooting/417_1_image005.webp)
 
 2. Revert all elements back when they no longer apply as seen here.
 
-   ![417_2_image007](/img/product_docs/endpointpolicymanager/troubleshooting/417_2_image007.webp)
+   ![417_2_image007](/images/endpointpolicymanager/troubleshooting/417_2_image007.webp)
 
 ## Endpoint Policy Manager Admin Templates Manager
 
@@ -47,4 +47,4 @@ Here's an example of how to specify to "Remove the item when it is no longer app
 This flag must be set or Endpoint Policy Manager cannot revert the item when the policy no longer
 applies
 
-![417_3_image008](/img/product_docs/endpointpolicymanager/troubleshooting/417_3_image008.webp)
+![417_3_image008](/images/endpointpolicymanager/troubleshooting/417_3_image008.webp)

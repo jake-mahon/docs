@@ -26,7 +26,7 @@ Most of these analysis tasks should never be modified and never be deselected.
 :::
 
 
-![Analysis Tasks for the Box_FolderMetrics Job](/img/product_docs/accessanalyzer/11.6/solutions/box/content/foldermetricsanalysis.webp)
+![Analysis Tasks for the Box_FolderMetrics Job](/images/accessanalyzer/11.6/solutions/box/content/foldermetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

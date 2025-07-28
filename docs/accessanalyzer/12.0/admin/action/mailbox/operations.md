@@ -8,7 +8,7 @@ sidebar_position: 10
 
 Use the Operations page to specify the operation to be performed as part of the action.
 
-![New Mailbox Action Wizard Operations page](/img/product_docs/accessanalyzer/12.0/admin/action/mailbox/operations.webp)
+![New Mailbox Action Wizard Operations page](/images/accessanalyzer/12.0/admin/action/mailbox/operations.webp)
 
 Select from the following operations:
 

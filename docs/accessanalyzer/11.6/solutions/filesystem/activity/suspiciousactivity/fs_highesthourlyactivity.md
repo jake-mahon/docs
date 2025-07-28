@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_HighestHourlyActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/highesthourlyactivityanalysis.webp)
+![Analysis Tasks for the FS_HighestHourlyActivity Job](/images/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/highesthourlyactivityanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -49,4 +49,3 @@ produces the following pre-configured report:
 | Report                | Description                                                                                                                            | Default Tags | Report Elements                                                                                                                                                  |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unusual User Activity | This report identifies user accounts and time ranges where there was the largest and widest amount of activity across the file system. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays abnormal user activity</li><li>Table – Provides details on hourly user activity</li></ul> |
-

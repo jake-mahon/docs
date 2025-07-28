@@ -16,7 +16,7 @@ this data.
 
 Click **Alerts** in the left pane to launch the Alerts interface.
 
-![Alerts interface](/img/product_docs/threatprevention/7.5/admin/alerts/alertsinterface.webp)
+![Alerts interface](/images/threatprevention/7.5/admin/alerts/alertsinterface.webp)
 
 The following options are available on the toolbar:
 
@@ -120,5 +120,5 @@ Below are some considerations:
   Activate an email notification for this alert. See the
   [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
   topic and the [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.
-  
+
   :::

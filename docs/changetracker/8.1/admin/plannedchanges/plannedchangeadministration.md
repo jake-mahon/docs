@@ -37,4 +37,4 @@ Change Schedules can be re-used – use the Clone button to create a copy.
 :::
 
 
-![PlannedChangesRules](/img/product_docs/changetracker/8.1/admin/tabs/plannedchangesrules.webp)
+![PlannedChangesRules](/images/changetracker/8.1/admin/tabs/plannedchangesrules.webp)

@@ -10,7 +10,7 @@ The Role Management page is accessible from the Navigation pane under Users & Gr
 details on all available roles for Privilege Secure users. There are default roles, and custom roles
 can be created.
 
-![Custome Role Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customrolepage.webp)
+![Custome Role Page](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customrolepage.webp)
 
 When a custom role is selected, the selected role details display at the top of the main pane with
 the following features:
@@ -51,7 +51,7 @@ The table columns can be resized and sorted in ascending or descending order.
 Each permission gives specific rights to users with the selected role. Permissions on the left are
 not associated with the role. Permissions on the right are assigned to the selected role.
 
-![Custom Role Permission Assignment](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customerolepermissionassignment.webp)
+![Custom Role Permission Assignment](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customerolepermissionassignment.webp)
 
 Available permissions include:
 
@@ -73,7 +73,7 @@ information.
 
 The Policy tab for a custom role has the following features:
 
-![Policies Tab for Custom Roles](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customrolepoliciestab.webp)
+![Policies Tab for Custom Roles](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customrolepoliciestab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results. This search is specific to the table in the
@@ -96,7 +96,7 @@ The Policies tab table has the following columns:
 
 The Users tab for a custom role has the following features:
 
-![Users Tab for Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleuserstab.webp)
+![Users Tab for Custom Role](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleuserstab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results. This search is specific to the table in the
@@ -127,7 +127,7 @@ The Users tab table has the following columns:
 
 The Activities tab for a custom role has the following features:
 
-![Activities Tab for Custom Roles](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleactivitiestab.webp)
+![Activities Tab for Custom Roles](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleactivitiestab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results. This search is specific to the table in the
@@ -152,7 +152,7 @@ The Activities tab table has the following columns:
 
 The Resources tab for a custom role has the following features:
 
-![Resources Tab for Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleresourcestab.webp)
+![Resources Tab for Custom Role](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleresourcestab.webp)
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results. This search is specific to the table in the
@@ -179,7 +179,7 @@ The Resources tab table has the following columns:
 Role Users is located at the bottom of the Custom Role details page. This will be the user that has
 access to the Custom Role.
 
-![Role Users for Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleusers.webp)
+![Role Users for Custom Role](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/customroleusers.webp)
 
 The Role Users has the following features:
 

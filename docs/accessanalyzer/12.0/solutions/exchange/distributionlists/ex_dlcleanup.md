@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_DLCleanup Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/distributionlists/dlcleanupanalysis.webp)
+![Analysis Tasks for the EX_DLCleanup Job](/images/accessanalyzer/12.0/solutions/exchange/distributionlists/dlcleanupanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -34,4 +34,3 @@ following pre-configured report:
 | Report                                                 | Description                                                                               | Default Tags | Report Elements                                                                                          |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------- |
 | Distribution List Cleanup (Distribution List Overview) | This report identifies common issues which may affect distribution list group membership. | None         | This report is comprised of one element: <ul><li>Table – Provides a distribution list overview</li></ul> |
-

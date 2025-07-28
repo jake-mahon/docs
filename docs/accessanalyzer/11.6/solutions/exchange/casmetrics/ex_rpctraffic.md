@@ -9,7 +9,7 @@ sidebar_position: 40
 The EX_RPCTraffic job provides visibility into Outlook Anywhere or RPC\HTTPs Traffic in the
 organization.
 
-![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/outlookanywherejobstree.webp)
+![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/casmetrics/outlookanywherejobstree.webp)
 
 The EX_RPCTraffic job is located in the Outlook Anywhere job group.
 
@@ -24,7 +24,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_RPCTraffic Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
+![Analysis Tasks for the EX_RPCTraffic Job](/images/accessanalyzer/11.6/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -65,4 +65,3 @@ the following pre-configured reports:
 | ---------------------------------------------------------------------- | -------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Top Servers by Average Load ( Top Servers by Average Daily User Count) | This report shows servers with the highest average load. | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays top servers by average daily user count</li><li>Table – Provides details on top servers by average daily user count</li></ul> |
 | Top Users (Outlook Anywhere Traffic)                                   | This report identifies top users of Outlook Anywhere.    | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users</li><li>Table – Provides details on top users</li></ul>                                                                     |
-

@@ -9,7 +9,7 @@ sidebar_position: 10
 The Permissions report at the Bucket level shows the permissions for the trustee on the selected
 resource.
 
-![Permissions report at the Bucket level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/aws/bucket/bucketpermissions.webp)
+![Permissions report at the Bucket level](/images/accessinformationcenter/12.0/resourceaudit/aws/bucket/bucketpermissions.webp)
 
 This report is comprised of the following columns:
 

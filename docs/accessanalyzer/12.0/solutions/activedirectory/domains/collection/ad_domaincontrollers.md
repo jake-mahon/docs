@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/domains/collection/domaincontrollersquery.webp)
+![Query Selection](/images/accessanalyzer/12.0/solutions/activedirectory/domains/collection/domaincontrollersquery.webp)
 
 The queries for this job are:
 
@@ -62,11 +62,11 @@ Do not modify any other settings in this query.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The LDAP template form wizard
 opens.
 
-![LDAP template form](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/domains/collection/ldaptemplate.webp)
+![LDAP template form](/images/accessanalyzer/12.0/solutions/activedirectory/domains/collection/ldaptemplate.webp)
 
 **Step 4 –** Click **Options**.
 
-![Connection Options](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/domains/collection/ldaptemplateoptions.webp)
+![Connection Options](/images/accessanalyzer/12.0/solutions/activedirectory/domains/collection/ldaptemplateoptions.webp)
 
 **Step 5 –** On the Options page, select **Connect Securely with TLS/SSL**. Optionally, select
 **Ignore Certificate Errors** to connect even if certificate errors occur. Use **Server Port** 686

@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_InactiveSites Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/activity/usagestatistics/inactivesitesanalysis.webp)
+![Analysis Tasks for the SP_InactiveSites Job](/images/accessanalyzer/11.6/solutions/sharepoint/activity/usagestatistics/inactivesitesanalysis.webp)
 
 The default analysis task is:
 
@@ -32,4 +32,3 @@ produces the following pre-configured report:
 | Report         | Description                                                                                                                                                                                                                                 | Default Tags | Report Elements                                                                                                                                                   |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Inactive Sites | This report identifies Sites that have not had activity for at least 30 days. [View], [Delete], [Update], [Delete] fields reflect the number of unique operations of each type that was performed on the inactive site for this time frame. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays information on inactive sites</li><li>Table – Provides details on inactive sites</li></ul> |
-

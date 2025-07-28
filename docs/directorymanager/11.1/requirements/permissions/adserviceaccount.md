@@ -60,7 +60,7 @@ in this section to:
 
     - **Administrative Tools** from the Windows Start screen.
 
-2. In case of Server Manager selection, select **Tools > Active Directory Users and Computers**.  
+2. In case of Server Manager selection, select **Tools > Active Directory Users and Computers**.
    In case of Administrative Tools selection, select the **Active Directory Users and Computers**
    option in the **Name** column.
 3. In the directory tree, select the required container, point to **New**, and then click **User**.
@@ -77,20 +77,20 @@ In the **Active Directory Users and Computers** console:
 2. In the left pane, right-click the domain name or organizational unit and select the
    **Properties** option. On the Properties window, select the **Security** tab.
 
-    ![security_tab](/img/product_docs/directorymanager/11.1/requirements/permissions/security_tab.webp)
+    ![security_tab](/images/directorymanager/11.1/requirements/permissions/security_tab.webp)
 
 3. Click the **Advanced** button; the **Advanced Security Settings** window is displayed.
 
-    ![advsecsettings](/img/product_docs/directorymanager/11.1/requirements/permissions/advsecsettings.webp)
+    ![advsecsettings](/images/directorymanager/11.1/requirements/permissions/advsecsettings.webp)
 
 4. Click the **Add** button. The **Permission Entry** window is displayed.
 
-    ![permissionentry](/img/product_docs/directorymanager/11.1/requirements/permissions/permissionentry.webp)
+    ![permissionentry](/images/directorymanager/11.1/requirements/permissions/permissionentry.webp)
 
 5. Click the **Select a principal** link next to **Principal**. The Select User, Computer, Service
    Account, or Group dialog box is displayed.
 
-    ![select_user](/img/product_docs/directorymanager/11.1/requirements/permissions/select_user.webp)
+    ![select_user](/images/directorymanager/11.1/requirements/permissions/select_user.webp)
 
     Type the name of the service account in the **Enter the object name to select** box. Click
     **OK**. The **Permissions Entry** window is displayed with all fields enabled (see step 4).
@@ -101,12 +101,12 @@ In the **Active Directory Users and Computers** console:
     1. Scroll down the list of permissions in the **Permissions** box and select the check boxes for
        the options shown below:
 
-        ![permissions_list](/img/product_docs/directorymanager/11.1/requirements/permissions/permissions_list.webp)
+        ![permissions_list](/images/directorymanager/11.1/requirements/permissions/permissions_list.webp)
 
     2. Click **OK**. The granted permissions appear in the **Advanced Security Settings** window as
        shown below:
 
-        ![advsecsettingsgrantedpermissions](/img/product_docs/directorymanager/11.1/requirements/permissions/advsecsettingsgrantedpermissions.webp)
+        ![advsecsettingsgrantedpermissions](/images/directorymanager/11.1/requirements/permissions/advsecsettingsgrantedpermissions.webp)
 
 8. Grant permissions to modify users, contacts, and groups.
 
@@ -119,19 +119,19 @@ In the **Active Directory Users and Computers** console:
     3. In the **Applies to** box, select the **Descendant Contact objects** option and select the
        **Full control** check box in the _Permissions_ area. It is as follows:
 
-        ![fullcontrolcontact](/img/product_docs/directorymanager/11.1/requirements/permissions/fullcontrolcontact.webp)
+        ![fullcontrolcontact](/images/directorymanager/11.1/requirements/permissions/fullcontrolcontact.webp)
 
     4. Click **OK**. The granted permissions appear in the **Advanced Security Settings** window as
        shown below:
 
-        ![advsecsettingsfullcontrolcontact](/img/product_docs/directorymanager/11.1/requirements/permissions/advsecsettingsfullcontrolcontact.webp)
+        ![advsecsettingsfullcontrolcontact](/images/directorymanager/11.1/requirements/permissions/advsecsettingsfullcontrolcontact.webp)
 
     5. Repeat steps a – d for **Descendant Group objects** and **Descendant User objects** on the
-       Permission Entry window.  
+       Permission Entry window.
        The service account now has permissions to modify users, contacts, and groups. These
        permissions appear in the **Advanced Security Settings** window. It is as shown below:
 
-        ![advsecsettingsreqpermissions](/img/product_docs/directorymanager/11.1/requirements/permissions/advsecsettingsreqpermissions.webp)
+        ![advsecsettingsreqpermissions](/images/directorymanager/11.1/requirements/permissions/advsecsettingsreqpermissions.webp)
 
 9. Click **OK**.
 

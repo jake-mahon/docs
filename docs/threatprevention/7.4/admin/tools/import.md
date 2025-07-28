@@ -22,7 +22,7 @@ Follow the steps to import the file.
 - Click **Tools** > **Import** on the menu.
 - Use the keyboard shortcut (Alt+I).
 
-![Import Window](/img/product_docs/threatprevention/7.4/admin/tools/import.webp)
+![Import Window](/images/threatprevention/7.4/admin/tools/import.webp)
 
 The Import window includes options for specifying the locations where imported policies and
 templates will be saved, and how duplicate items will be handled.

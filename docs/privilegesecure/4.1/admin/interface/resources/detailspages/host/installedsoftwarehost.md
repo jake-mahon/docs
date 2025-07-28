@@ -9,7 +9,7 @@ sidebar_position: 100
 The Installed Software tab shows information about the software installed on the selected host
 resource.
 
-![Installed Software Tab for Host Resource](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/installedsoftwarehost.webp)
+![Installed Software Tab for Host Resource](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/installedsoftwarehost.webp)
 
 The History tab has the following features:
 

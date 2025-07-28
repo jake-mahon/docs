@@ -13,7 +13,7 @@ changes without signing out.
 **Step 1 –** Click the **Change Group Membership** button in the Group Membership pane to open the
 Group Membership Changes window.
 
-![Group Membership Changes window](/img/product_docs/accessinformationcenter/12.0/resourceaudit/changemodeling/clearcommit.webp)
+![Group Membership Changes window](/images/accessinformationcenter/12.0/resourceaudit/changemodeling/clearcommit.webp)
 
 **Step 2 –** Select all changes being modeled. Use the Window’s ctrl and left-click key command to
 select multiple changes.

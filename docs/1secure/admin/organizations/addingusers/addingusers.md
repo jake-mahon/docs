@@ -21,8 +21,8 @@ Image keys:
 
 | Icon                                                                                           | Description                                           |
 | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp)     | Bin Icon. Click the Bin Icon to delete the user.      |
-| ![editbutton](/img/product_docs/1secure/admin/organizations/editbutton.webp) | Edit icon. Click the Edit Icon to edit the user data. |
+| ![deletebutton](/images/1secure/integration/deletebutton.webp)     | Bin Icon. Click the Bin Icon to delete the user.      |
+| ![editbutton](/images/1secure/admin/organizations/editbutton.webp) | Edit icon. Click the Edit Icon to edit the user data. |
 
 ## Add Users to Managing Organization
 
@@ -78,7 +78,7 @@ For example, if you are a tenant administrator and you allowed a access to a mem
 should edit 100 accounts before 08.03.2023, this member can manage these activities up to a certain
 period and the administrator does not need to suspend the rights manually.
 
-![Add Users pane](/img/product_docs/1secure/admin/organizations/addusers.webp)
+![Add Users pane](/images/1secure/admin/organizations/addusers.webp)
 
 **Step 4 –** Select one or more organization groups from the **Select organization group(s) for the
 user** drop-down menu. To specify multiple groups, select them one by one from the drop-down menu.
@@ -104,7 +104,7 @@ shall be Verified.
 If the user has not registered within a system, the status will be Pending Verification. The
 administrator may select Resend Invite to re-notify this user.
 
-![Users List](/img/product_docs/1secure/admin/organizations/users_status.webp)
+![Users List](/images/1secure/admin/organizations/users_status.webp)
 
 When logging in, the users see the Home screen, on which they can do the following actions:
 
@@ -139,7 +139,7 @@ with business users**. This way, all the business users can view the shared repo
 
 As you add the business viewer, the created reports shall be automatically displayed.
 
-![Add Users pane](/img/product_docs/1secure/admin/organizations/businessusers.webp)
+![Add Users pane](/images/1secure/admin/organizations/businessusers.webp)
 
 Follow the steps to add the Business Viewer role.
 
@@ -161,7 +161,7 @@ organization.
 :::
 
 
-![Home page](/img/product_docs/1secure/admin/organizations/homescreen_2.webp)
+![Home page](/images/1secure/admin/organizations/homescreen_2.webp)
 
 :::note
 When logging in, if the Business Viewer account is registered with multiple organizations,
@@ -188,7 +188,7 @@ the option **Share with business users**. This way, all the business users can v
 reports. See the [ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md) topic for additional
 information.
 
-![Add Users pane](/img/product_docs/1secure/admin/organizations/comanagingadministrator.webp)
+![Add Users pane](/images/1secure/admin/organizations/comanagingadministrator.webp)
 
 Follow the steps to add the Co-managing Administrator role.
 

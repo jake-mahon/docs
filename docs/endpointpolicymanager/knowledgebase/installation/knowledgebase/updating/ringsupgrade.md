@@ -17,7 +17,7 @@ If you wish to configure or fine-tune the CSE auto-download process, you may cre
 `update.config`, which must be placed within the Endpoint Policy Manager Central Storage CSE folder,
 as seen below.
 
-![640_1_hfkb-1128-img-01](/img/product_docs/endpointpolicymanager/install/640_1_hfkb-1128-img-01.webp)
+![640_1_hfkb-1128-img-01](/images/endpointpolicymanager/install/640_1_hfkb-1128-img-01.webp)
 
 This file can be manually created in order to configure or fine-tune the CSE auto-download process.
 This file should be created in the Endpoint Policy Manager Central Storage CSE folder, and the file
@@ -158,12 +158,12 @@ The share for reports should have the following permissions:
 2. Domain Computers should be set to Read, Write, Create (but not Delete)
 3. NTFS permissions should allow for All.
 
-![640_2_hfkb-1128-img-02](/img/product_docs/endpointpolicymanager/install/640_2_hfkb-1128-img-02.webp)
+![640_2_hfkb-1128-img-02](/images/endpointpolicymanager/install/640_2_hfkb-1128-img-02.webp)
 
 NTFS permissions should be set up as shown below, where Domain Computers has all rights, except Full
 Control.
 
-![640_3_hfkb-1128-img-03_950x424](/img/product_docs/endpointpolicymanager/install/640_3_hfkb-1128-img-03_950x424.webp)
+![640_3_hfkb-1128-img-03_950x424](/images/endpointpolicymanager/install/640_3_hfkb-1128-img-03_950x424.webp)
 
 This way, domain computers (that is, endpoints) will be able to write reports but not delete reports
 that they create. When enabled and configured, inside the share, you'll see log files named in the
@@ -203,7 +203,7 @@ and, thus, not performing any updates normally.
 :::
 
 
-![640_4_hfkb-1128-img-04](/img/product_docs/endpointpolicymanager/install/640_4_hfkb-1128-img-04.webp)
+![640_4_hfkb-1128-img-04](/images/endpointpolicymanager/install/640_4_hfkb-1128-img-04.webp)
 
 ## Troubleshooting CSE Automatic Updates
 

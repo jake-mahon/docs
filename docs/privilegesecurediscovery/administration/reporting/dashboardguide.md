@@ -10,10 +10,10 @@ Dashboard Guide
 
 # Dashboard Guide
 
-What do these numbers mean? Where do they come from? Let’s find out.  
+What do these numbers mean? Where do they come from? Let’s find out.
 The queries made to the API are listed here along with which parts of the Dashboard they populate.
 
-![blobid0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/reporting/360058765294_blobid0.webp)
+![blobid0.webp](/images/privilegesecure/4.2/discovery/admin/reporting/360058765294_blobid0.webp)
 
 - **Summary | Total Systems Scanned** (the total part, after the slash, aka denominator)
 

@@ -34,7 +34,7 @@ To access the customization list:
 1. Open **Strongpoint**> **Customizations** > **Customization**
 2. The recommended view is **Strongpoint Filter** to enable the filters to narrow down your search.
 
-![customization-list](/img/product_docs/platgovnetsuite/customizations/customization-list.webp)
+![customization-list](/images/platgovnetsuite/customizations/customization-list.webp)
 
 ## Customization Quick Search
 
@@ -44,7 +44,7 @@ Quick Search**
 You can search using several factors and submit. When looking up by **Name**, using **Contains**
 helps if you do not have the exact name.
 
-![custquicksearch](/img/product_docs/platgovnetsuite/customizations/custquicksearch.webp)
+![custquicksearch](/images/platgovnetsuite/customizations/custquicksearch.webp)
 
 ## ERD View
 
@@ -67,13 +67,13 @@ name brings up the customization record.
 
 4. Click **Show Record ERD**.
 
-    ![erd-view](/img/product_docs/platgovnetsuite/customizations/erd-view.webp)
+    ![erd-view](/images/platgovnetsuite/customizations/erd-view.webp)
 
 5. Click on any item to expand the view. For large lists, click **More** to see the additional
-   items.  
+   items.
    External sources headers are highlighted in green.
 
-    ![ERD with an External Source](/img/product_docs/platgovnetsuite/customizations/celigo_erd.webp)
+    ![ERD with an External Source](/images/platgovnetsuite/customizations/celigo_erd.webp)
 
 6. Click **Open Record** on any Customization to open the actual record.
 
@@ -90,12 +90,12 @@ From the ERD Search Form, you can search by:
 - Parent
 - Quick Add
 
-![erdsearchform-2](/img/product_docs/platgovnetsuite/customizations/erdsearchform-2.webp)
+![erdsearchform-2](/images/platgovnetsuite/customizations/erdsearchform-2.webp)
 
 Once you have finished your search, you can create a Process Issue or a Change Request from the
 results.
 
-![erdsearchform-3](/img/product_docs/platgovnetsuite/customizations/erdsearchform-3.webp)
+![erdsearchform-3](/images/platgovnetsuite/customizations/erdsearchform-3.webp)
 
 ## Customization Impact Search
 
@@ -108,7 +108,7 @@ To access a customization quick search:
 1. Select **Strongpoint** > **Customizations** > **Customization Impact Search Form**.
 2. Enter any criteria to narrow the results as required.
 
-![impactsearchform](/img/product_docs/platgovnetsuite/customizations/impactsearchform.webp)
+![impactsearchform](/images/platgovnetsuite/customizations/impactsearchform.webp)
 
 ## Other Customizations
 

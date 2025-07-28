@@ -8,7 +8,7 @@ sidebar_position: 60
 
 Buttons can also be converted to font browsers, as shown in Figure 139.
 
-![configuring_elements_using_32](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_32.webp)
+![configuring_elements_using_32](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_32.webp)
 
 Figure 139. Converting a dialog to a font browser.
 
@@ -16,7 +16,7 @@ A font browser button requires at least one text box, or ideally two text boxes,
 boxes are available on the page, you are not allowed to configure the Font Browser button, as shown
 in Figure 140.
 
-![configuring_elements_using_33](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_33.webp)
+![configuring_elements_using_33](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_33.webp)
 
 Figure 140. Configuring a dialog to a font browser requires at least one text box.
 
@@ -26,7 +26,7 @@ example below, the "Default font" text box will be used for the font name. Howev
 separate dropdown control for the size. In this case, the Font Browser Configuration Wizard will ask
 you which text box you want to use for the font name, as see in Figure 141.
 
-![configuring_elements_using_34](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_34.webp)
+![configuring_elements_using_34](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_34.webp)
 
 Figure 141. Selecting the font name.
 

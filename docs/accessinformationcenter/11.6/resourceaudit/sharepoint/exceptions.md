@@ -10,7 +10,7 @@ The Exceptions report at the **SharePoint** node provides a list of exceptions t
 across the targeted SharePoint on-premise farms and SharePoint Online instances. This report
 includes a Details table.
 
-![Exceptions report at the SharePoint node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/exceptions.webp)
+![Exceptions report at the SharePoint node](/images/accessinformationcenter/11.6/resourceaudit/sharepoint/exceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open
 access and permissions granted to stale or disabled users. This table will be blank if no exceptions

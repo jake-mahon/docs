@@ -18,11 +18,11 @@ workflow (to start immediate processing). Do the following:
     **NOTE:** Documents that have already been classified will be re-classified before applying this
     automated workflow.
 
-    ![workflow_step4_name_settings_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/workflow_step4_name_settings_thumb_0_0.webp)
+    ![workflow_step4_name_settings_thumb_0_0](/images/dataclassification/5.6.2/workflows/workflow_step4_name_settings_thumb_0_0.webp)
 
 4. When finished, click **Add** to close the wizard. Your new workflow will be added to the list on
    the **Workflows** tab:
 
-    ![workflow_list_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/workflow_list_thumb_0_0.webp)
+    ![workflow_list_thumb_0_0](/images/dataclassification/5.6.2/workflows/workflow_list_thumb_0_0.webp)
 
 5. Navigate to Content → Sources and select Re-classify for the selected sources in the workflow.

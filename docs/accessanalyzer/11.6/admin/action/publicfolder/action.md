@@ -15,7 +15,7 @@ available and the selection cannot be altered.
 :::
 
 
-![Public Folder Action Module Wizard Action page](/img/product_docs/accessanalyzer/11.6/admin/action/publicfolder/action.webp)
+![Public Folder Action Module Wizard Action page](/images/accessanalyzer/11.6/admin/action/publicfolder/action.webp)
 
 Choose from the following actions:
 

@@ -20,17 +20,17 @@ for example:
 
 - the list of entitlements for a given user in their **View Permissions** tab;
 
-    ![View Permissions Tab](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
+    ![View Permissions Tab](/images/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
 - the list of all requests that you are authorized to see in **Workflow Overview** accessible from
   the home page in the **Administration** section;
 
-    ![Home - Workflow Overview](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/home_workflowoverview_v602.webp)
+    ![Home - Workflow Overview](/images/identitymanager/6.1/user-guide/administrate/reporting/home_workflowoverview_v602.webp)
 
 - the
   [list of orphaned accounts](/docs/identitymanager/6.1/user-guide/administrate/orphan-unused-account-review/index.md).
 
-    ![Orphaned Account List](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
+    ![Orphaned Account List](/images/identitymanager/6.1/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
 Usercube puts users in control of their reporting. Rich features help produce customizable reports
 that can be used to check the assignment policy results, or gather information for an audit.
@@ -66,9 +66,9 @@ Download predefined reports by proceeding as follows:
 
 1. Click on **Reports** on the left of the home page to access the list of predefined reports.
 
-    ![Home Page - Reports](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/home_reports_v602.webp)
+    ![Home Page - Reports](/images/identitymanager/6.1/user-guide/administrate/reporting/home_reports_v602.webp)
 
-    ![Reports](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/reporting_predefinedreports_v602.webp)
+    ![Reports](/images/identitymanager/6.1/user-guide/administrate/reporting/reporting_predefinedreports_v602.webp)
 
 2. Choose the appropriate report and click on **Download** to get an Excel report. The
    downward-pointing arrow provides additional report formats.
@@ -99,16 +99,16 @@ Create a custom report by proceeding as follows:
 
 1. Click on **Query** in the **Administration** section on the home page.
 
-    ![Home Page - Query](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/home_query_v602.webp)
+    ![Home Page - Query](/images/identitymanager/6.1/user-guide/administrate/reporting/home_query_v602.webp)
 
-    ![Query Page](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/reporting_querypage_v602.webp)
+    ![Query Page](/images/identitymanager/6.1/user-guide/administrate/reporting/reporting_querypage_v602.webp)
 
 2. Choose a query model from among the list.
 3. Click on **Fields to Display** and select the appropriate fields from among the database
    [universe](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
    and click on **Confirm**.
 
-    ![Fields to Display](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
+    ![Fields to Display](/images/identitymanager/6.1/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
 
     In cases where Usercube doesn't display correctly the information you need, you must try to
     understand the
@@ -121,7 +121,7 @@ Create a custom report by proceeding as follows:
 
 4. Click on **Filters**, write the appropriate condition and click on **Confirm**.
 
-    ![Filters](/img/product_docs/identitymanager/6.1/user-guide/administrate/reporting/reporting_filters_v602.webp)
+    ![Filters](/images/identitymanager/6.1/user-guide/administrate/reporting/reporting_filters_v602.webp)
 
     For example, a report could list user names and identifiers � but only those with their
     `Contract end date` less than today's date � so that we will see all the workers who have left

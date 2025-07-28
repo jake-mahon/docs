@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_LargestResources Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/content/sizing/largestresourcesanalysis.webp)
+![Analysis Tasks for the FS_LargestResources Job](/images/accessanalyzer/11.6/solutions/filesystem/content/sizing/largestresourcesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -36,4 +36,3 @@ produces the following pre-configured reports:
 | --------------- | ----------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Largest Folders | This report identifies the largest folders found.                 | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays the top 5 largest folders</li><li>Table – Provides details on largest folders</li></ul>      |
 | Largest Shares  | This report identifies the largest shares within the environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays the top 5 largest shares</li><li>Table – Provides details on the largest resources</li></ul> |
-

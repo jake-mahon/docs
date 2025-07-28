@@ -6,7 +6,7 @@ sidebar_position: 40
 
 # Creating databases
 
-![installation_with_parameters_216](/img/product_docs/passwordsecure/9.2/configuration/server_manager/creatingdatabase/installation_with_parameters_216.webp)
+![installation_with_parameters_216](/images/passwordsecure/9.2/configuration/server_manager/creatingdatabase/installation_with_parameters_216.webp)
 
 [https://www.youtube.com/embed/md7_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)[https://www.youtube.com/embed/md7_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)
 
@@ -22,7 +22,7 @@ database management system is used in Netwrix Password Secure version 9.
 The creation of databases is supported by the database wizard, which is started directly from the
 ribbon. The individual tabs of the wizard are explained below:
 
-![database wizard](/img/product_docs/passwordsecure/9.2/configuration/server_manager/creatingdatabase/installation_with_parameters_217-en.webp)
+![database wizard](/images/passwordsecure/9.2/configuration/server_manager/creatingdatabase/installation_with_parameters_217-en.webp)
 
 Database server
 
@@ -55,4 +55,4 @@ Once a database has been created successfully, , provided it has been selected. 
 has been selected, the new database is created directly, and will be displayed in the database
 overview.
 
-![created new database](/img/product_docs/passwordsecure/9.2/configuration/server_manager/creatingdatabase/installation_with_parameters_218-en.webp)
+![created new database](/images/passwordsecure/9.2/configuration/server_manager/creatingdatabase/installation_with_parameters_218-en.webp)

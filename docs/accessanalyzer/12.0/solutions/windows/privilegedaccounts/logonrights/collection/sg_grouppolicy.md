@@ -23,7 +23,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_GroupPolicy Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/collection/grouppolicyquery.webp)
+![Queries for the SG_GroupPolicy Job](/images/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/collection/grouppolicyquery.webp)
 
 The query for the SG_GroupPolicy job is:
 

@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The EX_OWATraffic Job provides visibility into Outlook Web Access Traffic in the organization.
 
-![Outlook Web Access > EX_OWATraffic Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/outlookwebaccessjobstree.webp)
+![Outlook Web Access > EX_OWATraffic Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/casmetrics/outlookwebaccessjobstree.webp)
 
 The EX_OWATraffic job is located in the Outlook Web Access Job Group.
 
@@ -23,7 +23,7 @@ There is one that is deselected by default, as it is for troubleshooting purpose
 :::
 
 
-![Analysis Tasks for the EX_OWATraffic Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/owatrafficanalysis.webp)
+![Analysis Tasks for the EX_OWATraffic Job](/images/accessanalyzer/11.6/solutions/exchange/casmetrics/owatrafficanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -63,4 +63,3 @@ the following pre-configured reports:
 | -------------------------------------- | -------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Top Servers by Average Load            | This report shows servers with the highest average load. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top servers by average daily user count</li><li>Table – Provides details on top servers by average daily user count</li></ul> |
 | Top Users (Outlook Web Access Traffic) | This report identifies top users of OWA.                 | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users</li><li>Table – Provides details on top users</li></ul>                                                             |
-

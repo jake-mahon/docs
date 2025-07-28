@@ -9,7 +9,7 @@ sidebar_position: 50
 The Local Account Password Options page is accessible from the Navigation pane under Configuration >
 System Settings.
 
-![localaccountpasswordoptionspage](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/localaccountpasswordoptionspage.webp)
+![localaccountpasswordoptionspage](/images/privilegesecure/4.2/accessmanagement/admin/configuration/page/localaccountpasswordoptionspage.webp)
 
 Provide the following information for the local accounts:
 

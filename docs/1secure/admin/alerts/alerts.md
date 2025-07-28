@@ -26,7 +26,7 @@ Follow the steps to view the alerts within an alert profile.
 
 **Step 2 –** Click an alert profile. The alerts for the profile are displayed in a list.
 
-![Alerts List within an alert profile](/img/product_docs/1secure/admin/alerts/alertslist.webp)
+![Alerts List within an alert profile](/images/1secure/admin/alerts/alertslist.webp)
 
 You can view the following for each alert in the list:
 
@@ -54,7 +54,7 @@ Follow the steps to add a custom alert.
 
 **Step 3 –** Click **Add**. The New Alert pane is displayed.
 
-![New Alert Pane](/img/product_docs/1secure/admin/alerts/addcustomalert.webp)
+![New Alert Pane](/images/1secure/admin/alerts/addcustomalert.webp)
 
 **Step 4 –** Select a custom report from the Report drop-down menu to trigger the alert when a new
 record is generated for the report. See the [ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md)

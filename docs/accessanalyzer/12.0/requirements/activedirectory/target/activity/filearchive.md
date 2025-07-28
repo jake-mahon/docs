@@ -136,17 +136,17 @@ the target domain.
 **Step 3 –** On the Data Source tab, select **Configure**. The Active Directory Activity DC wizard
 opens.
 
-![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/8.0/config/activedirectory/categoryimportfromshare.webp)
+![Active Directory Activity DC wizard Category page](/images/activitymonitor/8.0/config/activedirectory/categoryimportfromshare.webp)
 
 **Step 4 –** On the Category page, choose **Import from Share** option and click **Next**.
 
-![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/8.0/config/activedirectory/share.webp)
+![Active Directory Activity DC wizard Share settings page](/images/activitymonitor/8.0/config/activedirectory/share.webp)
 
 **Step 5 –** On the Share page, provide the UNC path to the AD Activity share archive location. If
 there are multiple archives in the same network share, check the **Include Sub-Directories** box.
 Click **Next**.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/8.0/config/activedirectory/scope.webp)
+![Active Directory Activity DC wizard Scoping and Retention page](/images/activitymonitor/8.0/config/activedirectory/scope.webp)
 
 **Step 6 –** On the Scope page, set the Timespan as desired. There are two options:
 

@@ -19,7 +19,7 @@ and the
 :::
 
 
-![Sensitive Data settings](/img/product_docs/accessanalyzer/11.6/admin/settings/sensitivedata/sensitivedata.webp)
+![Sensitive Data settings](/images/accessanalyzer/11.6/admin/settings/sensitivedata/sensitivedata.webp)
 
 The tabs in the Sensitive Data node are:
 

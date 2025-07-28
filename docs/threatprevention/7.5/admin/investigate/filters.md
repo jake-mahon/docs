@@ -13,7 +13,7 @@ view are selected, and the other filter categories are blank. Filters can be app
 combination of the filter categories. Use the Refresh button to repopulate the data grid with the
 current information for the selected filter(s).
 
-![Investigate Interface - Filter Categories](/img/product_docs/threatprevention/7.5/admin/investigate/filtercategories.webp)
+![Investigate Interface - Filter Categories](/images/threatprevention/7.5/admin/investigate/filtercategories.webp)
 
 Filter categories are discussed below.
 

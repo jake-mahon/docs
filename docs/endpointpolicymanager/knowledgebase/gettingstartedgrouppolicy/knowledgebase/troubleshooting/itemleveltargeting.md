@@ -15,7 +15,7 @@ is applied to a system with the Group Policy Editor. In short, the “User in Gr
 available when editing new Group Policy Preferences or Endpoint Policy Manager items or when editing
 old items.
 
-![itemleveltargeting1](/img/product_docs/endpointpolicymanager/troubleshooting/log/itemleveltargeting/itemleveltargeting1.webp)
+![itemleveltargeting1](/images/endpointpolicymanager/troubleshooting/log/itemleveltargeting/itemleveltargeting1.webp)
 
 ## Workaround options
 
@@ -49,4 +49,4 @@ in group.”
 :::
 
 
-![itemleveltargeting2](/img/product_docs/endpointpolicymanager/troubleshooting/log/itemleveltargeting/itemleveltargeting2.webp)
+![itemleveltargeting2](/images/endpointpolicymanager/troubleshooting/log/itemleveltargeting/itemleveltargeting2.webp)

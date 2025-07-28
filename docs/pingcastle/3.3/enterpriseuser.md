@@ -27,7 +27,7 @@ will not run in the browser. This protection can be checked via third
 party service such as \"security headers\". It means that
 \"unsafe-inline\" and \"unsafe-eval\" are not accepted.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image2.webp)
+![](/images/pingcastle/enterpriseuser/image2.webp)
 
 The application uses enforced controls which force parameters to be
 checked twice against a model (in the browser then in the server
@@ -71,11 +71,11 @@ file.
 
 Authentication using OpenID:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image3.webp)
+![](/images/pingcastle/enterpriseuser/image3.webp)
 
 Authentication using login/password:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image4.webp)
+![](/images/pingcastle/enterpriseuser/image4.webp)
 
 :::note
 When the login / password method is configured (by default), a
@@ -90,17 +90,17 @@ or AzureAD)
 
 The permissions can be set on the detail of the Entities
 
-![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image5.webp)
+![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/images/pingcastle/enterpriseuser/image5.webp)
 
 **And on the Domain / AzureAD objects**
 
-![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image6.webp)
+![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/images/pingcastle/enterpriseuser/image6.webp)
 
 The permissions are of 2 types:
 
 - the classic user assignment where users are assigned to objects.
 
-![Une image contenant texte, capture d'écran, Police, nombre Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image7.webp)
+![Une image contenant texte, capture d'écran, Police, nombre Description générée automatiquement](/images/pingcastle/enterpriseuser/image7.webp)
 
 - using claims permissions
 
@@ -108,14 +108,14 @@ In this case, the user rights are managed dynamically based on the
 claims submitted by the authentication application (Windows, OpenID,
 Saml2, ...)
 
-![Une image contenant texte, capture d'écran, Police, nombre Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image8.webp)
+![Une image contenant texte, capture d'écran, Police, nombre Description générée automatiquement](/images/pingcastle/enterpriseuser/image8.webp)
 
 Claims permission is the way to assign dynamically permissions based on
 Windows group. Be advised that the claims are case sensitive. You can
 also open the "View my user's claims page in "Manage your account" to
 see what claims have been pushed to Ping Castle.
 
-![Une image contenant texte, capture d'écran, Police, conception Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image9.webp)
+![Une image contenant texte, capture d'écran, Police, conception Description générée automatiquement](/images/pingcastle/enterpriseuser/image9.webp)
 
 # Ping Castle Enterprise features
 
@@ -132,7 +132,7 @@ The application is divided is 4 different areas:
 - The account / user management
 
 ![A logo with a triangle and dots Description automatically
-generated](/img/product_docs/pingcastle/enterpriseuser/image10.webp)![](/img/product_docs/pingcastle/enterpriseuser/image11.webp)
+generated](/images/pingcastle/enterpriseuser/image10.webp)![](/images/pingcastle/enterpriseuser/image11.webp)
 
 **Configuration**
 
@@ -195,7 +195,7 @@ The product implements three main layers of permission:
   They do not have access to other domains or to the dashboard unless
   assigned through an entity or elevated role.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image12.webp)
+![](/images/pingcastle/enterpriseuser/image12.webp)
 
 ## Page organization
 
@@ -207,7 +207,7 @@ quickly get used to the solution in general.
 For instance, most pages can show \"All data\" available to the user or
 set up a filter to only see a more narrowed down set of data.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image13.webp)
+![](/images/pingcastle/enterpriseuser/image13.webp)
 
 When a user does not have access to the root of the organization and
 have access to multiple area of the organization, the application
@@ -217,7 +217,7 @@ Following the same idea, most pages from the \"Maturity Assessment\"
 section are built in a common structure, allowing to visualize KPI
 efficiently
 
-![](/img/product_docs/pingcastle/enterpriseuser/image14.webp)
+![](/images/pingcastle/enterpriseuser/image14.webp)
 
 The main page contains the Indicators, while you can then have a
 breakdown of these KPI regarding the Entities, and a History of how the
@@ -228,7 +228,7 @@ said KPI evolves since you first started monitoring them.
 The dashboard view is divided in two areas: The "Maturity Assessment"
 and the "Advanced views".
 
-![](/img/product_docs/pingcastle/enterpriseuser/image15.webp)
+![](/images/pingcastle/enterpriseuser/image15.webp)
 
 From this global page, you can then access detailed process for each
 step of the PingCastle maturity assessment (Domain Coverage, Ownership,
@@ -254,7 +254,7 @@ major measures, giving a total of 20 measures.
 Each measure for which the company AD is compliant gives 1 point in the
 total, ending in a score on 20 that can be viewed in a radar chart.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image16.webp)
+![](/images/pingcastle/enterpriseuser/image16.webp)
 
 To go into more details, this score is computed on the 2 first levels of
 the CMMI methodology applied to the AD:
@@ -285,11 +285,11 @@ is raising an alert or not.
 
 Detailed view of the maturity score:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image17.webp)
+![](/images/pingcastle/enterpriseuser/image17.webp)
 
 Detailed view of the breakdown for a major area:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image18.webp)
+![](/images/pingcastle/enterpriseuser/image18.webp)
 
 3.  The purpose of these general pages is to assist users understand
     more fully the current level of protection of the company Active
@@ -305,7 +305,7 @@ to a more detailed dashboard.
 
 This section covers the following pages:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image19.webp)
+![](/images/pingcastle/enterpriseuser/image19.webp)
 
 4.  The purpose of these general pages is to assist users understand
     more fully the current level of protection of the company Active
@@ -327,7 +327,7 @@ If the objective is reached, the KPI is in green color, else its color
 is red. A \"Detail\" button allows to directly reach the technical view,
 with extra advanced information on how to remediate and improve the KPI.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image20.webp)
+![](/images/pingcastle/enterpriseuser/image20.webp)
 
 5.  The second section offers different kind of detailed information in
     different tabs.
@@ -345,19 +345,19 @@ containing the data that were used to elaborate the chart.
 
 Indicators for the related tab:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image21.webp)
+![](/images/pingcastle/enterpriseuser/image21.webp)
 
 Entities Details for the related tab:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image22.webp)
+![](/images/pingcastle/enterpriseuser/image22.webp)
 
-![](/img/product_docs/pingcastle/enterpriseuser/image23.webp)
+![](/images/pingcastle/enterpriseuser/image23.webp)
 
 Entities Details for the related tab:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image24.webp)
+![](/images/pingcastle/enterpriseuser/image24.webp)
 
-![](/img/product_docs/pingcastle/enterpriseuser/image25.webp)
+![](/images/pingcastle/enterpriseuser/image25.webp)
 
 ## Remediation / Rule Matrix
 
@@ -382,23 +382,23 @@ It should be noticed that global problems will be reflected as a
 vertical line (it impacts a rule) and local problems will be reflected
 as a horizontal line (it impacts a domain).
 
-![](/img/product_docs/pingcastle/enterpriseuser/image26.webp)
+![](/images/pingcastle/enterpriseuser/image26.webp)
 
 PingCastle recommends working on a unit consisting of 10 to 15 domains.
 Once the selection is done, PingCastle recommends ordering the items by
 Maturity levels and to remove the bank items.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image27.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseuser/image27.webp)
 
 The result is then a 15 to 20 matrix where all colored items are a rule
 which matched.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image28.webp)
+![](/images/pingcastle/enterpriseuser/image28.webp)
 
 The detail can be viewed by pointing on the cell and a click forwards
 the user to the detail of the report.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image29.webp)
+![](/images/pingcastle/enterpriseuser/image29.webp)
 
 Please note that the "View Action Plans" option changes the color of the
 items and enable the user to see quickly what the status of the action
@@ -409,14 +409,14 @@ To see the top rules that need to be fixed to improve the maturity or
 the score, a selection of the 2 tab "Maturity" or "Priority" enables the
 user to see the data.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image30.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseuser/image30.webp)
 
 ## Remediation / Maturity per domain
 
 This view allows the user to compare the number of rules per domain in a
 select entity.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image31.webp)
+![](/images/pingcastle/enterpriseuser/image31.webp)
 
 ## Advanced
 
@@ -474,7 +474,7 @@ reduce the risk and improve the overall Risk Score.
 The technical view also named \"Infrastructure\" is based on a list of
 domains and its data.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image32.webp)
+![](/images/pingcastle/enterpriseuser/image32.webp)
 
 The list of domains is shown in the \"Domains\" page and a \"Forests\"
 page exists where only forests containing more than 2 domains are
@@ -499,7 +499,7 @@ can be used to dynamically filter domains based on name, SID or Entity.
 Furthermore, by default, Domains with status Removed or Out of scope are
 filtered by default.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image33.webp)
+![](/images/pingcastle/enterpriseuser/image33.webp)
 
 A click on the domain open the domain view and a click on the entity
 full name open the management view for the entity.
@@ -510,11 +510,11 @@ This view displays detailed information on the domain, as well as many
 other information such the results of the last report, some history,
 timeline and cartography. This can be modified by selecting a tab.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image34.webp)
+![](/images/pingcastle/enterpriseuser/image34.webp)
 
 Last report tab:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image35.webp)
+![](/images/pingcastle/enterpriseuser/image35.webp)
 
 The full detail of the last report performed is accessible in this tab,
 though it is not shown here.
@@ -522,7 +522,7 @@ though it is not shown here.
 By default when there is a list of users, the output is limited to 100
 users.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image36.webp)
+![](/images/pingcastle/enterpriseuser/image36.webp)
 
 This limitation has been introduced to not have large html page and
 block the navigation.
@@ -531,7 +531,7 @@ The recommended solution to overcome this limit is to use the local
 PingCastle client and to export the list of accounts needed for detailed
 analysis.
 
-![Une image contenant texte, capture d'écran, écran, argent Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image37.webp)
+![Une image contenant texte, capture d'écran, écran, argent Description générée automatiquement](/images/pingcastle/enterpriseuser/image37.webp)
 
 This export produces a csv file with the user or computer name and many
 properties such as the creation date or operating system as seen by
@@ -543,15 +543,15 @@ at the root of the appsettings.Production.json file to any other value
 
 History tab:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image38.webp)
+![](/images/pingcastle/enterpriseuser/image38.webp)
 
 Timeline tab:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image39.webp)
+![](/images/pingcastle/enterpriseuser/image39.webp)
 
 Cartography tab:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image40.webp)
+![](/images/pingcastle/enterpriseuser/image40.webp)
 
 **Creation and suppression of a domain**
 
@@ -565,7 +565,7 @@ There are two ways to create a Domain in PingCastle Enterprise:
 - Manual creation of a domain, when you want to import a report for this
   domain for instance. It is done by clicking on the related button.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image41.webp)
+![](/images/pingcastle/enterpriseuser/image41.webp)
 
 It brings the user on a page with information that needs to be filled :
 
@@ -585,7 +585,7 @@ It brings the user on a page with information that needs to be filled :
 
 - Comment: Possible comment to have more information on the domain
 
-![](/img/product_docs/pingcastle/enterpriseuser/image42.webp)
+![](/images/pingcastle/enterpriseuser/image42.webp)
 
 A domain cannot be hard-deleted (unless it has been added manually by
 mistake, meaning that it is in no way connected to any other existing
@@ -600,7 +600,7 @@ the graph below.
 The default status is \"Auto Created\", and every change must be done
 manually when required.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image43.webp)
+![](/images/pingcastle/enterpriseuser/image43.webp)
 
 - Auto Created: The domain has been created automatically by the
   PingCastle Enterprise solution, which means it is connected to another
@@ -681,7 +681,7 @@ reliable source to the less reliable source, in the following order:
 A general cartography is available. It displays all the domains and its
 trust relationship that the user can see in its scope.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image44.webp)
+![](/images/pingcastle/enterpriseuser/image44.webp)
 
 **Simplified Cartography**
 
@@ -698,7 +698,7 @@ domain are shown.
 This page allows to query any events which occurred on one or more
 domain and to filter then by type.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image45.webp)
+![](/images/pingcastle/enterpriseuser/image45.webp)
 
 The events that you can view are the following:
 
@@ -742,7 +742,7 @@ personalize settings so that the tool fits more the Company needs.
 In the \"Entities\" page, it is possible to create and configurate the
 entities within the company.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image46.webp)
+![](/images/pingcastle/enterpriseuser/image46.webp)
 
 It is through entities that it is possible to best represent the company
 organization, so that the AD configuration matches the company
@@ -754,9 +754,9 @@ configuration.
 
 **Add new entity**
 
-![](/img/product_docs/pingcastle/enterpriseuser/image47.webp)
+![](/images/pingcastle/enterpriseuser/image47.webp)
 
-![](/img/product_docs/pingcastle/enterpriseuser/image48.webp)
+![](/images/pingcastle/enterpriseuser/image48.webp)
 
 **Reorganize the tree view of entities**
 
@@ -766,7 +766,7 @@ works through drag and drop to optimize user experience.
 
 Example to show how to reorganize entities:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image49.webp)
+![](/images/pingcastle/enterpriseuser/image49.webp)
 
 **Details of an Entity**
 
@@ -778,7 +778,7 @@ accountable for a specified entity.
 
 For instance, the page for PingCastle Enterprise entity:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image50.webp)
+![](/images/pingcastle/enterpriseuser/image50.webp)
 
 ## Action plans management
 
@@ -786,20 +786,20 @@ This part enables administrator to configure remediation schedule so it
 can be displayed into reports.
 
 ![Une image contenant texte Description générée
-automatiquement](/img/product_docs/pingcastle/enterpriseuser/image51.webp)
+automatiquement](/images/pingcastle/enterpriseuser/image51.webp)
 
 It is actionable directly in the domain details where the rules are
 being displayed:
 
 ![Une image contenant texte Description générée
-automatiquement](/img/product_docs/pingcastle/enterpriseuser/image52.webp)
+automatiquement](/images/pingcastle/enterpriseuser/image52.webp)
 
 Please pay attention to the next chart. It represents the evolution of
 the number of rules per maturity level. Because an action plan has been
 defined, a vertifical line represents today. Everything at the right is
 the projected evolution of the maturity level based on the action items.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image53.webp)
+![](/images/pingcastle/enterpriseuser/image53.webp)
 
 **Exceptions management**
 
@@ -808,7 +808,7 @@ that it adapts to the company specific context. It is indeed possible to
 configure how PingCastle Enterprise handles exceptions specific to your
 perimeter.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image54.webp)
+![](/images/pingcastle/enterpriseuser/image54.webp)
 
 **Rule exceptions**
 
@@ -841,7 +841,7 @@ If many exceptions needs to be created or removed, there is an option
 available to create or remove exceptions in bulk. Please note that if an
 exception already exists, it will not be created again.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image55.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseuser/image55.webp)
 
 :::note
 Since PingCastle 2.11, all exceptions, migration or action plans
@@ -849,7 +849,7 @@ are tracked with their creation or last modification date and the user
 which performed this change.
 :::
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image56.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseuser/image56.webp)
 
 ## Importing data
 
@@ -879,21 +879,21 @@ message to help you in the process of uploading the file.
 
 Import page:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image57.webp)
+![](/images/pingcastle/enterpriseuser/image57.webp)
 
-![](/img/product_docs/pingcastle/enterpriseuser/image58.webp)
+![](/images/pingcastle/enterpriseuser/image58.webp)
 
 Option 2: Importing the file automatically through the Agent mode
 
 From the \"Configuration\" tab, you first need to get an API key using
 the \"Agents\" page and configurate the PingCastle agent accordingly.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image59.webp)
+![](/images/pingcastle/enterpriseuser/image59.webp)
 
 The first step is to create an Agent API key. Click on the create button
 to reach the creation page.
 
-![](/img/product_docs/pingcastle/enterpriseuser/image60.webp)
+![](/images/pingcastle/enterpriseuser/image60.webp)
 
 To map the agent to a responsible, the Owner field must be completed. It
 can be an entity or a domain, such as the \"default\" entity.
@@ -908,7 +908,7 @@ automatically using the command:
 pingcastle --healthcheck --api-endpoint <endpoint> --api-key <key>
 ```
 
-![](/img/product_docs/pingcastle/enterpriseuser/image61.webp)
+![](/images/pingcastle/enterpriseuser/image61.webp)
 
 10. By default, all detailed information will be filtered. To avoid this
     behavior, the command line can to be changed to:
@@ -919,7 +919,7 @@ pingcastle --healthcheck --api-endpoint <endpoint> --api-key <key> --level Full
 
 The API can be browsed using the link found in the agent page:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image62.webp)
+![](/images/pingcastle/enterpriseuser/image62.webp)
 
 ## Scheduler
 
@@ -929,12 +929,12 @@ It relies on the Windows Task Scheduler and thus is not available on
 other operating systems than Windows. It requires a post installation
 step (see the installation documentation) to use it.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image63.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseuser/image63.webp)
 
 To create a new scheduled scan, click on Create and the fill the
 information required.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image64.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseuser/image64.webp)
 
 Once created (if the permission was not granted, an error will be shown
 with the required steps to fix this problem), the detail of the
@@ -944,7 +944,7 @@ This page show the command that will be executed and the logs produced
 for the last execution. The user has also the possibility to start or
 stop the scheduled task on demand.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image65.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseuser/image65.webp)
 
 ## Reports
 
@@ -954,7 +954,7 @@ PingCastle Enterprise, regardless of the method used to import them.
 To do so, from the \"Configuration\" tab, you can click on the \"View
 all reports\" to reach the page:
 
-![](/img/product_docs/pingcastle/enterpriseuser/image66.webp)
+![](/images/pingcastle/enterpriseuser/image66.webp)
 
 # Manage Accounts
 
@@ -978,7 +978,7 @@ Follow the instructions to access the Manage My Account window.
     Manage Your Account Window.
 
 ![A screenshot of the "Manage My Account"
-button](/img/product_docs/pingcastle/enterpriseuser/image67.webp)
+button](/images/pingcastle/enterpriseuser/image67.webp)
 
 ### Navigation
 
@@ -991,12 +991,12 @@ information
 
 Notifications Control Toggle Domain/Entra ID All users
 notification reports, Toggle Entity KPI
-delivery notifications, View email  
+delivery notifications, View email
  previews
 
 Authorizations View access See Domain authorizations, All users
 permissions See Entity authorizations,
-Understand direct  
+Understand direct
  permissions
 
 Password Change account Self-service password Internal users
@@ -1008,10 +1008,10 @@ Authentication security app, Recovery codes, only
 Device management
 
 View My User Debug See all account claims, All users
-Claims authentication Understand permission  
- sources, Troubleshoot  
+Claims authentication Understand permission
+ sources, Troubleshoot
  access issues
 
 View My Sessions Monitor account View all active sessions, All users
-access End suspicious sessions,  
+access End suspicious sessions,
  Session management

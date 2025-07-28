@@ -36,7 +36,7 @@ These failures would be remediated by installing or updating the software on the
 devices. However, there was also a third failure – Google Chrome has been reported on the same two
 devices at a later version than required.
 
-![baselinefailureanalysis](/img/product_docs/changetracker/8.0/baseline/baselinefailureanalysis.webp)
+![baselinefailureanalysis](/images/changetracker/8.0/baseline/baselinefailureanalysis.webp)
 
 There are two paths to take from this: The two devices showing failures should be downgraded to
 match the required version, alternatively, it may be preferable to update the Baseline Configuration
@@ -54,7 +54,7 @@ Baseline Report run.
 :::
 
 
-![baselinemanagetab](/img/product_docs/changetracker/8.0/baseline/baselinemanagetab.webp)
+![baselinemanagetab](/images/changetracker/8.0/baseline/baselinemanagetab.webp)
 
 Baseline Exceptions
 
@@ -75,7 +75,7 @@ There are three choices for modifying a Baseline Policy, Extend, Add and Delete.
 the Edit Rules option back in the Setup tab if you want to remove an existing rule entirely. The
 functions are largely self-explanatory, but tips are provided if you hover over each button.
 
-![baselineruleoperations](/img/product_docs/changetracker/8.0/baseline/baselineruleoperations.webp)
+![baselineruleoperations](/images/changetracker/8.0/baseline/baselineruleoperations.webp)
 
 - Extend – Extend the existing baseline rules for this exception, in other words, promote this item
   as a 'valid' configuration
@@ -92,7 +92,7 @@ functions are largely self-explanatory, but tips are provided if you hover over 
 Once you have decided how you would like to handle the exceptions, you need to apply any changes
 required using the Apply Changes Now button.
 
-![baselineapplychangesnow](/img/product_docs/changetracker/8.0/baseline/baselineapplychangesnow.webp)
+![baselineapplychangesnow](/images/changetracker/8.0/baseline/baselineapplychangesnow.webp)
 
 You will be prompted to enter the Business Justification for the changes as when creating the
 Baseline Policy originally.
@@ -103,10 +103,10 @@ To get a ‘hard copy of the Baseline Policy, you can create a Tracking Policy r
 Baseline Policy. Go to the Reports Center and use the **Actions button**, then select **Add Tracking
 Template Report**.
 
-![baselinereportsandqueries](/img/product_docs/changetracker/8.0/baseline/baselinereportsandqueries.webp)
+![baselinereportsandqueries](/images/changetracker/8.0/baseline/baselinereportsandqueries.webp)
 
 An Auditor will often ask to see what the Baseline Policy comprises, when and why changes have been
 made and by whom. This report provides a complete audit trail of changes as well as the breakdown of
 rules included in the policy.
 
-![baselinetest](/img/product_docs/changetracker/8.0/baseline/baselinetest.webp)
+![baselinetest](/images/changetracker/8.0/baseline/baselinetest.webp)

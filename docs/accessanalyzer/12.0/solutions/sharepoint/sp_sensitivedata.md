@@ -9,7 +9,7 @@ sidebar_position: 80
 The SP_SensitiveData Job identifies where sensitive data is located inside SharePoint farms. Special
 care is paid to access and user activity in these locations.
 
-![6.Sensitve Data > SP_SensitiveData Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/sensitivedatajobstree.webp)
+![6.Sensitve Data > SP_SensitiveData Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/sharepoint/sensitivedatajobstree.webp)
 
 The SP_SensitiveData Job is located in the 6.Sensitive Data Job Group.
 
@@ -24,7 +24,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_SensitiveData Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/sensitivedataanalysis.webp)
+![Analysis Tasks for the SP_SensitiveData Job](/images/accessanalyzer/12.0/solutions/sharepoint/sensitivedataanalysis.webp)
 
 The default analysis tasks are:
 
@@ -41,4 +41,3 @@ SP_SensitiveData Job produces the following pre-configured reports:
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise Summary (A.K.A. Sensitive Data) | This report summarizes the types and amount of sensitive data discovered on targeted SharePoint farms. | Sensitive Data | This report is comprised of two elements: <ul><li>Pie Chart – Displays sensitive data discovered on SharePoint farms</li><li>Table – Provides details on sensitive data</li></ul>                                                  |
 | Site Collection Details                    | This report highlights sites with the largest amount of sensitive data found.                          | Sensitive Data | This report is comprised of three elements: <ul><li>Bar Chart – Displays top sites by sensitive files</li><li>Table – Provides details on the site collection summary</li><li>Table – Provides details the files fetched</li></ul> |
-

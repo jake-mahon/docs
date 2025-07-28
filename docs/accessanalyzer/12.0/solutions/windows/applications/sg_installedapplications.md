@@ -17,7 +17,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_InstalledApplications Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/applications/installedapplicationsquery.webp)
+![Queries for the SG_InstalledApplications Job](/images/accessanalyzer/12.0/solutions/windows/applications/installedapplicationsquery.webp)
 
 The query for the SG_InstalledApplications job are:
 
@@ -35,7 +35,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_InstalledApplications Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/applications/installedapplicationsanalysis.webp)
+![Analysis Tasks for the SG_InstalledApplications Job](/images/accessanalyzer/12.0/solutions/windows/applications/installedapplicationsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -53,4 +53,3 @@ produces the following pre-configured reports.
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | All Installed Applications | This report details all installed applications, and highlights the most common installed applications across the audited environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top installed applications</li><li>Table – Provides details on installed applications</li></ul> |
 | MS Office Applications     | This report provides host-level details on which Microsoft Office applications are installed.                                         | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top MS Office applications</li><li>Table – Provides details on MS Office applications</li></ul> |
-

@@ -18,7 +18,7 @@ issues through the following automated course of action:
 1. The reported changes to the monitored environment are assigned the New status by default.
 2. If a change seems unauthorized, or requires further analysis, you can click the Click to update
    status link next to the change detailed data:
-   ![reviewstatus](/img/product_docs/auditor/10.6/admin/reports/reviewstatus.webp)3. In the
+   ![reviewstatus](/images/auditor/10.6/admin/reports/reviewstatus.webp)3. In the
    **Review status** dialog for selected change, set its status to In Review and provide a reason.
 3. Once the change has been approved of, or rolled back, you can set its status to Resolved.
 

@@ -33,7 +33,7 @@ You can either define the user directly as Basic view user. This works by changi
 accordingly. Alternatively, you can activate the setting **Start Basic view at next login.** This
 will prompt the user to log in to the Basic view.
 
-![image2](/img/product_docs/passwordsecure/9.1/configuration/basic_view/checklist/image2.webp)
+![image2](/images/passwordsecure/9.1/configuration/basic_view/checklist/image2.webp)
 
 5. Add default applications (optional)
 

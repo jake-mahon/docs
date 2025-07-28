@@ -18,7 +18,7 @@ This email includes a unique access link to product’s web portal. You need to 
 via the link within 2 days. If it expires, you will need to follow the link and request a new
 activation link.
 
-![accountactivation](/img/product_docs/1secure/admin/login/accountactivation.webp)
+![accountactivation](/images/1secure/admin/login/accountactivation.webp)
 
 ## Activate an Account
 
@@ -31,7 +31,7 @@ Follow the steps to activate an account:
 
 The Change Your Password page is displayed.
 
-![Change Your Password page](/img/product_docs/1secure/admin/login/changepassword.webp)
+![Change Your Password page](/images/1secure/admin/login/changepassword.webp)
 
 **Step 2 –** In the **New password** field, enter a password to set for your account.
 
@@ -50,21 +50,21 @@ Follow the steps to log in to 1Secure.
 **Step 1 –** Open the invitation email and click the Netwrix 1Secure tenant link. You are navigated
 to the 1Secure login page.
 
-![Log In page](/img/product_docs/1secure/admin/login/companylogin.webp)
+![Log In page](/images/1secure/admin/login/companylogin.webp)
 
 **Step 2 –** On the login page, click the **Log In** button.
 
 **Step 3 –** In the Email address field, specify a valid email address registered with 1Secure, then
 click **Continue**. The Enter Your Password page is displayed.
 
-![Enter Your Password page](/img/product_docs/1secure/admin/login/passwordpage.webp)
+![Enter Your Password page](/images/1secure/admin/login/passwordpage.webp)
 
 **Step 4 –** In the Password field, specify the valid password for the email address, then click
 **Continue**. The Keep Your Account Safe page is displayed, prompting you to choose an
 authentication method. When logging in for the first time, you must authorize your account using
 multi-factor authentication.
 
-![Keep Your Account Safe page](/img/product_docs/1secure/admin/login/authenticationmethods.webp)
+![Keep Your Account Safe page](/images/1secure/admin/login/authenticationmethods.webp)
 
 **Step 5 –** Click **Google Authenticator or Similar** or **Security Key** to select an
 authentication method. After that, one of the following happens:
@@ -97,11 +97,11 @@ Follow the steps to reset the password of an account:
 **Step 3 –** In the Email address field, specify a valid email address registered with 1Secure, then
 click **Continue**. The Enter Your Password page is displayed.
 
-![Enter Your Password page](/img/product_docs/1secure/admin/login/passwordpage.webp)
+![Enter Your Password page](/images/1secure/admin/login/passwordpage.webp)
 
 **Step 4 –** Click the **Forgot password** link. The Change Your Password page is displayed.
 
-![Change Your Password page](/img/product_docs/1secure/admin/login/changepassword.webp)
+![Change Your Password page](/images/1secure/admin/login/changepassword.webp)
 
 **Step 5 –** In the **New password** field, enter a password to set for your account.
 

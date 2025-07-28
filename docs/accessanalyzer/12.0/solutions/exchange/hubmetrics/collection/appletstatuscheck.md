@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Queries for the .AppletStatusCheck Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/appletstatuscheckquery.webp)
+![Queries for the .AppletStatusCheck Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/appletstatuscheckquery.webp)
 
 The following query is included with the .AppletStatusCheck Job:
 

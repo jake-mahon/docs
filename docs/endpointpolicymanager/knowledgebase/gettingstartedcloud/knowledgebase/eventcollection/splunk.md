@@ -35,9 +35,9 @@ Internet.
 **Step 2 –** Navigate to [https://cloud.endpointpolicymanager.com/,](https://cloud.endpointpolicymanager.com/) go to
 **Company details** > **Event Forwarder List** > **Add Event Forwarder** .
 
-![976_1_1](/img/product_docs/endpointpolicymanager/cloud/eventcollection/976_1_1.webp)
+![976_1_1](/images/endpointpolicymanager/cloud/eventcollection/976_1_1.webp)
 
-![976_3_3](/img/product_docs/endpointpolicymanager/cloud/eventcollection/976_3_3.webp)
+![976_3_3](/images/endpointpolicymanager/cloud/eventcollection/976_3_3.webp)
 
 **Step 3 –** Configure and save the new **Event Forwarder**. Please be aware that you must be a
 **Notification Option Admin**' role member. One-time Password is required for saving **Event
@@ -49,7 +49,7 @@ You may may usethe **Validate** button to check the credentials before saving.
 
 **Step 5 –** InEndpoint Policy Manager Cloud confirm that events are forwarded as expected.
 
-![976_2_2](/img/product_docs/endpointpolicymanager/cloud/eventcollection/976_2_2.webp)
+![976_2_2](/images/endpointpolicymanager/cloud/eventcollection/976_2_2.webp)
 
 **Step 6 –** In Endpoint Policy Manager Cloud, go to **Report** > **Computers (Collected Events)** >
 **Show event**, and check **Forwarded** state (Scheduled, Forwarded, Error).
@@ -62,14 +62,14 @@ the user name and password.
 **Step 9 –** Click **Search & Reporting** enter index=**history** filter, then click the **Search**
 icon.
 
-![976_4_4](/img/product_docs/endpointpolicymanager/cloud/eventcollection/976_4_4.webp)
+![976_4_4](/images/endpointpolicymanager/cloud/eventcollection/976_4_4.webp)
 
 **Step 10 –** Click **Datasets**.
 
-![976_5_5](/img/product_docs/endpointpolicymanager/cloud/eventcollection/976_5_5.webp)
+![976_5_5](/images/endpointpolicymanager/cloud/eventcollection/976_5_5.webp)
 
 **Step 11 –** Click **raw_data**.
 
-![976_6_6](/img/product_docs/endpointpolicymanager/cloud/eventcollection/976_6_6.webp)
+![976_6_6](/images/endpointpolicymanager/cloud/eventcollection/976_6_6.webp)
 
 **Step 12 –** View the event data

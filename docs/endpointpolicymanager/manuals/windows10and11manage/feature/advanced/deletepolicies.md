@@ -8,7 +8,7 @@ sidebar_position: 10
 
 You can delete a policy by right-clicking it and selecting **Delete Policy**.
 
-![advanced_manipulations_of](/img/product_docs/endpointpolicymanager/feature/advanced/advanced_manipulations_of.webp)
+![advanced_manipulations_of](/images/endpointpolicymanager/feature/advanced/advanced_manipulations_of.webp)
 
 :::note
 This will not revert the current state on the machine. That is, a policy set to install a

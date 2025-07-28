@@ -34,10 +34,10 @@ NOTE: The agent can control multiple databases at the same time
 
 The functionality of the Autofill Add-on is illustrated in the following diagram.
 
-![Automatic entries diagram](/img/product_docs/passwordsecure/9.1/configuration/autofill_add-on/installation_with_parameters_125-en.webp)
+![Automatic entries diagram](/images/passwordsecure/9.1/configuration/autofill_add-on/installation_with_parameters_125-en.webp)
 
 RDP and SSH
-sessions(![1](/img/product_docs/passwordsecure/9.1/configuration/autofill_add-on/1.webp)
+sessions(![1](/images/passwordsecure/9.1/configuration/autofill_add-on/1.webp)
 ) are not automatically started via the Autofill Add-on. Applications are created for this purpose
 in the Netwrix Password Secure client. The creation and use of these connections is explained in
 detail in the corresponding section.
@@ -47,7 +47,7 @@ following types of connections exist:
 
 - Entering login data in Windows applications: Alongside the above-mentioned RDP and SSH sessions,
   other Windows applications can also be automated
-  (![2](/img/product_docs/passwordsecure/9.1/configuration/autofill_add-on/2.webp)).
+  (![2](/images/passwordsecure/9.1/configuration/autofill_add-on/2.webp)).
   A major difference is that the two above-mentioned connections are set up and “embedded” in a
   separate tab. Other applications, such as e.g. VMware, are directly started as usual. In these
   cases, the Autofill Add-on takes over the communication between the application server and the

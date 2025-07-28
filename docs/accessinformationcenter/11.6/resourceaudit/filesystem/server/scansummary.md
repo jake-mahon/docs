@@ -9,7 +9,7 @@ sidebar_position: 40
 The Scan Summary report at the server level provides a summary view of all shares on the selected
 server.
 
-![Scan Summary report at the server level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/server/serverscansummary.webp)
+![Scan Summary report at the server level](/images/accessinformationcenter/11.6/resourceaudit/filesystem/server/serverscansummary.webp)
 
 This report is comprised of the following columns:
 

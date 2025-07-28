@@ -24,7 +24,7 @@ The account used for data collection must meet the following requirements:
   compression for your monitoring plan or, for some reasons, do not want to add this account to the
   Domain Admins group:
 
-    - The "Manage auditing and security log" policy must be defined for this account.  
+    - The "Manage auditing and security log" policy must be defined for this account.
       See the Configure the Manage Auditing and Security Log Policy topic for additional
       information.
     - If you plan to process the Active Directory Deleted Objects container, Read permission on this
@@ -79,7 +79,7 @@ If you plan to use network traffic compression for data processing, consider the
   Admins group.
 - If network traffic compression will be _disabled_, and the account you plan to use for data
   collection is not a member of the Domain Admins group, then the **Manage auditing and security
-  log** policy must be defined for this account.  
+  log** policy must be defined for this account.
   See the Configure the Manage Auditing and Security Log Policy topic for more information.
 
 If you need to process Active Directory **Deleted Objects** container, consider the following:
@@ -232,7 +232,7 @@ snap-in: navigate to Start > Windows Administrative Tools and select Local Secur
 **Step 2 –** In the **Local Security Policy** snap-in, navigate to **Security Settings** > **Local
 Policies > User Rights Assignment** and locate the **Log on as a batch job** policy.
 
-![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+![manualconfig_ws_logonasbatch](/images/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
 
 **Step 3 –** Double-click the **Log on as a batch job** policy, and click **Add User or Group**.
 Specify the account that you want to define this policy for.

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the OneDrives Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/m365/onedrivesanalysis.webp)
+![Analysis Tasks for the OneDrives Job](/images/accessanalyzer/12.0/solutions/sharepoint/m365/onedrivesanalysis.webp)
 
 The default analysis tasks are:
 
@@ -45,4 +45,3 @@ preconfigured reports:
 | One Drive Activity       | This report displays activity information from OneDrives.            | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top OneDrives by Operation Count</li><li>Table – Provides details on OneDriveSummary</li><li>Table – Provides details on OneDrive Activity Details</li></ul>                                                |
 | One Drive Sensitive Data | This report displays sensitive information from OneDrives.           | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top OneDrives by sensitive files</li><li>Table – Provides details on sensitive data summary</li><li>Table – Provides details on OneDrive file details</li></ul>                                             |
 | One Drive Sensitive Data | This report displays summary level information across all OneDrives. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on OneDrive summary</li><li>Table – Provides details on top OneDrives by GB</li><li>Table – Provides details on top OneDrives by GB summary</li><li>Table – Provides information on OneDrive details</li></ul> |
-

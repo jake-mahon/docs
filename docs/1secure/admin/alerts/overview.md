@@ -13,7 +13,7 @@ receive notifications when alerts in the profile are triggered.
 
 To view the alert profiles, navigate to Configuration > Alerts.
 
-![Alert Profiles List](/img/product_docs/1secure/admin/alerts/alertsprofiles.webp)
+![Alert Profiles List](/images/1secure/admin/alerts/alertsprofiles.webp)
 
 Alert profiles are displayed in the list with the following information:
 
@@ -36,7 +36,7 @@ Follow the steps to add an alert profile.
 
 **Step 2 –** Click **Add profile**. The New alert profile pane is displayed.
 
-![New Alert Profile pane](/img/product_docs/1secure/admin/alerts/addalertprofile.webp)
+![New Alert Profile pane](/images/1secure/admin/alerts/addalertprofile.webp)
 
 **Step 3 –** Enter a name for the alert profile in the Name field and click **Save**.
 
@@ -64,7 +64,7 @@ Follow the steps to modify the name of an alert profile.
 ## Delete an Alert Profile
 
 :::note
-(1) The alert profile named _Netwrix Profile (Default)_ cannot be deleted.  
+(1) The alert profile named _Netwrix Profile (Default)_ cannot be deleted.
 (2) When an alert profile is deleted, the _Netwrix Profile (Default)_ is automatically assigned to
 the organizations that were previously assigned the deleted profile.
 :::
@@ -93,7 +93,7 @@ Follow the steps to configure alerts by email.
 **Step 3 –** Click the Email icon under Delivery Settings. The Email Delivery Settings pane is
 displayed.
 
-![Email Delivery Settings pane](/img/product_docs/1secure/admin/alerts/alertsemaildelivery.webp)
+![Email Delivery Settings pane](/images/1secure/admin/alerts/alertsemaildelivery.webp)
 
 **Step 4 –** . Toggle the Enabled switch to ON to enable email notifications for the alert profile.
 

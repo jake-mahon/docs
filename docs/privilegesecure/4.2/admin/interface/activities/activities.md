@@ -18,7 +18,7 @@ It is also possible to configure an activity to automatically run any Protection
 with the resource when the session completes, instead of waiting for the scheduled sync. See the
 [Add Action Window](/docs/privilegesecure/4.2/admin/interface/activities/addaction/addaction.md) topic for additional information.
 
-![Activities Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/activitiespage.webp)
+![Activities Page](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/activitiespage.webp)
 
 The pane on the left side of the page displays a list of the configured activity. This pane has the
 following features:

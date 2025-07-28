@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_LoadBalancing Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/operations/loadbalancinganalysis.webp)
+![Analysis Task for the AD_LoadBalancing Job](/images/accessanalyzer/11.6/solutions/activedirectory/activity/operations/loadbalancinganalysis.webp)
 
 The default analysis task is:
 
@@ -35,4 +35,3 @@ follow pre-configured reports:
 | Report             | Description                                                                                                                                 | Default Tags                                               | Report Elements                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Domain Controllers | This report identifies the distribution of change events and authentication events between domain controllers in the monitored environment. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Bar Chart – Displays top DCs by authentication traffic</li><li>Bar Chart – Displays top DCs by change traffic</li><li>Table – Displays domain controller traffic details</li></ul> |
-

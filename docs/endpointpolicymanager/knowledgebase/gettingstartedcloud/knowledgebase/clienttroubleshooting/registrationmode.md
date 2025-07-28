@@ -17,7 +17,7 @@ the computer accounts and memberships are handled.
 
 ## Mode Definitions
 
-![709_1_image-20210319185612-1](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/709_1_image-20210319185612-1.webp)
+![709_1_image-20210319185612-1](/images/endpointpolicymanager/troubleshooting/cloud/709_1_image-20210319185612-1.webp)
 
 Strict: Strict will always create a new secure certificate connection and treat the computer as if
 it has never been seen before. The computer will lose any group memberships that may exist, leaving

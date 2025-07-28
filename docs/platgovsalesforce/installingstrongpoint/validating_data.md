@@ -18,7 +18,7 @@ PDF.
 From the Netwrix Dashboard: click **Configuration and Stats** in the **Resources** section, or open
 **Settings** > **Configuration and Stats**.
 
-![statusreport](/img/product_docs/platgovsalesforce/installing_strongpoint/statusreport.webp)
+![statusreport](/images/platgovsalesforce/installing_strongpoint/statusreport.webp)
 
 ## Dependency Relationship Diagram
 
@@ -31,7 +31,7 @@ To validate data with the DRD:
 2. Select an **Object(s) Type** from the pull-down menu.
 3. Click on a field and validate the data.
 
-![entity_diagram](/img/product_docs/platgovsalesforce/tools/entity_diagram.webp)
+![entity_diagram](/images/platgovsalesforce/tools/entity_diagram.webp)
 
 ## Customization Quick Search
 
@@ -44,4 +44,4 @@ To validate data with the Customization Quick Search:
 2. Scroll, **Search** or add **Filter(s)** to locate the customization.
 3. Click on the **Customization** and validate the data.
 
-![custquicksearch](/img/product_docs/platgovnetsuite/customizations/custquicksearch.webp)
+![custquicksearch](/images/platgovnetsuite/customizations/custquicksearch.webp)

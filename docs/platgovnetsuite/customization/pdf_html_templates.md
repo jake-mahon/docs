@@ -26,12 +26,12 @@ Open **Customization** > **Forms** > **Advanced PDF / HTML Templates** to creat
 
 ## PDF / HTML Customization Referenced by a Script Example
 
-![Example PDF/HTML customization referenced by a script](/img/product_docs/platgovnetsuite/customizations/pdf-html_template.webp)
+![Example PDF/HTML customization referenced by a script](/images/platgovnetsuite/customizations/pdf-html_template.webp)
 
 ## Script Customization Referencing a PDF / HTML Template Example
 
-![Example of Script referencing an Advanced PDF/HTML template](/img/product_docs/platgovnetsuite/customizations/pdf-html_template2.webp)
+![Example of Script referencing an Advanced PDF/HTML template](/images/platgovnetsuite/customizations/pdf-html_template2.webp)
 
 ## PDF / HTML Customization Record for a Saved Search Example
 
-![Example of an Advanced PDF/HTML Customization Record for a Saved Search](/img/product_docs/platgovnetsuite/customizations/pdf-html_template3.webp)
+![Example of an Advanced PDF/HTML Customization Record for a Saved Search](/images/platgovnetsuite/customizations/pdf-html_template3.webp)

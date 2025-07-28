@@ -21,7 +21,7 @@ using email for Admin Approval.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval.webp)
 
 The two options are:
 
@@ -41,14 +41,14 @@ approval request using their email application.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_1.webp)
 
 Here you can see the generated email containing the request code.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_2.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_2.webp)
 
 When the email is received, a support admin can copy the request code and paste it into the Admin
 Approval Tool. Once pasted into the tool, all of the task information about the application appears
@@ -60,4 +60,4 @@ board and/or send an email back to the user.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_3.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_3.webp)

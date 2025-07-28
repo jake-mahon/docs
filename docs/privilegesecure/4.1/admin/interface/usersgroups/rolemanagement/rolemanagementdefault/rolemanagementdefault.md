@@ -10,7 +10,7 @@ The Role Management page is accessible from the Navigation pane under Users & Gr
 details on all available roles for Privilege Secure users. There are default roles, and custom roles
 can be created.
 
-![rolemanagementpage](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/rolemanagementpage.webp)
+![rolemanagementpage](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/rolemanagementpage.webp)
 
 When a default role (Administrator, User, or Reviewer) is selected, the selected role details
 display at the top of the main pane with the following features:

@@ -29,13 +29,13 @@ and Schema partitions:
 2. In the **Active Directory Users and Computers** dialog, click **View** in the main menu and
    ensure that the **Advanced Features** are enabled.
 
-    ![manualconfig_aduc_advsecwinserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_aduc_advsecwinserver2016.webp)
+    ![manualconfig_aduc_advsecwinserver2016](/images/auditor/10.6/configuration/activedirectory/manualconfig_aduc_advsecwinserver2016.webp)
 
 3. Right-click the **`<domain_name>`** node and select **Properties.** Select the **Security** tab
    and click **Advanced**. In the **Advanced Security Settings for `<domain_name>`** dialog, select
    the **Auditing** tab.
 
-    ![manualconfig_aduc_advauditing_winserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_aduc_advauditing_winserver2016.webp)
+    ![manualconfig_aduc_advauditing_winserver2016](/images/auditor/10.6/configuration/activedirectory/manualconfig_aduc_advauditing_winserver2016.webp)
 
 4. Do one of the following depending on the OS:
 
@@ -47,7 +47,7 @@ and Schema partitions:
            entries except the following: _Full Control_, _List Contents_, _Read All Properties_ and
            _Read Permissions_.
 
-            ![manualconfig_objectlevel_entry2008](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_entry2008.webp)
+            ![manualconfig_objectlevel_entry2008](/images/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_entry2008.webp)
 
         3. Make sure that the **Apply these auditing entries to objects and/or containers within
            this container only** checkbox is cleared. Also, make sure that the **Apply onto**
@@ -65,7 +65,7 @@ and Schema partitions:
         5. Scroll to the bottom of the list and make sure that the **Only apply these auditing
            settings to objects and/or containers within this container** checkbox is cleared.
 
-            ![manualconfig_objectlevel_winserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_winserver2016.webp)
+            ![manualconfig_objectlevel_winserver2016](/images/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_winserver2016.webp)
 
 ## Enabling object-level auditing for the Configuration and Schema partitions
 
@@ -81,7 +81,7 @@ information on how to install the ADSI Edit utility.
    dialog, enable **Select a well-known Naming Context** and select **Configuration** from the
    drop-down list.
 
-    ![manualconfig_adsi_connectionwinserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_adsi_connectionwinserver2016.webp)
+    ![manualconfig_adsi_connectionwinserver2016](/images/auditor/10.6/configuration/activedirectory/manualconfig_adsi_connectionwinserver2016.webp)
 
 3. Expand the **Configuration `<Your_Root_Domain_Name>`** node. Right-click the **CN=Configuration,
    DC=`<name>`,DC=`<name>`…** node and select **Properties.**
@@ -98,7 +98,7 @@ information on how to install the ADSI Edit utility.
            entries except the following: _Full Control_, _List Contents_, _Read All Properties_ and
            _Read Permissions_.
 
-            ![manualconfig_objectlevel_entry2008](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_entry2008.webp)
+            ![manualconfig_objectlevel_entry2008](/images/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_entry2008.webp)
 
         3. Make sure that the **Apply these auditing entries to objects and/or containers within
            this container only** checkbox is cleared. Also, make sure that the **Apply onto**
@@ -116,6 +116,6 @@ information on how to install the ADSI Edit utility.
         5. Scroll to the bottom of the list and make sure that the **Only apply these auditing
            settings to objects and/or containers within this container** checkbox is cleared.
 
-            ![manualconfig_objectlevel_winserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_winserver2016.webp)
+            ![manualconfig_objectlevel_winserver2016](/images/auditor/10.6/configuration/activedirectory/manualconfig_objectlevel_winserver2016.webp)
 
 6. Repeat these steps for the Schema container if necessary.

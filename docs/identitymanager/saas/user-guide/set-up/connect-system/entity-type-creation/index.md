@@ -16,7 +16,7 @@ resources (instances of said model) and not the intent (that would be a resource
 In other words, an entity type is supposed to model the representation of a certain group of
 resources inside Identity Manager. It is a relational model, made of properties ([Define Scalar Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)) and links between entity types ([Define Navigation Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)), both described later.
 
-![Entity Type - Schema](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
+![Entity Type - Schema](/images/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
 
 The configuration of entity types depends entirely on the previously established by [Model the Data](/docs/identitymanager/saas/user-guide/set-up/connect-system/connector-modeling/index.md).
 
@@ -50,7 +50,7 @@ For some connectors, Identity Manager provides a template to automatically creat
 > resource types for a standard AD connector. The template is available for a connector with an AD
 > connection but no entity types.
 >
-> ![Entity Type - AD Template](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entitytype_template_v602.webp)
+> ![Entity Type - AD Template](/images/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entitytype_template_v602.webp)
 
 ## Verify the Entity Type
 

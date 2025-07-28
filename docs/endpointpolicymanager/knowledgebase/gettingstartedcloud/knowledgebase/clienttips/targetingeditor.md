@@ -40,7 +40,7 @@ There are two options available to accomplish this.
 
 **Step 2 –** Run a command `whoami /user`. Note down the long code:
 
-![732_1_image-20200213172020-1](/img/product_docs/endpointpolicymanager/cloud/732_1_image-20200213172020-1.webp)
+![732_1_image-20200213172020-1](/images/endpointpolicymanager/cloud/732_1_image-20200213172020-1.webp)
 
 ##### Option 2: For Another user:
 
@@ -50,7 +50,7 @@ There are two options available to accomplish this.
 
 **Step 3 –** Copy the output SID of another user for next step:
 
-![732_3_image-20200213172020-2](/img/product_docs/endpointpolicymanager/cloud/732_3_image-20200213172020-2.webp)
+![732_3_image-20200213172020-2](/images/endpointpolicymanager/cloud/732_3_image-20200213172020-2.webp)
 
 :::note
 All commands in these steps are tested on Microsoft Windows Version 1909 (OS Build
@@ -72,7 +72,7 @@ The logged-in user has to be an administrator.
 
 **Step 3 –** Copy the SID information for later user.
 
-![732_5_image-20200213172020-3](/img/product_docs/endpointpolicymanager/cloud/732_5_image-20200213172020-3.webp)
+![732_5_image-20200213172020-3](/images/endpointpolicymanager/cloud/732_5_image-20200213172020-3.webp)
 
 :::note
 The command in this step is tested on Microsoft Windows Server 2012 R2 (Build 9600).
@@ -87,7 +87,7 @@ The command in this step is tested on Microsoft Windows Server 2012 R2 (Build 96
 
 **Step 1 –** Copy the SID information to use for next step.
 
-![732_7_image-20200213172020-4](/img/product_docs/endpointpolicymanager/cloud/732_7_image-20200213172020-4.webp)
+![732_7_image-20200213172020-4](/images/endpointpolicymanager/cloud/732_7_image-20200213172020-4.webp)
 
 :::note
 The command in this step is on Microsoft Windows Version 1909 (OS Build 18363.592)
@@ -103,21 +103,21 @@ Policy Manager Cloud based Internal Item-Level Targeting Filter window.
 
 **Step 2 –** Create a New Policy and select a i.e. Drive Maps from Microsoft Policy Preferences.
 
-![732_9_image-20200213172020-5](/img/product_docs/endpointpolicymanager/cloud/732_9_image-20200213172020-5.webp)
+![732_9_image-20200213172020-5](/images/endpointpolicymanager/cloud/732_9_image-20200213172020-5.webp)
 
 **Step 3 –** Click on **Mapped Drive** drop-down and select **Drive** option.
 
-![732_11_image-20200213172020-6_950x630](/img/product_docs/endpointpolicymanager/cloud/732_11_image-20200213172020-6_950x630.webp)
+![732_11_image-20200213172020-6_950x630](/images/endpointpolicymanager/cloud/732_11_image-20200213172020-6_950x630.webp)
 
 **Step 4 –** After filling out the details select the **ILT** button.
 
-![732_13_image-20200213172020-7](/img/product_docs/endpointpolicymanager/cloud/732_13_image-20200213172020-7.webp)
+![732_13_image-20200213172020-7](/images/endpointpolicymanager/cloud/732_13_image-20200213172020-7.webp)
 
 **Step 5 –** Click on **New Item** drop-down in the **Targeting Editor** window.
 
 **Step 6 –** Select **User** and fill-in the SID from the clipboard.
 
-![732_15_sid_950x589](/img/product_docs/endpointpolicymanager/cloud/732_15_sid_950x589.webp)
+![732_15_sid_950x589](/images/endpointpolicymanager/cloud/732_15_sid_950x589.webp)
 
 **Step 7 –** Click the **Ok** button.
 
@@ -125,6 +125,6 @@ Policy Manager Cloud based Internal Item-Level Targeting Filter window.
 
 **Step 9 –** Fill in the SID detail of a Group from the clipboard.
 
-![732_16_image-20200213172020-9_950x629](/img/product_docs/endpointpolicymanager/cloud/732_16_image-20200213172020-9_950x629.webp)
+![732_16_image-20200213172020-9_950x629](/images/endpointpolicymanager/cloud/732_16_image-20200213172020-9_950x629.webp)
 
 **Step 10 –** Click the **OK** button.

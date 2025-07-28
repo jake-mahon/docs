@@ -13,7 +13,7 @@ customer success team. To install:
    with [http://test.salesforce.com](http://test.salesforce.com)
 2. Select **Install for Admins Only**
 3. Click **Install**
-   ![install1](/img/product_docs/platgovsalesforce/installing_strongpoint/install1.webp)
+   ![install1](/images/platgovsalesforce/installing_strongpoint/install1.webp)
 
 :::note
 The installation runs in the background. An email notification is sent to you when the installation
@@ -43,7 +43,7 @@ is complete.
 6. Set **Call Back URL** to **[https://localhost.com](https://localhost.com)**
 7. Set **Selected OAuth Scopes** to **Full access (full)**
 
-    ![Setting for Connected App](/img/product_docs/platgovsalesforce/integrations/connected_app.webp)
+    ![Setting for Connected App](/images/platgovsalesforce/integrations/connected_app.webp)
 
     **The Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows**
     should not be checked.
@@ -51,7 +51,7 @@ is complete.
 8. Click **Save**. **Netwrix Platform Governance**is now listed under **Custom Apps**.
 9. Click on **Netwrix Platform Governance**.
 
-    ![configure-1](/img/product_docs/platgovsalesforce/installing_strongpoint/configure-1.webp)
+    ![configure-1](/images/platgovsalesforce/installing_strongpoint/configure-1.webp)
 
 10. Click **Manage Consumer Details**. You must verify your identity before you can proceed.
 11. Copy the **Consumer Key** and the **Consumer Secret Key**.

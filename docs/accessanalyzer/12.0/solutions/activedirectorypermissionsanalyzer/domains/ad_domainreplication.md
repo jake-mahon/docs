@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_DomainReplication Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/domainreplicationanalysis.webp)
+![Analysis Tasks for the AD_DomainReplication Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/domainreplicationanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report                         | Description                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                                                                  |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Domain Replication Permissions | This report highlights domain replication permissions applied to domain objects in active directory. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays replication permission summary by domain</li><li>Table – Provides details on replication permissions</li><li>Table – Provides details on top users by replication permissions</li></ul> |
-

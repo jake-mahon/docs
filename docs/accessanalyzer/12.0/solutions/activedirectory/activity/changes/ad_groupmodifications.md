@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_GroupModifications Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/changes/groupmodificationsanalysis.webp)
+![Analysis Tasks for the AD_GroupModifications Job](/images/accessanalyzer/12.0/solutions/activedirectory/activity/changes/groupmodificationsanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 
@@ -45,4 +45,3 @@ following pre-configured reports:
 | ------------------------ | ----------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Changes            | Tracks changes to group attributes. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Pie Chart – Displays changes by type</li><li>Table – Displays changes by group</li><li>Table – Displays changes by group change details</li></ul>                                        |
 | Group Membership Changes | Tracks changes to group membership. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Stacked Chart – Displays the most active groups in the past 30 days</li><li>Table – Displays group membership summary</li><li>Table – Displays group membership change details</li></ul> |
-

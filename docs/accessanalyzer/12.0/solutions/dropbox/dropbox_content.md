@@ -10,7 +10,7 @@ The Dropbox_Content job provides insight into the type, size, and age of the con
 targeted Dropbox environment. It is dependent on data collected by the 0.Collection job group. This
 job processes analysis tasks and generates reports.
 
-![4.Content > Dropbox_Content Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/contentjobstree.webp)
+![4.Content > Dropbox_Content Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/dropbox/contentjobstree.webp)
 
 The Dropbox_Content job is located in the 4.Content job group.
 
@@ -40,7 +40,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Dropbox_Content Job](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/contentanalysis.webp)
+![Analysis Tasks for the Dropbox_Content Job](/images/accessanalyzer/12.0/solutions/dropbox/contentanalysis.webp)
 
 - Summarizes content by mimetype, classification – Creates an interim processing table in the
   database for use by downstream analysis and report generation

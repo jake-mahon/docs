@@ -14,4 +14,4 @@ All Agentless monitoring is performed via a Master Proxy Agent – the Proxy fun
 any Netwrix Change Tracker Agent and the dedicated Netwrix Agent App Proxy Agent. See the later
 section on [Agentless FIM](/docs/changetracker/8.1/admin/matchrulesoverview/registryrules.md) for more information.
 
-![PolicyTeplatesAgentlessDiagram](/img/product_docs/changetracker/8.1/admin/settings/policytemplates/policyteplatesagentlessdiagram.webp)
+![PolicyTeplatesAgentlessDiagram](/images/changetracker/8.1/admin/settings/policytemplates/policyteplatesagentlessdiagram.webp)

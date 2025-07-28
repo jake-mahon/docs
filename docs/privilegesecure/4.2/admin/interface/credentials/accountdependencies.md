@@ -9,7 +9,7 @@ sidebar_position: 30
 The Account Dependencies window shows all of the dependent services and scheduled tasks for the
 selected service account.
 
-![Account Dependencies Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/credentials/accountdependencies.webp)
+![Account Dependencies Window](/images/privilegesecure/4.2/accessmanagement/admin/policy/window/credentials/accountdependencies.webp)
 
 The window has the following details displayed at the top:
 

@@ -9,7 +9,7 @@ sidebar_position: 60
 The Email page within the Integrations interface allows users to configure the application to send
 email notifications.
 
-![Integrations interface on the Email page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/page_4.webp)
+![Integrations interface on the Email page](/images/threatmanager/3.0/administration/configuration/integrations/page_4.webp)
 
 The page has the following information:
 
@@ -38,7 +38,7 @@ Follow the steps to configure email notifications.
 
 **Step 1 –** On the Integrations interface, click **Email** in the navigation pane.
 
-![Integrations interface on the Email page showing details](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/details_4.webp)
+![Integrations interface on the Email page showing details](/images/threatmanager/3.0/administration/configuration/integrations/details_4.webp)
 
 **Step 2 –** Toggle the Enabled button to **ON**, which enables the Send Test Email button.
 

@@ -21,13 +21,13 @@ higher) or Administrative Tools (Windows 2012) > **Active Directory Users and Co
 **Step 2 –** In the **Active Directory Users and Computers** dialog, click **View** in the main menu
 and ensure that the **Advanced Features** are enabled.
 
-![manualconfig_aduc_advsecwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.webp)
+![manualconfig_aduc_advsecwinserver2016](/images/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.webp)
 
 **Step 3 –** Right-click the **`<domain_name>`** node and select **Properties.** Select the
 **Security** tab and click **Advanced**. In the **Advanced Security Settings for `<domain_name>`**
 dialog, select the **Auditing** tab.
 
-![manualconfig_aduc_advauditing_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.webp)
+![manualconfig_aduc_advauditing_winserver2016](/images/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.webp)
 
 **Step 4 –** Do one of the following depending on the OS:
 
@@ -39,7 +39,7 @@ dialog, select the **Auditing** tab.
        except the following: _Full Control_, _List Contents_, _Read All Properties_ and _Read
        Permissions_.
 
-        ![manualconfig_objectlevel_entry2008](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_entry2008.webp)
+        ![manualconfig_objectlevel_entry2008](/images/1secure/configuration/ad/manualconfig_objectlevel_entry2008.webp)
 
     3. Make sure that the **Apply these auditing entries to objects and/or containers within this
        container only** checkbox is cleared. Also, make sure that the **Apply onto** parameter is
@@ -57,7 +57,7 @@ dialog, select the **Auditing** tab.
     5. Scroll to the bottom of the list and make sure that the **Only apply these auditing settings
        to objects and/or containers within this container** checkbox is cleared.
 
-        ![manualconfig_objectlevel_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+        ![manualconfig_objectlevel_winserver2016](/images/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
 
     6. Click **Ok**.
 
@@ -77,7 +77,7 @@ Tools (Windows Server 2016 and higher) or Administrative Tools **(Windows 2012)*
 Settings** dialog, enable **Select a well-known Naming Context** and select **Configuration** from
 the drop-down list.
 
-![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
+![manualconfig_adsi_connectionwinserver2016](/images/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
 
 **Step 3 –** Expand the **Configuration `<Your_Root_Domain_Name>`** node. Right-click the
 **CN=Configuration, DC=`<name>`,DC=`<name>`…** node and select **Properties.**
@@ -96,7 +96,7 @@ dialog, open the **Auditing** tab.
        except the following: _Full Control_, _List Contents_, _Read All Properties_ and _Read
        Permissions_.
 
-        ![manualconfig_objectlevel_entry2008](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_entry2008.webp)
+        ![manualconfig_objectlevel_entry2008](/images/1secure/configuration/ad/manualconfig_objectlevel_entry2008.webp)
 
     3. Make sure that the **Apply these auditing entries to objects and/or containers within this
        container only** checkbox is cleared. Also, make sure that the **Apply onto** parameter is
@@ -114,6 +114,6 @@ dialog, open the **Auditing** tab.
     5. Scroll to the bottom of the list and make sure that the **Only apply these auditing settings
        to objects and/or containers within this container** checkbox is cleared.
 
-        ![manualconfig_objectlevel_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+        ![manualconfig_objectlevel_winserver2016](/images/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
 
     6. Click **Ok**.

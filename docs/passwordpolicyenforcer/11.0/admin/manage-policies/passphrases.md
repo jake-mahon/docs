@@ -16,15 +16,15 @@ length for security. You may want to relax some password policy requirements for
 
 **Step 1 –** Open the Configuration Console:
 
-Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**  
-or  
+Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**
+or
 Double click the **PPE Configuration** desktop shortcut.
 
 **Step 2 –** Click on a policy name to open the policy configuration page.
 
 **Step 3 –** Open the **Passphrase** tab.
 
-![Enable Passphrases](/img/product_docs/passwordpolicyenforcer/11.0/administration/passphrase.webp)
+![Enable Passphrases](/images/passwordpolicyenforcer/11.0/administration/passphrase.webp)
 
 **Step 4 –** Select the number of characters the password must contain before the selected rules are
 disabled.

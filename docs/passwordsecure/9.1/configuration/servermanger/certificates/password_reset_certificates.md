@@ -13,7 +13,7 @@ If a
 is created, a corresponding certificate is created. This ensures that the passwords are transferred
 in encrypted form.
 
-![password-reset](/img/product_docs/passwordsecure/9.1/configuration/server_manager/certificates/password-reset.webp)
+![password-reset](/images/passwordsecure/9.1/configuration/server_manager/certificates/password-reset.webp)
 
 NOTE: The Password Reset certificate cannot be replaced by your own certificate.
 

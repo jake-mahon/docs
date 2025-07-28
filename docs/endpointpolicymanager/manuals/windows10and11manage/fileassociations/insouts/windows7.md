@@ -12,7 +12,7 @@ applications. This is still available within the Microsoft Group Policy Editor b
 Configuration** > **Preferences** > **Control Panel Settings** > **Folder Options** > **New** >
 **Open With**.
 
-![about_policypak_file_associations](/img/product_docs/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations.webp)
+![about_policypak_file_associations](/images/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations.webp)
 
 This older method of setting file associations is still available in the Microsoft Group Policy
 Editor on the User side with Windows 7 and 8.
@@ -20,7 +20,7 @@ Editor on the User side with Windows 7 and 8.
 Next, select the file extension and the associated program. You can also choose to **Set as
 Default**.
 
-![about_policypak_file_associations_1](/img/product_docs/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations_1.webp)
+![about_policypak_file_associations_1](/images/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations_1.webp)
 
 This method worked well on Windows XP to Windows 8, but stopped working with Windows 8.1.
 

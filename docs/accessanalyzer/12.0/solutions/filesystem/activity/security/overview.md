@@ -9,7 +9,7 @@ sidebar_position: 30
 The Security job group is designed to report on security related activity event information from
 targeted file servers.
 
-![Security Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/security/jobstree.webp)
+![Security Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/filesystem/activity/security/jobstree.webp)
 
 The Security Job Group is comprised of:
 

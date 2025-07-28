@@ -38,19 +38,19 @@ Step 4 – On the Create Directory Manager Application page, make sure the **IIS
 Step 5 – In the Application Name box, enter a unique name for the service or use the default name.
 The service is displayed with this name in Directory Manager.
 
-Step 6 – In the Deployment Name box, enter a deployment name for the service.  
+Step 6 – In the Deployment Name box, enter a deployment name for the service.
 The application name and deployment name are displayed on the service card. It is as:
 
-![Data Service Card](/img/product_docs/directorymanager/11.1/admincenter/service/dataservice/dataservicecard.webp)
+![Data Service Card](/images/directorymanager/11.1/admincenter/service/dataservice/dataservicecard.webp)
 
 Step 7 – In the IIS Application Name box, enter an IIS deployment name for the service. The name
-should be unique for each Data service deployed in IIS.  
+should be unique for each Data service deployed in IIS.
 The IIS application name is used to name the service’s directory in IIS and its physical directory
 under `X:\Program Files\Imanami\GroupID 11.0\GroupIDDataService\Inetpub\` on the Directory Manager
-server.  
+server.
 (X represents the Directory Manager installation drive)
 
-Step 8 – In the **IIS Site** drop-down list, select a website to host the service files.  
+Step 8 – In the **IIS Site** drop-down list, select a website to host the service files.
 The list displays the websites defined on the local IIS server. GroupIDSite11 is the default
 selection.
 
@@ -58,22 +58,22 @@ Step 9 – In the Service Endpoints area, bind an Elasticsearch service, Replica
 Scheduler service with the Data service.
 
 1. In the Elasticsearch Service drop-down list, select an Elasticsearch service to bind to this Data
-   service.  
+   service.
    The list displays the Elasticsearch services running in the environment. Requests sent to the
    Data service for performing a search in the Elasticsearch repository will be carried out through
    the Elasticsearch service you select here.
 2. On selecting an Elasticsearch service, the Replication Service drop-down list displays the
    Replication services running on the same machine as the Elasticsearch service. Select a
-   Replication service to bind to this Data service.  
+   Replication service to bind to this Data service.
    When a user force runs the replication service (whether globally or for a specific identity
    store), a request is sent to the Data service, that is then passed on to the Replication service
    bound to that Data service.
 3. In the Scheduler Service drop-down list, select a scheduler service to bind to this Data service.
    The number of services displayed in the list depends on the number of nodes in Directory Manager
-   clusters, as each node has its own Scheduler service.  
+   clusters, as each node has its own Scheduler service.
    This Data service will send requests to the selected Scheduler service to trigger schedule runs.
 
-Step 10 – Click **Create Application**.  
+Step 10 – Click **Create Application**.
 The Data service is created and displayed on the Data Service tab.
 
 ## Create a Data Service in Remote IIS
@@ -117,7 +117,7 @@ any reference to the portal with the Data service.
 Step 8 – For entering information in the Service Endpoints area, follow steps 9 in the Create a Data
 Service in Native IIS topic.
 
-Step 9 – Click **Create Application**.  
+Step 9 – Click **Create Application**.
 The new Data service is displayed on the Data Service tab.
 
 ## Create a Data Service in Docker
@@ -157,5 +157,5 @@ reference to the portal with the Data service.
 Step 8 – For entering information in the Service Endpoints area, follow step 9 in the Create a Data
 Service in Native IIS topic.
 
-Step 9 – Click **Create Application**.  
+Step 9 – Click **Create Application**.
 The Data service is created and displayed on the Data Service tab.

@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_LargestFiles Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/content/largestfilesanalysis.webp)
+![Analysis Tasks for the SP_LargestFiles Job](/images/accessanalyzer/12.0/solutions/sharepoint/content/largestfilesanalysis.webp)
 
 The default analysis task is:
 
@@ -35,4 +35,3 @@ SP_LargestFiles Job produces the following pre-configured report:
 | Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                                                                                            |
 | ------------- | ------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Largest Files | This report identifies where the largest files, including versions, are stored. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays largest files</li><li>Table – Provides a summary of the largest sites</li><li>Table – Provides details on largest files</li></ul> |
-

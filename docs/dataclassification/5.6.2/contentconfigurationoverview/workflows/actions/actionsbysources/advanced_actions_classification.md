@@ -13,7 +13,7 @@ document. This workflow action is called **Manual Classification** and can be co
 Alternatively, you can configure a workflow action that permanently removes all existing
 classifications on a document and disables future auto-classification for it.
 
-![workflow_actions_man_classify_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/advanced_window/workflow_actions_man_classify_thumb_0_0.webp)
+![workflow_actions_man_classify_thumb_0_0](/images/dataclassification/5.6.2/workflows/advanced_window/workflow_actions_man_classify_thumb_0_0.webp)
 
 To apply additional classification:
 

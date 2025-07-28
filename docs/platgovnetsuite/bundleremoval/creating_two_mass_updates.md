@@ -17,7 +17,7 @@ To create the first mass update:
 2. Open **General Updates** > **Custom Records** > **Customization**.
 3. Check **Use Expressions** on the **Criteria** tab.
 
-    ![Select Use Expressions](/img/product_docs/platgovnetsuite/bundle_removal/bundle_removal_use_expressions.webp)
+    ![Select Use Expressions](/images/platgovnetsuite/bundle_removal/bundle_removal_use_expressions.webp)
 
 4. Add the following filters on the **Criteria** tab:
 
@@ -31,13 +31,13 @@ To create the first mass update:
 You can remove more than one bundle at a time.
 :::
 
-![Mass Update Filters](/img/product_docs/platgovnetsuite/bundle_removal/mass_update_filters.webp)
+![Mass Update Filters](/images/platgovnetsuite/bundle_removal/mass_update_filters.webp)
 
 1. Open the **Mass Update Fields** tab.
 2. Scroll down and check the box for **Clean Up Status**.
 3. Enter the **Clean Up Status**: **To Be Cleaned Up**.
 
-    ![Set Clean Up Status](/img/product_docs/platgovnetsuite/bundle_removal/clean_up_status.webp)
+    ![Set Clean Up Status](/images/platgovnetsuite/bundle_removal/clean_up_status.webp)
 
 4. Click **Save**.
 
@@ -59,10 +59,10 @@ Customization to **To Be Investigated**. It identifies everything needing invest
 | Filter 4 | | Scripts: Clean-Up Status | Is To Be Cleaned Up | | or |
 | Filter 5 | | Forms: Clean-Up Status | Is To Be Cleaned Up | | or |
 | Filter 6 | | Workflows: Clean-Up Status | Is To Be Cleaned Up | | or |
-| Filter 7 | | List: Clean-Up Status | Is To Be Cleaned Up | | or | 
+| Filter 7 | | List: Clean-Up Status | Is To Be Cleaned Up | | or |
 | Filter 8 | | Searches/Mass Updates: Clean-Up Status | Is To Be Cleaned Up | ) |  |
 
-![Adding filters](/img/product_docs/platgovnetsuite/bundle_removal/mass_update_filters2.webp)
+![Adding filters](/images/platgovnetsuite/bundle_removal/mass_update_filters2.webp)
 
 5. Open the **Mass Update Fields** tab.
 6. Scroll down and check the box for **Clean Up Status**

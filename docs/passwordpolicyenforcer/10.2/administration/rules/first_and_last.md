@@ -11,7 +11,7 @@ character. These rules are typically used to ensure password compatibility with 
 
 |                                                                                                                           |                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ![ppe_rules_15](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_15.webp) | ![ppe_rules_16](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_16.webp) |
+| ![ppe_rules_15](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_15.webp) | ![ppe_rules_16](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_16.webp) |
 
 Select the **Enabled** check box to enable the First or Last Character rule.
 

@@ -41,7 +41,7 @@ following meanings:
 - Deleted Automatically—Items that have been detected as removed from the source system
 - Deleted Manually—Items removed manually by an end-user via the administration console
 
-    ![dashboard_thumb_0_0](/img/product_docs/dataclassification/5.6.2/dashboard_thumb_0_0.webp)
+    ![dashboard_thumb_0_0](/images/dataclassification/5.6.2/dashboard_thumb_0_0.webp)
 
 ## System Health
 
@@ -57,7 +57,7 @@ outstanding system issues.
 
 1. Click Dismiss at the bottom.
 
-    ![health_config_notifications](/img/product_docs/dataclassification/5.6.2/health_config_notifications.webp)
+    ![health_config_notifications](/images/dataclassification/5.6.2/health_config_notifications.webp)
 
 2. Select Only dismiss health notifications that are older than one week, if you do not want to be
    notified on outdated issues.

@@ -8,7 +8,7 @@ sidebar_position: 80
 
 The History tab shows information about the session history of the selected resource.
 
-![History Tab for Host Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/historyhost.webp)
+![History Tab for Host Resource](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/historyhost.webp)
 
 The History tab has the following features:
 

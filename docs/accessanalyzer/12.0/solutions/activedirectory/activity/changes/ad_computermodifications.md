@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_ComputerModifications Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/changes/computermodificationsanalysis.webp)
+![Analysis Tasks for the AD_ComputerModifications Job](/images/accessanalyzer/12.0/solutions/activedirectory/activity/changes/computermodificationsanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 
@@ -34,4 +34,3 @@ the following pre-configured report:
 | Report                   | Description                        | Default Tags                                               | Report Elements                                                                                                                                                                                  |
 | ------------------------ | ---------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Computer Account Changes | Track changes to computer objects. | CPAA GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Pie Chart – Displays Changes by Type</li><li>Table – Displays Changes by Computer</li><li>Table – Displays Computer Change Details</li></ul> |
-

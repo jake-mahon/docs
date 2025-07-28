@@ -12,7 +12,7 @@ organization’s environment.
 
 The User Behavior Analytics dashboard contains the following cards:
 
-![User Behavior Analytics Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/splunk/activedirectory/dashboard/userbehavioranalytics.webp)
+![User Behavior Analytics Dashboard](/images/threatprevention/7.5/siemdashboard/splunk/activedirectory/dashboard/userbehavioranalytics.webp)
 
 - Behavior Anomalies Detected – Number of all potential behavior anomalies detected over the
   specified time interval

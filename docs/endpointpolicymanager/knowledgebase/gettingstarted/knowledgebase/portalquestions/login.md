@@ -24,7 +24,7 @@ clear the browser cache.
 
 Here's how to go incognito for different browsers.
 
-![926_1_image-20230913000135-1_781x183](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_1_image-20230913000135-1_781x183.webp)
+![926_1_image-20230913000135-1_781x183](/images/endpointpolicymanager/troubleshooting/cloud/926_1_image-20230913000135-1_781x183.webp)
 
 ## Cookies
 
@@ -34,11 +34,11 @@ Here's how to access cookie settings in different browsers.
 
 In Firefox you have to make your way into Browser Settings and locate Privacy & Security.
 
-![926_2_image-20230104094340-6_657x242](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_2_image-20230104094340-6_657x242.webp)
+![926_2_image-20230104094340-6_657x242](/images/endpointpolicymanager/troubleshooting/cloud/926_2_image-20230104094340-6_657x242.webp)
 
-![926_3_image-20230104094423-7_613x558](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_3_image-20230104094423-7_613x558.webp)
+![926_3_image-20230104094423-7_613x558](/images/endpointpolicymanager/troubleshooting/cloud/926_3_image-20230104094423-7_613x558.webp)
 
-![926_4_image-20230104094459-8_610x360](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_4_image-20230104094459-8_610x360.webp)
+![926_4_image-20230104094459-8_610x360](/images/endpointpolicymanager/troubleshooting/cloud/926_4_image-20230104094459-8_610x360.webp)
 
 ### Chrome
 
@@ -46,15 +46,15 @@ Chrome makes is a little easier to identify and clear cookies for a specific sit
 the login page and follow the sequence below.  In the example below we click Remove 4 times since
 there are 4 cookies in use for this specific site.
 
-![926_5_image-20230104092841-2_535x582](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_5_image-20230104092841-2_535x582.webp)
+![926_5_image-20230104092841-2_535x582](/images/endpointpolicymanager/troubleshooting/cloud/926_5_image-20230104092841-2_535x582.webp)
 
 ### Edge
 
 Edge makes it even easier, similar to Chrome but only 3 steps.
 
-![926_6_image-20230104093408-4_491x233](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_6_image-20230104093408-4_491x233.webp)
+![926_6_image-20230104093408-4_491x233](/images/endpointpolicymanager/troubleshooting/cloud/926_6_image-20230104093408-4_491x233.webp)
 
-![926_7_image-20230104093448-5_527x138](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_7_image-20230104093448-5_527x138.webp)
+![926_7_image-20230104093448-5_527x138](/images/endpointpolicymanager/troubleshooting/cloud/926_7_image-20230104093448-5_527x138.webp)
 
 ## Browser Cache
 
@@ -64,4 +64,4 @@ images and files is checked.
 
 All 3 browsers have the Ctrl-Shift-Del shortcut that provides quick access to this setting.
 
-![926_8_image-20230104100124-9_370x346](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_8_image-20230104100124-9_370x346.webp) ![926_9_image-20230104100144-10_322x350](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_9_image-20230104100144-10_322x350.webp) ![926_10_image-20230104100211-11_294x358](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/926_10_image-20230104100211-11_294x358.webp)
+![926_8_image-20230104100124-9_370x346](/images/endpointpolicymanager/troubleshooting/cloud/926_8_image-20230104100124-9_370x346.webp) ![926_9_image-20230104100144-10_322x350](/images/endpointpolicymanager/troubleshooting/cloud/926_9_image-20230104100144-10_322x350.webp) ![926_10_image-20230104100211-11_294x358](/images/endpointpolicymanager/troubleshooting/cloud/926_10_image-20230104100211-11_294x358.webp)

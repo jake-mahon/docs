@@ -62,11 +62,11 @@ Move the selected snapshots to the Snapshots available for reporting list using 
 The product updates the latest snapshot on the regular basis to keep users up to date on actual system state. Users can also configure Only the latest snapshot is available for reporting in Auditor. If you want to generate reports based on different snapshots, you must import snapshots to the Audit Database.
 
 - Users
-  
+
 - Specify monitoring restrictions – Select the users to be excluded from search results, reports and Activity Summaries. To add users to the list, click Add and provide user name in the domain\user format: *mydomain\user1*.
   - Use NetBIOS domain name format.
   - To exclude events containing “System” instead of initiator's account name in the “Who” column, enter "System" value to the list.
-  
+
 In addition to the restrictions for a monitoring plan, you can use the *.txt files to collect more granular audit data. Note that the new monitoring scope restrictions apply together with previous exclusion settings configured in the *.txt files.
 
 Review your data source settings and click **Add** to go back to your plan. The newly created data
@@ -117,7 +117,7 @@ Complete the following fields:
 To audit all file shares, under Specify monitoring restrictions, select Monitor all file shares in
 the array.
 
-![item_emc_scope_thumb_0_0](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_emc_scope_thumb_0_0.webp)
+![item_emc_scope_thumb_0_0](/images/auditor/10.7/admin/monitoringplans/fileservers/item_emc_scope_thumb_0_0.webp)
 
 You can also create lists of specific file shares to include and/or exclude from being audited.
 
@@ -169,7 +169,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/images/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.
@@ -247,7 +247,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/images/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.
@@ -325,7 +325,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/images/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.
@@ -358,9 +358,9 @@ Complete the following fields:
 Actions reported by Auditor vary depending on the file server type and the audited object (file, folder, or share). The changes include creation, modification, deletion, moving, etc. To track the copy action, enable successful read access and change auditing.
 
 - Specify data collection method – You can enable **network traffic compression.** If enabled, a Compression Service will be automatically launched on the audited computer, collecting and prefiltering data. This significantly improves data transfer and minimizes the impact on the target computer performance.
-  
-- Configure audit settings – You can adjust audit settings automatically. Your current audit settings will be checked on each data collection and adjusted if necessary. This method is recommended for evaluation purposes in test environments. If any conflicts are detected with your current audit settings, automatic audit configuration will not be performed. Do not select the checkbox if you want to configure audit settings manually. See the [Supported Data Sources](/docs/auditor/10.7/requirements/supporteddatasources/supporteddatasources.md) configuration topic for additional information about audit settings required to collect comprehensive audit data and the instructions on how to configure them. Netwrix Auditor can configure the following settings: 
-  - Policy Check 
+
+- Configure audit settings – You can adjust audit settings automatically. Your current audit settings will be checked on each data collection and adjusted if necessary. This method is recommended for evaluation purposes in test environments. If any conflicts are detected with your current audit settings, automatic audit configuration will not be performed. Do not select the checkbox if you want to configure audit settings manually. See the [Supported Data Sources](/docs/auditor/10.7/requirements/supporteddatasources/supporteddatasources.md) configuration topic for additional information about audit settings required to collect comprehensive audit data and the instructions on how to configure them. Netwrix Auditor can configure the following settings:
+  - Policy Check
   - Policy Adjust
 
 - Collect data for state-in-time reports – Configure Auditor to store daily snapshots of your system configuration required for further state-in-time reports generation. See the [State–In–Time Reports](/docs/auditor/10.7/admin/reports/types/stateintime/overview.md) topic for additional information. When auditing file servers, changes to effective access permissions can be tracked in addition to audit permissions. By default, Combination of file and share permissions is tracked. File permissions define who has access to local files and folders. Share permissions provide or deny access to the same resources over the network. The combination of both determines the final access permissions for a shared folder—the more restrictive permissions are applied. Upon selecting Combination of file and share permissions only the resultant set will be written to the Audit Database. Select File permissions option too if you want to see difference between permissions applied locally and the effective file and share permissions set. To disable auditing of effective access, unselect all checkboxes under Include details on effective permissions. In the Schedule state-in-time data collection section, you can select a custom weekly interval for snapshots collection. Click Modify and select day(s) of week you want your snapshot to be collected. In the Manage historical snapshots section, you can click **Manage** and select the snapshots that you want to import to the Audit Database to generate a report on the data source's state at the specific moment in the past. You must be assigned the Global administrator or the Global reviewer role to import snapshots. Move the selected snapshots to the Snapshots available for reporting list using the arrow button. The product updates the latest snapshot on the regular basis to keep users up to date on actual system state. Users can also configure Only the latest snapshot is available for reporting in Auditor. If you want to generate reports based on different snapshots, you must import snapshots to the Audit Database.
@@ -440,7 +440,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/images/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.

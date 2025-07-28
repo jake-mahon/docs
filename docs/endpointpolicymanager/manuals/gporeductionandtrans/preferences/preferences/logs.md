@@ -11,11 +11,11 @@ Endpoint Policy Manager Preferences Manager can affect the Computer side and Use
 computer-side log files can be seen in Figure 19, and the user-side log files can be seen in
 Figure 20.
 
-![troubleshooting](/img/product_docs/endpointpolicymanager/troubleshooting/preferences/troubleshooting.webp)
+![troubleshooting](/images/endpointpolicymanager/troubleshooting/preferences/troubleshooting.webp)
 
 Figure 19. Computer-side log files.
 
-![troubleshooting_1](/img/product_docs/endpointpolicymanager/troubleshooting/preferences/troubleshooting_1.webp)
+![troubleshooting_1](/images/endpointpolicymanager/troubleshooting/preferences/troubleshooting_1.webp)
 
 Figure 20. User-side log files.
 
@@ -41,6 +41,6 @@ Table 1: Log files.
 
 You can see an example of the contents of the logs in Figure 21.
 
-![troubleshooting_2](/img/product_docs/endpointpolicymanager/troubleshooting/preferences/troubleshooting_2.webp)
+![troubleshooting_2](/images/endpointpolicymanager/troubleshooting/preferences/troubleshooting_2.webp)
 
 Figure 21. The contents of the logs that are required for troubleshooting.

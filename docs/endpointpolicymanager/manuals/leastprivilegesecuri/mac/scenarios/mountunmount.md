@@ -20,7 +20,7 @@ You might want to manage when USB devices and/or .DMG disk files can be mounted 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/mount_unmount_for_usb_and.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/mount_unmount_for_usb_and.webp)
 
 You can perform the following functions:
 
@@ -52,7 +52,7 @@ For a simple demo, let's Block All USB and DMG devices.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/mount_unmount_for_usb_and_1.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/mount_unmount_for_usb_and_1.webp)
 
 The result of trying to attach a new device by USB can be seen here, as Endpoint Policy Manager has
 blocked it.
@@ -60,4 +60,4 @@ blocked it.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/mount_unmount_for_usb_and_2.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/mount_unmount_for_usb_and_2.webp)

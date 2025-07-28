@@ -22,7 +22,7 @@ based on the Job.
 :::
 
 
-![SQL Script Editor](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/customizableparameters.webp)
+![SQL Script Editor](/images/accessanalyzer/12.0/admin/jobs/job/configure/customizableparameters.webp)
 
 **Step 4 –** In the parameters section at the bottom of the editor, find the Value column.
 

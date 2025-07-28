@@ -16,7 +16,7 @@ following:
 
     The following window appears:
 
-    ![dsar_view_results](/img/product_docs/dataclassification/5.7/admin/dsar/dsar_view_results.webp)
+    ![dsar_view_results](/images/dataclassification/5.7/admin/dsar/dsar_view_results.webp)
 
     Review the following for additional information:
 

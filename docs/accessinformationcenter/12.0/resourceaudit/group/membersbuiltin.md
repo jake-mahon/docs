@@ -15,7 +15,7 @@ group types.
 :::
 
 
-![Members report for a built-in group](/img/product_docs/accessinformationcenter/12.0/resourceaudit/group/membersbuiltin.webp)
+![Members report for a built-in group](/images/accessinformationcenter/12.0/resourceaudit/group/membersbuiltin.webp)
 
 This report is comprised of the following columns:
 

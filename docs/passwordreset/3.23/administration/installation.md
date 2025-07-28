@@ -36,7 +36,7 @@ The Password Reset Server is the component that performs requests on behalf of u
 requests from the Web Interface, checks the user's credentials, and performs the requested task if
 the credentials are valid.
 
-![installing_apr](/img/product_docs/passwordreset/3.23/evaluation/installing_apr_1.webp)
+![installing_apr](/images/passwordreset/3.23/evaluation/installing_apr_1.webp)
 
 :::note
 Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
@@ -185,7 +185,7 @@ box is selected, and then click **Next** twice.
 :::note
 Open UDP port 5100 on the Password Reset Server computer if a host-based firewall other
 than the Windows Firewall is installed. This is needed in addition to the DMZ firewall rules
-above.  
+above.
 The Password Reset Setup wizard installs the Password Reset Server and associated files into the
 `\Program Files\ANIXIS Password Reset\` folder by default. Use the SERVERDIR parameter to install
 the Password Reset Server to a different folder. For example, APR323.exe
@@ -227,7 +227,7 @@ Reset**, and **3.0** registry keys.
 **Step 12 –** Set the **ServerIP** registry value to the IP address of the computer that you
 installed the Password Reset Server onto.
 
-![RegistryEditor](/img/product_docs/passwordreset/3.23/administration/RegistryEditor.webp)
+![RegistryEditor](/images/passwordreset/3.23/administration/RegistryEditor.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the
 files to another directory and publish several Web Interfaces from one server. This allows you to
@@ -270,7 +270,7 @@ Interface files before upgrading**. The Web Interface files are installed in the
 
 :::note
 A full backup of the APR server(s) is recommended. This allows you to roll back to the
-previous version if the upgrade cannot be completed.  
+previous version if the upgrade cannot be completed.
 You may need to restart Windows after upgrading.
 :::
 
@@ -311,16 +311,16 @@ topic for additional information.
 APR V3.23 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade PPE
 to a compatible version if you have enabled Password Policy Enforcer integration. See the
 [Configuring Password Reset](/docs/passwordreset/3.23/administration/configuring_password_reset.md)
-topic for additional information.  
+topic for additional information.
 APR V3.23 does not include a 32-bit APR Server or Web Interface. The computer(s) running the APR
-server components must be running Windows 64-bit. This does not apply to the client computers.  
+server components must be running Windows 64-bit. This does not apply to the client computers.
 APR V3.23 uses HTML5 and CSS3 features that are not supported by Internet Explorer 8 and earlier.
 The
 [Password Reset Client](/docs/passwordreset/3.23/evaluation/password_reset_client.md)
 uses Internet Explorer for page rendering, so the default HTML templates do not display correctly in
 the Password Reset Client on Windows XP and Server 2003. Send an e-mail to
 [support@netwrix.com ](mailto:support@anixis.com)before upgrading if you still have computers
-running Internet Explorer 8.  
+running Internet Explorer 8.
 APR V3.23 server components have not been tested on, and are not supported on Windows 2003.
 :::
 

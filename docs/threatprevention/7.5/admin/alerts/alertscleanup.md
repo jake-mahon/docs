@@ -21,7 +21,7 @@ Follow the steps to clear the alerts data.
 
 **Step 2 –** On the Alerts interface, click the **Clear** icon in the top right corner.
 
-![Alerts Cleanup window](/img/product_docs/threatprevention/7.5/admin/alerts/window/alertscleanup.webp)
+![Alerts Cleanup window](/images/threatprevention/7.5/admin/alerts/window/alertscleanup.webp)
 
 **Step 3 –** The Alerts Cleanup window has these options:
 

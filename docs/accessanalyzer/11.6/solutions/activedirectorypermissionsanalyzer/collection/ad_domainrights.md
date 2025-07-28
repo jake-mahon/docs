@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the AD_DomainRights Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/domainrightsquery.webp)
+![Query for the AD_DomainRights Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/domainrightsquery.webp)
 
 - Domain Access Permissions – Returns domain access permissions
 
@@ -37,7 +37,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_DomainRights Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/domainrightsanalysis.webp)
+![Analysis Tasks for the AD_DomainRights Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/collection/domainrightsanalysis.webp)
 
 The default analysis tasks are:
 

@@ -17,11 +17,11 @@ Follow the steps to upgrade.
 
     Click the Windows Start menu > Imanami > GroupID Upgrade Tool 11.0.
 
-    ![Welcome page](/img/product_docs/directorymanager/11.0/install/upgrade/1-welcome.webp)
+    ![Welcome page](/images/directorymanager/11.0/install/upgrade/1-welcome.webp)
 
 2. Read the welcome message and click **Next**.
 
-    ![2-select_source_version](/img/product_docs/directorymanager/11.0/install/upgrade/2-select_source_version.webp)
+    ![2-select_source_version](/images/directorymanager/11.0/install/upgrade/2-select_source_version.webp)
 
 3. From the **Select the previous version to upgrade** list, select the GroupID version to upgrade
    from.
@@ -31,7 +31,7 @@ Follow the steps to upgrade.
 
 4. Click **Next**.
 
-    ![Select modules to upgrade](/img/product_docs/directorymanager/11.0/install/upgrade/3-select_modules.webp)
+    ![Select modules to upgrade](/images/directorymanager/11.0/install/upgrade/3-select_modules.webp)
 
     On the **Select Modules to upgrade** page, select the type of GroupID data for upgrade. You can
     choose to upgrade all or selective data of the previous version. Options are:
@@ -40,12 +40,12 @@ Follow the steps to upgrade.
     - **Custom** – choose what data you want to upgrade. On selecting it, the following options are
       listed, from where you can choose the data to upgrade.
 
-        ![3-select_modules-custom](/img/product_docs/directorymanager/11.0/install/upgrade/3-select_modules-custom.webp)
+        ![3-select_modules-custom](/images/directorymanager/11.0/install/upgrade/3-select_modules-custom.webp)
 
 5. Click **Next**.
 6. If you have an Microsoft Entra ID based identity store in GroupID 10, the following page appears.
 
-    ![Microsoft Entra ID Store Upgrade page](/img/product_docs/directorymanager/11.0/install/upgrade/entraidstore.webp)
+    ![Microsoft Entra ID Store Upgrade page](/images/directorymanager/11.0/install/upgrade/entraidstore.webp)
 
     Provide the following information:
 
@@ -62,7 +62,7 @@ Follow the steps to upgrade.
    Entra ID based identity store or in an AD identity store, the Upgrade wizard displays the
    following page.
 
-    ![ Upgrade wizard Microsoft Entra ID Messaging System page](/img/product_docs/directorymanager/11.0/install/upgrade/entraidmessagingsystem.webp)
+    ![ Upgrade wizard Microsoft Entra ID Messaging System page](/images/directorymanager/11.0/install/upgrade/entraidmessagingsystem.webp)
 
     Provide the following information:
 
@@ -87,7 +87,7 @@ Follow the steps to upgrade.
       auto populated but you can change them.) All jobs with destination provider for that forest
       domain or any of its child domains will be moved to the new identity store.
 
-        ![synchronize_upgrade](/img/product_docs/directorymanager/11.0/install/upgrade/synchronize_upgrade.webp)
+        ![synchronize_upgrade](/images/directorymanager/11.0/install/upgrade/synchronize_upgrade.webp)
 
         NOTE: The service account you provide here should have at least _read_ permission in the
         entire forest, so that all objects from the forest can be replicated to Elasticsearch.
@@ -101,7 +101,7 @@ Follow the steps to upgrade.
     messaging provider will be listed on the wizard page. Expand each job and provide the PFX
     certificate along with its password.
 
-    ![Upgrade wizard Synchronize Messaging System page](/img/product_docs/directorymanager/11.0/install/upgrade/entraidsynmessagingsystem.webp)
+    ![Upgrade wizard Synchronize Messaging System page](/images/directorymanager/11.0/install/upgrade/entraidsynmessagingsystem.webp)
 
     Provide the following information:
 
@@ -121,13 +121,13 @@ Follow the steps to upgrade.
     - If an identity store for that domain does not exist, then you have to create an identity store
       for it. It must essentially be an Active Directory identity store. The wizard will bind the
       reports generated in GroupID 10 to the identity store, so you will be able to view them in
-      GroupID 11.  
-      ![reports_upgrade](/img/product_docs/directorymanager/11.0/install/upgrade/reports_upgrade.webp)
+      GroupID 11.
+      ![reports_upgrade](/images/directorymanager/11.0/install/upgrade/reports_upgrade.webp)
 
     NOTE: If no report has been generated in GroupID 10, the page related to reports upgrade will
     not be displayed.
 
-13. During upgrade, Synchronize schedules are also moved to identity stores.  
+13. During upgrade, Synchronize schedules are also moved to identity stores.
     The Upgrade wizard will check the jobs added to a schedule. If the destination in a job is a
     directory provider, it will automatically move the schedule to the respective identity store.
 
@@ -143,13 +143,13 @@ Follow the steps to upgrade.
       wizard will display the following page that will list all such schedules. Select an identity
       store for each schedule, so that the schedule moves to that identity store.
 
-        ![store_selection_for_schedules](/img/product_docs/directorymanager/11.0/install/upgrade/store_selection_for_schedules.webp)
+        ![store_selection_for_schedules](/images/directorymanager/11.0/install/upgrade/store_selection_for_schedules.webp)
 
     - The rules stated above also apply to schedules with job collections added to them.
 
 14. Click **Next**.
 
-    ![Summary page](/img/product_docs/directorymanager/11.0/install/upgrade/5-summary.webp)
+    ![Summary page](/images/directorymanager/11.0/install/upgrade/5-summary.webp)
 
     This page displays a complete summary of the data to be copied/upgraded for your selected
     options. These options were selected on the **Select modules to upgrade** page..
@@ -160,13 +160,13 @@ Follow the steps to upgrade.
 
 15. Review the summary and click **Next**.
 
-    ![Upgrade Progress page](/img/product_docs/directorymanager/11.0/install/upgrade/6-upgrade_process_complete.webp)
+    ![Upgrade Progress page](/images/directorymanager/11.0/install/upgrade/6-upgrade_process_complete.webp)
 
     GroupID is upgraded while the Upgrade Process displays the upgrade progress. On successful
     upgrade, the **Upgradce Completed** message above the progress bar is displayed.
 
-16. Click **Next**.  
-    ![Upgrade Completed page](/img/product_docs/directorymanager/11.0/install/upgrade/7-upgrade_complete.webp)
+16. Click **Next**.
+    ![Upgrade Completed page](/images/directorymanager/11.0/install/upgrade/7-upgrade_complete.webp)
 
     The **Upgrade Completed** page displays the status of features selected for upgrade.
 

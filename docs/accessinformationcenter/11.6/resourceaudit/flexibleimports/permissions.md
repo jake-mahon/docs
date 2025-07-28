@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Permissions report for imported data shows the permissions for trustees on the resource.
 
-![Permissions report for imported data](/img/product_docs/accessinformationcenter/11.6/resourceaudit/flexibleimports/permissions.webp)
+![Permissions report for imported data](/images/accessinformationcenter/11.6/resourceaudit/flexibleimports/permissions.webp)
 
 This report is comprised of the following columns:
 

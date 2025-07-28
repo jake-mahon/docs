@@ -9,17 +9,17 @@ sidebar_position: 10
 On the Authoring page of the Report Configuration wizard, you can configure the name, header
 information, and publish settings for the report.
 
-![Report Configuration wizard Authoring page](/img/product_docs/accessanalyzer/12.0/admin/report/wizard/authoring.webp)
+![Report Configuration wizard Authoring page](/images/accessanalyzer/12.0/admin/report/wizard/authoring.webp)
 
 Configure the following settings as required:
 
-![name](/img/product_docs/accessanalyzer/12.0/admin/report/wizard/name.webp)
+![name](/images/accessanalyzer/12.0/admin/report/wizard/name.webp)
 
 - Name – The name used for the report in the Access Analyzer console and Web Console.
 
 **Header Options**
 
-![header](/img/product_docs/accessanalyzer/12.0/admin/report/wizard/header.webp)
+![header](/images/accessanalyzer/12.0/admin/report/wizard/header.webp)
 
 - Title – The title of the report as displayed at the top of the generated report
 - Author – Name of the person or group who created the report. This is displayed at the top of the
@@ -56,7 +56,7 @@ Follow the steps to select tags using the Tag Editor.
 **Step 1 –** On the Authoring page of the Report Configuration wizard, click the **Edit** button
 located next to the Tags text box.
 
-![Tag Editor](/img/product_docs/accessanalyzer/12.0/admin/report/wizard/tageditor.webp)
+![Tag Editor](/images/accessanalyzer/12.0/admin/report/wizard/tageditor.webp)
 
 **Step 2 –** In the Tag editor, select the checkbox next to the tags that should be applied to the
 report.

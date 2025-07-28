@@ -9,7 +9,7 @@ sidebar_position: 140
 The SharePoint tab on a host’s Properties window allows users to modify settings that are populated
 with the information entered when the SharePoint host is added.
 
-![SharePoint Tab](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/sharepointtab.webp)
+![SharePoint Tab](/images/activitymonitor/7.1/admin/monitoredhosts/properties/sharepointtab.webp)
 
 The configurable options are:
 

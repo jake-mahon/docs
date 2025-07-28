@@ -26,7 +26,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_HourlyMetrics Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/hourlymetricsanalysis.webp)
+![Analysis Tasks for the EX_HourlyMetrics Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/hourlymetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -42,4 +42,3 @@ the following pre-configured reports:
 | --------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Hourly Traffic (Average Hourly Traffic) | This report identifies which hours during the day have the most traffic by count of messages.  | None         | This report is comprised of two elements: <ul><li>Column Chart – Displays average hourly traffic by enterprise</li><li>Table – Provides details on average hourly traffic by server</li></ul> |
 | Hourly Volume (Average Hourly Volume)   | This report identifies which hours during the day have the most traffic by volume of messages. | None         | This report is comprised of two elements: <ul><li>Column Chart – Displays average hourly volume (MB)</li><li>Table – Provides details on server averages</li></ul>                            |
-

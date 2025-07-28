@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_StaleGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
+![Analysis Tasks for the EX_StaleGroups Job](/images/accessanalyzer/12.0/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

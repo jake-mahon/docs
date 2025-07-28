@@ -18,7 +18,7 @@ additional information.
 Select a Threat Manager output from the Monitored Domains tab and click **Edit** to open the output
 Properties window.
 
-![threatmanager](/img/product_docs/activitymonitor/8.0/admin/outputs/threatmanager.webp)
+![threatmanager](/images/activitymonitor/8.0/admin/outputs/threatmanager.webp)
 
 The tab contains the following settings:
 

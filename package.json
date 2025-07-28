@@ -6,7 +6,7 @@
   "scripts": {
     "docusaurus": "npx docusaurus",
     "start": "npx serve -s build -l 8080",
-    "build": "npx docusaurus build",
+    "build": "NODE_OPTIONS=--max-old-space-size=16384 npx docusaurus build",
     "swizzle": "npx docusaurus swizzle",
     "clear": "npx docusaurus clear",
     "serve": "npx serve -s build -l 8080",

@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_StaleMailboxes Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/sizing/stalemailboxesanalysis.webp)
+![Analysis Tasks for the EX_StaleMailboxes Job](/images/accessanalyzer/12.0/solutions/exchange/mailboxes/sizing/stalemailboxesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ produces the following pre-configured reports:
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Orphaned Mailboxes                                        | Orphaned Mailboxes do not have an Active Directory account associated with them, and generally can be safely deleted. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays orphan mailbox storage</li><li>Table – Provides details on all orphaned mailboxes</li><li>Table – Provides details on orphan mailbox storage</li></ul>   |
 | Stale Users (Mailboxes associated with Stale AD Accounts) | This report shows mailboxes which are tied to stale user accounts.                                                    | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays stale user mailboxes</li><li>Table – Provides details stale user mailboxes</li><li>Table – Provides additional details on stale user mailboxes</li></ul> |
-

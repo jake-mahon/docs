@@ -9,7 +9,7 @@ sidebar_position: 20
 The Sensitive Content Summary report at the Organization level provides a count of files where
 criteria matches were found on the selected instance. This report includes a Details table.
 
-![Sensitive Content Summary report at the Organization level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/aws/organization/serversensitivecontentsummary.webp)
+![Sensitive Content Summary report at the Organization level](/images/accessinformationcenter/11.6/resourceaudit/aws/organization/serversensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

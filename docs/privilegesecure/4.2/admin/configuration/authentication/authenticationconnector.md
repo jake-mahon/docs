@@ -12,7 +12,7 @@ Follow the steps to add an authentication connector to the console.
 
 **Step 2 –** In the Connectors list, click the **Plus** icon.
 
-![addauthentication](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addauthentication.webp)
+![addauthentication](/images/privilegesecure/4.2/accessmanagement/admin/configuration/add/addauthentication.webp)
 
 **Step 3 –** Enter the following information:
 

@@ -24,7 +24,7 @@ Follow the steps to export policies and templates:
   [Export Policies and Templates Window](/docs/threatprevention/7.4/admin/policies/exportpoliciestemplates.md)
   topic for additional information.
 
-![Export Policies and Templates Window](/img/product_docs/threatprevention/7.4/admin/tools/exportpoliciestemplates.webp)
+![Export Policies and Templates Window](/images/threatprevention/7.4/admin/tools/exportpoliciestemplates.webp)
 
 **Step 2 –** The Export Policies and Templates window includes the following options.
 

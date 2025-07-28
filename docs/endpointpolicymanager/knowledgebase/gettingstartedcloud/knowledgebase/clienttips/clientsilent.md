@@ -42,4 +42,4 @@ set logfile="%d%_%t%.log"
 msiexec /i %1 /norestart /quiet /lv*x %logfile%
 ```
 
-![530_1_image-20230330095004-1](/img/product_docs/endpointpolicymanager/install/cloud/530_1_image-20230330095004-1.webp)
+![530_1_image-20230330095004-1](/images/endpointpolicymanager/install/cloud/530_1_image-20230330095004-1.webp)

@@ -10,7 +10,7 @@ Endpoint Policy Manager Browser Router can open a specific website when a partic
 specific port. In the example below we have `www.portquiz.net:1001` being used for a specific Google
 Chrome website.
 
-![about_policypak_browser_router_23](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_23.webp)
+![about_policypak_browser_router_23](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_23.webp)
 
 :::note
 For a video on using Endpoint Policy Manager Browser Router and ports, see
@@ -23,7 +23,7 @@ Additionally, for Internet Explorer 11, Endpoint Policy Manager Browser Router w
 insert the port into Internet Explorer 11 Enterprise Mode v2 site lists. All you need to do is add a
 route similar to the one shown below.
 
-![about_policypak_browser_router_24](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_24.webp)
+![about_policypak_browser_router_24](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_24.webp)
 
 :::note
 Not every version of Internet Explorer 11 is ready to receive v2 site lists. For a list of

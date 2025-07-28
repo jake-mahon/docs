@@ -9,7 +9,7 @@ sidebar_position: 90
 The Member Of report for a user object provides a list of all groups of which the audited Entra ID
 (formerly Azure Active Directory) user is a member. This report includes a Membership Paths table.
 
-![Member Of report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/user/entraid/memberofentraid.webp)
+![Member Of report](/images/accessinformationcenter/11.6/resourceaudit/user/entraid/memberofentraid.webp)
 
 This report is comprised of the following columns:
 
@@ -28,7 +28,7 @@ This report is comprised of the following columns:
 Since this report is a list of Entra ID groups, the Group Membership pane displays the group
 membership, including nested groups.
 
-![Membership Paths table](/img/product_docs/accessinformationcenter/11.6/resourceaudit/user/entraid/memberofentraidtable.webp)
+![Membership Paths table](/images/accessinformationcenter/11.6/resourceaudit/user/entraid/memberofentraidtable.webp)
 
 There is one table at the bottom displaying Membership Paths for the select group. It contains all
 of the ways the audited user has been granted membership to the selected group.

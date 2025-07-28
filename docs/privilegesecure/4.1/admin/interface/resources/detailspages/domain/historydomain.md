@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The History tab shows information about the synchronization history of the selected resource.
 
-![History Tab for Domain Resource](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/historydomain.webp)
+![History Tab for Domain Resource](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/historydomain.webp)
 
 The History tab has the following features:
 

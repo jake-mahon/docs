@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_RootAccounts Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/users/rootaccountsanalysis.webp)
+![Analysis Tasks for the AWS_RootAccounts Job](/images/accessanalyzer/12.0/solutions/aws/users/rootaccountsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ the following preconfigured report:
 | Report                | Description                                                 | Default Tags | Report Element                                                                                                                                                                                                                                                                        |
 | --------------------- | ----------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Root Account Security | This report highlights security risks on AWS Root Accounts. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top account security by org</li><li>Table – Shows account security by Org</li><li>Table – Provides details on risk assessment</li><li>Table – Provides details on account security</li></ul> |
-

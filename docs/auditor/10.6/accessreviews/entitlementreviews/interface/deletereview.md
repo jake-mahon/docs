@@ -22,7 +22,7 @@ of the Entitlement Reviews interface:
 Select the desired review on the Manage Reviews page and click **Delete**. The Delete Review window
 opens to confirm the action.
 
-![Delete Review window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/deletereviewentire.webp)
+![Delete Review window](/images/auditor/10.6/access/reviews/entitlementreviews/window/deletereviewentire.webp)
 
 **CAUTION:** This will delete all instances of the selected review and all historical data
 associated with it.
@@ -34,7 +34,7 @@ Click **Yes** to complete the deletion. Click **No** to cancel it. The Delete Re
 Select the desired review instance from the drop-down menu on the Review Details page and click
 **Delete**. The Delete Review window opens to confirm the action.
 
-![Delete Review window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/deletereviewinstance.webp)
+![Delete Review window](/images/auditor/10.6/access/reviews/entitlementreviews/window/deletereviewinstance.webp)
 
 **CAUTION:** This will delete all historical data associated to the selected review instance.
 

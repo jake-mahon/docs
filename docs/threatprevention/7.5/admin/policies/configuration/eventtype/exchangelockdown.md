@@ -17,7 +17,7 @@ The event filters for the Exchange Lockdown event type are:
 - Exchange Perpetrators
 - Rule Preview
 
-![Policy window - Exchange Lockdown Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/exchangelockdown.webp)
+![Policy window - Exchange Lockdown Event Type](/images/threatprevention/7.5/admin/policies/eventtype/exchangelockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -45,7 +45,7 @@ additional information.
 On the Exchange Event filter for lockdown, select the types of Exchange events to be locked down by
 the policy.
 
-![Policy window - Exchange Event filter for lockdown](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/exchangeeventlockdown.webp)
+![Policy window - Exchange Event filter for lockdown](/images/threatprevention/7.5/admin/policies/eventtype/exchangeeventlockdown.webp)
 
 Check the **All** box at the top of the tab to include all operations and permissions or select
 specific operations and permissions:
@@ -68,7 +68,7 @@ Use the Exchange Mailbox Objects and Containers filter for lockdown to set the s
 to lockdown changes to specific objects or containers within Exchange or to exclude changes to
 specific objects or containers from being locked down.
 
-![Policy window - Exchange Mailbox Objects and Containers filter ](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
+![Policy window - Exchange Mailbox Objects and Containers filter ](/images/threatprevention/7.5/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
 
 Select the **Include** or **Exclude** button and then edit the list.
 
@@ -86,7 +86,7 @@ specific Exchange trustees. Trustees are the accounts receiving permissions. For
 administrator grants Joe Smith access to Bob Wilson's mailbox, Joe Smith is the trustee that is
 granted permissions.
 
-![Policy window - Exchange Trustees filter for lockdown](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/exchangetrusteeslockdown.webp)
+![Policy window - Exchange Trustees filter for lockdown](/images/threatprevention/7.5/admin/policies/eventtype/exchangetrusteeslockdown.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -130,7 +130,7 @@ Use the Exchange Perpetrator filter for lockdown to set the scope of the policy 
 specific security principals committing changes or to exclude specific security principals
 committing changes from being locked down.
 
-![Policy window - Exchange Perpetrator filter for lockdown](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/exchangeperpetratorlockdown.webp)
+![Policy window - Exchange Perpetrator filter for lockdown](/images/threatprevention/7.5/admin/policies/eventtype/exchangeperpetratorlockdown.webp)
 
 Options at the top enable you to block or allow user access to mailboxes based on the assigned
 roles.
@@ -195,7 +195,7 @@ for additional information.
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](/images/threatprevention/7.5/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

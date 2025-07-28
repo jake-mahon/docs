@@ -8,7 +8,7 @@ sidebar_position: 40
 
 The Historical sessions dashboard shows all created sessions and their status.
 
-![historicaldashboardrag](/img/product_docs/privilegesecure/4.2/remoteaccessgateway/enduser/dashboard/historicaldashboardrag.webp)
+![historicaldashboardrag](/images/privilegesecure/4.2/remoteaccessgateway/enduser/dashboard/historicaldashboardrag.webp)
 
 The Historical Sessions table has the following features:
 

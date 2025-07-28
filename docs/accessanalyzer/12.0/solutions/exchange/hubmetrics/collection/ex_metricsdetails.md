@@ -16,7 +16,7 @@ collection does not return.
 
 The EX_MetricsDetails Job uses the ExchangeMetrics Data Collector.
 
-![Queries for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
+![Queries for the EX_MetricsDetails Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
 
 The following query is included in the EX_MetricsDetails Job:
 
@@ -47,7 +47,7 @@ Do not modify other wizard pages. The wizard pages are pre-configured for this j
 :::
 
 
-![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
+![Exchange Metrics Data Collector Wizard Message Activity Filter page](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
 
 **Step 4 –** Navigate to the
 [ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/12.0/admin/datacollector/exchangemetrics/messageactivityfilter.md)
@@ -70,7 +70,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
+![Analysis Tasks for the EX_MetricsDetails Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -12,7 +12,7 @@ of the Entitlement Reviews interface. Follow the steps to rename a review.
 
 **Step 1 –** Select the review and click **Rename**. The Rename Review window opens.
 
-![Rename Review window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/renamereview.webp)
+![Rename Review window](/images/auditor/10.6/access/reviews/entitlementreviews/window/renamereview.webp)
 
 **Step 2 –** Edit the review name in the textbox.
 

@@ -11,7 +11,7 @@ The Web Console is where any reports which have been published can be viewed out
 Enterprise Auditor Console. The Web Console provides a consolidated logon housing both the published
 reports and the AIC (when applicable).
 
-![Global Settings Reporting page](/img/product_docs/accessanalyzer/11.6/admin/settings/reporting.webp)
+![Global Settings Reporting page](/images/accessanalyzer/11.6/admin/settings/reporting.webp)
 
 The publishing of reports can be disabled at the global level by selecting **Do not publish
 reports** from the Publish Option drop-down menu. It can also be disabled at the job group, job, or
@@ -29,7 +29,7 @@ Otherwise, click **Cancel** if no changes were intended.
 The Website URL field contains address for the hosted website, the Web Console, where the published
 reports reside.
 
-![Website URL on Global Settings Reporting page](/img/product_docs/accessanalyzer/11.6/admin/settings/websiteurl.webp)
+![Website URL on Global Settings Reporting page](/images/accessanalyzer/11.6/admin/settings/websiteurl.webp)
 
 The default address is:
 
@@ -54,7 +54,7 @@ topic for additional information.
 
 The Publish Option allows you to enable or disable the publishing of reports at the global level.
 
-![Publish Option on Global Settings Reporting page](/img/product_docs/accessanalyzer/11.6/admin/settings/publish.webp)
+![Publish Option on Global Settings Reporting page](/images/accessanalyzer/11.6/admin/settings/publish.webp)
 
 Select the **Publish reports** option to publish all Enterprise Auditor reports or select **Do not
 publish reports** to disable the publishing. The inheritance of this setting can be broken at the
@@ -64,7 +64,7 @@ job group, job, or report levels.
 
 Configure email reports sent out by Enterprise Auditor using the Email Report options.
 
-![Email options on Global Settings Reporting page](/img/product_docs/accessanalyzer/11.6/admin/settings/email.webp)
+![Email options on Global Settings Reporting page](/images/accessanalyzer/11.6/admin/settings/email.webp)
 
 The **E-mail reports** checkbox enables recipients to receive all published reports, unless
 inheritance is broken at the job group, job, or report level. Separate multiple recipients with a
@@ -119,12 +119,12 @@ Follow the steps to allow JavaScript on the Web Console in Microsoft Edge.
 
 **Step 1 –** Open Microsoft Edge Settings.
 
-![javascriptsitepermissions](/img/product_docs/accessanalyzer/11.6/admin/settings/javascriptsitepermissions.webp)
+![javascriptsitepermissions](/images/accessanalyzer/11.6/admin/settings/javascriptsitepermissions.webp)
 
 **Step 2 –** Go to the **Cookies and site permissions** settings page, and click **JavaScript**
 under All permissions.
 
-![javascriptsettings](/img/product_docs/accessanalyzer/11.6/admin/settings/javascriptsettings.webp)
+![javascriptsettings](/images/accessanalyzer/11.6/admin/settings/javascriptsettings.webp)
 
 **Step 3 –** Click **Add** in the Allow section. On the Add a site window, enter the URL for the Web
 Console and click **Add**.

@@ -12,7 +12,7 @@ subject to the date and time the permissions were last replicated.
 
 You can view all active sites as enabled and inactive sites as disabled. It is as:
 
-![disabledsites](/img/product_docs/directorymanager/11.0/portal/entitlement/disabledsites.webp)
+![disabledsites](/images/directorymanager/11.0/portal/entitlement/disabledsites.webp)
 
 A disabled site indicates that the Insights job has not run to replicate permission data for it.
 Once permissions are replicated, the site is enabled.
@@ -48,14 +48,14 @@ showcasing the following information:
 - You can view the files and folders within a document library till the nth level. Double-click a
   folder card to view its direct child files and folders. Continue till the nth level.
 
-    ![sitesfolders](/img/product_docs/directorymanager/11.0/portal/entitlement/sitesfolders.webp)
+    ![sitesfolders](/images/directorymanager/11.0/portal/entitlement/sitesfolders.webp)
 
 ## View levels and permissions on a library
 
 On clicking a library card or even a file/folder card, all users and groups with permission on it
 are listed in the right pane.
 
-![sitesrightpane](/img/product_docs/directorymanager/11.0/portal/entitlement/sitesrightpane.webp)
+![sitesrightpane](/images/directorymanager/11.0/portal/entitlement/sitesrightpane.webp)
 
 Information includes:
 
@@ -87,7 +87,7 @@ Information includes:
 
     You can update the permissions and click **Save** icon.
 
-    ![sitespermissions](/img/product_docs/directorymanager/11.0/portal/entitlement/sitespermissions.webp)
+    ![sitespermissions](/images/directorymanager/11.0/portal/entitlement/sitespermissions.webp)
 
     Permissions are displayed as **Explicit permissions** which list the effective permissions set
     the user/group has on the file/folder.
@@ -98,7 +98,7 @@ Use the search bar to search for specific files and folders in the site. You can
 file or folder in a particular folder. Click the card for that folder and search for the required
 child file/folder.
 
-![sitessearch](/img/product_docs/directorymanager/11.0/portal/entitlement/sitessearch.webp)
+![sitessearch](/images/directorymanager/11.0/portal/entitlement/sitessearch.webp)
 
 **Search filter**
 

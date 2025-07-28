@@ -22,7 +22,7 @@ On the Initial Setup Wizard page, choose the package type you have purchased. If
 Intelligent Change Management or Enterprise Compliance License, enter the **Input Authorization
 Token** sent to you. Click **Next**.
 
-![getting_started_wizard2](/img/product_docs/platgovsalesforce/installing_strongpoint/getting_started_wizard2.webp)
+![getting_started_wizard2](/images/platgovsalesforce/installing_strongpoint/getting_started_wizard2.webp)
 
 ## Add your Credentials
 
@@ -31,7 +31,7 @@ change, an alert is sent to update the saved credentials. Expired credentials ca
 scanners to fail. Use **Netwrix Dashboard** > **Settings**> **SP Credentials** to update your
 credentials.
 
-![getting_started_wizard3](/img/product_docs/platgovsalesforce/installing_strongpoint/getting_started_wizard3.webp)
+![getting_started_wizard3](/images/platgovsalesforce/installing_strongpoint/getting_started_wizard3.webp)
 
 1. On the Credentials page, add the following values:
 
@@ -47,12 +47,12 @@ credentials.
 
 Once you have set up your credentials, you need to configure the remote site settings.
 
-![Testing the connection](/img/product_docs/platgovsalesforce/installing_strongpoint/getting_started_wizard10.webp)
+![Testing the connection](/images/platgovsalesforce/installing_strongpoint/getting_started_wizard10.webp)
 
 1. Open Salesforce **Setup** > **Security** > **Remote Site Settings**.
 2. Click **New Remote Site**.
 
-    ![New Remote Site](/img/product_docs/platgovsalesforce/installing_strongpoint/getting_started_new_rss.webp)
+    ![New Remote Site](/images/platgovsalesforce/installing_strongpoint/getting_started_new_rss.webp)
 
 3. Copy/paste the information from the wizard to create the remote sites.
 4. Click on **Test Connection**. **Test connection was Successful** is displayed if the connection

@@ -20,7 +20,7 @@ secure.
 Despite all this, it is encouraging that the security controls mandated by NIST, PCI and the CIS
 among others are still fit for purpose.
 
-![cloudtrackeroverview](/img/product_docs/changetracker/8.1/cloud/cloudtrackeroverview.webp)
+![cloudtrackeroverview](/images/changetracker/8.1/cloud/cloudtrackeroverview.webp)
 
 But operating them to keep pace let alone get out in front of IT operations is where automation and
 technology can play a part. The most critical of all in terms of giving most bang for buck is NNT's

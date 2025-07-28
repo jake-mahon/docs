@@ -13,7 +13,7 @@ Let’s assume you want to view the groups that are similar to Group A. On the *
 in Group A’s properties, six groups that bear the most similarity to Group A will be displayed, with
 the strongest match at the top. It is as:
 
-![similar_groups](/img/product_docs/directorymanager/11.0/admincenter/portal/design/similar_groups.webp)
+![similar_groups](/images/directorymanager/11.0/admincenter/portal/design/similar_groups.webp)
 
 For a similar group, three attributes are displayed:
 
@@ -27,17 +27,17 @@ What do you want to do?
 
 ## Change the Attributes on the Object List
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Card View** in the left pane.
 5. On the **Card View** page, select _Object List_ in the **Select Directory Object** drop-down
-   list.  
+   list.
    The **Name** list shows the _Header_ option only.
-6. Click **Edit** for _Header_.  
+6. Click **Edit** for _Header_.
    On the **Card View Header/Footer** pane, you can view the attributes currently displayed for a
    similar group in the portal.
 7. The **Title** box displays the displayName attribute. The value of this attribute will be

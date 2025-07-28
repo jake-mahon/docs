@@ -11,7 +11,7 @@ in identifying least privilege from targeted file servers. It identifies where t
 leveraging their permissions to resources from targeted file servers. Requires **Access Auditing**
 component data collection.
 
-![Least Privileged Access > FS_LeastPrivilegedAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/leastprivilegedaccessjobstree.webp)
+![Least Privileged Access > FS_LeastPrivilegedAccess Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/filesystem/activity/leastprivilegedaccessjobstree.webp)
 
 The FS_LeastPrivilegedAccess job is located in the Least Privileged Access job group.
 
@@ -26,7 +26,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_LeastPrivilegedAccess Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/leastprivilegedaccessanalysis.webp)
+![Analysis Tasks for the FS_LeastPrivilegedAccess Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/leastprivilegedaccessanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -56,5 +56,3 @@ produces the following pre-configured reports:
 | Overprovisioning Risk by Share | This report identifies shares with the largest amount of unutilized entitlements and assigns a risk rating to each one.                | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Pie Chart – Displays shares by overprovisioning risk</li><li>Table – Provides details on shares by overprovisioning risk</li></ul> |
 | Overprovisioning Summary       | This report shows the percentage of all entitlements which are being used. An entitlement refers to one user's access to one folder.   | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Pie Chart – entitlements by level of usage</li><li>Table – Provides details on entitlements</li></ul>                              |
 | Remediation                    | If all members of a group are not using their full access, then modification to group permissions on the share will be suggested here. | None                                                  | This report is comprised of one element: <ul><li>Table – Provides details on recommended changes to permissions</li></ul>                                                            |
-
-

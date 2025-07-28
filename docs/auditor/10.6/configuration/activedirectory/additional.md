@@ -129,7 +129,7 @@ navigate to Start > Windows Administrative Tools and select Local Security Polic
 **Step 2 –** In the Local Security Policy snap-in, navigate to **Security Settings** > **Local
 Policies > User Rights Assignment** and locate the **Log on as a batch job** policy.
 
-![manualconfig_ws_logonasbatch](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_ws_logonasbatch.webp)
+![manualconfig_ws_logonasbatch](/images/auditor/10.6/configuration/activedirectory/manualconfig_ws_logonasbatch.webp)
 
 **Step 3 –** Double-click the **Log on as a batch job** policy, and click **Add User or Group**.
 Specify the account that you want to define this policy for.

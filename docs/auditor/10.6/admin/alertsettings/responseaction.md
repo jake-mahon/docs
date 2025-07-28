@@ -10,7 +10,7 @@ Upon the alert triggering, you can instruct Auditor to perform several actions s
 command, a script or other executable file that will perform a remediation action, open a ticket
 with the organization help desk, etc.
 
-![passwordreset](/img/product_docs/auditor/10.6/admin/alertsettings/passwordreset.webp)
+![passwordreset](/images/auditor/10.6/admin/alertsettings/passwordreset.webp)
 
 Response Action settings contain the following configuration options:
 
@@ -43,7 +43,7 @@ Use space character as a separator.
 **Step 4 –** To run _.exe_, _.cmd_ and _.bat_ files, you can enter the path to your command-line or
 batch file directly in the Run field, for example:
 
-![command](/img/product_docs/auditor/10.6/admin/alertsettings/command.webp)
+![command](/images/auditor/10.6/admin/alertsettings/command.webp)
 
 To run the ._ps1_ files, you will need to enter the path to _powershell.exe_ and path to your
 script. For example:
@@ -51,7 +51,7 @@ script. For example:
 - In the Run field, enter _C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe_
 - In the With parameters field, enter `–File <path_to_your_ps_script>`
 
-![powershell](/img/product_docs/auditor/10.6/admin/alertsettings/powershell.webp)
+![powershell](/images/auditor/10.6/admin/alertsettings/powershell.webp)
 
 Unless you select to Write data to CSV file, Auditor will also pass the following parameters to the
 command line:
@@ -131,7 +131,7 @@ the fields and their values in a structured way to a CSV file.
 
 Here is an example of a CSV file structure:
 
-![csvfile](/img/product_docs/auditor/10.6/admin/alertsettings/csvfile.webp)
+![csvfile](/images/auditor/10.6/admin/alertsettings/csvfile.webp)
 
 The number of activity records retrieved per every response action launch will be only limited by
 user (see below for details). If the number of records associated with the alert exceeds this limit,

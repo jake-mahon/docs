@@ -8,7 +8,7 @@ sidebar_position: 40
 
 The Deletions dashboard contains the following cards:
 
-![Deletions Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/product_docs/activitymonitor/7.1/siem/qradar/dashboard/deletionsdashboard.webp)
+![Deletions Dashboard for Stealthbits Activivty Monitor App for QRadar](/images/activitymonitor/7.1/siem/qradar/dashboard/deletionsdashboard.webp)
 
 - Activity – Timeline of all deletion events over the specified time interval
 - Top Users – Displays up-to the top five users associated with deletion events over the specified

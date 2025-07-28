@@ -36,19 +36,19 @@ Follow the steps to install Recovery for Active Directory.
 **Step 1 –** Run the `NetwrixRecovery_Setup.exe` executable as an administrator to launch the
 Recovery for Active Directory Setup wizard.
 
-![Recovery for Active Directory Setup wizard - Initial EULA page](/img/product_docs/recoveryforactivedirectory/2.6/install/eula.webp)
+![Recovery for Active Directory Setup wizard - Initial EULA page](/images/recoveryforactivedirectory/2.6/install/eula.webp)
 
 **Step 2 –** On the Netwrix Recovery for Active Directory page, read the End User License Agreement.
 Then check the **I agree to the license terms and conditions** checkbox and click **Install**.
 
 The Setup Progress page displays the setup progress bar and then the Welcome page is displayed.
 
-![Installation Welcome Page](/img/product_docs/recoveryforactivedirectory/2.6/install/welcome.webp)
+![Installation Welcome Page](/images/recoveryforactivedirectory/2.6/install/welcome.webp)
 
 **Step 3 –** On the Welcome page of the Recovery for Active Directory Setup wizard, click Next to
 begin the installation.
 
-![Installation Destination Folder Page](/img/product_docs/recoveryforactivedirectory/2.6/install/destinationfolder.webp)
+![Installation Destination Folder Page](/images/recoveryforactivedirectory/2.6/install/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, confirm the destination path where the wizard will
 install Recovery for Active Directory. The default installation location is:
@@ -58,14 +58,14 @@ C:\Program Files\Netwrix\Recovery for Active Directory\
 - (Optional) Click Change… to change the installation location. The Change destination folder page
   opens.
 
-![Recovery for Active Directory Setup wizard - Change destination folder page](/img/product_docs/recoveryforactivedirectory/2.6/install/changedestinationfolder.webp)
+![Recovery for Active Directory Setup wizard - Change destination folder page](/images/recoveryforactivedirectory/2.6/install/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
 
 The wizard returns to the Destination Folder page. Click **Next** to continue.
 
-![Installation License File Page](/img/product_docs/recoveryforactivedirectory/2.6/install/licensefile.webp)
+![Installation License File Page](/images/recoveryforactivedirectory/2.6/install/licensefile.webp)
 
 **Step 5 –** On the License File page, select the licensing option for your installation.
 
@@ -76,7 +76,7 @@ The wizard returns to the Destination Folder page. Click **Next** to continue.
 
 Click Next.
 
-![Installation SQL Server Configuration](/img/product_docs/recoveryforactivedirectory/2.6/install/sqlserverconfiguration.webp)
+![Installation SQL Server Configuration](/images/recoveryforactivedirectory/2.6/install/sqlserverconfiguration.webp)
 
 **Step 6 –** On the SQL Server Configuration page, specify the SQL server and credentials to use for
 database communication.
@@ -98,12 +98,12 @@ of the wizard.
 
 Click **Next**.
 
-![Installation SQL Server Database Name](/img/product_docs/recoveryforactivedirectory/2.6/install/sqlserverdatabase.webp)
+![Installation SQL Server Database Name](/images/recoveryforactivedirectory/2.6/install/sqlserverdatabase.webp)
 
 **Step 7 –** On the SQL Server Database page, specify the SQL Server database to use. Use the
 default database name or provide a unique, descriptive name in the box. Click **Next** to continue.
 
-![serverconfiguration](/img/product_docs/recoveryforactivedirectory/2.6/install/serverconfiguration.webp)
+![serverconfiguration](/images/recoveryforactivedirectory/2.6/install/serverconfiguration.webp)
 
 **Step 8 –** On the Netwrix Recovery Server Configuration page, enter the port and credentials to be
 used for running the application server.
@@ -117,7 +117,7 @@ used for running the application server.
 
 Click **Next**.
 
-![Installation Admin Role Page](/img/product_docs/recoveryforactivedirectory/2.6/install/administratorrole.webp)
+![Installation Admin Role Page](/images/recoveryforactivedirectory/2.6/install/administratorrole.webp)
 
 **Step 9 –** On the Administrator Role page, specify the administrator account to use. By default,
 this is set to the Domain Admins account from the domain the product is being installed into.
@@ -131,7 +131,7 @@ this is set to the Domain Admins account from the domain the product is being in
 
 Click **Next**.
 
-![Installation Web Host Configuration](/img/product_docs/recoveryforactivedirectory/2.6/install/webhost.webp)
+![Installation Web Host Configuration](/images/recoveryforactivedirectory/2.6/install/webhost.webp)
 
 **Step 10 –** On the Web Host page, specify the web host configuration for the Recovery for Active
 Directory Console.
@@ -141,7 +141,7 @@ Directory Console.
   Certificate section on the page. Click **Select certificate...**. The Certificates window is
   displayed.
 
-![Installation Certificates Window](/img/product_docs/recoveryforactivedirectory/2.6/install/certificates.webp)
+![Installation Certificates Window](/images/recoveryforactivedirectory/2.6/install/certificates.webp)
 
 - The Certificates window displays installed certificates on either the local machine or the current
   user. Select the desired certificate and click **Use Selected Certificate**. This automatically
@@ -149,11 +149,11 @@ Directory Console.
 
 Click **Next**. Recovery for Active Directory is ready to install.
 
-![Installation Ready to Install](/img/product_docs/recoveryforactivedirectory/2.6/install/ready.webp)
+![Installation Ready to Install](/images/recoveryforactivedirectory/2.6/install/ready.webp)
 
 **Step 11 –** Click **Install** to begin the installation process.
 
-![completed](/img/product_docs/recoveryforactivedirectory/2.6/install/completed.webp)
+![completed](/images/recoveryforactivedirectory/2.6/install/completed.webp)
 
 **Step 12 –** The installation process begins and the Setup wizard displays the installation
 progress. Depending on the Active Directory size, installation may take time to complete. When

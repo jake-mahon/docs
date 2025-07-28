@@ -9,7 +9,7 @@ sidebar_position: 20
 Use the Change Permissions and Auditing Parameters page to specify the permissions and auditing
 settings the action changes.
 
-![File System Action Module Wizard Change Permissions and Auditing Parameters page](/img/product_docs/accessanalyzer/11.6/admin/action/filesystem/parameters/changepermissionsauditing.webp)
+![File System Action Module Wizard Change Permissions and Auditing Parameters page](/images/accessanalyzer/11.6/admin/action/filesystem/parameters/changepermissionsauditing.webp)
 
 Use the following options to enter the Permissions:
 

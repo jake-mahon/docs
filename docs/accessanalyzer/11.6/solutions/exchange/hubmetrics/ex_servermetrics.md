@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_ServerMetrics Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/servermetricsanalysis.webp)
+![Analysis Tasks for the EX_ServerMetrics Job](/images/accessanalyzer/11.6/solutions/exchange/hubmetrics/servermetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -47,4 +47,3 @@ the following pre-configured reports:
 | NDRs (Exchange NDRs)                    | This report shows NDR counts broken down by server.                                 | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top servers by NDRs (last 30 days)</li><li>Table – Provides details on top servers by NDRs (last 30 days)</li></ul>                               |
 | Server Traffic (Top Servers by Traffic) | This report summarizes server traffic across the organization for the Last 30 Days. | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays top servers by total traffic</li><li>Table – Provides details top servers by total traffic</li></ul>                                      |
 | Transport (Transport Messages)          | This report summarizes transport messages across the exchange organization.         | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top servers by transport messages (last 30 days)</li><li>Table – Provides details on top servers by transport messages (last 30 days)</li></ul>   |
-

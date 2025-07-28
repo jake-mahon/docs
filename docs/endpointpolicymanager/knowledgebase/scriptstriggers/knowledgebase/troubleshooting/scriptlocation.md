@@ -11,7 +11,7 @@ before running in the following folder:
 
 `\ProgramData\PolicyPak\PolicyPak Scripts Manager\Temporary Scripts`
 
-![827_1_image002_950x293](/img/product_docs/endpointpolicymanager/scriptstriggers/827_1_image002_950x293.webp)
+![827_1_image002_950x293](/images/endpointpolicymanager/scriptstriggers/827_1_image002_950x293.webp)
 
 During script processing time:
 
@@ -26,9 +26,9 @@ For instance:
 
 If you want to change the temporary script location place you can use the ADMX settings to do it;
 but then you are responsible for setting the right protection on the folder and self-testing that it
-works as expected.  
+works as expected.
 Find the setting Computer Configuration | Admin Templates Manager | PolicyPak ADMX Settings |
 Client-Side Extensions | Scripts Manager | Use custom location for temporary script files like
 what's seen here.
 
-![827_3_image004](/img/product_docs/endpointpolicymanager/scriptstriggers/827_3_image004.webp)
+![827_3_image004](/images/endpointpolicymanager/scriptstriggers/827_3_image004.webp)

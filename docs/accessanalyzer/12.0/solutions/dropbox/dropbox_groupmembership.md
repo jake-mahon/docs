@@ -10,7 +10,7 @@ The Dropbox_GroupMembership job provides insight into group membership within th
 environment, highlighting the largest groups. It is dependent on data collected by the 0.Collection
 job group. This job processes analysis tasks and generates a report.
 
-![3.Group Membership > Dropbox_GroupMembership Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/groupmembershipjobstree.webp)
+![3.Group Membership > Dropbox_GroupMembership Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/dropbox/groupmembershipjobstree.webp)
 
 The Dropbox_GroupMembership job is located in the 3.Group Membership job group.
 
@@ -25,7 +25,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Dropbox_GroupMembership Job](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/groupmembershipanalysis.webp)
+![Analysis Tasks for the Dropbox_GroupMembership Job](/images/accessanalyzer/12.0/solutions/dropbox/groupmembershipanalysis.webp)
 
 - Get group membership details – Creates an interim processing table in the database for use by
   downstream analysis and report generation
@@ -38,4 +38,3 @@ Dropbox_GroupMembership job produces the following pre-configured report.
 | Report           | Description                                                            | Default Tags | Report Elements                                                                                                                                                                                       |
 | ---------------- | ---------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Membership | This report lists membership and owners for all groups within Dropbox. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays largest groups</li><li>Table – Provides summary of group membership</li><li>Table – Provides details on membership</li></ul> |
-

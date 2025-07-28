@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_ExternalUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/m365/externalusersanalysis.webp)
+![Analysis Tasks for the SP_ExternalUsers Job](/images/accessanalyzer/11.6/solutions/sharepoint/m365/externalusersanalysis.webp)
 
 The default analysis task is:
 
@@ -37,4 +37,3 @@ following preconfigured report:
 | ---------------------- | --------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | External User Activity | This report analyzes activity performed by external users in scanned SharePoint environments. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top users by operation count</li><li>Table – Provides summary on external users</li><li>Table – Provides details on external user activity</li></ul> |
 | External User Summary  | This report analyzes activity performed by external users in scanned SharePoint environments. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top users by operation count</li><li>Table – Provides summary on external users</li><li>Table – Provides details on external user activity</li></ul> |
-

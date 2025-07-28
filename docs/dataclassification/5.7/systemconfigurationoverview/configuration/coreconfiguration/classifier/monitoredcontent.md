@@ -10,7 +10,7 @@ You can decrease the Classifier load, targeting it at _monitored content_ only. 
 can schedule content to be automatically re-classified only when a specific condition or set of
 conditions are met, or with a minimum time period between runs.
 
-![core_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core_thumb_0_0.webp)
+![core_thumb_0_0](/images/dataclassification/5.7/configuration/core_thumb_0_0.webp)
 
 :::note
 Each option in this section has an associated “**i**” which describes the nature of the
@@ -31,7 +31,7 @@ To re-classify content that meets specific conditions:
    **Monitored Document Indicator**.
 3. Click on the tag icon, and in the **Select Term** dialog specify the term that should be used to
    identify monitored content:
-   ![core_classifier_mc_terms_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core/core_classifier_mc_terms_thumb_0_0.webp)4.
+   ![core_classifier_mc_terms_thumb_0_0](/images/dataclassification/5.7/configuration/core/core_classifier_mc_terms_thumb_0_0.webp)4.
    When finished, click **Select**, then in the Classifier settings window click **Save**,
 
 To re-classify content with a minimum time period between runs:

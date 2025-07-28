@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The EX_Mailflow job collects message trace data from Office 365.
 
-![0. Collection > EX_Mailflow Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/collectionjobstree.webp)
+![0. Collection > EX_Mailflow Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/online/mailflow/collectionjobstree.webp)
 
 The EX_Mailflow job is located in the **Mailflow** > **0. Collection** job group.
 
@@ -30,7 +30,7 @@ additional information.
 
 The EX_Mailflow job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Mailflow Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowqueries.webp)
+![Queries for the EX_Mailflow Job](/images/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowqueries.webp)
 
 The following queries are included in the EX_Mailflow job:
 
@@ -73,7 +73,7 @@ Do not modify other wizard pages. The wizard pages are pre-configured for this j
 :::
 
 
-![ExchangePS Data Collector Wizard Mail Flow page](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.webp)
+![ExchangePS Data Collector Wizard Mail Flow page](/images/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowmetricsdcwizard.webp)
 
 **Step 4 –** To modify the report dates, navigate to the Mail Flow page. Set the report data range
 as desired. See the
@@ -100,7 +100,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_Mailflow Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowanalysis.webp)
+![Analysis Tasks for the EX_Mailflow Job](/images/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowanalysis.webp)
 
 The following analysis tasks are selected by default:
 

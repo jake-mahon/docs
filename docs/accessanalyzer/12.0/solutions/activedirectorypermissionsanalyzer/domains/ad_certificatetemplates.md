@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_CertificateTemplates Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificatetemplatesanalysis.webp)
+![Analysis Tasks for the AD_CertificateTemplates Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificatetemplatesanalysis.webp)
 
 The default analysis tasks are:
 
@@ -34,4 +34,3 @@ produces the following pre-configured report.
 | Report                             | Description                                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                            |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Certificate Template Configuration | This report highlights certificate templates and their configurations in the audited Certificate Authority. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays templates by Certificate Authority</li><li>Pie Chart – Displays templates by permission count</li><li>Table – Provides details on certificate templates</li></ul> |
-

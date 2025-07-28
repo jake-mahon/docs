@@ -24,7 +24,7 @@ fail.
 Create password policies and configure the password complexity requirements on this page. The
 password policy only applies to managed accounts created by Privilege Secure.
 
-![Password Complexity Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/page_5.webp)
+![Password Complexity Page](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/page_5.webp)
 
 The pane on the left side of the page displays a list of the configured password complexity
 policies. This pane has the following features:

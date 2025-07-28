@@ -11,7 +11,7 @@ proactively identify critical security configurations that leave the environment
 attack. The result is a report which provides a listing of findings by severity and category with
 corresponding details that can be used to prioritize and remediate security issues.
 
-![SG_SecurityAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/windows/securityassessmentjobstree.webp)
+![SG_SecurityAssessment Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/windows/securityassessmentjobstree.webp)
 
 ## Recommended Configurations for the SG_SecurityAssessment Job
 
@@ -69,7 +69,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_SecurityAssessment Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/securityassessmentanalysis.webp)
+![Analysis Tasks for the SG_SecurityAssessment Job](/images/accessanalyzer/12.0/solutions/windows/securityassessmentanalysis.webp)
 
 The default analysis task is:
 
@@ -82,4 +82,3 @@ produces the following pre-configured report.
 | Report                      | Description                                                                    | Default Tags          | Report Elements                                                                                                                                                                                                                                                                   |
 | --------------------------- | ------------------------------------------------------------------------------ | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Systems Security Assessment | This report summarizes security related results from the Windows solution set. | GDPR, SOX, PCI, HIPAA | This report is comprised of four elements: <ul><li>Pie Chart – Displays a findings by severity</li><li>Table – Provides scope of audit details</li><li>Table – Displays details on security assessment results</li><li>Table – Provides details on findings by category</li></ul> |
-

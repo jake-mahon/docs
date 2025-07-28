@@ -13,26 +13,26 @@ license information from the Enterprise Auditor installation directory.
 
 Follow the steps to import a license key file.
 
-![Activity Monitor Installation with Trial License](/img/product_docs/activitymonitor/7.1/install/triallicense.webp)
+![Activity Monitor Installation with Trial License](/images/activitymonitor/7.1/install/triallicense.webp)
 
 **Step 1 –** Click the **Licensed to: &lt;Trial User&gt;** hyperlink in the lower-left corner of the
 Console. Alternatively, click the **View License** link in the yellow warning bar at the top. The
 License Information window opens.
 
-![Trial License Information](/img/product_docs/activitymonitor/7.1/install/triallicenseinfo.webp)
+![Trial License Information](/images/activitymonitor/7.1/install/triallicenseinfo.webp)
 
 **Step 2 –** Click Load New License File and navigate to where the key is located. A Windows file
 explorer opens.
 
-![Open Dialog Box to load New License File](/img/product_docs/activitymonitor/7.1/install/loadlicense.webp)
+![Open Dialog Box to load New License File](/images/activitymonitor/7.1/install/loadlicense.webp)
 
 **Step 3 –** Select the `.lic` file and click Open. The selected license key is then read.
 
-![Activity Monitor License Information](/img/product_docs/activitymonitor/7.1/install/licenseinfo.webp)
+![Activity Monitor License Information](/images/activitymonitor/7.1/install/licenseinfo.webp)
 
 **Step 4 –** In the License Information window, click **Apply** to import the License Key.
 
-![Activity Monitor with License](/img/product_docs/activitymonitor/7.1/install/licenseadded.webp)
+![Activity Monitor with License](/images/activitymonitor/7.1/install/licenseadded.webp)
 
 **Step 5 –** The organization's license key is now imported into the Activity Monitor. The Console
 returns to the Agents tab and is ready to deploy activity agents.

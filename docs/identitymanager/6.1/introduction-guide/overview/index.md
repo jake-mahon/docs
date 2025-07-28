@@ -36,7 +36,7 @@ central repository. This repository should contain all the organizational data r
 management for all users, meaning not only employees but also contractors, bots, or any kind of
 identity.
 
-![Synchronization](/img/product_docs/identitymanager/6.1/introduction-guide/overview/overview_synchronization.webp)
+![Synchronization](/images/identitymanager/6.1/introduction-guide/overview/overview_synchronization.webp)
 
 **This implies involving external systems.**
 
@@ -44,7 +44,7 @@ Access management requires reading/writing data to/from varied systems and appli
 Active Directory. Usercube provides an expanded set of connectors which contain the technology
 required for IGA-related data flows.
 
-![Connectors](/img/product_docs/identitymanager/6.1/introduction-guide/overview/overview_connectors.webp)
+![Connectors](/images/identitymanager/6.1/introduction-guide/overview/overview_connectors.webp)
 
 [See more details on identity management and connection between systems](/docs/identitymanager/6.1/introduction-guide/overview/identity-management/index.md).
 
@@ -64,7 +64,7 @@ As each working environment has its own particularities, you will be able to ref
 model by defining dimensions, i.e. criteria from among organizational data that will trigger the
 rules.
 
-![Calculation](/img/product_docs/identitymanager/6.1/introduction-guide/overview/overview_calculation.webp)
+![Calculation](/images/identitymanager/6.1/introduction-guide/overview/overview_calculation.webp)
 
 **---**
 
@@ -75,7 +75,7 @@ by the role model. This provisioning can be done either directly, with automatic
 notifying system administrators of the needed changes. Thus, identities finally get their
 entitlements.
 
-![Provisioning](/img/product_docs/identitymanager/6.1/introduction-guide/overview/overview_provisioning.webp)
+![Provisioning](/images/identitymanager/6.1/introduction-guide/overview/overview_provisioning.webp)
 
 Furthermore, Usercube provides a few workflows for entitlement request or user data modification,
 which often include approval from a third party, hence identities get their entitlements securely.

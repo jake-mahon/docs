@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The configuration wizard opens in the default web browser:
 
-![GenericLinuxConfigWizard](/img/product_docs/auditor/10.6/addon/linux/configwizard.webp)
+![GenericLinuxConfigWizard](/images/auditor/10.6/addon/linux/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

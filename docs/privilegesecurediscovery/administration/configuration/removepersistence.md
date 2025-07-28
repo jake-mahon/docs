@@ -14,22 +14,22 @@ Remove Persistence on Machines
 
 Once freeze mode has been implemented
 ([Freeze Mode](/docs/privilegesecurediscovery/requirements/technicalpreparation/freeze_mode.md)),
-persistent access needs to be reduced. This should be done  
+persistent access needs to be reduced. This should be done
 in a risk-based approach, by targeting the groups that convey most access. This activity can be
-split by  
+split by
 workstations/laptops and servers, if that suits the organization. The steps described in this
-article  
+article
 explain the steps that should be undertaken group by group to remove persistent access to
-eliminate  
+eliminate
 lateral movement.
 
 ### Project Management Steps
 
 The Active Directory group or groups to be targeted for removal of persistence should be decided.
-This  
-could be done by targeting a specific team and hence the group(s) that they use for their access.  
+This
+could be done by targeting a specific team and hence the group(s) that they use for their access.
 Once the group(s) have been decided, the people in those AD groups should be informed that change
-is  
+is
 being made. This communication should include:
 
 - Date of the change
@@ -38,9 +38,9 @@ being made. This communication should include:
 - Training information (this can be reference to presentations, in person training, videos etc)
 - How users can request help
 
-The organization may also have change managements gates that must be completed to allow the  
+The organization may also have change managements gates that must be completed to allow the
 change to be implemented. A checklist should be created to ensure that the following steps are
-carried  
+carried
 out:
 
 - Group(s) members have been informed of need to user Privilege Secure as of date X
@@ -57,29 +57,29 @@ out:
 ### Review Group
 
 The group(s) should now be reviewed for any service accounts that are exist within the group(s).
-These  
-do not need to be removed from the group, but should be applied directly to the same machines that  
+These
+do not need to be removed from the group, but should be applied directly to the same machines that
 the group exists on. This will ensure that the software or process that utilizes that service
-account will  
+account will
 continue to run.
 
 ### Apply Service Accounts Directly to Machine
 
 Applying these service accounts directly to the machines that they exist on as part of the
-interactive  
+interactive
 group can easily be done by Quickstart. The method for carrying this out is detailed in the
-“Applying a  
+“Applying a
 Service Account Directly to a Machine” article
 ([](https://remediant.zendesk.com/hc/en-us/articles/4995338773655-Applying-a-Service-Account-from-an-existing-AD-group-Directly-to-a-Machine)[Apply a Service Account from an existing AD group Directly to a Machine](/docs/privilegesecurediscovery/administration/configuration/applyserviceaccount.md)).
 
 ### Pull Quickstart File
 
 Once the services have been mitigated, a Quickstart file should be obtained for the target
-machines.  
+machines.
 This should either cover all of the environment, or could be split between servers and
-workstations.  
-Breaking this up too much can involve substantially more work and can lead to confusion during the  
-rollout (“should I use Privilege Secure or not for this machine”!).  
+workstations.
+Breaking this up too much can involve substantially more work and can lead to confusion during the
+rollout (“should I use Privilege Secure or not for this machine”!).
 The Excel spreadsheet is pulled using the following command from the Quickstart reporting folder
 
 ```
@@ -88,25 +88,25 @@ reports211.py --insecure
 
 The Quickstart report script is likely to be different for the specific install.
 
-![Screenshot__3_.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/5099864805015_screenshot__3__543x307.webp)
+![Screenshot__3_.webp](/images/privilegesecure/4.2/discovery/admin/configuration/5099864805015_screenshot__3__543x307.webp)
 
 This produces an Excel file with two tabs, Computer Data and Admin List.
 
 ### Update Quickstart File
 
 Updating the excel file to remove persistence is easy. Using the Admin List tab, filter for the
-group that  
+group that
 needs persistence to be reverted, in this case Domain Admins.
 
-![Screenshot_2022-03-29_094603.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/5099864805015_screenshot_2022-03-29_094603.webp)
+![Screenshot_2022-03-29_094603.webp](/images/privilegesecure/4.2/discovery/admin/configuration/5099864805015_screenshot_2022-03-29_094603.webp)
 
-Set the persistence column to FALSE.  
+Set the persistence column to FALSE.
 Remove any formatting or filtering and save the file with a suitable filename to denote the change.
 
 ### Run Quickstart File
 
 The file can then be uploaded using the following command from the folder that stores the
-Quickstart  
+Quickstart
 report file.
 
 ```
@@ -114,7 +114,7 @@ reports211.py --insecure -protect-mode-file apply_service_account_DATE.xlsx --dr
 ```
 
 It is recommended to include the date and what the purpose of the excel file is expected to do
-within  
+within
 the file name. Use the --dry-run flag to check that file will make the intended changes. This will
 remove the persistence and ensure that users who gain administrative access to machines using this
 group must now use Privilege Secure.

@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the AD_ContainerRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/containerrightsquery.webp)
+![Query for the AD_ContainerRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/containerrightsquery.webp)
 
 - Container Access Permissions – Returns containers under the given scope
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_ContainerRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/containerrightsanalysis.webp)
+![Analysis Tasks for the AD_ContainerRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/containerrightsanalysis.webp)
 
 The default analysis tasks are:
 

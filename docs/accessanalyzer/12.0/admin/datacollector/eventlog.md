@@ -29,7 +29,7 @@ Analyzer licenses.
 
 The EventLog Data Collector is configured through the Event Log Browser window.
 
-![Event Log Browser window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/eventlogbrowser.webp)
+![Event Log Browser window](/images/accessanalyzer/12.0/admin/datacollector/eventlogbrowser.webp)
 
 **Sample**
 

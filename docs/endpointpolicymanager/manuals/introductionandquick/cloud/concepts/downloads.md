@@ -27,7 +27,7 @@ then exported for use with Endpoint Policy Manager cloud.
 
 The main menu for the Endpoint Policy Manager Customer Portal is shown below.
 
-![concepts_logons_and_downloads_10_374x437](/img/product_docs/endpointpolicymanager/cloud/concepts_logons_and_downloads_10_374x437.webp)
+![concepts_logons_and_downloads_10_374x437](/images/endpointpolicymanager/cloud/concepts_logons_and_downloads_10_374x437.webp)
 
 Video: For an overview on how to use the Endpoint Policy Manager Customer Portal, please watch this
 video: [http://www.endpointpolicymanager.com/customerportal](http://www.endpointpolicymanager.com/customerportal).
@@ -48,7 +48,7 @@ the download in virtual environments (which can easily mount ISO files) or to bu
 Below you can see the list of files and directories that are inside the Endpoint Policy Manager ISO
 download.
 
-![concepts_logons_and_downloads_11_624x287](/img/product_docs/endpointpolicymanager/cloud/concepts_logons_and_downloads_11_624x287.webp)
+![concepts_logons_and_downloads_11_624x287](/images/endpointpolicymanager/cloud/concepts_logons_and_downloads_11_624x287.webp)
 
 You won't need most of these items for Endpoint Policy Manager Cloud. Indeed, the only folders you
 need are the **Admin Console MSI** folder and the **Client Side Extension (CSE)** folder, as

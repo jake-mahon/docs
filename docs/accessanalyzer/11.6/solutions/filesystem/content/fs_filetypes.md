@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The FS_FileTypes job is designed to report on file type information from targeted file servers.
 
-![File Types > FS_FileTypes Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/content/filetypesjobstree.webp)
+![File Types > FS_FileTypes Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/content/filetypesjobstree.webp)
 
 The FS_FileTypes job is located in the File Types job group.
 
@@ -23,7 +23,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_FileTypes Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/content/filetypesanalysis.webp)
+![Analysis Tasks for the FS_FileTypes Job](/images/accessanalyzer/11.6/solutions/filesystem/content/filetypesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ following pre-configured report:
 | Report     | Description                                                                                                                                    | Default Tags | Report Elements                                                                                                                                                       |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | File Types | This report identifies what types of files are located within your distributed file system and how much space they are taking up in gigabytes. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays file types extensions ranked</li><li>Table – Provides details on file types by share</li></ul> |
-

@@ -148,7 +148,7 @@ and follow the naming rule:
 A permission specifying the activity without the activity state gives the permissions for all
 activity states in this activity.
 
-For example: `Permission="/Custom/Workflows/Directory_User_StartInternal/Request"`  
+For example: `Permission="/Custom/Workflows/Directory_User_StartInternal/Request"`
 **Caution**: this way of writing permissions is unsafe in case of a modification in the activity. So
 use it only for a "super admin" kind of profile if you are certain you want to give all rights.
 
@@ -160,9 +160,9 @@ make workflows accessible from the UI.
 Usercube's UI is configured so that workflows are accesible from:
 
 - the list of users accessible from the **Directory** section on the home page;
-  ![Workflow Menu Items - Users List](/img/product_docs/identitymanager/6.1/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
+  ![Workflow Menu Items - Users List](/images/identitymanager/6.1/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
 - the view page of a given user. In this case, the workflows manipulate the selected user.
-  ![Workflow Menu Items - User's Page](/img/product_docs/identitymanager/6.1/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
+  ![Workflow Menu Items - User's Page](/images/identitymanager/6.1/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
 ## Aspects
 

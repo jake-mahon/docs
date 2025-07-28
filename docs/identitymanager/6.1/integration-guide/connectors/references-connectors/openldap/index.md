@@ -12,7 +12,7 @@ directory.
 This page is about
 [Directory/Open LDAP](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/open-ldap/index.md).
 
-![Package: Directory/Open LDAP](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
+![Package: Directory/Open LDAP](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
 
 ## Overview
 

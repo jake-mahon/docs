@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Scan options page provides general scan options. It is a wizard page for all of the categories.
 
-![options](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/options.webp)
+![options](/images/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/options.webp)
 
 Select any desired scan options:
 

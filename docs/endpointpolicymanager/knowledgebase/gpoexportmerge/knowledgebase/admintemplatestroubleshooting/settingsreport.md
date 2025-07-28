@@ -10,7 +10,7 @@ If you use Netwrix Endpoint Policy Manager (formerly PolicyPak) Admin Templates 
 Collections or Items, you might not see them in the Group Policy Settings report, like what's seen
 here.
 
-![494_1_image002](/img/product_docs/endpointpolicymanager/troubleshooting/administrativetemplates/494_1_image002.webp)
+![494_1_image002](/images/endpointpolicymanager/troubleshooting/administrativetemplates/494_1_image002.webp)
 
 This is because the Endpoint Policy Manager Admin Console MSI (MMC snap-in) needs to be upgraded to
 at least version 753.Once you upgrade to Endpoint Policy Manager
@@ -19,4 +19,4 @@ Admin Console MSI 753 you need to open and save each collection and policy.
 
 After that, reporting is written as seen here. (An example of a Policy in a Collection.)
 
-![494_2_image0041](/img/product_docs/endpointpolicymanager/troubleshooting/administrativetemplates/494_2_image0041.webp)
+![494_2_image0041](/images/endpointpolicymanager/troubleshooting/administrativetemplates/494_2_image0041.webp)

@@ -23,7 +23,7 @@ Follow the steps to generate the enrollment secret.
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Then click **Agent
 Enrollment Secret** to launch the Enrollment Secret Configuration window.
 
-![Enrollment Secret Configuration window](/img/product_docs/threatprevention/7.4/admin/agents/window/enrollmentsecret.webp)
+![Enrollment Secret Configuration window](/images/threatprevention/7.4/admin/agents/window/enrollmentsecret.webp)
 
 The Enrollment Secret Configuration window enables you to generate the enrollment secret required to
 manually deploy the Agent. It has the following fields:

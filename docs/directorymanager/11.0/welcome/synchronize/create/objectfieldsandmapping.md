@@ -104,17 +104,17 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         | Icon                                                                                          | Description                                            |
         | --------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-        | ![undo](/img/product_docs/directorymanager/11.0/portal/synchronize/job/undo.webp)             | Reverses the last change.                              |
-        | ![redo](/img/product_docs/directorymanager/11.0/portal/synchronize/job/redo.webp)             | Re-applies a change reversed using the Undo action.    |
-        | ![indent](/img/product_docs/directorymanager/11.0/portal/synchronize/job/indent.webp)         | Increases the indenting of the current text selection. |
-        | ![outdent](/img/product_docs/directorymanager/11.0/portal/synchronize/job/outdent.webp)       | Decreases the indenting of the current text selection. |
-        | ![comment](/img/product_docs/directorymanager/11.0/portal/synchronize/job/comment.webp)       | Comments the current text selection.                   |
-        | ![uncomment](/img/product_docs/directorymanager/11.0/portal/synchronize/job/uncomment.webp)   | Uncomments the current text selection.                 |
-        | ![uppercase](/img/product_docs/directorymanager/11.0/portal/synchronize/job/uppercase.webp)   | Converts the current text selection to uppercase.      |
-        | ![lowercase](/img/product_docs/directorymanager/11.0/portal/synchronize/job/lowercase.webp)   | Converts the current text selection to lowercase.      |
-        | ![darktheme](/img/product_docs/directorymanager/11.0/portal/synchronize/job/darktheme.webp)   | Switch the theme of the script editor to dark.         |
-        | ![lighttheme](/img/product_docs/directorymanager/11.0/portal/synchronize/job/lighttheme.webp) | Switch the theme of the script editor to light.        |
-        | ![selectall](/img/product_docs/directorymanager/11.0/portal/synchronize/job/selectall.webp)   | Selects all the text in the editor.                    |
+        | ![undo](/images/directorymanager/11.0/portal/synchronize/job/undo.webp)             | Reverses the last change.                              |
+        | ![redo](/images/directorymanager/11.0/portal/synchronize/job/redo.webp)             | Re-applies a change reversed using the Undo action.    |
+        | ![indent](/images/directorymanager/11.0/portal/synchronize/job/indent.webp)         | Increases the indenting of the current text selection. |
+        | ![outdent](/images/directorymanager/11.0/portal/synchronize/job/outdent.webp)       | Decreases the indenting of the current text selection. |
+        | ![comment](/images/directorymanager/11.0/portal/synchronize/job/comment.webp)       | Comments the current text selection.                   |
+        | ![uncomment](/images/directorymanager/11.0/portal/synchronize/job/uncomment.webp)   | Uncomments the current text selection.                 |
+        | ![uppercase](/images/directorymanager/11.0/portal/synchronize/job/uppercase.webp)   | Converts the current text selection to uppercase.      |
+        | ![lowercase](/images/directorymanager/11.0/portal/synchronize/job/lowercase.webp)   | Converts the current text selection to lowercase.      |
+        | ![darktheme](/images/directorymanager/11.0/portal/synchronize/job/darktheme.webp)   | Switch the theme of the script editor to dark.         |
+        | ![lighttheme](/images/directorymanager/11.0/portal/synchronize/job/lighttheme.webp) | Switch the theme of the script editor to light.        |
+        | ![selectall](/images/directorymanager/11.0/portal/synchronize/job/selectall.webp)   | Selects all the text in the editor.                    |
 
     8. Click **Save** to save the changes made to the script.
 
@@ -152,8 +152,8 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
        creating a new object. Fields that are not selected are continually updated. Key fields are
        selected by default as New Only fields as a requirement; you cannot change this selection.
 
-        NOTE: For Microsoft Entra ID objects, primary key fields are:  
-         (1) UserPrincipleName attribute for “User/Mailbox” object  
+        NOTE: For Microsoft Entra ID objects, primary key fields are:
+         (1) UserPrincipleName attribute for “User/Mailbox” object
          (2) DisplayName attribute for “Group” object.
 
     4. Select **Show field reference** check box to view a list of attributes from the schema of the

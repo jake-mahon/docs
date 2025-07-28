@@ -13,7 +13,7 @@ servers.
 
 The queries for the 5-Oracle_Configuration Job query uses the SQL Data Collector.
 
-![5oracleconfigurationqueries](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/5oracleconfigurationqueries.webp)
+![5oracleconfigurationqueries](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/5oracleconfigurationqueries.webp)
 
 The queries are:
 
@@ -39,7 +39,7 @@ pre-configured for this job.
 :::
 
 
-![Filters page](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/5oracleconfigjobqueryfilterpage.webp)
+![Filters page](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/5oracleconfigjobqueryfilterpage.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the Filter page. The default
 query target is All Databases. The default query scope is Only select database objects. Click

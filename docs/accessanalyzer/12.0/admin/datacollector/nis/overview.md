@@ -39,7 +39,7 @@ following wizard pages:
 - [NIS: Results](/docs/accessanalyzer/12.0/admin/datacollector/nis/results.md)
 - [NIS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/nis/summary.md)
 
-![NIS Data Collector Wizard Welcome page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/nis/welcome.webp)
+![NIS Data Collector Wizard Welcome page](/images/accessanalyzer/12.0/admin/datacollector/nis/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

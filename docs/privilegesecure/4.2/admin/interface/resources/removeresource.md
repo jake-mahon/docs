@@ -16,7 +16,7 @@ Follow the steps to remove a resource.
 
 **Step 3 –** Click **Remove** to open the Remove Resource window.
 
-![Remove Resource Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/removeresource.webp)
+![Remove Resource Window](/images/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/removeresource.webp)
 
 **Step 4 –** Select the **Remove from Database** checkbox to remove the selected resource(s) from
 the database.

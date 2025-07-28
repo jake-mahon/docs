@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup24.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup24.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following pre-configured report.
 | Report       | Description                                                          | Default Tags | Report Elements                                                                                                                                                                                                                   |
 | ------------ | -------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Oracle Users | This report shows details on users in the audited Oracle environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays users by instance</li><li>Table – Provides details on oracle user instance summary</li><li>Table – Provides information on oracle user details</li></ul> |
-

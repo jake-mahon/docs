@@ -18,7 +18,7 @@ and
 [Edit Review Wizard](/docs/accessinformationcenter/11.6/resourcereviews/edit.md)
 topics for additional information.
 
-![Response Received email](/img/product_docs/accessinformationcenter/11.6/resourcereviews/email/responsereceived.webp)
+![Response Received email](/images/accessinformationcenter/11.6/resourcereviews/email/responsereceived.webp)
 
 The email includes information about the review and the number of changes that have been submitted
 by the resource owner. Sign in to see the response and process the review. See the

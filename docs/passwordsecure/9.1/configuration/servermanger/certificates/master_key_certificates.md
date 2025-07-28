@@ -14,7 +14,7 @@ a certificate will be created. This has the name
 
 Active Directory: Domain:
 
-![installation_with_parameters_208](/img/product_docs/passwordsecure/9.1/configuration/server_manager/certificates/installation_with_parameters_208.webp)
+![installation_with_parameters_208](/images/passwordsecure/9.1/configuration/server_manager/certificates/installation_with_parameters_208.webp)
 
 NOTE: The Master Key certificate cannot be replaced by your own certificate.
 

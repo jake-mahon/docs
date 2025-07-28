@@ -24,7 +24,7 @@ Do not modify the action tasks. The action tasks are preconfigured for this job.
 :::
 
 
-![Action Tasks for the FS_QuarantineData Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/quarantinedataactions.webp)
+![Action Tasks for the FS_QuarantineData Job](/images/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/quarantinedataactions.webp)
 
 The following action tasks are deselected by default:
 

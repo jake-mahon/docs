@@ -31,7 +31,7 @@ Administrative Tools **> ADSI Edit**.
 Settings** dialog, enable **Select a well-known Naming Context** and select **Configuration** from
 the drop-down list.
 
-![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
+![manualconfig_adsi_connectionwinserver2016](/images/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
 
 **Step 3 –** Navigate to **Configuration `<Your_Root_Domain_Name>` →
 CN=Configuration,DC=`<name>`,DC=`<name>` → CN=Services → CN=Windows NT → CN=Directory Service**.
@@ -40,6 +40,6 @@ Right-click it and select **Properties** from the pop-up menu.
 **Step 4 –** In the **CN=Directory Service Properties** dialog, locate the **tombstoneLifetime**
 attribute in the **Attribute Editor** tab.
 
-![manualconfig_adsi_tombstone_winserver2016](/img/product_docs/auditor/10.7/configuration/activedirectory/manualconfig_adsi_tombstone_winserver2016.webp)
+![manualconfig_adsi_tombstone_winserver2016](/images/auditor/10.7/configuration/activedirectory/manualconfig_adsi_tombstone_winserver2016.webp)
 
 **Step 5 –** Click **Edit**. Set the value to _"730"_ (which equals 2 years).

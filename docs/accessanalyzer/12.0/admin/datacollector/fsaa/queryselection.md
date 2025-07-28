@@ -9,7 +9,7 @@ sidebar_position: 20
 The FSAA Data Collector Query Selection page contains the following query categories, sub-divided by
 auditing focus:
 
-![FSAA Data Collector Wizard Query Selection page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/queryselection.webp)
+![FSAA Data Collector Wizard Query Selection page](/images/accessanalyzer/12.0/admin/datacollector/fsaa/queryselection.webp)
 
 - The File System Access/Permission Auditing options scan hosts for file system information, and
   there are two categories to choose from:
@@ -85,7 +85,7 @@ The Maintenance Wizard is opened by clicking the **Maintenance** button on the Q
 of the FSAA Data Collector Wizard. You can use the wizard to reset hosts or repair file system data
 errors.
 
-![Maintenance Wizard Maintenance Selection page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/maintenancewizardselection.webp)
+![Maintenance Wizard Maintenance Selection page](/images/accessanalyzer/12.0/admin/datacollector/fsaa/maintenancewizardselection.webp)
 
 The Maintenance Selection page allows you to select the type of maintenance to be performed:
 
@@ -99,14 +99,14 @@ selection made.
 
 - If Reset Hosts was selected, the Reset Hosts page displays:
 
-    ![Maintenance Wizard Reset Hosts page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/maintenancewizardresethosts.webp)
+    ![Maintenance Wizard Reset Hosts page](/images/accessanalyzer/12.0/admin/datacollector/fsaa/maintenancewizardresethosts.webp)
 
     Select the desired hosts to reset the SQL data for, and click **Reset Hosts** to perform the
     maintenance.
 
 - If Repair was selected, the Repair Tool page displays:
 
-    ![Maintenance Wizard Repair Tool page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/maintenancewizardrepair.webp)
+    ![Maintenance Wizard Repair Tool page](/images/accessanalyzer/12.0/admin/datacollector/fsaa/maintenancewizardrepair.webp)
 
     Select the desired hosts to repair the SQL data for, and click **Run** to perform the
     maintenance.

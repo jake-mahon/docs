@@ -120,7 +120,7 @@ In the newly created subsection, fill in:
 For pedagogical reasons, this guide focuses on the simplest way to set up the export, but it's not
 the most secure. Hence it is strongly recommended that you
 [protect credentials using Azure Key Vault or CyberArk](/docs/identitymanager/6.1/integration-guide/connectors/references-connectors/scim/index.md)
-in a production environment.  
+in a production environment.
  NETWRIX recommends completing this guide once, testing the configuration, and only then, switching
 to a more secure way of storing credentials.
 
@@ -577,7 +577,7 @@ Conf/SCIMCyberArk/CyberArk Nav.xml
 Adds a new menu item under the `Nav_Connectors` menu item declared in the root `Nav.xml` file. This
 new menu item gives access to the list of synchronized CyberArk SCIM objects.
 
-![SCIM CyberArk Menu Items](/img/product_docs/identitymanager/6.1/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_menu_item_5.1.6.webp)
+![SCIM CyberArk Menu Items](/images/identitymanager/6.1/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_menu_item_5.1.6.webp)
 
 ### Configuration
 
@@ -602,7 +602,7 @@ Conf/SCIMCyberArk/CyberArk UI.xml
 This configuration configures that display for
 [christian.adam@acme.com](mailto:christian.adam@acme.com):
 
-![SCIM CyberArk Display Entity Type](/img/product_docs/identitymanager/6.1/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_entity_type_5.1.6.webp)
+![SCIM CyberArk Display Entity Type](/images/identitymanager/6.1/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_entity_type_5.1.6.webp)
 
 The scalar properties don't need to be configured: they are automatically displayed. The only
 information that the
@@ -633,7 +633,7 @@ Conf/SCIMCyberArk/CyberArk UI.xml
 
 configures the following list display:
 
-![SCIM CyberArk Display Table](/img/product_docs/identitymanager/6.1/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_table_5.1.6.webp)
+![SCIM CyberArk Display Table](/images/identitymanager/6.1/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_table_5.1.6.webp)
 
 #### Internal display name
 
@@ -757,7 +757,7 @@ Conf/Profile AgentJob.xml
 As the Principle of Least Privilege states, NETWRIX strongly recommends that you create a
 [Profile](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
 to be used during the Synchronization jobs which will be different from the one used during the
-Provisioning job. This contributes to separating access rights.  
+Provisioning job. This contributes to separating access rights.
 The same principle applied even more rigorously would make Usercube create one profile per Task. It
 isn't necessary as most Synchronization tasks require the same permissions.
 

@@ -13,7 +13,7 @@ can then be subsequently viewed and evaluated. In this context, it is also possi
 functionality so that only the user themselves or an assigned person e.g. security officer can view
 and evaluate these recordings.
 
-![notifications modul](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/notifications_1-en.webp)
+![notifications modul](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/notifications_1-en.webp)
 
 ## Relevant rights
 
@@ -33,11 +33,11 @@ can take place.
 
 RDP
 
-![activating session recording](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_2-en.webp)
+![activating session recording](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_2-en.webp)
 
 SSH
 
-![activating session recording](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_3-en.webp)
+![activating session recording](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_3-en.webp)
 
 If the setting has been activated, the recording will start automatically the next time a connection
 is established.
@@ -51,19 +51,19 @@ immediately saved until the connection is terminated or until the end of the ses
 If recordings exist for an application, these can be called up and viewed in the Applications
 module.
 
-![viewing session recording](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_4-en.webp)
+![viewing session recording](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_4-en.webp)
 
 It is possible to search the session recordings using the filter as usual. It is also possible here
 to limit the search results based on the date and user. In the section on the right, it is also
 possible to further filter the searched list based on all column contents.
 
-![session records](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_5-en.webp)
+![session records](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_5-en.webp)
 
 Once a session recording has been selected, a new tab will open in which you can view the recording.
 The function "Skip inactivity" can be activated via the ribbon so that a recording can be
 effectively and quickly viewed so as only to see the relevant actions.
 
-![viewing a session recording](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_6-en.webp)
+![viewing a session recording](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/recording_a_session_6-en.webp)
 
 When are indicators set?
 

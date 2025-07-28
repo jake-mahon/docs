@@ -32,11 +32,11 @@ Create the WLAN GPO and apply it to the OU where the Computers live, next use Ne
 Policy Manager (formerly PolicyPak) Scripts Manager > on the Computer side to create a new policy
 item.
 
-![497_1_img-1](/img/product_docs/endpointpolicymanager/scriptstriggers/497_1_img-1.webp)
+![497_1_img-1](/images/endpointpolicymanager/scriptstriggers/497_1_img-1.webp)
 
 At the "Specify policy target screen be sure to use switched mode for the policy.
 
-![497_2_img-2](/img/product_docs/endpointpolicymanager/scriptstriggers/497_2_img-2.webp)
+![497_2_img-2](/images/endpointpolicymanager/scriptstriggers/497_2_img-2.webp)
 
 For the Apply action use the command below (remember to use the PowerShell Script option from the
 drop down).
@@ -45,7 +45,7 @@ drop down).
 
 Verify that "Run script as user" check box is checked then click "Save"
 
-![497_3_img-3](/img/product_docs/endpointpolicymanager/scriptstriggers/497_3_img-3.webp)
+![497_3_img-3](/images/endpointpolicymanager/scriptstriggers/497_3_img-3.webp)
 
 :::note
 If needed you can delete this WLAN profile from a computer using an elevated PowerShell

@@ -43,7 +43,7 @@ selected analysis tasks.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
 
 The default analysis tasks are:
 

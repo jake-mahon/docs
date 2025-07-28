@@ -16,7 +16,7 @@ To grant permissions to the account for SQL Server audit, do the following on th
 
 - To access SQL Server, Windows authentication will be used, so the data collection account should
   be a Windows account specified in the _domain\user_ format (_domain\user$_ for Managed Service
-  Account).  
+  Account).
   SQL Server logins and authentication method are not supported.
 - The account must be assigned the _System Administrator_ server role for this SQL Server. See the
   [Assign 'System Administrator' Role](#assign-system-administrator-role) topic for additional
@@ -40,7 +40,7 @@ All Programs > Microsoft SQL Server > SQL Server Management Studio.
 **Step 3 –** In the left pane, expand the Security node. Right-click the Logins node and select
 **New Login** from the pop-up menu. The Login - New window is displayed.
 
-![Login - New window](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+![Login - New window](/images/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
 
 **Step 4 –** Click **Search** next to the Login Name box and specify the user you want to assign the
 sysadmin role.

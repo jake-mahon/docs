@@ -26,7 +26,7 @@ details.
 [User Management](/docs/dataclassification/5.6.2/systemconfigurationoverview/users/user_management.md) section
 for more information.
 
-![taxonomyclues_thumb_0_0](/img/product_docs/dataclassification/5.6.2/taxonomies/taxonomyclues_thumb_0_0.webp)
+![taxonomyclues_thumb_0_0](/images/dataclassification/5.6.2/taxonomies/taxonomyclues_thumb_0_0.webp)
 
 See also:
 

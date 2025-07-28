@@ -12,7 +12,7 @@ removed. See the
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Activity report at the database and table levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sql/databasetable/databaseactivity.webp)
+![Activity report at the database and table levels](/images/accessinformationcenter/11.6/resourceaudit/sql/databasetable/databaseactivity.webp)
 
 This report is comprised of the following columns:
 

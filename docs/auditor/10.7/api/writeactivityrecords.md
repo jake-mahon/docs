@@ -84,13 +84,13 @@ curl -H "Content-Type:application/xml; Charset=UTF-8" https://WKSWin2012:9699/ne
             </Detail>
         </DetailList>
     </ActivityRecord>
-</ActivityRecordList> 
+</ActivityRecordList>
 ```
- 
+
 **JSON:**
 
 ```bash
-curl -H "Content-Type:application/json; Charset=UTF-8" https://WKSWin2012:9699/netwrix/api/v1/activity_records/?format=json -u Enterprise\NetwrixUser:NetwrixIsCool --data-binary @C:\APIdocs\Input.json 
+curl -H "Content-Type:application/json; Charset=UTF-8" https://WKSWin2012:9699/netwrix/api/v1/activity_records/?format=json -u Enterprise\NetwrixUser:NetwrixIsCool --data-binary @C:\APIdocs\Input.json
 ```
 
 ```json
@@ -119,9 +119,9 @@ curl -H "Content-Type:application/json; Charset=UTF-8" https://WKSWin2012:9699/n
             }
         ]
     }
-] 
+]
 ```
- 
+
 
 Ensure to pass information about transferred data, including `Content-Type:application/xml` or
 `application/json `and encoding. The syntax greatly depends on the tool you use.
@@ -145,8 +145,8 @@ Date: Fri, 08 Apr 2017 13:56:22 GMT
 
 **Step 4 –** Check that posted data is now available in the Audit Database. Run a search request to [/netwrix/api/v1/activity_records/search](/docs/auditor/10.7/api/searchactivityrecords.md) endpoint or use interactive search in the Netwrix Auditor client. For example:
 
-![apiactivity_thumb_0_0](/img/product_docs/auditor/10.7/api/apiactivity_thumb_0_0.webp)
+![apiactivity_thumb_0_0](/images/auditor/10.7/api/apiactivity_thumb_0_0.webp)
 
 **Step 5 –** For input Activity Records, the data source is set to Netwrix API.
 
-![apiactivitydetails](/img/product_docs/auditor/10.7/api/apiactivitydetails.webp)
+![apiactivitydetails](/images/auditor/10.7/api/apiactivitydetails.webp)

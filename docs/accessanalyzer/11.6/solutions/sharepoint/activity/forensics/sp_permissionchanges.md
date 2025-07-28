@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_PermissionChanges Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/activity/forensics/permissionchangesanalysis.webp)
+![Analysis Tasks for the SP_PermissionChanges Job](/images/accessanalyzer/11.6/solutions/sharepoint/activity/forensics/permissionchangesanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report:
 | Report             | Description                                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                                       |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Permission Changes | This report identifies SharePoint permission changes based on activity events and determines whether or not that permission change is considered a high security risk. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays permission change activity in the past seven days</li><li>Table – Provides permission change details</li></ul> |
-

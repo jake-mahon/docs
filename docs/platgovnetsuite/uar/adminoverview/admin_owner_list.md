@@ -13,7 +13,7 @@ Auditors can view the Owner list and Owner notes, but cannot add or remove owner
 
 Here is an example of the **Owner List**:
 
-![Administrator Owner list](/img/product_docs/platgovnetsuite/uar/uar_admin/owner_list.webp)
+![Administrator Owner list](/images/platgovnetsuite/uar/uar_admin/owner_list.webp)
 
 ## Filters
 
@@ -51,7 +51,7 @@ Use **Clear** to reset the Filters.
 1. Open **Owner List** from your menu bar.
 2. Click **Add Owner** to add a new role.
 
-    ![Add Owner](/img/product_docs/platgovnetsuite/uar/uar_admin/add_owner.webp)
+    ![Add Owner](/images/platgovnetsuite/uar/uar_admin/add_owner.webp)
 
 3. **Select Role** from the drop down. From Bundle, Custom/Standard and Center Type are
    automatically added.
@@ -81,7 +81,7 @@ You can change any of the owners from the Owner List.
 The **Owner Notes** tab displays the details for each change in the Owner List. Click the **Owner
 Notes** tab to access this detail. You can filter the Owner Notes by **Create Date**.
 
-![Owner notes](/img/product_docs/platgovnetsuite/uar/uar_admin/owner_notes.webp)
+![Owner notes](/images/platgovnetsuite/uar/uar_admin/owner_notes.webp)
 
 1. Open **Owner List** from your menu bar.
 2. Open the **Owner Notes** tab.

@@ -21,7 +21,7 @@ Click **Yes** when asked if you would like to create a new Password Policy Enfor
 **Step 2 –** Click the **Policies** item in the left pane of the management console, then click
 **New Policy** in the right pane. This opens the New Policy page.
 
-![managing_policies](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/managing_policies.webp)
+![managing_policies](/images/passwordpolicyenforcer/10.2/evaluation/managing_policies.webp)
 
 **Step 3 –** Enter a unique policy name in the **New policy name** text box.
 
@@ -35,7 +35,7 @@ Click **Yes** when asked if you would like to create a new Password Policy Enfor
 
 **Step 5 –** Click **No** when asked if you would like to assign users to the policy.
 
-![creating_a_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/creating_a_password_policy_2.webp)
+![creating_a_password_policy_2](/images/passwordpolicyenforcer/10.2/evaluation/creating_a_password_policy_2.webp)
 
 **Step 6 –** Click the **Password Policy Server** item in the left pane of the management console,
 and then click **PPS Properties** in the right pane.

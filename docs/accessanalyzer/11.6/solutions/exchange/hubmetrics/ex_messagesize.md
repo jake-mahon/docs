@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_MessageSize Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/messagesizeanalysis.webp)
+![Analysis Tasks for the EX_MessageSize Job](/images/accessanalyzer/11.6/solutions/exchange/hubmetrics/messagesizeanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -32,4 +32,3 @@ the following pre-configured report:
 | Report       | Description                                                   | Default Tags | Report Elements                                                                                                                                                                                   |
 | ------------ | ------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Message Size | This report identifies servers which handle the largest mail. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top servers by average message size (KB)</li><li>Table – Provides details on average message size by server (KB)</li></ul> |
-

@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Category page is used to identify which type of NIS information to retrieve.
 
-![NIS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/nis/category.webp)
+![NIS Data Collector Wizard Category page](/images/accessanalyzer/12.0/admin/datacollector/nis/category.webp)
 
 The NIS Data Collector contains two query categories:
 

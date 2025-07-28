@@ -52,7 +52,7 @@ data, through a certification-like process.
 An HR connector is considered an inbound connector, as it writes to the central identity repository
 inside Usercube.
 
-![Inbound System=](/img/product_docs/identitymanager/6.1/user-guide/optimize/hr-connector-creation/connectorcreation_inbound.webp)
+![Inbound System=](/images/identitymanager/6.1/user-guide/optimize/hr-connector-creation/connectorcreation_inbound.webp)
 
 As Usercube is able to feed all managed systems, it can also feed itself thanks to specific
 connections such as the
@@ -80,19 +80,19 @@ Create an HR connector by proceeding as follows:
 2. [Declare an HR connector](/docs/identitymanager/6.1/user-guide/set-up/connect-system/connector-declaration/index.md)
    using your local agent.
 
-    ![HR Connector Declaration](/img/product_docs/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.webp)
+    ![HR Connector Declaration](/images/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.webp)
 
 3. [Create an Export CSV connection](/docs/identitymanager/6.1/user-guide/set-up/connect-system/connection-creation/index.md)
    for each HR file to connect.
 
-    ![HR Connection](/img/product_docs/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_connection_v602.webp)
+    ![HR Connection](/images/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_connection_v602.webp)
 
 4. [Create the entity types](/docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/index.md)
    corresponding to your model. For example:
 
-    ![HR Entity Type - Scalar Properties](/img/product_docs/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.webp)
+    ![HR Entity Type - Scalar Properties](/images/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.webp)
 
-    ![HR Entity Type - Navigation Properties](/img/product_docs/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.webp)
+    ![HR Entity Type - Navigation Properties](/images/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.webp)
 
 5. Don't forget to
    [reload](/docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/index.md)
@@ -100,9 +100,9 @@ Create an HR connector by proceeding as follows:
    [synchronize](/docs/identitymanager/6.1/user-guide/set-up/synchronization/index.md)
    to access HR data within Usercube.
 
-    ![Reload](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
+    ![Reload](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
-    ![Synchronize Job](/img/product_docs/identitymanager/6.1/user-guide/set-up/synchronization/synchro_executionjobs_v602.webp)
+    ![Synchronize Job](/images/identitymanager/6.1/user-guide/set-up/synchronization/synchro_executionjobs_v602.webp)
 
 ## Verify HR Connector Creation
 
@@ -112,16 +112,16 @@ In order to verify the process:
 2. Access the connector's logs (from **Job Results** on the connector's dashboard) to ensure that
    synchronization completed successfully.
 
-    ![Jobs Results](/img/product_docs/identitymanager/6.1/user-guide/set-up/synchronization/synchro_results_v603.webp)
+    ![Jobs Results](/images/identitymanager/6.1/user-guide/set-up/synchronization/synchro_results_v603.webp)
 
 3. Check that the entity types have been added to the left menu of the home page.
 
-    ![Test Entity Type](/img/product_docs/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_validatemenu_v600.webp)
+    ![Test Entity Type](/images/identitymanager/6.1/user-guide/optimize/hr-connector-creation/hr_validatemenu_v600.webp)
 
 4. Access the relevant entity types (from the menu items on the left of the home page) to check
    synchronized resources, by navigating in the UI from the accounts through a sample of
    associations, via the Eye icon:
 
-    ![Eye Icon](/img/product_docs/identitymanager/6.1/user-guide/set-up/synchronization/iconeye_v600.svg)
+    ![Eye Icon](/images/identitymanager/6.1/user-guide/set-up/synchronization/iconeye_v600.svg)
 
     You should seek configuration validation, not validation of the actual data being synchronized.

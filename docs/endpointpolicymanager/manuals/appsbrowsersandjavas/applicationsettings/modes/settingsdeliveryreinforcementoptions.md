@@ -15,7 +15,7 @@ background refresh and get updated settings. But what happens if the client is o
 As seen in Figure 41, a client machine can detect that there is no network connectivity. With no
 network connectivity, Microsoft's built-in `gpupdate.exe `will fail when it is run.
 
-![policypak_application_settings_1_20](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_20.webp)
+![policypak_application_settings_1_20](/images/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_20.webp)
 
 Figure 41. The error message that is received when `gpupdate.exe` is run while the client machine is
 offline.
@@ -52,7 +52,7 @@ Whether the computer is online or offline, PolicyPak Application Settings Manage
 reapply settings using` ppupdate.exe`. In Figure 42, you can see `ppupdate.exe` being run to
 reinforce any changed settings.
 
-![policypak_application_settings_1_21](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_21.webp)
+![policypak_application_settings_1_21](/images/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_21.webp)
 
 Figure 42. `Ppupdate.exe` being run.
 
@@ -81,7 +81,7 @@ Inside the AppSet definition, find the Options button and deselect "Always re-ap
 application runs." As you can see in Figure 43, all applications are checked by default. You can
 uncheck the checkbox to stop the reapplication.
 
-![policypak_application_settings_1_22](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_22.webp)
+![policypak_application_settings_1_22](/images/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_22.webp)
 
 Figure 43. Select or unselect the "Always re-apply settings when application runs" setting in the
 Options inside the Pak definition.
@@ -97,7 +97,7 @@ Enabled (REG_DWORD) to 0. This is demonstrated in Figure 44.
 
 Note that you also should either reboot the machine to disable or re-enable the driver.
 
-![policypak_application_settings_1_23](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_23.webp)
+![policypak_application_settings_1_23](/images/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_23.webp)
 
 Figure 44. Use the following Registry location to fully disable the Endpoint Policy Manager driver,
 which performs reapplication of settings for applications.
@@ -135,7 +135,7 @@ Figure 45 (which is at the AppSet level), then the specific AppSet will NOT be r
 timer is supposed to apply it. In short, by setting this option, you bypass reapplication of the
 settings even when the enforcement timer is set.
 
-![policypak_application_settings_1_24](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_24.webp)
+![policypak_application_settings_1_24](/images/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_24.webp)
 
 Figure 45. Enabling the "Do not re-apply settings with Reinforcement Timer" setting.
 

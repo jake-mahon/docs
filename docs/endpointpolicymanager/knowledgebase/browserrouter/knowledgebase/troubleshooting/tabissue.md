@@ -15,7 +15,7 @@ Other Symptoms:
 
 Visiting Edge:compat in Edge from an affected system may show a screen similar to below.
 
-![1323_1_a7ea1a5fea27b5af1303c5cae8c549cd](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/1323_1_a7ea1a5fea27b5af1303c5cae8c549cd.webp)
+![1323_1_a7ea1a5fea27b5af1303c5cae8c549cd](/images/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/1323_1_a7ea1a5fea27b5af1303c5cae8c549cd.webp)
 
 Possible Causes:
 
@@ -39,4 +39,4 @@ of websites to Edge in IE-tab mode.
 Or visit Edge:compat in Edge and click the Force update button, the screen should now look similar
 to below.
 
-![1323_2_faaa54cf16d85c909ec4de3a83505ac9](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/1323_2_faaa54cf16d85c909ec4de3a83505ac9.webp)
+![1323_2_faaa54cf16d85c909ec4de3a83505ac9](/images/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/1323_2_faaa54cf16d85c909ec4de3a83505ac9.webp)

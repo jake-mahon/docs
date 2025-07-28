@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_DLMetrics Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/dlmetricsanalysis.webp)
+![Analysis Tasks for the EX_DLMetrics Job](/images/accessanalyzer/11.6/solutions/exchange/hubmetrics/dlmetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,4 +35,3 @@ following pre-configured reports:
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Distribution Lists by Message Count (Most Active DLs by Message Count)   | This report identifies the most active distribution lists by count of messages sent.  | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top distribution lists by message count (last 30 days)</li><li>Table – Provides details on top distribution lists by message count (last 30 days)</li></ul> |
 | Distribution Lists by Message Volume (Most Active DLs by Message Volume) | This report identifies the most active distribution lists by volume of messages sent. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top distribution lists by message volume (last 30 days)</li><li>Table – Provides details on distribution lists by message volume (last 30 days)</li></ul>   |
-

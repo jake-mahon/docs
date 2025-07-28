@@ -9,7 +9,7 @@ sidebar_position: 20
 The ADPermissions Data Collector Category page identifies what kind of information to retrieve using
 the Category wizard page.
 
-![ADPermissions Data Collector wizard Category page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/adpermissions/category.webp)
+![ADPermissions Data Collector wizard Category page](/images/accessanalyzer/11.6/admin/datacollector/adpermissions/category.webp)
 
 The categories on the ADPermissions Category page are:
 

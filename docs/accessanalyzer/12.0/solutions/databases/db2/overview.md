@@ -54,7 +54,7 @@ The Access Analyzer Db2 Solution is a comprehensive set of preconfigured audit j
 provide visibility into various aspects of a Db2 Databases: Sensitive Data Discovery and Objects
 Permissions.
 
-![Db2 Overview](/img/product_docs/accessanalyzer/12.0/solutions/databases/db2/overview.webp)
+![Db2 Overview](/images/accessanalyzer/12.0/solutions/databases/db2/overview.webp)
 
 The following comprises the Db2 solution:
 

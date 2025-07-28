@@ -13,4 +13,4 @@ station.
 
 This policy doesn't need to hit the end-points.. just the admin machine.
 
-![603_1_faq-5-img-1](/img/product_docs/endpointpolicymanager/tips/603_1_faq-5-img-1.webp)
+![603_1_faq-5-img-1](/images/endpointpolicymanager/tips/603_1_faq-5-img-1.webp)

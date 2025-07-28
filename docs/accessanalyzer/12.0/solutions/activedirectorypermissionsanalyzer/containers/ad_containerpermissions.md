@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_ContainerPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/containers/containerpermissionsanalysis.webp)
+![Analysis Tasks for the AD_ContainerPermissions Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/containers/containerpermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report                | Description                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                               |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Container Permissions | This report highlights instances where permissions are applied to Active Directory container objects. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays container permissions by domain</li><li>Pie Chart – Provides details on enterprise container permissions by type</li><li>Table – Provides details on container permissions</li></ul> |
-

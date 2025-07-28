@@ -10,7 +10,7 @@ The Activity Statistics report for a user object provides statistical activity e
 the audited user during the selected date range. This report includes a line graph for Traffic
 Trend.
 
-![Activity Statistics report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/user/activitystatistics.webp)
+![Activity Statistics report](/images/accessinformationcenter/12.0/resourceaudit/user/activitystatistics.webp)
 
 This report is comprised of the following columns:
 

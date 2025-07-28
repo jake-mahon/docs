@@ -12,7 +12,7 @@ modified. These settings are initially configured when the output is added.
 Select an output for a Linux host on the Monitored Hosts tab and click **Edit** to open the output
 Properties window.
 
-![gidexclusionstab](/img/product_docs/activitymonitor/7.1/admin/outputs/gidexclusionstab.webp)
+![gidexclusionstab](/images/activitymonitor/7.1/admin/outputs/gidexclusionstab.webp)
 
 The tab contains the following settings:
 

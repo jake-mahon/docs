@@ -9,7 +9,7 @@ sidebar_position: 30
 The DB Change History page shows the database entries (Additions, Updates, Deletes). From here,
 search and investigate the records.
 
-![Database Change History Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/dbchangehistorypage.webp)
+![Database Change History Page](/images/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/dbchangehistorypage.webp)
 
 The DB Changes page has the following features:
 

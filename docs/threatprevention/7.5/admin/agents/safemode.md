@@ -92,7 +92,7 @@ notified when the AD modules are pending. See the
 [Create Message Profiles](/docs/threatprevention/7.5/admin/configuration/systemalerting/email.md#create-message-profiles) topic
 for additional information.
 
-![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/7.5/admin/agents/adpendingmodealert.webp)
+![Netwrix Threat Prevention System Alerting window](/images/threatprevention/7.5/admin/agents/adpendingmodealert.webp)
 
 **Step 4 –** Select **Events**, and then **Operations** on the left. Check the **Agent Started in AD
 Monitor pending mode** event alert and select the message profile you created in Step 3 from the

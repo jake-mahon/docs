@@ -35,7 +35,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_DeleteFiles Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/delete/deletefilesanalysis.webp)
+![Analysis Tasks for the FS_DeleteFiles Job](/images/accessanalyzer/12.0/solutions/filesystem/cleanup/delete/deletefilesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -69,7 +69,7 @@ prevent making unintended and potentially harmful changes to Active Directory.
 :::
 
 
-![Action Tasks for the FS_DeleteFiles Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/delete/deletefilesaction.webp)
+![Action Tasks for the FS_DeleteFiles Job](/images/accessanalyzer/12.0/solutions/filesystem/cleanup/delete/deletefilesaction.webp)
 
 The following actions are deselected by default:
 

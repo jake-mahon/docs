@@ -15,7 +15,7 @@ application manually. These applications correspond to working guidelines that p
 which information should be entered into which target field. The full script that describes the
 assignment is called an “**application**”.
 
-![registration with and without application](/img/product_docs/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_142-en.webp)
+![registration with and without application](/images/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_142-en.webp)
 
 The diagram starts with the user navigating to a website. The application server is then checked to
 see whether a record has been saved for this website for which the currently registered user also
@@ -48,7 +48,7 @@ possible via
 [Browser Add-ons](/docs/passwordsecure/9.1/configuration/browseraddons/browser_add-ons.md).
 The procedure remains the same.
 
-![installation_with_parameters_143](/img/product_docs/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_143.webp)
+![installation_with_parameters_143](/images/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_143.webp)
 
 The URL is checked to see whether the record matches the web page. It is only necessary for the
 hostname including the domain suffix (“.de” or “.com”) to match.
@@ -64,11 +64,11 @@ If the login mask on a website cannot be automatically completed, it is necessar
 an application. To create an application, the desired website is first called up. The add-on is then
 started via the relevant icon. The menu item “Create application\* can be found here
 
-![create application](/img/product_docs/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_144-en.webp)
+![create application](/images/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_144-en.webp)
 
 A modal window now opens. The actual application is now created here.
 
-![modal application window](/img/product_docs/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_145-en.webp)
+![modal application window](/images/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_145-en.webp)
 
 The following options are available:
 
@@ -82,13 +82,13 @@ To capture, click on the first field to be filled on the website. It will be dir
 list in the modal window. For better identification, fields that belong together are marked in
 colour.
 
-![choosed application field](/img/product_docs/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_146-en.webp)
+![choosed application field](/images/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_146-en.webp)
 
 The field type (e.g. INPUT) and the field label are displayed in the field itself. In addition, an
 action is proposed which fits the field type, such as e.g. entering the user name. The action can
 naturally be adjusted if required. Once all fields have been captured, the system checks whether the
 actions are correct. Finally, the application can be saved.
 
-![example for a application](/img/product_docs/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_147-en.webp)
+![example for a application](/images/passwordsecure/9.1/configuration/browseradd-ons/applications/installation_with_parameters_147-en.webp)
 
 The saved application is now available for the user and can be used via the add-on.

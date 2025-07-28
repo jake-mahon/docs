@@ -9,7 +9,7 @@ sidebar_position: 10
 The Ownership Administrator may request ownership confirmation for a resource being managed through
 the Access Reviews application. As an assigned owner, you will receive the following email.
 
-![Ownership Confirmation Request Email with Yes and No buttons for responding](/img/product_docs/auditor/10.6/access/reviews/resourceowners/email/confirmemail.webp)
+![Ownership Confirmation Request Email with Yes and No buttons for responding](/images/auditor/10.6/access/reviews/resourceowners/email/confirmemail.webp)
 
 The Ownership Confirmation Request email provides buttons for confirming (Yes) or declining (No)
 ownership of the listed resource. You will be asked to authenticate for your response to be
@@ -21,7 +21,7 @@ complete the process. One of two messages will appear according to if you confir
 If you have accepted ownership for the assigned resource, the browser will display the following
 message after authentication:
 
-![confirmemailaccept](/img/product_docs/auditor/10.6/access/reviews/resourceowners/email/confirmemailaccept.webp)
+![confirmemailaccept](/images/auditor/10.6/access/reviews/resourceowners/email/confirmemailaccept.webp)
 
 "Your response has been saved. You may close this window and delete the confirmation request
 e-mail."
@@ -31,12 +31,12 @@ e-mail."
 If you have declined ownership for the assigned resource, the browser will display the following
 message after authentication:
 
-![Ownership declined browser message](/img/product_docs/auditor/10.6/access/reviews/resourceowners/email/confirmemaildecline.webp)
+![Ownership declined browser message](/images/auditor/10.6/access/reviews/resourceowners/email/confirmemaildecline.webp)
 
 "Before we update ownership can you suggest another owner?" Enter possible owners in the textbox.
 Click **Submit** to complete the process.
 
-![Ownership declined browser message after an alternative owner is submitted](/img/product_docs/auditor/10.6/access/reviews/resourceowners/email/confirmemaildecline2.webp)
+![Ownership declined browser message after an alternative owner is submitted](/images/auditor/10.6/access/reviews/resourceowners/email/confirmemaildecline2.webp)
 
 "Your response has been saved. You may close this window and delete the confirmation request
 e-mail."

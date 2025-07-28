@@ -19,7 +19,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Queries for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderquery.webp)
+![Queries for the AD_AdminSDHolder Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderquery.webp)
 
 - Default AdminSDHolder Perms – Creates a table of default AdminSDHolder permissions
 
@@ -38,7 +38,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_AdminSDHolder Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderanalysis.webp)
+![Analysis Tasks for the AD_AdminSDHolder Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/containers/adminsdholderanalysis.webp)
 
 The default analysis tasks are:
 
@@ -53,4 +53,3 @@ the following pre-configured report.
 | Report                    | Description                                                                                                                                                                                                                                                                                                                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                                                                                       |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | AdminSDHolder Permissions | This report highlights suspicious (non-default) permissions applied to the AdminSDHolder container across all audited domains, and enumerates all AdminSDHolder permissions. For more information on vulnerabilities involving AdminSDHolder access, see the Microsoft [AdminSDHolder, Protected Groups and SDPROP](https://technet.microsoft.com/en-us/library/2009.09.sdadminholder.aspx) article. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays suspicious AdminSDHolder permissions by domain</li><li>Table – Provides details on AdminSDHolder permissions</li><li>Table – Provides details on top users by suspicious AdminSDHolder permissions</li></ul> |
-

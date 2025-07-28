@@ -9,7 +9,7 @@ sidebar_position: 10
 The Permissions report at the **Instance Permissions** node shows the instance permissions for the
 trustee.
 
-![Permissions report at the Instance Permissions node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sql/instancepermissions/instancepermissions.webp)
+![Permissions report at the Instance Permissions node](/images/accessinformationcenter/11.6/resourceaudit/sql/instancepermissions/instancepermissions.webp)
 
 This report is comprised of the following columns:
 

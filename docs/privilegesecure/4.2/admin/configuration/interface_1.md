@@ -9,7 +9,7 @@ sidebar_position: 60
 The Configuration interface provides information and management options for advanced configuration
 settings.
 
-![Configuration Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/interface.webp)
+![Configuration Interface](/images/privilegesecure/4.2/accessmanagement/admin/configuration/interface.webp)
 
 Expand the Configuration menu in the Navigation pane for related pages:
 

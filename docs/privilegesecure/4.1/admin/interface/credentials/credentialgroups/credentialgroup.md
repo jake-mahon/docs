@@ -12,7 +12,7 @@ Follow the steps to add credential groups to the Privilege Secure Console.
 
 **Step 2 –** In the Credential Groups list, click the Plus icon.
 
-![Add credential group](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/add/addcredentialgroup.webp)
+![Add credential group](/images/privilegesecure/4.1/accessmanagement/admin/policy/add/addcredentialgroup.webp)
 
 **Step 3 –** Enter or select the following information:
 

@@ -41,7 +41,7 @@ confirmation code that users have to enter in GroupID to enroll/authenticate the
 
 **To modify the subject line and body of the email:**
 
-1. In Admin Center, click **Notification Editor** at the bottom of the left navigation pane.  
+1. In Admin Center, click **Notification Editor** at the bottom of the left navigation pane.
    The **Notification Editor** is displayed.
 2. By default, notifications templates are displayed in US English. You can select a different
    language to customize notification templates for that language.
@@ -53,7 +53,7 @@ confirmation code that users have to enter in GroupID to enroll/authenticate the
 
 3. Search for _AccessCodeEmail_ and click **Edit** in the **Actions** column to open it.
 
-    ![access_code](/img/product_docs/directorymanager/11.0/admincenter/setupauth/access_code.webp)
+    ![access_code](/images/directorymanager/11.0/admincenter/setupauth/access_code.webp)
 
 4. You can view the notification content in two distinct modes:
 
@@ -62,7 +62,7 @@ confirmation code that users have to enter in GroupID to enroll/authenticate the
     - _Interactive_ - This is the user-friendly, front-end view. Use it to view the email
       notification, as it will be sent to users.
 
-5. Modify and format the text of the email, except the [USER] and [CODE] placeholders.  
+5. Modify and format the text of the email, except the [USER] and [CODE] placeholders.
    GroupID replaces [USER] with the name of the user and inserts a randomly generated verification
    code into the [Code] placeholder. The user must enter this code in GroupID to enroll and
    authenticate.

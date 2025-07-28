@@ -9,7 +9,7 @@ sidebar_position: 20
 The Anonymous Access Links report at the online instance level displays files that have access links
 generated to be shared with people outside the organization (guest/anonymous users).
 
-![Anonymous Access Links report at the online instance level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/farminstance/instanceanonymousaccesslinks.webp)
+![Anonymous Access Links report at the online instance level](/images/accessinformationcenter/12.0/resourceaudit/sharepoint/farminstance/instanceanonymousaccesslinks.webp)
 
 This report is comprised of the following columns:
 

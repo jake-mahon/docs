@@ -8,7 +8,7 @@ sidebar_position: 10
 
 There are two methods to Elevate, Block or Allow&Log multiple files and folders.
 
-**Method 1: Using FILE TYPE**.  
+**Method 1: Using FILE TYPE**.
 For FILE target type, you have to specify a file path. For instance:
 
 %programfiles%\Contoso\App.exe
@@ -19,7 +19,7 @@ For FILE target type, you have to specify a file path. For instance:
 
 **Method 2: Using FOLDER and/or Folder+ Recurse type**.
 
-![478_1_2018-10-11_1352](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/478_1_2018-10-11_1352.webp)
+![478_1_2018-10-11_1352](/images/endpointpolicymanager/leastprivilege/elevate/478_1_2018-10-11_1352.webp)
 
 you should specify a folder path, such as
 

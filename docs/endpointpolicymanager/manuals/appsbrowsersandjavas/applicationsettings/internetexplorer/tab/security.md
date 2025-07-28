@@ -13,7 +13,7 @@ Application Settings Manager, see the following video:
 The Security tab lets you set levels for all four zone types. The dialog within IE can be seen in
 Figure 6.
 
-![ie_appset_tab_by_tab_2](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_2.webp)
+![ie_appset_tab_by_tab_2](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_2.webp)
 
 Figure 6. Custom security settings for all four zone types.
 
@@ -21,19 +21,19 @@ Using the Endpoint Policy Manager IE AppSet, click on "Set Level" for the corres
 select your level (or select "Custom"). Do not set any custom settings when you select a standard
 option from the drop-down menu, such as Medium, Medium High, etc.
 
-![ie_appset_tab_by_tab_3](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_3.webp)
+![ie_appset_tab_by_tab_3](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_3.webp)
 
 Figure 7. Custom settings for the local intranet zone.
 
 Internet Explorer has a rich way of adding site to zone assignments, as shown in Figure 8.
 
-![ie_appset_tab_by_tab_4](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_4.webp)
+![ie_appset_tab_by_tab_4](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_4.webp)
 
 Figure 8. Adding site to zone assignments in Internet Explorer.
 
 The IE AppSet Security tab Site to Zone Assignment is shown in Figure 9.
 
-![ie_appset_tab_by_tab_5](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_5.webp)
+![ie_appset_tab_by_tab_5](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_5.webp)
 
 Figure 9. Setting site to zone assignments in the IE Pak.
 

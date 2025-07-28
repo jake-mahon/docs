@@ -12,7 +12,7 @@ Creating a new customer is done via the Customers module (1). Here, click on New
 left corner. This applies both to customers in a test phase and to customers who are to be billed
 immediately.
 
-![create-new-customer-msp-en_1035x753](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/create-new-customer-msp-en_1035x753.webp)
+![create-new-customer-msp-en_1035x753](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/create-new-customer-msp-en_1035x753.webp)
 
 When creating a new customer, the customer name is specified under **General** (1).
 
@@ -25,7 +25,7 @@ the managed service provider for test customers as well as billed customers, for
 the test period or if the date of a possible termination of a billed customer should be known in
 advance.
 
-![General settings new customer](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/general-new-customer-msp-en_1029x682.webp)
+![General settings new customer](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/general-new-customer-msp-en_1029x682.webp)
 
 Under License (4) the maximum number of users can be specified. Here you have the possibility
 
@@ -33,7 +33,7 @@ Under License (4) the maximum number of users can be specified. Here you have th
 customer (6) can be activated or deactivated by ticking them off. All other settings are identical
 to the on-prem version.
 
-![License settings new customer](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/licence-new-customer-msp-en_1013x675.webp)
+![License settings new customer](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/licence-new-customer-msp-en_1013x675.webp)
 
 After saving, the test customers are displayed under Test (1) and the customers to be billed under
 Billed (2). When you click on a (test) customer, you will see the associated
@@ -44,7 +44,7 @@ adjustments can be made. The contract data can be adjusted by Edit (3).
 
 The options can be activated or deactivated by Edit (4).
 
-![overview-1-msp-en](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/overview-1-msp-en.webp)
+![overview-1-msp-en](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/overview-1-msp-en.webp)
 
 #### Test customer view
 
@@ -58,7 +58,7 @@ billing data is available in the Forecast, Last Months and Cost History fields.
 Since no costs are incurred for test customers, no information is displayed here under User history
 (3), Forecast, Last months and Cost history.
 
-![test-customer-view-msp-en_1024x742](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/test-customer-view-msp-en_1024x742.webp)
+![test-customer-view-msp-en_1024x742](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/test-customer-view-msp-en_1024x742.webp)
 
 #### Billed customer view
 
@@ -67,7 +67,7 @@ see the user history (4) of the last months, the forecast for the current month 
 expected costs for the users and options, as well as the total amount. Furthermore, you will find
 the statements of the last months (6) and a graphical representation of the cost history (7).
 
-![billed-customer-msp-en_1032x752](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/billed-customer-msp-en_1032x752.webp)
+![billed-customer-msp-en_1032x752](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/billed-customer-msp-en_1032x752.webp)
 
 #### Deactivating and reactivating a customer
 
@@ -77,29 +77,29 @@ deactivating, all data is retained and the customer can be completely restored.
 
 To deactivate a customer, select the database (1) and then Deactivate (2).
 
-![deactivate-customer-msp](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/deactivate-customer-msp.webp)
+![deactivate-customer-msp](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/deactivate-customer-msp.webp)
 
 A reason (3) can be specified for the deactivation and then the database can be deactivated (4).
 
-![deactivate-customer-2-msp](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/deactivate-customer-2-msp.webp)
+![deactivate-customer-2-msp](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/deactivate-customer-2-msp.webp)
 
 To reactivate a deactivated customer, select the deactivated database (1) and then Activate (2).
 
-![reactivate-customer-msp-en](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/reactivate-customer-msp-en.webp)
+![reactivate-customer-msp-en](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/reactivate-customer-msp-en.webp)
 
 #### Deleting a customer
 
 To delete a customer, select the database (1) and then Remove (2). Removal is possible with both
 active and deactivated customer databases.
 
-![remove-customer-msp-en_947x686](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/remove-customer-msp-en_947x686.webp)
+![remove-customer-msp-en_947x686](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/remove-customer-msp-en_947x686.webp)
 
 Deletion must be confirmed (3).
 
-![confirm-delete-customer-msp-en](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/confirm-delete-customer-msp-en.webp)
+![confirm-delete-customer-msp-en](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/confirm-delete-customer-msp-en.webp)
 
 The following dialog box (4) indicates that the database has been deleted in Netwrix Password
 Secure, but you as an MSP are responsible for deleting the database in the SQL server as well as any
 existing backups.
 
-![successfull-deletion-msp-en](/img/product_docs/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/successfull-deletion-msp-en.webp)
+![successfull-deletion-msp-en](/images/passwordsecure/9.1/configuration/server_manager/msp/changes_in_ac/customers_module/successfull-deletion-msp-en.webp)

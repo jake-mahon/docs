@@ -19,7 +19,7 @@ activity.
 A list of all orphaned accounts can be found on some entity type pages. Said pages can be accessed
 through the menu items on the left of the home page, in the **Connectors** section.
 
-![Home - Entity Types](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
+![Home - Entity Types](/images/identitymanager/saas/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
 
 These entity type pages can be configured via XML to customize all displayed columns and available
 filters, especially the **Orphan** filter that spots uncorrelated resources, and the **Owner /
@@ -27,7 +27,7 @@ Resource Type** column that shows the owner of each resource. See
 the[Create Menu Items](/docs/identitymanager/6.2/integration-guide/ui/create-menu-items/index.md) topic for
 additional information on customization.
 
-![Owner / Resource Type Column](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
+![Owner / Resource Type Column](/images/identitymanager/saas/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
 In the **Orphan** field, select **Yes** to see all existing resources without an owner.
 
@@ -37,9 +37,9 @@ In addition, filters can be configured in the reporting module to list orphaned 
 
 :::note
 Some accounts are considered orphaned because of an error in the account data or
-assignment rule.  
+assignment rule.
 For an entity that is never the target of a resource type, the concept of an orphan does not apply
-because the **Owner / Resource Type** column will be hidden.  
+because the **Owner / Resource Type** column will be hidden.
 When using a display table to display these entities, use
 DisplayTableDesignElement``({{< relref "/integration-guide/toolkit/xml-configuration/user-interface/displaytable#properties" >}}) `"table"``
 or `"adaptable"`.
@@ -91,7 +91,7 @@ filters in the query module, based on said property. See the
 The previous example about the AD's **isUnused** property can be complemented in the query module by
 displaying this property alongside users' **EmployeeId**.
 
-![Query of Unused Accounts](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_unusedquery_v602.webp)
+![Query of Unused Accounts](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_unusedquery_v602.webp)
 
 ## Participants and Artifacts
 
@@ -106,12 +106,12 @@ table below.
 
 Review an orphaned account by proceeding as follows:
 
-![Home Page - Resource Reconciliation](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.webp)
+![Home Page - Resource Reconciliation](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.webp)
 
 **Step 1 –** Go to the **Resource Reconciliation** page, accessible from the corresponding section
 on the home page.
 
-![Resource Reconciliation Page](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.webp)
+![Resource Reconciliation Page](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.webp)
 
 **Step 2 –** Select **Unauthorized account** as the **Workflow State**. Orphaned accounts are those
 appearing with no owner.
@@ -120,14 +120,14 @@ appearing with no owner.
 
 **Step 4 –** Click on the line of an account without an owner.
 
-![Select Owner](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans_v602.webp)
+![Select Owner](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans_v602.webp)
 
 In the following example, the nominative AD account linked to the email address
 nathan.smith@acme.com has no owner.
 
 You can **Select owner** from the list by clicking on the check box.
 
-![Owners List](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans-owners_v602.webp)
+![Owners List](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans-owners_v602.webp)
 
 **Step 5 –** Answer the following questions in order to understand the situation.
 
@@ -153,7 +153,7 @@ We said that useful service accounts must be connected to their owners due to th
 that an orphaned account cannot be certified. .See the
 [Perform Access Certification](/docs/identitymanager/6.2/user-guide/administrate/access-certification/index.md) topic for additional information.
 But a service account must not be linked to a person, for the departure of said person from the
-company may trigger the loss of the service account.  
+company may trigger the loss of the service account.
 This is why we create identities with **Application** as their **UserType**, each
 application-identity linked to a person supposed to manage it. Thus,service accounts must be
 connected to application identities, themselves owned by people. That way, if the owner of the
@@ -164,7 +164,7 @@ not deprovisioned.
 
 See the schema below this note.
 
-![Schema - Service Accounts](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_serviceaccounts.webp)
+![Schema - Service Accounts](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_serviceaccounts.webp)
 
 **Step 6 –** Select the appropriate owner or no owner at all, according to the previous analysis.
 
@@ -189,7 +189,7 @@ By taking the necessary steps the orphan account will be delete or authorized.
 By default, non-conforming assignments are listed by resource. It is possible to click on a resource
 and then access the list of all unreconciled properties for said resource.
 
-![Resource View](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.webp)
+![Resource View](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.webp)
 
 It can be helpful to have the non-conforming assignments regrouped by property, as some of the
 changes can be similar, so very likely to be validated by the same user. This is why a property view
@@ -199,12 +199,12 @@ Once enabled, select a resource type to display all unreconciled properties link
 type. In addition, select a property to display only the unreconciled properties linked to said
 resource type and property.
 
-![Property View](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.webp)
+![Property View](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.webp)
 
 The review process is the same with both views. However with property view, reviewers don't click on
 a given line, but choose a decision directly on the left of the property line.
 
-![Bulk Reconcile](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.webp)
+![Bulk Reconcile](/images/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.webp)
 
 In addition, using property view enables bulk reconciliation to approve the proposed values or keep
 the current values for several resources simultaneously.
@@ -214,7 +214,7 @@ the current values for several resources simultaneously.
 In order to verify the process, check that the line for your reviewed item has been removed from the
 **Resource Reconciliation** screen.
 
-![View Permissions Tab](/img/product_docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
+![View Permissions Tab](/images/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
 In addition, if you reconciled an orphaned account with an owner, check the user's permissions to
 see said account.

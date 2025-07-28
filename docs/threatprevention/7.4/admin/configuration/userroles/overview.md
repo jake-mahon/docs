@@ -13,7 +13,7 @@ topic for information on granting access to the Netwrix Threat Manager Reporting
 
 Click **Configuration** > **Users** on the menu to open the Users and Roles window.
 
-![Users and Roles window](/img/product_docs/threatprevention/7.4/admin/configuration/userroles/usersroleswindow.webp)
+![Users and Roles window](/images/threatprevention/7.4/admin/configuration/userroles/usersroleswindow.webp)
 
 :::note
 This window is only available to Threat Prevention administrators.
@@ -82,7 +82,7 @@ NVMonitorConfig and NVMonitorData databases, according to the assigned role:
 The Features button is enabled for users with the Administrator role. It provides options to limit
 Administrator permissions to manage features, stop the Agent, or uninstall the Agent.
 
-![Users and Roles window showing the Edit Features window](/img/product_docs/threatprevention/7.4/admin/configuration/userroles/featuresbutton.webp)
+![Users and Roles window showing the Edit Features window](/images/threatprevention/7.4/admin/configuration/userroles/featuresbutton.webp)
 
 Follow the steps to edit the features for the selected user. All listed features are enabled by
 default.

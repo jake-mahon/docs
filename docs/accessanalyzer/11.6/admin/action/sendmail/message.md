@@ -8,7 +8,7 @@ sidebar_position: 20
 
 Use the Message page to specify the text of the email.
 
-![Send Mail Action Module Wizard Message page](/img/product_docs/accessanalyzer/11.6/admin/action/sendmail/message.webp)
+![Send Mail Action Module Wizard Message page](/images/accessanalyzer/11.6/admin/action/sendmail/message.webp)
 
 Use the following fields to specify the text of the email:
 
@@ -79,7 +79,7 @@ The Messaging Team
 The Messages Preview window displays a preview of the email, including any dynamic fields. This
 window displays after clicking the **Preview** button.
 
-![Messages preview window](/img/product_docs/accessanalyzer/11.6/admin/action/sendmail/messagespreview.webp)
+![Messages preview window](/images/accessanalyzer/11.6/admin/action/sendmail/messagespreview.webp)
 
 - Blue arrow buttons – Click to view other recipients
 - Send – Sends a single message to the addresses in the Recipients field

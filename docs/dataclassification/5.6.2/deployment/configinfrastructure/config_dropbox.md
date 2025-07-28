@@ -31,7 +31,7 @@ more information on the accounts and rights.
 
 5. Click Create app.
 
-    ![dropbox_create_app](/img/product_docs/dataclassification/5.6.2/config_infrastructure/dropbox_create_app.webp)
+    ![dropbox_create_app](/images/dataclassification/5.6.2/config_infrastructure/dropbox_create_app.webp)
 
 To authorize your app
 
@@ -58,4 +58,4 @@ To authorize your app
 4. Copy the token to a clipboard. You will need it later when adding a Dropbox source in Netwrix
    Data Classificationadministrative web console.
 
-    ![dropbox_authorize_app](/img/product_docs/dataclassification/5.6.2/config_infrastructure/dropbox_authorize_app.webp)
+    ![dropbox_authorize_app](/images/dataclassification/5.6.2/config_infrastructure/dropbox_authorize_app.webp)

@@ -19,24 +19,24 @@ topic for additional information on GroupID licensing.
 
 The following application permissions are required.
 
-![Microsoft Entra ID Application Permissions - Channel](/img/product_docs/directorymanager/11.0/configureentraid/register/channel.webp)
+![Microsoft Entra ID Application Permissions - Channel](/images/directorymanager/11.0/configureentraid/register/channel.webp)
 
-![Microsoft Entra ID Application Permissions - Directory](/img/product_docs/directorymanager/11.0/configureentraid/register/directory.webp)
+![Microsoft Entra ID Application Permissions - Directory](/images/directorymanager/11.0/configureentraid/register/directory.webp)
 
-![Microsoft Entra ID Application Permissions - Group](/img/product_docs/directorymanager/11.0/configureentraid/register/group.webp)
+![Microsoft Entra ID Application Permissions - Group](/images/directorymanager/11.0/configureentraid/register/group.webp)
 
-![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/11.0/configureentraid/register/mail.webp)
+![Microsoft Entra ID Application Permissions - Mail](/images/directorymanager/11.0/configureentraid/register/mail.webp)
 
-![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/11.0/configureentraid/register/role.webp)
+![Microsoft Entra ID Application Permissions - Mail](/images/directorymanager/11.0/configureentraid/register/role.webp)
 
-![Microsoft Entra ID Application Permissions - User](/img/product_docs/directorymanager/11.0/configureentraid/register/user.webp)
+![Microsoft Entra ID Application Permissions - User](/images/directorymanager/11.0/configureentraid/register/user.webp)
 
-![Microsoft Entra ID Application Permissions - User Password and Phone](/img/product_docs/directorymanager/11.0/configureentraid/register/user-pw-phone.webp)
+![Microsoft Entra ID Application Permissions - User Password and Phone](/images/directorymanager/11.0/configureentraid/register/user-pw-phone.webp)
 
 ## Office 365 Exchange Online Permissions
 
-![Microsoft Entra ID Office 365 Exchange Online Permissions - ExchangeManageAsApp](/img/product_docs/directorymanager/11.0/configureentraid/register/exchange.webp)
+![Microsoft Entra ID Office 365 Exchange Online Permissions - ExchangeManageAsApp](/images/directorymanager/11.0/configureentraid/register/exchange.webp)
 
 ## SharePoint Delegated Permissions
 
-![allsites](/img/product_docs/directorymanager/11.0/configureentraid/register/allsites.webp)
+![allsites](/images/directorymanager/11.0/configureentraid/register/allsites.webp)

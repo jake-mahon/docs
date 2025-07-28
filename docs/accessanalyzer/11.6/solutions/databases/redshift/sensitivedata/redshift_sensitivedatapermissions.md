@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/sensitivedata/sensitivedatapermission.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/postgresql/sensitivedata/sensitivedatapermission.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ Redshift_SensitiveDataPermissions Job produces the following pre-configured repo
 | Report                     | Description                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                                            |
 | -------------------------- | ----------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sensitive Data Permissions | This report highlights sensitive data permissions in the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top databases by permission count</li><li>Table – Provides details on database permission summary</li><li>Table – Provides details on sensitive data permission details</li></ul> |
-

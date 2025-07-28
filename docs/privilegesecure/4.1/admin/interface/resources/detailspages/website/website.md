@@ -9,7 +9,7 @@ sidebar_position: 10
 The Website Details page shows additional information for the selected website resource. This page
 is opened from any linked resource within the various interfaces.
 
-![Website Resource details page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/details/websitedetails.webp)
+![Website Resource details page](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/details/websitedetails.webp)
 
 The details page shows the following information:
 

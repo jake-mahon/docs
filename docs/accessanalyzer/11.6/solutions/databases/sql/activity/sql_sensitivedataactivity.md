@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup34.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup34.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report                  | Description                                                           | Default Tags | Report Elements                                                                                                                                                                                                                                        |
 | ----------------------- | --------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Sensitive Data Activity | This report highlights events in databases containing sensitive data. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by instance</li><li>Table – Provides details on user activity by instance</li><li>Table – Provides details on sensitive data activity details by database</li></ul> |
-

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/activity/jobgroup27.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/activity/jobgroup27.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ the following pre-configured report.
 | Report        | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                       |
 | ------------- | ----------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Logon Summary | This report outlines successful and failed logins over the last 30 days | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by failed logons</li><li>Table – Provides details on logon summary</li><li>Table – Provides details on logon details</li></ul> |
-

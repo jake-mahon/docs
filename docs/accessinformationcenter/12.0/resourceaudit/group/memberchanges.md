@@ -9,7 +9,7 @@ sidebar_position: 50
 The Member Changes report for a group object provides specific details for any membership changes to
 the audited group during the selected date range.
 
-![Member Changes report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/group/memberchanges.webp)
+![Member Changes report](/images/accessinformationcenter/12.0/resourceaudit/group/memberchanges.webp)
 
 This report is comprised of the following columns:
 

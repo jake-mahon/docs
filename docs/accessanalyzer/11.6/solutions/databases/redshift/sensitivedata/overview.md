@@ -9,7 +9,7 @@ sidebar_position: 40
 This job provides insight into where sensitive data exists and who has access to it across all the
 targeted Redshift databases.
 
-![sensitivedatajobgroup](/img/product_docs/accessanalyzer/11.6/solutions/databases/redshift/sensitive_data/sensitivedatajobgroup.webp)
+![sensitivedatajobgroup](/images/accessanalyzer/11.6/solutions/databases/redshift/sensitive_data/sensitivedatajobgroup.webp)
 
 The job(s) in the Sensitive Data Job Group are:
 

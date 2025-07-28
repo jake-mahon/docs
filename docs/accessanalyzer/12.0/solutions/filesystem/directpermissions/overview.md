@@ -9,7 +9,7 @@ sidebar_position: 40
 The 2.Direct Permissions job group is designed to report on Direct Permissions information from
 targeted file servers.
 
-![2.Direct Permissions Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/jobstree.webp)
+![2.Direct Permissions Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/filesystem/directpermissions/jobstree.webp)
 
 The 2.Direct Permissions job group is comprised of:
 

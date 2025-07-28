@@ -13,12 +13,12 @@ The detailed spreadsheet of the commands and corresponding IDs are listed in
 [Microsoft's Office 2013 Help Files: Office Fluent User Interface Control Identifiers](https://www.microsoft.com/en-us/download/details.aspx?id=36798)
 excel spreadsheet.
 
-![493_1_image-20201229221751-1](/img/product_docs/endpointpolicymanager/adminstrativetemplates/493_1_image-20201229221751-1.webp)
+![493_1_image-20201229221751-1](/images/endpointpolicymanager/adminstrativetemplates/493_1_image-20201229221751-1.webp)
 
 In this example we are disabling the **Page Color** command of the Themes group from the **Options**
 tab. As such, we are showing only those steps.
 
-![493_2_image-20201229221751-2_950x415](/img/product_docs/endpointpolicymanager/adminstrativetemplates/493_2_image-20201229221751-2_950x415.webp)
+![493_2_image-20201229221751-2_950x415](/images/endpointpolicymanager/adminstrativetemplates/493_2_image-20201229221751-2_950x415.webp)
 
 Here we can see the **Policy** ID for the Page Color command.
 
@@ -32,11 +32,11 @@ Here we can see the **Policy** ID for the Page Color command.
 
 Follow the steps to disable the command bar buttons and menu items.
 
-![493_3_image-20201229221751-3_950x434](/img/product_docs/endpointpolicymanager/adminstrativetemplates/493_3_image-20201229221751-3_950x434.webp)
+![493_3_image-20201229221751-3_950x434](/images/endpointpolicymanager/adminstrativetemplates/493_3_image-20201229221751-3_950x434.webp)
 
 **Step 1 –** Configure the setting inthe Endpoint Policy Manager Administrative Templates Manager.
 
-![493_4_image-20201229221751-4](/img/product_docs/endpointpolicymanager/adminstrativetemplates/493_4_image-20201229221751-4.webp)
+![493_4_image-20201229221751-4](/images/endpointpolicymanager/adminstrativetemplates/493_4_image-20201229221751-4.webp)
 
 **Step 2 –** Set the command ID in this setting to disable `any/ Page Color` command.
 

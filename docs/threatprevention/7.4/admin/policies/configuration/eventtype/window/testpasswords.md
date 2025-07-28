@@ -11,7 +11,7 @@ The Test Password window enables users to test the password complexity requireme
 against a pending password. This window does not change a user’s password but allows pending user
 passwords to be tested in the domain.
 
-![Test Passwords Window](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/window/testpasswords.webp)
+![Test Passwords Window](/images/threatprevention/7.4/admin/policies/eventtype/window/testpasswords.webp)
 
 This window has the following options:
 
@@ -25,8 +25,8 @@ This window has the following options:
 
 **Password Test Result - Passed**
 
-![passwordtestpassed](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/window/passwordtestpassed.webp)
+![passwordtestpassed](/images/threatprevention/7.4/admin/policies/eventtype/window/passwordtestpassed.webp)
 
 **Password Test Result - Does Not Pass**
 
-![passwordtestfailed](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/window/passwordtestfailed.webp)
+![passwordtestfailed](/images/threatprevention/7.4/admin/policies/eventtype/window/passwordtestfailed.webp)

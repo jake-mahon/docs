@@ -18,16 +18,16 @@ information.
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
 
-![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/accessinformationcenter/12.0/installation/welcome.webp)
+![Netwrix Access Information Center Setup Wizard Welcome page](/images/accessinformationcenter/12.0/installation/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation process.
 
-![AIC Setup Wizard End-User License Agreement page](/img/product_docs/accessinformationcenter/12.0/installation/eula.webp)
+![AIC Setup Wizard End-User License Agreement page](/images/accessinformationcenter/12.0/installation/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![AIC Setup Wizard Destination Folder page](/img/product_docs/accessinformationcenter/12.0/installation/destinationfolder.webp)
+![AIC Setup Wizard Destination Folder page](/images/accessinformationcenter/12.0/installation/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, you can choose between the default destination folder
 and a custom folder. Click **Change** to browse for a different location. When the destination is
@@ -39,7 +39,7 @@ are no specific requirements for changing the path.
 :::
 
 
-![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessinformationcenter/12.0/installation/sqlserver.webp)
+![AIC Setup Wizard SQL Server Connection page](/images/accessinformationcenter/12.0/installation/sqlserver.webp)
 
 **Step 5 –** On the SQL Server Connection page, provide the required database information. Click
 **Next** to test the connection to the SQL Server. If there are no errors, the next wizard page
@@ -71,7 +71,7 @@ information.
 :::
 
 
-![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessinformationcenter/12.0/installation/webserver.webp)
+![AIC Setup Wizard Configure Web Server page](/images/accessinformationcenter/12.0/installation/webserver.webp)
 
 **Step 6 –** On the Configure Web Server page, select the URL protocol and port on which the
 application will be accessible.
@@ -91,7 +91,7 @@ Access Information Center.
 When the protocol and port are set as desired, click **Next**. If you selected the http option, skip
 to step 8.
 
-![AIC Setup Wizard Configure Server Certificate page](/img/product_docs/accessinformationcenter/12.0/installation/servercertificate.webp)
+![AIC Setup Wizard Configure Server Certificate page](/images/accessinformationcenter/12.0/installation/servercertificate.webp)
 
 **Step 7 –** On the Configure Server Certificate page, provide the certificate for the SSL binding.
 
@@ -100,13 +100,13 @@ to step 8.
     - Click **Browse** to open the file explorer window. Browse to the folder where the certificate
       is located and select the certificate, then click **Open**.
 
-        ![Certificate Password window](/img/product_docs/accessinformationcenter/12.0/installation/certificatepassword.webp)
+        ![Certificate Password window](/images/accessinformationcenter/12.0/installation/certificatepassword.webp)
 
     - On the Certificate Password window, enter the password for the certificate. Click **OK**.
     - The certificate information is displayed in the fields. Optionally, select the **Import the
       certificate to the personal on the local machine for local browsing** option.
 
-    ![Certificate Missing Private Key window](/img/product_docs/accessinformationcenter/12.0/installation/certificatemissingprivatekey.webp)
+    ![Certificate Missing Private Key window](/images/accessinformationcenter/12.0/installation/certificatemissingprivatekey.webp)
 
     :::note
     If the selected certificate resides in any of the Local Computer stores but does not
@@ -117,24 +117,24 @@ to step 8.
     :::
 
 
-    ![Valid certficate detected bound to the port](/img/product_docs/accessinformationcenter/12.0/installation/servercertificatevalid.webp)
+    ![Valid certficate detected bound to the port](/images/accessinformationcenter/12.0/installation/servercertificatevalid.webp)
 
 - If a valid certificate is already bound to the port used by the Access Information Center, then
   this is detected automatically and the fields are populated with the certificate information
   without needing to select the certificate or provide a password. The Import option is disabled.
 
-    ![Expired certificate detected bound to the port](/img/product_docs/accessinformationcenter/12.0/installation/servercertificateexpired.webp)
+    ![Expired certificate detected bound to the port](/images/accessinformationcenter/12.0/installation/servercertificateexpired.webp)
 
 - If an expired certificate is detected, the certificate information is populated, but a warning
   message is displayed. You must provide a new valid certificate, before you can continue.
 
 Once the certificate has been provided, click **Next** to continue.
 
-![AIC Setup Wizard Ready to install page](/img/product_docs/accessinformationcenter/12.0/installation/ready.webp)
+![AIC Setup Wizard Ready to install page](/images/accessinformationcenter/12.0/installation/ready.webp)
 
 **Step 8 –** On the Ready to install page, click **Install** to begin the process.
 
-![AIC Setup Wizard Completed page](/img/product_docs/accessinformationcenter/12.0/installation/completed.webp)
+![AIC Setup Wizard Completed page](/images/accessinformationcenter/12.0/installation/completed.webp)
 
 **Step 9 –** Once the installation has successfully completed, click **Finish** to exit the wizard.
 

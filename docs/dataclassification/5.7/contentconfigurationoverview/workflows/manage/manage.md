@@ -10,7 +10,7 @@ Authorized users can create, modify or delete automated workflows that apply to 
 For that, in the administrative web console select Content from the top menu and go to the
 **Workflows** tab.
 
-![workflows_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflows_thumb_0_0.webp)
+![workflows_thumb_0_0](/images/dataclassification/5.7/admin/workflows/workflows_thumb_0_0.webp)
 
 :::note
 To manage the automated workflows, users require sufficient access rights that are
@@ -48,7 +48,7 @@ To delete a workflow, follow the steps described in the [Delete Workflow](/docs/
 1. Click the link in the **Name** column for the required workflow ( e.g. Global for Google Drive in
    the figure below):
 
-![workflow_delete_single_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflow_delete_single_thumb_0_0.webp)
+![workflow_delete_single_thumb_0_0](/images/dataclassification/5.7/admin/workflows/workflow_delete_single_thumb_0_0.webp)
 
 2. This will open the list of workflows for selected scope. You can sort the list by **Details**
    (workflow action) or by **Active** (workflow state) field.
@@ -65,7 +65,7 @@ default.
 :::
 
 
-![workflows_category_list_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflows_category_list_thumb_0_0.webp)
+![workflows_category_list_thumb_0_0](/images/dataclassification/5.7/admin/workflows/workflows_category_list_thumb_0_0.webp)
 
 To provide another name to a workflow, select it from the list and click **Rename**.
 

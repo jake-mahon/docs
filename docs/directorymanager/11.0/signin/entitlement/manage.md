@@ -39,7 +39,7 @@ servers.
 1. In Admin Center, click **Identity Stores** in the left pane.
 2. On the **Identity Stores** page, click the ellipsis button for an identity store and select
    **Edit**.
-3. Click **Entitlement** under **Settings** in the left pane to launch the **Entitlement** page.  
+3. Click **Entitlement** under **Settings** in the left pane to launch the **Entitlement** page.
    When no file server is defined, you land on a blank page.
 4. Click **Set up File Server(s)**.
 5. In the **Search Criteria** area, specify a _group or container_ to fetch the server objects from.
@@ -82,17 +82,17 @@ The following information is displayed for a file server in the **Included File 
   performed by the GroupID Entitlement schedule. Different statuses are:
 
     - **Request
-      ![rc_request](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/rc_request.webp):**
+      ![rc_request](/images/directorymanager/11.0/admincenter/entitlement/ad/rc_request.webp):**
       permission data for the file server has never been replicated to Elasticsearch.
     - **Success
-      ![rc_success](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/rc_success.webp):**
+      ![rc_success](/images/directorymanager/11.0/admincenter/entitlement/ad/rc_success.webp):**
       permission data for the file server was successfully replicated when the GroupID Entitlement
       schedule last ran.
     - **Fail
-      ![rc_fail](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/rc_fail.webp):**
+      ![rc_fail](/images/directorymanager/11.0/admincenter/entitlement/ad/rc_fail.webp):**
       replication failed for the server due to an error.
     - **Running
-      ![rc_running](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/rc_running.webp):**
+      ![rc_running](/images/directorymanager/11.0/admincenter/entitlement/ad/rc_running.webp):**
       the GroupID Entitlement schedule is running and replication is in progress.
 
 - **Last Replicated**: the date and time the GroupID Entitlement schedule last replicated
@@ -154,7 +154,7 @@ management.
 4. On the **Entitlement** page, click **Include Servers other than Criteria**.
 5. The **Find Servers** dialog box, by default, displays file servers from the entire directory that
    reside outside the container or group specified as criteria. Click in the box and select an OU to
-   narrow down the server listing.  
+   narrow down the server listing.
    Select the check boxes for the file server(s) to include them for entitlement management.
 6. Click **Save**. The selected servers are displayed in the **Included File Servers** area on the
    **Entitlement** page.
@@ -234,7 +234,7 @@ can designate a different account for this activity.
     - To change the account, clear the **Use Identity Store Service Account** check box and specify
       the credentials of an account in the **User name** and **Password** boxes. This account must
       have elevated permissions to manage the effective NTFS permissions for the shared resources on
-      the server.  
+      the server.
       On changing the credentials, use the **Reconnect** button to test the connectivity and fetch
       the shared folders again with the given credentials.
 
@@ -266,7 +266,7 @@ the **Included File Servers** section on the **Entitlement** page.
       select the check boxes for the servers you want to replicate. To replicate all servers, select
       the check box in the header row. This displays the following icons:
 
-        **![replicate_permissions](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/replicate_permissions.webp)**
+        **![replicate_permissions](/images/directorymanager/11.0/admincenter/entitlement/ad/replicate_permissions.webp)**
 
         Either click the **Replicate** icon or the **Replicate** button.
 
@@ -298,7 +298,7 @@ You can exclude a file server in the identity store from replication and entitle
         want to replicate. To exclude all servers, select the check box in the header row. This
         displays the following icons:
 
-        ![replicate_permissions](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/replicate_permissions.webp)
+        ![replicate_permissions](/images/directorymanager/11.0/admincenter/entitlement/ad/replicate_permissions.webp)
 
         Click **Remove**. The servers are moved to the **Excluded File Servers** area.
 

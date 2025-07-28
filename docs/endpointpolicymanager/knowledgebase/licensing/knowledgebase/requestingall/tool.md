@@ -17,7 +17,7 @@ acquire the following information:
 
 Here's an example file you would send to us:
 
-![197_1_licensing_faq_pic](/img/product_docs/endpointpolicymanager/license/197_1_licensing_faq_pic.webp)
+![197_1_licensing_faq_pic](/images/endpointpolicymanager/license/197_1_licensing_faq_pic.webp)
 
 Without this file, we cannot know what your computer and Terminal Services count is, and hence, how
 much to quote you or where to license you.

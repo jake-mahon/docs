@@ -78,7 +78,7 @@ Therefore, as an additional precaution to prevent conflicts in domain joined mac
 build 2682 this license must be set to ENABLED=TRUE (or omitted) and we now require this component
 (and only this component) to be explicitly enabled via ADMX setting, as seen below:
 
-![655_1_image001_950x529](/img/product_docs/endpointpolicymanager/license/unlicense/655_1_image001_950x529.webp)
+![655_1_image001_950x529](/images/endpointpolicymanager/license/unlicense/655_1_image001_950x529.webp)
 
 Starting with build 2682, it will now take two steps for Endpoint Policy Manager Preferences to be
 enabled:
@@ -166,7 +166,7 @@ then PolicyPak Preferences will always be unlicensed and disabled (even if the a
 :::
 
 
-![forcedisabled1](/img/product_docs/endpointpolicymanager/license/unlicense/forcedisabled1.webp)
+![forcedisabled1](/images/endpointpolicymanager/license/unlicense/forcedisabled1.webp)
 
 In the future, we plan for Endpoint Policy Manager Preferences to evolve to enable co-existence from
 multiple sources.

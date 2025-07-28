@@ -30,7 +30,7 @@ Use these processes to Clean up Individual Customization or Clean Up Multiple Cu
 6. Assign a **Change/Approval Policy** if there is an object specific policy (optional).
 7. Under **Clean-Up Classification**, add an overview of the clean up.
 
-![improvementtab](/img/product_docs/platgovsalesforce/clean_up/improvementtab.webp)
+![improvementtab](/images/platgovsalesforce/clean_up/improvementtab.webp)
 
 ## Clean Up Multiple Customizations
 
@@ -49,7 +49,7 @@ Use these processes to Clean up Individual Customization or Clean Up Multiple Cu
     - **Clean Up Comments**
     - **Clean Up Status**
 
-    ![createlist_view_for_cleanup](/img/product_docs/platgovsalesforce/clean_up/createlist_view_for_cleanup.webp)
+    ![createlist_view_for_cleanup](/images/platgovsalesforce/clean_up/createlist_view_for_cleanup.webp)
 
 6. Restrict Visibility. You can choose to have the list view:
 
@@ -61,13 +61,13 @@ Use these processes to Clean up Individual Customization or Clean Up Multiple Cu
 8. Once your list view has been created, you can multi-select customizations for clean up by
    checking the box beside **Action**.
 
-    ![multi_select_cleanup](/img/product_docs/platgovsalesforce/clean_up/multi_select_cleanup.webp)
+    ![multi_select_cleanup](/images/platgovsalesforce/clean_up/multi_select_cleanup.webp)
 
-9. You can now choose what you want to edit for the multiple customizations selected.  
+9. You can now choose what you want to edit for the multiple customizations selected.
    For example, if you want to change the clean up status:
 10. Go to **Edit Clean Up Status**.
 11. Select a status such as To Be Cleaned Up.
 12. Choose to **Apply changes to: All the selected records**.
 13. Click **Save**.
 
-    ![flagging_mass_customizations](/img/product_docs/platgovsalesforce/clean_up/flagging_mass_customizations.webp)
+    ![flagging_mass_customizations](/images/platgovsalesforce/clean_up/flagging_mass_customizations.webp)

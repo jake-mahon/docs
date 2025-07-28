@@ -54,7 +54,7 @@ Example Password
 If you use the password “HelloWorld” and Base64 encrypt it, you will get `SGVsbG9Xb3JsZA==` as the
 result. You can use an encoder like [Base64 Encode](https://www.base64encode.org/), shown below.
 
-![base64format](/img/product_docs/endpointpolicymanager/troubleshooting/clientsideextension/base64format.webp)
+![base64format](/images/endpointpolicymanager/troubleshooting/clientsideextension/base64format.webp)
 
 Example Use of the Feature
 
@@ -64,12 +64,12 @@ Example Use of the Feature
 
 See the interactive example shown in the screenshot.
 
-![csewizard](/img/product_docs/endpointpolicymanager/troubleshooting/clientsideextension/csewizard.webp)
+![csewizard](/images/endpointpolicymanager/troubleshooting/clientsideextension/csewizard.webp)
 
 If you try to uninstall the CSE by hand without a password, the following error message is
 displayed.
 
-![cseuninstallpw](/img/product_docs/endpointpolicymanager/troubleshooting/clientsideextension/cseuninstallpw.webp)
+![cseuninstallpw](/images/endpointpolicymanager/troubleshooting/clientsideextension/cseuninstallpw.webp)
 
 ## Uninstall CSE When a Password Is Set
 
@@ -79,7 +79,7 @@ Example Command
 
 `msiexec /x "PolicyPak Client-Side Extension x64.msi" UNPASSWORD=SGVsbG9Xb3JsZA==`
 
-![csepassword](/img/product_docs/endpointpolicymanager/troubleshooting/clientsideextension/csepassword.webp)
+![csepassword](/images/endpointpolicymanager/troubleshooting/clientsideextension/csepassword.webp)
 
 Uninstallation Rules
 
@@ -124,7 +124,7 @@ Registry value details
 
 The password is encrypted with the Windows Data Protection API (DAPI) and not in plain text.
 
-![editbinary](/img/product_docs/endpointpolicymanager/troubleshooting/clientsideextension/editbinary.webp)
+![editbinary](/images/endpointpolicymanager/troubleshooting/clientsideextension/editbinary.webp)
 
 This registry key is protected and accessible only by Administrators and the Local System account.
 The password cannot be copied to another machine. If the registry value is transferred, CSE will not
@@ -141,7 +141,7 @@ additional information about the ADMX troubleshooting files.
 When this ADMX setting is set locally or targeted to a machine, the CSE will uninstall without a
 password.
 
-![disableuninstallpw](/img/product_docs/endpointpolicymanager/troubleshooting/clientsideextension/disableuninstallpw.webp)
+![disableuninstallpw](/images/endpointpolicymanager/troubleshooting/clientsideextension/disableuninstallpw.webp)
 
 :::warning
 Again as stated in the introduction of this document, someone with access rights to

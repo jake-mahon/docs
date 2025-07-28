@@ -18,11 +18,11 @@ AppLock for Win32 applications
 
 AppLock can be managed on individual settings for applications like what's seen here.
 
-![195_1_image003](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_1_image003.webp)
+![195_1_image003](/images/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_1_image003.webp)
 
 And also here.
 
-![195_2_image004](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_2_image004.webp)
+![195_2_image004](/images/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_2_image004.webp)
 
 Note that Endpoint Policy Manager AppLock options can only work on well-behaved Win32 applications.
 
@@ -33,7 +33,7 @@ applications.
 
 In each of our Pak readme files, we describe if AppLock worked in our testing.
 
-That being said, AppLock might still not work for you when you go to try it out.  
+That being said, AppLock might still not work for you when you go to try it out.
 Applock is only guaranteed to work when the following matches are true from our Pak's definitions
 and your target computers:
 
@@ -80,11 +80,11 @@ Java and Thunderbird. With all three applications, when you perform UI lockout, 
 ALL users. And as such the Pak MUST be used on the COMPUTER Side (as seen here) or else the
 "Lockdown this setting using the system-wide config file" does not appear.
 
-![195_3_image009](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_3_image009.webp)
+![195_3_image009](/images/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_3_image009.webp)
 
 This same option with the Java Paks.
 
-![195_4_image010](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_4_image010.webp)
+![195_4_image010](/images/endpointpolicymanager/troubleshooting/applicationsettings/applock/195_4_image010.webp)
 
 The UI lockout mechanism is completely different for these applications versus Win32 applications
 and as such is treated differently.

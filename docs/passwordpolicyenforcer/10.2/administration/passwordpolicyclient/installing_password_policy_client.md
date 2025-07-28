@@ -62,7 +62,7 @@ and conditions.
 **Step 4 –** Right-click the **PPEClt10.2.msi** icon, click **Copy**, and then paste the file into
 the distribution point.
 
-![the_password_policy_client](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe.webp)
+![the_password_policy_client](/images/passwordpolicyenforcer/10.2/administration/installing_ppe.webp)
 
 **Step 5 –** Give the **Domain Computers** security group read access to the PPEClt10.2.msi file in
 the distribution point.
@@ -82,7 +82,7 @@ this domain, and Link it here...**.
 
 **Step 4 –** Enter **Password Policy Client** in the provided field, then press **ENTER**.
 
-![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe1.webp)
+![the_password_policy_client_1](/images/passwordpolicyenforcer/10.2/administration/ppe1.webp)
 
 ## Edit the Group Policy Object
 
@@ -107,7 +107,7 @@ For example, `\\file server\distribution point share\PPEClt10.2.msi`
 
 **Step 6 –** Select the **Assigned deployment method**, then click **OK**.
 
-![the_password_policy_client_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
+![the_password_policy_client_2](/images/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
 
 **Step 7 –** Close the **Group Policy Management Editor**.
 
@@ -161,15 +161,15 @@ You need to create the GPO if you chose the Express Setup option.
 **Step 4 –** Click **Domain Profile** in the left pane then double-click **Windows Firewall: Define
 inbound port exceptions** in the right pane.
 
-![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe2.webp)
+![the_password_policy_client_3](/images/passwordpolicyenforcer/10.2/administration/ppe2.webp)
 
 **Step 5 –** Select the **Enabled** option, and then click **Show...**.
 
-![the_password_policy_client_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_4.webp)
+![the_password_policy_client_4](/images/passwordpolicyenforcer/10.2/administration/the_password_policy_client_4.webp)
 
 **Step 6 –** Select the **Enabled** option, and then click **Show...**.
 
-![the_password_policy_client_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_5.webp)
+![the_password_policy_client_5](/images/passwordpolicyenforcer/10.2/administration/the_password_policy_client_5.webp)
 
 **Step 7 –** Click **OK** until you return to the Group Policy Management Editor.
 

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_SensitiveDataActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/sensitivedataactivityanalysis.webp)
+![Analysis Tasks for the FS_SensitiveDataActivity Job](/images/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/sensitivedataactivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -33,4 +33,3 @@ produces the following pre-configured report:
 | Report                       | Description                                                                          | Default Tags                                          | Report Elements                                                                                                                                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User Sensitive Data Activity | This report highlights periods of abnormally high activity involving sensitive data. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Bar Chart – Displays abnormal sensitive data activity</li><li>Table – Provides details on sensitive data activity</li></ul> |
-

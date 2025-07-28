@@ -8,7 +8,7 @@ sidebar_position: 20
 
 View information on ransomware using the Ransomware Dashboard for Splunk.
 
-![Ransomware Dashboard for Stealthbits Activivty Monitor App for Splunk](/img/product_docs/activitymonitor/7.1/siem/splunk/dashboard/ransomwaredashboard.webp)
+![Ransomware Dashboard for Stealthbits Activivty Monitor App for Splunk](/images/activitymonitor/7.1/siem/splunk/dashboard/ransomwaredashboard.webp)
 
 The Ransomware dashboard contains the following cards:
 

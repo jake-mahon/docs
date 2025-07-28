@@ -28,8 +28,8 @@ To apply the options you set in each section, click the **Save** button in that 
 | **Content Field Mappings**                                                                                                                                   |                                                                                                                                                                                |                                        |
 | The values configured for each of the default content mappings will be assigned based on the base template of the list (Document Library, Generic List etc). |                                                                                                                                                                                |                                        |
 
-![sharepointadvancedsourceconfiguration_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedsourceconfiguration_thumb_0_0.webp)
+![sharepointadvancedsourceconfiguration_thumb_0_0](/images/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedsourceconfiguration_thumb_0_0.webp)
 
-![sharepointadvancedspecialfieldmappings_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedspecialfieldmappings_thumb_0_0.webp)
+![sharepointadvancedspecialfieldmappings_thumb_0_0](/images/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedspecialfieldmappings_thumb_0_0.webp)
 
-![sharepointadvancedsourcecontentmappings_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedsourcecontentmappings_thumb_0_0.webp)
+![sharepointadvancedsourcecontentmappings_thumb_0_0](/images/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedsourcecontentmappings_thumb_0_0.webp)

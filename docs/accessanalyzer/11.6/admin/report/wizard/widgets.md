@@ -9,12 +9,12 @@ sidebar_position: 50
 The Widgets page of the Report Configuration wizard allows you to configure the tables, charts, and
 text that form the report.
 
-![Widgets page](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgets.webp)
+![Widgets page](/images/accessanalyzer/11.6/admin/report/wizard/widgets.webp)
 
 At the top of the page the selected layout is described. The table contains the available element
 locations where widgets need to be configured.
 
-![Configure widgets](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetsconfigure.webp)
+![Configure widgets](/images/accessanalyzer/11.6/admin/report/wizard/widgetsconfigure.webp)
 
 To add a new widget to an empty element, click **Configure** and select the desired widget type from
 the drop-down menu. The following widgets are available:
@@ -26,7 +26,7 @@ the drop-down menu. The following widgets are available:
 The editor for the selected widget opens. See the relevant section below for information about
 configuring it.
 
-![Table with configured widgets](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetsconfigured.webp)
+![Table with configured widgets](/images/accessanalyzer/11.6/admin/report/wizard/widgetsconfigured.webp)
 
 For configured widgets the table shows the title, type, and data source. You can perform the
 following actions by selecting a row and clicking the relevant button:
@@ -40,13 +40,13 @@ following actions by selecting a row and clicking the relevant button:
 
 The Grid widget type allows you to configure a table to be displayed on generated reports.
 
-![Grid configuration window](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetgrid.webp)
+![Grid configuration window](/images/accessanalyzer/11.6/admin/report/wizard/widgetgrid.webp)
 
 ### Options
 
 The Options section allows you to configure the title and data source for the Grid element.
 
-![Options section](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetgridoptions.webp)
+![Options section](/images/accessanalyzer/11.6/admin/report/wizard/widgetgridoptions.webp)
 
 The section contains the following options:
 
@@ -96,7 +96,7 @@ You can configure the table to allow the data to be exported as a CSV file.
 
 The Table Properties section allows you to configure the display features of the grid.
 
-![Table Properties section](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetgridtableproperties.webp)
+![Table Properties section](/images/accessanalyzer/11.6/admin/report/wizard/widgetgridtableproperties.webp)
 
 There are two types of grid displays:
 
@@ -144,7 +144,7 @@ The following settings are available when Interactive grid is selected:
 The selected data for the table is shown in the section at the bottom of the window. This section
 allows you to configure the data to be displayed in the table.
 
-![Data display](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetgriddata.webp)
+![Data display](/images/accessanalyzer/11.6/admin/report/wizard/widgetgriddata.webp)
 
 The buttons above the column names provide you options for configuring the table arrangement.
 
@@ -160,13 +160,13 @@ The buttons above the column names provide you options for configuring the table
 Chart widgets allow you to create various chart types to represent data. A Chart Section can only
 display one chart type at a time.
 
-![Chart configuration window](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetchart.webp)
+![Chart configuration window](/images/accessanalyzer/11.6/admin/report/wizard/widgetchart.webp)
 
 ### Options
 
 The Options section allows you to configure the title and data source for the Chart element.
 
-![Chart Options](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetchartoptions.webp)
+![Chart Options](/images/accessanalyzer/11.6/admin/report/wizard/widgetchartoptions.webp)
 
 The section contains the following options:
 
@@ -197,7 +197,7 @@ In order to generate results, a location must first be selected as the source of
 
 The Chart Properties section allows you to select the type of chart you want to create.
 
-![Chart Properties](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetchartproperties.webp)
+![Chart Properties](/images/accessanalyzer/11.6/admin/report/wizard/widgetchartproperties.webp)
 
 The following options are the available in the Chart Properties:
 
@@ -226,7 +226,7 @@ The following options are the available in the Chart Properties:
 
 The Link option allows you to add a hyperlink to the report to connect to other reports.
 
-![Link Published Reports Tree](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetchartlink.webp)
+![Link Published Reports Tree](/images/accessanalyzer/11.6/admin/report/wizard/widgetchartlink.webp)
 
 To add a link, click **Published Reports**. On the Published Report Tree window, select the required
 report to link to and click **Ok**.
@@ -236,7 +236,7 @@ report to link to and click **Ok**.
 The table of data for the chart is displayed in the middle of the window. This table allows you to
 customize the data that is to be shown in the chart.
 
-![Data table](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetchartdata.webp)
+![Data table](/images/accessanalyzer/11.6/admin/report/wizard/widgetchartdata.webp)
 
 The buttons above the column names provide you the following options for configuring the table
 arrangement:
@@ -257,7 +257,7 @@ Select the checkbox next to the columns you want to include in the chart.
 
 At the bottom of the page a preview of the currently configured chart is displayed.
 
-![Chart Preview](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/widgetchartpreview.webp)
+![Chart Preview](/images/accessanalyzer/11.6/admin/report/wizard/widgetchartpreview.webp)
 
 ## Text
 
@@ -267,7 +267,7 @@ There are two types of text editor that allow you to configure a text element on
 - Advanced Text Editor – Provides advanced functionality like document formatting, inserting tables,
   and adding hyperlinks
 
-![Text Editor selection window](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/texteditorselection.webp)
+![Text Editor selection window](/images/accessanalyzer/11.6/admin/report/wizard/texteditorselection.webp)
 
 When you first configure a new text element, a dialog displays allowing you to select the type of
 Text Editor. On this dialog, select either the Basic or Advanced Text Editor and click **Open
@@ -280,7 +280,7 @@ Once a Text Editor is selected for a Text element, it cannot be changed.
 
 ### Basic Text Editor
 
-![Basic Text Editor](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/basictexteditor.webp)
+![Basic Text Editor](/images/accessanalyzer/11.6/admin/report/wizard/basictexteditor.webp)
 
 The Basic Text Editor has the following options:
 
@@ -298,18 +298,18 @@ provide basic editing options for text entries.
 
 | Icon                                                                                                                | Description                                                   |
 | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| ![Undo](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/undo.webp)                  | Undo a change to the text                                     |
-| ![Redo](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/redo.webp)                  | Redo a change to the text                                     |
-| ![Paste](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/paste.webp)                     | Paste the contents of the clipboard                           |
-| ![Paste Special](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/pastespecial.webp) | Paste as either formatted text, unformatted text, or metafile |
-| ![Cut](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/cut.webp)                         | Cut the selected text and put it on the clipboard             |
-| ![Find](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/find.webp)                  | Find and replace specified text                               |
-| ![Font](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/font.webp)                  | Change the font face                                          |
-| ![Font Size](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/fontsize.webp)         | Change the font size                                          |
+| ![Undo](/images/accessanalyzer/11.6/admin/report/wizard/undo.webp)                  | Undo a change to the text                                     |
+| ![Redo](/images/accessanalyzer/11.6/admin/report/wizard/redo.webp)                  | Redo a change to the text                                     |
+| ![Paste](/images/accessanalyzer/11.6/admin/report/wizard/paste.webp)                     | Paste the contents of the clipboard                           |
+| ![Paste Special](/images/accessanalyzer/11.6/admin/report/wizard/pastespecial.webp) | Paste as either formatted text, unformatted text, or metafile |
+| ![Cut](/images/accessanalyzer/11.6/admin/report/wizard/cut.webp)                         | Cut the selected text and put it on the clipboard             |
+| ![Find](/images/accessanalyzer/11.6/admin/report/wizard/find.webp)                  | Find and replace specified text                               |
+| ![Font](/images/accessanalyzer/11.6/admin/report/wizard/font.webp)                  | Change the font face                                          |
+| ![Font Size](/images/accessanalyzer/11.6/admin/report/wizard/fontsize.webp)         | Change the font size                                          |
 
 ### Advanced Text Editor
 
-![Advanced Text Editor](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/advancedtexteditor.webp)
+![Advanced Text Editor](/images/accessanalyzer/11.6/admin/report/wizard/advancedtexteditor.webp)
 
 The Advanced Text Editor has the following options:
 
@@ -325,12 +325,12 @@ below.
 
 | Icon                                                                                                                    | Description                                                     |
 | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| ![Bold](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/bold.webp)                      | Makes the selected text bold                                    |
-| ![Italic](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/italic.webp)                  | Italicize the selected text                                     |
-| ![Decrease Indent](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/decreaseindent.webp) | Decrease the indent level of the paragraph                      |
-| ![Increase Indent](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/increaseindent.webp) | Increase the indent level of the paragraph                      |
-| ![Hyperlink](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/hyperlink.webp)            | Create a link to a Web page, picture, email address, or program |
-| ![Multilevel List](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/multilevel.webp)     | Start a multilevel list                                         |
-| ![Numbering](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/numbering.webp)            | Start a numbered list                                           |
-| ![Bullets](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/bullets.webp)                | Start a bulleted list                                           |
-| ![Table](/img/product_docs/accessanalyzer/11.6/admin/report/wizard/table.webp)                    | Insert a table                                                  |
+| ![Bold](/images/accessanalyzer/11.6/admin/report/wizard/bold.webp)                      | Makes the selected text bold                                    |
+| ![Italic](/images/accessanalyzer/11.6/admin/report/wizard/italic.webp)                  | Italicize the selected text                                     |
+| ![Decrease Indent](/images/accessanalyzer/11.6/admin/report/wizard/decreaseindent.webp) | Decrease the indent level of the paragraph                      |
+| ![Increase Indent](/images/accessanalyzer/11.6/admin/report/wizard/increaseindent.webp) | Increase the indent level of the paragraph                      |
+| ![Hyperlink](/images/accessanalyzer/11.6/admin/report/wizard/hyperlink.webp)            | Create a link to a Web page, picture, email address, or program |
+| ![Multilevel List](/images/accessanalyzer/11.6/admin/report/wizard/multilevel.webp)     | Start a multilevel list                                         |
+| ![Numbering](/images/accessanalyzer/11.6/admin/report/wizard/numbering.webp)            | Start a numbered list                                           |
+| ![Bullets](/images/accessanalyzer/11.6/admin/report/wizard/bullets.webp)                | Start a bulleted list                                           |
+| ![Table](/images/accessanalyzer/11.6/admin/report/wizard/table.webp)                    | Insert a table                                                  |

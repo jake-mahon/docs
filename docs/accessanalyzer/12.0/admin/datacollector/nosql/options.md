@@ -9,7 +9,7 @@ sidebar_position: 30
 Use the Sensitive Data Scan Settings (Options) page to configure additional settings for the
 sensitive data scan. It is a wizard page for the Sensitive Data Collection category.
 
-![NoSQL Data Collector Wizard Options page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/nosql/options.webp)
+![NoSQL Data Collector Wizard Options page](/images/accessanalyzer/12.0/admin/datacollector/nosql/options.webp)
 
 The sensitive data scan settings are:
 

@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Sample Server page provides a box to select a server to generate the result columns.
 
-![PowerShell Data Collector Wizard Select Server page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/powershell/selectserver.webp)
+![PowerShell Data Collector Wizard Select Server page](/images/accessanalyzer/11.6/admin/datacollector/powershell/selectserver.webp)
 
 The Select Server page options are:
 

@@ -9,7 +9,7 @@ sidebar_position: 40
 The Dashboard interface displays an overview of activity sessions, users, resources and related
 information.
 
-![Dashboard Interface](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/activedashboarduser.webp)
+![Dashboard Interface](/images/privilegesecure/4.1/accessmanagement/enduser/activedashboarduser.webp)
 
 The overview section shows information for the following:
 

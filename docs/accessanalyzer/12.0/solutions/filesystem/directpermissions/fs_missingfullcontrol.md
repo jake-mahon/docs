@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_MissingFullControl Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/missingfullcontrolanalysis.webp)
+![Analysis Tasks for the FS_MissingFullControl Job](/images/accessanalyzer/12.0/solutions/filesystem/directpermissions/missingfullcontrolanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report:
 | Report                      | Description                                                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                                   |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Missing Full Control Rights | This report identifies folders within the environment which currently do not have any trustee with Full Control rights, adding to administrative burden. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays shares with missing full control rights</li><li>Table – Provides details on folder</li><li>Table – Provides details on shares with missing full control rights</li></ul> |
-

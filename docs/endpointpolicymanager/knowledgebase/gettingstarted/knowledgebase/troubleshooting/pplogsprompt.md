@@ -23,4 +23,4 @@ where the command will execute on the machine itself.
 `echo y|pplogs /out:"c:\temp\pplogs_"$env:computername"_"$env:username".zip"`
 `echo y|pplogs /out:"c:\temp\pplogs_"$env:computername"_admin.zip"`
 
-![934_1_image001_950x736](/img/product_docs/endpointpolicymanager/troubleshooting/powershell/934_1_image001_950x736.webp)
+![934_1_image001_950x736](/images/endpointpolicymanager/troubleshooting/powershell/934_1_image001_950x736.webp)

@@ -13,7 +13,7 @@ logbook. The logbook records which user has made exactly what changes. This modu
 (theoretically) classified as uncritical. This is because the employee only has access to those
 logbook entries to which he is actually entitled.
 
-![Logbook module](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/logbook/logbook_1-en.webp)
+![Logbook module](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/logbook/logbook_1-en.webp)
 
 ## Relevant rights
 
@@ -30,7 +30,7 @@ elements based on the defined criteria. In the following example, the user is se
 entries relating to the object type “Password” that also match the event criteria "Change". In
 short: The entries are being filtered based on changes to passwords.
 
-![Logbook filter](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/logbook/logbook_2-en.webp)
+![Logbook filter](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/logbook/logbook_2-en.webp)
 
 ## Grouping in the logbook
 
@@ -38,7 +38,7 @@ This list can also be grouped together by dragging and dropping column headers �
 grouping of the columns for **computer user**. The filtered results now show all changes to
 passwords carried out by the computer user "administrator".
 
-![Logbook entries](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/logbook/logbook_3-en.webp)
+![Logbook entries](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/logbook/logbook_3-en.webp)
 
 ## Revision-safe archiving
 

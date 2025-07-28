@@ -15,7 +15,7 @@ Use the General tab to maintain the list of managed domains, and to configure Pa
 Enforcer integration. See the [Password Policy Enforcer](#password-policy-enforcer) topic for
 additional information.
 
-![configuring_ppe_web](/img/product_docs/passwordpolicyenforcer/10.2/web/configuring_ppe_web.webp)
+![configuring_ppe_web](/images/passwordpolicyenforcer/10.2/web/configuring_ppe_web.webp)
 
 ### Domain List
 
@@ -56,7 +56,7 @@ Password Policy Enforcer is a configurable password filter that enforces granula
 with many advanced features. Password Policy Enforcer/Web can integrate with Password Policy
 Enforcer to help users choose a compliant password.
 
-![configuring_ppe_web_1](/img/product_docs/passwordpolicyenforcer/10.2/web/configuring_ppe_web_1.webp)
+![configuring_ppe_web_1](/images/passwordpolicyenforcer/10.2/web/configuring_ppe_web_1.webp)
 
 Password Policy Enforcer/Web displays the Password Policy Enforcer password policy message when a
 user is prompted for their new password, and the Password Policy Enforcer rejection message if the

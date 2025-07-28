@@ -18,7 +18,7 @@ page for the categories of:
 - OrphanedMailboxes
 - OrphanedPublicFolders
 
-![Exchange 2K+ Data Collector Wizard MAPI Settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/exchange2k/mapisettings.webp)
+![Exchange 2K+ Data Collector Wizard MAPI Settings page](/images/accessanalyzer/12.0/admin/datacollector/exchange2k/mapisettings.webp)
 
 Configure the Connection Setting by selecting from the following:
 

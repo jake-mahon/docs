@@ -14,7 +14,7 @@ Credentials are assigned via Credential Based access policies for password relea
 [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/admin/interface/accesspolicy/credentialbasedpolic/credentials/credentials.md)
 topic for additional information.
 
-![Secrete Vault Details Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/seretvaultdetailspage.webp)
+![Secrete Vault Details Page](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/seretvaultdetailspage.webp)
 
 The details page shows the following information:
 

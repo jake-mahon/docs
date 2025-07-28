@@ -37,7 +37,7 @@ end date:
 NETWRIX recommends always preferring calculated assignments over manual ones, because calculated
 assignments follow the changes in their owners' data and are consequently more secure.
 
-For example, consider a user Jean who starts working as an architect with a given role.  
+For example, consider a user Jean who starts working as an architect with a given role.
 When assigning the role manually, when Jean changes her job, her manager will have to remove the
 role manually. When assigning the role via a rule, when Jean changes a job, the role will be removed
 automatically.
@@ -54,7 +54,7 @@ A manual assignment stays as is, even if the entitlement is also assigned by a r
 > several distinct time periods. When creating a rule that assigns the same entitlement to them
 > automatically on a given time period, then we have:
 >
-> ![Schema - Compute Role Model](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewithout.webp)
+> ![Schema - Compute Role Model](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewithout.webp)
 
 The redundant assignment analysis gives priority to the rules inside the role model and the policy.
 When an entitlement is assigned via a rule, it is stated as calculated, even if it is also assigned
@@ -64,7 +64,7 @@ be truncated or deleted.
 > For example, consider the same situation as before. Using the redundant assignments analysis, then
 > we have:
 >
-> ![Schema - Redundant Assignment Analysis](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewith.webp)
+> ![Schema - Redundant Assignment Analysis](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_examplewith.webp)
 
 Redundant assignments can be removed by Usercube only when the corresponding assigned items are
 tagged as redundant and displayed in the most recent report. The manual assigned items that are not
@@ -85,12 +85,12 @@ Remove redundant assignments by proceeding as follows:
 
 1. Click on **Redundant Assignments** on the home page in the **Administration** section.
 
-    ![Home Page - Redundant Assignments](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.webp)
+    ![Home Page - Redundant Assignments](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.webp)
 
 2. Click on **Analyze** to tag the manual roles and resource types from all policies eligible for
    conversion to an automatic state.
 
-    ![Redundant Assignments - Buttons](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_buttons_v602.webp)
+    ![Redundant Assignments - Buttons](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_buttons_v602.webp)
 
     Previous tags are cleared at each instance of this tagging process.
 
@@ -102,7 +102,7 @@ Remove redundant assignments by proceeding as follows:
     > 2023 (dateA) until May 16th (dateD). A new single role rule assigns him this role from April
     > 14th (dateB) until 25th 2023 (dateC).
     >
-    > ![Redundant Assignments - Report Example](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexample_v602.webp)
+    > ![Redundant Assignments - Report Example](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexample_v602.webp)
     >
     > It means that Nicholas Acosta will have the role in the calculated state from dateB to dateC,
     > and he will keep the role in the approved state from dateA to dateB and from dateC to dateD.
@@ -116,15 +116,15 @@ In order to verify the process:
 
 1. Access the user directory from the home page.
 
-    ![Home Page - Directory User](/img/product_docs/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+    ![Home Page - Directory User](/images/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. For one of the users mentioned in the report, access their permissions.
 
-    ![View Permissions Tab](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
+    ![View Permissions Tab](/images/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
 3. Check that their roles (mentioned in the report) have actually switched from approved to
    calculated.
 
     > When removing redundant assignments based on the previous report example, we can see:
     >
-    > ![Redundant Assignments - Result](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexampleverif_v602.webp)
+    > ![Redundant Assignments - Result](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexampleverif_v602.webp)

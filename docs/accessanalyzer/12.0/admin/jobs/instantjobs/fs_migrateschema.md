@@ -13,7 +13,7 @@ into the Jobs tree.
 
 For installing the job, select **Local host** on the Hosts page of the Instant Job Wizard.
 
-![FS_MigrateSchema job in the Jobs tree](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/jobstree.webp)
+![FS_MigrateSchema job in the Jobs tree](/images/accessanalyzer/12.0/admin/jobs/instantjobs/jobstree.webp)
 
 Runtime Details:
 
@@ -38,7 +38,7 @@ preconfigured for this job.
 :::
 
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis tasks for the job](/images/accessanalyzer/12.0/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 

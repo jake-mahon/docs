@@ -22,7 +22,7 @@ nodes are:
 On expanding a node, its sub-nodes are displayed. On clicking a sub-node, users are redirected to a
 page that contains tabs under that sub-node. It is as:
 
-![navigation_bar](/img/product_docs/directorymanager/11.0/admincenter/portal/design/navigation_bar.webp)
+![navigation_bar](/images/directorymanager/11.0/admincenter/portal/design/navigation_bar.webp)
 
 GroupID enables you to customize the nodes, sub-nodes, and their respective tabs.
 
@@ -72,13 +72,13 @@ Note the following:
 
 **To add a node:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
-4. Click **Navigation Bar** in the left pane.  
+4. Click **Navigation Bar** in the left pane.
    The **Navigation Bar** page has two tabs: the **Navigation Bar Categories** tab is used to manage
    nodes while the **Navigation Bars** tab is used to manage sub-nodes and their respective tabs.
 5. Click **Navigation Bar Categories** to define a new node.
@@ -89,7 +89,7 @@ Note the following:
 8. In the **Access Level** drop-down list, select a security role. The node would be visible to
    users of this role and roles with a priority value higher than this role. For all other users,
    the node would be hidden. See
-   [Priority](/docs/directorymanager/11.0/signin/securityrole/manage.md).  
+   [Priority](/docs/directorymanager/11.0/signin/securityrole/manage.md).
    Select _Never_ to hide the node for all users.
 9. In the **Tooltip Text** box, enter the text to appear when a user hovers the mouse over the node.
 10. Use the **Icon Class** box to upload the image (icon) to be displayed with the node name.
@@ -98,7 +98,7 @@ Note the following:
     - If an image has been uploaded, the very image is displayed. Click the icon below the image to
       replace the existing image with a new one.
 
-        NOTE: Image dimensions: 30 x 30 pixels  
+        NOTE: Image dimensions: 30 x 30 pixels
          Supported formats: .webp, .jpg, .jpe, .jpeg
 
 11. Click **OK**.
@@ -118,29 +118,29 @@ The _Create New_, _High Priority_, _Others_, and _External Links_ nodes cannot b
 
 **To update a node:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. Then click the **Navigation Bar Categories** tab.
-5. On the **Navigation Bar Categories** tab, click **Edit** for a node to update it.  
+5. On the **Navigation Bar Categories** tab, click **Edit** for a node to update it.
    The **Edit Navigation Category** pane is displayed. Follow step 7 and onwards in the
    [Add a Node (Category)](#add-a-node-category) topic to update node details.
 
 ## Rearrange the Nodes on the Navigation Bar
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. Then click the **Navigation Bar Categories** tab. The
    **Navigation Bar Categories** tab is displayed.
 5. To rearrange the nodes on the navigation bar, click the equal sign for a node and drag to change
-   its position.  
+   its position.
    You can move all except the _Create New_ node.
 6. Click **Save**.
 
@@ -151,10 +151,10 @@ deleted.
 
 **To delete a node:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. Then click the **Navigation Bar Categories** tab.
@@ -171,10 +171,10 @@ that:
 
 **To define a sub-node:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. The **Navigation Bar** page is displayed with the
@@ -188,27 +188,27 @@ that:
 9. In the **Tooltip Text** box, enter the text to appear when a user hovers the mouse over the
    sub-node.
 10. Use the **Icon Class** box to upload the image (icon) to be displayed with the sub-node name.
-    See step 10 in the [Add a Node (Category)](#add-a-node-category) topic for details.  
+    See step 10 in the [Add a Node (Category)](#add-a-node-category) topic for details.
     The facility to upload an image is not available for sub-nodes under _Groups_. _Users_,
     _Requests_, and _External Links_.
 11. In the **URL** box, provide the URL of a webpage to link to this sub-node. The respective
-    webpage will be displayed when users click the sub-node in the portal.  
+    webpage will be displayed when users click the sub-node in the portal.
     Use the following formats to specify the URL:
 
-    - To link a page from within the GroupID portal template:  
+    - To link a page from within the GroupID portal template:
       GroupManagement/Groups/MyGroups
-    - To link to an external webpage:  
+    - To link to an external webpage:
       https://www.xyz.com.
 
     Click **View in Browser** to preview the webpage.
 
-12. Select the **Open in new tab** check box to open the linked page in a new tab in the browser.  
+12. Select the **Open in new tab** check box to open the linked page in a new tab in the browser.
     If you do not select it, users will directly navigate to the linked page. They will have to use
     the browser’s back button to return to the previous page.
 13. In the **Access Level** drop-down list, select a security role. The sub-node would be visible
     for users of this role and roles with a priority value higher than this role. For all other
     users, the sub-node would be hidden. See
-    [Priority](/docs/directorymanager/11.0/signin/securityrole/manage.md).  
+    [Priority](/docs/directorymanager/11.0/signin/securityrole/manage.md).
     Select _Never_ to hide the sub-node for all users.
 14. Click **OK**.
 15. Click **Save** on the **Navigation Bar** page.
@@ -225,10 +225,10 @@ You can change the following for a sub-node:
 
 **To update sub-node properties:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. The **Navigation Bar** page is displayed with the
@@ -237,16 +237,16 @@ You can change the following for a sub-node:
    bar; its sub-nodes get listed under **Name**.
 6. Click **Edit** for a sub-node to update its properties; the **Edit Link** pane is displayed.
 7. Follow steps 7-14 in the [Add a Sub-node to a Node](#add-a-sub-node-to-a-node) topic to update
-   the required information and save it.  
+   the required information and save it.
    The **Links** section is displayed for system-defined nodes only. Use it to manage the tabs for a
    sub-node.
 
 ## Rearrange the Sub-nodes for a Node
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under Design Settings. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. The **Navigation Bar** page is displayed with the
@@ -259,10 +259,10 @@ You can change the following for a sub-node:
 
 ## Remove a Sub-node from a Node
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. The **Navigation Bar** page is displayed with the
@@ -285,10 +285,10 @@ You can modify the following for a tab:
 
 **To update tab properties:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. The **Navigation Bar** page is displayed with the
@@ -307,7 +307,7 @@ You can modify the following for a tab:
     5. **Access Level** – Select a security role. The tab would be visible to users of this role and
        roles with a priority value higher than this role. For all other users, the tab would be
        hidden. See
-       [Priority](/docs/directorymanager/11.0/signin/securityrole/manage.md).  
+       [Priority](/docs/directorymanager/11.0/signin/securityrole/manage.md).
        Select _Never_ to hide the tab for all users.
 
 9. Click **OK** twice on the **Edit Link** pane.
@@ -315,10 +315,10 @@ You can modify the following for a tab:
 
 ## Rearrange the Tabs for a Sub-node
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Setting**s. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. The **Navigation Bar** page is displayed with the
@@ -334,10 +334,10 @@ You can modify the following for a tab:
 
 ## Remove a Tab from a Sub-node
 
-1. In GroupID Admin Center, select **Applications** in the left pane.  
+1. In GroupID Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Navigation Bar** in the left pane. The **Navigation Bar** page is displayed with the

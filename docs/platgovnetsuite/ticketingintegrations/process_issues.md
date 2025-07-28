@@ -23,11 +23,11 @@ continue to use that and reference the external ticket in the Change Request.
 
 1. Open **Strongpoint** > **Process Issue** > **New**
 
-    ![Initiate a Process Issue](/img/product_docs/platgovnetsuite/processes/process_issue.webp)
+    ![Initiate a Process Issue](/images/platgovnetsuite/processes/process_issue.webp)
 
 2. Select a **Custom Form** or use the default **Process Issue Form**.
 3. Assign a **Number** for the Process Issue. This is any alphanumeric code you use to identify this
-   process issue.  
+   process issue.
    A Unique **ID** is generated after the Process Issue is created.
 4. Enter a meaningful **Name** for the Process Issue.
 5. Select a **Parent Issue** if applicable. This field is used to group issues. You can either type
@@ -98,7 +98,7 @@ functionality, or edit the issue to update status information.
 
 Use the ERD tab to visually view the records and see the relationships.
 
-![processissue4](/img/product_docs/platgovnetsuite/processes/processissue4.webp)
+![processissue4](/images/platgovnetsuite/processes/processissue4.webp)
 
 ## View Process Issues
 
@@ -116,4 +116,4 @@ You can also edit some fields inline:
    edited.
 3. Click in the column to open a text box.
 
-![Process Issue Reports](/img/product_docs/platgovnetsuite/processes/process_issue_overview.webp)
+![Process Issue Reports](/images/platgovnetsuite/processes/process_issue_overview.webp)

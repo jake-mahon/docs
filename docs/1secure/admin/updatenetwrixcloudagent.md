@@ -14,7 +14,7 @@ During the update process, your activity monitoring will not be disrupted.
 
 | Icon                                                                                    | Description                                                                                     |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
+| ![selfupdate_icon](/images/1secure/admin/selfupdate_icon.webp) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
 
 ## Update Agents in Bulk
 
@@ -23,7 +23,7 @@ Follow the steps to update agents in bulk.
 **Step 1 –** To update selected agents, on the Managed Organizations page, select **Bulk Update
 Agent**.
 
-![updateagents](/img/product_docs/1secure/admin/updateagents.webp)
+![updateagents](/images/1secure/admin/updateagents.webp)
 
 **Step 2 –** On the Update Agents page, check the boxes next to agents you wish to update and click
 **Confirm**.
@@ -37,7 +37,7 @@ Follow the steps to update agent schedule.
 **Step 1 –** To edit the agent update schedule, on the Managed Organizations page, select **Agent
 Update Settings**. The Edit Agent Update Schedule page displays.
 
-![editagentupdatesschedule2](/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
+![editagentupdatesschedule2](/images/1secure/admin/editagentupdatesschedule2.webp)
 
 **Step 2 –** In the Update Schedule section, select Enabled.
 
@@ -55,7 +55,7 @@ Follow the steps to enable the self-update function .
 **Step 1 –** To look up the available updates, click the **Bell** icon. The panel with available
 updates displays.
 
-![selfupdate_panel](/img/product_docs/1secure/admin/selfupdate_panel.webp)
+![selfupdate_panel](/images/1secure/admin/selfupdate_panel.webp)
 
 **Step 2 –** Click **Fix** for the agents to be updated. Now you can see the list of organizations
 and which agents may be updated to the new version.
@@ -63,14 +63,14 @@ and which agents may be updated to the new version.
 **Step 3 –** Click **Update available** to update the agent to the current version. The Edit Agent
 Update Schedule page displays, offering you the proposed version.
 
-![editagentupdatesschedule](/img/product_docs/1secure/admin/editagentupdatesschedule.webp)
+![editagentupdatesschedule](/images/1secure/admin/editagentupdatesschedule.webp)
 
 **Step 4 –** Select **Confirm**. The agent shall update and upload a new .msi file of your agent.
 
 **Step 5 –** Alternately, update the version for an organization from the Managed organizations
 page. Select the **organization** and then the **Sites** tab.
 
-![updateagents2](/img/product_docs/1secure/admin/updateagents2.webp)
+![updateagents2](/images/1secure/admin/updateagents2.webp)
 
 **Step 6 –** Click Update.
 
@@ -82,7 +82,7 @@ organization.
 **Step 9 –** On the Edit Agent Update Schedule window, select Enabled and apply the required
 parameters to specify when you want the update occur.
 
-![editagentupdatesschedule2](/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
+![editagentupdatesschedule2](/images/1secure/admin/editagentupdatesschedule2.webp)
 
 **Step 10 –** Click **Confirm**.
 

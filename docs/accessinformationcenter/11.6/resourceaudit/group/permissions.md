@@ -13,7 +13,7 @@ Information Center user. See the
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on filter options.
 
-![Permissions report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/permissions.webp)
+![Permissions report](/images/accessinformationcenter/11.6/resourceaudit/group/permissions.webp)
 
 This report is comprised of the following columns:
 

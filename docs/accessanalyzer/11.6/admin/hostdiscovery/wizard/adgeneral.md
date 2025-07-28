@@ -11,12 +11,12 @@ Follow the steps to create a Host Discovery query using the Query an Active Dire
 all computer objects. The query can be scoped to only return computer objects in specified
 containers or individual computer objects. See Step 3 for additional information.
 
-![Host Discovery Wizard Source page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/source_4.webp)
+![Host Discovery Wizard Source page for AD General](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/source_4.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Query an Active
 Directory server (General)** option. Click **Next**.
 
-![Host Discovery Wizard Query page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/query_4.webp)
+![Host Discovery Wizard Query page for AD General](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/query_4.webp)
 
 **Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
@@ -39,7 +39,7 @@ Directory server (General)** option. Click **Next**.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Active Directory page](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/activedirectory.webp)
+![Host Discovery Wizard Active Directory page](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/activedirectory.webp)
 
 **Step 3 –** On the Active Directory page, identify the organizational units (OUs) to scan.
 
@@ -72,7 +72,7 @@ Scope the query when using this source option.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Options page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/options_4.webp)
+![Host Discovery Wizard Options page for AD General](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/options_4.webp)
 
 **Step 4 –** On the Options page, configure the query options as required.
 
@@ -96,7 +96,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/inventory_4.webp)
+![Host Discovery Wizard Inventory page for AD General](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/inventory_4.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.
@@ -121,13 +121,13 @@ the discovery query.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Summary page for AD General](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/summary_4.webp)
+![Host Discovery Wizard Summary page for AD General](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/summary_4.webp)
 
 **Step 6 –** The Summary page displays all the selected query configuration settings. To make
 changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the
 configuration process.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
+![Confirm dialog box](/images/accessanalyzer/11.6/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 **Step 7 –** A Confirm dialog box opens. Click **Yes** to run the query now or **No** to run the
 query at another time.

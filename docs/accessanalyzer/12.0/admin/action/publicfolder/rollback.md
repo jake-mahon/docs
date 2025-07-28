@@ -9,7 +9,7 @@ sidebar_position: 60
 Use the Rollback page to enable rollback capabilities for the action. If rollback isn’t selected at
 this step, the applied operations cannot be rolled back after execution of the action module.
 
-![Public Folder Action Module Wizard Rollback page](/img/product_docs/accessanalyzer/12.0/admin/action/publicfolder/rollback.webp)
+![Public Folder Action Module Wizard Rollback page](/images/accessanalyzer/12.0/admin/action/publicfolder/rollback.webp)
 
 The options on this page are:
 

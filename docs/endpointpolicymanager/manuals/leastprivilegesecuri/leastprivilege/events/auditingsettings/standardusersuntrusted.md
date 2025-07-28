@@ -20,7 +20,7 @@ SecureRun™ was enabled.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.webp)
+generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.webp)
 
 The audit is only triggered when one of the following is true:
 

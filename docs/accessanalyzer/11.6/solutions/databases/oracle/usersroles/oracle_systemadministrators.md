@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/usersroles/jobgroup23.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/usersroles/jobgroup23.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ Job produces the following pre-configured report.
 | Report        | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                        |
 | ------------- | ---------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Admin Summary | This report highlights all principals which are members of specified administrator roles | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by admin count</li><li>Table – Provides information on admin details</li><li>Table – Provides details on top instances by admin count</li></ul> |
-

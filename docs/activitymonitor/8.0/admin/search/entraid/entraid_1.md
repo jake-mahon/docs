@@ -11,7 +11,7 @@ complete according to the size and quantity of the activity log files being sear
 agent. You can [Filter](/docs/activitymonitor/8.0/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/8.0/admin/search/overview.md#sort) the results using the
 column headers. Below the Search button is the [Export](/docs/activitymonitor/8.0/admin/search/overview.md#export) option.
 
-![Azure Active Directory - Search Results](/img/product_docs/activitymonitor/8.0/admin/search/results/searchresults.webp)
+![Azure Active Directory - Search Results](/images/activitymonitor/8.0/admin/search/results/searchresults.webp)
 
 The results data grid columns display the following information for each event:
 

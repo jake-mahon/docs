@@ -24,7 +24,7 @@ formats.
 
 The user interface of Reports Dashboard is as follows:
 
-![reportsdashboard](/img/product_docs/directorymanager/11.0/portal/report/reportsdashboard.webp)
+![reportsdashboard](/images/directorymanager/11.0/portal/report/reportsdashboard.webp)
 
 Different elements of the Dashboard are described below:
 

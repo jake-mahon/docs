@@ -33,16 +33,16 @@ A few grid display types used in the default portal template are:
 
 ## Define a Grid Display Type
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to define a custom display type for it.  
+3. Select an identity store under **Design Settings** to define a custom display type for it.
    All identity stores associated with the portal are listed under **Design Settings**. You can
    design a different portal for each of these.
 4. Click **Custom Display Types** in the left pane.
 5. On the **Custom Display Types** page, click **Add** on the **Custom Display Types** tab.
 6. On the **New Display Type** pane, enter a name for the display type and select _Grid_ in the
-   **Type** drop-down list.  
+   **Type** drop-down list.
    You cannot change the name of a custom display type once you have created it.
 7. Use the **Fields** area to specify the columns in the grid.
 
@@ -54,7 +54,7 @@ A few grid display types used in the default portal template are:
     4. Click **Advanced Options** to specify additional details for the column.
     5. In the **Edit Type** drop-down list, select a display type (for example, a text box or a
        drop-down list). In edit mode, the fields in the column will be displayed in the portal using
-       the display type you select here.  
+       the display type you select here.
        As a prerequisite to making a column editable, make sure that:
 
         - editing is enabled for the grid (the **Editable** check box is selected on the **New
@@ -64,7 +64,7 @@ A few grid display types used in the default portal template are:
 
     6. In the **Search Type** drop-down list, select a display type (for example, a text box or a
        drop-down list). The search filter for the column will be displayed in the portal using the
-       display type you select here.  
+       display type you select here.
        As a prerequisite to making a column searchable, make sure that:
 
         - search is enabled for the grid (the **Show Search Filters** check box is selected on the
@@ -89,7 +89,7 @@ A few grid display types used in the default portal template are:
 
 9. Click **Advanced Options** to specify additional details for the grid.
 10. Specify a height and width for the grid by entering values in the **Height** and **Width**
-    boxes.  
+    boxes.
     From the drop-down list next to each box, select a unit for the height and width.
 
     - **%:** to specify the height and width of the grid in terms of a percentage of the page's
@@ -101,7 +101,7 @@ A few grid display types used in the default portal template are:
 12. Select the **Show Search Filters** check box to add a row to the grid that serves as a search
     bar. This row appears in the grid, as shown below:
 
-    ![search_row_in_grid](/img/product_docs/directorymanager/11.1/admincenter/portal/displaytype/search_row_in_grid.webp)
+    ![search_row_in_grid](/images/directorymanager/11.1/admincenter/portal/displaytype/search_row_in_grid.webp)
 
 13. Select the **Editable** check box to make the rows in the grid available for editing. Else, the
     grid will be read-only.

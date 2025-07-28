@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Activities pane provides several options for managing Host Discovery queries.
 
-![Activities pane](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/activities.webp)
+![Activities pane](/images/accessanalyzer/11.6/admin/hostdiscovery/activities.webp)
 
 The options are:
 

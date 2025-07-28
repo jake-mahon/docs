@@ -8,7 +8,7 @@ sidebar_position: 100
 
 Use the Applet Settings page to specify the machines on which to execute the selected operation.
 
-![File System Action Module Wizard Applet Settings page](/img/product_docs/accessanalyzer/12.0/admin/action/filesystem/appletsettings.webp)
+![File System Action Module Wizard Applet Settings page](/images/accessanalyzer/12.0/admin/action/filesystem/appletsettings.webp)
 
 Specify how the operations will be executed:
 

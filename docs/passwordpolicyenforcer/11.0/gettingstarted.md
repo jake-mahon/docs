@@ -6,8 +6,7 @@ sidebar_position: 2
 
 # Getting Started
 
-Review the [Requirements](/docs/passwordpolicyenforcer/11.0/requirements.md) and the
-[Domain and Local Policies](/docs/passwordpolicyenforcer/11.0/installation/domain_and_local_policies.md) topics.
+Review the [Domain and Local Policies](/docs/passwordpolicyenforcer/11.0/installation/domain_and_local_policies.md) topic.
 
 ## Install Products
 

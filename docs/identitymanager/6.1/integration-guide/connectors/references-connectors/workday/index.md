@@ -12,7 +12,7 @@ This connector exports users and groups from a
 This page is about
 [ERP/Workday](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/workday/index.md).
 
-![Package: ERP/Workday](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
+![Package: ERP/Workday](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
 
 ## Prerequisites
 

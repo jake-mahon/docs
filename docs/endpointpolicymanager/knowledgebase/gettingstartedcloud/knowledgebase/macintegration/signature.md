@@ -56,15 +56,15 @@ Certificate Chain:
 
 In this example, you can pull signed details in three ways:
 
-![909_1_image-20230406154820-1](/img/product_docs/endpointpolicymanager/cloud/install/mac/909_1_image-20230406154820-1.webp)
+![909_1_image-20230406154820-1](/images/endpointpolicymanager/cloud/install/mac/909_1_image-20230406154820-1.webp)
 
 **Step 1 –** CN=Developer ID installer: Microsoft Corporation (UBF8T346G9)
 
-![909_2_image-20230406155008-2](/img/product_docs/endpointpolicymanager/cloud/install/mac/909_2_image-20230406155008-2.webp)
+![909_2_image-20230406155008-2](/images/endpointpolicymanager/cloud/install/mac/909_2_image-20230406155008-2.webp)
 
 **Step 2 –** OU=UBF8T346G9
 
-![909_3_image-20230406155059-3](/img/product_docs/endpointpolicymanager/cloud/install/mac/909_3_image-20230406155059-3.webp)
+![909_3_image-20230406155059-3](/images/endpointpolicymanager/cloud/install/mac/909_3_image-20230406155059-3.webp)
 
 **Step 3 –** O=Microsoft Corporation
 

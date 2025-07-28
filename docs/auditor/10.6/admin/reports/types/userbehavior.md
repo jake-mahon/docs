@@ -20,7 +20,7 @@ identify vulnerabilities and easily answer questions such as:
 Analytics reports can be found in the User Behavior and Blind Spot Analysis folder under the
 Predefined node.
 
-![userbehaviorblindspotanalysis](/img/product_docs/auditor/10.6/admin/reports/types/userbehaviorblindspotanalysis.webp)
+![userbehaviorblindspotanalysis](/images/auditor/10.6/admin/reports/types/userbehaviorblindspotanalysis.webp)
 
 If you are sure that some audit data is missing (e.g., you do not see information on your file
 servers in reports and search results), verify that the Audit Database settings are configured and
@@ -30,7 +30,7 @@ By default, Auditor allows generating reports and running interactive searches o
 the last 180 days. If you want to investigate incidents that occurred more than 180 days ago, ask
 your Auditor Global administrator to import that data from the Long-Term Archive.
 
-![failedactivitytrend](/img/product_docs/auditor/10.6/admin/reports/types/failedactivitytrend.webp)
+![failedactivitytrend](/images/auditor/10.6/admin/reports/types/failedactivitytrend.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
 [View Reports](/docs/auditor/10.6/admin/reports/view.md) topic for additional

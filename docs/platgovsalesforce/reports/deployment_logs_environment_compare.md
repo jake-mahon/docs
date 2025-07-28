@@ -38,10 +38,10 @@ indicates the current column and sort order being used for the results.
 -  **Compare Filters**: Filters used to run the comparison.
 -  **Created Date**: Date of the environment compare. Format is _dd/mm/yyyy_
 
-![Environment Compare Log Report](/img/product_docs/platgovsalesforce/reports/report_deploy_env_compare.webp)
+![Environment Compare Log Report](/images/platgovsalesforce/reports/report_deploy_env_compare.webp)
 
 ## Sample Environment Compare Log
 
 Click on a **Log Name** link to open the log.
 
-![Example Environment Compare Log](/img/product_docs/platgovsalesforce/reports/deploy_compare_env_log.webp)
+![Example Environment Compare Log](/images/platgovsalesforce/reports/deploy_compare_env_log.webp)

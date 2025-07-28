@@ -10,7 +10,7 @@ The following actions target Windows servers.
 
 ## Close SMB Session
 
-![closesmbsession](/img/product_docs/threatmanager/3.0/administration/playbooks/action/closesmbsession.webp)
+![closesmbsession](/images/threatmanager/3.0/administration/playbooks/action/closesmbsession.webp)
 
 This action closes any active SMB sessions for the threat perpetrator on a target host.
 
@@ -21,7 +21,7 @@ This action closes any active SMB sessions for the threat perpetrator on a targe
 
 ## Create Windows Firewall Rule
 
-![windowsfirewall](/img/product_docs/threatmanager/3.0/administration/playbooks/action/windowsfirewall.webp)
+![windowsfirewall](/images/threatmanager/3.0/administration/playbooks/action/windowsfirewall.webp)
 
 This action adds a Windows Firewall Rule to block inbound or outbound network protocol traffic for
 specified hosts.
@@ -49,7 +49,7 @@ specified hosts.
 
 ## Disable User Remote Desktop Access
 
-![disableuserremote](/img/product_docs/threatmanager/3.0/administration/playbooks/action/disableuserremote.webp)
+![disableuserremote](/images/threatmanager/3.0/administration/playbooks/action/disableuserremote.webp)
 
 This action disconnects the user from the host and disables login rights for the user.
 

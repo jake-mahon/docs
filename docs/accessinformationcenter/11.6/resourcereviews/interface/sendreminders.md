@@ -12,7 +12,7 @@ of the Resource Reviews interface. Select the desired active review(s) and click
 to send immediate reminder notifications. The Send Reminders window opens to display an action
 status.
 
-![Send Reminders window](/img/product_docs/accessinformationcenter/11.6/resourcereviews/window/sendreminders.webp)
+![Send Reminders window](/images/accessinformationcenter/11.6/resourcereviews/window/sendreminders.webp)
 
 The window displays the action status. When a successful status is indicated, assigned owners were
 sent a reminder email. Click **OK** to close the Send Reminders window.

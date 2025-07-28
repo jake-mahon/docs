@@ -21,7 +21,7 @@ for additional information.
 
 **Step 3 –** Once configured, click **Events** on the **SIEM** tab.
 
-![Netwrix Threat Prevention System Alerting window - SEIM tab](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/seim.webp)
+![Netwrix Threat Prevention System Alerting window - SEIM tab](/images/threatprevention/7.5/admin/configuration/systemalerting/seim.webp)
 
 **Step 4 –** Click the button next to Disabled to toggle the setting to **Enabled**.
 
@@ -79,7 +79,7 @@ displayed on the [SIEM Output Viewer](/docs/threatprevention/7.5/admin/configura
 Multiple profiles can be created across SIEM servers to serve different alerting functions. Follow
 the steps to configure one or more SIEM servers for alerting.
 
-![Netwrix Threat Prevention System Alerting window – SEIM tab – Configure SEIM Server](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/seimserver.webp)
+![Netwrix Threat Prevention System Alerting window – SEIM tab – Configure SEIM Server](/images/threatprevention/7.5/admin/configuration/systemalerting/seimserver.webp)
 
 **Step 1 –** Click **Configuration** > **Alerts** on the menu. The Netwrix Threat Prevention System
 Alerting window opens.
@@ -165,7 +165,7 @@ folder:
 
 Follow the steps to add a custom SIEM mapping file.
 
-![SIEM tab - Gear icon for Custom Mapping File](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/geariconformappingfile.webp)
+![SIEM tab - Gear icon for Custom Mapping File](/images/threatprevention/7.5/admin/configuration/systemalerting/geariconformappingfile.webp)
 
 **Step 1 –** Click **Configuration** > **Alerts** on the menu. The Netwrix Threat Prevention System
 Alerting window opens.
@@ -175,11 +175,11 @@ Alerting window opens.
 **Step 3 –** Click the **gear** icon for an alert type to open the SIEM Templates window. The new
 mapping file will only be available for the specific type selected.
 
-![SIEM Templates window](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/siemtemplates.webp)
+![SIEM Templates window](/images/threatprevention/7.5/admin/configuration/systemalerting/siemtemplates.webp)
 
 **Step 4 –** Click **Add** (+) to open the Import SIEM Mapping File window.
 
-![Import SIEM Mapping File window](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/importfile.webp)
+![Import SIEM Mapping File window](/images/threatprevention/7.5/admin/configuration/systemalerting/importfile.webp)
 
 **Step 5 –** Select the desired mapping file and click **Open**. The SIEM Mapping File window closes
 and the selected mapping file appears in the SIEM Templates window. It is now available in the

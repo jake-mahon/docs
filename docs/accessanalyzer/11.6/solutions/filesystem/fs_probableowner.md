@@ -9,7 +9,7 @@ sidebar_position: 80
 The 6.Probable Owner Job Group is designed to report on probable owners of resources from targeted
 file servers.
 
-![probableownerjobstree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/probableownerjobstree.webp)
+![probableownerjobstree](/images/accessanalyzer/11.6/solutions/filesystem/probableownerjobstree.webp)
 
 The 6.Probable Owner Job Group is comprised of:
 
@@ -27,7 +27,7 @@ tasks are preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/probableowneranalysis.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/filesystem/probableowneranalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -55,4 +55,3 @@ the following pre-configured report:
 | Report                                         | Description                                                                                                                                                                                                                        | Default Tags | Report Elements                                                                                        |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------ |
 | Probable Share Owners (A.K.A. Probable Owners) | This report identifies the number of shares owned by individuals, as determined by a weighted average of ownership of content, management, and level of activity. The top 2 owners per ownership criteria per share are displayed. | None         | This report is comprised of one element: <ul><li>Table – Provides details on probable owners</li></ul> |
-

@@ -46,12 +46,12 @@ Follow the steps to add a Dell Isilon/PowerScale host to be monitored.
 
 **Step 1 –** Navigate to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent page](/images/activitymonitor/7.1/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the **Agent** to monitor the storage device. Click
 **Next**.
 
-![Add Host page with Dell Isilon selected](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/addhostemcisilon.webp)
+![Add Host page with Dell Isilon selected](/images/activitymonitor/7.1/admin/monitoredhosts/add/addhostemcisilon.webp)
 
 **Step 3 –** On the Add Host page, select the Dell Isilon radio button and enter both the **Server
 name or address** and the **CIFS/NFS server name** for the device. The CIFS/NFS server name can be
@@ -68,7 +68,7 @@ topic for additional information.
 :::
 
 
-![Isilon Options page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/isilonoptions.webp)
+![Isilon Options page](/images/activitymonitor/7.1/admin/monitoredhosts/add/isilonoptions.webp)
 
 **Step 4 –** On the Isilon Options page, choose whether or not to automatically enable and configure
 auditing on the Isilon cluster. If a manual configuration has been completed, do not enable these
@@ -109,12 +109,12 @@ Follow these steps to use this automated option:
 
 Click **Next**.
 
-![Protocols selection page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/isilonprotocols.webp)
+![Protocols selection page](/images/activitymonitor/7.1/admin/monitoredhosts/add/isilonprotocols.webp)
 
 **Step 5 –** On the Protocols page, select which protocol to monitor. The list of protocols that can
 be monitored are All, CIFS, or NIFS. Click **Next**.
 
-![Configure Operations page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/configureoperationsforemcisilon.webp)
+![Configure Operations page](/images/activitymonitor/7.1/admin/monitoredhosts/add/configureoperationsforemcisilon.webp)
 
 **Step 6 –** On the Configure Operations page, select the **File Operations** and **Directory
 Operations** options to be monitored. Additional options include:
@@ -129,7 +129,7 @@ feature may delay reporting of activity.
 
 Click **Next**.
 
-![Configure Basic Options](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/configurebasicoptions.webp)
+![Configure Basic Options](/images/activitymonitor/7.1/admin/monitoredhosts/add/configurebasicoptions.webp)
 
 **Step 7 –** On the Configure Basic Options page, choose which settings to enable. The “Log files”
 are the activity logs created by the activity agent on the proxy host. Select the desired options:
@@ -158,12 +158,12 @@ are the activity logs created by the activity agent on the proxy host. Select th
 
 Click **Next**.
 
-![Where to Log the Activity Page Generic](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/wheretologgeneric.webp)
+![Where to Log the Activity Page Generic](/images/activitymonitor/7.1/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 8 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File** or **Syslog Server**. Click **Next**.
 
-![File Output Page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/fileoutputpage.webp)
+![File Output Page](/images/activitymonitor/7.1/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 9 –** If **Log File)** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -190,7 +190,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![Syslog Output Page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/syslogoutput.webp)
+![Syslog Output Page](/images/activitymonitor/7.1/admin/monitoredhosts/add/syslogoutput.webp)
 
 **Step 10 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -260,7 +260,7 @@ Output page can be configured.
 
 Click **Finish**.
 
-![Activity Monitor with Dell Isilon added](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/activitymonitoremcisilon.webp)
+![Activity Monitor with Dell Isilon added](/images/activitymonitor/7.1/admin/monitoredhosts/add/activitymonitoremcisilon.webp)
 
 The added Dell Isilon/PowerScale host is displayed in the monitored hosts table. Once a host has
 been added for monitoring, configure the desired ouptuts. See the

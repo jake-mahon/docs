@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_DomainUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/directpermissions/domainusersanalysis.webp)
+![Analysis Tasks for the SP_DomainUsers Job](/images/accessanalyzer/12.0/solutions/sharepoint/directpermissions/domainusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ the SP_DomainUsers Job produces the following pre-configured report:
 | Report                  | Description                                                                                                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Domain User Permissions | This report identifies locations where there are domain users directly applied on permissions. Best practices dictate that groups should be used to provide access to resources. | None         | This report is comprised of three elements: <ul><li>Bar chart – Displays the top 5 resources by directly applied users</li><li>Table – Provides details on directly applied users by resource</li><li>Table – Provides details on direct permission counts by user</li></ul> |
-

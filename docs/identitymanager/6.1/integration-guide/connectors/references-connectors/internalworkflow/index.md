@@ -12,7 +12,7 @@ This page is about Usercube/Workflow. See the
 [Workflow](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/workflow/index.md)
 topic for additional information.
 
-![Package: Usercube/Workflow](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.webp)
+![Package: Usercube/Workflow](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.webp)
 
 ## Overview
 

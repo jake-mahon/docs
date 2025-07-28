@@ -36,7 +36,7 @@ this job. Only modify the analysis tasks listed in the customizable analysis tas
 :::
 
 
-![Analysis Tasks for the AWS_UnusedManagedPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/policies/unusedmanagedpoliciesanalysis.webp)
+![Analysis Tasks for the AWS_UnusedManagedPolicies Job](/images/accessanalyzer/11.6/solutions/aws/policies/unusedmanagedpoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -70,4 +70,3 @@ produces the following preconfigured report:
 | Report                  | Description                                                                 | Default Tags | Report Element                                                                                                                                                                                                                                             |
 | ----------------------- | --------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unused Managed Policies | This report identifies policies that are not assigned to any group or user. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays unused managed policies by account</li><li>Table – Shows unused managed policies by account</li><li>Table – Provides details on unused managed policies</li></ul> |
-

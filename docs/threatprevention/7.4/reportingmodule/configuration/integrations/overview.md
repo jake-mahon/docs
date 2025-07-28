@@ -12,7 +12,7 @@ and third-party systems and applications.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **Integrations** to open the Integrations interface.
 
-![Integrations interface displaying Overview page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/interface.webp)
+![Integrations interface displaying Overview page](/images/threatprevention/7.4/reportingmodule/configuration/integrations/interface.webp)
 
 It contains the following integration pages:
 

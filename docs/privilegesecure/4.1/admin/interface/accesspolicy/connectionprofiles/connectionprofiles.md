@@ -11,7 +11,7 @@ Profile. It shows the configuration options for managing the session of the sele
 An approval workflow can be configured so that the session must be approved before the requestor of
 the session can log in.
 
-![Connection Profiles Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/page_2.webp)
+![Connection Profiles Page](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/page_2.webp)
 
 The pane on the left side of the page displays a list of the configured connection profiles. This
 pane has the following features:
@@ -95,7 +95,7 @@ The selected profile details display in the main pane:
       [Activity Token Complexity Page](/docs/privilegesecure/4.1/admin/interface/accesspolicy/activitytokencomplexity/activitytokencomplexity.md).
       Left blank, the Console will use the default activity token complexity policy.
 
-![Connection Profiles Page Extended](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/pageextended.webp)
+![Connection Profiles Page Extended](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/pageextended.webp)
 
 - Credential Management settings:
 

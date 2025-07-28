@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/configuration/analysisremoteosauth.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/configuration/analysisremoteosauth.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ Job produces the following pre-configured report.
 | Report                          | Description                                                                                | Default Tags | Report Elements                                                                                                                                                                    |
 | ------------------------------- | ------------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Oracle Remote OS Authentication | This report shows the number of instances that have remote_os_auth parameter set to “TRUE” | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays remote OS authentication</li><li>Table – Provides information on remote OS authentication details</li></ul> |
-

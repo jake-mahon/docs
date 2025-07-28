@@ -14,4 +14,4 @@ Specify options for the operation you have selected.
 | All operations     | **Would you like to re-run the product configuration wizard?** <ul><li>**Run**</li><li>**Don't Run** (default)</li></ul> | Select **Run** if you want to re-configure this instance by going through the initial steps of the product configuration. Note that this will pause all sources.                                                        |
 
 
-![cleaner_step_2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/utilities/cleaner_step_2_thumb_0_0.webp)
+![cleaner_step_2_thumb_0_0](/images/dataclassification/5.7/admin/utilities/cleaner_step_2_thumb_0_0.webp)

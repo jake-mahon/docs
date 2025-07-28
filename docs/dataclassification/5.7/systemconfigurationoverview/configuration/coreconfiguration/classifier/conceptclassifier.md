@@ -12,7 +12,7 @@ them.
 
 Each option has an associated “**i**” which describes the nature of the setting.
 
-![core_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core_thumb_0_0.webp)
+![core_thumb_0_0](/images/dataclassification/5.7/configuration/core_thumb_0_0.webp)
 
 :::note
 To view a complete list of the **Config** settings, click the Details tab. The list also
@@ -28,4 +28,3 @@ The following options can be configured for conceptClassifier app:
 | Manually Classify Cleared Fields       | When enabled, fields will be marked as manually classified if the user clears them. If disabled, auto classification must be manually turned off by the user to stop the field being updated.                                                                                                                                                                                                              |                                  |
 | Hide Sql (Local) Taxonomy Calculations | When disabled, any classifications/calculations will be hidden from the SharePoint View Classifications display (Classic and Modern UI).                                                                                                                                                                                                                                                                   |                                  |
 | Ignore Manual Classifications From     | A semicolon-delimetered list of usernames. Any updates to classification of new documents in SharePoint by these users will be ignored.                                                                                                                                                                                                                                                                    |                                  |
-

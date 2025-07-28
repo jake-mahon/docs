@@ -15,7 +15,7 @@ July 28, 2023
 - Added a warning on the change request for generic deployment script IDs. Using the generic ID
   fetches all deployment customizations that share this non-unique ID.
 
-    ![Generic deployment ID warning](/img/product_docs/platgovnetsuite/release_notes/deployment_id_warning.webp)
+    ![Generic deployment ID warning](/images/platgovnetsuite/release_notes/deployment_id_warning.webp)
 
 - **Bill of Materials** and **Inventory Number** fields are deprecated and inactive in the policy
   record and list views.
@@ -44,7 +44,7 @@ June 16, 2023
     - Click to select a **Field**. Use Ctrl-Click to select subsequent fields.
     - Click **Add**.
 
-        ![Add No HTML fields](/img/product_docs/platgovnetsuite/release_notes/no_html_options.webp)
+        ![Add No HTML fields](/images/platgovnetsuite/release_notes/no_html_options.webp)
 
     - Click **Save**.
 
@@ -79,20 +79,20 @@ you are considering changing these associated scripts to a lower priority.
 **Mass Update** can be selected as a **Type** under **Proposed Customizations**. Specify the
 **Name** of the Mass Update you want to create.
 
-![Mass Update can be created as a Proposed Customization](/img/product_docs/platgovnetsuite/release_notes/change_request_mass_update.webp)
+![Mass Update can be created as a Proposed Customization](/images/platgovnetsuite/release_notes/change_request_mass_update.webp)
 
 ### **NetSuite Make Copy Creates Content and Resets Status**
 
 Strongpoint ensures the **Make Copy** command found under the **Actions** option only copies the
 content, not the status. Copied change requests are set to the **Not Started** status.
 
-![Make Copy does not copy the status](/img/product_docs/platgovnetsuite/release_notes/change_request_make_copy.webp)
+![Make Copy does not copy the status](/images/platgovnetsuite/release_notes/change_request_make_copy.webp)
 
 ## Jira 1.2.14
 
 - Added the ability to receive and store images attached in the Jira description by Jira ticket ID.
 
-    ![Strongpoint stores attached Jira images](/img/product_docs/platgovnetsuite/release_notes/jira_images.webp)
+    ![Strongpoint stores attached Jira images](/images/platgovnetsuite/release_notes/jira_images.webp)
 
 ## Jira 1.2.13
 
@@ -114,8 +114,8 @@ Here are the enhancements for the release:
 ### Import Customizations from Jira
 
 An **Import Customization** button has been added to the Jira Strongpoint form. You can import an
-xml file exported from a Jira ticket.  
-![Jira Strongpoint form](/img/product_docs/platgovnetsuite/release_notes/jira_strongpoint_form.webp)
+xml file exported from a Jira ticket.
+![Jira Strongpoint form](/images/platgovnetsuite/release_notes/jira_strongpoint_form.webp)
 
 ### Enable Allow NS to Jira Push
 
@@ -125,7 +125,7 @@ This feature must be enabled before you can create tickets from NetSuite to Jira
 2. Open the **Jira Integration** tab
 3. Check **Allow NS to Jira Push** to enable pushing NetSuite change requests into Jira.
 
-    ![Enable Allow NS to Push to Jira](/img/product_docs/platgovnetsuite/release_notes/jira_example_integration.webp)
+    ![Enable Allow NS to Push to Jira](/images/platgovnetsuite/release_notes/jira_example_integration.webp)
 
 ### Create Ticket from NetSuite to Jira
 
@@ -135,17 +135,17 @@ Jira.
 1. Create or open a change request in Strongpoint.
 2. Add your information and customizations.
 3. Click **Push to Jira**.
-4. Select your Jira project.  
-   ![Select a Jira Project](/img/product_docs/platgovnetsuite/release_notes/jira_ns_jira_push2.webp)
+4. Select your Jira project.
+   ![Select a Jira Project](/images/platgovnetsuite/release_notes/jira_ns_jira_push2.webp)
 5. Click **Push**. A Change Request Pushed message is displayed. Click **Close**.
 6. Open the **Related Change Records** tab. The ticket number is added as an **External Change
-   Request Number**. **CM-15** in this example.  
-   ![The ticket number is on the Related Change Records tab](/img/product_docs/platgovnetsuite/release_notes/jira_create_cr_related_change.webp)
+   Request Number**. **CM-15** in this example.
+   ![The ticket number is on the Related Change Records tab](/images/platgovnetsuite/release_notes/jira_create_cr_related_change.webp)
 7. Open Jira.
-8. Navigate to **CM-15** ticket.  
-   ![Open the ticket in Jira](/img/product_docs/platgovnetsuite/release_notes/jira_ns_jira_push3.webp)
-9. Click **Strongpoint NetSuite**. The customizations from the change request are added.  
-   ![Customizations are added to the ticket](/img/product_docs/platgovnetsuite/release_notes/jira_ns_jira_push4.webp)
+8. Navigate to **CM-15** ticket.
+   ![Open the ticket in Jira](/images/platgovnetsuite/release_notes/jira_ns_jira_push3.webp)
+9. Click **Strongpoint NetSuite**. The customizations from the change request are added.
+   ![Customizations are added to the ticket](/images/platgovnetsuite/release_notes/jira_ns_jira_push4.webp)
 
 ## Jira 1.2.10
 
@@ -166,16 +166,16 @@ Token-Based Authentication is set up through NetSuite. Refer to
 1. Open **Jira**.
 2. Open your **Projects** page:
 
-    ![Open your Jira Projects page to find Add-ons](/img/product_docs/platgovnetsuite/release_notes/jira_projects_menu.webp)
+    ![Open your Jira Projects page to find Add-ons](/images/platgovnetsuite/release_notes/jira_projects_menu.webp)
 
 3. Expand **Add-ons**.
 4. Select **Strongpoint Settings**.
 
-    ![Jira Strongpoint Settings](/img/product_docs/platgovnetsuite/release_notes/jira_strongpoint_settings.webp)
+    ![Jira Strongpoint Settings](/images/platgovnetsuite/release_notes/jira_strongpoint_settings.webp)
 
 5. Click **New Token Based Authentication** to add your credentials. This needs to be done once for
    each of your accounts.
 
-    ![Add tokens for Jira](/img/product_docs/platgovnetsuite/release_notes/jira_add_token.webp)
+    ![Add tokens for Jira](/images/platgovnetsuite/release_notes/jira_add_token.webp)
 
 6. Enter your credentials and click **Add Token Based Authentication Credential**.

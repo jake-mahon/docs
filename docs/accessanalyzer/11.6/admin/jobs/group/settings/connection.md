@@ -9,7 +9,7 @@ sidebar_position: 10
 At the job group level, the **Connection** node identifies the Connection Profile assigned for the
 job group. All Connection Profiles are created at the global level (**Settings** > **Connection**).
 
-![Job Group Connection Settings](/img/product_docs/accessanalyzer/11.6/admin/jobs/group/connection.webp)
+![Job Group Connection Settings](/images/accessanalyzer/11.6/admin/jobs/group/connection.webp)
 
 By default, all job groups are set to inherit the **Use Default Profile** option from the global
 level or a parent job group. See the

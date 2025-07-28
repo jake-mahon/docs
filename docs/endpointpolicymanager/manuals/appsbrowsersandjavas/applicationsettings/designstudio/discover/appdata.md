@@ -30,11 +30,11 @@ with `C:\`. Endpoint Policy Manager DesignStudio will automatically detect if yo
 
 `%appdata%` or `%localappdata%` variables for you as needed, as shown in Figure 99 and Figure 100.
 
-![discovering_configuration_12](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_12.webp)
+![discovering_configuration_12](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_12.webp)
 
 Figure 99. DesignStudio detecting the data location.
 
-![discovering_configuration_13](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_13.webp)
+![discovering_configuration_13](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_13.webp)
 
 Figure 100. DesignStudio detecting the data location.
 
@@ -51,7 +51,7 @@ Therefore, capture all the data from your application first as a standard user, 
 compiling as a standard user. You can see the preview of your AppSet by selecting "Show test
 Endpoint Policy Manager when complete" within the Compilation tab, as shown in Figure 101
 
-![discovering_configuration_14](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_14.webp)
+![discovering_configuration_14](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_14.webp)
 
 Figure 101. Choosing to preview the AppSet.
 

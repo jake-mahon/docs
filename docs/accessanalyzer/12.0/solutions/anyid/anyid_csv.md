@@ -14,7 +14,7 @@ Copy the CSV file to the Access Analyzer Console for the best import performance
 :::
 
 
-![AnyID_CSV Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/anyid/csvjoblocation.webp)
+![AnyID_CSV Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/anyid/csvjoblocation.webp)
 
 The AnyID_CSV job is located in the **Jobs** > **AnyID Connectors** job group.
 
@@ -71,7 +71,7 @@ additional information.
 
 The AnyID_CSV query uses the PowerShell Data Collector.
 
-![Queries for the AnyID_CSV Job](/img/product_docs/accessanalyzer/12.0/solutions/anyid/csvqueries.webp)
+![Queries for the AnyID_CSV Job](/images/accessanalyzer/12.0/solutions/anyid/csvqueries.webp)
 
 The query is:
 
@@ -82,7 +82,7 @@ The query is:
 
 Follow the steps to configure the AnyID_CSV query.
 
-![ The name of the source repository parameter on the job Overview page](/img/product_docs/accessanalyzer/12.0/solutions/anyid/csvoverviewpage.webp)
+![ The name of the source repository parameter on the job Overview page](/images/accessanalyzer/12.0/solutions/anyid/csvoverviewpage.webp)
 
 **Step 1 –** Navigate to and select the **AnyID Connectors** > **AnyID_CSV** node. In the
 Configuration section of the job's Overview page, click the configure button for the **The name of
@@ -98,7 +98,7 @@ Properties**. The Query Properties window opens.
 **Step 4 –** Select the **Data Source** tab, and click **Configure**. The PowerShell Data Collector
 Wizard opens.
 
-![Edit Query Page](/img/product_docs/accessanalyzer/12.0/solutions/anyid/csvqueryeditquery.webp)
+![Edit Query Page](/images/accessanalyzer/12.0/solutions/anyid/csvqueryeditquery.webp)
 
 **Step 5 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. Configure the following attributes:
@@ -144,7 +144,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AnyID_CSV Job](/img/product_docs/accessanalyzer/12.0/solutions/anyid/csvanalyses.webp)
+![Analysis Tasks for the AnyID_CSV Job](/images/accessanalyzer/12.0/solutions/anyid/csvanalyses.webp)
 
 The default analysis tasks are:
 
@@ -159,4 +159,3 @@ preconfigured report:
 | Report      | Description                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | CSV Imports | This report highlights subjects imported from the provided CSV file, and summarizes attribute completion. | None         | This report is comprised of four elements: <ul><li>Table – Contains information on imported subjects</li><li>Bar Chart – Provides information on subject types</li><li>Table – Contains information on the attributes summary</li><li>Table – Contains information on subject details</li></ul> |
-

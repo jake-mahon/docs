@@ -10,7 +10,7 @@ Select the desired request on the
 [Request History Tab](/docs/accessinformationcenter/11.6/accessrequests/interface/interface.md#request-history-tab)
 of the Access Requests interface and click **View Changes**. The Changes window opens.
 
-![Changes window](/img/product_docs/accessinformationcenter/11.6/accessrequests/window/changes.webp)
+![Changes window](/images/accessinformationcenter/11.6/accessrequests/window/changes.webp)
 
 The table displays the following information for selected trustee:
 

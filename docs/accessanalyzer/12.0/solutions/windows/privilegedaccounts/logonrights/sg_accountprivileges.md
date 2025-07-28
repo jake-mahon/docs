@@ -21,7 +21,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_AccountPrivileges Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/accountprivilegesquery.webp)
+![Queries for the SG_AccountPrivileges Job](/images/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/accountprivilegesquery.webp)
 
 The query for the SG_AccountPrivileges job is:
 
@@ -38,7 +38,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_AccountPrivileges Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/accountprivilegesanalysis.webp)
+![Analysis Tasks for the SG_AccountPrivileges Job](/images/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/accountprivilegesanalysis.webp)
 
 The default analysis task is:
 
@@ -51,4 +51,3 @@ following pre-configured report.
 | Report                    | Description                                                                                                                                         | Default Tags | Report Elements                                                                                       |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
 | Account Privilege Details | This report highlights account privileges on hosts in the targeted environment. Default privileges present on all Windows hosts have been filtered. | None         | This report is comprised of one element: <ul><li>Table – Provides account privilege details</li></ul> |
-

@@ -11,7 +11,7 @@ sessions, policies, and service accounts for the host resources and domain resou
 added to the console. The Resources dashboard displays the same information as the
 [Resources Page](/docs/privilegesecure/4.2/admin/interface/resources/resources.md).
 
-![Resources Dashboard Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/dashboard/resources.webp)
+![Resources Dashboard Page](/images/privilegesecure/4.2/accessmanagement/admin/dashboard/resources.webp)
 
 The Resources table has the following features:
 

@@ -10,7 +10,7 @@ This connector exports users and permissions from Windows shared folders.
 
 This page is about [Shared Folders](/docs/identitymanager/saas/integration-guide/connectors/references-packages/shared-folders/index.md).
 
-![Package: Storage/Shared Folders](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.webp)
+![Package: Storage/Shared Folders](/images/identitymanager/saas/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.webp)
 
 ## Overview
 
@@ -26,7 +26,7 @@ Implementing this connector requires an account with the permissions:
 - **Log on as a batch job** in the local group policy, when the connector's authentication mode is
   batch.
 
-    ![SharedFolder - Permission for Batch Authentication](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.webp)
+    ![SharedFolder - Permission for Batch Authentication](/images/identitymanager/saas/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.webp)
 
 ## Export
 
@@ -107,7 +107,7 @@ Output folder the following CSV files:
 - `<connectionIdentifier>_ACE.csv`, with the following columns:
     - **key**: concatenation of `Right`, `Path` and `OwnerSID`;
     - **Path**: path of the folder or file;
-    - **Right**: entitlement among the following, listed from weakest to strongest:  
+    - **Right**: entitlement among the following, listed from weakest to strongest:
       ListDirectory / ReadData / CreateFiles / WriteData / AppendData / CreateDirectories /
       ReadExtendedAttributes / WriteExtendedAttributes / ExecuteFile / Traverse /
       DeleteSubdirectoriesAndFiles / ReadAttributes / WriteAttributes / Write / Delete /

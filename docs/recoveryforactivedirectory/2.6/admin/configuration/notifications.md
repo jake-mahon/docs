@@ -13,7 +13,7 @@ configure notifications.
 Click **Configuration** in the left pane. Then click the **Notification tab** on the Configuration
 page to open the Notification page.
 
-![Notifications Page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/notifications.webp)
+![Notifications Page](/images/recoveryforactivedirectory/2.6/admin/configuration/notifications.webp)
 
 Follow the steps to configure notifications.
 

@@ -11,6 +11,6 @@ disabling add-ons of all types. Endpoint Policy Manager can also force the insta
 the removal of specific add-ons. To find Firefox's add-ons, select "Add-ons" within Firefox, as
 shown in Figure 15.
 
-![add_ons](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons.webp)
+![add_ons](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons.webp)
 
 Figure 15. The Add-ons tab.

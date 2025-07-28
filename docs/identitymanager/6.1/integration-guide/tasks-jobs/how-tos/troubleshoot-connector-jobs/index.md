@@ -13,7 +13,7 @@ and fix errors.
 
 A managed system is synchronized and provisioned to/from Usercube with the following task sequence:
 
-![Synchronization/Provisioning Schema](/img/product_docs/identitymanager/6.1/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.webp)
+![Synchronization/Provisioning Schema](/images/identitymanager/6.1/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.webp)
 
 ### Export data
 

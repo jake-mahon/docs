@@ -83,7 +83,7 @@ In the **Categories** list on the **Filter** dialog box, select one of the follo
     - To send multiple notifications, select the check boxes for those notifications. To select all
       notifications, select the check box in the header row. This displays the following icons:
 
-        ![send_refresh](/img/product_docs/directorymanager/11.0/admincenter/notification/send_refresh.webp)
+        ![send_refresh](/images/directorymanager/11.0/admincenter/notification/send_refresh.webp)
 
         Click the **Send** icon to send the selected notifications urgently.
 
@@ -102,7 +102,7 @@ To delete a notification:
     - To delete multiple notifications, select the check boxes for those notifications. To select
       all notifications, select the check box in the header row. This displays the following icons:
 
-        ![send_refresh](/img/product_docs/directorymanager/11.0/admincenter/notification/send_refresh.webp)
+        ![send_refresh](/images/directorymanager/11.0/admincenter/notification/send_refresh.webp)
 
         Click the **Delete** icon to delete the selected notifications.
 

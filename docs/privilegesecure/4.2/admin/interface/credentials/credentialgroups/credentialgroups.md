@@ -12,7 +12,7 @@ access policies. See the
 [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/admin/interface/accesspolicy/credentialbasedpolic/credentials/credentials.md)
 topic for additional information.
 
-![Administrative Credential Group Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/credentialgroupspage.webp)
+![Administrative Credential Group Page](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/credentialgroupspage.webp)
 
 The pane on the left side of the page displays a list of the configured credential groups. This pane
 has the following features:

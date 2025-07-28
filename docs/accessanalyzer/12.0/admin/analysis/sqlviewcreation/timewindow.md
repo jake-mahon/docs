@@ -9,7 +9,7 @@ sidebar_position: 60
 Use the Source and Time Window page to specify which data to access if using multiple Access
 Analyzer Consoles or history is enabled.
 
-![View and Table Creation Analysis Module wizard Source and Time Window page](/img/product_docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/timewindow.webp)
+![View and Table Creation Analysis Module wizard Source and Time Window page](/images/accessanalyzer/12.0/admin/analysis/sqlviewcreation/timewindow.webp)
 
 Use the following options to select which sources of data to permit and the time frame in which the
 data was collected:

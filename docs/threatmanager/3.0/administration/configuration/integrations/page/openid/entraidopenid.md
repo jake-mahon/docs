@@ -34,7 +34,7 @@ in the application.
 **Step 2 –** In the Microsoft Entra admin center, go to Microsoft Entra ID > App registration and
 click **New registration**.
 
-![NTM EntraIDOpenID Connect Application New Registeration page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/entraidnewregister.webp)
+![NTM EntraIDOpenID Connect Application New Registeration page](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/entraidnewregister.webp)
 
 **Step 3 –** Fill out the Name field, for example, _MyProduct OpenID App._
 
@@ -68,14 +68,14 @@ The full Redirect URL will be in one of the following format:
 **Step 8 –** The Overview page is displayed. Copy the Application (client) ID and Directory (Tenant)
 ID and keep them safe.
 
-![EntraID Application and Tenant IDs page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/appntenantids.webp)
+![EntraID Application and Tenant IDs page](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/appntenantids.webp)
 
 **Step 9 –** In the left pane, select **Authentication**.
 
 **Step 10 –** In the Implicit grant and hybrid section, select the **Access tokens** as necessary to
 support the implicit flow, especially for Single-Page Application (SPA).
 
-![Entra ID SPA Token option](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/entraidtoken.webp)
+![Entra ID SPA Token option](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/entraidtoken.webp)
 
 **Step 11 –** Click **Save**.
 
@@ -97,7 +97,7 @@ support the implicit flow, especially for Single-Page Application (SPA).
 
 **Step 20 –** Click **Add**.
 
-![Optional Claims added](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/claims.webp)
+![Optional Claims added](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/claims.webp)
 
 ## Configure Entra ID OpenID Connect
 
@@ -111,7 +111,7 @@ The page for the OpenID provider had two tabs:
 - Configuration
 - Users/Groups
 
-![Entra ID OpenID COnnect Configuration tab](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/entraidconfig.webp)
+![Entra ID OpenID COnnect Configuration tab](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/entraidconfig.webp)
 
 ## Configuration Tab
 
@@ -121,8 +121,8 @@ Follow the steps to configure Microsoft Entra ID OpenID Connect in Threat Manage
   When off, the profile will be determined in alphabetical order of the profile name. Toggle off and
   on as desired.
 - Authority – The Microsoft Entra ID OpenID Connect provider authority URL. It should be in the
-  following format:  
-  `https://login.microsoftonline.com/{Tenant ID}/v2.0`  
+  following format:
+  `https://login.microsoftonline.com/{Tenant ID}/v2.0`
   Use the tenant ID of the registered application.
 - Client Id – The ID assigned to the registered application in Microsoft Entra ID.
 - Login Type – The login type to use to log into the account. For Microsoft Entra ID, select _Sid_
@@ -139,7 +139,7 @@ profile. To give access to the application to new users, click the New Access bu
 the Add Console Access window. To assign this authentication provider to existing users, go to
 System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/usersgroupssamltab.webp)
+![UserGroups tab for an authneication provider](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/usersgroupssamltab.webp)
 
 The table displays the following information:
 
@@ -172,7 +172,7 @@ example,` https://jwt.io/`.
 **Step 2 –** Right click on the Threat Manager login page and select **Inspect**. The Dev Tools page
 opens.
 
-![Dev Tools page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/devtools.webp)
+![Dev Tools page](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/devtools.webp)
 
 **Step 3 –** Click the **Network** tab and check the **Preserve log** check box.
 
@@ -182,21 +182,21 @@ opens.
 
 **Step 6 –** Log in to Microsoft Entra ID.
 
-![Dev Tools page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/putmethod.webp)
+![Dev Tools page](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/putmethod.webp)
 
 **Step 7 –** On the Dev Tools page, find a request with the PUT method which has the following
 format:
 
 `{HTTP/S protocol}://{NTM IP address or DNS name}:{port if needed}/oidcSignin/{ID}`
 
-![PayLoad tab](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/payloadtab.webp)
+![PayLoad tab](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/payloadtab.webp)
 
 **Step 8 –** Open the **Payload** tab and copy the value from the Request Payload box.
 
 **Step 9 –** Open `https://jwt.io/` and insert the **Request Payload** value in the ENCODED VALUE
 section.
 
-![Claim verification](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/claim.webp)
+![Claim verification](/images/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/claim.webp)
 
 Check that the field from the claims setting exist and has the value. If claims don’t exist, please
 check the claims configuration in Microsoft Entra ID.

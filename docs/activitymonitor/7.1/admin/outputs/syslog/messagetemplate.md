@@ -9,7 +9,7 @@ sidebar_position: 10
 The Message Template window is opened from the ellipsis (…) button for the Syslog Message Template
 field on the Syslog tab of the output Properties window.
 
-![Message Template window](/img/product_docs/activitymonitor/7.1/admin/outputs/window/syslogmessagetemplate.webp)
+![Message Template window](/images/activitymonitor/7.1/admin/outputs/window/syslogmessagetemplate.webp)
 
 You can select a preconfigured template from the drop-down menu or create a custom template. The
 available preconfigured templates vary based on the type of domain/host selected.

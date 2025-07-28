@@ -11,7 +11,7 @@ See the
 [Manage Reviews Page](/docs/auditor/10.6/accessreviews/entitlementreviews/interface/interface.md#manage-reviews-page)
 topic for additional information.
 
-![Create Review wizard](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewreviewtype.webp)
+![Create Review wizard](/images/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewreviewtype.webp)
 
 It contains three pages:
 
@@ -38,7 +38,7 @@ Follow the steps to create a review.
 
 **Step 1 –** On the Manage Reviews page, click Create. The Create Review wizard opens.
 
-![Create Review wizard showing the Review Type page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewreviewtype.webp)
+![Create Review wizard showing the Review Type page](/images/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewreviewtype.webp)
 
 **Step 2 –** On the Review Type page, provide the following information and click **Next**:
 
@@ -50,7 +50,7 @@ Follow the steps to create a review.
     - Membership – Review group membership
     - Access – Review user access rights to resources
 
-![Create Review wizrd showing the Resources page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewresources.webp)
+![Create Review wizrd showing the Resources page](/images/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewresources.webp)
 
 **Step 3 –** On the Resources page, select the resources to be included in the review. The Search
 feature is available to filter the list of available resource that match the type of review being
@@ -78,7 +78,7 @@ created.
   topic for additional information.
 - Once the desired resources have been selected, click **Next**.
 
-![Create Review wizard showing the Summary page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewsummary.webp)
+![Create Review wizard showing the Summary page](/images/auditor/10.6/access/reviews/entitlementreviews/wizard/createreviewsummary.webp)
 
 **Step 4 –** On the Summary page, review the settings and click Finish. The Access Reviews begins to
 create the review. Action status displays on the page. When the update has completed (100%), click

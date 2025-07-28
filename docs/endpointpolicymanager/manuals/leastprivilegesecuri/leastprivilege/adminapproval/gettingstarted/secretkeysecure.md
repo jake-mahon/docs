@@ -11,7 +11,7 @@ The secret key of Admin Approval is stored within the XML inside the GPO, as see
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
 
 If you look closely, you will see it is not the same key that was used earlier. Indeed, it is
 re-hashed or re-encrypted before it is placed within the XML within the GPO. Even so, it is best
@@ -43,7 +43,7 @@ but never expose it to a User).
 ![A screenshot of a computer screen
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_1.webp)
 
 This immediately prevents Standard Users from reading the Computer side of the GPO, as shown in
 here.
@@ -51,7 +51,7 @@ here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
 
 Again, if you choose to place computers into an Active Directory security group, you will need to
 reboot the computer so it will pick up the new computer group membership and then the GPO.
@@ -63,4 +63,4 @@ shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_2.webp)
+generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_2.webp)

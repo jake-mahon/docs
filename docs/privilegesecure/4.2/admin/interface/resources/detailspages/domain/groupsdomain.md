@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Groups tab shows information about the domain groups on the selected resource.
 
-![Domain Resource Groups Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/groupsdomain.webp)
+![Domain Resource Groups Tab](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/groupsdomain.webp)
 
 The Groups tab has the following features:
 

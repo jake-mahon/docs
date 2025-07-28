@@ -9,7 +9,7 @@ sidebar_position: 20
 The **5.Domains > 0.Collection** Job Group collects the data which will be further analyzed in order
 to provide details on domains, sites, and trusts.
 
-![0.Collection Job Group](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/domains/collection/collectionjobstree.webp)
+![0.Collection Job Group](/images/accessanalyzer/11.6/solutions/activedirectory/domains/collection/collectionjobstree.webp)
 
 The 0.Collection Job Group is comprised of:
 

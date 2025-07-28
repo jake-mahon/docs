@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis tasks for AAD_GroupDirSync Job](/img/product_docs/accessanalyzer/12.0/solutions/entraid/groups/groupdirsyncanalysis.webp)
+![Analysis tasks for AAD_GroupDirSync Job](/images/accessanalyzer/12.0/solutions/entraid/groups/groupdirsyncanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following pre-configured report.
 | Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                                                   |
 | ------------- | ------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Syncing | This report indicates the sync status of groups within the audited environment. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays an enterprise group synching summary</li><li>Table – Provides group sync details</li></ul> |
-

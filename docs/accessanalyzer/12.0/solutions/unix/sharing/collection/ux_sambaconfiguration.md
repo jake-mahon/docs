@@ -18,7 +18,7 @@ The queries are preconfigured for this job. Never modify the queries.
 :::
 
 
-![Queries for the UX_SambaConfiguration Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/sharing/collection/sambaconfigurationqueries.webp)
+![Queries for the UX_SambaConfiguration Job](/images/accessanalyzer/12.0/solutions/unix/sharing/collection/sambaconfigurationqueries.webp)
 
 The queries for the UX_SambaConfiguration Job are:
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_SambaConfiguration Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/sharing/collection/sambaconfigurationanalysis.webp)
+![Analysis Tasks for the UX_SambaConfiguration Job](/images/accessanalyzer/12.0/solutions/unix/sharing/collection/sambaconfigurationanalysis.webp)
 
 The default analysis task is:
 

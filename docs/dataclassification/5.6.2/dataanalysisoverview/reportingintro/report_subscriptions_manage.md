@@ -24,7 +24,7 @@ Auto-Classification.
 
 4. Finally, click **Generate**.
 
-![reports_doctagging_thumb_0_0](/img/product_docs/dataclassification/5.6.2/reporting/reports_doctagging_thumb_0_0.webp)
+![reports_doctagging_thumb_0_0](/images/dataclassification/5.6.2/reporting/reports_doctagging_thumb_0_0.webp)
 
 The report will be displayed in the preview pane.
 
@@ -47,7 +47,7 @@ and System reports).
 To view all templates available to you, open the **Reports** tab and select **Report Templates** on
 the left.
 
-![reporttemplates](/img/product_docs/dataclassification/5.6.2/reporting/reporttemplates.webp)
+![reporttemplates](/images/dataclassification/5.6.2/reporting/reporttemplates.webp)
 
 To save a report configuration template
 
@@ -56,7 +56,7 @@ To save a report configuration template
    include data from the specific source).
 3. Click the **Save Report Configuration** button.
 
-    ![report_template](/img/product_docs/dataclassification/5.6.2/reporting/report_template.webp)
+    ![report_template](/images/dataclassification/5.6.2/reporting/report_template.webp)
 
     :::note
     Report configuration templates are saved per user.
@@ -88,7 +88,7 @@ manager can easily provide auditors with weekly reports to prove compliance with
 To view existing subscriptions for reports, navigate to the **Report Templates** page on the left
 and click **View Subscriptions** next to an existing template to view and edit subscriptions.
 
-![managesubscription](/img/product_docs/dataclassification/5.6.2/reporting/managesubscription.webp)
+![managesubscription](/images/dataclassification/5.6.2/reporting/managesubscription.webp)
 
 Checking the **Create a Subscription** box when saving a new report configuration will enable users
 to create a new subscription. The following options are configured on the **Manage Subscriptions**

@@ -17,11 +17,11 @@ page for the organization is displayed with the Sources tab selected by default.
 **Step 3 –** On the Sources tab, click **Add** to add a source. The Select Data Source (Step 1 of 3)
 pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
+![Select Data Source %28Step 1 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 **Step 4 –** Select **Active Directory** and click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3.webp)
 
 **Step 5 –** On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to
 select an existing site or add a new one. To add a new site, select the **Add new site** option from
@@ -41,7 +41,7 @@ the drop-down menu or click the **Add** icon.
 
 **Step 6 –** Click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_configsourcedetails_step2of3.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/ad_configsourcedetails_step2of3.webp)
 
 **Step 7 –** Specify the following settings:
 
@@ -67,7 +67,7 @@ the drop-down menu or click the **Add** icon.
 
 **Step 8 –**  Click **Next**.
 
-![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_choosenewconnector.webp)
+![Choose New Connector %28Step 3 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/ad_choosenewconnector.webp)
 
 **Step 9 –** The Choose new connector (Step 3 of 3) pane lists three connectors for Active
 Directory. Specufy the following:

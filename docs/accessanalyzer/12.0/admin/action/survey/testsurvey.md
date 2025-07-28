@@ -8,7 +8,7 @@ sidebar_position: 80
 
 Use this page to test a survey and verify proper configuration.
 
-![Survey Action Module Wizard Test Survey page](/img/product_docs/accessanalyzer/12.0/admin/action/survey/testsurvey.webp)
+![Survey Action Module Wizard Test Survey page](/images/accessanalyzer/12.0/admin/action/survey/testsurvey.webp)
 
 The configurable options are:
 

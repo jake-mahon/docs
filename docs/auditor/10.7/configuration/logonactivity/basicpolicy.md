@@ -27,7 +27,7 @@ the [Configure Advanced Audit Policies](/docs/auditor/10.7/configuration/logonac
     | Audit account logon events | _"Success"_ and _"Failure"_ |
     | Audit system events        | _"Success"_                 |
 
-    ![manualconfig_nla_auditpolicies2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
+    ![manualconfig_nla_auditpolicies2016](/images/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
 
 5. Run the following command to update group policy:
 

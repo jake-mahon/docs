@@ -10,7 +10,7 @@ sidebar_position: 20
 
 There are a total of four different export wizards.
 
-![installation_with_parameters_74_548x283](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_74_548x283.webp)
+![installation_with_parameters_74_548x283](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_74_548x283.webp)
 
 The functionality of these wizards only differs based on the data to be exported. A distinction is
 made between passwords, organisational structures, forms and applications. **As all four wizards are
@@ -37,7 +37,7 @@ The export wizard can be accessed in a variety of different ways:
   [Passwords](/docs/passwordsecure/9.1/configuration/advancedview/clientmodule/passwords/passwords.md)
   module.
 
-![Export ribbon](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_75-en.webp)
+![Export ribbon](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_75-en.webp)
 
 The password export wizard can be started via the ribbon in two ways. **Selected passwords** exports
 only those passwords marked in list view, whereby **Passwords based on the filter** uses the
@@ -48,7 +48,7 @@ currently defined filter settings as the criteria.
 A diverse range of variables for the export and the storage location can be defined in the wizard. A
 corresponding preview is also provided.
 
-![installation_with_parameters_76](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_76.webp)
+![installation_with_parameters_76](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_76.webp)
 
 Once the wizard has been completed, the desired export is created and saved to the defined storage
 location.

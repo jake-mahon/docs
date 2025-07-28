@@ -16,7 +16,7 @@ Follow the steps to create a new password policy.
 
 **Step 2 –** Click **New Policy** in the right pane of the management console.
 
-![managing_policies](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/managing_policies.webp)
+![managing_policies](/images/passwordpolicyenforcer/10.2/evaluation/managing_policies.webp)
 
 **Step 3 –** Enter a unique policy name in the **New policy name** text box.
 

@@ -9,7 +9,7 @@ sidebar_position: 90
 Use the Results page to select which properties are gathered out of those available for the
 category. It is a wizard page for all of the categories.
 
-![EWS Mailbox Data Collector Wizard Results page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/results.webp)
+![EWS Mailbox Data Collector Wizard Results page](/images/accessanalyzer/12.0/admin/datacollector/ewsmailbox/results.webp)
 
 Select criteria using the following options:
 

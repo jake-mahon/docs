@@ -24,8 +24,8 @@ choose the most adequate method regarding your actual approach.
 An identifier/email/login suffix can be specified later according to users' contract types, when
 loading identities through an Excel template. See the
 [Load Identities to Identity Manager](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/load-identities/index.md) topic for additional
-information.  
-For example, contractors can get `-ext` added automatically to their email addresses.  
+information.
+For example, contractors can get `-ext` added automatically to their email addresses.
 The unicity checks performed for identifiers/emails/logins do not consider prefixes nor suffixes.
 
 For example, `john.doe@acme.com` and `john.doe-ext@acme.com` cannot exist simultaneously.
@@ -48,13 +48,13 @@ Configure the generation of unique properties by proceeding as follows:
 
 1. On the home page, click on **Settings** in the **Configuration** section.
 
-    ![Home Page - Configuration](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
+    ![Home Page - Configuration](/images/identitymanager/saas/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 
 2. On the **Workforce** > **Identifiers, Mails & Logins** page, you can follow Identity Manager's
    instructions to configure the generation of a unique identifier for new workers (if needed),
    based on one of the available options.
 
-    ![Unique Identifier Generation](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueidentifier_v602.webp)
+    ![Unique Identifier Generation](/images/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueidentifier_v602.webp)
 
     - `Based on Full Name`: replaces all diacritics by the non-accentuated variants; removes all
       special characters; can add a separator between the first name and the last name if needed
@@ -75,7 +75,7 @@ Configure the generation of unique properties by proceeding as follows:
 3. Follow Identity Manager's instructions to configure the generation of a unique email address for
    all users (who do not have one), based on one of the available options.
 
-    ![Unique Email Generation](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueemail_v602.webp)
+    ![Unique Email Generation](/images/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniqueemail_v602.webp)
 
     - `Based on Full Name`: replaces all diacritics by the non-accentuated variants; removes all
       special characters; can add a separator between the first name and the last name if needed
@@ -96,7 +96,7 @@ Configure the generation of unique properties by proceeding as follows:
 4. Follow Identity Manager's instructions to configure the generation of a unique login for new
    workers (who do not have one), based on one of the available options.
 
-    ![Unique Login Generation](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniquelogin_v602.webp)
+    ![Unique Login Generation](/images/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/initialload_uniquelogin_v602.webp)
 
     - `Based on Email`: uses the local part of the email, i.e. before `@`.
     - `Based on Full Email`: uses the full email.
@@ -105,19 +105,19 @@ Configure the generation of unique properties by proceeding as follows:
 
 5. Click on the Save icon at the top.
 
-    ![Save Icon](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+    ![Save Icon](/images/identitymanager/saas/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 
 6. Click on the **Reload** button to apply the recent changes to the application.
 
-    ![Reload Button](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.webp)
+    ![Reload Button](/images/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/reload_v603.webp)
 
 ## Verify Property Generation
 
 In order to verify the process, add a fictitious employee through the workflows from the UI.
 
-![Home - New Employee](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/home_newemployee_v600.webp)
+![Home - New Employee](/images/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/home_newemployee_v600.webp)
 
 Verify in the directory that the employee's sheet displays the expected values for the configured
 unique properties.
 
-![Home - Directory User](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+![Home - Directory User](/images/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)

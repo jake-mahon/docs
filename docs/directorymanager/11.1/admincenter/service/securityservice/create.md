@@ -14,8 +14,8 @@ When you deploy a Security service in native IIS, Directory Manager does the fol
 
 - It creates a directory with the Security service’s name at the following physical path on the
   Directory Manager server, and copies the service files from its template directory to the new
-  service directory:  
-  X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\  
+  service directory:
+  X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\
   (X represents the Directory Manager installation drive)
 - It also creates a virtual directory for the service in your desired IIS site.
 
@@ -33,20 +33,20 @@ located on disk.
 6. In the **Deployment Name** box, enter a deployment name for the service. The application name and
    deployment name are displayed on the service card, as shown below:
 
-    ![securityservicecard](/img/product_docs/directorymanager/11.1/admincenter/service/securityservice/securityservicecard.webp)
+    ![securityservicecard](/images/directorymanager/11.1/admincenter/service/securityservice/securityservicecard.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the service. This name is
    used to name the service’s directory in IIS and its physical directory under X:\Program
-   Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\ on the Directory Manager server.  
-   (X represents the Directory Manager installation drive)  
+   Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\ on the Directory Manager server.
+   (X represents the Directory Manager installation drive)
    The IIS application name should be unique for each Security service deployed in IIS.
-8. In the **IIS Site** drop-down list, select a website to host the service files.  
+8. In the **IIS Site** drop-down list, select a website to host the service files.
    The list displays the websites defined on the local IIS server. GroupIDSite11 is the default
    selection.
-9. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
+9. In the **Data Service** drop-down list, select a Data service to bind to this Security service.
    A Security service needs a Data service to perform various tasks, such as authentication and
    multifactor authentication.
-10. Click **Create Application**.  
+10. Click **Create Application**.
     The Security service is created and displayed on the **Security Service** tab.
 
 ## Create a Security Service in Remote IIS
@@ -80,10 +80,10 @@ To learn about the remote IIS settings and configurations before deploying a ser
    Application Name**, and **Website**, refer to steps 7-11 in the
    [Create a Portal in Remote IIS](/docs/directorymanager/11.1/admincenter/applications/portal/create.md#create-a-portal-in-remote-iis) topic.
    Replace any reference to the portal with the Security service.
-8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
+8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.
    A Security service needs a Data service to perform various tasks, such as authentication and
    multifactor authentication.
-9. Click **Create Application**.  
+9. Click **Create Application**.
    The Security service is displayed on the **Security Service** tab.
 
 ## Create a Security Service in Docker
@@ -113,10 +113,10 @@ To host the Security service, Docker daemon should be configured to run Windows 
 7. To enter information for **Port**, **Service URL**, and **Container Name**, refer to steps 7-9 in
    the [Create a Portal in Docker](/docs/directorymanager/11.1/admincenter/applications/portal/create.md#create-a-portal-in-docker) topic. Replace
    any reference to the portal with the Security service.
-8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
+8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.
    A Security service needs a Data service to perform various tasks, such as authentication and
    multifactor authentication.
-9. Click **Create Application**.  
+9. Click **Create Application**.
    The Security service is created and displayed on the **Security Service** tab.
 
 ## Launch a Security Service

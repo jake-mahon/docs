@@ -9,7 +9,7 @@ sidebar_position: 20
 The 0.Collection Job Group is comprised of jobs that process and analyze the message tracking logs
 on the Exchange Servers in the environment.
 
-![jobstree](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/jobstree.webp)
+![jobstree](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/jobstree.webp)
 
 The jobs in the 0.Collection Job Group are:
 
@@ -29,5 +29,5 @@ The jobs in the 0.Collection Job Group are:
     the sender to recipient traffic. By default, the query is configured to collect the previous 1
     day of Message Tracking Logs and has @netwrix.com configured as the domain. If the domains are
     not configured in the query, then most likely data collection does not return.
-    
+
     :::

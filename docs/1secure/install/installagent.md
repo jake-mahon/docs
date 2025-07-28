@@ -29,17 +29,17 @@ analyzing your data.
 **Step 4 –** Complete the [Install the Agent](#install-the-agent) steps. Ensure you tick Launch
 Netwrix Cloud Agent Configuration tool and click Finish.
 
-![organization_cloudagent](/img/product_docs/1secure/install/organization_cloudagent.webp)
+![organization_cloudagent](/images/1secure/install/organization_cloudagent.webp)
 
 **Step 5 –** On the displayed Netwrix Cloud Agent Configuration screen, select Configure to
 configure with Netwrix Cloud Agent.
 
-![installagent_copyagent](/img/product_docs/1secure/install/installagent_copyagent.webp)
+![installagent_copyagent](/images/1secure/install/installagent_copyagent.webp)
 
 **Step 6 –** Go back to your Netwrix 1Secure configuration panel and copy the agent connection
 details by selecting Copy Connection String. This information will be used for agent deployment.
 
-![cloudagent_copyagent](/img/product_docs/1secure/install/cloudagent_copyagent.webp)
+![cloudagent_copyagent](/images/1secure/install/cloudagent_copyagent.webp)
 
 **Step 7 –** Paste the information in the Netwrix Cloud Agent Configuration that you copied earlier
 and save settings.
@@ -60,21 +60,21 @@ Follow the steps to install the agent.
 
 **Step 2 –** Download the agent installer while adding the organization.
 
-![organization_cloudagentsetup1](/img/product_docs/1secure/install/organization_cloudagentsetup1.webp)
+![organization_cloudagentsetup1](/images/1secure/install/organization_cloudagentsetup1.webp)
 
 **Step 3 –** Click **Next** to continue.
 
-![installnetwrixcloudagent](/img/product_docs/1secure/install/installnetwrixcloudagent.webp)
+![installnetwrixcloudagent](/images/1secure/install/installnetwrixcloudagent.webp)
 
 **Step 4 –** Specify the installation folder and click **Next** to continue.
 
-![installagentnetwrixcloudagentready](/img/product_docs/1secure/install/installagentnetwrixcloudagentready.webp)
+![installagentnetwrixcloudagentready](/images/1secure/install/installagentnetwrixcloudagentready.webp)
 
 **Step 5 –** Click **Install**. The agent starts the installation process.
 
-![installagentnetwrixcloudagentinstalling](/img/product_docs/1secure/install/installagentnetwrixcloudagentinstalling.webp)
+![installagentnetwrixcloudagentinstalling](/images/1secure/install/installagentnetwrixcloudagentinstalling.webp)
 
-![installagentnetwrixcloudagentfinish](/img/product_docs/1secure/install/installagentnetwrixcloudagentfinish.webp)
+![installagentnetwrixcloudagentfinish](/images/1secure/install/installagentnetwrixcloudagentfinish.webp)
 
 **Step 6 –** Keep the **Launch Netwrix Cloud Agent Configuration** tool checkbox selected and click
 Finish to complete the setup.

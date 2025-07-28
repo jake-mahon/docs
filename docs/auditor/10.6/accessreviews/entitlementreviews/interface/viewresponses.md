@@ -11,7 +11,7 @@ The View Responses window opens from the **View Response** button on the
 of the Entitlement Reviews interface. It displays all owner-recommended changes and notes for the
 selected resource.
 
-![View Responses window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/viewresponses.webp)
+![View Responses window](/images/auditor/10.6/access/reviews/entitlementreviews/viewresponses.webp)
 
 The information displayed in the table includes:
 
@@ -38,7 +38,7 @@ information.
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:
 
-![viewresponsesbuttons](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/viewresponsesbuttons.webp)
+![viewresponsesbuttons](/images/auditor/10.6/access/reviews/entitlementreviews/window/viewresponsesbuttons.webp)
 
 | Button     | Description                                          |
 | ---------- | ---------------------------------------------------- |

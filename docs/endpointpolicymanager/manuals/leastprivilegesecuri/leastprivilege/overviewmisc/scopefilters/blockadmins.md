@@ -34,14 +34,14 @@ the GPO from a Windows endpoint computer.)
 :::
 
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_3_running_or_elevating.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_3_running_or_elevating.webp)
 
 If you want toblock both local admins and domain administrators, then Rule #1 needs to look like
 this.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.webp)
 
 Again, rule 2, the rule that does the ELEVATE or ALLOW, is just a standard rule, and can be done on
 the user or computer side.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.webp)

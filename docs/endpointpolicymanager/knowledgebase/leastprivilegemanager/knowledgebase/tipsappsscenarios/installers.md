@@ -8,7 +8,7 @@ sidebar_position: 60
 
 The problem is when you elevating an application but it keeps giving the UAC prompt.
 
-![723_1_uac](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/723_1_uac.webp)
+![723_1_uac](/images/endpointpolicymanager/leastprivilege/elevate/723_1_uac.webp)
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager detects Application
 Installers by searching for default keywords in FileDescription, ProductName, OriginalFileName,
@@ -27,7 +27,7 @@ Executable.
 
 **Step 1 –** Open **Properties** to view Ninite installer File Description keyword.
 
-![723_2_image-20201103180355-1](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/723_2_image-20201103180355-1.webp)
+![723_2_image-20201103180355-1](/images/endpointpolicymanager/leastprivilege/elevate/723_2_image-20201103180355-1.webp)
 
 **Step 2 –** Browse the following location under Endpoint Policy Manager ADMX Setting and set it as
 shown in the screenshot:
@@ -40,4 +40,4 @@ shown in the screenshot:
 
   Use additional keywords to detect Application Installers
 
-![723_3_image-20201103180355-2](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/723_3_image-20201103180355-2.webp)
+![723_3_image-20201103180355-2](/images/endpointpolicymanager/leastprivilege/elevate/723_3_image-20201103180355-2.webp)

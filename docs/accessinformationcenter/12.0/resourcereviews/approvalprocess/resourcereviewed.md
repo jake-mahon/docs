@@ -16,7 +16,7 @@ You can also select the option for a pending review using the Edit Review wizard
 [Create Review Wizard](/docs/accessinformationcenter/12.0/resourcereviews/create/create.md) and [Edit Review Wizard](/docs/accessinformationcenter/12.0/resourcereviews/edit.md) topics for
 additional information.
 
-![Response Received email](/img/product_docs/accessinformationcenter/12.0/resourcereviews/email/responsereceived.webp)
+![Response Received email](/images/accessinformationcenter/12.0/resourcereviews/email/responsereceived.webp)
 
 The email includes information about the review and the number of changes that have been submitted
 by the resource owner. Sign in to see the response and process the review. See the

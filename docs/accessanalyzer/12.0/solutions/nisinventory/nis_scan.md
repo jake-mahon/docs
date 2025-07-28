@@ -20,7 +20,7 @@ This query must be modified. See the
 :::
 
 
-![Query for the NIS Scan Job](/img/product_docs/accessanalyzer/12.0/solutions/nisinventory/nisscanquery.webp)
+![Query for the NIS Scan Job](/images/accessanalyzer/12.0/solutions/nisinventory/nisscanquery.webp)
 
 - Inventory Scan – Targets a NIS server to collect inventory data for user and group objects
 
@@ -45,7 +45,7 @@ purpose of this job.
 :::
 
 
-![NIS Settings page](/img/product_docs/activitymonitor/8.0/config/dellpowerscale/settings.webp)
+![NIS Settings page](/images/activitymonitor/8.0/config/dellpowerscale/settings.webp)
 
 **Step 4 –** On the NIS Settings page, enter the **NIS Domain Name** for the targeted NIS domain.
 This step is required prior to running this query. See the
@@ -53,7 +53,7 @@ This step is required prior to running this query. See the
 
 - Optional: Test the connection to the domain using the Sample NIS Server section of the page
 
-![SID Mappings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/nis/sidmappings.webp)
+![SID Mappings page](/images/accessanalyzer/12.0/admin/datacollector/nis/sidmappings.webp)
 
 **Step 5 –** On the SID Mappings page, you can add multiple SID mapping entries. See the
 [NIS: SID Mappings](/docs/accessanalyzer/12.0/admin/datacollector/nis/sidmappings.md) topic for additional information.
@@ -74,7 +74,7 @@ deselected. There is one that is deselected by default, as it is for troubleshoo
 :::
 
 
-![Analysis Tasks for the NIS Scan Job](/img/product_docs/accessanalyzer/12.0/solutions/nisinventory/nisscananalysis.webp)
+![Analysis Tasks for the NIS Scan Job](/images/accessanalyzer/12.0/solutions/nisinventory/nisscananalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -51,7 +51,7 @@ topic for additional information.
 ## Browsing Your Audit Data
 
 On the main Netwrix Auditor page, click
-![search_tile](/img/product_docs/auditor/10.6/admin/search/search_tile.webp) on the left.
+![search_tile](/images/auditor/10.6/admin/search/search_tile.webp) on the left.
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to
 access them instantly. See the
@@ -81,7 +81,7 @@ the data you need.
     [Use Filters in Advanced Mode](/docs/auditor/10.6/admin/search/filteradvanced.md)
     for details.
 
-    ![search_filter](/img/product_docs/auditor/10.6/admin/search/search_filter.webp)
+    ![search_filter](/images/auditor/10.6/admin/search/search_filter.webp)
 
 - By default, search results are open in the same window, so the subsequent search results will
   overwrite the previous search results. To view them in different windows, click Open in new
@@ -92,7 +92,7 @@ Use search results for your own needs: save, share, create search-based alerts, 
 periodic delivery of search query results, etc. See
 [Make Search Results Actionnable](#make-search-results-actionnable) for more information.
 
-![search_nofilter_1](/img/product_docs/auditor/10.6/admin/search/search_nofilter_1.webp)
+![search_nofilter_1](/images/auditor/10.6/admin/search/search_nofilter_1.webp)
 
 You can also use the **Search** window to examine details for the selected activity record, or watch
 a video recording (for User Ativity data).

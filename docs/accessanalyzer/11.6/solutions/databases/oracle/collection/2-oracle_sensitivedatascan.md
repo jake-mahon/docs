@@ -29,7 +29,7 @@ before data collection will occur.
 
 The SensitiveDataScan Query uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup9.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup9.webp)
 
 - SensitiveDataScan – Collects Sensitive Data from targeted instances
 
@@ -53,17 +53,17 @@ pre-configured for this job.
 :::
 
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/optionspage.webp)
+![Sensitive Data Scan Settings](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/optionspage.webp)
 
 **Step 4 –** Navigate to the Options page. Enable or disable configuration options as needed. Click
 Next to continue.
 
-![Criteria Page of the SQL Data Collector Wizard](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/criteriapage.webp)
+![Criteria Page of the SQL Data Collector Wizard](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/criteriapage.webp)
 
 **Step 5 –** Navigate to the Criteria page. Select or deselect criteria used to define sensitive
 data. Click Next to continue.
 
-![Filter Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/2oraclesensitivedatascanfilterpgae.webp)
+![Filter Page](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/2oraclesensitivedatascanfilterpgae.webp)
 
 **Step 6 –** To query for specific databases/instances, navigate to the Filter page. The default
 query target is All Databases. The default query scope is Only select database objects. Click
@@ -90,7 +90,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup13.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup13.webp)
 
 The default analysis tasks are:
 

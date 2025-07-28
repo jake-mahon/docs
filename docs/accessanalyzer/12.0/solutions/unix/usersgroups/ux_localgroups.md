@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_LocalGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/usersgroups/localgroupsanalysis.webp)
+![Analysis Tasks for the UX_LocalGroups Job](/images/accessanalyzer/12.0/solutions/unix/usersgroups/localgroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ the following pre-configured report:
 | Report       | Description                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                                      |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Local Groups | This report summarizes local groups in the audited environment. Hosts with large numbers of local groups are highlighted, as are local groups with large memberships. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays Top Hosts by Local Group Count</li><li>Table – Provides details on All Local Groups</li></ul> |
-

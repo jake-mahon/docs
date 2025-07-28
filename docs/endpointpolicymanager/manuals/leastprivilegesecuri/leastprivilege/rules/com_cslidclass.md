@@ -21,14 +21,14 @@ Carefully take note of the CSLID ID before proceeding.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class.webp)
+generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class.webp)
 
 Then create the policy to overcome the UAC prompt by using New > COM Class Policy.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class_1.webp)
 
 You can then use three methods to provide the CSLID number:
 
@@ -42,7 +42,7 @@ Those choices can be seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class_2.webp)
+generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class_2.webp)
 
 In this example we will **Add well-known COM class**. Be sure to select the exact match or the
 function will not work as expected.
@@ -50,6 +50,6 @@ function will not work as expected.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class_3.webp)
+generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_com_cslid_class_3.webp)
 
 After the policy applies, the COM item will have its UAC prompt overcome.

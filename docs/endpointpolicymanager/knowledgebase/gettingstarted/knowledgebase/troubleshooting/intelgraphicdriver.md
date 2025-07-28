@@ -13,7 +13,7 @@ Symptom
 
 Any updates that you try to install using the Intel DSA console will display as "canceled".
 
-![Intel Driver and Support Assistant Update error](/img/product_docs/endpointpolicymanager/troubleshooting/inteldsaupdates.webp)
+![Intel Driver and Support Assistant Update error](/images/endpointpolicymanager/troubleshooting/inteldsaupdates.webp)
 
 Cause
 
@@ -67,6 +67,6 @@ with this setting already configured.
 After completing one of the resolutions, try installing the Intel updates to verify the resolution
 worked.
 
-![Intel Driver and Support Assistant Installer](/img/product_docs/endpointpolicymanager/troubleshooting/inteldsainstaller.webp)
+![Intel Driver and Support Assistant Installer](/images/endpointpolicymanager/troubleshooting/inteldsainstaller.webp)
 
 If the Intel update is still canceled, try both resolutions before reaching out to support.

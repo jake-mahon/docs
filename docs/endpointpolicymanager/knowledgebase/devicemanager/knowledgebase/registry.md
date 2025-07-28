@@ -14,7 +14,7 @@ Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevices
 
 Here is an example of a device which was approved via the Admin Approval tool.
 
-![aa1](/img/product_docs/endpointpolicymanager/device/aa1.webp)
+![aa1](/images/endpointpolicymanager/device/aa1.webp)
 
 ## To determine the Admin Approval End Time for any device:
 
@@ -29,7 +29,7 @@ $my_time = 1725537001291
 
 An example can be seen here:
 
-![aa2](/img/product_docs/endpointpolicymanager/device/aa2.webp)
+![aa2](/images/endpointpolicymanager/device/aa2.webp)
 
 ## To Determine the Permissions within the Registry:
 

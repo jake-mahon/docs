@@ -19,7 +19,7 @@ When configuring the
 specify a temporary release for each role. The start date as well as the end date is selected here.
 You can start the configuration using the **Extras** area in the ribbon.
 
-![temporary permission](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/temporary_permissions/temporary_permissions-en.webp)
+![temporary permission](/images/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/temporary_permissions/temporary_permissions-en.webp)
 
 In this example, the role "trainees" was granted the read permission to a data set for two weeks.
 

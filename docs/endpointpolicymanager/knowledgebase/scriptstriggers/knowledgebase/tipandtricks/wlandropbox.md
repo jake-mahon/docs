@@ -12,7 +12,7 @@ working run the following to show all WLAN profiles on the PC:
 `netsh wlan show profiles`
 
 **Step 2 –** Export the profile you need by running the command below - substituting values relevant
-to your WiFi `settings/Environment`  
+to your WiFi `settings/Environment`
 netsh wlan export profile name="Company WiFi " key=clear folder=c:\temp
 
 :::note
@@ -34,11 +34,11 @@ should look similar to below:
 Endpoint Policy Manager (formerly PolicyPak) Scripts Manager > on the Computer side to create a new
 policy it
 
-![658_1_img-1](/img/product_docs/endpointpolicymanager/scriptstriggers/497_1_img-1.webp)
+![658_1_img-1](/images/endpointpolicymanager/scriptstriggers/497_1_img-1.webp)
 
 **Step 5 –** At the "Specify policy target screen be sure to use switched mode for the policy.
 
-![658_2_img-2](/img/product_docs/endpointpolicymanager/scriptstriggers/497_2_img-2.webp)
+![658_2_img-2](/images/endpointpolicymanager/scriptstriggers/497_2_img-2.webp)
 
 **Step 6 –** For the Apply action use the script below (remember to use the PowerShell Script option
 from the drop down).
@@ -72,12 +72,12 @@ dl.dropboxusercontent.com
 
 **Step 7 –** Verify that "Run script as user" check box is checked, then click next.
 
-![658_3_img-3_950x601](/img/product_docs/endpointpolicymanager/scriptstriggers/658_3_img-3_950x601.webp)
+![658_3_img-3_950x601](/images/endpointpolicymanager/scriptstriggers/658_3_img-3_950x601.webp)
 
 **Step 8 –** For the "Policy process mode configuration" screen specify "Once or when forced", then
 click save.
 
-![658_4_img-4](/img/product_docs/endpointpolicymanager/scriptstriggers/658_4_img-4.webp)
+![658_4_img-4](/images/endpointpolicymanager/scriptstriggers/658_4_img-4.webp)
 
 :::note
 The same policy will work if applied to user side and user OU as well.

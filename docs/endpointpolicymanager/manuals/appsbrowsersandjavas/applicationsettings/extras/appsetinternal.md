@@ -27,7 +27,7 @@ the Endpoint Policy Manager DesignStudio at design time.
 
 Figure 51 shows an example of how you might configure an internal filter.
 
-![policypak_application_settings_2_5](/img/product_docs/endpointpolicymanager/applicationsettings/extras/itemleveltargeting/endpointpolicymanager_application_settings_2_5.webp)
+![policypak_application_settings_2_5](/images/endpointpolicymanager/applicationsettings/extras/itemleveltargeting/endpointpolicymanager_application_settings_2_5.webp)
 
 Figure 51. Configuring an internal filter.
 
@@ -42,7 +42,7 @@ regardless of whether the application is present on the machine. To do this, you
 AppSet entry's options and change the "Predefined Item-Level Targeting" switch, as seen in
 Figure 52.
 
-![policypak_application_settings_2_6](/img/product_docs/endpointpolicymanager/applicationsettings/extras/itemleveltargeting/endpointpolicymanager_application_settings_2_6.webp)
+![policypak_application_settings_2_6](/images/endpointpolicymanager/applicationsettings/extras/itemleveltargeting/endpointpolicymanager_application_settings_2_6.webp)
 
 Figure 52.  Changing the Predefined Item-Level Targeting switch.
 
@@ -57,6 +57,6 @@ Table 1: Internal Item-Level Targeting settings options.
 | On (Installed and Virtual Applications) | This forces Endpoint Policy Manager Application Settings Manager to evaluate internal Item-Level Targeting, even when the application is virtualized. You might want to set this setting if you would like to ensure that an internal filter for the operating system, IP range, or other system-specific setting is validated. | Typically, you wouldn't use this setting if you have internal filters that check for particular application-specific entries—such as Registry entries or file entries—since those cannot be evaluated inside the virtualized application. Remember that Endpoint Policy Manager Application Settings Manager can only evaluate the "real" machine and not the conditions within the virtualized application itself.       |
 | Off                                     | Set this to Off to bypass ANY internal filters. This is a good troubleshooting step if you're not seeing settings being applied on your target machine.                                                                                                                                                                         | When this is set to Off, no internal Item-Level Targets will "interfere" with the application of the settings.                                                                                                                                                                                                                                                                                                            |
 
-![policypak_application_settings_2_7](/img/product_docs/endpointpolicymanager/applicationsettings/extras/itemleveltargeting/endpointpolicymanager_application_settings_2_7.webp)
+![policypak_application_settings_2_7](/images/endpointpolicymanager/applicationsettings/extras/itemleveltargeting/endpointpolicymanager_application_settings_2_7.webp)
 
 Figure 53. One scenario for item-level targeting on installed applications only.

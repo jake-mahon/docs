@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_OverlappingGPOs Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/overlappinggposanalysis.webp)
+![Analysis Tasks for the AD_OverlappingGPOs Job](/images/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/overlappinggposanalysis.webp)
 
 The default analysis tasks are:
 
@@ -52,4 +52,3 @@ produces the following pre-configured reports:
 | ---------------- | ----------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Conflicting GPOs | This report lists group policy objects that apply conflicting settings. | None         | This report is comprised of four elements: <ul><li>Bar Chart – Displays GPOs by conflicts</li><li>Table – Provides details on GPOs by conflicts</li><li>Table – Provides details on GPOs Details</li><li>Table – Provides details on OUs with conflicting GPOs</li></ul>                        |
 | Redundant GPOs   | This report lists group policy objects that apply redundant settings.   | None         | This report is comprised of four elements: <ul><li>Bar Chart – Displays GPOs by redundant children</li><li>Table – Provides details on GPOs by redundant children</li><li>Table – Provides details on overlapping GPOs</li><li>Table – Provides details on OUs with most redundancies</li></ul> |
-

@@ -44,7 +44,7 @@ contains the following wizard pages:
 - [UsersGroups: Results](/docs/accessanalyzer/12.0/admin/datacollector/usersgroups/results/results.md)
 - [UsersGroups: Summary](/docs/accessanalyzer/12.0/admin/datacollector/usersgroups/summary.md)
 
-![Users and Groups Browser wizard Welcome page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/usersgroups/welcome.webp)
+![Users and Groups Browser wizard Welcome page](/images/accessanalyzer/12.0/admin/datacollector/usersgroups/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** box when
 the wizard is open and configuration settings are saved.

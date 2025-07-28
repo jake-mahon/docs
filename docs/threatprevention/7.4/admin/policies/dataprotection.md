@@ -54,14 +54,14 @@ not included in the Permissions list.
 
 Follow the steps to protect policies.
 
-![Policy folder - Permissions page](/img/product_docs/threatprevention/7.4/admin/policies/permissions.webp)
+![Policy folder - Permissions page](/images/threatprevention/7.4/admin/policies/permissions.webp)
 
 **Step 1 –** Select a folder under the Policies node in the Navigation pane. The Policies interface
 is displayed.
 
 **Step 2 –** In the Permissions ribbon, click the **Add** (+) button.
 
-![Select User window](/img/product_docs/threatprevention/7.4/admin/policies/selectuser.webp)
+![Select User window](/images/threatprevention/7.4/admin/policies/selectuser.webp)
 
 **Step 3 –** On the Select User window, select the user to be granted permission on this folder and
 the policies within it.
@@ -95,14 +95,14 @@ Events tab and the Investigate interface.
 
 Follow the steps to protect objects.
 
-![Policy folder - Permissions page](/img/product_docs/threatprevention/7.4/admin/policies/permissions.webp)
+![Policy folder - Permissions page](/images/threatprevention/7.4/admin/policies/permissions.webp)
 
 **Step 6 –** Select a folder under the Policies node in the Navigation pane. The Policies interface
 is displayed.
 
 **Step 7 –** In the Protected Objects ribbon, click the **Add** (+) button.
 
-![Select Active Directory Contexts window](/img/product_docs/threatprevention/7.4/admin/policies/adcontexts.webp)
+![Select Active Directory Contexts window](/images/threatprevention/7.4/admin/policies/adcontexts.webp)
 
 **Step 8 –** On the Select Active Directory Contexts window, select an Agent from the drop-down menu
 and click **Connect**. Expand the domain tree in the Navigation pane. Select an item in the Results

@@ -15,7 +15,7 @@ available and the selection cannot be altered.
 :::
 
 
-![Public Folder Action Module Wizard Prior Actions page](/img/product_docs/accessanalyzer/12.0/admin/action/publicfolder/prioractions.webp)
+![Public Folder Action Module Wizard Prior Actions page](/images/accessanalyzer/12.0/admin/action/publicfolder/prioractions.webp)
 
 The options on this page are:
 

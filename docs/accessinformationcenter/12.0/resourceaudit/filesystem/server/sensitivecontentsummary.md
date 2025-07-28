@@ -9,7 +9,7 @@ sidebar_position: 60
 The Sensitive Content Summary report at the server level provides a count of files where criteria
 matches were found on the selected resource. This report includes a Details table.
 
-![Sensitive Content Summary report at the server level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/server/serversensitivecontentsummary.webp)
+![Sensitive Content Summary report at the server level](/images/accessinformationcenter/12.0/resourceaudit/filesystem/server/serversensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

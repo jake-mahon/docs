@@ -50,17 +50,17 @@ Send As and Send on Behalf lists using the portal.
 You can provide the Send As setting on any tab of an object’s properties page in the portal. This
 would enable the object to delegate the Send As permission to users.
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Properties** in the left pane. The **Properties** page is displayed.
 5. In the **Select Directory Object** drop-down list, select a Mailbox or Group object to add the
    Send As setting to its properties page. The **Name** list displays the tabs on the object’s
    properties page.
-6. Click **Edit** for a tab (for example, the **Email** tab).  
+6. Click **Edit** for a tab (for example, the **Email** tab).
    The **Edit Design Category** pane is displayed, with the **Fields** area displaying the fields on
    the tab.
 7. Click **Add Field** to add the **Send As** field. The **Add Field** pane is displayed.
@@ -94,11 +94,11 @@ would enable the object to delegate the Send As permission to users.
     - Select _Never_ to make the field read-only for all users.
     - Select _Manager and Owner_ to enable only the owner (in case of a group) or manager (in case
       of a mailbox) to specify or modify the value of this field. It would be read-only for other
-      users, such as group members or the mailbox itself.  
+      users, such as group members or the mailbox itself.
       In other words, only group owners can specify or modify the value of this field for their
       respective groups in the portal. A role with a higher priority value cannot change the value;
       group members cannot change the value; and even a role with the ‘Manage any Group’ permission
-      in the identity store cannot change the value.  
+      in the identity store cannot change the value.
       Similarly, only mailbox managers can specify or modify the value of this field for their
       respective direct reports in the portal. A role with a higher priority value cannot change the
       value; and even a role with the ‘Manage any profile’ permission in the identity store cannot
@@ -110,11 +110,11 @@ would enable the object to delegate the Send As permission to users.
       ‘Manage any profile’ permission in the identity store.
 
 13. As mentioned for access level and visibility level, the field is editable and visible to members
-    of the selected role and roles with a priority value higher than the selected role.  
+    of the selected role and roles with a priority value higher than the selected role.
     In the **Exclude Roles** area, select the check boxes for the higher priority role(s) to deny
     them access and visibility on the field.
 14. Use the **Search Object Types** area to specify the object types that can be searched on the
-    portal’s Find dialog box, to set as value for the _Send As_ field.  
+    portal’s Find dialog box, to set as value for the _Send As_ field.
     The following display types support the Find dialog box:
 
     - DN
@@ -137,7 +137,7 @@ would enable the object to delegate the Send As permission to users.
 Launch the portal and go to the properties of the target object (group or mailbox) you defined the
 Send As field for, then click the respective tab. The Send As field is displayed as follows:
 
-![sendas](/img/product_docs/directorymanager/11.1/admincenter/portal/design/sendas.webp)
+![sendas](/images/directorymanager/11.1/admincenter/portal/design/sendas.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send As list. The added
 objects can send email for the target object in accordance with the Send As functionality.
@@ -147,17 +147,17 @@ objects can send email for the target object in accordance with the Send As func
 You can provide the Send on Behalf setting on any tab of an object’s properties page in the portal.
 This would enable the object to delegate the Send on Behalf permission to users.
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Properties** in the left pane. The **Properties** page is displayed.
 5. In the **Select Directory Object** list, select a Mailbox or Group object to add the Send on
    Behalf setting to its properties page. The **Name** list displays the tabs on the object’s
    properties page.
-6. Click **Edit** for a tab (for example, the **Email** tab).  
+6. Click **Edit** for a tab (for example, the **Email** tab).
    The **Edit Design Category** pane is displayed, with the **Fields** area displaying the fields on
    the tab.
 7. Click **Add Field** to add the **Send on Behalf** field. The **Add Field** pane is displayed.
@@ -190,10 +190,10 @@ This would enable the object to delegate the Send on Behalf permission to users.
     - Select _Never_ to make the field read-only for all users.
     - Select _Manager and Owner_ to enable only the owner (in case of a group) or manager (in case
       of a mailbox) to specify or modify the value of this field. It would be read-only for other
-      users, such as group members or the mailbox itself.  
+      users, such as group members or the mailbox itself.
       In other words, only group owners can specify or modify the value of this field for their
       respective groups in the portal. A role with a higher priority value, group members, or a role
-      with the ‘Manage any Group’ permission in the identity store cannot change the value.  
+      with the ‘Manage any Group’ permission in the identity store cannot change the value.
       Similarly, only mailbox managers can specify or modify the value of this field for their
       respective direct reports in the portal. A role with a higher priority value or a role with
       the ‘Manage any profile’ permission in the identity store cannot change the value.
@@ -204,11 +204,11 @@ This would enable the object to delegate the Send on Behalf permission to users.
       ‘Manage any profile’ permission in the identity store.
 
 13. As mentioned for access level and visibility level, the field is editable and visible to members
-    of the selected role and roles with a priority value higher than the selected role.  
+    of the selected role and roles with a priority value higher than the selected role.
     In the **Exclude Roles** area, select the check boxes for the higher priority role(s) to deny
     them access and visibility on the field.
 14. Use the **Search Object Types** area to specify the object types that can be searched on the
-    portal’s Find dialog box, to set as value for the _Send on Behalf_ field.  
+    portal’s Find dialog box, to set as value for the _Send on Behalf_ field.
     The following display types support the Find dialog box:
 
     - DN
@@ -232,7 +232,7 @@ Launch the portal and go to the properties of the target object (group or mailbo
 Send on Behalf field for, then click the respective tab. The Send on Behalf field is displayed as
 follows:
 
-![sendonbehalf](/img/product_docs/directorymanager/11.1/admincenter/portal/design/sendonbehalf.webp)
+![sendonbehalf](/images/directorymanager/11.1/admincenter/portal/design/sendonbehalf.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send on Behalf list. The
 added objects can send email on behalf of the target object in accordance with the Send on Behalf

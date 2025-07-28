@@ -10,7 +10,7 @@ This section contains information on how to configure SharePoint Online dynamic 
 Toggle between Basic and Advanced configuration settings by clicking the icons in the Settings
 button in the bottom left corner of the page.
 
-![dynamicsourcegroupex](/img/product_docs/dataclassification/5.6.2/sources/source_groups/dynamicsourcegroupex.webp)
+![dynamicsourcegroupex](/images/dataclassification/5.6.2/sources/source_groups/dynamicsourcegroupex.webp)
 
 The following options can be configured for Exchange Dynamic Source Groups:
 

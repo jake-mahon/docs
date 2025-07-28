@@ -16,7 +16,7 @@ Directory Manager. On changing it, the portal is displayed with the new name.
 
 **To change a portal's display name:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal card displays its info, including its name. You can
    differentiate between a standard Directory Manager portal and a SSPR portal from the portal logo,
    as each portal type has its own logo.
@@ -34,7 +34,7 @@ a user must select an identity store to connect to, for performing password mana
 
 **To associate an identity store:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal card displays its info, including the identity stores
    associated with it. You can differentiate between a standard Directory Manager portal and a SSPR
    portal from the portal logo, as each portal type has its own logo.
@@ -55,7 +55,7 @@ You may observe the following message on the **Server Settings – General** pag
 :::
 
 
-![linked_message](/img/product_docs/directorymanager/11.1/admincenter/portal/linked_message.webp)
+![linked_message](/images/directorymanager/11.1/admincenter/portal/linked_message.webp)
 
 It relates to the scenario when identity stores in Directory Manager have been linked, as discussed
 in the
@@ -72,7 +72,7 @@ settings for each deployment instance of a portal.
 
 **To view a portal’s deployment instances:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal card displays its info, including all its deployment
    instances. You can differentiate between a standard Directory Manager portal and a SSPR portal
    from the portal logo, as each portal type has its own logo.

@@ -7,9 +7,9 @@
 You can check the existing version using the About link at the bottom of
 each page.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proupgrade/image2.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/proupgrade/image2.webp)
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proupgrade/image3.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/proupgrade/image3.webp)
 
 ## Database backup
 

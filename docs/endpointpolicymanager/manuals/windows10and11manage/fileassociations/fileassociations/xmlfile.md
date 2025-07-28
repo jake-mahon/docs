@@ -10,7 +10,7 @@ Endpoint Policy Manager File Associations Manager will dynamically write the fil
 to make the file associations. This file is called FileAssociations.XML, and there will be one file
 per computer located in `%programdata%\PolicyPak\Common`, as seen in Figure 54.
 
-![troubleshooting](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/troubleshooting.webp)
+![troubleshooting](/images/endpointpolicymanager/troubleshooting/fileassociations/troubleshooting.webp)
 
 Figure 54. FileAssocations.xml shows the actions taken by Endpoint Policy Manager File Associations
 Manager.

@@ -20,7 +20,7 @@ This script requires Python and PIP:
 - QuickStart Authenticates via an API key.
 - Python and PIP Version Required
 
-    - Privilege Secure Versions 2.7 and later, require Python 3.9.6 and PIP  
+    - Privilege Secure Versions 2.7 and later, require Python 3.9.6 and PIP
       [https://www.python.org/downloads/release/python-396](https://www.python.org/downloads/release/python-396/)
     - Previous versions ofPrivilege Secure supported python 2, but it's strongly recommended to
       upgrade to Python3.
@@ -30,7 +30,7 @@ selected and showing "Will be installed on local hard drive" (screenshot below).
 
 You also need to check "Add Python to environment variables" and "Include Python on filepath".
 
-![image.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360044200374_image.webp)
+![image.webp](/images/privilegesecure/4.2/discovery/admin/configuration/360044200374_image.webp)
 
 _The next step will need to be completed after downloading the version of the QuickStart zip file at
 the bottom of this article._

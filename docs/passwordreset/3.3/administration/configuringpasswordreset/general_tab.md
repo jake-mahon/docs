@@ -10,7 +10,7 @@ Use the General tab to maintain the list of managed domains, set the database op
 the Password Policy Enforcer integration. See the Netwrix Password Policy Enforcer topic for
 additional information.
 
-![configuring_npr](/img/product_docs/passwordreset/3.3/administration/configuring_npr.webp)
+![configuring_npr](/images/passwordreset/3.3/administration/configuring_npr.webp)
 
 ### Domain List
 
@@ -82,7 +82,7 @@ Password Reset is a configurable password filter that enforces granular password
 advanced features. Password Reset can integrate with Password Policy Enforcer to help users choose a
 compliant password.
 
-![configuring_npr_1](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_1.webp)
+![configuring_npr_1](/images/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_1.webp)
 
 Password Reset displays the Password Policy Enforcer policy message when users are prompted for
 their new password, and the Password Policy Enforcer rejection message if the new password does not
@@ -107,7 +107,7 @@ later).
 Users are more likely to see the Password Policy Enforcer Generic Rejection message rather than the
 more detailed Rejection message when this registry value is set. Users may also have the wrong
 policy, or no policy enforced if the queried server is not a domain controller in the user's
-domain.  
+domain.
 Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create
 firewall rules to open this port. See the Password Policy Enforcer documentation for additional information.
 
@@ -118,7 +118,7 @@ server configuration, and enable "Only accept encrypted client request".
 :::
 
 
-![using_ppe_with_npr](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_ppe_with_npr.webp)
+![using_ppe_with_npr](/images/passwordpolicyenforcer/11.0/passwordreset/administration/using_ppe_with_npr.webp)
 
 Please do not enable this option if you are using Netwrix Password Reset v3.3 with Netwrix Password
 Policy Enforcer v8.x or earlier versions, or with Netwrix Password Policy Enforcer/Web. If you are

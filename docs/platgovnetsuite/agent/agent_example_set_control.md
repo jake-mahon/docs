@@ -20,7 +20,7 @@ Here is the process to create a control to monitor changes:
 4. Check **Public**
 5. Add filters on the **Criteria** tab:
 
-    ![Create the Saved Search for the Example](/img/product_docs/platgovnetsuite/financial_controls/agent_example1.webp)
+    ![Create the Saved Search for the Example](/images/platgovnetsuite/financial_controls/agent_example1.webp)
 
     | Select Filter           | What to Set                                                                                        | Resulting Description                             | Formula To Set                           |
     | ----------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------- |
@@ -41,7 +41,7 @@ Here is the process to create a control to monitor changes:
 
 6. Open the **Results** tab. You can Remove all to clear the defaults. Add the following fields:
 
-    ![Adding the Results columns](/img/product_docs/platgovnetsuite/financial_controls/agent_example2.webp)
+    ![Adding the Results columns](/images/platgovnetsuite/financial_controls/agent_example2.webp)
 
 7. **Save** the search.
 8. Note the assigned **ID** for your new Search. For example, **customsearch5673**
@@ -56,15 +56,15 @@ You can wait until the next AutoSpider run, or manually create the customization
     - **Custom Form**: Use the **Simplified Form**, or select a different form if you want to add a
       **Process/Step**, such as **Financial**.
     - **Name**: Best practice is to enter a meaningful **Name** and **Description**. For this
-      example, **Name** is the same as the Saved Search:  
+      example, **Name** is the same as the Saved Search:
       **Control Employee Purchase Limit and Purchase Approval Limit Control**
     - **Type**: Select **Search**
     - **Script ID**: Enter the **ID** from your Saved Search. For example, **customsearch5673**
 
-        ![Create the Customization for the Example](/img/product_docs/platgovnetsuite/financial_controls/agent_example3.webp)
+        ![Create the Customization for the Example](/images/platgovnetsuite/financial_controls/agent_example3.webp)
 
 3. **Save** the customization.
-4. Click **Respider Now**  
+4. Click **Respider Now**
    Leave the Customization Record open.
 
 ### Designate the Customization as a Control
@@ -95,7 +95,7 @@ From the customization record:
 
 5. **Save** the record.
 
-    ![Designating the customization as a control](/img/product_docs/platgovnetsuite/financial_controls/agent_example4.webp)
+    ![Designating the customization as a control](/images/platgovnetsuite/financial_controls/agent_example4.webp)
 
 The control is triggered as configured and all instances are logged under **Unresolved Control
 Incidents**, **Resolved Control Incidents** or **Pre-approved Control Incidents**.

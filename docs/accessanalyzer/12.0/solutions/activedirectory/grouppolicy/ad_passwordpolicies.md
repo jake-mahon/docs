@@ -19,7 +19,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/grouppolicy/passwordpoliciesquery.webp)
+![Query for the AD_PasswordPolicies Job](/images/accessanalyzer/12.0/solutions/activedirectory/grouppolicy/passwordpoliciesquery.webp)
 
 The query for this job is:
 
@@ -40,7 +40,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_PasswordPolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/grouppolicy/passwordpoliciesanalysis.webp)
+![Analysis Task for the AD_PasswordPolicies Job](/images/accessanalyzer/12.0/solutions/activedirectory/grouppolicy/passwordpoliciesanalysis.webp)
 
 The default analysis tasks are:
 
@@ -53,4 +53,3 @@ the following pre-configured report:
 | Report                         | Description                                                                               | Default Tags | Report Elements                                                                                                             |
 | ------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | Fine-Grained Password Policies | This report highlights fine-grained password policies on all targeted domain controllers. | None         | This report is comprised of one element: <ul><li>Table – Provides details on fine-grained password policy details</li></ul> |
-

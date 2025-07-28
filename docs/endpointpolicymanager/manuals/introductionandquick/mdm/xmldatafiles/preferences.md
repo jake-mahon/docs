@@ -13,7 +13,7 @@ so on. Refer to Book 9: [Preferences Manager](/docs/endpointpolicymanager/manual
 Then, drag the Group Policy Preference item from the MMC console to create the XML data file. You
 can drag this file to a folder or your desktop, as shown in Figure 19.
 
-![deploying_policypak_directives_19](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_19.webp)
+![deploying_policypak_directives_19](/images/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_19.webp)
 
 Figure 19. Dragging the the Group Policy Preference item from the MMC console to the desktop in
 order to create a XML data file.
@@ -22,7 +22,7 @@ Alternatively, the Endpoint Policy Manager management console can also export ex
 Preference items from within an existing GPO (without you needing to drag and drop items one by
 one). You can see an example of this in Figure 20.
 
-![deploying_policypak_directives_20](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_20.webp)
+![deploying_policypak_directives_20](/images/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_20.webp)
 
 Figure 20. The user can export an existing GPO through the Endpoint Policy Manager management
 console.

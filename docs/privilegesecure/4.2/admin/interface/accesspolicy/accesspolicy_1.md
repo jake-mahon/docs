@@ -19,7 +19,7 @@ to create one during these steps.
 
 **Step 2 –** In the Access Policy list, click the **Plus** icon.
 
-![Add Access Policy](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
+![Add Access Policy](/images/privilegesecure/4.2/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
 
 **Step 3 –** Enter the following information:
 

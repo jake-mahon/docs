@@ -29,7 +29,7 @@ topic for additional information.
 View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online** >
 **EX_OrgOverview_Mailbox** > **Configure** node and select **Analysis**.
 
-![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.webp)
+![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/images/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -49,4 +49,3 @@ produces the following pre-configured report.
 | ------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Trend By MessageID (Organization Overview) | This report shows an overview of sent and received message statuses for the organization. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the last 7 days trend by message ID</li><li>Table – Provides details on the last 30 days total traffic by message ID</li></ul> |
 | Trend By Recipient                         | This report shows the trend of sent/received and total traffic by recipient.              | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the last 7 days trend by recipient</li><li>Table – Provides details on the last 30 days traffic by recipient</li></ul>         |
-

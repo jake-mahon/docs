@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup31.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup31.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ produces the following pre-configured report.
 | Report              | Description                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                         |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Suspicious Activity | This report highlights the number of suspicious events found per instance as well as provides the details about those events | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays suspicious activity by instance</li><li>Table –  Provides details on suspicious activity by instance</li><li>Table – Provides details on suspicious activity details</li></ul> |
-

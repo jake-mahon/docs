@@ -21,7 +21,7 @@ prevent making unintended and potentially harmful changes to Active Directory.
 :::
 
 
-![Action Tasks for the FS_NotifyOwners Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/notifyownersaction.webp)
+![Action Tasks for the FS_NotifyOwners Job](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/notifyownersaction.webp)
 
 The following action task is deselected by default.
 
@@ -53,7 +53,7 @@ be opened.
 :::
 
 
-![Send Mail Action Module Wizard Properties page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/sendmailwizardproperties.webp)
+![Send Mail Action Module Wizard Properties page](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/sendmailwizardproperties.webp)
 
 **Step 4 –** On the Properties page, customize the following fields:
 
@@ -65,7 +65,7 @@ be opened.
     :::
 
 
-![Send Mail Action Module Wizard Message page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/sendmailwizardmessage.webp)
+![Send Mail Action Module Wizard Message page](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/sendmailwizardmessage.webp)
 
 **Step 5 –** On the Message page, customize the following fields:
 

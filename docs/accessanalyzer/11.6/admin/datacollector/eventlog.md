@@ -29,7 +29,7 @@ Enterprise Auditor licenses.
 
 The EventLog Data Collector is configured through the Event Log Browser window.
 
-![Event Log Browser window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/eventlogbrowser.webp)
+![Event Log Browser window](/images/accessanalyzer/11.6/admin/datacollector/eventlogbrowser.webp)
 
 **Sample**
 

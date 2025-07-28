@@ -11,7 +11,7 @@ your settings. However, when the GPO (or other policy delivery method) applying 
 longer applies, reverts, or is deleted, the groups will remain with icons intact, as seen in
 Figure 49.
 
-![collections_policy_settings_16](/img/product_docs/endpointpolicymanager/startscreentaskbar/collections_policy_settings_16.webp)
+![collections_policy_settings_16](/images/endpointpolicymanager/startscreentaskbar/collections_policy_settings_16.webp)
 
 Figure 49. After a policy no longer applies, users are free to manage their Start Menu groups.
 

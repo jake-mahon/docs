@@ -12,7 +12,7 @@ To create a change request:
 
 1. Open **SoD** > **Change Management** > **New SoD Approval**
 
-    ![sod_new_change_request](/img/product_docs/platgovnetsuite/sod/sod_new_change_request.webp)
+    ![sod_new_change_request](/images/platgovnetsuite/sod/sod_new_change_request.webp)
 
 2. Enter information in the following fields:
 

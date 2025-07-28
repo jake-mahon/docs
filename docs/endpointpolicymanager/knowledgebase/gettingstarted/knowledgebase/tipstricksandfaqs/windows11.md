@@ -14,7 +14,7 @@ selecting Windows 10.
 - WMI Query, or
 - Registry match.
 
-![14_1_faq-4-rev-1-img-1](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_1_faq-4-rev-1-img-1.webp)
+![14_1_faq-4-rev-1-img-1](/images/endpointpolicymanager/itemleveltargeting/14_1_faq-4-rev-1-img-1.webp)
 
 **Step 3 –** If you choose WMI Query to detect the build number, enter the following in the Query
 field:
@@ -25,7 +25,7 @@ SELECT * FROM Win32_OperatingSystem WHERE BuildNumber = "15063"
 
 This would select Windows 1703, which is that build number.
 
-![14_2_faq-4-rev-1-img-2](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_2_faq-4-rev-1-img-2.webp)
+![14_2_faq-4-rev-1-img-2](/images/endpointpolicymanager/itemleveltargeting/14_2_faq-4-rev-1-img-2.webp)
 
 :::warning
 Note that you want to place a whole number and not a number with decimal places. The
@@ -40,11 +40,11 @@ in the Registry:
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion | CurrentBuildNumber
 ```
 
-![14_3_faq-4-rev-1-img-3](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_3_faq-4-rev-1-img-3.webp)
+![14_3_faq-4-rev-1-img-3](/images/endpointpolicymanager/itemleveltargeting/14_3_faq-4-rev-1-img-3.webp)
 
 **Step 5 –** Use the Registry Match item as follows for a specific Build number.
 
-![14_4_faq-4-rev-1-img-4](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_4_faq-4-rev-1-img-4.webp)
+![14_4_faq-4-rev-1-img-4](/images/endpointpolicymanager/itemleveltargeting/14_4_faq-4-rev-1-img-4.webp)
 
 Other build numbers you can use are:
 
@@ -72,11 +72,11 @@ You can see examples of the first and second Windows 1809 releases below.
 
 First release of Windows 1809 build 17763:
 
-![14_5_faq-4-rev-1-img-5](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_5_faq-4-rev-1-img-5.webp)
+![14_5_faq-4-rev-1-img-5](/images/endpointpolicymanager/itemleveltargeting/14_5_faq-4-rev-1-img-5.webp)
 
 Second release of Windows 1809 build 17763:
 
-![14_6_faq-4-rev-1-img-6](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_6_faq-4-rev-1-img-6.webp)
+![14_6_faq-4-rev-1-img-6](/images/endpointpolicymanager/itemleveltargeting/14_6_faq-4-rev-1-img-6.webp)
 
 The Value you want to match with an ILT Registry Match is this:
 
@@ -93,7 +93,7 @@ When Machine is Windows 10, and
 - When build is 17763 (Windows 1809) and
 - When build's UBR is .1 (first version of 1809).
 
-![14_7_faq-4-rev-1-img-7](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_7_faq-4-rev-1-img-7.webp)
+![14_7_faq-4-rev-1-img-7](/images/endpointpolicymanager/itemleveltargeting/14_7_faq-4-rev-1-img-7.webp)
 
 ## How to Query for CB/CBB vs. LTSB/LTSC
 
@@ -113,4 +113,4 @@ SELECT OperatingSystemSKU FROM Win32_OperatingSystem WHERE OperatingSystemSKU = 
 
 Here's an example:
 
-![14_8_faq-4-rev-1-img-8](/img/product_docs/endpointpolicymanager/itemleveltargeting/14_8_faq-4-rev-1-img-8.webp)
+![14_8_faq-4-rev-1-img-8](/images/endpointpolicymanager/itemleveltargeting/14_8_faq-4-rev-1-img-8.webp)

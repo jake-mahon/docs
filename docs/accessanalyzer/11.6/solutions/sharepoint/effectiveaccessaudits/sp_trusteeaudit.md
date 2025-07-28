@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_TrusteeAudit Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/effectiveaccessaudits/trusteeauditanalysis.webp)
+![Analysis Tasks for the SP_TrusteeAudit Job](/images/accessanalyzer/11.6/solutions/sharepoint/effectiveaccessaudits/trusteeauditanalysis.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ specified trustees, the SP_TrusteeAudit Job produces the following pre-configure
 | Report                 | Description                                                                                                                                     | Default Tags | Report Elements                                                                                                                                                                                                                       |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Site Collection Access | This report shows what site collections a domain user has effective and direct access to. Audited users are scoped in the SP_TrusteeAccess job. | None         | This report is comprised of three elements: <ul><li>Table – Provides user summary details</li><li>Table – Provides details on site collections with effective access</li><li>Table – Provides details on direct permissions</li></ul> |
-

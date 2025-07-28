@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_MailboxLogons Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/logons/mailboxlogonsanalysis.webp)
+![Analysis Tasks for the EX_MailboxLogons Job](/images/accessanalyzer/12.0/solutions/exchange/mailboxes/logons/mailboxlogonsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -64,4 +64,3 @@ the following pre-configured reports:
 | Non Owner Mailbox Logons – Last Week (Top Users Logging into Other Mailboxes) | Lists the number of distinct non-owner mailboxes accessed by each user and counts of non-owner logons in the last seven days. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users for non-owner activity – last week</li><li>Table – Provides details on all mailbox logons</li></ul>             |
 | Top Hourly Activity (By IP) (Top Hourly Activity)                             | This report shows periods where there was large amounts of traffic coming from a single machine.                              | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top machines by user account activity</li><li>Table – Provides details on top machines by user account activity</li></ul> |
 | Top Hourly Activity (By User) (Top Hourly Activity)                           | This report shows periods when users are most active.                                                                         | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top machines by non-owner logons</li><li>Table – Provides details on top users by non-owner logons</li></ul>              |
-

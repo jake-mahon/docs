@@ -9,7 +9,7 @@ sidebar_position: 80
 In some environments, the creation of Paks and the creation of GPOs which deploy Netwrix Endpoint
 Policy Manager (formerly PolicyPak) instructions could be two separate jobs. This is quite common,
 as often the person who knows the application and its settings is better suited to create the Paks
-for those applications.  
+for those applications.
 Said another way, sometimes one person (or a team of people) can create Paks, and another person (or
 team) can create GPOs with these created Paks.
 
@@ -24,4 +24,4 @@ Policy Manager piece fits in. In the table, you'll see which Active Directory el
 based upon operating system type, the role it plays, and which Endpoint Policy Manager component
 needs to be installed (if any).
 
-![190_1_2014-09-22_0927](/img/product_docs/endpointpolicymanager/applicationsettings/190_1_2014-09-22_0927.webp)
+![190_1_2014-09-22_0927](/images/endpointpolicymanager/applicationsettings/190_1_2014-09-22_0927.webp)

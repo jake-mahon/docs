@@ -11,7 +11,7 @@ Directory.
 
 Click **Audit Logs** in the left pane to open the Audit Logs page.
 
-![Audit Logs Page](/img/product_docs/recoveryforactivedirectory/2.6/admin/auditlog.webp)
+![Audit Logs Page](/images/recoveryforactivedirectory/2.6/admin/auditlog.webp)
 
 The following information is displayed for an event:
 
@@ -22,4 +22,4 @@ The following information is displayed for an event:
 
 To view the details of an event, click the arrow next to it to expand it.
 
-![Audit Event Details](/img/product_docs/recoveryforactivedirectory/2.6/admin/auditeventdetails.webp)
+![Audit Event Details](/images/recoveryforactivedirectory/2.6/admin/auditeventdetails.webp)

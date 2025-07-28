@@ -18,7 +18,7 @@ Search icon is disabled in the report.
 The following example shows an interactive grid in which searching has been enabled. See the
 [Grid](/docs/accessanalyzer/12.0/admin/report/wizard/widgets.md#grid) topic for additional information.
 
-![Search](/img/product_docs/accessanalyzer/12.0/admin/report/interactivegrids/search.webp)
+![Search](/images/accessanalyzer/12.0/admin/report/interactivegrids/search.webp)
 
 Enter search criteria in the boxes under the columns to filter the data. Click the search icon again
 to clear the filters.
@@ -31,7 +31,7 @@ column size to fit the largest length of text contained in the column.
 Enabling the enumerated column option, and choosing a column from the data set adds a list of column
 types to display as enumerated tables.
 
-![Enumerated Table](/img/product_docs/accessanalyzer/12.0/admin/report/interactivegrids/enumerated.webp)
+![Enumerated Table](/images/accessanalyzer/12.0/admin/report/interactivegrids/enumerated.webp)
 
 To change the enumeration in the report, select an option from the enumerated column list. When
 enumeration is set on an interactive grid, a second download button is displayed with the name of
@@ -43,7 +43,7 @@ the data for the selected enumeration.
 Data can also be filtered on dates and times. Expanding the column's width activates hyperlinks to
 filter on specific time periods.
 
-![Date column filter](/img/product_docs/accessanalyzer/12.0/admin/report/interactivegrids/datefilter.webp)
+![Date column filter](/images/accessanalyzer/12.0/admin/report/interactivegrids/datefilter.webp)
 
 Enter a Start and End date and select the desired time period.
 
@@ -65,7 +65,7 @@ filtering include the following:
 
 Columns can be added or removed from the table.
 
-![Add and remove columns](/img/product_docs/accessanalyzer/12.0/admin/report/interactivegrids/addremovecolumns.webp)
+![Add and remove columns](/images/accessanalyzer/12.0/admin/report/interactivegrids/addremovecolumns.webp)
 
 Right-click on a column to display a list of the available columns. Select the checkboxes of the
 columns you want to be displayed. Click the up or down arrows to scroll through the list of columns.

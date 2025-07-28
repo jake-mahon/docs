@@ -16,7 +16,7 @@ variety of environments. Action modules are assigned to a job at the **Configure
 node. See the [Actions Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/actions.md) topic for additional information on
 the Action Selection view.
 
-![Action Selection page](/img/product_docs/accessanalyzer/12.0/admin/action/actionselection.webp)
+![Action Selection page](/images/accessanalyzer/12.0/admin/action/actionselection.webp)
 
 Configure the action through the Action Properties page. Navigate to the job’s **Configure** >
 **Actions** node. Select **Create Action** to add a new action task to a job. Select an existing
@@ -89,7 +89,7 @@ changes to a production environment.
 Use this page to view or specify properties for a selected action, including the name, description,
 action module, and source table. Access this page via the Action Selection view.
 
-![Action Properties page for new action](/img/product_docs/accessanalyzer/12.0/admin/action/actionproperties.webp)
+![Action Properties page for new action](/images/accessanalyzer/12.0/admin/action/actionproperties.webp)
 
 :::info
 Provide unique and descriptive names and action task descriptions to all user

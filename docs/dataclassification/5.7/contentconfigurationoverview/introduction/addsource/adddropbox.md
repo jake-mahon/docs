@@ -12,7 +12,7 @@ content stored in Dropbox cloud storage.
 **IMPORTANT!** Make sure you created App for Dropbox crawling before start adding the source.
 [See Configure Dropbox for Crawling for more information.](/docs/dataclassification/5.7/introduction/introduction/dropbox.md)
 
-![source_dropbox_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/dropbox/source_dropbox_thumb_0_0.webp)
+![source_dropbox_thumb_0_0](/images/dataclassification/5.7/admin/sources/dropbox/source_dropbox_thumb_0_0.webp)
 
 Complete the following fields:
 
@@ -25,4 +25,3 @@ Complete the following fields:
 | OCR Processing mode          | Select documents' images processing mode: <ul><li>Disabled – documents' images will not be processed.</li><li>Default – defaults to the source settings if configuring a path or the global setting if configured on a source.</li><li>Normal – images are processed with normal quality settings.</li><li>Enhanced – upscale images further to allow more.</li></ul>                                   |
 | Source Group                 | Netwrix recommends creating a dedicated source group for Dropbox.                                                                                                                                                                                                                                                                                                                                       |
 | Pause source on creation     | Select if you want to make other configuration changes before collection of the source occurs.                                                                                                                                                                                                                                                                                                          |
-

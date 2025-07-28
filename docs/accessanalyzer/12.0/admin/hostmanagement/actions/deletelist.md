@@ -16,7 +16,7 @@ Before deleting a host list, first ensure it is not assigned to a job.
 
 **Step 1 –** In the Navigation pane, select the host list to delete and click **Delete List**.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/confirmdeletelist.webp)
+![Confirm dialog box](/images/accessanalyzer/12.0/admin/hostmanagement/actions/confirmdeletelist.webp)
 
 :::warning
 This action cannot be undone. Click **Cancel** to stop the deletion.
@@ -28,7 +28,7 @@ This action cannot be undone. Click **Cancel** to stop the deletion.
 Access Analyzer checks to see if any hosts within the host list are found in any other static host
 lists.
 
-![Confirm deletion of orphaned hosts from master host table dialog box](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/confirmdeletelistmaster.webp)
+![Confirm deletion of orphaned hosts from master host table dialog box](/images/accessanalyzer/12.0/admin/hostmanagement/actions/confirmdeletelistmaster.webp)
 
 **Step 3 –** If no hosts are found in any other host list, then Access Analyzer asks if you want to
 remove the host from the master host table. On the Confirm dialog box, select the desired option.

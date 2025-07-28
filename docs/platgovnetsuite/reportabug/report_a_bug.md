@@ -25,13 +25,13 @@ NetSuite to make it easy to access the Netwrix support site at
 - Open **Strongpoint** > **Strongpoint Support** > **Contact Support** to open the Netwrix Support
   site.
 
-![Contact Strongpoint Support](/img/product_docs/platgovnetsuite/troubleshooting/report_bug.webp)
+![Contact Strongpoint Support](/images/platgovnetsuite/troubleshooting/report_bug.webp)
 
 ## Comment on a User Guide Topic
 
 There is a comment button at the end of each topic, enabling you to easily send feedback to Support
 on the topic.
 
-![Click to leave feedback on the current topic.](/img/product_docs/platgovnetsuite/troubleshooting/comment_button.webp)
+![Click to leave feedback on the current topic.](/images/platgovnetsuite/troubleshooting/comment_button.webp)
 
-![Enter your feedback on the current topic.](/img/product_docs/platgovnetsuite/troubleshooting/comment_form.webp)
+![Enter your feedback on the current topic.](/images/platgovnetsuite/troubleshooting/comment_form.webp)

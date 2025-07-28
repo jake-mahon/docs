@@ -30,12 +30,12 @@ Access Reviews service.
 **Step 1 –** Navigate to Service Control Manager (`services.msc`). The Services Control Manager
 opens.
 
-![Services Manager Console showing the Netwrix Access Information Center service and the right-click Menu](/img/product_docs/auditor/10.6/access/reviews/admin/troubleshooting/servicesmanager.webp)
+![Services Manager Console showing the Netwrix Access Information Center service and the right-click Menu](/images/auditor/10.6/access/reviews/admin/troubleshooting/servicesmanager.webp)
 
 **Step 2 –** Right-click on the Netwrix Auditor Access Reviews service and select **Properties**.
 The service Properties window opens.
 
-![Netwrix Access Information Center service Properties window with Select User browser window](/img/product_docs/auditor/10.6/access/reviews/admin/troubleshooting/serviceproperties.webp)
+![Netwrix Access Information Center service Properties window with Select User browser window](/images/auditor/10.6/access/reviews/admin/troubleshooting/serviceproperties.webp)
 
 **Step 3 –** On the **Log On** tab, select the **This account** radio button. Enter the account name
 using NTAccount format [```DOMAIN\username```]. Optionally, use the **Browse** button to search for

@@ -57,7 +57,7 @@ which contains the following wizard pages:
     :::
 
 
-![Exchange Metrics Data Collector Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/welcome.webp)
+![Exchange Metrics Data Collector Wizard Welcome page](/images/accessanalyzer/11.6/admin/datacollector/exchangemetrics/welcome.webp)
 
 The Welcome page can be hidden by checking the **Do not display this page the next time** box when
 the wizard is open and configuration settings are saved.

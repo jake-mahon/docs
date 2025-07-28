@@ -30,7 +30,7 @@ you open them. Click **Search** to generate reports with a predefined filter set
 
 **Step 5 –** Click **Export**. The report is sent to you as an .xlsx file by email.
 
-![Roports - Export option](/img/product_docs/1secure/admin/searchandreports/exportreport.webp)
+![Roports - Export option](/images/1secure/admin/searchandreports/exportreport.webp)
 
 :::note
 A report cannot be exported if no data is available for it. In this case, the Export

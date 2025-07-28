@@ -15,12 +15,12 @@ To view unresolved control incidents:
 
 1. Open **Strongpoint** > **Financial Controls** > **Unresolved Control Incidents**
 
-    ![Viewing Unresolved Control Incidents](/img/product_docs/platgovnetsuite/financial_controls/agent_unresolved_example1.webp)
+    ![Viewing Unresolved Control Incidents](/images/platgovnetsuite/financial_controls/agent_unresolved_example1.webp)
 
 2. Click View by the record with the **Purchase Limit** and **Purchase Approval Limit** changes to
    open the Change Log.
 
-    ![Open the Change Log](/img/product_docs/platgovnetsuite/financial_controls/agent_unresolved_example2.webp)
+    ![Open the Change Log](/images/platgovnetsuite/financial_controls/agent_unresolved_example2.webp)
 
 **Change Overview** shows what change was made and who made the change. The **Diff View** on the
 **Values** tab displays both the old and new values.

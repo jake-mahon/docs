@@ -9,7 +9,7 @@ sidebar_position: 50
 The Server Summary report at the **File System** node provides a top-level view of servers that have
 been scanned.
 
-![Server Summary report at the File System node](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/serversummary.webp)
+![Server Summary report at the File System node](/images/accessinformationcenter/12.0/resourceaudit/filesystem/serversummary.webp)
 
 This report is comprised of the following columns:
 

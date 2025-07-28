@@ -12,7 +12,7 @@ The EX_ASPolicies Job provides insight into what policies are enabled for which 
 
 The EX_ASPolicies Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_ASPolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/casmetrics/aspoliciesquery.webp)
+![Queries for the EX_ASPolicies Job](/images/accessanalyzer/12.0/solutions/exchange/casmetrics/aspoliciesquery.webp)
 
 The following query is included in the EX_ASPolicies Job.
 
@@ -41,7 +41,7 @@ Do not modify other wizard pages. The wizard pages are pre-configured for this j
 :::
 
 
-![ExchangePS Data Collector Wizard Scope page](/img/product_docs/activitymonitor/8.0/config/activedirectory/scope.webp)
+![ExchangePS Data Collector Wizard Scope page](/images/activitymonitor/8.0/config/activedirectory/scope.webp)
 
 **Step 4 –** Navigate to the Scope page, and select the desired scoping method from those available.
 See the [ExchangePS: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scope.md) topic for additional
@@ -78,7 +78,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_ASPolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/casmetrics/aspoliciesanalysis.webp)
+![Analysis Tasks for the EX_ASPolicies Job](/images/accessanalyzer/12.0/solutions/exchange/casmetrics/aspoliciesanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -90,4 +90,3 @@ following pre-configured report:
 | Report                                         | Description                                                                                                                                              | Default Tags | Report Elements                                                                                                                                           |
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User ActiveSync Policies (ActiveSync Settings) | Exchange introduced many ActiveSync policies and settings which can be applied to users. This report identifies which users have these settings enabled. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays ActiveSync Policies</li><li>Table – Provides details ActiveSync Policies</li></ul> |
-

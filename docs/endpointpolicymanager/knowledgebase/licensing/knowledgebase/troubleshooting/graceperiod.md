@@ -27,7 +27,7 @@ recent versions of PolicyPak CSE.
 :::
 
 
-![895_1_image001](/img/product_docs/endpointpolicymanager/troubleshooting/license/895_1_image001.webp)
+![895_1_image001](/images/endpointpolicymanager/troubleshooting/license/895_1_image001.webp)
 
 :::note
 Endpoint Policy Manager plans to update this pop-up in future CSE versions to express what
@@ -82,7 +82,7 @@ NOTIFICATION.
 :::
 
 
-![895_2_image002_950x550](/img/product_docs/endpointpolicymanager/troubleshooting/license/895_2_image002_950x550.webp)
+![895_2_image002_950x550](/images/endpointpolicymanager/troubleshooting/license/895_2_image002_950x550.webp)
 
 ## How to change Pop-Up Behavior (modern CSE versions equal or later to 24.4)
 
@@ -107,7 +107,7 @@ To configure the ADMX setting to ENABLE the broadcast of a pop-up, locate the �
 warning pop-up when any/all Endpoint Policy Manager license transitions to expired” like what’s seen
 here.
 
-![1250_3_68f28861b1bed10b6c283416f9581bae](/img/product_docs/endpointpolicymanager/troubleshooting/license/1250_3_68f28861b1bed10b6c283416f9581bae.webp)
+![1250_3_68f28861b1bed10b6c283416f9581bae](/images/endpointpolicymanager/troubleshooting/license/1250_3_68f28861b1bed10b6c283416f9581bae.webp)
 
 Then, once the policy setting is configured to Enabled (meaning that the Pop-Up is now possible to
 be shown), after that, your options are:
@@ -155,17 +155,17 @@ The event IDs to expect on end-point systems and specific examples can be seen h
 
 Event 230: Licenses found on the machine are all valid.
 
-![1250_4_fbcfc42bce254fe8c965ed49c6fcac3d](/img/product_docs/endpointpolicymanager/troubleshooting/license/1250_4_fbcfc42bce254fe8c965ed49c6fcac3d.webp)
+![1250_4_fbcfc42bce254fe8c965ed49c6fcac3d](/images/endpointpolicymanager/troubleshooting/license/1250_4_fbcfc42bce254fe8c965ed49c6fcac3d.webp)
 
 Event 231: Licenses found on the machine are not all valid.
 
-![1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4](/img/product_docs/endpointpolicymanager/troubleshooting/license/1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4.webp)
+![1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4](/images/endpointpolicymanager/troubleshooting/license/1250_5_c27ed7d3265c2c5dcd31d75b1bb214e4.webp)
 
 Event 232: There is No PolicyPak license found on this machine
 
-![1250_6_4ac0430c173949359e8fe2fa8fff569d](/img/product_docs/endpointpolicymanager/troubleshooting/license/1250_6_4ac0430c173949359e8fe2fa8fff569d.webp)
+![1250_6_4ac0430c173949359e8fe2fa8fff569d](/images/endpointpolicymanager/troubleshooting/license/1250_6_4ac0430c173949359e8fe2fa8fff569d.webp)
 
 Event 233: License has become unavailable or has become unlicensed (only available in in modern CSE
 versions equal or later to 24.4)
 
-![1250_7_e85476dc329c7942430a995eb0548beb](/img/product_docs/endpointpolicymanager/troubleshooting/license/1250_7_e85476dc329c7942430a995eb0548beb.webp)
+![1250_7_e85476dc329c7942430a995eb0548beb](/images/endpointpolicymanager/troubleshooting/license/1250_7_e85476dc329c7942430a995eb0548beb.webp)

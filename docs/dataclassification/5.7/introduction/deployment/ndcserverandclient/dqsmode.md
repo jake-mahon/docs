@@ -58,7 +58,7 @@ To arrange NDC Servers cluster and apply DQS mode
 
 5. On the DQS tab, click Add to add servers you prepared, one by one.
 
-    ![dqs_mode_page_thumb_0_0](/img/product_docs/dataclassification/5.7/requirements/dqs_mode_page_thumb_0_0.webp)
+    ![dqs_mode_page_thumb_0_0](/images/dataclassification/5.7/requirements/dqs_mode_page_thumb_0_0.webp)
 
     Complete the following fields:
 
@@ -90,7 +90,7 @@ Ignore the confirmation dialog on the existing schema in the selected SQL databa
 11. Repeat steps 2 - 6 for every NDC Server, then review the list of servers to make sure the new
     server was included.
 
-![dqs_servers_list_thumb_0_0](/img/product_docs/dataclassification/5.7/requirements/dqs_servers_list_thumb_0_0.webp)
+![dqs_servers_list_thumb_0_0](/images/dataclassification/5.7/requirements/dqs_servers_list_thumb_0_0.webp)
 
 12. If you were configuring the DQS mode for the existing NDC deployment, you will be prompted to
     re-collect data from the data sources —in order to re-distribute the content index across all

@@ -20,7 +20,7 @@ It is named (old version) `PPBRAGENTIExIE_01.DLL` or `PPBRExplorerExtension.dll`
 But if Interenet Explorer is running WHILE the installation of theEndpoint Policy Manager CSE
 occurs, you might get this message the next time you launch Internet Explorer.
 
-![524_1_unnamed-1](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/install/524_1_unnamed-1.webp)
+![524_1_unnamed-1](/images/endpointpolicymanager/troubleshooting/browserrouter/install/524_1_unnamed-1.webp)
 
 Even if users select DON'T ENABLE, theEndpoint Policy Manager CSE will fix it at the next login.
 

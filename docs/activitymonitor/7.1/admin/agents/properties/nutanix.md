@@ -8,7 +8,7 @@ sidebar_position: 150
 
 The Nutanix tab provides features to configure settings for monitoring Nutanix devices.
 
-![Agent Properties - Nutanix](/img/product_docs/activitymonitor/7.1/admin/agents/properties/nutanix.webp)
+![Agent Properties - Nutanix](/images/activitymonitor/7.1/admin/agents/properties/nutanix.webp)
 
 The available Agent server settings for Nutanix are:
 

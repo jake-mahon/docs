@@ -15,7 +15,7 @@ results using the column headers. Below the Search button is the
 [Export](/docs/activitymonitor/7.1/admin/search/overview.md#export)
 option.
 
-![Active Directory Search Results](/img/product_docs/activitymonitor/7.1/admin/search/results/activedirectorysearchresults.webp)
+![Active Directory Search Results](/images/activitymonitor/7.1/admin/search/results/activedirectorysearchresults.webp)
 
 The results data grid columns display the following information for each event:
 

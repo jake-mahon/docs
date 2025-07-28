@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/configuration/analysistask.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/configuration/analysistask.webp)
 
 The default analysis tasks are:
 
@@ -32,4 +32,3 @@ following preconfigured report:
 | Report          | Description                                                | Default Tags | Report Elements                                                                                                                                                                                                                                                   |
 | --------------- | ---------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Database Sizing | This report provides details on database files and sizing. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on the top five databases by size (MB)</li><li>Bar Chart – Provides information on database sizes by host (GB)</li><li>Table – Provides details on database sizing</li></ul> |
-

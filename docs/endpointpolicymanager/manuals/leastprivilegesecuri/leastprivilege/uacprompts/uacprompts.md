@@ -29,7 +29,7 @@ quickly going to encounter a UAC prompt, as seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
+generated](/images/endpointpolicymanager/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
 
 :::note
 We used COM / CSLID rules earlier to overcome this concern, but this section and solution
@@ -43,7 +43,7 @@ here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
+generated](/images/endpointpolicymanager/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
 
 Finally, if Standard Users try to manage their own Apps and Features by uninstalling an application
 that they no longer need, they will also be prevented by a UAC prompt, seen here.
@@ -51,6 +51,6 @@ that they no longer need, they will also be prevented by a UAC prompt, seen here
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/helper/overcoming_common_uac_prompts_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/tool/helper/overcoming_common_uac_prompts_1.webp)
 
 After setting up Endpoint Policy Manager’s Helper Tools, you can overcome all three of these issues.

@@ -11,7 +11,7 @@ current version to the latest one.
 
 This page will guide you through a migration to a more recent version with no major changes.
 
-For example from 6.0.215 to 6.0.216.  
+For example from 6.0.215 to 6.0.216.
 For a migration between versions with major changes, check this guide's subsections.
 
 For example see the
@@ -29,7 +29,7 @@ In order to upgrade only the sever do the following:
 
 **Step 3 –** Rename the `Runtime` folder to create a backup, for example `RuntimeOld`.
 
-![Extranet Artifacts](/img/product_docs/identitymanager/6.1/migration-guide/extranet_v601.webp)
+![Extranet Artifacts](/images/identitymanager/6.1/migration-guide/extranet_v601.webp)
 
 **Step 4 –** Extract the content of the new runtime to the same folder as `RuntimeOld`, inside a new
 `Runtime` folder.

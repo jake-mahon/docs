@@ -22,7 +22,7 @@ Schedules can be applied:
 - Verification — Check that the passwords for managed accounts match the credentials set by
   Privilege Secure
 
-![Schedule Policies Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/page_3.webp)
+![Schedule Policies Page](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/page_3.webp)
 
 The pane on the left side of the page displays a list of the configured schedule policies. This pane
 has the following features:

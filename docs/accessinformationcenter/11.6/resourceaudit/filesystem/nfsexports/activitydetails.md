@@ -12,7 +12,7 @@ The **Include subfolders** option is active by default until removed. See the
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Activity Details report at the NFS Exports share and subfolder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/nfsexports/nfsactivitydetails.webp)
+![Activity Details report at the NFS Exports share and subfolder levels](/images/accessinformationcenter/11.6/resourceaudit/filesystem/nfsexports/nfsactivitydetails.webp)
 
 This report is comprised of the following columns:
 

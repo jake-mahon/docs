@@ -26,7 +26,7 @@ Please note that the syntax `%url%` is case sensitive.
 :::
 
 
-![881_1_image-20221228073914-1](/img/product_docs/endpointpolicymanager/browserrouter/editpolicytemplate/881_1_image-20221228073914-1.webp)
+![881_1_image-20221228073914-1](/images/endpointpolicymanager/browserrouter/editpolicytemplate/881_1_image-20221228073914-1.webp)
 
 :::note
 Please note that Chromium often removes a flag's support or replaces it with ADMX

@@ -22,7 +22,7 @@ to recognize it and convert it to a .lic file.
 
 **…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager**
 
-![Import License](/img/product_docs/threatprevention/7.4/install/importlicense.webp)
+![Import License](/images/threatprevention/7.4/install/importlicense.webp)
 
 **Step 3 –** The SIEnterpriseManager service automatically recognizes and imports the file.
 

@@ -20,7 +20,7 @@ the job group.
 :::
 
 
-![Job Group Reporting Settings page](/img/product_docs/accessanalyzer/11.6/admin/jobs/group/reporting.webp)
+![Job Group Reporting Settings page](/images/accessanalyzer/11.6/admin/jobs/group/reporting.webp)
 
 Checking the **Set all the child objects to inherit these settings** option at the bottom of the
 page forces inheritance of these settings to all sub-groups and jobs within the job group. When

@@ -11,7 +11,7 @@ import { generateDocusaurusPlugins, generateNavbarDropdowns } from './src/config
 const config = {
   title: 'Netwrix Product Documentation',
   tagline: 'Documentation for Netwrix Products',
-  favicon: 'img/branding/favicon.ico',
+  favicon: 'branding/favicon.ico',
 
   // Set the production url of your site here
   // Use environment variable for dynamic URL configuration
@@ -33,19 +33,8 @@ const config = {
 
   // Performance optimizations with Docusaurus Faster
   future: {
-    experimental_faster: {
-      swcJsLoader: true,
-      swcJsMinimizer: true,
-      swcHtmlMinimizer: true,
-      lightningCssMinimizer: true,
-      rspackBundler: true,
-      rspackPersistentCache: true, // 2-5x faster rebuilds
-      mdxCrossCompilerCache: true,
-      ssgWorkerThreads: true,
-    },
-    v4: {
-      removeLegacyPostBuildHeadAttribute: true,
-    },
+    v4: true,
+    experimental_faster: true,
   },
 
   // Even if you don't use internationalization, you can use this field to set
@@ -194,8 +183,8 @@ const config = {
       navbar: {
         logo: {
           alt: 'Netwrix Logo',
-          src: 'img/branding/logo-red.svg',
-          srcDark: 'img/branding/logo-white.svg',
+          src: 'branding/logo-red.svg',
+          srcDark: 'branding/logo-white.svg',
           href: '/',
         },
         items: [

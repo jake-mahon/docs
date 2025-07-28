@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Baseline Tab
 
-![baselinetab](/img/product_docs/changetracker/8.0/baseline/baselinetab.webp)
+![baselinetab](/images/changetracker/8.0/baseline/baselinetab.webp)
 
 Actions button:
 
@@ -14,7 +14,7 @@ To create a new Baseline Policy, use the Actions button in the top-right hand co
 Baselines Tab. This will prompt for a name to be assigned to the new Baseline Policy and the
 Baseline Wizard process will kick in.
 
-![baselineactionsbutton](/img/product_docs/changetracker/8.0/baseline/baselineactionsbutton.webp)
+![baselineactionsbutton](/images/changetracker/8.0/baseline/baselineactionsbutton.webp)
 
 Baseline Wizard Progress Bar:
 

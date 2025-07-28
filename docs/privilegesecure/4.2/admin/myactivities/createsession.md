@@ -10,7 +10,7 @@ Follow the steps to create an activity session.
 
 **Step 1 –** Select an **Activity** to expand the session ribbon.
 
-![myactivityuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+![myactivityuser](/images/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
 
 **Step 2 –** Click **Create Session** to start a new activity session.
 
@@ -20,11 +20,11 @@ Follow the steps to create an activity session.
 - If the Activity is assigned to more than one resource, the Activity card will display the number
   of resources; selecting **Create Session** from the session ribbon will open the Configure Session
   window.
-:::warning 
+:::warning
 If your license is expired and you can still log in, you will not be able to create activity sessions.
 :::
 
-![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
+![configuresessionuser](/images/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -37,7 +37,7 @@ If your license is expired and you can still log in, you will not be able to cre
   resource list.
 - Click **Start Session** to start the provisioning process.
 
-![startsessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
+![startsessionuser](/images/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
 
 :::note
 If an approval is required, the Waiting for approval message will display until it has
@@ -45,7 +45,7 @@ been granted.
 :::
 
 
-![stopsession](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
+![stopsession](/images/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
 
 **Step 4 –** When provisioned, an activity session will display an Available status with a green
 icon. Click **Available** to launch the session.

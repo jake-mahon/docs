@@ -10,7 +10,7 @@ On the Active Sessions dashboard, when the status Available is shown, the activi
 To begin the activity session, click the Connection icon in the Status column for the applicable
 session to be automatically connected to the resource.
 
-![Connecto to remote session](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard/remotesessionlaunch.webp)
+![Connecto to remote session](/images/privilegesecure/4.1/accessmanagement/enduser/dashboard/remotesessionlaunch.webp)
 
 Also note the icons to view and copy the password for the session as plain text, if the option is
 enabled in the access policy Connection Profiles.
@@ -44,10 +44,10 @@ profile that allow a session to be extended by the user, in increments.
 If Session Extension is enabled, the session extension option appears for users when the remaining
 time is 5 minutes or less.
 
-![Extend Activity Session](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard/extendsession.webp)
+![Extend Activity Session](/images/privilegesecure/4.1/accessmanagement/enduser/dashboard/extendsession.webp)
 
 For RDP, a pop-up message is displayed in the session window.
 
-![extendsessionssh](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard/extendsessionssh.webp)
+![extendsessionssh](/images/privilegesecure/4.1/accessmanagement/enduser/dashboard/extendsessionssh.webp)
 
 For SSH the user can extend by typing **Ctrl+X** when prompted.

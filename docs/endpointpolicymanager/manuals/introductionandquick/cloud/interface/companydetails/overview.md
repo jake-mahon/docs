@@ -13,7 +13,7 @@ For an overview of the major Endpoint Policy Manager Cloud security features (2F
 notifications, IP block restrictions, etc.) check out this video:
 [Endpoint Policy Manager Cloud: Security Features](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/security/features.md).
 
-![web_interface_and_controls_70_624x296](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_70_624x296.webp)
+![web_interface_and_controls_70_624x296](/images/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_70_624x296.webp)
 
 In the sections that follow,we cover the following items:
 
@@ -43,7 +43,7 @@ The **Company Details** section under the **Company Details** tab allows you to 
 display name and time zone, which is used for reporting on log files. However, the most important
 setting in this section is the **Computer registration mode**, which has four options.
 
-![web_interface_and_controls_71_624x518](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.webp)
+![web_interface_and_controls_71_624x518](/images/endpointpolicymanager/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.webp)
 
 This setting directs Endpoint Policy Manager Cloud on how to act when an endpoint computer is
 already joined to Endpoint Policy Manager Cloud and attempts to re-register or claim another

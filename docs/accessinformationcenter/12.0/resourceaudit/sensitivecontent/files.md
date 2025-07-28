@@ -16,7 +16,7 @@ additional tables:
 - Permissions – Displays information on the trustees with effective access to the parent object or
   folder that contains the selected sensitive data file
 
-![Files report for sensitive content](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/files.webp)
+![Files report for sensitive content](/images/accessinformationcenter/12.0/resourceaudit/navigate/files.webp)
 
 This report is comprised of the following columns:
 
@@ -48,7 +48,7 @@ selected date. It will be blank if any of the following are true:
 - The activity collection job within Access Analyzer for the environment have not been run
 - There were no operation events logged on the selected file for the selected date range
 
-![Activity table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sensitivecontent/activitytable.webp)
+![Activity table](/images/accessinformationcenter/12.0/resourceaudit/sensitivecontent/activitytable.webp)
 
 This table is comprised of the following columns:
 
@@ -79,7 +79,7 @@ This table is comprised of the following columns:
 The Permissions table displays information on the trustees with effective access to the parent
 object or folder housing the selected sensitive data file.
 
-![Permissions table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sensitivecontent/permissionstable.webp)
+![Permissions table](/images/accessinformationcenter/12.0/resourceaudit/sensitivecontent/permissionstable.webp)
 
 This table is comprised of the following columns:
 

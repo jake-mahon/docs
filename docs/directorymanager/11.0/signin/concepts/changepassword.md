@@ -19,7 +19,7 @@ Follow the steps to change your password.
 
 Step 1 – In Admin Center, click your name in the top right corner and select **Change Password**.
 
-Step 2 – On the Change Password page, enter your current password in the **Current Password** box.  
+Step 2 – On the Change Password page, enter your current password in the **Current Password** box.
 By default, password characters are represented by dots. Use the toggle button in the box to show or
 hide characters.
 
@@ -30,7 +30,7 @@ Step 4 – Click **Change Password**.
 NOTE: Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords
 in GroupID. The following message is displayed:.
 
-![Admin Center Change Password error message for an Entra ID user](/img/product_docs/directorymanager/11.0/admincenter/general/admincenterchangepassword.webp)
+![Admin Center Change Password error message for an Entra ID user](/images/directorymanager/11.0/admincenter/general/admincenterchangepassword.webp)
 
 If the user's account is a master account, password of its child accounts also cannot be changed in
 GroupID.

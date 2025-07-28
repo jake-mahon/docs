@@ -17,7 +17,7 @@ When the PP ILT engine is used, new logging occurs should you need extra trouble
 An example of this can be seen here, when ILT is used with Endpoint Policy Manager Admin Templates
 Manager on the USER side:
 
-![880_1_image-20220204232914-1_950x158](/img/product_docs/endpointpolicymanager/troubleshooting/itemleveltargeting/880_1_image-20220204232914-1_950x158.webp)
+![880_1_image-20220204232914-1_950x158](/images/endpointpolicymanager/troubleshooting/itemleveltargeting/880_1_image-20220204232914-1_950x158.webp)
 
 ## How the Endpoint Policy Manager ILT Engine Works / Error Handling
 
@@ -51,7 +51,7 @@ ADMX Computer Configuration | Policies | Administrative Templates | PolicyPak AD
 Client-Side Extensions | Use Item Level Targeting filters evaluation engine (Preferences vs.
 Endpoint Policy Manager ).
 
-![880_2_image-20220204232914-2_950x529](/img/product_docs/endpointpolicymanager/troubleshooting/itemleveltargeting/880_2_image-20220204232914-2_950x529.webp)
+![880_2_image-20220204232914-2_950x529](/images/endpointpolicymanager/troubleshooting/itemleveltargeting/880_2_image-20220204232914-2_950x529.webp)
 
 Additionally, when the PP ILT engine is enabled the registry key below will be present and set to
 "1" for Enabled.
@@ -69,4 +69,4 @@ later.
 
 Disabled Value 0
 
-![880_3_image-20220204232914-3](/img/product_docs/endpointpolicymanager/troubleshooting/itemleveltargeting/880_3_image-20220204232914-3.webp)
+![880_3_image-20220204232914-3](/images/endpointpolicymanager/troubleshooting/itemleveltargeting/880_3_image-20220204232914-3.webp)

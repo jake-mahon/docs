@@ -13,7 +13,7 @@ The 1-SEEK System Scans job is designed to collect sensitive data from the targe
 The File System Scan query uses the FSAA Data Collector and has been preconfigured to use the
 Sensitive data Scan category.
 
-![Query for the 1-SEEK System Scans Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/seeksystemscansquery.webp)
+![Query for the 1-SEEK System Scans Job](/images/accessanalyzer/11.6/solutions/filesystem/collection/seeksystemscansquery.webp)
 
 - File System Scan – Scans the File System
 
@@ -74,14 +74,14 @@ purpose of this job.
 :::
 
 
-![Applet Settings](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekappletsettings.webp)
+![Applet Settings](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekappletsettings.webp)
 
 **Step 4 –** The Applet Settings page applies to the applet and proxy mode scans which are selected
 on the Scan Server Level page. If employing proxy servers, see the
 [FSAA: Applet Settings](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettings.md)
 topic for configuration instructions.
 
-![Scan Server Selection](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekserverselection.webp)
+![Scan Server Selection](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekserverselection.webp)
 
 **Step 5 –** The Scan Server Selection page applies to the applet and proxy mode scans. Remember,
 each mode has different provisioning requirements. In addition to changing the type of scan mode,
@@ -89,7 +89,7 @@ you can modify the scan restart settings. See the
 [FSAA: Scan Server Selection](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/scanserverselection.md) topic
 for additional information.
 
-![Scan Settings](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekscansettings.webp)
+![Scan Settings](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekscansettings.webp)
 
 **Step 6 –** On the Scan Settings page, you can enable streaming. See the
 [FSAA: Scan Settings](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/scansettings.md) topic
@@ -101,13 +101,13 @@ If streaming is enabled, the **2-SEEK Bulk Import** job is no longer needed as p
 :::
 
 
-![Azure Tenant Mapping](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekazuretenantmapping.webp)
+![Azure Tenant Mapping](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekazuretenantmapping.webp)
 
 **Step 7 –** On the Azure Tenant Mapping page, enable Azure Information Protection (AIP). See the
 [FSAA: Azure Tenant Mapping](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/azuretenantmapping.md)
 topic for additional information.
 
-![Default Scoping Options](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/seekdefaultscopingoptions.webp)
+![Default Scoping Options](/images/accessanalyzer/11.6/solutions/filesystem/collection/seekdefaultscopingoptions.webp)
 
 **Step 8 –** On the Default Scoping Options page, configure the following on the Scan Setting tab:
 
@@ -157,13 +157,13 @@ See the
 [Scan Settings Tab](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
 topic for additional information.
 
-![Scoping Options](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekscopingoptions.webp)
+![Scoping Options](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekscopingoptions.webp)
 
 **Step 9 –** On the Scoping Options page, add share/folder inclusions and exclusions. See the
 [FSAA: Scoping Options](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/scopingoptions.md) topic
 for additional information:
 
-![Scoping Queries](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekscopingqueries.webp)
+![Scoping Queries](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsaaseekscopingqueries.webp)
 
 **Step 10 –** On the Scoping Queries page:
 
@@ -180,7 +180,7 @@ See the
 [FSAA: Scoping Queries](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/scopingqueries.md)
 topic for additional information.
 
-![Sensitive Data Settings](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/seeksystemscanssensitivedatasettings.webp)
+![Sensitive Data Settings](/images/accessanalyzer/11.6/solutions/filesystem/collection/seeksystemscanssensitivedatasettings.webp)
 
 **Step 11 –** On the Sensitive Data Settings page:
 
@@ -210,7 +210,7 @@ See the
 [FSAA: Sensitive Data Settings](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/sensitivedatasettings.md)
 topic for additional information.
 
-![SDD Criteria Settings](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/seeksddcriteriasettings.webp)
+![SDD Criteria Settings](/images/accessanalyzer/11.6/solutions/filesystem/collection/seeksddcriteriasettings.webp)
 
 **Step 12 –** On the SDD Criteria Settings page, add or remove criteria as desired. See the
 [FSAA: SDD Criteria Settings](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/sddcriteria.md) topic

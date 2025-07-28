@@ -8,7 +8,7 @@ sidebar_position: 30
 
 Follow the steps to open the Policy Properties page.
 
-![managing_policies_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_1.webp)
+![managing_policies_1](/images/passwordpolicyenforcer/10.2/administration/managing_policies_1.webp)
 
 **Step 1 –** Click the **Policies** item to display the Policies view.
 

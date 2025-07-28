@@ -31,7 +31,7 @@ for additional information on which port is used. 6500 is the default port.
 
 Other settings in the Global Netwrix Privilege Secure pane are optional and self explanatory.
 
-![getting_started_netwrix_privilege](/img/product_docs/endpointpolicymanager/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege.webp)
+![getting_started_netwrix_privilege](/images/endpointpolicymanager/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege.webp)
 
 Next, you’ll create a Endpoint Policy Manager rule like you did earlier to perform an operation.
 
@@ -47,4 +47,4 @@ On the **Least Privilege Manager – Configure Netwrix Privilege Secure Access P
 check the checkbox and configure the setting for **Resource Based Policy** or **Credential Based
 Policy**.
 
-![getting_started_netwrix_privilege_1](/img/product_docs/endpointpolicymanager/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege_1.webp)
+![getting_started_netwrix_privilege_1](/images/endpointpolicymanager/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege_1.webp)

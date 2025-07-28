@@ -14,7 +14,7 @@ Netwrix Password Secure license server. Furthermore, it is used for the administ
 defined settings, as well as the configuration of profiles for sending emails.
 [Installation Server Manager](/docs/passwordsecure/9.2/installation/installation_server_manager.md)
 
-![Admin Client](/img/product_docs/passwordsecure/9.2/configuration/server_manager/installation_with_parameters_187-en.webp)
+![Admin Client](/images/passwordsecure/9.2/configuration/server_manager/installation_with_parameters_187-en.webp)
 
 In this sense, the server service represents the interface between the client and the SQL server.
 The Server Manager is responsible for configuring the server service. It allows the central

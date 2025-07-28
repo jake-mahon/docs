@@ -22,7 +22,7 @@ Here too, there are a total of three possibilities with which a user can define 
 configured from another location. For the sake of easy manageability, it is again a good idea to
 configure the users not individually, but to provide several equal users with settings.
 
-![installation_with_parameters_116](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_116.webp)
+![installation_with_parameters_116](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_116.webp)
 
 The focus is always on the user, also when it comes to user rights. It can obtain its settings in
 one of the following three ways:
@@ -40,7 +40,7 @@ are not assigned via roles, but via organisational units!
 :::
 
 
-![installation_with_parameters_112](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
+![installation_with_parameters_112](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
 
 ### Inheritance of user settings
 
@@ -56,14 +56,14 @@ The organisational units are inherited via the
 All users who are assigned to an organisational unit inherit all user settings for this OU. In the
 present case, the users “Jones” and “Moore” inherit all settings from the “IT” organisational unit:
 
-![inherit permissions](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_117-en.webp)
+![inherit permissions](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_117-en.webp)
 
 The “Settings” button in the ribbon allows you to see the settings for both organisational units and
 users. The many setting options can be restricted by the known
 [Search](/docs/passwordsecure/9.1/configuration/advancedview/operationandsetup/search.md)
 mechanisms.
 
-![installation_with_parameters_118](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_118.webp)
+![installation_with_parameters_118](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_118.webp)
 
 The diagram shows the settings for the user “Jones”. The search has been filtered by the term
 “Detail”. The column **“Inherited from”** shows that some settings have been inherited globally, or
@@ -78,7 +78,7 @@ Option groups were created in the global settings to ensure that users can contr
 settings for which they hold permissions. Categorising security levels from 1 to 5 allows you to
 combine similar options and thus make them available to the users.
 
-![user settings](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_119-en.webp)
+![user settings](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_119-en.webp)
 
 The
 [User rights](/docs/passwordsecure/9.1/configuration/advancedview/mainmenufc/userrights/user_rights.md)

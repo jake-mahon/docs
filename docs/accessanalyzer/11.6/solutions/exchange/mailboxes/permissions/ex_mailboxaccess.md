@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_Mailbox Access Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/mailboxaccessanalysis.webp)
+![Analysis Tasks for the EX_Mailbox Access Job](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/mailboxaccessanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -75,4 +75,3 @@ the following pre-configured reports:
 | Incorrect Default And Anon Permissions            | This report identifies where Default or Anonymous have any role assignment other than **None** or **Free/Busy time**.                          | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users with incorrect default/anon permissions</li><li>Table – Provides details on top users with incorrect default/anon permissions</li><li>Table – Provides role details</li></ul> |
 | Missing Anonymous Permissions                     | This report identifies folders where Anonymous permissions are not assigned.                                                                   | None         | This report is comprised of one element: <ul><li>Table – Provides details on missing anonymous permissions</li></ul>                                                                                                                                             |
 | Send As (Send-As Rights)                          | This report identifies which users have the highest number of users with Send-As rights to their mailbox.                                      | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays top users by send as rights granted</li><li>Table – Provides details on top users by send as right granted</li><li>Table – Provides additional details</li></ul>                |
-

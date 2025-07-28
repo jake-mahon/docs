@@ -17,7 +17,7 @@ cmd /c "mkdir C:\TEST & copy c:\Windows\notepad.exe C:\TEST"
 ![A screenshot of a computer error
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/securerun_and_inline_commands.webp)
+generated](/images/endpointpolicymanager/leastprivilege/securerun/securerun_and_inline_commands.webp)
 
 Normally, users don’t do this. But it could be valid during an application installation or program
 setup. You can see an example of this used in the Microsoft

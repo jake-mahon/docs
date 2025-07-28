@@ -13,7 +13,7 @@ The complexity of passwords is generally determined by their randomness. In orde
 indispensable. The password generator performs this function and is completely integrated into the
 software.
 
-![installation_with_parameters_82](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_82.webp)
+![installation_with_parameters_82](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_82.webp)
 
 ## Opening the password generator
 
@@ -22,7 +22,7 @@ The password generator can be opened in different ways:
 - **Main menu/Extras/Password generator:** Here, the password generator is accessed directly.
   Passwords generated in the password generator can be copied to the clipboard.
 
-![Password generator](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_83-en.webp)
+![Password generator](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_83-en.webp)
 
 - **When creating new records:** Once the password field has been selected in the reading pane, the
   password generator can then be directly opened in the “Form field” tab via the ribbon. Passwords
@@ -48,7 +48,7 @@ syllables
 and the total length are defined in this case. Options that can be set are how the syllables are
 separated and whether to use LeetSpeak.
 
-![installation_with_parameters_84](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_84.webp)
+![installation_with_parameters_84](/images/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_84.webp)
 
 **Password rule**
 

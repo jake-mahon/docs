@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The configuration wizard opens in the default web browser:
 
-![configwizard](/img/product_docs/auditor/10.6/addon/nasuni/configwizard.webp)
+![configwizard](/images/auditor/10.6/addon/nasuni/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

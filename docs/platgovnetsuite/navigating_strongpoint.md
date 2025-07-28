@@ -21,7 +21,7 @@ If you do not see the **Strongpoint** tab, contact your Administrator regarding
 
 The Strongpoint tab menu provides navigation to all the key tools:
 
-![strongpoint_menu](/img/product_docs/platgovnetsuite/strongpoint_menu.webp)
+![strongpoint_menu](/images/platgovnetsuite/strongpoint_menu.webp)
 
 Strongpoint Menu tab includes:
 
@@ -51,4 +51,4 @@ Strongpoint Menu tab includes:
 Click **Strongpoint** > **Strongpoint Overview** to open the dashboard, providing an at-a-glance
 overview of your reminders, automated documentation summary and easy access to all the features.
 
-![Strongpoint Overview Dashboard](/img/product_docs/platgovnetsuite/dashboard_overview.webp)
+![Strongpoint Overview Dashboard](/images/platgovnetsuite/dashboard_overview.webp)

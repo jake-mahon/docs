@@ -14,7 +14,7 @@ Here are the steps to create a pre-approved change request for a control:
 
 1. Open **Strongpoint** > **Financial Controls** > **New Agent Control Approval**
 
-    ![agent_pre_app_not_started](/img/product_docs/platgovnetsuite/financial_controls/agent_pre_app_not_started.webp)
+    ![agent_pre_app_not_started](/images/platgovnetsuite/financial_controls/agent_pre_app_not_started.webp)
 
 2. Enter the **Name** and **Overview** for the Control.
 3. Set a combination of two or more filters. Using one filter can create a blanket approval or too
@@ -33,7 +33,7 @@ Here are the steps to create a pre-approved change request for a control:
    **Approver Notes**. Click **Save**.
 
     if you make
-    changes.![agent_pre_app_approval_section](/img/product_docs/platgovnetsuite/financial_controls/agent_pre_app_approval_section.webp)
+    changes.![agent_pre_app_approval_section](/images/platgovnetsuite/financial_controls/agent_pre_app_approval_section.webp)
 
     Related Change Record information is added when you save. The results are shown on the **Related
     Change Records** tab.
@@ -55,11 +55,11 @@ Here are the steps to create a pre-approved change request for a control:
 
 ### Status Bar States
 
-![change_request_bar_not_started](/img/product_docs/platgovnetsuite/change_management/change_request_bar_not_started.webp)
+![change_request_bar_not_started](/images/platgovnetsuite/change_management/change_request_bar_not_started.webp)
 
 New Change Request. Click **In Progress** to advance the status.
 
-![change_request_bar_inprogress](/img/product_docs/platgovnetsuite/change_management/change_request_bar_inprogress.webp)
+![change_request_bar_inprogress](/images/platgovnetsuite/change_management/change_request_bar_inprogress.webp)
 
 Change Request **In Progress**.
 
@@ -69,7 +69,7 @@ Approval section is added when the Change Request is saved.
 
 When ready for approval, click **Pending Approval**.
 
-![change_request_bar_pending](/img/product_docs/platgovnetsuite/change_management/change_request_bar_pending.webp)
+![change_request_bar_pending](/images/platgovnetsuite/change_management/change_request_bar_pending.webp)
 
 Approvers are notified.
 
@@ -77,35 +77,35 @@ Status can be demoted.
 
 Status promoted based on Approvers actions.
 
-![change_request_bar_approved](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved.webp)
+![change_request_bar_approved](/images/platgovnetsuite/change_management/change_request_bar_approved.webp)
 
 Status when all approvers have approved.
 
 Can be returned to a previous status or rejected.
 
-![change_request_bar_approved_partial](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_partial.webp)
+![change_request_bar_approved_partial](/images/platgovnetsuite/change_management/change_request_bar_approved_partial.webp)
 
 Status when Change Request is partially approved. Wait for all approvers to finish.
 
-![change_request_bar_approved_override](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
+![change_request_bar_approved_override](/images/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
 
 Status when an administrator has approved in place of a specified approver.
 
 **Approval Override by** field displays the approver.
 
-![change_request_bar_approved_completed](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_completed.webp)
+![change_request_bar_approved_completed](/images/platgovnetsuite/change_management/change_request_bar_approved_completed.webp)
 
 Approved and Completed.
 
 Can be returned to a previous status.
 
-![change_request_bar_approved_canceled](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_canceled.webp)
+![change_request_bar_approved_canceled](/images/platgovnetsuite/change_management/change_request_bar_approved_canceled.webp)
 
 Approved and Canceled.
 
 Can be returned to a previous status.
 
-![change_request_bar_rejected](/img/product_docs/platgovnetsuite/change_management/change_request_bar_rejected.webp)
+![change_request_bar_rejected](/images/platgovnetsuite/change_management/change_request_bar_rejected.webp)
 
 Rejected and Completed.
 

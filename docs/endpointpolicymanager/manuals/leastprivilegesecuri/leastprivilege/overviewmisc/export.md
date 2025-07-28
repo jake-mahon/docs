@@ -25,7 +25,7 @@ videos,
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/exporting_policies_and_collections.webp)
+generated](/images/endpointpolicymanager/leastprivilege/exporting_policies_and_collections.webp)
 
 :::note
 Exported collections or policies maintain any Item-Level Targeting set within them.

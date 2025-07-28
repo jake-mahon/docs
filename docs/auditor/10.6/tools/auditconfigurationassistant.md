@@ -93,7 +93,7 @@ At this step, do the following:
 
 1. Specify the monitoring scope —select what you plan to monitor with Netwrix Auditor. You can
    select both **Active Directory** and **Logon Activity**, or any of them.
-   ![audit_cfg_assist_creds](/img/product_docs/auditor/10.6/tools/audit_cfg_assist_creds.webp)
+   ![audit_cfg_assist_creds](/images/auditor/10.6/tools/audit_cfg_assist_creds.webp)
 2. If you launched **Audit Configuration Assistant** from the **Start** menu (not from the
    monitoring plan settings), enter the name of Active Directory domain you want to assess.
 3. Enter credentials that will be used to access the audit setting of that domain. This account must
@@ -111,7 +111,7 @@ At this step, you will be presented the results of the environment readiness ass
 - the list of current and required settings for each entity
 - the list of issues (if any) that occurred during the assessment
 
-![assessment_results](/img/product_docs/auditor/10.6/tools/assessment_results.webp)
+![assessment_results](/images/auditor/10.6/tools/assessment_results.webp)
 
 1. Examine the report.
 2. If some issues occurred due to the lack of access rights during the assessment, you can click

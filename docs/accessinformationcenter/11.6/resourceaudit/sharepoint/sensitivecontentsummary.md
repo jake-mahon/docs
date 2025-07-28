@@ -10,7 +10,7 @@ The Sensitive Content Summary report at the **SharePoint** node provides a count
 criteria matches were found in the targeted SharePoint on-premise farms and SharePoint Online
 instances. This report includes a Details table.
 
-![Sensitive Content Summary report at the SharePoint node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sensitivecontent.webp)
+![Sensitive Content Summary report at the SharePoint node](/images/accessinformationcenter/11.6/resourceaudit/sharepoint/sensitivecontent.webp)
 
 This report is comprised of the following columns:
 

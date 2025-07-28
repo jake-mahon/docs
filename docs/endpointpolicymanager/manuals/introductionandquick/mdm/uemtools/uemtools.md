@@ -28,7 +28,7 @@ etc. Figure 30 shows a systems flow when using Endpoint Policy Manager with any 
 management utility, like Microsoft Endpoint Configuration Manager (MEMCM) (formerly known as SCCM),
 KACE, etc.
 
-![using_policypak_with_mdm_and](/img/product_docs/endpointpolicymanager/mdm/using_endpointpolicymanager_with_mdm_and.webp)
+![using_policypak_with_mdm_and](/images/endpointpolicymanager/mdm/using_endpointpolicymanager_with_mdm_and.webp)
 
 Figure 30. The correlation between applications and systems when using Endpoint Policy Manager with
 any systems management utility.

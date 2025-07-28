@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_UserShareActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/usershareactivityanalysis.webp)
+![Analysis Tasks for the FS_UserShareActivity Job](/images/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/usershareactivityanalysis.webp)
 
 - Track Latest Activity Per User Per Share – Creates the SA_FS_UserShareActivity_LatestActivity
   table accessible under the job’s Results node
@@ -36,4 +36,3 @@ produces the following pre-configured reports:
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | First Time Share Activity by User | This report shows the last date that a user accessed a share, ordered by the oldest activity. This lack of access may indicate unused permissions. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays shares with new users accessing data</li><li>past 7 days</li><li>Table – Provides details on first time share access</li></ul> |
 | Longest Inactivity                | This report shows which users have returned to a share after the longest periods of inactivity.                                                    | None         | This report is comprised of one element: <ul><li>Table – Provides details on user share activity</li></ul>                                                                                            |
-

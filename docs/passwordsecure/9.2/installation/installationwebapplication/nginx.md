@@ -24,7 +24,7 @@ path here is /etc/nginx/certs/Web Application.crt.
 Finally, it is necessary to enter where the certificate key is located here. The default setting is
 /etc/nginx/certs/Web Application.key.
 
-![ngnix installation](/img/product_docs/passwordsecure/9.2/installation/installation_web_application/installation-webclient-9-en.webp)
+![ngnix installation](/images/passwordsecure/9.2/installation/installation_web_application/installation-webclient-9-en.webp)
 
 Once all of the settings have been entered, the Web Application can be created via the button in the
 ribbon. The folder in which the ZIP file is located will then immediately open. The archive is
@@ -33,7 +33,7 @@ unzipped and its contents are copied to the document directory on the web server
 The configuration for the nginx server was also created together with the ZIP file. This can be
 directly viewed on the Server Manager.
 
-![ngnix installation](/img/product_docs/passwordsecure/9.2/installation/installation_web_application/installation-webclient-10-en.webp)
+![ngnix installation](/images/passwordsecure/9.2/installation/installation_web_application/installation-webclient-10-en.webp)
 
 The configuration then still needs to be integrated onto the nginx server. It can be directly copied
 on the Server Manager for this purpose.

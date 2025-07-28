@@ -18,7 +18,7 @@ The queries are preconfigured for this job. Never modify the queries.
 :::
 
 
-![Queries for the UX_NFSConfiguration Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/sharing/collection/nfsconfigurationqueries.webp)
+![Queries for the UX_NFSConfiguration Job](/images/accessanalyzer/12.0/solutions/unix/sharing/collection/nfsconfigurationqueries.webp)
 
 The queries for the UX_NFSConfiguration job are:
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_NFSConfiguration Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/sharing/collection/nfsconfigurationanalysis.webp)
+![Analysis Tasks for the UX_NFSConfiguration Job](/images/accessanalyzer/12.0/solutions/unix/sharing/collection/nfsconfigurationanalysis.webp)
 
 The default analysis task is:
 

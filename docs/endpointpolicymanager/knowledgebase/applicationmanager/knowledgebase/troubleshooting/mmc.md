@@ -11,7 +11,7 @@ Problem:
 The Endpoint Policy Manager Application Settings Manager (ASM) node is not visible or working
 properly in Group Policy Management Console (GPMC) and/or Group Policy Editor (GPEDIT).
 
-![1322_1_7fee40aeea669ba543a9c29a3570029a](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/1322_1_7fee40aeea669ba543a9c29a3570029a.webp)
+![1322_1_7fee40aeea669ba543a9c29a3570029a](/images/endpointpolicymanager/troubleshooting/applicationsettings/1322_1_7fee40aeea669ba543a9c29a3570029a.webp)
 
 Cause:
 
@@ -46,4 +46,4 @@ user and confirm that the ASM node remained operational in both GPEDIT and GPMC.
 
 The ASM node should look similar to screen shot below.
 
-![1322_2_d34f038d53ae47ca403950284e354cdd](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/1322_2_d34f038d53ae47ca403950284e354cdd.webp)
+![1322_2_d34f038d53ae47ca403950284e354cdd](/images/endpointpolicymanager/troubleshooting/applicationsettings/1322_2_d34f038d53ae47ca403950284e354cdd.webp)

@@ -42,4 +42,4 @@ indicates the current column and sort order being used for the results.
 -  **Target Environment**: Target environment for the deployment.
 -  **Source Environment**: Source environment for the deployment.
 
-![report_deploy_pend_approval](/img/product_docs/platgovsalesforce/reports/report_deploy_pend_approval.webp)
+![report_deploy_pend_approval](/images/platgovsalesforce/reports/report_deploy_pend_approval.webp)

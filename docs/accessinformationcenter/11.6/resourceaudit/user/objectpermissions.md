@@ -14,7 +14,7 @@ Analyzer solution. See the Active Directory Permissions Analyzer Solution topic 
 [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
-![Object Permissions report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/user/objectpermissions.webp)
+![Object Permissions report](/images/accessinformationcenter/11.6/resourceaudit/user/objectpermissions.webp)
 
 This report is comprised of the following columns:
 

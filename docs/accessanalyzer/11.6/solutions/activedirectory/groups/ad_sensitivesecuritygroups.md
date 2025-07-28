@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_SensitiveSecurityGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/sensitivesecuritygroupsanalysis.webp)
+![Analysis Tasks for the AD_SensitiveSecurityGroups Job](/images/accessanalyzer/11.6/solutions/activedirectory/groups/sensitivesecuritygroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -39,4 +39,3 @@ Job produces the following pre-configured report:
 | Report                              | Description                                                              | Default Tags | Report Elements                                                                                                                                                                                               |
 | ----------------------------------- | ------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sensitive Security Group Membership | This report displays effective membership for sensitive security groups. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays largest groups</li><li>Table – Provides details on membership</li><li>Table – Provides summary of group membership</li></ul> |
-

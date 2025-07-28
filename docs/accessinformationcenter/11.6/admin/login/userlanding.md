@@ -22,7 +22,7 @@ topic for additional information.
 Users granted the Administrator role are directed to the Home page upon login with access to all
 interfaces based on your organizations licensed features.
 
-![Administrator user home page](/img/product_docs/accessinformationcenter/11.6/admin/homeadmin.webp)
+![Administrator user home page](/images/accessinformationcenter/11.6/admin/homeadmin.webp)
 
 Administrators are the only ones with access to the Configuration interface through the **Configure
 Console** link. The Manage Your Resources link is available if the logged in user is also assigned
@@ -33,7 +33,7 @@ Requests workflow has been enabled.
 
 Users granted the Security Team role are directed to the Home page upon login.
 
-![Home page for Security Team role](/img/product_docs/accessinformationcenter/11.6/admin/homesecurityteam.webp)
+![Home page for Security Team role](/images/accessinformationcenter/11.6/admin/homesecurityteam.webp)
 
 Available buttons are limited by the organization’s license. Security Team members only lack access
 to the Configuration interface, which is only available to Administrators. The Manage Your Resources
@@ -44,7 +44,7 @@ Access link is available if the Self-Service Access Requests workflow has been e
 
 Users granted the Reader role are directed to the Home page upon login.
 
-![Home page for Reader role](/img/product_docs/accessinformationcenter/11.6/admin/homereader.webp)
+![Home page for Reader role](/images/accessinformationcenter/11.6/admin/homereader.webp)
 
 These users only have access to the Resource Audit interfaces and Search feature. The Manage Your
 Resources link is available if the logged in user is also assigned ownership of a resource. The
@@ -54,7 +54,7 @@ Manage Your Access link is available if the Self-Service Access Requests workflo
 
 Users granted the Data Privacy role are directed to the Home page upon login.
 
-![Home page for Data Privacy role](/img/product_docs/accessinformationcenter/11.6/admin/homedataprivacy.webp)
+![Home page for Data Privacy role](/images/accessinformationcenter/11.6/admin/homedataprivacy.webp)
 
 These users only have access to the Search feature. The Manage Your Resources link is available if
 the logged in user is also assigned ownership of a resource. The Manage Your Access link is
@@ -65,7 +65,7 @@ available if the Self-Service Access Requests workflow has been enabled.
 Users granted the User Access Administrator role are directed to the Console Access page in the
 Configuration interface upon login.
 
-![Home page for User Access Administrator role](/img/product_docs/accessinformationcenter/11.6/admin/homeuseraccessadmin.webp)
+![Home page for User Access Administrator role](/images/accessinformationcenter/11.6/admin/homeuseraccessadmin.webp)
 
 These users only have access to the Console Access page.
 
@@ -74,7 +74,7 @@ These users only have access to the Console Access page.
 Users assigned ownership of a resource but not granted a user role are directed to the Owner portal
 upon login.
 
-![Home page for Resource Owner with no assigned role](/img/product_docs/accessinformationcenter/11.6/admin/homeresourceowner.webp)
+![Home page for Resource Owner with no assigned role](/images/accessinformationcenter/11.6/admin/homeresourceowner.webp)
 
 Features available to owners is dependent upon the features enabled by the Owner Administrators.
 
@@ -84,6 +84,6 @@ Users not granted a user role and not assigned resource ownership are directed t
 portal upon login if the Self-Service Access Requests workflow has been enabled for your
 organization.
 
-![Home page for user with no User Role or Resource Ownership](/img/product_docs/accessinformationcenter/11.6/admin/homeyouraccess.webp)
+![Home page for user with no User Role or Resource Ownership](/images/accessinformationcenter/11.6/admin/homeyouraccess.webp)
 
 Users can view current access, request access, and view request history.

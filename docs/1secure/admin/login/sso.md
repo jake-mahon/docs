@@ -23,12 +23,12 @@ When the Netwrix team adds a new user account for your organization, you will re
 invitation. This email will be sent from "noreply-account@netwrix.com" and will have the subject
 "Welcome to Netwrix 1Secure".
 
-![1Secure Invitation Email](/img/product_docs/1secure/admin/login/1secureinvitation-sso.webp)
+![1Secure Invitation Email](/images/1secure/admin/login/1secureinvitation-sso.webp)
 
 **Step 1 –** Click **Access 1Secure** button in the invitation email. You are navigated to the
 1Secure login page.
 
-![Log In page](/img/product_docs/1secure/admin/login/companylogin.webp)
+![Log In page](/images/1secure/admin/login/companylogin.webp)
 
 **Step 2 –** On the login page, click the **Log In** button.
 
@@ -67,14 +67,14 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 2 –** In the left pane, click **My organization**. The My organization page is displayed
 
-![My Organization page](/img/product_docs/1secure/admin/login/myorg_authentication.webp)
+![My Organization page](/images/1secure/admin/login/myorg_authentication.webp)
 
 **Step 3 –** Under Authentication section, click **Edit Settings**. The Authentication settings pane
 is displayed.
 
 **Step 4 –** In Method drop-down menu, select **Entra ID**.
 
-![Authentication Settings pane](/img/product_docs/1secure/admin/login/entraidauth.webp)
+![Authentication Settings pane](/images/1secure/admin/login/entraidauth.webp)
 
 **Step 5 –** In Client ID field, specify the client ID of the app registered in Microsoft Entra ID.
 See the
@@ -93,14 +93,14 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 2 –** In the left pane, click **My organization**. The My organization page is displayed
 
-![My Organization page](/img/product_docs/1secure/admin/login/myorg_authentication.webp)
+![My Organization page](/images/1secure/admin/login/myorg_authentication.webp)
 
 **Step 3 –** Under Authentication section, click **Edit Settings**. The Authentication settings pane
 is displayed.
 
 **Step 4 –** In Method drop-down menu, select **OpenID Connect**.
 
-![Authentication Settings pane](/img/product_docs/1secure/admin/login/openidconnectauth.webp)
+![Authentication Settings pane](/images/1secure/admin/login/openidconnectauth.webp)
 
 **Step 5 –** In Client ID field, specify the client ID of the OpenID application that 1Secure uses
 to communicate with the OpenID provider.

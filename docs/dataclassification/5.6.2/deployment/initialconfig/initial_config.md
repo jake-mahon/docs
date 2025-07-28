@@ -16,7 +16,7 @@ initial configuration steps.
 On the Instance step, provide the unique name for your Netwrix Data Classification instance. For
 example, _"Production"_.
 
-![initial_config](/img/product_docs/dataclassification/5.6.2/deployment/initial_config.webp)
+![initial_config](/images/dataclassification/5.6.2/deployment/initial_config.webp)
 
 Click Next to proceed. See also:
 

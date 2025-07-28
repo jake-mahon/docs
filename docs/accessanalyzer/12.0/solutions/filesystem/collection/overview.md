@@ -9,7 +9,7 @@ sidebar_position: 20
 The 0.Collection job group is designed to collect information from targeted file servers.
 Information collected includes access control information, activity events, and sensitive data.
 
-![0.Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/jobstree.webp)
+![0.Collection Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/filesystem/collection/jobstree.webp)
 
 The 0.Collection job group has the following collection components:
 

@@ -20,7 +20,7 @@ and the Signing Key utility is not applied on that Directory Manager on that mac
 Configuration Tool will change the Signing Key and displays a disclaimer message on the Directory
 Manager is successfully configured page as follows:
 
-![GroupID is successfully configured page with Signing Key Disclaimer](/img/product_docs/directorymanager/11.1/install/configure/signkeydisclaimer.webp)
+![GroupID is successfully configured page with Signing Key Disclaimer](/images/directorymanager/11.1/install/configure/signkeydisclaimer.webp)
 
 :::tip
 Remember, after the Signing Key update, your existing schedules will not work as their
@@ -55,7 +55,7 @@ Step 3 – On the slave node copy the exported Signing Key file into a folder.
 Step 4 – Run the Configuration Tool on the slave node until you reach the Import Signing Key page of
 the wizard:
 
-![Import Signing Key page](/img/product_docs/directorymanager/11.1/install/configure/importkey.webp)
+![Import Signing Key page](/images/directorymanager/11.1/install/configure/importkey.webp)
 
 1. Click **Browse** next to the Select file box to browse to the folder where you have copied the
    Signing Key file.
@@ -65,7 +65,7 @@ the wizard:
 Step 5 – The Configuration Tool displays the Directory Manager is successfully configured page
 without the disclaimer.
 
-![GroupID is successfully configured page](/img/product_docs/directorymanager/11.1/install/configure/success.webp)
+![GroupID is successfully configured page](/images/directorymanager/11.1/install/configure/success.webp)
 
 :::tip
 Remember, after the Signing Key update, your existing schedules will not work as their
@@ -105,7 +105,7 @@ Signing Key file into a folder.
 Step 4 – Run the Configuration Tool on instance 2 and 4 until you reach the Import Signing Key page
 of the wizard.
 
-![Import Signing Key page](/img/product_docs/directorymanager/11.1/install/configure/importkey.webp)
+![Import Signing Key page](/images/directorymanager/11.1/install/configure/importkey.webp)
 
 1. Click **Browse** next to the Select file box to browse to the folder where you have copied the
    Signing Key file.

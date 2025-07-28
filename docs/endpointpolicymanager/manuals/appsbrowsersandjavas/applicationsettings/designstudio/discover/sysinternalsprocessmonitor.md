@@ -29,25 +29,25 @@ capturing events by clicking on File|Capture Events (this should be on by defaul
 Scroll (which is not the default). You can see these configuration options in Figure 102 and
 Figure 103.
 
-![discovering_configuration_15_499x277](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_15_499x277.webp)
+![discovering_configuration_15_499x277](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_15_499x277.webp)
 
 Figure 102. Selecting the option to capture events.
 
-![discovering_configuration_16](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_16.webp)
+![discovering_configuration_16](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_16.webp)
 
 Figure 103. Selecting the option for autoscrolling.
 
 Next, you're going to create a filter automatically. To do this, use Process Monitor's Target Sight
 icon and drag it directly onto the target application's main window as shown in Figure 104.
 
-![discovering_configuration_17](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_17.webp)
+![discovering_configuration_17](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_17.webp)
 
 Figure 104. Dragging the Target Sight icon into the main window.
 
 Next, have the first two filter types selected, Registry and File, as shown in Figure 105. Unselect
 the remaining three items (Network Activity, Process & Thread, and Profiling Events).
 
-![discovering_configuration_18_624x105](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_18_624x105.webp)
+![discovering_configuration_18_624x105](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_18_624x105.webp)
 
 Figure 105. Selecting the "Registry" and "File" types.
 
@@ -61,7 +61,7 @@ you can also try to close the application and see if it wrote any changes to the
 In Figure 106 you can see the deployment.properties file was changed after checkbox was unselected
 and the change was applied.
 
-![discovering_configuration_19](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_19.webp)
+![discovering_configuration_19](/images/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_19.webp)
 
 Figure 106. Applying changes.
 

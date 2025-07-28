@@ -16,7 +16,7 @@ require a server reboot at the end of the installation.
 The Netwrix Setup Launcher checks for and installs missing prerequisites in addition to installing
 the database and application.
 
-![Netwrix Setup Launcher showing the Prequisites Setup with a green checkmark](/img/product_docs/privilegesecure/4.2/accessmanagement/install/launcherstep2.webp)
+![Netwrix Setup Launcher showing the Prequisites Setup with a green checkmark](/images/privilegesecure/4.2/accessmanagement/install/launcherstep2.webp)
 
 :::info
 Antivirus software should be disabled on this computer during the installation.
@@ -51,11 +51,11 @@ Install PostgreSQL 16 button and you can install the Privilege Secure applicatio
 :::
 
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/install.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](/images/privilegesecure/4.2/accessmanagement/install/install.webp)
 
 **Step 2 –** On the Install page, click **Install**.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/licenseagreement.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](/images/privilegesecure/4.2/accessmanagement/install/licenseagreement.webp)
 
 **Step 3 –** On the End User License Agreement page, check the **I accept the license agreement**
 box and click **Next**.
@@ -65,7 +65,7 @@ Remember, it is a best practice to read the agreement before accepting it.
 :::
 
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Install and Data Folder page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/installfolder.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Install and Data Folder page](/images/privilegesecure/4.2/accessmanagement/install/installfolder.webp)
 
 **Step 4 –** The default installation location for both the Install Folder and the Data Folder is:
 
@@ -80,7 +80,7 @@ take a few moments.
 :::
 
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Completed Successfully page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/completed.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Completed Successfully page](/images/privilegesecure/4.2/accessmanagement/install/completed.webp)
 
 **Step 5 –** When installation is complete, click **Exit**. The Stealthbits PostgeSQL v16 Setup
 wizard closes.
@@ -101,7 +101,7 @@ Antivirus software should be disabled on this computer during the installation.
 
 Follow the steps to install Privilege Secure application.
 
-![Netwrix Setup Launcher showing the PostgreSQL Setup with a green checkmark](/img/product_docs/privilegesecure/4.2/accessmanagement/install/launcherstep3.webp)
+![Netwrix Setup Launcher showing the PostgreSQL Setup with a green checkmark](/images/privilegesecure/4.2/accessmanagement/install/launcherstep3.webp)
 
 **Step 1 –** If you are using the Netwrix Setup Launcher, it displays a green checkmark for the
 PostgreSQL Setup. Click Netwrix Privilege Secure Setup.
@@ -111,7 +111,7 @@ This window remains open in the background while the database is installed.
 :::
 
 
-![Netwrix Privilege Secure Setup wizard on the License Agreement page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/licenseagreement_1.webp)
+![Netwrix Privilege Secure Setup wizard on the License Agreement page](/images/privilegesecure/4.2/accessmanagement/install/licenseagreement_1.webp)
 
 **Step 2 –** On the End User License Agreement page, check the **I agree to the license terms and
 conditions** box and click **Options**.
@@ -121,7 +121,7 @@ Remember, it is a best practice to read the agreement before accepting it.
 :::
 
 
-![Netwrix Privilege Secure Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/setupoptions.webp)
+![Netwrix Privilege Secure Setup wizard on the Setup Options page](/images/privilegesecure/4.2/accessmanagement/install/setupoptions.webp)
 
 **Step 3 –** The default installation location for Install Folder is:
 
@@ -138,7 +138,7 @@ few moments.
 :::
 
 
-![Netwrix Privilege Secure Setup wizard on the Completed Successfully page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/completed_1.webp)
+![Netwrix Privilege Secure Setup wizard on the Completed Successfully page](/images/privilegesecure/4.2/accessmanagement/install/completed_1.webp)
 
 **Step 5 –** When installation is complete, click **Close**.
 

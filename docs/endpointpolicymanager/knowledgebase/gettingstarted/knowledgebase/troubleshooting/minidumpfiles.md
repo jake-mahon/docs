@@ -18,4 +18,4 @@ But note that this change only takes affect after the computer is rebooted.
 The mindump file is automatically created by CSE 750 and later if any of our components should
 encounter a crash.Having the minidump file turned on automatically is a pretty good idea anyway.
 
-![473_1_image007](/img/product_docs/endpointpolicymanager/troubleshooting/log/473_1_image007.webp)
+![473_1_image007](/images/endpointpolicymanager/troubleshooting/log/473_1_image007.webp)

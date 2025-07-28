@@ -9,7 +9,7 @@ sidebar_position: 20
 The Minimum Age rule stops users from quickly cycling through a series of passwords in order to
 evade the History and Similarity rules. This rule can only be enforced by domain policies.
 
-![ppe_rules_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_2.webp)
+![ppe_rules_2](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_2.webp)
 
 Select the **Enabled** check box to enable the Minimum Age rule.
 

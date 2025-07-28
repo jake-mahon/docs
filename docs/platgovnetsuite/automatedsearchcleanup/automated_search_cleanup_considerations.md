@@ -42,4 +42,4 @@ restored:
 - Audit Trail: the restored search is assigned a new Internal ID. The audit trail only contains
   entries for the new Internal ID.
 
-![Search form](/img/product_docs/platgovnetsuite/clean_up/limitation_restoring_searches.webp)
+![Search form](/images/platgovnetsuite/clean_up/limitation_restoring_searches.webp)

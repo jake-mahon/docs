@@ -67,7 +67,7 @@ is intact. It also checks the health of each index.
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, click **Elasticsearch Health Monitor**.
 
-    ![es_health_monitor](/img/product_docs/directorymanager/11.0/admincenter/replication/es_health_monitor.webp)
+    ![es_health_monitor](/images/directorymanager/11.0/admincenter/replication/es_health_monitor.webp)
 
     This dialog box lists the Elasticsearch clusters in your environment, with the following
     information for each cluster:
@@ -88,7 +88,7 @@ is intact. It also checks the health of each index.
 3. To refresh the information displayed, click the **Refresh** icon.
 4. Click a cluster name to view it in detail.
 
-    ![cluster_info](/img/product_docs/directorymanager/11.0/admincenter/replication/cluster_info.webp)
+    ![cluster_info](/images/directorymanager/11.0/admincenter/replication/cluster_info.webp)
 
     This dialog box displays the total number of nodes in the cluster. Each node is represented by a
     card, that displays the following for the node:
@@ -135,7 +135,7 @@ topic.
    every 10 minutes. In this way, changes made to objects in the directory during the last 10
    minutes are replicated to Elasticsearch. In Active Directory, the _whenChanged_ attribute stores
    the time and date the object was last changed. This service checks the value of this attribute
-   and replicates any changes to Elasticsearch.  
+   and replicates any changes to Elasticsearch.
    To change the interval, click **Edit** next to **Service Interval** on the on the **Replication
    Service Interval** card. Specify the interval (in minutes) between each run of the service and
    click the check mark.
@@ -144,7 +144,7 @@ topic.
 
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, click **Force Replication Now** on the **Replication Service
-   Interval** card to run the Replications service instantly.  
+   Interval** card to run the Replications service instantly.
    Changes made to objects in the directory between the last and current run are replicated to
    Elasticsearch. Force-starting the service has no impact on the interval set in the **Service
    Interval** box for triggering the service.
@@ -207,7 +207,7 @@ directory anymore.
 
 3. By default, the interval is set to 60 minutes, which indicates that the service is triggered
    every 60 minutes. In this way, objects that are deleted in the directory during the last 60
-   minutes are removed from Elasticsearch.  
+   minutes are removed from Elasticsearch.
    To change the interval, click **Edit** next to **Service Interval** on the **Deleted Objects
    Replication Interval** card. Specify the interval (in minutes) between each run of the service
    and click the check mark. This Replication service interval applies to all identity stores in
@@ -217,7 +217,7 @@ directory anymore.
 
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, click **Force Replication Now** on the **Deleted Objects Replication
-   Interval** card to run the Replication service instantly.  
+   Interval** card to run the Replication service instantly.
    Objects deleted in the directory between the last and current run of the service, will be removed
    from Elasticsearch. Force-starting the service has no impact on the interval set in the **Service
    Interval** box for triggering the service.
@@ -252,7 +252,7 @@ glut.
    GroupID.
 3. The **Delete Unused Indices** dialog box displays the indices that will be deleted from
    Elasticsearch. Click **Delete** to proceed or click **Don't Delete** to close the dialog box
-   without clearing the indices.  
+   without clearing the indices.
     In case no unused indices are found, a notification pops up in the bottom right corner to inform
    that no unused indices were found.
 
@@ -297,7 +297,7 @@ topic.
    the default threshold for initiating notifications. This means that notifications will be sent
    when three consecutive runs of the replication service result in error. Notifications will not be
    sent when errors occur say, in two consecutive runs but no error shows in the third consecutive
-   run.  
+   run.
    To change the threshold value, click **Edit**. Specify a threshold value to trigger replication
    error notifications and click the check mark.
 

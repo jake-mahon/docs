@@ -23,7 +23,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_UserToken Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/usertokenanalysis.webp)
+![Analysis Task for the AD_UserToken Job](/images/accessanalyzer/12.0/solutions/activedirectory/users/usertokenanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ following pre-configured report:
 | Report     | Description                                                                                                                                                     | Default Tags | Report Elements                                                                                                                                                            |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User Token | A user's token size is directly related to the number of SIDs associated with their user account, taking into account historical SIDs and effective membership. | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays top users by estimated token size</li><li>Table – Provides details on user tokens</li></ul> |
-

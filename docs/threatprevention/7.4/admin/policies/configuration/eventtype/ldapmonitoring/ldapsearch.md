@@ -18,7 +18,7 @@ the LDAP filter allows you to enable the LDAP Search option.
 The Secure configurations and Search scope options filter the search based on a match to the
 selected configurations and scope of the LDAP query.
 
-![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/usecase/ldapsearchscopes.webp)
+![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/images/threatprevention/7.4/admin/policies/eventtype/usecase/ldapsearchscopes.webp)
 
 **Secure configurations**
 

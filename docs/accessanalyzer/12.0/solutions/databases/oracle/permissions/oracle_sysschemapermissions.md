@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup38.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup38.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ Job produces the following pre-configured reports.
 | Report                 | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                               |
 | ---------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SYS Schema Permissions | This report highlights SYS schema permissions across the audited environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays sys schema permission by instance</li><li>Table – Provides details on sys schema permissions by instance</li><li>Table – Provides details on sys schema permission details</li></ul> |
-

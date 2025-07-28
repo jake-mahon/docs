@@ -48,7 +48,7 @@ To add the auto spider portlet:
 
 Any objects not captured by the AutoSpider are picked up by the Customizations to ReSpider alert.
 
-![Auto-Spider Portlet](/img/product_docs/platgovnetsuite/installing_strongpoint/auto-spider_portlet.webp)
+![Auto-Spider Portlet](/images/platgovnetsuite/installing_strongpoint/auto-spider_portlet.webp)
 
 Stay on your **Home** page until you see **Spider Triggered** to ensure the spider starts.
 

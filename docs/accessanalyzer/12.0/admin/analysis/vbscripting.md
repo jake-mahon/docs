@@ -9,7 +9,7 @@ sidebar_position: 70
 Use the VBscripting analysis module to access the VBScript Editor and apply VB scripting to the
 current analysis.
 
-![VBScript Editor](/img/product_docs/accessanalyzer/12.0/admin/analysis/vbscripteditor.webp)
+![VBScript Editor](/images/accessanalyzer/12.0/admin/analysis/vbscripteditor.webp)
 
 The VBScript Editor has the following options:
 

@@ -22,12 +22,12 @@ Then follow the steps to update the AD Agent installer used by the Activity Moni
 installer package (SI Agent.exe) windowSelect Active Directory Module installer package (SI
 Agent.exe) window opens.
 
-![Update Agent Installer](/img/product_docs/activitymonitor/7.1/install/updateagentinstaller.webp)
+![Update Agent Installer](/images/activitymonitor/7.1/install/updateagentinstaller.webp)
 
 **Step 2 –** Navigate to the location of the latest AD Agent installation package. Select the
 installer and click **Open**.
 
-![Confirmation Window](/img/product_docs/activitymonitor/7.1/install/updateagentinstallerpopup.webp)
+![Confirmation Window](/images/activitymonitor/7.1/install/updateagentinstallerpopup.webp)
 
 **Step 3 –** A confirmation window opens displaying the version information for the selected
 installer. Click **Yes** to update to this version or **No** to cancel the operation. A confirmation

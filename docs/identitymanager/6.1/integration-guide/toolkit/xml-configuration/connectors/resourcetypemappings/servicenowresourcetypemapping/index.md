@@ -14,7 +14,7 @@ map the properties in Usercube with those in ServiceNow, for provisioning purpos
 Below is an example of an incident ticket in ServiceNow, where relevant properties (from Usercube's
 perspective) are emphasized:
 
-![ServiceNow Ticket Example](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/servicenow_example.webp)
+![ServiceNow Ticket Example](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/servicenow_example.webp)
 
 ## Examples
 

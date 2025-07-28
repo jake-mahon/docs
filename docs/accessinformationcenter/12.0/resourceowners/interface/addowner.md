@@ -14,7 +14,7 @@ The Add Owner window opens from either the [Add New Resource Wizard](/docs/acces
 
 ## Select a Probable Owner
 
-![Add Owner window showing Probable Owner option](/img/product_docs/accessinformationcenter/12.0/resourceowners/window/addownerprobable.webp)
+![Add Owner window showing Probable Owner option](/images/accessinformationcenter/12.0/resourceowners/window/addownerprobable.webp)
 
 Probable owners are calculated from the available data:
 
@@ -48,7 +48,7 @@ selected user appears in the Owner list.
 
 ## Search for Owner
 
-![Add Owner window showing Search option](/img/product_docs/accessinformationcenter/12.0/resourceowners/window/addownersearch.webp)
+![Add Owner window showing Search option](/images/accessinformationcenter/12.0/resourceowners/window/addownersearch.webp)
 
 Enter a name in the search field to find and select users from Active Directory, which populates in
 a drop-down menu as you type. If multiple domains are known to the application, ensure the correct

@@ -20,7 +20,7 @@ Deployment logs have these sections:
 
 ## Sample Deployment Log
 
-![Successful deployment log example](/img/product_docs/platgovsalesforce/release_management/deployment_log.webp)
+![Successful deployment log example](/images/platgovsalesforce/release_management/deployment_log.webp)
 
 ## Deployment Log Detail
 

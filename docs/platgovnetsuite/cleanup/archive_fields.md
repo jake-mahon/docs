@@ -26,12 +26,12 @@ To create a change request:
     - Cannot Be Safely Deleted or Modified or
     - Inactive Customizations (Already Deleted)
 
-![archivefields1](/img/product_docs/platgovnetsuite/clean_up/archivefields1.webp)
+![archivefields1](/images/platgovnetsuite/clean_up/archivefields1.webp)
 
 6. Click on the **Archive Customizations** if you find your customizations under **Cannot Be Safely
 Deleted or Modified** and under **Warning it says Not Archived**
 
-![archivefields2](/img/product_docs/platgovnetsuite/clean_up/archivefields2.webp)
+![archivefields2](/images/platgovnetsuite/clean_up/archivefields2.webp)
 
 7. Once your customizations are processed and archived, your customizations are listed under **Can be
 Safely Deleted or Modified**. Your [archive folder](/docs/platgovnetsuite/cleanup/set_up_archive_folder.md) has the CSV file you

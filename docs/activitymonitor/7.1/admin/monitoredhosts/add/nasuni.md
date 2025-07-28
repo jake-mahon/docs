@@ -47,18 +47,18 @@ Follow the steps to add a Nasuni Edge Appliance host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Choose Agent page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent page](/images/activitymonitor/7.1/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the **Agent** to monitor the storage device. Click
 **Next**.
 
-![Add Host page with Nasuni selected](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/addhostnasuni.webp)
+![Add Host page with Nasuni selected](/images/activitymonitor/7.1/admin/monitoredhosts/add/addhostnasuni.webp)
 
 **Step 3 –** On the Add Host page, select the Nasuni radio button and enter the host name or IP
 Address of the Nasuni Edge Appliance in the Nasuni Filer textbox. If desired, add a **Comment**.
 Click **Next**.
 
-![Nasuni Options page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/nasunioptions.webp)
+![Nasuni Options page](/images/activitymonitor/7.1/admin/monitoredhosts/add/nasunioptions.webp)
 
 **Step 4 –** On the Nasuni Options page, enter the **API Key Name** and the **API Key Value**. Click
 Connect to validate the connection with the Nasuni device.
@@ -71,7 +71,7 @@ Connect to validate the connection with the Nasuni device.
 
 Click **Next**.
 
-![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/trustedservercertificate.webp)
+![Trusted Server Certificate popup window](/images/activitymonitor/7.1/admin/monitoredhosts/add/trustedservercertificate.webp)
 
 - HTTPS Options – Opens the Trusted server certificate window to customize the certificate
   verification during a TLS session
@@ -101,7 +101,7 @@ in Read events not being monitored.
 
 Click **Next**.
 
-![Configure Basic Options page for Nasuni](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/configurebasicoptionsnasuni.webp)
+![Configure Basic Options page for Nasuni](/images/activitymonitor/7.1/admin/monitoredhosts/add/configurebasicoptionsnasuni.webp)
 
 **Step 6 –** On the Configure Basic Options page, choose which settings to enable. The “Log files”
 are the activity logs created by the activity agent on the proxy host. Select the desired options:
@@ -126,12 +126,12 @@ are the activity logs created by the activity agent on the proxy host. Select th
 
 Click **Next**.
 
-![Where to log the activity page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/wheretologgeneric.webp)
+![Where to log the activity page](/images/activitymonitor/7.1/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
 
-![File Output Page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/fileoutputpage.webp)
+![File Output Page](/images/activitymonitor/7.1/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 8 –** If **Log File** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -158,7 +158,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![Syslog Output page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/syslogoutputpage.webp)
+![Syslog Output page](/images/activitymonitor/7.1/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 **Step 9 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -193,7 +193,7 @@ Output page can be configured.
 
 Click **Finish**.
 
-![Activity Monitor with Nasuni host added](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/activitymonitornasuni.webp)
+![Activity Monitor with Nasuni host added](/images/activitymonitor/7.1/admin/monitoredhosts/add/activitymonitornasuni.webp)
 
 The added Nasuni host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the

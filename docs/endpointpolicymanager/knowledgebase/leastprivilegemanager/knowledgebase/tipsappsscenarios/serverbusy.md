@@ -9,7 +9,7 @@ sidebar_position: 100
 When attempting to mount an image with an elevated "FTK Imager" application, a "Server Busy"
 dialogue box will present itself a moment after starting to browse for the image.
 
-![998_1_image-20240201214648-1](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/998_1_image-20240201214648-1.webp)
+![998_1_image-20240201214648-1](/images/endpointpolicymanager/troubleshooting/error/leastprivilege/998_1_image-20240201214648-1.webp)
 
 When this appears, the only way to get out of this is to end the task through Task Manager.
 
@@ -19,7 +19,7 @@ To get around this error, we need to deselect the **Don't elevate Open/Save** di
 creating the elevation policy for the application **FTK Imager**. This is selected by default on all
 new policies.
 
-![998_2_image-20240201214648-2](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/998_2_image-20240201214648-2.webp)
+![998_2_image-20240201214648-2](/images/endpointpolicymanager/troubleshooting/error/leastprivilege/998_2_image-20240201214648-2.webp)
 
 This checked by default to prevent users from gaining unauthorized administrative rights through the
 Open/Save dialog box to their endpoint. Unchecked, you open up the possibility for a knowledgeable
@@ -34,10 +34,10 @@ box option is deselected, changing the Action to **Run with customized token** a
 the integrity level of the process, thereby reducing the rights given to the process and, by
 extension, the end-user.
 
-![998_3_image-20240201214648-3](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/998_3_image-20240201214648-3.webp)
+![998_3_image-20240201214648-3](/images/endpointpolicymanager/troubleshooting/error/leastprivilege/998_3_image-20240201214648-3.webp)
 
 Under Token, set the Base Token to **Always create and use an elevated token** and Integrity level
 to **Medium-plus**. This will allow the application to run as desired, but not give access to the
 end-user to change system files.
 
-![998_4_image-20240201214648-4](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/998_4_image-20240201214648-4.webp)
+![998_4_image-20240201214648-4](/images/endpointpolicymanager/troubleshooting/error/leastprivilege/998_4_image-20240201214648-4.webp)

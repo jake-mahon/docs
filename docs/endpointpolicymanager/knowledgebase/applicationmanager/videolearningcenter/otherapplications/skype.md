@@ -30,16 +30,16 @@ ensure users cannot work around your set policies.
 
 You can deliver key settings and lock users out of scary Lync Client settings, as seen here.
 
-![50_1_manage-lync-with-group-policy-fig1](/img/product_docs/endpointpolicymanager/video/applicationsettings/50_1_manage-lync-with-group-policy-fig1.webp)
+![50_1_manage-lync-with-group-policy-fig1](/images/endpointpolicymanager/video/applicationsettings/50_1_manage-lync-with-group-policy-fig1.webp)
 
 You can dictate the Inactive and Away times for the Lync Client, like what is seen here.
 
-![50_2_manage-lync-with-group-policy-fig2](/img/product_docs/endpointpolicymanager/video/applicationsettings/50_2_manage-lync-with-group-policy-fig2.webp)
+![50_2_manage-lync-with-group-policy-fig2](/images/endpointpolicymanager/video/applicationsettings/50_2_manage-lync-with-group-policy-fig2.webp)
 
 Or ensure your users don't mess with settings which are dictated from the Lync server by completely
 disabling a whole tab, like what is seen here.
 
-![50_3_manage-lync-with-group-policy-fig3](/img/product_docs/endpointpolicymanager/video/applicationsettings/50_3_manage-lync-with-group-policy-fig3.webp)
+![50_3_manage-lync-with-group-policy-fig3](/images/endpointpolicymanager/video/applicationsettings/50_3_manage-lync-with-group-policy-fig3.webp)
 
 Getting Lync server deployed isn't easy. And when it is deployed, make sure your users are using it
 the way you intended, instead of working around your settings. With PolicyPak, you can deliver lots

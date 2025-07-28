@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the PF_Content Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/content/contentanalysis.webp)
+![Analysis Tasks for the PF_Content Job](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/content/contentanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ following pre-configured reports:
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Aging by File Count (Public Folder Aging by File Count) | This report highlights content aging within the targeted Public Folder environment, with a focus on the number of files. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays public folder environment aging</li><li>Table – Provides details on public folder environment aging by file count</li><li>Table – Provides details on aging by sub tree</li></ul>          |
 | Aging by File Size (Public Folder Aging by File Size)   | This report highlights content aging within the targeted Public Folder environment, with a focus on the size of files.   | None         | This report is comprised of three elements: <ul><li>Column Chart – Displays public folder environment aging by file size</li><li>Table – Provides details on public folder environment by file size</li><li>Table – Provides details on aging by sub tree</li></ul> |
-

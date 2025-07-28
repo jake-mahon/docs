@@ -13,7 +13,7 @@ targeted servers.
 
 The 1-SQL_PermissionsScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup6.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup6.webp)
 
 - PermissionsScan – Collects permissions from targeted instances
     - (Optional) This query can be modified to target specific databases/instances. See the
@@ -39,7 +39,7 @@ job.
 :::
 
 
-![Filters](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
+![Filters](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the
 [SQL Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/sql/overview.md)
@@ -67,7 +67,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup8.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup8.webp)
 
 The default analysis tasks are:
 

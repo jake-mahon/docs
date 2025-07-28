@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the LocalUserActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/security/localuseractivityanalysis.webp)
+![Analysis Tasks for the LocalUserActivity Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/security/localuseractivityanalysis.webp)
 
 -   **1. Local User Activity Details** – Creates the SA_FS_LocalUserActivity_Details table accessible
        under the job’s Results node
@@ -33,4 +33,3 @@ produces the following pre-configured report:
 | Report              | Description                                                      | Default Tags | Report Elements                                                                                                                                                                         |
 | ------------------- | ---------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Local User Activity | This report identifies local accounts with file system activity. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top local user account activity (last 30 days)</li><li>Table – Provides details on local user activity</li></ul> |
-

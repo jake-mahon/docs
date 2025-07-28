@@ -28,8 +28,8 @@ What do you want to do?
 ## Customize a Notification Template
 
 1. In Admin Center, click **Notifications** in the left pane. Then click **Notification Editor** on
-   the **Notification Queue** page.  
-   Or  
+   the **Notification Queue** page.
+   Or
    In Admin Center, click **Notification Editor** at the bottom of the left navigation pane.
 
     The editor displays a list of all notifications that GroupID generates. Notification names are
@@ -39,7 +39,7 @@ What do you want to do?
    the English language. To set another language:
 
     1. Click **Filter**.
-    2. On the **Filter(s)** dialog box, select a language in the **Locality** drop-down list.  
+    2. On the **Filter(s)** dialog box, select a language in the **Locality** drop-down list.
        This list displays the ISO codes of the supported languages.
     3. Click **Apply**.
 
@@ -111,7 +111,7 @@ will show the email address of the requester, and so on.
 1. In the Source Code view, click the **Dictionary** tile to view the recommended tags to replace
    the default tags with.
 
-    ![tag_dictionary](/img/product_docs/directorymanager/11.0/admincenter/notification/tag_dictionary.webp)
+    ![tag_dictionary](/images/directorymanager/11.0/admincenter/notification/tag_dictionary.webp)
 
     Each notification template has its own set of recommended tags.
 

@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis for the Box_ExternalUserActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/forensics/externaluseractivityanalysis.webp)
+![Analysis for the Box_ExternalUserActivity Job](/images/accessanalyzer/11.6/solutions/box/activity/forensics/externaluseractivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ the following pre-configured report:
 | Report                    | Description                                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                        |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Most Active External User | This report identifies highest resource activity by external users. The bar chart and summary table outline the top 5 most active external users. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top events by top external users</li><li>Table – Provides summary of events by top external user</li><li>Table – Provides details on external users</li></ul> |
-

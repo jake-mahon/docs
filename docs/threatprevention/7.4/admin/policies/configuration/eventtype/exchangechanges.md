@@ -16,7 +16,7 @@ The event filters for the Exchange Changes event type are:
 - Exchange Perpetrators
 - Rule Preview
 
-![Policy window - Exchange Changes Event Type](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/exchangechanges.webp)
+![Policy window - Exchange Changes Event Type](/images/threatprevention/7.4/admin/policies/eventtype/exchangechanges.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -26,7 +26,7 @@ like an "ALL" for that filter set.
 On the Exchange Event filter for monitoring, select the types of Exchange events to be monitored by
 the policy.
 
-![Policy window - Exchange Event filter for monitoring](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/exchangeevent.webp)
+![Policy window - Exchange Event filter for monitoring](/images/threatprevention/7.4/admin/policies/eventtype/exchangeevent.webp)
 
 Check the **All** box at the top of the tab to include all operations and permissions or select
 specific operations and permissions:
@@ -54,7 +54,7 @@ Use the Exchange Mailbox Objects and Containers filter for monitoring to set the
 to monitor changes to specific objects or containers within Exchange or to exclude changes to
 specific objects or containers from being monitored.
 
-![Policy window - Exchange Mailbox Objects and Containers filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
+![Policy window - Exchange Mailbox Objects and Containers filter](/images/threatprevention/7.4/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
 
 Select the **Include** or **Exclude** button and then edit the list.
 
@@ -72,7 +72,7 @@ specific Exchange trustees. Trustees are the accounts receiving permissions. For
 administrator grants Joe Smith access to Bob Wilson's mailbox, Joe Smith is the trustee that is
 granted permissions.
 
-![Policy window - Exchange Trustees filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/exchangetrustees.webp)
+![Policy window - Exchange Trustees filter](/images/threatprevention/7.4/admin/policies/eventtype/exchangetrustees.webp)
 
 Select the **Include** or **Exclude** button and then edit the list. Select the radio button for
 either **Include** or **Exclude**.
@@ -117,7 +117,7 @@ Use the Exchange Perpetrator filter for monitoring to set the scope of the polic
 specific security principals committing changes or to exclude specific security principals
 committing changes from being monitored.
 
-![Policy window - Exchange Perpetrator filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/exchangeperpetrator.webp)
+![Policy window - Exchange Perpetrator filter](/images/threatprevention/7.4/admin/policies/eventtype/exchangeperpetrator.webp)
 
 Options at the top enable you to include or exclude monitoring user access to mailboxes based on the
 assigned roles.
@@ -181,7 +181,7 @@ topic for additional information.
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](/images/threatprevention/7.4/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

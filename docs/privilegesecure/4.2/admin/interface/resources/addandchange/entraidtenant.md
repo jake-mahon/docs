@@ -13,7 +13,7 @@ Console.
 
 **Step 2 –** Click **Add** > **New Microsoft Entra ID Tenant**
 
-![Add Azure AD Tenant](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addazureadtenant.webp)
+![Add Azure AD Tenant](/images/privilegesecure/4.2/accessmanagement/admin/policy/add/addazureadtenant.webp)
 
 **Step 3 –** Enter the following information:
 

@@ -38,4 +38,4 @@ indicates the current column and sort order being used for the results.
 -  **Customizations**: Customizations for the deployment.
 -  **Components Deployed**: Number of components deployed.
 
-![Deployment Rollback Report](/img/product_docs/platgovsalesforce/reports/report_deploy_rollbacks.webp)
+![Deployment Rollback Report](/images/platgovsalesforce/reports/report_deploy_rollbacks.webp)

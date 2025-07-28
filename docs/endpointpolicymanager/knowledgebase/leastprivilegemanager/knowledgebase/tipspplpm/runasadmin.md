@@ -23,7 +23,7 @@ depending on the goal you would like to accomplish. You can use Endpoint Policy 
 settings to control it. Use this reference to get familiar with the Endpoint Policy Manager ADMX
 first: [Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
 
-![862_1_image-20230228200619-1_950x319](/img/product_docs/endpointpolicymanager/leastprivilege/862_1_image-20230228200619-1_950x319.webp)
+![862_1_image-20230228200619-1_950x319](/images/endpointpolicymanager/leastprivilege/862_1_image-20230228200619-1_950x319.webp)
 
 :::note
 These ADMX settings are also built into Endpoint Policy Manager Cloud and you're welcome
@@ -32,9 +32,9 @@ Policy Manager Cloud.
 :::
 
 
-![1243_2_232bf02612716c9cb1420ae8801dbfd2](/img/product_docs/endpointpolicymanager/leastprivilege/1243_2_232bf02612716c9cb1420ae8801dbfd2.webp)
+![1243_2_232bf02612716c9cb1420ae8801dbfd2](/images/endpointpolicymanager/leastprivilege/1243_2_232bf02612716c9cb1420ae8801dbfd2.webp)
 
-![1243_3_850e299116b6ef01db03df49923a61df](/img/product_docs/endpointpolicymanager/leastprivilege/1243_3_850e299116b6ef01db03df49923a61df.webp)
+![1243_3_850e299116b6ef01db03df49923a61df](/images/endpointpolicymanager/leastprivilege/1243_3_850e299116b6ef01db03df49923a61df.webp)
 
 The corresponding Registry location for this setting is:
 
@@ -49,15 +49,15 @@ administrator**. All three of these methods will perform default Endpoint Policy
 
 Below are examples showing this (using Endpoint Policy Manager Cloud).
 
-![862_2_image-20230228200619-2](/img/product_docs/endpointpolicymanager/leastprivilege/862_2_image-20230228200619-2.webp)
+![862_2_image-20230228200619-2](/images/endpointpolicymanager/leastprivilege/862_2_image-20230228200619-2.webp)
 
-![862_3_image-20230228200619-3](/img/product_docs/endpointpolicymanager/leastprivilege/862_3_image-20230228200619-3.webp)
+![862_3_image-20230228200619-3](/images/endpointpolicymanager/leastprivilege/862_3_image-20230228200619-3.webp)
 
 OR
 
-![862_4_image-20230228200619-4](/img/product_docs/endpointpolicymanager/leastprivilege/862_4_image-20230228200619-4.webp)
+![862_4_image-20230228200619-4](/images/endpointpolicymanager/leastprivilege/862_4_image-20230228200619-4.webp)
 
-![862_5_image-20230601152059-6](/img/product_docs/endpointpolicymanager/leastprivilege/862_5_image-20230601152059-6.webp)
+![862_5_image-20230601152059-6](/images/endpointpolicymanager/leastprivilege/862_5_image-20230601152059-6.webp)
 
 ## Scenario 2: I don't need to use the native tools to elevate printers (aka NTPRINT.EXE) or Windows Settings (aka SystemSettingsAdminFlows.exe) and I'm having some issues with shortcuts and Run as administrator.
 
@@ -68,7 +68,7 @@ users normally interact with Run as administrator commands. Here’s an example 
 When right-clicking an executable and selecting Run as administrator, you receive the following
 error: “There are no more endpoints available from the endpoint mapper”.
 
-![862_6_image-20230228200619-5](/img/product_docs/endpointpolicymanager/leastprivilege/862_6_image-20230228200619-5.webp)
+![862_6_image-20230228200619-5](/images/endpointpolicymanager/leastprivilege/862_6_image-20230228200619-5.webp)
 
 If you want to work around this issue, you could specify Configure processing Explicit-Elevation
 requests for processes: **Enabled + Disable intercept Explicit-Elevation**.
@@ -77,9 +77,9 @@ This will turn off the new Intercept Explicit-Elevation behavior in LPM and reve
 administrator to Windows default behavior. As a result,Run as administrator requests will be handled
 by Windows OS and not Endpoint Policy Manager.
 
-![862_7_image-20230601150106-3_723x496](/img/product_docs/endpointpolicymanager/leastprivilege/862_7_image-20230601150106-3_723x496.webp)
+![862_7_image-20230601150106-3_723x496](/images/endpointpolicymanager/leastprivilege/862_7_image-20230601150106-3_723x496.webp)
 
-![862_8_image-20230601145346-1](/img/product_docs/endpointpolicymanager/leastprivilege/862_8_image-20230601145346-1.webp)
+![862_8_image-20230601145346-1](/images/endpointpolicymanager/leastprivilege/862_8_image-20230601145346-1.webp)
 
 :::note
 Because this method will ALSO turn off NTPRINT.EXE elevations, you can still use the
@@ -96,9 +96,9 @@ printers, please refer to these videos: Least Privilege Manager >
 In this case, use **Enabled + Enable and use alternative context menu "Run as administrator with
 Netwrix PolicyPak"**.
 
-![862_9_image-20230601150335-4_723x495](/img/product_docs/endpointpolicymanager/leastprivilege/862_9_image-20230601150335-4_723x495.webp)
+![862_9_image-20230601150335-4_723x495](/images/endpointpolicymanager/leastprivilege/862_9_image-20230601150335-4_723x495.webp)
 
-![862_10_image-20230601151700-5](/img/product_docs/endpointpolicymanager/leastprivilege/862_10_image-20230601151700-5.webp)
+![862_10_image-20230601151700-5](/images/endpointpolicymanager/leastprivilege/862_10_image-20230601151700-5.webp)
 
 This will allow you to elevate NTPRINT.EXE operations. However, when a user selects the original Run
 as administrator menu option, it will be intercepted by Endpoint Policy Manager (formerly PolicyPak)
@@ -109,7 +109,7 @@ menu to ensure UAC works.
 
 Here’s an example when this option is selected:
 
-![862_11_image-20230228200619-6_950x146](/img/product_docs/endpointpolicymanager/leastprivilege/862_11_image-20230228200619-6_950x146.webp)
+![862_11_image-20230228200619-6_950x146](/images/endpointpolicymanager/leastprivilege/862_11_image-20230228200619-6_950x146.webp)
 
 Now users can perform the same Run as administrator type of operation, but they will need to use the
 Endpoint Policy Manager-supplied Run as administrator with Netwrix PolicyPak.

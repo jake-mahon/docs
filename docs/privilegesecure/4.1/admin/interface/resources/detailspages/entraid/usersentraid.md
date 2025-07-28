@@ -9,7 +9,7 @@ sidebar_position: 30
 The Users tab for Microsoft Entra ID (formerly Azure AD) shows information about the users on the
 selected resource.
 
-![Users Tab Azure AD](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
+![Users Tab Azure AD](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
 
 The Users tab has the following features:
 

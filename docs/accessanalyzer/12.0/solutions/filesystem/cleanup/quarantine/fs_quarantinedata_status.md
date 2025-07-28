@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_QuarantineData_Status Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/quarantinedatastatusanalysis.webp)
+![Analysis Tasks for the FS_QuarantineData_Status Job](/images/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/quarantinedatastatusanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -33,4 +33,3 @@ produces the following pre-configured report.
 | Report            | Description                                                                            | Default Tags | Report Elements                                                                                                                                                                     |
 | ----------------- | -------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | File Quarantining | This report summarizes file quarantining which has occurred during the Cleanup process | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the historical summary of file quarantining</li><li>Table – provides details on file quarantining</li></ul> |
-

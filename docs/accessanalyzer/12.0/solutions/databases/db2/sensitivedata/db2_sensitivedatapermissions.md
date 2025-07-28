@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Db2_SensitiveDataPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/databases/db2/sensitivedata/sensitivedatapermissionsanalysis.webp)
+![Analysis Tasks for the Db2_SensitiveDataPermissions Job](/images/accessanalyzer/12.0/solutions/databases/db2/sensitivedata/sensitivedatapermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ has the following preconfigured report.
 | Report                     | Description                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                 |
 | -------------------------- | ----------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sensitive Data Permissions | This report highlights sensitive data permissions in the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Databases by Permission Count</li><li>Table – Displays Database Sensitive Data Permissions Summary</li><li>Table – Displays data details</li></ul> |
-

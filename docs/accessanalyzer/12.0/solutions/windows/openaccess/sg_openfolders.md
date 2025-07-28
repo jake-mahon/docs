@@ -12,7 +12,7 @@ The SG_OpenFolders job enumerates folders with open access across the audited en
 
 The SG_OpenFolders job uses the SystemInfo Data Collector for the following query:
 
-![Queries for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/openaccess/openfoldersquery.webp)
+![Queries for the SG_OpenFolders Job](/images/accessanalyzer/12.0/solutions/windows/openaccess/openfoldersquery.webp)
 
 The query for the SG_OpenFolders job is:
 
@@ -40,7 +40,7 @@ opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The System Info Data Collector
 Wizard opens.
 
-![System Info Data Collector Wizard Options page](/img/product_docs/accessanalyzer/12.0/solutions/windows/openaccess/configuresubfolderdepth.webp)
+![System Info Data Collector Wizard Options page](/images/accessanalyzer/12.0/solutions/windows/openaccess/configuresubfolderdepth.webp)
 
 **Step 4 –** Navigate to the Options page and select the **Enumerate subfolders within shared
 folder** checkbox and then the **Limit returned subfolders depth to** checkbox.
@@ -62,7 +62,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_OpenFolders Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/openaccess/openfoldersanalysis.webp)
+![Analysis Tasks for the SG_OpenFolders Job](/images/accessanalyzer/12.0/solutions/windows/openaccess/openfoldersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -78,4 +78,3 @@ following pre-configured reports.
 | ------------------- | ------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Open Access By Host | This report enumerates hosts with openly accessible folders.                    | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays hosts with open folders</li><li>Table – Provides an open folder count by host</li></ul> |
 | Open Folders        | This report enumerates folders with open access across the audited environment. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays open folders over time</li><li>Table – Provides details on all open folders</li></ul>   |
-

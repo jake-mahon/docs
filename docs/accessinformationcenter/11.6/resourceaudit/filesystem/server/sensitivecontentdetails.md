@@ -9,7 +9,7 @@ sidebar_position: 50
 The Sensitive Content Details report at the server level provides details of files where criteria
 matches were found on the selected resource. This report includes a Matches table.
 
-![Sensitive Content Details report at the server level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/server/serversensitivecontentdetails.webp)
+![Sensitive Content Details report at the server level](/images/accessinformationcenter/11.6/resourceaudit/filesystem/server/serversensitivecontentdetails.webp)
 
 This report is comprised of the following columns:
 

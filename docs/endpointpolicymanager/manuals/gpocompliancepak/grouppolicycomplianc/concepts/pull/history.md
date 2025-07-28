@@ -11,6 +11,6 @@ button, click "OK." The tests (in the defined order) and snapshot you used will 
 into the Results pane, as shown in Figure 32. This can be handy when you want to repeat a test and
 don't want to have to populate the tests or the snapshot again.
 
-![gpcr_concepts_and_quickstart_33](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_33.webp)
+![gpcr_concepts_and_quickstart_33](/images/endpointpolicymanager/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_33.webp)
 
 Figure 32. The "History" button populates the Results pane with a test scenario you used before.

@@ -17,7 +17,7 @@ topic for additional information.
 :::
 
 
-![2. Notify Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/jobstree.webp)
+![2. Notify Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/jobstree.webp)
 
 This job group includes the following jobs:
 

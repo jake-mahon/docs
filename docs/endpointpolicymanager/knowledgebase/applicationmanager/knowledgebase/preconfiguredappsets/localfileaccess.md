@@ -15,8 +15,8 @@ three slashes after file like this.
 file:///c:/
 ```
 
-![38_1_image001](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/chrome/38_1_image001.webp)
+![38_1_image001](/images/endpointpolicymanager/applicationsettings/preconfigured/chrome/38_1_image001.webp)
 
 Result:
 
-![38_2_image002](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/chrome/38_2_image002.webp)
+![38_2_image002](/images/endpointpolicymanager/applicationsettings/preconfigured/chrome/38_2_image002.webp)

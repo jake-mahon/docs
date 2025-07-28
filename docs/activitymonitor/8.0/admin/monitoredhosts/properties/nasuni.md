@@ -9,7 +9,7 @@ sidebar_position: 90
 After a Nasuni host is added to the monitored hosts table, the configuration settings are edited
 using the tabs in the Properties window of the host.
 
-![Nasuni Host Properties - Nasuni Tab](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/properties/nasunitab.webp)
+![Nasuni Host Properties - Nasuni Tab](/images/activitymonitor/8.0/admin/monitoredhosts/properties/nasunitab.webp)
 
 The **Nasuni** tab allows users to modify settings which were populated with the information entered
 when the Nasuni host was added.
@@ -27,7 +27,7 @@ The configurable options are:
 
 - Connect – Click to connect using the selected protocol and validate the connection with Nasuni
 
-![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
+![Trusted Server Certificate popup window](/images/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
 HTTPS Options – Opens the Trusted server certificate window to customize the certificate
 verification during a TLS session
 

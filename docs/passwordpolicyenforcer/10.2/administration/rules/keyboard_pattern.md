@@ -10,7 +10,7 @@ The Keyboard Pattern rule rejects passwords that contain keyboard patterns such 
 Passwords should not contain keyboard patterns because they are vulnerable to cracking attacks and
 shoulder surfing (observing users as they enter their password).
 
-![ppe_rules_17](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_17.webp)
+![ppe_rules_17](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_17.webp)
 
 The examples for this rule are taken from a US keyboard layout. These patterns may not exist on
 other keyboard layouts.
@@ -47,7 +47,7 @@ pattern detection mode is set to "Horizontal or vertical".
   uses for pattern detection. You must select at least one layout. Click OK to configure the
   keyboard layout for the Keyboard Patter rule.
 
-![Keyboard Layout Window](/img/product_docs/passwordpolicyenforcer/10.2/administration/keboardlayoutwindow.webp)
+![Keyboard Layout Window](/images/passwordpolicyenforcer/10.2/administration/keboardlayoutwindow.webp)
 
 Click the **Messages** tab to customize the Password Policy Client rule inserts.
 

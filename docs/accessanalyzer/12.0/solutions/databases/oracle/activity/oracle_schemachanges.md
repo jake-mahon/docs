@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/activity/jobgroup29.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/activity/jobgroup29.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report.
 | Report                 | Description                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                                               |
 | ---------------------- | ------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Schema Change Activity | This report lists all schema change related Oracle events, and summarizes them by instance. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by schema change activity</li><li>Table –  Provides details on instances by schema change activity</li><li>Table – Provides details on schema change details</li></ul> |
-

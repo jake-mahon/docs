@@ -37,7 +37,7 @@ Group. This group has been named in such a way to keep it at the top of the Jobs
 
 ## Jobs
 
-![.Entra ID Inventory overview page](/img/product_docs/accessanalyzer/12.0/solutions/entraidinventory/overviewpage.webp)
+![.Entra ID Inventory overview page](/images/accessanalyzer/12.0/solutions/entraidinventory/overviewpage.webp)
 
 The jobs in the .Entra ID Inventory Solution are:
 

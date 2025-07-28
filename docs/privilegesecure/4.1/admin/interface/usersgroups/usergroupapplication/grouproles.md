@@ -8,7 +8,7 @@ sidebar_position: 100
 
 The Group Roles tab shows whether the current group has been assigned an application role.
 
-![Group Roles Tab for User Groups](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/usergroupsgrouproletab.webp)
+![Group Roles Tab for User Groups](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/usergroupsgrouproletab.webp)
 
 The Group Roles tab has the following features:
 

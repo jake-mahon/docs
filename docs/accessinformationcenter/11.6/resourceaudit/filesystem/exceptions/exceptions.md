@@ -9,7 +9,7 @@ sidebar_position: 20
 The Exceptions report at the **Exceptions** node provides a list of exceptions found on the server.
 This report includes a Details table.
 
-![Exceptions report at the Exceptions node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/exceptions/exceptionsexceptions.webp)
+![Exceptions report at the Exceptions node](/images/accessinformationcenter/11.6/resourceaudit/filesystem/exceptions/exceptionsexceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open
 shares and permissions granted to stale or disabled users. This report is comprised of the following

@@ -27,9 +27,9 @@ Portal on the following page
 under the Downloads section, by clicking on the **Download other versions** link at the bottom of
 the page.
 
-![555_1_image-20200603123515-1](/img/product_docs/endpointpolicymanager/integration/555_1_image-20200603123515-1.webp)
+![555_1_image-20200603123515-1](/images/endpointpolicymanager/integration/555_1_image-20200603123515-1.webp)
 
-![555_3_image-20200603094325-1_1231x309](/img/product_docs/endpointpolicymanager/integration/555_3_image-20200603094325-1_1231x309.webp)
+![555_3_image-20200603094325-1_1231x309](/images/endpointpolicymanager/integration/555_3_image-20200603094325-1_1231x309.webp)
 
 **Step 4 –** On the Gold Image VM, while logged in as a local administrator, install the Endpoint
 Policy Manager Cloud Client MSI that you copied under "`C:\PPC Client`", (double-click MSI to
@@ -70,7 +70,7 @@ PPCloud /sysprep
    user logging off is not an Administrator of the computer. If you need help with creating this LPM
    policy please contact support.
 
-![555_4_image-20230130144125-1](/img/product_docs/endpointpolicymanager/integration/555_4_image-20230130144125-1.webp)
+![555_4_image-20230130144125-1](/images/endpointpolicymanager/integration/555_4_image-20230130144125-1.webp)
 
 The **ppcloud /sysprep** switch was intended to be used on the golden image. It can be used only
 after the PPCloud Client is installed. There's no need to use the full path, and you can run
@@ -86,23 +86,23 @@ not.
 **Scripts (Logon/Logoff)** under **Logoff** that points to the `logoff.bat` file you previously
 created, then click **OK** to save the settings.
 
-![555_5_image-20200603123515-3](/img/product_docs/endpointpolicymanager/integration/555_5_image-20200603123515-3.webp)
+![555_5_image-20200603123515-3](/images/endpointpolicymanager/integration/555_5_image-20200603123515-3.webp)
 
 **Step 7 –** Shutdown the Gold Image VM.
 
 **Step 8 –** Take a snapshot to be used for new VDIs, then import your updated Gold Image into your
 VDI solution (update the Desktop Pool settings to use the new snapshot etc.).
 
-![555_7_image-20200603123515-4](/img/product_docs/endpointpolicymanager/integration/555_7_image-20200603123515-4.webp)
+![555_7_image-20200603123515-4](/images/endpointpolicymanager/integration/555_7_image-20200603123515-4.webp)
 
-![555_9_image-20200603123515-5](/img/product_docs/endpointpolicymanager/integration/555_9_image-20200603123515-5.webp)
+![555_9_image-20200603123515-5](/images/endpointpolicymanager/integration/555_9_image-20200603123515-5.webp)
 
 **Step 9 –** Deploy two VDIs, then check in your PPC portal to ensure the newly created VDIs are
 registered successfully and have different Unique IDs. The VDIs by default will show up in the
 **All** computer group. Take note of the Unique IDs for these VDIs (screenshot etc.). You can use
 the **Columns** button to change which columns are visible so you can see the **Unique ID** column.
 
-![555_11_image-20200603123515-6](/img/product_docs/endpointpolicymanager/integration/555_11_image-20200603123515-6.webp)
+![555_11_image-20200603123515-6](/images/endpointpolicymanager/integration/555_11_image-20200603123515-6.webp)
 
 **Step 10 –** Log into both VDIs using the VMware Horizon Client, wait for the OS to load
 completely, then logoff or shutdown both VDIs. Within the PPC portal you should see the two machines
@@ -115,4 +115,4 @@ to see if both of the VDIs received new Unique IDs. If they did, then the proces
 process failed. Revisit the steps above to see if anything was missed. If after verifying all steps
 you find that this process still did not work for you please contact support for further assistance.
 
-![555_13_image-20200603123515-7_950x260](/img/product_docs/endpointpolicymanager/integration/555_13_image-20200603123515-7_950x260.webp)
+![555_13_image-20200603123515-7_950x260](/images/endpointpolicymanager/integration/555_13_image-20200603123515-7_950x260.webp)

@@ -22,5 +22,3 @@ The present documentation mentions the Netwrix Usercube application as simply Us
   install Usercube in a production environment.
 - A [Migration Guide](/docs/identitymanager/6.1/migration-guide/index.md) to upgrade to
   a new version of Usercube.
-- [Release Notes](/docs/identitymanager/6.1/whatsnew/index.md) to get details about
-  specific changes in Usercube's updates.

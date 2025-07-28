@@ -23,14 +23,14 @@ permission list for each role. The Strongpoint roles have the correct access lev
 2. Edit each custom role your targeted Users use for their tasks.
 3. Open the **Permissions** tab.
 
-    ![Setting Permissions for Custom Roles](/img/product_docs/platgovnetsuite/installing_strongpoint/permissions_tab.webp)
+    ![Setting Permissions for Custom Roles](/images/platgovnetsuite/installing_strongpoint/permissions_tab.webp)
 
 4. Open the **Custom Record** tab and add the Record Types and access levels to your custom roles.
 
     Adding permissions to a role affects all employees who have the role assigned to them.
 
     Refer to the lists of Custom Permissions needed for each role: Change Request Approvers, Manage
-    ITGC, Manage SoD, User Access Review (UAR) and Manage Internal Audit - View Only.  
+    ITGC, Manage SoD, User Access Review (UAR) and Manage Internal Audit - View Only.
     The default settings are shown in the Default Custom Record Types and Permission Lists and
     Default SoD Custom Record Types and Permission Lists tables.
 
@@ -48,21 +48,21 @@ Here are the Custom Permissions needed for each role.
 
 #### Manage ITGC
 
-> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +  
-> Account Role: **Edit**  
-> Change / Approval Policy: **Full**  
-> Change Log: **Edit**  
-> Change Request: **Edit**  
-> Configuration and Stats: **Full**  
-> Customization: **Full**  
-> Environment: **Full**  
-> Environment Compare Log: **Full**  
-> Licensed User: **Full**  
-> Process: **Full**  
-> Spider Log: **View**  
-> Test Record: **Full**  
-> Users and License Manager: **Full**  
-> Validation Log: **View**  
+> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +
+> Account Role: **Edit**
+> Change / Approval Policy: **Full**
+> Change Log: **Edit**
+> Change Request: **Edit**
+> Configuration and Stats: **Full**
+> Customization: **Full**
+> Environment: **Full**
+> Environment Compare Log: **Full**
+> Licensed User: **Full**
+> Process: **Full**
+> Spider Log: **View**
+> Test Record: **Full**
+> Users and License Manager: **Full**
+> Validation Log: **View**
 > Warning Log: **Full**
 
 #### Manage SoD
@@ -71,47 +71,47 @@ Here are the Custom Permissions needed for each role.
 On the Custom Role, you must check **Do Not Restrict Employee Fields**.
 :::
 
-> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +  
-> Account Role: **Edit**  
-> Change / Approval Policy: **Edit**  
-> Change Log: **Edit**  
-> Change Request: **Edit**  
-> Configuration and Stats: **Edit**  
-> Customization: **View**  
-> Environment: **View**  
-> Process: **View**  
-> Test Record: **View**  
+> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +
+> Account Role: **Edit**
+> Change / Approval Policy: **Edit**
+> Change Log: **Edit**
+> Change Request: **Edit**
+> Configuration and Stats: **Edit**
+> Customization: **View**
+> Environment: **View**
+> Process: **View**
+> Test Record: **View**
 > Warning Log: **Edit**
 >
-> Permission: **Full**  
-> Permission / Permission Level Map: **Full**  
-> Permission Level: **Full**  
-> SoD Rule: **Full**  
+> Permission: **Full**
+> Permission / Permission Level Map: **Full**
+> Permission Level: **Full**
+> SoD Rule: **Full**
 > SoD Rule Processing Status: **Full**
 
 #### User Access Review (UAR)
 
-> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +  
-> Audit Trail: **Full**  
+> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +
+> Audit Trail: **Full**
 > Find Transaction: **Full**
 
 #### Manage Internal Audit - **View** Only
 
-> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +  
-> Account Role: **View**  
-> Change / Approval Policy: **View**  
-> Change Log: **View**  
-> Change Request: **View**  
-> Configuration and Stats: **View**  
-> Customization: **View**  
-> Environment: **View**  
-> Environment Compare Log: **View**  
-> Licensed User: **View**  
-> Process: **View**  
-> Spider Log: **View**  
-> Test Record: **View**  
-> Users and License Manager: **View**  
-> Validation Log: **View**  
+> [Strongpoint License](/docs/platgovnetsuite/installation/license_manager.md) +
+> Account Role: **View**
+> Change / Approval Policy: **View**
+> Change Log: **View**
+> Change Request: **View**
+> Configuration and Stats: **View**
+> Customization: **View**
+> Environment: **View**
+> Environment Compare Log: **View**
+> Licensed User: **View**
+> Process: **View**
+> Spider Log: **View**
+> Test Record: **View**
+> Users and License Manager: **View**
+> Validation Log: **View**
 > Warning Log: **View**
 
 **Default Custom Record Types and Permission Lists**

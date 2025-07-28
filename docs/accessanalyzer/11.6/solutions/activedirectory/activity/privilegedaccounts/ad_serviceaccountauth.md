@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_ServiceAccountAuth Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/serviceaccountauthanalysis.webp)
+![Analysis Task for the AD_ServiceAccountAuth Job](/images/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/serviceaccountauthanalysis.webp)
 
 The following non-configurable analysis task is selected by default:
 
@@ -32,4 +32,3 @@ follow pre-configured report:
 | Report           | Description                                                                                                                                 | Default Tags                                               | Report Elements                                                                                                                                 |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Service Accounts | Because many service accounts may not ever perform a logon, tracking authentication can be a better way to identify stale service accounts. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Bar Chart– Displays stale service accounts</li><li>Table – Displays account details</li></ul> |
-

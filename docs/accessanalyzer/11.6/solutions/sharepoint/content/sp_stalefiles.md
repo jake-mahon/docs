@@ -38,7 +38,7 @@ preconfigured for this job. Only the `@stale` parameter can be configured for th
 :::
 
 
-![Analysis Tasks for the SP_StaleFiles Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/content/stalefilesanalysis.webp)
+![Analysis Tasks for the SP_StaleFiles Job](/images/accessanalyzer/11.6/solutions/sharepoint/content/stalefilesanalysis.webp)
 
 The default analysis task is:
 

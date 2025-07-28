@@ -14,8 +14,8 @@ That's because, currently we have limitation with that feature support in IE. So
 
 Example 1:
 
-![299_1_image004](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/internetexplorer/299_1_image004.webp)
+![299_1_image004](/images/endpointpolicymanager/troubleshooting/applicationsettings/internetexplorer/299_1_image004.webp)
 
 Example 2:
 
-![299_2_image005](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/internetexplorer/299_2_image005.webp)
+![299_2_image005](/images/endpointpolicymanager/troubleshooting/applicationsettings/internetexplorer/299_2_image005.webp)

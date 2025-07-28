@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Category page contains the following categories:
 
-![System Info Data Collector Wizard Category page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/systeminfo/category.webp)
+![System Info Data Collector Wizard Category page](/images/accessanalyzer/11.6/admin/datacollector/systeminfo/category.webp)
 
 The report categories are:
 

@@ -19,7 +19,7 @@ Below is the sample output of running
 `sudo docker service ls | awk -F" " '{print $2,$3,$4}' in a single-node environment.  Run `sudo
 docker service ls` for the complete output:
 
-![Screen_Shot_2019-04-19_at_1.13.51_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/360021493614_screen_shot_2019-04-19_at_1.13.51_pm_293x206.webp)
+![Screen_Shot_2019-04-19_at_1.13.51_PM.webp](/images/privilegesecure/4.2/discovery/360021493614_screen_shot_2019-04-19_at_1.13.51_pm_293x206.webp)
 
 ## API Service Description
 
@@ -55,7 +55,7 @@ outages, etc.  When this happens and Privilege Secure is waiting to execute a c
 machine such as expiring an active JITA session, but cannot connect to a resource at the time
 required, the event passes into the expire queue where it is periodically attempted again until
 either successful, or times out as an error.  The expire container is responsible for managing
-expiration requests, both active and pending.  
+expiration requests, both active and pending.
 How to check the status of the expire service from the command line:
 
 - `sudo docker service ps s1_expire`
@@ -92,7 +92,7 @@ How to check the status of the ldapsync service from the command line:
 ## MQ Service Description
 
 MQ stands for "Messaging Queue" and it is the container which handles intra-container communications
-and prioritization of messages.  
+and prioritization of messages.
 How to check the status of the service from the command line:
 
 - `sudo docker service ps s1_mq`
@@ -102,7 +102,7 @@ How to check the status of the service from the command line:
 Privilege Secure is a continuous scanning solution for Privileged Access Management, and the scanner
 container is the service responsible for carrying that out.  It is its own independent container,
 solely responsible for scanning the network and updating all database records according to what it
-discovers.  
+discovers.
 How to check the status of the scanner service from the command line:
 
 - `sudo docker service ps s1_scanner`

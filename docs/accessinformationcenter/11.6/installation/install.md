@@ -11,16 +11,16 @@ Once the prerequisites have been met, follow the steps to install the Access Inf
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
 
-![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/accessinformationcenter/11.6/installation/welcome.webp)
+![Netwrix Access Information Center Setup Wizard Welcome page](/images/accessinformationcenter/11.6/installation/welcome.webp)
 
 **Step 2 –** On the Welcome page, click the Next button to begin the installation process.
 
-![AIC Setup Wizard End-User License Agreement page](/img/product_docs/accessinformationcenter/11.6/installation/eula.webp)
+![AIC Setup Wizard End-User License Agreement page](/images/accessinformationcenter/11.6/installation/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![AIC Setup Wizard Destination Folder page](/img/product_docs/accessinformationcenter/11.6/installation/destinationfolder.webp)
+![AIC Setup Wizard Destination Folder page](/images/accessinformationcenter/11.6/installation/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, you can choose between the default destination folder
 and a custom folder. Click Change to browse for a different location. When the destination is set as
@@ -32,7 +32,7 @@ are no specific requirements for changing the path.
 :::
 
 
-![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessinformationcenter/11.6/installation/sqlserver.webp)
+![AIC Setup Wizard SQL Server Connection page](/images/accessinformationcenter/11.6/installation/sqlserver.webp)
 
 **Step 5 –** On the SQL Server Connection page, provide the required database information. Click
 Next to test the connection to the SQL Server. If there are no errors, the next wizard page will
@@ -64,17 +64,17 @@ topic for additional information.
 :::
 
 
-![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessinformationcenter/11.6/installation/webserver.webp)
+![AIC Setup Wizard Configure Web Server page](/images/accessinformationcenter/11.6/installation/webserver.webp)
 
 **Step 6 –** On the Configure Web Server page, you can choose between the default port and a custom
 port on which the application will be accessible. To change the port, enter a new port number in the
 field. When the port is set as desired, click **Next**.
 
-![AIC Setup Wizard Ready to install page](/img/product_docs/accessinformationcenter/11.6/installation/ready.webp)
+![AIC Setup Wizard Ready to install page](/images/accessinformationcenter/11.6/installation/ready.webp)
 
 **Step 7 –** On the Ready to install page, click Install to begin the process.
 
-![AIC Setup Wizard Completed page](/img/product_docs/accessinformationcenter/11.6/installation/completed.webp)
+![AIC Setup Wizard Completed page](/images/accessinformationcenter/11.6/installation/completed.webp)
 
 **Step 8 –** Once the installation has successfully completed, click Finish to exit the wizard.
 

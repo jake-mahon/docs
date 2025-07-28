@@ -12,7 +12,7 @@ the site level. This includes looking at site broken inheritance and the trustee
 to those sites where inheritance is broken so that you can remove that access in favor of providing
 access via group membership.
 
-![3.Broken Inheritance > SP_BrokenInheritance Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/brokeninheritancejobstree.webp)
+![3.Broken Inheritance > SP_BrokenInheritance Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/sharepoint/brokeninheritancejobstree.webp)
 
 The SP_BrokenInheritance job is located in the 3.Broken Inheritance Job Group.
 
@@ -27,7 +27,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_BrokenInheritance Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/brokeninheritanceanalysis.webp)
+![Analysis Tasks for the SP_BrokenInheritance Job](/images/accessanalyzer/12.0/solutions/sharepoint/brokeninheritanceanalysis.webp)
 
 They need to remain in the default order:
 
@@ -46,4 +46,3 @@ inheritance, the SP_BrokenInheritance Job produces the following pre-configured 
 | Report             | Description                                                                                                                                                                                                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                     |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Broken Inheritance | This job is responsible for performing data analysis and generating SharePoint direct permission reports at the site level. This includes looking at site broken inheritance and the trustees who are assigned to those sites where inheritance is broken. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 site collections by resources with permission changes</li><li>Table – Provides a site collection summary</li><li>Table – Provides broken inheritance details</li></ul> |
-

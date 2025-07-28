@@ -9,14 +9,14 @@ sidebar_position: 20
 The **Application** node is for configuring general settings which affect the way the Enterprise
 Auditor Console functions.
 
-![Application](/img/product_docs/accessanalyzer/11.6/admin/settings/application/application.webp)
+![Application](/images/accessanalyzer/11.6/admin/settings/application/application.webp)
 
 **Application Log**
 
 The Enterprise Auditor Application Log section determines what information is stored in the
 Enterprise Auditor application log.
 
-![Application Log](/img/product_docs/accessanalyzer/11.6/admin/settings/application/applicationlog.webp)
+![Application Log](/images/accessanalyzer/11.6/admin/settings/application/applicationlog.webp)
 
 The Application log level controls the types of messages generated for each job and the application.
 It can be modified at the job level in the **Job Properties** window. See the
@@ -62,7 +62,7 @@ level to **Warning** or **Info**.
 The Profile Security section provides the option to enable an enhanced method of encryption to
 various credentials stored by the Enterprise Auditor application.
 
-![Profile Security](/img/product_docs/accessanalyzer/11.6/admin/settings/application/profilesecurity.webp).
+![Profile Security](/images/accessanalyzer/11.6/admin/settings/application/profilesecurity.webp).
 
 There are two options available in the Profiles stored with drop-down menu:
 
@@ -76,7 +76,7 @@ There are two options available in the Profiles stored with drop-down menu:
 The Usage Statistics section allows you to select whether to send usage statistics data to Netwrix
 to help us improve our product.
 
-![Usage Statistics](/img/product_docs/accessanalyzer/11.6/admin/settings/application/usagestatistics.webp)
+![Usage Statistics](/images/accessanalyzer/11.6/admin/settings/application/usagestatistics.webp)
 
 - If selected, usage statistics are collected and sent to Netwrix
 
@@ -96,7 +96,7 @@ to help us improve our product.
 The Host Target Options section provides radio buttons to select the source that Enterprise Auditor
 should use to connect to hosts.
 
-![Host Target Options](/img/product_docs/accessanalyzer/11.6/admin/settings/application/hosttargetoptions.webp)
+![Host Target Options](/images/accessanalyzer/11.6/admin/settings/application/hosttargetoptions.webp)
 
 Select from the following two options:
 
@@ -108,7 +108,7 @@ Select from the following two options:
 The Grid View Parameters section controls how the data grids display within the Enterprise Auditor
 Console.
 
-![Grid View Parameters](/img/product_docs/accessanalyzer/11.6/admin/settings/application/gridviewparameters.webp)
+![Grid View Parameters](/images/accessanalyzer/11.6/admin/settings/application/gridviewparameters.webp)
 
 - Automatically rename duplicate columns within a table – Checks for and renames columns with
   duplicate names
@@ -140,7 +140,7 @@ topic for additional information.
 The Cleanup section is designed to conserve space in the SQL Database Transaction Log. It only works
 when the database is configured to use Simple Recovery Model.
 
-![Cleanup Options](/img/product_docs/accessanalyzer/11.6/admin/settings/application/cleanup.webp)
+![Cleanup Options](/images/accessanalyzer/11.6/admin/settings/application/cleanup.webp)
 
 - Compact Database Transaction Log – If selected, every time the Enterprise Auditor application is
   closed, the Database Transaction Log is compacted
@@ -165,13 +165,13 @@ when the database is configured to use Simple Recovery Model.
 The Application Exit Options section controls whether or not a confirmation is displayed when the
 Enterprise Auditor application is closed.
 
-![Application Exit Options](/img/product_docs/accessanalyzer/11.6/admin/settings/application/applicationexitoptions.webp)
+![Application Exit Options](/images/accessanalyzer/11.6/admin/settings/application/applicationexitoptions.webp)
 
 If selected, the **Show Confirmation Dialog** option causes a Confirm Exit window to open when the
 Enterprise Auditor user attempts to exit the application. If deselected, the Enterprise Auditor
 application closes without confirmation.
 
-![Confirm Exit](/img/product_docs/accessanalyzer/11.6/admin/settings/application/confirmexitwindow.webp)
+![Confirm Exit](/images/accessanalyzer/11.6/admin/settings/application/confirmexitwindow.webp)
 
 The Confirm Exit window requires the **Yes** button to be clicked before the Enterprise Auditor
 application closes.

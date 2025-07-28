@@ -56,17 +56,17 @@ Enterprise Manager service.
 **Step 3 –** Navigate to the directory containing `SICertMgr.exe`. Right-click on the application
 and select **Run as Administrator**. The Certificate Management Wizard opens.
 
-![Certificate Management Wizard on the Select Action page](/img/product_docs/threatprevention/7.5/install/selectaction.webp)
+![Certificate Management Wizard on the Select Action page](/images/threatprevention/7.5/install/selectaction.webp)
 
 **Step 4 –** On the Select Action page, select **Create Certificate Signing Request(s)**. This
 action creates and exports a certificate signing request to a designated folder. Click **Next**.
 
-![Certificate Management Wizard on the Select Components page](/img/product_docs/threatprevention/7.5/install/selectcomponents.webp)
+![Certificate Management Wizard on the Select Components page](/images/threatprevention/7.5/install/selectcomponents.webp)
 
 **Step 5 –** On the Select Components page, click **Next** to proceed with creating a certificate
 signing request for the Enterprise Manager.
 
-![Certificate Management Wizard on the Export Certificate Signing Request(s) to page](/img/product_docs/threatprevention/7.5/install/exportcertificate.webp)
+![Certificate Management Wizard on the Export Certificate Signing Request(s) to page](/images/threatprevention/7.5/install/exportcertificate.webp)
 
 **Step 6 –** On the Export Certificate Signing Request(s) to page, select the folder to place the
 certificate request file. Click **Next** to generate the file.
@@ -84,7 +84,7 @@ The following files are placed in the
 - Em-crt.pem (private key)
 - EM-key.pem (private key)
 
-![Certificate Management Wizard on the Certificate Signing Requests Created page](/img/product_docs/threatprevention/7.5/install/csrfilescreated.webp)
+![Certificate Management Wizard on the Certificate Signing Requests Created page](/images/threatprevention/7.5/install/csrfilescreated.webp)
 
 **Step 7 –** The Certificate Signing Requests Created page is displayed when the certificate signing
 request has been created. Click **Finish**.
@@ -110,28 +110,28 @@ Follow the steps to complete a certificate signing request.
 **Step 1 –** Navigate to the directory containing `SICertMgr.exe`. Right-click on the application
 and select **Run as Administrator**. The Certificate Management Wizard opens.
 
-![Certificate Management Wizard on the Select Action page](/img/product_docs/threatprevention/7.5/install/selectactioncomplete.webp)
+![Certificate Management Wizard on the Select Action page](/images/threatprevention/7.5/install/selectactioncomplete.webp)
 
 **Step 2 –** On the Select Action page, select **Complete Certificate Signing Request(s)**. This
 action installs the signed certificate and configures Threat Prevention Enterprise Manager to trust
 the client certificate signed by the customer's certificate authority. Click **Next**.
 
-![Certificate Management Wizard on the Import Signed Certificate(s) page](/img/product_docs/threatprevention/7.5/install/importsignedcertificates.webp)
+![Certificate Management Wizard on the Import Signed Certificate(s) page](/images/threatprevention/7.5/install/importsignedcertificates.webp)
 
 **Step 3 –** On the Import Signed Certificate(s) page, select the folder containing the signed
 certificates. Then click **Next**.
 
-![Certificate Management Wizard - Import Certificate Authority Certificate(s) page](/img/product_docs/threatprevention/7.5/install/importcertificateauthority.webp)
+![Certificate Management Wizard - Import Certificate Authority Certificate(s) page](/images/threatprevention/7.5/install/importcertificateauthority.webp)
 
 **Step 4 –** On the Import Certificate Authority Certificate(s) page, select the PEM file containing
 your certificate authority's root and intermediate certificates. Click **Next**.
 
-![Certificate Management Wizard on the Certificates Import page](/img/product_docs/threatprevention/7.5/install/certificatesimported.webp)
+![Certificate Management Wizard on the Certificates Import page](/images/threatprevention/7.5/install/certificatesimported.webp)
 
 **Step 5 –** The Certificates Import page displays the number of files imported. Click **Finish** to
 close the wizard.
 
-The "\*.pem" files are imported to the following folder:  
+The "\*.pem" files are imported to the following folder:
 `...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\CertsInfo`
 
 **Step 6 –** Restart the Threat Prevention Enterprise Manager service.

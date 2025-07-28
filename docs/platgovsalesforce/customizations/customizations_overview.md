@@ -26,4 +26,4 @@ For Change Management and Compliance, the joins between customizations are criti
 IT risk of making changes to the system. For example, they warn you if changing a search could break
 a workflow or a script.
 
-![drd](/img/product_docs/platgovsalesforce/customizations/drd.webp)
+![drd](/images/platgovsalesforce/customizations/drd.webp)

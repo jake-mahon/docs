@@ -13,7 +13,7 @@ the targeted servers.
 
 The 0-SQL_InstanceDiscovery job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/collection/instancedisc_query.webp)
+![Query Selection](/images/accessanalyzer/12.0/solutions/databases/sql/collection/instancedisc_query.webp)
 
 - SQL Server Instance Discovery — Collects the list of SQL Server Instances from target endpoints
   and populates the necessary instance connection information
@@ -29,7 +29,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/collection/instancedisc_analysis.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/collection/instancedisc_analysis.webp)
 
 The default analysis tasks is:
 

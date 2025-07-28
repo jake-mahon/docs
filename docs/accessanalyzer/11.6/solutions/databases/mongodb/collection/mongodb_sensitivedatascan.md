@@ -13,7 +13,7 @@ on pre-defined or user-defined search criteria.
 
 The MongoDB_SensitiveDataScan Job uses the NOSQL Data Collector for queries.
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mongodb/collection/sensitivedatascan_job.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/mongodb/collection/sensitivedatascan_job.webp)
 
 The query is:
 
@@ -45,7 +45,7 @@ pre-configured for this job.
 **Step 4 –** Navigate to the
 [NoSQL: Options](/docs/accessanalyzer/11.6/admin/datacollector/nosql/options.md).
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/11.6/install/application/options.webp)
+![Sensitive Data Scan Settings](/images/accessanalyzer/11.6/install/application/options.webp)
 
 **Step 5 –** Select the desired scan options.
 
@@ -53,7 +53,7 @@ pre-configured for this job.
 [NoSQL: Criteria](/docs/accessanalyzer/11.6/admin/datacollector/nosql/criteria.md)
 page.
 
-![Criteria Page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/criteria.webp)
+![Criteria Page](/images/accessanalyzer/11.6/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 7 –** To modify criteria, navigate to the
 [NoSQL: Criteria](/docs/accessanalyzer/11.6/admin/datacollector/nosql/criteria.md)
@@ -73,12 +73,12 @@ may significantly increase scan time.
 [NoSQL: Filter](/docs/accessanalyzer/11.6/admin/datacollector/nosql/filter.md)
 page.
 
-![Database Selection Settings](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/filter.webp)
+![Database Selection Settings](/images/accessanalyzer/11.6/admin/datacollector/ewsmailbox/filter.webp)
 
 **Step 9 –** MongoDB databases must be added to the query before they can be scanned. Click
 **Connections** to open the Manage Connections window.
 
-![Manage Connections window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/nosql/manageconnections.webp)
+![Manage Connections window](/images/accessanalyzer/11.6/admin/datacollector/nosql/manageconnections.webp)
 
 **Step 10 –** In the Manage Connections window, click **Create New** and add the following
 information:
@@ -127,7 +127,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mongodb/collection/analysissensitivedatascan.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/mongodb/collection/analysissensitivedatascan.webp)
 
 The default analysis tasks are:
 

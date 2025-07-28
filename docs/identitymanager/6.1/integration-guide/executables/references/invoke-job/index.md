@@ -14,7 +14,7 @@ The
 [Usercube-Invoke-Job.exe](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/jobs/index.md)
 tool is a state machine.
 
-![Schematization](/img/product_docs/identitymanager/6.1/integration-guide/executables/references/invoke-job/job_operation.webp)
+![Schematization](/images/identitymanager/6.1/integration-guide/executables/references/invoke-job/job_operation.webp)
 
 When a job is launched, the state machine starts by computing all the tasks that must be launched in
 the job.

@@ -13,7 +13,7 @@ rule.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/rules/run_with_customized_token.webp)
+generated](/images/endpointpolicymanager/leastprivilege/rules/run_with_customized_token.webp)
 
 Here you can change a variety of functions about the token including its permissions, privileges and
 security, as well as Integrity level.

@@ -12,7 +12,7 @@ This connector exports datasheets from a
 This page is about
 [File/Microsoft Excel](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/excel/index.md).
 
-![Package: File/Microsoft Excel](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
+![Package: File/Microsoft Excel](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
 ## Overview
 
@@ -101,7 +101,7 @@ This connector exports datasheets from a
 This page is about
 [File/Microsoft Excel](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/excel/index.md).
 
-![Package: File/Microsoft Excel](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
+![Package: File/Microsoft Excel](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
 ## Overview
 

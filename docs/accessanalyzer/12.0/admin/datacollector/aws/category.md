@@ -9,7 +9,7 @@ sidebar_position: 10
 Use the Category page to select the type of scan for the targeted AWS instance or maintenance task
 to perform.
 
-![AWS Category page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/aws/category.webp)
+![AWS Category page](/images/accessanalyzer/12.0/admin/datacollector/aws/category.webp)
 
 The options on the Category page are:
 

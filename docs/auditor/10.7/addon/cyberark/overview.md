@@ -36,7 +36,7 @@ into actions related to CyberArk tools, in particular:
 The add-on is implemented as a syslog service that collects activity data from CyberArk system (PAS)
 and sends it to Auditor using the Integration API.
 
-![HIW_CyberArch](/img/product_docs/auditor/10.7/addon/cyberark/diagram_thumb_0_0.webp)
+![HIW_CyberArch](/images/auditor/10.7/addon/cyberark/diagram_thumb_0_0.webp)
 
 The add-on operates as a syslog listener for the CyberArk system. On a high level, the solution
 works as follows:

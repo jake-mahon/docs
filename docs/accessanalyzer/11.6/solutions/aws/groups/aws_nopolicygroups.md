@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_NoPolicyGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/groups/nopolicygroupsanalysis.webp)
+![Analysis Tasks for the AWS_NoPolicyGroups Job](/images/accessanalyzer/11.6/solutions/aws/groups/nopolicygroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -36,4 +36,3 @@ produces the following preconfigured report:
 | Report                  | Description                                                       | Default Tags | Report Element                                                                                                                                                                                                                                    |
 | ----------------------- | ----------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Groups With No Policies | This report identifies groups that do not have a policy assigned. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top accounts by no policy group counts</li><li>Table – Shows no policy groups by accounts</li><li>Table – Provides details on no policy groups</li></ul> |
-

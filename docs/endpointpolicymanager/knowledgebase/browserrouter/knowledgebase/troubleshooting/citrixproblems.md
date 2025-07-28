@@ -23,4 +23,4 @@ screenshot.
 
 Chrome is keeping itself alive, even though it should not. This will fix the problem.
 
-![253_1_image0015](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/chrome/253_1_image0015.webp)
+![253_1_image0015](/images/endpointpolicymanager/troubleshooting/browserrouter/chrome/253_1_image0015.webp)

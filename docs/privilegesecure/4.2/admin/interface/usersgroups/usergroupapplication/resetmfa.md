@@ -18,11 +18,11 @@ Follow the steps below to reset a user's MFA.
 
 **Step 2 –** Select the desired user or group account.
 
-![Reset MFA for Users and Groups Account](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfa.webp)
+![Reset MFA for Users and Groups Account](/images/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfa.webp)
 
 **Step 3 –** Click the **Reset MFA** button.
 
-![Reset MFA for Account Confermation Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfawindow.webp)
+![Reset MFA for Account Confermation Window](/images/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfawindow.webp)
 
 **Step 4 –** Click the **Reset MFA** button in the confirmation window.
 

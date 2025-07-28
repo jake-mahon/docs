@@ -9,7 +9,7 @@ sidebar_position: 120
 The SDD Criteria Settings page is where criteria to be used for discovering sensitive data during a
 scan is configured. It is a wizard page for the category of Sensitive Data Scan.
 
-![FSAA Data Collector Wizard SDD Criteria Settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/sddcriteria.webp)
+![FSAA Data Collector Wizard SDD Criteria Settings page](/images/accessanalyzer/12.0/admin/datacollector/fsaa/sddcriteria.webp)
 
 The options on the SDD Criteria Settings page are:
 

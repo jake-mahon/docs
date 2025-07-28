@@ -11,7 +11,7 @@ passwords, restricted access to sensitive information (limited to super administ
 protection, and enforcement of password security for all administrators at the next login.
 Additionally, you can set password expiration policies.
 
-![System Security Settings](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/systemsecurity.webp)
+![System Security Settings](/images/endpointprotector/5.9.4/admin/systemconfiguration/systemsecurity.webp)
 
 ## Security Password for Uninstall Protection
 
@@ -21,18 +21,18 @@ Protector Client uninstall action.
 **NOTE:** At the top of the page, you will view a message informing you if a password is set for
 this action.
 
-![Security Password for Uninstall Protection](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/uninstallprotectionone.webp)
+![Security Password for Uninstall Protection](/images/endpointprotector/5.9.4/admin/systemconfiguration/uninstallprotectionone.webp)
 
 Define the security password for uninstall protection in the Password box.
 
-![Security Password for Uninstall Protection](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/uninstallprotectiontwo.webp)
+![Security Password for Uninstall Protection](/images/endpointprotector/5.9.4/admin/systemconfiguration/uninstallprotectiontwo.webp)
 
 ## Data Security Privileges
 
 From this section, you can allow access to sensitive data only to super administrators by selecting
 the **Restrict Sensitive Data Access only to super administrators** checkbox.
 
-![Data Security Privileges](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/datasecurityprivileges.webp)
+![Data Security Privileges](/images/endpointprotector/5.9.4/admin/systemconfiguration/datasecurityprivileges.webp)
 
 ## Additional Security Password for Sensitive Data Protection
 
@@ -41,12 +41,12 @@ From this section, you can set a password for sensitive data to provide addition
 **NOTE:** At the top of the page, you will view a message informing you if a password is set for
 this action.
 
-![Additional Security Password for Sensitive Data Protection](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/passwordsensitivedataprotectionone.webp)
+![Additional Security Password for Sensitive Data Protection](/images/endpointprotector/5.9.4/admin/systemconfiguration/passwordsensitivedataprotectionone.webp)
 
 Reset the security password for sensitive data protection password by filling in the current
 password and then the new password.
 
-![Additional Security Password for Sensitive Data Protection](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/passwordsensitivedataprotectiontwo.webp)
+![Additional Security Password for Sensitive Data Protection](/images/endpointprotector/5.9.4/admin/systemconfiguration/passwordsensitivedataprotectiontwo.webp)
 
 ## Backend Console Setup Password
 
@@ -55,7 +55,7 @@ the Backend Console. To activate this safeguard, navigate to Security Conﬁgura
 Security, and enable Backend Console Setup Password under the Backend Console Setup section. Save
 your changes to add an extra layer of security, for a more secure and controlled environment.
 
-![Backend Console Setup Password](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/backendconsolesetuppassword.webp)
+![Backend Console Setup Password](/images/endpointprotector/5.9.4/admin/systemconfiguration/backendconsolesetuppassword.webp)
 
 **CAUTION:** This feature is designed for Ubuntu 22. With backend password settings enabled and
 applied:
@@ -87,7 +87,7 @@ If enabled, only complex passwords can be deﬁned, complying with the below rul
 priority over Advanced User Password Settings as this setting also applies to non-admin, such as
 Reporter, Read-only users, etc.
 
-![Security Password for System Administrator](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/securitypasswordsystemadministrator.webp)
+![Security Password for System Administrator](/images/endpointprotector/5.9.4/admin/systemconfiguration/securitypasswordsystemadministrator.webp)
 
 ## Advanced User Password Settings
 
@@ -112,4 +112,4 @@ section.
 **CAUTION:** After you provide all information for the Advanced User Password Settings section, all
 users are required to change their passwords at the next login, not only admins.
 
-![Advanced User Password Settings](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/advanceduserpasswordsettings.webp)
+![Advanced User Password Settings](/images/endpointprotector/5.9.4/admin/systemconfiguration/advanceduserpasswordsettings.webp)

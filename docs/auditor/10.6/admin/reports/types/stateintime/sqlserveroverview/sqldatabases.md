@@ -9,7 +9,7 @@ sidebar_position: 30
 This report lists the properties of databases and database snapshots hosted on the selected SQL
 Server instance. Use this report for your SQL Server database inventory.
 
-![sqlserverdatabases](/img/product_docs/auditor/10.6/admin/reports/types/stateintime/sqlserverdatabases.webp)
+![sqlserverdatabases](/images/auditor/10.6/admin/reports/types/stateintime/sqlserverdatabases.webp)
 
 ## Reported data
 

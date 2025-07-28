@@ -12,7 +12,7 @@ Enforcer helps you to secure your network by ensuring that users choose strong p
 chooses a password that does not comply with the password policy, Password Policy Enforcer
 immediately rejects the password and tells the user why their password was rejected.
 
-![introduction_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+![introduction_3](/images/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
 
 Unlike password cracking products that check passwords after they are accepted by the operating
 system, Password Policy Enforcer checks new passwords immediately to ensure that weak passwords do

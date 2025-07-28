@@ -25,9 +25,9 @@ for any history records, and if so, move them from the GroupID database to the f
 - **AdminCenterHistory** - contains Admin Center history data. See the
   [Admin Center History](/docs/directorymanager/11.0/signin/concepts/history_1.md) topic.
 
-These files are available at the following location on the GroupID server:  
+These files are available at the following location on the GroupID server:
 X:\Program Files\Imanami\GroupID
-11.0\GroupIDDataService\Inetpub\GroupIDDataService\Web\HistoryBin\  
+11.0\GroupIDDataService\Inetpub\GroupIDDataService\Web\HistoryBin\
 (X is the GroupID installation drive)
 
 History data moved to these files is not longer displayed in GroupID.
@@ -40,7 +40,7 @@ store that user belongs to.
 After the History Retention schedule runs, the following information is displayed on the **History**
 page in identity store configurations:
 
-![historyretention](/img/product_docs/directorymanager/11.0/admincenter/schedule/historyretention.webp)
+![historyretention](/images/directorymanager/11.0/admincenter/schedule/historyretention.webp)
 
 You cannot create or delete a History Retention schedule; only update the existing one.
 
@@ -57,7 +57,7 @@ What do you want to do?
 4. On the **Schedules** page, click the plus sign next to **History Retention**. Then click the
    ellipsis button for the schedule and select **Edit**.
 5. On the **Edit Schedule** page, the schedule name is displayed in the **Schedule Name** box as
-   read-only.  
+   read-only.
    The default name format is: _HistoryRetention_`<identity store ID>`_`<identity store name>`_.
 6. The **Name Preview** box displays the schedule name as HistoryRetention; the schedule is
    displayed with this name in email notifications.
@@ -77,7 +77,7 @@ What do you want to do?
     topic to manage triggers.
 
 9. Click **Update Schedule**.
-10. On the **Schedules** page, click **Save**.  
+10. On the **Schedules** page, click **Save**.
     For general schedule info, see the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/signin/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic.

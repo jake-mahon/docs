@@ -28,7 +28,7 @@ the effected pieces of the application.
 right-click "at least one lower case character (a-z)" and select "Perform ACL Lockdown," as seen in
 Figure 14.
 
-![policypak_application_settings_13](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_13.webp)
+![policypak_application_settings_13](/images/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_13.webp)
 
 Figure 14. Selecting the "Perform ACL Lockdown" setting.
 
@@ -49,7 +49,7 @@ On the client machine
 Options, select the Passwords tab, and uncheck the two checkboxes that are available, as shown in
 Figure 15. Then click OK.
 
-![policypak_application_settings_14](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_14.webp)
+![policypak_application_settings_14](/images/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_14.webp)
 
 Figure 15. The Passwords tab in WinZip Options.
 
@@ -57,7 +57,7 @@ Figure 15. The Passwords tab in WinZip Options.
 Figure 16 shows that the user's desired changes did not take effect because Endpoint Policy Manager
 Application Settings Manager has used ACL Lockdown™ to perform the lockout of the settings.
 
-![policypak_application_settings_15](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_15.webp)
+![policypak_application_settings_15](/images/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_15.webp)
 
 Figure 16. Using ACL Lockdown, the user's changes have not taken effect because the settings have
 been locked.

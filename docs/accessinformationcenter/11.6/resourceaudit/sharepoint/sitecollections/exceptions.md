@@ -10,7 +10,7 @@ The Exceptions report at the site collection, site, list, library, and folder le
 of all trustees with access that are causing exceptions on the selected resource. This report
 includes a Permission Source table.
 
-![Exceptions report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteexceptions.webp)
+![Exceptions report at the site collection, site, list, library, and folder levels](/images/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteexceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open
 access and permissions granted to stale or disabled users. This table is blank unless an Exception
@@ -27,7 +27,7 @@ This report is comprised of the following columns:
 There is one table at the bottom displaying Permission Source for the select trustee. It contains
 all of the ways the selected trustee has been granted rights to the selected resource.
 
-![Permission Source table](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteexceptionstable.webp)
+![Permission Source table](/images/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteexceptionstable.webp)
 
 The number of rows for this table indicates the number of ways this trustee has been granted access.
 This table is comprised of the following columns:

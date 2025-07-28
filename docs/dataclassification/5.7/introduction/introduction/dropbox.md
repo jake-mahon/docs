@@ -52,4 +52,4 @@ more information on the accounts and rights.
     - files.team_metadata.write
     - members.read
 
-![dropbox_authorize_app](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/dropbox_authorize_app.webp)
+![dropbox_authorize_app](/images/dataclassification/5.7/configuration/configinfrastructure/dropbox_authorize_app.webp)

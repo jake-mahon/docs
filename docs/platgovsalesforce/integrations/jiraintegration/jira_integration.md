@@ -67,7 +67,7 @@ your Jira system administrator if you do not have administrative permissions.
 2. Select **Apps** > **Explore more Apps >**
 3. Search for **Strongpoint**.
 
-    ![Strongpoint apps in the Jira Marketplace](/img/product_docs/platgovsalesforce/integrations/jira_marketplace.webp)
+    ![Strongpoint apps in the Jira Marketplace](/images/platgovsalesforce/integrations/jira_marketplace.webp)
 
 4. Click **Strongpoint for Salesforce** to install the app.
 
@@ -85,15 +85,15 @@ through the exchange of tokens.
 Configure the connected app:
 
 1. Log in to your Salesforce org.
-2. Open the Connected App:  
+2. Open the Connected App:
    **Setup** > **Apps** > **App Manager** > **Strongpoint** (where **App Type** = **Connected**)
 
-    ![Open the Strongpoint Connected App](/img/product_docs/platgovsalesforce/integrations/connected_app.webp)
+    ![Open the Strongpoint Connected App](/images/platgovsalesforce/integrations/connected_app.webp)
 
 3. Click the drop down arrow on the right side and select **Edit**.
 4. Set the **Callback URL** to **https://spjira.my.salesforce-sites.com/SpHandleJiraAuth**
-5. These **Oauth Scopes** must be selected:  
-   **Full access (full)**  
+5. These **Oauth Scopes** must be selected:
+   **Full access (full)**
    **Perform requests at any time (refresh_token, offline_access)**
 6. Click **Save**.
 
@@ -103,7 +103,7 @@ Configure the connected app:
 
 7. Click **Manage Consumer Details**.
 
-    ![Click Manage Consumer Details](/img/product_docs/platgovsalesforce/integrations/manage_consumer_details.webp)
+    ![Click Manage Consumer Details](/images/platgovsalesforce/integrations/manage_consumer_details.webp)
 
 8. Copy the Consumer Key and the Consumer Secret codes to a clipboard. You are prompted for this
    information when you use the app.
@@ -117,7 +117,7 @@ alternative.
    open **Settings** > **Configuration and Stats**.
 2. Open the **Jira Configuration** tab.
 
-    ![Open the credentials](/img/product_docs/platgovsalesforce/integrations/jira_sp_credentials.webp)
+    ![Open the credentials](/images/platgovsalesforce/integrations/jira_sp_credentials.webp)
 
 3. Enter your credentials:
 
@@ -145,7 +145,7 @@ Follow the instructions for Restricting Access to a Project or Setting Groups/Pr
 
 1. Open a Jira project.
 
-    ![Open a project](/img/product_docs/platgovsalesforce/integrations/jira_restrict_access1.webp)
+    ![Open a project](/images/platgovsalesforce/integrations/jira_restrict_access1.webp)
 
 2. Select **Strongpoint Sf Settings**.
 3. Select the **Project Visibility Settings** tab.
@@ -171,12 +171,12 @@ Follow the instructions for Restricting Access to a Project or Setting Groups/Pr
 
 1. Open a Jira project.
 2. Select **Strongpoint Sf Settings**.
-3. Select the **Profile Visibility Settings** tab. There are two lists:  
-   **Existing Groups** are all of the current groups in Jira  
+3. Select the **Profile Visibility Settings** tab. There are two lists:
+   **Existing Groups** are all of the current groups in Jira
    **Selected Groups** are groups that can see the Platform Governance for Salesforce Jira
    integration. If **Selected Groups** is blank, all groups have access to the integration.
 
-    ![Profile Visibility Settings](/img/product_docs/platgovsalesforce/integrations/profile_visability1.webp)
+    ![Profile Visibility Settings](/images/platgovsalesforce/integrations/profile_visability1.webp)
 
 4. Select an existing group and click **Add** to include it as a **Selected Group**. To remove a
    group from the selected list, select it and click **Remove**. If **Selected Groups** is blank,
@@ -190,7 +190,7 @@ Follow the instructions for Restricting Access to a Project or Setting Groups/Pr
 2. Open the **Jira Configuration** tab.
 3. Open the **Status Mapping** tab.
 
-    ![Set up the Jira status mappings for Change Request status](/img/product_docs/platgovsalesforce/integrations/jira_status_settings.webp)
+    ![Set up the Jira status mappings for Change Request status](/images/platgovsalesforce/integrations/jira_status_settings.webp)
 
 4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define
    your Jira statuses prior to this step. You can enter multiple Jira statuses for each Change

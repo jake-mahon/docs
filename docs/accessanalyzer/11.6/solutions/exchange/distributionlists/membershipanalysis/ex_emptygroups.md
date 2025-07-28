@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_EmptyGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/membershipanalysis/emptygroupsanalysis.webp)
+![Analysis Tasks for the EX_EmptyGroups Job](/images/accessanalyzer/11.6/solutions/exchange/distributionlists/membershipanalysis/emptygroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -9,7 +9,7 @@ sidebar_position: 10
 The Scan Summary report at the **NFS Exports** node provides a summary view of all shares on the
 server with the share type of Shared.
 
-![Scan Summary report at the NFS Exports node](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/nfsexports/nfsscansummary.webp)
+![Scan Summary report at the NFS Exports node](/images/accessinformationcenter/12.0/resourceaudit/filesystem/nfsexports/nfsscansummary.webp)
 
 This report is comprised of the following columns:
 

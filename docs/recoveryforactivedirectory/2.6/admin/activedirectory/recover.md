@@ -13,7 +13,7 @@ Click **Active Directory** in the left pane to open the [Active Directory Page](
 and expand a domain in the left pane and click Recycle Bin to get a list of deleted objects in the
 domain.
 
-![Recycle Bin](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/recyclebin.webp)
+![Recycle Bin](/images/recoveryforactivedirectory/2.6/admin/activedirectory/recyclebin.webp)
 
 You can recover deleted objects.
 
@@ -53,11 +53,11 @@ Follow the steps to recover a deleted object.
 
 The Object Restore wizard opens.
 
-![Object Restore wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/objectbackups_1.webp)
+![Object Restore wizard - Object Backups page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/objectbackups_1.webp)
 
 **Step 4 –** In the Backup Data section, select a backup date to restore from. Then click **Next**.
 
-![Object Restore wizard - Domain Controller page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/domaincontroller.webp)
+![Object Restore wizard - Domain Controller page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/domaincontroller.webp)
 
 **Step 5 –** Select a domain controller where the restore operation will get affected. Options are:
 
@@ -68,7 +68,7 @@ The Object Restore wizard opens.
 
 **Step 6 –** Click **Next**.
 
-![Object Restore wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/recoveryoptions.webp)
+![Object Restore wizard - Recovery Options page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/recoveryoptions.webp)
 
 **Step 7 –** On the Recovery Options page, select the Container and Naming Conflict actions for the
 recovery process.
@@ -97,7 +97,7 @@ recovery process.
 
 **Step 8 –** Click **Next**.
 
-![Object Restore wizard - User Options page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/useroptions.webp)
+![Object Restore wizard - User Options page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/useroptions.webp)
 
 **Step 9 –** The User Options page is displayed when user objects are being restored. When a user
 object is included as a child object being restored, this page is also displayed. Select the check
@@ -117,7 +117,7 @@ boxes to configure the necessary options for the user.
 
 **Step 10 –** Click **Next**.
 
-![Object Restore wizard - Credentials page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/credentials_1.webp)
+![Object Restore wizard - Credentials page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/credentials_1.webp)
 
 **Step 11 –** The account preforming the operation must have Domain Admin privileges to access the
 domain tree area where the object resides. On the Credentials page:
@@ -132,13 +132,13 @@ permissions that are necessary to perform backups, rollbacks and recovery, see t
 [Least Privilege Access Model](/docs/recoveryforactivedirectory/2.6/requirements/targetdomain.md#least-privilege-access-model)
 topic.
 
-![Object Restore wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/confirm_1.webp)
+![Object Restore wizard - Confirm page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/confirm_1.webp)
 
 **Step 12 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
 to finish the wizard.
 
-![Object Restore Complete message](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/objectrestorecompleted.webp)
+![Object Restore Complete message](/images/recoveryforactivedirectory/2.6/admin/activedirectory/objectrestorecompleted.webp)
 
 **Step 13 –** A completed message is displayed when the restore is successful. Click **OK**.d
 

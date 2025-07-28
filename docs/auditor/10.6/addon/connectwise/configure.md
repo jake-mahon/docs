@@ -20,7 +20,7 @@ them, you will need an API Member account. See
 wizard to configure connection to ConnectWise Manage and ticketing options. At the Connection Setup
 step, specify the following:
 
-![1_connection](/img/product_docs/auditor/10.6/addon/connectwise/connectionsetup.webp)
+![1_connection](/images/auditor/10.6/addon/connectwise/connectionsetup.webp)
 
 | Parameter  | Description                                                                                   |
 | ---------- | --------------------------------------------------------------------------------------------- |
@@ -31,7 +31,7 @@ step, specify the following:
 
 **Step 3 –** At the Service Ticket Routing step, specify the following:
 
-![serviceticketrouting](/img/product_docs/auditor/10.6/addon/connectwise/serviceticketrouting.webp)
+![serviceticketrouting](/images/auditor/10.6/addon/connectwise/serviceticketrouting.webp)
 
 | Parameter     | Description                                                                                                                                                         |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,7 +43,7 @@ step, specify the following:
 **Step 4 –** Configure how Auditor activity record fields will be mapped with **ConnectWise Manage**
 ticket fields.
 
-![ticketfieldmapping](/img/product_docs/auditor/10.6/addon/connectwise/ticketfieldmapping.webp)
+![ticketfieldmapping](/images/auditor/10.6/addon/connectwise/ticketfieldmapping.webp)
 
 | Parameter       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,16 +53,16 @@ ticket fields.
 | Business Impact | Specify what business impact level will be assigned to the service tickets. Default is Medium.                                                                                                                                                                                                                                                                                                                                                                                            |
 
 Optionally, you can click the Create Test Ticket button — then a test ticket will be created in
-ConnectWise Manage to help you verify the connection and ticketing settings you configured.  
+ConnectWise Manage to help you verify the connection and ticketing settings you configured.
 Its Summary field will contain _[Netwrix Auditor] Test Alert_; its Initial Description field will
 contain _This ticket was created to test the functionality of Netwrix Auditor Add-on for ConnectWise
-Manage_. Also, the test ticket will have a sample attachment (_TestAttachment.txt_).  
-![testalert](/img/product_docs/auditor/10.6/addon/connectwise/testalert.webp)
+Manage_. Also, the test ticket will have a sample attachment (_TestAttachment.txt_).
+![testalert](/images/auditor/10.6/addon/connectwise/testalert.webp)
 
 **Step 5 –** Finally, at the **Summary** step, review the location of configuration file with the
 settings you specified: _C:\Addon\ITSM_CW\ConnectWiseSettings.xml_.
 
-![summary](/img/product_docs/auditor/10.6/addon/connectwise/summary.webp)
+![summary](/images/auditor/10.6/addon/connectwise/summary.webp)
 
 If needed, you can edit the configuration file manually. See the
 [Connection and Ticketing Settings](/docs/auditor/10.6/addon/connectwise/connectionticketingsettings.md)

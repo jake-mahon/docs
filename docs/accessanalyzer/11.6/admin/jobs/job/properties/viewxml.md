@@ -9,7 +9,7 @@ sidebar_position: 100
 At the bottom of the Job Properties window is the **View XML** button. To view the XML file, click
 **View** XML.
 
-| ![View XML button on Job Properties window](/img/product_docs/accessanalyzer/11.6/admin/jobs/job/properties/viewxmlbutton.webp) | ![XML Text window](/img/product_docs/accessanalyzer/11.6/admin/jobs/job/properties/viewxml.webp) |
+| ![View XML button on Job Properties window](/images/accessanalyzer/11.6/admin/jobs/job/properties/viewxmlbutton.webp) | ![XML Text window](/images/accessanalyzer/11.6/admin/jobs/job/properties/viewxml.webp) |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | Job Properties Window                                                                                                                                 | Job XML File                                                                                                           |
 

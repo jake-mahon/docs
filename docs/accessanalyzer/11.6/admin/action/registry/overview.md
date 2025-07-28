@@ -47,6 +47,6 @@ The Welcome page gives an overview of the Registry Action Module Wizard. The ste
 contains links to the pages in the wizard. Review the introductory and caution information about the
 Registry Action Module before proceeding.
 
-![Registry Action Module Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/action/registry/welcome.webp)
+![Registry Action Module Wizard Welcome page](/images/accessanalyzer/11.6/admin/action/registry/welcome.webp)
 
 To proceed, click Next or use the Steps navigation pane to open another page in the wizard.

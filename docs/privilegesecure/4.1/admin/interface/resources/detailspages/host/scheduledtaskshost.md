@@ -9,7 +9,7 @@ sidebar_position: 80
 The Scheduled Tasks tab shows information about the tasks that are scheduled to run on the selected
 resource.
 
-![Scheduled Tasks Tab for Host Resource](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/scheduledtaskshost.webp)
+![Scheduled Tasks Tab for Host Resource](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/scheduledtaskshost.webp)
 
 The Scheduled Tasks tab has the following features:
 

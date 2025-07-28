@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_LocalUsersAndGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/localusersandgroupsanalysis.webp)
+![Analysis Tasks for the FS_LocalUsersAndGroups Job](/images/accessanalyzer/12.0/solutions/filesystem/directpermissions/localusersandgroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -38,4 +38,3 @@ produces the following pre-configured report:
 | Report                 | Description                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                                              |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Local Users And Groups | This report identifies at the server level, how many local users and groups have direct ACLs, followed by details at the share level. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top five servers with local users and groups by affected folders</li><li>Table – Provides details on local users and groups</li></ul> |
-

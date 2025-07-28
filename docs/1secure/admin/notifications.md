@@ -12,7 +12,7 @@ expired credentials, and others.
 
 | Icon                                                                                    | Description                                             |
 | --------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell icon. Click the Bell icon to look for the updates. |
+| ![selfupdate_icon](/images/1secure/admin/selfupdate_icon.webp) | Bell icon. Click the Bell icon to look for the updates. |
 
 Follow the steps to review notifications.
 
@@ -20,6 +20,6 @@ Follow the steps to review notifications.
 
 **Step 2 –** You can select and fix any of the issues on the displayed panel.
 
-![notifications](/img/product_docs/1secure/admin/notifications.webp)
+![notifications](/images/1secure/admin/notifications.webp)
 
 **Step 3 –** Select **Fix**.

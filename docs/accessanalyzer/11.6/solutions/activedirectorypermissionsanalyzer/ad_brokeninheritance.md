@@ -9,7 +9,7 @@ sidebar_position: 80
 The AD_BrokenInheritance Job reports on all locations within Active Directory where inheritance is
 broken within the targeted domains.
 
-![6.Broken Inheritance Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/brokeninheritancejobstree.webp)
+![6.Broken Inheritance Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/brokeninheritancejobstree.webp)
 
 The AD_BrokenInheritance Job is located in the 6.Broken Inheritance Job Group.
 
@@ -24,7 +24,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_BrokenInheritance Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/brokeninheritanceanalysis.webp)
+![Analysis Tasks for the AD_BrokenInheritance Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/brokeninheritanceanalysis.webp)
 
 The default analysis tasks are:
 
@@ -39,4 +39,3 @@ produces the following pre-configured report.
 | Report                       | Description                                                                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                     |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Broken Inheritance by Domain | This report highlights instances of broken inheritance on Active Directory objects. This information is summarized by domain. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays broken inheritance by domain</li><li>Table – Provides summary of broken inheritance by OU</li><li>Table – Provides details on broken inheritance</li></ul> |
-

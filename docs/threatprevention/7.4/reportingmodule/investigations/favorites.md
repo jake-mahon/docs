@@ -14,7 +14,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 investigations. To get this list in the adjacent pane, hover your mouse over the Favorites option
 and click the icon that is displayed.
 
-![Investigation interface on the Favorites page](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/favorites.webp)
+![Investigation interface on the Favorites page](/images/threatprevention/7.4/reportingmodule/investigations/favorites.webp)
 
 The table displays the list of favorite investigations with the following columns:
 

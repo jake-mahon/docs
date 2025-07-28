@@ -36,23 +36,23 @@ the dependencies.
 1. The DRD can be launched from both the Home tab and the Tools menu. Open **Netwrix Dashboard** >
    **Tools** > **Dependency Relationship Diagram**, and select an object from the list.
 
-    ![Opening an item in the DRD](/img/product_docs/platgovsalesforce/tech_debt/tech_debt_10.webp)
+    ![Opening an item in the DRD](/images/platgovsalesforce/tech_debt/tech_debt_10.webp)
 
     From the **Netwrix Dashboard** tab, use the **DRD Generator** to launch the DRD for a particular
     Customization. You can search by **Name** or **API Name**.
 
-    ![Opening an item in the DRD](/img/product_docs/platgovsalesforce/tech_debt/tech_debt_1.webp)
+    ![Opening an item in the DRD](/images/platgovsalesforce/tech_debt/tech_debt_1.webp)
 
 2. Click an attribute to expand the metadata record and view all the dependencies. Drill down for
    details so you can fully understand the downstream dependencies.
 
-    ![Viewing dependencies in the DRD](/img/product_docs/platgovsalesforce/tech_debt/tech_debt_13.webp)
+    ![Viewing dependencies in the DRD](/images/platgovsalesforce/tech_debt/tech_debt_13.webp)
 
 3. The DRD exposes other critical metadata such as the Owner, API Name, Data Type, and Date Last
    Used (DLU). This data expedites clean up, enabling you to filter and group Customizations in List
    Views or Reports.
 
-    ![Drilling into a dependency in the DRD](/img/product_docs/platgovsalesforce/tech_debt/tech_debt_11.webp)
+    ![Drilling into a dependency in the DRD](/images/platgovsalesforce/tech_debt/tech_debt_11.webp)
 
 4. Click **Open Record** to open the full Customization Record with complete access to the detailed
    metadata and change history for the Customization.

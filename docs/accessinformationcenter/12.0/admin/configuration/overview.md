@@ -9,7 +9,7 @@ sidebar_position: 40
 The Configuration interface is available only to users with the Administrator role. It is opened by
 the **Configure Console** link on the Home page.
 
-![Configuration interface showing the Console Access page](/img/product_docs/accessinformationcenter/12.0/admin/configuration/consoleaccess.webp)
+![Configuration interface showing the Console Access page](/images/accessinformationcenter/12.0/admin/configuration/consoleaccess.webp)
 
 It has the following pages:
 

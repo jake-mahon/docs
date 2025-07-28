@@ -18,26 +18,26 @@ To install Directory Manager:
 Step 1 – Run `_directorymanagerInstallTool.exe_` from the Directory Manager`<_version #_>` folder in the
 Directory ManagerInstallation package. It launches the Installation Tool.
 
-![Welcome page](/img/product_docs/directorymanager/11.1/install/installer/introduction.webp)
+![Welcome page](/images/directorymanager/11.1/install/installer/introduction.webp)
 
 Step 2 – Read the welcome message and click **Next**.
 
-![End User License Agreement](/img/product_docs/directorymanager/11.1/install/installer/eula.webp)
+![End User License Agreement](/images/directorymanager/11.1/install/installer/eula.webp)
 
 Step 3 – On the End User License Agreement page, review and accept the licensing agreement and click
 **Next**.
 
-![installpath](/img/product_docs/directorymanager/11.1/install/installer/installpath.webp)
+![installpath](/images/directorymanager/11.1/install/installer/installpath.webp)
 
 Step 4 – In the Installation Folder box, specify the location where you want to install Directory
 Manageror accept the one suggested by the Installer. Click **Install**.
 
-![installationprogress](/img/product_docs/directorymanager/11.1/install/installer/installationprogress.webp)
+![installationprogress](/images/directorymanager/11.1/install/installer/installationprogress.webp)
 
 Step 5 – The progress bar shows the installation progress while all files are copied and Directory
 Manageris installed. On successful installation, the Run Configuration Tool page is displayed.
 
-![Run Configuration Tool](/img/product_docs/directorymanager/11.1/install/installer/runconfigurationtool.webp)
+![Run Configuration Tool](/images/directorymanager/11.1/install/installer/runconfigurationtool.webp)
 
 Step 6 – Click **Next** to proceed with configuring Directory Manager.
 

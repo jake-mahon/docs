@@ -64,15 +64,15 @@ Continue to export your existing invested Endpoint Policy Manager settings into 
 
 You can export one setting at a time like this:
 
-![941_1_image-20230521113923-1_950x502](/img/product_docs/endpointpolicymanager/cloud/941_1_image-20230521113923-1_950x502.webp)
+![941_1_image-20230521113923-1_950x502](/images/endpointpolicymanager/cloud/941_1_image-20230521113923-1_950x502.webp)
 
 You can export a Collection like this:
 
-![941_2_image-20230521113923-2_950x589](/img/product_docs/endpointpolicymanager/cloud/941_2_image-20230521113923-2_950x589.webp)
+![941_2_image-20230521113923-2_950x589](/images/endpointpolicymanager/cloud/941_2_image-20230521113923-2_950x589.webp)
 
 Or you can export a whole category like this:
 
-![941_3_image-20230521113923-3](/img/product_docs/endpointpolicymanager/cloud/941_3_image-20230521113923-3.webp)
+![941_3_image-20230521113923-3](/images/endpointpolicymanager/cloud/941_3_image-20230521113923-3.webp)
 
 You can also export settings en-mass across multiple GPOs using the Endpoint Policy Manager Exporter
 Utility. The steps to do that are here
@@ -82,7 +82,7 @@ Then you can upload them straight into Endpoint Policy Manager cloud using the U
 XML here. Or you can go to the XML Settings tab (not shown) and also upload them there for later
 use.
 
-![941_4_image-20230521113923-4_950x326](/img/product_docs/endpointpolicymanager/cloud/941_4_image-20230521113923-4_950x326.webp)
+![941_4_image-20230521113923-4_950x326](/images/endpointpolicymanager/cloud/941_4_image-20230521113923-4_950x326.webp)
 
 You may also view the XML in notepad and copy/paste the XML straight into Endpoint Policy Manager
 cloud using the same setting, Upload and link a new XML here as seen around the 5 minute and 20
@@ -98,7 +98,7 @@ You might also have a GPO with a lot of settings, which contain Microsoft and/or
 Manager settings. You can transfer the whole contents of that GPO with a GPO Backup and Endpoint
 Policy Manager Cloud Import.
 
-![941_5_image-20230521113923-5_950x386](/img/product_docs/endpointpolicymanager/cloud/941_5_image-20230521113923-5_950x386.webp)
+![941_5_image-20230521113923-5_950x386](/images/endpointpolicymanager/cloud/941_5_image-20230521113923-5_950x386.webp)
 
 The result will be a de-constructed GPO with all relevant parts as XML, available to re-link later
 to Company or Azure groups.
@@ -111,12 +111,12 @@ additional information.
 Now that all your rules are lifted and shifted from GPO Editor to XML to Cloud, you can use the
 in-cloud editors to perform most new policy types and edit existing policies.
 
-![941_6_image-20230521113923-6_950x448](/img/product_docs/endpointpolicymanager/cloud/941_6_image-20230521113923-6_950x448.webp)
+![941_6_image-20230521113923-6_950x448](/images/endpointpolicymanager/cloud/941_6_image-20230521113923-6_950x448.webp)
 
 Here’s an example of how to use the Endpoint Policy Manager Cloud in-cloud editors to create and
 edit Endpoint Policy Manager Least Privilege Manager items.
 
-![941_7_image-20230521113923-7_950x1063](/img/product_docs/endpointpolicymanager/cloud/941_7_image-20230521113923-7_950x1063.webp)
+![941_7_image-20230521113923-7_950x1063](/images/endpointpolicymanager/cloud/941_7_image-20230521113923-7_950x1063.webp)
 
 See the
 [Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/cloudrules.md) topic
@@ -137,24 +137,24 @@ information.
 An example of crafting your own Company groups, linking existing XMLs, creating new policies and
 Adding/Removing computers from these Company Groups can be seen here.
 
-![941_8_image-20230521113923-8_950x503](/img/product_docs/endpointpolicymanager/cloud/941_8_image-20230521113923-8_950x503.webp)
+![941_8_image-20230521113923-8_950x503](/images/endpointpolicymanager/cloud/941_8_image-20230521113923-8_950x503.webp)
 
 Another option is the ability to mate your Endpoint Policy Manager Cloud instance with your Azure
 Instance and use Azure Groups as well. You can establish a connection between Endpoint Policy
 Manager Cloud and Azure using these steps:
 
-![941_9_image-20230521113923-9_950x491](/img/product_docs/endpointpolicymanager/cloud/941_9_image-20230521113923-9_950x491.jpeg)
+![941_9_image-20230521113923-9_950x491](/images/endpointpolicymanager/cloud/941_9_image-20230521113923-9_950x491.jpeg)
 
 Then Azure groups will appear at the same level as Company Groups and you can link XML to those
 Azure groups.
 
-![941_10_image-20230521113923-10_950x286](/img/product_docs/endpointpolicymanager/cloud/941_10_image-20230521113923-10_950x286.jpeg)
+![941_10_image-20230521113923-10_950x286](/images/endpointpolicymanager/cloud/941_10_image-20230521113923-10_950x286.jpeg)
 
 Provided the Endpoint Policy Manager Cloud Client is on the machine (one of the next steps), the
 computer will pick up the policies in either the Computer Group or Azure Group. (`PPCLOUD /sync`
 will show these details.)
 
-![941_11_image-20230521113923-11_950x295](/img/product_docs/endpointpolicymanager/cloud/941_11_image-20230521113923-11_950x295.jpeg)
+![941_11_image-20230521113923-11_950x295](/images/endpointpolicymanager/cloud/941_11_image-20230521113923-11_950x295.jpeg)
 
 ## Linking Endpoint Policy Manager Cloud XML to Endpoint Policy Manager Cloud Company Groups or Azure Groups
 
@@ -176,7 +176,7 @@ information.
 Now you’re ready to deliver the Endpoint Policy Manager Cloud client to your machines, which will
 join the machines to Endpoint Policy Manager Cloud.
 
-![941_12_image-20230521113923-12_950x461](/img/product_docs/endpointpolicymanager/cloud/941_12_image-20230521113923-12_950x461.webp)
+![941_12_image-20230521113923-12_950x461](/images/endpointpolicymanager/cloud/941_12_image-20230521113923-12_950x461.webp)
 
 :::note
 If the machines already have the Endpoint Policy Manager CSE installed, there is no need
@@ -190,7 +190,7 @@ There are a myriad of ways to install the Endpoint Policy Manager Cloud client, 
 MSI. When the Cloud Client is installed it will automatically install the Endpoint Policy Manager
 CSE if it is not present on the machine like what’s seen here.
 
-![941_13_image-20230521113923-13_950x691](/img/product_docs/endpointpolicymanager/cloud/941_13_image-20230521113923-13_950x691.webp)
+![941_13_image-20230521113923-13_950x691](/images/endpointpolicymanager/cloud/941_13_image-20230521113923-13_950x691.webp)
 
 :::note
 The machine may also upgrade to a later CSE if a Endpoint Policy Manager Cloud group
@@ -246,7 +246,7 @@ Method one is akin to GP update and you simply run `PPCLOUD /sync` (performs a S
 or Endpoint Policy Manager Cloud /status (no sync, just displays), and you can see any specific
 machines' current state and policies.
 
-![941_14_image-20230521113923-14_950x823](/img/product_docs/endpointpolicymanager/cloud/941_14_image-20230521113923-14_950x823.webp)
+![941_14_image-20230521113923-14_950x823](/images/endpointpolicymanager/cloud/941_14_image-20230521113923-14_950x823.webp)
 
 See the [Manually Syncing with PolicyPak Cloud](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/quickstart/verify.md#manually-syncing-with-policypak-cloud)
 topic for additional information.[](https://helpcenter.netwrix.com/en-US/bundle/Endpoint Policy
@@ -257,7 +257,7 @@ On the server
 Additionally, you may mass report upon machines using the Endpoint Policy Manager Cloud reporting
 mechanism.
 
-![941_15_image-20230521113923-15_950x386](/img/product_docs/endpointpolicymanager/cloud/941_15_image-20230521113923-15_950x386.webp)
+![941_15_image-20230521113923-15_950x386](/images/endpointpolicymanager/cloud/941_15_image-20230521113923-15_950x386.webp)
 
 See the [Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/reports.md) topic for
 additional information.
@@ -271,7 +271,7 @@ Finally, it is important to keep the Endpoint Policy Manager Cloud Client and th
 Manager CSE up to date. Endpoint Policy Manager Company Groups control the versions of the Endpoint
 Policy Manager Cloud Client and Endpoint Policy Manager CSE.
 
-![941_16_image-20230521113923-16_950x529](/img/product_docs/endpointpolicymanager/cloud/941_16_image-20230521113923-16_950x529.webp)
+![941_16_image-20230521113923-16_950x529](/images/endpointpolicymanager/cloud/941_16_image-20230521113923-16_950x529.webp)
 
 You should always do small scale testing of upgrades of the Endpoint Policy Manager CSE and Endpoint
 Policy Manager Cloud Client version to ensure safety before you roll it out to everyone via the All

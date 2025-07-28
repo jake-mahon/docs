@@ -9,7 +9,7 @@ sidebar_position: 110
 The Activity Date Scope page is where the range of dates for which the SharePoint activity scan will
 collect data is configured. It is a wizard page for the category of Scan SharePoint Activity.
 
-![Activity Date Scope page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/spaa/activitydatescope.webp)
+![Activity Date Scope page](/images/accessanalyzer/12.0/admin/datacollector/spaa/activitydatescope.webp)
 
 Use the radio buttons to select the **Scan Filters**.
 
@@ -29,5 +29,5 @@ Use the radio buttons to select the **Scan Filters**.
     :::note
     Selecting Absolute Timespan will not affect activity data collected during Relative
     Timespan scans.
-    
+
     :::

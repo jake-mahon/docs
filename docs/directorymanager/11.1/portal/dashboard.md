@@ -11,7 +11,7 @@ of the portal. These functions are available as links on the top and left naviga
 
 On logging into Directory Manager portal, you land on the dashboard.
 
-![dashboard](/img/product_docs/directorymanager/11.1/portal/dashboard.webp)
+![dashboard](/images/directorymanager/11.1/portal/dashboard.webp)
 
 Use the following to navigate within the application:
 

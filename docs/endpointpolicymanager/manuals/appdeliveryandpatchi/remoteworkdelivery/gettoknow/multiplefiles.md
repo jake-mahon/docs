@@ -8,19 +8,19 @@ sidebar_position: 20
 
 The second type of standard policy you can create is called Copy multiple files from same directory.
 
-![getting_to_know_policypak_22](/img/product_docs/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_22.webp)
+![getting_to_know_policypak_22](/images/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_22.webp)
 
 Many of the screens in this wizard are the same as those in the Copy a single file wizard, but the
 main difference is the Specify the copy source page.
 
-![getting_to_know_policypak_23](/img/product_docs/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_23.webp)
+![getting_to_know_policypak_23](/images/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_23.webp)
 
 This page enables you to specify presets and filters, and then lets you show a preview to determine
 which files from the folder will be copied to the destination.
 
 The other main difference is the ability to specify the overwrite mode.
 
-![getting_to_know_policypak_24](/img/product_docs/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_24.webp)
+![getting_to_know_policypak_24](/images/endpointpolicymanager/remoteworkdelivery/advanced/standard/getting_to_know_endpointpolicymanager_24.webp)
 
 Your options for specifying the file overwrite mode are as follows:
 

@@ -14,7 +14,7 @@ The list is populated from the previously configured authentication connectors o
 Authentications page. See the [Authentication Page](/docs/privilegesecure/4.2/admin/configuration/authentication/authentication.md)
 topic for additional information.
 
-![Users Authentication Connector Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)
+![Users Authentication Connector Tab](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)
 
 Select the method of authentication for the user or group:
 

@@ -9,7 +9,7 @@ sidebar_position: 10
 Selecting a threat in the Threats list displays details for that threat. The Threat Description box
 displays the name and description of the threat.
 
-![This screensot displays the Threat Details box.](/img/product_docs/threatmanager/3.0/administration/configuration/threatdetails.webp)
+![This screensot displays the Threat Details box.](/images/threatmanager/3.0/administration/configuration/threatdetails.webp)
 
 The Threat Configuration Box contains a Processing tab, an Exclusions tab, and in some cases a
 Settings tab.
@@ -18,7 +18,7 @@ Settings tab.
 
 The Processing tab contains the configuration options for processing the threat.
 
-![This screenshot displays the Processing tab.](/img/product_docs/threatmanager/3.0/administration/configuration/processingtab.webp)
+![This screenshot displays the Processing tab.](/images/threatmanager/3.0/administration/configuration/processingtab.webp)
 
 **General:**
 
@@ -83,7 +83,7 @@ the threat is initially detected regardless of rollup configuration. When a thre
 also update the detection time of the threat, which will push it to the top of the Threats Page
 timeline.
 
-![Image is a flow chart visually explaining how a threat is dealt with with or without Rollup enabled.](/img/product_docs/threatmanager/3.0/administration/configuration/rollupexplanationgraphic.webp)
+![Image is a flow chart visually explaining how a threat is dealt with with or without Rollup enabled.](/images/threatmanager/3.0/administration/configuration/rollupexplanationgraphic.webp)
 
 The diagram provides an outline of the rollup process.
 
@@ -92,7 +92,7 @@ The diagram provides an outline of the rollup process.
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions
 to be defined for specific criteria to be excluded from threat detection for the threat type.
 
-![exclusionstab](/img/product_docs/threatmanager/3.0/administration/configuration/exclusionstab.webp)
+![exclusionstab](/images/threatmanager/3.0/administration/configuration/exclusionstab.webp)
 
 To view details of an existing exclusion, click the arrow next to the exclusion or the name of the
 exclusion.
@@ -115,7 +115,7 @@ Click **Add Exclusion** to Add a new Threat Detection Exclusion.
 
 Follow the steps to add an exclusion to the threat type.
 
-![This screenshot displays the Add Exclusion for Threat Detection window.](/img/product_docs/threatmanager/3.0/administration/configuration/addexclusion.webp)
+![This screenshot displays the Add Exclusion for Threat Detection window.](/images/threatmanager/3.0/administration/configuration/addexclusion.webp)
 
 **Step 1 –** Click Add Exclusion. The Add Exclusion for [Threat Type] window opens.
 
@@ -156,7 +156,7 @@ The Settings tab is only displayed for threats that require additional settings.
 :::
 
 
-![This screenshot displays the Settings tab.](/img/product_docs/threatmanager/3.0/administration/configuration/settingstab.webp)
+![This screenshot displays the Settings tab.](/images/threatmanager/3.0/administration/configuration/settingstab.webp)
 
 This tab shows the settings that are required for the Forged Ticket threat.
 

@@ -17,7 +17,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![0](/img/product_docs/accessanalyzer/12.0/solutions/databases/redshift/collection/0.collectionconfiguration.webp)
+![0](/images/accessanalyzer/12.0/solutions/databases/redshift/collection/0.collectionconfiguration.webp)
 
 The query is:
 

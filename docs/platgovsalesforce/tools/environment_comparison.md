@@ -24,7 +24,7 @@ Open **Netwrix Dashboard** > **Tools** > **Environment Comparison**
 
 ## Select the Environments to Compare
 
-![compare_env_environments](/img/product_docs/platgovsalesforce/tools/compare_env_environments.webp)
+![compare_env_environments](/images/platgovsalesforce/tools/compare_env_environments.webp)
 
 For both the **Source** and **Target** Environments:
 
@@ -54,7 +54,7 @@ Filters are cumulative. Use a single filter (1 through 3) to avoid overlapping s
 Select a **All** or a specific metadata type to compare from the list. If you select **Report**,
 only tabular and summary reports are compared. Metric and joined reports are not compared.
 
-![compare_env_filters](/img/product_docs/platgovsalesforce/tools/compare_env_filters.webp)
+![compare_env_filters](/images/platgovsalesforce/tools/compare_env_filters.webp)
 
 ### Import Customizations from a Change Request
 
@@ -63,7 +63,7 @@ only tabular and summary reports are compared. Metric and joined reports are not
 Enter a Change Request ID, or use the drop down to scroll through a list of available Change
 Requests.
 
-![Import Customizations from a Change Request](/img/product_docs/platgovsalesforce/tools/compare_env_filters3.webp)
+![Import Customizations from a Change Request](/images/platgovsalesforce/tools/compare_env_filters3.webp)
 
 ### Select Specific Customizations
 
@@ -75,7 +75,7 @@ Requests.
 3. Click the right arrow to move the items to the **Selected Customizations** list. To remove an
    item from the **Selected Customizations** list, select it and click the left arrow.
 
-![Add Filters with Individual Customizations](/img/product_docs/platgovsalesforce/tools/compare_env_filters2.webp)
+![Add Filters with Individual Customizations](/images/platgovsalesforce/tools/compare_env_filters2.webp)
 
 ### Packages to Exclude
 
@@ -84,7 +84,7 @@ Requests.
 3. Click the right arrow to move the items to the **Selected** list. To remove an item from the
    **Selected** list, select it and click the left arrow.
 
-![Select packages to exclude](/img/product_docs/platgovsalesforce/tools/compare_env_filters4.webp)
+![Select packages to exclude](/images/platgovsalesforce/tools/compare_env_filters4.webp)
 
 ## Select Export Options
 
@@ -106,12 +106,12 @@ complete.
    displayed, and your Excel report is downloaded by your browser.
 3. Open the _Environment_Compare_export.xls_ file. When you open an exported file, this message may
    be displayed, as the exported file is in XML instead of the Excel format. Click **Yes** to load
-   the file.  
-   ![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
+   the file.
+   ![Excel error message - Click Yes to continue.](/images/platgovsalesforce/tools/export_excel_error_msg.webp)
 
 ### Environment_Compare_export.xls
 
-![The Only In Source tab of the Environment_Compare_Export.xls file](/img/product_docs/platgovsalesforce/tools/compare_env_results_excel.webp)
+![The Only In Source tab of the Environment_Compare_Export.xls file](/images/platgovsalesforce/tools/compare_env_results_excel.webp)
 
 The _Environment_Compare_export.xls_ file contains a **Summary** tab and individual tabs for each
 comparison type:
@@ -126,7 +126,7 @@ comparison type:
 
 **In Both Different**: items present in both Environments with differences. Here is an example:
 
-![Example of Environment Comparison differences](/img/product_docs/platgovsalesforce/tools/compare_env_results_excel_diffs.webp)
+![Example of Environment Comparison differences](/images/platgovsalesforce/tools/compare_env_results_excel_diffs.webp)
 
 ## Create a Change Request
 
@@ -137,6 +137,6 @@ and create a Change Request based on the differences.
 2. **Select Customization(s)** contains all of the Customizations with Differences. Select one or
    more and click **Add** to move them to the **Selected Customization(s)** pane.
 
-    ![Select Customizations with Differences and create a Change Request](/img/product_docs/platgovsalesforce/tools/compare_env_create_cr.webp)
+    ![Select Customizations with Differences and create a Change Request](/images/platgovsalesforce/tools/compare_env_create_cr.webp)
 
 3. Click **Create Change Request** to continue.

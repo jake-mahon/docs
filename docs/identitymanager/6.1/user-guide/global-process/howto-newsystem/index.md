@@ -38,7 +38,7 @@ for example the list of assigned single roles.
 The option B is more complicated and time-consuming than the option A, but leads to more gain. Be
 aware that you can go through the process options simultaneously.
 
-![Process Schema - How to Implement a New System](/img/product_docs/identitymanager/6.1/user-guide/global-process/howto-newsystem/globalprocess_schemaconnectsyst.webp)
+![Process Schema - How to Implement a New System](/images/identitymanager/6.1/user-guide/global-process/howto-newsystem/globalprocess_schemaconnectsyst.webp)
 
 ## Process Details
 

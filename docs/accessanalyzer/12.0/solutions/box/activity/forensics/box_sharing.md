@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_Sharing Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/forensics/sharinganalysis.webp)
+![Analysis Tasks for the Box_Sharing Job](/images/accessanalyzer/12.0/solutions/box/activity/forensics/sharinganalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -33,4 +33,3 @@ pre-configured report:
 | Report                   | Description                                                                                                                                                                    | Default Tags | Report Elements                                                                                                                                                         |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sharing Activity Summary | This report identifies resource sharing within the target Box environments. The line graph will highlight time periods of the highest rate of sharing within the past 30 days. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays last 30 days of sharing activity</li><li>Table – Provides details on sharing activity</li></ul> |
-

@@ -9,7 +9,7 @@ sidebar_position: 20
 If only temporary access was granted, once the date expires, the user will be automatically removed
 from the resource, and will receive an email notification informing them of the removal.
 
-![Access Expired email](/img/product_docs/accessinformationcenter/11.6/accessrequests/email/expired.webp)
+![Access Expired email](/images/accessinformationcenter/11.6/accessrequests/email/expired.webp)
 
 On the
 [Request History Page](/docs/accessinformationcenter/11.6/youraccessportal/requesthistory/requesthistory.md)

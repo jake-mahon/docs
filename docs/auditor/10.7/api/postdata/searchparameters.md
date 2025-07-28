@@ -26,9 +26,9 @@ Generally, the Search parameters file looks similar to the following:
         <Filter4>Value1</Filter4>
         <Filter4 Operator="MatchType">Value2</Filter4>
     </FilterList>
-</ActivityRecordSearch> 
+</ActivityRecordSearch>
 ```
- 
+
 **JSON:**
 ```json
 {
@@ -45,7 +45,7 @@ Generally, the Search parameters file looks similar to the following:
             {"MatchType": "Value2"}
         ]
     }
-} 
+}
 ```
 
 Ensure to pass information about transferred data, including `Content-Type:application/xml` or
@@ -55,7 +55,7 @@ Ensure to pass information about transferred data, including `Content-Type:appli
 
 | Format | Schema description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| XML    | The file must be compatible with the XML schema. On the computer where Auditor Server resides, you can find XSD file under _Netwrix_Auditor_installation_folder\Audit Core\API Schemas_. The `ActivityRecordSearch` root element includes the `FilterList `element with one or more `Filter `elements inside. The root element may contain a `ContinuationMark `element. Each `Filter `specified within the `FilterList `must have a value to search for. The element may also include a modifier—a match type operator. minOccurs="0" indicates that element is optional and may be absent in the Search parameters. ![filterschema](/img/product_docs/auditor/10.7/api/postdata/filterschema.webp) |
+| XML    | The file must be compatible with the XML schema. On the computer where Auditor Server resides, you can find XSD file under _Netwrix_Auditor_installation_folder\Audit Core\API Schemas_. The `ActivityRecordSearch` root element includes the `FilterList `element with one or more `Filter `elements inside. The root element may contain a `ContinuationMark `element. Each `Filter `specified within the `FilterList `must have a value to search for. The element may also include a modifier—a match type operator. minOccurs="0" indicates that element is optional and may be absent in the Search parameters. ![filterschema](/images/auditor/10.7/api/postdata/filterschema.webp) |
 | JSON   | The `FilterList `object includes with one or more `Filter `entries inside. JSON may contain a `ContinuationMark `object. Each `Filter `specified within the `FilterList `must have a value to search for. The entry may also include a modifier—a match type operator.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 Review the following for additional information:
@@ -82,15 +82,15 @@ Review the following for additional information:
             <To>2017-01-01T00:00:00Z</To>
         </When>
     </FilterList>
-</ActivityRecordSearch> 
+</ActivityRecordSearch>
 ```
- 
+
 **JSON:**
 ```json
 {
     "FilterList": {
-        "Who": { 
-            "NotEqualTo": "Administrator" 
+        "Who": {
+            "NotEqualTo": "Administrator"
         },
         "MonitoringPlan": "My Hybrid Cloud enterprise",
         "DataSource": [
@@ -101,13 +101,13 @@ Review the following for additional information:
             "Added",
             "Removed"
         ],
-        "ObjectType": { 
-            "DoesNotContain": "Group" 
+        "ObjectType": {
+            "DoesNotContain": "Group"
         },
         "When": {
             "From": "2016-01-16T16:30:00+11:00",
             "To": "2017-01-01T00:00:00Z"
         }
     }
-} 
+}
 ```

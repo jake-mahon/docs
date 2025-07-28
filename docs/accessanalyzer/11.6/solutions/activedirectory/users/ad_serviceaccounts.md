@@ -31,7 +31,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_ServiceAccounts Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/serviceaccountsanalysis.webp)
+![Analysis Task for the AD_ServiceAccounts Job](/images/accessanalyzer/11.6/solutions/activedirectory/users/serviceaccountsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -44,4 +44,3 @@ produces the following pre-configured report:
 | Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                   |
 | ---------------- | ---------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Service Accounts | This report provides details on service accounts in the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays service accounts by domain</li><li>Table – Provides details on service accounts</li><li>Table – Provides details on service accounts by domain</li></ul> |
-

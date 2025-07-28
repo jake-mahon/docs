@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_DirectMembership Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/directmembershipanalysis.webp)
+![Analysis Tasks for the AD_DirectMembership Job](/images/accessanalyzer/12.0/solutions/activedirectory/users/directmembershipanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report:
 | Report              | Description                                            | Default Tags | Report Elements                                                                                                                                                                                                                                                               |
 | ------------------- | ------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | No Group Membership | This report identifies users with no group membership. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by users with no membership</li><li>Table – Provides details on all users with no group membership</li><li>Table – Provides details on top domains by users with no membership</li></ul> |
-

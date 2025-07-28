@@ -9,7 +9,7 @@ sidebar_position: 20
 The 0.Collection Job Group collects data which will be further analyzed in order to provide details
 on Box access rights, policies, configurations, activities, and content.
 
-![Box > Collection Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/box/collection/jobstree.webp)
+![Box > Collection Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/box/collection/jobstree.webp)
 
 The 0.Collection Job Group is comprised of:
 

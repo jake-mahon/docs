@@ -10,7 +10,7 @@ The Activity Statistics report for a computer object provides statistical activi
 for the audited computer during the selected date range. This report includes a line graph for
 Traffic Trend.
 
-![Activity Statistics report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/computer/activitystatistics.webp)
+![Activity Statistics report](/images/accessinformationcenter/11.6/resourceaudit/computer/activitystatistics.webp)
 
 This report is comprised of the following columns:
 

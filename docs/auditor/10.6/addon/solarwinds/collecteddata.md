@@ -16,6 +16,6 @@ Services Logs** >Netwrix Auditor Integration log.
 
 **Step 3 –** Review events.
 
-![EventLog_Export_Example](/img/product_docs/auditor/10.6/addon/solarwinds/eventlogexportexample.webp)
+![EventLog_Export_Example](/images/auditor/10.6/addon/solarwinds/eventlogexportexample.webp)
 
 Now you can augment Windows event log with data collected by the Auditor.

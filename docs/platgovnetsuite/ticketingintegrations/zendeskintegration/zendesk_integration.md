@@ -45,27 +45,27 @@ app.
 2. Click the **Admin** icon in the left panel.
 3. Navigate to **Apps** > **Marketplace**.
 
-    ![Open the Zendesk Marketplace](/img/product_docs/platgovnetsuite/integrations/zendesk_admin_marketplace.webp)
+    ![Open the Zendesk Marketplace](/images/platgovnetsuite/integrations/zendesk_admin_marketplace.webp)
 
 4. Search for **Strongpoint**.
 5. Click **Strongpoint for NetSuite** when it is displayed.
 
-    ![Strongpoint for NetSuite app in the Marketplace](/img/product_docs/platgovnetsuite/integrations/zendesk_strongpoint.webp)
+    ![Strongpoint for NetSuite app in the Marketplace](/images/platgovnetsuite/integrations/zendesk_strongpoint.webp)
 
 6. Click **Install**. When installation is complete, you are prompted to sign in to your Zendesk
    dashboard to continue.
 7. Click the **Admin** icon in the left panel.
 8. Navigate to **Apps** > **Manage**.
 
-    ![Configure the Strongpoint Zendesk app](/img/product_docs/platgovnetsuite/integrations/zendesk_configure_app.webp)
+    ![Configure the Strongpoint Zendesk app](/images/platgovnetsuite/integrations/zendesk_configure_app.webp)
 
 9. Hover on the **Strongpoint for NetSuite** tile to access the **Settings** menu.
 
-    ![Hover to access the Settings](/img/product_docs/platgovnetsuite/integrations/zendesk_configure_app_menu.webp)
+    ![Hover to access the Settings](/images/platgovnetsuite/integrations/zendesk_configure_app_menu.webp)
 
 10. Click **Change settings**.
 
-    ![Set up the Strongpoint for NetSuite Zendesk app](/img/product_docs/platgovnetsuite/integrations/zendesk_change_settings.webp)
+    ![Set up the Strongpoint for NetSuite Zendesk app](/images/platgovnetsuite/integrations/zendesk_change_settings.webp)
 
     - **Title**: the name associated with the app. The default is **Strongpoint for NetSuite**.
     - Account ID: enter the NetSuite account ID. The **Account ID** must be a lowercase string. For
@@ -82,9 +82,9 @@ app.
     :::note
     Token-based authentication (TBA) is required by NetSuite. Refer to the NetSuite help:
     [TBA Setup Requirements](https://netsuite.custhelp.com/app/answers/detail/a_id/51000/kw/tba) for
-    details if you have not yet set up TBA.  
+    details if you have not yet set up TBA.
     Only administrators can view the **Consumer Key**, **Consumer Secret**, **Token ID** and **Token
-    Secret** information.  
+    Secret** information.
     This information is generated when you create your Integration Record with the Token-Based
     Authentication option enabled. If you lose or forget these credentials, you must reset them to
     obtain new values.

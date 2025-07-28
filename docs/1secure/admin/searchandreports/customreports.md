@@ -26,13 +26,13 @@ information.
 **Step 4 –** Click **Save as** in the upper right corner of the page. The Create Report pane is
 displayed.
 
-![Create Report Pane](/img/product_docs/1secure/admin/searchandreports/searchcreatereports.webp)
+![Create Report Pane](/images/1secure/admin/searchandreports/searchcreatereports.webp)
 
 **Step 5 –** In the Create Report pane, specify a name and description for the report in the Name
 and Description fields.
 
 **Step 6 –** From the Category drop-down menu, select an existing category or add a new one for the
-report. The category is used to group related reports together.  
+report. The category is used to group related reports together.
 To add a new category, click the Add icon, specify a name, and click the Save icon. The new category
 is added.
 

@@ -11,7 +11,7 @@ utility for later use. For instance, you might have a list of 30 users you want 
 data file to deploy to. Instead of recreating this list each time, you can export it in the "Select
 Users" dialog, as shown in Figure 56.
 
-![policypak_exporter_tips_tricks_5](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_5.webp)
+![policypak_exporter_tips_tricks_5](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_5.webp)
 
 Figure 56. Copying previously selected users by exporting the list with the "Select Users" option.
 
@@ -21,6 +21,6 @@ dialog by selecting "Copy From," which will allow you to select an existing XML 
 soon as this is complete, the selected file's user list will quickly populate with an existing list,
 as shown in Figure 57.
 
-![policypak_exporter_tips_tricks_6](/img/product_docs/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_6.webp)
+![policypak_exporter_tips_tricks_6](/images/endpointpolicymanager/mdm/tips/endpointpolicymanager_exporter_tips_tricks_6.webp)
 
 Figure 57. The steps to copy an existing user list by working in the "Select Users" dialog.

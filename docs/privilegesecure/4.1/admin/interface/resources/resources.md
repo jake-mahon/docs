@@ -11,7 +11,7 @@ policies, and service accounts for the host resources and domain resources that 
 the console. The Resources page displays the same information as the
 [Resources Dashboard](/docs/privilegesecure/4.1/admin/dashboard/resources.md).
 
-![Resources page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/resourcespage.webp)
+![Resources page](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/resourcespage.webp)
 
 The Resources table has the following features:
 

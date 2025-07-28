@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/sensitivedata/jobgroup44.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/sensitivedata/jobgroup44.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ produces the following pre-configured reports.
 | ----------------------- | --------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays exceptions by match count</li><li>Table – Provides information on exception details</li></ul>                                                                                     |
 | Sensitive Data Overview | This report highlights objects which contain sensitive data criteria        | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by sensitive data hits</li><li>Table – Provides details on instances with sensitive data</li><li>Table – Provides information on sensitive data details</li></ul> |
-

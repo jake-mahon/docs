@@ -9,7 +9,7 @@ sidebar_position: 110
 The Suspicious Activity job group is designed to report on potentially suspicious activity event
 information from targeted file servers.
 
-![Suspicious Activity Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/jobstree.webp)
+![Suspicious Activity Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/jobstree.webp)
 
 The Suspicious Activity job group is comprised of:
 

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/sensitivedata/sqljobgroup47.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/sensitivedata/sqljobgroup47.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ produces the following pre-configured reports.
 | ----------------------- | ---------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays exceptions by match count</li><li>Table – Provides details on exception details</li></ul>                                                                                     |
 | Sensitive Data Overview | This report highlights objects which contain sensitive data criteria.        | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top databases by sensitive data hits</li><li>Table – Provides details on databases with sensitive data</li><li>Table – Provides details on sensitive data details</li></ul> |
-

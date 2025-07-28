@@ -10,7 +10,7 @@ The FS_OpenAccess job is designed to report on Open Access information from targ
 The definition of Open Access is when a security principal, such as Everyone, Authenticated Users,
 or Domain Users, have permissions on a resource.
 
-![1.Open Access > FS_OpenAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/openaccessjobstree.webp)
+![1.Open Access > FS_OpenAccess Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/filesystem/openaccessjobstree.webp)
 
 The FS_OpenAccess job is located in the 1.Open Access job group.
 
@@ -25,7 +25,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_OpenAccess Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/openaccessanalysis.webp)
+![Analysis Tasks for the FS_OpenAccess Job](/images/accessanalyzer/12.0/solutions/filesystem/openaccessanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -59,5 +59,3 @@ the following pre-configured reports:
 | Hosts with Open Access               | This report identifies hosts with the highest number of open folders.                                                                                                 | None                                                  | This report is comprised of two elements: <ul><li>Bar Chart – Displays top hosts by open folder count</li><li>Table – Provides details on hosts with open folder access</li></ul> |
 | Open Shares                          | This report identifies shares with open resources. The Open Access column shows the highest levels of access given to all users in any one resource inside the share. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest open shares by folder count</li><li>Table – Provides details on open shares</li></ul>              |
 | Remediation Status                   | This report identifies the historical success of the organization's share management effort.                                                                          | None                                                  | This report is comprised of two elements: <ul><li>Column Chart – Displays the remediation status</li><li>Table – Provides details on remediation status</li></ul>                 |
-
-

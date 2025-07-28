@@ -11,7 +11,7 @@ The Select Group window opens from either the
 or the
 [Update Resource Wizard](/docs/accessinformationcenter/11.6/resourceowners/interface/update.md).
 
-![Select Group window](/img/product_docs/accessinformationcenter/11.6/resourceowners/window/selectgroup.webp)
+![Select Group window](/images/accessinformationcenter/11.6/resourceowners/window/selectgroup.webp)
 
 The window displays groups with the selected access level for this resource. If there are no groups
 displayed, then it will be necessary to create a group and grant it this level of access to the

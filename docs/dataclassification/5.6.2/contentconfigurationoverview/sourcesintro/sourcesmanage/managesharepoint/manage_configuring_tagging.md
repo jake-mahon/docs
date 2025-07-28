@@ -28,7 +28,7 @@ To check the prerequisites
    Taxonomies for details.
 4. Ensure that the appropriate SharePoint product is installed in your SharePoint environment
    (typically, the provider-hosted add-In named _conceptClassifierApp_; see the procedure below for
-   details).  
+   details).
    This add-on provides a specially designed Wizard that assigns taxonomies to Content Types in
    SharePoint. It also creates the necessary event handlers to keep the classification up to date as
    new documents are added and existing documents are edited.
@@ -37,12 +37,12 @@ To configure tagging using the wizard
 
 1. Click on the app to start the **SharePoint Tagging wizard**.
 
-![sharepoint_tagging_wizard_1_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/sharepoint_tagging_wizard_1_thumb_0_0.webp)
+![sharepoint_tagging_wizard_1_thumb_0_0](/images/dataclassification/5.6.2/sources/sharepoint_tagging_wizard_1_thumb_0_0.webp)
 
 2. Configure the Term Sets that you wish to auto-classify. For that, click the **Add** button and
    then select the required Term Sets or fields:
 
-    ![sharepoint_tagging_wizard_2_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/sharepoint_tagging_wizard_2_thumb_0_0.webp)
+    ![sharepoint_tagging_wizard_2_thumb_0_0](/images/dataclassification/5.6.2/sources/sharepoint_tagging_wizard_2_thumb_0_0.webp)
 
 3. If needed, select the specific site/list columns you wish to restrict auto-classification to.
 4. Confirm the selection.

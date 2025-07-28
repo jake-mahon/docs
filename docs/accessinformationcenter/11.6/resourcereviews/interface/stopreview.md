@@ -11,7 +11,7 @@ The Stop Review window opens from the
 of the Resource Reviews interface. Select the desired active review(s) and click **Stop**. The Stop
 Review window opens to confirm the action.
 
-![Stop Review window](/img/product_docs/accessinformationcenter/11.6/resourcereviews/window/stopreview.webp)
+![Stop Review window](/images/accessinformationcenter/11.6/resourcereviews/window/stopreview.webp)
 
 :::warning
 This will prevent owners from completing the review, removing associated resources from

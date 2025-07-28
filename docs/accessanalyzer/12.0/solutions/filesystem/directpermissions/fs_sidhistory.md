@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_SIDHistory Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/sidhistoryanalysis.webp)
+![Analysis Tasks for the FS_SIDHistory Job](/images/accessanalyzer/12.0/solutions/filesystem/directpermissions/sidhistoryanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ the following pre-configured report:
 | Report               | Description                                                                    | Default Tags | Report Elements                                                                                                                                                                                                     |
 | -------------------- | ------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SID History Overview | This report identifies any applied ACE which utilizes a trustee's SID history. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays the top 5 hosts by affected folders</li><li>Table – Provides details on permissions</li><li>Table – Provides details on trustees</li></ul> |
-

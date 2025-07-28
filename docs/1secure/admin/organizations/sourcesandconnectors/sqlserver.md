@@ -17,11 +17,11 @@ page for the organization is displayed with the Sources tab selected by default.
 **Step 3 –** On the Sources tab, click **Add** to add a source. The Select Data Source (Step 1 of 3)
 pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
+![Select Data Source %28Step 1 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 **Step 4 –** Select **SQL Server** and click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3.webp)
 
 **Step 5 –** On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to
 select an existing site or add a new one. To add a new site, select the **Add new site** option from
@@ -41,7 +41,7 @@ the drop-down menu or click the **Add** icon.
 
 **Step 6 –** Click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3a.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3a.webp)
 
 **Step 7 –** Specify the following settings:
 
@@ -63,7 +63,7 @@ the drop-down menu or click the **Add** icon.
 
 **Step 8 –** Click **Next**.
 
-![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/choosenewconnector_step3of3.webp)
+![Choose New Connector %28Step 3 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/choosenewconnector_step3of3.webp)
 
 **Step 9 –** The Choose new connector (Step 3 of 3) pane lists one connector for SQL Server. Toggle
 the **SQL Logons** switch to ON to collect and monitor data for this connector. With this, you can
@@ -74,7 +74,7 @@ generate logon reports on SQL Server data. See the
 
 - Audit all accounts – Select this option to audit all accounts within the connector
 - Audit specific accounts – Select this option to audit only the specific account(s) within the
-  connector. After selecting this option, specify the account(s) to be audited in the field below.  
+  connector. After selecting this option, specify the account(s) to be audited in the field below.
   To specify an account, enter its name and click the Add icon. To audit multiple accounts, add them
   one by one.
 
@@ -85,7 +85,7 @@ generate logon reports on SQL Server data. See the
 
 - Audit all accounts except – Select this option to audit all accounts within the connector, except
   for specific ones you want to exclude. After selecting this option, specify the accounts to be
-  excluded in the field below.  
+  excluded in the field below.
   To specify an account, enter its name and click the Add icon. To exclude multiple accounts, add
   them one by one.
 

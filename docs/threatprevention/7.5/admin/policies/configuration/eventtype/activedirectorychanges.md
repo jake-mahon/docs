@@ -23,7 +23,7 @@ The event filters for the Active Directory Changes event type are:
 - Success
 - Advanced Filter
 
-![Policy window - Active Directory Changes Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adchanges.webp)
+![Policy window - Active Directory Changes Event Type](/images/threatprevention/7.5/admin/policies/eventtype/adchanges.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -33,7 +33,7 @@ like an "ALL" for that filter set.
 Use the AD Event filter to select Active Directory events to be monitored or locked down by the
 policy.
 
-![Policy window - AD Event filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adevent.webp)
+![Policy window - AD Event filter](/images/threatprevention/7.5/admin/policies/eventtype/adevent.webp)
 
 Check the **All** box to monitor or lockdown all operations, or select specific operations:
 
@@ -50,7 +50,7 @@ selection.
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/images/threatprevention/7.5/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -73,7 +73,7 @@ Use the AD Context filter to set the scope of the policy to only monitor specifi
 containers and organizational units) in Active Directory or to exclude specific contexts from being
 monitored.
 
-![Policy window - AD Context filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adcontext.webp)
+![Policy window - AD Context filter](/images/threatprevention/7.5/admin/policies/eventtype/adcontext.webp)
 
 Use the buttons in the Include Contexts, Include Collections, Exclude Contexts, and Exclude
 Collections areas to edit the lists.
@@ -87,7 +87,7 @@ Collections areas to edit the lists.
 
 **Sub Tree**
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/images/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -97,7 +97,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 Use the AD Classes filter to set the scope of the policy to only monitor specific classes within
 Active Directory or to exclude specific classes from being monitored.
 
-![Policy window - AD Classes filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adclasses.webp)
+![Policy window - AD Classes filter](/images/threatprevention/7.5/admin/policies/eventtype/adclasses.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -112,7 +112,7 @@ Use the buttons in the Include and Exclude areas to edit the lists.
 Use the AD Attributes filter to set the scope of the policy to only monitor specific Active
 Directory attributes or to exclude specific attributes from being monitored.
 
-![Policy window - AD Attributes filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adattributes.webp)
+![Policy window - AD Attributes filter](/images/threatprevention/7.5/admin/policies/eventtype/adattributes.webp)
 
 Use the buttons in the Include Attributes, Include Collections, Exclude Attributes, and Exclude
 Collections areas to edit the lists.
@@ -171,7 +171,7 @@ flags to add to the filter.
 Use the AD Objects filter to set the scope of the policy to only monitor specific objects in Active
 Directory or to exclude specific objects from being monitored.
 
-![Policy window - AD Objects filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adobjects.webp)
+![Policy window - AD Objects filter](/images/threatprevention/7.5/admin/policies/eventtype/adobjects.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -195,7 +195,7 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/images/threatprevention/7.5/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
@@ -216,7 +216,7 @@ for additional information.
 
 **Sub Tree**
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/images/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -226,7 +226,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 Use the IP Addresses (from) filter to set the scope of the policy to specific IP addresses as
 originators of an event or to exclude specific IP addresses.
 
-![Event Type – IP Addresses (from) filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/ipaddressesfrom.webp)
+![Event Type – IP Addresses (from) filter](/images/threatprevention/7.5/admin/policies/eventtype/ipaddressesfrom.webp)
 
 Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Addresses, and Exclude
 Collections areas to edit the lists.
@@ -249,7 +249,7 @@ for additional information.
 Use the Hosts (from) filter for monitoring to set the scope of the policy to only monitor specific
 hosts as originators of an event or to exclude specific hosts from being monitored.
 
-![Event Type – Hosts (from) filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/hostsfrom.webp)
+![Event Type – Hosts (from) filter](/images/threatprevention/7.5/admin/policies/eventtype/hostsfrom.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections
 areas to edit the lists.
@@ -272,7 +272,7 @@ for additional information.
 The Success filter is where the policy is set to only monitor successful events, failed events, or
 both.
 
-![Event Type – Success filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/success.webp)
+![Event Type – Success filter](/images/threatprevention/7.5/admin/policies/eventtype/success.webp)
 
 Select the radio button for the desired monitoring filter:
 
@@ -286,7 +286,7 @@ Select the radio button for the desired monitoring filter:
 Use the Advanced Filter to include or exclude attribute conditions for monitoring Active Directory
 changes.
 
-![AD Changes event type - Advanced Filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/advancedadchanges.webp)
+![AD Changes event type - Advanced Filter](/images/threatprevention/7.5/admin/policies/eventtype/advancedadchanges.webp)
 
 You can define a criteria (filter statements) to monitor event data based on event data values or
 event attribute values or both.
@@ -357,7 +357,7 @@ The Value box only accepts a single string except when the “Attributes: New”
 In case of “Attributes: New” and “Attributes: Old”, type three comma separated values (parameters)
 in the Value box in the following format:
 
-%name%,%suboperation%,%value%  
+%name%,%suboperation%,%value%
 (White space is not allowed between the comma and the argument, unless white space is part of the
 argument.)
 
@@ -400,7 +400,7 @@ Examples of how the comparison operator (displayed in blue) works with Value
 Following is an example of a filter statement defined in the Include condition box with the
 "Attribute New" option.
 
-![Example of an advanced filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filterstatement.webp)
+![Example of an advanced filter](/images/threatprevention/7.5/admin/policies/eventtype/filterstatement.webp)
 
 ````And
 [Attributes: New] [StartsWithValue] [telephoneNumber, change attribute, (555)]```

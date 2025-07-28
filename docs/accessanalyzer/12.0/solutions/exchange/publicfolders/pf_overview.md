@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the PF_Overview Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/publicfolders/overviewanalysis.webp)
+![Analysis Tasks for the PF_Overview Job](/images/accessanalyzer/12.0/solutions/exchange/publicfolders/overviewanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ following pre-configured reports:
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Public Folder Mail Traffic | This report shows which mail-enabled public folders have mail traffic.                                                      | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays oldest public folders</li><li>Table – Provides details on oldest public folders</li></ul>                                                                            |
 | Public Folder Summary      | This report shows where data is concentrated within the public folder environment, sorted by the largest top-level folders. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays public folder environment</li><li>Table – Provides details largest public folder trees</li><li>Table – Provides details on the public folder environment</li></ul> |
-

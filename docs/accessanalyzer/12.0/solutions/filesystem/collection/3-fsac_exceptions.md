@@ -30,7 +30,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the 3-FSAC Exceptions Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/fsacexceptionsanalysis.webp)
+![Analysis Tasks for the 3-FSAC Exceptions Job](/images/accessanalyzer/12.0/solutions/filesystem/collection/fsacexceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -13,7 +13,7 @@ have been purged.
 Click **Configuration** in the left pane. Then click the **Data Retention Policy** tab on the
 Configuration page to open the Data Retention Policy page.
 
-![Data Retention Policy Page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/dataretention.webp)
+![Data Retention Policy Page](/images/recoveryforactivedirectory/2.6/admin/configuration/dataretention.webp)
 
 Follow the steps to specify a data retention policy.
 

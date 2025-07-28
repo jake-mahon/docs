@@ -17,7 +17,7 @@ retain and how this should be split between live and archived data.
 
 1. Open **Netwrix Dashboard** > **Tools** > **Change Logs Clean Up**
 
-    ![Open the Change Logs Clean Up Tool](/img/product_docs/platgovsalesforce/tools/change_logs_clean_up.webp)
+    ![Open the Change Logs Clean Up Tool](/images/platgovsalesforce/tools/change_logs_clean_up.webp)
 
 2. Set up the schedule to run the tool:
 

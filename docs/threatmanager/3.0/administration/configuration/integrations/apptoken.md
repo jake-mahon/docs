@@ -11,7 +11,7 @@ to Threat Manager. An app token is used by Threat Manager and/or the Activity Mo
 Directory activity data into the Threat Manager database. An app token is used by Access Analyzer to
 push a list of files containing sensitive data into the Threat Manager database.
 
-![page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/page_1.webp)
+![page](/images/threatmanager/3.0/administration/configuration/integrations/page_1.webp)
 
 It is necessary to generate an app token for each product integration. The App Tokens table displays
 the following information for each generated app token:
@@ -27,7 +27,7 @@ Follow the steps to generate an app token.
 
 **Step 1 –** On the Integrations page, click **Add New Integration**.
 
-![apptoken](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/apptoken.webp)
+![apptoken](/images/threatmanager/3.0/administration/configuration/integrations/apptoken.webp)
 
 **Step 2 –** In the Type drop-down menu, select **App Token**.
 
@@ -49,7 +49,7 @@ To view the details for an app token, click on the app token name in the Integra
 of the page displays the app token name and the description. These can be modified by clicking on
 the name or description and entering the desired information.
 
-![details](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/details_1.webp)
+![details](/images/threatmanager/3.0/administration/configuration/integrations/details_1.webp)
 
 Ensure that the app token is enabled for sending data to Threat Manager. In the General box, verify
 that the status is set to **ON**.

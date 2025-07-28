@@ -28,7 +28,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection for the 0-Create Schema Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/createschemaanalysis.webp)
+![Analysis Selection for the 0-Create Schema Job](/images/accessanalyzer/12.0/solutions/filesystem/collection/createschemaanalysis.webp)
 
 The following analysis tasks are selected by default:
 

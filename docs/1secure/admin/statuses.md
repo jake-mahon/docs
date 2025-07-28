@@ -10,7 +10,7 @@ Statuses in Netwrix 1Secure allow you check up the state of the system, specific
 agent, and connectors. As you add your sources, connectors, install the agent, Netwrix 1Secure
 provides several statuses for these:
 
-![statuses_chart](/img/product_docs/1secure/admin/statuses_chart.webp)
+![statuses_chart](/images/1secure/admin/statuses_chart.webp)
 
 :::note
 The New status changes to Healthy status when the agent finishes collection from the

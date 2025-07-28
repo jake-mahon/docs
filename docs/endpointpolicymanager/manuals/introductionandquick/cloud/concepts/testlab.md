@@ -31,8 +31,8 @@ machines (each one within a "tab" in VMware Workstation):
 - Representative cloud machine: Typically non-domain-joined, but ready to install the Endpoint
   Policy Manager Cloud client for continuous testing
 
-![concepts_logons_and_downloads_12_625x534](/img/product_docs/endpointpolicymanager/cloud/concepts_logons_and_downloads_12_625x534.webp)
+![concepts_logons_and_downloads_12_625x534](/images/endpointpolicymanager/cloud/concepts_logons_and_downloads_12_625x534.webp)
 
-![concepts_logons_and_downloads_13_624x282](/img/product_docs/endpointpolicymanager/cloud/concepts_logons_and_downloads_13_624x282.webp)
+![concepts_logons_and_downloads_13_624x282](/images/endpointpolicymanager/cloud/concepts_logons_and_downloads_13_624x282.webp)
 
-![concepts_logons_and_downloads_14_623x372](/img/product_docs/endpointpolicymanager/cloud/concepts_logons_and_downloads_14_623x372.webp)
+![concepts_logons_and_downloads_14_623x372](/images/endpointpolicymanager/cloud/concepts_logons_and_downloads_14_623x372.webp)

@@ -36,7 +36,7 @@ this job. Only modify the analysis tasks listed in the customizable analysis tas
 :::
 
 
-![Analysis Tasks for the AWS_StaleRoles Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/roles/stalerolesanalysis.webp)
+![Analysis Tasks for the AWS_StaleRoles Job](/images/accessanalyzer/12.0/solutions/aws/roles/stalerolesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -71,4 +71,3 @@ the following preconfigured report:
 | Report      | Description                                                | Default Tags | Report Element                                                                                                                                                                                                              |
 | ----------- | ---------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stale Roles | This report identifies stale roles in the AWS environment. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top stale roles by account</li><li>Table – Shows stales roles by account</li><li>Table – Provides details on stale roles</li></ul> |
-

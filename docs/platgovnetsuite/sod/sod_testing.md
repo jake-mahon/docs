@@ -19,7 +19,7 @@ The violations list in Employee or Role customizations are updated during testin
 
 To access Testing Mode:
 
-1. Create a new Rule or edit an existing Rule:  
+1. Create a new Rule or edit an existing Rule:
    **SoD** > **SoD Rule Library** > **New** or **Search**
 2. Open the **SoD Rule Processing Status** tab.
 3. Select **Test on Roles** or **Test on Employees**.
@@ -68,6 +68,6 @@ Test Reports are available for both **User Role Test Violations** and **Employee
 4. Select **SoD Testing** and one of the tabs:. There are links to **View Violation Details** and to
    open the Role Record.
 
-    ![SoD Test Report](/img/product_docs/platgovnetsuite/sod/sod_test_report.webp)
+    ![SoD Test Report](/images/platgovnetsuite/sod/sod_test_report.webp)
 
     Details can be exported in an Excel format.

@@ -48,7 +48,7 @@ install any specific endpoint license.
 
 You can see the difference in the list view as seen here.
 
-![getting_started_client](/img/product_docs/endpointpolicymanager/integration/privilegesecure/gettingstarted/getting_started_client.webp)
+![getting_started_client](/images/endpointpolicymanager/integration/privilegesecure/gettingstarted/getting_started_client.webp)
 
 In the next section we will see how to create Netwrix Endpoint Policy Manager (formerly PolicyPak) +
 Netwrix Privilege Secure policies which will not need an endpoint license to work out of the box.

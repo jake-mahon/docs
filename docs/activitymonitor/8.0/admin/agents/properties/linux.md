@@ -9,7 +9,7 @@ sidebar_position: 110
 The service user name configured during agent installation can be updated on the Agent Properties
 Linux Tab.
 
-![linuxtab](/img/product_docs/activitymonitor/8.0/admin/agents/properties/linuxtab.webp)
+![linuxtab](/images/activitymonitor/8.0/admin/agents/properties/linuxtab.webp)
 
 Enter a new service user name to run daemon and click **Test** to verify the connection.
 

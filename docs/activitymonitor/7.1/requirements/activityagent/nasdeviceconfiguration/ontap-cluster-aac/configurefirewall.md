@@ -143,7 +143,7 @@ system services firewall policy show ‑policy enterpriseauditorfirewall ‑serv
 
 Verify that the output is displayed as follows:
 
-![validatefirewall](/img/product_docs/activitymonitor/7.1/config/netappcmode/validatefirewall.webp)
+![validatefirewall](/images/activitymonitor/7.1/config/netappcmode/validatefirewall.webp)
 
 ## FPolicy
 

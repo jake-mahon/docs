@@ -31,7 +31,7 @@ Follow the steps to add a license.
 
 **Step 1 –** Go to **Settings** > **Licensing**. The Licensing Summary page opens.
 
-![licensing](/img/product_docs/dataclassification/5.7/configuration/licensing.webp)
+![licensing](/images/dataclassification/5.7/configuration/licensing.webp)
 
 In the Source Licensing and Feature Licensing columns, you can view the available licenses for your
 sources and features. You can review the following details:
@@ -44,7 +44,7 @@ sources and features. You can review the following details:
 
 **Step 2 –** Click **Add Licence**.
 
-![licencedetails](/img/product_docs/dataclassification/5.7/configuration/licencedetails.webp)
+![licencedetails](/images/dataclassification/5.7/configuration/licencedetails.webp)
 
 **Step 3 –** Specify Name of the licence and the Licence details.
 
@@ -56,4 +56,4 @@ page.
 :::
 
 
-![licencenames](/img/product_docs/dataclassification/5.7/configuration/licencenames.webp)
+![licencenames](/images/dataclassification/5.7/configuration/licencenames.webp)

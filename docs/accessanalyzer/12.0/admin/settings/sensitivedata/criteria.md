@@ -9,7 +9,7 @@ sidebar_position: 10
 Configure the list of selected sensitive data criteria that will be used within sensitive data scan
 jobs using the Criteria Tab.
 
-![Sensitive Data Criteria tab](/img/product_docs/accessanalyzer/12.0/admin/settings/sensitivedata/criteriatab.webp)
+![Sensitive Data Criteria tab](/images/accessanalyzer/12.0/admin/settings/sensitivedata/criteriatab.webp)
 
 The options on the Criteria Tab are:
 
@@ -31,11 +31,11 @@ Otherwise, click **Cancel** if no changes were intended.
 
 Follow the steps to add Search Criteria for Sensitive Data scan jobs.
 
-![Add criteria](/img/product_docs/accessanalyzer/12.0/admin/settings/sensitivedata/addcriteria.webp)
+![Add criteria](/images/accessanalyzer/12.0/admin/settings/sensitivedata/addcriteria.webp)
 
 **Step 1 –** Click **Add** to open the Select Criteria window.
 
-![Select Criteria window](/img/product_docs/accessanalyzer/12.0/admin/settings/sensitivedata/selectcriteria.webp)
+![Select Criteria window](/images/accessanalyzer/12.0/admin/settings/sensitivedata/selectcriteria.webp)
 
 **Step 2 –** Select the checkbox to select the criteria. Use the **Search Criteria** text field to
 filter the list using keywords or expand each category to view and select individual Sensitive Data

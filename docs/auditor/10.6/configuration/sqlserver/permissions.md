@@ -17,7 +17,7 @@ accounts.
 
 1. To access SQL Server, Windows authentication will be used, so data collection account should be a
    Windows account specified in the _domain\user_ format (_domain\user$_ for Managed Service
-   Account).  
+   Account).
    SQL Server logins and authentication method are not supported.
 2. The account must be assigned the **System Administrator** server role for this SQL Server. See
    [Assigning 'System Administrator' Role](#assigning-system-administrator-role) section for more
@@ -38,7 +38,7 @@ accounts.
 3. In the left pane, expand the **Security** node. Right-click the **Logins** node and select **New
    Login** from the pop-up menu.
 
-    ![manualconfig_ssms_newlogin2016](/img/product_docs/auditor/10.6/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+    ![manualconfig_ssms_newlogin2016](/images/auditor/10.6/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
 
 4. Click **Search** next to **Login Name** and specify the user that you want to assign the
    **sysadmin** role to.

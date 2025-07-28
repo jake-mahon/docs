@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The Lightweight Directory Access Protocol (LDAP) dashboard contains the following cards:
 
-![LDAP Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/splunk/activedirectory/dashboard/ldap.webp)
+![LDAP Dashboard](/images/threatprevention/7.5/siemdashboard/splunk/activedirectory/dashboard/ldap.webp)
 
 - Top Client IPs – Displays up to the top five (5) client IP addresses related to LDAP events that
   have been recorded in the specified timeframe

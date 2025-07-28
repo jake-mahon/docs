@@ -10,7 +10,7 @@ The AnyID_Salesforce job collects Salesforce contact details including phone, ad
 date of birth. This job requires API access to Salesforce in order to collect this information. The
 list of collected attributes can be adjusted as necessary.
 
-![AnyID_Salesforce Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/anyid/salesforcejoblocation.webp)
+![AnyID_Salesforce Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/anyid/salesforcejoblocation.webp)
 
 The AnyID_Salesforce job is located in the **Jobs** > **AnyID Connectors** job group.
 
@@ -78,7 +78,7 @@ Run the solution with the default analysis configuration for best results.
 
 The AnyID_Salesforce job uses the PowerShell Data Collector for the query.
 
-![Query for the AnyID_Salesforce Job](/img/product_docs/accessanalyzer/11.6/solutions/anyid/salesforcequeries.webp)
+![Query for the AnyID_Salesforce Job](/images/accessanalyzer/11.6/solutions/anyid/salesforcequeries.webp)
 
 The query is:
 
@@ -99,7 +99,7 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The PowerShell Data Collector
 Wizard opens.
 
-![Edit Query Page](/img/product_docs/accessanalyzer/11.6/solutions/anyid/salesforcequeryeditquery.webp)
+![Edit Query Page](/images/accessanalyzer/11.6/solutions/anyid/salesforcequeryeditquery.webp)
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
@@ -141,7 +141,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AnyID_Salesforce Job](/img/product_docs/accessanalyzer/11.6/solutions/anyid/salesforceanalyses.webp)
+![Analysis Tasks for the AnyID_Salesforce Job](/images/accessanalyzer/11.6/solutions/anyid/salesforceanalyses.webp)
 
 The default analysis tasks are:
 
@@ -156,4 +156,3 @@ following preconfigured report:
 | Report              | Description                                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                                                                                      |
 | ------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Salesforce Contacts | This report highlights Salesforce Contacts and summarizes attribute completion by contact and by attribute. | None         | This report is comprised of four elements: <ul><li>Table – Contains information on Salesforce contacts</li><li>Bar Chart – Provides information on contact types</li><li>Table – Contains information on the attributes completion</li><li>Table – Contains information on subject details</li></ul> |
-

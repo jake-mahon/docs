@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_UserModifications Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/changes/usermodificationsanalysis.webp)
+![Analysis Tasks for the AD_UserModifications Job](/images/accessanalyzer/11.6/solutions/activedirectory/activity/changes/usermodificationsanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 
@@ -34,4 +34,3 @@ following pre-configured reports:
 | Report               | Description                    | Default Tags                                               | Report Elements                                                                                                                                                                                             |
 | -------------------- | ------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User Account Changes | Track changes to user objects. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Pie Chart – Displays changes by type</li><li>Table – Displays changes by user account</li><li>Table – Displays changes by user change details</li></ul> |
-

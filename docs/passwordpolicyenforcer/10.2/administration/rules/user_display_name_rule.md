@@ -10,7 +10,7 @@ The User Display Name rule rejects passwords that are similar to a user's Active
 name (full name for local accounts). Passwords that are similar to a user's display name are not
 desirable because they are easily guessed.
 
-![ppe_rules_11](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_11.webp)
+![ppe_rules_11](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_11.webp)
 
 - Select the **Enabled** check box to enable the User Display Name rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject

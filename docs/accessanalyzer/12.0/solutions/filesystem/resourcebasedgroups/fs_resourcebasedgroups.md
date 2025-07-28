@@ -88,7 +88,7 @@ for group permissions that should be configured and then reviewed in the Change 
 View the analysis tasks by navigating to the **Jobs** > **FileSystem** > **ResourceBasedGroups** >
 **FS_ResourceBasedGroups** > **Configure** node and select **Analysis**.
 
-![Analyze Group Permissions analysis task in the FS_ResourceBasedGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbganalysis.webp)
+![Analyze Group Permissions analysis task in the FS_ResourceBasedGroups Job](/images/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbganalysis.webp)
 
 - Analyze Group Permissions – Creates the FS_ResourceBasedGroups_NewACLs table accessible under the
   job’s Results node.
@@ -174,7 +174,7 @@ the same domain controller.
 View the action tasks by navigating to the **Jobs** > **FileSystem** > **Resourced Based Groups** >
 **FS_ResourceBasedGroups** > **Configure** node and select **Actions**.
 
-![Active Directory Action Tasks](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbgactivedirectoryactions.webp)
+![Active Directory Action Tasks](/images/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbgactivedirectoryactions.webp)
 
 There are the following two Active Directory action tasks:
 
@@ -200,7 +200,7 @@ Follow the steps to configure the Create Groups action task.
 
 **Step 3 –** In the Active Directory Action Module Wizard, navigate to the Create Groups page.
 
-![AD Action Module Wizard Create Groups page](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/creategroups.webp)
+![AD Action Module Wizard Create Groups page](/images/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/creategroups.webp)
 
 **Step 4 –** In the OU box, select the OU where the groups will be created.
 
@@ -224,7 +224,7 @@ Follow the steps to configure the Create Groups action task.
 
 **Step 3 –** In the Active Directory Action Module Wizard, navigate to the Group Membership page.
 
-![AD Action Module Wizard Groups Membership page](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbggroupsmembership.webp)
+![AD Action Module Wizard Groups Membership page](/images/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbggroupsmembership.webp)
 
 **Step 4 –** On the Create Groups page, **Target Group by OU** is selected by default. In the OU
 box, select the target OU.
@@ -284,7 +284,7 @@ Break Inheritance actions modules do not require any configuration.
 View the action tasks by navigating to the **Jobs** > **FileSystem** > **Resourced Based Groups** >
 **FS_ResourceBasedGroups** > **Configure** node and select **Actions**.
 
-![File System action tasks](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbgfilesystemactions.webp)
+![File System action tasks](/images/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/rbgfilesystemactions.webp)
 
 There are the following two File System action tasks:
 

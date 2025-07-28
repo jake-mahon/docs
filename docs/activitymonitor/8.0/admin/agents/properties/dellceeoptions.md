@@ -21,7 +21,7 @@ If it is installed on the same host, the activity agent can configure it automat
 :::
 
 
-![EMC CEE Options  Tab](/img/product_docs/activitymonitor/8.0/admin/agents/properties/emcceeoptionstab.webp)
+![EMC CEE Options  Tab](/images/activitymonitor/8.0/admin/agents/properties/emcceeoptionstab.webp)
 
 The options are:
 

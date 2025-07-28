@@ -41,4 +41,4 @@ Usercube's database.
 You can explore created views in the Usercube database's Views folder in SQL Server Management
 Studio
 
-![SSMS Views](/img/product_docs/identitymanager/6.1/integration-guide/executables/references/create-databaseviews/identitymanager-create-databaseviews_ssms.webp)
+![SSMS Views](/images/identitymanager/6.1/integration-guide/executables/references/create-databaseviews/identitymanager-create-databaseviews_ssms.webp)

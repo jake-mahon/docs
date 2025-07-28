@@ -13,7 +13,7 @@ to use default passwords.
 
 The 4-Oracle_DefaultPasswordUsers Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup17.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup17.webp)
 
 - Users with Default Passwords – Collects usernames of users whose passwords have not been updated
   since the database creation
@@ -38,7 +38,7 @@ pre-configured for this job.
 :::
 
 
-![Filters Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/4oracledefaultpasswordsfilterpage.webp)
+![Filters Page](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/4oracledefaultpasswordsfilterpage.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the Filter page. The default
 query target is All Databases. The default query scope is Only select database objects. Click

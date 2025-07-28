@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_UnresolvedSIDs Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/directpermissions/unresolvedsidsanalysis.webp)
+![Analysis Tasks for the SP_UnresolvedSIDs Job](/images/accessanalyzer/11.6/solutions/sharepoint/directpermissions/unresolvedsidsanalysis.webp)
 
 They need to remain in the default order:
 
@@ -39,4 +39,3 @@ unresolved SIDs, the SP_UnresolvedSIDs Job produces the following pre-configured
 | Report                     | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                                                                                     |
 | -------------------------- | ----------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unresolved SID Permissions | Unresolved SIDs can be safely cleaned up without affecting user access. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top 5 unresolved SIDs by affected resources</li><li>Table – Provides details on resources with unresolved SIDs applied</li><li>Table – Provides details on unresolved SIDs by affected resources</li></ul> |
-

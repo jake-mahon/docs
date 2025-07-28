@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_OrphanedUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/users/orphanedusersanalysis.webp)
+![Analysis Tasks for the AD_OrphanedUsers Job](/images/accessanalyzer/11.6/solutions/activedirectory/users/orphanedusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -34,4 +34,3 @@ the following pre-configured report:
 | Report         | Description                                                           | Default Tags | Report Elements                                                                                                                                                                                                               |
 | -------------- | --------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Orphaned Users | A user is considered orphans when their manager is disabled or stale. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by orphaned users</li><li>Table – Provides details on orphaned users</li><li>Provides details on top domains by orphaned users</li></ul> |
-

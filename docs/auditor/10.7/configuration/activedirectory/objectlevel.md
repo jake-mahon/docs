@@ -29,13 +29,13 @@ Computers**.
 **Step 2 –** In the **Active Directory Users and Computers** dialog, click **View** in the main menu
 and ensure that the **Advanced Features** are enabled.
 
-![manualconfig_aduc_advsecwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.webp)
+![manualconfig_aduc_advsecwinserver2016](/images/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.webp)
 
 **Step 3 –** Right-click the **`<domain_name>`** node and select **Properties.** Select the
 **Security** tab and click **Advanced**. In the **Advanced Security Settings for `<domain_name>`**
 dialog, select the **Auditing** tab.
 
-![manualconfig_aduc_advauditing_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.webp)
+![manualconfig_aduc_advauditing_winserver2016](/images/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.webp)
 
 **Step 4 –** Perform the following actions on the Windows Server 2012 and above:
 
@@ -48,7 +48,7 @@ dialog, select the **Auditing** tab.
 5. Scroll to the bottom of the list and make sure that the **Only apply these auditing settings to
    objects and/or containers within this container** checkbox is cleared.
 
-    ![manualconfig_objectlevel_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+    ![manualconfig_objectlevel_winserver2016](/images/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
 
 ## Enabling object-level auditing for the Configuration and Schema partitions
 
@@ -63,7 +63,7 @@ Administrative Tools **> ADSI Edit**.
 Settings** dialog, enable **Select a well-known Naming Context** and select **Configuration** from
 the drop-down list.
 
-![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
+![manualconfig_adsi_connectionwinserver2016](/images/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
 
 **Step 3 –** Expand the **Configuration `<Your_Root_Domain_Name>`** node. Right-click the
 **CN=Configuration, DC=`<name>`,DC=`<name>`…** node and select **Properties.**
@@ -83,6 +83,6 @@ dialog, open the **Auditing** tab.
 5. Scroll to the bottom of the list and make sure that the **Only apply these auditing settings to
    objects and/or containers within this container** checkbox is cleared.
 
-    ![manualconfig_objectlevel_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+    ![manualconfig_objectlevel_winserver2016](/images/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
 
 Repeat these steps for the Schema container if necessary.

@@ -17,7 +17,7 @@ By default, access is granted to the following roles:
 Access to the Strongpoint tab must be granted to other users or roles:
 
 1. Open **Customization** > **Centers and Tabs** > **Center Tabs**
-2. Click **Edit** by Strongpoint  
+2. Click **Edit** by Strongpoint
    The **Label** should be **Strongpoint**.
 3. Click the **Audience** tab.
 4. Grant access to the appropriate users and roles. Refer to NetSuite’s Help for more details on
@@ -41,28 +41,28 @@ updates. After you create the copy, you must add all of the appropriate category
 1. Open **Customization** > **Centers and Tabs** > **Center Tabs**
 2. Click **Edit** by Strongpoint
 3. Select a different **Center**
-4. Click **Save a Copy**  
-   Leave this window open so you can see all of the categories.  
+4. Click **Save a Copy**
+   Leave this window open so you can see all of the categories.
    This example shows **Engineering** as the new **Center**
 
-    ![Saving to Engineering Center.](/img/product_docs/platgovnetsuite/installing_strongpoint/engineeringexample.webp)
+    ![Saving to Engineering Center.](/images/platgovnetsuite/installing_strongpoint/engineeringexample.webp)
 
 5. Create the Category links:
 
-    1. Open **Customization** > **Centers and Tabs** > **Center Categories** in a new window.  
+    1. Open **Customization** > **Centers and Tabs** > **Center Categories** in a new window.
        Click **Edit** by the Label of your first category **(Strongpoint Support** in the example)
        and your selected **Center Type** (**Engineering** in the example).
 
-        ![Select Category for New Center.](/img/product_docs/platgovnetsuite/installing_strongpoint/copy_categories.webp)
+        ![Select Category for New Center.](/images/platgovnetsuite/installing_strongpoint/copy_categories.webp)
 
     2. Open **Customization** > **Centers and Tabs** > **Center Categories** in a second new
-       window.  
+       window.
        Click **Edit** by the Label of the same category and the **Classic Center** version.
     3. Add each **Link** and **Label** in your new **Center**, using the **Classic Center** version
        as a guide. A drop down completion list is shown as you type. Click **Add** after each
        addition.
 
-        ![Two category windows open to copy links to your new Center.](/img/product_docs/platgovnetsuite/installing_strongpoint/copy_categories2.webp)
+        ![Two category windows open to copy links to your new Center.](/images/platgovnetsuite/installing_strongpoint/copy_categories2.webp)
 
     4. When complete, click **Save** in your new **Center** and **Cancel** in the **Classic
        Center**.
@@ -79,6 +79,6 @@ updates. After you create the copy, you must add all of the appropriate category
 4. Assign the audience. This can be role(s) or specific employees.
 5. Click **Save**
 
-    ![Assigning permissions.](/img/product_docs/platgovnetsuite/installing_strongpoint/engineeringexample2.webp)
+    ![Assigning permissions.](/images/platgovnetsuite/installing_strongpoint/engineeringexample2.webp)
 
 **Next Step:** [ Setting Role Permissions](/docs/platgovnetsuite/installation/setting_permissions.md)

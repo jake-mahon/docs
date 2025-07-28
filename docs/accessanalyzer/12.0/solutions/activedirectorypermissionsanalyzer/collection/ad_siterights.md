@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the AD_SiteRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/siterightsquery.webp)
+![Query for the AD_SiteRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/siterightsquery.webp)
 
 - Site Access Permissions – Returns site permissions
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_SiteRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/userrightsanalysis.webp)
+![Analysis Tasks for the AD_SiteRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/userrightsanalysis.webp)
 
 The default analysis tasks are:
 

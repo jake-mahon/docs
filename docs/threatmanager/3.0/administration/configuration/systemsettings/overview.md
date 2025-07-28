@@ -12,7 +12,7 @@ more.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **System Settings** to open the System Settings interface.
 
-![System Settings interface](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/interface.webp)
+![System Settings interface](/images/threatmanager/3.0/administration/configuration/systemsettings/interface.webp)
 
 It contains the following pages:
 

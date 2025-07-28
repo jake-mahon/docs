@@ -11,7 +11,7 @@ This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comm
 This page is about
 [File/CSV](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/csv/index.md).
 
-![Package: File/CSV](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
+![Package: File/CSV](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
 
 ## Overview
 
@@ -94,7 +94,7 @@ This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comm
 This page is about
 [File/CSV](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/csv/index.md).
 
-![Package: File/CSV](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
+![Package: File/CSV](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
 
 ## Overview
 
@@ -169,9 +169,9 @@ The identifier of the connection and thus the name of the subsection must:
 | ---                                              | ---                                                                                                                                                                                                                                                                                                                                                                    |
 | Encoding default value: UTF-8                    | **Type** String **Description** Encoding of the input file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings).                                                                                                                                                              |
 
-| Separator  
-default value: , | **Type**  
-String  
+| Separator
+default value: , | **Type**
+String
 **Description**
 
 Separator used in the input file.

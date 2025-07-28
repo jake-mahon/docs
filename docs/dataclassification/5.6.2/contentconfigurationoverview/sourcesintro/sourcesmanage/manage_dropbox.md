@@ -22,7 +22,7 @@ To configure exclusions, do the following:
    left pane click Collection Exclusions.
 2. Click **Add**.
 
-    ![boxexclusions_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/dropbox/boxexclusions_thumb_0_0.webp)
+    ![boxexclusions_thumb_0_0](/images/dataclassification/5.6.2/sources/dropbox/boxexclusions_thumb_0_0.webp)
 
 3. Click **Filter** and in the **Filter** field specify the objects (files or folders) to exclude:
 

@@ -18,7 +18,7 @@ Sensitive data exclusion filters can only be applied to the
 :::
 
 
-![Sensitive Data settings](/img/product_docs/accessanalyzer/12.0/admin/settings/sensitivedata/sensitivedata.webp)
+![Sensitive Data settings](/images/accessanalyzer/12.0/admin/settings/sensitivedata/sensitivedata.webp)
 
 The tabs in the Sensitive Data node are:
 

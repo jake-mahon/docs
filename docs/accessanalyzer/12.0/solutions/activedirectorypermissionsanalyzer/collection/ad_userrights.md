@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the AD_UserRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/userrightsquery.webp)
+![Query for the AD_UserRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/userrightsquery.webp)
 
 - User Access Permissions – Returns user permissions
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_UserRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/userrightsanalysis.webp)
+![Analysis Tasks for the AD_UserRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/collection/userrightsanalysis.webp)
 
 The default analysis tasks are:
 

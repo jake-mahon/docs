@@ -29,17 +29,17 @@ Follow the steps to deploy the agent to the Linux host.
 
 **Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
-![Install New Agent page of the Add New Agent(s) Wizard](/img/product_docs/activitymonitor/7.1/install/agent/installnew.webp)
+![Install New Agent page of the Add New Agent(s) Wizard](/images/activitymonitor/7.1/install/agent/installnew.webp)
 
 **Step 2 –** On the Install New Agent page, enter the server name for the Linux host. Click
 **Next**.
 
-![Specify Agent Port](/img/product_docs/activitymonitor/7.1/install/agent/portdefault.webp)
+![Specify Agent Port](/images/activitymonitor/7.1/install/agent/portdefault.webp)
 
 **Step 3 –** On the Agent Port page, specify the port to be used by the new agent. The default port
 is **4498**. Click **Next**.
 
-![Credentials to Connect](/img/product_docs/activitymonitor/7.1/admin/agents/add/credentialsservers.webp)
+![Credentials to Connect](/images/activitymonitor/7.1/admin/agents/add/credentialsservers.webp)
 
 **Step 4 –** On the Credentials To Connect To The Server(s) page, connect to the Linux Server using
 either a **User name** and **Password**, or a Public Key.
@@ -49,14 +49,14 @@ The options for connecting with a Password are:
 - User name
 - Password
 
-![Public Key Credentials](/img/product_docs/activitymonitor/7.1/admin/agents/add/publickey.webp)
+![Public Key Credentials](/images/activitymonitor/7.1/admin/agents/add/publickey.webp)
 
 The options for connecting with a Public Key are:
 
 - User name
 - Private Key
 
-![Client Certificate Credentials](/img/product_docs/activitymonitor/7.1/admin/agents/add/clientcertificate.webp)
+![Client Certificate Credentials](/images/activitymonitor/7.1/admin/agents/add/clientcertificate.webp)
 
 To connect with a Client Certificate, select the **Client Certificate** (for already installed
 agents) option. Run the following commands on the Linux machine:
@@ -97,7 +97,7 @@ cat ~/.ssh/id_ecdsa
 **Next**. If the connection is unsuccessful, see the status message that appears for information on
 the failed connection.
 
-![Linux Agent Options](/img/product_docs/activitymonitor/7.1/admin/agents/add/linuxagentoptions.webp)
+![Linux Agent Options](/images/activitymonitor/7.1/admin/agents/add/linuxagentoptions.webp)
 
 **Step 6 –** On the Linux Agent Options page, select which user name to use to run the daemon. To
 use root, leave the **Service user name** field blank. Click **Test** to test the connection.
@@ -108,7 +108,7 @@ deployed to and installed on the target host.
 During the installation process, the status will be **Installing**. If there are any errors,
 Activity Monitor stops the installation and lists the errors in the **Agent messages** box.
 
-![Linux Agent Installed](/img/product_docs/activitymonitor/7.1/admin/agents/add/activitymonitorwithlinuxagentinstalled.webp)
+![Linux Agent Installed](/images/activitymonitor/7.1/admin/agents/add/activitymonitorwithlinuxagentinstalled.webp)
 
 When the Linux agent installation is complete, the status changes to **Installed**. The Monitored
 Host is also configured, and the added Linux host is displayed in the monitored hosts table. See the

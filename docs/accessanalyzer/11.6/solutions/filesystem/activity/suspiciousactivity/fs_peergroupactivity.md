@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_PeerGroupActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/peergroupactivityanalysis.webp)
+![Analysis Tasks for the FS_PeerGroupActivity Job](/images/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/peergroupactivityanalysis.webp)
 
 - Summarize Hourly Norms and Deviations – Creates the SA_FS_PeerGroupActivity_Details table
   accessible under the job’s Results node
@@ -31,4 +31,3 @@ produces the following pre-configured report:
 | Report                      | Description                                                                                                                                                                                                                                | Default Tags | Report Elements                                                                                                     |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------- |
 | Unusual Peer Group Activity | This report highlights unusual periods of activity based on peer group analysis. When a user accesses an abnormal amount of data from outside of their own department, the failure of separation of duties can indicate a security threat. | None         | This report is comprised of one element: <ul><li>Table – Provides details on abnormal peer group activity</li></ul> |
-

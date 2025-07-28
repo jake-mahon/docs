@@ -50,7 +50,7 @@ to unlocked scripts.
 7. Enter **Strongpoint Add Audit Tag** for Name.
 8. Paste the **Internal ID** of the **Archive** folder.
 
-    ![Add Audit Tag Mass Update](/img/product_docs/platgovnetsuite/script_management/audittag.webp)
+    ![Add Audit Tag Mass Update](/images/platgovnetsuite/script_management/audittag.webp)
 
 9. Click **Preview** to review the actions. Click **Perform Update** to add the Start tags.
 10. End tags are used to measure script average run time. In many cases, there is no systematic way

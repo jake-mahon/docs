@@ -8,7 +8,7 @@ sidebar_position: 10
 
 At this step of the wizard, select processing (indexing) mode for your environment.
 
-![processing_modes](/img/product_docs/dataclassification/5.7/install/initialconfiguration/processing_modes.webp)
+![processing_modes](/images/dataclassification/5.7/install/initialconfiguration/processing_modes.webp)
 
 For starter and evaluation purposes, select Keyword mode.
 

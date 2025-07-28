@@ -47,28 +47,28 @@ Follow the steps to add a Hitachi host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Choose Agent page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent page](/images/activitymonitor/7.1/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the storage device. Click
 **Next**.
 
-![Add Host page with Hitachi NAS selected](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/addhosthitachi.webp)
+![Add Host page with Hitachi NAS selected](/images/activitymonitor/7.1/admin/monitoredhosts/add/addhosthitachi.webp)
 
 **Step 3 –** On the Add Host page, select the Hitachi NAS radio button and enter the **EVS or file
 system name** for the device. If desired, add a **Comment**. Click **Next**.
 
-![Hitachi NAS Options page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/hitachinasoptions.webp)
+![Hitachi NAS Options page](/images/activitymonitor/7.1/admin/monitoredhosts/add/hitachinasoptions.webp)
 
 **Step 4 –** On the Hitachi NAS Options page, enter the **Logs path (UNC)** and the **Active Log
 file name**. Then enter the credentials to access the HNAS Log files. Click Connect to validate the
 connection with the Hitachi device. Click **Next**.
 
-![Configure Operations page for Hitachi NAS](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/configureoperationshitachi.webp)
+![Configure Operations page for Hitachi NAS](/images/activitymonitor/7.1/admin/monitoredhosts/add/configureoperationshitachi.webp)
 
 **Step 5 –** On the Configure Operations page, select the **File Operations** and **Directory
 Operations** to be monitored. Click **Next**.
 
-![Configure Basic Options page for Hitachi NAS](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/configurebasicoptionshitachi.webp)
+![Configure Basic Options page for Hitachi NAS](/images/activitymonitor/7.1/admin/monitoredhosts/add/configurebasicoptionshitachi.webp)
 
 **Step 6 –** On the Configure Basic Options page, choose which settings to enable. The “Log files”
 are the activity logs created by the activity agent on the proxy host. Select the desired options:
@@ -88,12 +88,12 @@ are the activity logs created by the activity agent on the proxy host. Select th
 
 Click **Next**.
 
-![Where To Log The Activity](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/wheretologtheactivity.webp)
+![Where To Log The Activity](/images/activitymonitor/7.1/admin/monitoredhosts/add/wheretologtheactivity.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
 
-![File Output Page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/fileoutputpage.webp)
+![File Output Page](/images/activitymonitor/7.1/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 8 –** If **Log File** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -120,7 +120,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![syslogoutput](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/syslogoutput.webp)
+![syslogoutput](/images/activitymonitor/7.1/admin/monitoredhosts/add/syslogoutput.webp)
 
 **Step 9 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -155,7 +155,7 @@ Output page can be configured.
 
 Click **Finish**.
 
-![Activity Monitor with Hitachi Host added](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/activitymonitorhitachi.webp)
+![Activity Monitor with Hitachi Host added](/images/activitymonitor/7.1/admin/monitoredhosts/add/activitymonitorhitachi.webp)
 
 The added Hitachi host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the

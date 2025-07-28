@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_SensitivePolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/policies/sensitivepoliciesanalysis.webp)
+![Analysis Tasks for the AWS_SensitivePolicies Job](/images/accessanalyzer/11.6/solutions/aws/policies/sensitivepoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -42,4 +42,3 @@ produces the following preconfigured report:
 | -------------------------- | ----------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sensitive Inline Policies  | This report highlights users, groups, and roles with a sensitive inline policy assigned.  | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays sensitive policy assignments by org</li><li>Table – Shows sensitive policy assignments by org</li><li>Table – Provides details on sensitive policy assignments</li></ul>                         |
 | Sensitive Managed Policies | This report highlights users, groups, and roles with a sensitive managed policy assigned. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays sensitive managed policy assignments by org</li><li>Table – Shows sensitive managed policy assignments by org</li><li>Table – Provides details on sensitive managed policy assignments</li></ul> |
-

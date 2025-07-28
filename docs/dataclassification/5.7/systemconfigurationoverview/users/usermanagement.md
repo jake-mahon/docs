@@ -32,7 +32,7 @@ The conceptQS web application should have these authentication methods enabled:
 
 All other authentication methods should be disabled.
 
-![iis_thumb_0_0](/img/product_docs/dataclassification/5.7/security/iis_thumb_0_0.webp)
+![iis_thumb_0_0](/images/dataclassification/5.7/security/iis_thumb_0_0.webp)
 
 **Step 3 –** If you wish to allow anonymous access to the conceptQS, edit the conceptQS web.config
 file and delete (or comment out) three lines:
@@ -79,7 +79,7 @@ Classification via Microsoft Entra ID authentication:
 More users can be added at any time from the default Users screen, as well as allowing for users to
 be removed.
 
-![adduser](/img/product_docs/dataclassification/5.7/security/adduser.webp)
+![adduser](/images/dataclassification/5.7/security/adduser.webp)
 
 Additional Windows users can be validated using Integrated Windows Authentication. Additional
 non-Windows users can only be added if the Non-Windows Authentication mode is enabled.
@@ -108,13 +108,13 @@ When an area is enabled there are typically more granular permissions that can b
 - Within the Sources area it is possible to restrict a user’s access to specific source groups, as
   shown below.
 
-![userpermissions_thumb_0_0](/img/product_docs/dataclassification/5.7/security/userpermissions_thumb_0_0.webp)
+![userpermissions_thumb_0_0](/images/dataclassification/5.7/security/userpermissions_thumb_0_0.webp)
 
 ### Taxonomy Permissions Summary
 
 The Permissions window lets you restruct permissions for a user.
 
-![viewtaxonomypermissionssummary_thumb_0_0](/img/product_docs/dataclassification/5.7/security/viewtaxonomypermissionssummary_thumb_0_0.webp)
+![viewtaxonomypermissionssummary_thumb_0_0](/images/dataclassification/5.7/security/viewtaxonomypermissionssummary_thumb_0_0.webp)
 
 You can restrict permissions for a user to the following areas:
 

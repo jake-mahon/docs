@@ -16,16 +16,16 @@ For an overview of using Block policies, see the following video:
 :::
 
 
-![about_policypak_browser_router_16](/img/product_docs/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_16.webp)
+![about_policypak_browser_router_16](/images/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_16.webp)
 
 When you include text in the **Block Text** field, the endpoint will react in all browsers with a
 pop-up like this one.
 
-![about_policypak_browser_router_17](/img/product_docs/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_17.webp)
+![about_policypak_browser_router_17](/images/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_17.webp)
 
 :::note
 If you leave the **Block Text** field empty, default text is automatically provided.
 :::
 
 
-![about_policypak_browser_router_18](/img/product_docs/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_18.webp)
+![about_policypak_browser_router_18](/images/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_18.webp)

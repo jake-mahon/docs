@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/permissions/jobgroup37.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/permissions/jobgroup37.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report             | Description                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Server Permissions | This report highlights server permissions and summarizes them by instance | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by server permissions</li><li>Table – Provides details on instances by server permission count</li><li>Table – Provides details on server permissions</li></ul> |
-

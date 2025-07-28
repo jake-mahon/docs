@@ -26,7 +26,7 @@ data collection occurs.
 
 The SensitiveDataScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup9.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup9.webp)
 
 - SensitiveDataScan – Collects Sensitive Data from targeting instances
     - (Optional) This query can be modified to target specific databases/instances. See the
@@ -52,7 +52,7 @@ job.
 :::
 
 
-![2sqlsensitivedatascanoptionspage](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
+![2sqlsensitivedatascanoptionspage](/images/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
 
 **Step 4 –** Select the desired scan options. Navigate to the
 [SQL: Options](/docs/accessanalyzer/11.6/admin/datacollector/sql/options.md)
@@ -65,7 +65,7 @@ may significantly increase scan time.
 :::
 
 
-![Criteria Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
+![Criteria Page](/images/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
 [SQL: Criteria](/docs/accessanalyzer/11.6/admin/datacollector/sql/criteria.md)
@@ -81,7 +81,7 @@ page. By default, the following System Criteria have been selected:
     [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.
 
-![Filter Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
+![Filter Page](/images/accessanalyzer/11.6/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
 
 **Step 6 –** To query for specific database/instance, navigate to the
 [SQL: Filter](/docs/accessanalyzer/11.6/admin/datacollector/sql/filter.md)
@@ -109,7 +109,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup13.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup13.webp)
 
 The default analysis task is:
 

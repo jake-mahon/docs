@@ -20,7 +20,7 @@ phone.
 
 Follow the steps to enable the authenticator option for MFA.
 
-![Enable MFA page](/img/product_docs/recoveryforactivedirectory/2.6/admin/enablemfa.webp)
+![Enable MFA page](/images/recoveryforactivedirectory/2.6/admin/enablemfa.webp)
 
 **Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
 and select **Manage**. The MFA page opens.
@@ -28,7 +28,7 @@ and select **Manage**. The MFA page opens.
 **Step 2 –** Click the **Add authenticator app** button. The Configure authenticator app page is
 displayed, showing the instructions for setting up the app.
 
-![Configure authenticator app page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configure.webp)
+![Configure authenticator app page](/images/recoveryforactivedirectory/2.6/admin/configure.webp)
 
 **Step 3 –** Open the authenticator app on your phone and scan the QR code with it. A new account is
 created in the app for the Recovery application and a verification code is displayed under the
@@ -50,7 +50,7 @@ Authenticator app every time you sign into Recovery for Active Directory. See th
 
 Follow the steps to disable MFA for your Recovery for Active Directory account.
 
-![Disable MFA page](/img/product_docs/recoveryforactivedirectory/2.6/admin/disablemfa.webp)
+![Disable MFA page](/images/recoveryforactivedirectory/2.6/admin/disablemfa.webp)
 
 **Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
 and select **Manage**. The MFA page opens.

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AWS_OpenBuckets Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/s3permissions/openbucketsanalysis.webp)
+![Analysis Task for the AWS_OpenBuckets Job](/images/accessanalyzer/11.6/solutions/aws/s3permissions/openbucketsanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -35,4 +35,3 @@ the following preconfigured report:
 | Report       | Description                                 | Default Tags | Report Element                                                                                                                                                                                                      |
 | ------------ | ------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Open Buckets | This report identifies AWS S3 Open Buckets. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays largest open buckets</li><li>Table – Shows largest open buckets</li><li>Table – Provides details on open buckets</li></ul> |
-

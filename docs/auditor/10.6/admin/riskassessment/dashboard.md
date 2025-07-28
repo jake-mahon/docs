@@ -29,7 +29,7 @@ displayed with the color indicators in accordance with the level:
 - Medium — yellow
 - Low — green
 
-![dashboard_main](/img/product_docs/auditor/10.6/admin/riskassessment/dashboard_main.webp)
+![dashboard_main](/images/auditor/10.6/admin/riskassessment/dashboard_main.webp)
 
 After reviewing general risks assessment results in each category, you can drill-down to details
 covered in the underlying report— for that, double-click the selected metric or use the View Report
@@ -48,7 +48,7 @@ and standards. For that, do the following:
 2. In the dialog displayed, specify new threshold values for risk levels.
 3. Click OK to save the settings and close the dialog.
 
-    ![modify_thresholds](/img/product_docs/auditor/10.6/admin/riskassessment/modify_thresholds.webp)
+    ![modify_thresholds](/images/auditor/10.6/admin/riskassessment/modify_thresholds.webp)
 
 Also, for several metrics the Customize risk indicators command is available.
 

@@ -24,7 +24,7 @@ access the dashboard.
 
 Here is an example owner dashboard showing new assignments.
 
-![UAR Owner dashboard](/img/product_docs/platgovnetsuite/uar/uar_owner/dashboard_owner.webp)
+![UAR Owner dashboard](/images/platgovnetsuite/uar/uar_owner/dashboard_owner.webp)
 
 ## Dashboard Controls
 

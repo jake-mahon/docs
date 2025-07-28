@@ -20,7 +20,7 @@ two things:
 server with few UWP applications, click "Include common apps" to see many Windows 10 built-in apps.
 For this Quickstart example, select Calculator, as seen in Figure 14.
 
-![quickstart_start_screen_manager_9](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_9.webp)
+![quickstart_start_screen_manager_9](/images/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_9.webp)
 
 Figure 14. Picking UWP applications from a common list or from your machine.
 
@@ -34,18 +34,18 @@ can select "Custom Universal Windows Platform application," then input the ID.
 **Step 3 –** Next, in the tile settings window, you'll see that UWP applications have four possible
 sizes. For this Quickstart, select the largest tile size, as shown in Figure 15, and click "Next."
 
-![quickstart_start_screen_manager_10](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_10.webp)
+![quickstart_start_screen_manager_10](/images/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_10.webp)
 
 Figure 15. UWP applications have four icon tile sizes.
 
 **Step 4 –** Next, type a policy name, as seen in Figure 16, and click "Finish."
 
-![quickstart_start_screen_manager_11](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_11.webp)
+![quickstart_start_screen_manager_11](/images/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_11.webp)
 
 Figure 16. Specifying the UWP policy name.
 
 **Step 5 –** You'll see the UWP application icon entry, as shown in Figure 17.
 
-![quickstart_start_screen_manager_12](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_12.webp)
+![quickstart_start_screen_manager_12](/images/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_12.webp)
 
 Figure 17. The UWP application icon entry.

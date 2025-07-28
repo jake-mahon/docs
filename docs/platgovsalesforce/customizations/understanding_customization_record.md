@@ -32,7 +32,7 @@ Customization record fields include:
   **Update Description and Help Text** to update.
 - **Related Objects**: Links to related objects.
 
-![Strongpoint Lightning Customization Record](/img/product_docs/platgovsalesforce/customizations/customization_record_lightning.webp)
+![Strongpoint Lightning Customization Record](/images/platgovsalesforce/customizations/customization_record_lightning.webp)
 
 ## Customization Record Tabs
 
@@ -73,7 +73,7 @@ The **Custom** tab shows the join, scanner and DLU dates.
 The Dependency Relationship Diagram ([DRD](/docs/platgovsalesforce/tools/viewing_drd.md)) displays objects,
 customizations and their relationships and dependencies.
 
-![DRD Example](/img/product_docs/platgovsalesforce/customizations/drd.webp)
+![DRD Example](/images/platgovsalesforce/customizations/drd.webp)
 
 ### Change Enablement
 
@@ -83,8 +83,8 @@ request feature.
 - **Change/Approval Policy**: designates the approval policy related to a customization.
 - **Add to Change Request**: Lookup tool to associate the clean up to an existing change request.
 - **Data Change Tracking**: tracking status.
-    - **Not Tracked**: changes in data records are not tracked.  
-    - **Tracked, Blocking**: changes in data records are blocked if there is no approved Change Request.  
+    - **Not Tracked**: changes in data records are not tracked.
+    - **Tracked, Blocking**: changes in data records are blocked if there is no approved Change Request.
     - **Tracked, Non-Blocking**: changes in data records are logged.
 
 ### Clean Up

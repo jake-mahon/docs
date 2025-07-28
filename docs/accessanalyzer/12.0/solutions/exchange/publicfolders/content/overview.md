@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Content job group provides visibility into public folder sizing and content aging.
 
-![Content Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/exchange/publicfolders/content/jobstree.webp)
+![Content Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/exchange/publicfolders/content/jobstree.webp)
 
 The jobs in the Content job group are:
 

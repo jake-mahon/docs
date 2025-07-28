@@ -9,7 +9,7 @@ sidebar_position: 10
 The PF_EntitlementScans job is comprised of data collection that focuses on public folder
 permissions.
 
-![Collection > PF_EntitlementScans Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/collectionjobstree.webp)
+![Collection > PF_EntitlementScans Job](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/collectionjobstree.webp)
 
 The PF_EntitlementScans job is located in the Collection job group.
 
@@ -17,7 +17,7 @@ The PF_EntitlementScans job is located in the Collection job group.
 
 The PF_EntitlementScans job uses the ExchangePS Data Collector.
 
-![Queries for the PF_EntitlementScans Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/entitlementscansquery.webp)
+![Queries for the PF_EntitlementScans Job](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/entitlementscansquery.webp)
 
 The following query is included in the PF_EntitlementScans job:
 
@@ -40,7 +40,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the PF_EntitlementScans Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/entitlementscansanalysis.webp)
+![Analysis Tasks for the PF_EntitlementScans Job](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/entitlementscansanalysis.webp)
 
 The following analysis tasks are selected by default:
 

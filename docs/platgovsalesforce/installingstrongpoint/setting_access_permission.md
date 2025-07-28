@@ -11,18 +11,18 @@ access to other users:
 
 1. Open Salesforce **Setup** > **Users** > **Users**
 
-   ![manageusers](/img/product_docs/platgovsalesforce/installing_strongpoint/manageusers.webp)
+   ![manageusers](/images/platgovsalesforce/installing_strongpoint/manageusers.webp)
 
 2. Click on an existing **User** name.
 3. Click **Permission Set Assignments**
 4. Click **Edit Assignments**.
 
-   ![editassignments](/img/product_docs/platgovsalesforce/installing_strongpoint/editassignments.webp)
-   
+   ![editassignments](/images/platgovsalesforce/installing_strongpoint/editassignments.webp)
+
 5. Select **Strongpoint Grant Permissions** from the **Available Permission Sets**
 6. Click **Add**. It should now be shown in the **Enabled Permission Sets**.
 7. Click **Save**.
 
-   ![enablepermissionsets](/img/product_docs/platgovsalesforce/installing_strongpoint/enablepermissionsets.webp)
+   ![enablepermissionsets](/images/platgovsalesforce/installing_strongpoint/enablepermissionsets.webp)
 
 The user is ready to view and use Platform Governance for Salesforce.

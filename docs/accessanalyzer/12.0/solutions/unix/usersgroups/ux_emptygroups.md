@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_EmptyGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/usersgroups/emptygroupsanalysis.webp)
+![Analysis Tasks for the UX_EmptyGroups Job](/images/accessanalyzer/12.0/solutions/unix/usersgroups/emptygroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ the following pre-configured report:
 | Report       | Description                                                    | Default Tags | Report Elements                                                                                                                                                                                                                        |
 | ------------ | -------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Empty Groups | This report identifies empty groups within the audited domains | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Empty Groups by Type</li><li>Table – Provides details on Empty Groups by Type bar chart</li><li>Table – Provides information on Empty Group Details</li></ul> |
-

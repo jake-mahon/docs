@@ -16,7 +16,7 @@ below:
 
 When ready, click **Insert** on the right.
 
-![doccounts_thumb_0_0](/img/product_docs/dataclassification/5.6.2/taxonomies/doccounts_thumb_0_0.webp)
+![doccounts_thumb_0_0](/images/dataclassification/5.6.2/taxonomies/doccounts_thumb_0_0.webp)
 
 ## Clue Body
 
@@ -52,7 +52,7 @@ Example: A class called _Global Warming_ may have the following clues:
 - CO2 Emissions
 - Pollution
 
-![clueterminfo](/img/product_docs/dataclassification/5.6.2/taxonomies/clueterminfo.webp)
+![clueterminfo](/images/dataclassification/5.6.2/taxonomies/clueterminfo.webp)
 
 To disable stemming, use double quotes around single words.
 
@@ -88,7 +88,7 @@ classified against a category unless it matches all of the mandatory clues.
 
 The mandatory clue selector is denoted by the \* icon:
 
-![mandatoryclue](/img/product_docs/dataclassification/5.6.2/taxonomies/mandatoryclue.webp)
+![mandatoryclue](/images/dataclassification/5.6.2/taxonomies/mandatoryclue.webp)
 
 ## Using the Local Option
 
@@ -97,7 +97,7 @@ user to restrict a clue purely to the current Term Set.
 
 **NOTE:** This option is only available for reused terms (SharePoint Term Sets).
 
-![localclue](/img/product_docs/dataclassification/5.6.2/taxonomies/localclue.webp)
+![localclue](/images/dataclassification/5.6.2/taxonomies/localclue.webp)
 
 - Once this option is selected, it will not be possible to amend the clue from any other Term Set
   that contains the re-used Term.

@@ -23,18 +23,18 @@ Follow the steps to download an updated Agent installer.
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Then click **Update
 Agent Installer** to launch the Agent Installer Update window.
 
-![Agent Installer Update window](/img/product_docs/threatprevention/7.4/admin/agents/window/checkfornewversion.webp)
+![Agent Installer Update window](/images/threatprevention/7.4/admin/agents/window/checkfornewversion.webp)
 
 **Step 2 –** Click **Check for Newer Version of the Netwrix Threat Prevention Agent**. Threat
 Prevention downloads the Agent installer from a static URL and then compares the Agent installer
 currently in use to the installer downloaded.
 
-![Agent Installer Update window showing that Agent Installer is up-to-date](/img/product_docs/threatprevention/7.4/admin/agents/window/uptodate.webp)
+![Agent Installer Update window showing that Agent Installer is up-to-date](/images/threatprevention/7.4/admin/agents/window/uptodate.webp)
 
 - If the versions are the same, the message specifies **Agent Installer is up-to-date…** and
   displays the Agent version number. Click **Close** to close the window.
 
-![Agent Installer Update window showing that Agent version is outdated](/img/product_docs/threatprevention/7.4/admin/agents/window/agentversionmismatch.webp)
+![Agent Installer Update window showing that Agent version is outdated](/images/threatprevention/7.4/admin/agents/window/agentversionmismatch.webp)
 
 - If the downloaded version is newer, the message displays both version numbers and provides an
   option to apply the update. Click **Apply Update**.

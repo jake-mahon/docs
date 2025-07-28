@@ -16,7 +16,7 @@ window. The tab varies based on the type of host selected.
 
 The tab contains the following settings:
 
-![Account Exclusions tab for Exchange Online](/img/product_docs/activitymonitor/8.0/admin/outputs/accountexclusions_exchangeonline.webp)
+![Account Exclusions tab for Exchange Online](/images/activitymonitor/8.0/admin/outputs/accountexclusions_exchangeonline.webp)
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the [Specify Account or Group Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifywindowsaccount.md) topic for additional
@@ -44,7 +44,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![linux](/img/product_docs/activitymonitor/8.0/admin/outputs/linux.webp)
+![linux](/images/activitymonitor/8.0/admin/outputs/linux.webp)
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the [Specify Account or Group Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifywindowsaccount.md) topic for additional
@@ -72,7 +72,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Account Exclusions tab for NAS Hosts](/img/product_docs/activitymonitor/8.0/admin/outputs/nasdevices.webp)
+![Account Exclusions tab for NAS Hosts](/images/activitymonitor/8.0/admin/outputs/nasdevices.webp)
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the [Specify Account or Group Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifywindowsaccount.md) topic for additional
@@ -100,7 +100,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Account Exclusions tab for SharePoint hosts](/img/product_docs/activitymonitor/8.0/admin/outputs/sharepoint.webp)
+![Account Exclusions tab for SharePoint hosts](/images/activitymonitor/8.0/admin/outputs/sharepoint.webp)
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the [Specify Account or Group Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifywindowsaccount.md) topic for additional
@@ -128,7 +128,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![sqlhosts](/img/product_docs/activitymonitor/8.0/admin/outputs/sqlhosts.webp)
+![sqlhosts](/images/activitymonitor/8.0/admin/outputs/sqlhosts.webp)
 
 - Add Sql User – Opens the Specify Sql User name window to add an account for exclusion. See the
   [Specify Sql User Name Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifysqluser.md) topic for additional information.
@@ -153,7 +153,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Account Exlcusions tab for Windows Hosts](/img/product_docs/activitymonitor/8.0/admin/outputs/windows.webp)
+![Account Exlcusions tab for Windows Hosts](/images/activitymonitor/8.0/admin/outputs/windows.webp)
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the [Specify Account or Group Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifywindowsaccount.md) topic for additional

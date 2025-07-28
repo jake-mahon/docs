@@ -20,7 +20,7 @@ The only supported configuration going forward for Firefox 128 support is CSE 24
 the Firefox 115 and later pak, which is compiled (and signed) from Netwrix with date stamp 11/7/2024
 and later.
 
-![transition](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/transition.webp)
+![transition](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/transition.webp)
 
 Previous Details (Pre 24.11 CSE)
 
@@ -99,14 +99,14 @@ data within GPOs see the
 [Endpoint Policy Manager User PowerShell to find all Endpoint Policy Manager GPOs](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/powershell.md)
 topic for additional information.
 
-![939_1_image-20231101213809-1_950x372](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_1_image-20231101213809-1_950x372.webp)
+![939_1_image-20231101213809-1_950x372](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_1_image-20231101213809-1_950x372.webp)
 
 The specific command you'll want to run is Get-PPGPOs -cse "application settings manager".
 
 Each Group Policy Object at this point will need to be opened to look for Firefox 23 AppSets. Here
 is an example of the FF23 AppSet on the Computer side, though it may also reside on the User side.
 
-![939_2_image-20231101213809-2_950x458](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_2_image-20231101213809-2_950x458.webp)
+![939_2_image-20231101213809-2_950x458](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_2_image-20231101213809-2_950x458.webp)
 
 Before making any modifications, you'll want to perform a few backup steps which are detailed in the
 next section.
@@ -122,7 +122,7 @@ settings before continuing.
 
 ### Back up 1: Viewing the Group Policy Object Report and saving the HTML report.
 
-![939_3_image-20231101213809-3_950x493](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_3_image-20231101213809-3_950x493.webp)
+![939_3_image-20231101213809-3_950x493](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_3_image-20231101213809-3_950x493.webp)
 
 This won't be your only backup, but it will express exactly what is in your Group Policy Object with
 regards to your settings.
@@ -138,7 +138,7 @@ topic for additional information.
 Open each FF23 AppSet and locate the Options button. Then click Export XML Settings Data and save
 the file out.
 
-![939_4_image-20231101213809-4_950x761](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_4_image-20231101213809-4_950x761.webp)
+![939_4_image-20231101213809-4_950x761](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_4_image-20231101213809-4_950x761.webp)
 
 See the
 [What are the two ways to export AppSet settings and why would I use one over the other?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/troubleshooting/appset.md)
@@ -187,7 +187,7 @@ EQUAL to this version will support only FF115 AppSet.
 Find your existing FF23 AppSet in your Group Policy Object(s) and select "Edit item-level targeting
 filters…"
 
-![939_5_image-20231101213809-5_950x524](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_5_image-20231101213809-5_950x524.webp)
+![939_5_image-20231101213809-5_950x524](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_5_image-20231101213809-5_950x524.webp)
 
 You can test for the presence or absence of Endpoint Policy Manager CSE version 23.09.0.0 with a
 Registry match query for:
@@ -200,12 +200,12 @@ Registry match query for:
 - Value Type: REG_SZ
 - Version Range: GREATER THAN 0.0.0.0 and LESS THAN 23.9.0.0
 
-![939_6_image-20231101213809-6_950x743](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_6_image-20231101213809-6_950x743.webp)
+![939_6_image-20231101213809-6_950x743](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_6_image-20231101213809-6_950x743.webp)
 
 When done save the values. You will know you have ILT set when you see the Targeting column change
 to ON.
 
-![939_7_image-20231101213809-7_950x273](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_7_image-20231101213809-7_950x273.webp)
+![939_7_image-20231101213809-7_950x273](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_7_image-20231101213809-7_950x273.webp)
 
 This is different than "Predefined Targeting". To understand the difference between ILT and
 Predefined Targeting see the
@@ -227,18 +227,18 @@ beginning and `</ILTFilters>` at the end.
 :::
 
 
-![939_8_image-20231101213809-8_950x453](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_8_image-20231101213809-8_950x453.webp)
+![939_8_image-20231101213809-8_950x453](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_8_image-20231101213809-8_950x453.webp)
 
 Expected result on a machine with 23.10 and later CSE:
 
-![939_9_image-20231101213809-9_950x523](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_9_image-20231101213809-9_950x523.webp)
+![939_9_image-20231101213809-9_950x523](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_9_image-20231101213809-9_950x523.webp)
 
 ## Adding the FF 115 AppSet to an existing or new Group Policy Object
 
 After you download the FF 115 AppSet from the Endpoint Policy Manager portal, it will appear like
 this. You only need the .DLL file and not the XML file.
 
-![939_10_image-20231101213809-10](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_10_image-20231101213809-10.webp)
+![939_10_image-20231101213809-10](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_10_image-20231101213809-10.webp)
 
 Use these instructions to add the AppSet Locally or via Central Store:
 
@@ -248,7 +248,7 @@ Use these instructions to add the AppSet to a Share:
 
 [Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
 
-![939_11_image-20231101213809-11_950x492](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_11_image-20231101213809-11_950x492.webp)
+![939_11_image-20231101213809-11_950x492](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_11_image-20231101213809-11_950x492.webp)
 
 For example in the Endpoint Policy Manager Central Store you simply add the pp-Mozilla Firefox
 115.DLL.
@@ -259,7 +259,7 @@ in place without modification.
 :::
 
 
-![939_12_image-20231101213809-12_950x406](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_12_image-20231101213809-12_950x406.webp)
+![939_12_image-20231101213809-12_950x406](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_12_image-20231101213809-12_950x406.webp)
 
 Next time you open the Group Policy editor you should see Endpoint Policy Manager For Mozilla
 Firefox 115.
@@ -272,14 +272,14 @@ computers with the latest Endpoint Policy Manager CSE.
 
 After creating the entry, double-click into it to open it up and select Import XML Settings Data.
 
-![939_13_image-20231101213809-13_950x633](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_13_image-20231101213809-13_950x633.webp)
+![939_13_image-20231101213809-13_950x633](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_13_image-20231101213809-13_950x633.webp)
 
 Then select the previously exported settings from the FF 23 AppSet. You should get a SUCCESS
 message.
 
 Next, set the Item-level targeting in the AppSet.
 
-![939_14_image-20231101213809-14](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_14_image-20231101213809-14.webp)
+![939_14_image-20231101213809-14](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_14_image-20231101213809-14.webp)
 
 FF AppSet 115 should be applied only to machines with Endpoint Policy Manager CSE version 23.10.3687
 or Greater and can be determined with a Registry match query for:
@@ -292,7 +292,7 @@ or Greater and can be determined with a Registry match query for:
 - Value Type: REG_SZ
 - Version Range: GREATER THAN OR EQUAL TO 23.10.0.0 and LESS THAN 99.0.0.0
 
-![939_15_image-20231101213809-15_950x815](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_15_image-20231101213809-15_950x815.webp)
+![939_15_image-20231101213809-15_950x815](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_15_image-20231101213809-15_950x815.webp)
 
 Click OK and then close the AppSet entry to save it.
 
@@ -311,12 +311,12 @@ beginning and `</ILTFilters>` at the end.
 You can test the ILT evaluation by using the Export settings to XMLData file for the Mozilla Firefox
 115 entry.
 
-![939_16_image-20231101213809-16_950x543](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_16_image-20231101213809-16_950x543.webp)
+![939_16_image-20231101213809-16_950x543](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_16_image-20231101213809-16_950x543.webp)
 
 Then you can use the ILT Evaluator tool to ensure your ILT evaluation is properly crafted and the
 AppSet will only target machines with the latest Endpoint Policy Manager CSE.
 
-![939_17_image-20231101213809-17_950x549](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_17_image-20231101213809-17_950x549.webp)
+![939_17_image-20231101213809-17_950x549](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_17_image-20231101213809-17_950x549.webp)
 
 # HTML Settings Report Manual Comparison
 
@@ -331,7 +331,7 @@ from FF23 and import to FF115 didn't work as expected.
 In such a case as case 2, please manually open the FF115 Pak and manually update your settings to
 correct for any non-imported settings.
 
-![939_18_image-20231101213809-18_950x807](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_18_image-20231101213809-18_950x807.webp)
+![939_18_image-20231101213809-18_950x807](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_18_image-20231101213809-18_950x807.webp)
 
 ## Final Thoughts
 

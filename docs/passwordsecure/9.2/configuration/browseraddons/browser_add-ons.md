@@ -20,7 +20,7 @@ Currently, add-ons are available for the following browsers:
 - Mozilla Firefox
 - Safari
 
-![Add-on Browser](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/addon-connections-en.webp)
+![Add-on Browser](/images/passwordsecure/9.2/configuration/browseradd-ons/addon-connections-en.webp)
 
 ## Installation
 
@@ -33,7 +33,7 @@ browser. A window appears in which the security of the connection is confirmed. 
 with a simple click. A new icon will also be displayed in the desired browser from this point
 onwards:
 
-![Icon Add-on](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/addon-icon-en.webp)
+![Icon Add-on](/images/passwordsecure/9.2/configuration/browseradd-ons/addon-icon-en.webp)
 
 If the icon is displayed as shown, it means that although the add-on has been installed.
 
@@ -46,14 +46,14 @@ First, the database profile can be created manually. Therefore, he following inf
 required: IP address, Web Application URL and database name. Please note that /api is appended to
 the end of the IP address.
 
-![database profil](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/manual-database-profile-en.webp)
+![database profil](/images/passwordsecure/9.2/configuration/browseradd-ons/manual-database-profile-en.webp)
 
 It is also possible that the database profile is filled out automatically. For this, you need to log
 on to a database via Web Application. By clicking on the add-on in the Web Application, its profile
 can be taken over. Now all necessary information such as profile name, IP address, Web Application
 and database name are transferred.
 
-![Adopt WebClient profile](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/adopt-database-profile-en.webp)
+![Adopt WebClient profile](/images/passwordsecure/9.2/configuration/browseradd-ons/adopt-database-profile-en.webp)
 
 ## The server mode benefits
 
@@ -67,7 +67,7 @@ mode and the Autofill Add-on has not been started, SSO applications do not work!
 After successful connection, the number of data records available for the current Internet page is
 displayed on the icon.
 
-![record found](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/record-found-en.webp)
+![record found](/images/passwordsecure/9.2/configuration/browseradd-ons/record-found-en.webp)
 
 ## Settings
 
@@ -96,7 +96,7 @@ The subscript number mentioned in the previous section is only available with ac
 therefore already says a lot about the “Number of possible entries”. For example, if the number “2”
 is shown, you can directly select the account you want to log in with.
 
-![Addon list](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/addon-records-list.webp)
+![Addon list](/images/passwordsecure/9.2/configuration/browseradd-ons/addon-records-list.webp)
 
 Previously, the prerequisite was that you had to navigate manually to the precise website via the
 browser that you actually wanted to use. This navigation can now also be handled by Netwrix Password
@@ -109,7 +109,7 @@ automatically enter login data. This way of working is possible but is not conve
 add-on can be used in a similar way to bookmarks. The search field can be used to search for the
 record in the database. The prerequisite is again that the record contains a URL.
 
-![Record usage](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/addon-records-usage-en.webp)
+![Record usage](/images/passwordsecure/9.2/configuration/browseradd-ons/addon-records-usage-en.webp)
 
 The screenshot shows that the URL and the name of the record (Wikipedia) are searched. The results
 for the search are displayed and can be selected using the arrow buttons or the mouse. The selected
@@ -121,7 +121,7 @@ If a user opens a page and multiple passwords with the autofill function are pos
 website, no entries will be made unlike in older versions. Instead, the following message appears in
 a pop-up:
 
-![Multiple entries](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/addon-multiple-passwords-en.webp)
+![Multiple entries](/images/passwordsecure/9.2/configuration/browseradd-ons/addon-multiple-passwords-en.webp)
 
 However, if the autofill function is only activated for one password but multiple passwords are
 possible, the password with the autofill function is entered. If the user clicks on a record in the

@@ -10,7 +10,7 @@ The Password Reset Client allows users to securely reset their password or unloc
 the Windows Logon and Unlock Computer screens. Users click **Reset Password** to access the Password
 Reset system.
 
-![the_password_reset_client](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client.webp)
+![the_password_reset_client](/images/passwordreset/3.23/administration/the_password_reset_client.webp)
 
 :::note
 The Password Reset Client does not modify any Windows system files.
@@ -28,8 +28,8 @@ these older operating systems.
 
 ### System Requirements
 
-- Windows Vista, 7, 8, 8.1, or 10.  
-  Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016, or 2019.  
+- Windows Vista, 7, 8, 8.1, or 10.
+  Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016, or 2019.
   Windows XP, Server 2003, or 2003 R2 (depreciated).
 - 1 Megabyte free disk space.
 - 128 Kilobytes free RAM (per session if using Remote Desktop Services).
@@ -73,7 +73,7 @@ this domain, and Link it here...**
 
 **Step 4 –** Enter **Password Reset Client**, then press **ENTER**.
 
-![the_password_reset_client_1](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client_1.webp)
+![the_password_reset_client_1](/images/passwordreset/3.23/administration/the_password_reset_client_1.webp)
 
 ### Edit the Group Policy Object
 
@@ -140,7 +140,7 @@ installation folder. (`\Program Files\ANIXIS Password Reset\` by default).
 
 **Step 7 –** Select **APRClt.adm**, and then click **Open**.
 
-![the_password_reset_client_2](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client_2.webp)
+![the_password_reset_client_2](/images/passwordreset/3.23/administration/the_password_reset_client_2.webp)
 
 **Step 8 –** Click **Close**.
 
@@ -160,11 +160,11 @@ Reset Client** items.
 **Step 4 –** Double-click the **Browser settings** item in the right pane of the Group Policy
 Management Editor.
 
-![the_password_reset_client_3](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client_3.webp)
+![the_password_reset_client_3](/images/passwordreset/3.23/administration/the_password_reset_client_3.webp)
 
 **Step 5 –** Select the **Enabled** option.
 
-![the_password_reset_client_4](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client_4.webp)
+![the_password_reset_client_4](/images/passwordreset/3.23/administration/the_password_reset_client_4.webp)
 
 **Step 6 –** Enter the desired **Width** and **Height** of the PRC browser window.
 
@@ -211,7 +211,7 @@ should both begin with https://
 :::note
 The **Enable Password Reset Client**, **Always show reset link**, and **Dialog attachment
 delay** are automatically set by the Password Reset Client, and are normally left in their default
-(Not configured) state.  
+(Not configured) state.
 The administrative template contains detailed information about all the PRC configuration settings.
 This information is shown on the **Help** box. The **Help** box is shown after you double-click one
 of the configuration settings in the right pane.
@@ -248,7 +248,7 @@ Editor.
 
 **Step 10 –** Click inside the **License key** text box, then paste the license key.
 
-![the_password_reset_client_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_5.webp)
+![the_password_reset_client_5](/images/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_5.webp)
 
 **Step 11 –** Click **OK**.
 

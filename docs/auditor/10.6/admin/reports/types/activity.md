@@ -34,7 +34,7 @@ search field to look for the keywords you need:
 In the report filters, select a monitoring plan you want to generate a report for. To review data
 sources and items included in each plan, navigate to the Monitoring Plans section.
 
-![allactivedirectorychanges](/img/product_docs/auditor/10.6/admin/reports/allactivedirectorychanges.webp)
+![allactivedirectorychanges](/images/auditor/10.6/admin/reports/allactivedirectorychanges.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
 [View Reports](/docs/auditor/10.6/admin/reports/view.md) topic for additional

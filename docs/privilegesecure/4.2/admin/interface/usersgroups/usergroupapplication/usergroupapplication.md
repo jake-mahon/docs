@@ -9,7 +9,7 @@ sidebar_position: 20
 The User, Group, & Application Details page shows additional information on the selected user or
 group. This page is opened from the link in the user or group column within the various interfaces.
 
-![Users and Groups Details page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/usersgroupsdetailspage.webp)
+![Users and Groups Details page](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/details/usersgroupsdetailspage.webp)
 
 The page has the following features:
 

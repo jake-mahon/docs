@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup27.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup27.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report            | Description                                                                                                                                                                                                                                                         | Default Tags | Report Elements                                                                                                                                                                                                        |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Server Principals | This report determines all server principals on a per-instance basis. Users are considered stale if they have not authenticated to the domain in 60 days. This threshold can be configured in the 3-AD_Exceptions job in the .Active Directory Inventory job group. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances</li><li>Table – Provides details on principal count by instance</li><li>Table – Provides details on principal details</li></ul> |
-

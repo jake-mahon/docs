@@ -14,7 +14,7 @@ Schedule the Sizing job group to run daily at 4 AM.
 :::
 
 
-![Sizing Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/sizing/jobstree.webp)
+![Sizing Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/sizing/jobstree.webp)
 
 The jobs in the Sizing job group are:
 

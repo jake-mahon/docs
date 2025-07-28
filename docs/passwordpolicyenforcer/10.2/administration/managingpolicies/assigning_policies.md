@@ -27,7 +27,7 @@ policy to a child OU.
 :::
 
 
-![managing_policies_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_3.webp)
+![managing_policies_3](/images/passwordpolicyenforcer/10.2/administration/managing_policies_3.webp)
 
 :::note
 When a domain policy is assigned to a user or group, Password Policy Enforcer stores the
@@ -37,7 +37,7 @@ the configuration. The assignment is invalidated if the user is renamed.
 :::
 
 
-![managing_policies_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_4.webp)
+![managing_policies_4](/images/passwordpolicyenforcer/10.2/administration/managing_policies_4.webp)
 
 ## Assign a Password Policy
 
@@ -106,4 +106,4 @@ a diagrammatic representation of this algorithm.
 Use the Log tab in the Test Policies page to quickly determine which policy Password Policy Enforcer
 will enforce for a particular user.
 
-![managing_policies_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_5.webp)
+![managing_policies_5](/images/passwordpolicyenforcer/10.2/administration/managing_policies_5.webp)

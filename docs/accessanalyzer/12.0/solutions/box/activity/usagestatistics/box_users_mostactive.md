@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_Users_MostActive Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/usagestatistics/usersmostactiveanalysis.webp)
+![Analysis Tasks for the Box_Users_MostActive Job](/images/accessanalyzer/12.0/solutions/box/activity/usagestatistics/usersmostactiveanalysis.webp)
 
 The default analysis task is:
 
@@ -32,4 +32,3 @@ following pre-configured report:
 | Report            | Description                                                                                                                                                                | Default Tags | Report Elements                                                                                                                                                                                    |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Most Active Users | This report highlights the most active users in the target Box environment over the last 30 days. It also lists stale users that have had no activity in the last 30 days. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays last 30 days of the most active users</li><li>Table – Provides summary of last 30 days of the most active users</li></ul> |
-

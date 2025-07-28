@@ -10,12 +10,12 @@ In the portal, the names of directory objects are displayed as links. When a use
 over this link, a card is displayed, showcasing information about the object. For a user object, for
 example, the card displays the name, email address and phone number. It is as:
 
-![usercard](/img/product_docs/directorymanager/11.1/admincenter/portal/design/usercard.webp)
+![usercard](/images/directorymanager/11.1/admincenter/portal/design/usercard.webp)
 
 For each object type, you can specify a different set of attributes to display on this card. For a
 group, the card is as:
 
-![groupcard](/img/product_docs/directorymanager/11.1/admincenter/portal/design/groupcard.webp)
+![groupcard](/images/directorymanager/11.1/admincenter/portal/design/groupcard.webp)
 
 Notice that the card has three sections, namely:
 
@@ -33,16 +33,16 @@ attributes, but you cannot add a fifth attribute or reduce the number to three.
 
 **To modify the card header:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Card View** in the left pane. The **Card View** page is displayed.
 5. In the **Select Directory Object** drop-down list, select _User_, _Contact_, _Group_, or
    _Mailbox_ to manage the card for.
-6. In the **Name** list, click **Edit** for **Header**.  
+6. In the **Name** list, click **Edit** for **Header**.
    The **Card View Header/Footer** pane displays a sample header and how the specified attributes
    populate it.
 7. From the **Title** drop-down list, select an attribute whose value will be displayed as the title
@@ -56,10 +56,10 @@ attributes, but you cannot add a fifth attribute or reduce the number to three.
 
 ## Manage the Card Footer
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Card View** in the left pane.
@@ -78,10 +78,10 @@ values of these attributes would be displayed on the card body.
 
 **To add an attribute:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Card View** in the left pane.
@@ -92,7 +92,7 @@ values of these attributes would be displayed on the card body.
 7. Use the **Field Name** box to select one or more schema attributes. The value of these attributes
    will be displayed on the object card.
 8. Specify a name for the attribute in the **Display Name** box. The attribute value would be
-   displayed next to this label on the card.  
+   displayed next to this label on the card.
    This box is not available when multiple attributes are selected.
 9. Click **OK**.
 10. Click **Save** on the **Card View** page.
@@ -103,10 +103,10 @@ You can update the display name of an attribute on the body of an object card.
 
 **To update the display name:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Card View** in the left pane.
@@ -125,10 +125,10 @@ You can remove an attribute from the body of an object card.
 
 **To remove an attribute:**
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to customize the portal for it.  
+3. Select an identity store under **Design Settings** to customize the portal for it.
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
    different portal for each of these.
 4. Click **Card View** in the left pane.

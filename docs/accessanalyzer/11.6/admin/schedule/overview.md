@@ -27,12 +27,12 @@ The following tasks can be scheduled:
 
 Jobs can be scheduled at the job group or job level.
 
-![Schedule option from Job Tree](/img/product_docs/accessanalyzer/11.6/admin/schedule/jobtree.webp)
+![Schedule option from Job Tree](/images/accessanalyzer/11.6/admin/schedule/jobtree.webp)
 
 Select the desired job group or job. Right-click on the node and select **Schedule** to open the
 Schedule wizard.
 
-![Schedule Job wizard](/img/product_docs/accessanalyzer/11.6/admin/schedule/schedule.webp)
+![Schedule Job wizard](/images/accessanalyzer/11.6/admin/schedule/schedule.webp)
 
 The Schedule wizard has five pages with options for setting up the schedule task:
 

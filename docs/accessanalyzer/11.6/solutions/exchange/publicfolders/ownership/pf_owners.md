@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the PF_Owners Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/ownersanalysis.webp)
+![Analysis Tasks for the PF_Owners Job](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/ownersanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -38,4 +38,3 @@ following pre-configured reports:
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Identification Success (Probable Owner Identification Rate) | This report identifies folder trees with a high success rate of probable owners identified. This may help scope initial cleanup campaigns. | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays probable owner identification success</li><li>Table – Provides details probable owner identification success</li></ul> |
 | Probable Owners                                             | This report identifies probable owners for all scanned folders.                                                                            | None         | This report is comprised of one element: <ul><li>Table – Provides details on probable owners</li></ul>                                                                                                |
-

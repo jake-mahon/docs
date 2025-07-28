@@ -18,7 +18,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/securityutilities/openportscan/remoteopenportquery.webp)
+![Queries for the RetrieveNetstat Job](/images/accessanalyzer/12.0/solutions/windows/securityutilities/openportscan/remoteopenportquery.webp)
 
 The query for the RetrieveNetstat job is:
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/securityutilities/openportscan/retrievenetstatanalysis.webp)
+![Analysis Tasks for the RetrieveNetstat Job](/images/accessanalyzer/12.0/solutions/windows/securityutilities/openportscan/retrievenetstatanalysis.webp)
 
 The default analysis tasks are:
 
@@ -49,4 +49,3 @@ the following pre-configured report.
 | Report                            | Description                                                                                                                      | Default Tags | Report Elements                                                                                   |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------- |
 | Network Ports (Open Ports Report) | This job is designed to report on all available ports on the targeted host. It will bring back the results of a `Netstat -b -a`. | None         | This report is comprised of one element: <ul><li>Table – Provides details on open ports</li></ul> |
-

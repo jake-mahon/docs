@@ -49,21 +49,21 @@ To create an SoD Approval request:
 Employees can be added to an Approved and Open SoD Approval request. The **Add Employees to
 SoD Exemption** button is available after the request is Approved.
 
-![Add Employees to Approved SoD Exemption](/img/product_docs/platgovnetsuite/sod/sod_add_employee.webp)
+![Add Employees to Approved SoD Exemption](/images/platgovnetsuite/sod/sod_add_employee.webp)
 
 1. Click **Add Employees to SoD Exemption**.
 2. Select one or more **Affected Employee(s)** to add.
 
-    ![Select Affected Employees](/img/product_docs/platgovnetsuite/sod/sod_add_employee_select.webp)
+    ![Select Affected Employees](/images/platgovnetsuite/sod/sod_add_employee_select.webp)
 
 3. Click **Request Approval**. Approvers must be
    [licensed](/docs/platgovnetsuite/installation/license_manager.md) Platform Governance for NetSuite users
    and have the correct [role permissions](/docs/platgovnetsuite/installation/setting_permissions.md) if they
-   are using a custom (non-Strongpoint) role.  
+   are using a custom (non-Strongpoint) role.
    A new request is created with **Add to SoD Exemption** prepended to the Name of the original
    request. The new request is set to **Pending Approval**.
 
-    ![New Request created from Add Employee to SoD Exemption button](/img/product_docs/platgovnetsuite/sod/sod_add_employee_new.webp)
+    ![New Request created from Add Employee to SoD Exemption button](/images/platgovnetsuite/sod/sod_add_employee_new.webp)
 
 When the new Request is approved, the employees are added to the **Open** and **Approved** parent
 Change Request and the new Request is **Closed**. If the parent request status has changed, the

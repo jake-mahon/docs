@@ -9,7 +9,7 @@ sidebar_position: 50
 After all owners assigned to a specific review have submitted their review, its status on the Manage
 Reviews page of the Resource Reviews interface changes to Responses awaiting review.
 
-![Manage Reviews page with responses awaiting review](/img/product_docs/accessinformationcenter/11.6/resourcereviews/interfaceapproval.webp)
+![Manage Reviews page with responses awaiting review](/images/accessinformationcenter/11.6/resourcereviews/interfaceapproval.webp)
 
 In the approval process, the Review Administrator looks at the owner-recommended changes and chooses
 to approve, deny, or defer the changes.
@@ -53,7 +53,7 @@ be committed when the review is complete.
 **Step 1 –** On the Manage Reviews page, select a review and click **View Details**. The Review
 Details page opens.
 
-![Review Details page for reviews awaiting processing](/img/product_docs/accessinformationcenter/11.6/resourcereviews/reviewdetailsprocess.webp)
+![Review Details page for reviews awaiting processing](/images/accessinformationcenter/11.6/resourcereviews/reviewdetailsprocess.webp)
 
 **Step 2 –** Select a resource in the list and click **View Responses**. The View Responses window
 opens.
@@ -64,7 +64,7 @@ resource's reports. This is where you can conduct change modeling.
 :::
 
 
-![viewresponses](/img/product_docs/accessinformationcenter/11.6/resourcereviews/viewresponses.webp)
+![viewresponses](/images/accessinformationcenter/11.6/resourcereviews/viewresponses.webp)
 
 **Step 3 –** By default, the table displays only the recommended changes. Select an item and click
 the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the
@@ -106,7 +106,7 @@ be committed when the review is complete.
 **Step 1 –** On the Manage Reviews page, select a review and click **View Details**. The Review
 Details page opens.
 
-![Review Details page for reviews awaiting processing](/img/product_docs/accessinformationcenter/11.6/resourcereviews/reviewdetailsprocess.webp)
+![Review Details page for reviews awaiting processing](/images/accessinformationcenter/11.6/resourcereviews/reviewdetailsprocess.webp)
 
 **Step 2 –** Select a resource in the list and open the **Process Changes** drop-down menu. You can
 also select multiple resources in the list to be processed at once using the **Ctrl** and **Shift**

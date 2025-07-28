@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_BrokenInheritance Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/s3permissions/brokeninheritanceanalysis.webp)
+![Analysis Tasks for the AWS_BrokenInheritance Job](/images/accessanalyzer/11.6/solutions/aws/s3permissions/brokeninheritanceanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ produces the following preconfigured report:
 | Report             | Description                                                                     | Default Tags | Report Element                                                                                                                                                                                                                                  |
 | ------------------ | ------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Broken Inheritance | This report identifies permissions applied directly on files in AWS S3 Buckets. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top buckets by broken inheritance</li><li>Table – Shows buckets by broken inheritance</li><li>Table – Provides details on broken inheritance</li></ul> |
-

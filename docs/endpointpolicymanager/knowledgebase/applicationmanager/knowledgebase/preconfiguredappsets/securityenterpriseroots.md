@@ -26,14 +26,14 @@ Security.enterprise_roots.enabled
 
  Inside the main Firefox Pak itself
 
-![161_1_2017-08-16_0820](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/161_1_2017-08-16_0820.webp)
+![161_1_2017-08-16_0820](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/161_1_2017-08-16_0820.webp)
 
 ## Way #2:
 
-Using the Firefox About:Config Pak J thru Z.  
+Using the Firefox About:Config Pak J thru Z.
 It is the last entry in the S: category
 
-![2017-08-16_0800_(1)](</img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/2017-08-16_0800.webp>)
+![2017-08-16_0800_(1)](</images/endpointpolicymanager/applicationsettings/preconfigured/firefox/2017-08-16_0800.webp>)
 
 Note that if you're looking for general advice in how to get started with Windows certificates and
 browsers support, you

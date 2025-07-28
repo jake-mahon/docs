@@ -44,7 +44,7 @@ account with regards to its operation:
   [Autofill Add-on](/docs/passwordsecure/9.1/configuration/autofilladdon/autofill_add-on.md),
   independently of the Offline Add-on
 
-![Offline Client](/img/product_docs/passwordsecure/9.1/configuration/offlineclient/installation_with_parameters_264-en.webp)
+![Offline Client](/images/passwordsecure/9.1/configuration/offlineclient/installation_with_parameters_264-en.webp)
 
 #### What data is synchronised?
 

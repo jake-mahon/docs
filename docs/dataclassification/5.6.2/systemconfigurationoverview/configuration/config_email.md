@@ -21,7 +21,7 @@ service identifies an issue.
 Servers can be amended post configuration by selecting Edit, or, new SMTP servers can be added by
 selecting Add Email Server Configuration.
 
-![configemailservers](/img/product_docs/dataclassification/5.6.2/configuration/configemailservers.webp)
+![configemailservers](/images/dataclassification/5.6.2/configuration/configemailservers.webp)
 
 The SMTP details should be entered based on the values provided by your network team. Each
 configuration supports both SSL enabled SMTP servers, and those without SSL enabled.
@@ -29,7 +29,7 @@ configuration supports both SSL enabled SMTP servers, and those without SSL enab
 It is also possible to supply a test email address which will be used to test the configuration
 settings.
 
-![configemailserveradd](/img/product_docs/dataclassification/5.6.2/configuration/configemailserveradd.webp)
+![configemailserveradd](/images/dataclassification/5.6.2/configuration/configemailserveradd.webp)
 
 ## Email Groups
 
@@ -41,7 +41,7 @@ configure your Email Servers.
 To add a new group, select Add Email Server Group, or select Edit on each row to configure the group
 members.
 
-![configaddemailgroup](/img/product_docs/dataclassification/5.6.2/configuration/configaddemailgroup.webp)
+![configaddemailgroup](/images/dataclassification/5.6.2/configuration/configaddemailgroup.webp)
 
 Each group can have one or more members, and can be assigned a friendly name, which will be
 displayed when selecting an email group.
@@ -55,7 +55,7 @@ before configuring notifications, you must configure your Email Groups.
 To add a new notification configuration select Add Notification Configuration, or select Edit on
 each row to change the configuration.
 
-![confighealthnotifications_thumb_0_0](/img/product_docs/dataclassification/5.6.2/configuration/confighealthnotifications_thumb_0_0.webp)
+![confighealthnotifications_thumb_0_0](/images/dataclassification/5.6.2/configuration/confighealthnotifications_thumb_0_0.webp)
 
 Notifications can be set to trigger on warnings, or just on errors – by default problems of any
 level will be reported.
@@ -63,4 +63,4 @@ level will be reported.
 The Daily Summary can also be disabled / enabled, this functionality sends out a summary email of
 outstanding problems each morning.
 
-![configaddhealthnotification](/img/product_docs/dataclassification/5.6.2/configuration/configaddhealthnotification.webp)
+![configaddhealthnotification](/images/dataclassification/5.6.2/configuration/configaddhealthnotification.webp)

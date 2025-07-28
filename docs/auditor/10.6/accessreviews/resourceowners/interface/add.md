@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Add new resource wizard is opened with the **Add** button in the Resource Owners interface.
 
-![Add new resource wizard showing 1. Select Resources page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectresource.webp)
+![Add new resource wizard showing 1. Select Resources page](/images/auditor/10.6/access/reviews/resourceowners/wizard/selectresource.webp)
 
 It contains four pages:
 
@@ -25,7 +25,7 @@ Follow the steps to add resources one at a time and assign owners.
 
 **Step 1 –** In the Resource Owners interface, click **Add**. The Add new resource wizard opens.
 
-![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectresource.webp)
+![Add new resource wizard page showing 1. Select Resources page](/images/auditor/10.6/access/reviews/resourceowners/wizard/selectresource.webp)
 
 **Step 2 –** On the Select Resource page, select the resource to be managed. Then click **Next**.
 
@@ -39,14 +39,14 @@ Follow the steps to add resources one at a time and assign owners.
 - Browse option – Navigate through the resource tree to select the desired File System or SharePoint
   resource.
 
-![Add new resources wizard showing 2. Select Owners page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectowners.webp)
+![Add new resources wizard showing 2. Select Owners page](/images/auditor/10.6/access/reviews/resourceowners/wizard/selectowners.webp)
 
 **Step 3 –** On the Select Owners page, click **Add** to browse for an owner. Repeat this Step to
 add multiple owners. See the
 [Add Owner Window](/docs/auditor/10.6/accessreviews/resourceowners/interface/addowner.md)
 topic for additional information.
 
-![Add new resources wizard with the 2. Select Owners page showing multiple owners selected](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectownerswithowners.webp)
+![Add new resources wizard with the 2. Select Owners page showing multiple owners selected](/images/auditor/10.6/access/reviews/resourceowners/wizard/selectownerswithowners.webp)
 
 **Step 4 –** When only one owner is assigned, the owner will be the Primary by default. When
 multiple owners are assigned, the first owner in the list is the Primary owner. Use the arrow
@@ -63,17 +63,17 @@ the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Add new resource wizard showing 3. Description page](/img/product_docs/accessanalyzer/11.6/admin/action/servicenow/description.webp)
+![Add new resource wizard showing 3. Description page](/images/accessanalyzer/11.6/admin/action/servicenow/description.webp)
 
 **Step 5 –** On the Description page, optionally add a description for the resource in the textbox.
 Then click **Next**.
 
-![Add new resource wizard showing 4. Summary page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/adinventory/summary.webp)
+![Add new resource wizard showing 4. Summary page](/images/accessanalyzer/11.6/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** On the Summary page, review the settings and click Finish. The Access Reviews
 application begins to process the ownership configuration.
 
-![Add new resource wizard with 4. Summary page showing action status 100% completed](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
+![Add new resource wizard with 4. Summary page showing action status 100% completed](/images/auditor/10.6/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
 
 **Step 7 –** The action status displays on the page. When the task has completed (100%), click
 **Close**. The Add new resource wizard closes.

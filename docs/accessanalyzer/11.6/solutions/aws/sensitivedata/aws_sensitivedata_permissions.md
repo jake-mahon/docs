@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_SensitiveData_Permissions Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/sensitivedata/sensitivedatapermissionsanalysis.webp)
+![Analysis Tasks for the AWS_SensitiveData_Permissions Job](/images/accessanalyzer/11.6/solutions/aws/sensitivedata/sensitivedatapermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -38,4 +38,3 @@ job produces the following preconfigured report:
 | Report                     | Description                                                                  | Default Tags   | Report Element                                                                                                                                                                                                                                                                |
 | -------------------------- | ---------------------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sensitive Data Permissions | This report identifies permissions on AWS objects containing sensitive data. | Sensitive Data | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top buckets by permissions on sensitive data</li><li>Table – Shows buckets by permissions on sensitive data</li><li>Table – Provides details on sensitive data permissions</li></ul> |
-

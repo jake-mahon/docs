@@ -9,12 +9,12 @@ sidebar_position: 10
 Use the configuration pane to view sub-criteria information for System Criteria and to view, add,
 edit, and remove sub-criteria information for User Criteria.
 
-![Configuration Pane](/img/product_docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
+![Configuration Pane](/images/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
 
 The information in the configuration pane changes based on the criteria currently selected in the
 navigation pane.
 
-![Options at the top of the configuration pane](/img/product_docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
+![Options at the top of the configuration pane](/images/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
 
 The options at the top of the Configuration Pane are:
 
@@ -49,7 +49,7 @@ Configuration settings for System Criteria cannot be modified.
     - Minimum Matches – Minimum number of match hits required for a sub-criteria match hit
     - Match Type – Displays whether the sub-criteria **Must match** or **Must not match**
 
-![Options at the bottom of the configuration pane](/img/product_docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
+![Options at the bottom of the configuration pane](/images/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
 
 The options at the bottom of the configuration pane are:
 
@@ -109,7 +109,7 @@ Configuration settings for System Criteria cannot be modified.
 
 Use the Criteria Tester window to test current criteria configurations.
 
-![Criteria Tester window](/img/product_docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
+![Criteria Tester window](/images/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
 
 The options in the Criteria Tester are:
 

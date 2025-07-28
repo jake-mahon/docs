@@ -31,7 +31,7 @@ other roles, it can only be used by agents to authenticate.
 
 The existing agent account can be seen in the Users section of the Hub.
 
-![agentaccountmanagement](/img/product_docs/changetracker/8.0/admin/settings/agentaccountmanagement.webp)
+![agentaccountmanagement](/images/changetracker/8.0/admin/settings/agentaccountmanagement.webp)
 
 :::warning
 Changing the password of an account used by agents to authenticate will cause the
@@ -51,7 +51,7 @@ Follow the steps to create the new agent account.
 
 **Step 1 –** Click **Create New User**, give it a user name and just the Agent role.
 
-![newpassword](/img/product_docs/changetracker/8.0/admin/settings/newpassword.webp)
+![newpassword](/images/changetracker/8.0/admin/settings/newpassword.webp)
 
 **Step 2 –** Click **Update**, and the User Password dialog opens with a complex password. This is
 only shown once. It is recommended that this be saved in a password management system for future
@@ -68,7 +68,7 @@ match the new agent account.
 Running the script will set the new authentication details and restart the agent while producing the
 output below.
 
-![newagentscript_1049x168](/img/product_docs/changetracker/8.0/admin/settings/newagentscript_1049x168.webp)
+![newagentscript_1049x168](/images/changetracker/8.0/admin/settings/newagentscript_1049x168.webp)
 
 ChangePasswordOOB.ps1
 
@@ -126,7 +126,7 @@ the new agent account.
 
 Running the script will set the password and restart the agent while producing the output below.
 
-![agentpasswordscript_1028x217](/img/product_docs/changetracker/8.0/admin/settings/agentpasswordscript_1028x217.webp)
+![agentpasswordscript_1028x217](/images/changetracker/8.0/admin/settings/agentpasswordscript_1028x217.webp)
 
 UpdatePasswordOOB.sh
 

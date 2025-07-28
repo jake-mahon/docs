@@ -13,7 +13,7 @@ resources, role definitions and assignments.
 This page is about
 [Cloud/Azure](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/azure/index.md).
 
-![Package: Cloud/Azure](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
+![Package: Cloud/Azure](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
 
 ## Prerequisites
 

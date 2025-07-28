@@ -13,7 +13,7 @@ pre-defined or user-defined search criteria.
 
 The MySQL_SensitiveDataScan Job uses the SQL Data Collector for queries.
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatascan.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatascan.webp)
 
 The query is:
 
@@ -40,7 +40,7 @@ job.
 :::
 
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatscan_optionspage.webp)
+![Sensitive Data Scan Settings](/images/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatscan_optionspage.webp)
 
 **Step 4 –** To modify sensitive data scan options, select the desired scan options. See the
 [SQL: Options](/docs/accessanalyzer/11.6/admin/datacollector/sql/options.md)
@@ -53,7 +53,7 @@ may significantly increase scan time.
 :::
 
 
-![DLP Criteria for Scan](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.webp)
+![DLP Criteria for Scan](/images/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
 [SQL: Criteria](/docs/accessanalyzer/11.6/admin/datacollector/sql/criteria.md)
@@ -62,12 +62,12 @@ Global Criteria settings. See the
 [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
-![Filters Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatscan_filterspage.webp)
+![Filters Page](/images/accessanalyzer/11.6/solutions/databases/mysql/collection/sensitivedatscan_filterspage.webp)
 
 **Step 6 –** MySQL databases must be added to the query before they can be scanned. Navigate to the
 **Filter** page and click **Connections** to open the Manage Connections window.
 
-![Manage Connections](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/collection/manageconnectionsmysql.webp)
+![Manage Connections](/images/accessanalyzer/11.6/solutions/databases/mysql/collection/manageconnectionsmysql.webp)
 
 **Step 7 –** In the Manage Connections window, click **New Connection** and add the following
 information:
@@ -104,7 +104,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.webp)
 
 The default analysis tasks are:
 

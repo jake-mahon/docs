@@ -9,7 +9,7 @@ sidebar_position: 40
 **Step 1 –** Uninstall the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud Client on the
 endpoints.  This will MAINTAIN the Endpoint Policy Manager Client Side Extension .
 
-![585_1_jm-1_900x536](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/585_1_jm-1_900x536.webp)
+![585_1_jm-1_900x536](/images/endpointpolicymanager/troubleshooting/cloud/585_1_jm-1_900x536.webp)
 
 **Step 2 –** Leave in place -or- Upgrade to the LATEST Endpoint Policy Manager Client Side Extension
 using SCCM or PDQ Deploy Example:
@@ -24,4 +24,4 @@ Manager on-prem GPO.
 Note that some items might be restricted to COMPUTER or USER side, and may be actively prohibited on
 the "wrong" side. For those, you will have to recreate the policies.
 
-![585_2_jm-2_900x438](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/585_2_jm-2_900x438.webp)
+![585_2_jm-2_900x438](/images/endpointpolicymanager/troubleshooting/cloud/585_2_jm-2_900x438.webp)

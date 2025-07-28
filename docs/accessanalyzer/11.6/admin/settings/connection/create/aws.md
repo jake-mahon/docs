@@ -9,7 +9,7 @@ sidebar_position: 100
 The information in this section applies to **Select Account Type > Amazon Web Services** account
 type in the User Credentials window.
 
-![User Credentials Window - AWS](/img/product_docs/accessanalyzer/11.6/admin/settings/connection/profile/connectionaws.webp)
+![User Credentials Window - AWS](/images/accessanalyzer/11.6/admin/settings/connection/profile/connectionaws.webp)
 
 The required credentials for Amazon Web Services are:
 

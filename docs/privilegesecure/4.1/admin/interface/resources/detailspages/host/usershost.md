@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The Users tab shows information about the local users on the selected resource.
 
-![Host Users Tab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/usershost.webp)
+![Host Users Tab](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/usershost.webp)
 
 The Users tab has the following features:
 

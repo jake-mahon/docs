@@ -24,7 +24,7 @@ Watch this video first:
 Do not attempt to use UNC paths (`\\server\share\app.exe` ) when pointing to an item containing your
 alternate icons.
 
-![735_1_image-20200723210823-1](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_1_image-20200723210823-1.webp)
+![735_1_image-20200723210823-1](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_1_image-20200723210823-1.webp)
 
 The application must reside locally on the machine (`c:\temp\app1.exe`) for the icons to appear as
 expected.
@@ -42,24 +42,24 @@ application itself when it does so to
 For instance, you cannot use alternate icon for anything listed here….
 (`%programdata%\Microsoft\Windows\Start Menu`)
 
-![735_3_image-20200723210823-2](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_3_image-20200723210823-2.webp)
+![735_3_image-20200723210823-2](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_3_image-20200723210823-2.webp)
 
 Or here…
 
-![735_5_image-20200723210823-3](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_5_image-20200723210823-3.webp)
+![735_5_image-20200723210823-3](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_5_image-20200723210823-3.webp)
 
 Or here… (`%AppData%\Microsoft\Windows\Start Menu\Programs`)
 
-![735_7_image-20200723210823-4](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_7_image-20200723210823-4.webp)
+![735_7_image-20200723210823-4](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_7_image-20200723210823-4.webp)
 
 or
 
-![735_9_image-20200723210823-5](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_9_image-20200723210823-5.webp)
+![735_9_image-20200723210823-5](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_9_image-20200723210823-5.webp)
 
 If you attempt to make a Endpoint Policy Manager Start Screen & Taskbar item and attempt to use an
 alternate shortcut… it will not work.
 
-![735_11_image-20200723210823-6](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_11_image-20200723210823-6.webp)
+![735_11_image-20200723210823-6](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_11_image-20200723210823-6.webp)
 
 You will only get the Chrome's default icon, because it already exists as a shortcut in
 `Start menu | Programs`.
@@ -67,10 +67,10 @@ You will only get the Chrome's default icon, because it already exists as a shor
 To overcome this, you must delete (manually or using Group Policy Prefs, etc.) the file which is
 being used by the application. Here's an example using Chrome.
 
-![735_13_image-20200723210823-7](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_13_image-20200723210823-7.webp)
+![735_13_image-20200723210823-7](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_13_image-20200723210823-7.webp)
 
 The final result AFTER you delete the shortcut within `%programdata%\Microsoft\Windows\Start` Menu
 or `%AppData%\Microsoft\Windows\Start Menu\Programs` will get you the results you are seeking like
 this.
 
-![735_15_image-20200723210823-8_950x998](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/735_15_image-20200723210823-8_950x998.webp)
+![735_15_image-20200723210823-8_950x998](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/735_15_image-20200723210823-8_950x998.webp)

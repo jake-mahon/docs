@@ -9,7 +9,7 @@ sidebar_position: 20
 Select the desired resource on a Review Details page and click **Remove Changes**. The Remove
 changes window opens to confirm the action.
 
-![Remove changes window](/img/product_docs/accessinformationcenter/12.0/general/removechanges.webp)
+![Remove changes window](/images/accessinformationcenter/12.0/general/removechanges.webp)
 
 :::warning
 This will clear all owner-recommended changes and notes for the resource. The owner

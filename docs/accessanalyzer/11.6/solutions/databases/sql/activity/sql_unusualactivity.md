@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup35.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup35.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report                         | Description                              | Default Tags | Report Elements                                                                                                                                                                                                                                |
 | ------------------------------ | ---------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Unusual Hourly Activity Report | This report lists abnormal user activity | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays abnormal user activity</li><li>Table – Provides details on number of outliers per instance</li><li>Table – Provides details on unusual hourly user activity</li></ul> |
-

@@ -8,7 +8,7 @@ sidebar_position: 40
 
 Use the MAPI Settings page to specify the proper MAPI settings.
 
-![Public Folder Action Module Wizard MAPI Settings page](/img/product_docs/accessanalyzer/12.0/admin/action/publicfolder/mapisettings.webp)
+![Public Folder Action Module Wizard MAPI Settings page](/images/accessanalyzer/12.0/admin/action/publicfolder/mapisettings.webp)
 
 Use the following options to configure the action:
 

@@ -43,7 +43,6 @@ topic for additional information.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V8.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](/docs/passwordpolicyenforcer/10.2/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -58,7 +57,7 @@ topic for additional information.
 Open the Password Policy Enforcer 10.2 management console immediately after upgrading to
 automatically import the V8.x configuration settings into the new version.
 
-![installing_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_4.webp)
+![installing_ppe_4](/images/passwordpolicyenforcer/10.2/administration/installing_ppe_4.webp)
 
 The management console imports valid subscription license keys, but it will not import V8.x
 perpetual license keys as they cannot be used with Password Policy Enforcer 10.2. Password Policy
@@ -133,7 +132,6 @@ topic for additional information.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V7.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](/docs/passwordpolicyenforcer/10.2/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -147,7 +145,7 @@ version.
 Open the PPE V10.2 management console immediately after upgrading to automatically import the V7.x
 configuration settings into the new version.
 
-![ppe7configurationimport](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe7configurationimport.webp)
+![ppe7configurationimport](/images/passwordpolicyenforcer/10.2/administration/ppe7configurationimport.webp)
 
 The management console imports valid subscription license keys, but it will not import V7.x
 perpetual license keys as they cannot be used with Password Policy EnforcerV10.2. Password Policy
@@ -226,7 +224,6 @@ topic for complete installation instructions.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V6.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](/docs/passwordpolicyenforcer/10.2/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -241,7 +238,7 @@ topic for additional information.
 Open the Password Policy Enforcer 10.2 management console immediately after upgrading to
 automatically import the V6.x configuration settings into the new version.
 
-![installing_ppe_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_7.webp)
+![installing_ppe_7](/images/passwordpolicyenforcer/10.2/administration/installing_ppe_7.webp)
 
 The management console imports valid subscription license keys, but it will not import V6.x
 perpetual license keys as they cannot be used with Password Policy Enforcer 10.2. Password Policy

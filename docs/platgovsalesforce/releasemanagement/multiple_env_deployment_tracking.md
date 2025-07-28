@@ -40,13 +40,13 @@ Once the change request is approved:
 
 1. Click on **Sync CR**.
 
-    ![Sync the Change Request](/img/product_docs/platgovsalesforce/release_management/push_pull_sync_cr.webp)
+    ![Sync the Change Request](/images/platgovsalesforce/release_management/push_pull_sync_cr.webp)
 
 2. Choose a **Saved Environment**. (Where you plan on developing/testing solutions and/or
    customizations.)
 3. Add your **Credentials**.
 
-    ![Enter your credentials](/img/product_docs/platgovsalesforce/release_management/push_pull_popup.webp)
+    ![Enter your credentials](/images/platgovsalesforce/release_management/push_pull_popup.webp)
 
 4. Click on **Test Connection** to make sure your credentials are correct. If your credentials are
    not correct,click on **Save Credentials** and edit.
@@ -63,7 +63,7 @@ Once the change request is approved:
 5. Click **Push**.
 6. Click **Push CR**.
 
-![pushcr](/img/product_docs/platgovsalesforce/release_management/pushcr.webp)
+![pushcr](/images/platgovsalesforce/release_management/pushcr.webp)
 
 After the push, the Change Request in Production has a related deployment record.
 
@@ -73,7 +73,7 @@ After the push, the Change Request in Production has a related deployment record
 2. Click on **Run Compare Tool**. Refer to
    [Compare Environments](/docs/platgovsalesforce/tools/environment_comparison.md) for more information.
 
-    ![Run the Compare Environment tool](/img/product_docs/platgovsalesforce/release_management/apex_enviro_comparison.webp)
+    ![Run the Compare Environment tool](/images/platgovsalesforce/release_management/apex_enviro_comparison.webp)
 
 3. Click **Deploy** in the change request tool bar. **Deploy** is only available for approved change
    requests.
@@ -88,11 +88,11 @@ These steps can be completed after the deployment record is approved.
 1. Open **Change Requests** and select the approved deployment record.
 2. Click **Deploy Changes**
 
-    ![Deploy the Approved Changes](/img/product_docs/platgovsalesforce/release_management/deployment_tool-2.webp)
+    ![Deploy the Approved Changes](/images/platgovsalesforce/release_management/deployment_tool-2.webp)
 
 3. Click **Retrieve Selected Customizations**
 
-    ![Retrieve the Selected Customizations](/img/product_docs/platgovsalesforce/release_management/deployment_tool-3.webp)
+    ![Retrieve the Selected Customizations](/images/platgovsalesforce/release_management/deployment_tool-3.webp)
 
     This creates a package to:
 
@@ -106,7 +106,7 @@ These steps can be completed after the deployment record is approved.
 5. Click **Deploy Retrieved Customizations** to start the deployment. This may take some time, since
    it runs the test cases into the target environment.
 
-    ![Run the Deployment](/img/product_docs/platgovsalesforce/release_management/deployment_tool-4.webp)
+    ![Run the Deployment](/images/platgovsalesforce/release_management/deployment_tool-4.webp)
 
 6. Run the Compare Tool to verify all changes moved correctly.
 
@@ -118,4 +118,4 @@ When the deployment process is finished:
 2. Fix any errors and repeat the deployment if needed.
 3. Once the deployment is successful, open the change request and set the status to **Completed**.
 
-    ![Complete the Process](/img/product_docs/platgovsalesforce/release_management/deployment_tool-5.webp)
+    ![Complete the Process](/images/platgovsalesforce/release_management/deployment_tool-5.webp)

@@ -15,18 +15,18 @@ Manager Cloud. Most on-prem editors have an **Export as XML** option, which will
 you can save. Otherwise, you can select **View as XML in Notepad**. Once you have the XML file in
 either format, you're ready for the next step.
 
-![web_interface_and_controls_15_624x263](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_15_624x263.webp)
+![web_interface_and_controls_15_624x263](/images/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_15_624x263.webp)
 
 Using the "Upload XML Data File" action in Endpoint Policy Manager cloud, you can then click on
 "Choose XML Policy File to add..." and select an XML file. Or you can paste in valid formatted text
 from Endpoint Policy Manager or Microsoft Group Policy Preferences.
 
-![web_interface_and_controls_16_624x277](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_16_624x277.webp)
+![web_interface_and_controls_16_624x277](/images/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_16_624x277.webp)
 
 Then you can edit the description and click **Add** to save your policy as an XML data file within
 Endpoint Policy Manager Cloud.
 
-![web_interface_and_controls_17_312x396](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_17_312x396.webp)
+![web_interface_and_controls_17_312x396](/images/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_17_312x396.webp)
 
 Video: We recommend you watch the following video to understand how to export all the various
 Microsoft Group Policy settings for import into Endpoint Policy Manager Cloud:

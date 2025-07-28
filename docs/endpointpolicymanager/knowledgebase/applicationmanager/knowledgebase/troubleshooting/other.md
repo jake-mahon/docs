@@ -7,12 +7,12 @@ sidebar_position: 40
 # It appears that Endpoint Policy Manager is processing AppSet entries from another Group Policy Object. How is this possible?
 
 This scenario can happen if a Group Policy Object with AppSet entries is COPIED and PASTED using the
-GPMC. Or if the GPO is "Imported" using the GPMC's Import command.  
+GPMC. Or if the GPO is "Imported" using the GPMC's Import command.
 Here's an example that can illustrate the problem and the resolution.
 
 Assume you have a Group Policy Object named ORIG. When you do this, a GPO gets GUID like this.
 
-![445_1_image001](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_1_image001.webp)
+![445_1_image001](/images/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_1_image001.webp)
 
 When you make a Netwrix Endpoint Policy Manager (formerly PolicyPak) entry, data is stored in the
 Group Policy Object.
@@ -20,7 +20,7 @@ Group Policy Object.
 Then if you copy the Group Policy Object that data is copied with the Group Policy Object, but is
 now pointing to the original Group Policy Object.
 
-![445_2_image003](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_2_image003.webp)
+![445_2_image003](/images/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_2_image003.webp)
 
 This is not a supported scenario using Endpoint Policy Manager Application Manager.
 
@@ -34,11 +34,11 @@ The correct supported scenario using Endpoint Policy Manager Application Manager
 When you look at the settings report, what you want to see is that the REAL Group Policy Object's
 GUID…
 
-![445_3_image004](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_3_image004.webp)
+![445_3_image004](/images/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_3_image004.webp)
 
 That now matches the Group Policy Object's guts:
 
-![445_4_image005](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_4_image005.webp)
+![445_4_image005](/images/endpointpolicymanager/troubleshooting/applicationsettings/appset/445_4_image005.webp)
 
 If you already have this situation and need to get out of it, it's an easy fix:
 

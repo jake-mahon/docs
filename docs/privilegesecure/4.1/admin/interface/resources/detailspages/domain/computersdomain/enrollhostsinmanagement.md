@@ -16,7 +16,7 @@ Follow these steps to add a computer as NPS Managed Resource:
 
 **Step 4 –** Click the **Add as NPS Managed Resource** button.
 
-![enrollhostsinmanagement](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.webp)
+![enrollhostsinmanagement](/images/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.webp)
 
 **Step 5 –** Provide the Service Account in the **Use Service Account** field.
 

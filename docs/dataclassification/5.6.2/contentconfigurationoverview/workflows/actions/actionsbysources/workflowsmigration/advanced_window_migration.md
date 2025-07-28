@@ -19,7 +19,7 @@ There are common and content-specific settings that you need to specify.
 
 These settings are the same for all supported sources.
 
-![action_migration_common_settings_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/advanced_window/action_migration_common_settings_thumb_0_0.webp)
+![action_migration_common_settings_thumb_0_0](/images/dataclassification/5.6.2/workflows/advanced_window/action_migration_common_settings_thumb_0_0.webp)
 
 | Setting                             | Description                                                                                                                                                                                                                                                                                                                                                                             | Comments                                                                                                                                                                                       |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -27,7 +27,7 @@ right.
 by default. However, you can select a different organization from the drop-down menu at the top of
 the left pane to view its All Self Audit Activity report.
 
-![All Self Audit Activity Report](/img/product_docs/1secure/admin/searchandreports/selfaudit.webp)
+![All Self Audit Activity Report](/images/1secure/admin/searchandreports/selfaudit.webp)
 
 **Step 3 –** In this report, a default filter is applied with the following settings:
 
@@ -37,5 +37,5 @@ the left pane to view its All Self Audit Activity report.
   01/07/2025, the Value field will display 01/01/2025 12:00 am.
 
 You can apply more filters if required. Select a filter, operator, and value, then click **Search**.
-The report displays data based on the applied filters.  
+The report displays data based on the applied filters.
 Y

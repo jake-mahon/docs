@@ -88,7 +88,7 @@ pane.
 
 **Step 5 –** Right-click the **Registry** item, and then select **New** > **Registry Wizard**.
 
-![domain_and_local_policies](/img/product_docs/passwordpolicyenforcer/10.2/administration/domain_and_local_policies.webp)
+![domain_and_local_policies](/images/passwordpolicyenforcer/10.2/administration/domain_and_local_policies.webp)
 
 **Step 6 –** Select the computer that contains the Password Policy Enforcer local configuration that
 you want to distribute, and then click **Next**.
@@ -98,7 +98,7 @@ you want to distribute, and then click **Next**.
 **Step 8 –** Click the **Password Policy Enforcer 10.0** item, and then select the check boxes
 beside each item in the bottom pane of the window.
 
-![domain_and_local_policies_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/domain_and_local_policies_1.webp)
+![domain_and_local_policies_1](/images/passwordpolicyenforcer/10.2/administration/domain_and_local_policies_1.webp)
 
 **Step 9 –** Click **Finish**.
 

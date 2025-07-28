@@ -8,6 +8,6 @@ sidebar_position: 130
 
 The Summary page summarizes the configuration of the action.
 
-![New Mailbox Action Wizard Summary page](/img/product_docs/accessanalyzer/12.0/admin/action/mailbox/summary.webp)
+![New Mailbox Action Wizard Summary page](/images/accessanalyzer/12.0/admin/action/mailbox/summary.webp)
 
 Click **Finish** to save configuration changes and exit, or **Cancel** to exit with saving.

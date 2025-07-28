@@ -17,7 +17,7 @@ Transaction logs size is not included in the calculations.
 After you click View details, the following information will be displayed for the specified SQL
 Server instance:
 
-![dbstats_overview](/img/product_docs/auditor/10.6/admin/healthstatus/dashboard/dbstats_overview.webp)
+![dbstats_overview](/images/auditor/10.6/admin/healthstatus/dashboard/dbstats_overview.webp)
 
 The Database name column contains the list of Netwrix Auditor databases hosted by the specified
 instance of the SQL Server:
@@ -39,7 +39,7 @@ The following capacity metrics are displayed for each database:
 
 After you expand the database node, the detailed database properties will be shown:
 
-![dbstatistics](/img/product_docs/auditor/10.6/admin/healthstatus/dashboard/dbstatistics.webp)
+![dbstatistics](/images/auditor/10.6/admin/healthstatus/dashboard/dbstatistics.webp)
 
 These properties are as follows:
 

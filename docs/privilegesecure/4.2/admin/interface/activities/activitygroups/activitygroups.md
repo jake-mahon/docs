@@ -13,7 +13,7 @@ Activities are for singular activities based on a specific platform whereas Acti
 used for cross platform activities such as granting local administrator access. See the
 [Activities Page](/docs/privilegesecure/4.2/admin/interface/activities/activities.md) topic for additional information.
 
-![addactivitygroup](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/addactivitygroup.webp)
+![addactivitygroup](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/addactivitygroup.webp)
 
 The pane on the left side of the page displays a list of the configured activity group. This pane
 has the following features:

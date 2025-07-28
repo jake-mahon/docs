@@ -26,14 +26,14 @@ another for West Sales Users. .
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/item_level_targeting_with.webp)
+generated](/images/endpointpolicymanager/leastprivilege/item_level_targeting_with.webp)
 
 Below you can see two created collections that can hold other collections or policies.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/item_level_targeting_with_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/item_level_targeting_with_1.webp)
 
 Right-click any Endpoint Policy Manager Least Privilege Manager Collection or Policy and select
 **Change Item-Level Targeting**, to set filtering conditions on when the policy will apply.
@@ -41,14 +41,14 @@ Right-click any Endpoint Policy Manager Least Privilege Manager Collection or Po
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/item_level_targeting_with_2.webp)
+generated](/images/endpointpolicymanager/leastprivilege/item_level_targeting_with_2.webp)
 
 The **Change Item Level Targeting** menu item brings up the Targeting Editor.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/item_level_targeting_with_3.webp)
+generated](/images/endpointpolicymanager/leastprivilege/item_level_targeting_with_3.webp)
 
 You can select any combination of characteristics you want to test for. Administrators familiar with
 Group Policy Preferences’ Item-Level Targeting will be at home in this interface as it is
@@ -91,7 +91,7 @@ Level Targeting, as seen below.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/item_level_targeting_with_4.webp)
+generated](/images/endpointpolicymanager/leastprivilege/item_level_targeting_with_4.webp)
 
 When Item-Level Targeting is on, the policy won’t apply unless the conditions are true. If
 Item-Level Targeting is applied to a collection, then none of the items in the collection will apply

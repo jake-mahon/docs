@@ -11,7 +11,7 @@ is to scan all objects.
 
 Open **Netwrix Dashboard** > **Scanners** > **Daily Scan Configuration**
 
-![Daily Scan configuration](/img/product_docs/platgovsalesforce/scanners/daily_scan.webp)
+![Daily Scan configuration](/images/platgovsalesforce/scanners/daily_scan.webp)
 
 1. Select an optional **Category filter**.
 2. Select an optional **Sub-Category filter**.

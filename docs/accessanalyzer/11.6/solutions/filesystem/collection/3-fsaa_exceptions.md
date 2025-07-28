@@ -35,7 +35,7 @@ deselected. While it is possible to deselect particular tasks as specified, it i
 :::
 
 
-![Analysis Tasks for the 3-FSAA Exceptions Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsaaexceptionsanalysis.webp)
+![Analysis Tasks for the 3-FSAA Exceptions Job](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsaaexceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

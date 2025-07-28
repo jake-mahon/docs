@@ -11,7 +11,7 @@ redundant assignments.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Redundant Assignments](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.webp)
+![Redundant Assignments](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.webp)
 
 ## Examples
 

@@ -13,16 +13,16 @@ accounts and a UAR license to access User Access Review.
 [license](/docs/platgovnetsuite/uar/install_app.md). If it is not on your menu, contact your Netwrix or NetSuite
 administrator.
 
-![User Access Review menu](/img/product_docs/platgovnetsuite/uar/uar_menu.webp)
+![User Access Review menu](/images/platgovnetsuite/uar/uar_menu.webp)
 
 1. Select **User Access Review** > **User Access Review** > **Open** from the NetSuite menu bar.
 2. Click your **Role** to log in to the UAR app.
 
-    ![Select your role](/img/product_docs/platgovnetsuite/uar/uar_role.webp)
+    ![Select your role](/images/platgovnetsuite/uar/uar_role.webp)
 
 Here is an example of the UAR Admin dashboard:
 
-![UAR Admin Dashboard](/img/product_docs/platgovnetsuite/uar/dashboard_admin.webp)
+![UAR Admin Dashboard](/images/platgovnetsuite/uar/dashboard_admin.webp)
 
 ## Dashboard
 

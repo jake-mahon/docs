@@ -22,7 +22,7 @@ pre-configured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/configuration/analysistasks.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/configuration/analysistasks.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following preconfigured report:
 | Report         | Description                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                                                         |
 | -------------- | ----------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Linked Servers | This report highlights Linked Servers where the listed SQL Server is able to execute remote commands. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top five linked servers by instance</li><li>Table – Provides details on linked servers by instance</li><li>Table – Provides details on linked servers</li></ul> |
-

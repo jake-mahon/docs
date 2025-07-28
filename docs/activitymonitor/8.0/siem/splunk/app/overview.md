@@ -8,7 +8,7 @@ sidebar_position: 10
 
 View general information on the Overview Dashboard for Splunk.
 
-![Overview Dashboard for Stealthbits Activivty Monitor App for Splunk](/img/product_docs/activitymonitor/8.0/siem/splunk/dashboard/overviewdashboard.webp)
+![Overview Dashboard for Stealthbits Activivty Monitor App for Splunk](/images/activitymonitor/8.0/siem/splunk/dashboard/overviewdashboard.webp)
 
 The File System Activity Overview dashboard contains the following cards:
 

@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Category page identifies which Inventory task to perform.
 
-![Entra ID Inventory DC Wizard Category page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/azureadinventory/category.webp)
+![Entra ID Inventory DC Wizard Category page](/images/accessanalyzer/11.6/admin/datacollector/azureadinventory/category.webp)
 
 The two categories are:
 

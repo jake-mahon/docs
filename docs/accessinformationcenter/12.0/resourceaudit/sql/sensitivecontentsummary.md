@@ -9,7 +9,7 @@ sidebar_position: 20
 The Sensitive Content report at the **SQL Server** node provides a count of tables where criteria
 matches were found in the targeted environment. This report includes a Details table.
 
-![Sensitive Content report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sql/sensitivecontentsummary.webp)
+![Sensitive Content report](/images/accessinformationcenter/12.0/resourceaudit/sql/sensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

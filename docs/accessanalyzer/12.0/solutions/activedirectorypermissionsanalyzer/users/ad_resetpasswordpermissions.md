@@ -23,7 +23,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_ResetPasswordPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/users/resetpasswordpermissionsanalysis.webp)
+![Analysis Tasks for the AD_ResetPasswordPermissions Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/users/resetpasswordpermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ Job produces the following pre-configured report.
 | Report         | Description                                                                                                                                                                                                                                                                                                         | Default Tags | Report Elements                                                                                                                                                                                                                                             |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Reset Password | This report highlights instances where "Reset Password" permissions are applied to Active Directory user objects. This information is summarized at the domain and enterprise levels. By default, this report excludes members of administrator groups such as Domain Admins, Schema Admins, and Enterprise Admins. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays affected accounts by domain</li><li>Table – Provides details on reset password permissions</li><li>Table – Provides details on top users with reset password permissions</li></ul> |
-

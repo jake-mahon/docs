@@ -11,12 +11,12 @@ script.
 
 **This page is about [Robot Framework](/docs/identitymanager/saas/integration-guide/connectors/references-packages/robot-framework/index.md)**
 
-![Package: Custom/Robot Framework](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
+![Package: Custom/Robot Framework](/images/identitymanager/saas/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 
 ## Overview
 
 Robot Framework is an open-source automation framework which can be used for robotic process
-automation (RPA). This framework is easy to use thanks to its human-readable syntax.  
+automation (RPA). This framework is easy to use thanks to its human-readable syntax.
 It has a modular architecture that can be extended by
 [libraries](https://robotframework.org/#libraries) implemented with Python or Java. These libraries
 provide various tools to interact with a managed system.

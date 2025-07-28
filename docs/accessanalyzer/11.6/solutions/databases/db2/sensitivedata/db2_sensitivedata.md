@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Db2 _SensitiveData Job](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/sensitivedata/sensitivedataanalysis.webp)
+![Analysis Tasks for the Db2 _SensitiveData Job](/images/accessanalyzer/11.6/solutions/databases/db2/sensitivedata/sensitivedataanalysis.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ the following preconfigured reports.
 | ----------------------- | ---------------------------------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise. | Sensitive Data | This report is comprised of two elements: <ul><li>Bar Chart – Displays Exceptions by March Count</li><li>Table – Displays data details</li></ul>                                                                            |
 | Sensitive Data Overview | This report highlights objects which contain sensitive data criteria.        | Sensitive Data | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Databases by Sensitive Data Hits</li><li>Table – Displays Top Databases by Sensitive Data Hits</li><li>Table – Displays data details</li></ul> |
-

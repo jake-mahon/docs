@@ -12,7 +12,7 @@ is a wizard page for the categories of:
 - Scan Active Directory Permissions
 - Scan Active Directory Audits
 
-![ADPermissions Data Collector wizard Options page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/adpermissions/options.webp)
+![ADPermissions Data Collector wizard Options page](/images/accessanalyzer/11.6/admin/datacollector/adpermissions/options.webp)
 
 The configurable options are:
 

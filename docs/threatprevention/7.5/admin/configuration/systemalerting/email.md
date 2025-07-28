@@ -14,7 +14,7 @@ Follow the steps to configure the Email tab of the System Alerting window.
 **Step 1 –** Click **Configuration** > **Alerts** on the menu. The Netwrix Threat Prevention System
 Alerting window opens. The Email tab is displayed by default.
 
-![Netwrix Threat Prevention System Alerting window](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/systemalerting.webp)
+![Netwrix Threat Prevention System Alerting window](/images/threatprevention/7.5/admin/configuration/systemalerting/systemalerting.webp)
 
 **Step 2 –** Configure the following prior to enabling email alerting:
 
@@ -81,7 +81,7 @@ Remember, this is a one-time setting to enable email alerts from the Administrat
 :::
 
 
-![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/smtphost.webp)
+![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/images/threatprevention/7.5/admin/configuration/systemalerting/smtphost.webp)
 
 **Step 1 –** Click **Configuration** > **Alerts** on the menu. The Netwrix Threat Prevention System
 Alerting window opens.
@@ -114,7 +114,7 @@ the updated information.
 :::
 
 
-![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/smtphost.webp)
+![System Alerting window - Email tab - Configure SMTP Host and Message Profile](/images/threatprevention/7.5/admin/configuration/systemalerting/smtphost.webp)
 
 **Step 1 –** Click **Configuration** > **Alerts** on the menu. The Netwrix Threat Prevention System
 Alerting window opens.
@@ -132,7 +132,7 @@ Provide a unique and descriptive name for this new email notification profile.
 **Step 4 –** Choose between **Plain Text** and **HTML** email options. The Email Template window
 displays when selecting either radio button.
 
-![Email Template window](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/emailtemplate.webp)
+![Email Template window](/images/threatprevention/7.5/admin/configuration/systemalerting/emailtemplate.webp)
 
 Changing the message template provides the option to load the default message template. Choose
 between:

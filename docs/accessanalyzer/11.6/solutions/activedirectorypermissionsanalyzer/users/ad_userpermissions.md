@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_UserPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/users/userpermissionsanalysis.webp)
+![Analysis Tasks for the AD_UserPermissions Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/users/userpermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report.
 | Report           | Description                                                                                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                                  |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User permissions | This report highlights instances where permissions are applied to Active Directory user objects. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays user permissions by domain</li><li>Pie Chart – Provides details on user permission types</li><li>Table – Provides details on user permissions</li></ul> |
-

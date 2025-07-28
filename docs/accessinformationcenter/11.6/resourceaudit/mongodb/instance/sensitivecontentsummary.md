@@ -9,7 +9,7 @@ sidebar_position: 20
 The Sensitive Content Summary report at the instance level provides a count of collections where
 criteria matches were found on the selected instance. This report includes a Details table.
 
-![Sensitive Content Summary report at the instance level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/mongodb/instance/instancesensitivecontentsummary.webp)
+![Sensitive Content Summary report at the instance level](/images/accessinformationcenter/11.6/resourceaudit/mongodb/instance/instancesensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

@@ -42,7 +42,7 @@ Follow the steps to view your Threat Prevention license details.
 Click **Help > License Manager** on the menu. The Netwrix Threat Prevention License Manager window
 is displayed.
 
-![License Manager window](/img/product_docs/threatprevention/7.5/admin/navigation/licensemanager.webp)
+![License Manager window](/images/threatprevention/7.5/admin/navigation/licensemanager.webp)
 
 This window lists the modules that you are licensed for. Each module is linked to a Threat
 Prevention solution.

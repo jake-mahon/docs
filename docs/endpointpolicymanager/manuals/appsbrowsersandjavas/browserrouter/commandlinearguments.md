@@ -17,7 +17,7 @@ this one:
 
 Below is an example of launching www.abc.com in Chrome's incognito mode.
 
-![about_policypak_browser_router_21](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_21.webp)
+![about_policypak_browser_router_21](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_21.webp)
 
 Note how you must specifically include **%url%** to specify where the URL will reside on the command
 line. Just selecting **incognito** by itself is not enough. The **%url%** will populate the correct
@@ -34,4 +34,4 @@ To do this, select **Custom** for the browser type. Then set the **Command Line 
 application you want to launch (as in, MSTSC) and the command line arguments to pass (as in,
 `c:\temp\file1.rdp /v:server1 8080`).
 
-![about_policypak_browser_router_22](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_22.webp)
+![about_policypak_browser_router_22](/images/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_22.webp)

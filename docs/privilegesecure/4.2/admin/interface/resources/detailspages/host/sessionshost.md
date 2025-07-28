@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Sessions tab shows information about the sessions of the selected resource.
 
-![Sessions Tab for Host Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/sessionshost.webp)
+![Sessions Tab for Host Resource](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/sessionshost.webp)
 
 The Sessions tab has the following features:
 

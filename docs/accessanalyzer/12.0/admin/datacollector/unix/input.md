@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Input page configures the source for input data.
 
-![Unix Data Collector Wizard Input page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/unix/input.webp)
+![Unix Data Collector Wizard Input page](/images/accessanalyzer/12.0/admin/datacollector/unix/input.webp)
 
 The configurable options are:
 

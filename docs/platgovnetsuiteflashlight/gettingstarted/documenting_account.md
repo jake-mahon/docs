@@ -25,14 +25,14 @@ how to kick off your first spider:
 
 1. Open **Flashlight** > **Tools** > **Spider**.
 
-    ![mainmenu](/img/product_docs/platgovnetsuiteflashlight/getting_started/mainmenu.webp)
+    ![mainmenu](/images/platgovnetsuiteflashlight/getting_started/mainmenu.webp)
 
 2. If you are receive a NetSuite alert about segment preferences, you need to set the **Number of
    Rows in List Segments** in your account so that the spider can function properly. Refer to
    [Configuring your Account](/docs/platgovnetsuiteflashlight/gettingstarted/configuring_account.md) for details. Do not update this field while
    the spider is running. Once you are ready, start your spider.
 
-    ![spider_800x368](/img/product_docs/platgovnetsuiteflashlight/getting_started/spider_800x368.webp)
+    ![spider_800x368](/images/platgovnetsuiteflashlight/getting_started/spider_800x368.webp)
 
 3. Set the following fields:
 
@@ -46,7 +46,7 @@ how to kick off your first spider:
    displayed at the bottom of the screen. You can see the specific customizations being processed
    and documented. Once the indexing is complete, you can close this window. From this point
    forward, Flashlight's scheduled scripts take care of the remaining documentation process over the
-   next 3 - 5 days.  
+   next 3 - 5 days.
    A confirmation email is sent when the spider is complete. The notification includes instructions
    on how to use your system documentation to manage your customizations and to keep your account
    running smoothly.
@@ -54,7 +54,7 @@ how to kick off your first spider:
 :::note
 During the initial indexing process, you must keep this window open, do not switch roles, do
 not switch accounts and do not logout until the gears stop spinning, otherwise the process stops and
-you must restart the spider.  
+you must restart the spider.
 Internet connection issues can also interrupt the indexing process. If the indexing continues over
 an hour with no progress, you must restart the spider.
 :::

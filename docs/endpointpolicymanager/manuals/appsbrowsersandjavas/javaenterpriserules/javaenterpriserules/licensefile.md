@@ -11,7 +11,7 @@ component. If you are using Endpoint Policy Manager, then you need a Endpoint Po
 Rules Manager license file, which can be imported into a Group Policy Object (GPO), as shown in
 Figure 29.
 
-![troubleshooting_policypak](/img/product_docs/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager.webp)
+![troubleshooting_policypak](/images/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager.webp)
 
 Figure 29. Endpoint Policy Manager Java Rules Manager must be licensed like every other Endpoint
 Policy Manager component.

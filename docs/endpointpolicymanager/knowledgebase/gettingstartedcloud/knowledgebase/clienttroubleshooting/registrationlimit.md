@@ -11,7 +11,7 @@ The maximum number of computers you can register per hour with Netwrix Endpoint 
 denied during installation of the Endpoint Policy Manager Cloud Client.  You can view your status in
 the portal on the Company Details page.
 
-![963_1_image-20230425212744-1_950x534](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/963_1_image-20230425212744-1_950x534.webp)
+![963_1_image-20230425212744-1_950x534](/images/endpointpolicymanager/troubleshooting/cloud/963_1_image-20230425212744-1_950x534.webp)
 
 If you have reached the limit, the Installer will give a Prompt that you are not allowed to register
 more than X computers per hour. X is the number of computers you're allowed to register /hr. in your
@@ -19,7 +19,7 @@ Tenant.
 
 You'll find similar reason in the Installer logs if you're using a software deployment tool.
 
-![963_2_image-20230425212744-2](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/963_2_image-20230425212744-2.webp)
+![963_2_image-20230425212744-2](/images/endpointpolicymanager/troubleshooting/cloud/963_2_image-20230425212744-2.webp)
 
 The recommended option is to Exit Installation and try again 1 hour later.  Note as shown earlier,
 you can check your limit status in the portal.

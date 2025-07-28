@@ -18,7 +18,7 @@ predicates, use the SQLscripting analysis module. See the
 :::
 
 
-![View and Table Creation Analysis Module wizard Join Columns page](/img/product_docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/joincolumns.webp)
+![View and Table Creation Analysis Module wizard Join Columns page](/images/accessanalyzer/12.0/admin/analysis/sqlviewcreation/joincolumns.webp)
 
 Use the **Table 1 join property** and **Table 2 join property** fields to select join predicates
 from both tables. Join predicates are columns containing analogous values that are used to match

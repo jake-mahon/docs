@@ -9,7 +9,7 @@ sidebar_position: 70
 Clues can be used to statistically produce a list of suggested clues that can be assigned to the
 term.
 
-![bulkedit](/img/product_docs/dataclassification/5.6.2/bulkedit.webp)
+![bulkedit](/images/dataclassification/5.6.2/bulkedit.webp)
 
 Clues can be suggested for a term via the following methods:
 

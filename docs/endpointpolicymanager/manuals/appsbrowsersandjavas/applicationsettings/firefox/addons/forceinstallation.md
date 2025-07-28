@@ -7,7 +7,7 @@ Video: To see a video of Endpoint Policy Manager forcing installation of Firefox
 
 Go to the Add-Ons tab within the Firefox AppSet, as shown in Figure 28.
 
-![add_ons_12](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_12.webp)
+![add_ons_12](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_12.webp)
 
 Figure 28. The Add-Ons tab within Endpoint Policy Manager Application Settings Manager.
 
@@ -23,7 +23,7 @@ URL-based installation, you need to get the URL by following these steps (see Fi
 
 **Step 4 –** Convert to Endpoint Policy Manager syntax.
 
-![add_ons_13](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_13.webp)
+![add_ons_13](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_13.webp)
 
 Figure 29. Copying the link location.
 
@@ -44,13 +44,13 @@ install.
 For using the file-based installation method, you would select "Save Link As" after right-clicking
 on the "Add to Firefox" botton, as shown in Figure 30.
 
-![add_ons_14](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_14.webp)
+![add_ons_14](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_14.webp)
 
 Figure 30. The file-based installation method.
 
 **Step 8 –** Then, you would save the file to a location to use later, as shown in Figure 31.
 
-![add_ons_15](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_15.webp)
+![add_ons_15](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_15.webp)
 
 Figure 31. Choosing where to save the file.
 

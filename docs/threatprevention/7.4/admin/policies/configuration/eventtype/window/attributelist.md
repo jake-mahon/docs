@@ -10,7 +10,7 @@ The Attribute List window provides a list of available Active Directory attribut
 or exclude. Selected attributes are added to the filter from where you clicked the **Add** (+)
 button to open this window.
 
-![Attribute List Window](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/window/attributelist.webp)
+![Attribute List Window](/images/threatprevention/7.4/admin/policies/eventtype/window/attributelist.webp)
 
 - Select a server from the drop-down menu and click **Connect**. Schema attributes are fetched from
   the selected server and displayed on the window.

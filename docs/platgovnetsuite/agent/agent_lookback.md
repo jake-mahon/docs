@@ -16,7 +16,7 @@ The Agent Lookback is accessed from the Customization record for the control.
 2. **Edit** the control to run.
 3. Open the **Controls** tab.
 
-    ![New Agent Lookback](/img/product_docs/platgovnetsuite/financial_controls/agent_lookback.webp)
+    ![New Agent Lookback](/images/platgovnetsuite/financial_controls/agent_lookback.webp)
 
 4. Set **Control Type** to **Lookback Control** or **Lookback Control with Admin Verification**.
 5. Click **Go to Record**.
@@ -36,7 +36,7 @@ Administrators can initiate and cancel Lookback Runs from the **Controls** tab o
 record. The control search must have at least one date filter set to be used by the Lookback run.
 Controls cannot be grouped by run.
 
-![Schedule or initiate a Lookback run.](/img/product_docs/platgovnetsuite/financial_controls/lookback_run.webp)
+![Schedule or initiate a Lookback run.](/images/platgovnetsuite/financial_controls/lookback_run.webp)
 
 - **Run Status** is the status of the last run:
 
@@ -60,11 +60,11 @@ and the Lookback Run date.
 
 The **Lookback Run History** tab is available on the **Controls** tab on a Customization record.
 
-![View the Lookback Run history.](/img/product_docs/platgovnetsuite/financial_controls/lookback_run_history.webp)
+![View the Lookback Run history.](/images/platgovnetsuite/financial_controls/lookback_run_history.webp)
 
 ### Lookback Run Incidents
 
 You can filter your Control Incidents reports by setting **Log Origin** in the report **Filters**.
 **Agent Lookback Run** is available as a filter option.
 
-![Filter Incident Results on Lookback Run](/img/product_docs/platgovnetsuite/financial_controls/lookback_run_incidents.webp)
+![Filter Incident Results on Lookback Run](/images/platgovnetsuite/financial_controls/lookback_run_incidents.webp)

@@ -20,7 +20,7 @@ topic for additional information.
 :::
 
 
-![FSAA Data Collector Wizard Applet Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettings.webp)
+![FSAA Data Collector Wizard Applet Settings page](/images/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettings.webp)
 
 In the Applet Launch Mechanism section, choose one of three radio buttons:
 
@@ -41,7 +41,7 @@ In the Applet Launch Mechanism section, choose one of three radio buttons:
       applet can’t start** option. This option allows the scan to run in local mode when an applet
       cannot be deployed or the service is not running.
 
-![Applet Settings section of the Applet Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettingsappletsettings.webp)
+![Applet Settings section of the Applet Settings page](/images/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettingsappletsettings.webp)
 
 In the Applet Settings section, configure the following options:
 
@@ -106,7 +106,7 @@ In the Applet Settings section, configure the following options:
 - Scan cancellation timeout: [number] minute(s) – When checked, this option will timeout the applet
   if there is an attempt to pause the scan and the applet does not respond
 
-![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
+![Certificate Exchange Options section of the Applet Settings page](/images/accessanalyzer/11.6/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
 
 In the Certificate Exchange Options section, configure the following options:
 

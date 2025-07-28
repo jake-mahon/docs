@@ -43,7 +43,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the 3-AD_Exceptions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectoryinventory/exceptionsanalysis.webp)
+![Analysis Tasks for the 3-AD_Exceptions Job](/images/accessanalyzer/11.6/solutions/activedirectoryinventory/exceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

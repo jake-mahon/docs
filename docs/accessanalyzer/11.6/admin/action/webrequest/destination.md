@@ -8,7 +8,7 @@ sidebar_position: 10
 
 Use the Destination page to specify all settings for the destination of the web request.
 
-![Web Request Action Module Wizard Destination page](/img/product_docs/accessanalyzer/11.6/admin/action/webrequest/destination.webp)
+![Web Request Action Module Wizard Destination page](/images/accessanalyzer/11.6/admin/action/webrequest/destination.webp)
 
 Use the following categories to establish the location of the web request:
 

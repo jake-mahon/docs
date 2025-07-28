@@ -16,7 +16,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
    **Select to create new server or use existing server** page of the Configuration Tool and select
    **Next**.
 
-    ![Database Settings page](/img/product_docs/directorymanager/11.0/install/configure/databasesettings.webp)
+    ![Database Settings page](/images/directorymanager/11.0/install/configure/databasesettings.webp)
 
 2. In the **SQL Server** list, select the SQL Server to use with GroupID.
 
@@ -52,7 +52,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
 6. Click **Next**.
 
-    ![Security Settings page](/img/product_docs/directorymanager/11.0/install/configure/securitysettings.webp)
+    ![Security Settings page](/images/directorymanager/11.0/install/configure/securitysettings.webp)
 
 7. On the **Security Settings** page, enter an encryption key in the **Passphrase** and **Confirm
    Passphrase** boxes to secure GroupID data.
@@ -66,14 +66,14 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
 8. Click **Next**.
 
-    ![License page](/img/product_docs/directorymanager/11.0/install/configure/license.webp)
+    ![License page](/images/directorymanager/11.0/install/configure/license.webp)
 
 9. On the **License** page, enter a valid license number and key in the respective boxes. A valid
    license and key enable the **Next** button. If the **Next** button remains disabled, check your
    entries for errors.
 10. Click **Next**.
 
-    ![Elasticsearch setting page](/img/product_docs/directorymanager/11.0/install/configure/elasticsearchsettings.webp)
+    ![Elasticsearch setting page](/images/directorymanager/11.0/install/configure/elasticsearchsettings.webp)
 
 11. GroupID provides the following two options for Elasticsearch configuration. Select the relevant
     option:
@@ -82,7 +82,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
       Configuration Tool will install Elasticsearch. It presents you default configuration of
       Elasticsearch cluster it will create:
 
-        ![Select Elastic Cluster page](/img/product_docs/directorymanager/11.0/install/configure/selectelasticcluster.webp)
+        ![Select Elastic Cluster page](/images/directorymanager/11.0/install/configure/selectelasticcluster.webp)
 
         1. Cluster Name: for Elasticsearch node(s) within the cluster. You can modify the name.
         2. Port: the default port for Elasticsearch API communication. Modify the port number if the
@@ -95,7 +95,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
     - **I will install and manage Elasticsearch myself**: If you select this option, the following
       page is displayed:
 
-        ![Elasticsearch settings page](/img/product_docs/directorymanager/11.0/install/configure/elasticsearchsettings-2.webp)
+        ![Elasticsearch settings page](/images/directorymanager/11.0/install/configure/elasticsearchsettings-2.webp)
 
         Provide configurations of Elasticsearch you want to use with GroupID:
 
@@ -105,7 +105,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
 12. Click **Next**.
 
-    ![Services Configuration page](/img/product_docs/directorymanager/11.0/install/configure/servicesconfiguration.webp)
+    ![Services Configuration page](/images/directorymanager/11.0/install/configure/servicesconfiguration.webp)
 
 13. At this point, GroupID configures the following:
 
@@ -135,7 +135,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
 14. Click **Next**.
 
-    ![Service Account Setting page](/img/product_docs/directorymanager/11.0/install/configure/serviceaccount.webp)
+    ![Service Account Setting page](/images/directorymanager/11.0/install/configure/serviceaccount.webp)
 
     NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account
     then the GroupID Configuration tool will add this account in the local administrators and
@@ -165,7 +165,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
     - **Use an existing account**: Click **Browse**.
 
-        ![Find Service Account page](/img/product_docs/directorymanager/11.0/install/configure/findserviceaccount.webp)
+        ![Find Service Account page](/images/directorymanager/11.0/install/configure/findserviceaccount.webp)
 
         On the **Find Service Account** dialog box, search and select the required account and click
         **OK**.
@@ -173,7 +173,7 @@ To configure GroupID server on the machine where the Configuration Tool is bein
     - **Create a new service account**: Click the **Create New** button on the Service Account
       Setting page.
 
-        ![Create a new service account page](/img/product_docs/directorymanager/11.0/install/configure/createserviceaccount.webp)
+        ![Create a new service account page](/images/directorymanager/11.0/install/configure/createserviceaccount.webp)
 
         On the **Create Service Account** dialog box, select the kind of account you want to create.
         Enter a name, container and password for the account. Click **Create**.
@@ -188,19 +188,19 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 18. Provide password for the GroupID Administrator account in the **Password** box.
 19. Click **Configure**.
 
-    ![Configuring GroupID page](/img/product_docs/directorymanager/11.0/install/configure/configuring.webp)
+    ![Configuring GroupID page](/images/directorymanager/11.0/install/configure/configuring.webp)
 
     **We are configuring GroupID** page displays the progress while a GroupID server is configured
     on the machine. On successful configuration, the **GroupID is successfully configured** page
     opens.
 
-    ![GroupID successfully configured page](/img/product_docs/directorymanager/11.0/install/configure/configuresuccess.webp)
+    ![GroupID successfully configured page](/images/directorymanager/11.0/install/configure/configuresuccess.webp)
 
 20. GroupID is configured on your machine.
 
     Click **Launch GroupID** to start using GroupID. The Sign In page opens:
 
-    ![GroupID Sign In page](/img/product_docs/directorymanager/11.0/install/configure/launchgid.webp)
+    ![GroupID Sign In page](/images/directorymanager/11.0/install/configure/launchgid.webp)
 
     To login in to GroupID Admin Center for the first time, provide GroupID Administrator user name
     and password.

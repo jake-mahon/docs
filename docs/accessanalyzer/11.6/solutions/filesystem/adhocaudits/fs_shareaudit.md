@@ -20,7 +20,7 @@ are preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -50,4 +50,3 @@ the following pre-configured report:
 | Report      | Description                                                          | Default Tags | Report Elements                                                                                                                                                                                                                                                      |
 | ----------- | -------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Share Audit | This report displays permission information for the selected shares. | None         | This report is comprised of four elements: <ul><li>Table – Provides details on selected shares</li><li>Table – Provides details on permissions</li><li>Table – Provides details on effective access</li><li>Table – Provides details on broken inheritance</li></ul> |
-

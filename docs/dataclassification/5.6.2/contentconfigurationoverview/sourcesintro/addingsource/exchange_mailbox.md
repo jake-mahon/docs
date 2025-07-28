@@ -26,7 +26,7 @@ specify the following:
 | Certificate thumbprint | Enter the certificate thumbprint you prepared at [Step 4: Configure Certificates & secrets](/docs/dataclassification/5.6.2/deployment/configinfrastructure/configureexchange/create_azureapp_exchangeonline_mfa.md#step-4-configure-certificates--secrets).                                                                                          |
 | Application ID         | Enter the app ID you got at application registration at [Step 2: Create and Register a new app in Azure AD](/docs/dataclassification/5.6.2/deployment/configinfrastructure/configureexchange/create_azureapp_exchangeonline_mfa.md#step-2-create-and-register-a-new-app-in-azure-ad) (it can be found in the Azure AD app properties >**Overview**). |
 
-![exchangeonline_cfg_modern_auth_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/exchange_mailbox/exchangeonline_cfg_modern_auth_thumb_0_0.webp)
+![exchangeonline_cfg_modern_auth_thumb_0_0](/images/dataclassification/5.6.2/sources/exchange_mailbox/exchangeonline_cfg_modern_auth_thumb_0_0.webp)
 
 ## Authentication type: Basic
 

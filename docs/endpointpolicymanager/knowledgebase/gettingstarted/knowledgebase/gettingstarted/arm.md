@@ -33,9 +33,9 @@ Surface Pro X can run `c:\windows\SysArm32\Calc.exe`, but a Mac M1 cannot run th
 :::
 
 
-![992_1_image-20231203190233-1_950x681](/img/product_docs/endpointpolicymanager/requirements/support/992_1_image-20231203190233-1_950x681.webp)
+![992_1_image-20231203190233-1_950x681](/images/endpointpolicymanager/requirements/support/992_1_image-20231203190233-1_950x681.webp)
 
-![992_2_image-20231203190233-2_950x744](/img/product_docs/endpointpolicymanager/requirements/support/992_2_image-20231203190233-2_950x744.webp)
+![992_2_image-20231203190233-2_950x744](/images/endpointpolicymanager/requirements/support/992_2_image-20231203190233-2_950x744.webp)
 
 :::note
 When Endpoint Policy Manager CSE is installed we will not install some components which

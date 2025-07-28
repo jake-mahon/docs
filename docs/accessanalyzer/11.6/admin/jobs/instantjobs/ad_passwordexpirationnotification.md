@@ -13,7 +13,7 @@ available through the Instant Job Library under the Active Directory library. Se
 section for instructions to add this instant job into the Jobs tree. Since this job does not require
 a host to target, select Local host on the Hosts page of the Instant Job Wizard.
 
-![AD_PasswordExpirationNotification job in the Jobs tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/jobstree_3.webp)
+![AD_PasswordExpirationNotification job in the Jobs tree](/images/accessanalyzer/11.6/admin/jobs/instantjobs/jobstree_3.webp)
 
 Runtime Details:
 
@@ -35,7 +35,7 @@ action task).
 Navigate to the **Jobs** > **AD_PasswordExpirationNotification** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-![Default Analysis Tasks for the Job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_2.webp)
+![Default Analysis Tasks for the Job](/images/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_2.webp)
 
 The default analysis tasks are:
 
@@ -69,7 +69,7 @@ This action is enabled by default.
 :::
 
 
-![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/actiontasks_1.webp)
+![Default Action Tasks for the Job](/images/accessanalyzer/11.6/admin/jobs/instantjobs/actiontasks_1.webp)
 
 The default actions are:
 
@@ -115,7 +115,7 @@ Editor. Follow the steps to customize an analysis task’s parameters.
 **Step 2 –** In the Analysis Selection view, select the **1. User Password Information** Analysis
 Task and click on **Analysis Configuration**. The SQL Script Editor opens.
 
-![1. User Password Information Analysis Task in SQL Script Editor](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/customizeanalysistask.webp)
+![1. User Password Information Analysis Task in SQL Script Editor](/images/accessanalyzer/11.6/admin/jobs/instantjobs/customizeanalysistask.webp)
 
 **Step 3 –** In the parameters section at the bottom of the editor, find the Value column.
 Double-click on the current value and change as desired.
@@ -163,13 +163,13 @@ organization’s name. Follow the steps to configure the 5. Help Desk Notificati
 **Step 2 –** In the Analysis Selection view, select the **5. Help Desk Notification Analysis Task**
 and click on **Analysis Configuration**. The Notification Data Analysis Module opens.
 
-![SMTP properties page](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/smtpproperties.webp)
+![SMTP properties page](/images/accessanalyzer/11.6/admin/jobs/instantjobs/smtpproperties.webp)
 
 **Step 3 –** Use the **Next** button to navigate to the SMTP properties page. Do not make changes to
 the preceding pages. The email configuration takes place on the SMTP page. Provide the recipients’
 email addresses, Message Subject, and add the notification email content.
 
-![SMTP properties add email recipients](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/smtppropertiesrecipients.webp)
+![SMTP properties add email recipients](/images/accessanalyzer/11.6/admin/jobs/instantjobs/smtppropertiesrecipients.webp)
 
 In the Recipients section, provide the email addresses in the text box or distribution lists in the
 E-mail field (fully qualified address) for those who are to receive this notification, for example
@@ -181,7 +181,7 @@ Recipients list. There is an option to **Combine multiple messages into single m
 checked by default so that it sends one email for all users in the record set instead of one email
 per user.
 
-![Message section of SMTP properties page](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/smtppropertiesmessage.webp)
+![Message section of SMTP properties page](/images/accessanalyzer/11.6/admin/jobs/instantjobs/smtppropertiesmessage.webp)
 
 In the Message section, the **Subject** should be configured. Then set the email content in the text
 box as desired.
@@ -190,7 +190,7 @@ box as desired.
 page. Do not make changes to any other pages. Click **Finish**. The Notification Data Analysis
 Module window closes.
 
-![Analyis Tasks view](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistaskshelpdesknotification.webp)
+![Analyis Tasks view](/images/accessanalyzer/11.6/admin/jobs/instantjobs/analysistaskshelpdesknotification.webp)
 
 **Step 5 –** This notification analysis task is now configured to send emails. In the Analysis
 Selection view, ensure the 5. Help Desk Notification Analysis Task is checked so that notifications
@@ -252,7 +252,7 @@ Do not modify the action task properties.
 the associated table are displayed. Click **Configure Action**. The Send Mail Action Module Wizard
 opens.
 
-![Send Mail Action Module Wizard Message page](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/actionwizardmessage.webp)
+![Send Mail Action Module Wizard Message page](/images/accessanalyzer/11.6/admin/jobs/instantjobs/actionwizardmessage.webp)
 
 **Step 4 –** Click **Next** to navigate to the Message page. Modify the message **Subject** and
 email content as desired.

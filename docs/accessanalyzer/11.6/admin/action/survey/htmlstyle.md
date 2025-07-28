@@ -8,7 +8,7 @@ sidebar_position: 40
 
 Choose an HTML style from the HTML Styles list. The Sample pane displays a preview of the style.
 
-![Survey Action Module Wizard HTML Style page](/img/product_docs/accessanalyzer/11.6/admin/action/survey/htmlstyle.webp)
+![Survey Action Module Wizard HTML Style page](/images/accessanalyzer/11.6/admin/action/survey/htmlstyle.webp)
 
 The configurable options are:
 

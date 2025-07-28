@@ -13,7 +13,7 @@ targeted Oracle database servers.
 
 The PermissionsScan query uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup6.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup6.webp)
 
 - PermissionsScan – Collects permissions from targeted instances
 
@@ -37,7 +37,7 @@ pre-configured for this job.
 :::
 
 
-![Filter Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/1oraclepermissionscanjobqueryfilter.webp)
+![Filter Page](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/1oraclepermissionscanjobqueryfilter.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the Filter page. The default
 query target is All Databases. The default query scope is Only select database objects. Click
@@ -64,7 +64,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup8.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/collection/jobgroup8.webp)
 
 The default analysis tasks are:
 

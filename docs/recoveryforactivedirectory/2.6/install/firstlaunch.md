@@ -21,7 +21,7 @@ Follow the steps to login to Recovery for Active Directory.
 
 **Step 1 –** Launch the Recovery Console. The Log in page is displayed.
 
-![ Recovery for Active Directory - Login page](/img/product_docs/recoveryforactivedirectory/2.6/install/login.webp)
+![ Recovery for Active Directory - Login page](/images/recoveryforactivedirectory/2.6/install/login.webp)
 
 **Step 2 –** Log in with credentials configured on the Administrator Role page of the Recovery for
 Active Directory Setup wizard during installation. See the [Install the Application](/docs/recoveryforactivedirectory/2.6/install/application.md)

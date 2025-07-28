@@ -37,7 +37,7 @@ be extended by purchasing additional support.
 The PingCastle tool is just one part of a global methodology aiming at
 securing Active Directories.
 
-![](/img/product_docs/pingcastle/basicuser/image1.webp)
+![](/images/pingcastle/basicuser/image1.webp)
 
 You can get more information about this methodology by visiting the
 website https://www.pingcastle.com/methodology/
@@ -46,7 +46,7 @@ website https://www.pingcastle.com/methodology/
 
 The following sections describe how to use PingCastle.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle_dezipped-1.webp](/img/product_docs/pingcastle/basicuser/image2.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle_dezipped-1.webp](/images/pingcastle/basicuser/image2.webp)
 
 ## Requirements
 
@@ -96,14 +96,14 @@ run under the .Net framework where it has been compiled (and not the
 other .Net framework). Windows does show a popup to suggest the
 installation of the missing framework.
 
-![](/img/product_docs/pingcastle/basicuser/image3.webp)
+![](/images/pingcastle/basicuser/image3.webp)
 
 ## How it works
 
 PingCastle is a standalone program (not requiring installation) which
 produces reports for human or machine.
 
-![](/img/product_docs/pingcastle/basicuser/image4.webp)
+![](/images/pingcastle/basicuser/image4.webp)
 
 PingCastle reads its own machine readable reports to build analysis or
 dashboard.
@@ -114,7 +114,7 @@ PingCastle Basic Edition is provided in a zip file. You need a program
 such as 7zip or the native unzip program to decompress the file.
 
 ![A screenshot of a computer Description automatically
-generated](/img/product_docs/pingcastle/basicuser/image5.webp)
+generated](/images/pingcastle/basicuser/image5.webp)
 
 For the most operating systems, PingCastle does not need any more
 actions.
@@ -129,7 +129,7 @@ PingCastle.exe.config
 
 1.  The best way is just to double click on PingCastle.exe
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/quickstart.webp](/img/product_docs/pingcastle/basicuser/image6.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/quickstart.webp](/images/pingcastle/basicuser/image6.webp)
 
 This run the program in a mode called the "interactive mode.
 
@@ -144,7 +144,7 @@ other files ending with ".exe"
 
 PingCastle can display its help on a command line.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/cmd-pingcastle-help.webp](/img/product_docs/pingcastle/basicuser/image7.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/cmd-pingcastle-help.webp](/images/pingcastle/basicuser/image7.webp)
 
 Indeed PingCastle has a lot of switches which can be displayed using the
 command line:
@@ -174,7 +174,7 @@ The report can be generated in the interactive mode by choosing
 "healthcheck" or just by pressing Enter. Indeed it is the default
 analysis mode.
 
-![](/img/product_docs/pingcastle/basicuser/image8.webp)
+![](/images/pingcastle/basicuser/image8.webp)
 
 It can be run using the command:
 
@@ -193,7 +193,7 @@ active directories. It is designed to be computer read (PingCastle).
 2.  The xml file is required for all analysis, including global overview
     or cartography.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/img1.webp](/img/product_docs/pingcastle/basicuser/image9.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/img1.webp](/images/pingcastle/basicuser/image9.webp)
 
 The report is divided in 3 parts:
 
@@ -212,17 +212,17 @@ The Score is computed by the maximum of the 4 sub scores:
 - Security anomalies -- Everything that doesn't fit into the previous
   categories and related to security checks
 
-![](/img/product_docs/pingcastle/basicuser/image10.webp)
+![](/images/pingcastle/basicuser/image10.webp)
 
 The details of the rules triggered is shown with some indication and the
 number of points calculated (the total cannot be above 100).
 
-![](/img/product_docs/pingcastle/basicuser/image11.webp)
+![](/images/pingcastle/basicuser/image11.webp)
 
 When the rule is clicked, a short explanation of the rule is shown with
 some indication on how to solve the situation.
 
-![](/img/product_docs/pingcastle/basicuser/image12.webp)
+![](/images/pingcastle/basicuser/image12.webp)
 
 **2 -- General information**
 
@@ -233,12 +233,12 @@ some indication on how to solve the situation.
 - The Detail zone shows general information about users, computers,
   trusts, group policies, ...
 
-![](/img/product_docs/pingcastle/basicuser/image13.webp)
+![](/images/pingcastle/basicuser/image13.webp)
 
 Some information can be seen in detail by clicking on the associated
 link. It contains data to help identify the underlying objects.
 
-![](/img/product_docs/pingcastle/basicuser/image14.webp)
+![](/images/pingcastle/basicuser/image14.webp)
 
 ## Perform domain discovery
 
@@ -250,7 +250,7 @@ All reachable domains will be scanned, the reachable mode will be
 activated and the consolidation report will be made automatically. This
 takes from a few minutes to one hour.
 
-![](/img/product_docs/pingcastle/basicuser/image15.webp)
+![](/images/pingcastle/basicuser/image15.webp)
 
 Then open the cartography reports (see below).
 
@@ -262,7 +262,7 @@ Then open the cartography reports (see below).
 "conso".** This mode performs the consolidation report and build the
 maps.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-consolidation-process.webp](/img/product_docs/pingcastle/basicuser/image16.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-consolidation-process.webp](/images/pingcastle/basicuser/image16.webp)
 
 Option 3: perform a quick domain exploration (fastest but not scalable)
 
@@ -270,9 +270,9 @@ If you need only a quick map (\< 5 minutes of execution), enter "carto"
 when using the interactive mode or run the program with the switch
 \--carto.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-carto-process.webp](/img/product_docs/pingcastle/basicuser/image17.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-carto-process.webp](/images/pingcastle/basicuser/image17.webp)
 
-![](/img/product_docs/pingcastle/basicuser/image18.webp)
+![](/images/pingcastle/basicuser/image18.webp)
 
 The program discovers all the reachable domains, does a light scan and
 produce the same map than in the health check consolidation mode. The
@@ -300,7 +300,7 @@ Each map is a dynamic map. Each node can be moved.
 
 **Example of graph produced by the tool**
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/img3.webp](/img/product_docs/pingcastle/basicuser/image19.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/img3.webp](/images/pingcastle/basicuser/image19.webp)
 
 The colored circles are the domain on which the reports have been run.
 The color depends on the score. The purple bordered circles are the
@@ -309,22 +309,22 @@ using trust link.
 
 Legend:
 
-![](/img/product_docs/pingcastle/basicuser/image20.webp)
+![](/images/pingcastle/basicuser/image20.webp)
 
 When the mouse is on a circle, the full name of the domain appears:
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2016/12/fullzomm.webp](/img/product_docs/pingcastle/basicuser/image21.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2016/12/fullzomm.webp](/images/pingcastle/basicuser/image21.webp)
 
 If the mouse is hold on a trust, the detail is shown in a popup:
 
-![](/img/product_docs/pingcastle/basicuser/image22.webp)
+![](/images/pingcastle/basicuser/image22.webp)
 
 ### Simple domain map
 
 The simple domain map is represented by the files
 xxx_simple_node_map.html.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-carto-simplified.webp](/img/product_docs/pingcastle/basicuser/image23.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-carto-simplified.webp](/images/pingcastle/basicuser/image23.webp)
 
 This is the same map except that a domain is present only one time in
 the graph and connected with only one trust. The domain which has the
@@ -359,7 +359,7 @@ There is a mouse over popup which gives you detail about a select IP
 (and the networks where it does belong) and a search function can be use
 to find a specific IP address.
 
-![](/img/product_docs/pingcastle/basicuser/image24.webp)
+![](/images/pingcastle/basicuser/image24.webp)
 
 ## Deploying PingCastle
 
@@ -370,7 +370,7 @@ To be the most effective, PingCastle needs to have the risk reports for
 all domains. Because PingCastle doesn't need an account in the domain to
 audit, you can take benefits of trusts to perform this task.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2016/12/pingcastle-consolidation-process.webp](/img/product_docs/pingcastle/basicuser/image25.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2016/12/pingcastle-consolidation-process.webp](/images/pingcastle/basicuser/image25.webp)
 
 ## Involvement of the management
 
@@ -660,7 +660,7 @@ and the previous flags can be combined.
 
 PingCastle can send the report (encrypted or not) using an API.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-swagger.webp](/img/product_docs/pingcastle/basicuser/image26.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-swagger.webp](/images/pingcastle/basicuser/image26.webp)
 
 You can query a PingCastle API server or build a client or server from
 [Swagger](https://editor.swagger.io/?url=https://gist.githubusercontent.com/vletoux/c6c565c8af07b4df5df65ed01ffeb917/raw/fca7a288050b7b17ba6024f2a23ef8c4d46fd813/pingcastle-swagger.json).
@@ -686,11 +686,11 @@ consolidation report. By default, the files are picked in the directory
 (or sub directory) where the program is run. If there are duplicate
 reports, only the most recent is used.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-consolidation-process.webp](/img/product_docs/pingcastle/basicuser/image16.webp)
+![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/pingcastle-consolidation-process.webp](/images/pingcastle/basicuser/image16.webp)
 
 To generate the report, enter "conso" in the interactive mode.
 
-![](/img/product_docs/pingcastle/basicuser/image27.webp)
+![](/images/pingcastle/basicuser/image27.webp)
 
 Or type the following command line:
 
@@ -707,7 +707,7 @@ The consolidation report is a concatenation of all data contained in the
 report, without the detail. It follows the same plan than a simple
 report.
 
-![](/img/product_docs/pingcastle/basicuser/image28.webp)
+![](/images/pingcastle/basicuser/image28.webp)
 
 When the consolidation is made, 3 html files are generated.
 
@@ -739,7 +739,7 @@ These programs are called \"scanners\" and are accessible from the
 When selected, a menu is displayed to select the program. At the bottom,
 a scanner description is shown.
 
-![](/img/product_docs/pingcastle/basicuser/image29.webp)
+![](/images/pingcastle/basicuser/image29.webp)
 
 **Here are the main scanners**
 
@@ -820,7 +820,7 @@ enumeration.
 First, enter the domain to enumerate (eg: the bastion or a domain which
 is very far)
 
-![](/img/product_docs/pingcastle/basicuser/image30.webp)
+![](/images/pingcastle/basicuser/image30.webp)
 
 Then enter the domain which will be used as a pivot
 
@@ -1165,19 +1165,19 @@ Important setting: check \"run whether user is logged on or not\" and
 choose a service account running under the domain (not a local account).
 Check hidden to hide the console.
 
-![](/img/product_docs/pingcastle/basicuser/image31.webp)
+![](/images/pingcastle/basicuser/image31.webp)
 
 Set the schedule:
 
-![](/img/product_docs/pingcastle/basicuser/image32.webp)
+![](/images/pingcastle/basicuser/image32.webp)
 
-![](/img/product_docs/pingcastle/basicuser/image33.webp)
+![](/images/pingcastle/basicuser/image33.webp)
 
 Set the command line:
 
-![](/img/product_docs/pingcastle/basicuser/image34.webp)
+![](/images/pingcastle/basicuser/image34.webp)
 
-![](/img/product_docs/pingcastle/basicuser/image35.webp)
+![](/images/pingcastle/basicuser/image35.webp)
 
 Be sure that the service account has the right to write the report in
 the current directory.
@@ -1185,11 +1185,11 @@ the current directory.
 If you get the following message, be sure that the user as the right to
 logon as batch job.
 
-![](/img/product_docs/pingcastle/basicuser/image36.webp)
+![](/images/pingcastle/basicuser/image36.webp)
 
 This can be modified in the security policies:
 
-![](/img/product_docs/pingcastle/basicuser/image37.webp)
+![](/images/pingcastle/basicuser/image37.webp)
 
 **Select \"Local Policies\" in MSC snap in**
 
@@ -1199,7 +1199,7 @@ Right click on \"Log on as batch job\" and select Properties
 
 Click \"Add User or Group\", and include the relevant user.
 
-![](/img/product_docs/pingcastle/basicuser/image38.webp)
+![](/images/pingcastle/basicuser/image38.webp)
 
 If the button \"Add User or Group\" is grayed, that means that the
 setting is overridden by a GPO (by default, the Domain Controller

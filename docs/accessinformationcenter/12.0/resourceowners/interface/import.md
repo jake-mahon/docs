@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Import Owners wizard is opened with the **Import** button in the Resource Owners interface.
 
-![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectfile.webp)
+![Import Owners wizard showing 1. Select File page](/images/accessinformationcenter/12.0/resourceowners/wizard/selectfile.webp)
 
 It contains two pages:
 
@@ -23,7 +23,7 @@ The CSV file should list one resource per row using the following format:
 
 [ResourcePath],[Owner1];[Owner2];[Owner3],[Description]
 
-![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/csvfileformat.webp)
+![Example CSV File showing file system, SharePoint, and group resource formats](/images/accessinformationcenter/12.0/resourceowners/wizard/csvfileformat.webp)
 
 - Resource Formats:
     - File System Resources – Resource path should be the UNC path to the share or folder.
@@ -53,12 +53,12 @@ interface.
 
 **Step 1 –** In the Resource Owners interface, click **Import**. The Import Owners wizard opens.
 
-![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectfile.webp)
+![Import Owners wizard showing 1. Select File page](/images/accessinformationcenter/12.0/resourceowners/wizard/selectfile.webp)
 
 **Step 2 –** On the Select Files page, click **Add**.Navigate to the CSV file to be imported and
 click **Open**.
 
-![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectfilepreview.webp)
+![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/images/accessinformationcenter/12.0/resourceowners/wizard/selectfilepreview.webp)
 
 **Step 3 –** A preview of the resources and owners appears in the table. The Status column indicates
 whether or not there is a problem (invalid resource or owner). Ensure all resources in the table
@@ -72,7 +72,7 @@ from the table.
 :::
 
 
-![Import Owners wizard 2. Options page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/options.webp)
+![Import Owners wizard 2. Options page](/images/accessinformationcenter/12.0/resourceowners/wizard/options.webp)
 
 **Step 4 –** On the Options page, configure the available options as required.
 
@@ -89,7 +89,7 @@ from the table.
 
 **Step 5 –** Click **Next**. The Access Information Center will begin to process the import.
 
-![Import Owners wizard completed import page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/completed.webp)
+![Import Owners wizard completed import page](/images/accessinformationcenter/12.0/resourceowners/wizard/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Import Owners wizard closes.

@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_GroupProbableOwners Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/groups/groupprobableownersanalysis.webp)
+![Analysis Tasks for the AD_GroupProbableOwners Job](/images/accessanalyzer/12.0/solutions/activedirectory/groups/groupprobableownersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report:
 | Report          | Description                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                                   |
 | --------------- | ----------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Probable Owners | This report identifies the most probable manager or department, based on effective member attributes. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays top domains by blank manager field</li><li>Table – Provides details on probable ownership</li><li>Table – Provides summary of managers</li></ul> |
-

@@ -27,7 +27,7 @@ for additional information.
 
 The EX_MetricsCollection Job uses the ExchangeMetrics Data Collector.
 
-![Queries for the EX_MetricsCollection Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricscollectionqueries.webp)
+![Queries for the EX_MetricsCollection Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricscollectionqueries.webp)
 
 The following queries are included in the EX_MetricsCollection Job:
 
@@ -50,7 +50,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_MetrixCollection Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricscollectionanalysis.webp)
+![Analysis Tasks for the EX_MetrixCollection Job](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/metricscollectionanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -97,12 +97,12 @@ can be set to a specified number of days. Follow these steps to modify the histo
 
 **Step 1 –** Navigate to the job’s **Configure** node and select **Analysis**.
 
-![08. SET HISTORY RETENTION task in the Analysis Selection view](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/sethistoryretentiontask.webp)
+![08. SET HISTORY RETENTION task in the Analysis Selection view](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/sethistoryretentiontask.webp)
 
 **Step 2 –** In the Analysis Selection view, select the **08. SET HISTORY RETENTION** analysis task
 and click **Analysis Configuration**. The SQL Script Editor opens.
 
-![History Retention task in SQL Script Editor](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/sethistoryretentionscripteditor.webp)
+![History Retention task in SQL Script Editor](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/sethistoryretentionscripteditor.webp)
 
 **Step 3 –** To modify the number of months: On line 6, modify the value for the months parameter:
 
@@ -146,7 +146,7 @@ Follow these steps to troubleshoot data collection:
 
 **Step 1 –** Navigate to the job’s **Configure** node and select **Analysis**.
 
-![Troubleshooting task selection](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/troubleshootingtaskselection.webp)
+![Troubleshooting task selection](/images/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/troubleshootingtaskselection.webp)
 
 **Step 2 –** In the Analysis Selection view, clear all default analysis tasks (if any) and select
 the analysis task which purges data.

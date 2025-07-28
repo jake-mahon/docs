@@ -21,7 +21,7 @@ For detailed information on settings change or creating additional administrator
 [System Configuration](/docs/endpointprotector/5.9.4/admin/systemconfiguration/overview.md)
 topic.
 
-![Page for default login credentials for the root account](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/login.webp)
+![Page for default login credentials for the root account](/images/endpointprotector/5.9.4/admin/dashboard/login.webp)
 
 ## Conﬁguration Wizard
 
@@ -41,7 +41,7 @@ and logged out unless you select to continue the session.
 [System Configuration](/docs/endpointprotector/5.9.4/admin/systemconfiguration/overview.md)
 topic.
 
-![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/configwizard.webp)
+![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/images/endpointprotector/5.9.4/admin/dashboard/configwizard.webp)
 
 ## General Dashboard
 
@@ -51,35 +51,35 @@ important activities logged by Endpoint Protector.
 You will view more speciﬁc dashboards on the Device Control, Content Aware Protection and eDiscovery
 sections.
 
-![View general information as graphics and charts related to the most important activities](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/general.webp)
+![View general information as graphics and charts related to the most important activities](/images/endpointprotector/5.9.4/admin/dashboard/general.webp)
 
 ## System Status
 
 In this section you can view general information of the system’s functionality, alerts, and backup
 status.
 
-![View general information of the system’s functionality, alerts, and backup status](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/systemstatus.webp)
+![View general information of the system’s functionality, alerts, and backup status](/images/endpointprotector/5.9.4/admin/dashboard/systemstatus.webp)
 
 From the System Functionality section, you can enable Endpoint Protector, as well as just speciﬁc
 modules (Device Control, Content Aware Protection, or eDiscovery).
 
-![Enable EPP , as well as just speciﬁc modules](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/systemfunctionality.webp)
+![Enable EPP , as well as just speciﬁc modules](/images/endpointprotector/5.9.4/admin/dashboard/systemfunctionality.webp)
 
 From the System Status subsection, you can enable the HDD Disk Space and Log Rotation.
 
 **NOTE:** If this setting is enabled, when the Server’s disk space reaches a certain percentage
 (starting from 50% up to 90%), old logs will be automatically overwritten by the new ones.
 
-![Enable the HDD Disk Space and Log Rotation.](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/diskspace.webp)
+![Enable the HDD Disk Space and Log Rotation.](/images/endpointprotector/5.9.4/admin/dashboard/diskspace.webp)
 
 From the System Alerts subsection, you can enable important alerts notifying the expiration of the
 APNS Certiﬁcate, Updates, and Support or Passwords.
 
-![Enable important alerts ](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/systemalerts.webp)
+![Enable important alerts ](/images/endpointprotector/5.9.4/admin/dashboard/systemalerts.webp)
 
 From the System Backup subsection, you can enable the System Backup.
 
-![Enable the System Backup](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/systembackup.webp)
+![Enable the System Backup](/images/endpointprotector/5.9.4/admin/dashboard/systembackup.webp)
 
 ## Live Update
 
@@ -89,16 +89,16 @@ updates.
 **NOTE:** This feature communicates through port 80. Whitelist the liveupdate.endpointprotector.com
 (IP: 178.63.3.86) domain.
 
-![Check and apply the latest security and  Server updates](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/liveupdate.webp)
+![Check and apply the latest security and  Server updates](/images/endpointprotector/5.9.4/admin/dashboard/liveupdate.webp)
 
 ### Software Update
 
-![Management of software updates](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/softwareupdate.webp)
+![Management of software updates](/images/endpointprotector/5.9.4/admin/dashboard/softwareupdate.webp)
 
 Click **Conﬁgure Live Update** to select manual or automatic live updates check, the number of
 retries, and manage the Automatic Reporting to the LiveUpdate Server.
 
-![Configuring Live Updates](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/configliveupdate.webp)
+![Configuring Live Updates](/images/endpointprotector/5.9.4/admin/dashboard/configliveupdate.webp)
 
 Click **Check Now** to search for the Endpoint Protector Server updates displayed in the Available
 Updates section. You can select and install an update with **Apply Updates**, or all updates with
@@ -107,7 +107,7 @@ Updates section. You can select and install an update with **Apply Updates**, or
 You can also schedule an update. Select an entry from the available updates, click **Schedule
 update** and then use the calendar to select the date and conﬁrm your selection.
 
-![Checking for available EPP server Updates](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/availableupdates.webp)
+![Checking for available EPP server Updates](/images/endpointprotector/5.9.4/admin/dashboard/availableupdates.webp)
 
 Use the Oﬄine Patch upload option to select the oﬄine patches from your computer and successively
 install them to the latest Endpoint Protector version.
@@ -115,7 +115,7 @@ install them to the latest Endpoint Protector version.
 **NOTE:** To request the Offline Patch, submit a support ticket through the
 [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).
 
-![Select the oﬄine patches from your computer and successively install them to the latest](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/offlinepatch.webp)
+![Select the oﬄine patches from your computer and successively install them to the latest](/images/endpointprotector/5.9.4/admin/dashboard/offlinepatch.webp)
 
 **CAUTION:** Before upgrading your Endpoint Protector server to the 5.7.0.0 server version from a
 pre-5206 version and adjacent OS image, you need to enable database partitions. For assistance,
@@ -147,7 +147,7 @@ Select one of the security updates type available and then click **Check Updates
 
 If there are updates available, click **Apply Updates**.
 
-![Applying Backend Security Updates](/img/product_docs/endpointprotector/5.9.4/admin/dashboard/backendsecurityupdates.webp)
+![Applying Backend Security Updates](/images/endpointprotector/5.9.4/admin/dashboard/backendsecurityupdates.webp)
 
 **NOTE:** For history of applied Backend Updates go to admin action report and choose **Apply
 Updates** under Activity ﬁlter.

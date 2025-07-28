@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AAD_DisabledUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/entraid/users/disabledusersanalysis.webp)
+![Analysis Tasks for the AAD_DisabledUsers Job](/images/accessanalyzer/12.0/solutions/entraid/users/disabledusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following pre-configured report.
 | Report                 | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                         |
 | ---------------------- | ---------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Disabled User Accounts | This report identifies disabled user accounts and summarizes them by domain. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays disabled users by domain</li><li>Table – Provides user details</li><li>Tables – Provides details on disabled users by domain</li></ul> |
-

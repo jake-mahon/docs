@@ -9,7 +9,7 @@ sidebar_position: 10
 In the normal sections of the IE AppSet, you can click on items to select a setting. However, the IE
 AppSet also has some special sections. You can see an example of a special section in Figure 2.
 
-![normal_sections_in_the_ie](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/normal_sections_in_the_ie.webp)
+![normal_sections_in_the_ie](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/normal_sections_in_the_ie.webp)
 
 Figure 2. Special and normal sections in the IE AppSet.
 

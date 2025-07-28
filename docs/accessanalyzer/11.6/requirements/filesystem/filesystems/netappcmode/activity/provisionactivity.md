@@ -385,7 +385,7 @@ security login show example\user1
 
 Verify that the output is displayed as follows:
 
-![validatesecuritylogincreation](/img/product_docs/activitymonitor/7.1/config/netappcmode/validatesecuritylogincreation.webp)
+![validatesecuritylogincreation](/images/activitymonitor/7.1/config/netappcmode/validatesecuritylogincreation.webp)
 
 For more information about creating security logins, read the
 [security login create](https://docs.netapp.com/us-en/ontap-cli-9141/security-login-create.html)

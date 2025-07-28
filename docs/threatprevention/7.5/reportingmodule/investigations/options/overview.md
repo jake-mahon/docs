@@ -12,7 +12,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 a folder in the navigation pane to access a saved investigation. An investigation is located in the
 folder where it was saved.
 
-![Options available for an Investigation](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/investigationoptions.webp)
+![Options available for an Investigation](/images/threatprevention/7.5/reportingmodule/investigations/options/investigationoptions.webp)
 
 Every investigation has the following options at the top of the page:
 

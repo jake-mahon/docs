@@ -31,11 +31,11 @@ https://<IP_add_of_SecureONE_box>/api/v1/ping
 The response coming back should simply be “pong” if the API connection is intact. Modify the POST
 string in the URL field to read the following:
 
-![Register_device_URL.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360022103414_register_device_url_632x71.webp)
+![Register_device_URL.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360022103414_register_device_url_632x71.webp)
 
 Select the “Body” option beneath the URL field, and create the keys pictured below:
 
-![Register_keyvalues.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/360022103414_register_keyvalues_680x330.webp)
+![Register_keyvalues.webp](/images/privilegesecure/4.2/discovery/admin/systemmanagement/360022103414_register_keyvalues_680x330.webp)
 
 - system – The name of the Linux system being registered to the Privilege Secure interface.
 - username/password – The name/password of the service account currently on the Linux endpoint which
@@ -51,7 +51,7 @@ Select the “Body” option beneath the URL field, and create the keys pictured
 
 Once all values are in place, click the blue “Send” button in the top right corner, and verify that
 it updates successfully in Postman. This initial registration process may take up to 30 seconds per
-machine.  
+machine.
 **directory_bridging**:  Will default to "Privilege Secure".  Add to POST if using a Directory
 Bridging solution other than Privilege Secure.  Valid entries are:  centrify, powerbroker, sssd
 

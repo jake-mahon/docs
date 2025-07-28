@@ -29,7 +29,7 @@ Based on this model, Power BI will be able to:
 - generate customized graphic reports
 - publish the reports with Power BI Service (SaaS) or Power BI Report Server (on premises)
 
-![Process Schema](/img/product_docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/analyze-powerbi/powerbi_process.webp)
+![Process Schema](/images/identitymanager/saas/integration-guide/governance/reporting/how-tos/analyze-powerbi/powerbi_process.webp)
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ for additional information.
 Remember, in order to understand business intelligence, with its universes, entity instances and
 association instances. See the
 [Universe](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) topic
-for additional information.  
+for additional information.
 Also note that XML objects that automatically generate XML snippets that would be complex and/or
 tedious to write manually. See
 the[Scaffoldings](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic

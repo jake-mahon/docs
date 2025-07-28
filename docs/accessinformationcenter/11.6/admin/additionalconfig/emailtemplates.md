@@ -66,7 +66,7 @@ is necessary.
 :::
 
 
-![Templates Zip file in the Installation Directory](/img/product_docs/accessinformationcenter/11.6/admin/additionalconfig/emailtemplateszipfile.webp)
+![Templates Zip file in the Installation Directory](/images/accessinformationcenter/11.6/admin/additionalconfig/emailtemplateszipfile.webp)
 
 **Step 1 –** Navigate to the Access Information Center installation directory:
 
@@ -81,7 +81,7 @@ installation directory to be preserved during future application upgrades.
 :::
 
 
-![Unzipped Email Templates in Templates Folder](/img/product_docs/accessinformationcenter/11.6/admin/additionalconfig/emailtemplatesunzipped.webp)
+![Unzipped Email Templates in Templates Folder](/images/accessinformationcenter/11.6/admin/additionalconfig/emailtemplatesunzipped.webp)
 
 **Step 3 –** Locate the desired HTML message template.
 

@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis tasks for AAD_ProbableOwners Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/groups/probableownersanalysis.webp)
+![Analysis tasks for AAD_ProbableOwners Job](/images/accessanalyzer/11.6/solutions/entraid/groups/probableownersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ following pre-configured report.
 | Report          | Description                                                                            | Default Tags | Report Elements                                                                                                                                                                                                                                       |
 | --------------- | -------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Probable Owners | This report identifies the most probable manager based on effective member attributes. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays top domains by blank manager field</li><li>Table – Provides probable owner details</li><li>Tables – Provides details on top domains by blank manager field</li></ul> |
-

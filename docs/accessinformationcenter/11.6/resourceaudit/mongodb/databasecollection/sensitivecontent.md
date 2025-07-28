@@ -12,7 +12,7 @@ includes a table with criteria matches visible to Access Information Center user
 Security Team Member or Administrator roles. The Matches table requires the storage of discovered
 sensitive data within the Enterprise Auditor database or it will be blank.
 
-![Sensitive Content report at the database and collections level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/mongodb/databasecollection/databasesensitivecontent.webp)
+![Sensitive Content report at the database and collections level](/images/accessinformationcenter/11.6/resourceaudit/mongodb/databasecollection/databasesensitivecontent.webp)
 
 This report is comprised of the following columns:
 

@@ -22,7 +22,7 @@ or the
 [LDAP Lockdown Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/ldaplockdown.md),
 the LDAP filter allows you to enable the LDAP Ping option.
 
-![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/usecase/ldapping.webp)
+![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/images/threatprevention/7.4/admin/policies/eventtype/usecase/ldapping.webp)
 
 ## Configure the LDAP Query Filter for LDAP Ping
 
@@ -55,5 +55,5 @@ Nom security threat:
   :::note
   The LDAP Nom Nom version could change, so `User=` will provide the best detection
   despite the risk of returning false positives such as native Windows activity.
-  
+
   :::

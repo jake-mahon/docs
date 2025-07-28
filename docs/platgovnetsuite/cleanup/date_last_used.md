@@ -15,11 +15,11 @@ Searches and Records. DLU values are intended to be reasonably accurate. Complet
 objects would require excessive processing.
 
 :::note
-DLU is not available for display only fields.  
+DLU is not available for display only fields.
 :::
 
-DLU is not reliable for fields with no parent record.  
-DLU is not reliable in sandbox accounts as fields do not get actively used.  
+DLU is not reliable for fields with no parent record.
+DLU is not reliable in sandbox accounts as fields do not get actively used.
 DLU is not reliable until the initial spider is complete, including the Make Joins.
 
 Date Last Used is intended to be used for clean up and is set up to be accurate within a month.
@@ -91,4 +91,4 @@ Key columns in the search results:
   yet. The DLU spider can take several days to finish It executes daily on a subset of dates until
   it reaches 6 months.
 
-![Unused Workflow Customizations Search Results](/img/product_docs/platgovnetsuite/clean_up/unused_workflow_results.webp)
+![Unused Workflow Customizations Search Results](/images/platgovnetsuite/clean_up/unused_workflow_results.webp)

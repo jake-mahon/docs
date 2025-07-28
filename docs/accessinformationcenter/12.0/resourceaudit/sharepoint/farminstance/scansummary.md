@@ -9,7 +9,7 @@ sidebar_position: 50
 The Scan Summary report at the on-premise farm and online instance levels provides a summary view of
 all site collections on the selected farm/instance.
 
-![Scan Summary report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/farminstance/instancescansummary.webp)
+![Scan Summary report at the on-premise farm and online instance levels](/images/accessinformationcenter/12.0/resourceaudit/sharepoint/farminstance/instancescansummary.webp)
 
 This report is comprised of the following columns:
 

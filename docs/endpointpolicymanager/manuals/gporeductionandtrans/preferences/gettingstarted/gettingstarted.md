@@ -37,12 +37,12 @@ Currently the file is called `ppprefs-shortcut.xml`.  You can get to it by acce
 portal and navigating to Latest Manuals.  Then, click on Endpoint Policy Manager Examples (to be
 used with PP Cloud-MDM-SCCM-etc).zip.
 
-![quickstart_using_policypak](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager.webp)
+![quickstart_using_policypak](/images/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager.webp)
 
 Inside the download of the Endpoint Policy Manager preferences and Endpoint Policy Manager Cloud XML
 examples, you'll see a file named `ppprefs-shortcut.xml`.
 
-![quickstart_using_policypak_1](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_1.webp)
+![quickstart_using_policypak_1](/images/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_1.webp)
 
 Remove the file from the ZIP archive, and put it in a handy place for the deployment step.
 
@@ -64,7 +64,7 @@ These are the settings used to make the Group Policy Preference item:
 - Icon file path: `%SystemRoot%\system32\SHELL32.dll`
 - Icon index: 47
 
-![quickstart_using_policypak_2](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_2.webp)
+![quickstart_using_policypak_2](/images/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_2.webp)
 
 When you click **OK**, it will save the data within the Group Policy Object (GPO). However, you can
 drag and drop a Group Policy Preference item to the desktop or a folder, which makes an XML file.
@@ -78,6 +78,6 @@ Computer side, depending on which side on are on.
 :::
 
 
-![quickstart_using_policypak_3](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_3.webp)
+![quickstart_using_policypak_3](/images/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_3.webp)
 
 Keep the Group Policy Preference item file you created handy for the next step.

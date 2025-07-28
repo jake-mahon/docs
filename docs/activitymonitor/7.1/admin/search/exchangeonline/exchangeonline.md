@@ -10,7 +10,7 @@ You can search Exchange Online activity that has been monitored and recorded to 
 you select **Exchange Online** from the magnifying glass drop-down menu, a New Search tab opens with
 the applicable query filters.
 
-![Exchange Online - Search Quary Bar](/img/product_docs/activitymonitor/7.1/admin/search/query/searchquerybar.webp)
+![Exchange Online - Search Quary Bar](/images/activitymonitor/7.1/admin/search/query/searchquerybar.webp)
 
 The filters are separated into the following categories:
 
@@ -50,7 +50,7 @@ field. Field options vary based on the selected query filter:
 The General category scopes the query by the most common types of filters. The time frame filter
 must be configured for every search query.
 
-![Exchange Online - General Category](/img/product_docs/activitymonitor/7.1/admin/search/query/general.webp)
+![Exchange Online - General Category](/images/activitymonitor/7.1/admin/search/query/general.webp)
 
 This section has the following filters:
 
@@ -75,7 +75,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![Exchange Online Search - User Filter](/img/product_docs/activitymonitor/7.1/admin/search/query/user_1.webp)
+![Exchange Online Search - User Filter](/images/activitymonitor/7.1/admin/search/query/user_1.webp)
 
 This section has the following filters:
 
@@ -89,7 +89,7 @@ This section has the following filters:
 
 The Target category scopes the query by the target of the file.
 
-![Exchange Online Search - Target Filter](/img/product_docs/activitymonitor/7.1/admin/search/query/target.webp)
+![Exchange Online Search - Target Filter](/images/activitymonitor/7.1/admin/search/query/target.webp)
 
 This section has the following filters:
 
@@ -101,7 +101,7 @@ This section has the following filters:
 
 The DLP category scopes the query by the DLP policy.
 
-![Exchange Online Search - DLP Filter](/img/product_docs/activitymonitor/7.1/admin/search/query/dlp.webp)
+![Exchange Online Search - DLP Filter](/images/activitymonitor/7.1/admin/search/query/dlp.webp)
 
 This section has the following filters:
 

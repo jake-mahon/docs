@@ -17,9 +17,9 @@ See the [Manual Ticket](/docs/identitymanager/saas/integration-guide/connectors/
 [Manual Ticket and CUD Resources](/docs/identitymanager/saas/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.md)
 topics for additional information.
 
-![Package: Ticket/identitymanager](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticket_v603.webp)
+![Package: Ticket/identitymanager](/images/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticket_v603.webp)
 
-![Package: Ticket/identitymanager And Create/Update/Delete resources](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticketcud_v603.webp)
+![Package: Ticket/identitymanager And Create/Update/Delete resources](/images/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticketcud_v603.webp)
 
 See the
 [Provision Manually](/docs/identitymanager/saas/user-guide/administrate/provisioning/manual-provisioning/index.md)

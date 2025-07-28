@@ -12,7 +12,7 @@ In Figure 54, you can see the same AppSet (WinZip 14 and later) used three times
 GPO. However, each AppSet item has Item-Level Targeting turned on and specific conditions associated
 with it.
 
-![policypak_application_settings_2_8](/img/product_docs/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_8.webp)
+![policypak_application_settings_2_8](/images/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_8.webp)
 
 Figure 54. WinZip 14 being used multiple times in the same GPO.
 
@@ -27,7 +27,7 @@ you've engaged. As a result, you might want to ensure that the delivery of those
 a particular order. As seen in Figure 55, Endpoint Policy Manager Application Settings Manager
 enables you to specify which AppSet is delivered in which order.
 
-![policypak_application_settings_2_9](/img/product_docs/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_9.webp)
+![policypak_application_settings_2_9](/images/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_9.webp)
 
 Figure 55. The order in which the Paks (in this scenario) are delivered.
 
@@ -42,7 +42,7 @@ To change the priority of a particular AppSet, simply right-click on it within t
 either "Enable priority mode (press Enter to exit)" or "Set priority," which are both shown in
 Figure 56.
 
-![policypak_application_settings_2_10](/img/product_docs/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_10.webp)
+![policypak_application_settings_2_10](/images/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_10.webp)
 
 Figure 56. By clicking "Enable priority mode (press Enter to exit)," as shown here, you can change
 the priority of a specific Pak.
@@ -54,7 +54,7 @@ edit.
 You can also select "Set priority," which will enable you to specify a numeric value, as shown in
 Figure 57.
 
-![policypak_application_settings_2_11](/img/product_docs/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_11.webp)
+![policypak_application_settings_2_11](/images/endpointpolicymanager/applicationsettings/extras/endpointpolicymanager_application_settings_2_11.webp)
 
 Figure 57. By clicking "Set priority," as shown here, you can change the priority of a specific Pak
 by setting the numeric value.

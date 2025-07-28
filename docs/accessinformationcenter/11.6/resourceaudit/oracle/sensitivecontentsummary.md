@@ -9,7 +9,7 @@ sidebar_position: 20
 The Sensitive Content Summary report at the **Oracle** node provides a count of databases where
 criteria matches were found in the targeted environment. This report includes a Details table.
 
-![Sensitive Content Summary report at the Oracle node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/oracle/sensitivecontentsummary.webp)
+![Sensitive Content Summary report at the Oracle node](/images/accessinformationcenter/11.6/resourceaudit/oracle/sensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

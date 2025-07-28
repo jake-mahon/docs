@@ -10,7 +10,7 @@ You can search activity in Microsoft Entra ID (Azure AD) that has been monitore
 File output. When you select **Azure AD / Entra ID** from the magnifying glass drop-down menu, a New
 Search tab opens with the applicable query filters.
 
-![Search Query - Entra ID](/img/product_docs/activitymonitor/8.0/admin/search/query/searchquery.webp)
+![Search Query - Entra ID](/images/activitymonitor/8.0/admin/search/query/searchquery.webp)
 
 The filters are separated into the following categories:
 
@@ -49,7 +49,7 @@ field. Field options vary based on the selected query filter:
 The General category scopes the query by the most common types of filters. The time frame filter
 must be configured for every search query.
 
-![Search Query - General Filter](/img/product_docs/activitymonitor/8.0/admin/search/query/generalfilters.webp)
+![Search Query - General Filter](/images/activitymonitor/8.0/admin/search/query/generalfilters.webp)
 
 This section has the following filters:
 
@@ -69,7 +69,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![Search Query - User](/img/product_docs/activitymonitor/8.0/admin/search/query/userfilters.webp)
+![Search Query - User](/images/activitymonitor/8.0/admin/search/query/userfilters.webp)
 
 This section has the following filters:
 
@@ -82,7 +82,7 @@ This section has the following filters:
 
 The Audit Events category scopes the query by the event type of the activity.
 
-![Search Query - Audit Events](/img/product_docs/activitymonitor/8.0/admin/search/query/auditeventsfilters.webp)
+![Search Query - Audit Events](/images/activitymonitor/8.0/admin/search/query/auditeventsfilters.webp)
 
 This section has the following filters:
 
@@ -103,7 +103,7 @@ This section has the following filters:
 
 The Target Resource category scopes the query by the target of the activity.
 
-![Search Query - Target Resource](/img/product_docs/activitymonitor/8.0/admin/search/query/targetresourcefilters.webp)
+![Search Query - Target Resource](/images/activitymonitor/8.0/admin/search/query/targetresourcefilters.webp)
 
 This section has the following filters:
 
@@ -116,7 +116,7 @@ This section has the following filters:
 
 The Sign-in Events category scopes the query by the sign-in event.
 
-![Search Query - Sign-in Events](/img/product_docs/activitymonitor/8.0/admin/search/query/signinevents.webp)
+![Search Query - Sign-in Events](/images/activitymonitor/8.0/admin/search/query/signinevents.webp)
 
 This section has the following filters:
 
@@ -127,7 +127,7 @@ This section has the following filters:
 
 The Location category scopes the query by the location of the user.
 
-![Search Query - Location](/img/product_docs/activitymonitor/8.0/admin/search/query/locationfilters.webp)
+![Search Query - Location](/images/activitymonitor/8.0/admin/search/query/locationfilters.webp)
 
 This section has the following filters:
 

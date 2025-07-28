@@ -8,7 +8,7 @@ sidebar_position: 10
 
 Use the Category page to identify the type of information to retrieve in this query.
 
-![File Search Wizard Category page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/file/category.webp)
+![File Search Wizard Category page](/images/accessanalyzer/11.6/admin/datacollector/file/category.webp)
 
 The categories are:
 

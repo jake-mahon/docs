@@ -27,12 +27,12 @@ The following options are required to view "inherit" and "overwrite" icons.
 The associated form field permissions for the marked record can be opened via the ribbon using the
 drop-down menu under "Permissions".
 
-![form field permissions](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/form_field_permissions_1-en.webp)
+![form field permissions](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/form_field_permissions_1-en.webp)
 
 The window that opens allows you to select the relevant form field for which you want to grant
 permissions. The following example focuses on the password field.
 
-![permissions of password field](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/form_field_permissions_2-en.webp)
+![permissions of password field](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/form_field_permissions_2-en.webp)
 
 The permissions configured here now exclusively apply to the password field. The other form fields
 remain unaffected.

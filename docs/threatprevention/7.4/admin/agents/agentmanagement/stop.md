@@ -12,7 +12,7 @@ Follow the steps to stop the Agent on a server.
 
 **Step 1 –** Click Agents in the left pane to launch the Agents interface.
 
-![Enter Credentials window](/img/product_docs/threatprevention/7.4/install/upgrade/entercredentials.webp)
+![Enter Credentials window](/images/threatprevention/7.4/install/upgrade/entercredentials.webp)
 
 **Step 2 –** Right-click a server/Agent and select **Stop Agent** on the menu.
 

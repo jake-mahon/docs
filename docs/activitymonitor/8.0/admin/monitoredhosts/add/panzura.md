@@ -44,17 +44,17 @@ Follow the steps to add a Panzura host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Choose Agent](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent](/images/activitymonitor/8.0/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the **Agent** to monitor the storage device. Click
 **Next**.
 
-![Add Host](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/addhostpanzura.webp)
+![Add Host](/images/activitymonitor/8.0/admin/monitoredhosts/add/addhostpanzura.webp)
 
 **Step 3 –** On the Add Host page, select the **Panzura** radio button and enter the **Panzura filer
 name**. Click **Next**.
 
-![Panzura Properties](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/panzuraoptions.webp)
+![Panzura Properties](/images/activitymonitor/8.0/admin/monitoredhosts/add/panzuraoptions.webp)
 
 **Step 4 –** On the Panzura Options page, enter the **Username**, **Password**, and select the
 **Protocol** to be used by the Panzura host.
@@ -69,7 +69,7 @@ name**. Click **Next**.
 
 Click **Next**.
 
-![Customize Certifiacte Verification](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)
+![Customize Certifiacte Verification](/images/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)
 
 - HTTPS Options – Opens the Trusted server certificate window to customize the certificate
   verification during a TLS session
@@ -82,7 +82,7 @@ Click **Next**.
 
     Click **Connect** to connect to the Panzura device. Click **Next**.
 
-![Configure Operations](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/panzuraconfigureoperations.webp)
+![Configure Operations](/images/activitymonitor/8.0/admin/monitoredhosts/add/panzuraconfigureoperations.webp)
 
 **Step 5 –** On the Configure Operations page, select the **File Operations** and **Directory
 Operations** to be monitored.
@@ -93,7 +93,7 @@ Operations** to be monitored.
 
 Click **Next**.
 
-![configurebasicoptionspanzura](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/configurebasicoptionspanzura.webp)
+![configurebasicoptionspanzura](/images/activitymonitor/8.0/admin/monitoredhosts/add/configurebasicoptionspanzura.webp)
 
 **Step 6 –** On the Configure Basic Options page, choose which of the following settings to enable:
 
@@ -117,7 +117,7 @@ Click **Next**.
 
 Click **Next**.
 
-![wheretologgeneric](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/wheretologgeneric.webp)
+![wheretologgeneric](/images/activitymonitor/8.0/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
@@ -127,7 +127,7 @@ An option must be selected before moving to the next step.
 :::
 
 
-![fileoutput](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/fileoutput.webp)
+![fileoutput](/images/activitymonitor/8.0/admin/monitoredhosts/add/fileoutput.webp)
 
 **Step 8 –** If **Log File)** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -154,7 +154,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![syslogoutput](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/syslogoutput.webp)
+![syslogoutput](/images/activitymonitor/8.0/admin/monitoredhosts/add/syslogoutput.webp)
 
 **Step 9 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -186,7 +186,7 @@ Output page can be configured.
 
 Click **Finish**.
 
-![activitymonitorpanzura](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/activitymonitorpanzura.webp)
+![activitymonitorpanzura](/images/activitymonitor/8.0/admin/monitoredhosts/add/activitymonitorpanzura.webp)
 
 The added Panzura host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output/output.md) topic

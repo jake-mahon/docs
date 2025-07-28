@@ -19,7 +19,7 @@ To schedule the saved search to run:
 1. Open the **Email** tab of the saved search.
 2. Open the **Schedule** tab and schedule the saved search to run.
 
-    ![saved_search_timeout1](/img/product_docs/platgovnetsuite/troubleshooting/saved_search_timeout1.webp)
+    ![saved_search_timeout1](/images/platgovnetsuite/troubleshooting/saved_search_timeout1.webp)
 
 ## Send Results
 
@@ -32,12 +32,12 @@ To send the results to a recipient:
 - **Recipient**: add their name.
 - **Check the boxes**: Send emails according to schedule and summarize scheduled emails.
 
-    ![saved_search_timeout2](/img/product_docs/platgovnetsuite/troubleshooting/saved_search_timeout2.webp)
+    ![saved_search_timeout2](/images/platgovnetsuite/troubleshooting/saved_search_timeout2.webp)
 
 4. Click on **Customize Message** tab.
 5. Select **Send as CSV**.
 
-    ![saved_search_timeout3](/img/product_docs/platgovnetsuite/troubleshooting/saved_search_timeout3.webp)
+    ![saved_search_timeout3](/images/platgovnetsuite/troubleshooting/saved_search_timeout3.webp)
 
 6. Open **Schedule** tab.
 7. Schedule the saved search.
@@ -49,6 +49,6 @@ To send the results to a recipient:
 2. Locate your saved search on the list.
 3. Click **Persist (CSV)**.
 
-    ![saved_search_timeout4](/img/product_docs/platgovnetsuite/troubleshooting/saved_search_timeout4.webp)
+    ![saved_search_timeout4](/images/platgovnetsuite/troubleshooting/saved_search_timeout4.webp)
 
 The search is executed in the background and the CSV file saved in the NetSuite File Cabinet.

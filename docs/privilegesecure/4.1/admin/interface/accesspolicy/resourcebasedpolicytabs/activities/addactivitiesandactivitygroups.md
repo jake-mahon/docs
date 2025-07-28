@@ -10,7 +10,7 @@ The Add Activities and Activity Groups window provides a list of Activities that
 Activities are created in the
 [Activities Page](/docs/privilegesecure/4.1/admin/interface/activities/activities.md).
 
-![Add Activities and Activity Groups Window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
+![Add Activities and Activity Groups Window](/images/privilegesecure/4.1/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
 
 The window has the following features:
 

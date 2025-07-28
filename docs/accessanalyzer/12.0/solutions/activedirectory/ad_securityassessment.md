@@ -11,7 +11,7 @@ order to proactively identify critical security configurations that leave Active
 vulnerable to attack. The result are reports that provide a listing of findings by severity and
 category with corresponding details that can be used to prioritize and remediate security issues.
 
-![AD Security Assessment Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/securityassessmentjobstree.webp)
+![AD Security Assessment Job](/images/accessanalyzer/12.0/solutions/activedirectory/securityassessmentjobstree.webp)
 
 ## Recommended Configurations for the AD_SecurityAssessment Job
 
@@ -88,7 +88,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/securityassessmentanalysis.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/activedirectory/securityassessmentanalysis.webp)
 
 The following non-configurable analysis task is selected by default:
 
@@ -101,4 +101,3 @@ following preconfigured report:
 | Report                 | Description                                                                                                                   | Default Tags       | Report Elements                                                                                                                                                                                                                                  |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | AD Security Assessment | This report identifies security risks within a targeted Active Directory environment based on results of previously run jobs. | GDPR SOX PCI HIPAA | This report is comprised of four elements: <ul><li>Table – Provides Scope of Audit on domains</li><li>Pie Chart – Displays Findings by Severity</li><li>Table – Provides Findings by Category</li><li>Table – Provides Details on Risk</li></ul> |
-

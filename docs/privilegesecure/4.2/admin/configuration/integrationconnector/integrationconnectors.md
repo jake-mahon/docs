@@ -9,7 +9,7 @@ sidebar_position: 50
 The Integration Connectors page is accessible from the Navigation pane under Configuration. It shows
 the configured integration settings with other products.
 
-![Integration Connectors Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/integrationconnectorspage.webp)
+![Integration Connectors Page](/images/privilegesecure/4.2/accessmanagement/admin/configuration/page/integrationconnectorspage.webp)
 
 The pane on the left side of the page displays a list of the configured integration connectors. This
 pane has the following features:

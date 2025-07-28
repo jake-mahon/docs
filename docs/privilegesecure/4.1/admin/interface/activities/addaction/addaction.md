@@ -22,7 +22,7 @@ part. Follow the instructions to add actions to the activity.
 
 These actions may be paired with a corresponding Pre-Session action.
 
-![addactionwindow](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/activities/addactionwindow.webp)
+![addactionwindow](/images/privilegesecure/4.1/accessmanagement/admin/policy/window/activities/addactionwindow.webp)
 
 **Step 4 –** Complete the following fields:
 

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/usersroles/sqljobgroup26.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/usersroles/sqljobgroup26.webp)
 
 The default analysis tasks are:
 
@@ -41,4 +41,3 @@ the following pre-configured report.
 | Report          | Description                                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                                                                  |
 | --------------- | ------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Role Membership | This report shows details on the roles and role membership in the audited SQL environment. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays top instances by server and database role membership</li><li>Table – Provides details on instances by server and database role membership</li><li>Table – Provides details on role membership details</li></ul> |
-

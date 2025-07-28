@@ -12,7 +12,7 @@ The following actions target an Entra ID application.
 
 Manages an Entra ID group's membership by adding or removing an object from a group.
 
-![entraidmembership](/img/product_docs/threatmanager/3.0/administration/playbooks/action/entraidmembership.webp)
+![entraidmembership](/images/threatmanager/3.0/administration/playbooks/action/entraidmembership.webp)
 
 - Users – Select the users for whom to alter group membership. If not specified, the user who
   triggered the threat will be used.
@@ -34,7 +34,7 @@ Manages an Entra ID group's membership by adding or removing an object from a gr
 
 Flag a user as confirmed compromised within your Entra ID tenant.
 
-![confirmcompromised](/img/product_docs/threatmanager/3.0/administration/playbooks/action/confirmcompromised.webp)
+![confirmcompromised](/images/threatmanager/3.0/administration/playbooks/action/confirmcompromised.webp)
 
 - Users – The users to flag as confirmed compromised. If not specified, the user who triggered the
   threat will be used.
@@ -53,7 +53,7 @@ Flag a user as confirmed compromised within your Entra ID tenant.
 
 This actions disables a user in your Entra ID tenant.
 
-![disableuser](/img/product_docs/threatmanager/3.0/administration/playbooks/action/disableuser.webp)
+![disableuser](/images/threatmanager/3.0/administration/playbooks/action/disableuser.webp)
 
 - Users –The users to disable. If not specified, the user who triggered the threat will be used
 
@@ -71,7 +71,7 @@ This actions disables a user in your Entra ID tenant.
 Resets an Entra ID user's password to a specified password. If no password is specified, resets a
 user's password to a random group of letters, numbers, and special characters.
 
-![entraidresetpassword](/img/product_docs/threatmanager/3.0/administration/playbooks/action/entraidresetpassword.webp)
+![entraidresetpassword](/images/threatmanager/3.0/administration/playbooks/action/entraidresetpassword.webp)
 
 - New Password – Password will be reset to this value. If not specified, generates a random
   password.

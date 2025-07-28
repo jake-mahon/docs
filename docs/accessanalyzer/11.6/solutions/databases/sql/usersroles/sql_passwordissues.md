@@ -19,7 +19,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup24.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup24.webp)
 
 - Collect Weak Passwords – Locate the dictionary file containing the weak passwords and import the
   passwords
@@ -38,7 +38,7 @@ deselected unless otherwise specified.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
 
 The default analysis tasks are:
 
@@ -67,4 +67,3 @@ produces the following pre-configured reports.
 | ---------------- | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Reused Passwords | This report highlights instances where a password hash is being reused. | None         | This report is comprised of one element: <ul><li>Table – Provides details on reused password details</li></ul>                                                                                                                                   |
 | Weak Passwords   | This report highlights SQL logins that have a weak password.            | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays weak passwords by instance</li><li>Table – Provides details on weak passwords by instance data</li><li>Table – Provides details on logins with weak passwords</li></ul> |
-

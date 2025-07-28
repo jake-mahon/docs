@@ -14,17 +14,17 @@ To establish the connection:
 **Step 1 –** Open a Windows PowerShell. Some cmdlets require administrative permissions. You can use
 the **Run as Administrator** option.
 
-**Step 2 –** Import the PPE cmdlets module:  
+**Step 2 –** Import the PPE cmdlets module:
 **Import-Module "C:\Program Files\Password Policy Enforcer\PS\PPEConf.PowerShell.dll"**
 
-**Step 3 –** Connect to your domain:  
+**Step 3 –** Connect to your domain:
 **Connect-PPE -d "_domain_"** where _domain_ is the full name of your domain controller.
 **NT-DC03.NWXTECH.COM** in this example.
 
 **Get-PPEHelp** with no parameters, displays a list of available cmdlets. Use the PowerShell
 **get-help** _Cmdlet_ for information about the cmdlet.
 
-![PPE cmdlets Connect](/img/product_docs/passwordpolicyenforcer/11.0/administration/cmdletconnect.webp)
+![PPE cmdlets Connect](/images/passwordpolicyenforcer/11.0/administration/cmdletconnect.webp)
 
 Click a PPE cmdlet name for details.
 

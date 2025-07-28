@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_UserPolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/policies/userpoliciesanalysis.webp)
+![Analysis Tasks for the AWS_UserPolicies Job](/images/accessanalyzer/12.0/solutions/aws/policies/userpoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ the following preconfigured report:
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Duplicate Policy Assignments | This report highlights policies that have been both assigned directly and inherited from a group to a user identity. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top accounts by assigned managed policies</li><li>Table – Provides details on managed policy assignments</li></ul>                                                                                    |
 | Managed Policy Assignments   | This report details managed policy assignments in the AWS Organization.                                              | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays duplicate policy assignment summary by account</li><li>Table – Shows duplicate policy assignment summary by account</li><li>Table – Provides details on duplicate policy assignment summary</li></ul> |
-

@@ -54,12 +54,12 @@ Administration Console.
 **Step 1 –** Navigate to the **Access** tab, and select **Membership & Roles** for the System Access
 Zone.
 
-![Groups tab](/img/product_docs/accessanalyzer/11.6/config/dellpowerscale/groupstab.webp)
+![Groups tab](/images/accessanalyzer/11.6/config/dellpowerscale/groupstab.webp)
 
 **Step 2 –** On the **Groups** tab, set the Providers to **LOCAL: System**. Then select **View /
 Edit** for the Administrators group. The View Group Details window opens.
 
-![Edit Group window](/img/product_docs/accessanalyzer/11.6/config/dellpowerscale/editgroup.webp)
+![Edit Group window](/images/accessanalyzer/11.6/config/dellpowerscale/editgroup.webp)
 
 **Step 3 –** Click **Edit Group** and the Edit Group window opens. Click **Add Members**, and enter
 the User Name and Provider in the Select a User window. Click **Select**, and then click **Save
@@ -76,12 +76,12 @@ Administration Console.
 
 **Step 1 –** Navigate to the **Access** tab > **Membership & Roles** for the System Access Zone.
 
-![One FS Dashboard](/img/product_docs/accessanalyzer/11.6/config/dellpowerscale/rolestab.webp)
+![One FS Dashboard](/images/accessanalyzer/11.6/config/dellpowerscale/rolestab.webp)
 
 **Step 2 –** On the Roles tab, select **View / Edit** for the BackupAdmin role. The View Role
 Details window opens.
 
-![One FS Role Details Window](/img/product_docs/accessanalyzer/11.6/config/dellpowerscale/viewroledetails.webp)
+![One FS Role Details Window](/images/accessanalyzer/11.6/config/dellpowerscale/viewroledetails.webp)
 
 **Step 3 –** Click **Edit** role and the Edit role details window opens.
 

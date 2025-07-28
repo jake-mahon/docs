@@ -12,11 +12,11 @@ is occurring.
 
 A manual sync with Cloud Client 23.5 might fail to operate and present errors like this:
 
-![887_1_image-20230525200517-1_950x212](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_1_image-20230525200517-1_950x212.webp)
+![887_1_image-20230525200517-1_950x212](/images/endpointpolicymanager/troubleshooting/cloud/887_1_image-20230525200517-1_950x212.webp)
 
 A manual PPCLOUD /sync pre-23.5 might look like this on a failed manual sync attempt:
 
-![887_2_image_950x371](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_2_image_950x371.webp)
+![887_2_image_950x371](/images/endpointpolicymanager/troubleshooting/cloud/887_2_image_950x371.webp)
 
 We are actively working on the issues as they come up.
 
@@ -47,30 +47,30 @@ log.
 :::
 
 
-![887_3_image-20230525200517-2](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_3_image-20230525200517-2.webp)
+![887_3_image-20230525200517-2](/images/endpointpolicymanager/troubleshooting/cloud/887_3_image-20230525200517-2.webp)
 
 Here's an example of a machine when syncs happen in the background, across a few log events (from
 earliest to latest event on an automatic, background sync.)
 
-![887_4_image-20230525200517-3_950x169](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_4_image-20230525200517-3_950x169.webp)
+![887_4_image-20230525200517-3_950x169](/images/endpointpolicymanager/troubleshooting/cloud/887_4_image-20230525200517-3_950x169.webp)
 
 To look at them in order we have…
 
-![887_5_image-20230525200517-4_950x172](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_5_image-20230525200517-4_950x172.webp)
+![887_5_image-20230525200517-4_950x172](/images/endpointpolicymanager/troubleshooting/cloud/887_5_image-20230525200517-4_950x172.webp)
 
-![887_6_image-20230525200517-5_950x161](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_6_image-20230525200517-5_950x161.webp)
+![887_6_image-20230525200517-5_950x161](/images/endpointpolicymanager/troubleshooting/cloud/887_6_image-20230525200517-5_950x161.webp)
 
-![887_7_image-20230525200517-6_950x184](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_7_image-20230525200517-6_950x184.webp)
+![887_7_image-20230525200517-6_950x184](/images/endpointpolicymanager/troubleshooting/cloud/887_7_image-20230525200517-6_950x184.webp)
 
-![887_8_image-20230525200517-7_950x179](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_8_image-20230525200517-7_950x179.webp)
+![887_8_image-20230525200517-7_950x179](/images/endpointpolicymanager/troubleshooting/cloud/887_8_image-20230525200517-7_950x179.webp)
 
-![887_9_image-20230525200517-8_950x217](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_9_image-20230525200517-8_950x217.webp)
+![887_9_image-20230525200517-8_950x217](/images/endpointpolicymanager/troubleshooting/cloud/887_9_image-20230525200517-8_950x217.webp)
 
-![887_10_image-20230525200517-9_950x199](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_10_image-20230525200517-9_950x199.webp)
+![887_10_image-20230525200517-9_950x199](/images/endpointpolicymanager/troubleshooting/cloud/887_10_image-20230525200517-9_950x199.webp)
 
-![887_11_image-20230525200517-10_950x226](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_11_image-20230525200517-10_950x226.webp)
+![887_11_image-20230525200517-10_950x226](/images/endpointpolicymanager/troubleshooting/cloud/887_11_image-20230525200517-10_950x226.webp)
 
-![887_12_image-20230525200517-11_950x267](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_12_image-20230525200517-11_950x267.webp)
+![887_12_image-20230525200517-11_950x267](/images/endpointpolicymanager/troubleshooting/cloud/887_12_image-20230525200517-11_950x267.webp)
 
 :::note
 Only when you see the message "...has been proceeded successfully" is an indication of a
@@ -84,11 +84,11 @@ There is less detail in the event logs in previous versions.
 
 On Pre-23.5 machines, you can see similar events like this for success.
 
-![887_13_image-20230525200517-12_950x586](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_13_image-20230525200517-12_950x586.webp)
+![887_13_image-20230525200517-12_950x586](/images/endpointpolicymanager/troubleshooting/cloud/887_13_image-20230525200517-12_950x586.webp)
 
 And like this for failure during a background sync.
 
-![887_14_image-20230525200517-13_950x437](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_14_image-20230525200517-13_950x437.webp)
+![887_14_image-20230525200517-13_950x437](/images/endpointpolicymanager/troubleshooting/cloud/887_14_image-20230525200517-13_950x437.webp)
 
 # Final Thoughts: PPCLOUD /status
 
@@ -96,4 +96,4 @@ In all cases, using Endpoint Policy Manager CLOUD /status will NOT perform a syn
 the final result of policies upon the machine. This is helpful so you can know what the machine's
 current state actually is. Example with some text removed to save space…
 
-![887_15_image-20230525200517-14_950x1022](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/887_15_image-20230525200517-14_950x1022.webp)
+![887_15_image-20230525200517-14_950x1022](/images/endpointpolicymanager/troubleshooting/cloud/887_15_image-20230525200517-14_950x1022.webp)

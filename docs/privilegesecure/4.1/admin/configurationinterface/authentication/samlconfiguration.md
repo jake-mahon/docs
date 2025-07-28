@@ -11,7 +11,7 @@ Configuration >
 [Authentication Page](/docs/privilegesecure/4.1/admin/configurationinterface/authentication/authentication.md)
 for an SAML Authentication Connector Type.
 
-![configureclient](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/configureclient.webp)
+![configureclient](/images/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/configureclient.webp)
 
 It contains four pages:
 
@@ -62,7 +62,7 @@ page in the browser. Do NOT sign in.
 
 **Step 6 –** If the Sign In page displayed as expected, click Next.
 
-![SAML Configuration wizard, Test Login page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigtestlogin.webp)
+![SAML Configuration wizard, Test Login page](/images/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigtestlogin.webp)
 
 When the SAML provider authenticates a user login, it will optionally sign that authentication using
 a certificate (available from the SAML provider). Privilege Secure can be configured to validate the
@@ -81,7 +81,7 @@ authentication using the certificate.
 **Step 10 –** If the sign in was successful, the Provider User Name/Id will display. This is passed
 to the UserTokenController so that the user information can be extracted. Click Next.
 
-![SAML Configuration Wizard, Retrieved Data](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigidmapping.webp)
+![SAML Configuration Wizard, Retrieved Data](/images/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigidmapping.webp)
 
 SpPAM will use the access token to retrieve user data from the SAML provider. The SAML provider
 requires a User Id Field for sign in. It is necessary to specify which field in Active Directory
@@ -117,7 +117,7 @@ from the provider and will vary:
 
 **Step 11 –** Select a field to use for the User Id Field and click Select.
 
-![SAML Configuration wizard, Map Id](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigidmapping2.webp)
+![SAML Configuration wizard, Map Id](/images/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigidmapping2.webp)
 
 **Step 12 –** The selected Source and User ID fields from the previous table are shown. Now map the
 applicable AD field to the User Id Field. This is the value that will be used to sign in to the MFA
@@ -126,7 +126,7 @@ Field.
 
 **Step 13 –** Click **Next** to proceed.
 
-![SAML Configuration wizard, Test Logout page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigtestlogout.webp)
+![SAML Configuration wizard, Test Logout page](/images/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigtestlogout.webp)
 
 **Step 14 –** On the Test Logout page, enter the following information:
 
@@ -159,7 +159,7 @@ and logs out of the SAML Provider.
 **Step 17 –** If the logout was successful, click Finish. A window will display the updated
 configuration settings.
 
-![SAML Configuration updating connector settings](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigupdateconnector.webp)
+![SAML Configuration updating connector settings](/images/privilegesecure/4.1/accessmanagement/admin/configuration/wizard/samlconfigupdateconnector.webp)
 
 **Step 18 –** Click Okay to close the wizard and click **Save** on the Authentication page to accept
 the changes.

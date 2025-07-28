@@ -23,7 +23,7 @@ possible to additionally address the specific requirements of individual users. 
 functionalities, on the other hand, should be available to all users. In order to do this, Netwrix
 Password Secure offers a three-step concept.
 
-![installation_with_parameters_111](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_111.webp)
+![installation_with_parameters_111](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_111.webp)
 
 When it comes to user rights, the focus is always on the user. The user can receive user rights in
 one of the following three ways:
@@ -47,14 +47,14 @@ are assigned via roles and not via organisational units!
 NOTE: Only those user rights that the current user possesses themselves can be issued. However, all
 rights can be removed.
 
-![installation_with_parameters_112](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
+![installation_with_parameters_112](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
 
 ## Configuring the security level
 
 The **security level** is an essential element that is also specified in the user rights. This is
 the basis for the configuration of the [User settings](/docs/passwordsecure/9.2/configuration/advancedview/mainmenufc/usersettings/user_settings.md).
 
-![installation_with_parameters_113](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_113.webp)
+![installation_with_parameters_113](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_113.webp)
 
 ## Searching within user rights
 
@@ -62,7 +62,7 @@ Due to the large number of possible configurations, the search function helps yo
 the desired configuration. This process is based as usual on the List
 [Search](/docs/passwordsecure/9.2/configuration/advancedview/operationandsetup/search.md).
 
-![installation_with_parameters_114](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_114.webp)
+![installation_with_parameters_114](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_114.webp)
 
 #### Database administrator
 

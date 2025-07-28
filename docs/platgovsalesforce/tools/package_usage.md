@@ -29,12 +29,12 @@ To open the Package Usage tool:
 
 1. Select **Tools** > **User Activity** from the Netwrix Dashboard page.
 
-    ![User Activity tool](/img/product_docs/platgovsalesforce/tools/user_activity.webp)
+    ![User Activity tool](/images/platgovsalesforce/tools/user_activity.webp)
 
 2. Click the arrow in the left margin to expand the menu pane.
 3. Click **Package Usage Tool** in the menu.
 
-    ![Package Usage tool](/img/product_docs/platgovsalesforce/tools/package_usage.webp)
+    ![Package Usage tool](/images/platgovsalesforce/tools/package_usage.webp)
 
 4. Click **Run Scanner** to ensure you have the latest data.
 

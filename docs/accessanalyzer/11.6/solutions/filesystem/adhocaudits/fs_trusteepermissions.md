@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/adhocaudits/trusteepermissionsanalysis.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/filesystem/adhocaudits/trusteepermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -39,4 +39,3 @@ produces the following pre-configured report:
 | Report                    | Description                                                                                             | Default Tags | Report Elements                                                                                                                                              |
 | ------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Trustee Permissions Audit | This report provides an overview of the access sprawl across the environment for the select trustee(s). | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays summary of trustees</li><li>Table – Provides details on trustee permissions</li></ul> |
-

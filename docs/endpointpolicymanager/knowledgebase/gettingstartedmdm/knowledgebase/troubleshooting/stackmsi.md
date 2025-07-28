@@ -22,7 +22,7 @@ When you add items to your MSI, you can right-click an item to "Enable Priority 
 item up or down (with the arrow keys) and click Enter to change the order. Items are then written in
 the order as seen here.
 
-![749_1_1111_691x581](/img/product_docs/endpointpolicymanager/mdm/749_1_1111_691x581.webp)
+![749_1_1111_691x581](/images/endpointpolicymanager/mdm/749_1_1111_691x581.webp)
 
 Way #2: Managing the order of the execution of the MSIs themselves
 
@@ -32,7 +32,7 @@ one MSI's contents are processed BEFORE or AFTER another MSI's contents.
 Before you write the MSI you can use the "Policy Layer" field as seen here. The default value
 is 50000.
 
-![749_2_222](/img/product_docs/endpointpolicymanager/mdm/749_2_222.webp)
+![749_2_222](/images/endpointpolicymanager/mdm/749_2_222.webp)
 
 The idea is that if you have multiple MSIs, they are unpacked and then processed alphabetically.
 This value is pre-pended to all items in the XML.
@@ -48,4 +48,4 @@ In this example, we have two MSIs.. one with Policy Layer ID of 50000 and one wi
 As you can see, LOWER numbered Policy Layer items will process before HIGHER numbered Policy Layer
 items.
 
-![749_3_image009_950x433](/img/product_docs/endpointpolicymanager/mdm/749_3_image009_950x433.webp)
+![749_3_image009_950x433](/images/endpointpolicymanager/mdm/749_3_image009_950x433.webp)

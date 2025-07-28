@@ -20,7 +20,7 @@ preconfigure for this job.
 :::
 
 
-![Analysis Tasks for the AD_PasswordStatus Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/passwordstatusanalysis.webp)
+![Analysis Tasks for the AD_PasswordStatus Job](/images/accessanalyzer/12.0/solutions/activedirectory/users/passwordstatusanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report:
 | Report          | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                                                      |
 | --------------- | ---------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Password Status | This report identifies the password status of all users and highlights potential issues. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays password issues by domain</li><li>Table – Provides details on users</li><li>Provides details on password issues by domain</li></ul> |
-

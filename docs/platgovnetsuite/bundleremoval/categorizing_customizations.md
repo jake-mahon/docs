@@ -58,7 +58,7 @@ summary criteria for this type of search.
 
 1. Export as a CSV file.
 
-    ![Export to a CSV file](/img/product_docs/platgovnetsuite/bundle_removal/export_csv.webp)
+    ![Export to a CSV file](/images/platgovnetsuite/bundle_removal/export_csv.webp)
 
 2. Open the CSV file and delete the **Overall Total row**.
 3. **Save** the CSV.

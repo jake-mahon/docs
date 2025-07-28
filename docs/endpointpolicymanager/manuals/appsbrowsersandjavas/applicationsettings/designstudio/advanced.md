@@ -17,7 +17,7 @@ values. Let's explore all these areas.
 By default, all elements show their basic view. You can see at a glance the most important items
 that the Configuration Wizard has configured, as shown in Figure 142.
 
-![advanced_appset_design_and](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and.webp)
+![advanced_appset_design_and](/images/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and.webp)
 
 Figure 142. The basic properties of an element.
 
@@ -29,7 +29,7 @@ the "…" (not shown), and then select the text on the page that most closely re
 box, spinbox, etc. is trying to configure. In Figure 143, the radio button group is being described
 by the text "Associated image viewer."
 
-![advanced_appset_design_and_1](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_1.webp)
+![advanced_appset_design_and_1](/images/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_1.webp)
 
 Figure 143. Example of an element's label link.
 
@@ -38,7 +38,7 @@ Figure 143. Example of an element's label link.
 You can also click the "Advanced" button within Properties to see more detailed information about an
 element, as shown in Figure 144.>
 
-![advanced_appset_design_and_2](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_2.webp)
+![advanced_appset_design_and_2](/images/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_2.webp)
 
 Figure 144. The "Advanced" button in the Properties dialog.
 
@@ -64,7 +64,7 @@ checkbox is checked. In Figure 145, you can see the following:
 It's possible to see (or set) second and third actions when an element changes. You can dictate
 values within any of the supported datatypes, as shown in Figure 145.
 
-![advanced_appset_design_and_3](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_3.webp)
+![advanced_appset_design_and_3](/images/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_3.webp)
 
 Figure 145. Examples of second actions.
 
@@ -75,20 +75,20 @@ After selecting the data type (Registry, INI, XML, etc.) you are then prompted f
 property (or registry key and registry value), which in Figure 146 are shown as "[MainFrame]" and
 "AdvertiseIndex."
 
-![advanced_appset_design_and_4](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_4.webp)
+![advanced_appset_design_and_4](/images/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_4.webp)
 
 Figure 146. Selecting the section and property.
 
 Once the value is manually selected, you are able to place the value automatically within the On or
 Off values (or both or neither), as shown in Figure 147.
 
-![advanced_appset_design_and_5](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_5.webp)
+![advanced_appset_design_and_5](/images/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_5.webp)
 
 Figure 147. Placing the value within the "On" or "Off" fields.
 
 After placing the items, you can further specify the On and Off values within the action itself, as
 shown in Figure 148. Checkboxes are only allowed three actions.
 
-![advanced_appset_design_and_6](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_6.webp)
+![advanced_appset_design_and_6](/images/endpointpolicymanager/applicationsettings/designstudio/advanced_appset_design_and_6.webp)
 
 Figure 148. Specifying "On" and "Off" values within the action.

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="static/img/branding/demo.webp" alt="Description of image">
+  <img src="static/branding/demo.webp" alt="Description of image">
 </div>
 
 # Netwrix Product Documentation

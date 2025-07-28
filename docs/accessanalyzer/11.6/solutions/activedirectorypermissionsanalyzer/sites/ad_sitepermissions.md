@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_SitePermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/sites/sitepermissionsanalysis.webp)
+![Analysis Tasks for the AD_SitePermissions Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/sites/sitepermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report           | Description                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                         |
 | ---------------- | ------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Site Permissions | This report highlights instances where permissions are applied to Active Directory Site objects. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays permissions by site</li><li>Pie chart – Provides details on enterprise site permissions by type</li><li>Table – Provides details on site permissions</li></ul> |
-

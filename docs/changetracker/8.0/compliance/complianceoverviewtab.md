@@ -12,7 +12,7 @@ hardened build standard – is it being maintained or improved or in decline?
 Device compliance is displayed in the **Compliance Report** – all devices assigned the report
 selected will be displayed.
 
-![ComplianceOverviewTab](/img/product_docs/changetracker/8.0/admin/tabs/complianceoverviewtab.webp)
+![ComplianceOverviewTab](/images/changetracker/8.0/admin/tabs/complianceoverviewtab.webp)
 
 - Device/Time Filters – Content is controlled by your Device/Group/Time filters.
 - **Dashboardlets per policy/grouping** – For each group and report, an additional Dashboardlet will

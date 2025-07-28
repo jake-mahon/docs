@@ -27,7 +27,7 @@ Follow the steps tTo create a new event publishing pool.:
 
 **Step 3 –** Specify CEE's address or addresses.
 
-![Create Event Publishing Pool](/img/product_docs/activitymonitor/7.1/config/dellpowerstore/eventpublishingpool.webp)
+![Create Event Publishing Pool](/images/activitymonitor/7.1/config/dellpowerstore/eventpublishingpool.webp)
 
 - For SMB shares monitoring (CIFS) enable following Post-Events: –
 
@@ -69,17 +69,17 @@ Follow the steps tTo create a an event publisher.:
 
 **Step 1 –** Select **Storage** > **NAS Servers** > **NAS Settings** > **Events Publishers**.
 
-![Events Publishing](/img/product_docs/activitymonitor/7.1/config/dellpowerstore/nasservers.webp)
+![Events Publishing](/images/activitymonitor/7.1/config/dellpowerstore/nasservers.webp)
 
 **Step 2 –** Click **Create**.
 
-![publishingpools](/img/product_docs/activitymonitor/7.1/config/dellpowerstore/publishingpools.webp)
+![publishingpools](/images/activitymonitor/7.1/config/dellpowerstore/publishingpools.webp)
 
 **Step 3 –** Specify the name of the publisher.
 
 **Step 4 –** Select the pool and click **Next**.
 
-![configeventpublisher](/img/product_docs/activitymonitor/7.1/config/dellpowerstore/configeventpublisher.webp)
+![configeventpublisher](/images/activitymonitor/7.1/config/dellpowerstore/configeventpublisher.webp)
 
 **Step 5 –** Specify Pre-Events Failure Policy as "Ignore - Consider pre-event acknowledged when
 CEPA servers are offline".
@@ -97,13 +97,13 @@ Follow the steps tTo enable or disable event publishing for the NAS Server.:
 
 **Step 1 –** Select **Storage** > **NAS Servers**.
 
-![NAS Servers](/img/product_docs/activitymonitor/7.1/config/dellpowerstore/nasserver.webp)
+![NAS Servers](/images/activitymonitor/7.1/config/dellpowerstore/nasserver.webp)
 
 **Step 2 –** Go to **[NAS SERVER]** > **Security & Events** > **Events Publishing**.
 
 **Step 3 –** Enable and select the publisher.
 
-![nasserver1](/img/product_docs/activitymonitor/7.1/config/dellpowerstore/nasserver1.webp)
+![nasserver1](/images/activitymonitor/7.1/config/dellpowerstore/nasserver1.webp)
 
 **Step 4 –** You can enable the event publishing for all file systems on the NAS by checking the box
 and selecting protocols.
@@ -118,7 +118,7 @@ the following:
 **Step 1 –** Select **Storage** > **File Systems** > **[FILE SYSTEM]** > **Security & Events** >
 **Events Publishing**.
 
-![Event Publising Option for File System](/img/product_docs/activitymonitor/7.1/config/dellpowerstore/fseventpublishing.webp)
+![Event Publising Option for File System](/images/activitymonitor/7.1/config/dellpowerstore/fseventpublishing.webp)
 
 **Step 2 –** Enable and select protocols needed.
 

@@ -17,7 +17,7 @@ the left sidebar menu, select **Configuration Profiles**.
 **Step 3 –** To create a new configuration profile, in the upper right, above the table with
 available configuration profiles, click **+New**.
 
-![Creating a New configuration Profile](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/configurationprofile.webp)
+![Creating a New configuration Profile](/images/endpointprotector/5.9.4/install/agent/jamf/configurationprofile.webp)
 
 On the New macOS Configuration Profile section, you can manage profile settings and select the
 devices and users to which you want to deploy the profile.
@@ -33,7 +33,7 @@ On the default General section, enter the following information:
 
 You can continue with the default settings for the category, level, and distribution method fields.
 
-![Completing information on the general section](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/generalsettings.webp)
+![Completing information on the general section](/images/endpointprotector/5.9.4/install/agent/jamf/generalsettings.webp)
 
 ## Certificate Settings
 
@@ -49,14 +49,14 @@ select **System Settings**.
 then download Client CA Certificate – the downloaded .zip file contains the .cer and .crt client
 certifications.
 
-![Enabling Deep Packet Inspection Certificate and then downloading Client CA Certificate](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/dpicertificate.webp)
+![Enabling Deep Packet Inspection Certificate and then downloading Client CA Certificate](/images/endpointprotector/5.9.4/install/agent/jamf/dpicertificate.webp)
 
 **Step 3 –** Go to Jamf, the Certificate section, and click **Configure**.
 
 **Step 4 –** Enter a Certificate name and then select and upload the downloaded Client CA
 Certificate in .cer format.
 
-![Entering the required information on New macOS Configuration Profile](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/macosconfiguration.webp)
+![Entering the required information on New macOS Configuration Profile](/images/endpointprotector/5.9.4/install/agent/jamf/macosconfiguration.webp)
 
 ## Privacy Preferences Policy Control Settings
 
@@ -75,7 +75,7 @@ this command line.
 - Select the **Validate the Static Code Requirement** check-box.
 - Click **Add** and **Save** to allow access to SystemPolicyAllFiles and Accessibility services.
 
-![Configuring Privacy Peferences Policy Control](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/privacypreferences.webp)
+![Configuring Privacy Peferences Policy Control](/images/endpointprotector/5.9.4/install/agent/jamf/privacypreferences.webp)
 
 ## Allow EppNotifier Settings
 
@@ -96,7 +96,7 @@ this command line.
 - Select the **Validate the Static Code Requirement** check-box.
 - Click **Add** and then **Save** to allow access to Accessibility services.
 
-![Configuring EPPNotifier Settings](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/eppnotifer.webp)
+![Configuring EPPNotifier Settings](/images/endpointprotector/5.9.4/install/agent/jamf/eppnotifer.webp)
 
 ## Enforced Encryption Settings
 
@@ -118,7 +118,7 @@ this command line.
 - Click **Add** and then **Save** to allow access to SystemPolicyAllFiles and Accessibility
   services.
 
-![Configuring Enforced Encryption settings](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/enforcedencryption.webp)
+![Configuring Enforced Encryption settings](/images/endpointprotector/5.9.4/install/agent/jamf/enforcedencryption.webp)
 
 ## System Extension Settings
 
@@ -132,7 +132,7 @@ On the System Extension section, click **Configure** and then enter the followin
 - Allowed System Extensions – click **Add**, enter `com.cososys.eppclient`, and then **Save** the
   changes.
 
-![Allowing System Extensions ](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/systemextensions.webp)
+![Allowing System Extensions ](/images/endpointprotector/5.9.4/install/agent/jamf/systemextensions.webp)
 
 **NOTE:** For operating systems lower than macOS 11 (Big Sur), manage settings from the Approved
 Kernel Extensions section instead of System Extensions. Define the Team ID (enter TV3T7A76P4) and
@@ -151,7 +151,7 @@ system extensions without a pop-up, and then enter the following information:
 
 **NOTE:** This setting will be applied starting with MacOS 12 version (Monterey).
 
-![Adding a new policy that will allow the removing of system extensions](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/removeableextensions.webp)
+![Adding a new policy that will allow the removing of system extensions](/images/endpointprotector/5.9.4/install/agent/jamf/removeableextensions.webp)
 
 ### Managed Login Items
 
@@ -200,9 +200,9 @@ this command line.
 
 - Select the **Prohibit users from disabling on-demand VPN settings** check-box.
 
-![First section to configuring VPN settings](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/vpnsettings.webp)
+![First section to configuring VPN settings](/images/endpointprotector/5.9.4/install/agent/jamf/vpnsettings.webp)
 
-![Second section to configuring VPN settings](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/vpnconfiguration.webp)
+![Second section to configuring VPN settings](/images/endpointprotector/5.9.4/install/agent/jamf/vpnconfiguration.webp)
 
 ## Notifications Settings
 
@@ -215,7 +215,7 @@ On the Notifications section, click **Configure** and then enter the following i
 - Toggle the switch to include the settings type and then disable/enable to manage each notification
   option.
 
-![Optional Notifiaction Settings](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/notificationsettings.webp)
+![Optional Notifiaction Settings](/images/endpointprotector/5.9.4/install/agent/jamf/notificationsettings.webp)
 
 ## Scope
 
@@ -227,4 +227,4 @@ Click **Save** to apply all settings to the new configuration profile.
 **NOTE:** To confirm that the new configuration profile is saved successfully, reboot your computer
 at this point.
 
-![Selecting Devices and Users to deploy to the new profile.](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/scope.webp)
+![Selecting Devices and Users to deploy to the new profile.](/images/endpointprotector/5.9.4/install/agent/jamf/scope.webp)

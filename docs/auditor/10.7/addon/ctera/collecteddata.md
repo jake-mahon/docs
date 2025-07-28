@@ -14,7 +14,7 @@ To leverage data collected with the add-on, you can do the following in Auditor:
 
 You can apply a filter to narrow down your search results to the Netwrix **API** data source only.
 
-![ctera](/img/product_docs/auditor/10.7/addon/ctera/ctera.webp)
+![ctera](/images/auditor/10.7/addon/ctera/ctera.webp)
 
 - Also, you can click **Tools** in the upper-right corner and select the command you need. For
   example:
@@ -39,7 +39,7 @@ To leverage data collected with the add-on, you can do the following in Auditor:
 
 You can apply a filter to narrow down your search results to the Netwrix **API** data source only.
 
-![AR from CyberArk in NA](/img/product_docs/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
+![AR from CyberArk in NA](/images/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
 
 - Also, you can click **Tools** in the upper-right corner and select the command you need. For
   example:

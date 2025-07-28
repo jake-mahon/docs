@@ -24,4 +24,4 @@ for a complete list of Metadata sorted by **Type** and by **Category**.
 | Analytics              | Reports, Dashboards, List Views, and Einstein                                                                |
 | Configuration          | Data Quality settings such as Duplicate Rules, Matching Rules, and Validation Rules. Other general settings. |
 
-![Metadata Categories documented by Strongpoint](/img/product_docs/platgovsalesforce/metadata_categories.webp)
+![Metadata Categories documented by Strongpoint](/images/platgovsalesforce/metadata_categories.webp)

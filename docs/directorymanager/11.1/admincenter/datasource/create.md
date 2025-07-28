@@ -52,7 +52,7 @@ Step 4 – Enter a name for the data source in the Name box.
 Step 5 – From the File Server drop-down list, select _Local Server_.
 
 Step 6 – In the File Path box, provide the path to the MS Excel file you want to create the data
-source for. This path should be complete with the file name and extension. For example:  
+source for. This path should be complete with the file name and extension. For example:
 D:\Employee Records\Sheets\EmployeeMedical Records.xlsx
 
 :::note
@@ -67,7 +67,7 @@ Domain/Hostname box.
 Step 8 – In the User Account and Password boxes, enter the username and password of an account to
 access the file on the network path.
 
-Step 9 – Click **Create Data Source**.  
+Step 9 – Click **Create Data Source**.
 The data source is available on the Excel tab of the Data Sources page.
 
 ### When the Excel file is located on OneDrive
@@ -96,7 +96,7 @@ The registered app must have the following API permissions to access files on On
 :::
 
 
-![API permissions](/img/product_docs/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
+![API permissions](/images/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
 
 Step 8 – In the Registered Tenant ID on Azure Active Directory box, enter the tenant ID assigned to
 the Directory Manager application when you registered it in Microsoft Entra Admin Center.
@@ -104,7 +104,7 @@ the Directory Manager application when you registered it in Microsoft Entra Admi
 Step 9 – Enter the name of the file in the **File Name** box. This name should be complete with the
 file extension, for example, Employee Contact Details.xlsx
 
-Step 10 – Click **Create Data Source**.  
+Step 10 – Click **Create Data Source**.
 The data source is available on the Excel tab of the Data Sources page.
 
 ## Create a Data Source for MS Access
@@ -142,7 +142,7 @@ Step 4 – Enter a name for the data source in the Name box.
 Step 5 – From the File Server drop-down list, select _Local Server_.
 
 Step 6 – In the File Path box, provide the path to the MS Access database you want to create the
-data source for. This path should be complete with the file name and extension. For example:  
+data source for. This path should be complete with the file name and extension. For example:
 D:\Employee Records\Databases\Employee Medical Records.accdb
 
 :::note
@@ -159,7 +159,7 @@ Domain/Hostname box.
 Step 9 – In the User Account and Password boxes, enter the username and password of an account to
 access the file on the network path.
 
-Step 10 – Click **Create Data Source**.  
+Step 10 – Click **Create Data Source**.
 The data source is available on the Access tab of the Data Sources page.
 
 ### When the Access File is Located on OneDrive
@@ -190,7 +190,7 @@ The registered app must have the following API permissions to access files on On
 :::
 
 
-![API permissions](/img/product_docs/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
+![API permissions](/images/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
 
 Step 9 – In the Registered Tenant ID on Azure Active Directory box, enter the tenant ID assigned to
 the Directory Manager application when you registered it in Microsoft Entra Admin Center.
@@ -198,7 +198,7 @@ the Directory Manager application when you registered it in Microsoft Entra Admi
 Step 10 – Enter the name of the file in the File Name box. This name should be complete with the
 file extension, for example, Employee Medical Records.accdb.
 
-Step 11 – Click **Create Data Source**.  
+Step 11 – Click **Create Data Source**.
 The data source is available on the Access tab of the Data Sources page.
 
 ## Create a Data Source for Oracle
@@ -229,7 +229,7 @@ Step 5 – In the Oracle Server or Service Name box, enter the name of the Oracl
 server you want to create the data source for.
 
 Step 6 – In the Service Account and Service Account Password boxes, provide the username and
-password of a service account to connect to the Oracle server.  
+password of a service account to connect to the Oracle server.
 When using this data source in a Synchronize job, the user will be able to select the databases that
 are accessible with these credentials.
 
@@ -246,7 +246,7 @@ create the data source for. You may also leave this field blank. In that case, a
 specified server will be displayed to the user in a Synchronize job. The user can select a database
 as needed.
 
-Step 11 – Click **Create Data Source**.  
+Step 11 – Click **Create Data Source**.
 The data source is available on the Oracle tab of the Data Sources page.
 
 ## Create a Data Source for SQL Server
@@ -280,7 +280,7 @@ Windows and do not have to log on separately to SQL Server.
 
 Step 8 – In the SQL Server Database Name box, specify the SQL database to create a data source for.
 
-Step 9 – Click **Create Data Source**.  
+Step 9 – Click **Create Data Source**.
 The data source is available on the MS SQL Server tab of the Data Sources page.
 
 ## Create a Data Source for a Text/CSV File
@@ -311,7 +311,7 @@ Step 4 – Enter a name for the data source in the Name box.
 Step 5 – From the File Server drop-down list, select _Local Server_.
 
 Step 6 – In the File Path box, provide the path to the text file you want to create the data source
-for. This path should be complete with the file name and extension. For example:  
+for. This path should be complete with the file name and extension. For example:
 D:\Employee Records\Sheets\Employee Medical Records.csv
 
 :::note
@@ -329,7 +329,7 @@ Domain/Hostname box.
 Step 9 – In the User Account and Password boxes, enter the username and password of an account to
 access the file on the network path.
 
-Step 10 – Click **Create Data Source**.  
+Step 10 – Click **Create Data Source**.
 The data source is available on the Text/CSV tab of the Data Sources page.
 
 ### When the Text File is Located on OneDrive
@@ -361,7 +361,7 @@ The registered app must have the following API permissions to access files on On
 :::
 
 
-![API permissions](/img/product_docs/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
+![API permissions](/images/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
 
 Step 9 – In the Registered Tenant ID on Azure Active Directory box, enter the tenant ID assigned to
 the Directory Manager application when you registered it in Microsoft Entra Admin Center.
@@ -369,7 +369,7 @@ the Directory Manager application when you registered it in Microsoft Entra Admi
 Step 10 – Enter the name of the file in the File Name box. This name should be complete with the
 file extension, for example, “Employee Contact Details.csv”.
 
-Step 11 – Click **Create Data Source**.  
+Step 11 – Click **Create Data Source**.
 The data source is available on the Text/CSV tab of the Data Sources page.
 
 ## Create a Data Source for ODBC
@@ -402,12 +402,12 @@ Step 6 – Select the **System DSN** or **File DSN** option button to specify th
 connecting to the data source.
 
 Step 7 – In case the data source is password protected, provide a username and password in the
-**Service Account** and **Service Account Password** boxes to access it.  
+**Service Account** and **Service Account Password** boxes to access it.
 Depending on the data source, you may not necessarily have to provide both a username and password.
 For example, an MS Access database may need a password only while an SQL server may require both
 username and password.
 
-Step 8 – Click **Create Data Source**.  
+Step 8 – Click **Create Data Source**.
 The data source is available on the ODBC tab of the Data Sources page.
 
 ## Create a Data Source for SCIM
@@ -435,5 +435,5 @@ want to create a data source.
 
 Step 6 – In the Bearer Token box, enter the authentication token you generated in the provider.
 
-Step 7 – Click **Create Data Source**.  
+Step 7 – Click **Create Data Source**.
 The data source is available on the SCIM tab of the Data Sources page.

@@ -22,7 +22,7 @@ can be uploaded for this display type.
 
 A custom image display type is rendered on a portal page as:
 
-![photo_placeholder](/img/product_docs/directorymanager/11.0/admincenter/portal/displaytype/photo_placeholder.webp)
+![photo_placeholder](/images/directorymanager/11.0/admincenter/portal/displaytype/photo_placeholder.webp)
 
 Click **Edit** to launch the **Manage Photo** dialog box for uploading a photo. The dialog box also
 provides many image editing options, including rotate, crop, flip, and re-size.
@@ -33,19 +33,19 @@ What do you want to do?
 
 ## Define an Image Display Type
 
-1. In Admin Center, select **Applications** in the left pane.  
+1. In Admin Center, select **Applications** in the left pane.
    On the **GroupID Portal** tab, a portal's card displays its info.
 2. Click the ellipsis button for a portal and select **Settings**.
-3. Select an identity store under **Design Settings** to define a custom display type for it.  
+3. Select an identity store under **Design Settings** to define a custom display type for it.
    All identity stores associated with the portal are listed under **Design Settings**. You can
    design a different portal for each of these.
 4. Click **Custom Display Types** in the left pane.
 5. On the **Custom Display Types** page, click **Add** on the **Custom Display Types** tab.
 6. On the **New Display Type** pane, enter a name for the display type and select _Image_ in the
-   **Type** drop-down list.  
+   **Type** drop-down list.
    You cannot change the name of a custom display type once you have created it.
 7. In the **Height** and **Width** boxes, enter image dimensions (in pixels). The image will be
-   displayed in the portal with these dimensions.  
+   displayed in the portal with these dimensions.
    The default is set to 100 x 100 pixels.
 8. In the **Maximum Size (KB)** box, enter the maximum image size (in kilobytes) that users can
    upload for this display type.

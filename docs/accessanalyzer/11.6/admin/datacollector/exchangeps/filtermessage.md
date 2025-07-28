@@ -11,7 +11,7 @@ page for the category of:
 
 - Mailbox Search
 
-![ExchangePS Data Collector Wizard Filter by Message Conditions page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangeps/filtermessage.webp)
+![ExchangePS Data Collector Wizard Filter by Message Conditions page](/images/accessanalyzer/11.6/admin/datacollector/exchangeps/filtermessage.webp)
 
 In the Select Conditions section, choose the filter logic:
 
@@ -48,7 +48,7 @@ In the Select Search Mailbox Parameters section, select the desired filter param
 The Date Range Selection window is opened by the **Specify Date Range...** option for a date related
 filter on the Filter by Message page.
 
-![Date Range Selection window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangeps/daterangeselectionwindow.webp)
+![Date Range Selection window](/images/accessanalyzer/11.6/admin/datacollector/exchangeps/daterangeselectionwindow.webp)
 
 Select the range category on the left and configure the range setting in the enabled fields:
 
@@ -71,7 +71,7 @@ range.
 The Words window is opened by the **Specify words...** option for a word related filter on the
 Filter by Message page.
 
-![Words window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangeps/wordswindow.webp)
+![Words window](/images/accessanalyzer/11.6/admin/datacollector/exchangeps/wordswindow.webp)
 
 In the Search property section, choose the filter logic:
 

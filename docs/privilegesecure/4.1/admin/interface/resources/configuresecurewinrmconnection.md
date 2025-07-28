@@ -14,7 +14,7 @@ Follow the steps to configure secure WinRM connection for the selected host:
 
 **Step 3 –** Click the **WinRM Config** button.
 
-![winrmconfig](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/winrmconfig.webp)
+![winrmconfig](/images/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/winrmconfig.webp)
 
 **Step 4 –** Perform the following steps:
 

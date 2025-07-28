@@ -172,7 +172,7 @@ openssl x509 -in secureone.crt -pubkey -noout -outform pem | sha256sum
 
 Checking the CRT and KEY Files
 
-![blobid0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/4416688258199_blobid0.webp)
+![blobid0.webp](/images/privilegesecure/4.2/discovery/admin/configuration/4416688258199_blobid0.webp)
 
 Checking Key
 
@@ -264,18 +264,18 @@ Notepad) and view the headers
 
 Encrypted headers look like this:
 
------BEGIN RSA PRIVATE KEY-----  
+-----BEGIN RSA PRIVATE KEY-----
 Proc-Type: 4,ENCRYPTED DEK-Info: DES-EDE3-CBC,
 
-6AC307785DD187EF...  
+6AC307785DD187EF...
 -----END RSA PRIVATE KEY-----
 
 Unencrypted headers look like this:
 
------BEGIN RSA PRIVATE KEY-----  
-6AC307785DD187EF...  
+-----BEGIN RSA PRIVATE KEY-----
+6AC307785DD187EF...
 -----END RSA PRIVATE KEY-----
 
 **CAUTION:** Be aware that having an unencrypted private key adds a security risk by making it
-easier to obtain your private key if the private key file is stolen.  
+easier to obtain your private key if the private key file is stolen.
 For more information on OpenSSL please visit: [www.openssl.org](http://www.openssl.org/)

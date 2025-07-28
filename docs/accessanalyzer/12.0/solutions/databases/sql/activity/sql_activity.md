@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/activity/sqljobgroup31.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/activity/sqljobgroup31.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ following pre-configured report.
 | Report                | Description                                                                     | Default Tags | Report Elements                                                                                                                                                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User Activity Summary | This report lists all SQL events, and summarizes them by database and instance. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays users with most events by instance</li><li>Table – Provides details on users with most events by database</li><li>Table – Provides details on event details</li></ul> |
-

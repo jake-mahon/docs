@@ -19,7 +19,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_LocalAdmins Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/localadminsquery.webp)
+![Queries for the SG_LocalAdmins Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/localadminsquery.webp)
 
 The query for the SG_LocalAdmins job is:
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_LocalAdmins Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/localadminsanalysis.webp)
+![Analysis Tasks for the SG_LocalAdmins Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/localadminsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -66,4 +66,4 @@ on the target host. However if a less-privileged option is required, you can ins
 domain user that has been added to the **Network access: Restrict clients allowed to make remote
 calls to SAM** Local Security Policy.
 
-![User added to the Local Securtiy Policy](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/leastprivilegemodel.webp)
+![User added to the Local Securtiy Policy](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/leastprivilegemodel.webp)

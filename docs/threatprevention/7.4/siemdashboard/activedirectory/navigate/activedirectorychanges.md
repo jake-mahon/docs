@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Active Directory Changes dashboard contains the following cards:
 
-![Active Directory Changes Dashboard](/img/product_docs/threatprevention/7.4/siemdashboard/splunk/activedirectory/dashboard/adchanges.webp)
+![Active Directory Changes Dashboard](/images/threatprevention/7.4/siemdashboard/splunk/activedirectory/dashboard/adchanges.webp)
 
 - Changes by Type – Breakdown of changes that have been recorded in the specified timeframe by event
   type

@@ -9,7 +9,7 @@ sidebar_position: 140
 The Character Pattern rule rejects passwords that contain character patterns such as "abcde".
 Passwords should not contain character patterns because they can weaken the password.
 
-![ppe_rules_19](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_19.webp)
+![ppe_rules_19](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_19.webp)
 
 - Select the **Enabled** check box to enable the Character Pattern rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject

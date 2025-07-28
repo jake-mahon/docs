@@ -43,17 +43,17 @@ after a sandbox refresh.
 2. Open **Customization** > **Scripting** > **Scripts**.
 3. Set the Filter **Type** to **Suitelet** and the **Bundle ID** to **294336**.
 
-    ![Find the Suitelet](/img/product_docs/platgovnetsuite/release_notes/scripts.webp)
+    ![Find the Suitelet](/images/platgovnetsuite/release_notes/scripts.webp)
 
 4. Click **View** by the **Strongpoint Reset Schedule Deployments** suitelet.
 5. Open the **Deployments** tab.
 
-    ![Open the Deployment tab](/img/product_docs/platgovnetsuite/release_notes/script_deploy_tab.webp)
+    ![Open the Deployment tab](/images/platgovnetsuite/release_notes/script_deploy_tab.webp)
 
 6. Click the Suitelet name: **Strongpoint Reset Schedule Deployments**.
 7. Click on the Script **URL**.
 
-    ![Click the Script URL](/img/product_docs/platgovnetsuite/release_notes/script_deploy_url.webp)
+    ![Click the Script URL](/images/platgovnetsuite/release_notes/script_deploy_url.webp)
 
 ## SoD 1.6.3
 
@@ -71,7 +71,7 @@ The Strongpoint Searches have been updated to support NetSuite's change of **For
 to the new **Formula (HTML) Fields**. This is a NetSuite security enhancement.
 
 If you have custom searches, you must update them to support the NetSuite change. To view the list
-of saved searches in your account that contain code in **Formula(Text)** fields, open:  
+of saved searches in your account that contain code in **Formula(Text)** fields, open:
 **Lists** > **Search** > **Saved Searches with HTML in Formula(Text)**
 
-![Run the Saved Search to view changes](/img/product_docs/platgovnetsuite/release_notes/formulahtml.webp)
+![Run the Saved Search to view changes](/images/platgovnetsuite/release_notes/formulahtml.webp)

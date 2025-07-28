@@ -12,7 +12,7 @@ Mode or on the User side.
 **Step 2 –** Use the script below and be sure to check the option to run the script interactively
 and as the user.
 
-![868_1_image-20220225024809-1_950x457](/img/product_docs/endpointpolicymanager/scriptstriggers/868_1_image-20220225024809-1_950x457.webp)
+![868_1_image-20220225024809-1_950x457](/images/endpointpolicymanager/scriptstriggers/868_1_image-20220225024809-1_950x457.webp)
 
 ```
 $path = "$env:LOCALAPPDATA\temp\1stlogon.flg"
@@ -36,7 +36,7 @@ else
 **Step 3 –** At the "Specify process mode" screen select "On trigger" and choose "Logon" from the
 drop-down, then click "Next".
 
-![868_2_image-20220225024809-2](/img/product_docs/endpointpolicymanager/scriptstriggers/868_2_image-20220225024809-2.webp)
+![868_2_image-20220225024809-2](/images/endpointpolicymanager/scriptstriggers/868_2_image-20220225024809-2.webp)
 
 **Step 4 –** At the Trigger settings" screen set a delay if desired otherwise click "Next" the skip
 this option.
@@ -46,4 +46,4 @@ this option.
 **Step 6 –** Lastly, apply the policy, and test with a new user logon, if all goes well you will see
 the screen below after a successful 1st logon.
 
-![868_3_image-20220225024809-3_900x490](/img/product_docs/endpointpolicymanager/scriptstriggers/868_3_image-20220225024809-3_900x490.webp)
+![868_3_image-20220225024809-3_900x490](/images/endpointpolicymanager/scriptstriggers/868_3_image-20220225024809-3_900x490.webp)

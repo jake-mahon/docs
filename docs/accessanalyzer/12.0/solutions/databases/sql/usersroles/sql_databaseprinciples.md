@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/usersroles/sqljobgroup23.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/usersroles/sqljobgroup23.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report              | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                                                  |
 | ------------------- | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Database Principles | This report determines all database principals on a per-instance basis. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by domain principal count</li><li>Table – Provides details on principal count by instance</li><li>Table – Provides details on principal details</li></ul> |
-

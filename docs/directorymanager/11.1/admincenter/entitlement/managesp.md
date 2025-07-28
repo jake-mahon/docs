@@ -44,7 +44,7 @@ Step 4 – On the Configure New Site dialog box:
   the site for managing entitlements.
 - In the Application ID box, provide the application ID assigned to the Directory Manager
   application when you registered it in Microsoft Entra Admin Center.
-- Click **Add Site**.  
+- Click **Add Site**.
   The URL of this site is displayed in the SharePoint Admin URL box on the Entitlement page. All
   sites under it are displayed in the Included SharePoint sites area.
 
@@ -161,7 +161,7 @@ in the context of the account specified here.
   for the identity store to connect to the site.
 
 The account must have elevated permissions to the Microsoft web applications that host the site in
-order to read and manage the effective permissions on the document libraries in the site.  
+order to read and manage the effective permissions on the document libraries in the site.
 On changing the credentials, use the **Reconnect** button to test the connectivity and fetch the
 document libraries again with the given credentials.
 
@@ -196,13 +196,13 @@ Step 4 – On the Entitlement page, you can manually replicate permissions for o
   replicate. To replicate all sites, select the check box in the header row. This displays the
   following icons:
 
-    ![replicate_permissions](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)
+    ![replicate_permissions](/images/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)
 
     Either click the **Replicate** icon or the **Replicate** button.
 
 This triggers the GroupID Entitlement schedule for the identity store, which computes and replicates
 the effective permissions granted to directory objects on document libraries in the site(s). This
-process may take some time.  
+process may take some time.
 The Last Replicated column displays the date and time the GroupID Entitlement schedule last ran.
 
 ## Exclude a Site from Entitlement Management
@@ -230,7 +230,7 @@ Step 4 – On the **Entitlement** page, you can exclude one or more sites.
     Select the check boxes for the sites you do not want to replicate. To exclude all sites, select
     the check box in the header row. This displays the following icons:
 
-    ![replicate_permissions](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)
+    ![replicate_permissions](/images/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)
 
     Click **Remove**. The sites are moved to the **Excluded SharePoint Sites** area.
 
@@ -250,7 +250,7 @@ Step 2 – On the Identify Stores page, click the ellipsis button for an identit
 Step 3 – Click **Entitlement** under Settings in the left pane.
 
 Step 4 – On the Entitlement page, the **Excluded SharePoint Sites** area displays the sites excluded
-from replication.  
+from replication.
 Click **Remove** for a site to move it to the **Included SharePoint Sites** area.
 
 Step 5 – Click **Save**.

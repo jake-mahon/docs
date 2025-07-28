@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Cisco menu displays the configuration options for Cisco platforms.
 
-![Cisco Platform Configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/cisco.webp)
+![Cisco Platform Configuration](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/cisco.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for a Cisco Platform.

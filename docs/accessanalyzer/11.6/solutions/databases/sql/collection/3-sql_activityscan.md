@@ -20,7 +20,7 @@ The 3-SQL_ActivityScan Job captures user activity from targeted SQL server insta
 
 The ActivityScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup14.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup14.webp)
 
 - ActivityScan – Collects activity from targeted instances
     - (Optional) This query can be modified to target specific databases/instances. See the
@@ -46,7 +46,7 @@ purpose of this job.
 :::
 
 
-![Options Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/3sqlactivityscanoptionspage.webp)
+![Options Page](/images/accessanalyzer/11.6/solutions/databases/sql/collection/3sqlactivityscanoptionspage.webp)
 
 **Step 4 –** To modify scan options, navigate to the
 [SQL Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/sql/overview.md)
@@ -58,7 +58,7 @@ settings:
 - Collect audits by name – Finds available audits in the database
 - Collect audits by path – Collects audits by a specified path
 
-![Filter Page](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/3sqlactivityscanfilterpage.webp)
+![Filter Page](/images/accessanalyzer/11.6/solutions/databases/sql/collection/3sqlactivityscanfilterpage.webp)
 
 **Step 5 –** To scope the query for specific database/instance, navigate to the
 [SQL Data Collector](/docs/accessanalyzer/11.6/admin/datacollector/sql/overview.md)
@@ -88,7 +88,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup17.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/collection/sqljobgroup17.webp)
 
 The default analysis tasks are:
 

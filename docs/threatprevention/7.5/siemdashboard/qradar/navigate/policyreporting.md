@@ -18,7 +18,7 @@ reset to data search of the past three (3) hours.
 
 The Policy Reporting dashboard contains the following cards:
 
-![policyreporting](/img/product_docs/threatprevention/7.5/siemdashboard/qradar/dashboard/policyreporting.webp)
+![policyreporting](/images/threatprevention/7.5/siemdashboard/qradar/dashboard/policyreporting.webp)
 
 - Activity (Successful/Blocked) – Timeline of successful/failed/blocked events related to the
   selected policy that have been recorded in the specified timeframe. See the

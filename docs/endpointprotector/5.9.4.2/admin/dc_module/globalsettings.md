@@ -18,7 +18,7 @@ Control module (Content Aware Protection, eDiscovery, etc.).
 :::
 
 
-![Apply settings globally to all Netwrix Endpoint Protector entities](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/globalsettings.webp)
+![Apply settings globally to all Netwrix Endpoint Protector entities](/images/endpointprotector/5.9.4.2/admin/devicecontrol/globalsettings.webp)
 
 ## Client Settings
 
@@ -98,7 +98,7 @@ the Client’s behavior for each speciﬁc entity (Global, Groups, and Computers
   Maximum size for the quarantine folder. If the value is reached, new ﬁles will overwrite the
   oldest ones.
 
-![Manage settings that relate directly to the Netwrix Endpoint Protector Client](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/clentsettings.webp)
+![Manage settings that relate directly to the Netwrix Endpoint Protector Client](/images/endpointprotector/5.9.4.2/admin/devicecontrol/clentsettings.webp)
 
 - Custom Client Notiﬁcations - if enabled, the Client Notiﬁcations can be customized.
 - Mandatory OTP Justiﬁcation - if enabled, the Justiﬁcation a User has to provide when requesting or
@@ -126,7 +126,7 @@ the Client’s behavior for each speciﬁc entity (Global, Groups, and Computers
   operator for a Report Only Content Aware Protection policy, to no longer be logged. This
   considerably reduces the number of logs, therefore, optimizing the allocated storage space.
 
-![Manage settings that relate directly to the Netwrix Endpoint Protector Client](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/clientsettingstwo.webp)
+![Manage settings that relate directly to the Netwrix Endpoint Protector Client](/images/endpointprotector/5.9.4.2/admin/devicecontrol/clientsettingstwo.webp)
 
 - Disable Bluetooth File Transfer – if enabled, this setting will block transfers to Bluetooth
   Devices, without considering if they are paired or not to the endpoint. This only applies to
@@ -159,13 +159,13 @@ the Client’s behavior for each speciﬁc entity (Global, Groups, and Computers
 - Show Authorize section in Endpoint Protector Client – disable this setting to hide the Authorize
   action from Endpoint Protector Client
 
-![Manage settings that relate directly to the Netwrix Endpoint Protector Client](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/clientsettingsthree.webp)
+![Manage settings that relate directly to the Netwrix Endpoint Protector Client](/images/endpointprotector/5.9.4.2/admin/devicecontrol/clientsettingsthree.webp)
 
 ### Client Mode
 
 Select from the drop-down list a client mode to deﬁne the Endpoint Protector Client behavior.
 
-![Select from the drop-down list a client mode to deﬁne the Endpoint Protector Client behavior.](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/clientmode.webp)
+![Select from the drop-down list a client mode to deﬁne the Endpoint Protector Client behavior.](/images/endpointprotector/5.9.4.2/admin/devicecontrol/clientmode.webp)
 
 1. Normal – this is the default and recommended setting to use before being fully aware of what the
    other modes imply. Normal mode does not apply to Content Aware Protection; all other client
@@ -409,7 +409,7 @@ In this section, you can manage the following settings:
     :::
 
 
-![If enabled, network and browser traﬃc can be inspected for content](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/dpiconfiguration.webp)
+![If enabled, network and browser traﬃc can be inspected for content](/images/endpointprotector/5.9.4.2/admin/devicecontrol/dpiconfiguration.webp)
 
 ### Intercept VPN Traﬃc
 
@@ -443,16 +443,16 @@ To use this feature, follow these steps:
 **Step 5 –** On the pop-up window informing the user that a System Extension is blocked, click
 **OK** to allow.
 
-![Pop-up window informing the user that a System Extension is blocked](/img/product_docs/endpointprotector/5.9.4.2/install/agent/systemextensionblocked.webp)
+![Pop-up window informing the user that a System Extension is blocked](/images/endpointprotector/5.9.4.2/install/agent/systemextensionblocked.webp)
 
 **Step 6 –** Go to **System Preferences** >**Security and Privacy** > **General**, and then
 **allow** the Endpoint Protector Client Extension.
 
-![Security and private settings on Mac](/img/product_docs/endpointprotector/5.9.4.2/install/agent/generaltabios.webp)
+![Security and private settings on Mac](/images/endpointprotector/5.9.4.2/install/agent/generaltabios.webp)
 
 **Step 7 –** On the Endpoint Protector Proxy Conﬁguration pop-up window, click **Allow**.
 
-![Proxy Conﬁguration pop-up window](/img/product_docs/endpointprotector/5.9.4.2/install/agent/proxypop-up.webp)
+![Proxy Conﬁguration pop-up window](/images/endpointprotector/5.9.4.2/install/agent/proxypop-up.webp)
 
 :::note
 When network extension is successfully enabled, a Client Integrity OK log is generated.
@@ -462,23 +462,23 @@ When network extension is successfully enabled, a Client Integrity OK log is gen
 **Step 8 –** Go to **System Conﬁguration** > **System Settings** > **Deep Packet Inspection
 Certiﬁcate**, and then download the CA Certiﬁcate.
 
-![Downloading a DPI Certificate](/img/product_docs/endpointprotector/5.9.4.2/install/agent/dpicertificate.webp)
+![Downloading a DPI Certificate](/images/endpointprotector/5.9.4.2/install/agent/dpicertificate.webp)
 
 **Step 9 –** On your macOS, open the **Keychain Access** application and go to **System**.
 
-![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccess.webp)
+![Keychain Access application settings on MacOs](/images/endpointprotector/5.9.4.2/install/agent/keychainaccess.webp)
 
 **Step 10 –** Decompress the ClientCerts ﬁle.
 
 **Step 11 –** Select the **cacert.pem** ﬁle and drag and drop it under **System** > **Keychain
 Access**.
 
-![Configuring Client Certificate on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/clientcerts.webp)
+![Configuring Client Certificate on MacOs](/images/endpointprotector/5.9.4.2/install/agent/clientcerts.webp)
 
 **Step 12 –** Double click the **X** from the newly added certiﬁcate and select **Always Trust**
 from the Trust section.
 
-![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccesstwo.webp)
+![Keychain Access application settings on MacOs](/images/endpointprotector/5.9.4.2/install/agent/keychainaccesstwo.webp)
 
 **Step 13 –** **Save** the changes.
 
@@ -489,7 +489,7 @@ improvement provides you with a conﬁguration option to ﬁlter out non-relevan
 in a more accurate log that focuses on true false positives and reduces unnecessary noise saving
 database storage.
 
-![Enable this setting to address the number of excessive false positives for URL Denylists](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/smartdpi.webp)
+![Enable this setting to address the number of excessive false positives for URL Denylists](/images/endpointprotector/5.9.4.2/admin/devicecontrol/smartdpi.webp)
 
 ### Bypass Log Reporting Frequency
 
@@ -602,7 +602,7 @@ for recommended settings.
 
 - Block Time Machine – if you enable this setting, you will block Time Machine backups on macOS.
 
-![File Tracing and Shadowing Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/filetracingshadowing.webp)
+![File Tracing and Shadowing Settings](/images/endpointprotector/5.9.4.2/admin/devicecontrol/filetracingshadowing.webp)
 
 - Metadata Scanning - if you disable this setting, metadata will not be scanned for PDFs, ZIPs, and
   Oﬃce Files DOCX, XLSX, PPTX, DOC, XLX, PPT).
@@ -640,7 +640,7 @@ for recommended settings.
 - Scan Printed Document – select if you want to be notiﬁed a threat was restricted on the whole
   document or on the speciﬁc page.
 
-![File Tracing and Shadowing Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/blockprintone.webp)
+![File Tracing and Shadowing Settings](/images/endpointprotector/5.9.4.2/admin/devicecontrol/blockprintone.webp)
 
 :::warning
 Newer Linux Ubuntu versions have 'snap'-based applications installed by default,
@@ -686,7 +686,7 @@ full computer restart.
 :::
 
 
-![blockprinttwo](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/blockprinttwo.webp)
+![blockprinttwo](/images/endpointprotector/5.9.4.2/admin/devicecontrol/blockprinttwo.webp)
 
 Users printing from Google Chrome and Microsoft Edge can utilize content-aware detection by
 enforcing a Content Aware Policy that includes Printers from the Policy Exit Points section. For
@@ -738,7 +738,7 @@ users from removing it, follow these steps:
 
     - Endpoint Protector Browser Connector ID: nnnaeanocbmnnjjlcfhcbpefmlgbcgoi
 
-![Conﬁguring GPO for Browser Extensions](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/grouppolicyeditor.webp)
+![Conﬁguring GPO for Browser Extensions](/images/endpointprotector/5.9.4.2/admin/devicecontrol/grouppolicyeditor.webp)
 
 1. Microsoft Edge
 
@@ -753,7 +753,7 @@ users from removing it, follow these steps:
 
     - Endpoint Protector Browser Connector ID: nnnaeanocbmnnjjlcfhcbpefmlgbcgoi
 
-![Conﬁguring GPO for Browser Extensions](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/grouppolicyeditortwo.webp)
+![Conﬁguring GPO for Browser Extensions](/images/endpointprotector/5.9.4.2/admin/devicecontrol/grouppolicyeditortwo.webp)
 
 :::warning
 Make sure to thoroughly test the conﬁguration in a controlled environment to ensure the
@@ -797,7 +797,7 @@ eDiscovery Policies and Max File Size for File Shadows.
 :::
 
 
-![ Tailor Content Aware Protection scanner’s ﬁle size settings according to their speciﬁc needs. ](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/maxfileconfg.webp)
+![ Tailor Content Aware Protection scanner’s ﬁle size settings according to their speciﬁc needs. ](/images/endpointprotector/5.9.4.2/admin/devicecontrol/maxfileconfg.webp)
 
 ## Outside Hours and Outside Network
 
@@ -824,7 +824,7 @@ and Outside Hours Policy Type also needs to be selected.
 :::
 
 
-![Manage Outside Network and Outside Hours Policies, for both Device Control and Content Aware modules](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/outsidehoursnetwork.webp)
+![Manage Outside Network and Outside Hours Policies, for both Device Control and Content Aware modules](/images/endpointprotector/5.9.4.2/admin/devicecontrol/outsidehoursnetwork.webp)
 
 ## Transfer Limit
 
@@ -834,7 +834,7 @@ the limit is reached, ﬁle transfers to storage devices (Device Control) to con
 is reset. Similarly, ﬁle transfers through Network Shares can also be included in the Transfer
 Limit.
 
-![Set the transfer limit, within a speciﬁc time interval (hours)](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/transferlimit.webp)
+![Set the transfer limit, within a speciﬁc time interval (hours)](/images/endpointprotector/5.9.4.2/admin/devicecontrol/transferlimit.webp)
 
 The mechanism that checks when the Transfer Limit is reached has been designed in such a way that it
 does not impact the performance of the computer.
@@ -861,7 +861,7 @@ refer to the Oﬄine Temporary Password chapter.
 You can enable a Transfer Limit Reached Alert and schedule a Transfer Limit Reached Report on a
 daily, weekly, or monthly basis.
 
-![Enable a Transfer Limit Reached Alert and schedule a Transfer Limit Reached Report on a daily, weekly, or monthly basis](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/transferlimitreached.webp)
+![Enable a Transfer Limit Reached Alert and schedule a Transfer Limit Reached Report on a daily, weekly, or monthly basis](/images/endpointprotector/5.9.4.2/admin/devicecontrol/transferlimitreached.webp)
 
 ## Debug Logging
 
@@ -878,7 +878,7 @@ information.
 :::
 
 
-![Use this feature to collect logs for a speciﬁc issue](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/debuglogging.webp)
+![Use this feature to collect logs for a speciﬁc issue](/images/endpointprotector/5.9.4.2/admin/devicecontrol/debuglogging.webp)
 
 ### Debug Logging Usage
 
@@ -903,7 +903,7 @@ Read the [Data Obfuscation Rules](#data-obfuscation-rules) section for more info
 :::
 
 
-![Used to debug feature and collect logs](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/debugloggingtwo.webp)
+![Used to debug feature and collect logs](/images/endpointprotector/5.9.4.2/admin/devicecontrol/debugloggingtwo.webp)
 
 **Step 5 –** Right-click the **Endpoint Protector Client icon** and select **Update Policies Now**.
 
@@ -915,7 +915,7 @@ Read the [Data Obfuscation Rules](#data-obfuscation-rules) section for more info
 
 **Step 9 –** Go to the **Global Settings** page and disable **Debug Mode**.
 
-![Netwrix Endpoint Protector Client Debug Mode](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/clientdebugmode.webp)
+![Netwrix Endpoint Protector Client Debug Mode](/images/endpointprotector/5.9.4.2/admin/devicecontrol/clientdebugmode.webp)
 
 **Automatic Logging**
 
@@ -934,29 +934,29 @@ are registered when diagnostic data are received.
 To view the log actions, go to the **Device Control** module, on the **Computer**s page and click
 the **Actions** column.
 
-![Debug Logging Actions](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/debugloggingactions.webp)
+![Debug Logging Actions](/images/endpointprotector/5.9.4.2/admin/devicecontrol/debugloggingactions.webp)
 
 - Collect Diagnostics - registers an event when diagnostic data are requested (Artifact requested
   event)
 
-![Registers an event when diagnostic data are requested](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/collectdiagnostics.webp)
+![Registers an event when diagnostic data are requested](/images/endpointprotector/5.9.4.2/admin/devicecontrol/collectdiagnostics.webp)
 
 - Go to Diagnostic data - this option redirects the user to the Reports and Analysis module on the
   Logs Report page to Artifact received type events with debug mode logs
 
-![Redirects the user to the Reports and Analysis module on the Logs Report page to Artifact received type events with debug mode logs](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/logsreport.webp)
+![Redirects the user to the Reports and Analysis module on the Logs Report page to Artifact received type events with debug mode logs](/images/endpointprotector/5.9.4.2/admin/devicecontrol/logsreport.webp)
 
 - Terminate Client - this option terminates the Endpoint Protector Client
 
-![Terminates the Netwrix Endpoint Protector Client](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/terminateclient.webp)
+![Terminates the Netwrix Endpoint Protector Client](/images/endpointprotector/5.9.4.2/admin/devicecontrol/terminateclient.webp)
 
 - Forced Restart Computer - this option sends a force reboot command to the computer, restarting it
   in 10 minutes after using the command. The user receives a message warning to avoid losing unsaved
   documents.
 
-![A message warning to avoid losing unsaved documents](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/forcedrestart.webp)
+![A message warning to avoid losing unsaved documents](/images/endpointprotector/5.9.4.2/admin/devicecontrol/forcedrestart.webp)
 
-![Forced Restart Computer - this option sends a force reboot command to the computer](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/forcedrestarttwo.webp)
+![Forced Restart Computer - this option sends a force reboot command to the computer](/images/endpointprotector/5.9.4.2/admin/devicecontrol/forcedrestarttwo.webp)
 
 ### Data Obfuscation Rules
 
@@ -976,27 +976,27 @@ Data is not obfuscated for the ﬁle-type threat, ﬁle-size threat, and date th
 :::
 
 
-![Data Obfuscation Example](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationone.webp)
+![Data Obfuscation Example](/images/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationone.webp)
 
-![Data Obfuscation Example](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationtwo.webp)
+![Data Obfuscation Example](/images/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationtwo.webp)
 
-![Data Obfuscation Example](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationthree.webp)
+![Data Obfuscation Example](/images/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationthree.webp)
 
-![Data Obfuscation Example](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationfour.webp)
+![Data Obfuscation Example](/images/endpointprotector/5.9.4.2/admin/devicecontrol/dataobfuscationfour.webp)
 
 ## EasyLock Settings
 
 From this section you can allow EasyLock to be installed and run only on computers that have
 Endpoint Protector installed or in relation to a list of trusted Endpoint Protector Servers.
 
-![Allow EasyLock to be installed](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/easylocksettings.webp)
+![Allow EasyLock to be installed](/images/endpointprotector/5.9.4.2/admin/devicecontrol/easylocksettings.webp)
 
 ## Additional Information
 
 From this section you can restore global settings to default and view the name and date when the
 action was performed.
 
-![Restore global settings to default and view the name and date when the action was performed](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/additionalinformation.webp)
+![Restore global settings to default and view the name and date when the action was performed](/images/endpointprotector/5.9.4.2/admin/devicecontrol/additionalinformation.webp)
 
 ## Display Settings
 
@@ -1012,4 +1012,4 @@ The information you set on this setting will also be applied for eDiscovery.
 :::
 
 
-![Set the maximum number of logs that can be displayed](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/displaysettings.webp)
+![Set the maximum number of logs that can be displayed](/images/endpointprotector/5.9.4.2/admin/devicecontrol/displaysettings.webp)

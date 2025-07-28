@@ -22,7 +22,7 @@ Only applicable to Microsoft Entra ID and Website resources.
 
 - To add a new URL, click **Add**.
 
-![addwebsiteurl](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/addwebsiteurl.webp)
+![addwebsiteurl](/images/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/addwebsiteurl.webp)
 
 **Step 4 –** Enter the following information:
 

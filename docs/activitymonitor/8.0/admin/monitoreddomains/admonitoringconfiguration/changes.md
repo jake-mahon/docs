@@ -9,7 +9,7 @@ sidebar_position: 20
 The Changes tab for AD Monitoring Configuration window provides additional options to monitor
 changes made to the domain.
 
-![Operations Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/operationtab.webp)
+![Operations Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/operationtab.webp)
 
 After checking the Enable AD Changes box, the following event filters can be modified on the
 sub-tabs:
@@ -30,7 +30,7 @@ The Attributes Tab is where monitoring can be scoped to include events with spec
 within Active Directory. Further scoping of attributes can enable monitoring to only capture events
 based on the new value.
 
-![Attributes Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/attributestab.webp)
+![Attributes Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/attributestab.webp)
 
 Double-click the text box beneath Name to enter the desired attribute to include or exclude.
 Double-click the text box beneath Value to enter the desired attribute value to reference. Choose
@@ -61,7 +61,7 @@ filter based on the new value of the attribute, use the Operation drop-down menu
 The Classes Tab is where the policy can be scoped to only monitor specific classes within Active
 Directory or to exclude specific classes from being monitored.
 
-![Classes Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/classestab.webp)
+![Classes Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/classestab.webp)
 
 Double-click the text box beneath Name to enter the desired classes to include or exclude. Press the
 **Enter** or **Tab** key to add another text box.
@@ -79,7 +79,7 @@ The Context Tab is where the policy can be scoped to only monitor specific conte
 and Organizational Units) within Active Directory or to exclude specific contexts from being
 monitored.
 
-![Context Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/contexttab.webp)
+![Context Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/contexttab.webp)
 
 Underneath each section, there are additional Context details:
 
@@ -98,7 +98,7 @@ The Hosts (from) Tab is where the policy can be scoped to only monitor specific 
 of an authentication event or to exclude specific hosts from being monitored for authentication
 events.
 
-![Host (From) Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
+![Host (From) Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
 
 Underneath each section, there are additional Host details.
 
@@ -116,7 +116,7 @@ The IP Addresses (from) Tab is where the policy can be scoped to only monitor sp
 as originators of an authentication event or to exclude specific IP Addresses from being monitored
 for authentication events.
 
-![IP Addresses (From) Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.webp)
+![IP Addresses (From) Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.webp)
 
 Underneath each section, there is an additional Address detail.
 
@@ -130,7 +130,7 @@ Press **Enter** or **Tab** key to add another text box.
 The Objects Tab is where the policy can be scoped to only monitor specific objects within Active
 Directory or to exclude specific objects from being monitored.
 
-![Objects Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/objectstab.webp)
+![Objects Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/objectstab.webp)
 
 Underneath each section, there is an additional Object detail.
 
@@ -144,7 +144,7 @@ exclude. Press the **Enter** or **Tab** key to add another text box.
 
 The Operations Tab provides additional configuration filters for AD event collection.
 
-![Operations Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/operationtab.webp)
+![Operations Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/operationtab.webp)
 
 Monitor These Attempts – Filter for successful events, failed events, or both can be selected.
 
@@ -162,7 +162,7 @@ Operations – Filter for Active Directory events to be monitored.
 
 The Servers Tab targets servers to be included or excluded when filtering for changes.
 
-![Servers Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
+![Servers Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
 
 In both sections, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS
 Domain name and SERVER is NetBIOS server name.
@@ -176,7 +176,7 @@ The Users Tab is where the policy can be scoped to only monitor specific securit
 committing changes within Active Directory or to exclude specific users committing changes from
 being monitored.
 
-![Users Tab in the Changes Tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![Users Tab in the Changes Tab](/images/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The following details appear beneath both sections.
 

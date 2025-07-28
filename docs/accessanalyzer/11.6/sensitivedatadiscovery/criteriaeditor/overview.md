@@ -14,7 +14,7 @@ inherit Sensitive Data Criteria settings from the **Settings** > **Sensitive Da
 [Sensitive Data](/docs/accessanalyzer/11.6/admin/settings/sensitivedata/overview.md)
 topic for additional information.
 
-![Sensitive Data Criteria Editor](/img/product_docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.webp)
+![Sensitive Data Criteria Editor](/images/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.webp)
 
 The Sensitive Data Criteria Editor contains two sections:
 
@@ -30,7 +30,7 @@ The Sensitive Data Criteria Editor contains two sections:
 
 The navigation pane lists all user-created and pre-configured Sensitive Data criteria.
 
-![Navigation Pane](/img/product_docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/navigationpane.webp)
+![Navigation Pane](/images/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/navigationpane.webp)
 
 The options in the Navigation Pane are:
 

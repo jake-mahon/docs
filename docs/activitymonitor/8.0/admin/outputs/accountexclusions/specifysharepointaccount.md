@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Specify account window is opened from a field where a SharePoint account is needed.
 
-![Specify Account popup window](/img/product_docs/activitymonitor/8.0/admin/outputs/window/sharepointspecifyaccount.webp)
+![Specify Account popup window](/images/activitymonitor/8.0/admin/outputs/window/sharepointspecifyaccount.webp)
 
 There are two options for specifying an account:
 

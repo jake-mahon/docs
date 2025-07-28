@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_Mailflow_DL Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/online/mailflow/mailflowdlanalysis.webp)
+![Analysis Tasks for the EX_Mailflow_DL Job](/images/accessanalyzer/12.0/solutions/exchange/online/mailflow/mailflowdlanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,4 +35,3 @@ the following pre-configured report:
 | Report                    | Description                                            | Default Tags | Report Elements                                                                                                                                                                                                      |
 | ------------------------- | ------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Top DLs by Received Count | The top distribution lists by total messages received. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top five distribution lists by received count</li><li>Table – Provides details on the top five distribution lists by received count</li></ul> |
-

@@ -49,7 +49,7 @@ access types:
 - **Write DAC**
 - **Write Owner**
 
-![ManualConfig_WS_AuditingEntry2008](/img/product_docs/auditor/10.6/configuration/windowsserver/manualconfig_ws_auditenrty2008.webp)
+![ManualConfig_WS_AuditingEntry2008](/images/auditor/10.6/configuration/windowsserver/manualconfig_ws_auditenrty2008.webp)
 
 Repeat the same steps for the `HKEY_LOCAL_MACHINE\SYSTEM` key.
 
@@ -79,7 +79,7 @@ object name to select** field.
 - Write DAC
 - Write Owner
 
-![Config_WS_AuditingEntry_2016](/img/product_docs/auditor/10.6/configuration/windowsserver/manualconfig_ws_auditenrty_2016.webp)
+![Config_WS_AuditingEntry_2016](/images/auditor/10.6/configuration/windowsserver/manualconfig_ws_auditenrty_2016.webp)
 
 Repeat the same steps for the `HKEY_LOCAL_MACHINE\SYSTEM` key.
 

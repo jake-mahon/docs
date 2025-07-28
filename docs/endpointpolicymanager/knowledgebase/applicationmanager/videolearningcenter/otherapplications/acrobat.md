@@ -58,17 +58,17 @@ Our PolicyPak software snaps-in to the Group Policy Editor and mimics the user i
 Acrobat Reader application itself. You can set key settings (like turning off Acrobat Reader
 updates), like what is seen here:
 
-![33_1_acrobat-group-policy-policypak-3](/img/product_docs/endpointpolicymanager/video/applicationsettings/33_1_acrobat-group-policy-endpointpolicymanager-3.webp)
+![33_1_acrobat-group-policy-policypak-3](/images/endpointpolicymanager/video/applicationsettings/33_1_acrobat-group-policy-endpointpolicymanager-3.webp)
 
 You can ensure that Adobe's Javascript support is truly disabled, which makes your whole company
 more secure, like what is seen here.
 
-![33_2_acrobat-group-policy-policypak-4](/img/product_docs/endpointpolicymanager/video/applicationsettings/33_2_acrobat-group-policy-endpointpolicymanager-4.webp)
+![33_2_acrobat-group-policy-policypak-4](/images/endpointpolicymanager/video/applicationsettings/33_2_acrobat-group-policy-endpointpolicymanager-4.webp)
 
 Or ensure your users are forced to use the "big guns" with "Enable Enhanced Security" and ensure
 users can't work around it.
 
-![33_3_acrobat-group-policy-policypak-5](/img/product_docs/endpointpolicymanager/video/applicationsettings/33_3_acrobat-group-policy-endpointpolicymanager-5.webp)
+![33_3_acrobat-group-policy-policypak-5](/images/endpointpolicymanager/video/applicationsettings/33_3_acrobat-group-policy-endpointpolicymanager-5.webp)
 
 Without PolicyPak, you're on the losing side, because users are going to simply steamroll over you.
 
@@ -88,11 +88,11 @@ Policy and enterprise software deployments and desktop lockdown.
 When you're ready to get serious about managing Acrobat Reader today, PolicyPak is ready for you.
 Unless you want your users to see this.
 
-![33_4_acrobat-group-policy-policypak-1](/img/product_docs/endpointpolicymanager/video/applicationsettings/33_4_acrobat-group-policy-endpointpolicymanager-1.webp)
+![33_4_acrobat-group-policy-policypak-1](/images/endpointpolicymanager/video/applicationsettings/33_4_acrobat-group-policy-endpointpolicymanager-1.webp)
 
 Or this:
 
-![33_5_acrobat-group-policy-policypak-2](/img/product_docs/endpointpolicymanager/video/applicationsettings/33_5_acrobat-group-policy-endpointpolicymanager-2.webp)
+![33_5_acrobat-group-policy-policypak-2](/images/endpointpolicymanager/video/applicationsettings/33_5_acrobat-group-policy-endpointpolicymanager-2.webp)
 
 ### Manage Acrobat Reader with Group Policy video transcript
 

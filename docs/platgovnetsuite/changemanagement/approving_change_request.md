@@ -13,7 +13,7 @@ NetSuite users and have the correct
 [role permissions](/docs/platgovnetsuite/installation/setting_permissions.md) if they are using a custom
 (non-Strongpoint) role.
 
-![change_request_approving_change_request](/img/product_docs/platgovnetsuite/change_management/change_request_approving_change_request.webp)
+![change_request_approving_change_request](/images/platgovnetsuite/change_management/change_request_approving_change_request.webp)
 
 1. Approver receives an email with a link to the Change Request.
 2. When the Change Request opens, **Approve** and **Reject** buttons are available at the top of the

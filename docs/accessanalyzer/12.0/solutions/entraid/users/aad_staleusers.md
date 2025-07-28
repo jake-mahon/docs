@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AAD_StaleUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/entraid/users/staleusersanalysis.webp)
+![Analysis Tasks for the AAD_StaleUsers Job](/images/accessanalyzer/12.0/solutions/entraid/users/staleusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following pre-configured report.
 | Report      | Description                                                                                                                                                                                                                             | Default Tags | Report Elements                                                                                                                                                                                           |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stale Users | This report identifies user accounts which have not logged into the domain for an extended amount of time or are currently disabled. A user account is considered stale if the last logon is over 30 days ago or is currently disabled. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays users by domain</li><li>Table – Provides details on users</li><li>Tables – Provides details on users by domain</li></ul> |
-

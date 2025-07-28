@@ -12,6 +12,6 @@ the only setting that is available in the menu, as shown in Figure 21. For full 
 Endpoint Policy Manager Security Settings Manager Export Wizard, see Book 10:
 [Security Settings Manager](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/securitysettings/overview.md).
 
-![deploying_policypak_directives_21](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_21.webp)
+![deploying_policypak_directives_21](/images/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_21.webp)
 
 Figure 21. Exporting the computer-side security within a GPO as an XML file.

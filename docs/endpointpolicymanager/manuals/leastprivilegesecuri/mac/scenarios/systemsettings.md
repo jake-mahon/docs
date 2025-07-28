@@ -19,7 +19,7 @@ modify Date&Time or Wi-Fi settings prompts standard users for admin credentials.
 ![Screens screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/system_settings_policy.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/system_settings_policy.webp)
 
 System Settings Policy enables you to:
 
@@ -34,7 +34,7 @@ Wi-Fi System Settings.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/mac/scenarios/system_settings_policy_1.webp)
+generated](/images/endpointpolicymanager/mac/scenarios/system_settings_policy_1.webp)
 
 Without Endpoint Policy Manager policy, the system asks for administrator confirmation to change
 system settings for the standard user. With Endpoint Policy Manager you are able to provide the

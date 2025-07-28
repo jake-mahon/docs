@@ -144,12 +144,12 @@ Auditor functionality.
 Use SQL Server Management Studio to create the Enterprise Auditor database and configure the
 settings for the server roles and user mappings.
 
-![SQL Server Management Studio create New Database](/img/product_docs/accessanalyzer/11.6/install/application/createnewdatabase.webp)
+![SQL Server Management Studio create New Database](/images/accessanalyzer/11.6/install/application/createnewdatabase.webp)
 
 **Step 1 –** Create a new database for use with Enterprise Auditor. Right-click on the **Databases**
 node and choose **New Database**.
 
-![SQL Server Management Studio New Database window](/img/product_docs/accessanalyzer/11.6/install/application/newdatabase.webp)
+![SQL Server Management Studio New Database window](/images/accessanalyzer/11.6/install/application/newdatabase.webp)
 
 **Step 2 –** Set the **Database name**. Set any other desired data files configuration per company
 standards. Click **OK** on the New Database window.
@@ -159,7 +159,7 @@ Enter Enterprise Auditor as the Database name.
 :::
 
 
-![SQL Server Management Studio create New Login](/img/product_docs/accessanalyzer/11.6/install/application/newlogin.webp)
+![SQL Server Management Studio create New Login](/images/accessanalyzer/11.6/install/application/newlogin.webp)
 
 **Step 3 –** Create a new SQL Login account by right-clicking on the **Security** > **Logins**
 folder and selecting **New Login**.
@@ -168,12 +168,12 @@ folder and selecting **New Login**.
 Enterprise Auditor database. The available options are Windows authentication and SQL Server
 authentication.
 
-![SQL Server Management Studio new login with Windows authentication](/img/product_docs/accessanalyzer/11.6/install/application/loginwindows.webp)
+![SQL Server Management Studio new login with Windows authentication](/images/accessanalyzer/11.6/install/application/loginwindows.webp)
 
 - If **Windows authentication** is desired, then click **Search** and select the desired Windows
   account, which has been set up for use with Enterprise Auditor.
 
-![SQL Server Management Studio new login with SQL Server authentication](/img/product_docs/accessanalyzer/11.6/install/application/loginsql.webp)
+![SQL Server Management Studio new login with SQL Server authentication](/images/accessanalyzer/11.6/install/application/loginsql.webp)
 
 - **_RECOMMENDED:_** If **SQL Server authentication** is desired, use a login name called Enterprise
   Auditor.
@@ -184,7 +184,7 @@ database) and choose English as the **Default Language**.
 :::
 
 
-![SQL Server Management Studio New Login User Mapping](/img/product_docs/accessanalyzer/11.6/install/application/loginusermapping.webp)
+![SQL Server Management Studio New Login User Mapping](/images/accessanalyzer/11.6/install/application/loginusermapping.webp)
 
 **Step 5 –** Navigate to the **User Mapping** menu, select the Enterprise Auditor (or the desired
 Enterprise Auditor database) database, and set the **Default Schema** to **DBO**.
@@ -203,7 +203,7 @@ topic for instructions.
 :::
 
 
-![Storage Profile configuration page](/img/product_docs/accessanalyzer/11.6/install/application/storageprofile.webp)
+![Storage Profile configuration page](/images/accessanalyzer/11.6/install/application/storageprofile.webp)
 
 **Step 8 –** Launch Enterprise Auditor and navigate to **Settings** > **Storage**.
 
@@ -214,13 +214,13 @@ topic for instructions.
   **Windows authentication** or **SQL Server authentication**. If using SQL Server authentication,
   enter the **User name** and **Password**.
 
-![Connection report window](/img/product_docs/accessanalyzer/11.6/install/application/connectionreport.webp)
+![Connection report window](/images/accessanalyzer/11.6/install/application/connectionreport.webp)
 
 - Click **Apply** and a Connection report window will open. Verify that the connection and test
   table drop were performed successfully.
 - Click **Close** on the Connection report window and then **Save** the new Storage Profile.
 
-![Change storage profile dialog](/img/product_docs/accessanalyzer/11.6/install/application/changestorageprofile.webp)
+![Change storage profile dialog](/images/accessanalyzer/11.6/install/application/changestorageprofile.webp)
 
 :::note
 If previously connected to another database which already had the Enterprise Auditor DB

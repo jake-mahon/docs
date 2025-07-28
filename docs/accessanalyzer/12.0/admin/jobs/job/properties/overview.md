@@ -9,7 +9,7 @@ sidebar_position: 40
 Jobs can be configured to inherit global settings down through parent job groups or to be
 individually configured at the job level through the Job Properties window.
 
-![Open Job Properties from Jobs Tree](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/properties/jobstree.webp)
+![Open Job Properties from Jobs Tree](/images/accessanalyzer/12.0/admin/jobs/job/properties/jobstree.webp)
 
 To configure a job’s properties, open the Job Properties window by right-clicking on the job's node
 in the Navigation pane and selecting **Properties**.

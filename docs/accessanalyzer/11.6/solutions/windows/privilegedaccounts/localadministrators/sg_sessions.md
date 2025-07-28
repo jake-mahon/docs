@@ -19,7 +19,7 @@ The queries) are preconfigured for this job. Never modify the queries.
 :::
 
 
-![Queries for the SG_Sessions Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/sessionsqueries.webp)
+![Queries for the SG_Sessions Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/sessionsqueries.webp)
 
 The queries for the SG_Sessions job are:
 
@@ -31,7 +31,7 @@ The queries for the SG_Sessions job are:
 Navigate to the **Windows** > **Privileged Accounts** > **Local Administrators** > **SG_Sessions** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-![Analysis Tasks for the SG_Sessions Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/sessionsanalysis.webp)
+![Analysis Tasks for the SG_Sessions Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/localadministrators/sessionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -51,4 +51,3 @@ pre-configured report.
 | Report   | Description                                                                                         | Default Tags                                                        | Report Elements                                                                                                                                                                                                                                              |
 | -------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Sessions | This report identifies domain administrators that may have credentials in memory on member servers. | CCPA, GDPR, SOX, HIPAA, PCI-DSS, GLBA, ITAR, FERPA, FISMA, ISO27001 | This report is comprised of four elements: <ul><li>Table – Details the scope of the SG_Sessions job</li><li>Pie Chart – Displays LAPS status by host</li><li>Table – Provides LAPS policy details</li><li>Table – Provides details on all sessions</li></ul> |
-

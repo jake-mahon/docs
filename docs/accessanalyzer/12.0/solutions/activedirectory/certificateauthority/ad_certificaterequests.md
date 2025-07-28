@@ -35,7 +35,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_CertificateRequests Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.webp)
+![Analysis Tasks for the AD_CertificateRequests Job](/images/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -56,4 +56,3 @@ produces the following pre-configured report:
 | Report                        | Description                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                                           |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Expiring Certificate Requests | Certificate hygiene is another aspect of a Certificate Authority that should be monitored. This report shows you all certificate information on certificate requests, expired, and expiring certificates. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays expiring certificates by Certificate Authority</li><li>Table –Provides a summary of expired and expiring certificates</li><li>Table –Provides details on expiring certificates</li></ul> |
-

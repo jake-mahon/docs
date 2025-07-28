@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_GroupPermissions Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/groups/grouppermissionsanalysis.webp)
+![Analysis Tasks for the AD_GroupPermissions Job](/images/accessanalyzer/11.6/solutions/activedirectorypermissionsanalyzer/groups/grouppermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report            | Description                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                             |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Permissions | This report highlights instances where permissions are applied to Active Directory group objects. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays group permissions by domain</li><li>Pie Chart – Displays group permissions by type</li><li>Table – Provides details on group permissions</li></ul> |
-

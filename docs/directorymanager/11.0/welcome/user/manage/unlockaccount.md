@@ -38,7 +38,7 @@ What do you want to do?
 While logging on GroupID portal you provide wrong password on the **GroupID Authenticate** window
 for the specified number of times, the following message appears:
 
-![GroupID Authenticate](/img/product_docs/directorymanager/11.0/portal/user/manage/locked.webp)
+![GroupID Authenticate](/images/directorymanager/11.0/portal/user/manage/locked.webp)
 
 Now you cannot login to portal unless you unlock your identity store account. Follow the
 instructions given below to unlock your account:
@@ -196,7 +196,7 @@ your identity store account. Follow the instructions given below to unlock your 
 While authenticating on the portal, if enrolled or unenrolled users provide a wrong answer for the
 specified number of times, their account gets locked and the following message is displayed:
 
-![accountlockout](/img/product_docs/directorymanager/11.0/portal/user/manage/accountlockout.webp)
+![accountlockout](/images/directorymanager/11.0/portal/user/manage/accountlockout.webp)
 
 This type of account unlock can be resolved in one of the following two ways:
 

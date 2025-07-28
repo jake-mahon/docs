@@ -8,12 +8,12 @@ sidebar_position: 150
 
 To access the Open Non-Compliant Changes Report:
 
-1. Open **Strongpoint** > **Change Management Reports** > **Open NonCompliant Changes**  
+1. Open **Strongpoint** > **Change Management Reports** > **Open NonCompliant Changes**
    The Non-Compliant Changes Report gives you a list of the [Change Logs](/docs/platgovnetsuite/changemanagement/using_change_logs.md). You
    can filter the report or sort by the column heads.
 
-    ![Non-Compliant Change Report](/img/product_docs/platgovnetsuite/change_management/noncompliantreport.webp)
-    ![NonCompliant Flags](/img/product_docs/platgovnetsuite/change_management/noncompliant_flags.webp)
+    ![Non-Compliant Change Report](/images/platgovnetsuite/change_management/noncompliantreport.webp)
+    ![NonCompliant Flags](/images/platgovnetsuite/change_management/noncompliant_flags.webp)
 
 2. A noncompliant change means something got changed without the required approvals. **View** each
    change log record to investigate the change, or use the Mass Update procedure. You can
@@ -49,7 +49,7 @@ Update** to resolve all applicable incidents.
     - **Change Level** is **Change Request**
     - **Date Created** is [_applicable range_]
 
-        ![Set the Title of Action and the Filters](/img/product_docs/platgovnetsuite/change_management/mass_update_filters_3.webp)
+        ![Set the Title of Action and the Filters](/images/platgovnetsuite/change_management/mass_update_filters_3.webp)
 
 6. Open the **Results** tab.
 7. Set **Sort By** to **Date Created**
@@ -60,7 +60,7 @@ Update** to resolve all applicable incidents.
     - **Actual Change Date**
     - **Noncompliance**
 
-        ![Select the Soft By and add Fields to Reults tab](/img/product_docs/platgovnetsuite/change_management/mass_update_filters_4.webp)
+        ![Select the Soft By and add Fields to Reults tab](/images/platgovnetsuite/change_management/mass_update_filters_4.webp)
 
 9. Open the **Mass Update Fields** tab.
 10. Check these Fields:
@@ -68,7 +68,7 @@ Update** to resolve all applicable incidents.
     - **Resolution Description** and add a meaningful description of the Mass Update for **Value**.
     - **Status** and select **Closed** for the **Value**.
 
-        ![Add the information on the Mass Update Fields tab](/img/product_docs/platgovnetsuite/change_management/mass_update_filters_5.webp)
+        ![Add the information on the Mass Update Fields tab](/images/platgovnetsuite/change_management/mass_update_filters_5.webp)
 
 11. **Save** the Mass Update.
 12. Open **Lists** > **Mass Update** > **Saved Mass Updates**

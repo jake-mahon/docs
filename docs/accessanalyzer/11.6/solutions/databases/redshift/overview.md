@@ -62,7 +62,7 @@ content for sensitive data.
 The Enterprise Auditor Redshift  Solution Set is a set of preconfigured audit jobs and reports that
 provides visibility into Redshift Sensitive Data.
 
-![redshiftjobgrpoverview](/img/product_docs/accessanalyzer/11.6/solutions/databases/redshift/redshiftjobgrpoverview.webp)
+![redshiftjobgrpoverview](/images/accessanalyzer/11.6/solutions/databases/redshift/redshiftjobgrpoverview.webp)
 
 The following job groups comprise the Redshift Job Group:
 

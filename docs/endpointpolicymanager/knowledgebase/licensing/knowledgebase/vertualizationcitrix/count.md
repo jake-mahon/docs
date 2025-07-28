@@ -51,11 +51,11 @@ Option 1: Microsoft RDS licensing tool
 
 Option 2: Citrix License Admin Console
 
-![154_1_image0021](/img/product_docs/endpointpolicymanager/license/virtualization/154_1_image0021.webp)
+![154_1_image0021](/images/endpointpolicymanager/license/virtualization/154_1_image0021.webp)
 
 If you choose option 1, please take this screenshot and return it to us:
 
-![154_2_image004](/img/product_docs/endpointpolicymanager/license/virtualization/154_2_image004.webp)
+![154_2_image004](/images/endpointpolicymanager/license/virtualization/154_2_image004.webp)
 
 :::note
 In this example this would be counted as 50 + 50 or, 100 concurrent RDS licenses.
@@ -64,7 +64,7 @@ In this example this would be counted as 50 + 50 or, 100 concurrent RDS licenses
 
 If you choose option 2, please take this screenshot and send it to us
 
-![154_3_image005](/img/product_docs/endpointpolicymanager/license/virtualization/154_3_image005.webp)
+![154_3_image005](/images/endpointpolicymanager/license/virtualization/154_3_image005.webp)
 
 :::note
 In this example the count of licenses would be 10 (Presentation) + 10 (XenDesktop
@@ -84,7 +84,7 @@ bought only 10, 20, etc.
 :::
 
 
-![154_4_image001_950x198](/img/product_docs/endpointpolicymanager/license/virtualization/154_4_image001_950x198.webp)
+![154_4_image001_950x198](/images/endpointpolicymanager/license/virtualization/154_4_image001_950x198.webp)
 
 If this is your situation, simply express the raw number of purchased licenses to your sales or
 renewals person.

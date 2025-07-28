@@ -9,7 +9,7 @@ sidebar_position: 10
 Use the Change File Attributes Parameters page to change the attribute for one or more of the target
 systems or data.
 
-![File System Action Module Wizard Change File Attributes Parameters page](/img/product_docs/accessanalyzer/12.0/admin/action/filesystem/changeattributes.webp)
+![File System Action Module Wizard Change File Attributes Parameters page](/images/accessanalyzer/12.0/admin/action/filesystem/changeattributes.webp)
 
 Select from the following options:
 

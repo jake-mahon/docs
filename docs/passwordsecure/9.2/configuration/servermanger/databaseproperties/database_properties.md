@@ -9,7 +9,7 @@ sidebar_position: 60
 The properties of a database can be opened by double-clicking on the database. No login to the
 database is required.
 
-![installation_with_parameters_225](/img/product_docs/passwordsecure/9.2/configuration/server_manager/database_properties/installation_with_parameters_225.webp)
+![installation_with_parameters_225](/images/passwordsecure/9.2/configuration/server_manager/database_properties/installation_with_parameters_225.webp)
 
 #### Properties
 

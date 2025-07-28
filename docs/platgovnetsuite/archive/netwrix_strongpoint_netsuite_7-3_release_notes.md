@@ -117,7 +117,7 @@ January 25, 2024
 
 - Added **Supervisor** column to the Membership Review.
 
-    ![UAR Membership Review](/img/product_docs/platgovnetsuite/release_notes/uar_review_supervisor.webp)
+    ![UAR Membership Review](/images/platgovnetsuite/release_notes/uar_review_supervisor.webp)
 
 - New filters are available. **Permission Reviews** now have a **Status** filter. Membership Reviews
   now have **Status** and **Supervisor** filters.

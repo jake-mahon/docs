@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_GroupMembership Job](/img/product_docs/accessanalyzer/11.6/solutions/box/groupmembershipanalysis.webp)
+![Analysis Tasks for the Box_GroupMembership Job](/images/accessanalyzer/11.6/solutions/box/groupmembershipanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -33,4 +33,3 @@ pre-configured report.
 | Report                                  | Description                                                                                                | Default Tags | Report Elements                                                                                                                                                                                                         |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Membership (Box Group Membership) | This report summarizes Box group membership and lists all group membership across the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top groups by member count</li><li>Table – Provides summary of group membership</li><li>Table – Provides details on group membership</li></ul> |
-

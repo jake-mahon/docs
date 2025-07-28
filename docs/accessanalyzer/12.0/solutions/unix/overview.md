@@ -36,7 +36,7 @@ solution: **Jobs** > **Unix**.
 The Unix solution is a set of audit jobs and reports that provide visibility into important Unix and
 Linux administration concepts.
 
-![Unix Solution Overview page](/img/product_docs/accessanalyzer/12.0/solutions/unix/overviewpage.webp)
+![Unix Solution Overview page](/images/accessanalyzer/12.0/solutions/unix/overviewpage.webp)
 
 The job groups in the Unix Solution are:
 

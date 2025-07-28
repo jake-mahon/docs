@@ -100,7 +100,7 @@ Enterprise directly via the API, or indirectly via an indirect import
 such as email. In this case the data may be encrypted to ensure the
 confidentiality of the data.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image3.webp)
+![](/images/pingcastle/enterpriseinstall/image3.webp)
 
 Then the PingCastle Enterprise provide the services around the data and
 store it in the database.
@@ -126,26 +126,26 @@ It requires:
   https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 ```
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/enterpriseinstall/image4.webp)
+![A screenshot of a computer Description automatically generated](/images/pingcastle/enterpriseinstall/image4.webp)
 
 1.  IIS should be installed before the ASP.NET 8.0 Hosting Bundle. If
     not, then the Hosting Bundle installation may be required to be
     repaired.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/enterpriseinstall/image5.webp)
+![A screenshot of a computer Description automatically generated](/images/pingcastle/enterpriseinstall/image5.webp)
 
 ## Procedure
 
 The MSI file guides the installation of the software:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image6.webp)
+![](/images/pingcastle/enterpriseinstall/image6.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image7.webp)
+![](/images/pingcastle/enterpriseinstall/image7.webp)
 
 Once the license terms are accepted, the software requires a license key
 which should have been distributed alongside the MSI files.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image8.webp)
+![](/images/pingcastle/enterpriseinstall/image8.webp)
 
 3.  If the license key is missing, reach out PingCastle support
 
@@ -156,15 +156,15 @@ There are two options to configure the database:
 - Using a connection to a database: it implies the software will create
   the database on behalf of the user
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image9.webp)
+![](/images/pingcastle/enterpriseinstall/image9.webp)
 
 Option which creates the database:
 
 Option with the direct connection string:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image10.webp)
+![](/images/pingcastle/enterpriseinstall/image10.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image11.webp)
+![](/images/pingcastle/enterpriseinstall/image11.webp)
 
 The setup configures automatically the website, the database, the
 application and if the database is being created, grant the permission
@@ -182,11 +182,11 @@ custom option "customLoginMessage".
 
 For example:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image12.webp)
+![](/images/pingcastle/enterpriseinstall/image12.webp)
 
 The login page becomes:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image13.webp)
+![](/images/pingcastle/enterpriseinstall/image13.webp)
 
 Please note that the setting push RAW html without escaping. The
 expected html is using the [bootstrap](https://getbootstrap.com/) css
@@ -210,14 +210,14 @@ The easiest way is to change the user from Application to LocalSystem.
 Open the IIS console and go to the application pools settings. Go to
 advanced settings.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image14.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image14.webp)
 
 Find the Identity setting and change ApplicationPoolIdentity to
 LocalSystem.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image15.webp)
+![](/images/pingcastle/enterpriseinstall/image15.webp)
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image16.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image16.webp)
 
 Then restart the application pool.
 
@@ -325,7 +325,7 @@ and may conflict with the PingCastle Enterprise application.
 The solution is to stop the default website and configure it to not
 start automatically.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image17.webp)
+![](/images/pingcastle/enterpriseinstall/image17.webp)
 
 ## Database
 
@@ -396,7 +396,7 @@ sudo -u postgres createdb -O pingcastle pingcastle
 
 **Configure SQL Server with a local DB account**
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image18.webp)
+![](/images/pingcastle/enterpriseinstall/image18.webp)
 
 You first need to create a local account inside Sql Server.
 
@@ -406,9 +406,9 @@ Be sure to uncheck "user must change password at the next login" as
 PingCastleEnterprise does not support password rotation. (you can change
 later the password inside the application.Production.json file)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image19.webp)
+![](/images/pingcastle/enterpriseinstall/image19.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image20.webp)
+![](/images/pingcastle/enterpriseinstall/image20.webp)
 
 **Then create a database**
 
@@ -417,17 +417,17 @@ Do not forget to set the owner as the user you created before.
 You should verify that the credentials and that the server is available
 before going further.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image21.webp)
+![](/images/pingcastle/enterpriseinstall/image21.webp)
 
-![Une image contenant texte, capture d'écran, nombre, affichage Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image22.webp)
+![Une image contenant texte, capture d'écran, nombre, affichage Description générée automatiquement](/images/pingcastle/enterpriseinstall/image22.webp)
 
 In SQL Server configuration, a typical mistake is to use tcp connection.
 TCP/IP needs to be enabled manually in SQL Server as it is disabled by
 default.
 
-![Une image contenant texte, capture d'écran, Police, logiciel Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image23.webp)
+![Une image contenant texte, capture d'écran, Police, logiciel Description générée automatiquement](/images/pingcastle/enterpriseinstall/image23.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image24.webp)
+![](/images/pingcastle/enterpriseinstall/image24.webp)
 
 At the installation step, indicate that you want to use an ad-hoc
 connection string.
@@ -445,9 +445,9 @@ change the connection string after the installation by editing the file
 appsettings.production.json. Do not forget that special characters may
 need to be escaped as they are located inside a json string.
 
-![Une image contenant texte, capture d'écran, Police Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image25.webp)
+![Une image contenant texte, capture d'écran, Police Description générée automatiquement](/images/pingcastle/enterpriseinstall/image25.webp)
 
-![Une image contenant texte, Police, nombre, logiciel Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image26.webp)
+![Une image contenant texte, Police, nombre, logiciel Description générée automatiquement](/images/pingcastle/enterpriseinstall/image26.webp)
 
 **Configure SQL Server with an Active Directory user**
 
@@ -455,21 +455,21 @@ You need to first create this Windows user.
 
 You have to create a new Windows login. Go to create a new login.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image18.webp)
+![](/images/pingcastle/enterpriseinstall/image18.webp)
 
 Then select the Windows user you created.
 
-![Une image contenant texte, capture d'écran, logiciel, nombre Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image27.webp)
+![Une image contenant texte, capture d'écran, logiciel, nombre Description générée automatiquement](/images/pingcastle/enterpriseinstall/image27.webp)
 
 You can then create a database with the Windows user as the owner of the
 database:
 
-![Une image contenant texte, logiciel, capture d'écran, nombre Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image28.webp)
+![Une image contenant texte, logiciel, capture d'écran, nombre Description générée automatiquement](/images/pingcastle/enterpriseinstall/image28.webp)
 
 At the installation step, indicate that you want to use an ad-hoc
 connection string.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image24.webp)
+![](/images/pingcastle/enterpriseinstall/image24.webp)
 
 Specify the following:
 
@@ -483,11 +483,11 @@ After the installation, another steep need to be done: you need to
 change the Application Pool identity.\
 Go to IIS and select the application pool. Go to the advanced settings
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/enterpriseinstall/image29.webp)
+![A screenshot of a computer Description automatically generated](/images/pingcastle/enterpriseinstall/image29.webp)
 
 Go to Identity and select the custom user account:
 
-![Une image contenant texte, capture d'écran, affichage, logiciel Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image30.webp)
+![Une image contenant texte, capture d'écran, affichage, logiciel Description générée automatiquement](/images/pingcastle/enterpriseinstall/image30.webp)
 
 Restart IIS.
 
@@ -496,7 +496,7 @@ Restart IIS.
 The settings are located in the appsettings.json located at the root of
 the application folder.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image31.webp)
+![](/images/pingcastle/enterpriseinstall/image31.webp)
 
 Two settings are needed for the application: the database and the
 license information.
@@ -556,19 +556,19 @@ user is granted access or not. The list of group SID that a user is
 granted access is displayed with the command \"whoami /all\". A SID
 match the form S-1-XXXXX.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image32.webp)
+![](/images/pingcastle/enterpriseinstall/image32.webp)
 
 First, be sure that the Windows authentication package is installed. It
 is not part of the default installation of IIS.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image33.webp)
+![](/images/pingcastle/enterpriseinstall/image33.webp)
 
 Close and reopen the IIS console: you should see an authentication
 option.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/pingcastle/enterpriseinstall/image34.webp)
+![A screenshot of a computer Description automatically generated](/images/pingcastle/enterpriseinstall/image34.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image35.webp)
+![](/images/pingcastle/enterpriseinstall/image35.webp)
 
 Keep enabled the anonymous authentication and enable the Windows
 authentication.
@@ -578,7 +578,7 @@ WindowsGroup and WindowsGroupAdmin parameter containing the SID of the
 group mapping the membership. Do not forget to add a comma at the end of
 the previous line to have a valid json file.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image36.webp)
+![](/images/pingcastle/enterpriseinstall/image36.webp)
 
 If you want to remove a user if it does not belong to the WindowsGroup
 at its next connection, you can set the parameter
@@ -591,14 +591,14 @@ in the Active Directory.
 Also Windows does not provide an email address when creating the
 account. As a consequence, it is set to a known value disabling it.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image37.webp)
+![](/images/pingcastle/enterpriseinstall/image37.webp)
 
 If you want to hide the internal accounts, you can set the following
 property ("disablePasswordLogon") in the appsettings.json file.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image38.webp)
+![](/images/pingcastle/enterpriseinstall/image38.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image39.webp)
+![](/images/pingcastle/enterpriseinstall/image39.webp)
 
 This setup affect all the pages for authentication, which implies that
 API calls will need in addition to their API key a Windows account.
@@ -620,9 +620,9 @@ Except the PostLogoutRedirecUrl which is set to the PingCastle
 Enterprise website url, all parameters are dependent of the OpenID
 provider.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image40.webp)
+![](/images/pingcastle/enterpriseinstall/image40.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image41.webp)
+![](/images/pingcastle/enterpriseinstall/image41.webp)
 
 If you need to specify a scope, you can enter it with the form
 
@@ -633,7 +633,7 @@ If you need to specify a scope, you can enter it with the form
 If you want to hide the internal accounts, you can set the following
 property in the appsettings.json file.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image42.webp)
+![](/images/pingcastle/enterpriseinstall/image42.webp)
 
 **Configure AzureAD authentication as OpenID**
 
@@ -641,31 +641,31 @@ Connect to https://portal.azure.com to go to "App registrations". Then register 
 
 Select redirectUri as Web and set the URL that the browser will go to.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image43.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image43.webp)
 
 Be sure the URL ends with `: signin-oidc`
 
 Then go to the permissions page:
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image44.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image44.webp)
 
 Clic on "Grant admin consent for " the application
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image45.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image45.webp)
 
 **After the action, the Status is changed**
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image46.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image46.webp)
 
 Once this is created, you have to note the ClientID and the Tenant Id as
 below:
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image47.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image47.webp)
 
 Last step: You have to go to the Authentication tab and enable ID
 tokens:
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image48.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image48.webp)
 
 You have to adjust the OpenID configuration located in appsettings.json
 to the following one:
@@ -693,7 +693,7 @@ If it is the case, when the login page is browsed, the application look
 if this header is set. If it is set, it considers the user as
 authaticated. Example using the header named PingCastleAuth.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image49.webp)
+![](/images/pingcastle/enterpriseinstall/image49.webp)
 
 Please note that the PingCastle application must be isolated by a
 reverse proxy that will prohibit non authenticated user to set their own
@@ -702,14 +702,14 @@ header and thus bypass the authentication mechanism.
 If you want to hide the internal accounts, you can set the following
 property in the appsettings.json file.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image38.webp)
+![](/images/pingcastle/enterpriseinstall/image38.webp)
 
 **Configure SAML2 authentication**
 
 If you want to hide the internal accounts, you can set the following
 property in the appsettings.json file.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image38.webp)
+![](/images/pingcastle/enterpriseinstall/image38.webp)
 
 PingCastle Enterprise supports natively SAML2 authentication.
 
@@ -723,7 +723,7 @@ is isolated by a proxy or a firewall.
 
 The following section needs to be added to the appsettings.json files.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image50.webp)
+![](/images/pingcastle/enterpriseinstall/image50.webp)
 
 You need to gather the IdPMetataUrl of your provider and setup the
 Issuer which is the audience defined.\
@@ -731,25 +731,25 @@ You may set other options such as SignatureAlgorithm,
 AudienceRestricted, or RevocationMode to tune the Identity Provider
 behavior.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image51.webp)
+![](/images/pingcastle/enterpriseinstall/image51.webp)
 
 Here an example of configuration with Okta:
 
 Log in to your Okta tenant, switch to the admin portal, and switch to
 the classic UI if you are in the developer UI.
 
-![Admin Portal](/img/product_docs/pingcastle/enterpriseinstall/image52.webp)
+![Admin Portal](/images/pingcastle/enterpriseinstall/image52.webp)
 
 Click Applications, Add Application, Create New App, and select the SAML
 2.0 radio button before clicking Create.
 
-![Create New App](/img/product_docs/pingcastle/enterpriseinstall/image53.webp)
+![Create New App](/images/pingcastle/enterpriseinstall/image53.webp)
 
 Give your app a name and click Next.
 
-![Name App](/img/product_docs/pingcastle/enterpriseinstall/image54.webp)
+![Name App](/images/pingcastle/enterpriseinstall/image54.webp)
 
-![Config App](/img/product_docs/pingcastle/enterpriseinstall/image55.webp)
+![Config App](/images/pingcastle/enterpriseinstall/image55.webp)
 
 **In Single Sign on URL, enter https://yourPingCastleServer/Saml2/AssertionConsumerService**
 
@@ -759,7 +759,7 @@ Once the configuration is set, locate the IdP metadata url.
 
 This is the link pointed in the image below.
 
-![Metadata](/img/product_docs/pingcastle/enterpriseinstall/image56.webp)
+![Metadata](/images/pingcastle/enterpriseinstall/image56.webp)
 
 Last, you'll need to make sure that your user is allowed to use this app
 in Okta. Click on the Assignments tab, click the Assign button, and
@@ -768,14 +768,14 @@ click Assign to People.
 Click the Assign button next to your user, and then click Save and Go
 Back.
 
-![Metadata](/img/product_docs/pingcastle/enterpriseinstall/image57.webp)
+![Metadata](/images/pingcastle/enterpriseinstall/image57.webp)
 
 Once these values have been saved and the application restarted, a new
 SAML2 option will be available on the login screen.
 
 You are now ready to use SAML2 as authentication.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image58.webp)
+![](/images/pingcastle/enterpriseinstall/image58.webp)
 
 **Advanced configuration**
 
@@ -786,24 +786,24 @@ above.
 
 The following configuration need to be set.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image59.webp)
+![](/images/pingcastle/enterpriseinstall/image59.webp)
 
 First, the IdPMetadata attribute is not used anymore.
 
 The AllowedIssuer is the issuer ID set by the remote Idp. It is the top
 value set in the Idp Metadata manually downloaded:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image60.webp)
+![](/images/pingcastle/enterpriseinstall/image60.webp)
 
 Then the SingleSignOnDestination need to be set. it can be found in the
 IdP Metadata
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image61.webp)
+![](/images/pingcastle/enterpriseinstall/image61.webp)
 
 Then the certificate need to be set. It is the base64 encoding of a real
 certificate. It can be seen also in the metadata:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image62.webp)
+![](/images/pingcastle/enterpriseinstall/image62.webp)
 
 The configuration relies on the ITFoxTec SAML2 provider and thus, advanced settings can be seen [here](https://github.com/ITfoxtec/ITfoxtec.Identity.Saml2/blob/ede215bda2fd163367d475ca6104ec8ccb7642d3/src/ITfoxtec.Identity.Saml2/Configuration/Saml2Configuration.cs)
 
@@ -834,12 +834,12 @@ The first step is to configure the webserver to require a client
 certificate when establishing the SSL connection. It requires SSL (aka a
 https access).
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image63.webp)
+![](/images/pingcastle/enterpriseinstall/image63.webp)
 
 The server server will then request a certificate each time the website
 is accessed.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image64.webp)
+![](/images/pingcastle/enterpriseinstall/image64.webp)
 
 9.  The PingCastle recommendation is to either set to accept to allow
     the API access, or to setup another virtual host in order to have an
@@ -861,7 +861,7 @@ they cannot be joined, the verification will have to be turned OFF using
 the setting CertificateAuthNoRevocation.
 :::
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image65.webp)
+![](/images/pingcastle/enterpriseinstall/image65.webp)
 
 To map a user account, the program will extract the Dns Name of the
 certificate (the first CN= part without the CN=), then the UPN which can
@@ -872,13 +872,13 @@ certificate.
 
 If the certificate cannot be recognized, an error message will be shown:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image66.webp)
+![](/images/pingcastle/enterpriseinstall/image66.webp)
 
 To be able to login into the application, a user account must be created
 using the attribute explained above (login matching the subject in the
 dns form). Please note that no password needs to be submitted.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image67.webp)
+![](/images/pingcastle/enterpriseinstall/image67.webp)
 
 **Email**
 
@@ -886,7 +886,7 @@ PingCastle requires a configuration to be able to send emails.
 
 It is located in the appsettings.json file.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image68.webp)
+![](/images/pingcastle/enterpriseinstall/image68.webp)
 
 The Email is the address used to send email,.
 
@@ -914,7 +914,7 @@ Azure Configuration page.
 The minimal required fields to be configured are: database, license and
 the connection string, named as "DefaultConnection".
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image69.webp)
+![](/images/pingcastle/enterpriseinstall/image69.webp)
 
 To deploy the files on the webserver you'll need the [azure cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 
@@ -932,44 +932,44 @@ Do not forget to use the command az webapp to see the application that you creat
 Here is the review of actions to build a running app. First create an
 App Service.
 
-![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image70.webp)
+![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/images/pingcastle/enterpriseinstall/image70.webp)
 
 A template can be used to build both at same time web app and database
 
-![Une image contenant texte, capture d'écran, logiciel, Police Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image71.webp)
+![Une image contenant texte, capture d'écran, logiciel, Police Description générée automatiquement](/images/pingcastle/enterpriseinstall/image71.webp)
 
-![Une image contenant texte, capture d'écran, nombre, Police Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image72.webp)
+![Une image contenant texte, capture d'écran, nombre, Police Description générée automatiquement](/images/pingcastle/enterpriseinstall/image72.webp)
 
 Beware that on this case, Azure built automatically a docker file. That
 means that Configuration (usually provided using appsettings and
 displayed here as Environment variables, are not embedded into the
 image)
 
-![Une image contenant texte, capture d'écran, Police, nombre Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image73.webp)
+![Une image contenant texte, capture d'écran, Police, nombre Description générée automatiquement](/images/pingcastle/enterpriseinstall/image73.webp)
 
-![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image74.webp)
+![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/images/pingcastle/enterpriseinstall/image74.webp)
 
 You will need to edit this manually on the server side.
 
 To debug the application startup, you have to enable the App Service
 Logs.
 
-![Une image contenant texte, capture d'écran, logiciel, nombre Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image75.webp)
+![Une image contenant texte, capture d'écran, logiciel, nombre Description générée automatiquement](/images/pingcastle/enterpriseinstall/image75.webp)
 
 You can then see the log stream:
 
-![Une image contenant texte, logiciel, Page web, Site web Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image76.webp)
+![Une image contenant texte, logiciel, Page web, Site web Description générée automatiquement](/images/pingcastle/enterpriseinstall/image76.webp)
 
 In the example below, the connectionString has not been found (because
 docker does not forward it). It will need to be fixed before the
 application can start.
 
-![Une image contenant texte, capture d'écran, Police Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image77.webp)
+![Une image contenant texte, capture d'écran, Police Description générée automatiquement](/images/pingcastle/enterpriseinstall/image77.webp)
 
 Also since the May 2024 release of PingCastle Enterprise, the
 application can read the user token, allowing to configure AAD that way:
 
-![Une image contenant texte, logiciel, nombre, Police Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image78.webp)
+![Une image contenant texte, logiciel, nombre, Police Description générée automatiquement](/images/pingcastle/enterpriseinstall/image78.webp)
 
 # Initial startup
 
@@ -982,7 +982,7 @@ For security reasons, there is no default account or password.
 When there is no user configured in the application, a special screen is
 shown to create the first user. This user is given the \"Admin\" role.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image79.webp)
+![](/images/pingcastle/enterpriseinstall/image79.webp)
 
 # Initial configuration
 
@@ -993,7 +993,7 @@ For more details please see the user documentation.
 PingCastle configures by default an entity named \"Default\". It is the
 entity where Auto Created domains are assigned.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image80.webp)
+![](/images/pingcastle/enterpriseinstall/image80.webp)
 
 You can created other entities and by setting a parent, built a
 hierarchy.
@@ -1117,7 +1117,7 @@ Please note that you need to assign the Agent to an entity. It is not
 allowed to assign it to a domain as the entity will be used as a root to
 assign the new forwarded domains.
 
-![Une image contenant texte, capture d'écran, nombre, Police Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image81.webp)
+![Une image contenant texte, capture d'écran, nombre, Police Description générée automatiquement](/images/pingcastle/enterpriseinstall/image81.webp)
 
 On the client side, you need to edit the appsettings file to indicate
 this credential and also other information.
@@ -1128,7 +1128,7 @@ file).
 
 Specify the Uri as the FQDN of the recipient and the API key.
 
-![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image82.webp)
+![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/images/pingcastle/enterpriseinstall/image82.webp)
 
 The export level is the one defined with the classic PingCastle Agent.
 If information has to be removed, the data will be recomputed (this can
@@ -1137,7 +1137,7 @@ recent report). If the level does not need to be restricted, the
 information will be forwarded as is. If the version of the report is
 more recent, no information will be lost.
 
-![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image83.webp)
+![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/images/pingcastle/enterpriseinstall/image83.webp)
 
 ## Synchronization patterns
 
@@ -1148,7 +1148,7 @@ configured license.
 Ping Castle Enterprise will Sync a domain if the domain is edited, or if
 the sync button is pressed.
 
-![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image84.webp)
+![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/images/pingcastle/enterpriseinstall/image84.webp)
 
 The Sync will is shown if the sync link is configured AND if the user
 has the ability to edit the domain.When a Sync is done, the domain
@@ -1167,7 +1167,7 @@ already exist, so this remove request may be denied silently.
 You can also force the synchronization of all domains in the
 Interoperability page.
 
-![Une image contenant texte, capture d'écran, Police, conception Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image85.webp)
+![Une image contenant texte, capture d'écran, Police, conception Description générée automatiquement](/images/pingcastle/enterpriseinstall/image85.webp)
 
 ## Synchronization patterns at import time
 
@@ -1190,13 +1190,13 @@ the button described above.
 
 If there is an error, it will be displayed as an exception.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image86.webp)
+![](/images/pingcastle/enterpriseinstall/image86.webp)
 
 Beware: the detail of the error may be described in an inner exception
 described below. In this case, this is a DNS issue as the host cannot be
 found.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image87.webp)
+![](/images/pingcastle/enterpriseinstall/image87.webp)
 
 # Troubleshooting
 
@@ -1241,14 +1241,14 @@ On Linux, the command `service <name-of-service> status` can indicate if
 the service is running or not. If an error prohibit the start of the
 service, the log is shown.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image88.webp)
+![](/images/pingcastle/enterpriseinstall/image88.webp)
 
 When no log is available, the program can be run manually outside of the
 service scope to have a more detailed error message.
 
 Example:
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image89.webp)
+![](/images/pingcastle/enterpriseinstall/image89.webp)
 
 Here are a couple of well-known errors, their description and their
 solution
@@ -1257,21 +1257,21 @@ solution
 
 Here are the messages displayed when running under a service:
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image90.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image90.webp)
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image91.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image91.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image92.webp)
+![](/images/pingcastle/enterpriseinstall/image92.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image93.webp)
+![](/images/pingcastle/enterpriseinstall/image93.webp)
 
-![C:\Users\Adiant\AppData\Local\Temp\event_error.webp](/img/product_docs/pingcastle/enterpriseinstall/image94.webp)
+![C:\Users\Adiant\AppData\Local\Temp\event_error.webp](/images/pingcastle/enterpriseinstall/image94.webp)
 
 And the message when running on the command line:
 
-![C:\Users\Adiant\AppData\Local\Temp\dotnet_pingastleenterprise.dll.webp](/img/product_docs/pingcastle/enterpriseinstall/image95.webp)
+![C:\Users\Adiant\AppData\Local\Temp\dotnet_pingastleenterprise.dll.webp](/images/pingcastle/enterpriseinstall/image95.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image96.webp)
+![](/images/pingcastle/enterpriseinstall/image96.webp)
 
 Solution:
 
@@ -1287,12 +1287,12 @@ The last error was related to the missing KB KB2533623
 If the web.config is missing or if it does not load the .net module,
 like in this example,
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image97.webp)
+![](/images/pingcastle/enterpriseinstall/image97.webp)
 
 The webserver will process the program as normal file. The url to login
 will be displayed as a 404 error.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image98.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseinstall/image98.webp)
 
 The solution is to copy the web.config from our download website and to
 replace the existing one.
@@ -1302,14 +1302,14 @@ replace the existing one.
 When the application is unable to start, the following message are
 shown:
 
-![C:\Users\Adiant\AppData\Local\Temp\brower_error.webp](/img/product_docs/pingcastle/enterpriseinstall/image99.webp)
+![C:\Users\Adiant\AppData\Local\Temp\brower_error.webp](/images/pingcastle/enterpriseinstall/image99.webp)
 
-![C:\Users\Adiant\AppData\Local\Temp\event1000.webp](/img/product_docs/pingcastle/enterpriseinstall/image100.webp)
+![C:\Users\Adiant\AppData\Local\Temp\event1000.webp](/images/pingcastle/enterpriseinstall/image100.webp)
 
 A more detailed message are shown in the event log or directly on the
 command line:
 
-![C:\Users\Adiant\AppData\Local\Temp\event1026.webp](/img/product_docs/pingcastle/enterpriseinstall/image101.webp)
+![C:\Users\Adiant\AppData\Local\Temp\event1026.webp](/images/pingcastle/enterpriseinstall/image101.webp)
 
 In this case, the license was invalid and need to be replaced in the
 file appsettings.json.
@@ -1320,7 +1320,7 @@ When the database doesn\'t contain the table needed, the application
 tries to create them. If the permissions are not granted, a message will
 be generated and the application will not be able to start.
 
-![C:\Users\Adiant\AppData\Local\Temp\sql_auth_error.webp](/img/product_docs/pingcastle/enterpriseinstall/image102.webp)
+![C:\Users\Adiant\AppData\Local\Temp\sql_auth_error.webp](/images/pingcastle/enterpriseinstall/image102.webp)
 
 Solution:
 
@@ -1340,7 +1340,7 @@ remote connection and that the database may not be exposed. Be sure that
 it is available through TCP. (in the following case, remote access is
 forbidden because TCP/IP is disabled)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image103.webp)
+![](/images/pingcastle/enterpriseinstall/image103.webp)
 
 You have 2 solutions to grant PingCastle an identity allowed on SQL
 Server:
@@ -1348,11 +1348,11 @@ Server:
 changing the application pool identity to match an active directory user
 which are granted permissions to the database
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image104.webp)
+![](/images/pingcastle/enterpriseinstall/image104.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image105.webp)
+![](/images/pingcastle/enterpriseinstall/image105.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image106.webp)
+![](/images/pingcastle/enterpriseinstall/image106.webp)
 
 You can use a SQL Server local account and specify its login password in
 the connection string
@@ -1360,9 +1360,9 @@ the connection string
 Edit the application.setting file and locate the connection string. Then
 add `;User ID=sa;Password=pass123`
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image107.webp)
+![](/images/pingcastle/enterpriseinstall/image107.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image108.webp)
+![](/images/pingcastle/enterpriseinstall/image108.webp)
 
 ## Enable Debug Logging
 
@@ -1415,9 +1415,9 @@ mode again to set a new administrator password.
 Open the database and open the table `AspNetUsers`. Locate the
 account, for example using its email, and delete the associated line.
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image109.webp)
+![](/images/pingcastle/enterpriseinstall/image109.webp)
 
-![](/img/product_docs/pingcastle/enterpriseinstall/image110.webp)
+![](/images/pingcastle/enterpriseinstall/image110.webp)
 
 At the next login, the application will detect that there is no more
 administrator configured in the application and will switch to the

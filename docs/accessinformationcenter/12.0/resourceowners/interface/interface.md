@@ -10,7 +10,7 @@ The Resource Owners interface opened by the **Resource Owners** button on the Ac
 Center Home page is where Ownership Administrators perform many operations around assigning and
 managing ownership.
 
-![Resource Owners Interface in Netwrix Access Information Center](/img/product_docs/accessinformationcenter/12.0/resourceowners/interface.webp)
+![Resource Owners Interface in Netwrix Access Information Center](/images/accessinformationcenter/12.0/resourceowners/interface.webp)
 
 The information displayed in the table includes:
 
@@ -57,7 +57,7 @@ The table data grid functions the same way as other table grids. See the
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Owners Interface](/img/product_docs/accessinformationcenter/12.0/resourceowners/interfacebuttons.webp)
+![Action buttons in the Resource Owners Interface](/images/accessinformationcenter/12.0/resourceowners/interfacebuttons.webp)
 
 | Button               | Function                                                                                                                                                                                                                                                                                                                                                                                   |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

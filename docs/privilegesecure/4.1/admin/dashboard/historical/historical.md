@@ -9,7 +9,7 @@ sidebar_position: 40
 The Historical sessions dashboard shows all created sessions and their status. Only users with the
 Administrator role can view recordings of historical sessions.
 
-![historical](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/dashboard/historical.webp)
+![historical](/images/privilegesecure/4.1/accessmanagement/admin/dashboard/historical.webp)
 
 The dashboard has the following features:
 

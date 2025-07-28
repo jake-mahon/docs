@@ -20,7 +20,7 @@ displayed to the first Administration Console administrator, showing a license k
 This warning always displays when the organization’s license is within 14 days of expiring. Click
 **OK**. See the [Import the License](/docs/threatprevention/7.5/install/firstlaunch/licenseimport.md) topic for licensing the product.
 
-![Import Templates dialog box](/img/product_docs/threatprevention/7.5/install/importtemplates.webp)
+![Import Templates dialog box](/images/threatprevention/7.5/install/importtemplates.webp)
 
 **Step 2 –** On the Import Templates dialog box, you can choose to import policy templates now or
 later.
@@ -39,7 +39,7 @@ You can import the policy templates any time later. See the
 [Import Templates](/docs/threatprevention/7.5/admin/templates/folder/overview.md#import-templates) topic for additional
 information.
 
-![Install Agent dialog box](/img/product_docs/threatprevention/7.5/install/installagent.webp)
+![Install Agent dialog box](/images/threatprevention/7.5/install/installagent.webp)
 
 **Step 3 –** On the Install Agents dialog box, you can choose to install the Agent on servers now or
 later.

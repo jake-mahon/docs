@@ -13,7 +13,7 @@ the permissions were last replicated.
 
 You can view all active servers as enabled and not replicated servers as disabled. It is as:
 
-![disabledfileserver](/img/product_docs/directorymanager/11.0/portal/entitlement/disabledfileserver.webp)
+![disabledfileserver](/images/directorymanager/11.0/portal/entitlement/disabledfileserver.webp)
 
 Here, the second server is disabled while the first one is enabled. A disabled server indicates that
 the Entitlement job has not run to replicate permission data for it. Once permissions are
@@ -46,13 +46,13 @@ displayed, showcasing the following information:
 - The date and time the file/folder was last created.
 - Owner of the file/folder.
 
-    ![fileservercard](/img/product_docs/directorymanager/11.0/portal/entitlement/fileservercard.webp)
+    ![fileservercard](/images/directorymanager/11.0/portal/entitlement/fileservercard.webp)
 
 NOTE: Date format: mm/dd/yyyy
 
 - For child folders, the path is as: servername.parentsharedfoldername.
 
-    ![fileserverpath](/img/product_docs/directorymanager/11.0/portal/entitlement/fileserverpath.webp)
+    ![fileserverpath](/images/directorymanager/11.0/portal/entitlement/fileserverpath.webp)
 
 - You can view the child files and folders within a shared folder till the nth level. Double-click a
   folder card to view its direct child files and folders. Continue till the nth level.
@@ -62,7 +62,7 @@ NOTE: Date format: mm/dd/yyyy
 On clicking a file/folder card, all users and groups with effective NTFS permission on it are listed
 in the right pane.
 
-![fileserverpermissions](/img/product_docs/directorymanager/11.0/portal/entitlement/fileserverpermissions.webp)
+![fileserverpermissions](/images/directorymanager/11.0/portal/entitlement/fileserverpermissions.webp)
 
 Information includes:
 
@@ -91,7 +91,7 @@ Information includes:
 
     You can allow and deny access and inherited access and click **Save** icon.
 
-    ![filespermissions](/img/product_docs/directorymanager/11.0/portal/entitlement/filespermissions.webp)
+    ![filespermissions](/images/directorymanager/11.0/portal/entitlement/filespermissions.webp)
 
     Permissions are displayed as **Explicit permissions** which list the effective permissions set
     the user/group has on the file/folder.
@@ -104,7 +104,7 @@ properties as well as collapse the permissions view.
 You can search for specific files and folders (shared) on the server. You can also search for a file
 or folder in a particular folder.
 
-![filefolderssearch](/img/product_docs/directorymanager/11.0/portal/entitlement/filefolderssearch.webp)
+![filefolderssearch](/images/directorymanager/11.0/portal/entitlement/filefolderssearch.webp)
 
 **Search filter**
 

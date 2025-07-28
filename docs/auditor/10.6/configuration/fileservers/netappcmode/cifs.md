@@ -38,7 +38,7 @@ Do one of the following depending on the OS:
 3. In the **Advanced Security Settings for `<Share_Name>`** dialog, navigate to the **Auditing**
    tab, click Edit.
 
-    ![auditing_entries_netapp](/img/product_docs/auditor/10.6/configuration/fileservers/netappcmode/auditing_entries_netapp.webp)
+    ![auditing_entries_netapp](/images/auditor/10.6/configuration/fileservers/netappcmode/auditing_entries_netapp.webp)
 
 4. In a separate **Advanced Security Settings for `<Share_Name>`** dialog, click Add to add a
    principal. You can also select **Everyone** (or another user-defined group containing users that
@@ -75,7 +75,7 @@ Do one of the following depending on the OS:
 3. In the **Advanced Security Settings for `<Share_Name>`** dialog, navigate to the **Auditing**
    tab, click Edit.
 
-    ![auditing_entries_netapp_2016](/img/product_docs/auditor/10.6/configuration/fileservers/netappcmode/auditing_entries_netapp_2016.webp)
+    ![auditing_entries_netapp_2016](/images/auditor/10.6/configuration/fileservers/netappcmode/auditing_entries_netapp_2016.webp)
 
 4. Click Add to add a new principal. You can also select Everyone (or another user-defined group
    containing users that are granted special permissions) and click Edit.
@@ -96,25 +96,25 @@ Do one of the following depending on the OS:
     - Failed read attempts
     - Failed change attempts | Auditing Entry | | | --- | --- | | Successful reads | | | The
       Auditing Entry below shows Advanced Permissions for auditing successful reads only:
-      ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp) -
+      ![manualconfig_fileserver_auditingentry_1_2016](/images/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp) -
       Type—Set to*"Success"*. - Applies to—Set to*"Files only"*. - Advanced permissions—SelectList
       folder / read data. - Make sure that theOnly apply these auditing settings to objects and/or
       containers within this containercheckbox is cleared. | | | Successful changes | | | The
       Auditing Entry below shows Advanced Permissions for auditing successful changes only:
-      ![manualconfig_fileserver_auditingentry_2_2016](/img/product_docs/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp) -
+      ![manualconfig_fileserver_auditingentry_2_2016](/images/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp) -
       Type—Set to*"Success"*. - Applies to—Set to*"This folder, subfolders and files"*. - Advanced
       permissions: - Create files / write data - Create folders / append data - Write extended
       attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make
       sure that theOnly apply these auditing settings to objects and/or containers within this
       containercheckbox is cleared. | | | Failed read attempts | | | The Auditing Entry below shows
       Advanced Permissions for auditing failed read attempts:
-      ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) -
+      ![manualconfig_fileserver_auditingentry_3_2016](/images/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) -
       Type—Set to*"Fail"*. - Applies to—Set to*"This folder, subfolders and files"*. - Advanced
       permissions—SelectList folder / read data. - Make sure that theOnly apply these auditing
       settings to objects and/or containers within this containercheckbox is cleared. | | | Failed
       change attempts | | | The Auditing Entry below shows Advanced Permissions for auditing failed
       change attempts:
-      ![manualconfig_fileserver_auditingentry_4_2016](/img/product_docs/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_4_2016.webp) -
+      ![manualconfig_fileserver_auditingentry_4_2016](/images/auditor/10.6/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_4_2016.webp) -
       Type—Set to*"Fail"*. - Applies to—Set to*"This folder, subfolders and files"*. - Advanced
       permissions: - Create files / write data - Create folders / append data - Write extended
       attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make

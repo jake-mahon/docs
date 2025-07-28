@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_CertificateAuthorityRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificateauthorityrightsanalysis.webp)
+![Analysis Tasks for the AD_CertificateAuthorityRights Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificateauthorityrightsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -39,4 +39,3 @@ job produces the following pre-configured report.
 | Report                 | Description                                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                 |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enrollment Permissions | This report highlights vulnerable Access control Lists (ACLs) with permissions or owners assigned to open groups and non-standard ACLs with owners that are not domain or enterprise admins. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays risky permissions by principal</li><li>Pie Chart – Displays risky permissions by count</li><li>Table – Provides details on risky permissions</li></ul> |
-

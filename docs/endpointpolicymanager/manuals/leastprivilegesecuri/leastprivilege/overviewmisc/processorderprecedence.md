@@ -14,7 +14,7 @@ to highest.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/processing_order_and_precedence.webp)
+generated](/images/endpointpolicymanager/leastprivilege/processing_order_and_precedence.webp)
 
 Within any collection, each policy is processed in numerical order from lowest to highest.
 

@@ -49,7 +49,7 @@ Policy Manager support only accepts logs from machines with the latest CSE and l
 :::
 
 
-![Running the PPLOGS tool](/img/product_docs/endpointpolicymanager/troubleshooting/runninglogs.webp)
+![Running the PPLOGS tool](/images/endpointpolicymanager/troubleshooting/runninglogs.webp)
 
 Follow the steps for gathering and uploading logs.
 
@@ -61,12 +61,12 @@ gathering the logs.
 
 **Step 3 –** Collect the logs.
 
-![exportonexml](/img/product_docs/endpointpolicymanager/troubleshooting/exportonexml.webp)
-![exportcollectionxml](/img/product_docs/endpointpolicymanager/troubleshooting/exportcollectionxml.webp)
+![exportonexml](/images/endpointpolicymanager/troubleshooting/exportonexml.webp)
+![exportcollectionxml](/images/endpointpolicymanager/troubleshooting/exportcollectionxml.webp)
 
 **Step 4 –** If using the Group Policy Method, export policies and/or collections as XML files.
 
-![exportfromappmanager](/img/product_docs/endpointpolicymanager/troubleshooting/exportfromappmanager.webp)
+![exportfromappmanager](/images/endpointpolicymanager/troubleshooting/exportfromappmanager.webp)
 
 **Step 5 –** If using Application Manager, export the XML settings data of the AppSet.
 
@@ -123,7 +123,7 @@ Example how to:
 - Use an admin command prompt and run `PPLOGS`. Rename to `SRX01234-ppLogs-as-Admin.zip`
 - Use a normal command prompt and run `PPLOGS`. Rename to `SRX01234-ppLogs-as-USER.zip`
 
-![128_1_command-prompt](/img/product_docs/endpointpolicymanager/troubleshooting/128_1_command-prompt.webp)
+![128_1_command-prompt](/images/endpointpolicymanager/troubleshooting/128_1_command-prompt.webp)
 
 **Step 2 –** Run `GPRESULT` to get the following results:
 
@@ -136,15 +136,15 @@ Example how to:
 - Most Endpoint Policy Manager settings are simply **right-click** > **Export as XML**. See the
   examples below for exporting as a collection and an individual policy.
 
-![128_2_export-collection-as-xml](/img/product_docs/endpointpolicymanager/troubleshooting/128_2_export-collection-as-xml.webp)
+![128_2_export-collection-as-xml](/images/endpointpolicymanager/troubleshooting/128_2_export-collection-as-xml.webp)
 
-![128_3_export-as-xml](/img/product_docs/endpointpolicymanager/troubleshooting/128_3_export-as-xml.webp)
+![128_3_export-as-xml](/images/endpointpolicymanager/troubleshooting/128_3_export-as-xml.webp)
 
 **Step 4 –** For Endpoint Policy Manager Application Manager (most common) this is what you want to
 do: There are two ways to export settings but the following is the type of export the support team
 requires. Select the **Options** button within the Pak, then select **Export XML Settings Data**.
 
-![128_4_image002](/img/product_docs/endpointpolicymanager/troubleshooting/128_4_image002.webp)
+![128_4_image002](/images/endpointpolicymanager/troubleshooting/128_4_image002.webp)
 
 **Step 5 –** Rename your XML file(s) to not only include the SRX number but to also contain hints as
 to their content. For example:

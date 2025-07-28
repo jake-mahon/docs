@@ -12,13 +12,13 @@ Manager or Endpoint Policy Manager Taskbar Manager and selecting Add | New Colle
 collection options, you can right-click on the name of the collection and select "Edit Collection,"
 as seen in Figure 43.
 
-![collections_policy_settings_10](/img/product_docs/endpointpolicymanager/startscreentaskbar/settings/collections_policy_settings_10.webp)
+![collections_policy_settings_10](/images/endpointpolicymanager/startscreentaskbar/settings/collections_policy_settings_10.webp)
 
 Figure 43. Editing collections for Taskbar Manager.
 
 The Endpoint Policy Manager Taskbar Manager Pinned Collection Editor can be seen in Figure 44.
 
-![collections_policy_settings_11](/img/product_docs/endpointpolicymanager/startscreentaskbar/settings/collections_policy_settings_11.webp)
+![collections_policy_settings_11](/images/endpointpolicymanager/startscreentaskbar/settings/collections_policy_settings_11.webp)
 
 Figure 44. Endpoint Policy Manager Taskbar Manager Pinned Collection Editor options.
 
@@ -36,7 +36,7 @@ The fields inside the Taskbar Manager Pinned Collection Editor are as follows:
   changed. If no pinned applications are also in Start Menu groups, then a URL is used as a fallback
   display. The icon is then simply a URL within an advertised group.
 
-![collections_policy_settings_12](/img/product_docs/endpointpolicymanager/startscreentaskbar/settings/collections_policy_settings_12.webp)
+![collections_policy_settings_12](/images/endpointpolicymanager/startscreentaskbar/settings/collections_policy_settings_12.webp)
 
 Figure 45. Pinned desktop icons will appear in the Endpoint Policy Manager Start Screen Manager
 advertisement group, or a group of your choice.

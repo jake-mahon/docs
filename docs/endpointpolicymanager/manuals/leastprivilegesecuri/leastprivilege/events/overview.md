@@ -58,4 +58,4 @@ Viewer.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/events/discovery_auditing_and_events.webp)
+generated](/images/endpointpolicymanager/leastprivilege/events/discovery_auditing_and_events.webp)

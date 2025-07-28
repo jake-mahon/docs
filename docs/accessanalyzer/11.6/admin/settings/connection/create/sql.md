@@ -15,7 +15,7 @@ PostgreSQL Solutions.
 :::
 
 
-![User Credentials - SQL Authentication](/img/product_docs/accessanalyzer/11.6/admin/settings/connection/profile/sqlauthentication.webp)
+![User Credentials - SQL Authentication](/images/accessanalyzer/11.6/admin/settings/connection/profile/sqlauthentication.webp)
 
 The required credentials for SQL Authentication are:
 

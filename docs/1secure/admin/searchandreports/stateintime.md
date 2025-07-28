@@ -22,15 +22,15 @@ State-in-time reports display data for the Active Directory, Microsoft Entra ID,
 Online platforms in your environment. You must enable the following connectors to collect data for
 the respective platforms:
 
-- Active Directory State (AD State)  
+- Active Directory State (AD State)
   See Step 8 in the
   [Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md)
   topic
-- Azure AD State  
+- Azure AD State
   See Step 6 in the
   [Add a Source and Connectors for Microsoft Entra ID](/docs/1secure/admin/organizations/sourcesandconnectors/entraid.md)
   topic
-- SharePoint Online State  
+- SharePoint Online State
   See Step 6 in the
   [Add a Source and Connectors for SharePoint Online](/docs/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md)
   topic
@@ -56,7 +56,7 @@ information.
 :::
 
 
-![Risk Reports page](/img/product_docs/1secure/admin/searchandreports/sitrisks.webp)
+![Risk Reports page](/images/1secure/admin/searchandreports/sitrisks.webp)
 
 **Step 4 –** In the left pane, click a category to view its reports. Categories are:
 

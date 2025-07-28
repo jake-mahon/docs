@@ -70,7 +70,7 @@ request is available in the permitted domains.
 In order to add a domain, simply enter it at the bottom of the dialogue. Clicking on
 :material-plus-circle-outline: will add the entry to the list at the top.
 
-![cors-en-new](/img/product_docs/passwordsecure/9.2/installation/installation_web_application/cors-en-new.webp)
+![cors-en-new](/images/passwordsecure/9.2/installation/installation_web_application/cors-en-new.webp)
 
 NOTE: In general, it is sufficient to add the IP address which was also saved as the Web server host
 address.

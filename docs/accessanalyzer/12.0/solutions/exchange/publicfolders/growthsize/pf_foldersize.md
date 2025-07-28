@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the PF_FolderSize Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/publicfolders/growthsize/foldersizeanalysis.webp)
+![Analysis Tasks for the PF_FolderSize Job](/images/accessanalyzer/12.0/solutions/exchange/publicfolders/growthsize/foldersizeanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -57,4 +57,3 @@ the following pre-configured report:
 | Report                        | Description                                                                   | Default Tags | Report Elements                                                                                                                                                    |
 | ----------------------------- | ----------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Public Folder Size and Growth | This report shows the largest public folders and percent change over 30 days. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest public folders</li><li>Table – Provides details on largest public folders</li></ul> |
-

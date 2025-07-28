@@ -9,7 +9,7 @@ sidebar_position: 20
 The Event Type tab enables you to define the objects and events that Threat Prevention
 monitors/blocks.
 
-![Policy - Event Type tab](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/eventtypetab.webp)
+![Policy - Event Type tab](/images/threatprevention/7.4/admin/policies/eventtype/eventtypetab.webp)
 
 Each event type represents what is monitored or blocked. Event filters are used to either narrow or
 broaden the scope of the monitoring/blocking as desired. Click **Add** (+) to open the Event
@@ -20,7 +20,7 @@ topic for additional information.
 
 ## Event Selection Window
 
-![Event Type tab - Event Selection window](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/eventselection.webp)
+![Event Type tab - Event Selection window](/images/threatprevention/7.4/admin/policies/eventtype/eventselection.webp)
 
 Check the box for the desired event type and click **OK**. The corresponding event filters show at
 the bottom of the Event Type tab. Multiple event types can be assigned to a policy.

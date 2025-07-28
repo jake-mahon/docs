@@ -38,7 +38,7 @@ and conditions.
 **Step 4 –** Right-click the **PPE10.1.msi** icon, click **Copy**, and then paste the file into the
 distribution point.
 
-![installing_ppe](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe.webp)
+![installing_ppe](/images/passwordpolicyenforcer/10.2/administration/installing_ppe.webp)
 
 **Step 5 –** Give the **Domain Controllers** security group read access to the PPE10.1.msi file in
 the distribution point.
@@ -54,7 +54,7 @@ the distribution point.
 **Step 3 –** Right-click the **Domain Controllers OU** in the left pane, and then click **Create a
 GPO in this domain, and Link it here...**
 
-![installing_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_1.webp)
+![installing_ppe_1](/images/passwordpolicyenforcer/10.2/administration/installing_ppe_1.webp)
 
 **Step 4 –** Enter **Password Policy Enforcer** in the provided field, and then press **Enter**.
 
@@ -78,7 +78,7 @@ For example: \\file server\distribution point share\PPE10.1.msi
 
 **Step 5 –** Click **Open**.
 
-![installing_ppe_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
+![installing_ppe_2](/images/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
 
 **Step 6 –** Select the **Assigned deployment method**, and then click **OK**.
 

@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup28.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/oracle/activity/jobgroup28.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ produces the following pre-configured report.
 | Report                             | Description                                                                                     | Default Tags | Report Elements                                                                                                                                                                                                                                                           |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Permission Change Activity Summary | This report lists all permission change related Oracle events, and summarizes them by instance. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by permission change activity</li><li>Table –  Provides details on instances by permission change activity</li><li>Table – Provides details on permission change details</li></ul> |
-

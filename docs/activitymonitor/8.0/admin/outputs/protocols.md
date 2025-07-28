@@ -12,7 +12,7 @@ modified. These settings are initially configured when the output is added.
 Select an output from the Monitored Hosts tab and click **Edit** to open the output Properties
 window.
 
-![Protocols Tab](/img/product_docs/activitymonitor/8.0/admin/outputs/protocolstab.webp)
+![Protocols Tab](/images/activitymonitor/8.0/admin/outputs/protocolstab.webp)
 
 The tab contains the following settings:
 

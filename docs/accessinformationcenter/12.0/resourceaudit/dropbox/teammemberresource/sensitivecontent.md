@@ -12,7 +12,7 @@ report includes a table with criteria matches visible to Access Information Cent
 Security Team Member or Administrator roles. The Matches table requires the storage of discovered
 sensitive data within the Access Analyzer database or it will be blank.
 
-![Sensitive Content report at the Team Member, Resource, and Subfolder level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/dropbox/teammemberresource/teammembersensitivecontent.webp)
+![Sensitive Content report at the Team Member, Resource, and Subfolder level](/images/accessinformationcenter/12.0/resourceaudit/dropbox/teammemberresource/teammembersensitivecontent.webp)
 
 This report is comprised of the following columns:
 

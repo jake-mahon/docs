@@ -21,12 +21,12 @@ Trying to install ActiveX controls as a Standard User is not allowed.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items.webp)
+generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items.webp)
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items_1.webp)
 
 You can use ActiveX rules and specify the CAB file you want to permit.
 

@@ -25,7 +25,7 @@ this job.
 :::
 
 
-![Analysis Task for the AD_ComputerDelegation Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/computers/computerdelegationanalysis.webp)
+![Analysis Task for the AD_ComputerDelegation Job](/images/accessanalyzer/11.6/solutions/activedirectory/computers/computerdelegationanalysis.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ produces the following pre-configured report:
 | Report                           | Description                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                                                           |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Computers Trusted for Delegation | This report highlights which computers are trusted for delegation, which accounts are sensitive, and whether the delegation is constrained or unconstrained. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays computers trusted for delegation by domain</li><li>Table – Provides details on computers trusted for delegation</li><li>Table – Provides details on computers trusted for delegation by domain</li></ul> |
-

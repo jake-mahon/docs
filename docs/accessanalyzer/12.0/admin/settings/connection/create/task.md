@@ -9,7 +9,7 @@ sidebar_position: 50
 The information in this section applies to Select Account Type > Task (Local) or Task (Domain) in
 the User Credentials window.
 
-| ![User Credentials - Task (Local)](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/profile/tasklocal.webp)  | ![User Credentials - Task (Domain)](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/profile/taskdomain.webp)       |
+| ![User Credentials - Task (Local)](/images/accessanalyzer/12.0/admin/settings/connection/profile/tasklocal.webp)  | ![User Credentials - Task (Domain)](/images/accessanalyzer/12.0/admin/settings/connection/profile/taskdomain.webp)       |
 |:---------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|
 | *Task (Local)*                                                                                                              | *Task (Domain)*                                                                                                                    |
 

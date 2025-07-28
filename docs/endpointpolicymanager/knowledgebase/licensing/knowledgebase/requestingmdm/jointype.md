@@ -7,14 +7,14 @@ sidebar_position: 50
 # How are BYOD "Workplace Joined" (aka Intune Registered) counted toward licensing?
 
 The Licensing Tool (LT) we supply will count your computers within Intune. There are three types of
-computers that would need to be addressed.  
+computers that would need to be addressed.
 You can see these as items 1, 2 and 3 below.
 
 - Case Item 1 — Azure Active Directory registered, but MDM = NONE
 - Case Item 2 — Azure Active Directory Joined, and MDM = Intune
 - Case Item 3 — Azure Active Directory Registered and MDM = Intune
 
-![754_1_1_950x287](/img/product_docs/endpointpolicymanager/license/mdm/754_1_1_950x287.webp)
+![754_1_1_950x287](/images/endpointpolicymanager/license/mdm/754_1_1_950x287.webp)
 
 In all these cases, the computers are counted toward Intune licensing. This is because:
 
@@ -32,4 +32,4 @@ In all these cases, the computers are counted toward Intune licensing. This is b
 Using LT, you can see all computers noted above would be counted within LT for licensing purposes,
 as seen here.
 
-![754_2_2_950x795](/img/product_docs/endpointpolicymanager/license/mdm/754_2_2_950x795.webp)
+![754_2_2_950x795](/images/endpointpolicymanager/license/mdm/754_2_2_950x795.webp)

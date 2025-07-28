@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_Access Job](/img/product_docs/accessanalyzer/12.0/solutions/box/accessanalysis.webp)
+![Analysis Tasks for the Box_Access Job](/images/accessanalyzer/12.0/solutions/box/accessanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -39,4 +39,3 @@ following pre-configured reports.
 | ---------------------------------- | ----------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Access (Box Access Overview) | This report highlights groups with access to Box resources, and summarizes them by group. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top groups by access granted</li><li>Table – Provides details on top groups by access</li><li>Table – Provides details on group access</li></ul> |
 | User Access                        | This report highlights users with access to Box resources, and summarizes them by group.  | None         | This report is comprised of three elements: <ul><li>T-Chart – Displays top users by direct access</li><li>Table – Provides summary of user access</li><li>Table – Provides details on user access</li></ul>               |
-

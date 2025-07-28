@@ -6,11 +6,11 @@ sidebar_position: 80
 
 # Resolving Non-Compliant Changes
 
-Open **Netwrix Dashboard** > **Reports** > **Change Enablement** > **Open NonCompliant Changes**  
+Open **Netwrix Dashboard** > **Reports** > **Change Enablement** > **Open NonCompliant Changes**
 The Non-Compliant Changes Report gives you a list of the [Change Logs](/docs/platgovsalesforce/changemanagement/using_change_logs.md). You
 can filter the report or sort by the column heads.
 
-![Non-Compliant Change Management Report](/img/product_docs/platgovnetsuite/change_management/changelog-1.webp)
+![Non-Compliant Change Management Report](/images/platgovnetsuite/change_management/changelog-1.webp)
 
 A noncompliant change means something got changed without the required approvals. Open each change
 log to investigate the change. You can retroactively attach a change request to a noncompliant

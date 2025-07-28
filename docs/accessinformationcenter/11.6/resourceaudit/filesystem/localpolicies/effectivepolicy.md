@@ -9,7 +9,7 @@ sidebar_position: 10
 The Effective Policy report at the local policy level provides a list of users and groups who are
 effectively granted or denied access through the selected policy.
 
-![Effective Policy report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/localpolicies/effectivepolicy.webp)
+![Effective Policy report](/images/accessinformationcenter/11.6/resourceaudit/filesystem/localpolicies/effectivepolicy.webp)
 
 This report is comprised of the following columns:
 

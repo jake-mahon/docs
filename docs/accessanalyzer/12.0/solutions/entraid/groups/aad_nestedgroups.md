@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis tasks for AAD_NestedGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/entraid/groups/nestedgroupsanalysis.webp)
+![Analysis tasks for AAD_NestedGroups Job](/images/accessanalyzer/12.0/solutions/entraid/groups/nestedgroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ following pre-configured report.
 | Report        | Description                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                 |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Nested Groups | This report identifies the groups with the largest nested group count, as well as their deepest level of nesting. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by group nesting</li><li>Table – Provides nested group details</li><li>Tables – Provides details on top domains by group nesting</li></ul> |
-

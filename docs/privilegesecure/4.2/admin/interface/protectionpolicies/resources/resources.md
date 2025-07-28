@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Resources tab shows the resources associated with the selected protection policy.
 
-![Protection policy resources tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/policyprotection/resources.webp)
+![Protection policy resources tab](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/policyprotection/resources.webp)
 
 The Resources table has the following features:
 

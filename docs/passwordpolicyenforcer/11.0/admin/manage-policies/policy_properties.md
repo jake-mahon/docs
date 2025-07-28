@@ -10,15 +10,15 @@ Sets the properties for the selected policy.
 
 **Step 1 –** Open the Configuration Console:
 
-Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**  
-or  
+Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**
+or
 Double click the **PPE Configuration** desktop shortcut.
 
 **Step 2 –** Click on a policy name to open the policy configuration page.
 
 **Step 3 –** Open the **Properties** tab.
 
-![Set the Policy Properties](/img/product_docs/passwordpolicyenforcer/11.0/administration/properties.webp)
+![Set the Policy Properties](/images/passwordpolicyenforcer/11.0/administration/properties.webp)
 
 Each policy must have a unique name. To change the name of a policy, type the new name in the text
 box.

@@ -17,11 +17,11 @@ page for the organization is displayed with the Sources tab selected by default.
 **Step 3 –** On the Sources tab, click **Add** to add a source. The Select Data Source (Step 1 of 3)
 pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
+![Select Data Source %28Step 1 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 **Step 4 –** Select **Entra ID** and click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/entra_configsourcedetails_step2of3.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/entra_configsourcedetails_step2of3.webp)
 
 **Step 5 –** On the Configure source details (Step 2 of 3) pane, specify the following settings:
 
@@ -57,7 +57,7 @@ pane is displayed.
 
 **Step 6 –** Click **Next**.
 
-![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/entra_connector_step3of3.webp)
+![Choose New Connector %28Step 3 of 3%29 pane](/images/1secure/admin/organizations/sourcesandconnectors/entra_connector_step3of3.webp)
 
 **Step 7 –** The Choose new connector (Step 3 of 3) pane lists three connectors for Microsoft Entra
 ID. Specify the following:

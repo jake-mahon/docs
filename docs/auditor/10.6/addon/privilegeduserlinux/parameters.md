@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The configuration wizard opens in the default web browser:
 
-![PrivilegedUsersConfigWizard](/img/product_docs/auditor/10.6/addon/privilegeduserlinux/configwizard.webp)
+![PrivilegedUsersConfigWizard](/images/auditor/10.6/addon/privilegeduserlinux/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

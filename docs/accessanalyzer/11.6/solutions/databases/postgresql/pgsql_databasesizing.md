@@ -9,7 +9,7 @@ sidebar_position: 30
 The Configuration Job Group is designed to provide insight into details about the
 PostgreSQL environment and potential vulnerabilities related to instance configuration settings.
 
-![Configuration Job Group - PostgreSQL](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/configurationjobgroup.webp)
+![Configuration Job Group - PostgreSQL](/images/accessanalyzer/11.6/solutions/databases/postgresql/configurationjobgroup.webp)
 
 The job in the Configuration Job Groups is:
 
@@ -26,7 +26,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/pssqldatabasesizinganalysistasks.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/postgresql/pssqldatabasesizinganalysistasks.webp)
 
 The default analysis tasks are:
 
@@ -39,4 +39,3 @@ the following pre-configured report.
 | Report          | Description                                                | Default Tags | Report Elements                                                                                                                                                                                         |
 | --------------- | ---------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Database Sizing | This report highlights the size of databases in PostgreSQL | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top databases by size (MB)</li><li>Bar Chart – Displays sizes by host (GB)</li><li>Table – Provides database details</li></ul> |
-

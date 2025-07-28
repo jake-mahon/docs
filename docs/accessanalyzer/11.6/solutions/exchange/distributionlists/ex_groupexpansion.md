@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The EX_GroupExpansion job expands the direct membership of distribution groups in the environment.
 
-![Effective Membership > EX_GroupExpansion Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/effectivemembershipjobstree.webp)
+![Effective Membership > EX_GroupExpansion Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/distributionlists/effectivemembershipjobstree.webp)
 
 The EX_GroupExpansion job is located in the Effective Membership job group.
 
@@ -23,7 +23,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_GroupExpansion Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/groupexpansionanalysis.webp)
+![Analysis Tasks for the EX_GroupExpansion Job](/images/accessanalyzer/11.6/solutions/exchange/distributionlists/groupexpansionanalysis.webp)
 
 The following analysis tasks are selected by default:
 

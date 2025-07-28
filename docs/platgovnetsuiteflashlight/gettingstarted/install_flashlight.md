@@ -15,7 +15,7 @@ Flashlight bundle into your NetSuite account.
 4. Enter **297487** in **Keywords**
 5. Click **Search**
 
-    ![advancedinstall_800x411](/img/product_docs/platgovnetsuiteflashlight/getting_started/advancedinstall_800x411.webp)
+    ![advancedinstall_800x411](/images/platgovnetsuiteflashlight/getting_started/advancedinstall_800x411.webp)
 
 6. Click **Flashlight by Strongpoint**
 7. Click **Install** to start the bundle installation.

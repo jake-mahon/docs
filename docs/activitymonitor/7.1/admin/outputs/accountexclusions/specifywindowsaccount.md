@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Specify account or group window is opened from a field where a Windows account is needed.
 
-![Specify Account or Group popup window](/img/product_docs/activitymonitor/7.1/admin/agents/properties/windowsspecifyaccountorgroup.webp)
+![Specify Account or Group popup window](/images/activitymonitor/7.1/admin/agents/properties/windowsspecifyaccountorgroup.webp)
 
 Follow the steps to use this window.
 

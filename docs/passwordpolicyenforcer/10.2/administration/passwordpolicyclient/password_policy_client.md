@@ -16,9 +16,9 @@ policy to them, and by telling them why their password was rejected. If the Pass
 is not installed, then users will see the default Windows error message when their password is
 rejected.
 
-![the_password_policy_client](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client.webp)
+![the_password_policy_client](/images/passwordpolicyenforcer/10.2/administration/the_password_policy_client.webp)
 
-![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_1.webp)
+![the_password_policy_client_1](/images/passwordpolicyenforcer/10.2/administration/the_password_policy_client_1.webp)
 
 The Password Policy Client displays the password policy during a password change so that users can
 see the policy while they choose their password. The Password Policy Client also displays a detailed

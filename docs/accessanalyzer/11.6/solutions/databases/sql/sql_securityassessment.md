@@ -9,7 +9,7 @@ sidebar_position: 90
 The SQL_SecurityAssessment Job summarizes and categorizes security findings into HIGH, MEDIUM, LOW,
 and NO FINDINGS categories based on severity.
 
-![SQL_SecurityAssessment](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/sqljobgroup49.webp)
+![SQL_SecurityAssessment](/images/accessanalyzer/11.6/solutions/databases/sql/sqljobgroup49.webp)
 
 **Special Dependencies**
 
@@ -30,7 +30,7 @@ Only information collected from jobs/groups being run will produce findings.
 Navigate to the SQL > SQL_SecurityAssesment > Configure node and select Analysis to view the
 analysis task.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/sqljobgroup50.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/sqljobgroup50.webp)
 
 The default analysis task is:
 
@@ -43,4 +43,3 @@ produces the following pre-configured report.
 | Report                  | Description                                                                | Default Tags        | Report Elements                                                                                                                                                                                                                                                                                            |
 | ----------------------- | -------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SQL Security Assessment | This report summarizes security related results from the SQL solution set. | Security Assessment | This report is comprised of four elements: <ul><li>Table – Provides details on the scope of the audit of the SQL Solution set</li><li>Pie Chart – Displays job findings by severity</li><li>Table – Displays findings by category and provides details on the SQL_SecurityAssessment job results</li></ul> |
-

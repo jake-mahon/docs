@@ -79,11 +79,11 @@ To exclude the Notepad application window with "_Document1_" open, add the follo
 
 - In the Title filter enter "_Document1.txt - Notepad_":
 
-    ![uavr_source_example_1](/img/product_docs/auditor/10.6/admin/monitoringplans/useractivity/uavr_source_example_1.webp)
+    ![uavr_source_example_1](/images/auditor/10.6/admin/monitoringplans/useractivity/uavr_source_example_1.webp)
 
 - In the Description filter, enter the corresponding value, here it will be "_Notepad_".
 
-![uavr_source_example_2](/img/product_docs/auditor/10.6/admin/monitoringplans/useractivity/uavr_source_example_2.webp)
+![uavr_source_example_2](/images/auditor/10.6/admin/monitoringplans/useractivity/uavr_source_example_2.webp)
 
 ## Computer
 

@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_ManagedPolicies Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/policies/managedpoliciesanalysis.webp)
+![Analysis Tasks for the AWS_ManagedPolicies Job](/images/accessanalyzer/11.6/solutions/aws/policies/managedpoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -36,4 +36,3 @@ following preconfigured report:
 | Report               | Description                                                | Default Tags | Report Element                                                                                                                                                                                                                                    |
 | -------------------- | ---------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | AWS Managed Policies | This report analyzes AWS Managed Policies and their usage. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays AWS managed policies by account</li><li>Table – Shows AWS managed policies by account</li><li>Table – Provides details on AWS managed policies</li></ul> |
-

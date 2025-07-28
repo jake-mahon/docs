@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The 3. Quarantine job group is designed to report on and quarantine files that are pending cleanup.
 
-![3. Quarantine Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/quarantine/jobstree.webp)
+![3. Quarantine Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/quarantine/jobstree.webp)
 
 This job group includes the following jobs:
 

@@ -32,21 +32,21 @@ structured fields to fill.
 
 When `HideRoles` is set to `true`, then the **Access Permissions** tab is not accessible.
 
-![Access Permissions](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_hideroles_v603.webp)
+![Access Permissions](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_hideroles_v603.webp)
 
 #### Adjust the request type
 
 When `WorkflowRequestType` is set to `Self`, then the finalization step looks like:
 
-![WorkflowRequestType = Self](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypeself_v603.webp)
+![WorkflowRequestType = Self](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypeself_v603.webp)
 
 When `WorkflowRequestType` is set to `Helpdesk`, then the finalization step looks like:
 
-![WorkflowRequestType = Helpdesk](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypehelpdesk_v603.webp)
+![WorkflowRequestType = Helpdesk](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypehelpdesk_v603.webp)
 
 #### Display records in a table
 
-![RecordTable Example](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_recordtable_v603.webp)
+![RecordTable Example](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/form/form_recordtable_v603.webp)
 
 ## Properties
 

@@ -17,7 +17,7 @@ latest Admin Console MSI is installed on the management station.
 :::
 
 
-![getting_to_know_policypak](/img/product_docs/endpointpolicymanager/remoteworkdelivery/getting_to_know_endpointpolicymanager.webp)
+![getting_to_know_policypak](/images/endpointpolicymanager/remoteworkdelivery/getting_to_know_endpointpolicymanager.webp)
 
 The functions of collections and policies are as follows:
 

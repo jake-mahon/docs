@@ -9,7 +9,7 @@ sidebar_position: 40
 **Step 1 –** Finding add-on IDs requires a little bit of work. To discover them, you need to click
 on "Add-ons" in Firefox on an example computer, as shown in Figure 18.
 
-![add_ons](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons.webp)
+![add_ons](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons.webp)
 
 Figure 18. The Add-ons tab in Firefox.
 
@@ -23,7 +23,7 @@ Figure 18. The Add-ons tab in Firefox.
 **Step 3 –** Then, press F12 for developer tools. In the lowest row, paste the snippet of code
 supplied below, as shown in Figure 19.
 
-![add_ons_3](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_3.webp)
+![add_ons_3](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_3.webp)
 
 Figure 19. The Console tab.
 
@@ -33,7 +33,7 @@ type allow pasting," as shown in Figure 20.
 :::
 
 
-![add_ons_4](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_4.webp)
+![add_ons_4](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_4.webp)
 
 Figure 20. Allowing pasting to occur.
 
@@ -50,24 +50,24 @@ console.log(addonElement.attributes["name"].value + " = " + addonElement.value);
 
 **Step 5 –** Paste the snippet into the lowest place on the page, as shown in Figure 21.
 
-![add_ons_5](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_5.webp)
+![add_ons_5](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_5.webp)
 
 Figure 21. Copying the snippet to the Console tab.
 
 The result you will get (which is to the right of the equal sign within quotes) will be the name of
 the GUID or friendly name, as shown in Figure 22 and Figure 23.
 
-![add_ons_6](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_6.webp)
+![add_ons_6](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_6.webp)
 
 Figure 22. Example 1 showing only GUIDs.
 
-![add_ons_7](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_7.webp)
+![add_ons_7](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_7.webp)
 
 Figure 23. Example 2 showing the friendly name and GUID.
 
 **Step 6 –** Then, inside the Endpoint Policy Manager MMC console, you will add the ID you want
 (without quotes), as shown in Figure 24.
 
-![add_ons_8](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_8.webp)
+![add_ons_8](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/addons/add_ons_8.webp)
 
 Figure 24. Adding the ID within the Endpoint Policy Manager MMC console.

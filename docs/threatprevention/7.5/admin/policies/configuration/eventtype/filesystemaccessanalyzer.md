@@ -16,7 +16,7 @@ The event filters for the File System Enterprise Auditor event type are:
 - Processes and Configuration
 - Perpetrators to Exclude
 
-![Policy window - File System Enterprise Auditor Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer.webp)
+![Policy window - File System Enterprise Auditor Event Type](/images/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -40,7 +40,7 @@ type is used by the same policy.
 Use the File System Enterprise Auditor filter to set the scope of the policy to only monitor
 specific file system paths or to exclude specific file system paths from being monitored.
 
-![Policy window - File System Enterprise Auditor filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer_1.webp)
+![Policy window - File System Enterprise Auditor filter](/images/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer_1.webp)
 
 The Include Paths section defines the top level folder or individual files for monitoring. Use the
 Exclude Paths section to refine and remove any child items from being monitored. Any files or
@@ -66,7 +66,7 @@ for additional information.
 
 **Sub Folder**
 
-![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subfolder.webp)
+![Paths filter - Sub Folder checkbox](/images/threatprevention/7.5/admin/policies/eventtype/subfolder.webp)
 
 When paths are added, a Sub-Folder checkbox displays. If checked, the filter is applied to the
 parent and all child content (files and folders). If unchecked, the filter is only applied to the
@@ -76,7 +76,7 @@ listed folder and its first-level contents.
 
 Use the File System Agents filter to set the scope of the policy to specific Agents and/or domains.
 
-![Policy window - File System Agents filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystemagents.webp)
+![Policy window - File System Agents filter](/images/threatprevention/7.5/admin/policies/eventtype/filesystemagents.webp)
 
 The Agents/Domains list on the left displays available Agents and domains. The Selected
 Agents/Domains list on the right displays Agents and domains included in the policy.
@@ -108,7 +108,7 @@ Use the Processes and Configuration filter to set the scope of the policy to inc
 and exclude specific processes from being monitored. You can also set the number of days to retain
 the activity logs.
 
-![Policy window - Processes and Configuration filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/processesandconfiguration.webp)
+![Policy window - Processes and Configuration filter](/images/threatprevention/7.5/admin/policies/eventtype/processesandconfiguration.webp)
 
 - The **Record Read Operations** checkbox is checked by default. To configure the policy to ignore
   read operations, uncheck this option.
@@ -125,7 +125,7 @@ the activity logs.
 Use the Perpetrators to Exclude filter to exclude specific security principals committing changes
 from being monitored.
 
-![Policy window - Perpetrators to Exclude filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/perpetratorstoexclude.webp)
+![Policy window - Perpetrators to Exclude filter](/images/threatprevention/7.5/admin/policies/eventtype/perpetratorstoexclude.webp)
 
 Use the buttons above the Exclude Perpetrators and Exclude Collections areas to edit the lists.
 

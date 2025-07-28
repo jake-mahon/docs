@@ -39,7 +39,7 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 2 –** In the left pane, click **Risk profiles**.The Risk profiles page is displayed.
 
-![Risk profiles list](/img/product_docs/1secure/admin/riskprofiles/riskprofiles.webp)
+![Risk profiles list](/images/1secure/admin/riskprofiles/riskprofiles.webp)
 
 Risk profiles are displayed in the list with the following information:
 
@@ -72,7 +72,7 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 3 –** Click **Add profile**. The New risk profile pane is displayed.
 
-![New risk profile pane](/img/product_docs/1secure/admin/riskprofiles/newriskprofilepane.webp)
+![New risk profile pane](/images/1secure/admin/riskprofiles/newriskprofilepane.webp)
 
 **Step 4 –** Enter a name for the risk profile in the Name field and click **Save**.
 

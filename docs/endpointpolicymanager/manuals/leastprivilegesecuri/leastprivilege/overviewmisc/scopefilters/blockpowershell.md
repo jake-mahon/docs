@@ -12,13 +12,13 @@ However, you might need to run some PowerShell scripts as SYSTEM to perform some
 Since PowerShell is now being blocked for all Computer side processes, you cannot run a specific
 script with PowerShel.
 
-![A screen shot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_2b_block_powershell.webp)
+![A screen shot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_2b_block_powershell.webp)
 
 To enable this, simply add another rule to ALLOW AND LOG, for example, C:\SCRIPTS\ITSCRIPT1.ps1, and
 set the scope to User and System processes, but use the scope Filter to SYSTEM.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_2b_block_powershell_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_2b_block_powershell_1.webp)
 
 Result:
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_2b_block_powershell_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_2b_block_powershell_2.webp)

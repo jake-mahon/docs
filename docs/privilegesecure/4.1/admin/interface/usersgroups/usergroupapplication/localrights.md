@@ -8,7 +8,7 @@ sidebar_position: 60
 
 The Local Rights tab shows information about the local rights granted for the selected user.
 
-![Local Rights Tab for Application User](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/userlocalrightstab.webp)
+![Local Rights Tab for Application User](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/userlocalrightstab.webp)
 
 The Local Rights tab has the following feature:
 

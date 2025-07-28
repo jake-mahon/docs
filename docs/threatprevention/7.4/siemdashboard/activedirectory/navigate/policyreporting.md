@@ -14,7 +14,7 @@ policy.
 
 The Policy Reporting dashboard contains the following cards:
 
-![Policy Reporting Dashboard](/img/product_docs/threatprevention/7.4/siemdashboard/splunk/activedirectory/dashboard/policyreporting.webp)
+![Policy Reporting Dashboard](/images/threatprevention/7.4/siemdashboard/splunk/activedirectory/dashboard/policyreporting.webp)
 
 - Activity (Successful/Blocked) – Timeline of successful/failed/blocked events related to the
   selected policy that have been recorded in the specified timeframe

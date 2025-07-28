@@ -18,23 +18,23 @@ First, you need to configure the Endpoint Policy Manager CSE using Global Netwri
 Configuration Policy and have it affect endpoints. This is the switch which turns on Privilege
 Secure on the Endpoints when the Endpoint Policy Manager CSE is installed.
 
-![965_1_image-20230627091218-5_950x515](/img/product_docs/endpointpolicymanager/integration/965_1_image-20230627091218-5_950x515.webp)
+![965_1_image-20230627091218-5_950x515](/images/endpointpolicymanager/integration/965_1_image-20230627091218-5_950x515.webp)
 
 When that is done you can create policies which affect endpoints such as Executable, Windows
 Installer, etc. and have them work unlicensed. Rememberthat this only works when used in conjunction
 with Netwrix Privilege Secure. For example, an Executable policy may be started like this:
 
-![965_2_image-20230627091218-6_950x566](/img/product_docs/endpointpolicymanager/integration/965_2_image-20230627091218-6_950x566.webp)
+![965_2_image-20230627091218-6_950x566](/images/endpointpolicymanager/integration/965_2_image-20230627091218-6_950x566.webp)
 
 But one of the first screens you will encounter is this. Here you must select **Use with Netwrix
 Privilege Secure**as shown below.
 
-![965_3_image-20230627091218-7_950x672](/img/product_docs/endpointpolicymanager/integration/965_3_image-20230627091218-7_950x672.webp)
+![965_3_image-20230627091218-7_950x672](/images/endpointpolicymanager/integration/965_3_image-20230627091218-7_950x672.webp)
 
 The remaining screens will work unlicensed, because the policy is conjoined with Netwrix Privilege
 Secure.
 
-![965_4_image-20230627091218-8_950x910](/img/product_docs/endpointpolicymanager/integration/965_4_image-20230627091218-8_950x910.webp)
+![965_4_image-20230627091218-8_950x910](/images/endpointpolicymanager/integration/965_4_image-20230627091218-8_950x910.webp)
 
 However, if you attempt to create Endpoint Policy Manager Least Privilege Manager policies without
 conjoining them with Netwrix Privilege Secure, the policy will be saved and delivered. But the
@@ -47,4 +47,4 @@ Manager CSE is unlicensed. Those which do not have this listed means that the po
 when the Endpoint Policy Manager CSE is licensed for Endpoint Policy Manager Least Privilege
 Manager.
 
-![965_5_image-20230627091218-9_950x211](/img/product_docs/endpointpolicymanager/integration/965_5_image-20230627091218-9_950x211.webp)
+![965_5_image-20230627091218-9_950x211](/images/endpointpolicymanager/integration/965_5_image-20230627091218-9_950x211.webp)

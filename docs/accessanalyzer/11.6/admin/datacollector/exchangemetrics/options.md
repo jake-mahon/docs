@@ -24,7 +24,7 @@ the category selected. It is a wizard page for the categories of:
 - Deploy or Change Applet Settings
 - Remove Applet Settings
 
-![Exchange Metrics Data Collector Wizard Options page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/options.webp)
+![Exchange Metrics Data Collector Wizard Options page](/images/accessanalyzer/11.6/admin/datacollector/exchangemetrics/options.webp)
 
 Select the checkbox of any of the following options to configure the query:
 

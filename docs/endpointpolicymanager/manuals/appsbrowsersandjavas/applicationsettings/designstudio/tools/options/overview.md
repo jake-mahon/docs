@@ -10,7 +10,7 @@ Endpoint Policy Manager DesignStudio has a variety of options you can configure.
 these options using Tools|Options, as shown in Figure 165. There are six tabs within Options:
 Compilation, UI Capture, AppV (older versions of DesignStudio only), VirtualStore, Java, and Misc.
 
-![using_designstudio_tools_1_624x111](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/options/using_designstudio_tools_1_624x111.webp)
+![using_designstudio_tools_1_624x111](/images/endpointpolicymanager/applicationsettings/designstudio/tools/options/using_designstudio_tools_1_624x111.webp)
 
 Figure 165. DesignStudio Options.
 

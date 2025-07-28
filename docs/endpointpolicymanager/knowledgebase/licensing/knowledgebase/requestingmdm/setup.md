@@ -30,7 +30,7 @@ When you enroll machines into your MDM, you do so with a UPN name. Start out by 
 name you use, @fabrikam.com in our example. We recommend you take a screenshot of this page from an
 enrolled Windows 10 machine, then continue.
 
-![44_1_sdfg](/img/product_docs/endpointpolicymanager/license/812_4_sdfg.webp)
+![44_1_sdfg](/images/endpointpolicymanager/license/812_4_sdfg.webp)
 
 ## License count
 
@@ -57,11 +57,11 @@ for additional information on how to express your count.
 
 If in the Azure portal, ensure you are in the Intune section.
 
-![44_2_image-20200815220310-23](/img/product_docs/endpointpolicymanager/license/mdm/44_2_image-20200815220310-23.jpeg)
+![44_2_image-20200815220310-23](/images/endpointpolicymanager/license/mdm/44_2_image-20200815220310-23.jpeg)
 
 The device Screenshot will demonstrate the total Windows Devices and Tenant ownership:
 
-![44_4_image-20200815220310-24](/img/product_docs/endpointpolicymanager/license/mdm/44_4_image-20200815220310-24.jpeg)
+![44_4_image-20200815220310-24](/images/endpointpolicymanager/license/mdm/44_4_image-20200815220310-24.jpeg)
 
 ### Workplace One (Airwatch)
 
@@ -70,7 +70,7 @@ In your Airwatch portal:
 - Click on the **Devices** icon
 - In Platforms, locate the Windows Desktops section and take a screenshot of the entire window
 
-![44_6_image-20200815220310-25](/img/product_docs/endpointpolicymanager/license/mdm/44_6_image-20200815220310-25.jpeg)
+![44_6_image-20200815220310-25](/images/endpointpolicymanager/license/mdm/44_6_image-20200815220310-25.jpeg)
 
 ### MobileIron
 
@@ -78,12 +78,12 @@ Log into your MobileIron Portal. Your dashboard should show you the number of de
 enrolled if Device by OS Type is on your dashboard. If the Pie Chart is shown, click the icon in the
 lower-left corner of the Device by OS Type window to change to the Bar Chart.
 
-![44_8_image-20200815220310-26](/img/product_docs/endpointpolicymanager/license/mdm/44_8_image-20200815220310-26.jpeg)
+![44_8_image-20200815220310-26](/images/endpointpolicymanager/license/mdm/44_8_image-20200815220310-26.jpeg)
 
 Take a screen shot of the device count and account ownership as per the screenshots below (it may
 take 2 captures)
 
-![44_10_image-20200815220310-27_950x711](/img/product_docs/endpointpolicymanager/license/mdm/44_10_image-20200815220310-27_950x711.jpeg)
+![44_10_image-20200815220310-27_950x711](/images/endpointpolicymanager/license/mdm/44_10_image-20200815220310-27_950x711.jpeg)
 
 ### Citrix Endpoint Management (CEM – formally XenMobile)
 
@@ -92,11 +92,11 @@ Option 1:
 On the Analyze page of the CEM Portal, click on the Dashboard. Take a screenshot showing Managed
 devices by Platform and the ownership in the top right-hand corner
 
-![44_12_image-20200815220310-28](/img/product_docs/endpointpolicymanager/license/mdm/44_12_image-20200815220310-28.webp)
+![44_12_image-20200815220310-28](/images/endpointpolicymanager/license/mdm/44_12_image-20200815220310-28.webp)
 
 Option 2:
 
 From the Analyze page, go to Reporting > Devices & Apps and take a screenshot showing the Device
 count and Ownership:
 
-![44_14_image-20200815220310-29](/img/product_docs/endpointpolicymanager/license/mdm/44_14_image-20200815220310-29.webp)
+![44_14_image-20200815220310-29](/images/endpointpolicymanager/license/mdm/44_14_image-20200815220310-29.webp)

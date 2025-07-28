@@ -20,7 +20,7 @@ rule to Allow and Log a command line.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
+generated](/images/endpointpolicymanager/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
 
 The example below show a Combo rule enabling OneDriveSetup.exe to keep running (**Path Condition**
 and **Command-line Condition**) with the Allow and Log action.
@@ -31,11 +31,11 @@ For more information on Combo rules, see
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
+generated](/images/endpointpolicymanager/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/creating_rules_to_avoid_uac_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/securerun/creating_rules_to_avoid_uac_1.webp)
 
 After the rules are created, you should not see pop-ups from installers with rules in place.

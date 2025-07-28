@@ -14,7 +14,7 @@ topic for additional information. Follow the steps to decline an access request.
 **Step 1 –** On the Pending Access Requests Page, select the desired request and click **Decline**.
 The Decline Access window opens.
 
-![Decline Access window](/img/product_docs/accessinformationcenter/11.6/accessrequests/window/declineaccess.webp)
+![Decline Access window](/images/accessinformationcenter/11.6/accessrequests/window/declineaccess.webp)
 
 **Step 2 –** Optionally enter a reason for denying the request, which will be included in the
 notification sent to the requester.
@@ -26,7 +26,7 @@ You can click **Cancel** to close the window without denying the request.
 :::
 
 
-![Saving Request window](/img/product_docs/accessinformationcenter/11.6/accessrequests/window/savingrequest.webp)
+![Saving Request window](/images/accessinformationcenter/11.6/accessrequests/window/savingrequest.webp)
 
 **Step 4 –** The Access Information Center starts the action with the status displayed in the Saving
 request window. When the action completes successfully, click **OK** to close the Saving request

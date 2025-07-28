@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The WAP Push Message Routing Service must be enabled on the machine as Manual (Trigger Start) or
 Running for Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screen & Taskbar Manager to
-function.  
+function.
 Do not disable this dmwappushservice service.
 
-![537_1_asdfghkyhj](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/537_1_asdfghkyhj.webp)
+![537_1_asdfghkyhj](/images/endpointpolicymanager/troubleshooting/startscreentaskbar/537_1_asdfghkyhj.webp)

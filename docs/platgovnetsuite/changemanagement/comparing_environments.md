@@ -23,11 +23,11 @@ Environments and to use the **Change Account** feature on a Change Requests.
 
 1. Open **Strongpoint** > **Change Management Tools** > **Compare Environments**
 
-    ![Set up your TBA Credentials](/img/product_docs/platgovnetsuite/change_management/tba_cred_1.webp)
+    ![Set up your TBA Credentials](/images/platgovnetsuite/change_management/tba_cred_1.webp)
 
 2. Click New (**+**) beside the **Source** field.
 
-    ![TBA Credentials](/img/product_docs/platgovnetsuite/change_management/tba_cred_2.webp)
+    ![TBA Credentials](/images/platgovnetsuite/change_management/tba_cred_2.webp)
 
 3. Enter the information for the environment:
 
@@ -56,7 +56,7 @@ TBA Credentials** section the first time you use this feature.
 
 1. Open **Strongpoint** > **Change Management Tools** > **Compare Environments**
 
-    ![Compare Environments](/img/product_docs/platgovnetsuite/change_management/comp_env.webp)
+    ![Compare Environments](/images/platgovnetsuite/change_management/comp_env.webp)
 
 2. Enter the information for the target account and source accounts. Tokens are persistent between
    your sessions.
@@ -65,7 +65,7 @@ Here are the field and filter options.
 
 :::note
 Only administrators can view the Consumer Key, Consumer Secret, Token ID and Token Secret
-information.  
+information.
 This information is generated when you create your Integration Record with the Token-Based
 Authentication option enabled. If you lose or forget these credentials, you must reset them to
 obtain new values.
@@ -187,15 +187,15 @@ In this example, **Cash Register** appears in both environments.
 
 On the **Source** tab:
 
-![Source target](/img/product_docs/platgovnetsuite/change_management/comp_env_source.webp)
+![Source target](/images/platgovnetsuite/change_management/comp_env_source.webp)
 
 On the **Target** tab:
 
-![compare_accounts_-_target_ss](/img/product_docs/platgovnetsuite/change_management/compare_accounts_-_target_ss.webp)
+![compare_accounts_-_target_ss](/images/platgovnetsuite/change_management/compare_accounts_-_target_ss.webp)
 
 On the **Diff** tab:
 
-![compare_accounts_-_diff_ss](/img/product_docs/platgovnetsuite/change_management/compare_accounts_-_diff_ss.webp)
+![compare_accounts_-_diff_ss](/images/platgovnetsuite/change_management/compare_accounts_-_diff_ss.webp)
 
 ### Search Exists in Only One Environment
 
@@ -203,4 +203,4 @@ In this example, **Special Scheme Code** body field only exists in the **Target*
 
 On the **Diff** tab:
 
-![compare_accounts_-_diff_only_one_ss](/img/product_docs/platgovnetsuite/change_management/compare_accounts_-_diff_only_one_ss.webp)
+![compare_accounts_-_diff_only_one_ss](/images/platgovnetsuite/change_management/compare_accounts_-_diff_only_one_ss.webp)

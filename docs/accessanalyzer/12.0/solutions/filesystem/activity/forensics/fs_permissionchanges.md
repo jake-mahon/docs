@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_PermissionChanges Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/forensics/permissionchangesanalysis.webp)
+![Analysis Tasks for the FS_PermissionChanges Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/forensics/permissionchangesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -59,4 +59,3 @@ produces the following pre-configured reports:
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | High Risk Changes  | This report highlights successful permission changes performed on a high risk trustee. The line chart shows data for the past 30 days only.  | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Line Chart– Displays last 30 days of high risk changes</li><li>Table – Provides details on high risk changes</li></ul>   |
 | Permission Changes | This report identifies all resources where successful permission changes have occurred. The line chart shows data for the past 30 days only. | None                                                  | This report is comprised of two elements: <ul><li>Line Chart– Displays last 30 days of permission changes</li><li>Table – Provides details on permission changes</li></ul> |
-

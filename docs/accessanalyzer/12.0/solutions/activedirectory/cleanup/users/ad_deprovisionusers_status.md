@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_DeprovisionUsers_Status Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/users/deprovisionusersstatusanalysis.webp)
+![Analysis Tasks for the AD_DeprovisionUsers_Status Job](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/users/deprovisionusersstatusanalysis.webp)
 
 The default analysis task is:
 
@@ -32,4 +32,3 @@ produces the following pre-configured report.
 | Report              | Description                                                                          | Default Tags | Report Elements                                                                                                                                                                                      |
 | ------------------- | ------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User Deprovisioning | This report tracks actions taken each day of the Stale User Deprovisioning campaign. | None         | This report is comprised of three elements: <ul><li>Line Chart – Displays cleanup progress</li><li>Table – Provides details on user deprovisioning</li><li>Table – Provides action details</li></ul> |
-

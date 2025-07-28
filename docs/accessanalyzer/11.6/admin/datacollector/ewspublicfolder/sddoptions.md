@@ -13,7 +13,7 @@ The Sensitive Data Discovery Add-on is required to use the sensitive data collec
 [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-![EWS Public Folder Data Collector Wizard SDD Options page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/sddoptions.webp)
+![EWS Public Folder Data Collector Wizard SDD Options page](/images/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/sddoptions.webp)
 
 Select the applicable Sensitive data scan options:
 
@@ -23,5 +23,5 @@ Select the applicable Sensitive data scan options:
 
     :::note
     This option is only available if **Store discovered sensitive data** is selected.
-    
+
     :::

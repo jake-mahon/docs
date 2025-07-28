@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_MostActiveUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/activity/usagestatistics/mostactiveusersanalysis.webp)
+![Analysis Tasks for the SP_MostActiveUsers Job](/images/accessanalyzer/12.0/solutions/sharepoint/activity/usagestatistics/mostactiveusersanalysis.webp)
 
 The default analysis task is:
 
@@ -33,4 +33,3 @@ produces the following pre-configured report:
 | Report                           | Description                                                                                                                                                                                                                                                                                                    | Default Tags | Report Elements                                                                                                                                                                               |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Most Active Users – Last 30 Days | This report identifies the top users for the past 30 days. [View], [Delete], [Update], [Delete] fields reflect the number of unique operations of each type that was performed by the user for this time frame. Unique Resources are the number of distinct resources that have had activity during that time. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays information on top users by operation count</li><li>Table – Provides details on top users by operation count</li></ul> |
-

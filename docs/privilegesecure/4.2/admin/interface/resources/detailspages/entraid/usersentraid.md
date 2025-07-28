@@ -16,7 +16,7 @@ cloud-only EntraID users.
 :::
 
 
-![Users Tab Entra ID](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
+![Users Tab Entra ID](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
 
 The Users tab has the following features:
 

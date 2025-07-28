@@ -16,7 +16,7 @@ To configure a workflow:
 3. From the **Type** drop-down list, select the type of content your workflow will apply to.
 4. Click **Add**.
 
-    ![add_workflows_advanced_name_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_name_thumb_0_0.webp)
+    ![add_workflows_advanced_name_thumb_0_0](/images/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_name_thumb_0_0.webp)
 
 5. Then you need to configure document processing rules. For each rule, you should set up rule
    conditions and rule actions. Also, specify how the workflow should be processed with regards to
@@ -37,7 +37,7 @@ To configure a workflow:
    Conditions** dialog will be displayed.
 2. From the **Mode** list, select how the conditions should be applied.
 
-![add_workflows_rule_conditions_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_rule_conditions_thumb_0_0.webp)
+![add_workflows_rule_conditions_thumb_0_0](/images/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_rule_conditions_thumb_0_0.webp)
 
 The following options are available:
 
@@ -86,7 +86,7 @@ The following options are available:
 
 The configured rule condition will appear in the **Rule Conditions** section on the **Rule** tab.
 
-![add_workflows_rules_list_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/add_workflows_rules_list_thumb_0_0.webp)
+![add_workflows_rules_list_thumb_0_0](/images/dataclassification/5.7/admin/workflows/add_workflows_rules_list_thumb_0_0.webp)
 
 **Example**
 
@@ -99,7 +99,7 @@ taxonomy, configure the rule condition as follows:
 4. In the **Details** window, from the **Taxonomy** list select **PCI DSS**.
 5. In the tags hierarchy, select **Visa** and click **OK**.
 
-![add_workflows_advanced_details_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_details_thumb_0_0.webp)
+![add_workflows_advanced_details_thumb_0_0](/images/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_details_thumb_0_0.webp)
 
 Make sure the filtering term is displayed in the Edit Rule Conditions window with blue color. Click
 **Save**.
@@ -114,7 +114,7 @@ The configured rule condition will appear in the **Rule Condtions** section on t
    rule conditions. For details, see [Workflow Actions](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/actions/actions.md).
 3. Click **Save**.
 
-![add_workflows_advanced_action_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_action_thumb_0_0.webp)
+![add_workflows_advanced_action_thumb_0_0](/images/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_action_thumb_0_0.webp)
 
 ## Other Rule Settings
 
@@ -134,7 +134,7 @@ On the **Rule** tab, you can also manage the rule, as follows:
 If multiple rule actions have been configured, they will be processed in the order listed. Use the
 red down arrow or green up-arrow to change the processing sequence as required:
 
-![workflowsreorderactions_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/advancedwindow/workflowsreorderactions_thumb_0_0.webp)
+![workflowsreorderactions_thumb_0_0](/images/dataclassification/5.7/admin/workflows/advancedwindow/workflowsreorderactions_thumb_0_0.webp)
 
 ## Specifying Workflow Conditions
 
@@ -145,7 +145,7 @@ match to be processed by the workflow.
    is, current workflow will consider any document; actual filtering conditions will be applied by
    the rule (rule conditions).
 
-![add_workflows_advanced_wf_conditions_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_wf_conditions_thumb_0_0.webp)
+![add_workflows_advanced_wf_conditions_thumb_0_0](/images/dataclassification/5.7/admin/workflows/advancedwindow/add_workflows_advanced_wf_conditions_thumb_0_0.webp)
 
 1. Click **Edit** to open **Edit Workflow Conditions** dialog.
 2. Select the option you need from the **Mode** list. The next steps are similar to those described

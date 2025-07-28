@@ -62,17 +62,17 @@ The following options are available:
 
 You can access the Source Configuration screen by selecting the multi-cog (Advanced Configuration)
 icon from the sources
-grid:![advancedsourceconfiguration](/img/product_docs/dataclassification/5.7/admin/sources/database/advancedsourceconfiguration.webp).
+grid:![advancedsourceconfiguration](/images/dataclassification/5.7/admin/sources/database/advancedsourceconfiguration.webp).
 
 Selecting Edit for one of the tables / queries on the list will redirect you to the entity level
 configuration, which identifies how content will be mapped into the core index.
 
-![sqlsourceconfiguration_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/database/sqlsourceconfiguration_thumb_0_0.webp)
+![sqlsourceconfiguration_thumb_0_0](/images/dataclassification/5.7/admin/sources/database/sqlsourceconfiguration_thumb_0_0.webp)
 
 Selecting the Add Query option will present a popup allowing you to select a unique name for the
 query, as well as the queries to be used for crawling:
 
-![addsqlquery](/img/product_docs/dataclassification/5.7/admin/sources/database/addsqlquery.webp)
+![addsqlquery](/images/dataclassification/5.7/admin/sources/database/addsqlquery.webp)
 
 ### Primary Key Query
 
@@ -103,7 +103,7 @@ Adding the query will take you to the custom query configuration. Here you can u
 key query and the content query, all other configuration options are described in the Table
 Configuration section:
 
-![setsqlquery](/img/product_docs/dataclassification/5.7/admin/sources/database/setsqlquery.webp)
+![setsqlquery](/images/dataclassification/5.7/admin/sources/database/setsqlquery.webp)
 
 ### Table Configuration
 
@@ -121,4 +121,4 @@ The table configuration allows you to choose how each specific entity will be cr
 | Re-Index Period                      | This value is the number of days/hours/minutes that will pass between Re-Indexing. The Re-Indexing process involves querying the table(s) to find new and changed records.                                                                                                                                                                                                                                                                                                                                           |
 
 
-![sqltableconfiguration_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/database/sqltableconfiguration_thumb_0_0.webp)
+![sqltableconfiguration_thumb_0_0](/images/dataclassification/5.7/admin/sources/database/sqltableconfiguration_thumb_0_0.webp)

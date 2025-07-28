@@ -12,7 +12,7 @@ folder permissions, and group membership. It contains a list of all trustees wit
 selected resource and specifies the effective access level. This report includes a Permission Source
 table.
 
-![Effective Access report at the share and subfolder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/sharesubfolder/shareeffectiveaccess.webp)
+![Effective Access report at the share and subfolder levels](/images/accessinformationcenter/11.6/resourceaudit/filesystem/sharesubfolder/shareeffectiveaccess.webp)
 
 This report is comprised of the following columns:
 
@@ -49,7 +49,7 @@ displays the group membership, including nested groups.
 There is one table at the bottom displaying Permission Source for the select trustee. It contains
 all of the ways the selected trustee has been granted rights to the selected resource.
 
-![Permission Source table](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/sharesubfolder/shareeffectiveaccesstable.webp)
+![Permission Source table](/images/accessinformationcenter/11.6/resourceaudit/filesystem/sharesubfolder/shareeffectiveaccesstable.webp)
 
 The number of rows for this table indicates the number of ways this trustee has been granted access.
 This table is comprised of the following columns:

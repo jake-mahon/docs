@@ -33,11 +33,11 @@ Repeat these steps as needed after a multi-select for rolling back multiple obje
 **Step 1 –** Open ADUC and select one or more objects to rollback. Right-click on the object(s) and
 select **Rollback** on the menu.
 
-![Rollback selection in ADUC](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/aducrollback.webp)
+![Rollback selection in ADUC](/images/recoveryforactivedirectory/2.6/rsatextension/aducrollback.webp)
 
 The Object Rollback wizard opens.
 
-![Object Rollback wizard - Object Backups Page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/objectbackups.webp)
+![Object Rollback wizard - Object Backups Page](/images/recoveryforactivedirectory/2.6/rsatextension/objectbackups.webp)
 
 **Step 2 –** On the Object Backups page, select a backup date and then select the object and
 attribute(s) to rollback. This page consists of two sections:
@@ -57,7 +57,7 @@ However, only one backup date can be selected in order to select attributes for 
 
 Click **Next**.
 
-![Object Rollback wizard - Domian Controller Page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/domiancontroller.webp)
+![Object Rollback wizard - Domian Controller Page](/images/recoveryforactivedirectory/2.6/rsatextension/domiancontroller.webp)
 
 **Step 3 –** On the Domain Controller page, select the Domain Controller to run the rollback action.
 This page consists of two sections:
@@ -72,7 +72,7 @@ This page consists of two sections:
 
 Click **Next**.
 
-![Object Rollback wizard - Alternate Credentials Page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/alternatecredentials.webp)
+![Object Rollback wizard - Alternate Credentials Page](/images/recoveryforactivedirectory/2.6/rsatextension/alternatecredentials.webp)
 
 **Step 4 –** The account preforming the operation must have Domain Admin privileges to access the
 domain tree area where the object resides. On the Alternate Credentials page:
@@ -86,12 +86,12 @@ For a Least Privilege Access Model to provision an Active Directory security gro
 permissions that are necessary to perform backups, rollbacks and recovery, see the
 [Least Privilege Access Model](/docs/recoveryforactivedirectory/2.6/requirements/targetdomain.md#least-privilege-access-model) topic.
 
-![Object Rollback wizard - Confirm Page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/confirm.webp)
+![Object Rollback wizard - Confirm Page](/images/recoveryforactivedirectory/2.6/rsatextension/confirm.webp)
 
 **Step 5 –** On the Confirm page, review the object information, changes, and the domain controller
 selection. Click **Finish** to rollback the object.
 
-![Successful Rollback window](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/rollbacksuccessful.webp)
+![Successful Rollback window](/images/recoveryforactivedirectory/2.6/rsatextension/rollbacksuccessful.webp)
 
 **Step 6 –** The Rollback window displays the action status. Click **Close** to exit.
 

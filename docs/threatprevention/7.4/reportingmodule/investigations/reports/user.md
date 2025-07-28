@@ -13,7 +13,7 @@ Details and Top Resources sections (see the
 [Investigation Reports](/docs/threatprevention/7.4/reportingmodule/investigations/reports/reports.md)
 topic). Click a link to land on the User Details page.
 
-![userdetails](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/userdetails.webp)
+![userdetails](/images/threatprevention/7.4/reportingmodule/investigations/userdetails.webp)
 
 The top of the page displays a user profile card which may contain the following information about
 the user:

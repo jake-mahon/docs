@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/configuration/sqljobgroup44.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/configuration/sqljobgroup44.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report:
 | Report                    | Description                                                                             | Default Tags | Report Elements                                                                                                                                                                                     |
 | ------------------------- | --------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SQL Server Best Practices | Evaluates settings on SQL and Azure SQL Instances and Databases for SQL Best Practices. | None         | This report is comprised of three elements: <ul><li>Pie Chart – Displays best practice adherence</li><li>Table– Displays configuration settings</li><li>Table – Displays instance summary</li></ul> |
-

@@ -14,11 +14,11 @@ settings.
 Start out by going to **Add** > **New Collection**. From there you can configure the collection
 settings.
 
-![quickstart_adding_and_removing_1](/img/product_docs/endpointpolicymanager/feature/addremove/quickstart_adding_and_removing_1.webp)
+![quickstart_adding_and_removing_1](/images/endpointpolicymanager/feature/addremove/quickstart_adding_and_removing_1.webp)
 
 The only item you might want to change regularly is the **Reboot Mode**. For now, change it to
 **Asks User**. In your own environment, you might want to select **Prevent**, but don't do this now.
 
 You can see your collection added.
 
-![quickstart_adding_and_removing_2](/img/product_docs/endpointpolicymanager/feature/addremove/quickstart_adding_and_removing_2.webp)
+![quickstart_adding_and_removing_2](/images/endpointpolicymanager/feature/addremove/quickstart_adding_and_removing_2.webp)

@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_UserMetrics Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/hubmetrics/usermetricsanalysis.webp)
+![Analysis Tasks for the EX_UserMetrics Job](/images/accessanalyzer/11.6/solutions/exchange/hubmetrics/usermetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ the following pre-configured reports:
 | Top Receivers by Message Volume | This report identifies users who have received the most mail by total volume. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top receivers by message volume (last 30 days)</li><li>Table – Provides details on top receivers by message volume (last 30 days)</li></ul> |
 | Top Senders by Message Count    | This report identifies users who have sent the most mail.                     | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top senders by message count (last 30 days)</li><li>Table – Provides details on top senders by message count (last 30 days)</li></ul>       |
 | Top Senders by Message Volume   | This report identifies users who have sent the most mail by total volume.     | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top senders by message volume (last 30 days)</li><li>Table – Provides details on top senders by message volume (last 30 days)</li></ul>     |
-

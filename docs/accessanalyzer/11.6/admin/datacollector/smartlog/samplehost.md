@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Sample Host page is used to configure the host. It is a wizard page for all log types.
 
-![SMART Log DC Wizard Sample Host page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/smartlog/samplehost.webp)
+![SMART Log DC Wizard Sample Host page](/images/accessanalyzer/11.6/admin/datacollector/smartlog/samplehost.webp)
 
 Select a host for running a test query on the Criteria page from the following radio buttons:
 
@@ -19,7 +19,7 @@ Select a host for running a test query on the Criteria page from the following r
 
 ## Select Computer Window
 
-![Select Computer window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/smartlog/selectcomputerwindow.webp)
+![Select Computer window](/images/accessanalyzer/11.6/admin/datacollector/smartlog/selectcomputerwindow.webp)
 
 If selecting another computer for the host, click the ellipsis to open the Select Computer window
 and select a computer. The options in the Select Computer window are:
@@ -36,7 +36,7 @@ and select a computer. The options in the Select Computer window are:
 - Check Names – Click to verify the object names in the text field
 - Advanced – Opens a window to perform advanced configurations of the Select Computer function
 
-![Advanced Select Computer window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/smartlog/selectcomputerwindowadvanced.webp)
+![Advanced Select Computer window](/images/accessanalyzer/11.6/admin/datacollector/smartlog/selectcomputerwindowadvanced.webp)
 
 The Common Queries section is included on the advanced Select Computer window in addition to object
 type and location in the original Select Computer window.
@@ -50,7 +50,7 @@ type and location in the original Select Computer window.
 - Select the number of **Days since last logon** from the drop-down menu
 - Click the **Columns** button to open the Choose Columns window
 
-    ![Choose Columns window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/smartlog/choosecolumnswindow.webp)
+    ![Choose Columns window](/images/accessanalyzer/11.6/admin/datacollector/smartlog/choosecolumnswindow.webp)
 
     Select a column from the Columns available or Columns shown lists and click **Add** or
     **Remove** to add or remove them from each column

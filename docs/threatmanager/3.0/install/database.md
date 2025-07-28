@@ -24,20 +24,20 @@ and select Run as administrator. Then skip to Step 2.
 :::
 
 
-![Netwrix Setup Launcher](/img/product_docs/threatmanager/3.0/install/setuplauncher.webp)
+![Netwrix Setup Launcher](/images/threatmanager/3.0/install/setuplauncher.webp)
 
 **Step 1 –** Click PostgreSQL Setup. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/installdb1.webp)
+![Netwrix PostgreSQL Setup wizard](/images/threatmanager/3.0/install/installdb1.webp)
 
 **Step 2 –** Click Install.
 
-![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+![Netwrix PostgreSQL Setup wizard on the EULA page](/images/activitymonitor/8.0/install/eula.webp)
 
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click Next.
 
-![Netwrix PostgreSQL Setup wizard on the Folder Location page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+![Netwrix PostgreSQL Setup wizard on the Folder Location page](/images/threatprevention/7.5/install/reportingmodule/folder.webp)
 
 **Step 4 –** By default, the installation directories are set to:
 
@@ -46,12 +46,12 @@ checkbox. Click Next.
 
 Optionally, enter a new path or use the **Browse** buttons to modify as desired. Click Next.
 
-![Netwrix PostgreSQL Setup wizard on the Successfully Installed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Netwrix PostgreSQL Setup wizard on the Successfully Installed page](/images/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 5 –** The installation begins and the installer displays a Setup Progress window. Click Exit
 when the installation is successful. The Netwrix PostgreSQL Setup wizard closes.
 
-![Netwrix Setup Launcher showing PostgreSQL Setup completed](/img/product_docs/threatmanager/3.0/install/postgresqlcheck.webp)
+![Netwrix Setup Launcher showing PostgreSQL Setup completed](/images/threatmanager/3.0/install/postgresqlcheck.webp)
 
 The PostgreSQL database application is now installed. Now you can install the Threat Manager
 application. See the [Install the Threat Manager Application](/docs/threatmanager/3.0/install/application.md) topic for additional

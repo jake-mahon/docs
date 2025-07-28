@@ -9,7 +9,7 @@ sidebar_position: 20
 The Membership Changes report at the domain level provides list of groups that had membership
 changes on the selected domain during the specified date range.
 
-![Membership Changes report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/activedirectory/domain/membershipchanges.webp)
+![Membership Changes report](/images/accessinformationcenter/11.6/resourceaudit/activedirectory/domain/membershipchanges.webp)
 
 This table is blank if no changes occurred during the specified date range. This report is comprised
 of the following columns:

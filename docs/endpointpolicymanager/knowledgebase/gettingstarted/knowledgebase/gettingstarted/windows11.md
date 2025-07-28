@@ -47,7 +47,7 @@ An example can be seen below. Note it doesn't matter if the pulldown is set for 
 IE** or **Open as IE in Edge tab** is set. Those settings only matter for Windows 10 and are ignored
 in Windows 11.
 
-![736_1_image-20220128125242-1](/img/product_docs/endpointpolicymanager/requirements/support/736_1_image-20220128125242-1.webp)
+![736_1_image-20220128125242-1](/images/endpointpolicymanager/requirements/support/736_1_image-20220128125242-1.webp)
 
 ## Example 2: Using Wildcards (or RegEx or Internet Security Zone) and attempting to set the browser to Internet Explorer
 
@@ -57,7 +57,7 @@ expected.
 Starting with Endpoint Policy Manager CSE 3068 on Windows 11, Endpoint Policy Manager Browser Router
 will route these to the Default Browser.
 
-![736_2_image-20220128125242-2](/img/product_docs/endpointpolicymanager/requirements/support/736_2_image-20220128125242-2.webp)
+![736_2_image-20220128125242-2](/images/endpointpolicymanager/requirements/support/736_2_image-20220128125242-2.webp)
 
 ## How are Default Browser Policies handled (With Windows 11)?
 
@@ -70,7 +70,7 @@ Windows 10 will honor the Internet explorer setting, but Windows 11 needs to hav
 :::
 
 
-![736_3_image-20220128125242-3](/img/product_docs/endpointpolicymanager/requirements/support/736_3_image-20220128125242-3.webp)
+![736_3_image-20220128125242-3](/images/endpointpolicymanager/requirements/support/736_3_image-20220128125242-3.webp)
 
 - If you use Endpoint Policy Manager Browser Router to specify a Default Browser (Edge, Chrome,
   Firefox, Custom, or User Selectable), you will get what you expect.

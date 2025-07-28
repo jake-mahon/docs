@@ -24,7 +24,7 @@ entry no longer applies, but it will leave the entries the user has put in place
 
 Internet Explorer can save favorites for users as shown in Figure 22.
 
-![ie_appset_tab_by_tab_18](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_18.webp)
+![ie_appset_tab_by_tab_18](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_18.webp)
 
 Figure 22. IE Favorites.
 
@@ -52,7 +52,7 @@ Displayname, http://www.webpage.com, add
 
 `Displayname, Folder1/http://www.webpage.com, remove`
 
-![ie_appset_tab_by_tab_19](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_19.webp)
+![ie_appset_tab_by_tab_19](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_19.webp)
 
 Figure 23. Configuring IE Favorites.
 
@@ -60,7 +60,7 @@ Figure 23. Configuring IE Favorites.
 
 You can manage and deliver IE Feeds. A screenshot of the Feeds tab from IE is shown in Figure 24.
 
-![ie_appset_tab_by_tab_20](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_20.webp)
+![ie_appset_tab_by_tab_20](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_20.webp)
 
 Figure 24. IE Feeds.
 
@@ -68,7 +68,7 @@ Using the IE AppSet, you can add or remove a feed using the format shown in Figu
 specify a friendlyname, the URL of the XML feed, and an optional icon file. Then specify to add or
 remove.
 
-![ie_appset_tab_by_tab_21](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_21.webp)
+![ie_appset_tab_by_tab_21](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_21.webp)
 
 Figure 25. Configuring IE Feeds with Endpoint Policy Manager.
 
@@ -79,6 +79,6 @@ Slices) section, as seen in Figure 26. The results are shown on the right side o
 
 `Links/MSFT NASDAQ, http://quotes.wsj.com/MSFT ?mod=DNH_S_cq#slice,add`
 
-![ie_appset_tab_by_tab_22](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_22.webp)
+![ie_appset_tab_by_tab_22](/images/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_22.webp)
 
 Figure 26. Adding items to the Favorites bar.

@@ -9,7 +9,7 @@ sidebar_position: 10
 A job group’s Settings node is where custom configurations can be set and where the host lists are
 assigned to a job group.
 
-![Job group settings in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/admin/jobs/group/settings.webp)
+![Job group settings in the Jobs Tree](/images/accessanalyzer/12.0/admin/jobs/group/settings.webp)
 
 These settings inherit the global settings down by default unless inheritance is broken at a job
 group or a job level.

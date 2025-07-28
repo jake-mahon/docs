@@ -14,12 +14,12 @@ configure the data grid to contain all the columns you want to export. See the
 [Host Inventory Data Grid](/docs/accessanalyzer/11.6/admin/hostmanagement/datagrid.md)
 topic for additional information.
 
-![Export Data option on the Activities pane](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/actions/export.webp)
+![Export Data option on the Activities pane](/images/accessanalyzer/11.6/admin/hostmanagement/actions/export.webp)
 
 **Step 2 –** When the data grid contains all columns desired for export, click **Export Data**. A
 Save As window opens.
 
-![Save As window](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/actions/exportsaveas.webp)
+![Save As window](/images/accessanalyzer/11.6/admin/hostmanagement/actions/exportsaveas.webp)
 
 **Step 3 –** On the Save As window, select the required format (HTML Files, XML Files, or CSV Files)
 and provide a name and location for the export file.
@@ -34,12 +34,12 @@ The following examples show the different export format options.
 
 **Example HTML File Export**
 
-![Example HTML File Export](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/actions/exportexamplehtml.webp)
+![Example HTML File Export](/images/accessanalyzer/11.6/admin/hostmanagement/actions/exportexamplehtml.webp)
 
 **Example XML File Export**
 
-![Example XML File Export](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/actions/exportexamplexml.webp)
+![Example XML File Export](/images/accessanalyzer/11.6/admin/hostmanagement/actions/exportexamplexml.webp)
 
 **Example CSV File Export**
 
-![Example CSV File Export](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/actions/exportexamplecsv.webp)
+![Example CSV File Export](/images/accessanalyzer/11.6/admin/hostmanagement/actions/exportexamplecsv.webp)

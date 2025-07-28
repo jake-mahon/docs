@@ -29,7 +29,7 @@ Customization record fields include:
 - **Details**: Tabs to access details about the customization. Tabs include **Metadata**,
   **Improvement**, **Permissions**, **Control**, **DRD**, **Raw Data** and **Related Lists**.
 
-![customization_record_800x315](/img/product_docs/platgovsalesforceflashlight/customizations/customization_record_800x315.webp)
+![customization_record_800x315](/images/platgovsalesforceflashlight/customizations/customization_record_800x315.webp)
 
 ## Customization Record Tabs
 

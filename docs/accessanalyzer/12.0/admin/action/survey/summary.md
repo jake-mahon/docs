@@ -8,11 +8,11 @@ sidebar_position: 90
 
 A summary of the survey configuration displays.
 
-![Survey Action Module Wizard Summary page](/img/product_docs/accessanalyzer/12.0/admin/action/survey/summary.webp)
+![Survey Action Module Wizard Summary page](/images/accessanalyzer/12.0/admin/action/survey/summary.webp)
 
 Click **Save Template** to access the Save Survey Template window.
 
-![Save Survey Template window](/img/product_docs/accessanalyzer/12.0/admin/action/survey/savesurveytemplate.webp)
+![Save Survey Template window](/images/accessanalyzer/12.0/admin/action/survey/savesurveytemplate.webp)
 
 Specify a name for the survey for future use. Click **OK** to return to the Summary page.
 

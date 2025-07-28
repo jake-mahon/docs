@@ -9,7 +9,7 @@ sidebar_position: 30
 When you sign into the Recovery Console for the first time, the Domain Backup Configuration
 interface is displayed.
 
-![Domain Backup Configuration Page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/domainbackupconfig.webp)
+![Domain Backup Configuration Page](/images/recoveryforactivedirectory/2.6/admin/activedirectory/domainbackupconfig.webp)
 
 You must add a domain and it's backup configurations before you can start using the product. Once
 this is configured, the Domain Backup Configuration interface is not displayed again.

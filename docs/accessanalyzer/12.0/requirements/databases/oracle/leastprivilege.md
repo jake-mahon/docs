@@ -66,7 +66,7 @@ of plink gets installed with the Nmap utility.
 
 The syntax is as follows:
 
-![administratorcommandprompt](/img/product_docs/accessanalyzer/12.0/requirements/target/config/administratorcommandprompt.webp)
+![administratorcommandprompt](/images/accessanalyzer/12.0/requirements/target/config/administratorcommandprompt.webp)
 
 Run the following on the command prompt:
 

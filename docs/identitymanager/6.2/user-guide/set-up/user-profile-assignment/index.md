@@ -16,7 +16,7 @@ by assigning profiles to users and permissions to profiles. See the
 and [References: Permissions](/docs/identitymanager/6.2/integration-guide/profiles-permissions/permissions/index.md)
 topics for additional information.
 
-![Schema - Profile Assignment](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
+![Schema - Profile Assignment](/images/identitymanager/saas/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
 
 For example, the access to the list of users with their personal data is usually restricted to HR
 people, and the possibility to modify personal data restricted to HR managers.
@@ -32,7 +32,7 @@ one profile, sometimes two, and rare case have maximum three, or more.
 The goal here is to link users to basic profiles.
 
 The right time to assign profiles to users is just before they need it, so it depends on the
-deployment strategy.  
+deployment strategy.
 For example, we connected a given application and now we want to list orphaned accounts. Then we
 need to assign a role officer.
 
@@ -57,16 +57,16 @@ In the following section you will read about how to assign a profile to an accou
 
 Assign manually a profile to a user by proceeding as follows:
 
-![Home Page - Assigned Profiles](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.webp)
+![Home Page - Assigned Profiles](/images/identitymanager/saas/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.webp)
 
 **Step 1 –** Access the **Assigned Profiles** screen from the home page in the **Administration**
 section.
 
-![Addition Icon](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
+![Addition Icon](/images/identitymanager/saas/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 **Step 2 –** Click on the addition button at the top right corner.
 
-![New Profile](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/roleofficers_newprofile_v602.webp)
+![New Profile](/images/identitymanager/saas/user-guide/set-up/user-profile-assignment/roleofficers_newprofile_v602.webp)
 
 **Step 3 –** Fill in the fields.
 
@@ -79,9 +79,9 @@ section.
 :::note
 If filters are defined in the Access Rules, and are assigned to the profile, a
 **Criteria** section will appear containing them. Filters are conditions that, if met, trigger the
-Access Control Rule Application.  
+Access Control Rule Application.
 The only filters which can be displayed in this section are filters related to dimensions or hard
-coded criteria (Single Role, Composite Role, Resource Type and Category).  
+coded criteria (Single Role, Composite Role, Resource Type and Category).
 The filters are defined in the XML configuration on the access control rules. The criteria displayed
 are a fusion of the filters of all the rules associated with the profile. See the
 [Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
@@ -98,7 +98,7 @@ type and potentially specific criteria. See the
 [Profile Rule Context](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
 topic for additional information.
 
-![Launch Button](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/launch_v603.webp)
+![Launch Button](/images/identitymanager/saas/user-guide/set-up/user-profile-assignment/launch_v603.webp)
 
 Click on **Launch** to apply these profile rules.
 

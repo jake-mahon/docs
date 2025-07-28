@@ -17,7 +17,7 @@ off**.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps_1.webp)
 
 :::note
 At this time, Endpoint Policy Manager (formerly PolicyPak) Least Privilege Managerr

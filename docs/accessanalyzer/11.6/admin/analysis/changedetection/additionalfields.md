@@ -10,7 +10,7 @@ Use the Additional Fields page to choose any additional fields to include with t
 These fields do not detect change, but may provide additional information to help diagnose and
 analyze the changes reported.
 
-![Change Detection Data Analysis Module wizard Additional Fields page](/img/product_docs/accessanalyzer/11.6/admin/analysis/changedetection/additionalfields.webp)
+![Change Detection Data Analysis Module wizard Additional Fields page](/images/accessanalyzer/11.6/admin/analysis/changedetection/additionalfields.webp)
 
 Choose any additional fields to be collected with change analysis using the following options:
 

@@ -30,7 +30,7 @@ You can use the Browse function to:
   example, changing the mode to "Low Scoring Documents &lt;20%" for a term with a threshold of 50
   will find any documents that scored between 50 and 60.
 
-![browsetab_thumb_0_0](/img/product_docs/dataclassification/5.6.2/browsetab_thumb_0_0.webp)
+![browsetab_thumb_0_0](/images/dataclassification/5.6.2/browsetab_thumb_0_0.webp)
 
 To restrict the browsing scope, you can either add a URL filter, or add a custom filter, as well as
 select to show document movements. These options are configured in the same way as for

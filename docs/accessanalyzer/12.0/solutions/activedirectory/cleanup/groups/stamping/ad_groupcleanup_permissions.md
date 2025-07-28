@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_GroupCleanup_Permissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/stamping/groupcleanuppermissionsanalysis.webp)
+![Analysis Tasks for the AD_GroupCleanup_Permissions Job](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/stamping/groupcleanuppermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -51,5 +51,3 @@ Job produces the following pre-configured reports.
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Direct Permission Details | This report shows all direct permissions found by DAG for FileSystem, DAG for SharePoint, or imported into the Access Information Center from other sources. | None         | This report is comprised of one element: <ul><li>Table – Provides group direct permission details</li></ul>                                                                                                                                               |
 | Group Permission Summary        | This report identifies what types of resources each security group is being used to apply permissions.                                                       | None         | This report is comprised of four elements: <ul><li>Table – Provides details on permission scans</li><li>Table – Provides details on group access</li><li>Table – Provides details on toxic conditions</li><li>Table – Provides a group overview</li></ul> |
-
-

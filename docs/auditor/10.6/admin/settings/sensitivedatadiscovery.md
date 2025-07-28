@@ -107,7 +107,7 @@ steps to enable and configure Sensitive Data Discovery:
 
 **Step 1 –** In Netwrix Auditor, navigate to Setting in the upper right corner.
 
-![sensitivedatadiscovery](/img/product_docs/auditor/10.6/admin/settings/sensitivedatadiscovery.webp)
+![sensitivedatadiscovery](/images/auditor/10.6/admin/settings/sensitivedatadiscovery.webp)
 
 **Step 2 –** Select **Sensitive Data Discovery**.
 

@@ -15,7 +15,7 @@ results using the column headers. Below the Search button is the
 [Export](/docs/activitymonitor/7.1/admin/search/overview.md#export)
 option.
 
-![File Search Results UI](/img/product_docs/activitymonitor/7.1/admin/search/results/filesearchresults.webp)
+![File Search Results UI](/images/activitymonitor/7.1/admin/search/results/filesearchresults.webp)
 
 The results data grid columns display the following information for each event:
 
@@ -65,12 +65,12 @@ applicable to the event) are displayed.
 When the results data grid displays information about permissions changes, additional information is
 made available.
 
-![Search Results with Permissions listed in the Operations Column](/img/product_docs/activitymonitor/7.1/admin/search/results/filesearchresultspermissionsimage.webp)
+![Search Results with Permissions listed in the Operations Column](/images/activitymonitor/7.1/admin/search/results/filesearchresultspermissionsimage.webp)
 
 A link displays in the **Operation** column of the results data grid. Click the Permissions Change
 link to open the Permissions Change Details window.
 
-![File Search Results Permissions link popup window](/img/product_docs/activitymonitor/7.1/admin/search/results/permissionslpopupwindow.webp)
+![File Search Results Permissions link popup window](/images/activitymonitor/7.1/admin/search/results/permissionslpopupwindow.webp)
 
 The window displays details about the changes of the security descriptor with information from the
 new line added to a DACL:

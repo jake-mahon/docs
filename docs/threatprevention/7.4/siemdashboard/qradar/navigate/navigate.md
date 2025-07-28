@@ -22,7 +22,7 @@ dashboards:
 
 There is also a Settings interface for configuring the QRadar SEC token.
 
-![Active Directory App for QRadar - Top Ribbon](/img/product_docs/threatprevention/7.4/siemdashboard/qradar/topribbon.webp)
+![Active Directory App for QRadar - Top Ribbon](/images/threatprevention/7.4/siemdashboard/qradar/topribbon.webp)
 
 The User Investigation and Host Investigation dashboards only appear when a search is conducted.
 This can be done by clicking a hyperlink in the Perpetrator, Affected Object (when it is a user

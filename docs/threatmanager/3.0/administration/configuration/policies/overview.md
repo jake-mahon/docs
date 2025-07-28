@@ -9,7 +9,7 @@ sidebar_position: 40
 The Policies Page provides an overview of the policies added to the Policies box and their
 deployment history. It also provides the ability to add new polices and configure them.
 
-![page](/img/product_docs/threatmanager/3.0/administration/configuration/policies/page.webp)
+![page](/images/threatmanager/3.0/administration/configuration/policies/page.webp)
 
 The Polices table displays the following information:
 
@@ -48,7 +48,7 @@ immediately valid for Honeytoken threat detection. Please refer to
 
 Follow the steps to add a policy.
 
-![addnewpolicy](/img/product_docs/threatmanager/3.0/administration/configuration/policies/addnewpolicy.webp)
+![addnewpolicy](/images/threatmanager/3.0/administration/configuration/policies/addnewpolicy.webp)
 
 **Step 1 –** In the Policies box, click Add New Policy. The Add Profile window opens.
 

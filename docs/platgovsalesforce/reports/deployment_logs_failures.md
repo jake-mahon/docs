@@ -46,4 +46,4 @@ indicates the current column and sort order being used for the results.
 -  **Tests Error Message**: Test error message if available.
 -  **# of Test Errors**: Total number of errors.
 
-![Deployment Log  Report with Failures](/img/product_docs/platgovsalesforce/reports/report_deploy_failures.webp)
+![Deployment Log  Report with Failures](/images/platgovsalesforce/reports/report_deploy_failures.webp)

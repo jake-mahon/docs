@@ -58,7 +58,7 @@ What do you want to do?
    **Policies** area.
 6. On the **Add Policies** pane, click the **Search** tab.
 7. Click **Add** next to **Add Container**.
-8. On the **Add Container** dialog box, select a container and click **Add**.  
+8. On the **Add Container** dialog box, select a container and click **Add**.
    Search performed by role members will display objects from this container and its sub-containers.
 9. Click **OK**.
 10. On the **Edit Security Role** page, click **Update Security Role**.
@@ -121,13 +121,13 @@ You can also define a query by adding more rows and applying the **AND** or **OR
 them.
 
 1. After defining two or more filter expressions, select two or more rows and apply one of these
-   operators:  
+   operators:
    (To select a row, click the down arrow next to it and click **Select Row**.)
 
     - **AND:** to display the objects having the specified values for all attributes.
     - **OR:** to display objects having the specified value for any one of the attributes.
 
-    ![search_query](/img/product_docs/directorymanager/11.0/admincenter/securityrole/policy/search_query.webp)
+    ![search_query](/images/directorymanager/11.0/admincenter/securityrole/policy/search_query.webp)
 
 2. Click the ellipsis button for an applied operator to display the context menu, which has the
    following options:

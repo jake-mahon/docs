@@ -18,7 +18,7 @@ For an overview of the User Selectable option, see
 :::
 
 
-![about_policypak_browser_router_11](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/about_endpointpolicymanager_browser_router_11.webp)
+![about_policypak_browser_router_11](/images/endpointpolicymanager/browserrouter/defaultbrowser/about_endpointpolicymanager_browser_router_11.webp)
 
 The **User Selectable** option enables the user to specify their desired default browser as Internet
 Explorer, Edge, Chrome, or Firefox. The Endpoint Policy Manager engine "learns" this setting at the
@@ -33,9 +33,9 @@ is assigned a default browser the first time they open a URL but can then change
 to one of their own choosing. In this case, we select the same settings as last time except we
 choose to apply the rule only one time, as sown below
 
-![about_policypak_browser_router_12](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/about_endpointpolicymanager_browser_router_12.webp)
+![about_policypak_browser_router_12](/images/endpointpolicymanager/browserrouter/defaultbrowser/about_endpointpolicymanager_browser_router_12.webp)
 
 Users can then change the default browser to their own liking, even though their settings show that
 the web browser is managed by their organization.
 
-![about_policypak_browser_router_13](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/about_endpointpolicymanager_browser_router_13.webp)
+![about_policypak_browser_router_13](/images/endpointpolicymanager/browserrouter/defaultbrowser/about_endpointpolicymanager_browser_router_13.webp)

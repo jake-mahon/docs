@@ -23,11 +23,11 @@ With the following form for the workflow's content and summary:
 
 The content of `MainControl` is visible during the workflow's execution:
 
-![Form Example - Computer Request](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_v603.webp)
+![Form Example - Computer Request](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_v603.webp)
 
 The content of `SummaryControl` is visible after the workflow's execution:
 
-![Summary Form Example - Computer Request](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_summary_v603.webp)
+![Summary Form Example - Computer Request](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/formexample_workfloweditentityform_summary_v603.webp)
 
 ## Properties
 

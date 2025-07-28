@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_PasswordSettings Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/usersgroups/passwordsettingsanalysis.webp)
+![Analysis Tasks for the UX_PasswordSettings Job](/images/accessanalyzer/12.0/solutions/unix/usersgroups/passwordsettingsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured reports:
 | ------------------------- | -------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
 | Local User Passwords      | This report outlines password information for each local user on each host | None         | This report is comprised of one element: <ul><li>Table – Provides details on User Password Settings</li></ul> |
 | Password Security Setting | This report lists password security settings for each audited host         | None         | This report is comprised of one element: <ul><li>Table – Provides details on Password Settings</li></ul>      |
-

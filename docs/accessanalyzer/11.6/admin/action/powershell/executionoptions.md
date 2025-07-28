@@ -8,7 +8,7 @@ sidebar_position: 20
 
 Specify the execution options for the PowerShell script using the Execution Options page.
 
-![PowerShell Action Module Wizard Execution Options page](/img/product_docs/accessanalyzer/11.6/admin/action/powershell/executionoptions.webp)
+![PowerShell Action Module Wizard Execution Options page](/images/accessanalyzer/11.6/admin/action/powershell/executionoptions.webp)
 
 The options on the Execution Options page are:
 

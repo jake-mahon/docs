@@ -33,7 +33,7 @@ Customization record fields include:
 - **Details**: Tabs to access details about the customization. Tabs include **Metadata**,
   **Improvement**, **Permissions**, **Control**, **DRD**, **Raw Data** and **Related Lists**.
 
-![customization_record](/img/product_docs/platgovsalesforce/customizations/customization_record.webp)
+![customization_record](/images/platgovsalesforce/customizations/customization_record.webp)
 
 ## Customization Record Tabs
 
@@ -103,7 +103,7 @@ The Health Settings tab is located on the customization pages for the Salesforce
 as Session Settings, Password Policies and Certificates. This example shows the **Health Settings**
 tab for the **PasswordPolicies** customization.
 
-![Example of the PasswordPolicies Health Settings tab](/img/product_docs/platgovsalesforce/customizations/health_settings_tab_example.webp)
+![Example of the PasswordPolicies Health Settings tab](/images/platgovsalesforce/customizations/health_settings_tab_example.webp)
 
 ### Data Classification
 

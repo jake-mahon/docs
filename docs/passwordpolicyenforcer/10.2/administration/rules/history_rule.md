@@ -11,7 +11,7 @@ should be avoided because it defeats the purpose of regular password changes. Pa
 Enforcer can stop users from reusing passwords for a specified number of password changes or a
 number of days.
 
-![ppe_rules_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_7.webp)
+![ppe_rules_7](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_7.webp)
 
 Select the **Enabled** check box to enable the History rule.
 
@@ -124,7 +124,7 @@ Replacing the last parameter with your domain's DN.
 
 **Step 4 –** Press **ENTER** and check the output for errors.
 
-![ppe_rules_8](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_8.webp)
+![ppe_rules_8](/images/passwordpolicyenforcer/10.2/administration/ppe_rules_8.webp)
 
 ## Using an Existing Attribute for the Password History
 

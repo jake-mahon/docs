@@ -20,10 +20,10 @@ topics for additional information.
 To review the Behavior Anomalies dashboard:
 
 On the main Auditor page, click
-![ba_tile](/img/product_docs/auditor/10.6/admin/behavioranomalies/ba_tile.webp) on the
+![ba_tile](/images/auditor/10.6/admin/behavioranomalies/ba_tile.webp) on the
 left.
 
-![dashboard](/img/product_docs/auditor/10.6/admin/behavioranomalies/dashboard.webp)
+![dashboard](/images/auditor/10.6/admin/behavioranomalies/dashboard.webp)
 
 The dashboards includes the following sections:
 

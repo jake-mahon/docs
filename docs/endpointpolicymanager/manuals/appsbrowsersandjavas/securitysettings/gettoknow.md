@@ -10,7 +10,7 @@ Endpoint Policy Manager Security Settings Manager is a node you see within every
 While Endpoint Policy Manager Security Settings Manager is listed on both the Computer and User
 sides, it only functions on the the computer side. Below you can see the export option available.
 
-![about_policypak_security_settings_1](/img/product_docs/endpointpolicymanager/securitysettings/about_endpointpolicymanager_security_settings_1.webp)
+![about_policypak_security_settings_1](/images/endpointpolicymanager/securitysettings/about_endpointpolicymanager_security_settings_1.webp)
 
 The only job of the Endpoint Policy Manager Security Settings Manager node is to export the
 computer-side security settings as an XML file. This XML file can be used with Endpoint Policy

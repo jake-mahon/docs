@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup28.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/usersroles/sqljobgroup28.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following pre-configured report.
 | Report     | Description                               | Default Tags | Report Elements                                                                                                                                                                                                                |
 | ---------- | ----------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | SQL Logins | This report lists user login information. | None         | This report is comprised of three elements: <ul><li>Bar Chart– Displays number of logins by instance</li><li>Table – Provides details on login exceptions by instance</li><li>Table – Provides details on SQL logins</li></ul> |
-

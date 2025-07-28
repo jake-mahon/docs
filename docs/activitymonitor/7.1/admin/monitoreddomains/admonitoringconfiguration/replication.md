@@ -9,7 +9,7 @@ sidebar_position: 40
 The Replication tab on a domain’s Configuration window monitors domain controller syncing and
 replication.
 
-![Servers Tab in the Replication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
+![Servers Tab in the Replication Tab](/images/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
 
 After checking the Enable Replication box, the following event filters can be modified on the
 sub-tabs:
@@ -31,7 +31,7 @@ The Hosts (From) option is where the policy can be scoped to only monitor specif
 originators of an authentication event or to exclude specific hosts from being monitored for
 authentication events.
 
-![Host (From) Tab in the Replication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
+![Host (From) Tab in the Replication Tab](/images/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
 
 Underneath each section, there are additional Host details:
 
@@ -51,7 +51,7 @@ configuration. It is necessary for it to be configured to exclude domain control
 
 The Servers option targets servers to be included or excluded when filtering for replication.
 
-![Servers Tab in the Replication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
+![Servers Tab in the Replication Tab](/images/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
 
 In both cases, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS Domain
 name and SERVER is NetBIOS server name.
@@ -65,7 +65,7 @@ The Users option is where the policy can be scoped to only monitor specific secu
 committing changes within Active Directory or to exclude specific users committing changes from
 being monitored
 
-![Users Tab in the Replication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![Users Tab in the Replication Tab](/images/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The following details appear beneath both sections:
 

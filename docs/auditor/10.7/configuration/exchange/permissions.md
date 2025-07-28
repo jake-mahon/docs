@@ -64,7 +64,7 @@ in the root domain of the forest where Microsoft Exchange 2019, 2016, or 2013 is
 **Step 4 –** In the **Organization Management Properties** dialog that opens, select the **Members**
 tab and click **Add**.
 
-![manualconfig_orgmanagement2016](/img/product_docs/auditor/10.7/configuration/exchange/manualconfig_orgmanagement2016.webp)
+![manualconfig_orgmanagement2016](/images/auditor/10.7/configuration/exchange/manualconfig_orgmanagement2016.webp)
 
 If for some reason you do not want this account to belong to the Organization Management group, you
 can add it to the Records Management group in the same way. The Records Management group is less

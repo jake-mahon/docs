@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_InlinePolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/policies/inlinepoliciesanalysis.webp)
+![Analysis Tasks for the AWS_InlinePolicies Job](/images/accessanalyzer/12.0/solutions/aws/policies/inlinepoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ produces the following pre-configured report:
 | Report          | Description                                                                               | Default Tags | Report Element                                                                                                                                                                                                                     |
 | --------------- | ----------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Inline Policies | This report identifies AWS Inline Policies that are assigned directly on an AWS Identity. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays inline policies by account</li><li>Table – Shows inline policies by account</li><li>Table – Provides details on inline policies</li></ul> |
-

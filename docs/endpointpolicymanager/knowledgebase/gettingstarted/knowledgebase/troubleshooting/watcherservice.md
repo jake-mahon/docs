@@ -25,11 +25,11 @@ x64
 
 For example, an x64 machine with a single user logged in would have 5 instances.
 
-![670_1_2017-11-13_2259](/img/product_docs/endpointpolicymanager/troubleshooting/490_1_2017-11-13_2259.webp)
+![670_1_2017-11-13_2259](/images/endpointpolicymanager/troubleshooting/490_1_2017-11-13_2259.webp)
 
 If another user logged in, it would add another pair of PPWatcherSvc (32/64) instances for a total
 of 7 processes.
 
 An x86 system with TWO users logged in would look like this.
 
-![670_2_2017-11-13_2302](/img/product_docs/endpointpolicymanager/troubleshooting/490_2_2017-11-13_2302.webp)
+![670_2_2017-11-13_2302](/images/endpointpolicymanager/troubleshooting/490_2_2017-11-13_2302.webp)

@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AAD_UserAttributeCompletion Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/users/userattributecompletionanalysis.webp)
+![Analysis Tasks for the AAD_UserAttributeCompletion Job](/images/accessanalyzer/11.6/solutions/entraid/users/userattributecompletionanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report.
 | Report                    | Description                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                                                                                                     |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User Attribute Completion | This report identifies which attributes are present within User fields in Microsoft Entra ID, and which ones are blank for a majority of User objects. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays completeness by attribute</li><li>Table – Provides details on users with blank attributes</li><li>Tables – Provides details om completeness by attribute</li></ul> |
-

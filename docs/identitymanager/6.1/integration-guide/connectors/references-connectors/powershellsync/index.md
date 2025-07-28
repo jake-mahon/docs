@@ -12,7 +12,7 @@ This connector exports data from an external system via a
 This page is about
 [Custom/PowerShellSync](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/powershellsync/index.md).
 
-![Package: Custom/PowerShellSync](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.webp)
+![Package: Custom/PowerShellSync](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.webp)
 
 ## Overview
 

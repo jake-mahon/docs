@@ -40,7 +40,7 @@ Follow the steps to create configuration backup.
 
 **Step 1 –** Go to **Settings** > **Config** > **Utilities**.
 
-![utilitiesbackup](/img/product_docs/dataclassification/5.7/admin/utilities/utilitiesbackup.webp)
+![utilitiesbackup](/images/dataclassification/5.7/admin/utilities/utilitiesbackup.webp)
 
 **Step 2 –** From the navigation menu on the left, click **Backup/Restore.**
 

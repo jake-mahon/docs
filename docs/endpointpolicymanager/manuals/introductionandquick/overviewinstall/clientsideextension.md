@@ -80,29 +80,29 @@ Deploy PP Client and linked it to East Sales Desktops.
 :::
 
 
-![Deploying Client Side](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_350x474.webp)
+![Deploying Client Side](/images/endpointpolicymanager/install/deploying_the_client_side_350x474.webp)
 
 **Step 5 –** Next, right-click the GPO and select **Edit**. Once you're inside the Group Policy
 Editor, scroll down to **Computer** > **Configuration** > **Software Settings** > **Software
 Installation**. Right-click, and select **New** > **Package**.
 
-![deploying_the_client_side_1_620x359](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_1_620x359.webp)
+![deploying_the_client_side_1_620x359](/images/endpointpolicymanager/install/deploying_the_client_side_1_620x359.webp)
 
 **Step 6 –** Once this is complete, type in the server and share names you used. In our example, our
 server is `\\DC-Computer` and our share is Endpoint Policy Manager. Then select the Endpoint Policy
 Manager CSE Setup x64.msi file, and click **Open**. Next, choose **Assigned**, and select **OK**.
 
-![deploying_the_client_side_2_620x389](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_2_620x389.webp)
+![deploying_the_client_side_2_620x389](/images/endpointpolicymanager/install/deploying_the_client_side_2_620x389.webp)
 
-![deploying_the_client_side_3_550x381](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_3_550x381.webp)
+![deploying_the_client_side_3_550x381](/images/endpointpolicymanager/install/deploying_the_client_side_3_550x381.webp)
 
 When you're done, the GPO should look like this:.
 
-![deploying_the_client_side_4_1200x309](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_4_1200x309.webp)
+![deploying_the_client_side_4_1200x309](/images/endpointpolicymanager/install/deploying_the_client_side_4_1200x309.webp)
 
 **Step 7 –** Repeat this process until both the x86 and x64 MSIs appear.
 
-![deploying_the_client_side_5_1200x240](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_5_1200x240.webp)
+![deploying_the_client_side_5_1200x240](/images/endpointpolicymanager/install/deploying_the_client_side_5_1200x240.webp)
 
 :::note
 Be sure that the source field is pointing to a network path (e.g., `\\server\share`) and

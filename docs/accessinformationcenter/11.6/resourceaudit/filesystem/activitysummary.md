@@ -12,7 +12,7 @@ performed in each server, including operations in folders that are not shared. T
 does not include a date range filter as it contains totals for all operations ever monitored by
 Enterprise Auditor for the targeted environment.
 
-![Activity Summary report at the File System node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/activitysummary.webp)
+![Activity Summary report at the File System node](/images/accessinformationcenter/11.6/resourceaudit/filesystem/activitysummary.webp)
 
 This report is comprised of the following columns:
 

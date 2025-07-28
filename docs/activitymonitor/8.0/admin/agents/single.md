@@ -19,33 +19,33 @@ environments.
 
 **Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
-![Install New Agent window](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+![Install New Agent window](/images/activitymonitor/8.0/install/agent/installnew.webp)
 
 **Step 2 –** On the Install new agent page, enter the Server name (name or IP Address) to deploy to
 a single server. Leave the field blank to deploy the agent on the local server. Click Next.
 
-![Specify Agent Port page](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+![Specify Agent Port page](/images/activitymonitor/8.0/install/agent/portdefault.webp)
 
 **Step 3 –** On the Specify Port page, specify the port that should be used by the new agent. The
 default port is 4498. Click **Next**.
 
-![Credentials to Connect to the Server(s) page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+![Credentials to Connect to the Server(s) page](/images/activitymonitor/8.0/install/agent/credentials.webp)
 
 **Step 4 –** On the Credentials To Connect To The Server(s) page, select ether Windows or Linux file
 monitoring. Then, enter the **User name** and **Password** to connect to the API Server.
 
-![Test Account Connection](/img/product_docs/activitymonitor/8.0/admin/agents/add/testaccountconnection.webp)
+![Test Account Connection](/images/activitymonitor/8.0/admin/agents/add/testaccountconnection.webp)
 
 **Step 5 –** Click **Connect** to test the connection. If the connection is successful, click
 **Next**. If the connection is unsuccessful, see the status message that appears for information on
 the failed connection and correct the error to proceed.
 
-![agentinstalllocation](/img/product_docs/activitymonitor/8.0/admin/agents/add/agentinstalllocation.webp)
+![agentinstalllocation](/images/activitymonitor/8.0/admin/agents/add/agentinstalllocation.webp)
 
 **Step 6 –** On the Agent Install location page, specify the **Agent installation path**. The
 default path is `C:\Program Files\Netwrix\Activity Monitor\Agent`. Click **Next**.
 
-![Enable Windows File Activity Monitoring page](/img/product_docs/activitymonitor/8.0/admin/agents/add/enablewindowsfileactivitymonitoring.webp)
+![Enable Windows File Activity Monitoring page](/images/activitymonitor/8.0/admin/agents/add/enablewindowsfileactivitymonitoring.webp)
 
 **Step 7 –** On the Windows Agent Settings window, configure the following options:
 
@@ -65,7 +65,7 @@ and installed on the target host.
 During the installation process of the agent, the status will display Installing. If there are any
 errors, the Activity Monitor stops the installation and lists the errors in the Agent messages box.
 
-![consolewithagent](/img/product_docs/activitymonitor/8.0/install/agent/consolewithagent.webp)
+![consolewithagent](/images/activitymonitor/8.0/install/agent/consolewithagent.webp)
 
 When the activity agent installation is complete, the status changes to **Installed** and the
 activity agent version populates. The next step is to add hosts to be monitored. See the

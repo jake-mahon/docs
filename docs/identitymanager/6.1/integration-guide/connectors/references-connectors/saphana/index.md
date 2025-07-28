@@ -13,7 +13,7 @@ instance.
 This page is about
 [ERP/SAP S/4 HANA](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/saphana/index.md).
 
-![Package: ERP/SAP S/4 HANA](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/saphana/packages_sap_v603.webp)
+![Package: ERP/SAP S/4 HANA](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/saphana/packages_sap_v603.webp)
 
 ## Overview
 

@@ -13,7 +13,7 @@ instance.
 This page is about
 [Directory/Active Directory](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/active-directory/index.md).
 
-![Package: Directory/Active Directory](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.webp)
+![Package: Directory/Active Directory](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.webp)
 
 ## Overview
 
@@ -40,22 +40,22 @@ To enable permissions, the Active Directory administrator must open the **Advanc
 Settings** dialog box for the domain root and select the **Replicating Directory Changes** check box
 from the list.
 
-![Enable Permissions - Step 1](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_01.webp)
+![Enable Permissions - Step 1](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_01.webp)
 
-![Enable Permissions - Step 2](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_02.webp)
+![Enable Permissions - Step 2](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_02.webp)
 
-![Enable Permissions - Step 3](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_03.webp)
+![Enable Permissions - Step 3](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_03.webp)
 
 Also, in order to change groups' membership, in the `Applies` field, select
 `Descendent Group object` and select the **Read Members** and **Write Members** check boxes from the
 list.
 
-![Read/Write Members](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_04.webp)
+![Read/Write Members](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_04.webp)
 
 If you want the Reset Password capabilities, in the `Applies` field, select `Descendent User object`
 and select the **Read lockoutTime** and **Write lockoutTime** check boxes from the list.
 
-![Read/Write Lockout Times](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_05.webp)
+![Read/Write Lockout Times](/images/identitymanager/6.1/integration-guide/connectors/references-connectors/activedirectory/references_connectors_activedirectory_05.webp)
 
 Administrator rights must not be granted to the service account. Doing otherwise would create a
 security breach. Administrator rights must only be granted to the target perimeter.

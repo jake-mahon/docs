@@ -9,7 +9,7 @@ sidebar_position: 40
 The Criteria page is where criteria to be used for discovering sensitive data are configured. It is
 a wizard page for the Sensitive Data Collection category.
 
-![SQL Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/sql/criteria.webp)
+![SQL Data Collector Wizard Criteria page](/images/accessanalyzer/12.0/admin/datacollector/sql/criteria.webp)
 
 The options on the Criteria page are:
 

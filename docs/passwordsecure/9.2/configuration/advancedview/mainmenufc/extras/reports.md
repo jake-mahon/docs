@@ -17,7 +17,7 @@ tabular lists of freely definable actions to be produced at any selected time �
 the creation of a report. This process can also be automated via
 [System tasks](/docs/passwordsecure/9.2/configuration/advancedview/mainmenufc/extras/systemtasks/system_tasks.md).
 
-![reports](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_78-en.webp)
+![reports](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_78-en.webp)
 
 NOTE: Reports only ever contain information for which the user has the required permissions.
 
@@ -25,7 +25,7 @@ A separate tab for managing existing reports and creating new reports can be ope
 module via the Main menu/Extras/Reports. The module in which the report is opened is irrelevant, the
 contents are always the same.
 
-![installation_with_parameters_79](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_79.webp)
+![installation_with_parameters_79](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_79.webp)
 
 The filter on the left has no relevance in relation to reports. Although reports can also be
 “tagged” in theory, filtering has no effect on the reports. In
@@ -39,7 +39,7 @@ accessed using the right mouse button. The form for creating a new report reques
 separate tab. Alongside a diverse range of variables, the report type can be defined using a
 drop-down list. There are currently dozens of report types available.
 
-![installation_with_parameters_80](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_80.webp)
+![installation_with_parameters_80](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_80.webp)
 
 The filter can be used to define the scope of the report e.g. to focus on a certain OU or simply a
 selection of tags. Once saved, the report will now be shown in the list of report requests.
@@ -49,7 +49,7 @@ selection of tags. Once saved, the report will now be shown in the list of repor
 You can now create a manual report via the ribbon. This will open in a separate tab and can be
 displayed in the default web browser if desired.
 
-![installation_with_parameters_81](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_81.webp)
+![installation_with_parameters_81](/images/passwordsecure/9.2/configuration/advanced_view/mainmenu/extras/reports/installation_with_parameters_81.webp)
 
 Automated sending of reports via system tasks
 

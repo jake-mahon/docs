@@ -36,4 +36,4 @@ You can also use Intune / other MDM as explained in the URL above to stop this b
 Then, Endpoint Policy Manager Browser Router will be 100% in charge of your URLs and the routing /
 redirection.
 
-![456_1_image001_950x573](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/edge/456_1_image001_950x573.webp)
+![456_1_image001_950x573](/images/endpointpolicymanager/troubleshooting/browserrouter/edge/456_1_image001_950x573.webp)

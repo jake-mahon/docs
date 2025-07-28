@@ -14,7 +14,7 @@ manager can easily provide auditors with weekly reports to prove compliance with
 To view existing subscriptions for reports, navigate to the **Report Templates** page on the left
 and click **View Subscriptions** next to an existing template to view and edit subscriptions.
 
-![managesubscription](/img/product_docs/dataclassification/5.7/admin/reporting/managesubscription.webp)
+![managesubscription](/images/dataclassification/5.7/admin/reporting/managesubscription.webp)
 
 Checking the **Create a Subscription** box when saving a new report configuration will enable users
 to create a new subscription. The following options are configured on the **Manage Subscriptions**

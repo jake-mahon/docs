@@ -9,7 +9,7 @@ sidebar_position: 20
 It is possible to delete backups automatically after a certain period of time. This can be useful if
 you append date and time to the backups and thus generate new files daily.
 
-![automatic cleanup](/img/product_docs/passwordsecure/9.2/configuration/server_manager/main_menu/backup_settings/automatic_backup_cleanup/automated-deletion-of-backups-en.webp)
+![automatic cleanup](/images/passwordsecure/9.2/configuration/server_manager/main_menu/backup_settings/automatic_backup_cleanup/automated-deletion-of-backups-en.webp)
 
 ###### Requirement
 
@@ -26,4 +26,4 @@ For a proper function of the automatic deletion, the following must be defined:
 - the SQL instance
 - all paths where the automatic cleanup of the backup files is to be performed.
 
-![setup automatic backup cleanup](/img/product_docs/passwordsecure/9.2/configuration/server_manager/main_menu/backup_settings/automatic_backup_cleanup/automated-deletion-of-backups-2-en.webp)
+![setup automatic backup cleanup](/images/passwordsecure/9.2/configuration/server_manager/main_menu/backup_settings/automatic_backup_cleanup/automated-deletion-of-backups-2-en.webp)

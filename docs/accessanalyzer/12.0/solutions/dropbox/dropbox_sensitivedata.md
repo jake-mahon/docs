@@ -12,7 +12,7 @@ discovered by the Dropbox SDD jobs. The generated reports give visibility into t
 sensitive data found, where it exists, who has access to it, and the sharing policies configured on
 it.
 
-![5.Sensitive Data > Dropbox_SensitiveData Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/sensitivedatajobstree.webp)
+![5.Sensitive Data > Dropbox_SensitiveData Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/dropbox/sensitivedatajobstree.webp)
 
 The Dropbox_SensitiveData job is located in the 5.Sensitive Data job group.
 
@@ -27,7 +27,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Dropbox_SensitiveData Job](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/sensitivedataanalysis.webp)
+![Analysis Tasks for the Dropbox_SensitiveData Job](/images/accessanalyzer/12.0/solutions/dropbox/sensitivedataanalysis.webp)
 
 -   **1. Enterprise Summary** – Creates the SA_Dropbox_SensitiveData_EnterpriseSummary table accessible
        under the job’s Results node
@@ -48,4 +48,3 @@ the Dropbox_SensitiveData job produces the following pre-configured reports.
 | Enterprise Summary         | This report identifies the type and amount of sensitive content found on Dropbox.                                            | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays criteria summary by match count</li><li>Table – Provides criteria summary by match count</li></ul>                                                                                                      |
 | Folder Details             | This report identifies the location of sensitive data, and flags whether or not this data is accessible through open access. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top sensitive folders by file count</li><li>Table – Provides top sensitive folders by file count</li><li>Table – Provides top sensitive folder details by match count</li></ul>                       |
 | Sensitive Data Permissions | This report identifies the sensitive data locations and associated permissions.                                              | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays sensitive data permission summary by file count</li><li>Table – Provides sensitive data permission summary by file count</li><li>Table – Provides sensitive data permissions by match count</li></ul> |
-

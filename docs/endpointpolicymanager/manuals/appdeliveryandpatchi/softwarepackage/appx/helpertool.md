@@ -13,12 +13,12 @@ Helper tool to determine which packages on a machine could be removed by Endpoin
 Software Package Manager (AppX) policies. The tool is found in the Endpoint Policy Manager Extras
 folder within the download.
 
-![appx_policies_and_settings_11](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_11.webp)
+![appx_policies_and_settings_11](/images/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_11.webp)
 
 When you run the Helper tool, you can see all available packages for removal and the publisher
 names.
 
-![appx_policies_and_settings_12](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_12.webp)
+![appx_policies_and_settings_12](/images/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_12.webp)
 
 :::note
 You can generate this same list via PowerShell by using the following command.:
@@ -33,18 +33,18 @@ Inc.,L=Media,S=Pennsylvania,C=US' | Format-Table -Property Name, Publisher -Auto
 
 You can see the list in PowerShell is the same as the list from the Helper tool, as shown below.
 
-![appx_policies_and_settings_13](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_13.webp)
+![appx_policies_and_settings_13](/images/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_13.webp)
 
 You can right-click on the Publisher ID and copy it to the clipboard. Then, you can paste the value
 into the publisher field after selecting **Remove Package**.
 
-![appx_policies_and_settings_14](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_14.webp)
+![appx_policies_and_settings_14](/images/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_14.webp)
 
 The Helper tool also enables you to export one or more applications' details to XML. Once you've
 done this, you can then use the Import button in the Remove Package Policy Mode.
 
-![appx_policies_and_settings_15](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_15.webp)
+![appx_policies_and_settings_15](/images/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_15.webp)
 
 Next, select an application from the list to be populated into the policy.
 
-![appx_policies_and_settings_16](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_16.webp)
+![appx_policies_and_settings_16](/images/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_16.webp)

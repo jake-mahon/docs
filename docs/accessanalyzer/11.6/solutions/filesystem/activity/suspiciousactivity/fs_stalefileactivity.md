@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_StaleFileActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/stalefileactivityanalysis.webp)
+![Analysis Tasks for the FS_StaleFileActivity Job](/images/accessanalyzer/11.6/solutions/filesystem/activity/suspiciousactivity/stalefileactivityanalysis.webp)
 
 - Summarize Hourly Norms and Deviations – Creates the SA_FS_StaleFileActivity_Details table
   accessible under the job’s Results node
@@ -31,4 +31,3 @@ produces the following pre-configured report:
 | Report                   | Description                                                                                  | Default Tags | Report Elements                                                                                                                                                                |
 | ------------------------ | -------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | User Stale File Activity | This report highlights periods of abnormally high activity involving stale shared resources. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays abnormal stale file activity</li><li>Table – Provides details on abnormal stale file activity</li></ul> |
-

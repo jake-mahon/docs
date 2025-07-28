@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/permissions/sqljobgroup39.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/permissions/sqljobgroup39.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report                 | Description                                                                                         | Default Tags | Report Elements                                                                                                                                                                                                         |
 | ---------------------- | --------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Domain User SQL Access | This report looks at SQL server permissions granted to domain users across the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by instance count</li><li>Table – Provides details on access sprawl</li><li>Table – Provides details on permission details</li></ul> |
-

@@ -24,7 +24,7 @@ can be edited below.
 Use the **Filter Control Panel** to allow focus on just the Devices or Groups of interest.
 :::
 
-![Filter control panel](/img/product_docs/changetracker/8.0/admin/settings/page_guide_24.webp)
+![Filter control panel](/images/changetracker/8.0/admin/settings/page_guide_24.webp)
 
 :::note
 Click on the ‘burger’ icon alongside any column heading to get a full list of column
@@ -32,6 +32,6 @@ options.
 :::
 
 
-![Get full list](/img/product_docs/changetracker/8.0/admin/settings/page_guide_25.webp)
+![Get full list](/images/changetracker/8.0/admin/settings/page_guide_25.webp)
 
-![page_guide_26](/img/product_docs/changetracker/8.0/admin/settings/page_guide_26.webp)
+![page_guide_26](/images/changetracker/8.0/admin/settings/page_guide_26.webp)

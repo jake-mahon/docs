@@ -9,7 +9,7 @@ sidebar_position: 10
 The Host Details page shows additional information for the selected host resource. This page is
 opened from any linked resource within the various interfaces.
 
-![Host Details Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/details/hostdetailspage.webp)
+![Host Details Page](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/details/hostdetailspage.webp)
 
 The details page displays the following information:
 

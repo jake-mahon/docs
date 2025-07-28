@@ -10,7 +10,7 @@ sidebar_position: 70
 
 1. Open **SoD** > **SoD Change Management** > **New SoD Approval**
 
-    ![sod_new_change_request](/img/product_docs/platgovnetsuite/sod/sod_new_change_request.webp)
+    ![sod_new_change_request](/images/platgovnetsuite/sod/sod_new_change_request.webp)
 
 2. **Enter information in the following fields:**
 
@@ -31,7 +31,7 @@ sidebar_position: 70
    the status bar.
 7. Click **Pending Approval** on the status bar.
 
-    ![sod_new_change_request_pending](/img/product_docs/platgovnetsuite/sod/sod_new_change_request_pending.webp)
+    ![sod_new_change_request_pending](/images/platgovnetsuite/sod/sod_new_change_request_pending.webp)
 
 ## Assign a Non-Compliant Role to an Employee
 

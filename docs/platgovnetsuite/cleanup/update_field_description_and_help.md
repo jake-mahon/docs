@@ -17,7 +17,7 @@ You can filter the
    results or check **Description/Help is Empty** to focus the **Field List**. Click on a column
    heading in the **Field List** to sort the list by the selected column.
 
-    ![cust_ui_help_update](/img/product_docs/platgovnetsuite/clean_up/cust_ui_help_update.webp)
+    ![cust_ui_help_update](/images/platgovnetsuite/clean_up/cust_ui_help_update.webp)
 
 2. Add or edit **Description** and **Help** text.
 3. Click **Update**

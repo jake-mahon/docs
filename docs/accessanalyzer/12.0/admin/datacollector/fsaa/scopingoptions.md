@@ -13,7 +13,7 @@ following categories:
 - File System Access/Permission Auditing Scan
 - Sensitive Data
 
-![FSAA Data Collector Wizard Scoping Options page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/scopingoptions.webp)
+![FSAA Data Collector Wizard Scoping Options page](/images/accessanalyzer/12.0/admin/datacollector/fsaa/scopingoptions.webp)
 
 The Scoping Options buttons have the following:
 
@@ -49,7 +49,7 @@ The Scoping Configuration Window allows a specific share or folder to be include
 the scan. Only included resources require additional scoping. Remember, these settings override the
 default scoping settings for the selected resource.
 
-![Scoping Configuration Window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/scopingconfigurationwindow.webp)
+![Scoping Configuration Window](/images/accessanalyzer/12.0/admin/datacollector/fsaa/scopingconfigurationwindow.webp)
 
 Set the Resource Name and Host Name:
 
@@ -122,7 +122,7 @@ The following examples show some common configurations of scoping options and th
 
 Scan for all shares except one.
 
-![Common Scoping Options example Scenario 1](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario1.webp)
+![Common Scoping Options example Scenario 1](/images/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario1.webp)
 
 All shares included except for the ProbableOwner share.
 
@@ -130,7 +130,7 @@ All shares included except for the ProbableOwner share.
 
 Scan for one share and exclude all others.
 
-![Common Scoping Options example Scenario 2](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario2.webp)
+![Common Scoping Options example Scenario 2](/images/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario2.webp)
 
 The ProbableOwner Share is included. All other shares are excluded. Share Inclusion must have a
 priority that is greater than or equal to the Share Exclusion.
@@ -139,7 +139,7 @@ priority that is greater than or equal to the Share Exclusion.
 
 Scan all folders except one.
 
-![Common Scoping Options example Scenario 3](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario3.webp)
+![Common Scoping Options example Scenario 3](/images/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario3.webp)
 
 All Shares are scanned and all folders are included except for C:\ProbableOwner\DifferentOwner.
 
@@ -147,7 +147,7 @@ All Shares are scanned and all folders are included except for C:\ProbableOwner\
 
 Scan one folder and exclude all others.
 
-![Common Scoping Options example Scenario 4](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario4.webp)
+![Common Scoping Options example Scenario 4](/images/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario4.webp)
 
 The ProbableOwner Share is included and all other shares are excluded. Within the ProbableOwner
 Share, Folder path C:\ProbableOwner\DifferentOwner is included. All other folder paths are excluded.
@@ -156,7 +156,7 @@ Share, Folder path C:\ProbableOwner\DifferentOwner is included. All other folder
 
 Scan one folder and all of its children and exclude all others.
 
-![Common Scoping Options example Scenario 5](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario5.webp)
+![Common Scoping Options example Scenario 5](/images/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario5.webp)
 
 The ProbableOwner Share is included and all other shares are excluded. Within the ProbableOwner
 Share, Folder path C:\ProbableOwner\DifferentOwner is included along with all of its children
@@ -166,7 +166,7 @@ Share, Folder path C:\ProbableOwner\DifferentOwner is included along with all of
 
 Scan for all content within a folder except one sub-folder.
 
-![Common Scoping Options example Scenario 6](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario6.webp)
+![Common Scoping Options example Scenario 6](/images/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsscenario6.webp)
 
 The ProbableOwner Share is included and all other shares are excluded. Within the ProbableOwner
 Share, Folder path C:\ProbableOwner\DifferentOwner is included along with all of its children
@@ -184,6 +184,6 @@ For example, in the scenario below, the NFS export named NFS_Export is included.
 are excluded. Within the NFS_Export export, folder path \ifs\NFS_Export\Test_Folder is included. All
 other folder paths are excluded.
 
-![FSAA Scoping Options NFS export example](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsnfsexports.webp)
+![FSAA Scoping Options NFS export example](/images/accessanalyzer/12.0/admin/datacollector/fsaa/commonscopingoptionsnfsexports.webp)
 
 Note the different slash types for exports compared to folders.

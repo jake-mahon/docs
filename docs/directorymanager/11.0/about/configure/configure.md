@@ -18,11 +18,11 @@ You can configure GroupID immediately after installing it or later.
 
     In either case, the tool opens to the **Introduction** page.
 
-    ![Introduction page](/img/product_docs/directorymanager/11.0/install/configure/intro.webp)
+    ![Introduction page](/images/directorymanager/11.0/install/configure/intro.webp)
 
 2. Read the welcome message and click **Next**.
 
-    ![Create new server page](/img/product_docs/directorymanager/11.0/install/configure/select_to_create_a_new_server-new.webp)
+    ![Create new server page](/images/directorymanager/11.0/install/configure/select_to_create_a_new_server-new.webp)
 
 3. To configure a GroupID server or a GroupID client, select the relevant option.
 
@@ -42,7 +42,7 @@ You can configure GroupID immediately after installing it or later.
       deployed for another GroupID server in your environment.
 
         This option also configures the GroupID Elasticsearch Service as a slave node to the master
-        node for the Elasticsearch Service cluster configured on the GroupID server.  
+        node for the Elasticsearch Service cluster configured on the GroupID server.
          See the
         [Configure a new GroupID server to add it into an existing GroupID 11 cluster with an existing database](/docs/directorymanager/11.0/about/configure/database.md)
         topic for additional information.

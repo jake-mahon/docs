@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Box_FirstTimeFolderAccess Job](/img/product_docs/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/firsttimefolderaccessanalysis.webp)
+![Analysis Tasks for the Box_FirstTimeFolderAccess Job](/images/accessanalyzer/11.6/solutions/box/activity/suspiciousactivity/firsttimefolderaccessanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,4 +35,3 @@ the following pre-configured report:
 | Report                   | Description                                                           | Default Tags | Report Elements                                                                                                                                                                                                                                                       |
 | ------------------------ | --------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | First Time Folder Access | This report highlights details for first time folder access per user. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays last 30 days of first time folder access</li><li>Table – Provides summary of last 30 days of first time folder access</li><li>Table – Provides details on first time folder access</li></ul> |
-

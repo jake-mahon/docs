@@ -12,7 +12,7 @@ If you open the permissions for an organisational structure, the currently confi
 will be visible. In the following example, there are a total of four roles with varying permissions
 for the organisational structure.
 
-![inheriting permission](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/inheriting_permissions_1-en.webp)
+![inheriting permission](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/inheriting_permissions_1-en.webp)
 
 ## Relevant rights
 

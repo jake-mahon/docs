@@ -12,7 +12,7 @@ Policy. See the
 [Access Policy Page](/docs/privilegesecure/4.1/admin/interface/accesspolicy/accesspolicy.md)
 topic for additional information.
 
-![Active Dashboard page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/dashboard/active.webp)
+![Active Dashboard page](/images/privilegesecure/4.1/accessmanagement/admin/dashboard/active.webp)
 
 The dashboard has the following features:
 

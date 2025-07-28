@@ -9,7 +9,7 @@ sidebar_position: 20
 The Minimum Age rule stops users from quickly cycling through a series of passwords in order to
 evade the History and Similarity rules. This rule can only be enforced by domain policies.
 
-![Minimum age rule](/img/product_docs/passwordpolicyenforcer/11.0/administration/agemin.webp)
+![Minimum age rule](/images/passwordpolicyenforcer/11.0/administration/agemin.webp)
 
 Select the **Age (Min)** check box to enable the Minimum Age rule.
 

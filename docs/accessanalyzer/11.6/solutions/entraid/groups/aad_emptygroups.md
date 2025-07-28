@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis tasks for AAD_EmptyGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/groups/emptygroupsanalysis.webp)
+![Analysis tasks for AAD_EmptyGroups Job](/images/accessanalyzer/11.6/solutions/entraid/groups/emptygroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -39,4 +39,3 @@ following pre-configured reports.
 | ------------------ | --------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Empty Groups       | This report identifies all groups without any members.          | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays domains by number of empty groups</li><li>Table – Provides details on empty groups</li><li>Table – Provides details on number of empty groups by domain</li></ul>                         |
 | Single User Groups | This report identifies groups which only contain a single user. |              | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by single user group count</li><li>Table – Provides details on top domains by single user group count</li><li>Table – Provides details on single user group details</li></ul> |
-

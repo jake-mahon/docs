@@ -28,7 +28,7 @@ The way in which permissions for organisational structures are designed thus eff
 work with Netwrix Password Secure in many ways. The following diagram describes the above-mentioned
 interfaces.
 
-![Permissions for organizational structures](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_1-en.webp)
+![Permissions for organizational structures](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_1-en.webp)
 
 ## Permissions
 
@@ -38,7 +38,7 @@ have what form of permissions for a given organisational structure. Permissions 
 structures can be defined via the ribbon or also the context menu that is accessed using the right
 mouse button. A permissions tab appears:
 
-![Permissions for OU](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_2-en.webp)
+![Permissions for OU](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_2-en.webp)
 
 NOTE: The basic mechanisms for setting permissions is described in detail in the Authorization
 concept.

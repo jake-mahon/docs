@@ -10,8 +10,8 @@ The License Manager is where you manage your Platform Governance for NetSuite li
 users. Contact your customer service representative if you need modifications to your license.
 
 :::note
-If the **Take Web Site Offline for Maintenance** option is changed, you must use the  
-**Strongpoint** > **Strongpoint Support** > **License Manager** > **Get Lic. Number**  
+If the **Take Web Site Offline for Maintenance** option is changed, you must use the
+**Strongpoint** > **Strongpoint Support** > **License Manager** > **Get Lic. Number**
  Or re-push the bundle to update the Spider link.
 :::
 
@@ -20,13 +20,13 @@ If the **Take Web Site Offline for Maintenance** option is changed, you must use
 1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
 2. Depending on your account settings, you may have to click **View** to see the account record.
 
-    ![Add a New License.](/img/product_docs/platgovnetsuite/installing_strongpoint/license_new.webp)
+    ![Add a New License.](/images/platgovnetsuite/installing_strongpoint/license_new.webp)
 
 3. Click **Get Lic. Number** if the **License Number** is blank. If the License Number is not blank,
    continue with the next step.
 4. Click **New Licensed User**.
 
-    ![Add a licensed user](/img/product_docs/platgovnetsuite/installing_strongpoint/license_new_user.webp)
+    ![Add a licensed user](/images/platgovnetsuite/installing_strongpoint/license_new_user.webp)
 
 5. Select a **User**.
 6. Set **License Type** to **Full**.

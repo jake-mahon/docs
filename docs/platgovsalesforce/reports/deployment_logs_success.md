@@ -43,4 +43,4 @@ indicates the current column and sort order being used for the results.
 -  **Customizations**: Customizations for the deployment.
 -  **Tests Selected**: Number of selected tests.
 
-![Successful Deployment Logs Report](/img/product_docs/platgovsalesforce/reports/report_deploy_success.webp)
+![Successful Deployment Logs Report](/images/platgovsalesforce/reports/report_deploy_success.webp)

@@ -36,7 +36,7 @@ The following add-ons were verified and posted in Add-ons Store. You can get add
 product. To do so, navigate to **Settings > Integrations** and click **Go to add-on store** button.
 The following menu will appear:
 
-![addonstore](/img/product_docs/auditor/10.7/addon/addonstore.webp)
+![addonstore](/images/auditor/10.7/addon/addonstore.webp)
 
 Netwrix Auditor Integration API uses HTTPS with an automatically generated certificate for running
 requests to its endpoints. By default, add-ons are configured to accept all certificates that is
@@ -75,7 +75,7 @@ is explicitly defined. If necessary, modify the parameters as required.
 **Step 5 –** Review the add-on operation results. For example, if you are using the add-on that
 imports data to Netwrix Auditor, you can search Activity Records in the Netwrix Auditor client.
 
-![api_thumb_0_0](/img/product_docs/auditor/10.7/addon/api_thumb_0_0.webp)
+![api_thumb_0_0](/images/auditor/10.7/addon/api_thumb_0_0.webp)
 
 **Step 6 –** (optional) For PowerShell based add-ons, you can schedule a daily task to ensure your
 audit data is always up-to-date.

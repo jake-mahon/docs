@@ -67,7 +67,7 @@ When
 [getting Usercube data in Power BI](/docs/identitymanager/6.1/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (ExcludedProperty)](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.webp)
+![Universe (ExcludedProperty)](/images/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.webp)
 
 ### MappingPath
 

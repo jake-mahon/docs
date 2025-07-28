@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_SIDHistory Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/sidhistoryanalysis.webp)
+![Analysis Tasks for the AD_SIDHistory Job](/images/accessanalyzer/12.0/solutions/activedirectory/users/sidhistoryanalysis.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ produces the following pre-configured report:
 | Report      | Description                                                                                                                                                                                                                                                                                                                    | Default Tags | Report Elements                                                                                                                                                                                                            |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SID History | This report lists historical SIDs in the audited environment. Additionally, it highlights exceptions involving the SIDHistory attribute on AD user objects. Considered in particular are when a user has a historical SID from their current domain, or when a non-admin user has a historical SID with administrative rights. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays historical SIDs by domain</li><li>Table – Provides details on SID history</li><li>Table – Provides details on historical SIDs by domain</li></ul> |
-

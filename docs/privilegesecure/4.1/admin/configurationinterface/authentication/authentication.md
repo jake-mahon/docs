@@ -15,7 +15,7 @@ accessing the application. See the
 [Authentication Connector Tab](/docs/privilegesecure/4.1/admin/interface/usersgroups/usergroupapplication/authenticationconnector.md)
 topic for additional information.
 
-![authenticationpage](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/page/authenticationpage.webp)
+![authenticationpage](/images/privilegesecure/4.1/accessmanagement/admin/configuration/page/authenticationpage.webp)
 
 The pane on the left side of the page displays a list of the configured authentication connectors.
 This pane has the following features:

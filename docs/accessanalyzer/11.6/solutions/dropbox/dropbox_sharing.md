@@ -13,7 +13,7 @@ sharing occurs. Best practices often dictate that these resources should be care
 to the amount of access to the data. If these resources contain privileged data, the access should
 be reevaluated or the sensitive resources relocated.
 
-![2.Sharing > Dropbox_Sharing Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/dropbox/sharingjobstree.webp)
+![2.Sharing > Dropbox_Sharing Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/dropbox/sharingjobstree.webp)
 
 The Dropbox_Sharing job is located in the 2.Sharing job group.
 
@@ -28,7 +28,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the Dropbox_Sharing Job](/img/product_docs/accessanalyzer/11.6/solutions/dropbox/sharinganalysis.webp)
+![Analysis Tasks for the Dropbox_Sharing Job](/images/accessanalyzer/11.6/solutions/dropbox/sharinganalysis.webp)
 
 - Get shared folder details – Creates the SA_Dropbox_Sharing_Details table accessible under the
   job’s Results node
@@ -41,4 +41,3 @@ the Dropbox_Sharing job produces the following pre-configured report.
 | Report                   | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                                                 |
 | ------------------------ | ---------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Shared Files and Folders | This report lists all shares by team, and provides sharing policy and owner information. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays shared folders by team</li><li>Table – Provides details on shared folders by team</li><li>Table – Provides details on shares</li></ul> |
-

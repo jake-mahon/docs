@@ -21,13 +21,13 @@ limitations.
 The File Copy settings are found in the Group Policy Editor under User Configuration > Preferences >
 Files node and Computer Configuration > Preferences > Files node.
 
-![about_policypak_remote_work](/img/product_docs/endpointpolicymanager/remoteworkdelivery/about_endpointpolicymanager_remote_work.webp)
+![about_policypak_remote_work](/images/endpointpolicymanager/remoteworkdelivery/about_endpointpolicymanager_remote_work.webp)
 
 Using Group Policy Preferences will copy exactly one file and place it where you want it. You can
 also add an asterisk (\*) in the source file entry, which changes the Destination File field to a
 Destination folder field.
 
-![about_policypak_remote_work_1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/about_endpointpolicymanager_remote_work_1.webp)
+![about_policypak_remote_work_1](/images/endpointpolicymanager/remoteworkdelivery/about_endpointpolicymanager_remote_work_1.webp)
 
 When you add the asterisk (\*), Group Policy Preferences will attempt to copy all the files from
 that source folder down to the client. Note that this file copy is not recursive, making it a common

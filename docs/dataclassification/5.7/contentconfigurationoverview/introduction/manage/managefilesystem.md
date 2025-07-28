@@ -37,7 +37,7 @@ Related content source settings can be configured at a global level (default), o
 3. In the taxonomy properties, enable writing classification attributes (tags) and specify other
    settings:
 
-![filewriteconfig](/img/product_docs/dataclassification/5.7/admin/sources/filesystem/filewriteconfig.webp)
+![filewriteconfig](/images/dataclassification/5.7/admin/sources/filesystem/filewriteconfig.webp)
 
 | Setting                  | Description                                                                                        | Note                                                                                    |
 | ------------------------ | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -69,7 +69,7 @@ classifications attributes to the classified documents:
 4. In the taxonomy properties, select the **Enabled** checkbox and specify the settings described in
    the table above.
 
-![file_source_write_cfg_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/filesystem/file_source_write_cfg_thumb_0_0.webp)
+![file_source_write_cfg_thumb_0_0](/images/dataclassification/5.7/admin/sources/filesystem/file_source_write_cfg_thumb_0_0.webp)
 
 ## Configure Inclusions
 
@@ -91,7 +91,7 @@ Inclusions are case-insensitive. A wildcard (\*) is supported.
 :::
 
 
-![nfs_inclusions_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/filesystem/nfs_inclusions_thumb_0_0.webp)
+![nfs_inclusions_thumb_0_0](/images/dataclassification/5.7/admin/sources/filesystem/nfs_inclusions_thumb_0_0.webp)
 
 ## Configure Exclusions
 
@@ -118,7 +118,7 @@ Exclusions are case-insensitive.
 :::
 
 
-![file_exclusion_filter_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/filesystem/file_exclusion_filter_thumb_0_0.webp)
+![file_exclusion_filter_thumb_0_0](/images/dataclassification/5.7/admin/sources/filesystem/file_exclusion_filter_thumb_0_0.webp)
 
 3. Optionally, enter a test path to verify the settings and click **Test**.
 4. If needed, you can use metadata conditions to restrict when an exclusion filter should be

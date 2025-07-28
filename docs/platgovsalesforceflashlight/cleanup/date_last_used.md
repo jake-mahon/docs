@@ -47,7 +47,7 @@ Usage data fields:
   the CustomField populated. This provides usage recency information when Field History Tracking is
   disabled. **CreatedDate** is more accurate for the CustomField than the **LastModifiedDate** for
   the record.
-- **DLU Status** displays the current status:  
+- **DLU Status** displays the current status:
    | DLU Status | DLU | Field History Tracking | Date DLU Analyzed | Parent Last Update Date | | ---
   | --- | --- | --- | --- | | Unavailable | Blank | Never enabled for this field. | Blank |
   Populated | | Pending | Blank | Enabled. Waiting for the scanner to run. | Blank | Populated | |
@@ -58,8 +58,8 @@ Usage data fields:
   when enabled was longer than three months ago. Three months is the default time period. See
   Setting the DLU Expiration. | Older than set time period | Populated | If Field History Tracking
   is enabled for a CustomField with a **DLU Status** of either **Recent** or **Expired**, the status
-  is changed to **Pending**. Here is an example:  
-  ![Example of the DLU status fields for a CustomField](/img/product_docs/platgovsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.webp)
+  is changed to **Pending**. Here is an example:
+  ![Example of the DLU status fields for a CustomField](/images/platgovsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.webp)
 
 ### Notes
 
@@ -80,12 +80,12 @@ has been disabled. To change the time period:
 
 1. Open **Setup**
 2. Expand **Custom Code**
-3. Select **Custom Metadata Types**  
-   ![Open Custom Metadata Types](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types.webp)
-4. Click **Manage Records** by **Strongpoint DLU Parameter**.  
-   ![Click Manage Records to open the record](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
-5. Click **Edit** by **DLU Expiration**.  
-   ![Edit the parameters](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
+3. Select **Custom Metadata Types**
+   ![Open Custom Metadata Types](/images/platgovsalesforce/clean_up/custom_metadata_types.webp)
+4. Click **Manage Records** by **Strongpoint DLU Parameter**.
+   ![Click Manage Records to open the record](/images/platgovsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
+5. Click **Edit** by **DLU Expiration**.
+   ![Edit the parameters](/images/platgovsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
 6. Set the **DLU Expiration (Months)**. The default is three.
 7. Click **Save**.
 
@@ -181,7 +181,7 @@ used date field on customizations with the date the metadata was last used. It p
 for field usage on custom fields and custom objects and catch any permission set assignments related
 to users.
 
-![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)
+![scheduler](/images/platgovsalesforce/clean_up/scheduler.webp)
 
 Once the scheduler has been set up, you can view the DLU under the **Metadata** tab on the
 customization record.

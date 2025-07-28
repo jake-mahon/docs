@@ -10,7 +10,7 @@ The 0.Collection Job Group, located at **Databases** > **0.Collection** > **Azur
 high–level summary information from targeted Azure SQL Instances. This information is used by other
 jobs in the Azure SQL solution further analysis and for producing respective reports.
 
-![0.Collection Job Group - Azure SQL](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/collectionjobmenu.webp)
+![0.Collection Job Group - Azure SQL](/images/accessanalyzer/11.6/solutions/databases/azuresql/collection/collectionjobmenu.webp)
 
 The jobs in 0.Collection Jobs Group are:
 
@@ -40,5 +40,5 @@ The jobs in 0.Collection Jobs Group are:
     :::note
     Running the 0.Collection Job Group is a prerequisite for the other job groups in the
     Azure SQL solution
-    
+
     :::

@@ -9,7 +9,7 @@ sidebar_position: 30
 The Users tab shows the users and groups in the selected access certification task for which the
 reviewer must certify access entitlement.
 
-![userstab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/tab/userstab.webp)
+![userstab](/images/privilegesecure/4.2/accessmanagement/admin/auditreporting/tab/userstab.webp)
 
 The Users table has the following features:
 
@@ -43,7 +43,7 @@ tab
 
 **Step 3 –** Click Add to open the Add Users and Groups window.
 
-![addusers](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/tab/addusers.webp)
+![addusers](/images/privilegesecure/4.2/accessmanagement/admin/auditreporting/tab/addusers.webp)
 
 The Add Users and Groups window has the following features:
 

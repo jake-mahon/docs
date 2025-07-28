@@ -8,8 +8,6 @@ sidebar_position: 70
 
 This topic describes the steps needed for upgrading Threat Manager to the latest version.
 
-See the [What's New](/docs/threatmanager/3.0/whatsnew.md) topic for details on new and improved features included with
-each release.
 
 ## Considerations
 

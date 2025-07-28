@@ -34,7 +34,7 @@ Start > Windows Administrative Tools **> Local Security Policy**.
 **Step 2 –** Navigate to **Security Settings > Local Policies > Security Options** and locate the
 **Audit: Force audit policy subcategory settings** policy.
 
-![manualconfig_fileserver_graudit_secpol2016](/img/product_docs/auditor/10.6/configuration/fileservers/windows/manualconfig_fileserver_graudit_secpol2016.webp)
+![manualconfig_fileserver_graudit_secpol2016](/images/auditor/10.6/configuration/fileservers/windows/manualconfig_fileserver_graudit_secpol2016.webp)
 
 **Step 3 –** Double-click the policy and enable it.
 

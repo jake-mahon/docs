@@ -10,7 +10,7 @@ sidebar_position: 30
 "The following applications are using files which the installer must update. You can either close the applications and click "Try Again" or click "Continue" so that the installer continues the installation, and replaces these files when your system restarts"
 ```
 
-![752_1_image-20200108161845-1](/img/product_docs/endpointpolicymanager/troubleshooting/install/752_1_image-20200108161845-1.webp)
+![752_1_image-20200108161845-1](/images/endpointpolicymanager/troubleshooting/install/752_1_image-20200108161845-1.webp)
 
 You are receiving this message because the "Microsoft Visual C++ 2015-2019 Redistributable" that
 VMware installs, is an older version than the version needed by the Netwrix Endpoint Policy Manager

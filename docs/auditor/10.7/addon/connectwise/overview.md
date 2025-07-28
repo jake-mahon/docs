@@ -35,7 +35,7 @@ To implement the solution, Managed Service Provider does the following on the cl
 
 On a high level, the workflow is as follows:
 
-![CW_workflow](/img/product_docs/auditor/10.7/addon/connectwise/diagramworkflow_thumb_0_0.webp)
+![CW_workflow](/images/auditor/10.7/addon/connectwise/diagramworkflow_thumb_0_0.webp)
 
 1. Managed Service Provider installs and configures the add-on on AuditorServer. MSP also enables
    the necessary alerts in Netwrix Auditor, specifying add-on launch as the response action in the
@@ -51,7 +51,7 @@ On a high level, the workflow is as follows:
 
 Solution architecture and key components are shown in the figure below:
 
-![diagram](/img/product_docs/auditor/10.7/addon/connectwise/diagram.webp)
+![diagram](/images/auditor/10.7/addon/connectwise/diagram.webp)
 
 - **Alert Handler (Netwrix.ITSM.AlertResponseAction.exe)** — the executable that is specified in the
   Auditor alerts as the response action. Alert Handler:

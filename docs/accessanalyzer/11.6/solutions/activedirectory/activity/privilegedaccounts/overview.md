@@ -9,7 +9,7 @@ sidebar_position: 80
 The Privileged Accounts Job Group highlights the activity performed by this accounts, to identify
 potential abuses or unused accounts which can be deprovisioned.
 
-![Privileged Accounts Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/jobstree.webp)
+![Privileged Accounts Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/activedirectory/activity/privilegedaccounts/jobstree.webp)
 
 The following Jobs make up the Privileged Accounts Job Group:
 

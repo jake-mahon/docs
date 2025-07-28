@@ -35,7 +35,7 @@ task is preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_StaleComputers Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/computers/stalecomputersanalysis.webp)
+![Analysis Tasks for the AD_StaleComputers Job](/images/accessanalyzer/11.6/solutions/activedirectory/computers/stalecomputersanalysis.webp)
 
 The default analysis tasks are:
 

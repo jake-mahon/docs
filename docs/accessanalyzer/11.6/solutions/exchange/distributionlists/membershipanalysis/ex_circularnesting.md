@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_CircularNesting Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/distributionlists/membershipanalysis/circularnestinganalysis.webp)
+![Analysis Tasks for the EX_CircularNesting Job](/images/accessanalyzer/11.6/solutions/exchange/distributionlists/membershipanalysis/circularnestinganalysis.webp)
 
 The following analysis tasks are selected by default:
 

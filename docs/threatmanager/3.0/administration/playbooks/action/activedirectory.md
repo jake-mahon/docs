@@ -13,7 +13,7 @@ The following actions target Active Directory.
 The Active Directory Group Membership action provides configuration options to add or remove Active
 Directory group membership.
 
-![adgroupmembership](/img/product_docs/threatmanager/3.0/administration/playbooks/action/adgroupmembership.webp)
+![adgroupmembership](/images/threatmanager/3.0/administration/playbooks/action/adgroupmembership.webp)
 
 - Users – Select the users for whom to alter group membership. If not specified, the user who
   triggered the threat will be used.
@@ -32,7 +32,7 @@ Directory group membership.
 The Change Password at Next Logon action forces the user to change their password the next time the
 user logs on.
 
-![changepassword](/img/product_docs/threatmanager/3.0/administration/playbooks/action/changepassword.webp)
+![changepassword](/images/threatmanager/3.0/administration/playbooks/action/changepassword.webp)
 
 - Users – Select the users for whom to reset passwords at next logon. If not specified, the user who
   triggered the threat will be used.
@@ -45,7 +45,7 @@ user logs on.
 
 The Disable Active Directory Account action disables the specified account.
 
-![disableadaccount](/img/product_docs/threatmanager/3.0/administration/playbooks/action/disableadaccount.webp)
+![disableadaccount](/images/threatmanager/3.0/administration/playbooks/action/disableadaccount.webp)
 
 - Active Directory Credentials – Select a credential profile that contains valid Active Directory
   credentials. Credential profiles are configured on the
@@ -58,7 +58,7 @@ The Disable Active Directory Account action disables the specified account.
 The Disable Active Directory Computer action disables the specified computer object in Active
 Directory.
 
-![disableadcomputer](/img/product_docs/threatmanager/3.0/administration/playbooks/action/disableadcomputer.webp)
+![disableadcomputer](/images/threatmanager/3.0/administration/playbooks/action/disableadcomputer.webp)
 
 - Disable Domain Controllers – When selected, allows domain controllers to be disabled.
 - Active Directory Credentials – Select a credential profile that contains valid Active Directory
@@ -71,7 +71,7 @@ Directory.
 
 The Reset Password action resets the password of the specified account.
 
-![resetpassword](/img/product_docs/threatmanager/3.0/administration/playbooks/action/resetpassword.webp)
+![resetpassword](/images/threatmanager/3.0/administration/playbooks/action/resetpassword.webp)
 
 - Users – Select the users for whom to reset passwords. If not specified, the user who triggered the
   threat will be used.
@@ -84,7 +84,7 @@ The Reset Password action resets the password of the specified account.
 
 The Revert Permission Change action reverts a permission change on an Active Directory Object.
 
-![revertpermissionchange](/img/product_docs/threatmanager/3.0/administration/playbooks/action/revertpermissionchange.webp)
+![revertpermissionchange](/images/threatmanager/3.0/administration/playbooks/action/revertpermissionchange.webp)
 
 - Credential – Select a credential profile that contains valid Active Directory credentials.
   Credential profiles are configured on the Integrations Interface. If not specified, the action

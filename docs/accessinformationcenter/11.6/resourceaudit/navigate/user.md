@@ -12,7 +12,7 @@ See the
 topic for additional information. It contains three panes in all audit interfaces: Reports, Results,
 and Group Membership.
 
-![User Audit Interface](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/userauditinterface.webp)
+![User Audit Interface](/images/accessinformationcenter/11.6/resourceaudit/navigate/userauditinterface.webp)
 
 The user being audited is identified at the top of the interface as part of the interface
 breadcrumb. See the

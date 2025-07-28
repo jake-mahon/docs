@@ -25,7 +25,7 @@ endpoint.
 
 You should be able to see Acrobat Reader in the Start Menu, as shown in Figure 5.
 
-![quickstart_start_screen_manager](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager.webp)
+![quickstart_start_screen_manager](/images/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager.webp)
 
 Figure 5. Adobe Reader is installed on the GPMC machine and the Windows 10 Endpoint.
 

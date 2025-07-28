@@ -19,7 +19,7 @@ behavior:
 
 **Step 1 –** Computers cannot be joined / re-joined to Endpoint Policy Manager Cloud
 
-![612_1_rt](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/612_1_rt.webp)
+![612_1_rt](/images/endpointpolicymanager/troubleshooting/cloud/612_1_rt.webp)
 
 **Step 2 –** Endpoint Policy Manager Cloud /sync might show the following message…
 

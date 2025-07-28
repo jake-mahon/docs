@@ -10,7 +10,7 @@ Follow the steps to upgrade Threat Manager 2.6/2.7 to 2.8 or to apply a hotfix t
 
 **Step 1 –** Install the new version of PostreSQL.
 
-![postgresql](/img/product_docs/threatmanager/3.0/install/postgresql.webp)
+![postgresql](/images/threatmanager/3.0/install/postgresql.webp)
 
 :::note
 The migration of PostgreSQL 10 to 14 will require a migration of theThreat Manager
@@ -26,7 +26,7 @@ database. You may proceed through the migration process in the following menu.
 
     - PG Tools Directory – Path to the directory where PostgreSQL binaries are located
 
-        ![postgresqlcompression](/img/product_docs/threatmanager/3.0/install/postgresqlcompression.webp)
+        ![postgresqlcompression](/images/threatmanager/3.0/install/postgresqlcompression.webp)
 
     - Compression Level – Select the compression level to be applied to the data. It contains the
       following options:
@@ -44,7 +44,7 @@ database. You may proceed through the migration process in the following menu.
         :::
 
 
-        ![postgresqlthreads](/img/product_docs/threatmanager/3.0/install/postgresqlthreads.webp)
+        ![postgresqlthreads](/images/threatmanager/3.0/install/postgresqlthreads.webp)
 
     - Number of Threads – Select the number of threads to be applied. Adding more threads can
       considerably reduce the time to import data to the target server. It contains the following
@@ -87,18 +87,18 @@ The disk space required for the backup does not need to be on the same disk as t
 :::
 
 
-![updatentm](/img/product_docs/threatmanager/3.0/install/updatentm.webp)
+![updatentm](/images/threatmanager/3.0/install/updatentm.webp)
 
 **Step 4 –** Install the new version of Threat Manager.
 
 **Step 5 –** Click **Test** on the **Connect to a Threat Manager Database** page. The installer
 should see the existing PostgreSQL database and prompt to migrate.
 
-![postgresqlwarning](/img/product_docs/threatmanager/3.0/install/postgresqlwarning.webp)
+![postgresqlwarning](/images/threatmanager/3.0/install/postgresqlwarning.webp)
 
 **Step 6 –** Click **OK**, click **Next**, then click **Test**. You will see the following message.
 
-![readyformigration](/img/product_docs/threatmanager/3.0/install/readyformigration.webp)
+![readyformigration](/images/threatmanager/3.0/install/readyformigration.webp)
 
 **Step 7 –** Click **Next**.
 
@@ -150,7 +150,7 @@ be automatically updated.
 :::
 
 
-![apptokensdep](/img/product_docs/threatmanager/3.0/install/apptokensdep.webp)
+![apptokensdep](/images/threatmanager/3.0/install/apptokensdep.webp)
 
 **Step 3 –** Take note of the app token name and description and create a new one to be used with
 the application. See the

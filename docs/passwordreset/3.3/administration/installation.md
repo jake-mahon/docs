@@ -36,7 +36,7 @@ The Password Reset Server is the component that performs requests on behalf of u
 requests from the Web Interface, checks the user's credentials, and performs the requested task if
 the credentials are valid.
 
-![installing_npr](/img/product_docs/passwordreset/3.3/evaluation/installing_npr.webp)
+![installing_npr](/images/passwordreset/3.3/evaluation/installing_npr.webp)
 
 :::note
 Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
@@ -182,7 +182,7 @@ box is selected, and then click **Next** twice.
 :::note
 Open UDP port 5100 on the Password Reset Server computer if a host-based firewall other
 than the Windows Firewall is installed. This is needed in addition to the DMZ firewall rules
-above.  
+above.
 The Password Reset Setup wizard installs the Password Reset Server and associated files into the
 `\Program Files\Netwrix Password Reset\` folder by default. Use the SERVERDIR parameter to install
 the Password Reset Server to a different folder. For example, APR330.exe
@@ -224,7 +224,7 @@ Reset**, and **3.0** registry keys.
 **Step 12 –** Set the **ServerIP** registry value to the IP address of the computer that you
 installed the Password Reset Server onto.
 
-![installing_npr_1](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/installing_npr_1.webp)
+![installing_npr_1](/images/passwordpolicyenforcer/11.0/passwordreset/administration/installing_npr_1.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the
 files to another directory and publish several Web Interfaces from one server. This allows you to
@@ -267,7 +267,7 @@ Interface files before upgrading**. The Web Interface files are installed in the
 
 :::note
 A full backup of the NPR server(s) is recommended. This allows you to roll back to the
-previous version if the upgrade cannot be completed.  
+previous version if the upgrade cannot be completed.
 You may need to restart Windows after upgrading.
 :::
 

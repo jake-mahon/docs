@@ -13,7 +13,7 @@ Quickstart, you won't be using these deployment options. You'll be coping the fi
 machine in whatever method you wish. IBelow you can see the file is copied to the desktop of the
 target machine. It is done here only for demonstration purposes.
 
-![quickstart_using_policypak_9](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_9.webp)
+![quickstart_using_policypak_9](/images/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_9.webp)
 
 By running the `Deploy GPP MSI.msi` file (providing credentials as needed), you will be installing
 your MSI, which is simply the Group Policy Preferences XML file.
@@ -28,7 +28,7 @@ Next, the Group Policy Preferences XML file is placed within a Endpoint Policy M
 the machine, to be read and processed. Within 10 seconds, you should see the Group Policy Preference
 item apply the www.endpointpolicymanager.com shortcut URL on the desktop.
 
-![quickstart_using_policypak_10](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_10.webp)
+![quickstart_using_policypak_10](/images/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_10.webp)
 
 :::note
 This demonstration will only work successfully when the computer is in Licensed or Trial

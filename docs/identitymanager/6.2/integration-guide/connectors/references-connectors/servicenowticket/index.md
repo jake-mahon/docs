@@ -10,14 +10,14 @@ This connector opens tickets in [ServiceNow](https://www.servicenow.com/) for ma
 
 This page is about [ServiceNow Ticket](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
 
-![Package: Ticket/ServiceNow](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.webp)
+![Package: Ticket/ServiceNow](/images/identitymanager/saas/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.webp)
 
 ## Overview
 
 ServiceNow is a cloud-based company that provides software as a service (SaaS) for technical
 management support. The company specializes in IT service management (ITSM), IT operations
 management (ITOM) and IT business management (ITBM), allowing users to manage projects, teams and
-customer interactions via a variety of apps and plugins.  
+customer interactions via a variety of apps and plugins.
 This section focuses on ServiceNow ticket creation for the fulfillment of resources that can't or
 shouldn't be performed with an existing fulfill. To learn about how to manage entities, see
 [ServiceNow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)Entity Management.

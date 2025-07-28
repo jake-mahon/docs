@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Active Directory menu displays the configuration options for Active Directory platforms.
 
-![Active Directory Platform Configuration](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/platforms/activedirectory.webp)
+![Active Directory Platform Configuration](/images/privilegesecure/4.1/accessmanagement/admin/policy/page/platforms/activedirectory.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for an Active Directory Platform.

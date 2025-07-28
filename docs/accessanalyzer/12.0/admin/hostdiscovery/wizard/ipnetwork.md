@@ -10,12 +10,12 @@ Follow the steps to create a Host Discovery query using the Scan your IP network
 option scans a specified range of IP Addresses for active hosts and resolves the names of machines
 using DNS.
 
-![Host Discovey Wizard Source page for IP network scan](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source_1.webp)
+![Host Discovey Wizard Source page for IP network scan](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/source_1.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Scan your IP network**
 option. Click **Next**.
 
-![Host Discovey Wizard Query page for IP network scan](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/query_1.webp)
+![Host Discovey Wizard Query page for IP network scan](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/query_1.webp)
 
 **Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
@@ -37,7 +37,7 @@ option. Click **Next**.
 
 Click **Next** to continue.
 
-![Host Discovey Wizard IPSweep page](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/ipsweep.webp)
+![Host Discovey Wizard IPSweep page](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/ipsweep.webp)
 
 **Step 3 –** On the IPSweep page, specify the range of IP Addresses to scan.
 
@@ -78,7 +78,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovey Wizard Options page for IP network scan](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/options_1.webp)
+![Host Discovey Wizard Options page for IP network scan](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/options_1.webp)
 
 **Step 4 –** On the Options page, configure the query options as required.
 
@@ -102,7 +102,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovey Wizard Inventory page for IP network scan](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory_1.webp)
+![Host Discovey Wizard Inventory page for IP network scan](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory_1.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.
@@ -126,13 +126,13 @@ the discovery query.
 
 Click **Next** to continue.
 
-![Host Discovey Wizard Summary page for IP network scan](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/summary_1.webp)
+![Host Discovey Wizard Summary page for IP network scan](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/summary_1.webp)
 
 **Step 6 –** The Summary page displays all the selected query configuration settings. To make
 changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the
 configuration process.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
+![Confirm dialog box](/images/accessanalyzer/12.0/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 **Step 7 –** A Confirm dialog box opens. Click **Yes** to run the query now or **No** to run the
 query at another time.

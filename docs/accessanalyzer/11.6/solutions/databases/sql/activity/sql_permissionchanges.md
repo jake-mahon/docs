@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup33.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/sql/activity/sqljobgroup33.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report.
 | Report                     | Description                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                              |
 | -------------------------- | -------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Permission Change Activity | This report lists all permission change related SQL events, and summarizes them by instance. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by permission change activity</li><li>Table – Provides details on instances by permission change activity</li><li>Table – Provides details on event details</li></ul> |
-

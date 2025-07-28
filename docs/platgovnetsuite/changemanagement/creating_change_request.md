@@ -23,12 +23,12 @@ request in your sandbox account.
 
 ## Create the Change Request
 
-1. Open **Strongpoint** > **Change Management Tools** > **ITGC Change Request**  
+1. Open **Strongpoint** > **Change Management Tools** > **ITGC Change Request**
    The status bar displays the stage of the Change Request. A new change request displays _Not
    Started_.
 2. Enter information in the **Main** and **Scope** sections:
 
-    ![change_request_new](/img/product_docs/platgovnetsuite/change_management/change_request_new.webp)
+    ![change_request_new](/images/platgovnetsuite/change_management/change_request_new.webp)
 
     - **Name**: Add a name to the change request.
     - **Stage**: Select the type of change you want to make.
@@ -71,10 +71,10 @@ request in your sandbox account.
       to search for customizations.
     - **Add Customizations from SDF Zip file**: SuiteCloud Development Framework (SDF) users can
       upload their Sandbox development file. The Change Request populates the scope with the
-      existing customizations and adds new ones to proposed customizations.  
+      existing customizations and adds new ones to proposed customizations.
       Click **Choose File** and navigate to your SDF zipped file.
     - **Do Not ReSpider Automatically**: when unchecked, an Automatic ReSpider occurs when the
-      Change Request status is set to **Completed**.  
+      Change Request status is set to **Completed**.
       The ReSpider ensures that all change logs are complete prior to changing the status. If
       automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant
       if the change logs are not complete when the user changes the status to **Completed**. The
@@ -83,13 +83,13 @@ request in your sandbox account.
       tab.
     - **Proposed Customizations**: Use this field when you are adding customizations that do not yet
       exist in your account. You can add multiple Script IDs by separating them with commas. Can be
-      used in conjunction with customizations that already exist.  
+      used in conjunction with customizations that already exist.
        New **Entry** and **Transaction** forms can be pre-approved by adding the Script ID of the
       form. The Script ID must match the Script ID set in **Customizations** > **Forms** > **Entry
       Form** (prefix **custform** is automatically added for you on the **Custom Entry Form**). All
       Customizations and Proposed Customizations are evaluated to determine the Change Level. The
       highest **Change Level** is used for the Change Request.
-      
+
       | Proposed Customization | Change Level |
       | --- | --- |
       | customworkflow, customscript, customdeploy or anything with extensions: .js .ssp .ss | Script Object Changes |
@@ -117,7 +117,7 @@ request in your sandbox account.
     3. The **Approval** section is visible. Click **Edit to** add **Additional Approvers** or
        **Approver Notes**. Click **Save** if you make changes.
 
-        ![change_request_new_saved](/img/product_docs/platgovnetsuite/change_management/change_request_new_saved.webp)
+        ![change_request_new_saved](/images/platgovnetsuite/change_management/change_request_new_saved.webp)
 
     4. **Impact Analysis** is automatically run. The results are shown on the **Impact Analysis**
        tab. In addition to all of the direct dependencies, indirect dependencies are also considered
@@ -154,12 +154,12 @@ request in your sandbox account.
    confirmation prompt is displayed. When confirmed, Approval Notifications are sent to the
    approvers.
 
-    ![change_request_new_pendapprove](/img/product_docs/platgovnetsuite/change_management/change_request_new_pendapprove.webp)
+    ![change_request_new_pendapprove](/images/platgovnetsuite/change_management/change_request_new_pendapprove.webp)
 
 6. Approvers approve or reject the Change Request. **Deploy** is available for approved Change
    Requests.
 
-    ![change_request_new_approved](/img/product_docs/platgovnetsuite/change_management/change_request_new_approved.webp)
+    ![change_request_new_approved](/images/platgovnetsuite/change_management/change_request_new_approved.webp)
 
 7. Validate the Change Request.
 
@@ -176,13 +176,13 @@ Status is changed to **Cancelled CR**.
 
 ## Status Bar States
 
-![change_request_bar_not_started](/img/product_docs/platgovnetsuite/change_management/change_request_bar_not_started.webp)
+![change_request_bar_not_started](/images/platgovnetsuite/change_management/change_request_bar_not_started.webp)
 
 New Change Request. Click **In Progress** to advance the status.
 
 Impact Analysis is run when the Change Request is Saved.
 
-![change_request_bar_inprogress](/img/product_docs/platgovnetsuite/change_management/change_request_bar_inprogress.webp)
+![change_request_bar_inprogress](/images/platgovnetsuite/change_management/change_request_bar_inprogress.webp)
 
 Change Request **In Progress**.
 
@@ -192,7 +192,7 @@ Impact Analysis is run when the Change Request is Saved.
 
 When ready for approval, click **Pending Approval**.
 
-![change_request_bar_pending](/img/product_docs/platgovnetsuite/change_management/change_request_bar_pending.webp)
+![change_request_bar_pending](/images/platgovnetsuite/change_management/change_request_bar_pending.webp)
 
 Approvers are notified.
 
@@ -202,7 +202,7 @@ Status can be demoted.
 
 Status promoted based on Approvers actions.
 
-![change_request_bar_approved](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved.webp)
+![change_request_bar_approved](/images/platgovnetsuite/change_management/change_request_bar_approved.webp)
 
 Status when all approvers have approved.
 
@@ -210,11 +210,11 @@ Can be returned to a previous status or rejected.
 
 **Deploy** button is available.
 
-![change_request_bar_approved_partial](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_partial.webp)
+![change_request_bar_approved_partial](/images/platgovnetsuite/change_management/change_request_bar_approved_partial.webp)
 
 Status when Change Request is partially approved. Wait for all approvers to finish.
 
-![change_request_bar_approved_override](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
+![change_request_bar_approved_override](/images/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
 
 Status when an administrator has approved in place of a specified approver.
 
@@ -222,7 +222,7 @@ Status when an administrator has approved in place of a specified approver.
 
 **Deploy** button is available.
 
-![change_request_bar_approved_completed](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_completed.webp)
+![change_request_bar_approved_completed](/images/platgovnetsuite/change_management/change_request_bar_approved_completed.webp)
 
 Approved and Completed.
 
@@ -230,7 +230,7 @@ Can be returned to a previous status.
 
 **Deploy** button not available.
 
-![change_request_bar_approved_canceled](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_canceled.webp)
+![change_request_bar_approved_canceled](/images/platgovnetsuite/change_management/change_request_bar_approved_canceled.webp)
 
 Approved and Canceled.
 
@@ -238,7 +238,7 @@ Can be returned to a previous status.
 
 **Deploy** button not available.
 
-![change_request_bar_rejected](/img/product_docs/platgovnetsuite/change_management/change_request_bar_rejected.webp)
+![change_request_bar_rejected](/images/platgovnetsuite/change_management/change_request_bar_rejected.webp)
 
 Rejected and Completed.
 

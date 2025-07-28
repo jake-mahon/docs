@@ -8,7 +8,7 @@ sidebar_position: 50
 
 The Groups tab shows information about the local groups on the selected resource.
 
-![Group Tab for Host Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/groupshost.webp)
+![Group Tab for Host Resource](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/groupshost.webp)
 
 The table has the following columns:
 

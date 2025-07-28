@@ -13,7 +13,7 @@ who has access to said data across all targeted Oracle database servers.
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 
-![Sensitive Data Job Group](/img/product_docs/accessanalyzer/11.6/solutions/databases/oracle/sensitivedata/jobgroup43.webp)
+![Sensitive Data Job Group](/images/accessanalyzer/11.6/solutions/databases/oracle/sensitivedata/jobgroup43.webp)
 
 The jobs in the 5.Sensitive Data Job Group are:
 

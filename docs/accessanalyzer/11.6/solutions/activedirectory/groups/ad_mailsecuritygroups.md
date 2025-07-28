@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_MailSecurityGroups Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/mailsecuritygroupsanalysis.webp)
+![Analysis Tasks for the AD_MailSecurityGroups Job](/images/accessanalyzer/11.6/solutions/activedirectory/groups/mailsecuritygroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report:
 | Report                       | Description                                                         | Default Tags | Report Elements                                                                                                                                                                                                                                                                |
 | ---------------------------- | ------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Mail Enabled Security Groups | This report displays summary data for mail enabled security groups. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays mail enabled security groups per domain</li><li>Table – Provides summary of mail enabled security groups</li><li>Table – Provides summary of mail enabled security groups by domain</li></ul> |
-

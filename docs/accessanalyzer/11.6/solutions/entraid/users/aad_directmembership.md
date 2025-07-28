@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AAD_DirectMembership Job](/img/product_docs/accessanalyzer/11.6/solutions/entraid/users/directmembershipanalysis.webp)
+![Analysis Tasks for the AAD_DirectMembership Job](/images/accessanalyzer/11.6/solutions/entraid/users/directmembershipanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ following pre-configured report.
 | Report              | Description                                            | Default Tags | Report Elements                                                                                                                                                                                                                                                                            |
 | ------------------- | ------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | No Group Membership | This report identifies users with no group membership. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by users with no group membership</li><li>Table – Provides details on all users with no group membership</li><li>Tables – Provides details on top domains by users with no group membership</li></ul> |
-

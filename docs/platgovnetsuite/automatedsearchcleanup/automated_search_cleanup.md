@@ -56,7 +56,7 @@ the rule criteria. Search Clean Up rules are used for both Automatic and Run Now
 To create or edit rules, access **Strongpoint**> **Automated Search Clean Up** > **Search Clean Up
 Rules**
 
-![autocleanup](/img/product_docs/platgovnetsuite/clean_up/autocleanup.webp)
+![autocleanup](/images/platgovnetsuite/clean_up/autocleanup.webp)
 
 - **Name** is the assigned name for the **Search Clean Up Rule Record**.
 - **Rule Owner(s)** is the administrator or owners for the rule record.
@@ -78,7 +78,7 @@ Rules**
 
 This section is available when **Automatic** is checked.
 
-![autocleanupscheduler](/img/product_docs/platgovnetsuite/clean_up/autocleanupscheduler.webp)
+![autocleanupscheduler](/images/platgovnetsuite/clean_up/autocleanupscheduler.webp)
 
 - **Weekly Event**: check and enter the **Repeat** frequency to schedule clean up weekly.
 - **Monthly Event**: check and enter the **Repeat** frequency to schedule clean up monthly.
@@ -91,11 +91,11 @@ This section is available when **Automatic** is checked.
 **Basic Filters**
 
 - **Search Name** filters searches to clean-up by name. Filter operator is _startswith_ and the
-  wildcard _%_ may be used. Default is blank.  
+  wildcard _%_ may be used. Default is blank.
    Example: _Custom % Search%_ returns all searches with a name starting with '_Custom_ ' followed
   by any character and the name must contain '_Search_' such as _Custom Inventory Detail Search_.
 - **Search ScriptID** filters searches to clean-up by ID. Filter operator is _startswith_ and the
-  wildcard _%_ may be used. Default is blank.  
+  wildcard _%_ may be used. Default is blank.
    Example: _%testing_ returns all searches with an ID containing the word '_testing_' such as
   _customsearch_testing_1_.
 - **Months Since Date Last Used, Retained/Restored** filters searches by the last run date of the
@@ -138,15 +138,15 @@ included for clean up. The Run Now feature begins an immediate run for the rule.
 
 1. Administrators can click **Preview** on an Search Clean Up Rule. **Preview** displays the rule,
    filters and conditions.
-2. Review the Search List.  
-   Check **Include** to trigger a final notification email to be sent to the owner/user.  
+2. Review the Search List.
+   Check **Include** to trigger a final notification email to be sent to the owner/user.
    Check **Retain Search** to keep the search.
 3. Click Run Now to begin a Search Clean Up for the rule.
 4. Click **Confirm**.
 5. After previewing, you can click **Automatic** on the Search Clean Up Rule to include the rule for
    automatic searches.
 
-![cleanup_preview](/img/product_docs/platgovnetsuite/clean_up/cleanup_preview.webp)
+![cleanup_preview](/images/platgovnetsuite/clean_up/cleanup_preview.webp)
 
 ### Run Now
 
@@ -199,27 +199,27 @@ searches**, **retained searches**, **scheduled to be archived searches** and **a
     - Archive notifications are sent to rule owner and all search owners/users.
     - Search is added to administrator's Archived Searches list.
 
-![cleanup_tab](/img/product_docs/platgovnetsuite/clean_up/cleanup_tab.webp)
+![cleanup_tab](/images/platgovnetsuite/clean_up/cleanup_tab.webp)
 
 ## Search Clean Up Status
 
 Open **Strongpoint**> **Search Auto Clean Up** > **Search Clean Up Status** to view current status.
 
 - **Job Type**: **Run Now** or **Automatic**.
-- **Status**:  
-  **Pending** - initial status for the run.  
-  **Pending Notification** - searches have been identified, no notifications sent.  
-  **In Notice Period** - at least one notification has been sent.  
-  **Processing** - search is being auto-archived.  
+- **Status**:
+  **Pending** - initial status for the run.
+  **Pending Notification** - searches have been identified, no notifications sent.
+  **In Notice Period** - at least one notification has been sent.
+  **Processing** - search is being auto-archived.
   **Completed** - all identified searches have been archived, and email sent to rule owner and
-  administrator.  
+  administrator.
   **Canceled** - **Automatic** checkbox was turned off for the rule.
 
-![cleanup_status](/img/product_docs/platgovnetsuite/clean_up/cleanup_status.webp)
+![cleanup_status](/images/platgovnetsuite/clean_up/cleanup_status.webp)
 
 Click **Notification Tracker** on the **Notifications** tab to launch the tracker.
 
-![cleanup_notifications_tab](/img/product_docs/platgovnetsuite/clean_up/cleanup_notifications_tab.webp)
+![cleanup_notifications_tab](/images/platgovnetsuite/clean_up/cleanup_notifications_tab.webp)
 
 ### Notification Tracker
 
@@ -227,25 +227,25 @@ Accesses all of the communications and history for search clean ups. You can lis
 sent by rule or by the job. Provides traceability between the clean up rules, clean up jobs, and
 email notifications.
 
-![cleanup_notification_tracker](/img/product_docs/platgovnetsuite/clean_up/cleanup_notification_tracker.webp)
+![cleanup_notification_tracker](/images/platgovnetsuite/clean_up/cleanup_notification_tracker.webp)
 
 ## Retaining a Search
 
 Notification emails contain a link to **Retain this search** for each listed search or **Retain
 All** to keep all of them. Use the **Preview** link to view each Search.
 
-![cleanup_warning](/img/product_docs/platgovnetsuite/clean_up/cleanup_warning.webp)
+![cleanup_warning](/images/platgovnetsuite/clean_up/cleanup_warning.webp)
 
 **Retain this search** prevents archiving an individual search. The **Retain Search** form is
 displayed so you can add the **Reason for Retaining** the search. Click **Save and Exit** when
 complete.
 
-![Provide a reason to retain an individual search](/img/product_docs/platgovnetsuite/clean_up/clean_up_retain_search.webp)
+![Provide a reason to retain an individual search](/images/platgovnetsuite/clean_up/clean_up_retain_search.webp)
 
 **Retain All** opens a page where you can provide the **Reason** to retain each search. Check the
 Apply box for each search. When finished, click **Retain Search**.
 
-![Retain All dialog to provide retention Reason](/img/product_docs/platgovnetsuite/clean_up/clean_up_retain_all.webp)
+![Retain All dialog to provide retention Reason](/images/platgovnetsuite/clean_up/clean_up_retain_all.webp)
 
 The Retain process:
 
@@ -278,7 +278,7 @@ owner and administrators.
 - Updates the **Date Last Used, Retained/Restored** to the current date.
 - Adds the search to the **Automated Search Clean Up** > **Retained Searches** list.
 
-![cleanup_restore](/img/product_docs/platgovnetsuite/clean_up/cleanup_restore.webp)
+![cleanup_restore](/images/platgovnetsuite/clean_up/cleanup_restore.webp)
 
 ### Limitations to Restoring Auto Archived Searches
 
@@ -304,4 +304,4 @@ restored:
 - Audit Trail: the restored search is assigned a new Internal ID. The audit trail only contains
   entries for the new Internal ID.
 
-![Search form](/img/product_docs/platgovnetsuite/clean_up/limitation_restoring_searches.webp)
+![Search form](/images/platgovnetsuite/clean_up/limitation_restoring_searches.webp)

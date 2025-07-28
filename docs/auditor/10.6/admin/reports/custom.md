@@ -20,7 +20,7 @@ move it to the new folder.
 
 The example custom report results apply to AD or Group Policy modifications by administrator.
 
-![customreport](/img/product_docs/auditor/10.6/admin/reports/types/customreport.webp)
+![customreport](/images/auditor/10.6/admin/reports/types/customreport.webp)
 
 Review the following for additional information:
 

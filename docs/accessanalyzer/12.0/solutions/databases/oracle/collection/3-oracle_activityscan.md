@@ -20,7 +20,7 @@ The 3-Oracle_ActivityScan Job captures user activity from all the targeted Oracl
 
 The ActivityScan Query uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup14.webp)
+![Query Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup14.webp)
 
 - ActivityScan – Collects activity from targeted instances
 
@@ -44,12 +44,12 @@ pre-configured for this job.
 :::
 
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/optionspage.webp)
+![Sensitive Data Scan Settings](/images/accessanalyzer/12.0/solutions/databases/oracle/collection/optionspage.webp)
 
 **Step 4 –** Navigate to the Options page. Enable or disable configuration options as needed. Click
 Next to continue.
 
-![Filter Page](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/3oracleactivityscanfilterpage.webp)
+![Filter Page](/images/accessanalyzer/12.0/solutions/databases/oracle/collection/3oracleactivityscanfilterpage.webp)
 
 **Step 5 –** To query for specific databases/instances, navigate to the Filter page. The default
 query target is All Databases. The default query scope is Only select database objects. Click
@@ -76,7 +76,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup16.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup16.webp)
 
 The default analysis tasks are:
 

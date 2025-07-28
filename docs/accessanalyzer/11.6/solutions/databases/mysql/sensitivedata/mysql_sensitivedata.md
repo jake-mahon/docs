@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/sensitivedata/analysismysqlsensitivedata.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/mysql/sensitivedata/analysismysqlsensitivedata.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ the following pre-configured reports.
 | ----------------------- | ---------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise. |                | This report is comprised of two elements: <ul><li>Bar Chart</li><li>Displays exceptions by match count</li><li>Table</li><li>Displays exception details</li></ul>                                                                                                |
 | Sensitive Data Overview | This report highlights objects which contain sensitive data criteria.        | Sensitive Data | This report is comprised of three elements: <ul><li>Bar Chart</li><li>Displays top databases by Sensitive Data Hits</li><li>Table</li><li>Provides details on top databases by sensitive data</li><li>Table</li><li>Provides details on sensitive data</li></ul> |
-

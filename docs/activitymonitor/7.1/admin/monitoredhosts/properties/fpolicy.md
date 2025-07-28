@@ -9,7 +9,7 @@ sidebar_position: 40
 The FPolicy tab allows users to modify FPolicy settings for NetApp devices, privileged access, and
 enabling/connecting to cluster nodes.
 
-![FPolicy Tab](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/fpolicytab.webp)
+![FPolicy Tab](/images/activitymonitor/7.1/admin/monitoredhosts/properties/fpolicytab.webp)
 
 On the **FPolicy** tab, the agent can configure and/or enable FPolicy automatically. The recommended
 setting is dependent on the type of NetApp device being targeted. The permissions required for each
@@ -24,7 +24,7 @@ monitor by selecting the radio buttons.
 
 ## Privileged Access Tab
 
-![Privileged Access section in the FPolicy Tab](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/privilegedaccess.webp)
+![Privileged Access section in the FPolicy Tab](/images/activitymonitor/7.1/admin/monitoredhosts/properties/privilegedaccess.webp)
 
 The Privileged Access tab is enabled when the Configure FPolicy checkbox is selected at the top. The
 Privileged Access tab must be configured if automatic configuration of the FPolicy for NetApp Data
@@ -34,7 +34,7 @@ topic for additional information.
 
 ## Enable and Connect settings Tab
 
-![Enable and Connect Settings - FPolicy Tab](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettings.webp)
+![Enable and Connect Settings - FPolicy Tab](/images/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettings.webp)
 
 The Enable and Connect settings tab is enabled when the Enable and connect FPolicy checkbox is
 selected.
@@ -45,14 +45,14 @@ permissions.
 :::
 
 
-![Add or Edit Cluster Node popup window](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettingsaddoreditclusternode.webp)
+![Add or Edit Cluster Node popup window](/images/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettingsaddoreditclusternode.webp)
 
 Add a list of cluster nodes to connect to FPolicy by clicking Add, which opens the Add or Edit
 Cluster Node window. Enter at least one cluster node in the textbox. Separate multiple nodes with
 either commas (,), semicolons (;), or spaces. Click OK and the node(s) is displayed in the **Node
 name** list.
 
-![Connect to Cluster popup window](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettingsconnecttocluster.webp)
+![Connect to Cluster popup window](/images/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettingsconnecttocluster.webp)
 
 Click Discover to open the Connect to cluster window and retrieve nodes from the cluster.
 

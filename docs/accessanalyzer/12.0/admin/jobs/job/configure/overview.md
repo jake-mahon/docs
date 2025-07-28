@@ -10,7 +10,7 @@ Changes to configurations for the job’s assigned Host Lists, Queries, Analyses
 are created through the **[Job]** > **Configure** node or through the Configure shortcut on the
 job’s Description page.
 
-| ![Configure Node](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/configurenode.webp)    | ![Configure link on job description page](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/configurelinkjobpage.webp) | 
+| ![Configure Node](/images/accessanalyzer/12.0/admin/jobs/job/configure/configurenode.webp)    | ![Configure link on job description page](/images/accessanalyzer/12.0/admin/jobs/job/configure/configurelinkjobpage.webp) |
 |:-------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
 | *Configure Node*                                                                                        | *Configure link on job description page*                                                                                            |
 
@@ -31,7 +31,7 @@ The sub-nodes under the **[Job]** > **Configure** node are:
 The job's Configure Page provides an overview with shortcuts for options that are configured in the
 job's Configure Node.
 
-![Configure page](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/configurepage.webp)
+![Configure page](/images/accessanalyzer/12.0/admin/jobs/job/configure/configurepage.webp)
 
 The options on the Configure Page are:
 

@@ -9,7 +9,7 @@ sidebar_position: 50
 The FS_BrokenInheritance job is designed to report on resources with Broken Inheritance from
 targeted file servers.
 
-![3.Broken Inheritance > FS_BrokenInheritance Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/brokeninheritancejobstree.webp)
+![3.Broken Inheritance > FS_BrokenInheritance Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/brokeninheritancejobstree.webp)
 
 The FS_BrokenInheritance job is located in the 3.Broken Inheritance job group.
 
@@ -43,7 +43,7 @@ deselected. There are some that are deselected by default, as they are for troub
 :::
 
 
-![Analysis Tasks for the FS_BrokenInheritance Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/brokeninheritanceanalysis.webp)
+![Analysis Tasks for the FS_BrokenInheritance Job](/images/accessanalyzer/11.6/solutions/filesystem/brokeninheritanceanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -91,4 +91,3 @@ produces the following pre-configured reports:
 | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Broken Inheritance by Share (Broken Inheritance Details) | Broken inheritance between resources can lead to incorrect access for users, either overprovisioning them, or locking them out of critical data. This report identifies the shares and folders with the most permission changes from the parent resource. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top five shares by permission changes</li><li>Table – Provides details on folders</li><li>Table – Provides details on shares</li></ul> |
 | Unique Trustees                                          | This report identifies permission changes between folders. These trustees have been either removed, added, or had their rights adjusted.                                                                                                                  | None         | This report is comprised of one element: <ul><li>Table – Provides details on unique trustees</li></ul>                                                                                                          |
-

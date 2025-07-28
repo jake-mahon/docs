@@ -18,9 +18,7 @@ For information on the required prerequisites and permissions, see the
 [SharePoint Agent Permissions](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/agentbasedscans/agentpermissions.md)
 topic.
 
-The version of the SharePoint Agent must also match the major version of Enterprise Auditor. See the
-[What's New](/docs/accessanalyzer/11.6/whatsnew.md) topic for
-additional information.
+The version of the SharePoint Agent must also match the major version of Enterprise Auditor.
 
 ## Supported Platforms
 

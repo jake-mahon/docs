@@ -12,7 +12,7 @@ logged during the selected date range. This report includes a Permission Changes
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Activity Details report at the share and subfolder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/sharesubfolder/shareactivitydetails.webp)
+![Activity Details report at the share and subfolder levels](/images/accessinformationcenter/11.6/resourceaudit/filesystem/sharesubfolder/shareactivitydetails.webp)
 
 This report is comprised of the following columns:
 

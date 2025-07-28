@@ -11,7 +11,7 @@ Follow the steps to add an organization.
 **Step 1 –** On the Netwrix 1Secure Website, on the **Home** page, select the Add organization icon
 to add an organization.
 
-![organization_adding](/img/product_docs/1secure/admin/organizations/organization_adding.webp)
+![organization_adding](/images/1secure/admin/organizations/organization_adding.webp)
 
 **Step 2 –** On the Add Organization (Step 1 of 4) window, specify the following:
 
@@ -29,7 +29,7 @@ to add an organization.
 
 Click **Next**.
 
-![addorganizationsselectdatasource](/img/product_docs/1secure/admin/organizations/addorganizationsselectdatasource.webp)
+![addorganizationsselectdatasource](/images/1secure/admin/organizations/addorganizationsselectdatasource.webp)
 
 **Step 3 –** On the Select Data Source (Step 2 of 4) window, add a preferred data source to your
 organization:
@@ -46,7 +46,7 @@ information.
 :::
 
 
-![addorganizationssites](/img/product_docs/1secure/admin/organizations/addorganizationssites.webp)
+![addorganizationssites](/images/1secure/admin/organizations/addorganizationssites.webp)
 
 **Step 4 –** On the Configure source details (Step 3 of 4) window, add a site for your organization.
 Sites are used to signify physical groupings within the organization. Click **Next**.
@@ -58,7 +58,7 @@ This step is displayed only when adding Active Directory and Computer sources.
 
 See the [Add Sites to an Organization](/docs/1secure/admin/organizations/addsites.md) topic for additional information.
 
-![addorganizationsagent](/img/product_docs/1secure/admin/organizations/addorganizationsagent.webp)
+![addorganizationsagent](/images/1secure/admin/organizations/addorganizationsagent.webp)
 
 **Step 5 –** On the Configure source details (Step 3 of 4) window, follow the instructions to
 install the agent. Please go to the [Install Agent](/docs/1secure/install/installagent.md) topic of the
@@ -70,12 +70,12 @@ displayed only when adding these sources.
 :::
 
 
-![addorganizationssourcedetails](/img/product_docs/1secure/admin/organizations/addorganizationssourcedetails.webp)
+![addorganizationssourcedetails](/images/1secure/admin/organizations/addorganizationssourcedetails.webp)
 
 **Step 6 –** On the Configure source details (Step 3 of 4) window, specify your source settings. See
 the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional information.
 
-![addorganizationssourcesandconnectors](/img/product_docs/1secure/admin/organizations/addorganizationssourcesandconnectors.webp)
+![addorganizationssourcesandconnectors](/images/1secure/admin/organizations/addorganizationssourcesandconnectors.webp)
 
 **Step 7 –** On the Choose new connector (Step 4 of 4) window, add the connectors for your sources
 on. See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional

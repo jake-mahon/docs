@@ -10,7 +10,7 @@ The Select Active Directory Perpetrators window provides a list of available AD 
 Selected objects are added to the filter from where you clicked the **Add** (+) button to open this
 window.
 
-![Select Active Directory Perpetrators Window](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/window/adperpetrators.webp)
+![Select Active Directory Perpetrators Window](/images/threatprevention/7.5/admin/policies/eventtype/window/adperpetrators.webp)
 
 - Select either Browse Mode or Search Mode.
 

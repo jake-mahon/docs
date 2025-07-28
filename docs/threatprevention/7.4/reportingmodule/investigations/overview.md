@@ -14,7 +14,7 @@ Investigations interface.
 If you have not integrated the Threat Manager Reporting module with a Netwrix product, the interface
 is displayed as:
 
-![Investigations interface](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
+![Investigations interface](/images/threatprevention/7.4/reportingmodule/interface.webp)
 
 To integrate with a Netwrix product, such as Threat Prevention, see the
 [Netwrix Integrations Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/netwrixintegrations.md)
@@ -23,7 +23,7 @@ topic.
 After integration, when you click **Investigate** in the application header bar, the Investigations
 interface defaults to the New Investigation page as follows:
 
-![New Investigation window](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/newinvestigation.webp)
+![New Investigation window](/images/threatprevention/7.4/reportingmodule/investigations/newinvestigation.webp)
 
 The Investigations interface contains the following pages:
 
@@ -66,7 +66,7 @@ topic for additional information.
 The Investigations interface includes a search field in the navigation pane to find saved
 investigations by name.
 
-![Investigations Search showing matching results](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/search.webp)
+![Investigations Search showing matching results](/images/threatprevention/7.4/reportingmodule/investigations/search.webp)
 
 Type in the search box. As you type, a drop-down will populate with saved investigations containing
 matches. The part of the investigation name that matches the search text is in bold.

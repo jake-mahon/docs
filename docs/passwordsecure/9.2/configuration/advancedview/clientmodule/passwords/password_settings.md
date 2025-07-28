@@ -11,7 +11,7 @@ sidebar_position: 50
 The password settings can be used to define a diverse range of options. These can be found in the
 ribbon in the subsection “Extras”. The settings open up in a new tab.
 
-![password settings](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/password_settings_1-en.webp)
+![password settings](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/password_settings_1-en.webp)
 
 ### Category: Browser
 

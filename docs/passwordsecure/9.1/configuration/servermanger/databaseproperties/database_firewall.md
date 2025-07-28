@@ -15,21 +15,21 @@ this process. Firewall rules are used to allow access to the database in individ
 
 The firewall can be directly activated in the database settings.
 
-![database firewall](/img/product_docs/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_226-en.webp)
+![database firewall](/images/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_226-en.webp)
 
 Access to the firewall is blocked after it has been activated. Login attempts are directly blocked.
 
-![installation_with_parameters_227](/img/product_docs/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_227.webp)
+![installation_with_parameters_227](/images/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_227.webp)
 
 #### Firewall rules
 
 The rules already set are displayed in the section on the right. The icons
-![+](/img/product_docs/passwordsecure/9.1/configuration/server_manager/database_properties/+.webp)
+![+](/images/passwordsecure/9.1/configuration/server_manager/database_properties/+.webp)
 and
-![-](/img/product_docs/passwordsecure/9.1/configuration/server_manager/database_properties/-.webp)
+![-](/images/passwordsecure/9.1/configuration/server_manager/database_properties/-.webp)
 can be used to add or also delete rules. Rules can be edited by double clicking on them.
 
-![firewall rule](/img/product_docs/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_230-en.webp)
+![firewall rule](/images/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_230-en.webp)
 
 The following possibilities exist:
 
@@ -54,7 +54,7 @@ this range then the rule blocking the computer is applied.
 
 The functionality of the firewall will be explained in more detail using the following rules:
 
-![defined firewall rules](/img/product_docs/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_231-en.webp)
+![defined firewall rules](/images/passwordsecure/9.1/configuration/server_manager/database_properties/installation_with_parameters_231-en.webp)
 
 **Approving an IP range (Rule 1)**
 

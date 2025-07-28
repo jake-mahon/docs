@@ -15,7 +15,7 @@ The event filters for the GPO Setting Changes event type are:
 - AD Perpetrator
 - Advanced Filter
 
-![Policy window - GPO Setting Changes Event Type](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/gposettingchanges.webp)
+![Policy window - GPO Setting Changes Event Type](/images/threatprevention/7.4/admin/policies/eventtype/gposettingchanges.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -25,7 +25,7 @@ like an "ALL" for that filter set.
 Use the AD Group Policy Object Changes filter to set the scope of the policy to monitor specific
 GPOs.
 
-![Policy window - AD Group Policy Object Changes filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/adgrouppolicyobjectchanges.webp)
+![Policy window - AD Group Policy Object Changes filter](/images/threatprevention/7.4/admin/policies/eventtype/adgrouppolicyobjectchanges.webp)
 
 In the Operations section, select the **All** checkbox to include all operations or select specific
 operations:
@@ -49,7 +49,7 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/images/threatprevention/7.4/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
@@ -71,7 +71,7 @@ topic for additional information.
 
 **Sub Tree**
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/images/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -80,7 +80,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 
 Use the Advanced Filter to include or exclude attribute conditions for GPO setting changes.
 
-![Policy window - Advanced Filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/advanced.webp)
+![Policy window - Advanced Filter](/images/threatprevention/7.4/admin/policies/eventtype/advanced.webp)
 
 Filter statements can be added to the Include condition and Exclude condition boxes. The filter uses
 pre-defined logical and comparison operators to create filter criteria for the scan. Conditions can

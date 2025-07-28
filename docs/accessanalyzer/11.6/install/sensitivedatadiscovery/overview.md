@@ -15,9 +15,7 @@ mailboxes.
 This topic provides information on the installation and upgrade processes of the Sensitive Data
 Discovery Add-On. For information on the required prerequisites, see the Server Requirements topic.
 
-The version of the SharePoint Agent must also match the major version of Enterprise Auditor. See the
-[What's New](/docs/accessanalyzer/11.6/whatsnew.md) topic for release
-information.
+The version of the SharePoint Agent must also match the major version of Enterprise Auditor.
 
 ## Supported Platforms
 

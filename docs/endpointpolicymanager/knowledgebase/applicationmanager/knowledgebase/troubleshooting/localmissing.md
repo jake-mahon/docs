@@ -28,7 +28,7 @@ c:\Program Files\PolicyPak\Extensions (on 32-bit machines)
 If both conditions are true the DLL extensions stored at the location mentioned above may get
 deleted and you will see the error below.
 
-![409_1_image002](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/409_1_image002.webp)
+![409_1_image002](/images/endpointpolicymanager/troubleshooting/applicationsettings/appset/409_1_image002.webp)
 
 To Workaround:
 

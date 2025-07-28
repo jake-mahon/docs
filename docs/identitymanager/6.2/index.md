@@ -21,5 +21,3 @@ Identity Manager's guides include:
 - An [Installation Guide](/docs/identitymanager/6.2/installation-guide/index.md) to install Identity Manager in a production
   environment.
 - A [Migration Guide](/docs/identitymanager/6.2/migration-guide/index.md) to upgrade to a new version of Identity Manager.
-- [ What's New](/docs/identitymanager/6.2/whatsnew/index.md) to get details about specific changes in Identity Manager's
-  updates.

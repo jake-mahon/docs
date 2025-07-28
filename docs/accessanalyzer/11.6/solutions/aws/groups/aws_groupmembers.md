@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AWS_GroupMembers Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/groups/groupmembersanalysis.webp)
+![Analysis Tasks for the AWS_GroupMembers Job](/images/accessanalyzer/11.6/solutions/aws/groups/groupmembersanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ the following preconfigured report:
 | Report        | Description                                                                           | Default Tags | Report Element                                                                                                                                                                                                                            |
 | ------------- | ------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Members | This report identifies group members and summarizes policies applied to those groups. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays a summary of group members</li><li>Stacked Bar Chart – Displays a summary of group policies</li><li>Table – Provides details on groups</li></ul> |
-

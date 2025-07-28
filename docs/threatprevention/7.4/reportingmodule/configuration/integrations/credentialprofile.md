@@ -15,7 +15,7 @@ select **Integrations** to open the Integrations interface.
 Click **Credential Profile** in the navigation pane to view a list of the already created Credential
 Profiles, if any.
 
-![Integrations interface on the Credential Profile page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/page_1.webp)
+![Integrations interface on the Credential Profile page](/images/threatprevention/7.4/reportingmodule/configuration/integrations/page_1.webp)
 
 The table displays the user name for each profile. To view profile details or make modifications,
 select a profile from the table or under Credential Profile in the navigation pane.
@@ -42,7 +42,7 @@ menu. Then select **Integrations** to open the Integrations interface.
 **Step 2 –** On the Integrations interface, click Add New Integration in the navigation pane. The
 Add New Integration window opens.
 
-![Add New Integration window with Credential Profile type selected](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/credentialprofile.webp)
+![Add New Integration window with Credential Profile type selected](/images/threatprevention/7.4/reportingmodule/configuration/integrations/credentialprofile.webp)
 
 **Step 3 –** In the Type drop-down menu, select Credential Profile.
 
@@ -76,7 +76,7 @@ view a list of the already created Credential Profiles, if any.
 
 **Step 8 –** Select a Credential Profile from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details_1.webp)
+![Integrations interface displaying the details for a Credenital Profile](/images/threatprevention/7.4/reportingmodule/configuration/integrations/details_1.webp)
 
 Select the profile from the list to see modification optionsThe following information is displayed
 for a Credential Profile:
@@ -113,7 +113,7 @@ view a list of the already created Credential Profiles, if any.
 
 **Step 12 –** Click the **Edit** button in the upper right corner of the name and description box.
 
-![Name and Description box for a Credential Profile in Edit mode](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/editprofile.webp)
+![Name and Description box for a Credential Profile in Edit mode](/images/threatprevention/7.4/reportingmodule/configuration/integrations/editprofile.webp)
 
 **Step 13 –** To modify the profile name, type in the top field.
 
@@ -134,7 +134,7 @@ view a list of the already created Credential Profiles, if any. Select a Credent
 **Step 2 –** In the Credentials box, click the edit button to the right of the credential. The
 Credential Settings window opens.
 
-![Credential Settings window](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/credentialsettingswindow.webp)
+![Credential Settings window](/images/threatprevention/7.4/reportingmodule/configuration/integrations/credentialsettingswindow.webp)
 
 **Step 3 –** To edit the platform type, select either SQL or Windows from the **Platform** drop-down
 menu.

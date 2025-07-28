@@ -17,7 +17,7 @@ reports with the predefined filters. To create a unique set of filters, you can:
   value. For example, if you want to search for any of three names, do not enter _Anna Mark Bill_
   but instead create a separate filter entry for each name.
 
-![Activity Reports pane](/img/product_docs/1secure/admin/searchandreports/reportsmain.webp)
+![Activity Reports pane](/images/1secure/admin/searchandreports/reportsmain.webp)
 
 :::note
 All reports on the **Reports** > **Activity** tab are associated with the respective
@@ -29,13 +29,13 @@ information.
 
 | Icon                                                                                                | Description                                                          |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| ![search_icon](/img/product_docs/1secure/admin/searchandreports/search_icon.webp) | Info Icon. Click the Info Icon to view the activity records details. |
+| ![search_icon](/images/1secure/admin/searchandreports/search_icon.webp) | Info Icon. Click the Info Icon to view the activity records details. |
 
 Follow the steps to apply filters to your search.
 
 **Step 1 –** Select the **Reports**> **Activity** tab.
 
-![Activity reports](/img/product_docs/1secure/admin/searchandreports/search_filters.webp)
+![Activity reports](/images/1secure/admin/searchandreports/search_filters.webp)
 
 :::note
 You can also access the **Reports** > **Activity** page from your organization's page. On
@@ -43,7 +43,7 @@ your Home screen, click **Configure** > **Reports** in the right upper corner of
 :::
 
 
-![Organization data sources list](/img/product_docs/1secure/admin/searchandreports/reportsreportaccess.webp)
+![Organization data sources list](/images/1secure/admin/searchandreports/reportsreportaccess.webp)
 
 **Step 2 –** Select a filter from the Filter drop-down menu. See the
 [Filter Descriptions](#filter-descriptions) topic for additional information.
@@ -65,7 +65,7 @@ the permission on the Active Directory has been added or resource ID in AzureAD 
 :::
 
 
-![Filter property](/img/product_docs/1secure/admin/searchandreports/reportspropertychanges.webp)
+![Filter property](/images/1secure/admin/searchandreports/reportspropertychanges.webp)
 
 :::note
 The drop-down list in the **Property** field shows all the properties retrieved in your
@@ -76,17 +76,17 @@ changes, the shown property changes may also change.
 :::
 
 
-![Filters list](/img/product_docs/1secure/admin/searchandreports/search_search_function.webp)
+![Filters list](/images/1secure/admin/searchandreports/search_search_function.webp)
 
 **Step 4 –** Click Search to find and view your reports. The reports are displayed with the
 predefined filters. Your search results will display in the table.
 
-![Filter results](/img/product_docs/1secure/admin/searchandreports/search_searchresults.webp)
+![Filter results](/images/1secure/admin/searchandreports/search_searchresults.webp)
 
 **Step 5 –** Click the required activity record from the grid view the activity record details. You
 can see who, when, or where was the activity made.
 
-![Activity record details](/img/product_docs/1secure/admin/searchandreports/activityrecorddetails.webp)
+![Activity record details](/images/1secure/admin/searchandreports/activityrecorddetails.webp)
 
 :::note
 Navigate from one report to another by selecting **Prev** or **Next**. This will directly

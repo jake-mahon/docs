@@ -18,7 +18,7 @@ To configure advanced settings, your user account may need advanced privileges.
 :::
 
 
-![addbox_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/addbox_thumb_0_0.webp)
+![addbox_thumb_0_0](/images/dataclassification/5.7/admin/sources/box/addbox_thumb_0_0.webp)
 
 Configure the following:
 

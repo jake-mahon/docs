@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Configuration Job Group is designed to provide insight into MySQL server configuration settings.
 
-![Configuration Job Group](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/configurationjobgroup.webp)
+![Configuration Job Group](/images/accessanalyzer/11.6/solutions/databases/mysql/configurationjobgroup.webp)
 
 The job in the Configuration Job Group is:
 
@@ -25,7 +25,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/mysql/analysismysqldatabasesizing.webp)
+![Analysis Selection](/images/accessanalyzer/11.6/solutions/databases/mysql/analysismysqldatabasesizing.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ the following pre-configured reports.
 | Report          | Description                                                 | Default Tags | Report Elements                                                                                                                                                                                                                             |
 | --------------- | ----------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Database Sizing | This report provides details on database tables and sizing. |              | This report is comprised of three elements: <ul><li>Bar Chart</li><li>Displays top databases by size (MB)</li><li>Bar Chart</li><li>Displays database size by host (GB)</li><li>Table</li><li>Displays details on database sizing</li></ul> |
-

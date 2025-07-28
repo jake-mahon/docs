@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_StaleGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/groups/stalegroupsanalysis.webp)
+![Analysis Tasks for the AD_StaleGroups Job](/images/accessanalyzer/12.0/solutions/activedirectory/groups/stalegroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -38,4 +38,3 @@ the following pre-configured report:
 | Report                                           | Description                                                                                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                         |
 | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stale Effective Membership (A.K.A. Stale Groups) | This report identifies groups with stale effective membership. A stale user is defined as someone who has not logged into the domain in over 60 days, is expired, or currently disabled. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays group membership</li><li>Table – Provides details on membership</li><li>Table – Provides details on group membership</li></ul> |
-

@@ -38,4 +38,4 @@ button to create a copy.
 :::
 
 
-![PlannedChangesRules](/img/product_docs/changetracker/8.0/admin/tabs/plannedchangesrules.webp)
+![PlannedChangesRules](/images/changetracker/8.0/admin/tabs/plannedchangesrules.webp)

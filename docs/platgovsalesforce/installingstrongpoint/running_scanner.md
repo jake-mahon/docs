@@ -25,7 +25,7 @@ To run the scanner:
 3. You can select + beside one or more types to scan or you can scan the whole environment by
    clicking + on the **Name** row to select all the types.
 
-    ![scanner](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner.webp)
+    ![scanner](/images/platgovsalesforce/installing_strongpoint/scanner.webp)
 
 4. Click **Run Scanner**.
 5. The batch runs in the background. You receive an email notification when the scan is complete.
@@ -37,13 +37,13 @@ You can create your own Salesforce view for the scanners:
 
     1. Open Salesforce **Setup**.
     2. Search for **apex jobs** or navigate to **Environments** > **Jobs** > **Apex Jobs**.
-    3. Click **Create New View**.  
-      ![Set up a Strongpoint scanner view](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner_view.webp)
+    3. Click **Create New View**.
+      ![Set up a Strongpoint scanner view](/images/platgovsalesforce/installing_strongpoint/scanner_view.webp)
     4. Enter a **View Name**. The system assigns **View Unique Name**. _Netwrix Jobs1_ is used in this example.
     5. Select **Apex Class** for the **Field**.
     6. Select **starts with** for the **Operator**.
     7. Assign **FLO, Strongpoint** for the **Value**.
-    8. Click **Save**. You can now see the status of all of the Strongpoint jobs.  
-      ![Viewing running Strongpoint jobs](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner_view2.webp)
+    8. Click **Save**. You can now see the status of all of the Strongpoint jobs.
+      ![Viewing running Strongpoint jobs](/images/platgovsalesforce/installing_strongpoint/scanner_view2.webp)
 
 **Next Step:** [Validate the Data ](/docs/platgovsalesforce/installingstrongpoint/validating_data.md)

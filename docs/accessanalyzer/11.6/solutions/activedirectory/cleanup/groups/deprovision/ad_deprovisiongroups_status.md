@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_DeprovisionGroups_Status Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsstatusanalysis.webp)
+![Analysis Task for the AD_DeprovisionGroups_Status Job](/images/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsstatusanalysis.webp)
 
 The default analysis task is:
 
@@ -33,4 +33,3 @@ the following pre-configured report.
 | Report               | Description                                                                           | Default Tags | Report Elements                                                                                                                                                                                   |
 | -------------------- | ------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Group Deprovisioning | This report tracks actions taken each day of the Stale Group Deprovisioning campaign. | None         | This report is comprised of three elements: <ul><li>Line Chart – Displays cleanup progress</li><li>Table – Provides details on cleanup progress</li><li>Table – Provides action details</li></ul> |
-

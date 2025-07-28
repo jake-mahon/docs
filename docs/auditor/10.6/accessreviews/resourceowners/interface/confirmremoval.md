@@ -16,7 +16,7 @@ Follow the steps to remove a resource from being managed through the application
 **Step 1 –** In the Resource Owners interface, select the resource and click Remove. The Confirm
 Removal window opens.
 
-![Confirm Removal window asking are you sure you wish to remove](/img/product_docs/auditor/10.6/access/reviews/resourceowners/window/confirmremoval.webp)
+![Confirm Removal window asking are you sure you wish to remove](/images/auditor/10.6/access/reviews/resourceowners/window/confirmremoval.webp)
 
 **Step 2 –** Click Yes to complete the removal process or **No** to cancel it.
 

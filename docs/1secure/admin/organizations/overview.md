@@ -25,11 +25,11 @@ Below you can see home pages of:
 
 - Managing Organization
 
-![managedorganizations](/img/product_docs/1secure/admin/organizations/managedorganizations.webp)
+![managedorganizations](/images/1secure/admin/organizations/managedorganizations.webp)
 
 - Managed Organization
 
-![homepagemanaged](/img/product_docs/1secure/admin/organizations/homepagemanaged.webp)
+![homepagemanaged](/images/1secure/admin/organizations/homepagemanaged.webp)
 
 See the following topics for additional information:
 

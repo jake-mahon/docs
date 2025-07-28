@@ -152,7 +152,7 @@ security login show example\user1
 
 Verify that the output is displayed as follows:
 
-![validatesecuritylogincreation](/img/product_docs/activitymonitor/8.0/config/netappcmode/validatesecuritylogincreation.webp)
+![validatesecuritylogincreation](/images/activitymonitor/8.0/config/netappcmode/validatesecuritylogincreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating security logins, please visit the NetApp
 website and read the
@@ -209,7 +209,7 @@ fpolicy policy external-engine show ‑instance
 
 Verify that the output is displayed as follows:
 
-![validateexternalenginecreation](/img/product_docs/accessanalyzer/12.0/config/netappcmode/validateexternalenginecreation.webp)
+![validateexternalenginecreation](/images/accessanalyzer/12.0/config/netappcmode/validateexternalenginecreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating an external engine, please visit the
 NetApp website and read the
@@ -257,7 +257,7 @@ fpolicy policy event show ‑event-name StealthAUDITScreening‑instance
 
 Verify that the output is displayed as follows:
 
-![validatefpolciyeventcreation](/img/product_docs/accessanalyzer/12.0/config/netappcmode/validatefpolciyeventcreation.webp)
+![validatefpolciyeventcreation](/images/accessanalyzer/12.0/config/netappcmode/validatefpolciyeventcreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating an event, please visit the NetApp
 website and read the
@@ -311,7 +311,7 @@ Run the following command to validate the creation of the FPolicy policy:
 fpolicy policy show ‑instance
 ```
 
-![validatefpolicypolicycreation](/img/product_docs/accessanalyzer/12.0/config/netappcmode/validatefpolicypolicycreation.webp)
+![validatefpolicypolicycreation](/images/accessanalyzer/12.0/config/netappcmode/validatefpolicypolicycreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating a policy, please visit the NetApp
 website and read the
@@ -361,7 +361,7 @@ Run the following command to validate the FPolicy scope creation:
 fpolicy policy scope show ‑instance
 ```
 
-![validatefpolicyscopecreation](/img/product_docs/accessanalyzer/12.0/config/netappcmode/validatefpolicyscopecreation.webp)
+![validatefpolicyscopecreation](/images/accessanalyzer/12.0/config/netappcmode/validatefpolicyscopecreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating scope, please visit the NetApp website
 and read the
@@ -398,7 +398,7 @@ Run the following command to validate the FPolicy scope creation:
 vserver fpolicy show
 ```
 
-![validatefpolicyenabled](/img/product_docs/accessanalyzer/12.0/config/netappcmode/validatefpolicyenabled.webp)
+![validatefpolicyenabled](/images/accessanalyzer/12.0/config/netappcmode/validatefpolicyenabled.webp)
 
 Relevant NetApp Documentation: To learn more about enabling a policy, please visit the NetApp
 website and read the

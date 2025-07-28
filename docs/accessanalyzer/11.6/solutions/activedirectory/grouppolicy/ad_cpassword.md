@@ -25,7 +25,7 @@ Do not modify the query. The query is preconfigured for this job
 :::
 
 
-![Query for the AD_CPassword Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/cpasswordquery.webp)
+![Query for the AD_CPassword Job](/images/accessanalyzer/11.6/solutions/activedirectory/grouppolicy/cpasswordquery.webp)
 
 The queries for this job are:
 
@@ -42,4 +42,3 @@ pre-configured report:
 | Report                        | Description                                                                                                                  | Default Tags | Report Elements                                                                                                       |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------- |
 | Potential Plaintext Passwords | This report highlights domain contollers where this vulnerability exists, and provides the path of the XML file in question. | None         | This report is comprised of one elements: <ul><li>Table – Provides details on potential plaintext passwords</li></ul> |
-

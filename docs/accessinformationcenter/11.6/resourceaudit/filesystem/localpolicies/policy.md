@@ -9,7 +9,7 @@ sidebar_position: 20
 The Policy report at the local policy level provides a list of policies assigned for the selected
 local policy.
 
-![Policy report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/localpolicies/policy.webp)
+![Policy report](/images/accessinformationcenter/11.6/resourceaudit/filesystem/localpolicies/policy.webp)
 
 This report is comprised of the following columns:
 

@@ -34,11 +34,11 @@ Declare a new worker by proceeding as follows:
 
 1. Access the user directory from the home page.
 
-    ![Home Page - Directory User](/img/product_docs/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+    ![Home Page - Directory User](/images/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. According to the type of the user to be declared, click on the corresponding button.
 
-    ![Workflow - New User](/img/product_docs/identitymanager/6.1/user-guide/maintain/identity-data-modification/individual-update/datamodif_newuser_v602.webp)
+    ![Workflow - New User](/images/identitymanager/6.1/user-guide/maintain/identity-data-modification/individual-update/datamodif_newuser_v602.webp)
 
 3. Follow the workflow's instructions to fill the form with the user's data, choose the user's
    entitlements from your
@@ -51,15 +51,15 @@ Act on an existing identity by proceeding as follows:
 
 1. Access the user directory from the home page.
 
-    ![Home Page - Directory User](/img/product_docs/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+    ![Home Page - Directory User](/images/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Click on the user to be modified.
 
-    ![Workflow - User](/img/product_docs/identitymanager/6.1/user-guide/administrate/manual-assignment-request/datamodif_user_v602.webp)
+    ![Workflow - User](/images/identitymanager/6.1/user-guide/administrate/manual-assignment-request/datamodif_user_v602.webp)
 
 3. Click on **Actions** or **Helpdesk** to select the action to perform.
 
-    ![Workflow - Modify Permissions](/img/product_docs/identitymanager/6.1/user-guide/administrate/manual-assignment-request/datamodif_changeuser_v602.webp)
+    ![Workflow - Modify Permissions](/images/identitymanager/6.1/user-guide/administrate/manual-assignment-request/datamodif_changeuser_v602.webp)
 
 4. Follow the workflow's instructions.
 
@@ -68,11 +68,11 @@ Act on an existing identity by proceeding as follows:
     for the reviewer, while the state of the request is pending. In this case, the requested updates
     will be displayed in Usercube only after the request has been reviewed.
 
-    ![Request - Review Pending](/img/product_docs/identitymanager/6.1/user-guide/maintain/identity-data-modification/individual-update/datamodif_reviewpending_v523.webp)
+    ![Request - Review Pending](/images/identitymanager/6.1/user-guide/maintain/identity-data-modification/individual-update/datamodif_reviewpending_v523.webp)
 
 ## Verify Data Update
 
 In order to verify the process, check that the right data is displayed in the directory for the
 involved user.
 
-![Home Page - Directory User](/img/product_docs/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+![Home Page - Directory User](/images/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)

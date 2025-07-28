@@ -11,7 +11,7 @@ The **Hub API** page must be entered together with **Access Credentials**.
 By default the Agent username is ‘agent’ with password ‘passWord121’ but these can be changed. See
 the Users: User Administration topic for additional information.
 
-![InstallAgent](/img/product_docs/changetracker/8.0/install/agent/installagent.webp)
+![InstallAgent](/images/changetracker/8.0/install/agent/installagent.webp)
 
 By default the Agent will register using the Name of the server but there is an opportunity to
 customize this during installation or post-installation via an edit of the Hub Details file. See the
@@ -24,9 +24,9 @@ step of the installation, and there is also an option to test agent connectivity
 :::
 
 
-![InstallAgentAdvancedConfiguration](/img/product_docs/changetracker/8.0/install/agent/installagentadvancedconfiguration.webp)
+![InstallAgentAdvancedConfiguration](/images/changetracker/8.0/install/agent/installagentadvancedconfiguration.webp)
 
-![InstallAgentTestConnectivity](/img/product_docs/changetracker/8.0/install/agent/installagenttestconnectivity.webp)
+![InstallAgentTestConnectivity](/images/changetracker/8.0/install/agent/installagenttestconnectivity.webp)
 
 :::note
 In order to maximize performance, Gen 7 Agent operational files are located in
@@ -38,6 +38,6 @@ topic for additional information on downloading the .xml file for agents.
 :::
 
 
-![InstallAgentOperationFiles](/img/product_docs/changetracker/8.0/install/agent/installagentoperationfiles.webp)
+![InstallAgentOperationFiles](/images/changetracker/8.0/install/agent/installagentoperationfiles.webp)
 
 (missing or bad snippet)

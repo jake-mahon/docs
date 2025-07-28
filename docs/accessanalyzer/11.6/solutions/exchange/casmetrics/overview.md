@@ -11,7 +11,7 @@ remote connections (Outlook Web Access, ActiveSync, and Outlook Anywhere Access)
 your organization. This job group goes out to each server that contains the IIS Logs and parses the
 logs to return the data to the Enterprise Auditor database.
 
-![2.CAS Metrics Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/jobstree.webp)
+![2.CAS Metrics Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/casmetrics/jobstree.webp)
 
 The jobs in the 2.CAS Metrics Job Group are:
 
@@ -35,5 +35,5 @@ The jobs in the 2.CAS Metrics Job Group are:
     web address instead of an actual server. See the
     [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/11.6/solutions/exchange/recommended.md)
     topic for additional information.
-    
+
     :::

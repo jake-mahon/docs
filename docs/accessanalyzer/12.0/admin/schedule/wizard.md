@@ -28,7 +28,7 @@ and close the window. The task is visible in the Schedule Actions view, at the S
 The Schedule page is for setting the schedule of when and how often the task will run. This tab
 needs to be properly configured for every scheduled task.
 
-![Schedule wizard page](/img/product_docs/accessanalyzer/12.0/admin/schedule/schedule.webp)
+![Schedule wizard page](/images/accessanalyzer/12.0/admin/schedule/schedule.webp)
 
 The options on the Schedule page are:
 
@@ -36,7 +36,7 @@ The options on the Schedule page are:
 - Edit – Edits the selected Trigger in the Schedule view
 - Delete – Deletes the selected trigger
 
-![Trigger window](/img/product_docs/accessanalyzer/12.0/admin/schedule/triggerwindow.webp)
+![Trigger window](/images/accessanalyzer/12.0/admin/schedule/triggerwindow.webp)
 
 The options in the Trigger window are:
 
@@ -63,7 +63,7 @@ Access Analyzer task scheduling. See the Microsoft
 [Task Scheduler Overview](https://technet.microsoft.com/en-us/library/cc721871.aspx) article for
 additional information.
 
-![Trigger window Advanced settings](/img/product_docs/accessanalyzer/12.0/admin/schedule/triggerwindowadvancedsettings.webp)
+![Trigger window Advanced settings](/images/accessanalyzer/12.0/admin/schedule/triggerwindowadvancedsettings.webp)
 
 The options in the Advanced settings section are:
 
@@ -76,7 +76,7 @@ The options in the Advanced settings section are:
 The Host List page identifies the host list the task being scheduled queries. Customizations to the
 configuration of this tab is optional.
 
-![Host List wizard page](/img/product_docs/accessanalyzer/12.0/admin/schedule/hostlist.webp)
+![Host List wizard page](/images/accessanalyzer/12.0/admin/schedule/hostlist.webp)
 
 Choose the desired setting from the following options:
 
@@ -93,7 +93,7 @@ All** and **Clear All** links provide for quick selection and deselection.
 The Connection page identifies the Connection Profile that is applied to the targeted hosts being
 queried by the task being scheduled. Customizations to the configuration of this tab is optional.
 
-![Connection wizard page](/img/product_docs/accessanalyzer/12.0/admin/schedule/connection.webp)
+![Connection wizard page](/images/accessanalyzer/12.0/admin/schedule/connection.webp)
 
 Choose the desired setting from the following options:
 
@@ -116,7 +116,7 @@ Select the Schedule Service account to run this task with on the Run as wizard p
 edit Schedule Service accounts, go to the **Settings** > **Schedule** node. See the
 [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information.
 
-![Run as wizard page](/img/product_docs/accessanalyzer/12.0/admin/schedule/runas.webp)
+![Run as wizard page](/images/accessanalyzer/12.0/admin/schedule/runas.webp)
 
 The options on the Run as wizard page are:
 
@@ -140,7 +140,7 @@ The options on the Run as wizard page are:
 
 Configure additional options for the task on the Options wizard page.
 
-![Options wizard page](/img/product_docs/accessanalyzer/12.0/admin/schedule/options.webp)
+![Options wizard page](/images/accessanalyzer/12.0/admin/schedule/options.webp)
 
 The configurable options are:
 

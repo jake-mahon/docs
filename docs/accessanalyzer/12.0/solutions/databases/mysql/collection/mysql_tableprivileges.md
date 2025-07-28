@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/mysql/collection/querytableprivileges.webp)
+![Query Selection](/images/accessanalyzer/12.0/solutions/databases/mysql/collection/querytableprivileges.webp)
 
 The query is:
 
@@ -35,7 +35,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/mysql/collection/analysistableprivileges.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/mysql/collection/analysistableprivileges.webp)
 
 The default analysis task is:
 

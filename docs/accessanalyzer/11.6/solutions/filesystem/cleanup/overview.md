@@ -17,7 +17,7 @@ your Netwrix representative.
 :::
 
 
-![Cleanup Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/jobstree.webp)
+![Cleanup Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/jobstree.webp)
 
 The Cleanup job group includes the following job groups and jobs:
 

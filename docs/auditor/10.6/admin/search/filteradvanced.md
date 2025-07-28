@@ -52,7 +52,7 @@ When you apply filters at search, you can specify operators that should be used 
 data you want to retrieve and compare with the certain filter value. A condition can be, for
 example, Contains, Starts with, and so on.
 
-![advancedfilters](/img/product_docs/auditor/10.6/admin/search/advancedfilters.webp)
+![advancedfilters](/images/auditor/10.6/admin/search/advancedfilters.webp)
 
 The following operators can be used to specify search conditions:
 
@@ -72,9 +72,9 @@ When you add a new search filter, the Contains operator is used by default.
 To modify conditions for the selected filters, make sure you have switched to the Advanced search
 mode.
 
-![advanced](/img/product_docs/auditor/10.6/admin/search/advanced.webp)
+![advanced](/images/auditor/10.6/admin/search/advanced.webp)
 
 The image below represents the same search filters as they are shown in the Search field in the
 Simple mode.
 
-![advancedexample](/img/product_docs/auditor/10.6/admin/search/advancedexample.webp)
+![advancedexample](/images/auditor/10.6/admin/search/advancedexample.webp)

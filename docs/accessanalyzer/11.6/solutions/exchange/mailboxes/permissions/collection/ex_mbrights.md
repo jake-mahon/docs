@@ -13,7 +13,7 @@ mailbox.
 
 The EX_MBRights job uses the ExchangePS Data Collector.
 
-![Queries for the EX_MBRights Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/collection/mbrightsquery.webp)
+![Queries for the EX_MBRights Job](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/permissions/collection/mbrightsquery.webp)
 
 The following query is included in the EX_MBRights Job:
 
@@ -29,5 +29,5 @@ The following query is included in the EX_MBRights Job:
     Exchange on-premises environments. See the
     [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
     topic for credential requirements.
-    
+
     :::

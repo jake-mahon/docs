@@ -12,7 +12,7 @@ housed within the Jobs tree of the Navigation pane.
 
 The Jobs Tree is located in the Navigation Pane on the Enterprise Auditor Console.
 
-![Jobs Tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/jobstreeoverview.webp)
+![Jobs Tree](/images/accessanalyzer/11.6/admin/jobs/jobstreeoverview.webp)
 
 Clicking on the arrow next to the Jobs node will expand it. The Jobs tree is organized
 alphanumerically, first by job groups and then by any jobs that are independent of job groups.
@@ -21,20 +21,20 @@ Each component within the Jobs tree has an icon for quick reference. The icons a
 
 | Icon Description                                                                                                     | Description                                               |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| ![jobgroup](/img/product_docs/accessanalyzer/11.6/admin/jobs/jobgroup.webp)                    | Job Group                                                 |
-| ![modifiedjobgroup](/img/product_docs/accessanalyzer/11.6/admin/jobs/modifiedjobgroup.webp)    | Modified Job Group                                        |
-| ![settings](/img/product_docs/accessanalyzer/11.6/admin/jobs/settings.webp)                              | Settings node for a Job Group/ Configure node for a job   |
-| ![job](/img/product_docs/accessanalyzer/11.6/admin/jobs/job.webp)                              | Job                                                       |
-| ![modifiedjob](/img/product_docs/accessanalyzer/11.6/admin/jobs/modifiedjob.webp)              | Modified Job                                              |
-| ![lockedjob](/img/product_docs/accessanalyzer/11.6/admin/jobs/lockedjob.webp)                  | Locked Job (Only applicable to Role Based Access feature) |
-| ![status](/img/product_docs/accessanalyzer/11.6/admin/jobs/status.webp)                        | Status node for a Job                                     |
-| ![connectstatus](/img/product_docs/accessanalyzer/11.6/admin/jobs/connectstatus.webp)          | Job’s ConnectStatus Node                                  |
-| ![jobstatus](/img/product_docs/accessanalyzer/11.6/admin/jobs/jobstatus.webp)                  | Job Status for a Job                                      |
-| ![taskstatus](/img/product_docs/accessanalyzer/11.6/admin/jobs/taskstatus.webp)                | Task Status for a Job                                     |
-| ![results](/img/product_docs/accessanalyzer/11.6/admin/jobs/results.webp) | Results node for a Job                                    |
-| ![messages](/img/product_docs/accessanalyzer/11.6/admin/jobs/messages.webp)                    | Job’s Messages table                                      |
-| ![jobsdata](/img/product_docs/accessanalyzer/11.6/admin/jobs/jobsdata.webp)                    | Job’s Data Table or View                                  |
-| ![jobsreport](/img/product_docs/accessanalyzer/11.6/admin/jobs/jobsreport.webp)                | Job’s Report                                              |
+| ![jobgroup](/images/accessanalyzer/11.6/admin/jobs/jobgroup.webp)                    | Job Group                                                 |
+| ![modifiedjobgroup](/images/accessanalyzer/11.6/admin/jobs/modifiedjobgroup.webp)    | Modified Job Group                                        |
+| ![settings](/images/accessanalyzer/11.6/admin/jobs/settings.webp)                              | Settings node for a Job Group/ Configure node for a job   |
+| ![job](/images/accessanalyzer/11.6/admin/jobs/job.webp)                              | Job                                                       |
+| ![modifiedjob](/images/accessanalyzer/11.6/admin/jobs/modifiedjob.webp)              | Modified Job                                              |
+| ![lockedjob](/images/accessanalyzer/11.6/admin/jobs/lockedjob.webp)                  | Locked Job (Only applicable to Role Based Access feature) |
+| ![status](/images/accessanalyzer/11.6/admin/jobs/status.webp)                        | Status node for a Job                                     |
+| ![connectstatus](/images/accessanalyzer/11.6/admin/jobs/connectstatus.webp)          | Job’s ConnectStatus Node                                  |
+| ![jobstatus](/images/accessanalyzer/11.6/admin/jobs/jobstatus.webp)                  | Job Status for a Job                                      |
+| ![taskstatus](/images/accessanalyzer/11.6/admin/jobs/taskstatus.webp)                | Task Status for a Job                                     |
+| ![results](/images/accessanalyzer/11.6/admin/jobs/results.webp) | Results node for a Job                                    |
+| ![messages](/images/accessanalyzer/11.6/admin/jobs/messages.webp)                    | Job’s Messages table                                      |
+| ![jobsdata](/images/accessanalyzer/11.6/admin/jobs/jobsdata.webp)                    | Job’s Data Table or View                                  |
+| ![jobsreport](/images/accessanalyzer/11.6/admin/jobs/jobsreport.webp)                | Job’s Report                                              |
 
 A green checkmark over a Job or Job Group icon indicates a configuration change has been made to the
 job or job group. The global settings configured under the Settings node are inherited down through
@@ -76,7 +76,7 @@ Remember, custom jobs are not shipped with Enterprise Auditor but instead user c
 The Changes window opens from the **Changes** option in the right-click menu from the selected Jobs
 tree, job group, or job node.
 
-![Changes Window](/img/product_docs/accessanalyzer/11.6/admin/jobs/changeswindow.webp)
+![Changes Window](/images/accessanalyzer/11.6/admin/jobs/changeswindow.webp)
 
 Select **Enabled** from the drop-down menu in the upper-left corner to turn on change tracking of
 configuration settings. Select a modification from the table and click **Undo** to revert the
@@ -101,13 +101,13 @@ If configuration change tracking is **Disabled**, configuration changes are only
 the job’s XML file. If the configuration change tracking feature was previously enabled and then
 disabled at a later time, an option is provided to merge changes back into the job’s XML file.
 
-![Change Window Merge Changes](/img/product_docs/accessanalyzer/11.6/admin/jobs/changeswindowmerge.webp)
+![Change Window Merge Changes](/images/accessanalyzer/11.6/admin/jobs/changeswindowmerge.webp)
 
 To merge the changes into the job’s XML file without disabling the configuration change tracking
 feature, click **Merge** on the bottom left corner of the Changes window and then click **Yes** on
 the Enterprise Auditor pop-up window to confirm the merge.
 
-![Changes Window Locked](/img/product_docs/accessanalyzer/11.6/admin/jobs/changeswindowlocked.webp)
+![Changes Window Locked](/images/accessanalyzer/11.6/admin/jobs/changeswindowlocked.webp)
 
 Changes between releases are tracked. Only jobs that are locked can be upgraded.
 

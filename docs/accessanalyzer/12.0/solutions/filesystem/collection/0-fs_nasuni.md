@@ -36,7 +36,7 @@ Do not modify the queries. The queries are preconfigured for this job.
 :::
 
 
-![Queries for the 0-FS_Nasuni Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/fsnasuniquery.webp)
+![Queries for the 0-FS_Nasuni Job](/images/accessanalyzer/12.0/solutions/filesystem/collection/fsnasuniquery.webp)
 
 The queries for the 0-FS_Nasuni job are:
 

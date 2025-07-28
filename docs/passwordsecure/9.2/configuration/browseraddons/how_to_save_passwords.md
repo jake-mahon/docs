@@ -16,13 +16,13 @@ With the setup and login via server mode, the access data can now be added autom
 visiting a website whose credentials have not yet been stored in Netwrix Password Secure, you get
 automatically asked whether they should be created.
 
-![new password detected](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/addon-create-password-en.webp)
+![new password detected](/images/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/addon-create-password-en.webp)
 
 By confirming, you will be directly forwarded to the Web Application and registered there. If there
 are less fields in the deposited or selected form than in the login mask, the missing fields are
 automatically created as web form fields by default.
 
-![WebClient prefilled](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/webclient-prefilled-form-en.webp)
+![WebClient prefilled](/images/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/webclient-prefilled-form-en.webp)
 
 Known access data
 
@@ -31,13 +31,13 @@ this, log on to the login screen of the changed page as usual. Thereupon a messa
 access data has been recognized. Now you can optionally decide to create a new dataset or update an
 already known dataset.
 
-![data was recognized](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_151-en.webp)
+![data was recognized](/images/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_151-en.webp)
 
 - **Save password**: The password will be exchanged without opening the Web Application.
 - **check changes**: The Web Application is opened and you are logged in. The previous password has
   been replaced by the new one. However, the storage must be carried out manually.
 
-![data was recognized](/img/product_docs/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_152-en.webp)
+![data was recognized](/images/passwordsecure/9.2/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_152-en.webp)
 
 The following prerequisites apply so that a data record is considered to already exist:
 

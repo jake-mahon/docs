@@ -57,7 +57,7 @@ listed under each monitored host. These are destinations to which events are for
 
 The button bar allows users to take the following actions:
 
-![Activity Monitor with Monitored Hosts tab identified](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/monitoredhoststab.webp)
+![Activity Monitor with Monitored Hosts tab identified](/images/activitymonitor/7.1/admin/monitoredhosts/monitoredhoststab.webp)
 
 - Toggle Collapse – Expands and collapses all Monitored Hosts for viewing or hiding host's outputs
 - Add Host – Opens the Add New Host window to configure monitoring of a new host or platform. See
@@ -127,7 +127,7 @@ visibility into a host's monitoring state and history of state changes. Host mon
 depicted in the Monitored Hosts table under the Status column. Users can expand the Status section
 to view more information on various status conditions.
 
-![errorpropogationpopulated](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/errorpropogationpopulated.webp)
+![errorpropogationpopulated](/images/activitymonitor/7.1/admin/monitoredhosts/errorpropogationpopulated.webp)
 
 Click the **Down Arrow** to expand the Status section. The information listed is dependent on which
 host or output is currently selected in the Monitored Hosts table. Users can find information on the

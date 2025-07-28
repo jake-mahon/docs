@@ -28,7 +28,7 @@ information from targeted file servers. It is dependent upon the following jobs:
 
 If only select sub-job groups have been run, there are blank sections in the overview report.
 
-![FS_SecurityAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/securityassessmentjobstree.webp)
+![FS_SecurityAssessment Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/securityassessmentjobstree.webp)
 
 The FS_SecurityAssessment job is comprised of analysis and reports which use the data collected by
 the 0.Collection job group and analyzed by the jobs listed above.
@@ -44,7 +44,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the FS_SecurityAssessment Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/securityassessmentanalysis.webp)
+![Analysis Task for the FS_SecurityAssessment Job](/images/accessanalyzer/11.6/solutions/filesystem/securityassessmentanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -59,4 +59,3 @@ produces the following pre-configured report:
 | Report              | Description                                                                        | Default Tags                                          | Report Elements                                                                                                                                                                                                                                                                         |
 | ------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Security Assessment | This report identifies common issues and vulnerabilities across your file systems. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of four elements: <ul><li>Table – Provides details of the scan Scope</li><li>Pie Chart – Provides details of findings by risk</li><li>Table – Provides details of findings by category</li><li>Table – Provides a summary of risk assessment details</li></ul> |
-

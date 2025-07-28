@@ -15,7 +15,7 @@ Follow the steps to harden the Agent on a server.
 
 **Step 2 –** Right-click a server/Agent and select **Harden Agent** on the menu.
 
-![Enter Credentials window](/img/product_docs/threatprevention/7.4/install/upgrade/entercredentials.webp)
+![Enter Credentials window](/images/threatprevention/7.4/install/upgrade/entercredentials.webp)
 
 **Step 3 –** On the Enter Credentials window, enter a username and password with sufficient rights
 to connect to the target machine and query information about shares. A local Administrator account

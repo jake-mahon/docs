@@ -15,7 +15,7 @@ is available to owners for review.
 :::
 
 
-![Manage Reviews page with completed review selected](/img/product_docs/accessinformationcenter/11.6/resourcereviews/interfacerunagain.webp)
+![Manage Reviews page with completed review selected](/images/accessinformationcenter/11.6/resourcereviews/interfacerunagain.webp)
 
 On the Manage Reviews page in the Resource Reviews interface, a review with a Completed status can
 be started again. Select the review and click **Run Again**. The Create Review wizard opens without
@@ -24,7 +24,7 @@ buttons, or you can modify as desired. Completing the wizard process restarts th
 [Create Review Wizard](/docs/accessinformationcenter/11.6/resourcereviews/create/create.md)
 topic for additional information.
 
-![Instance drop-down on Review Details page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/reviewinstances.webp)
+![Instance drop-down on Review Details page](/images/accessinformationcenter/11.6/resourcereviews/reviewinstances.webp)
 
 Previous instances for a review can be viewed on the Review Details page. Select the instance from
 the drop-down menu to show the details for it. See the

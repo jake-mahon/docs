@@ -97,7 +97,7 @@ Notepad. The file is located in the Access Information Center installation direc
 
 **…\Program Files\STEALTHbits\Access Information Center**
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/12.0/installation/configfilessl.webp)
+![AccessInformationCenter.Service.exe config file](/images/accessinformationcenter/12.0/installation/configfilessl.webp)
 
 **Step 2 –** Change the `BindingUrl` key value to `"https://+:481"` (ensure the port number matches
 the port number used in the PowerShell command run to create the SSL Binding).
@@ -118,7 +118,7 @@ Follow the steps to update the AIC’s desktop icon's Access Information Center'
 **Step 1 –** Right click on the **Access Information Center** desktop shortcut and click
 **Properties**.
 
-![Access Information Center desktop icon properties](/img/product_docs/accessinformationcenter/12.0/installation/aicproperties.webp)
+![Access Information Center desktop icon properties](/images/accessinformationcenter/12.0/installation/aicproperties.webp)
 
 **Step 2 –** On the **Web Document** tab, enter the updated **URL** in the text box to:
 `https://[hostname.domain.com]:481/v2/login`
@@ -146,14 +146,14 @@ additional information.
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.
 
-![AccessInformationCenter.Service.exe config file in File Explorer](/img/product_docs/accessinformationcenter/12.0/installation/configfilelocation.webp)
+![AccessInformationCenter.Service.exe config file in File Explorer](/images/accessinformationcenter/12.0/installation/configfilelocation.webp)
 
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
 **…\Program Files\STEALTHbits\Access Information Center**
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/12.0/installation/configfilesso.webp)
+![AccessInformationCenter.Service.exe config file](/images/accessinformationcenter/12.0/installation/configfilesso.webp)
 
 **Step 2 –** Locate the line containing the `AuthAllowWindowsAuthentication` parameter. By default,
 the value will be set to `False`:
@@ -186,16 +186,16 @@ Follow the steps to configure local intranet settings.
 **Step 1 –** Open Windows Internet Properties (**Control Panel** > **Network and
 Internet** > **Internet Options**).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/12.0/install/application/reports/internetproperties.webp)
+![ConfigureLocalIntranetSettingsforSSO - 1](/images/accessanalyzer/12.0/install/application/reports/internetproperties.webp)
 
 **Step 2 –** Go to the Security tab, and select the **Local Intranet** option. Then, click the
 **Sites** button.
 
-![localintranet](/img/product_docs/accessanalyzer/12.0/install/application/reports/localintranet.webp)
+![localintranet](/images/accessanalyzer/12.0/install/application/reports/localintranet.webp)
 
 **Step 3 –** Click the **Advanced** button.
 
-![localintranetadvanced](/img/product_docs/accessanalyzer/12.0/install/application/reports/localintranetadvanced.webp)
+![localintranetadvanced](/images/accessanalyzer/12.0/install/application/reports/localintranetadvanced.webp)
 
 **Step 4 –** Enter a domain in the **Add this website in the zone** field. Ensure the fully
 qualified domain name is in the following format: `https://<server>.<domain>.com`

@@ -9,7 +9,7 @@ sidebar_position: 40
 The Edit Review wizard is opened with the **Edit** button on the Resource Reviews interface. See the
 [Manage Reviews Page](/docs/accessinformationcenter/12.0/resourcereviews/interface/interface.md#manage-reviews-page) topic for additional information.
 
-![Edit Review wizard](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/reviewtype_1.webp)
+![Edit Review wizard](/images/accessinformationcenter/12.0/resourcereviews/wizard/reviewtype_1.webp)
 
 It contains four pages:
 
@@ -28,7 +28,7 @@ Follow the steps to edit an active review.
 
 **Step 1 –** On the Manage Reviews page, click **Edit**. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/reviewtype_1.webp)
+![Edit Review wizard Review Type page](/images/accessinformationcenter/12.0/resourcereviews/wizard/reviewtype_1.webp)
 
 **Step 2 –** On the Review Type page, configure the notify review creator option as required. The
 Review Name and type are shown on the page but can not be edited. For Permissions, Access, and
@@ -46,7 +46,7 @@ to Step 5.
 :::
 
 
-![Edit Review wizard Criteria page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/criteria_1.webp)
+![Edit Review wizard Criteria page](/images/accessinformationcenter/12.0/resourcereviews/wizard/criteria_1.webp)
 
 **Step 3 –** On the Criteria page, you can modify the selected types of sensitive criteria to
 include in the Sensitive Data review if no responses have been received. If responses for one or
@@ -77,7 +77,7 @@ unchecked.
 :::
 
 
-![Edit Review wizard Resources page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/resources_1.webp)
+![Edit Review wizard Resources page](/images/accessinformationcenter/12.0/resourcereviews/wizard/resources_1.webp)
 
 **Step 5 –** On the Resources page, modify the list of resources to be included in the review.
 
@@ -121,12 +121,12 @@ or removing parent resources from the review also adds or removes their children
 
 - Once the desired resources have been selected, click **Next**.
 
-![Edit Review wizard Summary page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/summary_1.webp)
+![Edit Review wizard Summary page](/images/accessinformationcenter/12.0/resourcereviews/wizard/summary_1.webp)
 
 **Step 6 –** On the Summary page, review the updated settings and click **Next**. The Access
 Information Center begins to update the review.
 
-![Edit Review wizard update completed message](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/completed.webp)
+![Edit Review wizard update completed message](/images/accessinformationcenter/12.0/resourcereviews/wizard/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the review has been updated (100%), click
 **Close**. The Edit Review wizard closes.

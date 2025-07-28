@@ -15,7 +15,7 @@ results using the column headers. Below the Search button is the
 [Export](/docs/activitymonitor/7.1/admin/search/overview.md#export)
 option.
 
-![linuxsearchresults](/img/product_docs/activitymonitor/7.1/admin/search/results/linuxsearchresults.webp)
+![linuxsearchresults](/images/activitymonitor/7.1/admin/search/results/linuxsearchresults.webp)
 
 The results data grid columns display the following information for each event:
 

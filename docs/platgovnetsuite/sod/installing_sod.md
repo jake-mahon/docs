@@ -14,7 +14,7 @@ Note the SoD Bundle ID has been updated due to NetSuite changes.
 2. Under **KEYWORDS**, type **311215**.
 3. Click **Search**.
 
-    ![Search for the SoD Bundle](/img/product_docs/platgovnetsuite/sod/sod_install-2.webp)
+    ![Search for the SoD Bundle](/images/platgovnetsuite/sod/sod_install-2.webp)
 
 4. Select **Strongpoint SoD**
 5. Install the Bundle as usual.
@@ -26,7 +26,7 @@ Note the SoD Bundle ID has been updated due to NetSuite changes.
 3. Click **Search**.
 4. Select **Strongpoint SoD Library**
 
-    ![Install the Strongpoint SoD Library Bundle](/img/product_docs/platgovnetsuite/sod/sod_install_lib1.webp)
+    ![Install the Strongpoint SoD Library Bundle](/images/platgovnetsuite/sod/sod_install_lib1.webp)
 
 5. Install the Bundle as usual.
 6. Review the

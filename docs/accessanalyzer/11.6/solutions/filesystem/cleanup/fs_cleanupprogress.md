@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_CleanupProgress Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/cleanupprogressanalysis.webp)
+![Analysis Tasks for the FS_CleanupProgress Job](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/cleanupprogressanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -33,4 +33,3 @@ produces the following pre-configured report.
 | Report           | Description                                                                 | Default Tags | Report Elements                                                                                                                                                            |
 | ---------------- | --------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cleanup Progress | This report gives a high-level overview of an organization's cleanup effort | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays the host summary of cleanup progress</li><li>Table – provides details on cleanup progress</li></ul> |
-

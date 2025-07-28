@@ -74,7 +74,7 @@ virtually identical to the
 1. On GroupID Portal, select **Synchronize** on left pane.
 2. On the **Synchronize** portal, click **All Jobs**.
 3. In the jobs list, click
-   ![option](/img/product_docs/directorymanager/11.0/portal/synchronize/manage/option.webp) on the
+   ![option](/images/directorymanager/11.0/portal/synchronize/manage/option.webp) on the
    job that you want to run and click **Run**.
 4. If workflow requests are enabled, the request for running the job will go to the approver. If
    they approve the requests, the job will run. If they deny the requests, you will not be able to

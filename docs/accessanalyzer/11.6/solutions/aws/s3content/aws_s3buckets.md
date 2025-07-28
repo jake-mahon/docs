@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AWS_S3Buckets Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/s3content/s3bucketsanalysis.webp)
+![Analysis Task for the AWS_S3Buckets Job](/images/accessanalyzer/11.6/solutions/aws/s3content/s3bucketsanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -34,4 +34,3 @@ following preconfigured report:
 | Report     | Description                                   | Default Tags | Report Element                                                                                                                                                                                                |
 | ---------- | --------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | S3 Buckets | This report summarizes AWS S3 Bucket content. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top five buckets by size</li><li>Table – Shows buckets by size</li><li>Table – Provides details on buckets</li></ul> |
-

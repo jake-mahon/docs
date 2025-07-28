@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/postgresql/collection/configurationquery.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/databases/postgresql/collection/configurationquery.webp)
 
 The query is:
 

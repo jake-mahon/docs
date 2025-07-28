@@ -12,7 +12,7 @@ controlled with the **Sort By** selection in the Filters section.
 
 Here is an example of the **Global** review list:
 
-![UAR list additional reviewer](/img/product_docs/platgovnetsuite/uar/uar_additional_reviewer/additional_user_uar_list.webp)
+![UAR list additional reviewer](/images/platgovnetsuite/uar/uar_additional_reviewer/additional_user_uar_list.webp)
 
 ## Filters
 
@@ -27,7 +27,7 @@ Use **Clear** to reset the Filters.
     - Second Date field only: All reviews created before the specified date are listed.
     - Both Date fields: All reviews created in the date range are listed.
 
-- **Status** Select from the drop down list. **All** is the default.  
+- **Status** Select from the drop down list. **All** is the default.
   Possible statuses are **Not Started**, **Pending Assignment**, **In Progress**, **Complete**,
   **Cancelled** and **Waiting for CR**.
 - **Sort By** Displays a list of either **Global Reviews** or **Single Reviews**. **Global Reviews**
@@ -67,7 +67,7 @@ Use **Clear** to reset the Filters.
 When you open a global review using the **Name** link in the UAR list, the Review list is displayed,
 showing all of the single reviews associated with the global review.
 
-![Review list of associated single reviews under a global review](/img/product_docs/platgovnetsuite/uar/uar_owner/review_list.webp)
+![Review list of associated single reviews under a global review](/images/platgovnetsuite/uar/uar_owner/review_list.webp)
 
 - **Export** exports the list of selected reviews as either a **CSV** or **PDF** file. The exported
   file is named _Reviews_Group_List_.

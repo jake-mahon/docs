@@ -15,7 +15,7 @@ sidebar_position: 30
 
 Here is an example of the Admin dashboard displayed when you log in:
 
-![Admin Dashboard](/img/product_docs/platgovnetsuite/uar/dashboard_admin.webp)
+![Admin Dashboard](/images/platgovnetsuite/uar/dashboard_admin.webp)
 
 ## Dashboard Controls
 

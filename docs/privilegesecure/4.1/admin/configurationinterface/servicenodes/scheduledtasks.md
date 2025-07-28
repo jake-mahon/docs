@@ -8,7 +8,7 @@ sidebar_position: 20
 
 On the Scheduled Tasks page, view scheduled tasks run by the console.
 
-![Scheduled Tasks page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/page/scheduledtaskspage.webp)
+![Scheduled Tasks page](/images/privilegesecure/4.1/accessmanagement/admin/configuration/page/scheduledtaskspage.webp)
 
 The Scheduled Tasks page has the following features:
 

@@ -15,7 +15,7 @@ You must add at least one user in order to restrict access to the administrative
 
 The following types of authentication mechanisms are supported: Windows, ADFS, Azure AD and Forms.
 
-![users_main_page_thumb_0_0](/img/product_docs/dataclassification/5.7/security/users_main_page_thumb_0_0.webp)
+![users_main_page_thumb_0_0](/images/dataclassification/5.7/security/users_main_page_thumb_0_0.webp)
 
 Review the following for additional information:
 

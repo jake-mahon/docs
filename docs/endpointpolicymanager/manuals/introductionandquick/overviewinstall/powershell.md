@@ -11,7 +11,7 @@ key tasks. As of the writing of this manual, the PowerShell cmdlets can perform 
 discover Endpoint Policy Manager items within a Group Policy Object (GPO). The Endpoint Policy
 Manager PowerShell module is located in the Endpoint Policy Manager Extras folder you downloaded.
 
-![policypak_and_powershell_1200x787](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_1200x787.webp)
+![policypak_and_powershell_1200x787](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_1200x787.webp)
 
 Run the Endpoint Policy Manager PowerShell Tools installer. The Endpoint Policy Manager PowerShell
 modules will be installed to `>c:\Program Files\PolicyPak1\Tools\Modules\PolicyPak`.
@@ -19,7 +19,7 @@ modules will be installed to `>c:\Program Files\PolicyPak1\Tools\Modules\PolicyP
 At a Powershell prompt run the command `>Import-Module endpointpolicymanager.psd1.` If you add the
 `>-verbose `command you will see all of the available cmdlets.
 
-![policypak_and_powershell_1_1200x974](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_1_1200x974.webp)
+![policypak_and_powershell_1_1200x974](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_1_1200x974.webp)
 
 ## Endpoint Policy Manager PowerShell and Licensing Endpoint Policy Manager
 
@@ -55,7 +55,7 @@ using the existing Microsoft cmdlet Get-ADOrganizationalUnit as shown below.
 
 The request output is shownbelow.
 
-![policypak_and_powershell_2](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_2.webp)
+![policypak_and_powershell_2](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_2.webp)
 
 :::note
 To understand scope versus SOM, see
@@ -81,7 +81,7 @@ an example script which requests a new license file from a specific SOM and scop
 
 `>#---`
 
-![policypak_and_powershell_3_1200x833](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_3_1200x833.webp)
+![policypak_and_powershell_3_1200x833](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_3_1200x833.webp)
 
 The next cmdlet enables you to determine how many computers are not active.
 
@@ -95,7 +95,7 @@ The next cmdlet enables you to determine how many computers are not active.
 
 The result from this cmdlet is shown below.
 
-![policypak_and_powershell_4_950x333](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_4_950x333.webp)
+![policypak_and_powershell_4_950x333](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_4_950x333.webp)
 
 ```
 >The next cmdlet disables inactive computers.># Disable-InactiveComputers
@@ -106,7 +106,7 @@ The result from this cmdlet is shown below.
 
 You can then see the machines are disabled:
 
-![policypak_and_powershell_5_1200x561](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_5_1200x561.webp)
+![policypak_and_powershell_5_1200x561](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_5_1200x561.webp)
 
 When the next cmdlet is run, you can see if the license file you got from Endpoint Policy Manager
 was valid. Note that you might have to run the cmdlet on each Endpoint Policy Manager license file
@@ -127,7 +127,7 @@ you get.
 
 You can then see that the license is valid:
 
-![policypak_and_powershell_6_950x148](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_6_950x148.webp)
+![policypak_and_powershell_6_950x148](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_6_950x148.webp)
 
 When the next cmdlet is run, you can create a new GPO and link it to the scope.
 
@@ -139,7 +139,7 @@ When the next cmdlet is run, you can create a new GPO and link it to the scope.
 
 You can then see the successful installation:
 
-![policypak_and_powershell_7_1200x328](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_7_1200x328.webp)
+![policypak_and_powershell_7_1200x328](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_7_1200x328.webp)
 
 The next cmdlet will specify a GPO by GUID.
 
@@ -155,7 +155,7 @@ The next cmdlet will specify a GPO by GUID.
 The result is shown below. You can see the GPO name, scope, expiration date of the license, Endpoint
 Policy Manager license version type, and validation status of the license.
 
-![policypak_and_powershell_8_1200x803](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_8_1200x803.webp)
+![policypak_and_powershell_8_1200x803](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_8_1200x803.webp)
 
 ## Endpoint Policy Manager PowerShell and Discovery
 
@@ -178,4 +178,4 @@ PolicyPak, you can use cmdlets like the following examples:
 ![Text
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/install/endpointpolicymanager_and_powershell_9_850x594.webp)
+generated](/images/endpointpolicymanager/install/endpointpolicymanager_and_powershell_9_850x594.webp)

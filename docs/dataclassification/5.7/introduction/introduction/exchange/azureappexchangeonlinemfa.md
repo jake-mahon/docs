@@ -45,7 +45,7 @@ To register a new Azure AD application, do the following:
 3. Under the Azure Directory select the **App registrations** section.
 4. Select **New registration**:
 
-![mfa_o365_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/mfa_o365_thumb_0_0.webp)
+![mfa_o365_thumb_0_0](/images/dataclassification/5.7/configuration/configinfrastructure/mfa_o365_thumb_0_0.webp)
 
 5. In the **Name** field, enter the application name.
 6. In the **Supported account types** select who can use this application – use the **Accounts in

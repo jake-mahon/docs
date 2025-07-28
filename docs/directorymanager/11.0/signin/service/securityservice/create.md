@@ -21,8 +21,8 @@ When you deploy a Security service in native IIS, GroupID does the following:
 
 - It creates a directory with the Security service’s name at the following physical path on the
   GroupID server, and copies the service files from its template directory to the new service
-  directory:  
-  X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\  
+  directory:
+  X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\
   (X represents the GroupID installation drive)
 - It also creates a virtual directory for the service in your desired IIS site.
 
@@ -40,20 +40,20 @@ located on disk.
 6. In the **Deployment Name** box, enter a deployment name for the service. The application name and
    deployment name are displayed on the service card, as shown below:
 
-    ![ss_card](/img/product_docs/directorymanager/11.0/admincenter/service/securityservice/ss_card.webp)
+    ![ss_card](/images/directorymanager/11.0/admincenter/service/securityservice/ss_card.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the service. This name is
    used to name the service’s directory in IIS and its physical directory under X:\Program
-   Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\ on the GroupID server.  
-   (X represents the GroupID installation drive)  
+   Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\ on the GroupID server.
+   (X represents the GroupID installation drive)
    The IIS application name should be unique for each Security service deployed in IIS.
-8. In the **IIS Site** drop-down list, select a website to host the service files.  
+8. In the **IIS Site** drop-down list, select a website to host the service files.
    The list displays the websites defined on the local IIS server. GroupIDSite11 is the default
    selection.
-9. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
+9. In the **Data Service** drop-down list, select a Data service to bind to this Security service.
    A Security service needs a Data service to perform various tasks, such as authentication and
    multifactor authentication.
-10. Click **Create Application**.  
+10. Click **Create Application**.
     The Security service is created and displayed on the **Security Service** tab.
 
 ## Create a Security Service in Remote IIS
@@ -88,10 +88,10 @@ topic.
    Application Name**, and **Website**, refer to steps 7-11 in the
    [Create a Portal in Remote IIS](/docs/directorymanager/11.0/signin/applications/portal/create.md#create-a-portal-in-remote-iis)
    topic. Replace any reference to the portal with the Security service.
-8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
+8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.
    A Security service needs a Data service to perform various tasks, such as authentication and
    multifactor authentication.
-9. Click **Create Application**.  
+9. Click **Create Application**.
    The Security service is displayed on the **Security Service** tab.
 
 ## Create a Security Service in Docker
@@ -120,10 +120,10 @@ NOTE: To host the Security service, Docker daemon should be configured to run Wi
    the
    [Create a Portal in Docker](/docs/directorymanager/11.0/signin/applications/portal/create.md#create-a-portal-in-docker)
    topic. Replace any reference to the portal with the Security service.
-8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
+8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.
    A Security service needs a Data service to perform various tasks, such as authentication and
    multifactor authentication.
-9. Click **Create Application**.  
+9. Click **Create Application**.
    The Security service is created and displayed on the **Security Service** tab.
 
 ## Launch a Security Service

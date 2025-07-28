@@ -9,7 +9,7 @@ sidebar_position: 20
 The Actions panel provides access to the Resource Reviews and the Self-Service Access Requests
 workflow features.
 
-![Actions panel section of the Owner portal](/img/product_docs/accessinformationcenter/12.0/resourceowners/ownerportal/actionspanel.webp)
+![Actions panel section of the Owner portal](/images/accessinformationcenter/12.0/resourceowners/ownerportal/actionspanel.webp)
 
 **Resource Review Workflow Features**
 
@@ -39,5 +39,5 @@ Requests feature.
     :::note
     If you have an assigned user role, you can access the Your Access portal with the
     **Manage Your Access** link on the Home page.
-    
+
     :::

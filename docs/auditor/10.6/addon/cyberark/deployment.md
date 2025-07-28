@@ -60,7 +60,7 @@ folder and open the **dbparam.ini** file for editing.
 - **SyslogTranslatorFile** – relative path to **Netwrix.xsl** file. You will need to create this
   file manually and copy the content of **SyslogTranslator.sample.xsl** file into it. This sample
   file is provided by CyberArk. By default, it is located in the _%Program Files (x86)
-  %\PrivateArk\Server\Syslog_ folder.  
+  %\PrivateArk\Server\Syslog_ folder.
   Place the _Netwrix.xsl_ file there, too, so that default relative path should be _\Server\Syslog_.
 - **SyslogServerPort** – communication port of the syslog server (i.e. add-on installation server).
   Default is **514**. Note that if you are using Netwrix Auditor for Network Devices, this port may
@@ -73,7 +73,7 @@ folder and open the **dbparam.ini** file for editing.
   [Monitored Events](/docs/auditor/10.6/addon/cyberark/monitoredevents.md). Use
   comma as a separator.
 
-![dbparamfile](/img/product_docs/auditor/10.6/addon/cyberark/dbparamfile.webp)
+![dbparamfile](/images/auditor/10.6/addon/cyberark/dbparamfile.webp)
 
 **Step 4 –** Save the **dbparam.ini** file.
 
@@ -108,7 +108,7 @@ Follow the steps to install the Add-On:
 
 The configuration wizard opens in the default web browser:
 
-![ConfigurationWizard](/img/product_docs/auditor/10.6/addon/cyberark/configwizard.webp)
+![ConfigurationWizard](/images/auditor/10.6/addon/cyberark/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

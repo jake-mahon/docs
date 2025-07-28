@@ -19,7 +19,7 @@ A value of "Test" was entered into the application.
 :::
 
 
-![configuring_elements_using_14](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_14.webp)
+![configuring_elements_using_14](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_14.webp)
 
 Figure 121. A change to the Name textbox field.
 
@@ -45,7 +45,7 @@ The Configuration Wizard might also occasionally ask you to re-try an item. This
 when an application starts out with no settings, then creates a setting, instead of changing one. In
 Figure 122, we can see that checking on the setting was changing "passwordreqlower" to 1.
 
-![configuring_elements_using_15](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_15.webp)
+![configuring_elements_using_15](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_15.webp)
 
 Figure 122. Re-trying a specific item with the Configuration Wizard.
 
@@ -60,7 +60,7 @@ be, placing it into the appropriate checkbox. You have two choices here:
   known, the red color is removed from the value. No checkmarks are present to re-discover any
   specific values. An example is shown in Figure 123.
 
-![configuring_elements_using_16](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_16.webp)
+![configuring_elements_using_16](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_16.webp)
 
 Figure 123. Neither checkbox is selected after re-trying a specific state.
 
@@ -76,7 +76,7 @@ best to pick the word or phrase that makes the most sense for what you are curre
 this first example, since we're configuring the text box called "Name," it seems logical to select
 the word "Name" on the Linked Label Selection page.
 
-![configuring_elements_using_17](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_17.webp)
+![configuring_elements_using_17](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_17.webp)
 
 Figure 124. Selecting the linked label for an element.
 
@@ -85,6 +85,6 @@ In this case, it could be argued that either "Speed:" or "Double-click speed" wo
 label selections, because either one describes what the slider does. "Double-click speed" is likely
 a slightly better choice here for clarity.
 
-![configuring_elements_using_18](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_18.webp)
+![configuring_elements_using_18](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_18.webp)
 
 Figure 125. Choosing a linked label.

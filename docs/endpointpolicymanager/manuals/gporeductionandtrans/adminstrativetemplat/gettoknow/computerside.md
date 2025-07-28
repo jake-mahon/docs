@@ -9,7 +9,7 @@ sidebar_position: 30
 When using Endpoint Policy Manager Admin Templates Manager to create a policy on the Computer side,
 you can tap into both Computer and User policy settings.
 
-![about_policypak_admin_templates_6](/img/product_docs/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_6.webp)
+![about_policypak_admin_templates_6](/images/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_6.webp)
 
 With both computer and user policy settings available in Endpoint Policy Manager Admin Templates
 Manager you can deliver user-side settings to any computer that has this GPO.

@@ -91,11 +91,11 @@ of the previous or future position.
 
 The following image shows the positions of `Mark Barn` in a defined timeline.
 
-![simple-recordsection-identity](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/simple-recordsection-identity.webp)
+![simple-recordsection-identity](/images/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/simple-recordsection-identity.webp)
 
 With the given configuration and the identity of `Mark Barn`, the following contexts are generated:
 
-![simple-recordsection-result](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/simple-recordsection-result.webp)
+![simple-recordsection-result](/images/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/simple-recordsection-result.webp)
 
 Each computed context will be used to create a set of dimension-value pairs, thus having 3 sets for
 the
@@ -142,7 +142,7 @@ The `ExtensionKind="None"` was removed for the `Location` property.
 
 Using the identity of `Mark Barn` the computed contexts should be as followed:
 
-![recordsection-withvaluecopy-result1](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/recordsection-withvaluecopy-result1.webp)
+![recordsection-withvaluecopy-result1](/images/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/recordsection-withvaluecopy-result1.webp)
 
 Any rules targeting identities working in `London` will be assigned to `Mark Barn` from `Cs` to
 `Ce`.
@@ -167,11 +167,11 @@ Position record section:
 
 ```
 
-![positionextension-identity](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/positionextension-identity.webp)
+![positionextension-identity](/images/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/positionextension-identity.webp)
 
 Two contexts will be generated.
 
-![positionextension-result](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/positionextension-result.webp)
+![positionextension-result](/images/identitymanager/6.1/integration-guide/role-assignment/generate-contexts/positionextension-result.webp)
 
 By default, the previous position is extended when there is a gap. If there isn't any previous
 position then the next position will be anticipated.

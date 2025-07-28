@@ -19,7 +19,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup20.webp)
+![Query Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup20.webp)
 
 - Weak Password Hash – Locates the dictionary file used to compare Oracle passwords to determine if
   they are weak.
@@ -38,7 +38,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup21.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/usersroles/jobgroup21.webp)
 
 The default analysis tasks are:
 
@@ -57,4 +57,3 @@ produces the following pre-configured reports.
 | Report         | Description                                                                        | Default Tags | Report Elements                                                                                                                                                                                                                               |
 | -------------- | ---------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Weak Passwords | This report highlights users with weak passwords in the audited Oracle environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays password issues by instance</li><li>Table – Provides details on password issues by instance</li><li>Table – Provides information on password issue details</li></ul> |
-

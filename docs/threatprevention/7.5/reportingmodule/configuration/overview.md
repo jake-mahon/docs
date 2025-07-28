@@ -8,7 +8,7 @@ sidebar_position: 10
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.
 
-![Configuration menu](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/menu.webp)
+![Configuration menu](/images/threatprevention/7.5/reportingmodule/configuration/menu.webp)
 
 It contains the following options:
 

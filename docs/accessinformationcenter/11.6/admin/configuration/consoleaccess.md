@@ -10,7 +10,7 @@ Console access to the is configured through the **Configuration** > **Console Ac
 users to the Access Information Center requires data to be collected by the Enterprise Auditor
 .Active Directory Inventory Solution.
 
-![Console Access Configuration page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccess.webp)
+![Console Access Configuration page](/images/accessinformationcenter/11.6/admin/configuration/consoleaccess.webp)
 
 There are five levels of access, or Roles, which can be granted to domain users or groups:
 
@@ -61,12 +61,12 @@ their assigned role or lack of role.
 
 Follow the steps to grant domain users or groups console access.
 
-![Console Access Configuration page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccess.webp)
+![Console Access Configuration page](/images/accessinformationcenter/11.6/admin/configuration/consoleaccess.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, click Add. The Console
 Access wizard opens.
 
-![Console Access wizard showing the Select Trustee page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccessaddselecttrustee.webp)
+![Console Access wizard showing the Select Trustee page](/images/accessinformationcenter/11.6/admin/configuration/consoleaccessaddselecttrustee.webp)
 
 **Step 2 –** On the Select Trustee page, enter the following information and click Next:
 
@@ -76,7 +76,7 @@ Access wizard opens.
 - Search — Begin typing the sAMAccountName or display name and the field will auto-populate options
   from Active Directory sAMAccountName
 
-![Console Access wizard showing the Select Access page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccessaddselectaccess.webp)
+![Console Access wizard showing the Select Access page](/images/accessinformationcenter/11.6/admin/configuration/consoleaccessaddselectaccess.webp)
 
 **Step 3 –** On the Select Access page, enter the following information and click **Finish**:
 
@@ -95,7 +95,7 @@ Access wizard opens.
 - Access is enabled – A user's account must be enabled in order to log into the console. Unchecking
   this option allows you to configure access to be granted at a future time.
 
-![Console Access Page displaying users with various assigned roles](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccesswithusers.webp)
+![Console Access Page displaying users with various assigned roles](/images/accessinformationcenter/11.6/admin/configuration/consoleaccesswithusers.webp)
 
 **Step 4 –** The new user displays in the list on the Console Access page. Repeat these steps for
 each trustee to be granted console access.
@@ -120,7 +120,7 @@ additional information.
 **Step 1 –** In the Configuration interface on the Console Access page, select the user to be
 modified and click Modify. The Console Access wizard opens to the Select Access page.
 
-![Console Access wizard showing the Select Access page when modifying](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccessmodify.webp)
+![Console Access wizard showing the Select Access page when modifying](/images/accessinformationcenter/11.6/admin/configuration/consoleaccessmodify.webp)
 
 **Step 2 –** Modify the desired settings and click **Finish**:
 
@@ -152,7 +152,7 @@ additional information.
 
 Follow the steps to remove a user’s configured console access.
 
-![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccessremove.webp)
+![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/images/accessinformationcenter/11.6/admin/configuration/consoleaccessremove.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the user.
 
@@ -165,7 +165,7 @@ The user is removed from the list on the Console Access page.
 The Builtin Administrator account can be disabled or its password can be changed. Follow the steps
 to modify this account.
 
-![modifybuiltinadministrator](/img/product_docs/accessinformationcenter/11.6/admin/configuration/modifybuiltinadministrator.webp)
+![modifybuiltinadministrator](/images/accessinformationcenter/11.6/admin/configuration/modifybuiltinadministrator.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the Builtin
 Administrator account and click **Modify**. The Builtin Administrator window opens.

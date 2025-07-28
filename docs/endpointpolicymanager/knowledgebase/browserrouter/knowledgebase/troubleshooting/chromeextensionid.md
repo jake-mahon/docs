@@ -30,7 +30,7 @@ Chromium by visiting edge://extensions from within Edge Chromium.
 :::
 
 
-![202_1_image-20220105135628-1](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/clientsideextension/202_1_image-20220105135628-1.webp)
+![202_1_image-20220105135628-1](/images/endpointpolicymanager/troubleshooting/browserrouter/clientsideextension/202_1_image-20220105135628-1.webp)
 
 | DATE       | CSE VERSION      | VERSION OF EXTENSION | EXTENSION ID                     | Still available in Chrome Store? |
 | ---------- | ---------------- | -------------------- | -------------------------------- | -------------------------------- |

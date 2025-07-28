@@ -25,33 +25,33 @@ article
 [Setting the Default PDF Viewer](https://www.adobe.com/devnet-docs/acrobatetk/tools/AdminGuide/pdfviewer.html)[ for additional information.](https://www.adobe.com/devnet-docs/acrobatetk/tools/AdminGuide/pdfviewer.html).
 The image below shows their guidance on associating file types to ProgIDs.
 
-![using_preconfigured_collections](/img/product_docs/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections.webp)
+![using_preconfigured_collections](/images/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections.webp)
 
 You could try to set all of this yourself, but here at Endpoint Policy Manager, we've done the work
 so you don't have to. To locate the Endpoint Policy Manager File Associations Manager preconfigured
 settings based on the manufacturer's guidance, follow these steps:
 
-![using_preconfigured_collections_1](/img/product_docs/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_1.webp)
+![using_preconfigured_collections_1](/images/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_1.webp)
 
 **Step 1 –** Go to the Endpoint Policy Manager Portal and locate the Guidance XMLs ZIP file.
 
-![using_preconfigured_collections_2](/img/product_docs/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_2.webp)
+![using_preconfigured_collections_2](/images/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_2.webp)
 
 **Step 2 –** Download and unpack the ZIP file. Look for the folder called Endpoint Policy Manager
 File Associations Manager XMLs.
 
-![using_preconfigured_collections_3](/img/product_docs/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_3.webp)
+![using_preconfigured_collections_3](/images/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_3.webp)
 
 **Step 3 –** Inside that folder, you'll see XMLs, which are ready for immediate import into Endpoint
 Policy Manager File Associations Manager.
 
-![using_preconfigured_collections_4](/img/product_docs/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_4.webp)
+![using_preconfigured_collections_4](/images/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_4.webp)
 
 **Step 4 –** To import the XML files, drag and drop them into the Endpoint Policy Manager File
 Associations Manager console. This creates a collection for applications such as Adobe Reader DC,
 Adobe Reader 11, and others.
 
-![using_preconfigured_collections_5](/img/product_docs/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_5.webp)
+![using_preconfigured_collections_5](/images/endpointpolicymanager/fileassociations/collections/using_preconfigured_collections_5.webp)
 
 **Step 5 –** The orange color of the icon denotes that the collections have Item-Level Targeting on
 them to ensure that they will only apply when the application is actually present on the machine. If

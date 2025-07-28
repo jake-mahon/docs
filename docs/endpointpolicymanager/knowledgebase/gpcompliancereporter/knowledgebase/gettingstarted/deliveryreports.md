@@ -59,4 +59,4 @@ reporter… To report on the Group Policy delivered GPOs.
 In Endpoint Policy Manager Cloud, the on-prem Endpoint Policy Manager Group Policy Compliance
 Reporter license will look like this… and this is a paid extra for Endpoint Policy Manager Cloud.
 
-![684_1_gpcr-faq-2-img-1](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/684_1_gpcr-faq-2-img-1.webp)
+![684_1_gpcr-faq-2-img-1](/images/endpointpolicymanager/grouppolicycompliancereporter/684_1_gpcr-faq-2-img-1.webp)

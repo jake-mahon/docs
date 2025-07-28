@@ -9,7 +9,7 @@ sidebar_position: 10
 The Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager UI has designations
 for Standard and Complete licenses.
 
-![839_1_img-01](/img/product_docs/endpointpolicymanager/leastprivilege/839_1_img-01.webp)
+![839_1_img-01](/images/endpointpolicymanager/leastprivilege/839_1_img-01.webp)
 
 The breakdown of functions is as follows:
 
@@ -34,8 +34,8 @@ Complete:
 
 You can look in your license file and see which license you are granted.
 
-![839_3_img-02](/img/product_docs/endpointpolicymanager/leastprivilege/839_3_img-02.webp)
+![839_3_img-02](/images/endpointpolicymanager/leastprivilege/839_3_img-02.webp)
 
 You can also see the license type within the MMC console if you have this type of license installed.
 
-![839_5_img-03](/img/product_docs/endpointpolicymanager/leastprivilege/839_5_img-03.webp)
+![839_5_img-03](/images/endpointpolicymanager/leastprivilege/839_5_img-03.webp)

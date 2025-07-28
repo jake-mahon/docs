@@ -9,7 +9,7 @@ sidebar_position: 40
 The 4. Delete job group is designed to report on and take action against resources from targeted
 file servers that can be deleted.
 
-![4. Delete Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/delete/jobstree.webp)
+![4. Delete Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/delete/jobstree.webp)
 
 This job group includes the following jobs:
 

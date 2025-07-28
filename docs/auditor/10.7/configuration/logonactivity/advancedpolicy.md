@@ -34,7 +34,7 @@ To do it, perform the following steps:
 4. Locate the Audit: Force audit policy subcategory settings to override audit policy category
    settings and make sure that policy setting is set to _"Enabled"_.
 
-    ![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
+    ![manualconfig_ad_nla_audit_force_winserver2016](/images/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
 
 5. Run the following command to update group policy:
 
@@ -61,7 +61,7 @@ To do it, perform the following steps:
     | - Audit Logon                      | _"Success"_ and _"Failure"_                                                                                      |                             |
     | System                             | - Audit Security State Change                                                                                    | _"Success"_                 |
 
-    ![manualconfig_nla_advpol2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_advpol2016.webp)
+    ![manualconfig_nla_advpol2016](/images/1secure/configuration/logonactivity/manualconfig_nla_advpol2016.webp)
 
 5. Run the following command to update group policy:
 

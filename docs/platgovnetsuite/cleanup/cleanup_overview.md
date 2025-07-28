@@ -64,7 +64,7 @@ used by any other customization, before moving onto other clean up activities.
 Most of the tools have the following columns. They might be in slightly different orders or omitted
 based on the type of clean up.
 
-![cleanupfields](/img/product_docs/platgovnetsuite/clean_up/cleanupfields.webp)
+![cleanupfields](/images/platgovnetsuite/clean_up/cleanupfields.webp)
 
 Sample Result:
 
@@ -120,7 +120,7 @@ The statuses are:
 - **Ignore**: Removes it from the searches.
 - **Specific tasks**: Fix Script Id and Reassign Owner.
 
-![faq-clean-up-status](/img/product_docs/platgovnetsuite/clean_up/faq-clean-up-status.webp)
+![faq-clean-up-status](/images/platgovnetsuite/clean_up/faq-clean-up-status.webp)
 
 You can report on these statuses to organize your work.
 
@@ -134,7 +134,7 @@ the results view, “Create Change Request” creates a new change request. Once
 customization it will appear under “Related Change Requests”. You can have multiple customizations
 assigned to multiple change requests as appropriate.
 
-![faq-clean-up-create-change-req](/img/product_docs/platgovnetsuite/clean_up/faq-clean-up-create-change-req.webp)
+![faq-clean-up-create-change-req](/images/platgovnetsuite/clean_up/faq-clean-up-create-change-req.webp)
 
 ### Manage the Change or Clean Up as Appropriate
 

@@ -14,7 +14,7 @@ mail sent to and received from an `@netwrix.com` address. It is a wizard page fo
 - User’s Message Activity
 - User’s Message Activity Per Hour
 
-![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/exchangemetrics/messageactivityfilter.webp)
+![Exchange Metrics Data Collector Wizard Message Activity Filter page](/images/accessanalyzer/11.6/admin/datacollector/exchangemetrics/messageactivityfilter.webp)
 
 Configure the Message Activity Filter using the following options:
 

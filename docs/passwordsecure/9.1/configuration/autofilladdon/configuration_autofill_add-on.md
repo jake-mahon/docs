@@ -11,7 +11,7 @@ sidebar_position: 10
 The Autofill Add-on can be directly started via the desktop link that is automatically created when
 it is installed. The login data correspond to the normal user data for the client.
 
-![Login SSO](/img/product_docs/passwordsecure/9.1/configuration/autofill_add-on/configuration/installation_with_parameters_129-en.webp)
+![Login SSO](/images/passwordsecure/9.1/configuration/autofill_add-on/configuration/installation_with_parameters_129-en.webp)
 
 To log in, the desired database and the associated login data are firstly selected. The Autofill
 makes all of the databases configured on the client available. It is also possible to create
@@ -26,7 +26,7 @@ thus also affect the client. New profiles can thus also be created via the Autof
 After successfully logging in, the Autofill Add-on firstly runs in the background. Right click on
 the icon in the system tray to open the context menu.
 
-![icon options](/img/product_docs/passwordsecure/9.1/configuration/autofill_add-on/configuration/installation_with_parameters_130-en.webp)
+![icon options](/images/passwordsecure/9.1/configuration/autofill_add-on/configuration/installation_with_parameters_130-en.webp)
 
 - **Disconnect**: Connect to database/disconnect from database. (All connections are shown for
   multiple databases)
@@ -37,7 +37,7 @@ the icon in the system tray to open the context menu.
 
 **Settings**
 
-![settings sso agent](/img/product_docs/passwordsecure/9.1/configuration/autofill_add-on/configuration/installation_with_parameters_131-en.webp)
+![settings sso agent](/images/passwordsecure/9.1/configuration/autofill_add-on/configuration/installation_with_parameters_131-en.webp)
 
 - The desktop notifications display various information, such as when data is entered
 - Start with Windows includes the Autofill Add-on in the autostart menu

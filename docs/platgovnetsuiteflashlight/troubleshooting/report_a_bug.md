@@ -15,4 +15,4 @@ within Flashlight:
 1. Open **Flashlight** > **Support** > **Report a Bug**
 2. Click on **Submit a Ticket** and follow the prompts.
 
-![Report a Bug](/img/product_docs/platgovnetsuiteflashlight/troubleshooting/report_bug_800x556.webp)
+![Report a Bug](/images/platgovnetsuiteflashlight/troubleshooting/report_bug_800x556.webp)

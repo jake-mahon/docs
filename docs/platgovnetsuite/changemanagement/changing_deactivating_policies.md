@@ -12,7 +12,7 @@ modifications. You can deactivate or modify policies with an open and approved c
 
 This diagram shows the overall process of what happens when you update a policy:
 
-![modifypolicy-cr](/img/product_docs/platgovnetsuite/change_management/modifypolicy-cr.webp)
+![modifypolicy-cr](/images/platgovnetsuite/change_management/modifypolicy-cr.webp)
 
 ## Change a Policy
 
@@ -41,8 +41,8 @@ To deactivate a policy:
     - **Change Type**: Policy Change Approval
     - **Policies**: Select the policy you want to deactivate.
 
-![deactivatepolicy](/img/product_docs/platgovnetsuite/change_management/deactivatepolicy.webp)3.
+![deactivatepolicy](/images/platgovnetsuite/change_management/deactivatepolicy.webp)3.
 Get the Change Request **Approved**. 4. Click **Save** 5. Check the **Inactive** box.
 
-![inactivebox](/img/product_docs/platgovnetsuite/change_management/inactivebox.webp)6.
+![inactivebox](/images/platgovnetsuite/change_management/inactivebox.webp)6.
 Click **Save**

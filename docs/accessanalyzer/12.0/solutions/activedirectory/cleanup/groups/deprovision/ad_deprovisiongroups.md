@@ -40,7 +40,7 @@ topic for additional information.
 Navigate to the **Active Directory** > **Cleanup** > **1.Groups** > **1. Deprovision Groups** >
 **AD_Deprovision Groups** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-![Analysis Tasks for the AD_DeprovisionGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsanalysis.webp)
+![Analysis Tasks for the AD_DeprovisionGroups Job](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -76,7 +76,7 @@ prevent making unintended and potentially harmful changes to Active Directory.
 :::
 
 
-![Action Tasks for the AD_DepvisionGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsaction.webp)
+![Action Tasks for the AD_DepvisionGroups Job](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsaction.webp)
 
 The action tasks are:
 

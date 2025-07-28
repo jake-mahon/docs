@@ -55,7 +55,7 @@ The Configure Analytics window has two tabs:
 
 **Settings Tab**
 
-![Bad User ID (by Source Host) Analytic Type - Settings tab](/img/product_docs/threatprevention/7.4/admin/analytics/baduseridsettings.webp)
+![Bad User ID (by Source Host) Analytic Type - Settings tab](/images/threatprevention/7.4/admin/analytics/baduseridsettings.webp)
 
 Set the Number of Days for which repeated authentication attempts by a machine using a bad user
 account will be tallied. An incident will be triggered for every previously unseen host that has a
@@ -66,7 +66,7 @@ new count.
 
 **Policy Tab**
 
-![Bad User ID (by Source Host) Analytic Type - Policy tab](/img/product_docs/threatprevention/7.4/admin/analytics/policytab.webp)
+![Bad User ID (by Source Host) Analytic Type - Policy tab](/images/threatprevention/7.4/admin/analytics/policytab.webp)
 
 The Policy tab for configuring analytics consists of three sub-tabs:
 
@@ -119,7 +119,7 @@ The Policy tab for configuring analytics consists of three sub-tabs:
 The data grid on the **Bad User ID (by source host)** node lists one row per incident identified.
 These incidences are grouped per unique source machine.
 
-![Bad User ID by Source Host window](/img/product_docs/threatprevention/7.4/admin/analytics/baduseridsourcehost.webp)
+![Bad User ID by Source Host window](/images/threatprevention/7.4/admin/analytics/baduseridsourcehost.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/docs/threatprevention/7.4/admin/policies/configuration/recentevents/eventtracker.md)

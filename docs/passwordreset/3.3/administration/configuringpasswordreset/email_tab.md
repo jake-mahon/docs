@@ -9,14 +9,14 @@ sidebar_position: 30
 Use the **E-mail** tab to configure how e-mail is sent to users, when it is sent, and also to edit
 the e-mail templates.
 
-![configuring_npr_3](/img/product_docs/passwordreset/3.3/administration/configuring_npr_3.webp)
+![configuring_npr_3](/images/passwordreset/3.3/administration/configuring_npr_3.webp)
 
 ### E-mail Delivery
 
 Password Reset can send e-mail alerts directly to an SMTP server, or save them to a pickup folder.
 Select the **Send e-mail to an SMTP server** option if Password Reset should send e-mails directly
 to an SMTP server. Type the name or IP address of an SMTP server in the **Server** text box, and the
-SMTP port number in the **Port** text box.  
+SMTP port number in the **Port** text box.
 Select the **Save e-mail to a pickup folder** option if NPR should save e-mails to a folder for
 delivery by a mail server. Click **Browse...** to select a folder. The mail server must monitor this
 folder for new e-mail.
@@ -34,10 +34,10 @@ sends an e-mail when the event occurs. Enabled triggers are underlined.
 
 Click the name of an enabled trigger to edit the trigger's e-mail template.
 
-![configuring_npr_4](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_4.webp)
+![configuring_npr_4](/images/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_4.webp)
 
 Type the name and e-mail address you wish to appear in the e-mail's From field in the **From** text
-box. The correct format is "Display Name" `<mailbox@domain.com>`  
+box. The correct format is "Display Name" `<mailbox@domain.com>`
 Type the recipient's e-mail address in the **To** text box. The correct format is "Display Name"
 `<mailbox@domain.com>`. Separate multiple recipients with a semicolon. You can also use these
 macros.
@@ -77,12 +77,12 @@ defined for the user's preferred language, then the alert is sent in English.
 
 Use the drop-down list at the bottom of the E-mail template editor to switch between template
 languages. Changes are preserved as you switch between languages. The **From**, **To**, and **Bcc**
-are the same for all languages.  
+are the same for all languages.
 A warning icon is shown beside the language drop-down list if an e-mail template is not defined for
 every language. You should define an e-mail template for every language to ensure that users can
 understand their e-mail alerts.
 
-![configuring_npr_5](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_5.webp)
+![configuring_npr_5](/images/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_5.webp)
 
 :::warning
 An attacker may choose a specific language to avoid detection. E-mail alerts are sent

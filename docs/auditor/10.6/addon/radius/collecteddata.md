@@ -15,7 +15,7 @@ Follow the steps to see results.
 
 **Step 2 –** Click **Search**.
 
-![radius](/img/product_docs/auditor/10.6/addon/radius/radius.webp)
+![radius](/images/auditor/10.6/addon/radius/radius.webp)
 
 **NOTE:** You might want to apply a filter to narrow down your search results to the RADIUS Logon
 object type only.

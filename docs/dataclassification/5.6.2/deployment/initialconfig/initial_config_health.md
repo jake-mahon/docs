@@ -9,7 +9,7 @@ sidebar_position: 50
 On this step, you will be prompted to email settings for health reporting and select immediate
 health alerts.
 
-![initial_config_health](/img/product_docs/dataclassification/5.6.2/deployment/initial_config_health.webp)
+![initial_config_health](/images/dataclassification/5.6.2/deployment/initial_config_health.webp)
 
 Complete the following fields:
 

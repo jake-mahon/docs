@@ -15,11 +15,11 @@ Name: Java SE Runtime Environment 8 Update…
 
 Publisher: Oracle America, Inc.
 
-![overcoming_java_prompts_11](/img/product_docs/endpointpolicymanager/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_11.webp)
+![overcoming_java_prompts_11](/images/endpointpolicymanager/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_11.webp)
 
 You can also set this message manually, or by usign Group Policy.
 
-![overcoming_java_prompts_12](/img/product_docs/endpointpolicymanager/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_12.webp)
+![overcoming_java_prompts_12](/images/endpointpolicymanager/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_12.webp)
 
 To make this prompt automatically never occur again, use Group Policy Preferences:
 
@@ -36,7 +36,7 @@ values as shown in the table below:
 | AppPath         | REG_SZ    | C:\Program Files (x86)\Java\jre1.8.0_111\bin | Or the path to the latest version of Java |
 | Policy          | REG_DWord | 3                                            |                                           |
 
-![overcoming_java_prompts_13](/img/product_docs/endpointpolicymanager/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_13.webp)
+![overcoming_java_prompts_13](/images/endpointpolicymanager/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_13.webp)
 
 The result is that the Java applet is allowed. Since Endpoint Policy Manager Application Settings
 Manager does not yet have a way to set this dynamically, we suggest Group Policy Preferences be used

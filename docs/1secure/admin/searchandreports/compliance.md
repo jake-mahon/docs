@@ -25,7 +25,7 @@ its reports. An organization is selected by default, but you can choose a differ
 **Step 3 –** Click the **Compliance** tab to access the compliance reports. This opens the
 Compliance page with the Group Membership report selected by default in the left pane.
 
-![Compliance Reports Page](/img/product_docs/1secure/admin/searchandreports/reportscompliance.webp)
+![Compliance Reports Page](/images/1secure/admin/searchandreports/reportscompliance.webp)
 
 **Step 4 –** In the left pane, click a category to view its reports. Categories are:
 

@@ -18,7 +18,7 @@ This is the account you will provide in the monitoring plan wizard at the
 [Create a New Monitoring Plan](/docs/auditor/10.6/admin/monitoringplans/create.md)
 step; it can be modified in the **General** tab of the monitored item settings.
 
-![nutanix_item_mp](/img/product_docs/auditor/10.6/configuration/fileservers/nutanix/nutanix_item_mp.webp)
+![nutanix_item_mp](/images/auditor/10.6/configuration/fileservers/nutanix/nutanix_item_mp.webp)
 
 This account must have a role with sufficient privileges on that server: **File Server Admin**
 (recommended) or **Backup Admin** role.
@@ -30,7 +30,7 @@ You will also need an account that will be used to connect to Nutanix File Serve
 This account should be provided in the **Nutanix File Server REST API** tab of the monitored item
 (_Nutanix SMB shares_) settings.
 
-![nutanix_item_restapi](/img/product_docs/auditor/10.6/configuration/fileservers/nutanix/nutanix_item_restapi.webp)m_restapi.webp)
+![nutanix_item_restapi](/images/auditor/10.6/configuration/fileservers/nutanix/nutanix_item_restapi.webp)m_restapi.webp)
 
 This account must be assigned the **REST API access users** role for Nutanix File Server you want to
 audit.
@@ -64,7 +64,7 @@ format and select the **File Server Admin** or **Backup Admin** role to assign
 **Step 8 –** Enter the local user account and password, then click **Save** next to these cells to
 save the settings.
 
-![nutanix_user](/img/product_docs/auditor/10.6/configuration/fileservers/nutanix/nutanix_user.webp)
+![nutanix_user](/images/auditor/10.6/configuration/fileservers/nutanix/nutanix_user.webp)
 
 **Step 9 –** When finished, click **Close**.
 

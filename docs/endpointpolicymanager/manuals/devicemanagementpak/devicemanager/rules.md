@@ -31,7 +31,7 @@ apply.
 :::
 
 
-![aa15](/img/product_docs/endpointpolicymanager/device/devicemanager/aa15.webp)
+![aa15](/images/endpointpolicymanager/device/devicemanager/aa15.webp)
 
 Admin Approval has four tabs:
 
@@ -63,7 +63,7 @@ Admin Approval has four tabs:
   - Custom Message — Optional message to customers about what to do, who to call, what is
     permitted etc, to override the default Endpoint Policy Manager Device Manager behavior.
 
-![aa14](/img/product_docs/endpointpolicymanager/device/devicemanager/aa14.webp)
+![aa14](/images/endpointpolicymanager/device/devicemanager/aa14.webp)
 
 ## Brand Dialog Using Global Settings (Optional)
 
@@ -73,7 +73,7 @@ type you saw earlier.
 Below you can see some example of what you may configure. You can even run a pre-test to see what
 the user will see before implementation.
 
-![aa4](/img/product_docs/endpointpolicymanager/device/devicemanager/aa4.webp)
+![aa4](/images/endpointpolicymanager/device/devicemanager/aa4.webp)
 
 ## Test Admin Approval
 
@@ -82,7 +82,7 @@ to call the service desk and/or send email requests.
 
 Requests are then fielded by the Device Manager Admin Approval tool.
 
-![aa3](/img/product_docs/endpointpolicymanager/device/devicemanager/aa3.webp)
+![aa3](/images/endpointpolicymanager/device/devicemanager/aa3.webp)
 
 ## Device Manager Admin Approval Tool
 
@@ -91,12 +91,12 @@ pre-installed whenever the Endpoint Policy Manager Admin Console MSI is installe
 available as a standalone portable application and found in the Endpoint Policy Manager Extras
 folder in the download.
 
-![aa5](/img/product_docs/endpointpolicymanager/device/devicemanager/aa5.webp)
+![aa5](/images/endpointpolicymanager/device/devicemanager/aa5.webp)
 
 The first time set up for an Approver requires that the Secret Key found in the policy is placed
 into the tool. The Approver also has his own password to sign into the app to open it up.
 
-![aa6](/img/product_docs/endpointpolicymanager/device/devicemanager/aa6.webp)
+![aa6](/images/endpointpolicymanager/device/devicemanager/aa6.webp)
 
 ## Admin Approval Tool in Simple Mode
 
@@ -112,7 +112,7 @@ An Approver can set:
 - Expires — Amount of time the Response code is valid for Never (Default), 10 minutes, 1 hour, 12
   hours
 
-![aa7](/img/product_docs/endpointpolicymanager/device/devicemanager/aa7.webp)
+![aa7](/images/endpointpolicymanager/device/devicemanager/aa7.webp)
 
 The Response code will change based upon the Approver inputs.
 
@@ -122,7 +122,7 @@ warning. For example: Uses set to **Once** and TimeFrame set to **Permanent**.
 :::
 
 
-![aa8](/img/product_docs/endpointpolicymanager/device/devicemanager/aa8.webp)
+![aa8](/images/endpointpolicymanager/device/devicemanager/aa8.webp)
 
 In this combination, Timeframe overrides Uses, meaning that whatever access you give the device is
 actually Permanent and not Once.
@@ -144,7 +144,7 @@ for additional information.
 The email method will attempt to use your registered mail application. Your email app must be
 registered with the .EML extension for this to work as expected.
 
-## ![aa9](/img/product_docs/endpointpolicymanager/device/devicemanager/aa9.webp)
+## ![aa9](/images/endpointpolicymanager/device/devicemanager/aa9.webp)
 
 The Approver would then field this request, generate a Response code and send it back via email or
 copy paste.
@@ -152,7 +152,7 @@ copy paste.
 The Email method has details about what the device actually is, versus the Simple method which
 cannot provide those details.
 
-![aa10](/img/product_docs/endpointpolicymanager/device/devicemanager/aa10.webp)
+![aa10](/images/endpointpolicymanager/device/devicemanager/aa10.webp)
 
 ## Admin Approval Create Rule Button
 
@@ -162,14 +162,14 @@ use permanently and deliver using Group Policy, MDM or Endpoint Policy Manager C
 Because the Device Details are now known via the Email method, you can create a permanent rule
 similar to the Wizard we saw earlier.
 
-![aa11](/img/product_docs/endpointpolicymanager/device/devicemanager/aa11.webp)
+![aa11](/images/endpointpolicymanager/device/devicemanager/aa11.webp)
 
 In the Wizard you can use the default settings or change the Members and Permissions.
 
 Finally, save your XML and import it into the MMC editor as a policy or use with Endpoint Policy
 Manager Exporter or Endpoint Policy Manager Cloud.
 
-![aa12](/img/product_docs/endpointpolicymanager/device/devicemanager/aa12.webp)
+![aa12](/images/endpointpolicymanager/device/devicemanager/aa12.webp)
 
 ## Making a rule directly from an Email Request Code
 
@@ -180,13 +180,13 @@ Copy the code and then select **New Policy from Audit Event or Admin Approval Co
 
 Paste in the Request code and follow the Wizard to generate the rule which you need.
 
-![aa13](/img/product_docs/endpointpolicymanager/device/devicemanager/aa13.webp)
+![aa13](/images/endpointpolicymanager/device/devicemanager/aa13.webp)
 
 ## Make a Rule Directly from an Event on the Endpoint
 
 You can take Event IDs generated from Endpoint Policy Manager Device Manager, such as this and use
 it as the basis to start a rule.
 
-![event1](/img/product_docs/endpointpolicymanager/device/devicemanager/event1.webp)
+![event1](/images/endpointpolicymanager/device/devicemanager/event1.webp)
 
-# ![event2](/img/product_docs/endpointpolicymanager/device/devicemanager/event2.webp)
+# ![event2](/images/endpointpolicymanager/device/devicemanager/event2.webp)

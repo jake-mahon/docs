@@ -15,7 +15,7 @@ combination with color-highlighted tags enable very focussed work. Various appro
 help apply the desired permissions to objects. Furthermore, the ergonomic structure of the module
 helps all users to use Netwrix Password Secure in an efficient and targeted manner.
 
-![Password modul](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_1-en.webp)
+![Password modul](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_1-en.webp)
 
 ## Prerequisite
 
@@ -30,7 +30,7 @@ within the "Passwords" module, the ribbon plays a key role due to the numerous m
 functions. General information on the subject of the ribbon is available in the relevant section.
 The module-specific ribbon functions will be explained below.
 
-![ribbon functions](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_2-en.webp)
+![ribbon functions](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_2-en.webp)
 
 ### New
 
@@ -44,7 +44,7 @@ The module-specific ribbon functions will be explained below.
   passwords in the reading pane will be revealed. In the example, the passwords have been revealed
   and can be hidden again with the **Hide** button.
 
-![hide password](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_3-en.webp)
+![hide password](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_3-en.webp)
 
 ### Actions
 
@@ -74,7 +74,7 @@ The module-specific ribbon functions will be explained below.
 The clipboard is a key element in the ribbon. This only exists in the "Passwords" module. **Clicking
 on the desired form field for a record in the ribbon** will copy it to the clipboard.
 
-![Clipboard](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_4-en.webp)
+![Clipboard](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_4-en.webp)
 
 The message in the style of the "Balloon Tips" in Windows shows that the password has now been saved
 in the clipboard for 300 seconds. (Note: the time until the clipboard is cleared is 60 seconds by
@@ -96,7 +96,7 @@ via RDP, SSH, general Windows applications or websites. This makes it possible t
 - **Create external link**: This option creates an external link for the record marked in list view.
   A number of different options can be selected:
 
-![external link](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_5-en.webp)
+![external link](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/passwords_5-en.webp)
 
 **CAUTION:** If several sessions are opened on a client, an external link is always called in the
 first session.

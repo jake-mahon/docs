@@ -27,14 +27,14 @@ Review the following to take advantage of the Alerts functionality:
 
 The example alert is triggered when a new user is created in the monitored domain.
 
-![ad_alert](/img/product_docs/auditor/10.6/admin/alertsettings/ad_alert.webp)
+![ad_alert](/images/auditor/10.6/admin/alertsettings/ad_alert.webp)
 
 ## Tags
 
 Netwrix Auditor allows you to apply tags when creating an alert. Applying tags to alerts allows you
 to distinguish one alert from another or create groups of similar alerts.
 
-![Manage tags list](/img/product_docs/auditor/10.6/admin/alertsettings/managetags.webp)
+![Manage tags list](/images/auditor/10.6/admin/alertsettings/managetags.webp)
 
 The Tags page contains a complete list of alerts that were created in the product. Currently, you
 cannot assign or create tags on this page.

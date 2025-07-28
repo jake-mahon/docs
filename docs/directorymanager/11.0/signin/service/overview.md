@@ -41,11 +41,11 @@ Docker.
 To launch IIS on a machine, see
 [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
-![in_iis](/img/product_docs/directorymanager/11.0/admincenter/portal/in_iis.webp)
+![in_iis](/images/directorymanager/11.0/admincenter/portal/in_iis.webp)
 
 To open Docker Desktop on Windows, search for Docker and select Docker Desktop in the search results
 
-![in_docker](/img/product_docs/directorymanager/11.0/admincenter/service/in_docker.webp)
+![in_docker](/images/directorymanager/11.0/admincenter/service/in_docker.webp)
 
 ## Third-party Services
 
@@ -64,7 +64,7 @@ Third-party services are created as Windows services in Windows Services Manager
 To launch the Services Manager, type ‘ services.msc’ in the Run dialog box and click OK. Here is an
 example of services in Windows Services Manager. You can start, stop, disable, and delay a service.
 
-![in_windows_services_manager](/img/product_docs/directorymanager/11.0/admincenter/service/in_windows_services_manager.webp)
+![in_windows_services_manager](/images/directorymanager/11.0/admincenter/service/in_windows_services_manager.webp)
 
 ## Accounts to Run the Services
 
@@ -85,7 +85,7 @@ nodes, you will notice the following:
   each node in a cluster. Hence you will have as many Admin Centers and default services as the
   number of nodes in all the clusters.
 - A separate Email service and Scheduler service is created for each cluster, where one Email
-  service and Scheduler service serve all nodes in the cluster.  
+  service and Scheduler service serve all nodes in the cluster.
   Hence you will have as many Email services and Scheduler services as the number of clusters.
 
 Cluster syncing

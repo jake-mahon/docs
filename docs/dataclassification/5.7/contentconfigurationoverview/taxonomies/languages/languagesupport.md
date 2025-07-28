@@ -16,7 +16,7 @@ useful is a word in one language also appears in another language but has a diff
 this case you can click the Languages link beside each clue and select any subset of the available
 languages:
 
-![cluelanguages](/img/product_docs/dataclassification/5.7/admin/taxonomies/cluelanguages.webp)
+![cluelanguages](/images/dataclassification/5.7/admin/taxonomies/cluelanguages.webp)
 
 ## Indexing and Classification
 
@@ -71,7 +71,7 @@ languages:
 - German
 - Spanish
 
-    ![predefined_clues](/img/product_docs/dataclassification/5.7/admin/taxonomies/predefined_clues.webp)
+    ![predefined_clues](/images/dataclassification/5.7/admin/taxonomies/predefined_clues.webp)
 
 Users can easily extend the out-of-the-box classification rules by adding relevant keywords and
 terms in other languages.
@@ -80,7 +80,7 @@ In addition, there are predefined classification rules for various national iden
 registration numbers. These rules typically look for ID patterns supplemented by related keywords
 for better classification precision.
 
-![clues_1_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/taxonomies/clues_1_thumb_0_0.webp)
+![clues_1_thumb_0_0](/images/dataclassification/5.7/admin/taxonomies/clues_1_thumb_0_0.webp)
 
 The rules are provided for the following countries (coverage varies):
 

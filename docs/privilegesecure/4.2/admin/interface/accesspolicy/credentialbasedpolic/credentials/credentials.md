@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Credentials tab shows credentials associated with the selected Credential Based access policy.
 
-![Credential based policy credential tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/policycredentials/accesspolicycredentialstab.webp)
+![Credential based policy credential tab](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/policycredentials/accesspolicycredentialstab.webp)
 
 The Credentials table has the following features:
 

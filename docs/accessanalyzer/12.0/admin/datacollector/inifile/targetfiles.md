@@ -9,7 +9,7 @@ sidebar_position: 10
 The Target Files page identifies the location and name of the INI file from which to collect
 information.
 
-![INI File Data Collector Wizard Target Files page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/inifile/targetfiles.webp)
+![INI File Data Collector Wizard Target Files page](/images/accessanalyzer/12.0/admin/datacollector/inifile/targetfiles.webp)
 
 Configure the Target Files options:
 

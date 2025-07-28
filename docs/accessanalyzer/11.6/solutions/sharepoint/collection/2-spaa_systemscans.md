@@ -13,7 +13,7 @@ structural level in the SharePoint farm.
 
 The 2-SPAA_SystemScans Job uses the SharePoint Access Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/spaasystemscansquery.webp)
+![Query Selection](/images/accessanalyzer/11.6/solutions/sharepoint/collection/spaasystemscansquery.webp)
 
 The query for the 2-SPAA_SystemScans Job is:
 
@@ -43,27 +43,27 @@ displays.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
-![SharePoint Data Collection Settings](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/datacollectionsettingsspaa.webp)
+![SharePoint Data Collection Settings](/images/accessanalyzer/11.6/solutions/sharepoint/collection/datacollectionsettingsspaa.webp)
 
 **Step 4 –** On the
 [SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/settings.md)
 page, customize as desired and click **Next**.
 
-![Scan Scoping Options](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/scanscopingoptions.webp)
+![Scan Scoping Options](/images/accessanalyzer/11.6/solutions/sharepoint/collection/scanscopingoptions.webp)
 
 **Step 5 –** On the
 [SPAA: Scan Scoping Options](/docs/accessanalyzer/11.6/admin/datacollector/spaa/scanscopingoptions.md)
 page, no web applications or site collections have been added. If desired, limit the scope of the
 scan to specific web applications or site collections. Click **Next**.
 
-![Additional Scoping](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/additionalscopingspaa.webp)
+![Additional Scoping](/images/accessanalyzer/11.6/solutions/sharepoint/collection/additionalscopingspaa.webp)
 
 **Step 6 –** On the
 [SPAA: Additional Scoping](/docs/accessanalyzer/11.6/admin/datacollector/spaa/additionalscoping.md)
 page, **Limit scanned depth to:** is selected with the default set at **2** levels. Customize this
 setting as desired and click **Next**.
 
-![Agent Settings](/\img\product_docs\accessanalyzer\11.6\admin\datacollector\spaa\agentsettings.webp)
+![Agent Settings](/images/accessanalyzer/11.6/admin/datacollector/spaa/agentsettings.webp)
 
 **Step 7 –** On the
 [SPAA: Agent Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/agentsettings.md)

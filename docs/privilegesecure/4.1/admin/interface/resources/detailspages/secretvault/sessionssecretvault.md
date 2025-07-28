@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The Sessions tab shows information about the sessions of the selected resource.
 
-![Sessions Tab for Secret Vault Resource](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/sessionstabforsecretvault.webp)
+![Sessions Tab for Secret Vault Resource](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/sessionstabforsecretvault.webp)
 
 The Sessions tab has the following features:
 

@@ -15,7 +15,7 @@ In order to get the latest Endpoint Policy Manager downloads, you need access to
 Manager Customer Portal (shown in Figure 1). You can only get access to the portal from a Endpoint
 Policy Manager sales associate.
 
-![getting_started_right_away](/img/product_docs/endpointpolicymanager/getting_started_right_away.webp)
+![getting_started_right_away](/images/endpointpolicymanager/getting_started_right_away.webp)
 
 Figure 1. Inside the Endpoint Policy Manager Customer Portal.
 
@@ -41,7 +41,7 @@ You may also want to utilize the free 7-Zip program to open ZIP or ISO downloads
 files. Download 7-Zip from [http://www.7-zip.org/](http://www.7-zip.org/). In Figure 2, you can see
 the list of files and directories that are inside the Endpoint Policy Manager ZIP or ISO download.
 
-![getting_started_right_away_1](/img/product_docs/endpointpolicymanager/getting_started_right_away_1.webp)
+![getting_started_right_away_1](/images/endpointpolicymanager/getting_started_right_away_1.webp)
 
 Figure 2. The folders that are inside the download.
 

@@ -9,7 +9,7 @@ sidebar_position: 60
 The History tab Access Policies tab for Microsoft Entra ID (formerly Azure AD) shows information
 about the session history of the selected resource.
 
-![History Tab Entra ID](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/historyazuread.webp)
+![History Tab Entra ID](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/historyazuread.webp)
 
 The History tab has the following features:
 

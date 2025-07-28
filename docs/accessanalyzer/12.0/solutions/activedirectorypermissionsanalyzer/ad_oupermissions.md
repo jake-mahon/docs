@@ -9,7 +9,7 @@ sidebar_position: 50
 The AD_OUPermissions job reports on all Active Directory permissions and ownership applied to
 organizational unit (OU) objects within the targeted domains.
 
-![3.OUs Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/ousjobstree.webp)
+![3.OUs Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/ousjobstree.webp)
 
 The AD_OUPermissions job is located in the 3.OUs job group.
 
@@ -24,7 +24,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_OUPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/oupermissionsanalysis.webp)
+![Analysis Tasks for the AD_OUPermissions Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/oupermissionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -45,4 +45,3 @@ the following pre-configured reports.
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | OU Ownership   | This report highlights instances where Active Directory OU objects are owned by non admin principals. This information is summarized at the domain level.                    | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays a summary of user ownership by domain</li><li>Table – Provides details of non-standard ownership</li></ul>                          |
 | OU Permissions | This report highlights instances where permissions are applied to Active Directory organizational units. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays OU permissions by domain</li><li>Pie Chart – Displays OU permissions by type</li><li>Table – Provides details on OU permissions</li></ul> |
-

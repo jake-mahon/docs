@@ -21,7 +21,7 @@ The queries are preconfigured for this job. Never modify the queries.
 :::
 
 
-![Queries for the SG_LSASettings Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/authentication/lsasettingsqueries.webp)
+![Queries for the SG_LSASettings Job](/images/accessanalyzer/12.0/solutions/windows/authentication/lsasettingsqueries.webp)
 
 The queries for the SG_LSASettings Job are:
 
@@ -39,7 +39,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_LSASettings Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/authentication/lsasettingsanalysis.webp)
+![Analysis Tasks for the SG_LSASettings Job](/images/accessanalyzer/12.0/solutions/windows/authentication/lsasettingsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -65,4 +65,3 @@ following pre-configured reports.
 | Additional LSA Protection | This report summarizes RunAsPPL registry settings on targeted hosts. This key governs whether or not additional LSA protection is enabled. See the Microsoft [Configuring Additional LSA Protection](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn408187(v=ws.11)) article for additional information.                                                                                                      | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays additional LSA protection by host</li><li>Table – Provides additional LSA Protection Details</li></ul> |
 | PAC Validation            | This report indicates whether or not PAC Validation is enabled on all targeted hosts. This is governed by the ValidateKdcPacSignature key. Default behavior in the event of this key's absence depends on the Windows version installed. See the Microsoft [Understanding Microsoft Kerberos PAC Validation](https://learn.microsoft.com/en-gb/archive/blogs/openspecification/understanding-microsoft-kerberos-pac-validation) article for additional information. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays PAC validation status</li><li>Table – Provides PAC validation details</li></ul>                        |
 | Restrict Anonymous Access | This report summarizes RestrictAnonymous registry settings on targeted hosts. This key governs whether or not access over anonymous connections is enabled. See the Microsoft [Restrict Anonymous check](https://learn.microsoft.com/en-us/previous-versions/tn-archive/bb418944(v=technet.10)) article for additional information.                                                                                                                                 | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays anonymous access by host</li><li>Table – Provides anonymous access details</li></ul>                   |
-

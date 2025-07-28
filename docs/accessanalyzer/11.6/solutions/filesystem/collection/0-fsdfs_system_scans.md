@@ -19,7 +19,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query for the 0-FSDFS System Scans Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsdfssystemscansquery.webp)
+![Query for the 0-FSDFS System Scans Job](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsdfssystemscansquery.webp)
 
 - DFS System Scan – Scans the DFS System
 
@@ -34,7 +34,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the 0-FSDFS System Scans Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/collection/fsdfssystemscansanalysis.webp)
+![Analysis Tasks for the 0-FSDFS System Scans Job](/images/accessanalyzer/11.6/solutions/filesystem/collection/fsdfssystemscansanalysis.webp)
 
 The following analysis tasks are selected by default:
 

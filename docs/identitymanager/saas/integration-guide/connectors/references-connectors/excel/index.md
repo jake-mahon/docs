@@ -11,7 +11,7 @@ This connector exports datasheets from a
 
 This page is about [Excel](/docs/identitymanager/saas/integration-guide/connectors/references-packages/excel/index.md).
 
-![Package: File/Microsoft Excel](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
+![Package: File/Microsoft Excel](/images/identitymanager/saas/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
 ## Overview
 
@@ -99,7 +99,7 @@ This connector exports datasheets from a
 
 This page is about [Excel](/docs/identitymanager/saas/integration-guide/connectors/references-packages/excel/index.md).
 
-![Package: File/Microsoft Excel](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
+![Package: File/Microsoft Excel](/images/identitymanager/saas/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
 ## Overview
 

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_Sudoers Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/privilegedaccess/sudoers/sudoersanalysis.webp)
+![Analysis Tasks for the UX_Sudoers Job](/images/accessanalyzer/12.0/solutions/unix/privilegedaccess/sudoers/sudoersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -37,4 +37,3 @@ following pre-configured report:
 | Report              | Description                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                  |
 | ------------------- | --------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sudo Rights by Host | This report details all rights granted via sudoers across the audited environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Hosts With Most Provisioning</li><li>Table – Provides details on Provisioning by Host</li><li>Table – Provides information on Sudoers Details</li></ul> |
-

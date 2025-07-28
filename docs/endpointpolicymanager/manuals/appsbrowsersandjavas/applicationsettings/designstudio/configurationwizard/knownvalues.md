@@ -14,13 +14,13 @@ other element does. You can see the basic properties of an element just by click
 in Figure 112. The figure shows that the data key, data value, on value, and off value settings are
 not known.
 
-![configuring_elements_using_5](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_5.webp)
+![configuring_elements_using_5](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_5.webp)
 
 Figure 112. The basic properties of an element.
 
 Once you've run the Configuration Wizard for that element, however, all the known values are
 automatically put in place, as shown in Figure 113.
 
-![configuring_elements_using_6](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_6.webp)
+![configuring_elements_using_6](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_6.webp)
 
 Figure 113. The Configuration Wizard inputs the known property values.

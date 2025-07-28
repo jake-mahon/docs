@@ -18,7 +18,7 @@ Do not modify the query. The query is preconfigured for this job.
 :::
 
 
-![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup3.webp)
+![Query Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup3.webp)
 
 - Oracle Servers – Returns a list of Oracle servers from the specified host list
 
@@ -40,7 +40,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup4.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup4.webp)
 
 The default analysis task is:
 

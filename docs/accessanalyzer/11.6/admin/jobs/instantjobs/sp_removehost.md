@@ -11,7 +11,7 @@ available through the Instant Job Library under the SharePoint library. See the
 [Instant Job Wizard](/docs/accessanalyzer/11.6/admin/jobs/instantjobs/overview.md)
 topic for instructions to add this instant job into the Jobs tree.
 
-![SP_RemoveHost job in the Jobs tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/jobstree_1.webp)
+![SP_RemoveHost job in the Jobs tree](/images/accessanalyzer/11.6/admin/jobs/instantjobs/jobstree_1.webp)
 
 Runtime Details:
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_1.webp)
+![Default Analysis tasks for the job](/images/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_1.webp)
 
 The default analysis tasks are:
 

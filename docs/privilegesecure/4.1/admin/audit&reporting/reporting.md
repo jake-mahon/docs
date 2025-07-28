@@ -19,7 +19,7 @@ report name. Each report has a Filters tab (which allows the report to be run, d
 configured) and a Subscriptions tab (which allows the Privilege Secure user to Subscribe to the
 report via email).
 
-![reportstree](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/reportstree.webp)
+![reportstree](/images/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/reportstree.webp)
 
 The Search Reports box will search all report names, both predefined and custom, for the specified
 report name. The report tree will then be filtered down to the matching reports.
@@ -68,7 +68,7 @@ new report in the Enter Report Name box.
 
 The Filters tab provides customization options for the new report.
 
-![filterstab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/filterstab.webp)
+![filterstab](/images/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/filterstab.webp)
 
 The Filters tab has the following configuration options:
 
@@ -149,7 +149,7 @@ identically.
 
 Customize the desired configuration settings in the Filters tab.
 
-![filterstab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/filterstab.webp)
+![filterstab](/images/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/filterstab.webp)
 
 The Filters tab has the following configuration options:
 
@@ -175,7 +175,7 @@ The Filters tab has the following configuration options:
 
 The Subscriptions tab allows the Privilege Secure user to Subscribe to the report via email.
 
-![subscriptionstab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/subscriptionstab.webp)
+![subscriptionstab](/images/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/subscriptionstab.webp)
 
 The report will be emailed to the Email value for the user, which is populated based on Active
 Directory attributes and can be confirmed for a given user by checking the Users and Groups page. If

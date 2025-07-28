@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
+![Analysis Tasks for the EX_Mailflow_Mailbox Job](/images/accessanalyzer/11.6/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -69,4 +69,3 @@ produces the following pre-configured reports.
 | Top Users Message Count By Recipient (Top Users Traffic By Recipient)       | Displays message counts for users by recipient.  | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 users traffic by recipient</li><li>Table – Provides details on the last 30 days user traffic by recipient</li></ul>           |
 | Top Users Message Size By Message ID (Top Users Traffic Size By Message ID) | Displays message sizes for users by Message ID.  | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 users traffic size by message ID</li><li>Table –Details on the last 30 days user traffic size by recipient</li></ul>          |
 | Top Users Message Size By Recipient (Top Users Traffic Size By Recipient)   | Displays message sizes for users by recipient.   | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 users traffic size by recipient</li><li>Table – Provides details on the last 30 days user traffic size by recipient</li></ul> |
-

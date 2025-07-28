@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_CircularNesting Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/groups/circularnestinganalysis.webp)
+![Analysis Tasks for the AD_CircularNesting Job](/images/accessanalyzer/11.6/solutions/activedirectory/groups/circularnestinganalysis.webp)
 
 The default analysis tasks are :
 
@@ -35,4 +35,3 @@ produces the following pre-configured report:
 | Report           | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                   |
 | ---------------- | ---------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Circular Nesting | This report identifies instances of circular nesting within the environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays circular nesting by domain</li><li>Table – Provides details on circular nesting</li><li>Table – Provides details on circular nesting by domain</li></ul> |
-

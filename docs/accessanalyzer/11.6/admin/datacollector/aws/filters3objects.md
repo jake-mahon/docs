@@ -12,7 +12,7 @@ queried for permissions and sensitive data. It is a wizard page for the categori
 - Collect S3
 - Collect SDD Data
 
-![Filter S3 Objects page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/aws/filters3objects.webp)
+![Filter S3 Objects page](/images/accessanalyzer/11.6/admin/datacollector/aws/filters3objects.webp)
 
 Use the buttons to customize the filter list:
 
@@ -26,7 +26,7 @@ Use the buttons to customize the filter list:
 
 The Select a Bucket window shows the available buckets in the AWS instance.
 
-![Select a bucket window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/aws/selectabucket.webp)
+![Select a bucket window](/images/accessanalyzer/11.6/admin/datacollector/aws/selectabucket.webp)
 
 Select from the available buckets and click **OK** to add them to the Filter S3 Objects page.
 
@@ -34,7 +34,7 @@ Select from the available buckets and click **OK** to add them to the Filter S3 
 
 The Add Custom Filter window allows a custom filter to be configured.
 
-![Add Custom Filter window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/aws/customfilter.webp)
+![Add Custom Filter window](/images/accessanalyzer/11.6/admin/datacollector/aws/customfilter.webp)
 
 Configure a custom filter using the following format:
 

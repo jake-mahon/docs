@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The Activities tab shows the activities associated with the selected access policy.
 
-![Activities Tab for Resource based Policies](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/policyresource/activitiestab.webp)
+![Activities Tab for Resource based Policies](/images/privilegesecure/4.1/accessmanagement/admin/policy/tab/policyresource/activitiestab.webp)
 
 The Activities tab has the following features:
 

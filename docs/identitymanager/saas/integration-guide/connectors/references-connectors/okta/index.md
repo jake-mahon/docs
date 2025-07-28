@@ -8,7 +8,7 @@ sidebar_position: 170
 
 This connector exports and fulfills entries from/to Okta application.
 
-![okta](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/okta/okta.webp)
+![okta](/images/identitymanager/saas/integration-guide/connectors/references-connectors/okta/okta.webp)
 
 ## Overview
 

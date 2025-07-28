@@ -12,14 +12,14 @@ Privilege Manager. For instance, it exists in every explicit rule, like this:
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping.webp)
+generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping.webp)
 
 And also in SecureRun™ rules:
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_1.webp)
+generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_1.webp)
 
 :::note
 The Policy Scope option for Processes is only available when used on the Computer side; on
@@ -33,7 +33,7 @@ User side.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_2.webp)
+generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_2.webp)
 
 In this topic, we will explore various use cases when you might use the Policy Scope option (which
 again, will only be un-gray / valid on the Computer side.)

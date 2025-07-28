@@ -15,7 +15,7 @@ Follow the steps to configure settings for archiving data.
 **Step 1 –** Click **Configuration** > **Database** > **Maintenance** on the menu. The Database
 Maintenance window is displayed. Click the **Archive DB** tab.
 
-![Database Maintenance window - Archive DB tab](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/archivedb.webp)
+![Database Maintenance window - Archive DB tab](/images/threatprevention/7.4/admin/configuration/databasemaintenance/archivedb.webp)
 
 **Step 2 –** Enter the following information for the database where data is to be archived:
 

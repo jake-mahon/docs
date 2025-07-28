@@ -13,7 +13,7 @@ The Project Properties tab shows overall project properties such as the followin
 - Data root, which is the top most entry for all data in the project
 - Predefined Item-Level Targeting conditions
 
-![getting_around_5](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_5.webp)
+![getting_around_5](/images/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_5.webp)
 
 Figure 53. The Project Properties tab.
 
@@ -23,7 +23,7 @@ Video: To understand predefined Item-Level Targeting (ILT) conditions, please se
 For instance, you might want to ensure that your special DogFoodMaker Pro 12 app only works on
 portable Windows 10 machine with IE version 11 present.
 
-![getting_around_6](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_6.webp)
+![getting_around_6](/images/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_6.webp)
 
 Figure 54. You can use Item-Level Targeting to narrow your target scope.
 

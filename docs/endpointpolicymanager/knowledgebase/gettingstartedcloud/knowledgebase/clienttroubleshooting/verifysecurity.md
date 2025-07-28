@@ -12,13 +12,13 @@ to have the computer re-sync its time with an online source.
 
 An example of the error can be seen here:
 
-![113_1_dtyeryrtyy](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.webp)
+![113_1_dtyeryrtyy](/images/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.webp)
 
 Please follow the following steps
 
 **Step 1 –** Change the timezone to UTC like what is shown here:
 
-![20_1_sdgdfhfgnfjfghjfghjfghjfghj](/img/product_docs/endpointpolicymanager/troubleshooting/error/20_1_sdgdfhfgnfjfghjfghjfghjfghj.webp)
+![20_1_sdgdfhfgnfjfghjfghjfghjfghj](/images/endpointpolicymanager/troubleshooting/error/20_1_sdgdfhfgnfjfghjfghjfghjfghj.webp)
 
 **Step 2 –** Verify the time on the computer is now the same as what is seen
 [http://www.worldtimeserver.com/current_time_in_UTC.aspx](http://www.worldtimeserver.com/current_time_in_UTC.aspx)

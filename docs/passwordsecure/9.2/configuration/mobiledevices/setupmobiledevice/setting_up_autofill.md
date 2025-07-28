@@ -19,7 +19,7 @@ selects Netwrix Password Secure.
 RECOMMENDED: We recommend deactivating the **keychain (iOS)** as well as any other apps offered to
 prevent misunderstandings in usage.
 
-![password options](/img/product_docs/passwordsecure/9.2/configuration/mobiledevices/setup/setting_up_autofill/password-options-en.webp)
+![password options](/images/passwordsecure/9.2/configuration/mobiledevices/setup/setting_up_autofill/password-options-en.webp)
 
 #### Setting up automatic registration on Android
 

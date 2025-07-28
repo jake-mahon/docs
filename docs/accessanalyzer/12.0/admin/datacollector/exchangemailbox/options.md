@@ -14,7 +14,7 @@ the following categories:
 - Mailbox permissions
 - Mailbox sensitive data discovery
 
-![Exchange Mailbox Data Collector Wizard Options page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/options.webp)
+![Exchange Mailbox Data Collector Wizard Options page](/images/accessanalyzer/12.0/admin/datacollector/exchangemailbox/options.webp)
 
 The following options can be configured:
 

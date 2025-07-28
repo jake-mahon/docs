@@ -36,4 +36,4 @@ tabs:
 
 Select the desired agent and click **Edit** to open the agent’s Properties window.
 
-![Properties Window](/img/product_docs/activitymonitor/7.1/admin/agents/properties/mainimage.webp)
+![Properties Window](/images/activitymonitor/7.1/admin/agents/properties/mainimage.webp)

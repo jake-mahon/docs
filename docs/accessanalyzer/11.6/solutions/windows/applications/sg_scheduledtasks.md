@@ -17,7 +17,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_ScheduledTasks Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/scheduledtasksquery.webp)
+![Queries for the SG_ScheduledTasks Job](/images/accessanalyzer/11.6/solutions/windows/applications/scheduledtasksquery.webp)
 
 The query for the SG_ScheduledTasks job is:
 
@@ -35,7 +35,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_ScheduledTasks Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/scheduledtasksanalysis.webp)
+![Analysis Tasks for the SG_ScheduledTasks Job](/images/accessanalyzer/11.6/solutions/windows/applications/scheduledtasksanalysis.webp)
 
 The default analysis tasks are:
 
@@ -54,4 +54,3 @@ produces the following pre-configured reports.
 | Report          | Description                                                            | Default Tags | Report Elements                                                                                                                                                                                                                                      |
 | --------------- | ---------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Scheduled Tasks | This report highlights scheduled tasks across the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Hosts with Most Scheduled Tasks</li><li>Table – Provides details on Hosts with Most Scheduled Tasks bar chart</li><li>Table – Provides details on Scheduled Tasks</li></ul> |
-

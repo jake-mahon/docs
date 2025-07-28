@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The General tab is for editing the basic attributes of the template.
 
-![Template – General Tab](/img/product_docs/threatprevention/7.4/admin/templates/generaltab.webp)
+![Template – General Tab](/images/threatprevention/7.4/admin/templates/generaltab.webp)
 
 **Name**
 
@@ -41,7 +41,7 @@ for additional information.
 History details in the center of the General tab are automatically populated on creation or
 modification.
 
-![Policy Template - General tab > History section](/img/product_docs/threatprevention/7.4/admin/policies/history.webp)
+![Policy Template - General tab > History section](/images/threatprevention/7.4/admin/policies/history.webp)
 
 
 It contains read-only information on who created the template (Added by), when the template was
@@ -54,8 +54,8 @@ The schedule is for setting the time period for an enabled policy to monitor or 
 
 | Icon                                                                                                                      | Label                     | Represents                                                                                                                                                                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![alwaysactivebutton](/img/product_docs/threatprevention/7.4/admin/policies/alwaysactivebutton.webp)                      | Always Active             | Indicates the policy will be active at all times when enabled. This is the default setting                                                                                                                                                                                                               |
-| ![specifictimesbutton](/img/product_docs/threatprevention/7.4/admin/policies/specifictimesbutton.webp)                    | Active at Specified Times | Indicates the policy will be active only at the specified times when enabled. There are two options for setting the specified times: <ul><li>Local Server Time – Schedule is set according to the local server’s time</li><li>UTC Time – Schedule is set according to the Universal Time (UTC)</li></ul> |
+| ![alwaysactivebutton](/images/threatprevention/7.4/admin/policies/alwaysactivebutton.webp)                      | Always Active             | Indicates the policy will be active at all times when enabled. This is the default setting                                                                                                                                                                                                               |
+| ![specifictimesbutton](/images/threatprevention/7.4/admin/policies/specifictimesbutton.webp)                    | Active at Specified Times | Indicates the policy will be active only at the specified times when enabled. There are two options for setting the specified times: <ul><li>Local Server Time – Schedule is set according to the local server’s time</li><li>UTC Time – Schedule is set according to the Universal Time (UTC)</li></ul> |
 
 
 Any new policy created from a template automatically applies the template’s setting, which can then
@@ -68,11 +68,11 @@ icon, or blank.
 
 The weekly calendar at the bottom of the schedule section is where the schedule is set.
 
-![Schedule section in a policy template set to Always Active](/img/product_docs/threatprevention/7.4/admin/policies/schedule.webp)
+![Schedule section in a policy template set to Always Active](/images/threatprevention/7.4/admin/policies/schedule.webp)
 
 When the schedule is set to Always Active, the weekly calendar is grayed-out.
 
-![Schedule section in a policy set to Active at Specific Times](/img/product_docs/threatprevention/7.4/admin/policies/schedulespecifictimes.webp)
+![Schedule section in a policy set to Active at Specific Times](/images/threatprevention/7.4/admin/policies/schedulespecifictimes.webp)
 
 When the schedule is set to Active at Specified Times, the weekly calendar is enabled. Each block of
 time on the calendar represents a 30-minute period.

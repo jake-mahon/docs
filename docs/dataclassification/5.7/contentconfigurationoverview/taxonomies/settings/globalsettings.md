@@ -10,4 +10,4 @@ The **Content** > **Taxonomies** > **Global Settings** panel allows you to updat
 export, edit or delete your taxonomies. See the [Manage Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/managetaxonomies/manage.md) topic for additional
 information.
 
-![globalsettings](/img/product_docs/dataclassification/5.7/admin/taxonomies/globalsettings.webp)
+![globalsettings](/images/dataclassification/5.7/admin/taxonomies/globalsettings.webp)

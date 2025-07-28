@@ -28,11 +28,11 @@ Usercube can be installed:
 
 - SaaS so that the server dwells in the cloud and is provided as a service;
 
-    ![Architecture: SaaS](/img/product_docs/identitymanager/6.1/integration-guide/architecture/saas/architecture_saas.webp)
+    ![Architecture: SaaS](/images/identitymanager/6.1/integration-guide/architecture/saas/architecture_saas.webp)
 
 - on-premises so that the server is installed on an isolated network within the company.
 
-    ![Architecture: On-Premises](/img/product_docs/identitymanager/6.1/integration-guide/architecture/on-prem/architecture_onprem.webp)
+    ![Architecture: On-Premises](/images/identitymanager/6.1/integration-guide/architecture/on-prem/architecture_onprem.webp)
 
 ## Next Steps
 

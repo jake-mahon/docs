@@ -9,7 +9,7 @@ sidebar_position: 20
 The Category page in the NoSQL Data Collector Wizard lists the following query categories,
 sub-divided by auditing focus:
 
-![NoSQL Data Collector Wizard Category Page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/nosql/category.webp)
+![NoSQL Data Collector Wizard Category Page](/images/accessanalyzer/11.6/admin/datacollector/nosql/category.webp)
 
 The query categories are:
 

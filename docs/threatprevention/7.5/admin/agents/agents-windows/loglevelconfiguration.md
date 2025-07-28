@@ -22,7 +22,7 @@ Follow the steps to set log levels.
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Then click **Update
 Logging Levels** on the top bar to launch the Log Level Configuration window.
 
-![Log Level Configuration Window](/img/product_docs/threatprevention/7.5/admin/agents/window/loglevelconfiguration.webp)
+![Log Level Configuration Window](/images/threatprevention/7.5/admin/agents/window/loglevelconfiguration.webp)
 
 **Step 2 –** To update the logging level for an Agent:
 
@@ -66,12 +66,12 @@ Logging Levels** on the top bar to launch the Log Level Configuration window.
 
 Follow the steps to access the Agent log files.
 
-![Get Agent Log icon](/img/product_docs/threatprevention/7.5/admin/agents/window/getagentlog.webp)
+![Get Agent Log icon](/images/threatprevention/7.5/admin/agents/window/getagentlog.webp)
 
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Select a server/Agent
 and click **Get Agent Log** .
 
-![Save As window for Agent logs](/img/product_docs/threatprevention/7.5/admin/agents/window/saveaswindow.webp)
+![Save As window for Agent logs](/images/threatprevention/7.5/admin/agents/window/saveaswindow.webp)
 
 **Step 2 –** The Save As window opens with the selected Agent’s log already selected from its
 original location. Select the new location and click **Save**.
@@ -88,7 +88,7 @@ Log files are stored in the following locations:
 
 **Enterprise Manager Log Files**
 
-![Enterprise Manager Log File Location](/img/product_docs/threatprevention/7.5/admin/agents/window/emlogs.webp)
+![Enterprise Manager Log File Location](/images/threatprevention/7.5/admin/agents/window/emlogs.webp)
 
 The default location is:
 
@@ -96,7 +96,7 @@ The default location is:
 
 Administration Console Log Files
 
-![Administration Console Log File Location](/img/product_docs/threatprevention/7.5/admin/agents/window/consolelogs.webp)
+![Administration Console Log File Location](/images/threatprevention/7.5/admin/agents/window/consolelogs.webp)
 
 The default location is:
 

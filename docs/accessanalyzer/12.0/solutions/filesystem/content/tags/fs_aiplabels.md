@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_AIPLabels Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/content/tags/aiplabelsanalysis.webp)
+![Analysis Tasks for the FS_AIPLabels Job](/images/accessanalyzer/12.0/solutions/filesystem/content/tags/aiplabelsanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -33,4 +33,3 @@ following pre-configured report:
 | Report     | Description                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                               |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | AIP Labels | This report provides details on labels applied to files. This information is rolled up by folder, and summarized at the enterprise level. | None         | This report is comprised of three elements: <ul><li>Pie Chart – Displays enterprise AIP summary</li><li>Table– Provides details on label details by folder</li><li>Table – Provides details on labels by file count</li></ul> |
-

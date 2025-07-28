@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_NotifyOwners_Status Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.webp)
+![Analysis Tasks for the FS_NotifyOwners_Status Job](/images/accessanalyzer/11.6/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,4 +35,3 @@ produces the following pre-configured report.
 | Report                                          | Description                                                                                    | Default Tags | Report Elements                                                                                                                                                                         |
 | ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Owner Notifications (Share Owner Notifications) | This report summarizes share owner notifications which have occurred during the Cleanup effort | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the historical summary of notify share owners</li><li>Table – provides details on notify share owners</li></ul> |
-

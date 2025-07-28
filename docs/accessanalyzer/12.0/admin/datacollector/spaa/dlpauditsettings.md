@@ -17,7 +17,7 @@ the Tier 2 database and subsequently removed from the Tier 1 database.
 :::
 
 
-![DLP Audit Settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/spaa/dlpauditsettings.webp)
+![DLP Audit Settings page](/images/accessanalyzer/12.0/admin/datacollector/spaa/dlpauditsettings.webp)
 
 Configure the **Scan Performance** options:
 

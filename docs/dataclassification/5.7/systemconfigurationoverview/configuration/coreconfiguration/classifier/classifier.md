@@ -12,7 +12,7 @@ the bottom-right corner.
 
 Each option has an associated “**i**” which describes the nature of the setting.
 
-![core_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core_thumb_0_0.webp)
+![core_thumb_0_0](/images/dataclassification/5.7/configuration/core_thumb_0_0.webp)
 
 :::note
 To view a complete list of the **Config** settings, click the Details tab. The list also

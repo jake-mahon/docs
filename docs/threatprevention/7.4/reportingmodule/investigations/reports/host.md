@@ -13,7 +13,7 @@ and Top Resources sections (see the
 [Investigation Reports](/docs/threatprevention/7.4/reportingmodule/investigations/reports/reports.md)
 topic). Click a link to land on the Host Details page.
 
-![Host Details page](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/hostdetails.webp)
+![Host Details page](/images/threatprevention/7.4/reportingmodule/investigations/hostdetails.webp)
 
 The top of the page displays a host profile card which may contain the following information about
 the host:

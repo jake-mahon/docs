@@ -19,7 +19,7 @@ following topics for additional information:
 Netwrix Auditor provides comprehensive auditing of applications, platforms and storage systems. The
 product architecture and components interactions are shown in the figure below.
 
-![auditorarchitecture_thumb_0_0](/img/product_docs/auditor/10.7/requirements/auditorarchitecture_thumb_0_0.webp)
+![auditorarchitecture_thumb_0_0](/images/auditor/10.7/requirements/auditorarchitecture_thumb_0_0.webp)
 
 - Netwrix Auditor Server — the central component that handles the collection, transfer and
   processing of audit data from the various data sources (audited systems). Data from the sources
@@ -36,7 +36,7 @@ product architecture and components interactions are shown in the figure below.
   Default retention period is 120 months.
 - Audit databases — these are Microsoft SQL Server databases used as operational storage. This type
   of data storage allows you to browse recent data, run search queries, generate reports and
-  alerts.  
+  alerts.
   Typically, data collected from the certain data source (for example, Exchange Server) is stored to
   the dedicated Audit database and the long-term archive. So, you can configure as many databases as
   the data sources you want to process. Default retention period for data stored in the Audit

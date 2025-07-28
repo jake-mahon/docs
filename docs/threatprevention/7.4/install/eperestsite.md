@@ -33,16 +33,16 @@ third-party applications that have to use the REST API.
 **Step 1 –** From the Threat Prevention Installer package, run the server executable
 (threatprevention-server-7.4.0.xxx.msi). The Threat Prevention Server Setup wizard opens.
 
-![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/threatprevention/7.4/install/welcome.webp)
+![Threat Prevention Server Setup wizard - Welcome page](/images/threatprevention/7.4/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
+![Threat Prevention Server Setup wizard - End-User License Agreement page](/images/threatprevention/7.4/install/licenseagreement.webp)
 
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.4/install/customsetup.webp)
+![Threat Prevention Server Setup wizard - Custom Setup page](/images/threatprevention/7.4/install/customsetup.webp)
 
 **Step 4 –** By default, all three components are selected for installation. However, as you only
 have to install the EPE Rest Site component, do the following to deselect the Enterprise Manager and
@@ -58,7 +58,7 @@ installed to the `C:\Program Files\Netwrix\Netwrix Threat Prevention\` directory
 _(Optional)_ Click **Browse…** to change the installation location. The Change destination folder
 page opens.
 
-![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/product_docs/threatprevention/7.4/install/changedestinationfolder.webp)
+![Threat Prevention Server Setup wizard - Change Destination Folder page](/images/threatprevention/7.4/install/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
@@ -66,7 +66,7 @@ page opens.
 The wizard returns to the Custom Setup page. You can use the **Reset** button to revert to the
 default settings on the Custom Setup page. Click **Next** to proceed.
 
-![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/7.4/install/emlocationforremoteconsole.webp)
+![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/images/threatprevention/7.4/install/emlocationforremoteconsole.webp)
 
 **Step 6 –** On the Enterprise Manager Location Information page, the host name or IP address for
 the Enterprise Manager server is pre-populated. Enter the ports for the Enterprise Manager service
@@ -82,7 +82,7 @@ for additional information.
 
 When the settings are configured, click **Next**.
 
-![Netwrix Threat Prevention EPE Rest Setup wizard - Database Login Information page](/img/product_docs/threatprevention/7.4/install/database.webp)
+![Netwrix Threat Prevention EPE Rest Setup wizard - Database Login Information page](/images/threatprevention/7.4/install/database.webp)
 
 **Step 7 –** On the Database Login Information page, provide information for the SQL Server where
 the installer will create a database for the EPE Rest Site.
@@ -120,7 +120,7 @@ the installer will create a database for the EPE Rest Site.
     :::
 
 
-![Netwrix Threat Prevention EPE Rest Setup wizard - Logon page](/img/product_docs/threatprevention/7.4/install/windowsauthentication.webp)
+![Netwrix Threat Prevention EPE Rest Setup wizard - Logon page](/images/threatprevention/7.4/install/windowsauthentication.webp)
 
 **Step 8 –** If Windows authentication is selected, the Logon page is displayed.
 
@@ -136,12 +136,12 @@ the installer will create a database for the EPE Rest Site.
   :::
 
 
-![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/threatprevention/7.4/install/readytoinstall.webp)
+![Threat Prevention Server Setup wizard - Ready to Install page](/images/threatprevention/7.4/install/readytoinstall.webp)
 
 **Step 9 –** On the Ready to Install Netwrix Threat Prevention Server page, click **Install**. When
 finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/threatprevention/7.4/install/complete.webp)
+![Threat Prevention Server Setup wizard – Completed page](/images/threatprevention/7.4/install/complete.webp)
 
 **Step 10 –** Click **Finish**.
 

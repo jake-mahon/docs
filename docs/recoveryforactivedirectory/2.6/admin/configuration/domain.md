@@ -13,7 +13,7 @@ domains.
 Click **Configuration** in the left pane. Then click the **Domains** tab on the Configuration page
 to open the Domains page.
 
-![Domains Page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/domains.webp)
+![Domains Page](/images/recoveryforactivedirectory/2.6/admin/configuration/domains.webp)
 
 The table displays the following information:
 
@@ -44,7 +44,7 @@ Follow the steps to add a domain.
 **Step 1 –** Click the **Add domain configuration** button on the Domains page to launch the Add
 Domain Configuration wizard.
 
-![Add Domain Configuration wizard - Domain page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/domain.webp)
+![Add Domain Configuration wizard - Domain page](/images/recoveryforactivedirectory/2.6/admin/configuration/domain.webp)
 
 **Step 2 –** Enter a domain [example.domain.com] in the Domain field.
 
@@ -72,7 +72,7 @@ topic.
 
 **Step 5 –** Click **Next**.
 
-![Add Domain Configuration wizard - Backup Schedule page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/backupschedule.webp)
+![Add Domain Configuration wizard - Backup Schedule page](/images/recoveryforactivedirectory/2.6/admin/configuration/backupschedule.webp)
 
 **Step 6 –** Select the days of the week in the Run the backup on section to indicate the days when
 backups will be run.
@@ -91,7 +91,7 @@ time.
 :::
 
 
-![Add Domain Configuration wizard - Options page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/options.webp)
+![Add Domain Configuration wizard - Options page](/images/recoveryforactivedirectory/2.6/admin/configuration/options.webp)
 
 **Step 9 –** (_Optional_) Select the **Collect GPOs** checkbox to enable GPO rollback and recovery.
 This setting requires Group Policy Management Console (GMPC). If GPO collection is not desired, skip
@@ -108,7 +108,7 @@ backup.
 
 **Step 11 –** Click **Next**.
 
-![Add Domain Configuration wizard - Notification page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/notification.webp)
+![Add Domain Configuration wizard - Notification page](/images/recoveryforactivedirectory/2.6/admin/configuration/notification.webp)
 
 **Step 12 –** To set notifications, select the Send email notifications check box and enter the
 email address of one or more users and/or groups to receive the job start and end notifications. Use
@@ -119,7 +119,7 @@ If notifications are not desired, skip this step.
 
 **Step 13 –** Click **Next**.
 
-![Add Domain Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/confirm_1.webp)
+![Add Domain Configuration wizard - Confirm page](/images/recoveryforactivedirectory/2.6/admin/configuration/confirm_1.webp)
 
 **Step 14 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
@@ -138,7 +138,7 @@ Follow the steps to edit a domain.
 **Step 1 –** On the Domains page, click the **Edit configuration** icon for a domain. The Edit
 Domain Configuration wizard opens.
 
-![Edit Domain Configuration wizard - Domain page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/domain_1.webp)
+![Edit Domain Configuration wizard - Domain page](/images/recoveryforactivedirectory/2.6/admin/configuration/domain_1.webp)
 
 **Step 2 –** Modify the domain in the Domain field, as needed.
 
@@ -150,7 +150,7 @@ credentials will take effect on next domain backup.
 
 **Step 5 –** Click **Next**.
 
-![Edit Domain Configuration wizard - Backup Schedule page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/backupschedule.webp)
+![Edit Domain Configuration wizard - Backup Schedule page](/images/recoveryforactivedirectory/2.6/admin/configuration/backupschedule.webp)
 
 **Step 6 –** Modify the selection of the check boxes in the Run the backup on section to indicate
 the days when backups will be run, as needed.
@@ -171,7 +171,7 @@ time.
 
 **Step 9 –** Click **Next**.
 
-![Edit Domain Configuration wizard - Options page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/options_1.webp)
+![Edit Domain Configuration wizard - Options page](/images/recoveryforactivedirectory/2.6/admin/configuration/options_1.webp)
 
 **Step 10 –** (_Optional_) Select or deselect the **Collect GPOs** checkbox to enable or disable GPO
 rollback and recovery. This setting requires Group Policy Management Console (GMPC). If GPO
@@ -189,7 +189,7 @@ backup.
 
 **Step 12 –** Click **Next**.
 
-![Edit Domain Configuration wizard - Notification page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/notification_1.webp)
+![Edit Domain Configuration wizard - Notification page](/images/recoveryforactivedirectory/2.6/admin/configuration/notification_1.webp)
 
 **Step 13 –** To set notifications, select the Send email notifications check box and enter the
 email address of one or more users and/or groups to receive the job start and end notifications. Use
@@ -198,7 +198,7 @@ topic for additional information.
 
 If notifications are not desired, skip this step.
 
-![Edit Domain Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/confirm_2.webp)
+![Edit Domain Configuration wizard - Confirm page](/images/recoveryforactivedirectory/2.6/admin/configuration/confirm_2.webp)
 
 **Step 14 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**

@@ -134,7 +134,7 @@ To enable the Azure login for your users, a few more steps are required:
 | Microsoft Edge Extension | `https://ahdfobpkkckhdhbmnpjehdkepaddfhek.chromiumapp.org`                |
 | Firefox Extension        | `https://28c91153e2d5b36394cfb1543c897e447d0f1017.extensions.allizom.org` |
 
-![web_configuration_entra_id](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/web_configuration_entra_id.webp)
+![web_configuration_entra_id](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/web_configuration_entra_id.webp)
 
 Click on "Add a platform", select "Mobile & desktop applications" and configure the required
 mobile-app URI:
@@ -143,7 +143,7 @@ mobile-app URI:
 | ------------- | ------------------ |
 | iOS & Android | `psrmobile://auth` |
 
-![mobile_and_desktop_applications](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/mobile_and_desktop_applications.webp)
+![mobile_and_desktop_applications](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/mobile_and_desktop_applications.webp)
 
 #### Create client secret
 
@@ -152,11 +152,11 @@ Client secret
 
 Create a client secret:
 
-![certificates-secrets-en_1544x311](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/certificates-secrets-en_1544x311.webp)
+![certificates-secrets-en_1544x311](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/certificates-secrets-en_1544x311.webp)
 
 Copy it over to the Netwrix Password Secure Entra ID profile:
 
-![entra_id_client_secret](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/entra_id_client_secret.webp)
+![entra_id_client_secret](/images/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/entra_id_client_secret.webp)
 
 #### Set API permissions
 

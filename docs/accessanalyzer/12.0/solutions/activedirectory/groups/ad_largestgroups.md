@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_LargestGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/groups/largestgroupsanalysis.webp)
+![Analysis Task for the AD_LargestGroups Job](/images/accessanalyzer/12.0/solutions/activedirectory/groups/largestgroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -34,4 +34,3 @@ the following pre-configured report:
 | Report         | Description                                                               | Default Tags | Report Elements                                                                                                                            |
 | -------------- | ------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Largest Groups | This report identifies the largest groups within the audited environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest groups</li><li>Table – Provides details on groups</li></ul> |
-

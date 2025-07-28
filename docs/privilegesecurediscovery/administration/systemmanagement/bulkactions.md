@@ -19,7 +19,7 @@ Secure.
 
 Bulk actions are launched from the Management, Systems option on the left hand menu:
 
-![screen_shot_2022-06-01_at_8](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.16.18_am.webp)
+![screen_shot_2022-06-01_at_8](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.16.18_am.webp)
 
 This brings up the System Management screen. The System Management screen will show up to one
 thousand machines based on the views and filters selected. The filters can be hidden or cleared
@@ -29,17 +29,17 @@ The required set of machines should be searched for using the appropriate filter
 than one thousand machines are needed, it is expected that this are selected as separate groups of
 machines, possibly by OU.
 
-![screen_shot_2022-06-01_at_8](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.22.45_am.webp)
+![screen_shot_2022-06-01_at_8](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.22.45_am.webp)
 
 When filtered, all of the machines can be selected, or just a few as desired.
 
-![screen_shot_2022-06-01_at_8](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.24.07_am.webp)
+![screen_shot_2022-06-01_at_8](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.24.07_am.webp)
 
 Once the machines are selected the Bulk Actions button becomes available.
 
 This takes you to the Bulk Action screen. From here the specific bulk action can be selected.
 
-![screen_shot_2022-10-03_at_12](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-10-03_at_12.55.29_pm.webp)
+![screen_shot_2022-10-03_at_12](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-10-03_at_12.55.29_pm.webp)
 
 - **2.20** – Finishes out the addition of bulk actions. This now includes Bulk JITA for Linux
   endpoints, Bulk Expire and Extend, Bulk Archive, and Bulk Restore.
@@ -74,23 +74,23 @@ extend, and bulk archive and bulk restore.
 - Add/Update Account
 - Remove Account
 
-![screen_shot_2022-06-01_at_8](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.33.03_am.webp)
+![screen_shot_2022-06-01_at_8](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.33.03_am.webp)
 
 ## Bulk Action
 
 Once the configurations for the bulk action have been set and saved. The Execute Bulk Action button
 becomes available.
 
-![screen_shot_2022-06-01_at_8](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.37.36_am.webp)
+![screen_shot_2022-06-01_at_8](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.37.36_am.webp)
 
 Once the bulk action is executed a pop-up will be displayed
 
-![screen_shot_2022-06-01_at_8](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.41.53_am.webp)
+![screen_shot_2022-06-01_at_8](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.41.53_am.webp)
 
 The screen will also redirect to the Monitor, Jobs screen. From here you are able to see the status
 of the bulk action that was executed.
 
-![screen_shot_2022-06-01_at_8](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.39.56_am.webp)
+![screen_shot_2022-06-01_at_8](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2022-06-01_at_8.39.56_am.webp)
 
 The Job Monitor screen can be accessed immediately from the left hand Management menu item to review
 the status of jobs.
@@ -117,7 +117,7 @@ issue when attempting to identify a machine.
 
 Configuration limits are available for bulk actions in the Configuration, Server screen
 
-![screen_shot_2023-02-14_at_10](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2023-02-14_at_10.03.04_am.webp)
+![screen_shot_2023-02-14_at_10](/images/privilegesecure/4.2/discovery/admin/systemmanagement/screen_shot_2023-02-14_at_10.03.04_am.webp)
 
 These configurations avoid overloading the system with a large number of bulk actions.
 

@@ -15,12 +15,12 @@ Configure ADFS (Active Directory Federation Services) SSO
 - On the “Identifiers” section, add Identifier to match the URL of your website (Ex:
   `https://s1.<company>.com`)
 
-![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360052376373_mceclip0.webp)
+![mceclip0.webp](/images/privilegesecure/4.2/discovery/admin/configuration/360052376373_mceclip0.webp)
 
 - On the “Endpoints” tab, create a SAML POST binding pointing towards the login URL (Ex:
   `https://s1.<company>.com/api/login`)
 
-![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360052376373_mceclip0.webp)
+![mceclip0.webp](/images/privilegesecure/4.2/discovery/admin/configuration/360052376373_mceclip0.webp)
 
 In the Claim rules, you have to type in the entries as the required values are not built-in/default
 to ADFS. Set the Attribute Store to Active Directory, and manually type in **distinguishedName** in
@@ -29,7 +29,7 @@ the LDAP Attribute field. In the Outgoing Claim Type field, annually type in **d
 **NOTE:** On saving, distinguishedName will be changed to DistinguishedName (starts with capital D),
 as see in the example below.  It should be entered as a lower case d.
 
-![mceclip1.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360052376373_mceclip1.webp)
+![mceclip1.webp](/images/privilegesecure/4.2/discovery/admin/configuration/360052376373_mceclip1.webp)
 
 ## Privilege Secure
 

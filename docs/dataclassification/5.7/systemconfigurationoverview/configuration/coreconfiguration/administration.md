@@ -12,7 +12,7 @@ click the "wrench" icon at **Settings** in the bottom-right corner.
 
 Nearly each configuration option has an associated “i” which describes the nature of the setting.
 
-![core_admin_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core/core_admin_thumb_0_0.webp)
+![core_admin_thumb_0_0](/images/dataclassification/5.7/configuration/core/core_admin_thumb_0_0.webp)
 
 ## General Options
 
@@ -60,4 +60,3 @@ These settings allow you to customize configuration of Concept Classifier app.
 | Duplicate Detection Scope             | Enables/disables scoping of duplicates detected via the SharePoint add-in interface. When disabled, duplicates wil be identified anywhere in the index. When enabled, duplicates will be scoped to their source group (or if no source group available <ul><li>to their source).</li></ul>     | Applies only to the deployment with the SharePoint add-in. |
 | **Advanced settings**                 |                                                                                                                                                                                                                                                                                                |                                                            |
 | Duplicate Detection Archive Indicator | Identifies documents within the View Duplicates display that are tagged with the archive indicator. These identified documents can be optionally filtered from the display.                                                                                                                    |                                                            |
-

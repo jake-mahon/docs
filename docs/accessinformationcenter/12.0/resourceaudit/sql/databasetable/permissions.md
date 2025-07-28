@@ -9,7 +9,7 @@ sidebar_position: 20
 The Permissions report at the database and table levels shows the permissions for the trustee on the
 selected resource.
 
-![Permissions report at the database and table levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sql/databasetable/databasepermissions.webp)
+![Permissions report at the database and table levels](/images/accessinformationcenter/12.0/resourceaudit/sql/databasetable/databasepermissions.webp)
 
 This report is comprised of the following columns:
 

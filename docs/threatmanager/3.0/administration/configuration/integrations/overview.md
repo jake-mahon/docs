@@ -12,7 +12,7 @@ and third-party systems and applications.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **Integrations** to open the Integrations interface.
 
-![interface](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/interface.webp)
+![interface](/images/threatmanager/3.0/administration/configuration/integrations/interface.webp)
 
 It contains the following integration pages:
 

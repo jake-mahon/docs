@@ -17,7 +17,7 @@ version management system, which records all versions of a document that were sa
 thus enables you to revert back to historical versions. The configuration of visibility is explained
 in a similar way to the other modules in one place..
 
-![Document modul](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/documents/documents_1-en.webp)
+![Document modul](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/documents/documents_1-en.webp)
 
 ## Relevant rights
 
@@ -38,7 +38,7 @@ There are two ways to manage documents and files in Netwrix Password Secure v8:
   saved within the database and can be made available selectively to employees for further
   processing in the future based on their permissions.
 
-![New document](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/documents/documents_2-en.webp)
+![New document](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/documents/documents_2-en.webp)
 
 ## Document selection
 
@@ -46,7 +46,7 @@ When selecting the file to be uploaded, you can either browse your file system v
 or add objects by drag & drop. The latter gives you the possibility to directly import several
 documents in one step.
 
-![searching document](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/documents/documents_3-en.webp)
+![searching document](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/documents/documents_3-en.webp)
 
 ## Versioning
 

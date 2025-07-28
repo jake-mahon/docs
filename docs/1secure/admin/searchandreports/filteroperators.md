@@ -10,7 +10,7 @@ When applying filters at search, you can specify operators that should be used a
 data you want to retrieve and compare with the certain filter value. Examples of conditions include
 Contains, Starts with, etc.
 
-![search_searchresults](/img/product_docs/1secure/admin/searchandreports/search_searchresults.webp)
+![search_searchresults](/images/1secure/admin/searchandreports/search_searchresults.webp)
 
 The following operators can be used to specify search conditions:
 

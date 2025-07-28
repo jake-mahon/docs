@@ -84,7 +84,7 @@ new/updated objects to your customization record or change request, simply click
 your form, and your documentation is updated in real time. Here is an example of a customization
 record with the **ReSpider Now** option:
 
-![ReSpiderNow](/img/product_docs/platgovnetsuite/respider_now.webp)
+![ReSpiderNow](/images/platgovnetsuite/respider_now.webp)
 
 Proposed customizations do not work for custom forms and custom reports, since they do not have
 Script IDs. NetSuite is currently working on this, but it is still in development. For searches,

@@ -30,7 +30,7 @@ Follow the steps to manage database settings on the DB Connection Manager Wizard
 **Step 2 –** Double-click **SIDBConfigMgr.exe** to launch the Netwrix Threat Prevention DB
 Connection Manager wizard.
 
-![Netwrix Threat Prevention DB Connection Manager wizard](/img/product_docs/threatprevention/7.5/install/dbconnectionmanager.webp)
+![Netwrix Threat Prevention DB Connection Manager wizard](/images/threatprevention/7.5/install/dbconnectionmanager.webp)
 
 **Step 3 –** You can update the following:
 

@@ -18,7 +18,7 @@ The queries are preconfigured for this job. Never modify the queries.
 :::
 
 
-![Queries for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/runatbootqueries.webp)
+![Queries for the SG_RunAtBoot Job](/images/accessanalyzer/11.6/solutions/windows/applications/runatbootqueries.webp)
 
 The queries for the SG_RunAtBoot job are:
 
@@ -37,7 +37,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_RunAtBoot Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/applications/runatbootanalysis.webp)
+![Analysis Tasks for the SG_RunAtBoot Job](/images/accessanalyzer/11.6/solutions/windows/applications/runatbootanalysis.webp)
 
 The default analysis tasks are:
 
@@ -56,4 +56,3 @@ following pre-configured reports.
 | Report      | Description                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                                                              |
 | ----------- | ------------------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Run at Boot | This report enumerates applications which are set to run at boot across the audited environment. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Hosts by Applications Run at Boot</li><li>Table – Provides details on Top Hosts by Applications Run at Boot bar chart</li><li>Table – Provides details on Run / Run Once Applications</li></ul> |
-

@@ -12,7 +12,7 @@ line graphs for Active Users Trend and Traffic Trend. The **Include subfolders**
 default until removed. See the [Results Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/overview.md#results-pane) topic for
 information on changing this option.
 
-![Activity Statistics report at the share and subfolder levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/shareactivitystatistics.webp)
+![Activity Statistics report at the share and subfolder levels](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/shareactivitystatistics.webp)
 
 This report is comprised of the following columns:
 
@@ -40,12 +40,12 @@ The table data grid functions the same way as other table grids. See the
 There are two line graphs at the bottom displaying Active Users Trend and Traffic Trend for the
 selected resource.
 
-![Active Users Trend line graph](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/shareactiveuserstrendgraph.webp)
+![Active Users Trend line graph](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/shareactiveuserstrendgraph.webp)
 
 The Active Users Trend line graph provides a visual representation of the number of active users
 over the selected date range. It indicates how many users are performing operations per day.
 
-![Traffic Trend line graph](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharetraffictrendgraph.webp)
+![Traffic Trend line graph](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharetraffictrendgraph.webp)
 
 The Traffic Trend line graph provides a visual representation of the number of operations events
 that occurred by operation type over the selected date range. It indicates what volume of operations

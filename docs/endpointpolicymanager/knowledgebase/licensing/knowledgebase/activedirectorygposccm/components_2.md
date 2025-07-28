@@ -24,7 +24,7 @@ opt-in only from 24.4. You won't see any pop up if you're using 24.4 or later.
 :::
 
 
-![29_1_2202cm3yx](/img/product_docs/endpointpolicymanager/license/unlicense/29_1_2202cm3yx.webp)
+![29_1_2202cm3yx](/images/endpointpolicymanager/license/unlicense/29_1_2202cm3yx.webp)
 
 See
 [How do I make the Grace Period licensing pop-up go away?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/troubleshooting/graceperiod.md)
@@ -64,26 +64,26 @@ Will not honor new Endpoint Policy Manager Application Manager requests.
 
 Unlicensed or Policy Reverts
 
-![29_2_faq-01-04-pp-01](/img/product_docs/endpointpolicymanager/license/unlicense/29_2_faq-01-04-pp-01.webp)
+![29_2_faq-01-04-pp-01](/images/endpointpolicymanager/license/unlicense/29_2_faq-01-04-pp-01.webp)
 
 A setting may be set to **Do Nothing at Revert**, which is the default policy, or
 
-![29_3_faq-01-04-pp-02](/img/product_docs/endpointpolicymanager/license/unlicense/29_3_faq-01-04-pp-02.webp)
+![29_3_faq-01-04-pp-02](/images/endpointpolicymanager/license/unlicense/29_3_faq-01-04-pp-02.webp)
 
 If the setting is set to **Revert**, the policy setting is reverted. The value displayed will be
 performed at revert time.
 
-![29_4_faq-01-04-pp-03](/img/product_docs/endpointpolicymanager/license/unlicense/29_4_faq-01-04-pp-03.webp)
+![29_4_faq-01-04-pp-03](/images/endpointpolicymanager/license/unlicense/29_4_faq-01-04-pp-03.webp)
 
 For Win32 apps where AppLock (UI restrictions) are used, like in this example, the UI becomes
 unrestricted.
 
-![29_5_faq-01-04-pp-04](/img/product_docs/endpointpolicymanager/license/unlicense/29_5_faq-01-04-pp-04.webp)
+![29_5_faq-01-04-pp-04](/images/endpointpolicymanager/license/unlicense/29_5_faq-01-04-pp-04.webp)
 
 When NTFS / ACL Lockdown is used, the end-user will be free to change these settings inside the
 (previously restricted) registry.
 
-![29_6_faq-01-04-pp-05](/img/product_docs/endpointpolicymanager/license/unlicense/29_6_faq-01-04-pp-05.webp)
+![29_6_faq-01-04-pp-05](/images/endpointpolicymanager/license/unlicense/29_6_faq-01-04-pp-05.webp)
 
 :::note
 Some Paks may be set to System Wide Lockdown, like Java and Firefox, as seen above. In
@@ -144,14 +144,14 @@ When the GPO no longer applies, or Policy XML no longer applies:
 - Endpoint Policy Manager will leave the Microsoft GPPrefs item intact / alone on revert when the
   item's **Common**> **Options** tab is set like this:
 
-  ![29_7_faq-01-04-pp-06](/img/product_docs/endpointpolicymanager/license/unlicense/29_7_faq-01-04-pp-06.webp)
+  ![29_7_faq-01-04-pp-06](/images/endpointpolicymanager/license/unlicense/29_7_faq-01-04-pp-06.webp)
 
-  ![29_8_faq-01-04-pp-07-1](/img/product_docs/endpointpolicymanager/license/unlicense/29_8_faq-01-04-pp-07-1.webp)
+  ![29_8_faq-01-04-pp-07-1](/images/endpointpolicymanager/license/unlicense/29_8_faq-01-04-pp-07-1.webp)
 
 - Or Endpoint Policy Manager will delete the Microsoft GPPRefs item when the item's **Option** tab
   is set like this:
 
-  ![29_9_faq-01-04-pp-08](/img/product_docs/endpointpolicymanager/license/unlicense/29_9_faq-01-04-pp-08.webp)
+  ![29_9_faq-01-04-pp-08](/images/endpointpolicymanager/license/unlicense/29_9_faq-01-04-pp-08.webp)
 
 ## Java Rules Manager
 

@@ -82,7 +82,7 @@ Follow the steps to install the Netwrix Threat Manager Reporting Module applicat
 **Step 1 –** Right-click on `Netwrix_Setup.exe` and select Run as administrator. The Netwrix Setup
 launcher opens. You can now install the following components on the same server:
 
-![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](/img/product_docs/threatprevention/7.4/install/reportingmodule/setuplauncher.webp)
+![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](/images/threatprevention/7.4/install/reportingmodule/setuplauncher.webp)
 
 - Click PostgreSQL Setup to install the database. See the
   [Install the PostgreSQL Database Application](/docs/threatprevention/7.4/install/reportingmodule/database.md)

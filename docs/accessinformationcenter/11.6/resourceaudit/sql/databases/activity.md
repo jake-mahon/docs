@@ -11,7 +11,7 @@ selected date range. The **Include Subfolders** option is active by default unti
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Activity report at the Databases node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sql/databases/databasesactivity.webp)
+![Activity report at the Databases node](/images/accessinformationcenter/11.6/resourceaudit/sql/databases/databasesactivity.webp)
 
 This report is comprised of the following columns:
 

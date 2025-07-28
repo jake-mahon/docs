@@ -9,7 +9,7 @@ sidebar_position: 30
 Yes. In the example below, an elevated command prompt (perhaps elevated by Self Elevate), you can
 see the command net stop spooler logged in the event log.
 
-![1335_1_3cd9340de297397c581bc79215cfae2d](/img/product_docs/endpointpolicymanager/leastprivilege/1335_1_3cd9340de297397c581bc79215cfae2d.webp)
+![1335_1_3cd9340de297397c581bc79215cfae2d](/images/endpointpolicymanager/leastprivilege/1335_1_3cd9340de297397c581bc79215cfae2d.webp)
 
 :::note
 If you are not seeing this be sure to upgrade to latest CSE.

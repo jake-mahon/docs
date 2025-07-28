@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_HardcodedDCs Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/operations/hardcodeddcsanalysis.webp)
+![Analysis Tasks for the AD_HardcodedDCs Job](/images/accessanalyzer/12.0/solutions/activedirectory/activity/operations/hardcodeddcsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -33,4 +33,3 @@ follow pre-configured reports:
 | Report        | Description                                                                                                                                                                                          | Default Tags                                               | Report Elements                                                                                                                                                                                         |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Hardcoded DCs | This report identifies hosts which may have hardcoded domain controller information in server or application settings. Each host identified in this report has only contacted one domain controller. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Pie –  Displays top domain controllers</li><li>Table – Displays hardcoded domain controller summary</li><li>Table – Displays host details</li></ul> |
-

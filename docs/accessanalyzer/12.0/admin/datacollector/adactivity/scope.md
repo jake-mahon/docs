@@ -12,7 +12,7 @@ the categories of:
 - Import From SAM
 - Import From Share
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/8.0/config/activedirectory/scope.webp)
+![Active Directory Activity DC wizard Scoping and Retention page](/images/activitymonitor/8.0/config/activedirectory/scope.webp)
 
 The Timespan is defined according to the following two elements:
 

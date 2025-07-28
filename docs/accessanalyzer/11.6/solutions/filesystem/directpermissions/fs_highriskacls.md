@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_HighRiskACLs Job](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/directpermissions/highriskaclsanalysis.webp)
+![Analysis Tasks for the FS_HighRiskACLs Job](/images/accessanalyzer/11.6/solutions/filesystem/directpermissions/highriskaclsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ the following pre-configured report:
 | Report         | Description                                                                                                                                                                     | Default Tags                                          | Report Elements                                                                                                                                                                               |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | High Risk ACLs | This report shows permissions of Authenticated Users, Anonymous Login, Everyone, or Domain Users. Applying these trustees to permissions may inadvertently open security holes. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays high risk permission assignments</li><li>Table – Provides details on resources by open manage rights</li></ul> |
-

@@ -29,7 +29,7 @@ topic for additional information.
     | Audit account logon events | _"Success"_ and _"Failure"_ |
     | Audit system events        | _"Success"_                 |
 
-    ![manualconfig_nla_auditpolicies2016](/img/product_docs/auditor/10.6/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
+    ![manualconfig_nla_auditpolicies2016](/images/auditor/10.6/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
 
 5. Run the following command to update group policy:
 

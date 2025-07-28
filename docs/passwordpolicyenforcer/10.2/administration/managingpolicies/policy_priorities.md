@@ -18,7 +18,7 @@ Follow the steps to set a policy's priority.
 **Step 2 –** Click Set Priorities in the right pane of the management console. This option is only
 visible when there is more than one password policy.
 
-![managing_policies_6_363x434](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_6_363x434.webp)
+![managing_policies_6_363x434](/images/passwordpolicyenforcer/10.2/administration/managing_policies_6_363x434.webp)
 
 **Step 3 –** Select the desired policy.
 
@@ -32,4 +32,4 @@ This flowchart shows how Password Policy Enforcer chooses a policy for each user
 Policies page to quickly determine which policy Password Policy Enforcer will enforce for a
 particular user.
 
-![managing_policies](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies.webp)
+![managing_policies](/images/passwordpolicyenforcer/10.2/administration/managing_policies.webp)

@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/activity/sqljobgroup32.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/sql/activity/sqljobgroup32.webp)
 
 The default analysis tasks are:
 
@@ -34,4 +34,3 @@ following pre-configured report.
 | Report               | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                              |
 | -------------------- | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Server Logon Details | This report outlines successful and failed logins over the last 30 days | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays logon summary</li><li>Table – Provides details on logon summary</li><li>Table – Provides details on logon details</li></ul> |
-

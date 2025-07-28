@@ -11,7 +11,7 @@ the allowed threat.
 
 Follow the steps to trigger a playbook manually.
 
-![threatresponsebutton](/img/product_docs/threatmanager/3.0/administration/playbooks/threatresponsebutton.webp)
+![threatresponsebutton](/images/threatmanager/3.0/administration/playbooks/threatresponsebutton.webp)
 
 **Step 1 –** Navigate to the Threat Details Page for a user with a threat type associated with a
 playbook.

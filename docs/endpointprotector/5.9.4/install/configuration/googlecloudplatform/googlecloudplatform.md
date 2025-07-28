@@ -25,12 +25,12 @@ Representative. If this image has already been obtained, you can skip this step.
 [Cloud Storage Browser page](https://console.cloud.google.com/projectselector2/storage/browser?pli=1&supportedpurview=project)
 on the Google Cloud Platform Console and create a bucket.
 
-![Creating a bucket](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/createbucket.webp)
+![Creating a bucket](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/createbucket.webp)
 
 **Step 3 –** Provide the necessary information (i.e., Name, Storage Class, Location), then click
 **Create**.
 
-![Naming the bucket](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/namebucket.webp)
+![Naming the bucket](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/namebucket.webp)
 
 **Step 4 –** Once the bucket is created, upload the Endpoint Protector image file received from
 Endpoint Protector.
@@ -38,14 +38,14 @@ Endpoint Protector.
 **NOTE:** The upload can take several hours, depending on the size of the compressed image and the
 speed of the network connection.
 
-![Uploading Endpoint Protector image to the bucket](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/uploadimage.webp)
+![Uploading Endpoint Protector image to the bucket](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/uploadimage.webp)
 
 **Step 5 –** After the Endpoint Protector image has been uploaded to Google Cloud Storage, navigate
 to the Images page on the Google Cloud Platform Console.
 
 **Step 6 –** Set the Source to **Virtual disk (VMDK, VHD)** and select **Go to new image import**.
 
-![New Image Import](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/newimageimport.webp)
+![New Image Import](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/newimageimport.webp)
 
 **Step 7 –** When prompted, enable the required API.
 
@@ -53,11 +53,11 @@ to the Images page on the Google Cloud Platform Console.
 
 **Step 9 –** Go to the Targets tab and click **Add a target project**.
 
-![Add a target project](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/targetproject.webp)
+![Add a target project](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/targetproject.webp)
 
 **Step 10 –** Select the project and Click **Add**.
 
-![Selecting Target Project](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/addtargetprojects.webp)
+![Selecting Target Project](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/addtargetprojects.webp)
 
 **Step 11 –** Navigate to the **Image Imports** tab and click **Create image**.
 
@@ -67,12 +67,12 @@ to the Images page on the Google Cloud Platform Console.
 - Enable **Skip OS adaptation**.
 - Click **Create**.
 
-![Creating an Image](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/createanimage.webp)
+![Creating an Image](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/createanimage.webp)
 
 **Step 12 –** Once the process is complete, navigate to the **Images** page and locate the newly
 created disk image. Click on it to view its details.
 
-![Create Instance](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/images.webp)
+![Create Instance](/images/endpointprotector/5.9.4/configuration/googlecloudplatform/images.webp)
 
 **Step 13 –** Click **Create Instance** and select the newly created disk image as the boot disk.
 

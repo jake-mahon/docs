@@ -8,7 +8,7 @@ sidebar_position: 40
 
 Use the BodyOptions page to select the size unit of messages.
 
-![Filter Wizard BodyOptions page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/filterwizard/bodyoptions.webp)
+![Filter Wizard BodyOptions page](/images/accessanalyzer/11.6/admin/datacollector/ewsmailbox/filterwizard/bodyoptions.webp)
 
 Select the desired message size unit:
 

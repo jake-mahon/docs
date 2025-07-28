@@ -31,11 +31,11 @@ server.
 **Step 3 –** Open the NPS.SchedulerService.exe and thePrivilege Secure Scheduler Service Setup
 wizard will open.
 
-![licenseagreement](/img/product_docs/privilegesecure/4.2/accessmanagement/install/licenseagreement_4.webp)
+![licenseagreement](/images/privilegesecure/4.2/accessmanagement/install/licenseagreement_4.webp)
 
 **Step 4 –** To install the Scheduler Service in an alternate location, click **Options**.
 
-![scheduleoptions](/img/product_docs/privilegesecure/4.2/accessmanagement/install/scheduleoptions.webp)
+![scheduleoptions](/images/privilegesecure/4.2/accessmanagement/install/scheduleoptions.webp)
 
 **Step 5 –** Enter the destination folder for installation and click OK.
 
@@ -45,7 +45,7 @@ Agreement checkbox.
 **Step 7 –** Click Install to begin the installation. The setup wizard displays the installation
 progress.
 
-![installcompleted](/img/product_docs/privilegesecure/4.2/accessmanagement/install/installcompleted.webp)
+![installcompleted](/images/privilegesecure/4.2/accessmanagement/install/installcompleted.webp)
 
 **Step 8 –** When the installation is complete, click Close to exit the installer.
 

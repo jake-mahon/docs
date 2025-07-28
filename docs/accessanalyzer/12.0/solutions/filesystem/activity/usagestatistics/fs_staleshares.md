@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_StaleShares Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/usagestatistics/stalesharesanalysis.webp)
+![Analysis Tasks for the FS_StaleShares Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/usagestatistics/stalesharesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -38,4 +38,3 @@ the following pre-configured report:
 | Report       | Description                                                         | Default Tags | Report Elements                                                                                                                                      |
 | ------------ | ------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stale Shares | This report identifies the last date there was activity on a share. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 stale shares</li><li>Table – Provides details on stale shares</li></ul> |
-

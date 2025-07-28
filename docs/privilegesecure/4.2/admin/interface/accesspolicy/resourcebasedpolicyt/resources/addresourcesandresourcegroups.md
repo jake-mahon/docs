@@ -9,7 +9,7 @@ sidebar_position: 10
 The Add Resources and Resource Groups window provides a list of resources that have been onboarded.
 Resources are onboarded in the [Resources Page](/docs/privilegesecure/4.2/admin/interface/resources/resources.md).
 
-![Add resources and resource groups window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addresourcesandresourcegroups.webp)
+![Add resources and resource groups window](/images/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addresourcesandresourcegroups.webp)
 
 The window has the following features:
 

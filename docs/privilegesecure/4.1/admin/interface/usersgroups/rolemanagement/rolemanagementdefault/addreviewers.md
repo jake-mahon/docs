@@ -10,7 +10,7 @@ The Add Reviewers window provides a list of users that have been onboarded. User
 the
 [Users & Groups Page](/docs/privilegesecure/4.1/admin/interface/usersgroups/usersgroups.md).
 
-![Add Reviews Window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/usersgroups/addreviewers.webp)
+![Add Reviews Window](/images/privilegesecure/4.1/accessmanagement/admin/policy/window/usersgroups/addreviewers.webp)
 
 The window has the following features:
 

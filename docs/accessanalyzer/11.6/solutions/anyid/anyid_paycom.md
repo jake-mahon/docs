@@ -11,7 +11,7 @@ and SSN. Contact the organization's Paycom administrator in order to generate th
 required for this job. The recommended approach is to copy the CSV file to the Enterprise Auditor
 Console for best import performance.
 
-![AnyID_Paycom Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/anyid/paycomjoblocation.webp)
+![AnyID_Paycom Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/anyid/paycomjoblocation.webp)
 
 The AnyID_Paycom job is located in the **Jobs** > **AnyID Connectors** job group.
 
@@ -68,7 +68,7 @@ Run the job with the default analysis configuration settings for best results.
 
 The AnyID_Paycom job uses the PowerShell Data Collector for the query.
 
-![Queries for the AnyID_Paycom Job](/img/product_docs/accessanalyzer/11.6/solutions/anyid/paycomqueries.webp)
+![Queries for the AnyID_Paycom Job](/images/accessanalyzer/11.6/solutions/anyid/paycomqueries.webp)
 
 The queries are:
 
@@ -89,7 +89,7 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The PowerShell Data Collector
 Wizard opens.
 
-![Edit Query Page](/img/product_docs/accessanalyzer/11.6/solutions/anyid/paycomqueryeditquery.webp)
+![Edit Query Page](/images/accessanalyzer/11.6/solutions/anyid/paycomqueryeditquery.webp)
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
@@ -135,7 +135,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AnyID_Paycom Job](/img/product_docs/accessanalyzer/11.6/solutions/anyid/paycomanalyses.webp)
+![Analysis Tasks for the AnyID_Paycom Job](/images/accessanalyzer/11.6/solutions/anyid/paycomanalyses.webp)
 
 The default analysis tasks are:
 
@@ -150,4 +150,3 @@ preconfigured report:
 | Report         | Description                                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                                                                                |
 | -------------- | ---------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Paycom Imports | This report highlights subjects imported from the provided Paycom CSV file, and summarizes attribute completion. | None         | This report is comprised of four elements: <ul><li>Table – Contains information on imported subjects</li><li>Bar Chart – Provides information on subject types</li><li>Table – Contains information on the attribute summary</li><li>Table – Contains information on subject details</li></ul> |
-

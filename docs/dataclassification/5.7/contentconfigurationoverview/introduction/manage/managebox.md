@@ -18,7 +18,7 @@ excluded from processing. For that, do the following:
    Exclusions.
 2. Click **Add**.
 
-![boxexclusions](/img/product_docs/dataclassification/5.7/admin/sources/database/boxexclusions.webp)
+![boxexclusions](/images/dataclassification/5.7/admin/sources/database/boxexclusions.webp)
 
 3. Click **Filter** and in the **Filter** field specify the objects (files or folders) to exclude:
 
@@ -52,7 +52,7 @@ Exclusions are case-insensitive.
     | Has any value | Exclude the document if its metadata field has any value. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                                   |
     | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                              |
 
-    ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
+    ![gdrive_exclusion_condition_2_thumb_0_0](/images/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
 
     When finished, click **Add**.
 
@@ -98,6 +98,6 @@ Refer to Box documentation for information on user account permissions.
 | **Name/ID** or **Class** | Depending on the format, take the term labels, IDs or a combination of both                             | The corresponding Delimiter must be a string or array type with a maximum length of 3.                                                                                                 |
 | **Prefix/** **Suffix**   | Will be appended to the formatted string of classifications.                                            |                                                                                                                                                                                        |
 
-![box_tagging_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/box_tagging_thumb_0_0.webp)
+![box_tagging_thumb_0_0](/images/dataclassification/5.7/admin/sources/box/box_tagging_thumb_0_0.webp)
 
 Finally, click **Save**.

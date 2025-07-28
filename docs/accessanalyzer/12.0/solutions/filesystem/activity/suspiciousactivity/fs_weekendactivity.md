@@ -22,7 +22,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_WeekendActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/suspiciousactivity/weekendactivityanalysis.webp)
+![Analysis Tasks for the FS_WeekendActivity Job](/images/accessanalyzer/12.0/solutions/filesystem/activity/suspiciousactivity/weekendactivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,4 +37,3 @@ produces the following pre-configured report:
 | Report                                          | Description                                                               | Default Tags | Report Elements                                                                                                                                                                                |
 | ----------------------------------------------- | ------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Weekend Activity (Most Active Users on Weekend) | This report shows users who are active on the weekend inside file shares. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays weekend share activity</li><li>top 5 users</li><li>Table – Provides details on weekend share activity by user</li></ul> |
-

@@ -12,7 +12,7 @@ folder’s Most Probable Owner. The Most Probable Owner is a unique algorithm 
 folder data collector that is determined based on folder ownership, content posted, and size of
 content posted.
 
-![5.Public Folders Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/jobstree.webp)
+![5.Public Folders Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/jobstree.webp)
 
 The following comprise the 5. Public Folders job group:
 

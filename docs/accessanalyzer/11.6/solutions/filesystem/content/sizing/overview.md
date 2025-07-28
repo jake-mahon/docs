@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Sizing job group is designed to report on file sizing information from targeted file servers.
 
-![Sizing Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/content/sizing/sizingjobstree.webp)
+![Sizing Job Group in the Jobs Tree](/images/accessanalyzer/11.6/solutions/filesystem/content/sizing/sizingjobstree.webp)
 
 The Sizing job group is comprised of:
 

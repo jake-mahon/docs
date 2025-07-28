@@ -15,11 +15,11 @@ To resolve this:
 3. Select **General Preferences**.
 4. Set the **Number of Rows in List Segments** to 1000.
 
-![rowsinlistsegments](/img/product_docs/platgovnetsuite/troubleshooting/rowsinlistsegments.webp)
+![rowsinlistsegments](/images/platgovnetsuite/troubleshooting/rowsinlistsegments.webp)
 
 If the field is still gray:
 
 1. Scroll down the page to the tab **Overriding Preferences**
 2. Check the box for Number of Rows in List Segments.
 
-![setlinesegments](/img/product_docs/platgovnetsuite/troubleshooting/setlinesegments.webp)
+![setlinesegments](/images/platgovnetsuite/troubleshooting/setlinesegments.webp)

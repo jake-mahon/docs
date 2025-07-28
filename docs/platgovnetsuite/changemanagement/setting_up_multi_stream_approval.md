@@ -27,13 +27,13 @@ Change Request, where the mandated approvers are included.
 4. Ctrl-Click to select one or more **Additional Approvers**. NOTE: Select the additional approvers
    in the order you want them to approve.
 
-    ![multi_stream_new_process](/img/product_docs/platgovnetsuite/change_management/multi_stream_new_process.webp)
+    ![multi_stream_new_process](/images/platgovnetsuite/change_management/multi_stream_new_process.webp)
 
 5. Click **Save**. Note the approvers are listed in the order selected, not the order they appeared
    in the list. If you need to reorder the approvers, **Edit** the record, de-select and re-select
    the additional approvers.
 
-    ![multi_stream_new_process_save](/img/product_docs/platgovnetsuite/change_management/multi_stream_new_process_save.webp)
+    ![multi_stream_new_process_save](/images/platgovnetsuite/change_management/multi_stream_new_process_save.webp)
 
 ### Create a new Policy Record
 
@@ -45,18 +45,18 @@ Change Request, where the mandated approvers are included.
 5. Make sure **Require Affected Process Approval** is selected on the **Process Policies** tab.
 6. Click **Save**. Leave the new policy open and continue with the next steps.
 
-    ![multi_stream_new_policy](/img/product_docs/platgovnetsuite/change_management/multi_stream_new_policy.webp)
+    ![multi_stream_new_policy](/images/platgovnetsuite/change_management/multi_stream_new_policy.webp)
 
 ### Attach the new Process Record
 
 1. Set **View** to **Strongpoint View** on the **Process Policies** tab.
 2. Select the **Process** you created. For this example, it is **Provision Multi-Stream Approval**.
 
-    ![multi_stream_attach](/img/product_docs/platgovnetsuite/change_management/multi_stream_attach.webp)
+    ![multi_stream_attach](/images/platgovnetsuite/change_management/multi_stream_attach.webp)
 
 3. Click **Attach**. The process is now shown on the **Process Policies** tab.
 
-    ![multi_stream_attach_result](/img/product_docs/platgovnetsuite/change_management/multi_stream_attach_result.webp)
+    ![multi_stream_attach_result](/images/platgovnetsuite/change_management/multi_stream_attach_result.webp)
 
 ### Create a Change Request
 

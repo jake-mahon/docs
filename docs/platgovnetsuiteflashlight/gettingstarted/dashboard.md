@@ -27,7 +27,7 @@ Displays the current status of the Spider (Not Started, In Progress, Completed) 
 days since the spider was last run. It is recommended to run the Spider every week so your account
 documentation is up-to-date.
 
-![Spider Status](/img/product_docs/platgovnetsuiteflashlight/getting_started/spider_status.webp)
+![Spider Status](/images/platgovnetsuiteflashlight/getting_started/spider_status.webp)
 
 ## Reminders
 
@@ -35,7 +35,7 @@ Reminders are key system warnings and metrics that Flashlight has detected in yo
 last week since the Spider was run last run. You can click on each metric to drill-into the details
 and take corrective action where needed.
 
-![Reminders](/img/product_docs/platgovnetsuiteflashlight/getting_started/reminders_800x88.webp)
+![Reminders](/images/platgovnetsuiteflashlight/getting_started/reminders_800x88.webp)
 
 The reminders have colors associated with them depending on the nature of the reminder. Reminders
 highlighted in green represent new and modified customizations in your account since the spider was
@@ -140,7 +140,7 @@ dashboard.
 
 Links to key resources to help you learn to use Flashlight.
 
-![Resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
+![Resources](/images/platgovnetsuiteflashlight/getting_started/resources.webp)
 
 ## Chart
 
@@ -156,7 +156,7 @@ does not include customizations from Saved Searches and Reports. Click on a segm
 drill into the details and see the list of specific customizations for the selected Object Type.
 This allows you to easily understand what customizations have been created over a given time period.
 
-![New Customizations by Type](/img/product_docs/platgovnetsuiteflashlight/getting_started/new_customizations_by_type.webp)
+![New Customizations by Type](/images/platgovnetsuiteflashlight/getting_started/new_customizations_by_type.webp)
 
 ### New Searches and Reports by Type
 
@@ -166,7 +166,7 @@ selected Object Type. Click on a segment in the chart to drill into the details 
 specific customizations for the selected Object Type. This allows you to easily understand what
 Saved Searches and Reports have been created over a given time period.
 
-![New Searches and Reports by Type](/img/product_docs/platgovnetsuiteflashlight/getting_started/new_searches_by_type.webp)
+![New Searches and Reports by Type](/images/platgovnetsuiteflashlight/getting_started/new_searches_by_type.webp)
 
 ### Customizations Updated by Type
 
@@ -176,13 +176,13 @@ does not include customizations from Saved Searches and Reports. Click on a segm
 drill into the details and see the list of specific customizations for the selected Object Type.
 This allows you to easily understand what customizations have been created over a given time period.
 
-![Customizations Updated by Type](/img/product_docs/platgovnetsuiteflashlight/getting_started/customizations_updated_by_type.webp)
+![Customizations Updated by Type](/images/platgovnetsuiteflashlight/getting_started/customizations_updated_by_type.webp)
 
 ## Key Tools
 
 Links to useful Flashlight tools to give you more value out of your documentation.
 
-![Key Tools](/img/product_docs/platgovnetsuiteflashlight/getting_started/key_tools.webp)
+![Key Tools](/images/platgovnetsuiteflashlight/getting_started/key_tools.webp)
 
 - **ERD**: Explore your customizations with Flashlight’s visual ERD and understand how
   customizations relate to each other.
@@ -202,7 +202,7 @@ Displays all the key data about your customizations for full visibility and cont
 account. The metrics are organized into two sections: **Documentation Summary** and **Users
 Summary**.
 
-![summary_800x207](/img/product_docs/platgovnetsuiteflashlight/getting_started/summary_800x207.webp)
+![summary_800x207](/images/platgovnetsuiteflashlight/getting_started/summary_800x207.webp)
 
 ### Documentation Summary
 

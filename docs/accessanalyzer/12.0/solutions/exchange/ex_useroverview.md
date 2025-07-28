@@ -11,7 +11,7 @@ information for each user about their mailbox size, mailbox access rights, mail 
 remote connectivity to the Exchange environment. These reports provide user impact analysis on the
 environment.
 
-![EX_UserOverview Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailflowuseroverviewjobstree.webp)
+![EX_UserOverview Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/exchange/mailflowuseroverviewjobstree.webp)
 
 **Dependencies**
 
@@ -41,7 +41,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_Mailflow_UserOverview Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailflowuseroverviewanalysis.webp)
+![Analysis Tasks for the EX_Mailflow_UserOverview Job](/images/accessanalyzer/12.0/solutions/exchange/mailflowuseroverviewanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -78,4 +78,3 @@ the following pre-configured reports:
 | Top Users by Message Traffic                    | This report shows the top users of Exchange based on the past 30 days of message count.                                  | None         | This report is comprised of two elements: <ul><li>Bar Chart– Displays top users by 30 day message traffic</li><li>Table – Provides details on top users by 30 day message traffic</li></ul>                                                       |
 | Top Users by Message Volume                     | This report shows the top users of Exchange based on the past 30 days of message volume. All statistics are in megabytes | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users by message volume</li><li>Table – Provides details on top users by message volume</li></ul>                                                                      |
 | Top Users by Permissions (Exchange User Access) | This report identifies users with a broad range of access across the exchange environment.                               | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by permission count</li><li>Table – Provides details on top users by permission count</li><li>Table – Provides details on permission listing by user</li></ul> |
-

@@ -19,7 +19,7 @@ Active Directory running Domain Controllers, which comes with Group Policy. Typi
 always, these servers are on-prem. We will explore the the idea that they don't have to be on-prem a
 little later.
 
-![515_1_image-20191025230525-1](/img/product_docs/endpointpolicymanager/license/mdm/515_1_image-20191025230525-1.webp)
+![515_1_image-20191025230525-1](/images/endpointpolicymanager/license/mdm/515_1_image-20191025230525-1.webp)
 
 In this case, you can license Endpoint Policy Manager with Endpoint Policy Manager Group Policy
 Edition or Endpoint Policy Manager Cloud Edition.
@@ -33,7 +33,7 @@ Edition or Endpoint Policy Manager Cloud Edition.
 Azure Active Directory (AAD) is not the traditional AD in the cloud. It is a directory service which
 has a job to create identity to services.
 
-![515_3_image-20191025230525-2](/img/product_docs/endpointpolicymanager/license/mdm/515_3_image-20191025230525-2.webp)
+![515_3_image-20191025230525-2](/images/endpointpolicymanager/license/mdm/515_3_image-20191025230525-2.webp)
 
 It has no Group Policy and has no real device management. There are two ways you can use Azure AD:
 with and without an MDM service.
@@ -46,7 +46,7 @@ CEM to do more Windows management, but it is not Group Policy.
 Here is what a machine looks like when it is MDM enrolled and registered in your Azure Active
 Directory.
 
-![515_5_image-20191025230525-3](/img/product_docs/endpointpolicymanager/license/mdm/515_5_image-20191025230525-3.webp)
+![515_5_image-20191025230525-3](/images/endpointpolicymanager/license/mdm/515_5_image-20191025230525-3.webp)
 
 As such, you might want to add Endpoint Policy Manager to your existing MDM service to give you the
 ability to take existing traditional AD Group Policy settings and migrate them to MDM. Additionally,

@@ -54,7 +54,7 @@ Although this is also possible via the Server Manager, we recommend carrying out
 SQL level: right click on the database, then on Tasks and Backup. The desired target folder is
 selected in the following window.
 
-![insert backup](/img/product_docs/passwordsecure/9.1/maintenance/sql-backup-en.webp)
+![insert backup](/images/passwordsecure/9.1/maintenance/sql-backup-en.webp)
 
 #### 3. Backing up the server certificate
 
@@ -73,13 +73,13 @@ Firstly, a new database is created on the SQL server. This option can be found i
 Studio after right clicking on Databases. It is usually sufficient to simply enter the database
 names.
 
-![integrate the database](/img/product_docs/passwordsecure/9.1/maintenance/sql-new-db-en.webp)
+![integrate the database](/images/passwordsecure/9.1/maintenance/sql-new-db-en.webp)
 
 As soon as the database has been created, the option Restore (under Tasks) can be selected by right
 clicking on the server. The Database is thus selected here. The backup now needs to be selected. It
 is also essential to check whether the correct database has been selected in the field "Target".
 
-![restore db](/img/product_docs/passwordsecure/9.1/maintenance/sql-restore-en.webp)
+![restore db](/images/passwordsecure/9.1/maintenance/sql-restore-en.webp)
 
 NOTE: This method can be also used to import backups that were directly created from the Server
 Manager.

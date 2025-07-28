@@ -19,11 +19,11 @@ Auditing must be enabled on the master Panzura node and optionally overridden on
 nodes to support different deployment scenarios depending on the expected load and network latency.
 A single agent monitors several Panzura nodes.
 
-![A single agent monitors several Panzura nodes](/img/product_docs/activitymonitor/7.1/config/panzura/panzurasingleagntmonitor.webp)
+![A single agent monitors several Panzura nodes](/images/activitymonitor/7.1/config/panzura/panzurasingleagntmonitor.webp)
 
 Audit events are distributed between two agents. Audit settings are overridden on one Panzura node.
 
-![Audit events are distributed between two agents](/img/product_docs/activitymonitor/7.1/config/panzura/auditeventstwoagnt_panzura.webp)
+![Audit events are distributed between two agents](/images/activitymonitor/7.1/config/panzura/auditeventstwoagnt_panzura.webp)
 
 The monitoring process relies on the Third Party Vendor Support auditing feature of the Panzura
 CloudFS platform, which uses the AMQP protocol for event delivery. Unlike typical uses of the AMQP

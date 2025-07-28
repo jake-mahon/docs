@@ -17,7 +17,7 @@ Usually, the left most value is a number that is less than the right most value.
 slider labeled "Volume," as shown in Figure 130, would have a lower value when slid to the left, and
 a higher value when slid to the right.
 
-![configuring_elements_using_23_624x182](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_23_624x182.webp)
+![configuring_elements_using_23_624x182](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_23_624x182.webp)
 
 Figure 130. A typical slider.
 
@@ -27,7 +27,7 @@ process and suggests what is likely going on. In most cases, keeping the default
 thing to do, which will establish this as a reverse slider and correctly establish the minimum and
 maximum values.
 
-![configuring_elements_using_24](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_24.webp)
+![configuring_elements_using_24](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_24.webp)
 
 Figure 131. Discovering a reverse slider with DesignStudio.
 
@@ -36,7 +36,7 @@ when the wizard was run, and suggest that value as the default value and the rev
 Slider Configuration Wizard might also detect a multiplier for some items. In the example in Figure
 132, the slider itself goes from 0 to 100. But the recorded values are 0 to 254.
 
-![configuring_elements_using_25](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_25.webp)
+![configuring_elements_using_25](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_25.webp)
 
 Figure 132. Detecting a slider multiplier.
 
@@ -52,7 +52,7 @@ Endpoint Policy Manager Application Settings Manager. Two examples of these kind
 sliders are items like Internet Explorer's security slider, shown in Figure 133 (left side) and User
 Account Control Settings, shown in Figure 133 (right side).
 
-![configuring_elements_using_26](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_26.webp)
+![configuring_elements_using_26](/images/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_26.webp)
 
 Figure 133. Examples of unsupported sliders.
 

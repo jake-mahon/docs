@@ -63,7 +63,7 @@ The URL may need to be added to the browser’s list of trusted sites.
 :::
 
 
-![AIC Login page](/img/product_docs/accessinformationcenter/12.0/admin/loginpage.webp)
+![AIC Login page](/images/accessinformationcenter/12.0/admin/loginpage.webp)
 
 The Access Information Center login page displays the Netwrix Access Analyzer (formerly Enterprise
 Auditor) logo at the top and the browser tab is named Access Information Center. Logging in here
@@ -73,7 +73,7 @@ for information on where different types of users are directed after login.
 
 ## Web Console Login Page
 
-![Web Console Login page](/img/product_docs/accessanalyzer/12.0/install/application/reports/webconsolelogin.webp)
+![Web Console Login page](/images/accessanalyzer/12.0/install/application/reports/webconsolelogin.webp)
 
 The Access Analyzer Web Console login page displays the Netwrix Access Analyzer (formerly Enterprise
 Auditor) logo at the top and the browser tab is named Netwrix Access Analyzer (formerly Enterprise
@@ -83,16 +83,16 @@ users to the Access Analyzer Reports home page.
 
 Follow the steps to open the Access Information Center.
 
-![Menu icon on Web Console home page](/img/product_docs/accessinformationcenter/12.0/admin/accessfromwebconsole.webp)
+![Menu icon on Web Console home page](/images/accessinformationcenter/12.0/admin/accessfromwebconsole.webp)
 
 **Step 1 –** On any page of the Web Console, click the menu icon to the left of the Netwrix Access
 Analyzer (formerly Enterprise Auditor) logo.
 
-![Apps slide-out menu](/img/product_docs/accessinformationcenter/12.0/admin/accessfromwebconsoleappsmenu.webp)
+![Apps slide-out menu](/images/accessinformationcenter/12.0/admin/accessfromwebconsoleappsmenu.webp)
 
 **Step 2 –** On the Apps slide-out menu, click Access Information Center.
 
-![AIC opened from the Web Console](/img/product_docs/accessinformationcenter/12.0/admin/aicfromwebconsole.webp)
+![AIC opened from the Web Console](/images/accessinformationcenter/12.0/admin/aicfromwebconsole.webp)
 
 The Access Information Center opens in a new tab in your browser. The interface a user arrives at
 depends upon the assigned role or lack of assigned role. See the [User Landing Page](/docs/accessinformationcenter/12.0/admin/login/userlanding.md)

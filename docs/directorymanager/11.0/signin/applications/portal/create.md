@@ -20,7 +20,7 @@ servers.
 - **IIS deployment** - Your GroupID portal is hosted within a site in IIS. To launch IIS,
   see [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
-    ![in_iis](/img/product_docs/directorymanager/11.0/admincenter/portal/in_iis.webp)
+    ![in_iis](/images/directorymanager/11.0/admincenter/portal/in_iis.webp)
 
 - **Docker deployment** - For a Docker deployment, make sure you have a running instance of Docker
   daemon in your environment. A portal runs within a container in Docker.
@@ -55,8 +55,8 @@ What do you want to do?
 When you create a portal in native IIS, GroupID does the following:
 
 - It creates a directory with the portal’s name at the following physical path on the GroupID
-  server, and copies the portal files from its template directory to the new portal directory:  
-  X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\  
+  server, and copies the portal files from its template directory to the new portal directory:
+  X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\
   (X represents the GroupID installation drive)
 - It also creates a virtual directory for the portal in your desired IIS site.
 
@@ -72,23 +72,23 @@ located on disk.
 5. In the **Application Name** box, enter a unique name for the portal or use the default name. The
    portal is displayed with this name in GroupID.
 6. In the **Deployment Name** box, enter a deployment name for the portal. This name is used to
-   indicate the deployment instance for the portal in GroupID.  
-   A portal can have multiple deployments, for example, one in IIS and another in Docker.  
+   indicate the deployment instance for the portal in GroupID.
+   A portal can have multiple deployments, for example, one in IIS and another in Docker.
    The application name and deployment name are displayed on the portal card on the **GroupID
    Portal** tab.
 
-    ![portal_card](/img/product_docs/directorymanager/11.0/admincenter/portal/portal_card.webp)
+    ![portal_card](/images/directorymanager/11.0/admincenter/portal/portal_card.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the portal. This name
    should be unique for each portal deployed in IIS.
 
     - The IIS application name is used to name the portal’s directory in IIS and its physical
       directory under **X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub** on the GroupID
-      server.  
+      server.
       (X represents the GroupID installation drive)
     - This IIS application name is also appended to the web server address to construct the URL that
-      users click to access this deployment instance of the portal. For example:  
-      `https://<web-server-name>:<port>/<IIS-application-name>`  
+      users click to access this deployment instance of the portal. For example:
+      `https://<web-server-name>:<port>/<IIS-application-name>`
       Hence, a different URL is constructed for each deployment of a portal in IIS.
 
 8. In the **IIS Site** drop-down list, select a website to host the portal files. The list displays
@@ -101,7 +101,7 @@ located on disk.
        Thelist contains all Security services defined in GroupID.
 
 10. In the **Support Information** area, enter internal contact information and resource links for
-    the portal's users to obtain help while using the portal.  
+    the portal's users to obtain help while using the portal.
     A portal includes a **Contact** link and a **Help** icon on its web interface. The **Contact**
     link launches an email application to send an email to a user or helpdesk for inquiries or
     support. The **Help** icon launches the online help for the portal in a new browser window. Both
@@ -113,15 +113,15 @@ located on disk.
        link in the portal.
     2. In the **Help URL** box, specify the address of your company's internal support website or
        the portal’s help page, where portal users can find support material or report a problem. By
-       default, this box displays the URL of the portal’s help published by Netwrix.  
+       default, this box displays the URL of the portal’s help published by Netwrix.
        This URL is mapped to the **Help** icon in the portal.
 
 11. In the **Select Identity Stores** area, select the check boxes for the identity stores you want
     to associate with the portal. Users in the associated identity stores can sign into the portal
-    to manage directory objects, their directory profiles, and more.  
+    to manage directory objects, their directory profiles, and more.
     While associating identity store(s), you may get the following message:
 
-    ![linked_message](/img/product_docs/directorymanager/11.0/admincenter/portal/linked_message.webp)
+    ![linked_message](/images/directorymanager/11.0/admincenter/portal/linked_message.webp)
 
     This relates to the scenario when identity stores in GroupID have been linked, as discussed in
     the
@@ -143,7 +143,7 @@ located on disk.
 
     **Design file name:** `<Identity store name>..xml`.
 
-    For example: ADStore.xml  
+    For example: ADStore.xml
      A separate design file exists for each identity store linked with a Self-Service portal.
 
     **File location in GroupID 9/10:**
@@ -151,12 +151,12 @@ located on disk.
 
     For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Design\
 
-    Similarly, a separate file exists for each linked combo created in the Self-Service portal.  
+    Similarly, a separate file exists for each linked combo created in the Self-Service portal.
     **Linked combo file name:** The file has the same name as that of the linked combo in the
-    portal.for example, Country-State.xml  
+    portal.for example, Country-State.xml
     **File location in GroupID 9/10:** All linked combo files, regardless of the identity store they
-    are used for, are available at the following path:  
-    `[GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\Web\LinkedCombo\`  
+    are used for, are available at the following path:
+    `[GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\Web\LinkedCombo\`
     For example: C:\Program Files\Imanami\GroupID
     10.0\SelfService\Inetpub\TestPortal\Web\LinkedCombo\
 
@@ -169,28 +169,28 @@ located on disk.
        and place them on your local machine or a shared network location.
     2. In he **Select Identity Stores** area, click **Import Design** next to an identity store name
        to import the design file for it.
-    3. Browse for the file to select and import it. The import process takes a while.  
+    3. Browse for the file to select and import it. The import process takes a while.
        Each identity store associated with a Self-Service portal has its own design file, so make
        sure you import the correct file. For example, if Identity Store A is associated with two
        Self-Service portals, then these will be two different design files for the same identity
        store, though at different locations.
     4. After the file is uploaded, a message is displayed, showing the number of linked combos
        defined in the imported design settings and prompting you to import the respective linked
-       combo files.  
+       combo files.
        Browse to the location of the linked combo files and import those that represent the linked
        combos defined in the design settings.
 
 13. A portal has certain advanced settings defined for it, as discussed in the
     [Manage Advanced Settings](/docs/directorymanager/11.0/signin/applications/portal/server/advanced.md)
-    topic.  
+    topic.
     If you are upgrading to GroupID 11 from GroupID 9 or GroupID 10, you can import the advanced
     settings of a Self-Service portal from a previous version as an alternate to defining settings
     from scratch. Following are the details of the file containing advanced settings for a
     Self-Service portal in GroupID 9 and 10:
 
-    **File name:** server.xml. A separate file exists for each Self-Service portal.  
+    **File name:** server.xml. A separate file exists for each Self-Service portal.
     **File location in GroupID 9/10:**
-    `[GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\`  
+    `[GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\`
     For
     example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\
 
@@ -205,7 +205,7 @@ located on disk.
        Settings** area.
     3. Browse for the file to select and import it. The import process takes a while.
 
-14. Click **Create Application**.  
+14. Click **Create Application**.
     The new portal is displayed on the **GroupID Portal** tab.
 
 ## Create a Portal in Remote IIS
@@ -236,11 +236,11 @@ topic.
    portal is displayed in GroupID with this name.
 6. In the **Deployment Name** box, enter a deployment name for the portal. This name is used to
    indicate the deployment instance for the portal in GroupID. A portal can have multiple
-   deployments, for example, one in IIS and another in Docker.  
+   deployments, for example, one in IIS and another in Docker.
    The application name and deployment name are displayed on the portal card on the **GroupID
    Portal** tab.
 7. In the **API URL** box, enter the URL of the API to use for communicating with the remote IIS
-   server.  
+   server.
    Make sure the
    [Microsoft IIS Administration API](https://learn.microsoft.com/en-us/iis-administration/) is
    installed as a Windows service on the remote IIS machine. Fetch the URL of this API from remote
@@ -258,8 +258,8 @@ topic.
       physical directory on the remote IIS machine. The physical directory is created within the
       folder that is mapped to the preconfigured site, and portal files are copied to it.
     - This IIS application name is also appended to the web server address to construct the URL that
-      users click to access this deployment instance of the portal. For example:  
-      `https://<web-server-name>:<port>/<IIS-application-name>`  
+      users click to access this deployment instance of the portal. For example:
+      `https://<web-server-name>:<port>/<IIS-application-name>`
       Hence, a different URL is constructed for each deployment of a portal in remote IIS.
 
 11. On providing the above information, the **Website** drop-down list displays the sites defined on
@@ -268,7 +268,7 @@ topic.
 12. For entering information in the **Service Endpoints**, **Support Information**, **Select
     Identity Stores**, and **Advanced Settings** areas, follow steps 9-13 in the
     [Create a Portal in Native IIS](#create-a-portal-in-native-iis) topic.
-13. Click **Create Application**.  
+13. Click **Create Application**.
     The new portal is displayed on the **GroupID Portal** tab.
 
 ## Create a Portal in Docker
@@ -293,16 +293,16 @@ NOTE: To host the portal, Docker daemon should be configured to run Windows cont
    portal is displayed in GroupID with this name.
 6. In the **Deployment Name** box, enter a deployment name for the portal. This name is used to
    indicate the deployment instance for the portal in GroupID. A portal can have multiple
-   deployments, for example, one in IIS and another in Docker.  
+   deployments, for example, one in IIS and another in Docker.
    The application name and deployment name are displayed on the portal card on the **GroupID
    Portal** tab.
 7. In the **Port** box, enter the port for the host machine to map the container to host ports. By
-   default, the container port is 443.  
+   default, the container port is 443.
    This enables network access to the portal in Docker over this port.
 8. In the **Service URL** box, enter the API URL to use for accessing and communicating with Docker
-   Engine.  
+   Engine.
    On installing Docker Engine, you must expose an API over TCP on the same machine to enable
-   communication with GroupID.  
+   communication with GroupID.
    The URL you provide in the **Service URL** box identifies the Docker deamon where you want to
    host the portal.
 9. In the **Container Name** box, enter a name for the container that is created in Docker for
@@ -310,7 +310,7 @@ NOTE: To host the portal, Docker daemon should be configured to run Windows cont
 10. For entering information in the **Service Endpoints**, **Support Information**, **Select
     Identity Stores**, and **Advanced Settings** areas, follow steps 9-13 in the
     [Create a Portal in Native IIS](#create-a-portal-in-native-iis) topic.
-11. Click **Create Application**.  
+11. Click **Create Application**.
     The new portal is displayed on the **GroupID Portal** tab.
 
 ## Deploy Another Instance of a Portal
@@ -331,7 +331,7 @@ a shared setting propagates to all deployment instances of the portal.
 2. On the **GroupID Portal** tab, click the ellipsis button for a portal and select **Deploy Another
    Instance**.
 3. On the **Deploy Another Instance** page, select the **IIS**, **Remote IIS**, or **Docker** tile
-   to indicate the web server where you want to deploy the instance.  
+   to indicate the web server where you want to deploy the instance.
    The **Application Name** field displays the name of the portal as read-only.
 4. Fields on the page vary, depending on the web server selected. In any case, the **Support
    Information**, **Select Identity Stores**, and **Advanced Settings** areas are not available, as
@@ -344,7 +344,7 @@ a shared setting propagates to all deployment instances of the portal.
     - To deploy an instance in Docker, follow steps 6-10 in the
       [Create a Portal in Docker](#create-a-portal-in-docker) topic.
 
-5. After entering the required information, click **Deploy Instance**.  
+5. After entering the required information, click **Deploy Instance**.
    The new instance is displayed on the portal’s card.
 
 ## Create a Portal by Copying an Existing Portal
@@ -356,7 +356,7 @@ you can choose to deploy the new portal in any of the supported web servers.
 **To create a portal:**
 
 1. In Admin Center, select **Applications** in the left pane.
-2. On the **GroupID Portal** tab, click the ellipsis button for a portal and select **Copy**.  
+2. On the **GroupID Portal** tab, click the ellipsis button for a portal and select **Copy**.
    The **Copy GroupID Application** page is displayed; populated with the following settings of the
    copied portal:
 
@@ -376,7 +376,7 @@ you can choose to deploy the new portal in any of the supported web servers.
 
 ## View the Details of a Portal
 
-1. In Admin Center, click **Applications** in the left pane.  
+1. In Admin Center, click **Applications** in the left pane.
    The **GroupID Portal** tab displays the portals that you have created.
 2. The card for a portal displays the following information:
 

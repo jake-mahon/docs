@@ -9,7 +9,7 @@ sidebar_position: 40
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who
 has access to it across all the targeted MongoDB databases.
 
-![Sensitive Data Job Group](/img/product_docs/accessanalyzer/12.0/solutions/databases/mongodb/sensitivedatajobgroup.webp)
+![Sensitive Data Job Group](/images/accessanalyzer/12.0/solutions/databases/mongodb/sensitivedatajobgroup.webp)
 
 The job in the Sensitive Data Job Group is:
 
@@ -27,7 +27,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/mongodb/analysismongodbsensitivedatajob.webp)
+![Analysis Selection](/images/accessanalyzer/12.0/solutions/databases/mongodb/analysismongodbsensitivedatajob.webp)
 
 The default analysis tasks are:
 
@@ -44,4 +44,3 @@ produces the following preconfigured reports.
 | ----------------------- | ---------------------------------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enterprise Summary      | This report shows a summary of the criteria matches found in the Enterprise. | None           | This report is comprised of two elements: <ul><li>Bar Chart</li><li>Displays exceptions by Match Count</li><li>Table</li><li>Displays exception details</li></ul>                                                                                   |
 | Sensitive Data Overview | This report highlights objects which contain sensitive data criteria.        | Sensitive Data | This report is comprised of three elements: <ul><li>Bar Chart</li><li>Displays top databases by Sensitive Data Hits</li><li>Table</li><li>Provides details on top databases by Sensitive Data Hits</li><li>Table</li><li>Provides details</li></ul> |
-

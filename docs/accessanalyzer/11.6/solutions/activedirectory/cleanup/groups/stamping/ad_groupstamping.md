@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_GroupStamping Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/stamping/groupstampinganalysis.webp)
+![Analysis Tasks for the AD_GroupStamping Job](/images/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/stamping/groupstampinganalysis.webp)
 
 The default analysis tasks are:
 
@@ -42,7 +42,7 @@ the following pre-configured reports.
 View the action tasks by navigating to the **Active Directory** > **Cleanup** > **1.Groups** > **2.
 Group Stamping AD_GroupStamping** > **Configure** node and select **Actions**.
 
-![Action Tasks for the AD_GroupStamping Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/stamping/groupstampingaction.webp)
+![Action Tasks for the AD_GroupStamping Job](/images/accessanalyzer/11.6/solutions/activedirectory/cleanup/groups/stamping/groupstampingaction.webp)
 
 - Stamp Groups – Update Notes field with Permissions
 

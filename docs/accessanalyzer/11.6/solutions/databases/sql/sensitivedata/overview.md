@@ -13,7 +13,7 @@ access to that sensitive data, across all targeted SQL and Azure SQL server data
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 
-![5.Sensitive Data Job Group](/img/product_docs/accessanalyzer/11.6/solutions/databases/sql/sensitivedata/sqljobgroup46.webp)
+![5.Sensitive Data Job Group](/images/accessanalyzer/11.6/solutions/databases/sql/sensitivedata/sqljobgroup46.webp)
 
 The jobs in the 5.Sensitive Data Job Group are:
 

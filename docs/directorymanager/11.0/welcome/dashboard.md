@@ -11,7 +11,7 @@ of the portal. These functions are available as links on the top and left naviga
 
 On logging into GroupID portal, you land on the dashboard.
 
-![dashboard](/img/product_docs/directorymanager/11.0/portal/dashboard.webp)
+![dashboard](/images/directorymanager/11.0/portal/dashboard.webp)
 
 Use the following to navigate within the application:
 

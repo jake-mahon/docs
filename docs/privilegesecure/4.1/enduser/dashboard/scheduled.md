@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Scheduled sessions dashboard shows all scheduled sessions.
 
-![Scheduled Dashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard/scheduleddashboarduser.webp)
+![Scheduled Dashboard](/images/privilegesecure/4.1/accessmanagement/enduser/dashboard/scheduleddashboarduser.webp)
 
 The Scheduled Sessions table has the following features:
 

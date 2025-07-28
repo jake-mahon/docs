@@ -11,7 +11,7 @@ Policy Manager (formerly PolicyPak) causing it.
 
 Here's an example scenario…
 
-![369_1_faq-913-01](/img/product_docs/endpointpolicymanager/troubleshooting/369_1_faq-913-01.webp)
+![369_1_faq-913-01](/images/endpointpolicymanager/troubleshooting/369_1_faq-913-01.webp)
 
 First:There are known bugs which push the utilization up to 100% from MS.
 Example:[https://support.microsoft.com/en-us/help/3083595/task-manager-might-show-100-disk-utilization-on-windows-10-devices-wit](https://support.microsoft.com/en-us/help/3083595/task-manager-might-show-100-disk-utilization-on-windows-10-devices-wit)
@@ -38,19 +38,19 @@ and Create dump file. We can analyze this and it tells us a lot.
 
 **Step 3 –** Run `perfmon.exe` to see a relationship graph. Clear out any existing counters.
 
-![369_2_faq-913-02](/img/product_docs/endpointpolicymanager/troubleshooting/369_2_faq-913-02.webp)
+![369_2_faq-913-02](/images/endpointpolicymanager/troubleshooting/369_2_faq-913-02.webp)
 
 **Step 4 –** Next you need to add new counters for PPExtensionSvc disk usage. To do this, find
 PROCESS then EXPAND.
 
-![369_3_faq-913-03](/img/product_docs/endpointpolicymanager/troubleshooting/369_3_faq-913-03.webp)
+![369_3_faq-913-03](/images/endpointpolicymanager/troubleshooting/369_3_faq-913-03.webp)
 
 **Step 5 –** Expand the Process item from the top list, select only:
 
 - I/O Data Operations/sec and
 - I/O Other Operations/sec then from the bottom list select
 
-![369_4_faq-913-04](/img/product_docs/endpointpolicymanager/troubleshooting/369_4_faq-913-04.webp)
+![369_4_faq-913-04](/images/endpointpolicymanager/troubleshooting/369_4_faq-913-04.webp)
 
 **Step 6 –** From Logical Disk, you want to add the following items (only ONE of which is shown in
 the screenshot).
@@ -64,11 +64,11 @@ Ensure \_Total selected in the bottom list.
 :::
 
 
-![369_5_faq-913-05](/img/product_docs/endpointpolicymanager/troubleshooting/369_5_faq-913-05.webp)
+![369_5_faq-913-05](/images/endpointpolicymanager/troubleshooting/369_5_faq-913-05.webp)
 
 Your total counters should look like this.. when sorted by OBJECT:
 
-![369_6_faq-913-06](/img/product_docs/endpointpolicymanager/troubleshooting/369_6_faq-913-06.webp)
+![369_6_faq-913-06](/images/endpointpolicymanager/troubleshooting/369_6_faq-913-06.webp)
 
 **Step 7 –** Optionally, add anything else that could be getting in the way or adding to high disk
 activity, like `DISM.EXE` which was seen in the first screenshot which is known for high disk

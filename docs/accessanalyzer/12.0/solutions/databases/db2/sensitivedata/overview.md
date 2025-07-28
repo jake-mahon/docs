@@ -9,7 +9,7 @@ sidebar_position: 50
 This job group provides insight into where sensitive data exists and who has access to it across all
 the targeted Db2 database servers.
 
-![Sensitive Data Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/databases/db2/sensitivedata/sensitivedatajobstree.webp)
+![Sensitive Data Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/databases/db2/sensitivedata/sensitivedatajobstree.webp)
 
 The jobs in the Sensitive Data job group are:
 

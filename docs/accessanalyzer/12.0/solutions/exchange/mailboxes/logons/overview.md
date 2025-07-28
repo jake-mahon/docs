@@ -17,7 +17,7 @@ Schedule the Logons Job Group to run daily at 7 PM.
 The data collection job requires that Exchange Access Auditing is enabled in the Exchange
 environment.
 
-![Logons Job Group](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/logons/jobstree.webp)
+![Logons Job Group](/images/accessanalyzer/12.0/solutions/exchange/mailboxes/logons/jobstree.webp)
 
 The jobs in the Logons Job Group are:
 

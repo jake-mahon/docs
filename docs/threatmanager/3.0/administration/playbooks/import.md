@@ -12,7 +12,7 @@ that file for import to Threat Manager.
 
 Follow the steps to import a playbook.
 
-![importbutton](/img/product_docs/threatmanager/3.0/administration/playbooks/importbutton.webp)
+![importbutton](/images/threatmanager/3.0/administration/playbooks/importbutton.webp)
 
 **Step 1 –** Go to the Playbooks tab and select Import. This opens the Windows File Explorer.
 

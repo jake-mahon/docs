@@ -9,7 +9,7 @@ sidebar_position: 20
 Use Operations page to select one or more operations for the action to perform on the targeted
 Active Directory objects. Some operations have wizard pages to specify the configuration settings.
 
-![Active Directory Action Module Wizard Operations page](/img/product_docs/accessanalyzer/12.0/admin/action/activedirectory/operations.webp)
+![Active Directory Action Module Wizard Operations page](/images/accessanalyzer/12.0/admin/action/activedirectory/operations.webp)
 
 The Operations drop-down menu contains the following operations:
 

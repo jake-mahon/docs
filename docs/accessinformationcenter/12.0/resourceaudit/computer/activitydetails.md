@@ -10,7 +10,7 @@ The Activity Details report for a computer object provides details on every acti
 the audited computer during the selected date range. This report includes a Permission Changes
 table.
 
-![Activity Details report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/computer/activitydetails.webp)
+![Activity Details report](/images/accessinformationcenter/12.0/resourceaudit/computer/activitydetails.webp)
 
 This report is comprised of the following columns:
 

@@ -10,7 +10,7 @@ The AD_OpenAccess Job reports on all Active Directory permissions granting open 
 targeted domains. Open Access can be defined as access granted to security principals such as:
 Domain Users, Authenticated Users, and Everyone.
 
-![5.Open Access Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/openaccessjobstree.webp)
+![5.Open Access Job Group in the Jobs Tree](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/openaccessjobstree.webp)
 
 The AD_OpenAccess Job is located in the 5.Open Access Job Group.
 
@@ -25,7 +25,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_OpenAccess Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/openaccessanalysis.webp)
+![Analysis Tasks for the AD_OpenAccess Job](/images/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/openaccessanalysis.webp)
 
 The default analysis tasks are:
 
@@ -40,4 +40,3 @@ the following pre-configured report.
 | Report                | Description                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                    |
 | --------------------- | ---------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Open Access by Domain | This report highlights instances of open access on AD objects, and summarizes open access by domain. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays open access by domain</li><li>Table – Provides details on open access</li><li>Table – Provides details on open access by domain</li></ul> |
-

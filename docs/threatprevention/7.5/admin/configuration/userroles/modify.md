@@ -10,7 +10,7 @@ Follow the steps to modify a user’s assigned rights.
 
 **Step 1 –** Click **Configuration** > **Users** on the menu to open the Users and Roles window.
 
-![Users and Roles window](/img/product_docs/threatprevention/7.5/admin/configuration/userroles/usersroleswindow.webp)
+![Users and Roles window](/images/threatprevention/7.5/admin/configuration/userroles/usersroleswindow.webp)
 
 **Step 2 –** Select a user to modify its assigned rights.
 

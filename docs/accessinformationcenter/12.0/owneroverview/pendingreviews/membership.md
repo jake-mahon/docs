@@ -12,7 +12,7 @@ review.
 **Step 1 –** On the Pending Reviews page, select the resource with a pending Membership review and
 click **Begin Review**. The Resource Review page opens to the 1 Make changes tab.
 
-![Membership review Make changes tab](/img/product_docs/accessinformationcenter/12.0/resourcereviews/review/reviewpagemembership.webp)
+![Membership review Make changes tab](/images/accessinformationcenter/12.0/resourcereviews/review/reviewpagemembership.webp)
 
 The table displays membership information for the group being reviewed:
 
@@ -42,7 +42,7 @@ pending until you submit all recommendations for this resource.
 **Step 3 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
 
-![Membership review Review changes tab](/img/product_docs/accessinformationcenter/12.0/resourcereviews/review/reviewpagemembership2.webp)
+![Membership review Review changes tab](/images/accessinformationcenter/12.0/resourcereviews/review/reviewpagemembership2.webp)
 
 **Step 4 –** This tab displays a filtered table of trustees with recommended changes. Confirm your
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave

@@ -12,7 +12,7 @@ Directory/Microsoft Entra ID (formerly Azure AD) accounts for your organization
 
 | Icon                                                                                                            | Description                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![businessuserslock](/img/product_docs/1secure/admin/searchandreports/businessuserslock.webp) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](/docs/1secure/admin/organizations/addingusers/addingusers.md) topic for additional information on the business users. |
+| ![businessuserslock](/images/1secure/admin/searchandreports/businessuserslock.webp) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](/docs/1secure/admin/organizations/addingusers/addingusers.md) topic for additional information on the business users. |
 
 ## Review a Report
 
@@ -23,18 +23,18 @@ Users** page opens. By default, it populates the data with the Users of your org
 
 - Dashboard for Managing Organization
 
-![billableusersreportmanagingorg](/img/product_docs/1secure/admin/searchandreports/billableusersreportmanagingorg.webp)
+![billableusersreportmanagingorg](/images/1secure/admin/searchandreports/billableusersreportmanagingorg.webp)
 
 - Dashboard for Managed Organization
 
-![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
+![billableaccountsmanagedorg](/images/1secure/admin/organizations/billableaccountsmanagedorg.webp)
 
 :::note
 You can also access the report by navigating to the **Reports** > **System** page.
 :::
 
 
-![BU Report screen](/img/product_docs/1secure/admin/searchandreports/billableusersreport.webp)
+![BU Report screen](/images/1secure/admin/searchandreports/billableusersreport.webp)
 
 **Step 2 –** If necessary, you can filter the provided data. Select a filter, operator, and value
 from the Filter, Operator, and Value drop-down menus respectively.

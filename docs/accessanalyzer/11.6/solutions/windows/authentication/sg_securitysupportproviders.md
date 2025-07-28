@@ -18,7 +18,7 @@ The queries are preconfigured for this job. Never modify the queries.
 :::
 
 
-![Queries for the SG_SecuritySupportProviders Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/securitysupportprovidersqueries.webp)
+![Queries for the SG_SecuritySupportProviders Job](/images/accessanalyzer/11.6/solutions/windows/authentication/securitysupportprovidersqueries.webp)
 
 The queries for the SG_SecuritySupportProviders job are:
 
@@ -36,7 +36,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_SecuritySupportProviders Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/authentication/securitysupportprovidersanalysis.webp)
+![Analysis Tasks for the SG_SecuritySupportProviders Job](/images/accessanalyzer/11.6/solutions/windows/authentication/securitysupportprovidersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -60,4 +60,3 @@ produces the following pre-configured report.
 | Report                     | Description                                                                           | Default Tags | Report Elements                                                                                                                                                                                     |
 | -------------------------- | ------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Security Support Providers | This report lists non-standard security support providers in the audited environment. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays malicious security support providers by host</li><li>Table – Provides malicious security support providers details</li></ul> |
-

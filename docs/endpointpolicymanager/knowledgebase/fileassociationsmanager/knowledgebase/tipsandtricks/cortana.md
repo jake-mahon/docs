@@ -22,10 +22,10 @@ info: [What is meant by "Default Browser" within Endpoint Policy Manager Browse
 
 Then set the Policy for PPFAM as shown in the following screenshot:
 
-![730_1_ddfgdsfgfg](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/730_1_ddfgdsfgfg.webp)
+![730_1_ddfgdsfgfg](/images/endpointpolicymanager/troubleshooting/fileassociations/730_1_ddfgdsfgfg.webp)
 
 :::note
-The path for EdgeDeflector. That has to be same on client computers.  
+The path for EdgeDeflector. That has to be same on client computers.
 Apply the policy on the client computers and reboot.
 
 :::

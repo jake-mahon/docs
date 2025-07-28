@@ -9,7 +9,7 @@ sidebar_position: 50
 The 3.Permissions Job Group is designed to provide insight into all types of permissions at the
 instance, database, and object levels across all targeted Oracle database servers.
 
-![Permissions Job Group](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup33.webp)
+![Permissions Job Group](/images/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup33.webp)
 
 The jobs in the 3.Permissions Job Group are:
 

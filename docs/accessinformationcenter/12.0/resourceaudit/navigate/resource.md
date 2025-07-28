@@ -34,7 +34,7 @@ available resources. Only those resource environments that have been scanned by 
 introduced to the Access Information Center with Flexible Imports are available. Explore the desired
 resource by expanding the levels.
 
-![Resources pane](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/resourcespane.webp)
+![Resources pane](/images/accessinformationcenter/12.0/resourceaudit/navigate/resourcespane.webp)
 
 Select a resource in the Resources pane and a report in the Reports pane to to view the report data
 in the Results pane. Hover over any icon in the Access Information Center interface to view its

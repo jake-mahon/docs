@@ -17,7 +17,7 @@ the properties from the corresponding managed system.
 
 > For example: `DisplayName`; `Email`; `Identifier`; `StartDate`; etc.
 >
-> ![Scalar Properties](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarex_v600.webp)
+> ![Scalar Properties](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarex_v600.webp)
 
 Most often, properties inside Usercube are each linked to a property from the managed system. This
 way, data from the managed system can be imported into Usercube and stored in the corresponding
@@ -48,14 +48,14 @@ Define the entity type's scalar properties by proceeding as follows:
    existing columns from the external source, and select the properties to be used in the entity
    type.
 
-    ![Map from source](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertiesmap_v602.webp)
+    ![Map from source](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertiesmap_v602.webp)
 
     You need to configure at least one property to be able to define primary keys later, and thus
     create an entity type.
 
 3. Fill in the information fields.
 
-    ![Scalar properties](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarproperties_v603.webp)
+    ![Scalar properties](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarproperties_v603.webp)
 
     - **APPLICATION METADATA**: fields about the future display of the properties inside Usercube.
 
@@ -101,11 +101,11 @@ Define the entity type's scalar properties by proceeding as follows:
             > `thumbnailPhoto` of format `Binary` or `objectCategory` as `RDN` or `pwdLastSet` as
             > `1601 Date`.
             >
-            > ![AD Entity Type - Scalar Properties](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_examplead2_v602.webp)
+            > ![AD Entity Type - Scalar Properties](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_examplead2_v602.webp)
 
 4. Click on the Gear symbol to add advanced settings if needed.
 
-    ![Advanced Settings](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
+    ![Advanced Settings](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
 
     - `Icon`: can be chosen from [Microsoft's list](https://uifabricicons.azurewebsites.net/) and
       will be displayed with the property among users' data.
@@ -116,7 +116,7 @@ Define the entity type's scalar properties by proceeding as follows:
         > For example, `isUnused` is created to spot unused accounts via a combination of
         > `accountExpires` and `lastLogonTimestamp`:
         >
-        > ![Advanced Settings](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
+        > ![Advanced Settings](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
 
     - `Flexible Comparison Expression`: expression that inserts adaptable
       [comparison flexibility](/docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/index.md)
@@ -141,7 +141,7 @@ Every time an entity type mapping is modified and saved, a green pop-up appears 
 should reload the schema to implement the changes. You do not need to click on the button every
 time. It is essential though to reload after the final changes are made.
 
-![Reload](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
+![Reload](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
 The **Reload** button mostly enables your changes to appear in the menu items, which configure the
 left menu links on the UI's home page.
@@ -158,6 +158,6 @@ from among scalar properties.
 
 #### If the Format column is not displayed in the External System part, then�
 
-![Scalar properties](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertieswithoutformat_v522.webp)
+![Scalar properties](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_scalarpropertieswithoutformat_v522.webp)
 
 Refresh the connections' schemas.

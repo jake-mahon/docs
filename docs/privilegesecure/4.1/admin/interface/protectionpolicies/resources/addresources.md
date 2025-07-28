@@ -10,7 +10,7 @@ The Add Resources window provides a list of resources that have been onboarded. 
 onboarded in the
 [Resources Page](/docs/privilegesecure/4.1/admin/interface/resources/resources.md).
 
-![Protection policy add resource window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/addresources.webp)
+![Protection policy add resource window](/images/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/addresources.webp)
 
 The window has the following features:
 

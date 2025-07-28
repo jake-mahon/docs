@@ -26,7 +26,7 @@ When creating a new record, it is possible to select from all the forms for whic
 has the required permissions. To make the selection process as easy as possible, a preview of the
 form fields included in the form is shown on the right hand side.
 
-![Select form](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_1-en.webp)
+![Select form](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_1-en.webp)
 
 In this example, you can see that the "Password" form marked on the left contains three form fields
 "Name", "User name" and "Password". Forms thus act as **templates** according to which their
@@ -40,14 +40,14 @@ corresponding form fields for the previously selected form can now be filled. Pa
 deserve special mention here because they can be handled differently based on password rules. The
 record can be saved via the ribbon when all fields have been filled.
 
-![new record](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_2-en.webp)
+![new record](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_2-en.webp)
 
 ## Validity and tags
 
 Irrespective of the selected form, it is always possible to define the validity and tags for a
 record. Both values are optional.
 
-![Validity and tags](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_3-en.webp)
+![Validity and tags](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_3-en.webp)
 
 - The **validity** defines an end date until which the record is valid. This information can be
   evaluated e.g. in the logbook or in reports. It is thus possible to create a list of all expired
@@ -64,7 +64,7 @@ that **manual setting of permissions is only possible after saving** a record. A
 are set before the record is saved. In this context, the selection of the organisational structure
 and the permissions for a record are important aspects.
 
-![permissions new record](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_4-en.webp)
+![permissions new record](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/passwords/creating_new_passwords_4-en.webp)
 
 - **Manual setting of permissions**: If you want to manually set permissions for the record, select
   the organisational structure in which the record should be saved. After saving the record, the

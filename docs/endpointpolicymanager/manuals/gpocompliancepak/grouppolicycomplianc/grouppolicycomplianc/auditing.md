@@ -13,13 +13,13 @@ In the sections that follow, we'll cover two common auditing problems.
 You might see too many computers appear in the built-in report "Computers Attempting to Report Audit
 Data (Not in Group)," as shown in Figure 70.
 
-![tuning_and_troubleshooting_11](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_11.webp)
+![tuning_and_troubleshooting_11](/images/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_11.webp)
 
 Figure 70. Computers attempting to report audit data.
 
 The group the computers must belong to is specified as shown in Figure 71.
 
-![tuning_and_troubleshooting_12](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_12.webp)
+![tuning_and_troubleshooting_12](/images/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_12.webp)
 
 Figure 71. Computers must belong to the specified group.
 
@@ -48,7 +48,7 @@ To help you troubleshoot endpoints that are missing the scheduled task, you can 
 Then use the "Has Audit Task" column to verify whether the endpoint includes the Endpoint Policy
 Manager GPCR scheduled task, as shown in Figure 72.
 
-![tuning_and_troubleshooting_13](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_13.webp)
+![tuning_and_troubleshooting_13](/images/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_13.webp)
 
 Figure 72. The "Has Audit Task" column.
 

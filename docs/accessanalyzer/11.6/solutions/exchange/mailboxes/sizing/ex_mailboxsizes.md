@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_Mailbox Sizes Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/mailboxes/sizing/mailboxsizesanalysis.webp)
+![Analysis Tasks for the EX_Mailbox Sizes Job](/images/accessanalyzer/11.6/solutions/exchange/mailboxes/sizing/mailboxsizesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -65,4 +65,3 @@ the following pre-configured reports:
 | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Largest Recoverable Items Folder (Dumpster) (Dumpster Sizes by User) | This report identifies users with the largest Recoverable Items folder (dumpster). | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays users with largest Recoverable Items folders</li><li>Table – Provides details on user Recoverable Items folders</li></ul> |
 | Largest Mailboxes (Top Users by Mailbox Size)                        | This report identifies users with the largest mailboxes.                           | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays users with the largest mailboxes</li><li>Table – Provides details on users with largest mailboxes</li></ul>               |
-

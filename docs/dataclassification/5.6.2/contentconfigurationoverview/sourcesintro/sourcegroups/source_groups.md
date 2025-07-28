@@ -10,7 +10,7 @@ Source groups provide a way of logically grouping specific sources, perhaps by t
 an internal business specification. Selecting the option Add to Group on the main sources grid
 screen will present the following pop-up:
 
-![addtogroup](/img/product_docs/dataclassification/5.6.2/sources/source_groups/addtogroup.webp)
+![addtogroup](/images/dataclassification/5.6.2/sources/source_groups/addtogroup.webp)
 
 A group can either be "mixed", which allows it to contain all source types, or source specific. In
 the example above a group would be created entitled "Demo Content", which only supports the addition
@@ -20,7 +20,7 @@ drop-down list provided. [See Dynamic Source Groups for more information.](#dyna
 Selecting the cog icon on the main sources grid screen for a source group allows you to amend the
 group settings:
 
-![editgroup](/img/product_docs/dataclassification/5.6.2/sources/source_groups/editgroup.webp)
+![editgroup](/images/dataclassification/5.6.2/sources/source_groups/editgroup.webp)
 
 Here you can:
 

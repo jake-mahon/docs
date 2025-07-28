@@ -8,7 +8,7 @@ sidebar_position: 90
 
 The Windows menu displays the configuration options for Windows platforms.
 
-![Windows Platform Configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/windows.webp)
+![Windows Platform Configuration](/images/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/windows.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for a Windows Platform.

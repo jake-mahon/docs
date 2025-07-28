@@ -17,7 +17,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_LocalMembership Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/collection/localmembershipquery.webp)
+![Queries for the SG_LocalMembership Job](/images/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/collection/localmembershipquery.webp)
 
 The query for the SG_LocalMembership job is:
 
@@ -34,7 +34,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_LocalMembership Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/collection/localmembershipanalysis.webp)
+![Analysis Tasks for the SG_LocalMembership Job](/images/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/collection/localmembershipanalysis.webp)
 
 The default analysis task is:
 

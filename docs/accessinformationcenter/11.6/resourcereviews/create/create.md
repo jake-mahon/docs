@@ -11,7 +11,7 @@ the
 [Manage Reviews Page](/docs/accessinformationcenter/11.6/resourcereviews/interface/interface.md#manage-reviews-page)
 topic for additional information.
 
-![Create Review wizard](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
+![Create Review wizard](/images/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -60,7 +60,7 @@ Follow the steps to create a review.
 
 **Step 1 –** On the Manage Reviews page, click Create. The Create Review wizard opens.
 
-![Create Review wizard Review Type page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
+![Create Review wizard Review Type page](/images/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
 
 **Step 2 –** On the Review Type page, provide the following information and click **Next**:
 
@@ -98,7 +98,7 @@ to Step 5.
 :::
 
 
-![Create Review wizard Criteria page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/criteria.webp)
+![Create Review wizard Criteria page](/images/accessinformationcenter/11.6/resourcereviews/wizard/criteria.webp)
 
 **Step 3 –** On the Criteria page, select the types of sensitive criteria to include in the
 Sensitive Data review from the list on the left and click **Add**. Multiple items can be selected
@@ -124,7 +124,7 @@ be created until those resources have been removed or the option unchecked.
 :::
 
 
-![Create Review wizard Resources page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/resources.webp)
+![Create Review wizard Resources page](/images/accessinformationcenter/11.6/resourcereviews/wizard/resources.webp)
 
 **Step 5 –** On the Resources page, select the resources to be included in the review. The Search
 feature is available to filter the list of available resource that match the type of review being
@@ -166,12 +166,12 @@ created.
 
 - Once the desired resources have been selected, click **Next**.
 
-![Create Review wizard Summary page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/summary.webp)
+![Create Review wizard Summary page](/images/accessinformationcenter/11.6/resourcereviews/wizard/summary.webp)
 
 **Step 6 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to create the review.
 
-![Create Review wizard review created message](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/created.webp)
+![Create Review wizard review created message](/images/accessinformationcenter/11.6/resourcereviews/wizard/created.webp)
 
 **Step 7 –** The action status displays on the page. When the review has been created (100%), click
 **Close**. The Create Review wizard closes.

@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Options page provides format options for returned data.
 
-![Password Security Data Collection Wizard Scan options page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/options.webp)
+![Password Security Data Collection Wizard Scan options page](/images/accessanalyzer/12.0/admin/datacollector/passwordsecurity/options.webp)
 
 The configurable scan options are:
 

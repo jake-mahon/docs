@@ -9,7 +9,7 @@ sidebar_position: 40
 The Results page provides configuration settings for the Properties to return and ROWKEY's
 components.
 
-![PowerShell Data Collector Wizard Results page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/powershell/results.webp)
+![PowerShell Data Collector Wizard Results page](/images/accessanalyzer/11.6/admin/datacollector/powershell/results.webp)
 
 The Results page options are:
 

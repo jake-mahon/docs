@@ -16,7 +16,7 @@ dashboard.
 
 Here is an example additional reviewer dashboard showing new assignments.
 
-![Additional Reviewer Dashboard](/img/product_docs/platgovnetsuite/uar/uar_additional_reviewer/dashboard_add_reviewer.webp)
+![Additional Reviewer Dashboard](/images/platgovnetsuite/uar/uar_additional_reviewer/dashboard_add_reviewer.webp)
 
 ## Dashboard Controls
 

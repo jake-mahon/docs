@@ -23,6 +23,6 @@ which means that the value will be retained on the client—even though the GPO 
 Note that when the reversion mode is set, the text in the Endpoint Policy Manager Application
 Settings Manager user interface changes to italics as a visual signal, as seen in Figure 27.
 
-![policypak_application_settings_1_6](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_6.webp)
+![policypak_application_settings_1_6](/images/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_6.webp)
 
 Figure 27. Text in italics show that the reversion mode is in effect.

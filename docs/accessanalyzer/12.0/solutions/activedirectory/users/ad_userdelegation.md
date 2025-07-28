@@ -23,7 +23,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Task for the AD_UserDelegation Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/userdelegationanalysis.webp)
+![Analysis Task for the AD_UserDelegation Job](/images/accessanalyzer/12.0/solutions/activedirectory/users/userdelegationanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ the following pre-configured report:
 | Report                       | Description                                                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                                                       |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Users Trusted for Delegation | This report highlights which users are trusted for delegation, which accounts are sensitive, and whether the delegation is constrained or unconstrained. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays users trusted for delegation by domain</li><li>Table – Provides details on users trusted for delegation</li><li>Table – Provides details on users trusted for delegation by domain</li></ul> |
-

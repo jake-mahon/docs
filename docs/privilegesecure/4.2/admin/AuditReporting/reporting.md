@@ -19,7 +19,7 @@ report name. Each report has a Filters tab (which allows the report to be run, d
 configured) and a Subscriptions tab (which allows the Privilege Secure user to Subscribe to the
 report via email).
 
-![Reports Tree](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/reportstree.webp)
+![Reports Tree](/images/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/reportstree.webp)
 
 The Search Reports box will search all report names, both predefined and custom, for the specified
 report name. The report tree will then be filtered down to the matching reports.
@@ -68,7 +68,7 @@ new report in the Enter Report Name box.
 
 The Filters tab provides customization options for the new report.
 
-![Reporting Filters Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/filterstab.webp)
+![Reporting Filters Tab](/images/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/filterstab.webp)
 
 The Filters tab has the following configuration options:
 
@@ -148,7 +148,7 @@ identically.
 
 Customize the desired configuration settings in the Filters tab.
 
-![Reporting Filters Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/filterstab.webp)
+![Reporting Filters Tab](/images/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/filterstab.webp)
 
 The Filters tab has the following configuration options:
 
@@ -175,7 +175,7 @@ The Filters tab has the following configuration options:
 
 The Subscriptions tab allows the Privilege Secure user to Subscribe to the report via email.
 
-![Reporting Subscriptions Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/subscriptionstab.webp)
+![Reporting Subscriptions Tab](/images/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/subscriptionstab.webp)
 
 The report will be emailed to the Email value for the user, which is populated based on Active
 Directory attributes and can be confirmed for a given user by checking the Users and Groups page. If

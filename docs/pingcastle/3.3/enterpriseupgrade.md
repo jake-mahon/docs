@@ -7,9 +7,9 @@
 You can check the existing version using the About link at the bottom of
 each page.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseupgrade/rId9.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseupgrade/rId9.webp)
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseupgrade/rId12.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseupgrade/rId12.webp)
 
 **Database backup**
 
@@ -37,7 +37,7 @@ You have to download the .zip file of the program.
 
 The .msi file has not been designed for upgrade.
 
-![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseupgrade/rId17.webp)
+![Une image contenant texte Description générée automatiquement](/images/pingcastle/enterpriseupgrade/rId17.webp)
 
 **Recommended installation on Windows**
 

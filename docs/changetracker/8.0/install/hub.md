@@ -42,33 +42,33 @@ The installer can be downloaded from the customer portal. The installer employes
 configuration of the installation. Running a later version of the installer on a server that already
 has a Change Tracker Hub installed will update the installation.
 
-![eula](/img/product_docs/changetracker/8.0/install/eula.webp)
+![eula](/images/changetracker/8.0/install/eula.webp)
 
 **Step 1 –** Accept the End User License Agreement to start the installation.
 
-![ports](/img/product_docs/changetracker/8.0/install/ports.webp)
+![ports](/images/changetracker/8.0/install/ports.webp)
 
 **Step 2 –** Enter the web server ports.
 
-![sslcertificate](/img/product_docs/changetracker/8.0/install/sslcertificate.webp)
+![sslcertificate](/images/changetracker/8.0/install/sslcertificate.webp)
 
 **Step 3 –** Enter a password for the SSL certificate's private key.
 
-![mongodb](/img/product_docs/changetracker/8.0/install/mongodb.webp)
+![mongodb](/images/changetracker/8.0/install/mongodb.webp)
 
 **Step 4 –** Define an existing MongoDB instance to use or leave the MongoDB server field as
 localhost to have the installer deploy it's built-in version of MongoDB Community edition.
 
-![mongodblogpath](/img/product_docs/changetracker/8.0/install/mongodblogpath.webp)
+![mongodblogpath](/images/changetracker/8.0/install/mongodblogpath.webp)
 
 **Step 5 –** Define the path to store the MongoDB log.
 
-![redis](/img/product_docs/changetracker/8.0/install/redis.webp)
+![redis](/images/changetracker/8.0/install/redis.webp)
 
 **Step 6 –** Most installations can leave this blank, but if a clustered installation is planned,
 enter the address of the required Redis server.
 
-![installationpath](/img/product_docs/changetracker/8.0/install/installationpath.webp)
+![installationpath](/images/changetracker/8.0/install/installationpath.webp)
 
 **Step 7 –** Select the installation path for Change Tracker.
 
@@ -77,7 +77,7 @@ Changing this is only recommended for advanced installations.
 :::
 
 
-![adminuserpassword](/img/product_docs/changetracker/8.0/install/adminuserpassword.webp)
+![adminuserpassword](/images/changetracker/8.0/install/adminuserpassword.webp)
 
 **Step 8 –** Once the installation is complete set a strong password for the Admin user.
 

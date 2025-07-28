@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_SensitiveDataActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/activity/forensics/sensitivedataactivityanalysis.webp)
+![Analysis Tasks for the SP_SensitiveDataActivity Job](/images/accessanalyzer/12.0/solutions/sharepoint/activity/forensics/sensitivedataactivityanalysis.webp)
 
 The default analysis tasks are:
 
@@ -36,4 +36,3 @@ produces the following pre-configured report:
 | Report                  | Description                                        | Default Tags | Report Elements                                                                                                                                                      |
 | ----------------------- | -------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sensitive Data Activity | This Report shows user activity on sensitive data. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays sensitive data activity</li><li>Table – Provides details on sensitive data activity</li></ul> |
-

@@ -26,12 +26,12 @@ for use with Endpoint Policy Manager Cloud or an MDM service. This way, you can 
 Group Policy settings and export them quickly and easily into one export file, which is uploaded
 into Endpoint Policy Manager Cloud or an MDM service for use later.
 
-![merging_and_reducing_existing](/img/product_docs/endpointpolicymanager/adminstrativetemplates/merging_and_reducing_existing.webp)
+![merging_and_reducing_existing](/images/endpointpolicymanager/adminstrativetemplates/merging_and_reducing_existing.webp)
 
 To run the tool, locate the downloadable ISO file in the Endpoint Policy Manager Extras folder, as
 seen below.
 
-![merging_and_reducing_existing_1](/img/product_docs/endpointpolicymanager/adminstrativetemplates/merging_and_reducing_existing_1.webp)
+![merging_and_reducing_existing_1](/images/endpointpolicymanager/adminstrativetemplates/merging_and_reducing_existing_1.webp)
 
 Currently, the Endpoint Policy Manager **Group Policy Merge Tool** can only migrate GPOs containing
 ADM/ADMX (REG.POL) items. In the future, more formats will be available for other scenarios.

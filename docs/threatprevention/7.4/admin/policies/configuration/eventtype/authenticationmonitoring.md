@@ -20,7 +20,7 @@ The event filters for the Authentication Monitoring event type are:
 - Hosts (from)
 - Hosts (to)
 
-![Policy window - Authentication Monitoring Event Type](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/authenticationmonitoring.webp)
+![Policy window - Authentication Monitoring Event Type](/images/threatprevention/7.4/admin/policies/eventtype/authenticationmonitoring.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -40,7 +40,7 @@ Use the Authentication Protocol filter for monitoring to set the scope of the po
 specific authentication event protocols or to exclude specific authentication event protocols from
 being monitored.
 
-![Policy window - Authentication Protocol filter for monitoring](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/authenticationprotocolmonitoring.webp)
+![Policy window - Authentication Protocol filter for monitoring](/images/threatprevention/7.4/admin/policies/eventtype/authenticationprotocolmonitoring.webp)
 
 - In the Monitor These Protocols section, check the **All** box to include all protocols or select
   specific protocols:
@@ -69,7 +69,7 @@ being monitored.
   **Windows Settings** > **Security Settings** > **Account Policies** > **Password Policy** (shown
   in the example GPO > Default DomainPolicy).
 
-  ![Default Domain Policy](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/gpo.webp)
+  ![Default Domain Policy](/images/threatprevention/7.4/admin/policies/eventtype/gpo.webp)
 
 - When enabled, the **Exclude failed authentications with expired passwords** option allows the
   Authentication or Analytic policy to ignore failed authentications with a newly expired password
@@ -81,7 +81,7 @@ being monitored.
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/images/threatprevention/7.4/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -105,7 +105,7 @@ topic for additional information.
 The Success filter is where the policy is set to only monitor successful events, failed events, or
 both.
 
-![Event Type – Success filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/success.webp)
+![Event Type – Success filter](/images/threatprevention/7.4/admin/policies/eventtype/success.webp)
 
 Select the radio button for the desired monitoring filter:
 
@@ -120,7 +120,7 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/images/threatprevention/7.4/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
@@ -142,7 +142,7 @@ topic for additional information.
 
 **Sub Tree**
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/images/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -152,7 +152,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 Use the IP Addresses (from) filter to set the scope of the policy to specific IP addresses as
 originators of an event or to exclude specific IP addresses.
 
-![Event Type – IP Addresses (from) filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/ipaddressesfrom.webp)
+![Event Type – IP Addresses (from) filter](/images/threatprevention/7.4/admin/policies/eventtype/ipaddressesfrom.webp)
 
 Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Addresses, and Exclude
 Collections areas to edit the lists.
@@ -177,7 +177,7 @@ topic for additional information.
 Use the IP Addresses (to) filter to set the scope of the policy to specific IP addresses as target
 hosts of an event or to exclude specific IP addresses.
 
-![ipaddressesto](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/ipaddressesto.webp)
+![ipaddressesto](/images/threatprevention/7.4/admin/policies/eventtype/ipaddressesto.webp)
 
 Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Addresses, and Exclude
 Collections areas to edit the lists.
@@ -202,7 +202,7 @@ topic for additional information.
 Use the Hosts (from) filter for monitoring to set the scope of the policy to only monitor specific
 hosts as originators of an event or to exclude specific hosts from being monitored.
 
-![Event Type – Hosts (from) filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/hostsfrom.webp)
+![Event Type – Hosts (from) filter](/images/threatprevention/7.4/admin/policies/eventtype/hostsfrom.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections
 areas to edit the lists.
@@ -227,7 +227,7 @@ topic for additional information.
 Use the Hosts (to) filter for monitoring the scope of the policy to only monitor specific hosts as
 target hosts of an event or to exclude specific hosts from being monitored.
 
-![Policy window - Hosts (to) filter for monitoring](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/hoststo.webp)
+![Policy window - Hosts (to) filter for monitoring](/images/threatprevention/7.4/admin/policies/eventtype/hoststo.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections
 areas to edit the lists.

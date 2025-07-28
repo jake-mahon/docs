@@ -52,7 +52,7 @@ this link to bring back the focus to the wizard.
 :::
 
 
-![Access Verification window](/img/product_docs/threatprevention/7.5/install/upgrade/accessverification.webp)
+![Access Verification window](/images/threatprevention/7.5/install/upgrade/accessverification.webp)
 
 **Step 5 –** The Access Verification window displays one of the following statuses:
 
@@ -68,7 +68,7 @@ data collection.
 :::
 
 
-![Upgrade Agent window](/img/product_docs/threatprevention/7.5/install/upgrade/upgradeagent.webp)
+![Upgrade Agent window](/images/threatprevention/7.5/install/upgrade/upgradeagent.webp)
 
 **Step 6 –** On the Upgrade Agent window, the old Agent will be uninstalled and the newer version of
 the Agent installed. One of two status messages display:

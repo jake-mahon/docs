@@ -18,7 +18,7 @@ The job is dependent upon the Job Statistics Retention configuration in the **Se
 [Application](/docs/accessanalyzer/11.6/admin/settings/application/overview.md)
 topic for additional information.
 
-![SAS_ExecutionStatistics job in the Jobs tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/jobstree_4.webp)
+![SAS_ExecutionStatistics job in the Jobs tree](/images/accessanalyzer/11.6/admin/jobs/instantjobs/jobstree_4.webp)
 
 Runtime Details:
 
@@ -45,7 +45,7 @@ preconfigured for this job.
 :::
 
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_3.webp)
+![Default Analysis tasks for the job](/images/accessanalyzer/11.6/admin/jobs/instantjobs/analysistasks_3.webp)
 
 The default analysis tasks are:
 
@@ -64,4 +64,3 @@ the following pre-configured reports.
 | Analysis Execution       | This report identifies abnormally long analysis times.            | None         | This report is comprised of two elements: <ul><li>Bar graph – Displays Abnormally Long Analysis Times</li><li>Table – Displays details on analysis times</li></ul>     |
 | Collection Statistics    | This report identifies abnormally long collection times.          | None         | This report is comprised of two elements: <ul><li>Bar graph – Displays Abnormally Long Collection Times</li><li>Table – Displays details on collection times</li></ul> |
 | Job Execution Statistics | This report identifies jobs which have abnormally long run times. | None         | This report is comprised of two elements: <ul><li>Pie chart – Displays Job Status</li><li>Table – Displays details on job status</li></ul>                             |
-

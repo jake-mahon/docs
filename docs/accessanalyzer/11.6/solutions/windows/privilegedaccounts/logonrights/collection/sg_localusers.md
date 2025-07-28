@@ -17,7 +17,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the SG_LocalUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/logonrights/collection/localusersquery.webp)
+![Queries for the SG_LocalUsers Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/logonrights/collection/localusersquery.webp)
 
 The query for the SG_LocalUsers job is:
 
@@ -34,7 +34,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SG_LocalUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/windows/privilegedaccounts/logonrights/collection/localusersanalysis.webp)
+![Analysis Tasks for the SG_LocalUsers Job](/images/accessanalyzer/11.6/solutions/windows/privilegedaccounts/logonrights/collection/localusersanalysis.webp)
 
 The default analysis tasks is:
 

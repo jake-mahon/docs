@@ -16,7 +16,7 @@ approvals. Submitting an approval must be done through Netwrix Privilege Secure.
 :::
 
 
-![Approvals Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
+![Approvals Dashboard](/images/privilegesecure/4.2/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
 
 The Approvals Dashboard has the following features:
 

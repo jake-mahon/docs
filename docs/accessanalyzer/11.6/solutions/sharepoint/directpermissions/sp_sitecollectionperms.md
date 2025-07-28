@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_SiteCollectionPerms Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/directpermissions/sitecollectionpermsanalysis.webp)
+![Analysis Tasks for the SP_SiteCollectionPerms Job](/images/accessanalyzer/11.6/solutions/sharepoint/directpermissions/sitecollectionpermsanalysis.webp)
 
 They need to remain in the default order:
 
@@ -42,4 +42,3 @@ report:
 | Report                             | Description                                                                                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                    |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Direct Site Collection Permissions | Most content will inherit the permissions configured at the root of the site collection. Having an understanding of how those permissions are assigned is useful for gaining perspective on the overall SharePoint permission configuration. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 site collections by direct permissions</li><li>Table – Provides details on site collections by direct permissions breakdown</li></ul> |
-

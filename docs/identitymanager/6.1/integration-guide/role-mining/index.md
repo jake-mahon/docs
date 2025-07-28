@@ -29,7 +29,7 @@ Now that users received their roles, the role mining tool can analyze these assi
 [single role rules](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 which will assign single roles to certain users matching given criteria.
 
-![Schema - Role Mining](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_schema.webp)
+![Schema - Role Mining](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_schema.webp)
 
 Role mining is a Machine Learning process. It is a statistic tool used to emphasize the
 [dimensions](/docs/identitymanager/6.1/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions)
@@ -60,7 +60,7 @@ Mining rules can be configured to generate:
 2. suggested rules, i.e. rules which don't assign roles directly, but suggest them during an
    entitlement request for a user.
 
-    ![Suggested](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_suggested_v602.webp)
+    ![Suggested](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_suggested_v602.webp)
 
 You can generate both automatic and suggested rules for the same role, with different precision
 levels and different approval workflows.
@@ -70,12 +70,12 @@ levels and different approval workflows.
 > above 95% and a second mining rule to generate suggested assignment rules when the ratio is
 > between 75% and 95%.
 >
-> ![Rule Types](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype.webp)
+> ![Rule Types](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype.webp)
 
 You can also differentiate entitlements according to their sensitivity, for example require
 additional reviews following the request of a sensitive entitlement:
 
-![Rule Types - Sensitivity](/img/product_docs/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype-sensitivity.webp)
+![Rule Types - Sensitivity](/images/identitymanager/6.1/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype-sensitivity.webp)
 
 The automation of entitlement assignments according to sensitivity brings greater confidence in
 basic entitlements assignment which won't need to be certified anymore. Thus, automation lets
@@ -90,25 +90,25 @@ Consider that all users from a given organization have a given role. Then role m
 single role rule to assign automatically this role to any user of this organization. Then users'
 entitlements remain unchanged:
 
-![Impact Example - Use Case 1](/img/product_docs/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase1.webp)
+![Impact Example - Use Case 1](/images/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase1.webp)
 
 Now consider that half of users in the organization have the role. Then role mining will not
 generate a role assignment rule. Then users' entitlements remain unchanged:
 
-![Impact Example - Use Case 2](/img/product_docs/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase2.webp)
+![Impact Example - Use Case 2](/images/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase2.webp)
 
 Starting from the previous example, consider now that users progressively request the role. As long
 as the ratio is below a given threshold, then role mining will not generate a role assignment rule.
 Then users' entitlements remain unchanged:
 
-![Impact Example - Use Case 3](/img/product_docs/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase3.webp)
+![Impact Example - Use Case 3](/images/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase3.webp)
 
 Starting from the previous example, consider now that users continue requesting the role. As soon as
 the ratio is above the threshold, then role mining will create a single role rule to assign
 automatically this role to any user in the organization. Then a few users are going to get the
 entitlement:
 
-![Impact Example - Use Case 4](/img/product_docs/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase4.webp)
+![Impact Example - Use Case 4](/images/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase4.webp)
 
 Starting from the previous example, consider now that, as a result of a reorganization or an access
 certification for example, some users do not have the role anymore. If the ratio is below the
@@ -117,7 +117,7 @@ configured with a
 [grace period](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
 users who need the role will not lose it. Then users' entitlements remain unchanged:
 
-![Impact Example - Use Case 5](/img/product_docs/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase5.webp)
+![Impact Example - Use Case 5](/images/identitymanager/6.1/integration-guide/role-mining/rolemining_impact_usecase5.webp)
 
 ## Perform Role Mining
 
@@ -133,10 +133,10 @@ to generate role assignment rules either directly or in a
 Simulating the results of role mining allows a knowledgeable user to analyze the impact of role
 mining on the role model, before applying them.
 
-![Schema - Role Mining](/img/product_docs/identitymanager/6.1/integration-guide/role-mining/rolemining_simulation.webp)
+![Schema - Role Mining](/images/identitymanager/6.1/integration-guide/role-mining/rolemining_simulation.webp)
 
 The simulation tool gives another point of view on the role model as it emphasizes the changes.
 
-![Schema - Role Mining](/img/product_docs/identitymanager/6.1/integration-guide/role-mining/rolemining_simulationresults.webp)
+![Schema - Role Mining](/images/identitymanager/6.1/integration-guide/role-mining/rolemining_simulationresults.webp)
 
 NETWRIX recommends simulating role mining before applying the results.

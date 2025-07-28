@@ -35,7 +35,7 @@ this job. Only modify the analysis tasks listed in the customizable analysis tas
 :::
 
 
-![Analysis Tasks for the AWS_StaleUsers Job](/img/product_docs/accessanalyzer/11.6/solutions/aws/users/staleusersanalysis.webp)
+![Analysis Tasks for the AWS_StaleUsers Job](/images/accessanalyzer/11.6/solutions/aws/users/staleusersanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -69,4 +69,3 @@ the following preconfigured report:
 | Report      | Description                                                                                                                                                                                                                               | Default Tags | Report Element                                                                                                                                                            |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stale Users | This report identifies user accounts which have not logged into AWS for an extended amount of time or have never logged in. A user account is considered stale if the last logon is over 60 days ago or the password has never been used. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays stale users by account</li><li>Table – Provides details on stale users</li></ul> |
-

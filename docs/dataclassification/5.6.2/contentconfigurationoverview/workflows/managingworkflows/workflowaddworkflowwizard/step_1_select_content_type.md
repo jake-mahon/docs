@@ -19,7 +19,7 @@ which content sources of that type should be included in processing.
 2. Then specify which source of content you want to process. You can select All sources, or select
    the one you need.
 
-![workflow_step1_doc_type_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/workflow_step1_doc_type_thumb_0_0.webp)
+![workflow_step1_doc_type_thumb_0_0](/images/dataclassification/5.6.2/workflows/workflow_step1_doc_type_thumb_0_0.webp)
 
 Click Next to proceed.
 

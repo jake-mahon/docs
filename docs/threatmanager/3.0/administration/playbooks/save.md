@@ -11,7 +11,7 @@ recreating the step.
 
 Follow the steps to save a step to the My Steps list.
 
-![playbookstep](/img/product_docs/threatmanager/3.0/administration/playbooks/playbookstep.webp)
+![playbookstep](/images/threatmanager/3.0/administration/playbooks/playbookstep.webp)
 
 **Step 1 –** Click the step in the playbook to expand it.
 

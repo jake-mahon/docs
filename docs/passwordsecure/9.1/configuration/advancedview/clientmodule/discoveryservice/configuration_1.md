@@ -12,12 +12,12 @@ When this module is opened in Netwrix Password Secure, **there are no entries di
 Discovery Service** module at the beginning. The entries need to be generated using a
 [System tasks](/docs/passwordsecure/9.1/configuration/advancedview/mainmenufc/extras/systemtasks/system_tasks.md).
 
-![discovery service entries](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-1-en.webp)
+![discovery service entries](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-1-en.webp)
 
 Once a **System Task** has been completed, the data discovered during the search is listed in a
 table:
 
-![discovery service entries](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-2-en.webp)
+![discovery service entries](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-2-en.webp)
 
 NOTE: The information can be grouped together using the column editor.
 
@@ -41,7 +41,7 @@ correspondingly configured for a **Network Scan**.
 
 The following image shows a newly added **Discovery Service Task**.
 
-![new discovery task](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-3-en.webp)
+![new discovery task](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-3-en.webp)
 
 1. Shows information about the **Discovery Service Task**.
 2. In the **General** section, the name of the **Discovery Service Task** is entered (optionally
@@ -60,7 +60,7 @@ Password:
 This section is used for special entries for the **Discovery Service Task**. After it has been
 finished, the **Network Scan** scans the **network** according to these guidelines.
 
-![task settings](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-4-en.webp)
+![task settings](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-4-en.webp)
 
 1. **Password** and **Computer scan variants**: The required password must already have been issued
    and it requires corresponding rights for the domain. Active Directory computer: Only those
@@ -90,7 +90,7 @@ scanned!
 This section is used to enter information about the start of the task and other additional
 information.
 
-![Interval / Executing server / Tags](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-5-en.webp)
+![Interval / Executing server / Tags](/images/passwordsecure/9.1/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-5-en.webp)
 
 1. **Interval**: The interval at which the **Discovery Service Task** should be executed is defined
    here. The default setting is hourly, one year after adding the **Discovery Service Task**. The

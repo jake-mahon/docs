@@ -30,7 +30,7 @@ node on the left and navigate to **Policies** > **Windows Settings** > **Securit
 | Audit account logon events | _"Success"_ and _"Failure"_ |
 | Audit system events        | _"Success"_                 |
 
-![manualconfig_nla_auditpolicies2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
+![manualconfig_nla_auditpolicies2016](/images/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
 
 **Step 5 –** Set the Audit system events policy to **Success**.
 

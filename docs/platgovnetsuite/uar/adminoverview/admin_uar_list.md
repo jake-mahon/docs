@@ -13,7 +13,7 @@ controlled with the **Sort By** selection in the Filters section. All changes ar
 
 Here is an example of the **Global** review list:
 
-![Administrator UAR list](/img/product_docs/platgovnetsuite/uar/uar_admin/admin_uar.webp)
+![Administrator UAR list](/images/platgovnetsuite/uar/uar_admin/admin_uar.webp)
 
 ## Filters
 
@@ -28,7 +28,7 @@ Use **Clear** to reset the Filters.
     - Second Date field only: All reviews created before the specified date are listed.
     - Both Date fields: All reviews created in the date range are listed.
 
-- **Status** Select from the drop down list. **All** is the default.  
+- **Status** Select from the drop down list. **All** is the default.
   Possible statuses are **Not Started**, **Pending Assignment**, **In Progress**, **Complete**,
   **Cancelled** and **Waiting for CR**.
 - **Sort By** Displays a list of either **Global Reviews** or **Single Reviews**. **Global Reviews**
@@ -79,12 +79,12 @@ Use **Clear** to reset the Filters.
 1. Open **UAR List** from your menu bar or a shortcut.
 2. Click **Create Review**.
 
-    ![Create a review](/img/product_docs/platgovnetsuite/uar/uar_admin/create_review1.webp)
+    ![Create a review](/images/platgovnetsuite/uar/uar_admin/create_review1.webp)
 
 3. Select **Single Review** to add to an existing review, or **Global Review** to start a new
    review. This example shows the Add to an Existing Review option.
 
-    ![Create a review](/img/product_docs/platgovnetsuite/uar/uar_admin/create_review2.webp)
+    ![Create a review](/images/platgovnetsuite/uar/uar_admin/create_review2.webp)
 
 4. Use the drop down to **Select Global Review** this option is only if you chose **Single**. It is
    not available if you are creating a new **Global** review. The existing information for the
@@ -110,7 +110,7 @@ menu.
 2. Select one or more Reviews.
 3. Click **Cancel Review**. Any open change requests are canceled.
 
-    ![Cancel a review](/img/product_docs/platgovnetsuite/uar/uar_admin/cancel_review.webp)
+    ![Cancel a review](/images/platgovnetsuite/uar/uar_admin/cancel_review.webp)
 
 4. Click **Accept**.
 
@@ -127,7 +127,7 @@ Reminders can be sent from the administrator's UAR List or from the Review list
 
 Clicking on a **Name** in the UAR List opens the Review List. Here is an example.
 
-![Review List](/img/product_docs/platgovnetsuite/uar/uar_admin/admin_review_list.webp)
+![Review List](/images/platgovnetsuite/uar/uar_admin/admin_review_list.webp)
 
 ### Filters
 
@@ -142,7 +142,7 @@ Use **Clear** to reset the Filters.
     - Second Date field only: All reviews created before the specified date are listed.
     - Both Date fields: All reviews created in the date range are listed.
 
-- **Status** Select from the drop down list. **All** is the default.  
+- **Status** Select from the drop down list. **All** is the default.
   Possible statuses are **Not Started**, **Pending Assignment**, **In Progress**, **Complete**,
   **Cancelled** and **Waiting for CR**.
 - **Role** Select the role from the drop down list. **All** is the default.

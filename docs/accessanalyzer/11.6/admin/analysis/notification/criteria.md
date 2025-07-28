@@ -8,7 +8,7 @@ sidebar_position: 40
 
 Use the Notification Criteria page to specify criteria to trigger a notification.
 
-![Notification Data Analysis Module wizard Criteria page](/img/product_docs/accessanalyzer/11.6/admin/analysis/notification/criteria.webp)
+![Notification Data Analysis Module wizard Criteria page](/images/accessanalyzer/11.6/admin/analysis/notification/criteria.webp)
 
 The following options are available:
 

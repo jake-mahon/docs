@@ -9,7 +9,7 @@ sidebar_position: 50
 The System Health interface displays database statistics and the total number of events for all
 threat types and a summary for each job.
 
-![System Health interface](/img/product_docs/threatmanager/3.0/administration/configuration/systemhealth/interface.webp)
+![System Health interface](/images/threatmanager/3.0/administration/configuration/systemhealth/interface.webp)
 
 :::note
 The System Health page only displays threats that are enabled. Jobs that are disabled are

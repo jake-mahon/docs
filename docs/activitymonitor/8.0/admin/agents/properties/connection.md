@@ -19,7 +19,7 @@ Remember, **Test** the credentials before clicking OK to ensure a successful con
 :::
 
 
-![Connection Tab for Agent Properties](/img/product_docs/activitymonitor/8.0/admin/agents/properties/connectiontab.webp)
+![Connection Tab for Agent Properties](/images/activitymonitor/8.0/admin/agents/properties/connectiontab.webp)
 
 Agent server fields:
 
@@ -50,7 +50,7 @@ the local Administrators group.
 
 The Specify account or group window is opened from a field where a Windows account is needed.
 
-![Specify Account or Group popup window](/img/product_docs/activitymonitor/8.0/admin/agents/properties/windowsspecifyaccountorgroup.webp)
+![Specify Account or Group popup window](/images/activitymonitor/8.0/admin/agents/properties/windowsspecifyaccountorgroup.webp)
 
 Follow the steps to use this window.
 
@@ -83,7 +83,7 @@ Remember, **Test** the credentials before clicking OK to ensure a successful con
 :::
 
 
-![linuxconnectiontab](/img/product_docs/activitymonitor/8.0/admin/agents/properties/linuxconnectiontab.webp)
+![linuxconnectiontab](/images/activitymonitor/8.0/admin/agents/properties/linuxconnectiontab.webp)
 
 Agent server fields:
 

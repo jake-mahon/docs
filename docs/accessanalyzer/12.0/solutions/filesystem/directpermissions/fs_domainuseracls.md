@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the FS_DomainUserACLs Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/domainuseraclsanalysis.webp)
+![Analysis Tasks for the FS_DomainUserACLs Job](/images/accessanalyzer/12.0/solutions/filesystem/directpermissions/domainuseraclsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -40,4 +40,3 @@ permissions, the FS_DomainUserACLs job produces the following pre-configured rep
 | Report           | Description                                                                      | Default Tags | Report Elements                                                                                                                                                                                                     |
 | ---------------- | -------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Domain User ACLs | This report identifies all places where a domain user account has direct rights. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top 5 servers affected by folders</li><li>Table – Provides details on domain users</li><li>Table – Provides details on resources</li></ul> |
-

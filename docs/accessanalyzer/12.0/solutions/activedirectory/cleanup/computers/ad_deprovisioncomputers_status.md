@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for AD_DeprovisionComputers_Status Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/computers/deprovisioncomputersstatusanalysis.webp)
+![Analysis Tasks for AD_DeprovisionComputers_Status Job](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/computers/deprovisioncomputersstatusanalysis.webp)
 
 The default analysis tasks are:
 
@@ -34,4 +34,3 @@ Job produces the following pre-configured report.
 | Report                  | Description                                                                              | Default Tags | Report Elements                                                                                                                                                                                          |
 | ----------------------- | ---------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Computer Deprovisioning | This report tracks actions taken each day of the Stale Computer Deprovisioning campaign. | None         | This report is comprised of three elements: <ul><li>Line Chart – Displays cleanup progress</li><li>Table – Provides details on computer deprovisioning</li><li>Table – Provides action details</li></ul> |
-

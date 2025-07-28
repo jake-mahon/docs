@@ -15,7 +15,7 @@ Follow the steps to review the Billable Users report.
 
 **Step 1 –** Navigate to the **Reports** > **System** tab.
 
-![system](/img/product_docs/1secure/admin/searchandreports/system.webp)
+![system](/images/1secure/admin/searchandreports/system.webp)
 
 **Step 2 –** Select the **Billable Users** report in the left pane to view it.
 

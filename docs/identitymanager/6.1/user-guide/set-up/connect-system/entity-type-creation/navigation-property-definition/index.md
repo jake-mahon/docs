@@ -21,13 +21,13 @@ entity type.
 > other groups. In the UI, `memberOf` is displayed just like scalar properties, but you can click on
 > its values to access each group in the list. Here for the AD entry `ADM Vidal Pierre`:
 >
-> ![Navigation Property - memberOf](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_memberof_v600.webp)
+> ![Navigation Property - memberOf](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_memberof_v600.webp)
 >
 > Clicking on one of these groups will display said group's properties including the other side of
 > the `memberOf` property, called `member`, which contains the list of users and groups which are
 > members of the group. Here for the AD group `SG_APP_RAY_0_LDAP_READLDSFEDE`:
 >
-> ![Navigation Property - member](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_member_v600.webp)
+> ![Navigation Property - member](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_member_v600.webp)
 
 > As another example, a department needs to be linked to a manager who is an existing user. So the
 > user identifier is used in the `Manager` property to create the link between the department and
@@ -35,12 +35,12 @@ entity type.
 > like scalar properties, but you can click on its value to access the page of the department's
 > manager.
 >
-> ![Navigation Property - Manager](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_manager_v600.webp)
+> ![Navigation Property - Manager](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_manager_v600.webp)
 >
 > Clicking on the manager will display said user's properties including the `Department` property,
 > which points back to the managed department.
 >
-> ![Navigation Property - Managed Department](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_managerof_v600.webp)
+> ![Navigation Property - Managed Department](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_managerof_v600.webp)
 
 Navigation properties can create a link:
 
@@ -51,10 +51,10 @@ Navigation properties can create a link:
 Inside Usercube, a navigation property has a flip side, one for each linked element.
 
 For example in the AD, the group membership of a user is represented by the properties `member` for
-groups (containing a list of users) and `memberOf` for users (containing a list of groups).  
+groups (containing a list of users) and `memberOf` for users (containing a list of groups).
 However, some managed systems only have one of these two sides.
 
-The AD only uses `member` from among groups' properties. Users don't have a `memberOf` property.  
+The AD only uses `member` from among groups' properties. Users don't have a `memberOf` property.
 But, as Usercube uses and links both sides, it is able to "translate" the information, so that a
 navigation property, which actually exists in the managed system, can be linked to the two
 corresponding navigation properties in Usercube.
@@ -86,7 +86,7 @@ Define the entity type's navigation properties by proceeding as follows:
     select the properties to be used as navigations in the entity type.
 4.  Fill in the information fields.
 
-    ![Navigation Properties](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_navigationproperties_v602.webp)
+    ![Navigation Properties](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_navigationproperties_v602.webp)
 
     If you map a column from the source, then the first line of the navigation property is about
     said column. The second line is about the new property to be linked to the first one, always of
@@ -147,11 +147,11 @@ Define the entity type's navigation properties by proceeding as follows:
             > `Entries`; `assistant`; `assistantOf`; `manager`; `directReports`; `memberOf`;
             > `member`; `parentdn`; `children`.
             >
-            > ![AD Entity Type - Navigation Properties](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_examplead3_v603.webp)
+            > ![AD Entity Type - Navigation Properties](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_examplead3_v603.webp)
 
 5.  Click on the Gear symbol to add advanced settings if needed.
 
-    ![Advanced Settings](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
+    ![Advanced Settings](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
 
     - `Icon`: can be chosen from [Microsoft's list](https://uifabricicons.azurewebsites.net/) and
       will be displayed with the property among users' data.
@@ -162,7 +162,7 @@ Define the entity type's navigation properties by proceeding as follows:
         > For example, the scalar property `isUnused` is created to spot unused accounts via a
         > combination of `accountExpires` and `lastLogonTimestamp`:
         >
-        > ![Advanced Settings](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
+        > ![Advanced Settings](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
 
     - `Flexible Comparison Expression`: expression that inserts adaptable
       [comparison flexibility](/docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/index.md)
@@ -187,7 +187,7 @@ Every time an entity type mapping is modified and saved, a green pop-up appears 
 should reload the schema to implement the changes. You do not need to click on the button every
 time. It is essential though to reload after the final changes are made.
 
-![Reload](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
+![Reload](/images/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
 The **Reload** button mostly enables your changes to appear in the menu items, which configure the
 left menu links on the UI's home page.

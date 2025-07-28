@@ -19,7 +19,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the EX_StoreSizes Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/sizing/storesizesanalysis.webp)
+![Analysis Tasks for the EX_StoreSizes Job](/images/accessanalyzer/12.0/solutions/exchange/mailboxes/sizing/storesizesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -36,5 +36,3 @@ the following pre-configured reports:
 | ------------------------------------ | --------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Store Sizes and Growth (Store Sizes) | This report identifies 30 day growth for every mail store within the environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays fastest-growing mail stores</li><li>Table – Provides details on mail stores – percent change</li></ul> |
 | Top Users by Store                   | This report identifies the top users for every mail store.                        | None         | This report is comprised of one element: <ul><li>Table – Provides details on top users by store</li></ul>                                                                     |
-
-

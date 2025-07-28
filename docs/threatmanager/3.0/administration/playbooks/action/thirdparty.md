@@ -12,7 +12,7 @@ The following actions target third-party applications.
 
 This action creates an incident in ServiceNow®.
 
-![createservicenow](/img/product_docs/threatmanager/3.0/administration/playbooks/action/createservicenow.webp)
+![createservicenow](/images/threatmanager/3.0/administration/playbooks/action/createservicenow.webp)
 
 - Instance – Specify the ServiceNow instance. Only enter a name and the .servicenow.com instance is
   automatically applied. For example, entering "company" will automatically become
@@ -25,7 +25,7 @@ This action creates an incident in ServiceNow®.
 
 This action sends an authentication push to the Duo API.
 
-![duoauthenticationpush](/img/product_docs/threatmanager/3.0/administration/playbooks/action/duoauthenticationpush.webp)
+![duoauthenticationpush](/images/threatmanager/3.0/administration/playbooks/action/duoauthenticationpush.webp)
 
 - Users – Select the users to authenticate. If not specified, the user who triggered the threat will
   be used.
@@ -54,7 +54,7 @@ This action sends an authentication push to the Duo API.
 
 This action posts to a Microsoft Teams channel.
 
-![microsoftteams](/img/product_docs/threatmanager/3.0/administration/playbooks/action/microsoftteams.webp)
+![microsoftteams](/images/threatmanager/3.0/administration/playbooks/action/microsoftteams.webp)
 
 - Message – Specify the optional message to display
 - URI – Specify the URI for the Microsoft Teams incoming webhook
@@ -63,7 +63,7 @@ This action posts to a Microsoft Teams channel.
 
 This action utilizes RADIUS profiles to authenticate user activity.
 
-![radiusauthentication](/img/product_docs/threatmanager/3.0/administration/playbooks/action/radiusauthentication.webp)
+![radiusauthentication](/images/threatmanager/3.0/administration/playbooks/action/radiusauthentication.webp)
 
 - User Not Found Behavior – Select how to handle a user not configured for RADIUS authentication. If
   not specified, the authentication will fail.
@@ -81,7 +81,7 @@ This action sends a Syslog message to a server. This action utilizes the current
 specified on the [Integrations Interface](/docs/threatmanager/3.0/administration/configuration/integrations/overview.md), to send the
 threat information via Syslog.
 
-![sendsyslog](/img/product_docs/threatmanager/3.0/administration/playbooks/action/sendsyslog.webp)
+![sendsyslog](/images/threatmanager/3.0/administration/playbooks/action/sendsyslog.webp)
 
 ## Set Forescout Property On Host
 
@@ -89,7 +89,7 @@ This action adds a property to a Forescout host record. Forescout collections ca
 monitor this property. This allows Threat Manager to integrate with the Forescout platform to enable
 the use of the capabilities of Forescout for threat response.
 
-![forescoutproperty](/img/product_docs/threatmanager/3.0/administration/playbooks/action/forescoutproperty.webp)
+![forescoutproperty](/images/threatmanager/3.0/administration/playbooks/action/forescoutproperty.webp)
 
 - Forescout Server IP – The IP address of the Forescout server
 - Forescout Property String – The value of the Forescout property string to be added to the host
@@ -102,7 +102,7 @@ the use of the capabilities of Forescout for threat response.
 
 This action sends a message to Slack.
 
-![slack](/img/product_docs/threatmanager/3.0/administration/playbooks/action/slack.webp)
+![slack](/images/threatmanager/3.0/administration/playbooks/action/slack.webp)
 
 - Message – The optional message to display
 - URI – The URI for the Slack incoming webhook
@@ -111,7 +111,7 @@ This action sends a message to Slack.
 
 This action sends an SMS message through Twilio.
 
-![twiliosms](/img/product_docs/threatmanager/3.0/administration/playbooks/action/twiliosms.webp)
+![twiliosms](/images/threatmanager/3.0/administration/playbooks/action/twiliosms.webp)
 
 - To – The phone number receiving threat notifications. Include the country code.
 - SID – The Twilio SID
@@ -124,7 +124,7 @@ This action sends an SMS message through Twilio.
 
 This action scans the file hashes against the VirusTotal API and emails the results.
 
-![virustotalreport](/img/product_docs/threatmanager/3.0/administration/playbooks/action/virustotalreport.webp)
+![virustotalreport](/images/threatmanager/3.0/administration/playbooks/action/virustotalreport.webp)
 
 - Subject – The optional custom email subject. If a subject is not specified, a default email
   subject will be used.
@@ -136,7 +136,7 @@ This action scans the file hashes against the VirusTotal API and emails the resu
 This action executes a webhook via a HTTP request from Threat Manager. Webhooks are used by a
 variety of web applications to trigger actions or receive data from external sources.
 
-![webhook](/img/product_docs/threatmanager/3.0/administration/playbooks/action/webhook.webp)
+![webhook](/images/threatmanager/3.0/administration/playbooks/action/webhook.webp)
 
 - Method – The HTTP method for the webhook. Select a method from the drop-down list:
     - GET

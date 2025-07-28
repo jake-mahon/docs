@@ -13,7 +13,7 @@ on a regular rotation.
 
 Follow the steps to configure a schedule.
 
-![Database Maintenance window - Schedule tab](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/schedule.webp)
+![Database Maintenance window - Schedule tab](/images/threatprevention/7.4/admin/configuration/databasemaintenance/schedule.webp)
 
 **Step 1 –** Click **Configuration** > **Database** > **Maintenance** on the menu. The Database
 Maintenance window is displayed.
@@ -50,4 +50,4 @@ tasks at the time when the job runs are executed.
 This scheduled job can be viewed through the Microsoft SQL Server Management Studio within the **SQL
 Server Agent** > **Jobs** folder (SiDbMainJob).
 
-![Database Maintenance job in Microsoft SQL Server Management Studio](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/dbmaintenancejob.webp)
+![Database Maintenance job in Microsoft SQL Server Management Studio](/images/threatprevention/7.4/admin/configuration/databasemaintenance/dbmaintenancejob.webp)

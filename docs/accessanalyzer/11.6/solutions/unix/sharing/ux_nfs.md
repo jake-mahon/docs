@@ -20,7 +20,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the UX_NFS Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/sharing/nfsanalysis.webp)
+![Analysis Tasks for the UX_NFS Job](/images/accessanalyzer/11.6/solutions/unix/sharing/nfsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -35,4 +35,3 @@ following pre-configured report:
 | Report                                       | Description                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                                                                                   |
 | -------------------------------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | NFS Shares with Potentially Insecure Options | This report identifies NFS shares with options which may lead to open access | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Hosts by Potentially Insecure Shares</li><li>Table – Provides details on Top Hosts by Potentially Insecure Shares bar chart</li><li>Table – Provides details on List of Potentially Insecure Share Options</li></ul> |
-

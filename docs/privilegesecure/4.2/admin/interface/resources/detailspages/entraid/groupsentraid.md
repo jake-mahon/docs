@@ -16,7 +16,7 @@ cloud-only EntraID groups.
 :::
 
 
-![Groups Tab Entra ID](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/groupsazuread.webp)
+![Groups Tab Entra ID](/images/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/groupsazuread.webp)
 
 The table has the following columns:
 

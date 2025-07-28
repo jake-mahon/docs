@@ -21,7 +21,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the SP_TeamsExternalUserActivity Job](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/m365/teamsexternaluseractivityanalysis.webp)
+![Analysis Tasks for the SP_TeamsExternalUserActivity Job](/images/accessanalyzer/11.6/solutions/sharepoint/m365/teamsexternaluseractivityanalysis.webp)
 
 The default analysis task is:
 
@@ -34,4 +34,3 @@ the following preconfigured report:
 | Report                       | Description                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                                                   |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Teams External User Activity | This report displays most active external users within Teams, as well as Teams that have the most external users. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on the most active external team members</li><li>Table – Provides details on Teams with the most external users</li><li>Table – Provides details on external user activity details</li></ul> |
-

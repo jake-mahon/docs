@@ -41,7 +41,7 @@ The following should be considered prior to deploying the ServiceNow integration
 
 ## ServiceNow Integration process Flow
 
-![servicenowflow](/img/product_docs/platgovnetsuite/integrations/servicenowflow.webp)
+![servicenowflow](/images/platgovnetsuite/integrations/servicenowflow.webp)
 
 ## Deployment Process
 

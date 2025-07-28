@@ -13,7 +13,7 @@ mailbox.
 
 The EX_Delegates job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Delegates Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/permissions/collection/delegatesquery.webp)
+![Queries for the EX_Delegates Job](/images/accessanalyzer/12.0/solutions/exchange/mailboxes/permissions/collection/delegatesquery.webp)
 
 The following query is included with the EX_Delegates job:
 
@@ -29,5 +29,5 @@ The following query is included with the EX_Delegates job:
     Exchange on-premises environments. See the
     [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md)
     topic for credential requirements.
-    
+
     :::

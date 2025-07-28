@@ -49,7 +49,7 @@ rules, one for correlation, and the other for classification.
 is a process that simply aims to assign a resource type to specific resources. A specific resource
 can only be assigned a single resource type.
 
-![Classification Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/categorization_classifschema.webp)
+![Classification Schema](/images/identitymanager/6.1/user-guide/set-up/categorization/categorization_classifschema.webp)
 
 Any resource that is unclassified will not be available for review.
 
@@ -57,7 +57,7 @@ Any resource that is unclassified will not be available for review.
 is a process that aims to establish an ownership relationship between two resources. In most cases,
 an identity resource that becomes the owner of an account resource.
 
-![Correlation Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/categorization_correlschema.webp)
+![Correlation Schema](/images/identitymanager/6.1/user-guide/set-up/categorization/categorization_correlschema.webp)
 
 While an owner can possess several resources, a resource can have only one owner.
 
@@ -69,11 +69,11 @@ As stated previously, both classification and correlation work through sets of r
 
 > For basic users, we have in Usercube:
 >
-> ![Example - Basic Users in Usercube](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/categorization_examplebasicuser.webp)
+> ![Example - Basic Users in Usercube](/images/identitymanager/6.1/user-guide/set-up/categorization/categorization_examplebasicuser.webp)
 >
 > For basic users, we have in the AD:
 >
-> ![Example - Basic Users in AD](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/categorization_examplebasicad.webp)
+> ![Example - Basic Users in AD](/images/identitymanager/6.1/user-guide/set-up/categorization/categorization_examplebasicad.webp)
 >
 > Thus our example could induce the following rules: | Classification Rules | Correlation Rules | |
 > --- | --- | | all accounts from OU=Users | 1. mail (from AD) = user's email
@@ -82,11 +82,11 @@ As stated previously, both classification and correlation work through sets of r
 
 > For administrators, we have in Usercube:
 >
-> ![Example - Basic Users in Usercube](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/categorization_exampleadminuser.webp)
+> ![Example - Basic Users in Usercube](/images/identitymanager/6.1/user-guide/set-up/categorization/categorization_exampleadminuser.webp)
 >
 > For administrators, we have in the AD:
 >
-> ![Example - Admin Users in AD](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/categorization_exampleadminad.webp)
+> ![Example - Admin Users in AD](/images/identitymanager/6.1/user-guide/set-up/categorization/categorization_exampleadminad.webp)
 >
 > Thus our example could induce the following rules: | Classification Rules | Correlation Rules | |
 > --- | --- | | all accounts from OU=Administrators | 1. sAMAccountName = "A" + user's employee id
@@ -113,7 +113,7 @@ remaining uncorrelated resources.
 
 In the same way, Usercube will apply correlation rules before classification rules.
 
-![Categorization Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/categorization_categschema.webp)
+![Categorization Schema](/images/identitymanager/6.1/user-guide/set-up/categorization/categorization_categschema.webp)
 
 Now that you have created resource types and their correlation/classification rules, you have
 created the first elements for your

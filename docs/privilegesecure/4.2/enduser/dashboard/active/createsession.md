@@ -12,7 +12,7 @@ Follow the steps to create an activity session.
 
 **Step 2 –** In the Active Session table, click Create Session to open the Activity Request window.
 
-![Create Activity Session Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
+![Create Activity Session Interface](/images/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
 
 **Step 3 –** On the Request Type page, enter the following information:
 
@@ -20,7 +20,7 @@ Follow the steps to create an activity session.
 
 **Step 4 –** Click Next to go to the Resource Selection page.
 
-![Create Session window Resource Selection](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+![Create Session window Resource Selection](/images/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
 
 **Step 5 –** On the Resource Selection page, enter the following information:
 
@@ -29,7 +29,7 @@ Follow the steps to create an activity session.
 
 **Step 6 –** Click **Next** to go to the Notes page.
 
-![Create Session Notes Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+![Create Session Notes Page](/images/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
 
 **Step 7 –** On the Notes page, enter the following information:
 
@@ -38,7 +38,7 @@ Follow the steps to create an activity session.
 
 **Step 8 –** Click Next to go to the Scheduling page.
 
-![Create Session Schedule Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+![Create Session Schedule Page](/images/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
 
 **Step 9 –** On the Scheduling page, enter the following information:
 
@@ -46,7 +46,7 @@ Follow the steps to create an activity session.
 
 **Step 10 –** Click Next to go to the Review page.
 
-![Create Session Review Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
+![Create Session Review Page](/images/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
 
 **Step 11 –** On the Review page, review the summary of the new session.
 

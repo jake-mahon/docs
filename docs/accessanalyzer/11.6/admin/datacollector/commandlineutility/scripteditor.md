@@ -11,7 +11,7 @@ parse the output file created by the data collector after execution. The Script 
 enabled when **Edit Profile** or **Create a New Profile** is selected on the Profile Type page. The
 page is disabled when the **Select Profile** option is selected on the Profile Type page.
 
-![Command Line Utility Data Collector Wizard Script Editor page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/commandlineutility/scripteditor.webp)
+![Command Line Utility Data Collector Wizard Script Editor page](/images/accessanalyzer/11.6/admin/datacollector/commandlineutility/scripteditor.webp)
 
 :::warning
 Do not modify this page without guidance from Netwrix or the data may not be processed

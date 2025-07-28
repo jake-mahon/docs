@@ -17,12 +17,12 @@ You might want to explicitly block attack vectors such as PSEXEC (which was used
 entirely block PowerShell.  If you specify to do this only on the User side (or set Computer side
 scope to User processed only), then only user processes will be affected.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_2_specific_rule_to.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_2_specific_rule_to.webp)
 
 You can shore up this attack vector by making the explicit deny rule on the Computer side.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_2_specific_rule_to_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_2_specific_rule_to_1.webp)
 
 When you do, PowerShell is blocked for Standard and System.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_2_specific_rule_to_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_2_specific_rule_to_2.webp)

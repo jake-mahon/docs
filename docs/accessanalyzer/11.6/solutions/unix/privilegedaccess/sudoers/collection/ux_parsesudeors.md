@@ -17,7 +17,7 @@ The query is preconfigured for this job. Never modify the query.
 :::
 
 
-![Queries for the UX_ParseSudoers Job](/img/product_docs/accessanalyzer/11.6/solutions/unix/privilegedaccess/sudoers/collection/parsesudoersquery.webp)
+![Queries for the UX_ParseSudoers Job](/images/accessanalyzer/11.6/solutions/unix/privilegedaccess/sudoers/collection/parsesudoersquery.webp)
 
 The query for the UX_ParseSudoers job is:
 

@@ -12,7 +12,7 @@ algorithm built into the public folder data collector that is determined based o
 content posted, and size of content posted. Modifications can be made to the data collector to
 change the way the Most Probable Owner is determined.
 
-![Collection > PF_FolderOwnership Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/collectionjobstree.webp)
+![Collection > PF_FolderOwnership Job in the Jobs Tree](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/collectionjobstree.webp)
 
 The PF_FolderOwnership job is located in the Collection job group.
 
@@ -20,7 +20,7 @@ The PF_FolderOwnership job is located in the Collection job group.
 
 The PF_FolderOwnership job uses the ExchangePublicFolder Data Collector.
 
-![Queries for the PF_FolderOwnership Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/folderownershipquery.webp)
+![Queries for the PF_FolderOwnership Job](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/folderownershipquery.webp)
 
 The following queries are included in the PF_FolderOwnership job:
 
@@ -64,7 +64,7 @@ Do not modify other wizard pages. The wizard pages are pre-configured for this j
 :::
 
 
-![Exchange Public Folder Data Collector Wizard Scope page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
+![Exchange Public Folder Data Collector Wizard Scope page](/images/activitymonitor/7.1/config/activedirectory/scope.webp)
 
 **Step 4 –** To modify the scope of the search, navigate to the Scope page. The scope is configured
 using the following settings:
@@ -99,7 +99,7 @@ See the
 [ExchangePublicFolder: Scope](/docs/accessanalyzer/11.6/admin/datacollector/exchangepublicfolder/scope.md)
 topic for additional information.
 
-![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.webp)
+![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.webp)
 
 **Step 5 –** To modify the probable owner calculation, navigate to the Probable Owner page. The
 calculation is configured with the following defaults:
@@ -128,7 +128,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the PF_FolderOwnership Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/folderownershipanalysis.webp)
+![Analysis Tasks for the PF_FolderOwnership Job](/images/accessanalyzer/11.6/solutions/exchange/publicfolders/ownership/folderownershipanalysis.webp)
 
 The following analysis task is selected by default:
 

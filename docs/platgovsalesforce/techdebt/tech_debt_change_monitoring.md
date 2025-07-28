@@ -43,7 +43,7 @@ Policies can also be used to block unauthorized changes.
 Netwrix recommends our default policy as a foundational best practice. In addition, consider
 Specific Monitoring for anything needing special protection.
 
-![Strongpoint Default Policy](/img/product_docs/platgovsalesforce/tech_debt/tech_debt_5.webp)
+![Strongpoint Default Policy](/images/platgovsalesforce/tech_debt/tech_debt_5.webp)
 
 Platform Governance for Salesforce documents **Unresolved Non-Compliant Changes** in both a List
 View and a Report. Both show you all the changes that should have received approval and the level of
@@ -55,7 +55,7 @@ process, you can restrict your review of changes by filtering out object types o
 do not concern you. Alternatively, you can create different reports for different team members to
 prioritize what you see.
 
-![Unresolved Non-Compliant Changes Report](/img/product_docs/platgovsalesforce/tech_debt/tech_debt_8.webp)
+![Unresolved Non-Compliant Changes Report](/images/platgovsalesforce/tech_debt/tech_debt_8.webp)
 
 ## Specific Monitoring
 
@@ -108,7 +108,7 @@ To apply the policy to Customizations you are concerned about:
 3. Include the **Change / Approval Policy** field as a List View column.
 4. Select one or more Customizations and select the **Change / Approval Policy**.
 
-    ![Applying the policy to Customizations](/img/product_docs/platgovsalesforce/tech_debt/tech_debt_7.webp)
+    ![Applying the policy to Customizations](/images/platgovsalesforce/tech_debt/tech_debt_7.webp)
 
 ### Specific Changes
 
@@ -125,12 +125,12 @@ the policy.
 1. Open **Customizations**.
 2. Search for **Customizations** **CustomObject**.
 
-    ![Search for Customizations > CustomObject](/img/product_docs/platgovsalesforce/tech_debt/search.webp)
+    ![Search for Customizations > CustomObject](/images/platgovsalesforce/tech_debt/search.webp)
 
 3. Open the Customization to add to a policy.
 4. Click **Set Policy**.
 
-    ![Set Policy is used to add Customizations to a policy](/img/product_docs/platgovsalesforce/tech_debt/policy_set_button.webp)
+    ![Set Policy is used to add Customizations to a policy](/images/platgovsalesforce/tech_debt/policy_set_button.webp)
 
 5. Select individual customizations or click the check box in the heading bar to select all.
 6. Click **Save**.

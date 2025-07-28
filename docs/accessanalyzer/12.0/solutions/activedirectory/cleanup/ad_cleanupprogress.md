@@ -11,7 +11,7 @@ to proactively identify critical security configurations that leave Active Direc
 attack. The result is a report which provides a listing of findings by severity and category with
 corresponding details that can be used to prioritize and remediate security issues.
 
-![AD_CleanupProgress Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/cleanupprogressjobstree.webp)
+![AD_CleanupProgress Job in the Jobs Tree](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/cleanupprogressjobstree.webp)
 
 **Workflow**
 
@@ -40,7 +40,7 @@ preconfigured for this job.
 :::
 
 
-![Analysis Tasks for the AD_CleanupProgress Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/cleanupprogressanalysis.webp)
+![Analysis Tasks for the AD_CleanupProgress Job](/images/accessanalyzer/12.0/solutions/activedirectory/cleanup/cleanupprogressanalysis.webp)
 
 The default analysis task is:
 
@@ -55,4 +55,3 @@ following pre-configured reports.
 | Computer Cleanup Summary | This report tracks Active Directory computer exceptions over time. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays a daily computer exceptions trend</li><li>Table – Provides details on daily computer exceptions</li></ul> |
 | Group Cleanup Summary    | This report tracks Active Directory group exceptions over time.    | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays a daily group exceptions trend</li><li>Table – Provides details on daily group exceptions</li></ul>       |
 | User Cleanup Summary     | This report tracks Active Directory user exceptions over time.     | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays a daily user exceptions trend</li><li>Table – Provides details on daily user exceptions</li></ul>         |
-

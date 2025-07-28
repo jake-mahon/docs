@@ -15,7 +15,7 @@ licensing method. When the command is run, you can determine:
 4. Which GPO or from which XML file is performing the license
 5. Which Components are licensed
 6. Which Components are licensed for which Capabilities (for instance Netwrix Endpoint Policy
-   Manager (formerly PolicyPak) Least Privilege Manager Standard vs. Complete).  
+   Manager (formerly PolicyPak) Least Privilege Manager Standard vs. Complete).
    Tip: Enterprise Full licenses always show Complete for all components.
 7. When a specific component is expressly disabled via an ADMX policy.
 8. When a specific component is expressly disabled via the license file.
@@ -25,12 +25,12 @@ Some examples below of how a computer could be licensed and the types of output 
 
 ### How can I validate on a few endpoints that I am VALID and won't expire?
 
-![681_1_image-1](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_1_image-1.webp)
+![681_1_image-1](/images/endpointpolicymanager/troubleshooting/license/681_1_image-1.webp)
 
 A second example, but this one using Enterprise Full (aka Enterprise+) licenses (only valid for CSE
 versions 23.6 and later):
 
-![681_3_image_950x735](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
+![681_3_image_950x735](/images/endpointpolicymanager/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
 
 - Use the `PPUPDATE` command which will always show if you are VALID and licensing type.
 - Example of a machine getting Universal licenses successfully:
@@ -45,27 +45,27 @@ Additional Examples for various circumstances are below.
 
 ## Example 1: Computer in the name, acts fully licensed for all components. Very useful for testing licensing issues.
 
-![681_4_img-01](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_4_img-01.webp)
+![681_4_img-01](/images/endpointpolicymanager/troubleshooting/license/681_4_img-01.webp)
 
 ## Example 2: Completely unlicensed.
 
-![681_6_img-02](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_6_img-02.webp)
+![681_6_img-02](/images/endpointpolicymanager/troubleshooting/license/681_6_img-02.webp)
 
 ## Example 3: Some items are licensed and not others. Typical when a customer is a Professional Customer and has purchased licenses for SPECIFIC components.
 
-![681_8_img-03](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_8_img-03.webp)
+![681_8_img-03](/images/endpointpolicymanager/troubleshooting/license/681_8_img-03.webp)
 
 ## Example 4: Licensed by placing the XML file directly upon the machine, and not by GPO.
 
-![681_10_img-04](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_10_img-04.webp)
+![681_10_img-04](/images/endpointpolicymanager/troubleshooting/license/681_10_img-04.webp)
 
 ## Example 5: When a component is licensed, but expressly disabled by ADMX.
 
-![681_12_img-05](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_12_img-05.webp)
+![681_12_img-05](/images/endpointpolicymanager/troubleshooting/license/681_12_img-05.webp)
 
 ## Example 6: When a computer is licensed via multiple methods
 
-![681_14_image8_1490x882](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_14_image8_1490x882.webp)
+![681_14_image8_1490x882](/images/endpointpolicymanager/troubleshooting/license/681_14_image8_1490x882.webp)
 
 ## Example 7: When a computer is licensed for SOME components via Endpoint Policy Manager Cloud
 
@@ -76,4 +76,4 @@ Endpoint Policy Manager Cloud Portal.)
 :::
 
 
-![681_16_e7_954x1262](/img/product_docs/endpointpolicymanager/troubleshooting/license/681_16_e7_954x1262.webp)
+![681_16_e7_954x1262](/images/endpointpolicymanager/troubleshooting/license/681_16_e7_954x1262.webp)

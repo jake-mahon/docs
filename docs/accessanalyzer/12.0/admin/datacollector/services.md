@@ -30,7 +30,7 @@ Windows Solution is only available with a special Access Analyzer license. See t
 
 The Services Data Collector is configured through the Service Browser window.
 
-![Service Browser window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/servicebrowser.webp)
+![Service Browser window](/images/accessanalyzer/12.0/admin/datacollector/servicebrowser.webp)
 
 - Host – Enter a sample host which contains all of the services desired for the query
 - All Services – Select this option to build the query to extract information from all services on

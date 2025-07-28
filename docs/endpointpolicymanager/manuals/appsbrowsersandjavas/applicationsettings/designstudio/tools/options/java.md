@@ -15,7 +15,7 @@ applications. In order to capture Java-based applications, you will need to do t
 
 Without the Java Access Bridge installed, the Java tab will look like what's shown in Figure 169.
 
-![using_designstudio_tools_5_624x224](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/options/using_designstudio_tools_5_624x224.webp)
+![using_designstudio_tools_5_624x224](/images/endpointpolicymanager/applicationsettings/designstudio/tools/options/using_designstudio_tools_5_624x224.webp)
 
 Figure 169. The Java tab.
 

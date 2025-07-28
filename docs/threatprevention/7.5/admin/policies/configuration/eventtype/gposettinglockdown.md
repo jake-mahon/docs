@@ -15,7 +15,7 @@ The event filters for the GPO Setting Lockdown event type are:
 - Domains/Servers
 - AD Perpetrator
 
-![New Policy window - GPO Setting Lockdown Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/ggposettinglockdown.webp)
+![New Policy window - GPO Setting Lockdown Event Type](/images/threatprevention/7.5/admin/policies/eventtype/ggposettinglockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -34,7 +34,7 @@ blocked.
 
 Use the AD Group Policy Object filter to set the scope of the policy to lockdown specific GPOs.
 
-![Policy window - AD Group Policy Object filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adgrouppolicyobject.webp)
+![Policy window - AD Group Policy Object filter](/images/threatprevention/7.5/admin/policies/eventtype/adgrouppolicyobject.webp)
 
 In the GPO File Operations section, select the **All** checkbox to include all operations or select
 specific operations:
@@ -57,7 +57,7 @@ In the Group Policy Objects section, scope to specific GPOs:
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/images/threatprevention/7.5/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -80,7 +80,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](/images/threatprevention/7.5/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 

@@ -9,7 +9,7 @@ sidebar_position: 110
 The Sensitive Data Settings page is where sensitive data discovery settings are configured. It is a
 wizard page for the category of Sensitive Data Scan.
 
-![FSAA Data Collector Wizard Sensitive Data Settings page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/fsaa/sensitivedata.webp)
+![FSAA Data Collector Wizard Sensitive Data Settings page](/images/accessanalyzer/11.6/admin/datacollector/fsaa/sensitivedata.webp)
 
 - Don’t process files larger than: [number] MB – Limits the files to be scanned for sensitive
   content to only files smaller than the specified size
@@ -68,5 +68,5 @@ The Performance Options section allows the user to modulate the efficiency of SD
     :::info
     For optimal performance, the total number of scan processes on a scan host
     should be 1 to 2 times the number of CPU threads available.
-    
+
     :::

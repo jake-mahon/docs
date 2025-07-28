@@ -13,7 +13,7 @@ like. Additionally, the path for compiled DLLs is `C:\Program Files\PolicyPak\Ex
 the location where the Endpoint Policy Manager Application Settings Manager Group Policy Editor will
 look for compiled extensions, so it's best to leave this as it is.
 
-![using_designstudio_tools_2](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/options/using_designstudio_tools_2.webp)
+![using_designstudio_tools_2](/images/endpointpolicymanager/applicationsettings/designstudio/tools/options/using_designstudio_tools_2.webp)
 
 Figure 166. The Compilation tab.
 

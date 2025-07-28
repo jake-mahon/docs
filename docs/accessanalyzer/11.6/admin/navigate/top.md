@@ -16,7 +16,7 @@ Auditor. The two parts of the Top Navigation section are:
 
 Users can access various Enterprise Auditor functions and actions in the Menu Bar.
 
-![Menu Bar on Console](/img/product_docs/accessanalyzer/11.6/admin/navigate/menubar.webp)
+![Menu Bar on Console](/images/accessanalyzer/11.6/admin/navigate/menubar.webp)
 
 The Menu Bar options are:
 
@@ -151,21 +151,21 @@ The Menu Bar options are:
 
 The Button bar provides quick links to various actions and functions in Enterprise Auditor.
 
-![Button Bar](/img/product_docs/accessanalyzer/11.6/admin/navigate/buttonbar.webp)
+![Button Bar](/images/accessanalyzer/11.6/admin/navigate/buttonbar.webp)
 
 The options in the Button Bar are:
 
 | Icon                                                                                                                  | Icon Description            | Name                                                |
 | --------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------------------------------- |
-| ![selectinstantjob](/img/product_docs/accessanalyzer/11.6/admin/navigate/selectinstantjob.webp) | Paper with plus sign        | Select an Instant Job                               |
-| ![newjob](/img/product_docs/accessanalyzer/11.6/admin/navigate/newjob.webp)                     | Paper with pencil           | Create a new job (Ctrl + Alt + A)                   |
-| ![newgroup](/img/product_docs/accessanalyzer/11.6/admin/navigate/newgroup.webp)                 | Folder with plus sign       | Create a new group                                  |
-| ![newquery](/img/product_docs/accessanalyzer/11.6/admin/navigate/newquery.webp)                 | Puzzle piece with plus sign | Create a new query and add it to the selected table |
-| ![addreport](/img/product_docs/accessanalyzer/11.6/admin/navigate/addreport.webp)               | Graph with plus sign        | Add a report                                        |
-| ![addquery](/img/product_docs/accessanalyzer/11.6/admin/navigate/addquery.webp)                 | Book with plus sign         | Add a query from a library                          |
-| ![cut](/img/product_docs/accessanalyzer/11.6/admin/navigate/cut.webp)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
-| ![copy](/img/product_docs/accessanalyzer/11.6/admin/navigate/copy.webp)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
-| ![paste](/img/product_docs/accessanalyzer/11.6/admin/navigate/paste.webp)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
-| ![delete](/img/product_docs/accessanalyzer/11.6/admin/navigate/delete.webp)                      | Red X                       | Delete the selected query                           |
+| ![selectinstantjob](/images/accessanalyzer/11.6/admin/navigate/selectinstantjob.webp) | Paper with plus sign        | Select an Instant Job                               |
+| ![newjob](/images/accessanalyzer/11.6/admin/navigate/newjob.webp)                     | Paper with pencil           | Create a new job (Ctrl + Alt + A)                   |
+| ![newgroup](/images/accessanalyzer/11.6/admin/navigate/newgroup.webp)                 | Folder with plus sign       | Create a new group                                  |
+| ![newquery](/images/accessanalyzer/11.6/admin/navigate/newquery.webp)                 | Puzzle piece with plus sign | Create a new query and add it to the selected table |
+| ![addreport](/images/accessanalyzer/11.6/admin/navigate/addreport.webp)               | Graph with plus sign        | Add a report                                        |
+| ![addquery](/images/accessanalyzer/11.6/admin/navigate/addquery.webp)                 | Book with plus sign         | Add a query from a library                          |
+| ![cut](/images/accessanalyzer/11.6/admin/navigate/cut.webp)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
+| ![copy](/images/accessanalyzer/11.6/admin/navigate/copy.webp)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
+| ![paste](/images/accessanalyzer/11.6/admin/navigate/paste.webp)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
+| ![delete](/images/accessanalyzer/11.6/admin/navigate/delete.webp)                      | Red X                       | Delete the selected query                           |
 
 Select a button for the desired action.

@@ -12,7 +12,7 @@ table with criteria matches visible to Access Information Center users with eith
 Security Team roles. The Matches table requires the **store discovered sensitive data**
 configuration for the Access Analyzer data collection or it will be blank.
 
-![Sensitive Content report at the share and subfolder levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharesensitivecontent.webp)
+![Sensitive Content report at the share and subfolder levels](/images/accessinformationcenter/12.0/resourceaudit/filesystem/sharesubfolder/sharesensitivecontent.webp)
 
 This report is comprised of the following columns:
 

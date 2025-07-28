@@ -9,7 +9,7 @@ sidebar_position: 50
 The Options page provides options for Active Directory data collection. It is a wizard page for the
 category of Scan Active Directory.
 
-![Active Directory Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/adinventory/options.webp)
+![Active Directory Inventory DC Wizard Options page](/images/accessanalyzer/12.0/admin/datacollector/adinventory/options.webp)
 
 The Options page has the following configuration options:
 

@@ -19,7 +19,7 @@ To that end, Endpoint Policy Manager DesignStudio has a "Show Elements List" fea
 "List All Elements"), which is found by selecting `Tools|Show Element List`. You can also use the
 keyboard shortcut Ctrl+F to go to this list, as shown in Figure 171.
 
-![using_designstudio_tools_7_624x330](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_7_624x330.webp)
+![using_designstudio_tools_7_624x330](/images/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_7_624x330.webp)
 
 Figure 171. Selecting the "Show Elements List" feature.
 
@@ -30,7 +30,7 @@ Figure 172, you can see the search for the word "pass," and every result has the
 results in the Description field. You can also select the type of element, or search specifically on
 a specific Tab within your project.
 
-![using_designstudio_tools_8](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_8.webp)
+![using_designstudio_tools_8](/images/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_8.webp)
 
 Figure 172. Searching by text in the "List All Elements" box.
 
@@ -39,7 +39,7 @@ configured inside the AppSet. To do this, sort on the Configured column, then lo
 have "No" in that column, as shown in Figure 173. Double-click the item to zoom to the item, then
 right-click to run the Configuration Wizard to configure it.
 
-![using_designstudio_tools_9](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_9.webp)
+![using_designstudio_tools_9](/images/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_9.webp)
 
 Figure 173. Determining which elements have not been configured.
 
@@ -55,7 +55,7 @@ troubleshooting efforts by locating the ID number of the element that is causing
 174, you can see compiler error list at the bottom showing an ID number with a problem. By sorting
 the "List all Elements" items by ID number, this element can be quickly found.
 
-![using_designstudio_tools_10](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_10.webp)
+![using_designstudio_tools_10](/images/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_10.webp)
 
 Figure 174. Sorting elements by ID number.
 

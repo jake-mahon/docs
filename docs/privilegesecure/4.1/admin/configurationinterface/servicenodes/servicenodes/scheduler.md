@@ -8,7 +8,7 @@ sidebar_position: 50
 
 On the Scheduler Service page, view information for scheduled services.
 
-![Scheduler service Page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/page.webp)
+![Scheduler service Page](/images/threatprevention/7.4/reportingmodule/configuration/systemsettings/page.webp)
 
 The Scheduler Service page shows details of the selected service and has the following features:
 
@@ -19,7 +19,7 @@ The Scheduler Service page shows details of the selected service and has the fol
 
 The Action Queues tab shows all scheduled services.
 
-![actionqueuestab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/servicetype/actionqueuestab.webp)
+![actionqueuestab](/images/privilegesecure/4.1/accessmanagement/admin/configuration/servicetype/actionqueuestab.webp)
 
 The Action Queues table has the following features:
 
@@ -47,7 +47,7 @@ The Action Queues table has the following features:
 
 The Statistics tab shows an overview of the actions for the past 24 hours.
 
-![statisticstab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/servicetype/statisticstab.webp)
+![statisticstab](/images/privilegesecure/4.1/accessmanagement/admin/configuration/servicetype/statisticstab.webp)
 
 The Statistics tab shows the total number of services for each of the following statuses:
 

@@ -14,7 +14,7 @@ To access this report:
 
 1. Open **Flashlight** > **Tools** > **Standard Field Impact Analysis**
 
-    ![Standard Field Impact Analysis](/img/product_docs/platgovnetsuiteflashlight/using_flashlight/standardfieldimpactanalysis.webp)
+    ![Standard Field Impact Analysis](/images/platgovnetsuiteflashlight/using_flashlight/standardfieldimpactanalysis.webp)
 
 2. You can optionally filter on the following fields:
 
@@ -22,8 +22,8 @@ To access this report:
     - **Standard Field Script ID**: the Script ID for the specific Standard Field that you wish to
   analyze
 
-3. Click **Run** to execute your search.  
+3. Click **Run** to execute your search.
    For example, you can easily understand that a change to a given field in the system has an impact
    on Scripts and Workflows that leverage the field.
 
-    ![Standard Field Impact Analysis Results](/img/product_docs/platgovnetsuiteflashlight/using_flashlight/standardfieldimpactanalysisresults_800x261.webp)
+    ![Standard Field Impact Analysis Results](/images/platgovnetsuiteflashlight/using_flashlight/standardfieldimpactanalysisresults_800x261.webp)
