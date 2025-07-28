@@ -15,7 +15,7 @@ through the cracks.
 application. See the [Notifications Page](/docs/auditor/10.8/accessreviews/admin/configuration/notifications.md) topic for
 additional information.
 
-![Table in Resource Owners interface showing several resources being managed and all confirmation status icons](/images/auditor/10.8/access/reviews/resourceowners/tablestatus.webp)
+![Table in Resource Owners interface showing several resources being managed and all confirmation status icons](/images/auditor/10.7/access/reviews/resourceowners/tablestatus.webp)
 
 The table in the Resource Owners interface includes a Status column. The following icons appear in
 this column to indicate the owner confirmation status:

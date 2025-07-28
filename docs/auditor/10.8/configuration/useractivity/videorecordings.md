@@ -64,7 +64,7 @@ verify that **File download** is set to **Enable**.
 **Step 5 –** Local Security and select the **Allow active content to run in files on My Computer**
 checkbox.
 
-![manualconfig_uavr_ie2016](/images/auditor/10.8/configuration/useractivity/manualconfig_uavr_ie2016.webp)
+![manualconfig_uavr_ie2016](/images/auditor/10.7/configuration/useractivity/manualconfig_uavr_ie2016.webp)
 
 ## To Enable JavaScript
 

@@ -9,7 +9,7 @@ sidebar_position: 10
 Console access is configured through the Configuration > Console Access page. Adding users to the
 Access Reviews Console requires the Active Directory service account to be configured.
 
-![Configuration interface showing the Console Access page](/images/auditor/10.8/access/reviews/admin/configuration/consoleaccess.webp)
+![Configuration interface showing the Console Access page](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccess.webp)
 
 There are two levels of access, or roles, which can be granted to domain users or groups:
 
@@ -35,12 +35,12 @@ directed after login based on their assigned role or lack of role.
 
 Follow the steps to grant domain users or groups console access.
 
-![Console Access Page](/images/auditor/10.8/access/reviews/admin/configuration/consoleaccess.webp)
+![Console Access Page](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccess.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, click Add. The Console
 Access wizard opens.
 
-![Console Access wizard showing the Select Trustees page](/images/auditor/10.8/access/reviews/admin/configuration/consoleaccessselecttrustee.webp)
+![Console Access wizard showing the Select Trustees page](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccessselecttrustee.webp)
 
 **Step 2 –** On the Select Trustee page, enter the following information and click Next:
 
@@ -49,7 +49,7 @@ Access wizard opens.
 - Search — Begin typing the sAMAccountName or display name and the field will auto-populate options
   from Active Directory sAMAccountName
 
-![Console Access wizard showing the Select Access page](/images/auditor/10.8/access/reviews/admin/configuration/consoleaccessselectaccess.webp)
+![Console Access wizard showing the Select Access page](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccessselectaccess.webp)
 
 **Step 3 –** On the Select Access page, enter the following information and click **Finish**:
 
@@ -64,7 +64,7 @@ Access wizard opens.
 - Access is enabled – A user's account must be enabled in order to log into the console. Unchecking
   this option allows you to configure access to be granted at a future time.
 
-![Console Access Page displaying users with various assigned roles](/images/auditor/10.8/access/reviews/admin/configuration/consoleaccessadd.webp)
+![Console Access Page displaying users with various assigned roles](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccessadd.webp)
 
 **Step 4 –** The new user displays in the list on the Console Access page. Repeat these steps for
 each trustee to be granted console access.
@@ -84,7 +84,7 @@ additional information.
 **Step 1 –** In the Configuration interface on the Console Access page, select the user to be
 modified and click Modify. The Console Access wizard opens to the Select Access page.
 
-![Console Access wizard showing the Select Access page when modifying](/images/auditor/10.8/access/reviews/admin/configuration/consoleaccessmodifyselectaccess.webp)
+![Console Access wizard showing the Select Access page when modifying](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccessmodifyselectaccess.webp)
 
 **Step 2 –** Modify the desired settings and click **Finish**:
 
@@ -112,7 +112,7 @@ user is to disable their access. See the Modify Console Users topic for addition
 
 Follow the steps to remove a user’s configured console access.
 
-![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/images/auditor/10.8/access/reviews/admin/configuration/consoleaccessremove.webp)
+![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/images/auditor/10.7/access/reviews/admin/configuration/consoleaccessremove.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the user.
 

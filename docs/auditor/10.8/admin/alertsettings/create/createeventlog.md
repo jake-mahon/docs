@@ -48,7 +48,7 @@ The %ManagedObjectName% variable will be replaced with your monitoring plan name
     | Source      | Specify this parameter if you want to be alerted on the events from a specific source. If you need to specify several users, you can define a mask for this parameter in the same way as described above.                                                                                                                                                                                                                                                                                                                                                                   |
     | Category    | Specify this parameter if you want to be alerted on a specific event category.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-    ![eventfilters](/images/auditor/10.8/admin/alertsettings/eventfilters.webp)
+    ![eventfilters](/images/auditor/10.7/admin/alertsettings/eventfilters.webp)
 
 - In the Insertion Strings tab:
 

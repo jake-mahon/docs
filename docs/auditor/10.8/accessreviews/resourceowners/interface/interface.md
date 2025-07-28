@@ -44,7 +44,7 @@ The table data grid functions the same way as other table grids. See the
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Owners Interface](/images/auditor/10.8/access/reviews/resourceowners/interfacebuttons.webp)
+![Action buttons in the Resource Owners Interface](/images/auditor/10.7/access/reviews/resourceowners/interfacebuttons.webp)
 
 | Button               | Function                                                                                                                                                                                                                                                                                                                                                                                   |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

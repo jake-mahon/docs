@@ -93,7 +93,7 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Directory Service
 
 **Step 2 –** Set the MaxSize to the required decimal value (in bytes).
 
-![gpo_eventlog_regedit_thumb_0_0](/images/auditor/10.8/configuration/windowsserver/gpo_eventlog_regedit_thumb_0_0.webp)
+![gpo_eventlog_regedit_thumb_0_0](/images/auditor/10.7/configuration/windowsserver/gpo_eventlog_regedit_thumb_0_0.webp)
 
 You can configure Group Policy Preferences to push registry changes to the target domain computers.
 For the example above (Directory Service Log), perform the following steps.
@@ -109,7 +109,7 @@ Preferences > Windows Settings > Registry**.
 - Hive > HKEY_LOCAL_MACHINE
 - Key Path – browse to MaxSize value at the SYSTEM\CurrentControlSet\Services\EventLog\Directory
   Service
-  ![gpo_eventlog_gpmc_thumb_0_0](/images/auditor/10.8/configuration/windowsserver/gpo_eventlog_gpmc_thumb_0_0.webp)
+  ![gpo_eventlog_gpmc_thumb_0_0](/images/auditor/10.7/configuration/windowsserver/gpo_eventlog_gpmc_thumb_0_0.webp)
 
 **Step 4 –** Change the MaxSize REG_DWORD to the required decimal value (in bytes).
 

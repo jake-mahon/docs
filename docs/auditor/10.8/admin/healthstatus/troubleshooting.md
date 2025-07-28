@@ -31,9 +31,9 @@ portal as described in the Creating a ticket with Customer portal section.
 2. You can search or browse through the Knowledge Base articles here, or click **Create New
    Ticket**:
 
-    ![support_ticket_customer_portal_fixed](/images/auditor/10.8/admin/healthstatus/support_ticket_customer_portal_fixed.webp)
+    ![support_ticket_customer_portal_fixed](/images/auditor/10.7/admin/healthstatus/support_ticket_customer_portal_fixed.webp)
 
 3. Fill in the form, describing the issue, and click **Open a ticket**.
 4. After that, you will be able to attach the files you need (screenshots, emails, reports, etc.).
 
-![support_ticket_customer_portal](/images/auditor/10.8/admin/healthstatus/support_ticket_customer_portal.webp)
+![support_ticket_customer_portal](/images/auditor/10.7/admin/healthstatus/support_ticket_customer_portal.webp)
