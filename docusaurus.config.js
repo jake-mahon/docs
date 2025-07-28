@@ -16,7 +16,7 @@ const config = {
   // Set the production url of your site here
   // Use environment variable for dynamic URL configuration
   projectName: 'docs',
-  url: process.env.APP_EXTERNAL_URL || 'http://localhost:3000',
+  url: process.env.APP_EXTERNAL_URL || 'http://localhost:4500',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
@@ -33,8 +33,20 @@ const config = {
 
   // Performance optimizations with Docusaurus Faster
   future: {
-    v4: true,
-    experimental_faster: true,
+    experimental_faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      rspackBundler: true,
+      rspackPersistentCache: true, // 2-5x faster rebuilds
+      mdxCrossCompilerCache: true,
+      ssgWorkerThreads: true, // 2x faster static generation
+    },
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true, // Required for worker threads
+      // useCssCascadeLayers: true, // Temporarily disabled - may cause style conflicts
+    },
   },
 
   // Even if you don't use internationalization, you can use this field to set
