@@ -209,7 +209,7 @@ function CommunityShowcase() {
 
           <CommunityCard title="Product Updates" icon="📢">
             {announcements.length > 0 ? (
-              announcements.map((topic, idx) => <TopicItem key={idx} topic={topic} /)
+              announcements.map((topic, idx) => <TopicItem key={idx} topic={topic} />)
             ) : (
               <p className={styles.emptyState}>No recent announcements</p>
             )}
