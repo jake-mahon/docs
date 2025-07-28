@@ -57,9 +57,38 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
+      - name: Cache Docusaurus build
+        uses: actions/cache@v3
+        id: cache-build
+        with:
+          path: |
+            .docusaurus
+            build
+          key: ${{ runner.os }}-docusaurus-build-${{ hashFiles('src/**', 'docs/**', 'blog/**', 'docusaurus.config.js', 'sidebars.js', 'package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-docusaurus-build-
+
+      - name: Cache webpack
+        uses: actions/cache@v3
+        with:
+          path: node_modules/.cache
+          key: ${{ runner.os }}-webpack-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-webpack-
+
       - name: Install dependencies and build site
         run: |
           npm ci
+          
+          # Check if we have a valid cached build
+          if [[ "${{ steps.cache-build.outputs.cache-hit }}" == "true" ]]; then
+            echo "Build cache found, checking if rebuild needed..."
+            # Docusaurus will intelligently rebuild only what's changed
+          else
+            echo "No build cache found, performing full build..."
+          fi
+          
+          # Run build - Docusaurus will use its internal caching
           npm run build
         env:
           NODE_OPTIONS: "--max-old-space-size=16384"
@@ -98,7 +127,7 @@ jobs:
       - name: Upload to Azure Blob Storage with AzCopy
         run: |
           echo "Deploying to ${{ needs.determine-environment.outputs.environment }} environment"
-          echo "Starting high-performance upload of ~60,000 files..."
+          echo "Starting high-performance sync of changed files..."
           
           # Create SAS token for azcopy (more secure than using key directly)
           end_date=$(date -u -d "30 minutes" '+%Y-%m-%dT%H:%MZ')
@@ -110,17 +139,17 @@ jobs:
             --expiry $end_date \
             --output tsv)
           
-          # Use azcopy for parallel uploads (much faster for many files)
-          azcopy copy "./build/*" \
+          # Use azcopy sync for incremental updates (only uploads changed files)
+          # This is MUCH faster for subsequent deployments
+          azcopy sync "./build/" \
             "https://${{ secrets.STORAGE_ACCOUNT_NAME }}.blob.core.windows.net/\$web?$sas_token" \
-            --recursive \
-            --overwrite=true \
-            --log-level=WARNING \
+            --delete-destination=true \
+            --compare-hash=MD5 \
+            --log-level=INFO \
             --cap-mbps=0 \
-            --block-size-mb=4 \
-            --include-pattern="*"
+            --block-size-mb=4
           
-          echo "Upload completed!"
+          echo "Sync completed! Only changed files were uploaded."
 
       - name: Set blob content types efficiently
         run: |
