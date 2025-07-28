@@ -155,65 +155,20 @@ jobs:
         run: |
           echo "Setting content types for web files..."
           
-          # Create a properties file for batch operations
-          cat > set_content_types.sh << 'EOF'
-          #!/bin/bash
+          # For 60,000 files, we should skip individual content type updates
+          # and rely on Azure Static Website to serve files with correct types
+          echo "With 60,000+ files, setting individual content types would take too long."
+          echo "Azure Static Website automatically serves files with appropriate content types based on file extensions."
           
-          # Function to set content types in parallel
-          set_content_type() {
-            local pattern=$1
-            local content_type=$2
-            
-            az storage blob list \
-              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-              --container-name '$web' \
-              --prefix "" \
-              --query "[?ends_with(name, '$pattern')].name" \
-              --output tsv | \
-            xargs -P 10 -I {} az storage blob update \
-              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-              --container-name '$web' \
-              --name "{}" \
-              --content-type "$content_type" \
-              --output none
-          }
+          # Alternatively, set content types during upload with azcopy
+          # by using a mapping file (much more efficient)
           
-          # Set content types in parallel (10 concurrent operations)
-          echo "Setting HTML content types..."
-          set_content_type ".html" "text/html"
+          # If you absolutely need to set custom content types, consider:
+          # 1. Setting them during the build process
+          # 2. Using Azure CDN rules to set content types
+          # 3. Using a separate script that runs less frequently
           
-          echo "Setting CSS content types..."
-          set_content_type ".css" "text/css"
-          
-          echo "Setting JS content types..."
-          set_content_type ".js" "application/javascript"
-          
-          echo "Setting JSON content types..."
-          set_content_type ".json" "application/json"
-          
-          echo "Setting SVG content types..."
-          set_content_type ".svg" "image/svg+xml"
-          
-          echo "Setting image content types..."
-          set_content_type ".png" "image/png"
-          set_content_type ".jpg" "image/jpeg"
-          set_content_type ".jpeg" "image/jpeg"
-          set_content_type ".gif" "image/gif"
-          set_content_type ".webp" "image/webp"
-          
-          echo "Setting font content types..."
-          set_content_type ".woff" "font/woff"
-          set_content_type ".woff2" "font/woff2"
-          set_content_type ".ttf" "font/ttf"
-          set_content_type ".eot" "application/vnd.ms-fontobject"
-          
-          echo "Content types updated!"
-          EOF
-          
-          chmod +x set_content_types.sh
-          ./set_content_types.sh
+          echo "Content type handling delegated to Azure Static Website defaults."
 
       - name: Purge CDN endpoint (if configured)
         run: |
