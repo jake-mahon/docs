@@ -87,91 +87,110 @@ jobs:
 
       # Azure login step removed - using storage account key instead
 
-      - name: Upload to Azure Blob Storage
+      - name: Install azcopy
+        run: |
+          # Download and install azcopy for faster uploads
+          wget -O azcopy.tar.gz https://aka.ms/downloadazcopy-v10-linux
+          tar -xf azcopy.tar.gz --strip-components=1
+          sudo mv azcopy /usr/local/bin/
+          azcopy --version
+
+      - name: Upload to Azure Blob Storage with AzCopy
         run: |
           echo "Deploying to ${{ needs.determine-environment.outputs.environment }} environment"
+          echo "Starting high-performance upload of ~60,000 files..."
           
-          # Upload all files to the $web container using storage account key
-          az storage blob upload-batch \
+          # Create SAS token for azcopy (more secure than using key directly)
+          end_date=$(date -u -d "30 minutes" '+%Y-%m-%dT%H:%MZ')
+          sas_token=$(az storage container generate-sas \
             --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
             --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-            --destination '$web' \
-            --source ./build \
-            --overwrite
+            --name '$web' \
+            --permissions dlrw \
+            --expiry $end_date \
+            --output tsv)
+          
+          # Use azcopy for parallel uploads (much faster for many files)
+          azcopy copy "./build/*" \
+            "https://${{ secrets.STORAGE_ACCOUNT_NAME }}.blob.core.windows.net/\$web?$sas_token" \
+            --recursive \
+            --overwrite=true \
+            --log-level=WARNING \
+            --cap-mbps=0 \
+            --block-size-mb=4 \
+            --include-pattern="*"
+          
+          echo "Upload completed!"
 
-      - name: Set blob content types
+      - name: Set blob content types efficiently
         run: |
-          # Set correct content types for common web files
-          az storage blob list \
-            --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-            --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-            --container-name '$web' \
-            --query "[?ends_with(name, '.html')].name" \
-            --output tsv | while read -r blob; do
-              az storage blob update \
-                --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-                --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-                --container-name '$web' \
-                --name "$blob" \
-                --content-type "text/html"
-          done
+          echo "Setting content types for web files..."
+          
+          # Create a properties file for batch operations
+          cat > set_content_types.sh << 'EOF'
+          #!/bin/bash
+          
+          # Function to set content types in parallel
+          set_content_type() {
+            local pattern=$1
+            local content_type=$2
+            
+            az storage blob list \
+              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
+              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
+              --container-name '$web' \
+              --prefix "" \
+              --query "[?ends_with(name, '$pattern')].name" \
+              --output tsv | \
+            xargs -P 10 -I {} az storage blob update \
+              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
+              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
+              --container-name '$web' \
+              --name "{}" \
+              --content-type "$content_type" \
+              --output none
+          }
+          
+          # Set content types in parallel (10 concurrent operations)
+          echo "Setting HTML content types..."
+          set_content_type ".html" "text/html"
+          
+          echo "Setting CSS content types..."
+          set_content_type ".css" "text/css"
+          
+          echo "Setting JS content types..."
+          set_content_type ".js" "application/javascript"
+          
+          echo "Setting JSON content types..."
+          set_content_type ".json" "application/json"
+          
+          echo "Setting SVG content types..."
+          set_content_type ".svg" "image/svg+xml"
+          
+          echo "Setting image content types..."
+          set_content_type ".png" "image/png"
+          set_content_type ".jpg" "image/jpeg"
+          set_content_type ".jpeg" "image/jpeg"
+          set_content_type ".gif" "image/gif"
+          set_content_type ".webp" "image/webp"
+          
+          echo "Setting font content types..."
+          set_content_type ".woff" "font/woff"
+          set_content_type ".woff2" "font/woff2"
+          set_content_type ".ttf" "font/ttf"
+          set_content_type ".eot" "application/vnd.ms-fontobject"
+          
+          echo "Content types updated!"
+          EOF
+          
+          chmod +x set_content_types.sh
+          ./set_content_types.sh
 
-          az storage blob list \
-            --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-            --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-            --container-name '$web' \
-            --query "[?ends_with(name, '.css')].name" \
-            --output tsv | while read -r blob; do
-              az storage blob update \
-                --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-                --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-                --container-name '$web' \
-                --name "$blob" \
-                --content-type "text/css"
-          done
-
-          az storage blob list \
-            --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-            --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-            --container-name '$web' \
-            --query "[?ends_with(name, '.js')].name" \
-            --output tsv | while read -r blob; do
-              az storage blob update \
-                --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-                --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-                --container-name '$web' \
-                --name "$blob" \
-                --content-type "application/javascript"
-          done
-
-          # Set content types for other common file types
-          az storage blob list \
-            --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-            --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-            --container-name '$web' \
-            --query "[?ends_with(name, '.json')].name" \
-            --output tsv | while read -r blob; do
-              az storage blob update \
-                --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-                --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-                --container-name '$web' \
-                --name "$blob" \
-                --content-type "application/json"
-          done
-
-          az storage blob list \
-            --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-            --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-            --container-name '$web' \
-            --query "[?ends_with(name, '.svg')].name" \
-            --output tsv | while read -r blob; do
-              az storage blob update \
-                --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
-                --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
-                --container-name '$web' \
-                --name "$blob" \
-                --content-type "image/svg+xml"
-          done
+      - name: Purge CDN endpoint (if configured)
+        if: ${{ secrets.CDN_ENDPOINT_NAME != '' && secrets.CDN_PROFILE_NAME != '' && secrets.CDN_RESOURCE_GROUP != '' }}
+        run: |
+          echo "Note: CDN purge requires Azure login. Skipping CDN purge when using storage key authentication."
+          echo "To use CDN purge, you'll need to use Azure AD authentication or purge CDN manually."
 
       - name: Display deployment URL
         run: |
