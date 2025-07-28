@@ -23,7 +23,7 @@ In Auditor client, go to the Integrations section and verify Integration API set
 1. Make sure the **Leverage Integration API** is switched to **ON**.
 2. Check the TCP communication port number – default is **9699**.
 
-See the [Prerequisites](/docs/auditor/10.7/api/prerequisites.md) topic for additional information.
+See the [Prerequisites](/docs/auditor/10.8/api/prerequisites.md) topic for additional information.
 
 By default, activity records are written to _Netwrix_Auditor_API_ database which is not associated
 with a specific monitoring plan.
@@ -31,11 +31,11 @@ with a specific monitoring plan.
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be
 written to a database linked to this plan. Target it at Netwrix API data source and enable for
 monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item
-name. See the [Integration API](/docs/auditor/10.7/api/overview.md) topic for additional information.
+name. See the [Integration API](/docs/auditor/10.8/api/overview.md) topic for additional information.
 
 In such scenario, you will need to specify this monitoring plan in the _NetwrixAuditorPlan_ and
 _NetwrixAuditorPlanItem_ parameters in the **settings.xml** file. See the
-[Add-On Parameters](/docs/auditor/10.7/addon/hyperv/parameters.md) topic for additional information.
+[Add-On Parameters](/docs/auditor/10.8/addon/hyperv/parameters.md) topic for additional information.
 
 ## Download the Add-On
 
@@ -47,7 +47,7 @@ _NetwrixAuditorPlanItem_ parameters in the **settings.xml** file. See the
 In the add-on folder, open the **settings.xml** file and configure the add-on parameters for data
 collection, as listed below.
 
-See the [Add-On Parameters](/docs/auditor/10.7/addon/hyperv/parameters.md)topic for the full list of configuration parameters.
+See the [Add-On Parameters](/docs/auditor/10.8/addon/hyperv/parameters.md)topic for the full list of configuration parameters.
 
 | Parameter              | Default value | Description                                                                                                                                                                                                                                                                                                          |
 | ---------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,7 +59,7 @@ See the [Add-On Parameters](/docs/auditor/10.7/addon/hyperv/parameters.md)topic 
 Save the **settings.xml** file. New configuration settings will be applied automatically at the next
 data collection.
 
-For the full list of parameters, see the [Add-On Parameters](/docs/auditor/10.7/addon/hyperv/parameters.md) topic for additional
+For the full list of parameters, see the [Add-On Parameters](/docs/auditor/10.8/addon/hyperv/parameters.md) topic for additional
 information.
 
 ## Register Windows Scheduled Task

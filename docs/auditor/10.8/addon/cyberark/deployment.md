@@ -25,7 +25,7 @@ In Auditor client, go to the Integrations section and verify Integration API set
 1. Make sure the **Leverage Integration API** is switched to **ON**.
 2. Check the TCP communication port number – default is **9699**.
 
-See the [Prerequisites](/docs/auditor/10.7/api/prerequisites.md) topic for additional information.
+See the [Prerequisites](/docs/auditor/10.8/api/prerequisites.md) topic for additional information.
 
 By default, activity records are written to _Netwrix_Auditor_API_ database which is not associated
 with a specific monitoring plan.
@@ -33,11 +33,11 @@ with a specific monitoring plan.
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be
 written to a database linked to this plan. Target it at Netwrix API data source and enable for
 monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item
-name. See the [Integration API](/docs/auditor/10.7/api/overview.md) topic for additional information.
+name. See the [Integration API](/docs/auditor/10.8/api/overview.md) topic for additional information.
 
 In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_
 attributes of the _`<AcceptList>` ® `<Address>`_ configuration parameters. See the
-[Add-On Parameters](/docs/auditor/10.7/addon/cyberark/parameters.md) topic for additional information.
+[Add-On Parameters](/docs/auditor/10.8/addon/cyberark/parameters.md) topic for additional information.
 
 ## Configure Syslog Message Forwarding in CyberArk
 
@@ -67,9 +67,9 @@ folder and open the **dbparam.ini** file for editing.
   add-on. Specify **UDP** protocol.
 - **SyslogMessageCodeFilter** - IDs of events to forward. The add-on will only collect and process
   events you specify in this parameter. For the full list of supported events, see
-  [Monitored Events](/docs/auditor/10.7/addon/cyberark/monitoredevents.md). Use comma as a separator.
+  [Monitored Events](/docs/auditor/10.8/addon/cyberark/monitoredevents.md). Use comma as a separator.
 
-![dbparamfile_thumb_0_0](/images/auditor/10.7/addon/cyberark/dbparamfile_thumb_0_0.webp)
+![dbparamfile_thumb_0_0](/images/auditor/10.8/addon/cyberark/dbparamfile_thumb_0_0.webp)
 
 **Step 4 –** Save the **dbparam.ini** file.
 
@@ -104,7 +104,7 @@ Follow the steps to install the Add-On:
 
 The configuration wizard opens in the default web browser:
 
-![ConfigurationWizard](/images/auditor/10.7/addon/cyberark/configwizard.webp)
+![ConfigurationWizard](/images/auditor/10.8/addon/cyberark/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

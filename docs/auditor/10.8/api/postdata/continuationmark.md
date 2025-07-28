@@ -17,8 +17,8 @@ Send a POST request containing Continuation mark to the following endpoints:
 
 | Method | Endpoint                                                                | Description                                               |
 | ------ | ----------------------------------------------------------------------- | --------------------------------------------------------- |
-| POST   | [/netwrix/api/v1/activity_records/enum ](/docs/auditor/10.7/api/retrieveactivityrecords.md) | Returns next Activity Records.                            |
-| POST   | [/netwrix/api/v1/activity_records/search](/docs/auditor/10.7/api/searchactivityrecords.md)  | Returns next Activity Records matching a filter criteria. |
+| POST   | [/netwrix/api/v1/activity_records/enum ](/docs/auditor/10.8/api/retrieveactivityrecords.md) | Returns next Activity Records.                            |
+| POST   | [/netwrix/api/v1/activity_records/search](/docs/auditor/10.8/api/searchactivityrecords.md)  | Returns next Activity Records matching a filter criteria. |
 
 Ensure to pass information about transferred data, including `Content-Type:application/xml` or
 `application/json `and encoding. The syntax greatly depends on the tool you use.
@@ -38,11 +38,11 @@ Copy the contents of `ContinuationMark` to a separate XML or JSON file (e.g., Co
 | JSON   | JSON-formatted Continuation mark includes the field value in quotes.                                                                                                                                                                                                                                  |
 
 If you want to retrieve next Activity Records for your search, include the Continuation mark to your
-Search parameters file. [Search Parameters](/docs/auditor/10.7/api/postdata/searchparameters.md)
+Search parameters file. [Search Parameters](/docs/auditor/10.8/api/postdata/searchparameters.md)
 
 ## Example
 
-[Retrieve Activity Records](/docs/auditor/10.7/api/retrieveactivityrecords.md)
+[Retrieve Activity Records](/docs/auditor/10.8/api/retrieveactivityrecords.md)
 ```xml
 <?xml version="1.0" standalone="yes"?>
 <ContinuationMark xmlns="http://schemas.netwrix.com/api/v1/activity_records/"> 
@@ -51,7 +51,7 @@ PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A
 ```
 
 
-[Search Activity Records](/docs/auditor/10.7/api/searchactivityrecords.md)
+[Search Activity Records](/docs/auditor/10.8/api/searchactivityrecords.md)
 
 ```xml
 <?xml version="1.0" standalone="yes"?>
@@ -70,13 +70,13 @@ PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A+PC9ucj4A
 </ActivityRecordSearch> 
 ```
 
-[Retrieve Activity Records](/docs/auditor/10.7/api/retrieveactivityrecords.md)
+[Retrieve Activity Records](/docs/auditor/10.8/api/retrieveactivityrecords.md)
 
 ```json
 `"PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A"`
 ```
 
-[Search Activity Records](/docs/auditor/10.7/api/searchactivityrecords.md)
+[Search Activity Records](/docs/auditor/10.8/api/searchactivityrecords.md)
 
 ```json
  {

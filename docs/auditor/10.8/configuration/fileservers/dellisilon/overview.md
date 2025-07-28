@@ -46,8 +46,8 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 To configure your Dell Isilon/PowerScale appliance for monitoring perform the following procedures:
 
-- [Normal and Enterprise Modes for Clusters](/docs/auditor/10.7/configuration/fileservers/dellisilon/normal.md)
-- [Compliance Mode](/docs/auditor/10.7/configuration/fileservers/dellisilon/compliance.md)
+- [Normal and Enterprise Modes for Clusters](/docs/auditor/10.8/configuration/fileservers/dellisilon/normal.md)
+- [Compliance Mode](/docs/auditor/10.8/configuration/fileservers/dellisilon/compliance.md)
 
 If your file shares contain symbolic links and you want to collect state-in-time data for these
 shares, the local-to-local, local-to-remote, remote-to-local, and remote-to-remote symbolic link

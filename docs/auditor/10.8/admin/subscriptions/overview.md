@@ -15,8 +15,8 @@ You can configure subscriptions to reports (including dashboards) risk assessmen
 interactive search.
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to
-access them instantly. See the [Navigation](/docs/auditor/10.7/admin/navigation/overview.md) and
-[Customize Home Screen](/docs/auditor/10.7/admin/navigation/customizehome.md) topics for additional information.
+access them instantly. See the [Navigation](/docs/auditor/10.8/admin/navigation/overview.md) and
+[Customize Home Screen](/docs/auditor/10.8/admin/navigation/customizehome.md) topics for additional information.
 
 ## Subscription to Reports
 
@@ -62,5 +62,5 @@ This subscription type is similar to the predefined reports.
 
 Review the following for additional information:
 
-- [Create Subscriptions](/docs/auditor/10.7/admin/subscriptions/create.md)how to create new subscriptions.
-- [Review and Manage Subscriptions](/docs/auditor/10.7/admin/subscriptions/manage.md)how to manage subscriptions.
+- [Create Subscriptions](/docs/auditor/10.8/admin/subscriptions/create.md)how to create new subscriptions.
+- [Review and Manage Subscriptions](/docs/auditor/10.8/admin/subscriptions/manage.md)how to manage subscriptions.

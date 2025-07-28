@@ -30,8 +30,8 @@ You can configure your IT Infrastructure for monitoring in one of the following
       [Turn auditing on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)
       article for additional information.
     - Prepare a Data Collecting Account as described in the
-      [Permissions for Teams Auditing](/docs/auditor/10.7/configuration/microsoft365/teams/permissions/permissions.md) topic.
-    - Configure required protocols and ports, as described in the [Teams Ports](/docs/auditor/10.7/configuration/microsoft365/teams/ports.md) topic.
+      [Permissions for Teams Auditing](/docs/auditor/10.8/configuration/microsoft365/teams/permissions/permissions.md) topic.
+    - Configure required protocols and ports, as described in the [Teams Ports](/docs/auditor/10.8/configuration/microsoft365/teams/ports.md) topic.
 
 Auditor can monitor for operations with MS Teams entities, collect state-in-time snapshots and track
 changes to the object attributes. This section provides detailed information on these activities.
@@ -39,7 +39,7 @@ changes to the object attributes. This section provides detailed information on 
 Starting with the version 10.5, Auditor is able to report about sensitive data in your IT
 infrastructure. Pay attention to the "_Data categories_" column in search and reports (for the
 "_Document_" object types only). Refer to
-[Sensitive Data Discovery ](/docs/auditor/10.7/admin/settings/sensitivedatadiscovery.md) for detailed
+[Sensitive Data Discovery ](/docs/auditor/10.8/admin/settings/sensitivedatadiscovery.md) for detailed
 instructions on how to enable monitoring of sensitive data in Auditor.
 
 Review a full list of object types and attributes Auditor can collect on SharePoint Online. OneDrive

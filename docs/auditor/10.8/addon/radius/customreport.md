@@ -26,7 +26,7 @@ group.
 After running the script, the RADIUS server logons since yesterday custom report appears in
 **Reports** > **Custom**. You can access the search instantly to receive it on a regular basis.
 
-![radiusfilters](/images/auditor/10.7/addon/radius/radiusfilters.webp)
+![radiusfilters](/images/auditor/10.8/addon/radius/radiusfilters.webp)
 
 Clicking the saved search tile opens the search with preset filters, which shows RADIUS logon
 activity data for 2 days (yesterday and today).

@@ -88,8 +88,8 @@ Netwrix Auditor, these conflicts will be listed in the Netwrix Auditor System He
 Also, remember to do the following:
 
 - Configure Data Collecting Account as described in
-  [Permissions for Oracle Database Auditing](/docs/auditor/10.7/configuration/oracle/permissions.md) topic.
-- Configure ports as described in [Oracle Database Ports](/docs/auditor/10.7/configuration/oracle/ports.md) topic.
+  [Permissions for Oracle Database Auditing](/docs/auditor/10.8/configuration/oracle/permissions.md) topic.
+- Configure ports as described in [Oracle Database Ports](/docs/auditor/10.8/configuration/oracle/ports.md) topic.
 
 **NOTE:** Traditional auditing is deprecated in Oracle Database 21c. Oracle recommends using Unified
 Auditing, which enables selective and more effective auditing within Oracle Database. See the
@@ -191,6 +191,6 @@ successful logon session.
 Also, remember to do the following:
 
 - Configure Data Collecting Account. See the
-  [Permissions for Oracle Database Auditing](/docs/auditor/10.7/configuration/oracle/permissions.md) topic for additional information.
-- Configure ports. See the [Oracle Database Ports](/docs/auditor/10.7/configuration/oracle/ports.md) topic for additional information about
+  [Permissions for Oracle Database Auditing](/docs/auditor/10.8/configuration/oracle/permissions.md) topic for additional information.
+- Configure ports. See the [Oracle Database Ports](/docs/auditor/10.8/configuration/oracle/ports.md) topic for additional information about
   ports and protocols required for auditing.

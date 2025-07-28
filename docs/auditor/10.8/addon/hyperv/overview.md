@@ -35,7 +35,7 @@ Major benefits:
 The add-on is implemented as a stand-alone application that collects activity data from Virtual
 Machine Manager and sends it to Auditor using the Integration API.
 
-![HIW](/images/auditor/10.7/addon/hyperv/diagram_thumb_0_0.webp)
+![HIW](/images/auditor/10.8/addon/hyperv/diagram_thumb_0_0.webp)
 
 On a high level, the solution works as follows:
 
@@ -55,7 +55,7 @@ On a high level, the solution works as follows:
 5. This script creates a Windows scheduled task that will run periodically (every 15 minutes) to
    collect audit data from VMM server.
 
-    See the [Monitoring Scope](/docs/auditor/10.7/addon/hyperv/monitoredevents.md) for additional information on the default list of
+    See the [Monitoring Scope](/docs/auditor/10.8/addon/hyperv/monitoredevents.md) for additional information on the default list of
     the events supported out-of-the box.
 
 6. The add-on component **HVARunner.exe** starts collecting activity data from VMM. Data
@@ -64,7 +64,7 @@ On a high level, the solution works as follows:
    Record contains the Who-What-When-Where-Action information (that is, initiator's account, time,
    action, and other details).
 
-See the [Integration API](/docs/auditor/10.7/api/overview.md) topic for additional information on the structure
+See the [Integration API](/docs/auditor/10.8/api/overview.md) topic for additional information on the structure
 of the Activity Record and the capabilities of the Integration API.
 
 8. The add-on uses the Integration API to send the Activity Records to Auditor Server, where this
@@ -94,7 +94,7 @@ follows:
 
 | On...                                                                           | Ensure that...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Auditor Server                                                                  | - Integration API and Audit Database settings are configured in Auditor Server settings. See the [Prerequisites](/docs/auditor/10.7/api/prerequisites.md) and [Audit Database](/docs/auditor/10.7/admin/settings/auditdatabase.md) topics for additional information. - The **TCP 9699** port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the **Contributor** role in Netwrix Auditor. See the [Role-Based Access and Delegation](/docs/auditor/10.7/admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant it the **Global administrator** role, or add that account to the **Netwrix Auditor Administrators** group. |
+| Auditor Server                                                                  | - Integration API and Audit Database settings are configured in Auditor Server settings. See the [Prerequisites](/docs/auditor/10.8/api/prerequisites.md) and [Audit Database](/docs/auditor/10.8/admin/settings/auditdatabase.md) topics for additional information. - The **TCP 9699** port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the **Contributor** role in Netwrix Auditor. See the [Role-Based Access and Delegation](/docs/auditor/10.8/admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant it the **Global administrator** role, or add that account to the **Netwrix Auditor Administrators** group. |
 | Add-on installation server, i.e. the machine where the add-on will be installed | - The **TCP 5985** port must be open on Windows firewall for inbound connections. - NET Framework 4.5 or later.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Microsoft System Center Virtual Machine Manager                                 | SCVMM versions: - 2019 - 2016                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Virtualization hosts                                                            | - Microsoft Hyper-V (hardware and nested-virtualization) - VMware ESXi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -107,7 +107,7 @@ This account should have the following minimal rights and permissions:
 
 - **Administrator** role in SCVMM
 - **Contributor** role in Auditor. See the
-  [Role-Based Access and Delegation](/docs/auditor/10.7/admin/monitoringplans/delegation.md) topic for additional
+  [Role-Based Access and Delegation](/docs/auditor/10.8/admin/monitoringplans/delegation.md) topic for additional
   information.
 
 ### Considerations and Limitations

@@ -38,7 +38,7 @@ take a while. Ensure the script execution completed successfully. The Netwrix Au
 
 By default, the Netwrix Auditor **Integration** event log size is set to **1GB**, and retention is
 set to "_Overwrite events as needed_". See the
-[Integration Event Log Fields](/docs/auditor/10.7/addon/ibmqradar/integrationeventlog.md) topic for additional information.
+[Integration Event Log Fields](/docs/auditor/10.8/addon/ibmqradar/integrationeventlog.md) topic for additional information.
 
 **NOTE:** Event records with more than 30,000 characters length will be trimmed.
 

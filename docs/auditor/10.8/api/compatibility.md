@@ -15,4 +15,4 @@ leveraging Netwrix Auditor Integration API. Download the latest add-on version i
 | XML: `<ManagedObject></ManagedObject>`, JSON: `"ManagedObject"` | XML: `<MonitoringPlan> <Name>Name</Name> <ID>Unique ID</ID> </MonitoringPlan>`, JSON: `"MonitoringPlan" : { "ID": "{Unique ID}", "Name": "Name" }` Now the MonitoringPlan contains two sub-entries: ID and Name. The ID property is optional and is assigned automatically by the product. |
 | —                                                  | XML: `<Item> <Name>Item name</Name> </Item>`, JSON: `"Item": {"Name": "Item name"`                                                                                                                                                                                  |
 
-To learn more about input and output Activity Record structure, refer to [Activity Records](/docs/auditor/10.7/api/postdata/activityrecords.md).
+To learn more about input and output Activity Record structure, refer to [Activity Records](/docs/auditor/10.8/api/postdata/activityrecords.md).

@@ -10,7 +10,7 @@ This section describes how the add-on fills in the Netwrix Auditor **Integration
 with data retrieved from Activity Records.
 
 The Activity Record structure is described in the
-[Reference for Creating Activity Records](/docs/auditor/10.7/api/activityrecordreference.md)topic.
+[Reference for Creating Activity Records](/docs/auditor/10.8/api/activityrecordreference.md)topic.
 
 | Event log field name | Filled in with value                                                          | Details                                                                                                                                                             |
 | -------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ The Activity Record structure is described in the
 | EventID              | **`{Calculated by add-on}`** -OR- **0**                                       | Depending on _GenerateEventId_ in-script parameter (calculation result also depends on _IncludeDataSourceToMakeEventId_ parameter — if _GenerateEventId_ = _True_). |
 | Task Category        | **`{DataSource ID}`** -OR- **1**                                              | Depending on _SetDataSourceAsEventCategory_ in-script parameter.                                                                                                    |
 
-See the [Define Parameters](/docs/auditor/10.7/addon/ibmqradar/parameters.md) topic for additional information.
+See the [Define Parameters](/docs/auditor/10.8/addon/ibmqradar/parameters.md) topic for additional information.
 
 EventData is filled in with data from the Activity Record fields as follows:
 
@@ -37,4 +37,4 @@ EventData is filled in with data from the Activity Record fields as follows:
 
 Details are filled in only if this Activity Record field is not empty.
 
-![eventlogexample_thumb_0_0](/images/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+![eventlogexample_thumb_0_0](/images/auditor/10.8/addon/solarwinds/eventlogexample_thumb_0_0.webp)

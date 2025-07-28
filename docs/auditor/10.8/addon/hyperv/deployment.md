@@ -13,11 +13,11 @@ is installed together with Auditor server):
 
 1. Add-on running on the same machine as SCVMM server (with Management Console):
 
-![deployment_1](/images/auditor/10.7/addon/hyperv/diagram1server.webp)
+![deployment_1](/images/auditor/10.8/addon/hyperv/diagram1server.webp)
 
 2. Add-on and SCVMM server (with Management Console) running on different machines:
 
-![deployment_2](/images/auditor/10.7/addon/hyperv/diagram2servers_thumb_0_0.webp)
+![deployment_2](/images/auditor/10.8/addon/hyperv/diagram2servers_thumb_0_0.webp)
 
 In this scenario, the account used to access SCVMM server must be a member of the _Remote Management
 Users_ local group on the SCVMM server.
@@ -25,11 +25,11 @@ Users_ local group on the SCVMM server.
 3. Add-on running on the same machine as SCVMM Management Console; SCVMM server running on the
    remote machine:
 
-![deployment_3](/images/auditor/10.7/addon/hyperv/diagram3servers_thumb_0_0.webp)
+![deployment_3](/images/auditor/10.8/addon/hyperv/diagram3servers_thumb_0_0.webp)
 
 In this scenario, make sure to specify SCVMM server address in the **DataCollectionServer**
 parameter (not the machine where SCVMM console runs) in the **settings.xml** configuration file. See
-the [Add-On Parameters](/docs/auditor/10.7/addon/hyperv/parameters.md)topic for additional information.
+the [Add-On Parameters](/docs/auditor/10.8/addon/hyperv/parameters.md)topic for additional information.
 
 Depending on the deployment scenario you choose, you will need to define a set of the add-on
 parameters. Several examples are provided below.

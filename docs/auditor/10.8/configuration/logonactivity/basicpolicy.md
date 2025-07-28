@@ -8,7 +8,7 @@ sidebar_position: 20
 
 Basic local audit policies allow tracking changes to user accounts and groups and identifying
 originating workstations. You can configure advanced audit policies for the same purpose too. See
-the [Configure Advanced Audit Policies](/docs/auditor/10.7/configuration/logonactivity/advancedpolicy.md) topic for additional information.
+the [Configure Advanced Audit Policies](/docs/auditor/10.8/configuration/logonactivity/advancedpolicy.md) topic for additional information.
 
 1. Open the **Group Policy Management** console on any domain controller in the target domain:
    navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or

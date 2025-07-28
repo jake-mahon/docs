@@ -25,7 +25,7 @@ The My Reviews interface provides owners with access to historical and pending r
 Reviews interface is only accessible to users who have been assigned ownership of at least one
 resource. Owners without a console user role are directed to the My Reviews interface at login.
 Owners with a console user role access the pending and historical reviews for their resources by
-clicking the My Reviews tab. See the [Pending Reviews](/docs/auditor/10.7/accessreviews/owneroverview/pendingreviews/pendingreviews.md)
+clicking the My Reviews tab. See the [Pending Reviews](/docs/auditor/10.8/accessreviews/owneroverview/pendingreviews/pendingreviews.md)
 topic for additional information.
 
 Who Can Assign Ownership (Ownership Administrators)?
@@ -48,14 +48,14 @@ What Can Resource Owners Do?
 - Perform an access review (when there is a pending review)
 - View historical information on access reviews
 
-See the [Resource Owners Interface](/docs/auditor/10.7/accessreviews/resourceowners/interface/interface.md) topic for additional information.
+See the [Resource Owners Interface](/docs/auditor/10.8/accessreviews/resourceowners/interface/interface.md) topic for additional information.
 
 ## Workflow of Ownership Assignment
 
 Prerequisite:
 
 - Optional: The Access Reviews application is configured to send Notifications. See the
-  [Notifications Page](/docs/auditor/10.7/accessreviews/admin/configuration/notifications.md) topic for additional information.
+  [Notifications Page](/docs/auditor/10.8/accessreviews/admin/configuration/notifications.md) topic for additional information.
 
     **NOTE:** By default, the application is configured to send notifications only to the primary
     owner. However, this can be customized on the Configuration > Notifications page to send
@@ -74,8 +74,8 @@ Workflow:
 workflow.
 
 - Add resources to be managed by associating a business data owner with a resource. See the
-  [Add New Resource Wizard](/docs/auditor/10.7/accessreviews/resourceowners/interface/add.md) topic for additional information.
-- Confirm resource ownership. See the [Ownership Confirmation](/docs/auditor/10.7/accessreviews/resourceowners/confirmation/confirmation.md) topic for additional
+  [Add New Resource Wizard](/docs/auditor/10.8/accessreviews/resourceowners/interface/add.md) topic for additional information.
+- Confirm resource ownership. See the [Ownership Confirmation](/docs/auditor/10.8/accessreviews/resourceowners/confirmation/confirmation.md) topic for additional
   information.
 - Notify owners of their responsibilities. See the Notification to Owners topic for additional
   information.
@@ -90,5 +90,5 @@ information:
 - How owners should log into the application console, specifically what URL and credentials to use.
 - Expectation on response times
 - How to access instructions on how to complete a review. You can link to the
-  [Owners & Access Reviews](/docs/auditor/10.7/accessreviews/owneroverview/owneroverview.md) topic or download that topic and its subtopics as a
+  [Owners & Access Reviews](/docs/auditor/10.8/accessreviews/owneroverview/owneroverview.md) topic or download that topic and its subtopics as a
   PDF and make it available within your corporate resources.

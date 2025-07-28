@@ -7,7 +7,7 @@ sidebar_position: 30
 # Configure Local Audit Policies
 
 You can choose to configure local audit policies or advanced audit policies.See the
-[Configure Advanced Audit Policies](/docs/auditor/10.7/configuration/fileservers/windows/advancedpolicy.md) topic for more information.
+[Configure Advanced Audit Policies](/docs/auditor/10.8/configuration/fileservers/windows/advancedpolicy.md) topic for more information.
 
 Follow the steps to configure local audit policies.
 

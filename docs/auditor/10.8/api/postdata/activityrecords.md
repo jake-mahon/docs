@@ -74,7 +74,7 @@ similar to the following—the exact schema depends on operation (input or outpu
 ```
 
 To feed data from a custom audit source to Netwrix Auditor, send a POST request containing Activity
-Records. [Write Activity Records](/docs/auditor/10.7/api/writeactivityrecords.md)
+Records. [Write Activity Records](/docs/auditor/10.8/api/writeactivityrecords.md)
 
 ## Schema
 

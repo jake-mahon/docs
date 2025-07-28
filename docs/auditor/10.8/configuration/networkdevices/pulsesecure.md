@@ -17,7 +17,7 @@ sidebar_position: 100
     - Login/Logout
     - VPN Tunneling
 
-    ![manual_config_pulse_1](/images/auditor/10.7/configuration/networkdevices/manual_config_pulse_1.webp)
+    ![manual_config_pulse_1](/images/auditor/10.8/configuration/networkdevices/manual_config_pulse_1.webp)
 
 6. Under the Syslog Servers, complete the following fields:
 
@@ -48,10 +48,10 @@ sidebar_position: 100
 15. Save your changes.
 16. Start Netwrix Auditor.
 17. Navigate to your monitoring plan for Network Devices. See
-    [Monitoring Plans](/docs/auditor/10.7/admin/monitoringplans/overview.md)
+    [Monitoring Plans](/docs/auditor/10.8/admin/monitoringplans/overview.md)
 18. Provide the IP address of the interface you specified on the step 14 as the Computer item for
     your monitoring plan. See
-    [Active Directory](/docs/auditor/10.7/admin/monitoringplans/activedirectory/overview.md)
+    [Active Directory](/docs/auditor/10.8/admin/monitoringplans/activedirectory/overview.md)
 
 ## Pulse Secure Devices
 

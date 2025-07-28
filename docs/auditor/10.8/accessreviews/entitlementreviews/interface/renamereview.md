@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # Rename Review Window
 
-The Rename Review window opens from the [Manage Reviews Page](/docs/auditor/10.7/accessreviews/entitlementreviews/interface/interface.md#manage-reviews-page)
+The Rename Review window opens from the [Manage Reviews Page](/docs/auditor/10.8/accessreviews/entitlementreviews/interface/interface.md#manage-reviews-page)
 of the Entitlement Reviews interface. Follow the steps to rename a review.
 
 **Step 1 –** Select the review and click **Rename**. The Rename Review window opens.

@@ -9,17 +9,17 @@ sidebar_position: 20
 This topic provides the requirements for the server where Netwrix Auditor will be installed. See the
 following topics for additional information:
 
-- [Supported Data Sources](/docs/auditor/10.7/requirements/supporteddatasources/supporteddatasources.md)
-- [Hardware Requirements](/docs/auditor/10.7/requirements/console.md)
-- [Software Requirements](/docs/auditor/10.7/requirements/software.md)
-- [Requirements for SQL Server to Store Audit Data](/docs/auditor/10.7/requirements/sqlserver.md)
+- [Supported Data Sources](/docs/auditor/10.8/requirements/supporteddatasources/supporteddatasources.md)
+- [Hardware Requirements](/docs/auditor/10.8/requirements/console.md)
+- [Software Requirements](/docs/auditor/10.8/requirements/software.md)
+- [Requirements for SQL Server to Store Audit Data](/docs/auditor/10.8/requirements/sqlserver.md)
 
 ## Architecture Overview
 
 Netwrix Auditor provides comprehensive auditing of applications, platforms and storage systems. The
 product architecture and components interactions are shown in the figure below.
 
-![auditorarchitecture_thumb_0_0](/images/auditor/10.7/requirements/auditorarchitecture_thumb_0_0.webp)
+![auditorarchitecture_thumb_0_0](/images/auditor/10.8/requirements/auditorarchitecture_thumb_0_0.webp)
 
 - Netwrix Auditor Server — the central component that handles the collection, transfer and
   processing of audit data from the various data sources (audited systems). Data from the sources
@@ -61,7 +61,7 @@ The general workflow stages are as follows:
       consolidate data from multiple independent sources (event logs, configuration snapshots,
       change history records, etc.). This capability is implemented with Netwrix Auditor Server and
       Integration API.
-    - See the [Integration API](/docs/auditor/10.7/api/overview.md) topic for additional information on custom data
+    - See the [Integration API](/docs/auditor/10.8/api/overview.md) topic for additional information on custom data
       source processing workflow.
 
 - Audit data is stored to the Audit databases and the repository (Long-Term Archive) and preserved

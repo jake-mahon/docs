@@ -14,7 +14,7 @@ settings (size and retention method). For that, take the steps described below.
    the DHCP-Server node.
 3. Right-click the Operational log and select Properties.
 
-    ![manual_config_dhcp_log](/images/auditor/10.7/configuration/windowsserver/manual_config_dhcp_log.webp)
+    ![manual_config_dhcp_log](/images/auditor/10.8/configuration/windowsserver/manual_config_dhcp_log.webp)
 
 4. Make sure the **Enable logging** option is selected.
 5. Set **Maximum log size** to **4 GB**.

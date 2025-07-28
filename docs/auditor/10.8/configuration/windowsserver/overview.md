@@ -28,8 +28,8 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - The Remote Registry and the Windows Management Instrumentation (WMI) service must be started.
       See the
-      [Enable Remote Registry and Windows Management Instrumentation Services](/docs/auditor/10.7/configuration/windowsserver/remoteregistry.md)
-      topic and the [Configure Windows Registry Audit Settings](/docs/auditor/10.7/configuration/windowsserver/windowsregistry.md) topic for
+      [Enable Remote Registry and Windows Management Instrumentation Services](/docs/auditor/10.8/configuration/windowsserver/remoteregistry.md)
+      topic and the [Configure Windows Registry Audit Settings](/docs/auditor/10.8/configuration/windowsserver/windowsregistry.md) topic for
       additional information.
     - The following advanced audit policy settings must be configured:
 
@@ -43,25 +43,25 @@ You can configure your IT Infrastructure for monitoring in one of the following
           User Account Management, Audit Handle Manipulation, Audit Other Object Access Events,
           Audit Registry, Audit File Share, and Audit Audit Policy Changeadvanced audit policies
           must be set to _"Success"_.
-        - See the [Configure Local Audit Policies](/docs/auditor/10.7/configuration/windowsserver/localpolicy.md) topic and the
-          [Configure Advanced Audit Policies](/docs/auditor/10.7/configuration/windowsserver/advancedpolicy.md) topic for additional information.
+        - See the [Configure Local Audit Policies](/docs/auditor/10.8/configuration/windowsserver/localpolicy.md) topic and the
+          [Configure Advanced Audit Policies](/docs/auditor/10.8/configuration/windowsserver/advancedpolicy.md) topic for additional information.
 
     - The following legacy audit policies can be configured instead of advanced: Audit object
       access, Audit policy change, and **Audit account management** must be set to _"Success"_.
     - The Enable Persistent Time Stamp local group policy must be enabled. This policy should be
       configured manually since Auditor does not enable it automatically. See the
-      [Configure Enable Persistent Time Stamp Policy](/docs/auditor/10.7/configuration/windowsserver/persistenttimestamp.md) topic for additional
+      [Configure Enable Persistent Time Stamp Policy](/docs/auditor/10.8/configuration/windowsserver/persistenttimestamp.md) topic for additional
       information.
     - The Application, Security, and System event log maximum size must be set to 4 GB. The
       retention method must be set to _“Overwrite events as needed”_. See the
-      [Adjusting Event Log Size and Retention Settings](/docs/auditor/10.7/configuration/windowsserver/eventlog.md) topic for additional
+      [Adjusting Event Log Size and Retention Settings](/docs/auditor/10.8/configuration/windowsserver/eventlog.md) topic for additional
       information.
     - For auditing scheduled tasks, the Microsoft-Windows-TaskScheduler/Operational event log must
       be enabled and its maximum size must be set to 4 GB. The retention method of the log must be
       set to _“Overwrite events as needed”_.
     - For auditing DHCP, the Microsoft-Windows-Dhcp-Server/Operational event log must be enabled and
       its maximum size must be set to 4 GB. The retention method of the log must be set to
-      _“Overwrite events as needed”_. See the [Adjust DHCP Server Operational Log Settings](/docs/auditor/10.7/configuration/windowsserver/dhcp.md)
+      _“Overwrite events as needed”_. See the [Adjust DHCP Server Operational Log Settings](/docs/auditor/10.8/configuration/windowsserver/dhcp.md)
       topic for additional information.
     - For auditing DNS, the Microsoft-Windows-DNS-Server/Audit event log must be enabled and its
       maximum size must be set to 4 GB. The retention method of the log must be set to _“Overwrite
@@ -84,9 +84,9 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - If the audited servers are behind the Firewall, review the list of protocols and ports
       required for Netwrix Auditor and make sure that these ports are opened. See the
-      [Windows Server Ports](/docs/auditor/10.7/configuration/windowsserver/ports.md) topic for additional information.
+      [Windows Server Ports](/docs/auditor/10.8/configuration/windowsserver/ports.md) topic for additional information.
     - For auditing removable storage media, two Event Trace Session objects must be created. See the
-      [Configure Removable Storage Media for Monitoring](/docs/auditor/10.7/configuration/windowsserver/removablestorage.md) topic for additional
+      [Configure Removable Storage Media for Monitoring](/docs/auditor/10.8/configuration/windowsserver/removablestorage.md) topic for additional
       information.
     - If you want to use Network traffic compression, make sure that the Auditor console computer is
       accessible by its FQDN name.
@@ -102,8 +102,8 @@ Whatever method you choose to configure Windows Server for auditing (manual or a
 remember to do the following:
 
 1. Configure Data Collecting Account, as described in the
-   [Data Collecting Account](/docs/auditor/10.7/admin/monitoringplans/dataaccounts.md) topic.
-2. Configure required protocols and ports, as described in the [Windows Server Ports](/docs/auditor/10.7/configuration/windowsserver/ports.md)
+   [Data Collecting Account](/docs/auditor/10.8/admin/monitoringplans/dataaccounts.md) topic.
+2. Configure required protocols and ports, as described in the [Windows Server Ports](/docs/auditor/10.8/configuration/windowsserver/ports.md)
    topic.
 
 ## Exclude Monitored Objects
@@ -292,7 +292,7 @@ reports, alerts or search results, as it is only used as one of the sources for 
 formation.
 
 - You can configure these settings automatically using Netwrix Auditor, as described in the
-  [Settings for Data Collection](/docs/auditor/10.7/admin/monitoringplans/create.md#settings-for-data-collection)
+  [Settings for Data Collection](/docs/auditor/10.8/admin/monitoringplans/create.md#settings-for-data-collection)
   topic. Corresponding audit settings will be also applied automatically after you select a checkbox
   under **Monitor changes to system components** on the **General** tab in the Windows Server data
   source properties.
@@ -306,7 +306,7 @@ will adjust the audit settings for the following subkeys:
 - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services(|\\.\*)
 
 - To configure the audit settings manually, refer to the
-  [Configure Windows Registry Audit Settings](/docs/auditor/10.7/configuration/windowsserver/windowsregistry.md) topic for additional information.
+  [Configure Windows Registry Audit Settings](/docs/auditor/10.8/configuration/windowsserver/windowsregistry.md) topic for additional information.
 
 #### Monitoring Custom Registry Keys
 
@@ -315,7 +315,7 @@ Follow the steps to monitor custom registry keys.
 **Step 1 –** On the computer where Auditor Server resides, navigate to _%Netwrix Auditor
 installation folder%\Windows Server Auditing._
 
-![customregistrykeyentry](/images/auditor/10.7/configuration/windowsserver/customregistrykeyentry.webp)
+![customregistrykeyentry](/images/auditor/10.8/configuration/windowsserver/customregistrykeyentry.webp)
 
 **Step 2 –** Edit the following parameters of the customregistrykeys.txt file:
 
@@ -332,7 +332,7 @@ For example:
   must be put in front of (\*), (?), (,), and (\) if they are a part of an entry value.
 - Lines that start with the # sign are treated as comments and are ignored.
 
-![customregistrykey](/images/auditor/10.7/configuration/windowsserver/customregistrykey.webp)
+![customregistrykey](/images/auditor/10.8/configuration/windowsserver/customregistrykey.webp)
 
 **NOTE:** In some cases, **Who** will be the system and **When** will be collection time, because
 there is no necessary event in the Security log with this path.

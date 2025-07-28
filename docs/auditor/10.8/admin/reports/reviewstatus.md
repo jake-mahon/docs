@@ -18,7 +18,7 @@ issues through the following automated course of action:
 1. The reported changes to the monitored environment are assigned the New status by default.
 2. If a change seems unauthorized, or requires further analysis, you can click the Click to update
    status link next to the change detailed data:
-   ![reviewstatus_thumb_0_0](/images/auditor/10.7/admin/reports/reviewstatus_thumb_0_0.webp)3.
+   ![reviewstatus_thumb_0_0](/images/auditor/10.8/admin/reports/reviewstatus_thumb_0_0.webp)3.
    In the **Review status** dialog for selected change, set its status to In Review and provide a
    reason.
 3. Once the change has been approved of, or rolled back, you can set its status to Resolved.
@@ -40,6 +40,6 @@ sources and items included in each plan, navigate to the Monitoring Plans sectio
 They list
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
-[View Reports](/docs/auditor/10.7/admin/reports/view.md) topic for additional information. You can also create a subscription to any
-report you want to receive on a regular basis. See the [Subscriptions](/docs/auditor/10.7/admin/subscriptions/overview.md)
+[View Reports](/docs/auditor/10.8/admin/reports/view.md) topic for additional information. You can also create a subscription to any
+report you want to receive on a regular basis. See the [Subscriptions](/docs/auditor/10.8/admin/subscriptions/overview.md)
 topic for additional information.

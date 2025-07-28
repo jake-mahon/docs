@@ -29,7 +29,7 @@ viewing the Long-Term Archive widget of the Health Status dashboard, click Open 
 
 **Step 2 –** Click Modify.
 
-![archive_modify_settings_thumb_0_0](/images/auditor/10.7/requirements/archive_modify_settings_thumb_0_0.webp)
+![archive_modify_settings_thumb_0_0](/images/auditor/10.8/requirements/archive_modify_settings_thumb_0_0.webp)
 
 **Step 3 –** Enter new path or browse for the required folder.
 
@@ -62,10 +62,10 @@ If the retention period is set to **0**, the following logic will be applied:
 To examine the repository capacity and daily growth, use the Long-Term Archive Capacity of the
 Health Status dashboard.
 
-![healthstatusdashboard_thumb_0_0](/images/auditor/10.7/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.webp)
+![healthstatusdashboard_thumb_0_0](/images/auditor/10.8/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.webp)
 
 To estimate the amount of activity records collected and stored to the repository day by day, use
-the [Activity Records Statistics](/docs/auditor/10.7/admin/healthstatus/dashboard/activityrecordstatistics.md)
+the [Activity Records Statistics](/docs/auditor/10.8/admin/healthstatus/dashboard/activityrecordstatistics.md)
 widget. Click View details to see how many activity records were produced by each data source,
 collected and saved to the Long-Term Archive and to the database.
 
@@ -106,7 +106,7 @@ The custom account must be granted the following rights and permissions:
     - Create files / write data folder permission
 
     Subscriptions created in the Auditor client  are uploaded to file servers under the Long-Term
-    Archive service account as well. See the [Subscriptions](/docs/auditor/10.7/admin/subscriptions/overview.md)
+    Archive service account as well. See the [Subscriptions](/docs/auditor/10.8/admin/subscriptions/overview.md)
     topic for additional information.
 
 ### Assign Permissions on the Long-Term Archive Folder
@@ -189,5 +189,5 @@ Archive capacity. The widget displays the current size and daily increase of the
 and the remaining free space on the target drive.
 
 To open the Long-Term Archive settings, click the corresponding link. Then you will be able to
-adjust the settings as necessary. See the [Long-Term Archive](/docs/auditor/10.7/admin/settings/longtermarchive.md)
+adjust the settings as necessary. See the [Long-Term Archive](/docs/auditor/10.8/admin/settings/longtermarchive.md)
 topic for additional information.

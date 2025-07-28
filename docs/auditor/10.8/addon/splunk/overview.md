@@ -52,7 +52,7 @@ Netwrix Auditor data sources:
 | VMware                      | Authentication Change |
 | Windows Server              | Change                |
 
-See [CIM Data Model Mapping](/docs/auditor/10.7/addon/splunk/datamodelmap.md) for details.
+See [CIM Data Model Mapping](/docs/auditor/10.8/addon/splunk/datamodelmap.md) for details.
 
 ## How It Works
 
@@ -60,10 +60,10 @@ Netwrix Auditor add-on for Splunk allows pulling activity records data from the 
 its Integration API. Data is retrieved in JSON format, transferred over HTTPS and stored to Splunk
 index.
 
-![diagram](/images/auditor/10.7/addon/splunk/diagram.webp)
+![diagram](/images/auditor/10.8/addon/splunk/diagram.webp)
 
 To learn more about Netwrix Auditor activity records, see the
-[Activity Records](/docs/auditor/10.7/api/postdata/activityrecords.md) topic for additional information.
+[Activity Records](/docs/auditor/10.8/api/postdata/activityrecords.md) topic for additional information.
 
 For this data to be provided to Splunk, it adds a new Splunk source type, performing additional data
 parsing and field extraction. The audit data is also mapped into the Common Information Model (CIM)
@@ -111,7 +111,7 @@ follows:
 
 | On...               | Ensure that...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Auditor Server side | - Auditor version is 9.8 or later. - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/auditor/10.7/api/prerequisites.md) and [Audit Database](/docs/auditor/10.7/admin/settings/auditdatabase.md) topics for additional information. - The TCP 9699 port (default Auditor Integration API port) is open for inbound connections. - The user retrieving data from the Audit Database is granted the Global reviewer role in Auditor or is a member of the Netwrix Auditor Client Users group. See the [Role-Based Access and Delegation](/docs/auditor/10.7/admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant the Global administrator role or add the user to the Netwrix Auditor Administrators group. In this case, this user will have the most extended permissions in the product. |
+| Auditor Server side | - Auditor version is 9.8 or later. - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/auditor/10.8/api/prerequisites.md) and [Audit Database](/docs/auditor/10.8/admin/settings/auditdatabase.md) topics for additional information. - The TCP 9699 port (default Auditor Integration API port) is open for inbound connections. - The user retrieving data from the Audit Database is granted the Global reviewer role in Auditor or is a member of the Netwrix Auditor Client Users group. See the [Role-Based Access and Delegation](/docs/auditor/10.8/admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant the Global administrator role or add the user to the Netwrix Auditor Administrators group. In this case, this user will have the most extended permissions in the product. |
 | Splunk Enterprise   | - Splunk version is 8.0.6 or higher. - Splunk Common Information Model add-on version 4.17.0 or higher. - Splunk Administrator or any other account with permissions to add add-ons, create indexes and data inputs. - The TCP 9699 port must be open on firewalls between Splunk and Netwrix Auditor server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 ### Considerations and limitations

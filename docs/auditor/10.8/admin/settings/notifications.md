@@ -132,7 +132,7 @@ and click Modify to adjust them if necessary.
 | Enforce certificate validation to ensure security       | Select this checkbox if you want to verify security certificate on every email transmission. The option is not available for auditing User Activity as well Netwrix Auditor tools.                                                                                                            |
 
 You can configure Activity Summary frequency, format and delivery time for each monitoring plan
-individually. See the [Fine-Tune Your Plan and Edit Settings](/docs/auditor/10.7/admin/monitoringplans/finetune.md) topic
+individually. See the [Fine-Tune Your Plan and Edit Settings](/docs/auditor/10.8/admin/monitoringplans/finetune.md) topic
 for more information.
 
 After that, you can specify the recipient who will receive product activity and health summary
@@ -153,4 +153,4 @@ Follow the steps to send summary emails and notifications about critical events.
 To learn more about product health, you can also navigate to the Health status tile in the main
 window. It will take you to the Health Status dashboard that contains information on the product
 activity and system health state. See the
-[Health Status Dashboard](/docs/auditor/10.7/admin/healthstatus/dashboard/overview.md) topic for additional information.
+[Health Status Dashboard](/docs/auditor/10.8/admin/healthstatus/dashboard/overview.md) topic for additional information.

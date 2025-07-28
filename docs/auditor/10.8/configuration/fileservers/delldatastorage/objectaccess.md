@@ -33,7 +33,7 @@ node on the left and navigate to **Policies → Windows Settings → Security Se
 | -------------- | ----------------------- | --------------------------- |
 | Audit Policy   | **Audit object access** | _"Success"_ and _"Failure"_ |
 
-![manualconfig_fileserver_auditpolicy2016](/images/auditor/10.7/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.webp)
+![manualconfig_fileserver_auditpolicy2016](/images/auditor/10.8/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.webp)
 
 **Step 6 –** To update the group policies, execute the following command:
 
@@ -53,4 +53,4 @@ node on the left and navigate to **Policies → Windows Settings → Security Se
 
 You can configure advanced audit policy to narrow the range of events tracked and recorded by the
 product, thus preventing your AuditArchive and the Security event log from overfilling. See the
-[Configure Security Event Log Maximum Size](/docs/auditor/10.7/configuration/fileservers/delldatastorage/securityeventlog.md) topic for additional information.
+[Configure Security Event Log Maximum Size](/docs/auditor/10.8/configuration/fileservers/delldatastorage/securityeventlog.md) topic for additional information.

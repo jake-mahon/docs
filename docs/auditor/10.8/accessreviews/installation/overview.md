@@ -32,7 +32,7 @@ these will be referred to as the Database service account and the Active Directo
 - Active Directory service account – The Access Reviews Console login authentication requires the
   Active Directory service account to have rights to "read" Active Directory. This credential is
   configured during installation based on the account used for connecting to the database. See the
-  [Active Directory Page](/docs/auditor/10.7/accessreviews/admin/configuration/activedirectory.md) topic for additional
+  [Active Directory Page](/docs/auditor/10.8/accessreviews/admin/configuration/activedirectory.md) topic for additional
   information.
 
 ## Software Compatibility & Versions
@@ -51,7 +51,7 @@ Latest Version Compatibility
 
 Last Updated 6/6/2022
 
-See the [Upgrade Procedure](/docs/auditor/10.7/accessreviews/installation/upgrade.md) topic for additional information.
+See the [Upgrade Procedure](/docs/auditor/10.8/accessreviews/installation/upgrade.md) topic for additional information.
 
 ## Supported Browsers
 

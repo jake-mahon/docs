@@ -14,7 +14,7 @@ Starting with version 9.96, you can use group Managed Service Accounts (gMSA) as
 accounts.
 
 For more information on gMSA, refer to
-[Use Group Managed Service Account (gMSA)](/docs/auditor/10.7/requirements/gmsa.md)[Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).
+[Use Group Managed Service Account (gMSA)](/docs/auditor/10.8/requirements/gmsa.md)[Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).
 
 These group Managed Service Accounts should meet the related requirements.
 
@@ -23,7 +23,7 @@ These group Managed Service Accounts should meet the related requirements.
 1. On the SharePoint server where the Netwrix Auditor Core Service will be deployed: the account
    must be a member of the local Administrators group.  
    To learn more about Netwrix Auditor Core Services, refer to
-   [Installation](/docs/auditor/10.7/install/overview.md) topic.
+   [Installation](/docs/auditor/10.8/install/overview.md) topic.
 2. On the SQL Server hosting SharePoint database: the SharePoint_Shell_Access role.  
    See the Assigning 'SharePoint_Shell_Access' Role topic for additional information.
 3. If you plan to collect state-in-time data from a SharePoint farm, the account should also meet

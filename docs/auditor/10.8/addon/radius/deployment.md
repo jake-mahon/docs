@@ -10,7 +10,7 @@ Auditor Add-on for RADIUS Server runs on any computer in your environment. For e
 the add-on on the computer where Auditor is installed or on your RADIUS server.
 
 Depending on the execution scenario you choose, you have to define a different set of script
-parameters. See the [Define Parameters](/docs/auditor/10.7/addon/radius/parameters.md) topic for additional information.
+parameters. See the [Define Parameters](/docs/auditor/10.8/addon/radius/parameters.md) topic for additional information.
 
 Netwrixsuggests the following execution scenarios:
 

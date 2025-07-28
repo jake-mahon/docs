@@ -27,9 +27,9 @@ You can configure your IT Infrastructure for monitoring in the following way:
       [Turn auditing on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)
       article for additional information.
     - Prepare a Data Collecting Account as described in the
-      [Permissions for SharePoint Online Auditing ](/docs/auditor/10.7/configuration/microsoft365/sharepointonline/permissions/permissions.md) topic.
+      [Permissions for SharePoint Online Auditing ](/docs/auditor/10.8/configuration/microsoft365/sharepointonline/permissions/permissions.md) topic.
     - Configure required protocols and ports, as described in the
-      [SharePoint Online Ports](/docs/auditor/10.7/configuration/microsoft365/sharepointonline/ports.md) topic.
+      [SharePoint Online Ports](/docs/auditor/10.8/configuration/microsoft365/sharepointonline/ports.md) topic.
 
 Review a full list of object types and attributes Netwrix Auditor can collect on SharePoint Online.
 OneDrive for Business changes are reported as SharePoint Online.
@@ -51,5 +51,5 @@ OneDrive for Business changes are reported as SharePoint Online.
 Starting with the version 10, Netwrix Auditor is able to report about sensitive data in your IT
 infrastructure. Pay attention to the "_Data categories_" column in search and reports (for the
 "_Document_" object types only). See the
-[Sensitive Data Discovery ](/docs/auditor/10.7/admin/settings/sensitivedatadiscovery.md)topic for additional
+[Sensitive Data Discovery ](/docs/auditor/10.8/admin/settings/sensitivedatadiscovery.md)topic for additional
 information on how to enable monitoring of sensitive data in Netwrix Auditor.

@@ -16,11 +16,11 @@ requirements:
 OR
 
 - The Audit Logs management role (see the
-  [Assign Management Roles](/docs/auditor/10.7/configuration/exchange/permissions.md#assign-management-roles) topic for additional
+  [Assign Management Roles](/docs/auditor/10.8/configuration/exchange/permissions.md#assign-management-roles) topic for additional
   information)
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the
-[Exchange Administrator Audit Logging Settings](/docs/auditor/10.7/configuration/exchange/auditlog.md) topic for additional
+[Exchange Administrator Audit Logging Settings](/docs/auditor/10.8/configuration/exchange/auditlog.md) topic for additional
 information.
 
 ## Additional Configuration for Domain Controller's Event Logs Auto-backup
@@ -172,7 +172,7 @@ Domain Admins group.
 This permission should be assigned on each domain controller in the audited domain, so if your
 domain contains multiple domain controllers, it is recommended to assign permissions through Group
 Policy, or automatically using
-[Audit Configuration Assistant](/docs/auditor/10.7/tools/auditconfigurationassistant.md).
+[Audit Configuration Assistant](/docs/auditor/10.8/tools/auditconfigurationassistant.md).
 
 To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management
 console.

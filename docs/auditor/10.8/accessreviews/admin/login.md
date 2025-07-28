@@ -47,7 +47,7 @@ username needs to be entered in the `domain\username` format.
 
 **NOTE:** The URL may need to be added to the browser’s list of trusted sites.
 
-![Access Information Center Login page](/images/auditor/10.7/access/reviews/admin/login.webp)
+![Access Information Center Login page](/images/auditor/10.8/access/reviews/admin/login.webp)
 
 The interface a user arrives at depends upon the assigned role or lack of assigned role.
 
@@ -58,14 +58,14 @@ Role based access controls what interfaces users can see and where each user is 
 **_RECOMMENDED:_** Send an email to your users. Let them know why you are implementing use of the
 application, provide the URL, and explain how to login with their domain credentials and the
 username format. See the
-[Enable Console Users](/docs/auditor/10.7/accessreviews/accessreviews.md#enable-console-users) topic for additional
+[Enable Console Users](/docs/auditor/10.8/accessreviews/accessreviews.md#enable-console-users) topic for additional
 information.
 
 ### Administrator Role
 
 Users granted the Administrator role are directed to the Resource Owners interface upon login.
 
-![Resource Owners interface as the landing page for an Administrator user](/images/auditor/10.7/access/reviews/admin/landingadmin.webp)
+![Resource Owners interface as the landing page for an Administrator user](/images/auditor/10.8/access/reviews/admin/landingadmin.webp)
 
 Administrators are the only ones with access to the Configuration interface. The My Reviews
 interface is available if the logged in user is also assigned ownership of a resource.
@@ -74,7 +74,7 @@ interface is available if the logged in user is also assigned ownership of a res
 
 Users granted the Security Team role are directed to the Resource Owners interface upon login.
 
-![Resource Owners interface as the landing page for a Security Team user](/images/auditor/10.7/access/reviews/admin/landingsecurityteam.webp)
+![Resource Owners interface as the landing page for a Security Team user](/images/auditor/10.8/access/reviews/admin/landingsecurityteam.webp)
 
 Security Team members only lack access to the Configuration interface, which is only available to
 Administrators. The My Reviews interface is available if the logged in user is also assigned
@@ -85,6 +85,6 @@ ownership of a resource.
 Users assigned ownership of a resource but not granted a user role are directed to the My Reviews
 interface upon login.
 
-![My Reviews interface as the landing page for an Owner without a user role](/images/auditor/10.7/access/reviews/admin/landingowner.webp)
+![My Reviews interface as the landing page for an Owner without a user role](/images/auditor/10.8/access/reviews/admin/landingowner.webp)
 
 Owners can view pending reviews and view historical reviews.

@@ -33,7 +33,7 @@ virtualization platform, in particular:
 - Microsoft Hyper-V
 - Nutanix AHV
 
-Auditor supports only Windows OS versions listed in the [Software Requirements](/docs/auditor/10.7/requirements/software.md) topic.
+Auditor supports only Windows OS versions listed in the [Software Requirements](/docs/auditor/10.8/requirements/software.md) topic.
 
 Netwrix Auditor and SQL Server instance will be deployed on different servers.
 
@@ -47,7 +47,7 @@ Requirements below apply to Netwrix Auditor server.
 | Others             | —                                      | —                                        | Network capacity 1 Gbit                   | Network capacity 1 Gbit                                          |
 
 \* — ARs stands for Activity Records, that is, Netwrix-compatible format for the audit data. See
-[Activity Records](/docs/auditor/10.7/api/postdata/activityrecords.md)[Activity Records](/docs/auditor/10.7/api/postdata/activityrecords.md)
+[Activity Records](/docs/auditor/10.8/api/postdata/activityrecords.md)[Activity Records](/docs/auditor/10.8/api/postdata/activityrecords.md)
 for more details.
 
 \*\* — By default, the Long-Term Archive and working folder are stored on a system drive. To reduce
@@ -55,8 +55,8 @@ the impact on the system drive in large and xlarge environments, Netwrix recomme
 Long-Term Archive and working folder on a data drive and plan for their capacity accordingly. For
 details, see:
 
-- [File-Based Repository for Long-Term Archive](/docs/auditor/10.7/requirements/longtermarchive.md)
-- [Working Folder](/docs/auditor/10.7/requirements/workingfolder.md)
+- [File-Based Repository for Long-Term Archive](/docs/auditor/10.8/requirements/longtermarchive.md)
+- [Working Folder](/docs/auditor/10.8/requirements/workingfolder.md)
 
 Netwrix Auditor informs you if you are running out of space on a system disk where the Long-Term
 Archive is stored by default. You will see related events in the Health log once the free disk space
@@ -68,7 +68,7 @@ following Microsoft article:
 [SQL Server: Hardware and software requirements](https://learn.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-2019?view=sql-server-ver16)
 
 **NOTE:** In larger environments, SQL Server may become underprovisioned on resources. For
-troubleshooting such cases, refer to the [Sample Deployment Scenarios](/docs/auditor/10.7/requirements/deploymentscenarios.md)
+troubleshooting such cases, refer to the [Sample Deployment Scenarios](/docs/auditor/10.8/requirements/deploymentscenarios.md)
 topic.
 
 Additional Sizing Information for File Data Source

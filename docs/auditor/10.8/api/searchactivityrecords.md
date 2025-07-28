@@ -9,23 +9,23 @@ sidebar_position: 50
 The search functionality in the Netwrix Auditor Integration API reproduces interactive search
 available in the Netwrix Auditor client. See the
 [Netwrix Auditor Intelligence Guide](https://www.netwrix.com/download/documents/Netwrix_Auditor_User_Guide.pdf)
-and [View and Search Collected Data](/docs/auditor/10.7/admin/search/overview.md) topic for detailed instruction on
+and [View and Search Collected Data](/docs/auditor/10.8/admin/search/overview.md) topic for detailed instruction on
 how to search and filter audit data.
 
 As the interactive search in the Netwrix Auditor client, this REST API endpoint allows you to
 retrieve Activity Records matching a certain criteria. You can create your own set of filters in the
-Search parameters file. See the [Search Parameters](/docs/auditor/10.7/api/postdata/searchparameters.md) topic for more
+Search parameters file. See the [Search Parameters](/docs/auditor/10.8/api/postdata/searchparameters.md) topic for more
 information. Activity Records are retrieved according to the account's delegated scope.
 
 ## Endpoint
 
 To retrieve Activity Records matching a certain criteria, send a POST request containing search
 parameters (also may include a Continuation mark). See the
-[Search Parameters](/docs/auditor/10.7/api/postdata/searchparameters.md) topic for more information.
+[Search Parameters](/docs/auditor/10.8/api/postdata/searchparameters.md) topic for more information.
 
 | Method | Endpoint                                                                                  | POST Data                                         |
 | ------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| `POST` | `https://{host:port}/netwrix/api/v1/activity_records/search{?format=json}{&count=Number}` | [Search Parameters](/docs/auditor/10.7/api/postdata/searchparameters.md) |
+| `POST` | `https://{host:port}/netwrix/api/v1/activity_records/search{?format=json}{&count=Number}` | [Search Parameters](/docs/auditor/10.8/api/postdata/searchparameters.md) |
 
 ## Request Parameters
 
@@ -66,7 +66,7 @@ with ?, others are joined with &, no spaces required (e.g., `?format=json&count=
 Follow the steps- to retrieve all Activity Records matching search criteria.
 
 **Step 1 –** Send a POST request containing search parameters. See the
-[Search Parameters](/docs/auditor/10.7/api/postdata/searchparameters.md) topic for more information.
+[Search Parameters](/docs/auditor/10.8/api/postdata/searchparameters.md) topic for more information.
 
 As an example, this request retrieves Activity Records where administrator added new objects to the
 Active Directory domain. Groups and group policies are not taken into account. Changes could only
@@ -141,7 +141,7 @@ mark.
 
 **Step 3 –** Continue retrieving Activity Records. Send a POST request containing your search
 parameters and this Continuation mark to the same endpoint.
-See the [Continuation Mark](/docs/auditor/10.7/api/postdata/continuationmark.md) for additional information.
+See the [Continuation Mark](/docs/auditor/10.8/api/postdata/continuationmark.md) for additional information.
 
 **XML:**
 

@@ -8,20 +8,20 @@ sidebar_position: 10
 
 To review the Behavior Anomalies dashboard, process and filter anomalies in user profiles, you must
 be assigned the Global administrator or Global reviewer role in the product. See the
-[Role-Based Access and Delegation](/docs/auditor/10.7/admin/monitoringplans/delegation.md) topic for additional
+[Role-Based Access and Delegation](/docs/auditor/10.8/admin/monitoringplans/delegation.md) topic for additional
 information.
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to
-access them instantly. See the [Navigation](/docs/auditor/10.7/admin/navigation/overview.md) and
-[Customize Home Screen](/docs/auditor/10.7/admin/navigation/customizehome.md) topics for additional information.
+access them instantly. See the [Navigation](/docs/auditor/10.8/admin/navigation/overview.md) and
+[Customize Home Screen](/docs/auditor/10.8/admin/navigation/customizehome.md) topics for additional information.
 
 To review the Behavior Anomalies dashboard:
 
 On the main Auditor page, click
-![ba_tile](/images/auditor/10.7/admin/behavioranomalies/ba_tile.webp)
+![ba_tile](/images/auditor/10.8/admin/behavioranomalies/ba_tile.webp)
 on the left.
 
-![dashboard_thumb_0_0](/images/auditor/10.7/admin/behavioranomalies/dashboard_thumb_0_0.webp)
+![dashboard_thumb_0_0](/images/auditor/10.8/admin/behavioranomalies/dashboard_thumb_0_0.webp)
 
 The dashboards includes the following sections:
 
@@ -33,6 +33,6 @@ The dashboards includes the following sections:
 Once you reviewed the general anomaly trend and identified users that merit your special attention,
 review their profiles and process anomalies. Click View Profile next to a user name to dive into
 user activity and investigate each action in details.
-[Review User Profiles and Process Anomalies](/docs/auditor/10.7/admin/behavioranomalies/userprofile.md)
+[Review User Profiles and Process Anomalies](/docs/auditor/10.8/admin/behavioranomalies/userprofile.md)
 
-[Review User Profiles and Process Anomalies](/docs/auditor/10.7/admin/behavioranomalies/userprofile.md)
+[Review User Profiles and Process Anomalies](/docs/auditor/10.8/admin/behavioranomalies/userprofile.md)

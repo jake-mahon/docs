@@ -60,7 +60,7 @@ First, you should decide on the objects and actions you want to track. Consider 
 - Actions reported by Auditor vary depending on the file server type and the audited object (file,
   folder, or share).
 - Besides, monitoring and reporting of the Dell Data Storage systems may not provide the results you
-  expect — due to native Dell audit peculiarities. See the [File Servers](/docs/auditor/10.7/configuration/fileservers/overview.md) topic for
+  expect — due to native Dell audit peculiarities. See the [File Servers](/docs/auditor/10.8/configuration/fileservers/overview.md) topic for
   additional information.
 
 For example, the _change_ operation (in Auditor terminology) includes creation, modification, and
@@ -71,7 +71,7 @@ deletion.
 To collect comprehensive audit data, you must configure your file shares for monitoring. Consider
 the following:
 
-**Step 1 –** [Configure Security Event Log Maximum Size](/docs/auditor/10.7/configuration/fileservers/delldatastorage/securityeventlog.md) to avoid overwriting
+**Step 1 –** [Configure Security Event Log Maximum Size](/docs/auditor/10.8/configuration/fileservers/delldatastorage/securityeventlog.md) to avoid overwriting
 of the security logs; it is recommended to set security log size to a maximum (4GB). Auditor does
 not clean Dell Unity logs automatically, the log will start overwriting when it goes beyond the
 limit. See the
@@ -83,9 +83,9 @@ and its size is set to 512 KB. The default location for the security.evt log is 
 which corresponds to the root partition of the Data Mover. To be able to increase the security log
 size, you must move it from the Data Mover root folder.
 
-**Step 3 –** [Configure Audit Object Access Policy](/docs/auditor/10.7/configuration/fileservers/delldatastorage/objectaccess.md). Set the Audit object access
+**Step 3 –** [Configure Audit Object Access Policy](/docs/auditor/10.8/configuration/fileservers/delldatastorage/objectaccess.md). Set the Audit object access
 policy to "Success" and "Failure" in the Group Policy of the OU where your Dell
 VNX/VNXe/Unity/Celerra appliance belongs to. For more information on VNX/VNXe/Unity/Celerra GPO
 support, refer to documentation provided by Dell.
 
-**Step 4 –** [Configure Audit Settings for CIFS File Shares on Dell Data Storage](/docs/auditor/10.7/configuration/fileservers/delldatastorage/cifss.md)
+**Step 4 –** [Configure Audit Settings for CIFS File Shares on Dell Data Storage](/docs/auditor/10.8/configuration/fileservers/delldatastorage/cifss.md)

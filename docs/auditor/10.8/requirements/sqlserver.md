@@ -56,7 +56,7 @@ versions should be 2012 R2 or later).
 - You will be prompted to configure the default SQL Server instance when you create the first
   monitoring plan; also, you can specify it Netwrix Auditor settings.
 - You can configure Netwrix Auditor to use an existing instance of SQL Server, or deploy a new
-  instance, as described in the [Create a New Monitoring Plan](/docs/auditor/10.7/admin/monitoringplans/create.md)
+  instance, as described in the [Create a New Monitoring Plan](/docs/auditor/10.8/admin/monitoringplans/create.md)
   topic.
 
 For evaluation and PoC projects you can deploy Microsoft SQL Server 2016 SP2 Express Edition with
@@ -73,7 +73,7 @@ produced, so plan for SQL Server Standard or Enterprise edition (Express edition
 
 Netwrix Auditor supports automated size calculation for all its databases in total, displaying the
 result, in particular, in the
-[Database Statistics](/docs/auditor/10.7/admin/healthstatus/dashboard/databasestatistics.md) of the Health Status
+[Database Statistics](/docs/auditor/10.8/admin/healthstatus/dashboard/databasestatistics.md) of the Health Status
 dashboard. This feature, however, is supported only for SQL Server 2012 SP3 and later.
 
 ### Databases
@@ -123,7 +123,7 @@ Consider the following:
 
 By the way of example, this section provides instructions on how to:
 
-- [SQL Server Reporting Services](/docs/auditor/10.7/requirements/sqlserverreportingservice.md)
+- [SQL Server Reporting Services](/docs/auditor/10.8/requirements/sqlserverreportingservice.md)
 
 For detailed information on installing other versions/editions, refer to Microsoft website.
 
@@ -154,7 +154,7 @@ When planning for SQL Server that will host Auditor databases, consider the foll
 instance. Such instances may have a lot of maintenance plans or scripts running that may affect data
 uploaded by the product. The product databases are designed for reporting and searching and do not
 require maintenance or backup. For the long-term data storage, Netwrix Auditor uses Long-Term
-Archive. See [File-Based Repository for Long-Term Archive](/docs/auditor/10.7/requirements/longtermarchive.md) for additional
+Archive. See [File-Based Repository for Long-Term Archive](/docs/auditor/10.8/requirements/longtermarchive.md) for additional
 information.
 
 If you select to set up a new SQL Server instance, the current user account (this should be a member
@@ -174,7 +174,7 @@ specify the data drive for that purpose (by default, system drive is used).
     2. dbcreator server-level role
 
     This account can be specified when you configure the
-    [Audit Database](/docs/auditor/10.7/admin/settings/auditdatabase.md) settings.
+    [Audit Database](/docs/auditor/10.8/admin/settings/auditdatabase.md) settings.
 
 ## Database Sizing
 
@@ -188,13 +188,13 @@ For database sizing, it is recommended to estimate:
 To estimate the number of the activity records produced by your data sources, collected and saved by
 Auditor during the week, you can use the Activity records by date widget of the Health Status
 dashboard. See the
-[Activity Records Statistics](/docs/auditor/10.7/admin/healthstatus/dashboard/activityrecordstatistics.md) topic for
+[Activity Records Statistics](/docs/auditor/10.8/admin/healthstatus/dashboard/activityrecordstatistics.md) topic for
 additional information.
 
 Auditor supports automated size calculation for all its databases in total, displaying the result,
 in particular, in the Database Statistics widget of the Health Status dashboard. To estimate current
 capacity and daily growth for each database, you can click View details and examine information in
-the table. See the [Database Statistics](/docs/auditor/10.7/admin/healthstatus/dashboard/databasestatistics.md)
+the table. See the [Database Statistics](/docs/auditor/10.8/admin/healthstatus/dashboard/databasestatistics.md)
 topic for additional information.
 
 This feature is supported only for SQL Server 2012 SP3 and later.
@@ -246,7 +246,7 @@ Follow the steps to change database retention after the product deployment.
 
 **Step 1 –** In the Auditor main screen, select Settings > Audit Database.
 
-![audit_db_settings](/images/auditor/10.7/requirements/audit_db_settings.webp)
+![audit_db_settings](/images/auditor/10.8/requirements/audit_db_settings.webp)
 
 **Step 2 –** In the dialog displayed, make sure the Clear stale data when a database retention
 period is exceeded: is set to ON, then click Modify to specify the required retention period (in
@@ -260,7 +260,7 @@ This is the account that Auditor uses to write the collected audit data to the a
 Starting with version 9.96, you can use Group Managed Service Account (gMSA) for that purpose.
 
 _Remember,_ gMSA cannot be used to access SSRS. Use a standard account for that. See the
-[SQL Server Reporting Services](/docs/auditor/10.7/requirements/sqlserverreportingservice.md) topic for additional information.
+[SQL Server Reporting Services](/docs/auditor/10.8/requirements/sqlserverreportingservice.md) topic for additional information.
 
 This account must be granted the **Database owner (`db_owner`)** role and the **dbcreator** server
 role on the SQL Server instance hosting your audit databases.

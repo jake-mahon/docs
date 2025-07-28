@@ -7,7 +7,7 @@ sidebar_position: 30
 # Selected Resources Window
 
 The Selected Resources window opens from the **View Selections** button in the
-[Create Review Wizard](/docs/auditor/10.7/accessreviews/entitlementreviews/create/create.md).
+[Create Review Wizard](/docs/auditor/10.8/accessreviews/entitlementreviews/create/create.md).
 
 ![Selected Resources windwo](/images/accessinformationcenter/12.0/accessrequests/wizard/selectedresources.webp)
 

@@ -23,7 +23,7 @@ On a high level, your behavior anomalies assessment workflow can be described as
 1. You create alerts on threat patterns specific to your company. You include these alerts in
    Behavior Anomalies assessment and associate a risk score with each alert. The score, that is
    between 1 and 100 points, reflects how critical the action is for your organization.
-   [Risk Score](/docs/auditor/10.7/admin/alertsettings/create/create.md)how to set a risk score for an alert.
+   [Risk Score](/docs/auditor/10.8/admin/alertsettings/create/create.md)how to set a risk score for an alert.
 
     Although Netwrix industry experts suggest risk scores for alerts that are provided
     out-of-the-box, you can easily tailor these scores to your organization needs and priorities.
@@ -35,10 +35,10 @@ On a high level, your behavior anomalies assessment workflow can be described as
 3. Every now and then, you review the Behavior Anomalies dashboard—the risk score timeline with
    anomaly surges, and the most active users. The general rule of thumb is: the more risk score
    points the user has the more he or she merits your attention.
-   [Review Behavior Anomalies Dashboard](/docs/auditor/10.7/admin/behavioranomalies/dashboard.md)
+   [Review Behavior Anomalies Dashboard](/docs/auditor/10.8/admin/behavioranomalies/dashboard.md)
 4. To learn more about user activity, you can drill-down to a user profile to review all alerts
    provoked by this user. As you review anomalies and mitigate risks, the user's total score
-   reduces. [Review User Profiles and Process Anomalies](/docs/auditor/10.7/admin/behavioranomalies/userprofile.md)
+   reduces. [Review User Profiles and Process Anomalies](/docs/auditor/10.8/admin/behavioranomalies/userprofile.md)
 
 The purpose of the dashboard is to keep risks low and help you spot and address issues as they
 occur. The risk score assigned to a user does not qualify him or her as a bad actor but rather

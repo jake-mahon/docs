@@ -18,18 +18,18 @@ Follow the steps to configure the Syslog server.
 
 **Step 2 –** Navigate to **Network wide** > **Configure** > **General**.
 
-![nand_meraki_network](/images/auditor/10.7/configuration/networkdevices/nand_meraki_network.webp)
+![nand_meraki_network](/images/auditor/10.8/configuration/networkdevices/nand_meraki_network.webp)
 
 **Step 3 –** Locate the Reporting section and click Add a syslog server.
 
-![nand_meraki_server](/images/auditor/10.7/configuration/networkdevices/nand_meraki_server.webp)
+![nand_meraki_server](/images/auditor/10.8/configuration/networkdevices/nand_meraki_server.webp)
 
 **Step 4 –** In the dialog that opens, complete the following fields:
 
 | Option    | Description                                                                                                                                                                                         |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Server IP | Provide the IP address of the computer that hosts your Netwrix Auditor Server.                                                                                                                      |
-| Port      | Provide the port configured in your monitoring plan for Network Devices (514 by default). See the[Network Devices](/docs/auditor/10.7/admin/monitoringplans/networkdevices.md) topic for additional information. |
+| Port      | Provide the port configured in your monitoring plan for Network Devices (514 by default). See the[Network Devices](/docs/auditor/10.8/admin/monitoringplans/networkdevices.md) topic for additional information. |
 | Roles     | Select the following roles: - Appliance event log - Switch event log - Wireless event log                                                                                                           |
 
 ### Cisco Meraki Devices Configuration

@@ -28,7 +28,7 @@ becomes the **primary** server. Other federation servers you add to the farm wil
 **secondary** servers.
 
 Make sure you have Windows Remote Management properly configured on your Auditor console computer.
-See the [Software Requirements](/docs/auditor/10.7/requirements/software.md) topic for additional information.
+See the [Software Requirements](/docs/auditor/10.8/requirements/software.md) topic for additional information.
 
 You can configure your IT Infrastructure for monitoring in one of the following ways:
 
@@ -65,7 +65,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - Adjust log size and retention settings for **Security** log and for **AD FS Admin** log (under
       **Applications and Service logs**). See
-      [Adjusting Event Log Size and Retention Settings](/docs/auditor/10.7/configuration/windowsserver/eventlog.md) for details.
+      [Adjusting Event Log Size and Retention Settings](/docs/auditor/10.8/configuration/windowsserver/eventlog.md) for details.
     - If AD FS Admin logging is disabled, you should enable it.
     - See the Configure AD FS farm manually topic for additional information.
 
@@ -78,12 +78,12 @@ need to configure audit settings manually, as described later in this section.
 **Step 1 –** Select the AD FS data source in this monitoring plan (top row under the header), click
 **Edit data source** to open its settings.
 
-![mp_adfs_listing_thumb_0_0](/images/auditor/10.7/configuration/activedirectoryfederatedservices/mp_adfs_listing_thumb_0_0.webp)
+![mp_adfs_listing_thumb_0_0](/images/auditor/10.8/configuration/activedirectoryfederatedservices/mp_adfs_listing_thumb_0_0.webp)
 
 **Step 2 –** In the **Configure audit settings** section, select **Adjust audit settings
 automatically** check box.
 
-![mp_data_source_ad_fs_thumb_0_0](/images/auditor/10.7/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs_thumb_0_0.webp)
+![mp_data_source_ad_fs_thumb_0_0](/images/auditor/10.8/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs_thumb_0_0.webp)
 
 **Step 3 –** Save the settings.
 
@@ -119,7 +119,7 @@ server versions
 
 **Step 3 –** Adjust log size and retention settings for **Security** log and for **AD FS Admin** log
 (under **Applications and Service logs**). See the
-[Adjusting Event Log Size and Retention Settings](/docs/auditor/10.7/configuration/windowsserver/eventlog.md) topic for additional
+[Adjusting Event Log Size and Retention Settings](/docs/auditor/10.8/configuration/windowsserver/eventlog.md) topic for additional
 information.
 
 If AD FS Admin logging is disabled, you should enable it.
@@ -127,8 +127,8 @@ If AD FS Admin logging is disabled, you should enable it.
 _Remember,_ do the following:
 
 - Configure Data Collecting Account as described in the
-  [Permissions for AD FS Auditing](/docs/auditor/10.7/configuration/activedirectoryfederatedservices/permissions.md) topic.
-- Configure ports as described in the [AD FS Ports](/docs/auditor/10.7/configuration/activedirectoryfederatedservices/ports.md) topic.
+  [Permissions for AD FS Auditing](/docs/auditor/10.8/configuration/activedirectoryfederatedservices/permissions.md) topic.
+- Configure ports as described in the [AD FS Ports](/docs/auditor/10.8/configuration/activedirectoryfederatedservices/ports.md) topic.
 
 ## AD FS Servers Data Collection
 

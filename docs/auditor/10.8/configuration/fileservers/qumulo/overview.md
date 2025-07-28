@@ -27,7 +27,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
   configure them manually:
 
     - The Remote Syslog Address and port number must be configured as described in the
-      [Configure Core Audit for Qumulo File Servers](/docs/auditor/10.7/configuration/fileservers/qumulo/configure.md) topic.
+      [Configure Core Audit for Qumulo File Servers](/docs/auditor/10.8/configuration/fileservers/qumulo/configure.md) topic.
 
 Review a full list of object types Netwrix Auditor can collect on Qumulo network devices.
 

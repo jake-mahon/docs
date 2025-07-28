@@ -51,7 +51,7 @@ users):
    server and client components.
 2. When prompted to configure the Audit database settings, proceed with installing SQL Server
    Express Edition with Advanced Services on the same VM. See the
-   [SQL Server Reporting Services](/docs/auditor/10.7/requirements/sqlserverreportingservice.md) topic for additional information.
+   [SQL Server Reporting Services](/docs/auditor/10.8/requirements/sqlserverreportingservice.md) topic for additional information.
 
 Alternatively, you can install Netwrix Auditor as a virtual appliance on your VMware vSphere or
 Hyper-V virtualization server. For more information on this deployment option, refer to the
@@ -86,11 +86,11 @@ users, approximately up to 1 million of activity records generated per day):
    Auditor clients on the remote Windows machines.
 
     Client-server connection requires user sign-in. You can automate this process, as described in
-    [Automate Sign-in to the Client](/docs/auditor/10.7/install/automatelogin.md) of Online Help.
+    [Automate Sign-in to the Client](/docs/auditor/10.8/install/automatelogin.md) of Online Help.
 
 3. When prompted to configure the Audit database settings, proceed with installing SQL Server
    Express Edition with Advanced Services. See the
-   [SQL Server Reporting Services](/docs/auditor/10.7/requirements/sqlserverreportingservice.md) topic for additional information.
+   [SQL Server Reporting Services](/docs/auditor/10.8/requirements/sqlserverreportingservice.md) topic for additional information.
 
 Alternatively, you can install Netwrix Auditor as a virtual appliance on your VMware vSphere or
 Hyper-V virtualization server. For more information on this deployment option, refer to the
@@ -116,7 +116,7 @@ approximately 1+ million of activity records generated per day):
    Auditor clients on the remote Windows machines.
 
     Client-server connection requires user sign-in. You can automate this process, as described in
-    the [Automate Sign-in to the Client](/docs/auditor/10.7/install/automatelogin.md) section of Online Help.
+    the [Automate Sign-in to the Client](/docs/auditor/10.8/install/automatelogin.md) section of Online Help.
 
 3. Prepare Microsoft SQL Server meeting the following requirements: 
    
@@ -155,7 +155,7 @@ more than 20 000 users (10+ million of activity records generated per day):
    Auditor clients on the remote Windows machines.
 
     Client-server connection requires user sign-in. You can automate this process, as described in
-    the [Automate Sign-in to the Client](/docs/auditor/10.7/install/automatelogin.md) section.
+    the [Automate Sign-in to the Client](/docs/auditor/10.8/install/automatelogin.md) section.
 
 3. Prepare a machine for Microsoft SQL Server meeting the following requirements:
 

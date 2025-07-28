@@ -12,7 +12,7 @@ have to your resource. When the Review Administrator creates a new review or sta
 of an existing review, you receive an email notification that includes a link to the your pending
 reviews.
 
-![Email announcing a pending review](/images/auditor/10.7/access/reviews/entitlementreviews/pendingreviewemail.webp)
+![Email announcing a pending review](/images/auditor/10.8/access/reviews/entitlementreviews/pendingreviewemail.webp)
 
 Use the **Sign in** link at the bottom to open the My Reviews interface in the Access Reviews
 Console.
@@ -20,13 +20,13 @@ Console.
 _Remember,_ your company domain credentials are used to log in.
 
 The My Reviews interface has two pages: Pending Reviews and Review History. See the
-[Review History Page](/docs/auditor/10.7/accessreviews/owneroverview/reviewhistory.md) topic for additional information.
+[Review History Page](/docs/auditor/10.8/accessreviews/owneroverview/reviewhistory.md) topic for additional information.
 
 ## Pending Reviews Page
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![My Reviews interface showing Pending Reviews page](/images/auditor/10.7/access/reviews/entitlementreviews/pendingreivewspage.webp)
+![My Reviews interface showing Pending Reviews page](/images/auditor/10.8/access/reviews/entitlementreviews/pendingreivewspage.webp)
 
 The information displayed in the table includes:
 
@@ -42,7 +42,7 @@ The information displayed in the table includes:
 - Last Reviewed — Date timestamp when the last review took place for the resource.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/auditor/10.7/accessreviews/admin/navigate/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/auditor/10.8/accessreviews/admin/navigate/datagrid.md) topic for additional information.
 
 Performing a review means you are evaluating the resources. You can leave the resource unchanged or
 make recommendations for changes. Consider the following examples:
@@ -57,7 +57,7 @@ recommendation and processes those changes.
 
 The Begin Review button opens the Resource Review page to start the review.
 
-![Resource Reviews page showing the 1 Make changes tab](/images/auditor/10.7/access/reviews/entitlementreviews/reviewpageaccess.webp)
+![Resource Reviews page showing the 1 Make changes tab](/images/auditor/10.8/access/reviews/entitlementreviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common
 features:
@@ -85,5 +85,5 @@ features:
 The content within the table varies, and additional options may appear depending on the type of
 review being conducted. See the following sections for step by step instructions:
 
-- [Perform an Access Review](/docs/auditor/10.7/accessreviews/owneroverview/pendingreviews/access.md)
-- [Perform a Membership Review](/docs/auditor/10.7/accessreviews/owneroverview/pendingreviews/membership.md)
+- [Perform an Access Review](/docs/auditor/10.8/accessreviews/owneroverview/pendingreviews/access.md)
+- [Perform a Membership Review](/docs/auditor/10.8/accessreviews/owneroverview/pendingreviews/membership.md)

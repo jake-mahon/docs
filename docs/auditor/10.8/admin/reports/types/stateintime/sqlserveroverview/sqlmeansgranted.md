@@ -11,12 +11,12 @@ and how those permissions were granted (directly, through role membership, etc.)
 investigate how permissions are granted.
 
 Supported object types and attributes are listed in the
-[SQL Server](/docs/auditor/10.7/configuration/sqlserver/overview.md) section.
+[SQL Server](/docs/auditor/10.8/configuration/sqlserver/overview.md) section.
 
 To instruct Netwrix Auditor to collect data needed for this report, make sure that **Collect data
 for state-in-time reports** option is selected in the monitoring plan properties.
 
-![sqlservermeansgranted](/images/auditor/10.7/admin/reports/types/stateintime/sqlservermeansgranted.webp)
+![sqlservermeansgranted](/images/auditor/10.8/admin/reports/types/stateintime/sqlservermeansgranted.webp)
 
 ## Reported data
 
@@ -38,7 +38,7 @@ The summary section shows:
   when reporting on the database hosted on selected SQL Server, the path will be as follows:
   _Databases\database_name_.
 - **Object type** — monitored object type; for the full list of supported object types, refer to
-  [SQL Server](/docs/auditor/10.7/configuration/sqlserver/overview.md).
+  [SQL Server](/docs/auditor/10.8/configuration/sqlserver/overview.md).
 
 The detailed information under summary includes:
 
@@ -99,4 +99,4 @@ _Corp_ organization discovered that the accounts with Contractor job title has a
 **SQL Server Means Granted** report for that account by clicking the link in the **Means granted**
 field for that account.
 
-![sqlservermeansgranteddetails](/images/auditor/10.7/admin/reports/types/stateintime/sqlservermeansgranteddetails.webp)
+![sqlservermeansgranteddetails](/images/auditor/10.8/admin/reports/types/stateintime/sqlservermeansgranteddetails.webp)

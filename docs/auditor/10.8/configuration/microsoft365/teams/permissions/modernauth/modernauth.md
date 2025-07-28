@@ -169,5 +169,5 @@ See the following Microsoft article for additional information on how to obtain 
 [Locate important IDs for a user](https://learn.microsoft.com/en-us/partner-center/find-ids-and-domain-names).
 
 Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Office 365 tenant)
-to it. See the [Microsoft Entra ID](/docs/auditor/10.7/admin/monitoringplans/microsoftentraid/overview.md)
+to it. See the [Microsoft Entra ID](/docs/auditor/10.8/admin/monitoringplans/microsoftentraid/overview.md)
 topic for additional information.

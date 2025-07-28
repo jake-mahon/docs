@@ -17,7 +17,7 @@ different and do not show changes.
 The following Activity Summary example applies to Active Directory. Other Activity Summaries
 generated and delivered by Netwrix Auditor will vary slightly depending on the data source.
 
-![ad_activitity_summary_thumb_0_0](/images/auditor/10.7/admin/monitoringplans/ad_activitity_summary_thumb_0_0.webp)
+![ad_activitity_summary_thumb_0_0](/images/auditor/10.8/admin/monitoringplans/ad_activitity_summary_thumb_0_0.webp)
 
 The example Activity Summary provides the following information on Active Directory changes:
 
@@ -38,4 +38,4 @@ a plan, click Edit, and then select Update. A summary will be delivered to the s
 listing all activity that occurred since the last data collection.
 
 To disable Activity Summary Emails, you need to disable notifications in the settings. See the
-[Notifications](/docs/auditor/10.7/admin/settings/notifications.md) topic for additional information.
+[Notifications](/docs/auditor/10.8/admin/settings/notifications.md) topic for additional information.

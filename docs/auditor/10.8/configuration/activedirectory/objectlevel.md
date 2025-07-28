@@ -11,7 +11,7 @@ information on user activity in the domain. If you also want to audit changes to
 and schema, you must enable object-level auditing for **Configuration** and **Schema** partitions.
 
 Auditing of the Configuration partition is enabled by default. See the
-[Active Directory](/docs/auditor/10.7/admin/monitoringplans/activedirectory/overview.md) topic for detailed
+[Active Directory](/docs/auditor/10.8/admin/monitoringplans/activedirectory/overview.md) topic for detailed
 instructions on how to enable monitoring of changes to the Schema partition in the target AD domain.
 
 Perform the following procedures to configure object-level auditing for the Domain, Configuration

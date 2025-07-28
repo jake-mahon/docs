@@ -12,13 +12,13 @@ review.
 **Step 1 –** On the Pending Reviews page, select the resource with a pending Membership review and
 click **Begin Review**. The Resource Review page opens to the 1 Make changes tab.
 
-![Resource Reviews page showing a Membership Review on 1 Make changes tab](/images/auditor/10.7/access/reviews/entitlementreviews/review/reviewpagemembership.webp)
+![Resource Reviews page showing a Membership Review on 1 Make changes tab](/images/auditor/10.8/access/reviews/entitlementreviews/review/reviewpagemembership.webp)
 
 The table displays membership information for the group being reviewed:
 
 - Trustee Name — Name of the trustee with group membership. If the trustee is a group, click the
   hyperlink to open the Group Membership window. See the
-  [Group Membership Window](/docs/auditor/10.7/accessreviews/owneroverview/pendingreviews/groupmembership.md) topic for additional information.
+  [Group Membership Window](/docs/auditor/10.8/accessreviews/owneroverview/pendingreviews/groupmembership.md) topic for additional information.
 - Member — Blue checkmark icon indicates current membership
 
 **Step 2 –** Recommend removing membership by selecting one or more trustees and clicking the
@@ -31,7 +31,7 @@ pending until you submit all recommendations for this resource.
 **Step 3 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
 
-![Resource Reviews page showing a Membership Review on 2 Review changes tab](/images/auditor/10.7/access/reviews/entitlementreviews/review/reviewpagemembershiptab2.webp)
+![Resource Reviews page showing a Membership Review on 2 Review changes tab](/images/auditor/10.8/access/reviews/entitlementreviews/review/reviewpagemembershiptab2.webp)
 
 **Step 4 –** This tab displays a filtered table of trustees with recommended changes. Confirm your
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave

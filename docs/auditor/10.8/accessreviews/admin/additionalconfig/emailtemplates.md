@@ -48,7 +48,7 @@ Follow the steps to customize the email templates.
 **NOTE:** To successfully modify these Notifications email templates, a familiarity with basic HTML
 is necessary.
 
-![Access Reviews installation directory showing the Templates zip file](/images/auditor/10.7/access/reviews/admin/additionalconfig/emailtemplates.webp)
+![Access Reviews installation directory showing the Templates zip file](/images/auditor/10.8/access/reviews/admin/additionalconfig/emailtemplates.webp)
 
 **Step 1 –** Navigate to the Access Reviews installation directory.
 
@@ -58,7 +58,7 @@ named `Templates`.
 **CAUTION:** The customized email templates must be in the `Templates` folder within the
 installation directory to be preserved during future application upgrades.
 
-![Templates folder showing email templates](/images/auditor/10.7/access/reviews/admin/additionalconfig/emailtemplatesfolder.webp)
+![Templates folder showing email templates](/images/auditor/10.8/access/reviews/admin/additionalconfig/emailtemplatesfolder.webp)
 
 **Step 3 –** Locate the desired HTML message template.
 

@@ -23,7 +23,7 @@ will use a dedicated database to store data. So, there are two types of database
 - Specific settings for each dedicated database. You can configure specific database storage
   settings for each monitoring plan individually. For that, use the **Monitoring Plan** wizard or
   navigate to the settings. (Global settings appear as default values there, and you can modify them
-  if needed.) See the [Fine-Tune Your Plan and Edit Settings](/docs/auditor/10.7/admin/monitoringplans/finetune.md)  topic
+  if needed.) See the [Fine-Tune Your Plan and Edit Settings](/docs/auditor/10.8/admin/monitoringplans/finetune.md)  topic
   for additional information.
 
 Follow the steps to review and update global Audit Database settings:
@@ -32,7 +32,7 @@ Follow the steps to review and update global Audit Database settings:
 
 **Step 2 –** Click **Modify** to edit the settings.
 
-![audit_db_settings_thumb_0_0](/images/auditor/10.7/admin/settings/audit_db_settings_thumb_0_0.webp)
+![audit_db_settings_thumb_0_0](/images/auditor/10.8/admin/settings/audit_db_settings_thumb_0_0.webp)
 
 **Step 3 –** Specify the following database storage settings:
 
@@ -80,5 +80,5 @@ Reporting Services settings section.
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Report Server URL  | Specify the Report Server URL. Make sure that the resource is reachable.                                                                                                                                                                                                                                                                                                                                  |
 | Report Manager URL | Specify the Report Manager URL. Make sure that the resource is reachable.                                                                                                                                                                                                                                                                                                                                 |
-| User name          | Specify the account to connect to SSRS. Use the following format: _domain\username_ or _hostname\username_ Workgroup format (_.\username_) is not supported. Use _hostname\username_ instead. Make sure this account is granted the Content Manager role on the Report Server. See the [SQL Server Reporting Services](/docs/auditor/10.7/requirements/sqlserverreportingservice.md) topic for additional information. |
+| User name          | Specify the account to connect to SSRS. Use the following format: _domain\username_ or _hostname\username_ Workgroup format (_.\username_) is not supported. Use _hostname\username_ instead. Make sure this account is granted the Content Manager role on the Report Server. See the [SQL Server Reporting Services](/docs/auditor/10.8/requirements/sqlserverreportingservice.md) topic for additional information. |
 | Password           | Enter a password.                                                                                                                                                                                                                                                                                                                                                                                         |

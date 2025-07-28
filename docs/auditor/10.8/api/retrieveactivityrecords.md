@@ -15,7 +15,7 @@ mark.
 | Method | Endpoint                                                                                | POST Data                                         |
 | ------ | --------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | GET    | `https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}` | —                                                 |
-| POST   | `https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}` | [Continuation Mark](/docs/auditor/10.7/api/postdata/continuationmark.md) |
+| POST   | `https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}` | [Continuation Mark](/docs/auditor/10.8/api/postdata/continuationmark.md) |
 
 ## Request Parameters
 
@@ -119,7 +119,7 @@ Activity Records collected in braces {} and a Continuation mark.
 ```
 
 **Step 3 –** Continue retrieving Activity Records. Send a POST request containing this Continuation
-mark to the same endpoint. See the [Continuation Mark](/docs/auditor/10.7/api/postdata/continuationmark.md) topic for more
+mark to the same endpoint. See the [Continuation Mark](/docs/auditor/10.8/api/postdata/continuationmark.md) topic for more
 information. For example:
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                           |

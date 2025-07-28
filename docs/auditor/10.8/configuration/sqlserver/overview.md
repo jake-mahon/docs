@@ -91,5 +91,5 @@ The following list contains the names of all data types monitored by Netwrix Aud
 Also remember to do the following:
 
 - Configure Data Collecting Account as described in
-  [Permissions for SQL Server Auditing ](/docs/auditor/10.7/configuration/sqlserver/permissions.md)section.
-- Configure ports as described in the [SQL Server Ports](/docs/auditor/10.7/configuration/sqlserver/ports.md) section.
+  [Permissions for SQL Server Auditing ](/docs/auditor/10.8/configuration/sqlserver/permissions.md)section.
+- Configure ports as described in the [SQL Server Ports](/docs/auditor/10.8/configuration/sqlserver/ports.md) section.

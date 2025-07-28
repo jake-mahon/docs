@@ -8,10 +8,10 @@ sidebar_position: 30
 
 | Method | Endpoint                                | POST Data                                         | Description                                                                                                                    |
 | ------ | --------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| GET    | /netwrix/api/v1/activity_records/enum   | —                                                 | Returns Activity Records. [Retrieve Activity Records](/docs/auditor/10.7/api/retrieveactivityrecords.md)                                              |
-| POST   | /netwrix/api/v1/activity_records/enum   | [Continuation Mark](/docs/auditor/10.7/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records. [Continuation Mark](/docs/auditor/10.7/api/postdata/continuationmark.md)                                         |
-| POST   | /netwrix/api/v1/activity_records/search | [Search Parameters](/docs/auditor/10.7/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters. [Search Activity Records](/docs/auditor/10.7/api/searchactivityrecords.md) |
-| POST   | /netwrix/api/v1/activity_records/       | [Activity Records](/docs/auditor/10.7/api/postdata/activityrecords.md)   | Writes data to the Audit Database. [Write Activity Records](/docs/auditor/10.7/api/writeactivityrecords.md)                                           |
+| GET    | /netwrix/api/v1/activity_records/enum   | —                                                 | Returns Activity Records. [Retrieve Activity Records](/docs/auditor/10.8/api/retrieveactivityrecords.md)                                              |
+| POST   | /netwrix/api/v1/activity_records/enum   | [Continuation Mark](/docs/auditor/10.8/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records. [Continuation Mark](/docs/auditor/10.8/api/postdata/continuationmark.md)                                         |
+| POST   | /netwrix/api/v1/activity_records/search | [Search Parameters](/docs/auditor/10.8/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters. [Search Activity Records](/docs/auditor/10.8/api/searchactivityrecords.md) |
+| POST   | /netwrix/api/v1/activity_records/       | [Activity Records](/docs/auditor/10.8/api/postdata/activityrecords.md)   | Writes data to the Audit Database. [Write Activity Records](/docs/auditor/10.8/api/writeactivityrecords.md)                                           |
 
 ### Authentication
 
@@ -32,7 +32,7 @@ Netwrix Auditor restricts control to its configuration and data collected by the
 access system ensures that only relevant employees and services can access the exact amount of data
 they need. To be able to retrieve activity records or supply data to the Audit Database, an account
 must be assigned a role in the product.
-[Role-Based Access and Delegation](/docs/auditor/10.7/admin/monitoringplans/delegation.md)
+[Role-Based Access and Delegation](/docs/auditor/10.8/admin/monitoringplans/delegation.md)
 
 | To...                                            | Required role                                                                                                                                                                                                                                                                                   |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

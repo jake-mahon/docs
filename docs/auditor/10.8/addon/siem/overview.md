@@ -31,7 +31,7 @@ On a high level, the add-on works as follows:
 3. The add-on creates a special Windows event log named **Netwrix_Auditor_Integration** and stores
    events there. These events are structured and ready for integration with the SIEM solution.
 
-See the [Integration API](/docs/auditor/10.7/api/overview.md) topic for additional information on the structure
+See the [Integration API](/docs/auditor/10.8/api/overview.md) topic for additional information on the structure
 of the Activity Record and the capabilities of the Netwrix Auditor Integration API.
 
 ## Prerequisites
@@ -69,7 +69,7 @@ On a high level, this add-on works as follows:
    events there. These events are structured and ready for integration with Windows event log.
 
 For more information on the structure of the Activity Record and the capabilities of the Netwrix
-Auditor Integration API, refer to [Integration API](/docs/auditor/10.7/api/overview.md).
+Auditor Integration API, refer to [Integration API](/docs/auditor/10.8/api/overview.md).
 
 ## Netwrix Auditor Alerts to Event Log Add-on
 
@@ -77,7 +77,7 @@ This add-on works as response action to the alert, as follows:
 
 1. The administrator enables and configured response action for selected alert, as described in the
    following topic:
-   [Configure a Response Action for Alert](/docs/auditor/10.7/admin/alertsettings/responseaction.md). Make sure
+   [Configure a Response Action for Alert](/docs/auditor/10.8/admin/alertsettings/responseaction.md). Make sure
    to provide correct path to the script file and to select the Write data to CSV file option.
 2. When the alert is triggered, the script starts - it retrieves audit data (activity record fields)
    from the CSV file and processes it into log events. Each event contains the user account, action,
@@ -85,5 +85,5 @@ This add-on works as response action to the alert, as follows:
 3. The add-on creates a special Windows event log named Netwrix_Auditor_Integration and stores
    events there. These events are structured and ready for integration with SIEM system.
 
-See the [Configure a Response Action for Alert](/docs/auditor/10.7/admin/alertsettings/responseaction.md)
+See the [Configure a Response Action for Alert](/docs/auditor/10.8/admin/alertsettings/responseaction.md)
 topic for additional information on the alert response actions and CSV file.

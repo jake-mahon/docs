@@ -10,7 +10,7 @@ Before running or scheduling the add-on, you must define connection details: Aud
 user credentials, etc. Most parameters are optional, the script uses the default values unless
 parameters are explicitly defined. You can skip or define parameters depending on your execution
 scenario and security policies. See the
-[Choose Appropriate Execution Scenario](/docs/auditor/10.7/addon/logrhythm/deployment.md) topic for additional
+[Choose Appropriate Execution Scenario](/docs/auditor/10.8/addon/logrhythm/deployment.md) topic for additional
 information.
 
 | Parameter                 | Default value            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |

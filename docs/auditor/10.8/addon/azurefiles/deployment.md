@@ -10,11 +10,11 @@ Follow the steps to install Azure Files add-on.
 
 **Step 1 –** Accept EULA.
 
-![azurefileeula](/images/auditor/10.7/addon/azurefiles/azurefileeula.webp)
+![azurefileeula](/images/auditor/10.8/addon/azurefiles/azurefileeula.webp)
 
 **Step 2 –** Select the installation folder and click **Next**.
 
-![azurefileinstfolder](/images/auditor/10.7/addon/azurefiles/azurefileinstfolder.webp)
+![azurefileinstfolder](/images/auditor/10.8/addon/azurefiles/azurefileinstfolder.webp)
 
 **Step 3 –** Click **Install**. The wizard will start and ask the additional parameters.
 
@@ -58,7 +58,7 @@ automatically - open it from the installation folder.
 **Step 2 –** Select **Proceed**.
 
 **Step 3 –** Provide Auditor Server IP address and port number followed by endpoint for posting
-Activity Records. See the [API Endpoints](/docs/auditor/10.7/api/endpoints.md) topic for more information.
+Activity Records. See the [API Endpoints](/docs/auditor/10.8/api/endpoints.md) topic for more information.
 
 This assumes that the add-on runs on the computer hosting Auditor Server and uses default port 9699.
 
@@ -69,7 +69,7 @@ erprise.local:9999).
 
 **CAUTION:** Do not modify the endpoint part (_/netwrix/api_).
 
-![generalsettings](/images/auditor/10.7/addon/azurefiles/generalsettings.webp)
+![generalsettings](/images/auditor/10.8/addon/azurefiles/generalsettings.webp)
 
 **Step 4 –** Specify Active Directory credentials:
 
@@ -77,15 +77,15 @@ erprise.local:9999).
   service runs under the account currently logged on.
 - Password – Provide the password for the selected account.
 
-![adcredentials](/images/auditor/10.7/addon/azurefiles/adcredentials.webp)
+![adcredentials](/images/auditor/10.8/addon/azurefiles/adcredentials.webp)
 
 **Step 5 –** Paste Azure Connection String in the corresponded field and click **Next**.
 
-![azurefileconnectionstring](/images/auditor/10.7/addon/azurefiles/azurefileconnectionstring.webp)
+![azurefileconnectionstring](/images/auditor/10.8/addon/azurefiles/azurefileconnectionstring.webp)
 
 **Step 6 –** Enter Tenant ID, App ID and App Secret of the Azure App you registered for the add-on.
 Click **Next**.
 
-![microsoftgraphapi](/images/auditor/10.7/addon/azurefiles/microsoftgraphapi.webp)
+![microsoftgraphapi](/images/auditor/10.8/addon/azurefiles/microsoftgraphapi.webp)
 
 **Step 7 –** Click **Run** and close the window. The service should start the data collection now.

@@ -9,5 +9,5 @@ sidebar_position: 40
 In addition to the settings that are available on the Configuration interface, the following
 configurations and customizations can be done by Administrators:
 
-- [Email Templates](/docs/auditor/10.7/accessreviews/admin/additionalconfig/emailtemplates.md)
-- [Timeout Parameter](/docs/auditor/10.7/accessreviews/admin/additionalconfig/timeoutparameter.md)
+- [Email Templates](/docs/auditor/10.8/accessreviews/admin/additionalconfig/emailtemplates.md)
+- [Timeout Parameter](/docs/auditor/10.8/accessreviews/admin/additionalconfig/timeoutparameter.md)

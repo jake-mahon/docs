@@ -15,7 +15,7 @@ need to create a monitoring plan for auditing event logs.
 
 The procedure below describes the basic steps, required for creation of a monitoring plan that will
 be used to collect data on non-owner mailbox access events. See
-[Event Log Manager](/docs/auditor/10.7/tools/eventlogmanager/eventlogmanager.md) topic for additional information.
+[Event Log Manager](/docs/auditor/10.8/tools/eventlogmanager/eventlogmanager.md) topic for additional information.
 
 Follow the steps to create alert for non-owner mailbox access events.
 
@@ -93,7 +93,7 @@ sent immediately to the specified recipients.
 
 Review the example of the MessageOpened event in the XML view:
 
-![eventmessageopen](/images/auditor/10.7/admin/alertsettings/eventmessageopen.webp)
+![eventmessageopen](/images/auditor/10.8/admin/alertsettings/eventmessageopen.webp)
 
 Depending on the event, the strings in the description may vary. The first eight strings are common
 for all events:
@@ -151,4 +151,4 @@ In the example below, the following information has been added:
 - String 8 with the description
 - String 9 with the description
 
-![editnotificationtemplate](/images/auditor/10.7/admin/alertsettings/editnotificationtemplate.webp)
+![editnotificationtemplate](/images/auditor/10.8/admin/alertsettings/editnotificationtemplate.webp)
