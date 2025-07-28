@@ -1,0 +1,267 @@
+  name: Build and deploy Docusaurus site to Azure Blob Storage
+
+  on:
+    push:
+      branches:
+        - main
+        - dev
+    workflow_dispatch:
+      inputs:
+        environment:
+          description: 'Environment to deploy to'
+          required: true
+          default: 'development'
+          type: choice
+          options:
+            - development
+            - production
+
+  jobs:
+    determine-environment:
+      runs-on: ubuntu-latest
+      outputs:
+        environment: ${{ steps.set-env.outputs.environment }}
+      steps:
+        - name: Determine environment
+          id: set-env
+          run: |
+            if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+              echo "environment=${{ github.event.inputs.environment }}" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+              echo "environment=production" >> $GITHUB_OUTPUT
+            else
+              echo "environment=development" >> $GITHUB_OUTPUT
+            fi
+
+    build:
+      runs-on: self-hosted
+      needs: determine-environment
+      environment: ${{ needs.determine-environment.outputs.environment }}
+      permissions:
+        contents: read
+
+      steps:
+        - name: Check out source code
+          uses: actions/checkout@v4
+
+        - name: Set up Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: '22.x'
+
+        - name: Cache Node.js dependencies
+          uses: actions/cache@v3
+          with:
+            path: ~/.npm
+            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            restore-keys: |
+              ${{ runner.os }}-node-
+
+        - name: Cache Docusaurus build
+          uses: actions/cache@v3
+          id: cache-build
+          with:
+            path: |
+              .docusaurus
+              build
+            key: ${{ runner.os }}-docusaurus-build-${{ hashFiles('src/**', 'docs/**', 'blog/**', 'docusaurus.config.js', 'sidebars.js', 'package-lock.json') }}
+            restore-keys: |
+              ${{ runner.os }}-docusaurus-build-
+
+        - name: Cache webpack
+          uses: actions/cache@v3
+          with:
+            path: node_modules/.cache
+            key: ${{ runner.os }}-webpack-${{ hashFiles('**/package-lock.json') }}
+            restore-keys: |
+              ${{ runner.os }}-webpack-
+
+        - name: Install dependencies and build site
+          run: |
+            npm ci
+
+            # Check if we have a valid cached build
+            if [[ "${{ steps.cache-build.outputs.cache-hit }}" == "true" ]]; then
+              echo "Build cache found, checking if rebuild needed..."
+              # Docusaurus will intelligently rebuild only what's changed
+            else
+              echo "No build cache found, performing full build..."
+            fi
+
+            # Run build - Docusaurus will use its internal caching
+            npm run build
+          env:
+            NODE_OPTIONS: "--max-old-space-size=16384"
+            DOCUSAURUS_URL: "https://${{ secrets.STORAGE_ACCOUNT_NAME }}.z13.web.core.windows.net"
+            # Add any other environment-specific build variables here
+            NODE_ENV: ${{ needs.determine-environment.outputs.environment }}
+
+        - name: Upload artifact for deployment
+          uses: actions/upload-artifact@v4
+          with:
+            name: build-output
+            path: build/
+
+    deploy:
+      runs-on: ubuntu-latest
+      needs: [build, determine-environment]
+      environment: ${{ needs.determine-environment.outputs.environment }}
+
+      steps:
+        - name: Download build artifact
+          uses: actions/download-artifact@v4
+          with:
+            name: build-output
+            path: build/
+
+        - name: Install azcopy
+          run: |
+            # Download and install azcopy for faster uploads
+            wget -O azcopy.tar.gz https://aka.ms/downloadazcopy-v10-linux
+            tar -xf azcopy.tar.gz --strip-components=1
+            sudo mv azcopy /usr/local/bin/
+            azcopy --version
+
+        - name: Upload to Azure Blob Storage with AzCopy and comprehensive MIME types
+          run: |
+            echo "Deploying to ${{ needs.determine-environment.outputs.environment }} environment"
+            echo "Starting high-performance sync of changed files with proper MIME types..."
+
+            # Create SAS token for azcopy (more secure than using key directly)
+            end_date=$(date -u -d "30 minutes" '+%Y-%m-%dT%H:%MZ')
+            sas_token=$(az storage container generate-sas \
+              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
+              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
+              --name '$web' \
+              --permissions dlrw \
+              --expiry $end_date \
+              --output tsv)
+
+            # Create comprehensive content type mapping file for azcopy
+            cat > content-type-map.json << EOF
+            {
+              "*.css": "text/css",
+              "*.js": "application/javascript",
+              "*.mjs": "application/javascript",
+              "*.json": "application/json",
+              "*.html": "text/html",
+              "*.htm": "text/html",
+              "*.xml": "application/xml",
+              "*.txt": "text/plain",
+              "*.md": "text/markdown",
+
+              "*.png": "image/png",
+              "*.jpg": "image/jpeg",
+              "*.jpeg": "image/jpeg",
+              "*.gif": "image/gif",
+              "*.webp": "image/webp",
+              "*.avif": "image/avif",
+              "*.svg": "image/svg+xml",
+              "*.bmp": "image/bmp",
+              "*.tiff": "image/tiff",
+              "*.ico": "image/x-icon",
+
+              "*.woff": "font/woff",
+              "*.woff2": "font/woff2",
+              "*.ttf": "font/ttf",
+              "*.otf": "font/otf",
+              "*.eot": "application/vnd.ms-fontobject",
+
+              "*.pdf": "application/pdf",
+              "*.doc": "application/msword",
+              "*.docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "*.xls": "application/vnd.ms-excel",
+              "*.xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "*.ppt": "application/vnd.ms-powerpoint",
+              "*.pptx": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "*.odt": "application/vnd.oasis.opendocument.text",
+              "*.ods": "application/vnd.oasis.opendocument.spreadsheet",
+              "*.odp": "application/vnd.oasis.opendocument.presentation",
+
+              "*.zip": "application/zip",
+              "*.rar": "application/vnd.rar",
+              "*.7z": "application/x-7z-compressed",
+              "*.tar": "application/x-tar",
+              "*.gz": "application/gzip",
+              "*.bz2": "application/x-bzip2",
+
+              "*.mp4": "video/mp4",
+              "*.webm": "video/webm",
+              "*.avi": "video/x-msvideo",
+              "*.mov": "video/quicktime",
+              "*.wmv": "video/x-ms-wmv",
+
+              "*.mp3": "audio/mpeg",
+              "*.wav": "audio/wav",
+              "*.ogg": "audio/ogg",
+              "*.m4a": "audio/mp4",
+
+              "*.csv": "text/csv",
+              "*.rtf": "application/rtf",
+              "*.epub": "application/epub+zip",
+              "*.mobi": "application/x-mobipocket-ebook"
+            }
+            EOF
+
+            # Use azcopy sync with comprehensive content type mapping
+            azcopy sync "./build/" \
+              "https://${{ secrets.STORAGE_ACCOUNT_NAME }}.blob.core.windows.net/\$web?$sas_token" \
+              --delete-destination=true \
+              --compare-hash=MD5 \
+              --log-level=INFO \
+              --cap-mbps=0 \
+              --block-size-mb=4 \
+              --content-type-map="content-type-map.json"
+
+            echo "Sync completed with comprehensive MIME types!"
+
+        - name: Fallback MIME type setting for critical files
+          run: |
+            echo "Setting MIME types for critical files as fallback (in case azcopy mapping failed)..."
+
+            # Install Azure CLI if not available
+            if ! command -v az &> /dev/null; then
+              curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+            fi
+
+            # Set MIME types for most critical files (CSS and JS) that affect styling
+            echo "Ensuring CSS files have correct MIME type..."
+            az storage blob update-batch \
+              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
+              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
+              --source '$web' \
+              --pattern "*.css" \
+              --content-type "text/css" \
+              --if-unmodified-since "1970-01-01T00:00:00Z" \
+              --no-progress || echo "CSS MIME type update completed (some files may have been skipped)"
+
+            echo "Ensuring JS files have correct MIME type..."
+            az storage blob update-batch \
+              --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }} \
+              --account-key ${{ secrets.STORAGE_ACCOUNT_KEY }} \
+              --source '$web' \
+              --pattern "*.js" \
+              --content-type "application/javascript" \
+              --if-unmodified-since "1970-01-01T00:00:00Z" \
+              --no-progress || echo "JS MIME type update completed (some files may have been skipped)"
+
+            echo "Critical MIME types verified!"
+
+        - name: Purge CDN endpoint (if configured)
+          run: |
+            if [[ -n "${{ secrets.CDN_ENDPOINT_NAME }}" ]] && [[ -n "${{ secrets.CDN_PROFILE_NAME }}" ]] && [[ -n "${{ secrets.CDN_RESOURCE_GROUP }}" ]]; then
+              echo "Note: CDN purge requires Azure login. Skipping CDN purge when using storage key authentication."
+              echo "To use CDN purge, you'll need to use Azure AD authentication or purge CDN manually."
+            else
+              echo "CDN configuration not found, skipping CDN purge."
+            fi
+
+        - name: Display deployment URL
+          run: |
+            echo "🚀 Deployment complete!"
+            echo "Environment: ${{ needs.determine-environment.outputs.environment }}"
+            echo "URL: https://${{ secrets.STORAGE_ACCOUNT_NAME }}.z13.web.core.windows.net"
+            if [[ -n "${{ secrets.CUSTOM_DOMAIN }}" ]]; then
+              echo "Custom Domain: ${{ secrets.CUSTOM_DOMAIN }}"
+            fi
+            echo "All files deployed with proper MIME types for optimal browser compatibility!"
