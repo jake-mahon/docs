@@ -6,176 +6,78 @@ sidebar_position: 1
 
 # Azure Files Configuration Overview
 
-Azure Files is a cloud-based file storage service that provides shared file storage accessible via the Server Message Block (SMB) protocol. To monitor Azure Files with Netwrix Auditor, you need to configure audit logging and permissions in your Azure environment.
+Configure Azure Files monitoring with Netwrix Auditor by setting up Azure AD application registration, permissions, and diagnostic settings.
 
 ## Prerequisites
 
-Before configuring Azure Files monitoring, ensure you have:
-
-### Azure Environment Requirements
-- **Azure Subscription**: Active Azure subscription with Azure Files storage accounts  
-- **Azure Active Directory**: Access to Azure AD tenant administration
-- **Storage Accounts**: Azure storage accounts containing file shares to monitor
-
-### Required Permissions
+- **Azure Files License** - Azure Files is a paid data source requiring specific licensing
+- **Azure Subscription** with Azure Files storage accounts (Standard and Premium supported)
 - **Global Administrator** or **Security Administrator** role in Azure AD
 - **Storage Account Contributor** role on target storage accounts
-- **Resource Group Reader** access to storage account resource groups
+- **Separate Storage Accounts** - Requires separate storage accounts for data and audit logs
 
 ## Configuration Steps Overview
 
-The Azure Files configuration process involves several key steps:
-
-1. **[Azure Application Registration](#azure-application-registration)** - Create and configure Azure AD application
-2. **[Storage Account Configuration](#storage-account-configuration)** - Configure audit logging for file shares
-3. **[Permissions Setup](#permissions-setup)** - Assign necessary permissions to the monitoring application
-4. **[Audit Log Storage](#audit-log-storage)** - Configure audit log collection and storage
+1. **[Azure Application Registration](#azure-application-registration)** - Create Azure AD application
+2. **[Permissions Setup](#permissions-setup)** - Assign required permissions
+3. **[Diagnostic Settings](#diagnostic-settings)** - Configure audit logging
 
 ## Azure Application Registration
 
-### Create Azure AD Application
+Create an application in Microsoft Entra ID (Azure AD):
 
-1. Navigate to **Azure Active Directory > App registrations** in the Azure portal
+1. Navigate to **Azure Active Directory > App registrations**
 2. Click **New registration**
-3. Configure the application:
+3. Configure:
    - **Name**: `Netwrix-Auditor-AzureFiles-Monitor`
    - **Supported account types**: Accounts in this organizational directory only
-   - **Redirect URI**: Leave blank
 4. Click **Register**
+5. Go to **Certificates & secrets** > **New client secret**
+6. Record these values for Netwrix Auditor:
+   - **Tenant ID** (use ID, not tenant name)
+   - **Application (Client) ID**
+   - **Client Secret**
 
-### Configure Application Credentials
+## Diagnostic Settings
 
-1. In the registered application, go to **Certificates & secrets**
-2. Click **New client secret**
-3. Configure the secret:
-   - **Description**: `Netwrix Auditor Access Secret`
-   - **Expires**: Choose appropriate expiration (recommended: 24 months)
-4. **Important**: Copy and securely store the secret value immediately
-
-### Required Application Information
-
-Record the following information for Netwrix Auditor configuration:
-- **Tenant ID**: From Azure AD properties
-- **Application (Client) ID**: From the app registration overview
-- **Client Secret**: Created in the previous step
-
-## Storage Account Configuration
-
-### Enable Audit Logging
-
-For each Azure storage account containing file shares to monitor:
+Configure diagnostic settings for each storage account containing file shares:
 
 1. Navigate to **Storage Account > Monitoring > Diagnostic settings**
 2. Click **Add diagnostic setting**
-3. Configure audit logging:
+3. Configure:
    - **Name**: `Netwrix-AzureFiles-Audit`
-   - **Categories**: Select all file service categories:
+   - **Log Categories**: Select all file service categories:
      - StorageRead
-     - StorageWrite
+     - StorageWrite 
      - StorageDelete
-4. **Destination**: Configure to send logs to:
-   - Storage account (for Netwrix Auditor collection)
-   - Log Analytics workspace (optional, for additional analysis)
-
-### File Share Configuration
-
-1. Navigate to **Storage Account > File shares**
-2. For each file share to monitor:
-   - Ensure **Access tier** is set appropriately
-   - Configure **Backup** if required for compliance
-   - Review **Access policies** and permissions
+   - **Destination**: Archive to storage account (separate audit logs storage account)
 
 ## Permissions Setup
 
-### Microsoft Graph API Permissions
+### Required Permissions
 
-The Azure application requires the following Microsoft Graph permissions:
+Assign these permissions to your Azure application:
 
-#### Application Permissions (Admin Consent Required)
-- **Directory.Read.All**: Read directory data
-- **User.Read.All**: Read all users' profiles
+**Microsoft Graph API:**
+- User.Read
+- User.Read.All
 
-### Azure Storage Permissions
-
-#### Storage Account Level
-- **Storage Blob Data Reader**: Read audit logs from storage containers
-- **Storage File Data SMB Share Reader**: Read file share data and metadata
-
-#### Resource Group Level  
-- **Reader**: List and view storage accounts in the resource group
+**Storage Account Roles:**
+- Reader (Resource Group level)
+- Storage File Data Privileged Reader
+- Storage Blob Data Reader (for audit logs)
 
 ### Assign Permissions
 
-#### Graph API Permissions
-1. In the Azure AD application, go to **API permissions**
-2. Click **Add a permission > Microsoft Graph > Application permissions**
-3. Select the required permissions listed above
-4. Click **Grant admin consent** for your organization
-
-#### Storage Permissions
-1. Navigate to each **Storage Account > Access control (IAM)**
-2. Click **Add > Add role assignment**
-3. Assign the following roles to your application:
-   - **Storage Blob Data Reader**
-   - **Storage File Data SMB Share Reader**
-
-## Audit Log Storage
-
-### Create Dedicated Storage Account
-
-It's recommended to create a separate storage account for audit logs:
-
-1. Create new storage account: `netwrixauditlogs[suffix]`
-2. Configure storage settings:
-   - **Performance**: Standard
-   - **Replication**: LRS or GRS based on compliance requirements
-   - **Access tier**: Hot (for frequent access to recent logs)
-
-### Configure Log Collection
-
-1. Navigate to the audit log storage account
-2. Create containers for audit data organization:
-   - `azurefiles-audit-logs`
-   - `file-access-logs`
-   - `permission-change-logs`
-
-## Network and Security Considerations
-
-### Network Access
-- Ensure Netwrix Auditor can reach Azure endpoints (*.core.windows.net)
-- Configure firewall rules if necessary
-- Consider using Azure Private Endpoints for enhanced security
-
-### Security Best Practices
-- **Principle of Least Privilege**: Grant only necessary permissions
-- **Regular Secret Rotation**: Rotate client secrets regularly
-- **Monitor Application Usage**: Review application access logs
-- **Conditional Access**: Consider applying conditional access policies
-
-## Troubleshooting Common Issues
-
-### Authentication Problems
-- Verify Tenant ID is correct (use ID, not name)
-- Ensure client secret hasn't expired
-- Check application permissions are granted with admin consent
-
-### Permission Issues
-- Verify storage account role assignments
-- Check resource group reader access
-- Ensure Microsoft Graph permissions are application-level, not delegated
-
-### Audit Log Collection Issues
-- Verify diagnostic settings are properly configured
-- Check storage account accessibility from Netwrix Auditor
-- Review audit log retention policies
+1. **Graph API**: In Azure AD application > **API permissions** > **Add permission** > **Microsoft Graph** > Select permissions > **Grant admin consent**
+2. **Storage**: In **Storage Account > Access control (IAM)** > **Add role assignment** > Assign required roles
 
 ## Next Steps
 
 After completing the Azure Files configuration:
 
-1. **Test Connectivity**: Verify Netwrix Auditor can authenticate and access storage accounts
+1. **Test Connectivity**: Verify authentication and access to storage accounts
 2. **Create Monitoring Plan**: Configure Azure Files monitoring in Netwrix Auditor
-3. **Validate Data Collection**: Confirm audit events are being collected properly
-4. **Set Up Alerting**: Configure alerts for suspicious activities
+3. **Validate Data Collection**: Confirm audit events are being collected
 
-For detailed instructions on creating the monitoring plan in Netwrix Auditor, see the [Azure Files Monitoring Plan](/docs/auditor/10.8/admin/monitoringplans/azurefiles/overview.md) documentation.
+For detailed instructions on creating the monitoring plan, see the [Azure Files Monitoring Plan](/docs/auditor/10.8/admin/monitoringplans/azurefiles.md) documentation.
