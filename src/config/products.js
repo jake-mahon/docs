@@ -304,6 +304,22 @@ export const PRODUCTS = [
     defaultVersion: '6.2',
   },
   {
+    id: 'partner',
+    name: 'Partner Certification Guide',
+    description: 'Learn about partner training materials',
+    path: 'docs/partner',
+    categories: ['Other'],
+    icon: '',
+    versions: [
+      {
+        version: 'current',
+        label: 'Current',
+        isLatest: true,
+        sidebarFile: './sidebars/partner.js',
+      },
+    ],
+  },
+  {
     id: 'passwordpolicyenforcer',
     name: 'Password Policy Enforcer',
     description: 'Enforce strong password policies',
