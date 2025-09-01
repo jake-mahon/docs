@@ -21,5 +21,5 @@ You can choose to self-enroll in "Learn About" learning paths available within t
 
 See the following topics for details on all learning paths:
 
-* [Product Learning Paths](../customer/product/index.md)
-* [Learn About Product Learning Paths](../customer/learn-about/index.md)
+* [Product Learning Paths](../customer/training/product/index.md)
+* [Learn About Product Learning Paths](../customer/training/learn-about/index.md)

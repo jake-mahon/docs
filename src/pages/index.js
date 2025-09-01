@@ -29,6 +29,14 @@ function HomepageHeader() {
             <Link className="button button--secondary button--lg" to={defaultLink}>
               Browse the docs
             </Link>
+            {/* Add Customer Portal button */}
+            <Link className="button button--secondary button--lg" to="/customer">
+              Customer Portal & Training Guide
+            </Link>
+            {/* Add Partner Certification button */}
+            <Link className="button button--secondary button--lg" to="/partner">
+              Partner Certification Guide
+            </Link>
           </div>
         </div>
       </header>
