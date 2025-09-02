@@ -1,4 +1,4 @@
-import { NPWS } from '@site/src/products';
+import { NPWS } from '@site/src/training/products';
 
 ## Additional <NPWS /> Courses for Partners
 
