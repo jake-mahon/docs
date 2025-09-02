@@ -1,4 +1,4 @@
-import { NDC } from '@site/src/products';
+import { NDC } from '@site/src/training/products';
 
 ## Additional <NDC /> Courses for Partners
 

@@ -1,4 +1,4 @@
-import { NDM } from '@site/src/products';
+import { NDM } from '@site/src/training/products';
 
 ## Additional <NDM /> Courses for Partners
 
