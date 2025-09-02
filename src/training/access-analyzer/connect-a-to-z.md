@@ -1,4 +1,4 @@
-import { Company, NAA } from '@site/src/products';
+import { Company, NAA } from '@site/src/training/products';
 
 ## <Company /> Connect – The A to Z of Addressing Custom Use Cases in <NAA />
 

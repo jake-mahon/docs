@@ -1,4 +1,4 @@
-import { Company, NAA } from '@site/src/products';
+import { Company, NAA } from '@site/src/training/products';
 
 ## <Company /> Connect – Everything You Need to Know About <NAA />, Version 11.6 and Beyond
 

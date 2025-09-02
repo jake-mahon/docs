@@ -1,4 +1,4 @@
-import { NAA } from '@site/src/products';
+import { NAA } from '@site/src/training/products';
 
 ## Additional <NAA /> Courses for Partners
 
