@@ -1,4 +1,4 @@
-import { NAM } from '@site/src/products';
+import { NAM } from '@site/src/training/products';
 
 ## Additional <NAM /> Courses for Partners
 
