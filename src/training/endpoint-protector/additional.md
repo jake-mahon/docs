@@ -1,4 +1,4 @@
-import { NEP } from '@site/src/products';
+import { NEP } from '@site/src/training/products';
 
 ## Additional <NEP /> Courses for Partners
 
