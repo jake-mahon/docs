@@ -1,4 +1,4 @@
-import { NPGN } from '@site/src/products';
+import { NPGN } from '@site/src/training/products';
 
 ## Additional <NPGN /> Courses for Partners
 
