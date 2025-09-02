@@ -9,7 +9,7 @@ description: "Learn about Netwrix University for Customers, courses you are enro
 import { Company } from '@site/src/training/products';
 
 
-<Company /> offers training to customers in <Company /> University accessible through the <Company /> Customer Portal. See the [Customer Portal Access](../customer/portal/index.md) topic for additional information on how to register for an account.
+<Company /> offers training to customers in <Company /> University accessible through the <Company /> Customer Portal. See the [Customer Portal Access](../portal/index.md) topic for additional information on how to register for an account.
 
 Courses are organized by learning paths aligned to what you have purchased. You are automatically enrolled in content for those products. The learning path will be visible on your dashboard.
 
@@ -21,5 +21,5 @@ You can choose to self-enroll in "Learn About" learning paths available within t
 
 See the following topics for details on all learning paths:
 
-* [Product Learning Paths](../customer/training/product/index.md)
-* [Learn About Product Learning Paths](../customer/training/learn-about/index.md)
+* [Product Learning Paths](./product/index.md)
+* [Learn About Product Learning Paths](./learn-about/index.md)
