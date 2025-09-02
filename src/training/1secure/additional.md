@@ -1,4 +1,4 @@
-import { N1S } from '@site/src/products';
+import { N1S } from '@site/src/training/products';
 
 ## Additional <N1S /> Courses for Partners
 
