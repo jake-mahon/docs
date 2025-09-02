@@ -1,4 +1,4 @@
-import { NCT } from '@site/src/products';
+import { NCT } from '@site/src/training/products';
 
 ## Additional <NCT /> Courses for Partners
 
