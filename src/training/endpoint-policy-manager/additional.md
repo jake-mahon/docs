@@ -1,4 +1,4 @@
-import { NEPM } from '@site/src/products';
+import { NEPM } from '@site/src/training/products';
 
 ## Additional <NEPM /> Courses for Partners
 
