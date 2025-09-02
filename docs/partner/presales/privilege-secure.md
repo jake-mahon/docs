@@ -7,7 +7,7 @@ description: "Become a certified Presales Engineer for Netwrix Privileged Secure
 ---
 
 import { NAIntegrationNPS } from '@site/src/training/auditor';
-import { NPSValue, NPSConcepts, NPSArchitecture, NPSIntro, NPSStandingPrivileges, NPSAttackSurface, NPSCredential, NPSServiceAccount, NPSWebExtension, NPSTroubleshooting, NPSSecureRemoteAccess, NPSDemo, NPSAdditional } from '@site/src/ctraining/privilege-secure';
+import { NPSValue, NPSConcepts, NPSArchitecture, NPSIntro, NPSStandingPrivileges, NPSAttackSurface, NPSCredential, NPSServiceAccount, NPSWebExtension, NPSTroubleshooting, NPSSecureRemoteAccess, NPSDemo, NPSAdditional } from '@site/src/training/privilege-secure';
 import { Company, NA, NPS } from '@site/src/training/products';
 
 
