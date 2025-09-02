@@ -1,4 +1,4 @@
-import { NA, NPS } from '@site/src/products';
+import { NA, NPS } from '@site/src/training/products';
 
 ## Additional <NA /> Courses for Partners
 
