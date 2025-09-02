@@ -1,4 +1,4 @@
-import { NPPE } from '@site/src/products';
+import { NPPE } from '@site/src/training/products';
 
 ## Additional <NPPE /> Courses for Partners
 
