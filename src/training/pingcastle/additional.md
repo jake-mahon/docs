@@ -1,4 +1,4 @@
-import { NPC } from '@site/src/products';
+import { NPC } from '@site/src/training/products';
 
 ## Additional <NPC /> Courses for Partners
 
