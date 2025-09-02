@@ -1,4 +1,4 @@
-import { NTP } from '@site/src/products';
+import { NTP } from '@site/src/training/products';
 
 ## Additional <NTP /> Courses for Partners
 
