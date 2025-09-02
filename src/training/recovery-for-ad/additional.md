@@ -1,4 +1,4 @@
-import { NRAD } from '@site/src/products';
+import { NRAD } from '@site/src/training/products';
 
 ## Additional <NRAD /> Courses for Partners
 
