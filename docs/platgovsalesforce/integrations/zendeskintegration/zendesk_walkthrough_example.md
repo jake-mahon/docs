@@ -18,39 +18,45 @@ Click **Look up Customization** to search Salesforce for existing customizations
 
 ![Customization Lookup](/images/platgovsalesforce/integrations/zendesk/Customization_Lookup.webp)
 
+Select **customization** from the result form
+
 ![Customization Lookup Result](/images/platgovsalesforce/integrations/zendesk/Customization_Lookup_Result.webp)
 
 # Step 3 – Add Proposed Customizations
 
-Click **Add Proposed Customization** to add new or modified customizations to the Change Request.
+Click **Add Proposed Customization** to add new or modified customizations that will be created or changed as part of this Change Request.
 
 ![Add Proposed Customization](/images/platgovsalesforce/integrations/zendesk/Add_Proposed_Customization.webp)
 
-![Customization Added](/images/platgovsalesforce/integrations/zendesk/Customization_Added.webp)
+# Step 4 – Add Existing Data Records
 
-# Step 4 – Add Data Records
-
-Use **Look up Data Record** to search for existing data records, or **Add Proposed Data Record** to include new records.
+Use **Look up Data Record** to search for existing data records in Salesforce that are related to this Change Request.
 
 ![Lookup Data Record](/images/platgovsalesforce/integrations/zendesk/Lookup_Data_Record.webp)
 
+Select the appropriate data records from the search results:
+
 ![Lookup Data Records Result](/images/platgovsalesforce/integrations/zendesk/Lookup_Data_Records_Result.webp)
+
+# Step 5 – Add Proposed Data Records
+
+Click **Add Proposed Data Record** to include new data records that will be created or modified as part of this Change Request.
 
 ![Add Proposed Data Record](/images/platgovsalesforce/integrations/zendesk/Add_Proposed_Data_Record.webp)
 
-# Step 5 – Request Approval
+# Step 6 – Request Approval
 
 Once all required information is added, the operator can click **Request Approval** to move the CR into Pending Approval status.
 
 ![Approve Process - Request Approval](/images/platgovsalesforce/integrations/zendesk/Approve_Process_-_Request_Approval.webp)
 
-# Step 6 – Approve or Reject
+# Step 7 – Approve or Reject
 
 Admins can then Approve or Reject the Change Request directly in Zendesk if the process is configured for in-Zendesk approvals.
 
 ![Approve Process - Approve or Reject](/images/platgovsalesforce/integrations/zendesk/Approve_Process_-_Approve_or_Reject.webp)
 
-# Step 7 – Complete or Push
+# Step 8 – Complete or Push
 
 When a Change Request has been approved, the admin can click **Complete** to close it. If no approval is needed, the admin can use **Push** to send the CR directly to Salesforce.
 
@@ -58,14 +64,14 @@ When a Change Request has been approved, the admin can click **Complete** to clo
 
 ![Approval Process - Push](/images/platgovsalesforce/integrations/zendesk/Approval_Process_-_Push.webp)
 
-# Step 8 – Open DRD (Document Requirements)
+# Step 9 – Open DRD (Document Requirements)
 
 From the ticket sidebar, click the DRD link to open the Document Requirements view in Salesforce.
 
 ![DRD](/images/platgovsalesforce/integrations/zendesk/DRD.webp)
 
-# Step 9 – Open Impact Analysis
+# Step 10 – Open Impact Analysis
 
-Click the Impact Analysis link to view the detailed analysis of the Change Request in Salesforce.
+Click the Impact Analysis link to view the detailed analysis of the Change Request in Salesforce. This shows how the proposed changes might affect other components in your Salesforce org.
 
 ![Impact Analysis](/images/platgovsalesforce/integrations/zendesk/Impact_Analysis.webp)
