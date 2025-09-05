@@ -174,6 +174,22 @@ export const PRODUCTS = [
     defaultVersion: '8.1',
   },
   {
+    id: 'customer',
+    name: 'Customer Portal & Training Guide',
+    description: 'Access custsomer resources and training materials',
+    path: 'docs/customer',
+    categories: ['Other'],
+    icon: '',
+    versions: [
+      {
+        version: 'current',
+        label: 'Current',
+        isLatest: true,
+        sidebarFile: './sidebars/customer.js',
+      },
+    ],
+  },
+  {
     id: 'dataclassification',
     name: 'Data Classification',
     description: 'Classify and protect sensitive data',
@@ -286,6 +302,22 @@ export const PRODUCTS = [
       },
     ],
     defaultVersion: '6.2',
+  },
+  {
+    id: 'partner',
+    name: 'Partner Certification Guide',
+    description: 'Learn about partner training materials',
+    path: 'docs/partner',
+    categories: ['Other'],
+    icon: '',
+    versions: [
+      {
+        version: 'current',
+        label: 'Current',
+        isLatest: true,
+        sidebarFile: './sidebars/partner.js',
+      },
+    ],
   },
   {
     id: 'passwordpolicyenforcer',
