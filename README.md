@@ -119,6 +119,8 @@ npm run start
 
 This works with any command (`start`, `start-chok`, `build`) and speeds up development when working on a single product. Available product IDs can be found in `src/config/products.js`.
 
+*Note: you may get a warning when you first run this. This warning doesn't seem to appear again and the site worked as expected*
+
 ### Development Workflow
 
 The centralized system makes development simple:
