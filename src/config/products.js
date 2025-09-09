@@ -704,8 +704,14 @@ export function getDefaultProduct() {
  */
 export function generateDocusaurusPlugins() {
   const plugins = [];
+  
+  // Filter products if DOCS_PRODUCT environment variable is set
+  const targetProduct = process.env.DOCS_PRODUCT;
+  const productsToProcess = targetProduct 
+    ? PRODUCTS.filter(product => product.id === targetProduct)
+    : PRODUCTS;
 
-  PRODUCTS.forEach((product) => {
+  productsToProcess.forEach((product) => {
     product.versions.forEach((version) => {
       const pluginId = generatePluginId(product.id, version.version);
       const routeBasePath = generateRouteBasePath(product.path, version.version);
