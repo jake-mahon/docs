@@ -98,7 +98,7 @@ A down arrow appears in the applied operator's icon. Click it to display the con
 
 ## Reference:
 Admin Center — Security Roles — Search Policy for Security Roles — v11.0  
-/docs/directory-manager/11.0/groupid/admin-guidecenter/securityrole/policy
+/docs/directorymanager/11.0/groupid/admin-guidecenter/securityrole/policy
 
 ### Related Articles:
 - How To Enforce Users to Create Groups in a Specific OU.  
