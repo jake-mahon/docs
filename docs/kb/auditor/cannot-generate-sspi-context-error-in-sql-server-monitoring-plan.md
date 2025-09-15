@@ -53,7 +53,7 @@ This error may also affect the state-in-time snapshot collection, the SQL Server
 
 ### Cause #1 – Firewall Settings
 
-Verify the firewall settings in your environment. For additional information on ports required for SQL Server monitoring, see SQL Server – SQL Server Ports · v10.7: /docs/auditor/10.8/auditor/configuration/sqlserver
+Verify the firewall settings in your environment. For additional information on ports required for SQL Server monitoring, see SQL Server – SQL Server Ports · v10.7: /docs/auditor/10.8/configuration/sqlserver
 
 ### Cause #2 – SQL Server Service Accounts and SPN Registration
 
@@ -106,7 +106,7 @@ Synchronize the time on both SQL and Netwrix Auditor servers to eliminate clock 
 
 ## Related Articles
 
-- SQL Server – SQL Server Ports · v10.7: /docs/auditor/10.8/auditor/configuration/sqlserver
+- SQL Server – SQL Server Ports · v10.7: /docs/auditor/10.8/configuration/sqlserver
 - Cannot Generate SSPI Context – Fix the Error with Kerberos Configuration Manager · Microsoft: https://learn.microsoft.com/en-US/troubleshoot/sql/database-engine/connect/cannot-generate-sspi-context-error#fix-the-error-with-kerberos-configuration-manager-recommended
 - Register Service Principal Name for Kerberos Connections – Automatic SPN Registration · Microsoft: https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections?view=sql-server-ver16#Auto
 - Client and Server Cannot Communicate, Because They Do Not Possess a Common Algorithm: /docs/kb/auditor/client_and_server_cannot_communicate,_because_they_do_not_possess_a_common_algorithm

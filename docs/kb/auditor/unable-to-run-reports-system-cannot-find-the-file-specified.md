@@ -50,5 +50,5 @@ Refer to the following steps to resolve the issue:
 
 1. In your Netwrix Auditor server, disable **Netwrix Auditor Archive Service** and **Netwrix Auditor Management Service** via **Services**.
 2. Deploy the report server database — refer to the following article for in-depth instructions: /docs/kb/auditor/deploying_the_report_server_database (Deploying the Report Server Database).
-3. Once you've configured the report server database, grant the roles to the SSRS service account the roles required. Refer to the following article for additional information: /docs/auditor/10.8/auditor/permissions/ssrsaccount (Configure SSRS Account).
+3. Once you've configured the report server database, grant the roles to the SSRS service account the roles required. Refer to the following article for additional information: /docs/auditor/10.8/permissions/ssrsaccount (Configure SSRS Account).
 4. Restart **Netwrix Auditor Archive Service** and **Netwrix Auditor Management Service** on your Netwrix Auditor server via **Services**.

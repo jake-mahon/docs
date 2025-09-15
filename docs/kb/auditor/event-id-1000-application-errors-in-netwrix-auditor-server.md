@@ -54,7 +54,7 @@ The **Faulting module name** dynamic-link library file was corrupted. This could
 
 ## Resolutions
 
-1. Set up antivirus exclusions to prevent both your antivirus solution and Netwrix Auditor from conflicting — refer to the following article for additional information: /docs/kb/auditor/antivirus_exclusions_for_netwrix_auditor (Antivirus Exclusions for Netwrix Auditor).
+1. Set up antivirus exclusions to prevent both your antivirus solution and Netwrix Auditor from conflicting — refer to the following article for additional information: /docs/kb/auditor/antivirus-exclusions-for-netwrix-auditor (Antivirus Exclusions for Netwrix Auditor).
 
 2. Establish the scope of affected `.dll` files. In case the **Faulting module path** links the system folder (e.g., `C:\Windows\System32`), follow these steps:
 
@@ -84,5 +84,5 @@ The **Faulting module name** dynamic-link library file was corrupted. This could
 
 ## Related articles
 
-- Antivirus Exclusions for Netwrix Auditor: /docs/kb/auditor/antivirus_exclusions_for_netwrix_auditor
+- Antivirus Exclusions for Netwrix Auditor: /docs/kb/auditor/antivirus-exclusions-for-netwrix-auditor
 - How to Repair Netwrix Auditor Installation: /docs/kb/auditor/how_to_repair_netwrix_auditor_installation

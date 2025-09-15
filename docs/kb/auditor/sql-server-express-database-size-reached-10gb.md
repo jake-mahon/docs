@@ -44,7 +44,7 @@ While it is highly recommended to implement either a SQL Server Standard or Ente
 
 - Recreate the database for the monitoring plan:
 
-  > **IMPORTANT:** The monitoring plan data collected previously will be available in the Long-Term Archive. Refer to the following article for additional information on investigations: /docs/auditor/10.8/auditor/admin-guide/settings (Netwrix Auditor Settings − Investigations · v10.6).
+  > **IMPORTANT:** The monitoring plan data collected previously will be available in the Long-Term Archive. Refer to the following article for additional information on investigations: /docs/auditor/10.8/admin/settings (Netwrix Auditor Settings − Investigations · v10.6).
 
   1. Confirm the name of the affected database − it should be stated both in the error message and **Database Statistics**. The **Database Statistics** data will also include the affected monitoring plan name.
   2. Disable the data collection for the affected monitoring plan − in the main Netwrix Auditor screen, select **Monitoring Plans** > **%affected_monitoring_plan%** > **Edit** > **Edit data source** > switch the **Monitor this data source and collect activity data** switch off > click **Save & Close**.
@@ -72,6 +72,6 @@ While it is highly recommended to implement either a SQL Server Standard or Ente
 
 ## Related Articles
 
-- /docs/auditor/10.8/auditor/admin-guide/settings (Netwrix Auditor Settings − Investigations · v10.6)
+- /docs/auditor/10.8/admin/settings (Netwrix Auditor Settings − Investigations · v10.6)
 - /docs/kb/auditor/how_to_reduce_audit_database_size_for_netwrix_auditor (How to Reduce Audit Database Size for Netwrix Auditor)
 - /docs/kb/auditor/could_not_allocate_space_for_object_(objectname)_in_database_(databasename) (Could not allocate space for object (ObjectName) in database (DatabaseName))

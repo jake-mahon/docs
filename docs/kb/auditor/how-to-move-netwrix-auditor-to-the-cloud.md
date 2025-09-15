@@ -30,7 +30,7 @@ How to move an on-premises Netwrix Auditor installation to a VM running on a clo
 
 Consider it to simply be an installation on another network. Netwrix recommends the following scenario:
 
-1. Spin up a new Windows Server VM in your cloud environment, provision it based on the Auditor Requirements: /docs/auditor/10.8/auditor/requirements
+1. Spin up a new Windows Server VM in your cloud environment, provision it based on the Auditor Requirements: /docs/auditor/10.8/requirements
 
 2. After that, migrate your old instance according to the following article: Migrating Netwrix Auditor to New Server: /docs/kb/auditor/migrating_auditor_to_new_server.
 
@@ -38,4 +38,4 @@ Consider it to simply be an installation on another network. Netwrix recommends 
 
 3. Make sure you applied the license. You will need a license for Netwrix Auditor no matter where it is used.
 
-If you are using an internal file server, make sure Netwrix Auditor is able to access it across the internet or a VPN if you have a tunnel set up. For additional information on required protocols and ports that must be opened, refer to the following article: Requirements – Protocols and Ports Required: /docs/auditor/10.8/auditor/requirements
+If you are using an internal file server, make sure Netwrix Auditor is able to access it across the internet or a VPN if you have a tunnel set up. For additional information on required protocols and ports that must be opened, refer to the following article: Requirements – Protocols and Ports Required: /docs/auditor/10.8/requirements

@@ -43,8 +43,8 @@ This article outlines a step-by-step process for how to migrate a Netwrix Audito
 
 When moving Netwrix Auditor to a new server, ensure the version and build of the Netwrix Auditor instance on your new server matches the old server version and build. Your new server should meet the Software Requirements and Hardware Requirements for the appropriate version:
 
-- Software Requirements · v10.7: /docs/auditor/10.8/auditor/requirements
-- Hardware Requirements · v10.7: /docs/auditor/10.8/auditor/requirements
+- Software Requirements · v10.7: /docs/auditor/10.8/requirements
+- Hardware Requirements · v10.7: /docs/auditor/10.8/requirements
 
 ### Exporting the Netwrix Auditor configuration file
 
@@ -110,7 +110,7 @@ Start-Service -Displayname Netwrix*
    2. Click **Properties** for the instance name.
    3. In Netwrix Auditor **Settings** menu, select **Audit Databse** in the left pane and click **Modify** under **Audit database settings**.
    4. Specify the SQL Server instance name and credentials of the account used to write data to SQL databases. Refer to the following articles for additional information on SQL permissions and report server database deployment:
-      - Requirements for SQL Server to Store Audit Data – Configure Audit Database Account · v10.7: /docs/auditor/10.8/auditor/requirements
+      - Requirements for SQL Server to Store Audit Data – Configure Audit Database Account · v10.7: /docs/auditor/10.8/requirements
       - Deploying the Report Server Database: /docs/kb/auditor/deploying_the_report_server_database
 
 ### Important Notes Post-Migration
@@ -131,18 +131,18 @@ Run the following checks for your migrated Netwrix Auditor instance:
 - Confirm your monitoring plans have carried over.
 - Apply the Auditor license. Refer to the following article for additional information: How to Apply Netwrix Auditor License: /docs/kb/auditor/how_to_apply_netwrix_auditor_license
 
-> **IMPORTANT:** The SSL certificate previously used for Integration API will be missing from the certificate store in your new Netwrix Auditor server. Generate a new SSL certificate for Netwrix Auditor Integration API − refer to the following article for additional information: Integration API − Security ⸱ v10.7: /docs/auditor/10.8/auditor/api
+> **IMPORTANT:** The SSL certificate previously used for Integration API will be missing from the certificate store in your new Netwrix Auditor server. Generate a new SSL certificate for Netwrix Auditor Integration API − refer to the following article for additional information: Integration API − Security ⸱ v10.7: /docs/auditor/10.8/api
 
 Monitor the system over the next few days to confirm the migration has been completed successfully. As long as the system is operable and you can view migrated data, you can delete all traces of Netwrix Auditor from your former server, including the software uninstallation.
 
 ## Related Articles
 
-- Software Requirements · v10.7: /docs/auditor/10.8/auditor/requirements
-- Hardware Requirements · v10.7: /docs/auditor/10.8/auditor/requirements
+- Software Requirements · v10.7: /docs/auditor/10.8/requirements
+- Hardware Requirements · v10.7: /docs/auditor/10.8/requirements
 - How to Move Long-Term Archive to a New Location: /docs/kb/auditor/how_to_move_long-term_archive_to_a_new_location
 - Migrating Netwrix Databases: /docs/kb/auditor/how_to_migrate_netwrix_auditor_databases_to_another_sql_server_instance
 - Deploying the Report Server Database: /docs/kb/auditor/deploying_the_report_server_database
-- Requirements for SQL Server to Store Audit Data – Configure Audit Database Account · v10.7: /docs/auditor/10.8/auditor/requirements
-- Integration API − Security ⸱ v10.7: /docs/auditor/10.8/auditor/api
+- Requirements for SQL Server to Store Audit Data – Configure Audit Database Account · v10.7: /docs/auditor/10.8/requirements
+- Integration API − Security ⸱ v10.7: /docs/auditor/10.8/api
 - Specified Logon Session Does Not Exist Error in Netwrix Auditor: /docs/kb/auditor/specified_logon_session_does_not_exist_error_in_netwrix_auditor
 - How to Apply Netwrix Auditor License: /docs/kb/auditor/how_to_apply_netwrix_auditor_license

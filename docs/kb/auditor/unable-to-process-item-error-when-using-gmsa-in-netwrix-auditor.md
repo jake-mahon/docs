@@ -37,7 +37,7 @@ Unable to process item: A logon request contained an invalid logon type value.
 
 On January 10th 2023 Microsoft has released a security update affecting the pre-10.5.11041 Netwrix Auditor versions ability to impersonate gMSA. Refer to the following article for additional information on the update: https://support.microsoft.com/en-us/topic/january-10-2023-kb5022291-os-build-20348-1487-38772acf-103f-463e-9d60-486174e806b2 (Update KB5022291).
 
-In Netwrix Auditor version 9.96 group managed service accounts can be used instead of regular service accounts in a limited number of cases. Refer to the following article for additional information: /docs/auditor/10.8/auditor/requirements (Requirements – Use Group Managed Service Account(gMSA) ⸱ v10.6). Permissions for gMSA are the same as for regular service accounts, refer to the following article for additional information: /docs/auditor/10.8/auditor/admin-guide/monitoringplans (Monitoring Plans – Data Collecting Account ⸱ v10.6).
+In Netwrix Auditor version 9.96 group managed service accounts can be used instead of regular service accounts in a limited number of cases. Refer to the following article for additional information: /docs/auditor/10.8/requirements (Requirements – Use Group Managed Service Account(gMSA) ⸱ v10.6). Permissions for gMSA are the same as for regular service accounts, refer to the following article for additional information: /docs/auditor/10.8/admin/monitoringplans (Monitoring Plans – Data Collecting Account ⸱ v10.6).
 
 ## Solution
 

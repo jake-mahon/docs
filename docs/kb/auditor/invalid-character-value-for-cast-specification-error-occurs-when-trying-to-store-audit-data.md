@@ -57,7 +57,7 @@ The source of the issue was resolved in newer versions, and since you are on 9.9
    2. Select a data source, check the desired monitoring plan, and set the dates.
    3. Click **Run**.
 
-   For additional information on how to import previously collected data, refer to the following article: Investigations (/docs/auditor/10.8/auditor/admin-guide/settings).
+   For additional information on how to import previously collected data, refer to the following article: Investigations (/docs/auditor/10.8/admin/settings).
 
 2. Resolution 2
 
