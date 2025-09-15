@@ -92,7 +92,7 @@ Follow the below-provided instructions to customize the portal:
 ## Reference:
 
 - Admin Center — Applications — Customize Properties Pages — v11.0  
-  /docs/directorymanager/11.1/groupid/admin-guidecenter/portal/design
+  /docs/directorymanager/11.1/admincenter/portal/design
 
 ## Related Articles:
 

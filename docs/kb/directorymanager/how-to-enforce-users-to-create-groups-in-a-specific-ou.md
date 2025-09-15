@@ -53,7 +53,7 @@ Now when members of the security role try to create groups, they will be created
 
 ## Reference:
 - Admin Center — Security Roles — New Object Policy for Security Roles — v11.0  
-  /docs/directorymanager/11.1/groupid/admin-guidecenter/securityrole/policy
+  /docs/directorymanager/11.1/admincenter/securityrole/policy
 
 ## Related Articles:
 - Walkthrough Search Policy - Define Scope and Filter Results  

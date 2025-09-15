@@ -53,4 +53,4 @@ It is up to you to decide how long you want to keep historical data. If you know
 
 Learn more about Investigations in the following article: /docs/auditor/10.8/admin/settings
 
-Review additional recommendations for preventing Long-Term Archive overflow in the following article: /docs/kb/auditor/how_to_prevent_long-term_archive_overflow
+Review additional recommendations for preventing Long-Term Archive overflow in the following article: /docs/kb/auditor/how-to-prevent-long-term-archive-overflow

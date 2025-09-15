@@ -43,7 +43,7 @@ This error indicates that the agent failed to be installed for one of the follow
 To troubleshoot the issue with agent installation, perform the following steps:
 
 1. Make sure that target computers are configured properly per the article:
-   - /docs/auditor/10.8/configuration/useractivity
+   - /docs/auditor/10.8/configuration/useractivity/overview
 
 2. Make sure the following ports are opened on the local machine and target machine firewall settings:
    - /docs/auditor/10.8/configuration/ports  

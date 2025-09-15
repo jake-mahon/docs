@@ -49,9 +49,9 @@ For additional information, refer to: Resource Audit Overview − Sensitive Cont
 ### Access Information Center − Resource Review
 
 1. Assign Resource Owners. Refer to: Resource Owners Overview · v11.6  
-   (/docs/accessanalyzer/11.6/access/informationcenter/resourceowners)
+   (/docs/accessinformationcenter/11.6/resourceowners)
 2. Create a Sensitive Data Resource review. Refer to: Resource Ownership with the Access Information Center − Perform a Sensitive Data Review · v11.6  
-   (/docs/accessanalyzer/11.6/access/informationcenter/resourcereviews/review)
+   (/docs/accessinformationcenter/11.6/resourcereviews/review)
 
 > **IMPORTANT:** Check the **Reviewers are able to see the sensitive data match if available** checkbox for the review to contain sensitive data matches.
 

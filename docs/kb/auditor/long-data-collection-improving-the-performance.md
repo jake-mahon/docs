@@ -48,7 +48,7 @@ In general, it is recommended to use different databases for different data sour
 
 ### Hardware limitations
 
-In case of recent changes to your environment that led to hindered performance, refer to the following article for reference on hardware requirements for your infrastructure: /docs/auditor/10.8/requirements
+In case of recent changes to your environment that led to hindered performance, refer to the following article for reference on hardware requirements for your infrastructure: /docs/auditor/10.8/requirements/overview.md
 
 ### Network traffic compression
 
@@ -89,15 +89,15 @@ In case you have an Event Log Manager plan set up, make sure it doesn't monitor 
 
 ### Omit lists
 
-You can limit the monitoring scope in your environment via omit lists — this allows to proactively decrease the DB loads as changes for omitted items are not recorded. For additional information on how to exclude users and objects via Netwrix Auditor UI, refer to the following article: /docs/kb/auditor/how_to_exclude_users_and_objects_from_monitoring_scope_in_netwrix_auditor_ui. For additional information on available omit lists, review the corresponding article applicable to your target system. For example, for Active Directory omit lists, refer to the following article: /docs/auditor/10.8/admin/monitoringplans/activedirectory
+You can limit the monitoring scope in your environment via omit lists — this allows to proactively decrease the DB loads as changes for omitted items are not recorded. For additional information on how to exclude users and objects via Netwrix Auditor UI, refer to the following article: /docs/kb/auditor/how-to-exclude-users-and-objects-from-monitoring-scope-in-netwrix-auditor-ui. For additional information on available omit lists, review the corresponding article applicable to your target system. For example, for Active Directory omit lists, refer to the following article: /docs/auditor/10.8/admin/monitoringplans/activedirectory
 
 ### Related articles
 
 - /docs/auditor/10.8/admin/monitoringplans
-- /docs/auditor/10.8/requirements
+- /docs/auditor/10.8/requirements/overview.md
 - /docs/auditor/10.8/admin/healthstatus
 - /docs/auditor/10.8/admin/settings
 - /docs/kb/auditor/antivirus-exclusions-for-netwrix-auditor
 - /docs/auditor/10.8/admin/monitoringplans
-- /docs/kb/auditor/how_to_exclude_users_and_objects_from_monitoring_scope_in_netwrix_auditor_ui
+- /docs/kb/auditor/how-to-exclude-users-and-objects-from-monitoring-scope-in-netwrix-auditor-ui
 - /docs/auditor/10.8/admin/monitoringplans/activedirectory

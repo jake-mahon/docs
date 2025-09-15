@@ -34,7 +34,7 @@ Refer to the entries below for possible causes and resolutions based on event de
 ### `Fatal error during installation`
 
 - Cause: The **Timeout expired** error is prompted after SharePoint Core Service installation has taken over 10 minutes.
-  **Resolution:** Refer to the following article for additional information: /docs/kb/auditor/timeout_expired_error_on_sharepoint_core_service_deployment (Timeout Expired Error on SharePoint Core Service Deployment).
+  **Resolution:** Refer to the following article for additional information: /docs/kb/auditor/timeout-expired-error-on-sharepoint-core-service-deployment (Timeout Expired Error on SharePoint Core Service Deployment).
 
 - Cause: An invalid SharePoint Central Administration URL was specified during monitoring plan creation.  
   **Resolution:**
@@ -110,11 +110,11 @@ Refer to the entries below for possible causes and resolutions based on event de
   **Resolution:**
   1. Retry installation:
      - To retry the automatic deployment, update the SharePoint monitoring plan.
-     - For additional information on manual installation of SharePoint Core Service, refer to the following article: /docs/auditor/10.8/installation (Installation − Install for SharePoint Core Service · v10.6).
+     - For additional information on manual installation of SharePoint Core Service, refer to the following article: /docs/auditor/10.8/install (Installation − Install for SharePoint Core Service · v10.6).
 
 ## Related articles
 
-- Timeout Expired Error on SharePoint Core Service Deployment — /docs/kb/auditor/timeout_expired_error_on_sharepoint_core_service_deployment  
+- Timeout Expired Error on SharePoint Core Service Deployment — /docs/kb/auditor/timeout-expired-error-on-sharepoint-core-service-deployment  
 - SharePoint − Permissions for SharePoint Auditing · v10.6 — /docs/auditor/10.8/configuration/sharepoint  
 - SharePoint − SharePoint Ports · v10.6 — /docs/auditor/10.8/configuration/sharepoint  
-- Installation − Install for SharePoint Core Service · v10.6 — /docs/auditor/10.8/installation
+- Installation − Install for SharePoint Core Service · v10.6 — /docs/auditor/10.8/install

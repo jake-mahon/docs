@@ -79,7 +79,7 @@ Netwrix Auditor should now be able to process and generate reports.
 ## Related articles
 
 - Requirements – SQL Server Reporting Services · v10.6  
-  /docs/auditor/10.8/requirements
+  /docs/auditor/10.8/requirements/overview.md
 
 - SQL Server State-In-Time Reports · v10.6  
   /docs/auditor/10.8/admin/reports/types/stateintime

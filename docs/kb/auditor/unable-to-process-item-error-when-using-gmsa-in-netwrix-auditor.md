@@ -41,4 +41,4 @@ In Netwrix Auditor version 9.96 group managed service accounts can be used inste
 
 ## Solution
 
-For the pre-10.5.11041 Netwrix Auditor version, make sure to update your Netwrix Auditor instance — refer to the following articles for additional information: /docs/kb/auditor/how_to_upgrade_netwrix_auditor (How to Upgrade Netwrix Auditor) and /docs/kb/auditor/upgrade_increments_for_netwrix_auditor (Upgrade Increments for Netwrix Auditor).
+For the pre-10.5.11041 Netwrix Auditor version, make sure to update your Netwrix Auditor instance — refer to the following articles for additional information: /docs/kb/auditor/how-to-upgrade-netwrix-auditor (How to Upgrade Netwrix Auditor) and /docs/kb/auditor/upgrade-increments-for-netwrix-auditor (Upgrade Increments for Netwrix Auditor).
