@@ -29,7 +29,7 @@ To resolve this issue, you must generate a new App Token in Threat Manager and u
 
 1. Generate a new **App Token** in Netwrix Threat Manager:
    1. In Threat Manager v2.8, go to **Administration** > **Configuration Menu** > **Integrations Interface** > **App Tokens** page.
-   2. Follow the steps in the [Generate an App Token](/docs/threatmanager/2.8/administration/configuration/integrations/apptoken) guide to create a new token.
+   2. Follow the steps in the [Generate an App Token](/docs/threatmanager/3.0/administration/configuration/integrations/apptoken) guide to create a new token.
    ![App Tokens page in Netwrix Threat Manager showing token details](https://helpcenter-be.netwrix.com/bundle/ThreatManager_2.8/page/Content/Resources/Images/ThreatManager/Admin/Configuration/Integrations/AppTokens/Details.png?_LANG=enus)
 
 2. Update the new **App Token** in the sending application servers:
@@ -54,7 +54,7 @@ To resolve this issue, you must generate a new App Token in Threat Manager and u
 
 ## Related Links
 
-- [Generate an App Token in Netwrix Threat Manager 2.8](/docs/threatmanager/2.8/administration/configuration/integrations/apptoken)
+- [Generate an App Token in Netwrix Threat Manager 3.0](/docs/threatmanager/3.0/administration/configuration/integrations/apptoken)
 - [Threat Manager Tab in Netwrix Activity Monitor 7.1](/docs/activitymonitor/7.1/admin/outputs/threatmanager)
 - [Syslog Output in Netwrix Activity Monitor 7.1](/docs/activitymonitor/7.1/admin/outputs/syslog)
 - [Event Sink Tab in Netwrix Threat Prevention 7.4](/docs/threatprevention/7.4/admin/configuration/threatmanagerconfiguration)

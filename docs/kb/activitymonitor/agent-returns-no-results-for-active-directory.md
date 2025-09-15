@@ -47,9 +47,9 @@ C:\Program Files\STEALTHBits\StealthINTERCEPT\SIWindowsAgent
 ```
 
 Refer to the following article for additional information on recommended exclusions for your antivirus and endpoint protection solutions: Installation — Antivirus Software Considerations · v7.3
-/docs/threat-prevention/7.3/stealthintercept/installation
+/docs/threatprevention/7.4/install
 
 ## Related Article
 
 - Installation — Antivirus Software Considerations · v7.3  
-  /docs/threat-prevention/7.3/stealthintercept/installation
+  /docs/threatprevention/7.4/install
