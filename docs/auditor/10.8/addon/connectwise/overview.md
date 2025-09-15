@@ -60,7 +60,7 @@ Solution architecture and key components are shown in the figure below:
        the alert into the service queue.
 
 For details on the alert response action, see the
-[Configure a Response Action for Alert](/docs/auditor/10.8/admin/alertsettings/responseaction.md.md) topic for
+[Configure a Response Action for Alert](/docs/auditor/10.8/admin/alertsettings/responseaction.md) topic for
 additional information.
 
 - **Netwrix Auditor ConnectWise Manage Integration Service (Netwrix.ITSM.IntegrationServiceCW.exe)**

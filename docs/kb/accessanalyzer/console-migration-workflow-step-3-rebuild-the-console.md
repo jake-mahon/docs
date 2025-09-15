@@ -22,11 +22,11 @@ knowledge_article_id: kA0Qk0000002Or3KAE
 
 # Console Migration Workflow: Step 3—Rebuild the Console
 
-> **NOTE:** Return to the main workflow page via this link: [Console Migration Workflow](/docs/kb/accessanalyzer/console-migration-workflow.md).
+> **NOTE:** Return to the main workflow page via this link: [Console Migration Workflow](/docs/accessanalyzer/console-migration-workflow.md).
 >
-> Return to the previous section via this link: [Console Migration Workflow: Step 2—Prepare the Database](/docs/kb/accessanalyzer/console-migration-workflow-step-2-prepare-the-database).
+> Return to the previous section via this link: [Console Migration Workflow: Step 2—Prepare the Database](/docs/accessanalyzer/console-migration-workflow-step-2-prepare-the-database).
 >
-> Proceed to the next section via this link: [Console Migration Workflow: Step 4—Validating the Migration](/docs/kb/accessanalyzer/console-migration-workflow-step-4-validate-the-migration)
+> Proceed to the next section via this link: [Console Migration Workflow: Step 4—Validating the Migration](/docs/accessanalyzer/console-migration-workflow-step-4-validate-the-migration)
 
 ## Overview
 
@@ -139,9 +139,9 @@ If using any of the below, please recreate the certificate for the new NAA Conso
 
 ## Related Links
 
-- Console Migration Workflow: /docs/kb/accessanalyzer/console-migration-workflow
-- Console Migration Workflow: Step 2—Prepare the Database: /docs/kb/accessanalyzer/console-migration-workflow-step-2-prepare-the-database
-- Console Migration Workflow: Step 4—Validating the Migration: /docs/kb/accessanalyzer/console-migration-workflow-step-4-validate-the-migration
+- Console Migration Workflow: /docs/accessanalyzer/console-migration-workflow
+- Console Migration Workflow: Step 2—Prepare the Database: /docs/accessanalyzer/console-migration-workflow-step-2-prepare-the-database
+- Console Migration Workflow: Step 4—Validating the Migration: /docs/accessanalyzer/console-migration-workflow-step-4-validate-the-migration
 - Netwrix Help Center | Netwrix Access Analyzer 12.0 System Requirements: /docs/accessanalyzer/12.0/requirements
 - Access Analyzer Initial Configuration: /docs/accessanalyzer/12.0/install/application
 - Netwrix Access Analyzer for SharePoint Online: /docs/accessanalyzer/12.0/configuration/sharepointonline
