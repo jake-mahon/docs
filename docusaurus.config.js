@@ -101,7 +101,9 @@ const config = {
       pluginName,
       {
         ...config,
-        sidebarPath: require.resolve(config.sidebarPath),
+        sidebarPath: config.sidebarPath && typeof config.sidebarPath === 'string'
+          ? require.resolve(config.sidebarPath)
+          : config.sidebarPath,
       },
     ]),
   ],
