@@ -78,16 +78,16 @@ These practices make use of workflows, access controls, and alerts to offer fool
 ## References:
 
 - Netwrix Directory Manager Online Help topic: Workflows  
-  /docs/directorymanager/11.0/groupid/admin-guidecenter/workflow
+  /docs/directorymanager/11.1/groupid/admin-guidecenter/workflow
 
 - Netwrix Directory Manager Online Help topic: Query Designer dialog box  
-  /docs/directorymanager/11.0/groupid/portal/group/querydesigner
+  /docs/directorymanager/11.1/groupid/portal/group/querydesigner
 
 - Netwrix Directory Manager Online Help topic: Group Membership Settings  
-  /docs/directorymanager/11.0/groupid/admin-guidecenter/identitystore/configurationure/directoryservice
+  /docs/directorymanager/11.1/groupid/admin-guidecenter/identitystore/configurationure/directoryservice
 
 - Netwrix Directory Manager Online Help topic: Customize Object Properties  
-  /docs/directorymanager/11.0/groupid/admin-guidecenter/mobileservice/design
+  /docs/directorymanager/11.1/groupid/admin-guidecenter/mobileservice/design
 
 ### Related Articles:
 

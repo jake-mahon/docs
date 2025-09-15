@@ -45,18 +45,18 @@ To resolve this issue, you must generate a new App Token in Threat Manager and u
 
    - **Netwrix Threat Prevention** (formerly StealthINTERCEPT) v7.4:
      1. Go to the **Administration** > **Netwrix Threat Manager Configuration Window** > **Event Sink** tab.
-     2. Enter the new **App Token** as described in the [Event Sink Tab](/docs/threatprevention/7.4/admin/configuration/threatmanagerconfiguration) documentation.
+     2. Enter the new **App Token** as described in the [Event Sink Tab](/docs/threatprevention/7.5/admin/configuration/threatmanagerconfiguration) documentation.
      <!-- Event Sink tab in Netwrix Threat Prevention Threat Manager Configuration window -->
 
 > **IMPORTANT:** Because Threat Manager receives data from the following applications, verify that each is functioning properly after updating the App Token:
 > - Netwrix Activity Monitor: For more information, see [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output).
-> - Netwrix Threat Prevention Server (SI): For more information, see [Agents](/docs/threatprevention/7.4/admin/agents/overview).
+> - Netwrix Threat Prevention Server (SI): For more information, see [Agents](/docs/threatprevention/7.5/admin/agents/overview).
 
 ## Related Links
 
 - [Generate an App Token in Netwrix Threat Manager 3.0](/docs/threatmanager/3.0/administration/configuration/integrations/apptoken)
 - [Threat Manager Tab in Netwrix Activity Monitor 7.1](/docs/activitymonitor/8.0/admin/outputs/threatmanager)
 - [Syslog Output in Netwrix Activity Monitor 7.1](/docs/activitymonitor/8.0/admin/outputs/syslog)
-- [Event Sink Tab in Netwrix Threat Prevention 7.4](/docs/threatprevention/7.4/admin/configuration/threatmanagerconfiguration)
+- [Event Sink Tab in Netwrix Threat Prevention 7.4](/docs/threatprevention/7.5/admin/configuration/threatmanagerconfiguration)
 - [Output for Monitored Hosts in Netwrix Activity Monitor 7.1](/docs/activitymonitor/8.0/admin/monitoredhosts/output)
-- [Agents in Netwrix Threat Prevention 7.4](/docs/threatprevention/7.4/admin/agents/overview)
+- [Agents in Netwrix Threat Prevention 7.4](/docs/threatprevention/7.5/admin/agents/overview)
