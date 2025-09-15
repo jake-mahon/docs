@@ -44,7 +44,7 @@ Refer to the following video for step-by-step instructions on upgrading to the l
 
 - Video: https://www.youtube.com/embed/M_IfPaf_7ig
 
-For the text version of the guide, refer to the following documentation article: /docs/auditor/10.7/auditor/installation
+For the text version of the guide, refer to the following documentation article: /docs/auditor/10.8/auditor/installation
 
 ### Netwrix Auditor v.9.95 and earlier
 
@@ -73,5 +73,5 @@ Upon completion, Netwrix Auditor will launch. To confirm integrity, run the foll
 
 ## Related articles
 
-- Upgrade to the Latest Version ⸱ 10.7 — /docs/auditor/10.7/auditor/installation
+- Upgrade to the Latest Version ⸱ 10.7 — /docs/auditor/10.8/auditor/installation
 - Upgrade Increments for Netwrix Auditor — /docs/kb/auditor/upgrade_increments_for_netwrix_auditor

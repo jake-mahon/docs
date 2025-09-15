@@ -75,14 +75,14 @@ Refer to the following steps to troubleshoot the Long-Term Archive-based causes:
    1. In the main Netwrix Auditor screen, select **Settings** > **Long-Term Archive**.
    2. Click **Modify** under the **Location and Retention Settings** section.
    3. Verify the account credentials. Click **OK** to save the changes.
-3. If using a custom account to connect to the Long-Term Account, assign the permissions to the account used. Refer to the following article for additional information on required permissions: /docs/auditor/10.6/auditor/requirements (File-Based Repository for Long-Term Archive — Assign Permissions on the Long-Term Archive Folder · v10.6).
+3. If using a custom account to connect to the Long-Term Account, assign the permissions to the account used. Refer to the following article for additional information on required permissions: /docs/auditor/10.8/auditor/requirements (File-Based Repository for Long-Term Archive — Assign Permissions on the Long-Term Archive Folder · v10.6).
 
 ### Other Causes
 
-Verify that the Audit Database account has the correct permissions—refer to the following article for additional information: /docs/auditor/10.6/auditor/requirements (Requirements for SQL Server to Store Audit Data — Configure Audit Database Account · v10.6).
+Verify that the Audit Database account has the correct permissions—refer to the following article for additional information: /docs/auditor/10.8/auditor/requirements (Requirements for SQL Server to Store Audit Data — Configure Audit Database Account · v10.6).
 
 ## Related Articles
 
 - /docs/kb/auditor/sql_server_express_database_size_reached_10gb (SQL Server Express Database Size Reached 10GB)
-- /docs/auditor/10.6/auditor/requirements (Requirements for SQL Server to Store Audit Data — Configure Audit Database Account · v10.6)
-- /docs/auditor/10.6/auditor/requirements (File-Based Repository for Long-Term Archive — Assign Permissions on the Long-Term Archive Folder · v10.6)
+- /docs/auditor/10.8/auditor/requirements (Requirements for SQL Server to Store Audit Data — Configure Audit Database Account · v10.6)
+- /docs/auditor/10.8/auditor/requirements (File-Based Repository for Long-Term Archive — Assign Permissions on the Long-Term Archive Folder · v10.6)

@@ -43,6 +43,6 @@ Select PSChildName, version
 
 - [Netwrix Activity Monitor](/docs/activitymonitor/)
 - Netwrix Access Analyzer
-- [.NET Dependencies for Netwrix Threat Prevention](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_threat_prevention)
-- [.NET Dependencies for Netwrix Recovery for Active Directory](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_recovery_for_active_directory)
-- [.NET Dependencies for Netwrix Threat Manager](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_threat_manager)
+- [.NET Dependencies for Netwrix Threat Prevention](/docs/kb/activitymonitor/net_dependencies_for_netwrix_threat_prevention)
+- [.NET Dependencies for Netwrix Recovery for Active Directory](/docs/kb/activitymonitor/net_dependencies_for_netwrix_recovery_for_active_directory)
+- [.NET Dependencies for Netwrix Threat Manager](/docs/kb/activitymonitor/net_dependencies_for_netwrix_threat_manager)

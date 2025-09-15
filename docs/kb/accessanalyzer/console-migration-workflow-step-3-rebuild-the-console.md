@@ -135,7 +135,7 @@ If using any of the below, please recreate the certificate for the new NAA Conso
 - Netwrix Access Analyzer for SharePoint Online: /docs/accessanalyzer/12.0/configuration/sharepointonline
 - Netwrix Access Analyzer for Exchange Online: /docs/accessanalyzer/12.0/configuration/exchangeonline
 - Secured Published Reports Site (HTTPS): /docs/accessanalyzer/12.0/enterpriseauditor/installation/application/reports
-- Secured AIC Site (HTTPS): /docs/accessanalyzer/12.0/access/informationcenter/installationation
+- Secured AIC Site (HTTPS): /docs/accessanalyzer/12.0/access/informationcenter/installation
 
 ## Related Links
 
@@ -147,4 +147,4 @@ If using any of the below, please recreate the certificate for the new NAA Conso
 - Netwrix Access Analyzer for SharePoint Online: /docs/accessanalyzer/12.0/configuration/sharepointonline
 - Netwrix Access Analyzer for Exchange Online: /docs/accessanalyzer/12.0/configuration/exchangeonline
 - Secured Published Reports Site (HTTPS): /docs/accessanalyzer/12.0/enterpriseauditor/installation/application/reports
-- Secured AIC Site (HTTPS): /docs/accessanalyzer/12.0/access/informationcenter/installationation
+- Secured AIC Site (HTTPS): /docs/accessanalyzer/12.0/access/informationcenter/installation

@@ -43,5 +43,5 @@ knowledge_article_id: kA04u0000000GtoCAE
 ## Related articles
 
 - Read about role types and how to apply a role in the DSAR Roles article: /docs/dataclassification/5.7/ndc/admin-guide/dsar
-- NDC Licensing ⸱ v5.6.2: /docs/dataclassification/5.6.2/ndc/configurationuration
-- NDC Licensing ⸱ v5.7: /docs/dataclassification/5.7/ndc/configurationuration
+- NDC Licensing ⸱ v5.6.2: /docs/dataclassification/5.7/ndc/configuration
+- NDC Licensing ⸱ v5.7: /docs/dataclassification/5.7/ndc/configuration

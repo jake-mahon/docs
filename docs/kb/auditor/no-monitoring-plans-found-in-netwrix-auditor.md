@@ -42,7 +42,7 @@ NO MONITORING PLANS FOUND
 
 ## Resolutions
 
-- Create a new monitoring plan for the data source. Refer to the following article for additional information: /docs/auditor/10.6/auditor/admin-guide/monitoringplans (Monitoring Plans – Create a New Plan).
+- Create a new monitoring plan for the data source. Refer to the following article for additional information: /docs/auditor/10.8/auditor/admin-guide/monitoringplans (Monitoring Plans – Create a New Plan).
 
 - Review the corresponding data source settings:
   - Review your Health Log for errors related to the monitoring plan containing the data source.
@@ -98,4 +98,4 @@ NO MONITORING PLANS FOUND
 
 ## Related articles
 
-- /docs/auditor/10.6/auditor/admin-guide/monitoringplans (Monitoring Plans – Create a New Plan)
+- /docs/auditor/10.8/auditor/admin-guide/monitoringplans (Monitoring Plans – Create a New Plan)
