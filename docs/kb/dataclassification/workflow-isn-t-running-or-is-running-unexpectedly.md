@@ -44,6 +44,6 @@ This article offers step-by-step guidance for resolving common workflow issues. 
 
 This typically means that the document has a classification that isn't expected to have or that the conditions in the workflow rule are not configured correctly.
 
-1. Check the workflow rule conditions. Pay attention to the parameters. Learn more about rule configuration and description of classification rules: /docs/data-classification/5.7/ndc/admin-guide/workflows/advancedwindow (Configure a Workflow using Advanced dialog ⸱ v5.7)
+1. Check the workflow rule conditions. Pay attention to the parameters. Learn more about rule configuration and description of classification rules: /docs/dataclassification/5.7/ndc/admin-guide/workflows/advancedwindow (Configure a Workflow using Advanced dialog ⸱ v5.7)
 
 2. Check the document's classifications. If there is a classification that is not intended, then reference the following documentation for troubleshooting steps: /docs/kb/data-classification/classification_troubleshooting (Document isn't classified as expected)
