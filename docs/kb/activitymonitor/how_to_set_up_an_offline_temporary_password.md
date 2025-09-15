@@ -10,7 +10,7 @@ tags: []
 title: "How to Set Up an Offline Temporary Password"
 knowledge_article_id: kA0Qk0000002BAvKAM
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # How to Set Up an Offline Temporary Password

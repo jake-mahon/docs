@@ -10,7 +10,7 @@ tags: []
 title: "How to Drop File System Data from Netwrix Access Analyzer"
 knowledge_article_id: kA0Qk0000001qvpKAA
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # How to Drop File System Data from Netwrix Access Analyzer

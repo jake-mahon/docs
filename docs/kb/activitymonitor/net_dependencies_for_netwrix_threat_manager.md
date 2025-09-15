@@ -6,7 +6,7 @@ keywords:
   - Netwrix Threat Manager
   - ASP.NET Core
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: .NET Dependencies for Threat Manager
 tags: []
 title: ".NET Dependencies for Netwrix Threat Manager"

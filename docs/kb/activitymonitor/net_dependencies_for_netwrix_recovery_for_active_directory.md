@@ -6,7 +6,7 @@ keywords:
   - Netwrix Recovery for Active Directory
   - ASP.NET Core
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: .NET Dependencies for Recovery
 tags: []
 title: ".NET Dependencies for Netwrix Recovery for Active Directory"

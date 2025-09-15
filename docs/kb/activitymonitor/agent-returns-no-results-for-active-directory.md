@@ -13,7 +13,7 @@ keywords:
   - Task Manager
   - SI.ActiveDirectoryMonitor
 products:
-  - activity-monitor
+  - activitymonitor
   - threat-prevention
 sidebar_label: Agent Returns No Results for Active Directory
 tags: []

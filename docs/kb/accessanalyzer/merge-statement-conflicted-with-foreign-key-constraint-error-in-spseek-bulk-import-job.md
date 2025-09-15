@@ -51,4 +51,4 @@ Drop the SharePoint tables and run the scan again. To drop the tables, run the *
 - SharePointAccess Data Collector − SPAA Drop Tables & Views Workflow ⸱ v11.6  
   /docs/auditor/10.8/enterpriseauditor/admin-guide/datacollector/spaa
 - Could Not Drop Object Referenced by Foreign Key Constraint  
-  /docs/kb/access-analyzer/could_not_drop_object_referenced_by_foreign_key_constraint
+  /docs/kb/accessanalyzer/could_not_drop_object_referenced_by_foreign_key_constraint

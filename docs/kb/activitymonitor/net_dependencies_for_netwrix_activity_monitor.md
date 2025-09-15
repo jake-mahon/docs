@@ -10,7 +10,7 @@ tags: []
 title: ".NET Dependencies for Netwrix Activity Monitor"
 knowledge_article_id: kA0Qk0000002LBdKAM
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # .NET Dependencies for Netwrix Activity Monitor

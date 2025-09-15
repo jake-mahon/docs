@@ -59,8 +59,8 @@ Start-Service -DisplayName "Netwrix Password Reset"
 
 ### Migrating Netwrix Password Reset using SQL Server database
 
-For additional information on migrating Netwrix Password Reset using SQL Server database, refer to the following article: /docs/passwordreset/3.3/password-reset/admin-guide (Moving to SQL Server — Configure Netwrix Password Reset to Connect to SQL Server ⸱ v3.3).
+For additional information on migrating Netwrix Password Reset using SQL Server database, refer to the following article: /docs/passwordreset/3.3/passwordreset/admin-guide (Moving to SQL Server — Configure Netwrix Password Reset to Connect to SQL Server ⸱ v3.3).
 
 ### Related articles
 
-- /docs/passwordreset/3.3/password-reset/admin-guide (Working with the Database — Moving to SQL Server ⸱ v3.3)
+- /docs/passwordreset/3.3/passwordreset/admin-guide (Working with the Database — Moving to SQL Server ⸱ v3.3)

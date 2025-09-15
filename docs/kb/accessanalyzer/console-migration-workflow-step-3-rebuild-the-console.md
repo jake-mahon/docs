@@ -139,9 +139,9 @@ If using any of the below, please recreate the certificate for the new NAA Conso
 
 ## Related Links
 
-- Console Migration Workflow: /docs/kb/access-analyzer/console_migration_workflow
-- Console Migration Workflow: Step 2—Prepare the Database: /docs/kb/access-analyzer/console_migration_workflow_step_2—prepare_the_database
-- Console Migration Workflow: Step 4—Validating the Migration: /docs/kb/access-analyzer/console_migration_workflow_step_4—validate_the_migration
+- Console Migration Workflow: /docs/kb/accessanalyzer/console_migration_workflow
+- Console Migration Workflow: Step 2—Prepare the Database: /docs/kb/accessanalyzer/console_migration_workflow_step_2—prepare_the_database
+- Console Migration Workflow: Step 4—Validating the Migration: /docs/kb/accessanalyzer/console_migration_workflow_step_4—validate_the_migration
 - Netwrix Help Center | Netwrix Access Analyzer 12.0 System Requirements: /docs/accessanalyzer/12.0/enterpriseauditor/requirements
 - Access Analyzer Initial Configuration: /docs/accessanalyzer/12.0/enterpriseauditor/installation/application
 - Netwrix Access Analyzer for SharePoint Online: /docs/accessanalyzer/12.0/configuration/sharepointonline

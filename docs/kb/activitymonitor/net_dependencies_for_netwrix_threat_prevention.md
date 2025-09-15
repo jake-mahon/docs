@@ -10,7 +10,7 @@ tags: []
 title: ".NET Dependencies for Netwrix Threat Prevention"
 knowledge_article_id: kA0Qk0000002DxFKAU
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # .NET Dependencies for Netwrix Threat Prevention

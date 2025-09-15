@@ -46,5 +46,5 @@ This article explains how to reduce the number of false positives by enabling an
 
 ## Related Links
 
-- /docs/endpoint-protector/5.9.3/endpointprotector/admin-guide/systemparameters — System Parameters Overview Documentation
-- /docs/endpoint-protector/5.9.3/endpointprotector/admin-guide — Content Detection Summary Documentation
+- /docs/endpointprotector/5.9.3/endpointprotector/admin-guide/systemparameters — System Parameters Overview Documentation
+- /docs/endpointprotector/5.9.3/endpointprotector/admin-guide — Content Detection Summary Documentation

@@ -6,7 +6,7 @@ keywords:
   - Netwrix Access Analyzer
   - system requirements
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: .NET Dependencies for Access Analyzer
 tags: []
 title: ".NET Dependencies for Netwrix Access Analyzer"

@@ -16,7 +16,7 @@ keywords:
   - Netwrix.WSA.CompressionService.Setup.msi
 products:
   - auditor
-  - activity-monitor
+  - activitymonitor
 visibility: public
 sidebar_label: 'Error: Feature You Are Trying to Use Is on Network'
 tags: []
