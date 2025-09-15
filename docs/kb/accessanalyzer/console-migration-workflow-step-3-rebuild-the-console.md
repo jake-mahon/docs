@@ -22,7 +22,7 @@ knowledge_article_id: kA0Qk0000002Or3KAE
 
 # Console Migration Workflow: Step 3—Rebuild the Console
 
-> **NOTE:** Return to the main workflow page via this link: [Console Migration Workflow](/docs/accessanalyzer/console-migration-workflow.md).
+> **NOTE:** Return to the main workflow page via this link: [Console Migration Workflow](/docs/kb/accessanalyzer/console-migration-workflow.md).
 >
 > Return to the previous section via this link: [Console Migration Workflow: Step 2—Prepare the Database](/docs/accessanalyzer/console-migration-workflow-step-2-prepare-the-database).
 >
