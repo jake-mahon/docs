@@ -32,17 +32,16 @@ const config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   // Performance optimizations with Docusaurus Faster
-  // Temporarily disabled memory-intensive optimizations for build stability
   future: {
     experimental_faster: {
-      swcJsLoader: false, // Disabled to reduce memory usage
-      swcJsMinimizer: false, // Disabled to reduce memory usage
-      swcHtmlMinimizer: false, // Disabled to reduce memory usage
-      lightningCssMinimizer: false, // Disabled to reduce memory usage
-      rspackBundler: false, // Disabled to reduce memory usage
-      rspackPersistentCache: false, // Disabled to reduce memory usage
-      mdxCrossCompilerCache: true, // Keep this for speed
-      ssgWorkerThreads: false, // Disabled to reduce memory usage
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      rspackBundler: true,
+      rspackPersistentCache: true, // 2-5x faster rebuilds
+      mdxCrossCompilerCache: true,
+      ssgWorkerThreads: true, // 2x faster static generation
     },
     v4: {
       removeLegacyPostBuildHeadAttribute: true, // Required for worker threads
